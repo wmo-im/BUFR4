@@ -15,7 +15,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001024,Wind speed source,4,NWP: UK Met Office,,,,Operational
 001024,Wind speed source,5,NWP: NCEP,,,,Operational
 001024,Wind speed source,6,Reference climatology,,,,Operational
-001024,Wind speed source,7,ERS_Scatterometer,,,,Operational
+001024,Wind speed source,7,ERS_scatterometer,,,,Operational
 001024,Wind speed source,8-30,Reserved for future use,,,,Operational
 001024,Wind speed source,31,Missing value,,,,Operational
 001028,Aerosol optical depth (AOD) source,0,No AOD data available,,,,Operational
@@ -107,7 +107,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001044,Standard generating application,4,Common quality index (QI) without forecast,,,,Operational
 001044,Standard generating application,5,QI without forecast,,,,Operational
 001044,Standard generating application,6,QI with forecast,,,,Operational
-001044,Standard generating application,7,Estimated Error (EE) in m/s converted to a percent confidence,,,,Operational
+001044,Standard generating application,7,Estimated error in m/s converted to a percent confidence,,,,Operational
 001044,Standard generating application,8-254,Reserved,,,,Operational
 001044,Standard generating application,255,Missing value,,,,Operational
 001052,Platform transmitter ID,0,Primary,,,,Operational
@@ -343,7 +343,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001150,Coordinate reference system,1,"ETRS89, as defined by EPSG:4258",,,,Operational
 001150,Coordinate reference system,2,"NAD83, as defined by EPSG:4269",,,,Operational
 001150,Coordinate reference system,3,"DHDN, as defined by EPSG:4314",,,,Operational
-001150,Coordinate reference system,4,"Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS). International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)",,,(see Note 1),Operational
+001150,Coordinate reference system,4,"Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS) (see Note 2). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)",,,,Operational
 001150,Coordinate reference system,5-65534,Reserved,,,,Operational
 001150,Coordinate reference system,65535,Missing value,,,,Operational
 001151,Fixed mean sea-level reference datum,0,Earth Gravitational Model 1996,,,,Operational

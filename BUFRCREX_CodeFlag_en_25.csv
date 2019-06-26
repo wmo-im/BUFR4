@@ -66,7 +66,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025023,GHRSST confidence flag,3,Sun glint suspected,,,,Operational
 025023,GHRSST confidence flag,4,Sea ice retrieval for microwave data,,,,Operational
 025023,GHRSST confidence flag,5,High wind speed retrieval,,,,Operational
-025023,GHRSST confidence flag,6,Inaccurate SST due to low SST (< 285K) (Only applies to the TMI instrument),,,,Operational
+025023,GHRSST confidence flag,6,Inaccurate SST due to low SST (< 285K) (only applies to the TMI instrument),,,,Operational
 025023,GHRSST confidence flag,7,Relaxed rain contamination suspected,,,,Operational
 025023,GHRSST confidence flag,8,Potential side lobe contamination,,,,Operational
 025023,GHRSST confidence flag,All 9,Missing value,,,,Operational
@@ -277,13 +277,13 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025150,Method of tropical cyclone intensity analysis using satellite data,3-14,Reserved,,,,Operational
 025150,Method of tropical cyclone intensity analysis using satellite data,15,Missing value,,,,Operational
 025174,SMOS information flag,1,Pixel is affected by RFI effects,,,,Operational
-025174,SMOS information flag,2,Pixel is located in the hexagonal Alias direction centred on Sun alias,,,,Operational
-025174,SMOS information flag,3,Pixel is close to the border delimiting the extended Alias free zone,,,,Operational
-025174,SMOS information flag,4,Pixel is inside the extended Alias free zone,,,,Operational
-025174,SMOS information flag,5,Pixel is inside the exclusive of Alias free zone,,,,Operational
-025174,SMOS information flag,6,Pixel is located in a zone where a Moon Alias was reconstructed,,,,Operational
+025174,SMOS information flag,2,Pixel is located in the hexagonal alias direction centred on Sun alias,,,,Operational
+025174,SMOS information flag,3,Pixel is close to the border delimiting the extended alias free zone,,,,Operational
+025174,SMOS information flag,4,Pixel is inside the extended alias free zone,,,,Operational
+025174,SMOS information flag,5,Pixel is inside the exclusive of alias free zone,,,,Operational
+025174,SMOS information flag,6,Pixel is located in a zone where a moon alias was reconstructed,,,,Operational
 025174,SMOS information flag,7,Pixel is located in a zone where Sun reflection has been detected,,,,Operational
-025174,SMOS information flag,8,Pixel is located in a zone where Sun Alias was reconstructed,,,,Operational
+025174,SMOS information flag,8,Pixel is located in a zone where Sun alias was reconstructed,,,,Operational
 025174,SMOS information flag,9,Flat target transformation has been performed during image reconstruction of this pixel,,,,Operational
 025174,SMOS information flag,10,Scene has been combined with an adjustment scene in opposite polarization during image reconstruction to account for cross-polarization leakage,,,,Operational
 025174,SMOS information flag,11,Direct Moon correction has been performed during image reconstruction of this pixel,,,,Operational
@@ -313,12 +313,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025188,Method for reducing pressure to sea level,4,Pressure not corrected for height,,,,Operational
 025188,Method for reducing pressure to sea level,5-14,Reserved,,,,Operational
 025188,Method for reducing pressure to sea level,15,Missing value,,,,Operational
-025190,Altimeter echo processing mode,0,Low Resolution Mode (LRM),,,,Operational
-025190,Altimeter echo processing mode,1,Synthetic Aperture Radar (SAR),,,,Operational
+025190,Altimeter echo processing mode,0,Low resolution mode (LRM),,,,Operational
+025190,Altimeter echo processing mode,1,Synthetic aperture radar (SAR),,,,Operational
 025190,Altimeter echo processing mode,2,LRM and SAR (interleaved),,,,Operational
 025190,Altimeter echo processing mode,3,Reserved,,,,Operational
 025190,Altimeter echo processing mode,4,Pseudo-LRM (PLRM),,,,Operational
-025190,Altimeter echo processing mode,5,SAR Interferometric Mode (SARIN),,,,Operational
+025190,Altimeter echo processing mode,5,SAR interferometric mode (SARIN),,,,Operational
 025190,Altimeter echo processing mode,6-254,Reserved ,,,,Operational
 025190,Altimeter echo processing mode,255,Missing value,,,,Operational
 025191,Altimeter tracking mode,0,Open  loop ,,,,Operational

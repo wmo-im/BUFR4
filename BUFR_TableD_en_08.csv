@@ -174,7 +174,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),022186,Direction from which waves are coming,1d1d1 - Section 5,(see Note 7),Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),022187,Directional spread of wave,dsds - Section 5,(see Note 7),Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),105000,Delayed replication of 5 descriptors,,(see Note 8),Operational
-08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),031001,Delayed descriptor replication factor,n - Section 5 (Number of directions counted); = 0 if Ib = 0 (non-directional),,Operational
+08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),031001,Delayed descriptor replication factor,n - Section 5 (number of directions counted); = 0 if Ib = 0 (non-directional),,Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),008090,Decimal scale of following significands,x - Scale to be applied to following element descriptors,,Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),022106,Scaled directional spectral wave density by frequency,1A1A1A1x ... - Section 5,,Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),008090,Decimal scale of following significands,Set to missing,,Operational
@@ -253,6 +253,16 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 08,Surface report sequences (sea),308017,(Sequence for reporting observations from offshore platforms),,101000,Delayed replication of 1 descriptor,,,Operational
 08,Surface report sequences (sea),308017,(Sequence for reporting observations from offshore platforms),,031000,Short delayed descriptor replication factor,,,Operational
 08,Surface report sequences (sea),308017,(Sequence for reporting observations from offshore platforms),,306039,Sequence for representation of basic wave measurements,Optional,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,301150,WIGOS identifier,,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,301093,"Ship identification, movement, date/time, horizontal and vertical coordinates",,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,302001,Pressure and 3-hour pressure change,,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,302072,Temperature and humidity data,,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,101000,Delayed replication of 1 descriptor,,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,031000,Short delayed descriptor replication factor,,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,302056,Sea/water temperature,,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,101000,Delayed replication of 1 descriptor,,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,031000,Short delayed descriptor replication factor,,,Operational
+08,Surface report sequences (sea),308018,(Sequence for reporting of basic ship AWS observations),,302064,Ship or other marine platform wind data,,,Operational
 08,Surface report sequences (sea),308021,(Monthly values from an ocean weather station in compliance with regional or national reporting practices),"Station identification, date/time, horizontal and vertical coordinates",001011,Ship or mobile land station identifier,Ship’s call sign,,Operational
 08,Surface report sequences (sea),308021,(Monthly values from an ocean weather station in compliance with regional or national reporting practices),"Station identification, date/time, horizontal and vertical coordinates",002001,Type of station,,,Operational
 08,Surface report sequences (sea),308021,(Monthly values from an ocean weather station in compliance with regional or national reporting practices),"Station identification, date/time, horizontal and vertical coordinates",301011,"Year, month, day",,,Operational

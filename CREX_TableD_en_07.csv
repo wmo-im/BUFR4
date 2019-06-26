@@ -210,14 +210,14 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,R01000,Delayed replication of 1 descriptor,= 0 to 3 normally,,Operational
 07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07048,"Trend type forecast, replacing D 07 018",,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B01063,ICAO location indicator,CCCC,,Operational
-07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (Aviation forecast),= 0 Issue time of forecast,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (aviation forecast),= 0 Issue time of forecast,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01011,"Year, month, day",YY,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01012,"Hour, minute",GGgg,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08079,Product status,COR CNL AMD NIL,,Operational
-07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (Aviation forecast),= 1 Time of commencement of period of the forecast,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (aviation forecast),= 1 Time of commencement of period of the forecast,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01011,"Year, month, day",Y1Y1,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01012,"Hour, minute",G1G1,,Operational
-07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (Aviation forecast),= 2 Time of ending of period of the forecast,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (aviation forecast),= 2 Time of ending of period of the forecast,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01011,"Year, month, day",Y2Y2,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01012,"Hour, minute",G2G2,,Operational
 07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01023,Latitude/longitude (coarse accuracy),,,Operational
@@ -240,12 +240,12 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,D07014,Significant present and forecast weather,w´w´,,Operational
 07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,D07047,"METAR/SPECI/TAF clouds, replacing 3 07 015",NsNsNshshshs,,Operational
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B07032,Height of sensor above local ground (or deck of marine platform),= 2 m (if the actual value is not available),,Operational
-07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08039,Time significance (Aviation forecast),= 3 Forecast time of maximum temperature,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08039,Time significance (aviation forecast),= 3 Forecast time of maximum temperature,,Operational
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B04003,Day,,,Operational
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B04004,Hour,GFGF,,Operational
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08023,First-order statistics,= 3 Minimum,,Operational
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B12023,Temperature,TFTF - Celsius,,Operational
-07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08039,Time significance (Aviation forecast),= 4 Forecast time of minimum temperature,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08039,Time significance (aviation forecast),= 4 Forecast time of minimum temperature,,Operational
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B04003,Day,,,Operational
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B04004,Hour,GFGF,,Operational
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08023,First-order statistics,= 2 Maximum,,Operational
@@ -254,10 +254,10 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
 07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B33045,Probability of following event,C2C2,,Operational
 07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B08016,Change qualifier of a trend-type forecast or an aerodrome forecast,TTTTTT,,Operational
-07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B08039,Time significance (Aviation forecast),= 5 Time of beginning of the forecast change,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B08039,Time significance (aviation forecast),= 5 Time of beginning of the forecast change,,Operational
 07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B04003,Day,,,Operational
 07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,D01012,"Hour, minute",GGgg,,Operational
-07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B08039,Time significance (Aviation forecast),= 6 Time of ending of the forecast change,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B08039,Time significance (aviation forecast),= 6 Time of ending of the forecast change,,Operational
 07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B04003,Day,,,Operational
 07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,D01012,"Hour, minute",GeGe,,Operational
 07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,D07053,Forecast weather at an aerodrome,During or after change,,Operational

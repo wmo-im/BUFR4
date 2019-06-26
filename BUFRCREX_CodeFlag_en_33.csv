@@ -359,7 +359,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033072,Ozone error,16,Radiance or irradiance less or equal to zero,,,,Operational
 033072,Ozone error,17-30,Reserved,,,,Operational
 033072,Ozone error,31,Missing value,,,,Operational
-033075,Scan-level quality flags,1,"Gap in Raw Data Record (RDR) data detected (i.e., missing scan(s) preceding the current scan)",,,,Operational
+033075,Scan-level quality flags,1,"Gap in raw data record (RDR) data detected (i.e., missing scan(s) preceding the current scan)",,,,Operational
 033075,Scan-level quality flags,2,"Recorded time is not in sequence (i.e., the scan start time is out of sequence)",,,,Operational
 033075,Scan-level quality flags,3,Lambda monitored calculation cannot be updated,,,(see Note 1),Operational
 033075,Scan-level quality flags,4,"The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges",,,(see Note 2),Operational
@@ -429,7 +429,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033081,Channel data quality flags,11,Blackbody view inconsistency,,,,Operational
 033081,Channel data quality flags,All 12,Missing value,,,,Operational
 033082,Geolocation quality flags,1-5,Reserved,,,,Operational
-033082,Geolocation quality flags,6,Within south Atlantic anomaly,,,,Operational
+033082,Geolocation quality flags,6,Within South Atlantic anomaly,,,,Operational
 033082,Geolocation quality flags,7,Invalid input data (indicates that any of the spacecraft ephemeris or attitude data are invalid),,,,Operational
 033082,Geolocation quality flags,8,"Bad pointing (indicates that the sensor LOS does not intersect the geoid, is near the limb, has invalid sensor angles or other similar condition)",,,,Operational
 033082,Geolocation quality flags,9,Bad terrain (indicates that the algorithm could not obtain a valid terrain value),,,,Operational
@@ -512,6 +512,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033088,Ozone total column quality flag,17,Input data quality is not good,,,,Operational
 033088,Ozone total column quality flag,All 18,Missing value,,,,Operational
 033092,Band specific ocean quality flag,1,Altimeter operating,,,,Operational
-033092,Band specific ocean quality flag,2,MicroWave Radiometer (MWR) operating,,,,Operational
+033092,Band specific ocean quality flag,2,Microwave radiometer (MWR) operating,,,,Operational
 033092,Band specific ocean quality flag,3-8,Reserved,,,,Operational
 033092,Band specific ocean quality flag,All 9,Missing value,,,,Operational

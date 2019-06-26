@@ -262,14 +262,14 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307051,"(Full METAR/SPECI), replacing 3 07 021",,031001,Delayed descriptor replication factor,= 0 to 3 normally,,Operational
 07,Surface report sequences (land),307051,"(Full METAR/SPECI), replacing 3 07 021",,307048,"Trend type forecast, replacing 3 07 018",,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,001063,ICAO location indicator,CCCC,,Operational
-07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,008039,Time significance (Aviation forecast),= 0 Issue time of forecast,,Operational
+07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,008039,Time significance (aviation forecast),= 0 Issue time of forecast,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,301011,"Year, month, day",YY,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,301012,"Hour, minute",GGgg,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,008079,Product status,COR CNL AMD NIL,,Operational
-07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,008039,Time significance (Aviation forecast),= 1 Time of commencement of period of the forecast,,Operational
+07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,008039,Time significance (aviation forecast),= 1 Time of commencement of period of the forecast,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,301011,"Year, month, day",Y1Y1,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,301012,"Hour, minute",G1G1,,Operational
-07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,008039,Time significance (Aviation forecast),= 2 Time of ending of period of the forecast,,Operational
+07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,008039,Time significance (aviation forecast),= 2 Time of ending of period of the forecast,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,301011,"Year, month, day",Y2Y2,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,301012,"Hour, minute",G2G2,,Operational
 07,Surface report sequences (land),307052,(Aerodrome forecast identification and time interval),,301023,Latitude/longitude (coarse accuracy),,,Operational
@@ -292,12 +292,12 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307053,(Forecast weather at an aerodrome),,307014,Significant present and forecast weather,w´w´,,Operational
 07,Surface report sequences (land),307053,(Forecast weather at an aerodrome),,307047,"METAR/SPECI/TAF clouds, replacing 3 07 015",NsNsNshshshs,,Operational
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,007032,Height of sensor above local ground (or deck of marine platform),= 2 m (if the actual value is not available),,Operational
-07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,008039,Time significance (Aviation forecast),= 3 Forecast time of maximum temperature,,Operational
+07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,008039,Time significance (aviation forecast),= 3 Forecast time of maximum temperature,,Operational
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,004003,Day,,,Operational
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,004004,Hour,GFGF,,Operational
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,008023,First-order statistics,= 3 Minimum,,Operational
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,012023,Temperature,TFTF - Celsius,,Operational
-07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,008039,Time significance (Aviation forecast),= 4 Forecast time of minimum temperature,,Operational
+07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,008039,Time significance (aviation forecast),= 4 Forecast time of minimum temperature,,Operational
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,004003,Day,,,Operational
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,004004,Hour,GFGF,,Operational
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,008023,First-order statistics,= 2 Maximum,,Operational
@@ -306,10 +306,10 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307054,(Forecast of extreme temperatures),,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
 07,Surface report sequences (land),307055,(Change indicator and forecast changes),,033045,Probability of following event,C2C2,,Operational
 07,Surface report sequences (land),307055,(Change indicator and forecast changes),,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,TTTTTT,,Operational
-07,Surface report sequences (land),307055,(Change indicator and forecast changes),,008039,Time significance (Aviation forecast),= 5 Time of beginning of the forecast change,,Operational
+07,Surface report sequences (land),307055,(Change indicator and forecast changes),,008039,Time significance (aviation forecast),= 5 Time of beginning of the forecast change,,Operational
 07,Surface report sequences (land),307055,(Change indicator and forecast changes),,004003,Day,,,Operational
 07,Surface report sequences (land),307055,(Change indicator and forecast changes),,301012,"Hour, minute",GGgg,,Operational
-07,Surface report sequences (land),307055,(Change indicator and forecast changes),,008039,Time significance (Aviation forecast),= 6 Time of ending of the forecast change,,Operational
+07,Surface report sequences (land),307055,(Change indicator and forecast changes),,008039,Time significance (aviation forecast),= 6 Time of ending of the forecast change,,Operational
 07,Surface report sequences (land),307055,(Change indicator and forecast changes),,004003,Day,,,Operational
 07,Surface report sequences (land),307055,(Change indicator and forecast changes),,301012,"Hour, minute",GeGe,,Operational
 07,Surface report sequences (land),307055,(Change indicator and forecast changes),,307053,Forecast weather at an aerodrome,During or after change,,Operational
@@ -863,7 +863,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,204000,Add associated field,Cancel,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,007061,Depth below land surface,Set to missing (cancel),,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,105000,Delayed replication of 5 descriptors,,,Operational
-07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,031000,Delayed descriptor replication factor,,,Operational
+07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,031000,Short delayed descriptor replication factor,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,033041,Attribute of following value,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,204018,Add associated field,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,031021,Associated field significance,,,Operational
@@ -924,14 +924,14 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,105000,Delayed replication of 5 descriptors,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,031000,Short delayed descriptor replication factor,,,Operational
-07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,004025,Time period or displacement,= -n minutes (Default n = 10),,Operational
+07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,004025,Time period or displacement,= -n minutes (default n = 10),,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,204018,Add associated field,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,031021,Associated field significance,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,014031,Total sunshine,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,204000,Add associated field,Cancel,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,110000,Delayed replication of 10 descriptors,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,031000,Short delayed descriptor replication factor,Open or close (1/0),,Operational
-07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,004025,Time period or displacement,= -n minutes (Default n = 10),,Operational
+07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,004025,Time period or displacement,= -n minutes (default n = 10),,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,204018,Add associated field,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,031021,Associated field significance,,,Operational
 07,Surface report sequences (land),307092,(BUFR template for surface observations from n-minute period),,014002,"Long-wave radiation, integrated over period specified","Upward long-wave radiation | according to BUFR Table B, under Class 14, Note 2: negative values",,Operational

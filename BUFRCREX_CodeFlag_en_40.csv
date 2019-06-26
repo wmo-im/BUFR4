@@ -130,12 +130,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040050,Retrieval initialisation,6,AMSU included,,,,Operational
 040050,Retrieval initialisation,7,IASI included,,,,Operational
 040050,Retrieval initialisation,All 8,Missing value,,,,Operational
-040051,Convergence of the iterative retrieval,0,OEM not attempted,,,,Operational
+040051,Convergence of the iterative retrieval,0,Optimal estimation methods (OEM) not attempted,,,,Operational
 040051,Convergence of the iterative retrieval,1,OEM aborted because first guess residuals too high,,,,Operational
-040051,Convergence of the iterative retrieval,2,"The minimisation did not converge, sounding rejected",,,,Operational
-040051,Convergence of the iterative retrieval,3,"The minimisation did not converge, sounding accepted",,,,Operational
-040051,Convergence of the iterative retrieval,4,The minimisation converged but sounding rejected,,,,Operational
-040051,Convergence of the iterative retrieval,5,"The minimisation converged, sounding accepted",,,,Operational
+040051,Convergence of the iterative retrieval,2,"The minimization did not converge, sounding rejected",,,,Operational
+040051,Convergence of the iterative retrieval,3,"The minimization did not converge, sounding accepted",,,,Operational
+040051,Convergence of the iterative retrieval,4,The minimization converged but sounding rejected,,,,Operational
+040051,Convergence of the iterative retrieval,5,"The minimization converged, sounding accepted",,,,Operational
 040051,Convergence of the iterative retrieval,6,Reserved,,,,Operational
 040051,Convergence of the iterative retrieval,7,Missing value,,,,Operational
 040052,Indication of super-adiabatic and super-saturation in final retrieval,1-3,Reserved,,,,Operational
@@ -160,7 +160,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040055,Diagnostics on the retrieval,1,Radiance filtering,,,,Operational
 040055,Diagnostics on the retrieval,2,Polar regions,,,,Operational
 040055,Diagnostics on the retrieval,3,Location in the night,,,,Operational
-040055,Diagnostics on the retrieval,4,Negative altitude Surface below m.s.l.,,,,Operational
+040055,Diagnostics on the retrieval,4,Negative altitude surface below mean sea level,,,,Operational
 040055,Diagnostics on the retrieval,5,Cloud covered scene,,,,Operational
 040055,Diagnostics on the retrieval,6,Scene above the sea,,,,Operational
 040055,Diagnostics on the retrieval,7,Scene above desert,,,,Operational
@@ -171,10 +171,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040055,Diagnostics on the retrieval,12,Negative partial columns,,,,Operational
 040055,Diagnostics on the retrieval,13,Matrix ill conditioned,,,,Operational
 040055,Diagnostics on the retrieval,14,Fit diverged,,,,Operational
-040055,Diagnostics on the retrieval,15,Error in gsl usage,,,,Operational
+040055,Diagnostics on the retrieval,15,Error in GNU scientific library (GSL) usage,,,,Operational
 040055,Diagnostics on the retrieval,16,Residuals “biased”,,,,Operational
 040055,Diagnostics on the retrieval,17,Residuals “sloped”,,,,Operational
-040055,Diagnostics on the retrieval,18,Residuals rms large,,,,Operational
+040055,Diagnostics on the retrieval,18,Residuals root mean square (RMS) error is large,,,,Operational
 040055,Diagnostics on the retrieval,19,Weird averaging kernels,,,,Operational
 040055,Diagnostics on the retrieval,20,Ice presence detected,,,,Operational
 040055,Diagnostics on the retrieval,All 21,Missing value,,,,Operational
@@ -210,7 +210,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040057,IASI level 2 retrieval flags,25,Error in GSL usage,,,,Operational
 040057,IASI level 2 retrieval flags,26,Residuals biased,,,,Operational
 040057,IASI level 2 retrieval flags,27,Residuals sloped,,,,Operational
-040057,IASI level 2 retrieval flags,28,Residuals RMS large,,,,Operational
+040057,IASI level 2 retrieval flags,28,Residuals RMS error is large,,,,Operational
 040057,IASI level 2 retrieval flags,29,Weird averaging kernels,,,,Operational
 040057,IASI level 2 retrieval flags,30,Ice presence detected,,,,Operational
 040057,IASI level 2 retrieval flags,All 31,Missing value,,,,Operational
