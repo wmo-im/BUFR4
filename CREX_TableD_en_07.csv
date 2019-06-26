@@ -1,0 +1,763 @@
+"﻿""Category""",CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
+07,Surface report sequences (land),D07001,(Low altitude station),,D01031,"Identification and type of station, date/time, location (high accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07001,(Low altitude station),,D02011,Low altitude station,Basic surface report,,Operational
+07,Surface report sequences (land),D07002,(Low altitude station),,D01032,"Identification and type of station, date/time, location (coarse accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07002,(Low altitude station),,D02011,Low altitude station,Basic surface report,,Operational
+07,Surface report sequences (land),D07003,(Low altitude station),,D07001,Low altitude station,Location (high accuracy) and basic report,,Operational
+07,Surface report sequences (land),D07003,(Low altitude station),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07003,(Low altitude station),,D02005,Cloud layer,,,Operational
+07,Surface report sequences (land),D07004,(Low altitude station),,D07002,Low altitude station,Location (coarse accuracy) and basic report,,Operational
+07,Surface report sequences (land),D07004,(Low altitude station),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07004,(Low altitude station),,D02005,Cloud layer,,,Operational
+07,Surface report sequences (land),D07005,(Low altitude station),,D07001,Low altitude station,Location (high accuracy) and basic report,,Operational
+07,Surface report sequences (land),D07005,(Low altitude station),,R01004,Replicate 1 descriptor 4 times,,,Operational
+07,Surface report sequences (land),D07005,(Low altitude station),,D02005,Cloud layer,4 layers,,Operational
+07,Surface report sequences (land),D07006,(Low altitude station),,D07002,Low altitude station,Location (coarse accuracy) and basic report,,Operational
+07,Surface report sequences (land),D07006,(Low altitude station),,R01004,Replicate 1 descriptor 4 times,,,Operational
+07,Surface report sequences (land),D07006,(Low altitude station),,D02005,Cloud layer,4 layers,,Operational
+07,Surface report sequences (land),D07007,(High altitude station),,D01031,"Identification and type of station, date/time, location (high accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07007,(High altitude station),,D02012,High altitude station,Basic surface report,,Operational
+07,Surface report sequences (land),D07008,(High altitude station),,D01032,"Identification and type of station, date/time, location (coarse accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07008,(High altitude station),,D02012,High altitude station,Basic surface report,,Operational
+07,Surface report sequences (land),D07009,,,D01031,"Identification and type of station, date/time, location (high accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07009,,,D02013,Basic surface report,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B01063,ICAO location indicator,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B02001,Type of station,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,D01011,"Year, month, day",YY,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,D01012,"Hour, minute","GG, gg",,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,D01024,"Latitude/longitude (coarse accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B07006,Height above station,Height of an anemometer,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B11001,Wind direction,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B11016,Extreme counterclockwise wind direction of a variable wind,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B11017,Extreme clockwise wind direction of a variable wind,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B11002,Wind speed,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B11041,Maximum wind gust speed,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B07006,Height above station,Height of a thermometer,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B12001,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B12003,Dewpoint temperature,,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B10052,Altimeter setting (QNH),,,Operational
+07,Surface report sequences (land),D07011,(Main part of data for representation of METAR/SPECI code in BUFR),,B20009,General weather indicator (TAF/METAR),,,Operational
+07,Surface report sequences (land),D07012,(Horizontal visibility),,R03000,Delayed replication of 3 descriptors,Up to 3,,Operational
+07,Surface report sequences (land),D07012,(Horizontal visibility),,B08023,First-order statistics,,,Operational
+07,Surface report sequences (land),D07012,(Horizontal visibility),,B05021,Bearing or azimuth,Direction of visibility observed,,Operational
+07,Surface report sequences (land),D07012,(Horizontal visibility),,B20001,Horizontal visibility,VVVV,,Operational
+07,Surface report sequences (land),D07013,(Runway visual range),,R06000,Delayed replication of 6 descriptors,Up to 4,,Operational
+07,Surface report sequences (land),D07013,(Runway visual range),,B01064,Runway designator,DRDR,,Operational
+07,Surface report sequences (land),D07013,(Runway visual range),,B08014,Qualifier for runway visual range,,,Operational
+07,Surface report sequences (land),D07013,(Runway visual range),,B20061,Runway visual range (RVR),VRVRVRVR,,Operational
+07,Surface report sequences (land),D07013,(Runway visual range),,B08014,Qualifier for runway visual range,,,Operational
+07,Surface report sequences (land),D07013,(Runway visual range),,B20061,Runway visual range (RVR),VRVRVRVR,,Operational
+07,Surface report sequences (land),D07013,(Runway visual range),,B20018,Tendency of runway visual range,i,,Operational
+07,Surface report sequences (land),D07014,(Significant present or forecast weather),,R01000,Delayed replication of 1 descriptor,Up to 3,,Operational
+07,Surface report sequences (land),D07014,(Significant present or forecast weather),,B20019,Significant present or forecast weather,w´w´,,Operational
+07,Surface report sequences (land),D07015,(Clouds group(s)),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07015,(Clouds group(s)),,D02005,Cloud layer,"NsNsNs, CC, hshshs",,Operational
+07,Surface report sequences (land),D07015,(Clouds group(s)),,B20002,Vertical visibility,VVhshshs,,Operational
+07,Surface report sequences (land),D07016,(Significant recent weather phenomena),,R01000,Delayed replication of 1 descriptor,Up to 3,,Operational
+07,Surface report sequences (land),D07016,(Significant recent weather phenomena),,B20020,Significant recent weather phenomena,REw´w´,,Operational
+07,Surface report sequences (land),D07017,(Wind shear on runway(s)),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07017,(Wind shear on runway(s)),,B11070,Designator of the runway affected by wind shear (including ALL),WS RWYDRDR,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,B08016,Change qualifier of a trend-type forecast or an aerodrome forecast,TTTTT,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,R02000,Delayed replication of 2 descriptors,Up to 2,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,B08017,Qualifier of the time when the forecast change is expected,"FM, TL, AT",,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,D01012,"Hour, minute","GG, gg",,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,R04000,Delayed replication of 4 descriptors,Up to 1,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,B07006,Height above station,,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,B11001,Wind direction,ddd,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,B11002,Wind speed,ff,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,B11041,Maximum wind gust speed,fmfm,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,B20009,General weather indicator (TAF/METAR),,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,R01000,Delayed replication of 1 descriptor,Up to 1,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,B20001,Horizontal visibility,VVVV,,Operational
+07,Surface report sequences (land),D07018,(Trend-type landing forecast),,D07014,Significant present or forecast weather,w´w´,,Operational
+07,Surface report sequences (land),D07020,(Short METAR/SPECI),,D07011,Main part of data for representation of METAR/SPECI code in BUFR,,,Operational
+07,Surface report sequences (land),D07020,(Short METAR/SPECI),,D07014,Significant present or forecast weather,w´w´,,Operational
+07,Surface report sequences (land),D07020,(Short METAR/SPECI),,D07016,Significant recent weather phenomena,REw´w´,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07011,Main part of data for representation of METAR/SPECI code in BUFR,,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07012,Horizontal visibility,DvVVVV,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07013,Runway visual range,DRDR/VRVRVRVR,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07014,Significant present or forecast weather,w´w´,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07015,Clouds group(s),,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07016,Significant recent weather phenomena,REw´w´,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07017,Wind shear on runway(s),,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07018,Trend-type landing forecast,,,Operational
+07,Surface report sequences (land),D07021,(Total sequence for representation of METAR/SPECI code in BUFR),,D07015,Clouds group(s),,,Operational
+07,Surface report sequences (land),D07030,(Ozone data - single observation),,B15001,Total ozone,,,Operational
+07,Surface report sequences (land),D07030,(Ozone data - single observation),,B15002,Air mass (slant path at 22 km),,,Operational
+07,Surface report sequences (land),D07031,(Ozone data - averaged observations),,B08022,Total number (with respect to accumulation or average),Number of measurements,,Operational
+07,Surface report sequences (land),D07031,(Ozone data - averaged observations),,B08023,First-order statistics,= 4 Mean value,,Operational
+07,Surface report sequences (land),D07031,(Ozone data - averaged observations),,B15001,Total ozone,Average value of ozone measurement,,Operational
+07,Surface report sequences (land),D07031,(Ozone data - averaged observations),,B08023,First-order statistics,= 9 Best estimate of standard deviation,,Operational
+07,Surface report sequences (land),D07031,(Ozone data - averaged observations),,B15001,Total ozone,Best estimate of standard deviation of the ozone measurement,,Operational
+07,Surface report sequences (land),D07031,(Ozone data - averaged observations),,B08023,First-order statistics,= 11 Harmonic mean,,Operational
+07,Surface report sequences (land),D07031,(Ozone data - averaged observations),,B15002,Air mass (slant path at 22 km),Harmonic mean value of the air-mass,,Operational
+07,Surface report sequences (land),D07041,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation),,D01001,WMO block and station numbers,,,Operational
+07,Surface report sequences (land),D07041,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation),,B01015,Station or site name,,,Operational
+07,Surface report sequences (land),D07041,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation),,D01024,"Latitude/longitude (coarse accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07041,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation),,D01011,"Year, month, day",Ozone measurement,,Operational
+07,Surface report sequences (land),D07041,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation),,D01012,"Hour, minute",Ozone measurement,,Operational
+07,Surface report sequences (land),D07041,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation),,D01070,Ozone instrumentation - Brewer spectrophotometer,,,Operational
+07,Surface report sequences (land),D07041,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation),,D07030,Ozone data - single observation,,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,D01001,WMO block and station numbers,,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,B01015,Station or site name,,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,D01024,"Latitude/longitude (coarse accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,D01011,"Year, month, day",Ozone measurement,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,D01012,"Hour, minute",Ozone measurement,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,B08021,Time significance,= 8 Ensemble mean,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,B04025,Time period or displacement,Time period (minutes) for the computation of the average,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,D01070,Ozone instrumentation - Brewer spectrophotometer,,,Operational
+07,Surface report sequences (land),D07042,(Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations),,D07031,Ozone data - averaged observations,,,Operational
+07,Surface report sequences (land),D07043,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation),,D01001,WMO block and station numbers,,,Operational
+07,Surface report sequences (land),D07043,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation),,B01015,Station or site name,,,Operational
+07,Surface report sequences (land),D07043,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation),,D01024,"Latitude/longitude (coarse accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07043,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation),,D01011,"Year, month, day",Ozone measurement,,Operational
+07,Surface report sequences (land),D07043,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation),,D01012,"Hour, minute",Ozone measurement,,Operational
+07,Surface report sequences (land),D07043,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation),,D01074,Ozone instrumentation - Dobson spectrophotometer,,,Operational
+07,Surface report sequences (land),D07043,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation),,D07030,Ozone data - single observation,,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,D01001,WMO block and station numbers,,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,B01015,Station or site name,,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,D01024,"Latitude/longitude (coarse accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,D01011,"Year, month, day",Ozone measurement,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,D01012,"Hour, minute",Ozone measurement,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,B08021,Time significance,= 8 Ensemble mean,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,B04025,Time period or displacement,Time period (minutes) for the computation of the average,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,D01074,Ozone instrumentation - Dobson spectrophotometer,,,Operational
+07,Surface report sequences (land),D07044,(Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations),,D07031,Ozone data - averaged observations,,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B01063,ICAO location indicator,CCCC,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B08079,Product status,METAR SPECI COR,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B02001,Type of station,AUTO,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,D01011,"Year, month, day",YY,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,D01012,"Hour, minute",GGgg,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,D01023,Latitude/longitude (coarse accuracy),,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B07030,Height of station ground above mean sea level,,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B07031,Height of barometer above mean sea level,,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B07032,Height of sensor above local ground (or deck of marine platform),= 10 m (if the actual value is not available),,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11001,Wind direction,ddd,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11016,Extreme counterclockwise wind direction of a variable wind,dndndn,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11017,Extreme clockwise wind direction of a variable wind,dxdxdx,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B08054,Qualifier for wind speed or wind gusts,P,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11083,Wind speed,ff - km/h,(see Note 1),Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11084,Wind speed,ff - kt,(see Note 1),Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11002,Wind speed,ff - m/s,(see Note 1),Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B08054,Qualifier for wind speed or wind gusts,P,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11085,Maximum wind gust speed,fmfm - km/h,(see Note 2),Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11086,Maximum wind gust speed,fmfm - kt,(see Note 2),Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B11041,Maximum wind gust speed,fmfm - m/s,(see Note 2),Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B08054,Qualifier for wind speed or wind gusts,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B07032,Height of sensor above local ground (or deck of marine platform),= 2 m (if the actual value is not available),,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B12023,Temperature,T'T' - Celsius,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B12024,Dewpoint temperature,T'dT'd - Celsius,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B10052,Altimeter setting (QNH),QPHPHPHPH,,Operational
+07,Surface report sequences (land),D07045,"(Main part of METAR/SPECI), replacing 3 07 011",,B20009,General weather indicator (TAF/METAR),CAVOK,,Operational
+07,Surface report sequences (land),D07046,(METAR/SPECI visibility),,B20060,Prevailing horizontal visibility,VVVV or VVVVNDV,,Operational
+07,Surface report sequences (land),D07046,(METAR/SPECI visibility),,R02000,Delayed replication of 2 descriptors,Up to 2,,Operational
+07,Surface report sequences (land),D07046,(METAR/SPECI visibility),,B05021,Bearing or azimuth,Direction of minimum visibility observed Dv,,Operational
+07,Surface report sequences (land),D07046,(METAR/SPECI visibility),,B20059,Minimum horizontal visibility,VNVNVNVN,,Operational
+07,Surface report sequences (land),D07047,"(METAR/SPECI/TAF clouds), replacing D 07 015",,R05000,Delayed replication of 5 descriptors,,,Operational
+07,Surface report sequences (land),D07047,"(METAR/SPECI/TAF clouds), replacing D 07 015",,B08002,Vertical significance (surface observations),,,Operational
+07,Surface report sequences (land),D07047,"(METAR/SPECI/TAF clouds), replacing D 07 015",,B20011,Cloud amount,NsNsNs,,Operational
+07,Surface report sequences (land),D07047,"(METAR/SPECI/TAF clouds), replacing D 07 015",,B20012,Cloud type,CC,,Operational
+07,Surface report sequences (land),D07047,"(METAR/SPECI/TAF clouds), replacing D 07 015",,B20013,Height of base of cloud,hshshs - m,,Operational
+07,Surface report sequences (land),D07047,"(METAR/SPECI/TAF clouds), replacing D 07 015",,B20092,Height of base of cloud,hshshs - ft,,Operational
+07,Surface report sequences (land),D07047,"(METAR/SPECI/TAF clouds), replacing D 07 015",,B20002,Vertical visibility,VVhshshs - m,,Operational
+07,Surface report sequences (land),D07047,"(METAR/SPECI/TAF clouds), replacing D 07 015",,B20091,Vertical visibility,VVhshshs - ft,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B08016,Change qualifier of a trend-type forecast or an aerodrome forecast,TTTTT NOSIG,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,R02000,Delayed replication of 2 descriptors,"= 0, 1 or 2",,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B08017,Qualifier of the time when the forecast change is expected,TT,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,D01012,"Hour, minute",GGgg,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,R12000,Delayed replication of 12 descriptors,= 0 or 1,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B07032,Height of sensor above local ground (or deck of marine platform),= 10 m (if the actual value is not available),,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11001,Wind direction,ddd,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B08054,Qualifier for wind speed or wind gusts,P,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11083,Wind speed,ff - km/h,(see Note 5),Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11084,Wind speed,ff - kt,(see Note 5),Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11002,Wind speed,ff - m/s,(see Note 5),Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B08054,Qualifier for wind speed or wind gusts,P,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11085,Maximum wind gust speed,fmfm - km/h,(see Note 6),Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11086,Maximum wind gust speed,fmfm - kt,(see Note 6),Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11041,Maximum wind gust speed,fmfm - m/s,(see Note 6),Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B08054,Qualifier for wind speed or wind gusts,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B20009,General weather indicator (TAF/METAR),CAVOK NSW NSC,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,R01000,Delayed replication of 1 descriptor,= 0 or 1,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B20060,Prevailing horizontal visibility,VVVV,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,D07014,Significant present and forecast weather,Weather intensity and phenomena w´w´,,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,D07047,"METAR/SPECI/TAF clouds, replacing D 07 015",NsNsNshshshs,,Operational
+07,Surface report sequences (land),D07049,(Sea conditions),,R02000,Delayed replication of 2 descriptors,= 0 or 1,,Operational
+07,Surface report sequences (land),D07049,(Sea conditions),,B22043,Sea/water temperature,TsTs,,Operational
+07,Surface report sequences (land),D07049,(Sea conditions),,B22021,Height of waves,S´,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,R01000,Delayed replication of 1 descriptor,= 0 or 1,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,B20085,General condition of runway,SNOCLO,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,R02000,Delayed replication of 2 descriptors,,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,B01064,Runway designator,DRDR,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,B20085,General condition of runway,CLRD//,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,R05000,Delayed replication of 5 descriptors,,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,B01064,Runway designator,DRDR,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,B20086,Runway deposits,ER,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,B20087,Runway contamination,CR,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,B20088,Depth of runway deposits,eReR,,Operational
+07,Surface report sequences (land),D07050,(Runway state),,B20089,Runway friction coefficient,BRBR,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07045,"Main part of METAR/SPECI, replacing D 07 011",,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07046,METAR/SPECI visibility,VVVV or VVVVNDV VNVNVNVNDV,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07013,Runway visual range,RDRDR/VRVRVRVR,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07014,Significant present and forecast weather,Weather intensity and phenomena w´w´,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07047,"METAR/SPECI/TAF clouds, replacing D 07 015",NsNsNshshshs,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07016,Significant recent weather phenomena,REw´w´,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07017,Wind shear on runway(s),WS RDRDR,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07049,Sea conditions,WTsTs/SS´,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07050,Runway state,RDRDR/ERCReReRBRBR,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,R01000,Delayed replication of 1 descriptor,= 0 to 3 normally,,Operational
+07,Surface report sequences (land),D07051,"(Full METAR/SPECI), replacing D 07 021",,D07048,"Trend type forecast, replacing D 07 018",,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B01063,ICAO location indicator,CCCC,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (Aviation forecast),= 0 Issue time of forecast,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01011,"Year, month, day",YY,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01012,"Hour, minute",GGgg,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08079,Product status,COR CNL AMD NIL,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (Aviation forecast),= 1 Time of commencement of period of the forecast,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01011,"Year, month, day",Y1Y1,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01012,"Hour, minute",G1G1,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B08039,Time significance (Aviation forecast),= 2 Time of ending of period of the forecast,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01011,"Year, month, day",Y2Y2,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01012,"Hour, minute",G2G2,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,D01023,Latitude/longitude (coarse accuracy),,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B07030,Height of station ground above mean sea level,,,Operational
+07,Surface report sequences (land),D07052,(Aerodrome forecast identification and time interval),,B07031,Height of barometer above mean sea level,,,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B07032,Height of sensor above local ground (or deck of marine platform),= 10 m (if the actual value is not available),,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B11001,Wind direction,ddd,,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B08054,Qualifier for wind speed or wind gusts,P,,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B11083,Wind speed,ff - km/h,(see Note 1),Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B11084,Wind speed,ff - kt,(see Note 1),Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B11002,Wind speed,ff - m/s,(see Note 1),Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B08054,Qualifier for wind speed or wind gusts,P,,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B11085,Maximum wind gust speed,fmfm - km/h,(see Note 2),Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B11086,Maximum wind gust speed,fmfm - kt,(see Note 2),Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B11041,Maximum wind gust speed,fmfm - m/s,(see Note 2),Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B08054,Qualifier for wind speed or wind gusts,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B20009,General weather indicator (TAF/METAR),CAVOK NSW NSC,,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,B20060,Prevailing horizontal visibility,VVVV,,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,D07014,Significant present and forecast weather,w´w´,,Operational
+07,Surface report sequences (land),D07053,(Forecast weather at an aerodrome),,D07047,"METAR/SPECI/TAF clouds, replacing 3 07 015",NsNsNshshshs,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B07032,Height of sensor above local ground (or deck of marine platform),= 2 m (if the actual value is not available),,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08039,Time significance (Aviation forecast),= 3 Forecast time of maximum temperature,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B04003,Day,,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B04004,Hour,GFGF,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08023,First-order statistics,= 3 Minimum,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B12023,Temperature,TFTF - Celsius,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08039,Time significance (Aviation forecast),= 4 Forecast time of minimum temperature,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B04003,Day,,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B04004,Hour,GFGF,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08023,First-order statistics,= 2 Maximum,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B12023,Temperature,TFTF - Celsius,,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B08023,First-order statistics,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07054,(Forecast of extreme temperatures),,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B33045,Probability of following event,C2C2,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B08016,Change qualifier of a trend-type forecast or an aerodrome forecast,TTTTTT,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B08039,Time significance (Aviation forecast),= 5 Time of beginning of the forecast change,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B04003,Day,,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,D01012,"Hour, minute",GGgg,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B08039,Time significance (Aviation forecast),= 6 Time of ending of the forecast change,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,B04003,Day,,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,D01012,"Hour, minute",GeGe,,Operational
+07,Surface report sequences (land),D07055,(Change indicator and forecast changes),,D07053,Forecast weather at an aerodrome,During or after change,,Operational
+07,Surface report sequences (land),D07056,(Aerodrome forecast - full TAF),,D07052,Aerodrome forecast identification and time interval,,,Operational
+07,Surface report sequences (land),D07056,(Aerodrome forecast - full TAF),,D07053,Forecast weather at an aerodrome,,,Operational
+07,Surface report sequences (land),D07056,(Aerodrome forecast - full TAF),,D07054,Forecast of extreme temperatures,,,Operational
+07,Surface report sequences (land),D07056,(Aerodrome forecast - full TAF),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07056,(Aerodrome forecast - full TAF),,D07055,Change indicator and forecast changes,,,Operational
+07,Surface report sequences (land),D07060,(Soil temperature below land surface),,B07061,Depth below land surface,,,Operational
+07,Surface report sequences (land),D07060,(Soil temperature below land surface),,B12030,Soil temperature,,,Operational
+07,Surface report sequences (land),D07061,(Soil temperature data at number of depths not exceeding five - high accuracy position),,D01031,"Identification and type of station, date/time, location (high accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07061,(Soil temperature data at number of depths not exceeding five - high accuracy position),,R01005,Replicate 1 descriptor 5 times,,,Operational
+07,Surface report sequences (land),D07061,(Soil temperature data at number of depths not exceeding five - high accuracy position),,D07060,Soil temperature below land surface,,,Operational
+07,Surface report sequences (land),D07062,(Soil temperature data at number of depths not exceeding five - coarse accuracy position),,D01032,"Identification and type of station, date/time, location (coarse accuracy), height of station",,,Operational
+07,Surface report sequences (land),D07062,(Soil temperature data at number of depths not exceeding five - coarse accuracy position),,R01005,Replicate 1 descriptor 5 times,,,Operational
+07,Surface report sequences (land),D07062,(Soil temperature data at number of depths not exceeding five - coarse accuracy position),,D07060,Soil temperature below land surface,,,Operational
+07,Surface report sequences (land),D07063,(Depth below land surface and soil temperature),,B07061,Depth below land surface,,,Operational
+07,Surface report sequences (land),D07063,(Depth below land surface and soil temperature),,B12130,Soil temperature,Scale: 2,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,(see Note 3),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),,B04074,Short time period or displacement,= UTC - LT,(see Note 3),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),,B04023,Time period or displacement,Number of days in the month,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B08023,First-order statistics,= 4 Mean value,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B10004,Pressure,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B10051,Pressure reduced to mean sea level,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B07004,Pressure,Standard level | Set to missing for lowland stations,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B10009,Geopotential height,Standard level | Set to missing for lowland stations,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B07032,Height of sensor above local ground (or deck of marine platform),,(see Note 4),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B02051,Indicator to specify observing method for extreme temperatures,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B04051,Principal time of daily reading of maximum temperature,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B12118,"Maximum temperature at height specified, past 24 hours",,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B04052,Principal time of daily reading of minimum temperature,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B12119,"Minimum temperature at height specified, past 24 hours",,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B13004,Vapour pressure,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B08023,First-order statistics,Set to missing,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B12151,Standard deviation of daily mean temperature,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",R02005,Replicate 2 descriptors 5 times,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B08050,Qualifier for number of missing values in calculation of statistic,"= 1 Pressure, = 2 Temperature, = 4 Vapour pressure, = 7 Maximum temperature, = 8 Minimum temperature",,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B08020,Total number of missing entities (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Sunshine duration,B14032,Total sunshine,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Sunshine duration,B14033,Total sunshine,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Sunshine duration,B08050,Qualifier for number of missing values in calculation of statistic,= 6 Sunshine duration,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Sunshine duration,B08020,Total number of missing entities (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Number of days of occurrence,R02018,Replicate 2 descriptors 18 times,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Number of days of occurrence,B08052,Condition for which number of days of occurrence follows,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Number of days of occurrence,B08022,Total number (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B07032,Height of sensor above local ground (or deck of marine platform),,(see Note 4),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B12152,Highest daily mean temperature,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B12153,Lowest daily mean temperature,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08023,First-order statistics,= 2 Maximum value,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08023,First-order statistics,= 3 Minimum value,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08023,First-order statistics,Set to missing,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B07032,Height of sensor above local ground (or deck of marine platform),,(see Note 4),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B02002,Type of instrumentation for wind measurement,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B11046,Maximum instantaneous wind speed,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B04003,Day,= 1,(see Note 5),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B04004,Hour,= 6,(see Note 5),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B04023,Time period or displacement,Number of days in the month,(see Note 5),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B07032,Height of sensor above local ground (or deck of marine platform),,(see Note 4),Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B13060,Total accumulated precipitation,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B13051,"Frequency group, precipitation",,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B04053,Number of days with precipitation equal to or more than 1 mm,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B08050,Qualifier for number of missing values in calculation of statistic,= 5 Precipitation,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Precipitation,B08020,Total number of missing entities (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Number of days of occurrence,R02006,Replicate 2 descriptors 6 times,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Number of days of occurrence,B08052,Condition for which number of days of occurrence follows,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Number of days of occurrence,B08022,Total number (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme precipitation,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme precipitation,B04003,Day,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme precipitation,B13052,Highest daily amount of precipitation,,,Operational
+07,Surface report sequences (land),D07071,(Monthly values of a land station),Occurrence of extreme precipitation,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),,B04001,Year,Beginning of the reference period,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),,B04001,Year,Ending of the reference period,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),,B04002,Month,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),,B04003,Day,= 1,(see Note 3),Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),,B04004,Hour,= 0,(see Note 3),Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),,B04074,Short time period or displacement,= UTC - LT,(see Note 3),Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),,B04022,Time period or displacement,= 1,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B08023,First-order statistics,= 4 Mean value,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B10004,Pressure,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B10051,Pressure reduced to mean sea level,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B07004,Pressure,Standard level,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B10009,Geopotential height,Standard level,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B07032,Height of sensor above local ground (or deck of marine platform),,(see Note 4),Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B02051,Indicator to specify observing method for extreme temperatures,= 2,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B04051,Principal time of daily reading of maximum temperature,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B12118,"Maximum temperature at height specified, past 24 hours",,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B04052,Principal time of daily reading of minimum temperature,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B12119,"Minimum temperature at height specified, past 24 hours",,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B13004,Vapour pressure,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B12151,Standard deviation of daily mean temperature,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normal of sunshine duration,B14032,Total sunshine,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normal of sunshine duration,B08023,First-order statistics,Set to missing,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B04001,Year,Beginning of the reference period,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B04001,Year,Ending of the reference period,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B04002,Month,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B04003,Day,= 1,(see Note 5),Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B04004,Hour,= 6,(see Note 5),Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B04022,Time period or displacement,= 1,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B07032,Height of sensor above local ground (or deck of marine platform),,(see Note 4),Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B08023,First-order statistics,= 4 Mean value,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B13060,Total accumulated precipitation,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B04053,Number of days with precipitation equal to or more than 1 mm,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B08023,First-order statistics,Set to missing,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,R02008,Replicate 2 descriptors 8 times,,,Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B08050,Qualifier for number of missing values in calculation of statistic,"= 1 Pressure, = 2 Temperature, = 3 Extreme temperature, = 4 Vapour pressure, = 5 Precipitation, = 6 Sunshine duration, = 7 Maximum temperature, = 8 Minimum temperature",(see Note 6),Operational
+07,Surface report sequences (land),D07072,(Monthly normals for a land station),Normals of precipitation,B08020,Total number of missing entities (with respect to accumulation or average),Years,(see Note 6),Operational
+07,Surface report sequences (land),D07073,(Representation of CLIMAT data of the actual month and for monthly normals),,D07071,Monthly values of a land station,,,Operational
+07,Surface report sequences (land),D07073,(Representation of CLIMAT data of the actual month and for monthly normals),,D07072,Monthly normals for a land station,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),,B04074,Short time period or displacement,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),,B04023,Time period or displacement,Number of days in the month,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B08023,First-order statistics,= 4 Mean value,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B10004,Pressure,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B10051,Pressure reduced to mean sea level,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B07004,Pressure,Standard level | Set to missing for lowland stations,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B10009,Geopotential height,Standard level | Set to missing for lowland stations,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B07032,Height of sensor above local ground (or deck of marine platform),,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B02051,Indicator to specify observing method for extreme temperatures,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B04051,Principal time of daily reading of maximum temperature,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B12118,"Maximum temperature at height specified, past 24 hours",,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B04052,Principal time of daily reading of minimum temperature,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B12119,"Minimum temperature at height specified, past 24 hours",,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B13004,Vapour pressure,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B08023,First-order statistics,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B12151,Standard deviation of daily mean temperature,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),"Monthly mean values of pressure, temperature, extreme temperatures and vapour pressure",B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days for which values are missing,R02005,Replicate 2 descriptors 5 times,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days for which values are missing,B08050,Qualifier for number of missing values in calculation of statistic,"= 1 Pressure, = 2 Temperature, = 4 Vapour pressure, = 7 Maximum temperature, = 8 Minimum temperature",,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days for which values are missing,B08020,Total number of missing entities (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Sunshine duration,B14032,Total sunshine,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Sunshine duration,B14033,Total sunshine,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Sunshine duration,B08050,Qualifier for number of missing values in calculation of statistic,= 6 Sunshine duration,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Sunshine duration,B08020,Total number of missing entities (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days of occurrence,R02018,Replicate 2 descriptors 18 times,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days of occurrence,B08052,Condition for which number of days of occurrence follows,"Wind >= 10 m/s, wind >= 20 m/s, wind >= 30 m/s, maximum temperature < 273.15 K, maximum temperature >= 298.15 K, maximum temperature >= 303.15 K, maximum temperature >= 308.15 K, maximum temperature >= 313.15 K, minimum temperature < 273.15 K, sss > 0.00 m, sss > 0.01 m, sss > 0.10 m, sss > 0.50 m, horizontal visibility < 50 m, horizontal visibility < 100 m, horizontal visibility < 1 000 m, hail, thunderstorm",,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days of occurrence,B08022,Total number (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B07032,Height of sensor above local ground (or deck of marine platform),,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B12152,Highest daily mean temperature,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B12153,Lowest daily mean temperature,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08023,First-order statistics,= 2 Maximum value,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08023,First-order statistics,= 3 Minimum value,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08023,First-order statistics,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B07032,Height of sensor above local ground (or deck of marine platform),,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B02002,Type of instrumentation for wind measurement,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B04003,Day,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B11046,Maximum instantaneous wind speed,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme values of temperature and wind speed,B08053,Day of occurrence qualifier,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B04003,Day,= 1,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B04004,Hour,= 0,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B04074,Short time period or displacement,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B04023,Time period or displacement,Number of days in the month,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B07032,Height of sensor above local ground (or deck of marine platform),,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B13060,Total accumulated precipitation,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B13051,"Frequency group, precipitation",,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B04053,Number of days with precipitation equal to or more than 1 mm,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B08050,Qualifier for number of missing values in calculation of statistic,= 5 Precipitation,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Precipitation,B08020,Total number of missing entities (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days of occurrence,R02006,Replicate 2 descriptors 6 times,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days of occurrence,B08052,Condition for which number of days of occurrence follows,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Number of days of occurrence,B08022,Total number (with respect to accumulation or average),Days,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme precipitation,B08053,Day of occurrence qualifier,"= 0 On 1 day only, = 1 On 2 or more days",,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme precipitation,B04003,Day,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme precipitation,B13052,Highest daily amount of precipitation,,,Operational
+07,Surface report sequences (land),D07076,(Monthly values from a land station in compliance with regional or national reporting practices),Occurrence of extreme precipitation,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04001,Year,Beginning of the reference period,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04001,Year,Ending of the reference period,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04002,Month,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04003,Day,= 1,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04004,Hour,= 0,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04074,Short time period or displacement,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04022,Time period or displacement,= 1,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B08023,First-order statistics,= 4 Mean value,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B10004,Pressure,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B10051,Pressure reduced to mean sea level,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B07004,Pressure,Standard level,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B10009,Geopotential height,Standard level,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B07032,Height of sensor above local ground (or deck of marine platform),,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B02051,Indicator to specify observing method for extreme temperatures,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04051,Principal time of daily reading of maximum temperature,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B12118,"Maximum temperature at height specified, past 24 hours",,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B04052,Principal time of daily reading of minimum temperature,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B12119,"Minimum temperature at height specified, past 24 hours",,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B13004,Vapour pressure,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B12151,Standard deviation of daily mean temperature,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B14032,Total sunshine,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),,B08023,First-order statistics,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B04001,Year,Beginning of the reference period,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B04001,Year,Ending of the reference period,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B04002,Month,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B04003,Day,= 1,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B04004,Hour,= 0,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B04074,Short time period or displacement,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B04022,Time period or displacement,= 1,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B07032,Height of sensor above local ground (or deck of marine platform),,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B08023,First-order statistics,= 4 Mean value,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B13060,Total accumulated precipitation,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B04053,Number of days with precipitation equal to or more than 1 mm,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B08023,First-order statistics,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,R02008,Replicate 2 descriptors 8 times,,,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B08050,Qualifier for number of missing values in calculation of statistic,"Pressure, temperature, extreme temperatures, vapour pressure, precipitation, sunshine duration, maximum temperature, minimum temperature",,Operational
+07,Surface report sequences (land),D07077,(Monthly normals for a land station in compliance with regional or national reporting practices),Normals of precipitation,B08020,Total number of missing entities (with respect to accumulation or average),Years,,Operational
+07,Surface report sequences (land),D07078,(Sequence for representation of monthly values suitable for CLIMAT data in compliance with regional or national reporting practices),,D07076,Monthly values from a land station in compliance with regional or national reporting practices,,,Operational
+07,Surface report sequences (land),D07078,(Sequence for representation of monthly values suitable for CLIMAT data in compliance with regional or national reporting practices),,D07077,Monthly normals for a land station in compliance with regional or national reporting practices,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02035,"Basic synoptic ""instantaneous"" data",,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02047,Direction of cloud drift,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,B08002,Vertical significance (surface observations),,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02048,Direction and elevation of cloud,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02037,"State of ground, snow depth, ground minimum temperature",,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,R02000,Delayed replication of 2 descriptors,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,B22061,State of the sea,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,B20058,Visibility seawards from a coastal station,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02056,Sea/water temperature,"Sea/water surface temperature, method of measurement, depth below water surface",,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02055,Icing and ice,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02043,"Basic synoptic ""period"" data",,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07079,(Sequence for representation of synoptic reports from fixed land stations suitable for SYNOP data and for maritime data from coastal stations),,D02046,Temperature change,,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02035,"Basic synoptic ""instantaneous"" data",,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02047,Direction of cloud drift,,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,B08002,Vertical significance (surface observations),,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02048,Direction and elevation of cloud,,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02037,"State of ground, snow depth, ground minimum temperature",,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02043,"Basic synoptic ""period"" data",,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,R01002,Replicate 1 descriptor 2 times,,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07080,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data),,D02046,Temperature change,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02035,"Basic synoptic ""instantaneous"" data",,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02047,Direction of cloud drift,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B08002,Vertical significance (surface observations),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02048,Direction and elevation of cloud,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02037,"State of ground, snow depth, ground minimum temperature",,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B12122,Ground minimum temperature of the preceding night,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B13056,Character and intensity of precipitation,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B13057,Time of beginning or end of precipitation,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B20101,Locust (acridian) name,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B20102,Locust (maturity) colour,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B20103,Stage of development of locusts,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B20104,Organization state of swarm or band of locusts,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B20105,Size of swarm or band of locusts and duration of passage of swarm,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B20106,Locust population density,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B20107,Direction of movements of locust swarm,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,B20108,Extent of vegetation,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02043,"Basic synoptic ""period"" data",,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,R01002,Replicate 1 descriptor 2 times,,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07081,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA I),,D02046,Temperature change,,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02035,"Basic synoptic ""instantaneous"" data",,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02047,Direction of cloud drift,,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,B08002,Vertical significance (surface observations),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02048,Direction and elevation of cloud,,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02037,"State of ground, snow depth, ground minimum temperature",,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,B12121,Ground minimum temperature,At the time of observation,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,B12122,Ground minimum temperature of the preceding night,,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02043,"Basic synoptic ""period"" data",,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,R01002,Replicate 1 descriptor 2 times,,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07082,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7),,D02046,Temperature change,,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02035,"Basic synoptic ""instantaneous"" data",,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02047,Direction of cloud drift,,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,B08002,Vertical significance (surface observations),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02048,Direction and elevation of cloud,,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02037,"State of ground, snow depth, ground minimum temperature",,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,B12122,Ground minimum temperature of the preceding night,,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02043,"Basic synoptic ""period"" data",,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,R01002,Replicate 1 descriptor 2 times,,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07083,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III),,D02046,Temperature change,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02035,"Basic synoptic ""instantaneous"" data",,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02047,Direction of cloud drift,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,B08002,Vertical significance (surface observations),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02048,Direction and elevation of cloud,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02037,"State of ground, snow depth, ground minimum temperature",,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,B20055,State of sky in the tropics,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,C05001,Character insertion,Character field of 1 character,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02043,"Basic synoptic ""period"" data",,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,R01002,Replicate 1 descriptor 2 times,,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07084,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA IV),,D02046,Temperature change,,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D02035,"Basic synoptic ""instantaneous"" data",,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,B08002,Vertical significance (surface observations),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D02037,"State of ground, snow depth, ground minimum temperature",,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D02066,Dangerous weather phenomena,,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D02043,"Basic synoptic ""period"" data",,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,R01002,Replicate 1 descriptor 2 times,,,Operational
+07,Surface report sequences (land),D07086,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA VI),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)","Surface station identification, time, horizontal and vertical coordinates",D01001,WMO block and station number,IIiii,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)","Surface station identification, time, horizontal and vertical coordinates",B02001,Type of station,ix,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)","Surface station identification, time, horizontal and vertical coordinates",D01011,"Year, month, day",YY,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)","Surface station identification, time, horizontal and vertical coordinates",D01012,"Hour, minute","GG, gg",,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)","Surface station identification, time, horizontal and vertical coordinates",D01023,Latitude/longitude (coarse accuracy),,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)","Surface station identification, time, horizontal and vertical coordinates",B07030,Height of station ground above mean sea level,,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)","Surface station identification, time, horizontal and vertical coordinates",B07031,Height of barometer above mean sea level,,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Pressure data,D02001,Pressure and 3-hour pressure change,"PoPoPoPo, PPPP, ppp, a",,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Pressure data,B10062,24-hour pressure change,p24p24p24,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Pressure data,B07004,Pressure,"Standard level a3 = 925, 850, 700, ..hPa | Set to missing for lowland stations",,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Pressure data,B10009,Geopotential height,Standard level hhh | Set to missing for lowland stations,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Temperature and humidity,B07032,Height of sensor above local ground (or deck of marine platform),Temperature measurement,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Temperature and humidity,B12101,Temperature/air temperature,snTTT | Scale: 2,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Temperature and humidity,B12103,Dewpoint temperature,snTdTdTd | Scale: 2,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Temperature and humidity,B13003,Relative humidity,,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Temperature and humidity,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Visibility,B20001,Horizontal visibility,VV,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Cloud data,D02004,General cloud information,"Cloud cover (total) N: If N = 9, then B 20 010 = 113, if N = /, then B 20 010 = missing | Vertical significance: If CL are observed, then B 08 002 = 7 | Low cloud: If CL are not observed and CM are observed, then B 08 002 = 8 | Middle cloud: If only CH are observed, B 08 002 = 0, if N = 9, then B 08 002 = 5, if N = 0, then B 08 002 = 62, if N = /, then B 08 002 = missing | Cloud amount (of low or middle clouds) Nh: If N = 0, then B 20 011 = 0, if N = 9, then B 20 011 = 9, if N = /, then B 20 011 = missing | Height of base of cloud h: If N = 0 or /, then B 20 013 = missing | Cloud type (low clouds) CL: B 20 012 = CL + 30, if N = 0, then B 20 012 = 30, if N = 9 or /, then B 20 012 = 62 | Cloud type (middle clouds) CM: B 20 012 = CM + 20, if N = 0, then B 20 012 = 20, if N = 9 or / or CM = /, then B 20 012 = 61 | Cloud type (high clouds) CH: B 20 012 = CH + 10, if N = 0, then B 20 012 = 10, if N = 9 or / or CH = /, then B 20 012 = 60",,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Cloud data,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07087,"(""Instantaneous"" parameters of sequence D 07 089)",Cloud data,D02005,Cloud layer,"Vertical significance: In any Cb layer, B 08 002 = 4, else in the first replication, if N = 9, then B 08 002 = 5, if N = /, then B 08 002 = missing, else B 08 002 = 1, in the other replications B 08 002 = 2, 3, 4 | Cloud amount Ns: In the first replication, if N = /, then B 20 011 = missing, else B 20 011 = Ns, in the other replications B 20 011 = Ns | Cloud type C: If N = 9 or /, then B 20 012 = missing, else B 20 012 = C | Height of base of cloud hshs",,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Present and past weather,B20003,Present weather,ww,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Present and past weather,B04024,Time period or displacement,"= -6 at 00, 06, 12, 18 UTC, = -3 at 03, 09,15, 21 UTC",,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Present and past weather,B20004,Past weather (1),W1,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Present and past weather,B20005,Past weather (2),W2,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Evaporation,B04024,Time period or displacement,= -24 (hours),,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Evaporation,B02004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,iE,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Evaporation,B13033,Evaporation/evapotranspiration,EEE,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Sunshine,R02002,Replicate 2 descriptors 2 times,,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Sunshine,B04024,Time period or displacement,"= -24 (hours) in the first replication, = -1 (hour) in the second replication",,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Sunshine,B14031,Total sunshine,"SSS in the first replication, SS in the second replication",,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Precipitation,R02002,Replicate 2 descriptors 2 times,,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Precipitation,B04024,Time period or displacement,tR,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Precipitation,B13011,Total precipitation/total water equivalent,"RRR | = 0 No precipitation, = -0.1 Trace",,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Extreme temperatures,B07032,Height of sensor above local ground (or deck of marine platform),Temperature measurement,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Extreme temperatures,B04024,Time period or displacement,= -12 (hours),,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Extreme temperatures,B12111,"Maximum temperature, at height and over period specified",snTxTxTx,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Extreme temperatures,B04024,Time period or displacement,= -12 (hours),,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Extreme temperatures,B12112,"Minimum temperature, at height and over period specified",snTnTnTn,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Wind data,B07032,Height of sensor above local ground (or deck of marine platform),Wind measurement,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Wind data,B02002,Type of instrumentation for wind measurement,iw,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Wind data,B08021,Time significance,= 2 Time averaged,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Wind data,B04025,Time period or displacement,"= -10 (minutes) or number of minutes after a significant change of wind, if any",,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Wind data,B11001,Wind direction,"dd | If dd = 00 Calm or dd = 99 Variable, 0 11 001 = 0",,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Wind data,B11002,Wind speed,ff,,Operational
+07,Surface report sequences (land),D07088,"(""Period"" parameters of sequence 3 07 089)",Wind data,B08021,Time significance,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07089,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data manually encoded in CREX),,D07087,"""Instantaneous"" parameters of sequence 3 07 089",,,Operational
+07,Surface report sequences (land),D07089,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data manually encoded in CREX),,D07088,"""Period"" parameters of sequence 3 07 089",,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D01092,"Mobile surface station identification, date/time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02035,"Basic synoptic ""instantaneous"" data",,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02047,Direction of cloud drift,,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,B08002,Vertical significance (surface observations),,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02048,Direction and elevation of cloud,,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02037,"State of ground, snow depth, ground minimum temperature",,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02043,"Basic synoptic ""period"" data",,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,R01002,Replicate 1 descriptor 2 times,,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07090,(Sequence for representation of synoptic reports from a mobile land station suitable for SYNOP MOBIL data),,D02046,Temperature change,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D01089,National station identification,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B08010,Surface qualifier (temperature data),,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D01091,Surface station instrumentation,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02001,Pressure and 3-hour pressure change,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B07004,Pressure,Standard level,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B10009,Geopotential height,Standard level,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02072,Temperature and humidity data,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R03000,Delayed replication of 3 descriptors,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01005,Replicate 1 descriptor 5 times,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D07063,Depth below land surface and soil temperature,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B07061,Depth below land surface,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02069,Visibility data,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B07033,Height of sensor above water surface,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R05000,Delayed replication of 5 descriptors,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B20031,Ice deposit (thickness),,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B20032,Rate of ice accretion (estimated),,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B02038,Method of water temperature and/or salinity measurement,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B22043,Sea/water temperature,Scale: 2,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02021,Waves,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02078,State of ground and snow depth measurement,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02073,Cloud data,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02074,Present and past weather,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02175,"Intensity of precipitation, size of precipitation element",,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R02000,Delayed replication of 2 descriptors,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B04025,Time period or displacement,= -10 (minutes),,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02076,"Precipitation, obscuration and other phenomena",,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02071,Wind data from one-hour period,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02077,Extreme temperature data,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B07033,Height of sensor above water surface,Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02079,Precipitation measurement,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02080,Evaporation measurement,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02081,Total sunshine data,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02082,Radiation data,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R02000,Delayed replication of 2 descriptors,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B04025,Time period or displacement,= -10 (minutes),,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B13059,Number of flashes (thunderstorm),,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,R01000,Delayed replication of 1 descriptor,,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,D02083,"First-order statistics of P, W, T, U data",,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B33005,Quality information (AWS data),,,Operational
+07,Surface report sequences (land),D07091,(CREX template for surface observations from one-hour period with national and WMO station identification),,B33006,Internal measurement status information (AWS),,,Operational
+07,Surface report sequences (land),D07096,(Sequence for representation of SYNOP with supplementary information on one-hour observations),,D01090,"Surface station identification; time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07096,(Sequence for representation of SYNOP with supplementary information on one-hour observations),,D01089,National station identification,,,Operational
+07,Surface report sequences (land),D07096,(Sequence for representation of SYNOP with supplementary information on one-hour observations),,B08010,Surface qualifier (temperature data),,,Operational
+07,Surface report sequences (land),D07096,(Sequence for representation of SYNOP with supplementary information on one-hour observations),,D01091,Surface station instrumentation,,,Operational
+07,Surface report sequences (land),D07096,(Sequence for representation of SYNOP with supplementary information on one-hour observations),,D02084,"""Instantaneous"" data of sequence 3 07 096",,,Operational
+07,Surface report sequences (land),D07096,(Sequence for representation of SYNOP with supplementary information on one-hour observations),,D02085,"""Period"" data of sequence 3 07 096",,,Operational
+07,Surface report sequences (land),D07096,(Sequence for representation of SYNOP with supplementary information on one-hour observations),,B33005,Quality information (AWS data),,,Operational
+07,Surface report sequences (land),D07096,(Sequence for representation of SYNOP with supplementary information on one-hour observations),,B33006,Internal measurement status information (AWS),,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,D01089,National station identification,,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B01019,Long station or site name,,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B02001,Type of station,,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,D01011,"Year, month, day",,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,D01012,"Hour, minute",,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,D01021,Latitude/longitude (high accuracy),,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B07030,Height of station ground above mean sea level,,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B07032,Height of sensor above local ground (or deck of marine platform),,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B12101,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B07032,Height of sensor above local ground (or deck of marine platform),,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B02177,Method of snow depth measurement,,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B20062,State of the ground (with or without snow),,,Operational
+07,Surface report sequences (land),D07101,(Snow observation),,B13013,Total snow depth,,,Operational
+07,Surface report sequences (land),D07103,"(Snow observation, snow density, snow water equivalent)",,D01150,WIGOS identifier,,,Operational
+07,Surface report sequences (land),D07103,"(Snow observation, snow density, snow water equivalent)",,D07101,Snow observation,,,Operational
+07,Surface report sequences (land),D07103,"(Snow observation, snow density, snow water equivalent)",,B13117,Snow density (liquid water content),,,Operational
+07,Surface report sequences (land),D07103,"(Snow observation, snow density, snow water equivalent)",,B03028,Method of snow water equivalent measurement,,,Operational
+07,Surface report sequences (land),D07103,"(Snow observation, snow density, snow water equivalent)",,B13163,Snow water equivalent,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D01090,"Surface station identification, time, horizontal and vertical coordinates",,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02031,Pressure information,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02035,Basic synoptic “instantaneous” data ,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02036,Clouds with bases below station level,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02047,Direction of cloud drift,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,B08002,Vertical significance (surface observations),Set to missing (cancel),,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02048,Direction and elevation of cloud,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02037,"State of ground, snow depth, ground minimum temperature",Past 12 hours,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,B12120,Ground temperature,snT’gT’g,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,B12122,Ground minimum temperature of the preceding night,snTgTg,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02043,Basic synoptic “period” data,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02044,Evaporation data,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,R01002,Replicate 1 descriptor 2 times,,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02045,Radiation data (from 1 hour and 24-hour period),,,Operational
+07,Surface report sequences (land),D07182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,D02046,Temperature change                   ,,,Operational

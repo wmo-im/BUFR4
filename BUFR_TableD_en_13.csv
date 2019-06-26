@@ -1,0 +1,54 @@
+Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
+13,Sequences common to image data,313009,(Radar reflectivity values),,021001,Horizontal reflectivity,,,Operational
+13,Sequences common to image data,313009,(Radar reflectivity values),,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313009,(Radar reflectivity values),,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313009,(Radar reflectivity values),,021001,Horizontal reflectivity,,,Operational
+13,Sequences common to image data,313010,(Radar rainfall intensities),,021036,Radar rainfall intensity,,,Operational
+13,Sequences common to image data,313010,(Radar rainfall intensities),,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313010,(Radar rainfall intensities),,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313010,(Radar rainfall intensities),,021036,Radar rainfall intensity,,,Operational
+13,Sequences common to image data,313031,(Non run-length encoded row for Pixel value (4 bits)),,006002,Longitude (coarse accuracy),First longitude location minus one increment,,Operational
+13,Sequences common to image data,313031,(Non run-length encoded row for Pixel value (4 bits)),,006012,Longitude increment (coarse accuracy),,,Operational
+13,Sequences common to image data,313031,(Non run-length encoded row for Pixel value (4 bits)),,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313031,(Non run-length encoded row for Pixel value (4 bits)),,031002,Extended delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313031,(Non run-length encoded row for Pixel value (4 bits)),,030001,Pixel value (4 bits),,,Operational
+13,Sequences common to image data,313032,(Non run-length encoded picture data for Pixel value (4 bits)),,005002,Latitude (coarse accuracy),First latitude location minus one increment,,Operational
+13,Sequences common to image data,313032,(Non run-length encoded picture data for Pixel value (4 bits)),,005012,Latitude increment (coarse accuracy),Signed value so cannot cross pole,,Operational
+13,Sequences common to image data,313032,(Non run-length encoded picture data for Pixel value (4 bits)),,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313032,(Non run-length encoded picture data for Pixel value (4 bits)),,031002,Extended delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313032,(Non run-length encoded picture data for Pixel value (4 bits)),,313031,Non run-length encoded row for Pixel value (4 bits),,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,006002,Longitude (coarse accuracy),First longitude location minus one increment,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,110000,Delayed replication of 10 descriptors,,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,104000,Delayed replication of 4 descriptors,,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,006012,Longitude increment (coarse accuracy),,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,031012,Extended delayed descriptor and data repetition factor,,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,030001,Pixel value (4 bits),,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,006012,Longitude increment (coarse accuracy),,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313041,(Run-length encoded row for Pixel value (4 bits)),,030001,Pixel value (4 bits),,,Operational
+13,Sequences common to image data,313042,(Run-length encoded picture data for Pixel value (4 bits)),,005002,Latitude (coarse accuracy),First latitude location minus one increment,,Operational
+13,Sequences common to image data,313042,(Run-length encoded picture data for Pixel value (4 bits)),,005012,Latitude increment (coarse accuracy),Signed value so cannot cross pole,,Operational
+13,Sequences common to image data,313042,(Run-length encoded picture data for Pixel value (4 bits)),,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313042,(Run-length encoded picture data for Pixel value (4 bits)),,031002,Extended delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313042,(Run-length encoded picture data for Pixel value (4 bits)),,313041,Run-length encoded row for pixel value (4 bits),,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,006002,Longitude (coarse accuracy),First longitude location minus one increment,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,005002,Latitude (coarse accuracy),First latitude location minus one increment,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,005012,Latitude increment (coarse accuracy),,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,112000,Delayed replication of 12 descriptors,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,110000,Delayed replication of 10 descriptors,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,104000,Delayed replication of 4 descriptors,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,006012,Longitude increment (coarse accuracy),,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,031011,Delayed descriptor and data repetition factor,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,030001,Pixel value (4 bits),,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,006012,Longitude increment (coarse accuracy),,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,101000,Delayed replication of 1 descriptor,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,031001,Delayed descriptor replication factor,,,Operational
+13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,030001,Pixel value (4 bits),,,Operational

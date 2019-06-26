@@ -1,0 +1,91 @@
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+01,Identification,001001,WMO block number,,Numeric,0,0,7,Numeric,0,2,Operational
+01,Identification,001002,WMO station number,,Numeric,0,0,10,Numeric,0,3,Operational
+01,Identification,001003,WMO Region number/geographical area,,Code table,0,0,3,Code table,0,1,Operational
+01,Identification,001004,WMO Region sub-area,(see Note 9),Numeric,0,0,3,Numeric,0,1,Operational
+01,Identification,001005,Buoy/platform identifier,,Numeric,0,0,17,Numeric,0,5,Operational
+01,Identification,001006,Aircraft flight number,,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001007,Satellite identifier,,Code table,0,0,10,Code table,0,4,Operational
+01,Identification,001008,Aircraft registration number or other identification,,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001009,Type of commercial aircraft,,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001010,Stationary buoy platform identifier; e.g. C-MAN buoys,,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001011,Ship or mobile land station identifier,,CCITT IA5,0,0,72,Character,0,9,Operational
+01,Identification,001012,Direction of motion of moving observing platform,*,degree true,0,0,9,degree true,0,3,Operational
+01,Identification,001013,Speed of motion of moving observing platform,*,m/s,0,0,10,m/s,0,3,Operational
+01,Identification,001014,Platform drift speed (high precision),,m/s,2,0,10,m/s,2,4,Operational
+01,Identification,001015,Station or site name,,CCITT IA5,0,0,160,Character,0,20,Operational
+01,Identification,001018,Short station or site name,,CCITT IA5,0,0,40,Character,0,5,Operational
+01,Identification,001019,Long station or site name,,CCITT IA5,0,0,256,Character,0,32,Operational
+01,Identification,001020,WMO Region sub-area,,Numeric,0,0,4,Numeric,0,2,Operational
+01,Identification,001021,Synoptic feature identifier,,Numeric,0,0,14,Numeric,0,4,Operational
+01,Identification,001022,Name of feature,(see Note 11),CCITT IA5,0,0,224,Character,0,28,Operational
+01,Identification,001023,Observation sequence number,,Numeric,0,0,9,Numeric,0,3,Operational
+01,Identification,001024,Wind speed source,,Code table,0,0,5,Code table,0,2,Operational
+01,Identification,001025,Storm identifier,(see Note 1),CCITT IA5,0,0,24,Character,0,3,Operational
+01,Identification,001026,WMO storm name,*,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001027,WMO long storm name,,CCITT IA5,0,0,80,Character,0,10,Operational
+01,Identification,001028,Aerosol optical depth (AOD) source,,Code table,0,0,5,Code table,0,2,Operational
+01,Identification,001029,SSI source,,Code table,0,0,5,Code table,0,2,Operational
+01,Identification,001030,Numerical model identifier,(see Note 13),CCITT IA5,0,0,128,Character,0,16,Operational
+01,Identification,001031,Identification of originating/generating centre,(see Note 10),Code table,0,0,16,Code table,0,5,Operational
+01,Identification,001032,Generating application,"(Notes 3, 4 and 5)",Code table defined by originating/generating centre,0,0,8,Code table,0,3,Operational
+01,Identification,001033,Identification of originating/generating centre,,Common Code table C-1,0,0,8,Common Code table C-1,0,3,Operational
+01,Identification,001034,Identification of originating/generating sub-centre,,Common Code table C-12,0,0,8,Common Code table C-12,0,3,Operational
+01,Identification,001035,Originating centre,,Common Code table C-11,0,0,16,Common Code table C-11,0,5,Operational
+01,Identification,001036,Agency in charge of operating the observing platform,,Code table,0,0,20,Code table,0,7,Operational
+01,Identification,001037,SIGMET sequence identifier,,CCITT IA5,0,0,24,Character,0,3,Operational
+01,Identification,001038,Source of sea ice fraction,,Code table,0,0,5,Code table,0,2,Operational
+01,Identification,001039,Graphical Area Forecast (GFA) sequence identifier,,CCITT IA5,0,0,40,Character,0,5,Operational
+01,Identification,001040,Processing centre ID code,,CCITT IA5,0,0,48,Character,0,6,Operational
+01,Identification,001041,Absolute platform velocity - first component,(see Note 6),m/s,5,-1073741824,31,m/s,5,10,Operational
+01,Identification,001042,Absolute platform velocity - second component,(see Note 6),m/s,5,-1073741824,31,m/s,5,10,Operational
+01,Identification,001043,Absolute platform velocity - third component,(see Note 6),m/s,5,-1073741824,31,m/s,5,10,Operational
+01,Identification,001044,Standard generating application,,Code table,0,0,8,Code table,0,3,Operational
+01,Identification,001050,Platform transmitter ID number,,Numeric,0,0,17,Numeric,0,6,Operational
+01,Identification,001051,Platform transmitter ID number,,CCITT IA5,0,0,96,Character,0,12,Operational
+01,Identification,001052,Platform transmitter ID,,Code table,0,0,3,Code table,0,1,Operational
+01,Identification,001053,Tsunameter report sequence number triggered by a tsunami event,,Numeric,0,0,7,Numeric,0,2,Operational
+01,Identification,001060,Aircraft reporting point (Beacon identifier),,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001062,Short ICAO location indicator,,CCITT IA5,0,0,32,Character,0,4,Operational
+01,Identification,001063,ICAO location indicator,,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001064,Runway designator,,CCITT IA5,0,0,32,Character,0,4,Operational
+01,Identification,001065,ICAO region identifier,,CCITT IA5,0,0,256,Character,0,32,Operational
+01,Identification,001075,Tide station identification,,CCITT IA5,0,0,40,Character,0,5,Operational
+01,Identification,001079,Unique identifier for the profile,,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001080,Ship line number according to SOOP,,CCITT IA5,0,0,32,Character,0,4,Operational
+01,Identification,001081,Radiosonde serial number,,CCITT IA5,0,0,160,Character,0,20,Operational
+01,Identification,001082,Radiosonde ascension number,(see Note 12),Numeric,0,0,14,Numeric,0,4,Operational
+01,Identification,001083,Radiosonde release number,(see Note 12),Numeric,0,0,3,Numeric,0,1,Operational
+01,Identification,001085,Observing platform manufacturer's model,,CCITT IA5,0,0,160,Character,0,20,Operational
+01,Identification,001086,Observing platform manufacturer's serial number,,CCITT IA5,0,0,256,Character,0,32,Operational
+01,Identification,001087,WMO marine observing platform extended identifier,,Numeric,0,0,23,Numeric,0,7,Operational
+01,Identification,001090,Technique for making up initial perturbations,,Code table,0,0,8,Code table,0,3,Operational
+01,Identification,001091,Ensemble member number,,Numeric,0,0,10,Numeric,0,4,Operational
+01,Identification,001092,Type of ensemble forecast,,Code table,0,0,8,Code table,0,3,Operational
+01,Identification,001093,Balloon lot number,,CCITT IA5,0,0,96,Character,0,12,Operational
+01,Identification,001094,WBAN number,,Numeric,0,0,17,Numeric,0,5,Operational
+01,Identification,001095,Observer identification,,CCITT IA5,0,0,32,Character,0,4,Operational
+01,Identification,001096,Station acquisition,,CCITT IA5,0,0,160,Character,0,20,Operational
+01,Identification,001099,Unique product definition,,CCITT IA5,0,0,248,Character,0,31,Operational
+01,Identification,001101,State identifier,,Code table,0,0,10,Code table,0,3,Operational
+01,Identification,001102,National station number,,Numeric,0,0,30,Numeric,0,9,Operational
+01,Identification,001103,IMO Number. Unique Lloyd's register,,Numeric,0,0,24,Numeric,0,7,Operational
+01,Identification,001104,State/federal state identifier,,CCITT IA5,0,0,32,Character,0,4,Operational
+01,Identification,001105,Highway designator,,CCITT IA5,0,0,40,Character,0,5,Operational
+01,Identification,001106,Location along highway as indicated by position markers,,m,-2,0,14,m,-2,5,Operational
+01,Identification,001110,Aircraft tail number,,CCITT IA5,0,0,48,Character,0,6,Operational
+01,Identification,001111,Origination airport,,CCITT IA5,0,0,24,Character,0,3,Operational
+01,Identification,001112,Destination airport,,CCITT IA5,0,0,24,Character,0,3,Operational
+01,Identification,001113,Template version number defined by originating centre,,Numeric,1,0,9,Numeric,1,3,Operational
+01,Identification,001114,Encrypted ship or mobile land station identifier (base64 encoding),,CCITT IA5,0,0,352,Character,0,44,Operational
+01,Identification,001115,Identifier of the cruise or mission under which the data were collected,,CCITT IA5,0,0,160,Character,0,20,Operational
+01,Identification,001124,Grid point identifier,,Numeric,0,0,24,Numeric,0,8,Operational
+01,Identification,001125,WIGOS identifier series,,Numeric,0,0,4,Numeric,0,2,Operational
+01,Identification,001126,WIGOS issuer of identifier,,Numeric,0,0,16,Numeric,0,5,Operational
+01,Identification,001127,WIGOS issue number,,Numeric,0,0,16,Numeric,0,5,Operational
+01,Identification,001128,WIGOS local identifier (character),,CCITT IA5,0,0,128,Character,0,16,Operational
+01,Identification,001144,Snapshot identifier,,Numeric,0,0,31,Numeric,0,10,Operational
+01,Identification,001150,Coordinate reference system,,Code table,0,0,16,Code table,0,5,Operational
+01,Identification,001151,Fixed mean sea-level reference datum,,Code table,0,0,12,Code table,0,4,Operational
+01,Identification,001152,Semi-major axis of rotation ellipsoid,,m,2,0,31,m,2,11,Operational
+01,Identification,001153,Semi-minor axis of rotation ellipsoid,,m,2,0,31,m,2,11,Operational

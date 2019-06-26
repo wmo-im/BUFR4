@@ -1,0 +1,25 @@
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+00,BUFR/CREX table entries,000001,Table A: entry,,CCITT IA5,0,0,24,Character,0,3,Operational
+00,BUFR/CREX table entries,000002,"Table A: data category description, line 1",,CCITT IA5,0,0,256,Character,0,32,Operational
+00,BUFR/CREX table entries,000003,"Table A: data category description, line 2",,CCITT IA5,0,0,256,Character,0,32,Operational
+00,BUFR/CREX table entries,000004,BUFR/CREX Master table,(see Note 1),CCITT IA5,0,0,16,Character,0,2,Operational
+00,BUFR/CREX table entries,000005,BUFR/CREX edition number,,CCITT IA5,0,0,24,Character,0,3,Operational
+00,BUFR/CREX table entries,000006,BUFR Master table version number,(see Note 2),CCITT IA5,0,0,16,Character,0,2,Operational
+00,BUFR/CREX table entries,000007,CREX Master table version number,(see Note 3),CCITT IA5,0,0,16,Character,0,2,Operational
+00,BUFR/CREX table entries,000008,BUFR Local table version number,(see Note 4),CCITT IA5,0,0,16,Character,0,2,Operational
+00,BUFR/CREX table entries,000010,F descriptor to be added or defined,,CCITT IA5,0,0,8,Character,0,1,Operational
+00,BUFR/CREX table entries,000011,X descriptor to be added or defined,,CCITT IA5,0,0,16,Character,0,2,Operational
+00,BUFR/CREX table entries,000012,Y descriptor to be added or defined,,CCITT IA5,0,0,24,Character,0,3,Operational
+00,BUFR/CREX table entries,000013,"Element name, line 1",,CCITT IA5,0,0,256,Character,0,32,Operational
+00,BUFR/CREX table entries,000014,"Element name, line 2",,CCITT IA5,0,0,256,Character,0,32,Operational
+00,BUFR/CREX table entries,000015,Units name,,CCITT IA5,0,0,192,Character,0,24,Operational
+00,BUFR/CREX table entries,000016,Units scale sign,,CCITT IA5,0,0,8,Character,0,1,Operational
+00,BUFR/CREX table entries,000017,Units scale,,CCITT IA5,0,0,24,Character,0,3,Operational
+00,BUFR/CREX table entries,000018,Units reference sign,,CCITT IA5,0,0,8,Character,0,1,Operational
+00,BUFR/CREX table entries,000019,Units reference value,,CCITT IA5,0,0,80,Character,0,10,Operational
+00,BUFR/CREX table entries,000020,Element data width,,CCITT IA5,0,0,24,Character,0,3,Operational
+00,BUFR/CREX table entries,000024,Code figure,,CCITT IA5,0,0,64,Character,0,8,Operational
+00,BUFR/CREX table entries,000025,Code figure meaning,,CCITT IA5,0,0,496,Character,0,62,Operational
+00,BUFR/CREX table entries,000026,Bit number,,CCITT IA5,0,0,48,Character,0,6,Operational
+00,BUFR/CREX table entries,000027,Bit number meaning,,CCITT IA5,0,0,496,Character,0,62,Operational
+00,BUFR/CREX table entries,000030,Descriptor defining sequence,,CCITT IA5,0,0,48,Character,0,6,Operational

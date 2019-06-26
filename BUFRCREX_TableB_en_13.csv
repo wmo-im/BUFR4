@@ -1,0 +1,77 @@
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+13,Hydrographic and hydrological elements,013001,Specific humidity,,kg/kg,5,0,14,kg/kg,5,5,Operational
+13,Hydrographic and hydrological elements,013002,Mixing ratio,,kg/kg,5,0,14,kg/kg,5,5,Operational
+13,Hydrographic and hydrological elements,013003,Relative humidity,,%,0,0,7,%,0,3,Operational
+13,Hydrographic and hydrological elements,013004,Vapour pressure,,Pa,-1,0,10,Pa,-1,4,Operational
+13,Hydrographic and hydrological elements,013005,Vapour density,,kg m-3,3,0,7,kg m-3,3,3,Operational
+13,Hydrographic and hydrological elements,013006,Mixing heights,,m,-1,-40,16,m,-1,5,Operational
+13,Hydrographic and hydrological elements,013007,Minimum relative humidity,,%,0,0,7,%,0,3,Operational
+13,Hydrographic and hydrological elements,013008,Maximum relative humidity,,%,0,0,7,%,0,3,Operational
+13,Hydrographic and hydrological elements,013009,Relative humidity,(see Note 6),%,1,-1000,12,%,1,4,Operational
+13,Hydrographic and hydrological elements,013011,Total precipitation/total water equivalent,,kg m-2,1,-1,14,kg m-2,1,5,Operational
+13,Hydrographic and hydrological elements,013012,Depth of fresh snow,,m,2,-2,12,m,2,4,Operational
+13,Hydrographic and hydrological elements,013013,Total snow depth,,m,2,-2,16,m,2,5,Operational
+13,Hydrographic and hydrological elements,013014,Rainfall/water equivalent of snow (averaged rate),,kg m-2 s-1,4,0,12,kg m-2 s-1,4,4,Operational
+13,Hydrographic and hydrological elements,013015,Snowfall (averaged rate),,m/s,7,0,12,m/s,7,4,Operational
+13,Hydrographic and hydrological elements,013016,Precipitable water,,kg m-2,0,0,7,kg m-2,0,3,Operational
+13,Hydrographic and hydrological elements,013019,Total precipitation past 1 hour,,kg m-2,1,-1,14,kg m-2,1,4,Operational
+13,Hydrographic and hydrological elements,013020,Total precipitation past 3 hours,,kg m-2,1,-1,14,kg m-2,1,5,Operational
+13,Hydrographic and hydrological elements,013021,Total precipitation past 6 hours,,kg m-2,1,-1,14,kg m-2,1,5,Operational
+13,Hydrographic and hydrological elements,013022,Total precipitation past 12 hours,,kg m-2,1,-1,14,kg m-2,1,5,Operational
+13,Hydrographic and hydrological elements,013023,Total precipitation past 24 hours,,kg m-2,1,-1,14,kg m-2,1,5,Operational
+13,Hydrographic and hydrological elements,013031,Evapotranspiration,,kg m-2,0,0,7,kg m-2,0,3,Operational
+13,Hydrographic and hydrological elements,013032,Evaporation/evapotranspiration,(see Note 5),kg m-2,1,0,8,kg m-2,1,3,Operational
+13,Hydrographic and hydrological elements,013033,Evaporation/evapotranspiration,,kg m-2,1,0,10,kg m-2,1,4,Operational
+13,Hydrographic and hydrological elements,013038,Superadiabatic indicator,,Code table,0,0,2,Code table,0,1,Operational
+13,Hydrographic and hydrological elements,013039,Terrain type (ice/snow),,Code table,0,0,3,Code table,0,1,Operational
+13,Hydrographic and hydrological elements,013040,Surface flag,,Code table,0,0,4,Code table,0,2,Operational
+13,Hydrographic and hydrological elements,013041,Pasquill-Gifford stability category,,Code table,0,0,4,Code table,0,2,Operational
+13,Hydrographic and hydrological elements,013042,Parcel lifted index (to 500 hPa),(see Notes 3 and 4),K,0,-20,6,K,0,2,Operational
+13,Hydrographic and hydrological elements,013043,Best lifted index (to 500 hPa),(see Notes 3 and 4),K,0,-20,6,K,0,2,Operational
+13,Hydrographic and hydrological elements,013044,K index,,K,0,-30,8,K,0,3,Operational
+13,Hydrographic and hydrological elements,013045,KO index,,K,0,-30,8,K,0,3,Operational
+13,Hydrographic and hydrological elements,013046,Maximum buoyancy,,K,0,-30,8,K,0,3,Operational
+13,Hydrographic and hydrological elements,013047,Modified Showalter stability index,(see Note 7),K,0,-60,6,C,0,2,Operational
+13,Hydrographic and hydrological elements,013048,Water fraction,,%,1,0,10,%,1,4,Operational
+13,Hydrographic and hydrological elements,013051,"Frequency group, precipitation",,Code table,0,0,4,Code table,0,2,Operational
+13,Hydrographic and hydrological elements,013052,Highest daily amount of precipitation,,kg m-2,1,-1,14,kg m-2,1,5,Operational
+13,Hydrographic and hydrological elements,013055,Intensity of precipitation,,kg m-2 s-1,4,0,8,mm/h,1,4,Operational
+13,Hydrographic and hydrological elements,013056,Character and intensity of precipitation,,Code table,0,0,4,Code table,0,2,Operational
+13,Hydrographic and hydrological elements,013057,Time of beginning or end of precipitation,,Code table,0,0,4,Code table,0,2,Operational
+13,Hydrographic and hydrological elements,013058,Size of precipitating element,,m,4,0,7,mm,1,3,Operational
+13,Hydrographic and hydrological elements,013059,Number of flashes (thunderstorm),,Numeric,0,0,7,Numeric,0,3,Operational
+13,Hydrographic and hydrological elements,013060,Total accumulated precipitation,,kg m-2,1,-1,17,kg m-2,1,5,Operational
+13,Hydrographic and hydrological elements,013071,Upstream water level,,m,2,0,14,m,2,4,Operational
+13,Hydrographic and hydrological elements,013072,Downstream water level,,m,2,0,14,m,2,4,Operational
+13,Hydrographic and hydrological elements,013073,Maximum water level,,m,2,0,14,m,2,4,Operational
+13,Hydrographic and hydrological elements,013074,Ground water level,,m,2,0,18,m,2,6,Operational
+13,Hydrographic and hydrological elements,013080,Water pH,,pH unit,1,0,10,pH unit,1,3,Operational
+13,Hydrographic and hydrological elements,013081,Water conductivity,,S/m,3,0,14,S/m,3,4,Operational
+13,Hydrographic and hydrological elements,013082,Water temperature,,K,1,0,12,K,1,4,Operational
+13,Hydrographic and hydrological elements,013083,Dissolved oxygen,,kg m-3,6,0,15,kg m-3,6,5,Operational
+13,Hydrographic and hydrological elements,013084,Turbidity,,lm,0,0,14,lm,0,4,Operational
+13,Hydrographic and hydrological elements,013085,Oxidation Reduction Potential (ORP),,V,3,0,14,V,3,4,Operational
+13,Hydrographic and hydrological elements,013090,Radiometer water vapour content,,kg m-2,1,0,10,kg m-2,1,4,Operational
+13,Hydrographic and hydrological elements,013091,Radiometer liquid content,,kg m-2,2,0,8,kg m-2,2,3,Operational
+13,Hydrographic and hydrological elements,013093,Cloud optical thickness,,Numeric,0,0,8,Numeric,0,3,Operational
+13,Hydrographic and hydrological elements,013095,Total column water vapour,,kg m-2,4,0,19,kg m-2,4,6,Operational
+13,Hydrographic and hydrological elements,013096,MWR water vapour content,,kg m-2,2,0,14,kg m-2,2,5,Operational
+13,Hydrographic and hydrological elements,013097,MWR liquid water content,,kg m-2,2,0,14,kg m-2,2,5,Operational
+13,Hydrographic and hydrological elements,013098,Integrated water vapour density,,kg m-2,8,0,30,kg m-2,8,10,Operational
+13,Hydrographic and hydrological elements,013099,Log10 of integrated cloud particle density,,log(m-2),1,0,7,log(m-2),1,3,Operational
+13,Hydrographic and hydrological elements,013100,Log10 of integrated cloud particle area,,log(m2 m-2),1,-70,7,log(m2 m-2),1,2,Operational
+13,Hydrographic and hydrological elements,013101,Log10 of integrated cloud particle volume,,log(m3 m-2),1,-140,7,log(m3 m-2),1,3,Operational
+13,Hydrographic and hydrological elements,013109,Ice/liquid water path,,kg m-2,3,0,10,kg m-2,3,4,Operational
+13,Hydrographic and hydrological elements,013110,Mass mixing ratio,,%,0,0,7,%,0,3,Operational
+13,Hydrographic and hydrological elements,013111,Soil moisture,,g/kg,0,0,10,g/kg,0,4,Operational
+13,Hydrographic and hydrological elements,013112,Object wetness duration,,s,0,0,17,s,0,5,Operational
+13,Hydrographic and hydrological elements,013114,Rate of ice accretion,,kg m-2 h-1,1,0,11,kg m-2 h-1,1,4,Operational
+13,Hydrographic and hydrological elements,013115,Ice thickness,(see Note 9),m,2,0,19,m,2,6,Operational
+13,Hydrographic and hydrological elements,013116,Water film thickness,,m,4,0,10,m,3,2,Operational
+13,Hydrographic and hydrological elements,013117,Snow density (liquid water content),,kg m-3,0,0,10,kg m-3,0,3,Operational
+13,Hydrographic and hydrological elements,013118,Depth of fresh snow (high accuracy),(see Note 10),m,3,-2,14,m,3,5,Operational
+13,Hydrographic and hydrological elements,013155,Intensity of precipitation (high accuracy),(see Note 8),kg m-2 s-1,5,-1,16,mm/h,2,5,Operational
+13,Hydrographic and hydrological elements,013160,Radiometer liquid content,,kg m-2,2,-350,10,kg m-2,2,3,Operational
+13,Hydrographic and hydrological elements,013162,Cloud liquid water,,kg m-2,2,0,8,kg m-2,2,3,Operational
+13,Hydrographic and hydrological elements,013163,Snow Water Equivalent,,kg m-2,0,0,16,kg m-2,0,5,Operational
+13,Hydrographic and hydrological elements,013164,Sea ice freeboard,,m,3,-131072,18,m,3,6,Operational

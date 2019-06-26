@@ -1,0 +1,645 @@
+Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
+02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010004,Pressure,Station level,,Operational
+02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010051,Pressure reduced to mean sea level,,,Operational
+02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010061,3-hour pressure change,,,Operational
+02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010063,Characteristic of pressure tendency,,,Operational
+02,Meteorological sequences common to surface data,302002,(High altitude station),,010004,Pressure,Station level,,Operational
+02,Meteorological sequences common to surface data,302002,(High altitude station),,007004,Pressure,Pressure level,,Operational
+02,Meteorological sequences common to surface data,302002,(High altitude station),,010003,Geopotential,Pressure level,,Operational
+02,Meteorological sequences common to surface data,302002,(High altitude station),,010061,3-hour pressure change,,,Operational
+02,Meteorological sequences common to surface data,302002,(High altitude station),,010063,Characteristic of pressure tendency,,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,011011,Wind direction at 10 m,,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,011012,Wind speed at 10 m,,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,012004,Air temperature at 2 m,,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,012006,Dewpoint temperature at 2 m,,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,013003,Relative humidity,,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,020001,Horizontal visibility,,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,020003,Present weather,,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,020004,Past weather (1),,,Operational
+02,Meteorological sequences common to surface data,302003,"(Wind, temperature, humidity, visibility, weather)",,020005,Past weather (2),,,Operational
+02,Meteorological sequences common to surface data,302004,(General cloud information),,020010,Cloud cover (total),,,Operational
+02,Meteorological sequences common to surface data,302004,(General cloud information),,008002,Vertical significance (surface observations),,,Operational
+02,Meteorological sequences common to surface data,302004,(General cloud information),,020011,Cloud amount,,,Operational
+02,Meteorological sequences common to surface data,302004,(General cloud information),,020013,Height of base of cloud,,,Operational
+02,Meteorological sequences common to surface data,302004,(General cloud information),,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302004,(General cloud information),,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302004,(General cloud information),,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302005,(Cloud layer),,008002,Vertical significance (surface observations),,,Operational
+02,Meteorological sequences common to surface data,302005,(Cloud layer),,020011,Cloud amount,,,Operational
+02,Meteorological sequences common to surface data,302005,(Cloud layer),,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302005,(Cloud layer),,020013,Height of base of cloud,,,Operational
+02,Meteorological sequences common to surface data,302006,(Pressure and 24-hour pressure change),,010004,Pressure,Station level,,Operational
+02,Meteorological sequences common to surface data,302006,(Pressure and 24-hour pressure change),,010051,Pressure reduced to mean sea level,,,Operational
+02,Meteorological sequences common to surface data,302006,(Pressure and 24-hour pressure change),,010062,24-hour pressure change,,,Operational
+02,Meteorological sequences common to surface data,302006,(Pressure and 24-hour pressure change),,010063,Characteristic of pressure tendency,,,Operational
+02,Meteorological sequences common to surface data,302011,(Low altitude station),,302001,Pressure and 3-hour pressure change,,,Operational
+02,Meteorological sequences common to surface data,302011,(Low altitude station),,302003,"Wind, temperature, humidity, visibility, weather",,,Operational
+02,Meteorological sequences common to surface data,302011,(Low altitude station),,302004,General cloud information,Significant cloud layer,,Operational
+02,Meteorological sequences common to surface data,302012,(High altitude station),,302002,High altitude station,Pressure and pressure change,,Operational
+02,Meteorological sequences common to surface data,302012,(High altitude station),,302003,"Wind, temperature, humidity, visibility, weather",,,Operational
+02,Meteorological sequences common to surface data,302012,(High altitude station),,302004,General cloud information,Significant cloud layer,,Operational
+02,Meteorological sequences common to surface data,302013,(Basic surface report),,302006,Pressure and 24-hour pressure change,,,Operational
+02,Meteorological sequences common to surface data,302013,(Basic surface report),,302003,"Wind, temperature, humidity, visibility, weather",,,Operational
+02,Meteorological sequences common to surface data,302013,(Basic surface report),,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302013,(Basic surface report),,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302013,(Basic surface report),,302005,Cloud layer,,,Operational
+02,Meteorological sequences common to surface data,302021,(Waves),,022001,Direction of waves,,,Operational
+02,Meteorological sequences common to surface data,302021,(Waves),,022011,Period of waves,,,Operational
+02,Meteorological sequences common to surface data,302021,(Waves),,022021,Height of waves,,,Operational
+02,Meteorological sequences common to surface data,302022,(Wind waves),,022002,Direction of wind waves,,,Operational
+02,Meteorological sequences common to surface data,302022,(Wind waves),,022012,Period of wind waves,,,Operational
+02,Meteorological sequences common to surface data,302022,(Wind waves),,022022,Height of wind waves,,,Operational
+02,Meteorological sequences common to surface data,302023,(Swell waves),,022003,Direction of swell waves,,,Operational
+02,Meteorological sequences common to surface data,302023,(Swell waves),,022013,Period of swell waves,,,Operational
+02,Meteorological sequences common to surface data,302023,(Swell waves),,022023,Height of swell waves,,,Operational
+02,Meteorological sequences common to surface data,302024,(Wind and swell waves),,302022,Wind waves,,,Operational
+02,Meteorological sequences common to surface data,302024,(Wind and swell waves),,101002,Replicate 1 descriptor 2 times,,,Operational
+02,Meteorological sequences common to surface data,302024,(Wind and swell waves),,302023,Swell waves,2 systems of swell,,Operational
+02,Meteorological sequences common to surface data,302031,(Pressure information),,302001,Pressure and 3-hour pressure change,,,Operational
+02,Meteorological sequences common to surface data,302031,(Pressure information),,010062,24-hour pressure change,,,Operational
+02,Meteorological sequences common to surface data,302031,(Pressure information),,007004,Pressure,Standard level,,Operational
+02,Meteorological sequences common to surface data,302031,(Pressure information),,010009,Geopotential height,,,Operational
+02,Meteorological sequences common to surface data,302032,(Temperature and humidity data),,007032,Height of sensor above local ground (or deck of marine platform),Temperature and humidity measurement,,Operational
+02,Meteorological sequences common to surface data,302032,(Temperature and humidity data),,012101,Temperature/air temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302032,(Temperature and humidity data),,012103,Dewpoint temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302032,(Temperature and humidity data),,013003,Relative humidity,,,Operational
+02,Meteorological sequences common to surface data,302033,(Visibility data),,007032,Height of sensor above local ground (or deck of marine platform),Visibility measurement,,Operational
+02,Meteorological sequences common to surface data,302033,(Visibility data),,020001,Horizontal visibility,,,Operational
+02,Meteorological sequences common to surface data,302034,(Precipitation past 24 hours),,007032,Height of sensor above local ground (or deck of marine platform),Precipitation measurement,,Operational
+02,Meteorological sequences common to surface data,302034,(Precipitation past 24 hours),,013023,Total precipitation past 24 hours,,,Operational
+02,Meteorological sequences common to surface data,302035,"(Basic synoptic ""instantaneous"" data)",,302032,Temperature and humidity data,,,Operational
+02,Meteorological sequences common to surface data,302035,"(Basic synoptic ""instantaneous"" data)",,302033,Visibility data,,,Operational
+02,Meteorological sequences common to surface data,302035,"(Basic synoptic ""instantaneous"" data)",,302034,Precipitation past 24 hours,,,Operational
+02,Meteorological sequences common to surface data,302035,"(Basic synoptic ""instantaneous"" data)",,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302035,"(Basic synoptic ""instantaneous"" data)",,302004,General cloud information,,,Operational
+02,Meteorological sequences common to surface data,302035,"(Basic synoptic ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302035,"(Basic synoptic ""instantaneous"" data)",,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302035,"(Basic synoptic ""instantaneous"" data)",,302005,Cloud layer,Individual cloud layer or mass,,Operational
+02,Meteorological sequences common to surface data,302036,(Clouds with bases below station level),,105000,Delayed replication of 5 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302036,(Clouds with bases below station level),,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302036,(Clouds with bases below station level),,008002,Vertical significance (surface observations),,,Operational
+02,Meteorological sequences common to surface data,302036,(Clouds with bases below station level),,020011,Cloud amount,,,Operational
+02,Meteorological sequences common to surface data,302036,(Clouds with bases below station level),,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302036,(Clouds with bases below station level),,020014,Height of top of cloud,,,Operational
+02,Meteorological sequences common to surface data,302036,(Clouds with bases below station level),,020017,Cloud top description,,,Operational
+02,Meteorological sequences common to surface data,302037,"(State of ground, snow depth, ground minimum temperature)",,020062,State of the ground (with or without snow),,,Operational
+02,Meteorological sequences common to surface data,302037,"(State of ground, snow depth, ground minimum temperature)",,013013,Total snow depth,,,Operational
+02,Meteorological sequences common to surface data,302037,"(State of ground, snow depth, ground minimum temperature)",,012113,"Ground minimum temperature, past 12 hours",Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302038,(Present and past weather),,020003,Present weather,,,Operational
+02,Meteorological sequences common to surface data,302038,(Present and past weather),,004024,Time period or displacement,Hours,,Operational
+02,Meteorological sequences common to surface data,302038,(Present and past weather),,020004,Past weather (1),,,Operational
+02,Meteorological sequences common to surface data,302038,(Present and past weather),,020005,Past weather (2),,,Operational
+02,Meteorological sequences common to surface data,302039,(Sunshine data (from 1 hour and 24 hour period)),,004024,Time period or displacement,Hours,,Operational
+02,Meteorological sequences common to surface data,302039,(Sunshine data (from 1 hour and 24 hour period)),,014031,Total sunshine,,,Operational
+02,Meteorological sequences common to surface data,302040,(Precipitation measurement),,007032,Height of sensor above local ground (or deck of marine platform),Precipitation measurement,,Operational
+02,Meteorological sequences common to surface data,302040,(Precipitation measurement),,102002,Replicate 2 descriptors 2 times,,,Operational
+02,Meteorological sequences common to surface data,302040,(Precipitation measurement),,004024,Time period or displacement,Hours,,Operational
+02,Meteorological sequences common to surface data,302040,(Precipitation measurement),,013011,Total precipitation/total water equivalent,,,Operational
+02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,007032,Height of sensor above local ground (or deck of marine platform),Temperature measurement,,Operational
+02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,(see Notes 1 and 2),Operational
+02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,012111,"Maximum temperature, at height and over period specified",Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,004024,Time period or displacement,,(see Note 2),Operational
+02,Meteorological sequences common to surface data,302041,(Extreme temperature data),,012112,"Minimum temperature, at height and over period specified",Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,007032,Height of sensor above local ground (or deck of marine platform),Wind measurement,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,002002,Type of instrumentation for wind measurement,,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,008021,Time significance,= 2 Time averaged,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,004025,Time period or displacement,"= -10 minutes, or number of minutes after a significant change of wind",,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,011001,Wind direction,,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,011002,Wind speed,,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,008021,Time significance,Set to missing,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,103002,Replicate 3 descriptors 2 times,,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,004025,Time period or displacement,Minutes,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,011043,Maximum wind gust direction,,,Operational
+02,Meteorological sequences common to surface data,302042,(Wind data),,011041,Maximum wind gust speed,,,Operational
+02,Meteorological sequences common to surface data,302043,"(Basic synoptic ""period"" data)",,302038,Present and past weather,,,Operational
+02,Meteorological sequences common to surface data,302043,"(Basic synoptic ""period"" data)",,101002,Replicate 1 descriptor 2 times,,,Operational
+02,Meteorological sequences common to surface data,302043,"(Basic synoptic ""period"" data)",,302039,Sunshine data (from 1 hour and 24 hour period),,,Operational
+02,Meteorological sequences common to surface data,302043,"(Basic synoptic ""period"" data)",,302040,Precipitation measurement,,,Operational
+02,Meteorological sequences common to surface data,302043,"(Basic synoptic ""period"" data)",,302041,Extreme temperature data,,,Operational
+02,Meteorological sequences common to surface data,302043,"(Basic synoptic ""period"" data)",,302042,Wind data,,,Operational
+02,Meteorological sequences common to surface data,302043,"(Basic synoptic ""period"" data)",,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302044,(Evaporation data),,004024,Time period or displacement,Hours,,Operational
+02,Meteorological sequences common to surface data,302044,(Evaporation data),,002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,,,Operational
+02,Meteorological sequences common to surface data,302044,(Evaporation data),,013033,Evaporation/evapotranspiration,,,Operational
+02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,004024,Time period or displacement,Hours,,Operational
+02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,014002,"Long-wave radiation, integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,014004,"Short-wave radiation, integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,014016,"Net radiation, integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,014028,"Global solar radiation (high accuracy), integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,014029,"Diffuse solar radiation (high accuracy), integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302045,(Radiation data (from 1 hour and 24 hour period)),,014030,"Direct solar radiation (high accuracy), integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302046,(Temperature change),,004024,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302046,(Temperature change),,004024,Time period or displacement,,(see Note 3),Operational
+02,Meteorological sequences common to surface data,302046,(Temperature change),,012049,Temperature change over specified period,,,Operational
+02,Meteorological sequences common to surface data,302047,(Direction of cloud drift),,102003,Replicate 2 descriptors 3 times,,,Operational
+02,Meteorological sequences common to surface data,302047,(Direction of cloud drift),,008002,Vertical significance (surface observations),,,Operational
+02,Meteorological sequences common to surface data,302047,(Direction of cloud drift),,020054,True direction from which a phenomenon or clouds are moving or in which they are observed,,,Operational
+02,Meteorological sequences common to surface data,302048,(Direction and elevation of cloud),,005021,Bearing or azimuth,,,Operational
+02,Meteorological sequences common to surface data,302048,(Direction and elevation of cloud),,007021,Elevation,Elevation angle,,Operational
+02,Meteorological sequences common to surface data,302048,(Direction and elevation of cloud),,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302048,(Direction and elevation of cloud),,005021,Bearing or azimuth,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302048,(Direction and elevation of cloud),,007021,Elevation,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302049,(Cloud information reported with vertical soundings),,008002,Vertical significance (surface observations),,,Operational
+02,Meteorological sequences common to surface data,302049,(Cloud information reported with vertical soundings),,020011,Cloud amount,Low or middle clouds Nh,,Operational
+02,Meteorological sequences common to surface data,302049,(Cloud information reported with vertical soundings),,020013,Height of base of cloud,h,,Operational
+02,Meteorological sequences common to surface data,302049,(Cloud information reported with vertical soundings),,020012,Cloud type,Low clouds CL,,Operational
+02,Meteorological sequences common to surface data,302049,(Cloud information reported with vertical soundings),,020012,Cloud type,Middle clouds CM,,Operational
+02,Meteorological sequences common to surface data,302049,(Cloud information reported with vertical soundings),,020012,Cloud type,High clouds CH,,Operational
+02,Meteorological sequences common to surface data,302049,(Cloud information reported with vertical soundings),,008002,Vertical significance (surface observations),Set to missing,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,008041,Data significance,= 5 Surface observation displacement from launch point,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,005021,Bearing or azimuth,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,007005,Height increment,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,202130,Change scale,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,006021,Distance,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,202000,Change scale,Cancel,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,008041,Data significance,= 4 Surface observation,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,201131,Change data width,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,202129,Change scale,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,002115,Type of surface observing equipment,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,010004,Pressure,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,002115,Type of surface observing equipment,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,013003,Relative humidity,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,202000,Change scale,Cancel,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,201000,Change data width,Cancel,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,002115,Type of surface observing equipment,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,011001,Wind direction,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,011002,Wind speed,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,002115,Type of surface observing equipment,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,102002,Replicate 2 descriptors 2 times,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,012101,Temperature/air temperature,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,004024,Time period or displacement,Hours,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,002115,Type of surface observing equipment,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,012103,Dewpoint temperature,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,012102,Wet-bulb temperature,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,101003,Replicate 1 descriptor 3 times,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,020011,Cloud amount,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,020013,Height of base of cloud,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,101002,Replicate 1 descriptor 2 times,,,Operational
+02,Meteorological sequences common to surface data,302050,(Radiosonde surface observation),,020003,Present weather,,,Operational
+02,Meteorological sequences common to surface data,302051,,,010004,Pressure,,,Operational
+02,Meteorological sequences common to surface data,302051,,,010051,Pressure reduced to mean sea level,,,Operational
+02,Meteorological sequences common to surface data,302051,,,007004,Pressure,Vertical location,,Operational
+02,Meteorological sequences common to surface data,302051,,,010003,Geopotential,,,Operational
+02,Meteorological sequences common to surface data,302051,,,012004,Air temperature at 2 m,,,Operational
+02,Meteorological sequences common to surface data,302051,,,012051,Standard deviation temperature,,,Operational
+02,Meteorological sequences common to surface data,302051,,,012016,"Maximum temperature at 2 m, past 24 hours",,,Operational
+02,Meteorological sequences common to surface data,302051,,,012017,"Minimum temperature at 2 m, past 24 hours",,,Operational
+02,Meteorological sequences common to surface data,302051,,,013004,Vapour pressure,,,Operational
+02,Meteorological sequences common to surface data,302051,,,102004,Replicate 2 descriptors 4 times,,,Operational
+02,Meteorological sequences common to surface data,302051,,,008051,Qualifier for number of missing values in calculation of statistic,,,Operational
+02,Meteorological sequences common to surface data,302051,,,008020,Total number of missing entities (with respect to accumulation or average),,,Operational
+02,Meteorological sequences common to surface data,302052,(Ship temperature and humidity data),,007032,Height of sensor above local ground (or deck of marine platform),Temperature and humidity measurement,,Operational
+02,Meteorological sequences common to surface data,302052,(Ship temperature and humidity data),,007033,Height of sensor above water surface,Temperature and humidity measurement,,Operational
+02,Meteorological sequences common to surface data,302052,(Ship temperature and humidity data),,012101,Temperature/air temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302052,(Ship temperature and humidity data),,002039,Method of wet-bulb temperature measurement,,,Operational
+02,Meteorological sequences common to surface data,302052,(Ship temperature and humidity data),,012102,Wet-bulb temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302052,(Ship temperature and humidity data),,012103,Dewpoint temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302052,(Ship temperature and humidity data),,013003,Relative humidity,,,Operational
+02,Meteorological sequences common to surface data,302053,(Ship visibility data),,007032,Height of sensor above local ground (or deck of marine platform),Visibility measurement,,Operational
+02,Meteorological sequences common to surface data,302053,(Ship visibility data),,007033,Height of sensor above water surface,Visibility measurement,,Operational
+02,Meteorological sequences common to surface data,302053,(Ship visibility data),,020001,Horizontal visibility,,,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,302052,Ship temperature and humidity data,,,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,302053,Ship visibility data,,,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,007033,Height of sensor above water surface,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,302034,Precipitation past 24 hours,,,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,302004,General cloud information,,,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302054,"(Ship ""instantaneous"" data)",,302005,Cloud layer,,,Operational
+02,Meteorological sequences common to surface data,302055,(Icing and ice),,020031,Ice deposit (thickness),,,Operational
+02,Meteorological sequences common to surface data,302055,(Icing and ice),,020032,Rate of ice accretion (estimated),,,Operational
+02,Meteorological sequences common to surface data,302055,(Icing and ice),,020033,Cause of ice accretion,,,Operational
+02,Meteorological sequences common to surface data,302055,(Icing and ice),,020034,Sea ice concentration,,,Operational
+02,Meteorological sequences common to surface data,302055,(Icing and ice),,020035,Amount and type of ice,,,Operational
+02,Meteorological sequences common to surface data,302055,(Icing and ice),,020036,Ice situation,,,Operational
+02,Meteorological sequences common to surface data,302055,(Icing and ice),,020037,Ice development,,,Operational
+02,Meteorological sequences common to surface data,302055,(Icing and ice),,020038,Bearing of ice edge,,,Operational
+02,Meteorological sequences common to surface data,302056,(Sea/water temperature),,002038,Method of water temperature and/or salinity measurement,,,Operational
+02,Meteorological sequences common to surface data,302056,(Sea/water temperature),,007063,Depth below sea/water surface (cm),Sea-surface temperature measurement,,Operational
+02,Meteorological sequences common to surface data,302056,(Sea/water temperature),,022043,Sea/water temperature,,,Operational
+02,Meteorological sequences common to surface data,302056,(Sea/water temperature),,007063,Depth below sea/water surface (cm),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302057,(Ship marine data),,302056,Sea/water temperature,"Sea-surface temperature, method of measurement, and depth below sea surface",,Operational
+02,Meteorological sequences common to surface data,302057,(Ship marine data),,302021,Waves,,,Operational
+02,Meteorological sequences common to surface data,302057,(Ship marine data),,302024,Wind and swell waves,,,Operational
+02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,007032,Height of sensor above local ground (or deck of marine platform),Temperature measurement,,Operational
+02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,007033,Height of sensor above water surface,Temperature measurement,,Operational
+02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,(see Notes 1 and 2),Operational
+02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,012111,"Maximum temperature, at height and over period specified",Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,004024,Time period or displacement,,(see Note 2),Operational
+02,Meteorological sequences common to surface data,302058,(Ship extreme temperature data),,012112,"Minimum temperature, at height and over period specified",Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,007032,Height of sensor above local ground (or deck of marine platform),Wind measurement,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,007033,Height of sensor above water surface,Wind measurement,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,002002,Type of instrumentation for wind measurement,,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,008021,Time significance,= 2 Time averaged,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,004025,Time period or displacement,"= -10 minutes, or number of minutes after a significant change of wind",,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,011001,Wind direction,,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,011002,Wind speed,,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,008021,Time significance,Set to missing,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,103002,Replicate 3 descriptors 2 times,,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,004025,Time period or displacement,Minutes,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,011043,Maximum wind gust direction,,,Operational
+02,Meteorological sequences common to surface data,302059,(Ship wind data),,011041,Maximum wind gust speed,,,Operational
+02,Meteorological sequences common to surface data,302060,"(Ship ""period"" data)",,302038,Present and past weather,,,Operational
+02,Meteorological sequences common to surface data,302060,"(Ship ""period"" data)",,302040,Precipitation measurement,,,Operational
+02,Meteorological sequences common to surface data,302060,"(Ship ""period"" data)",,302058,Ship extreme temperature data,,,Operational
+02,Meteorological sequences common to surface data,302060,"(Ship ""period"" data)",,302059,Ship wind data,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,025188,Method for reducing pressure to sea level,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302001,Pressure and 3-hour pressure change,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302093,Extended ship temperature and humidity data,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302053,Ship visibility data,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,007033,Height of sensor above water surface,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302004,General cloud information,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302005,Cloud layer,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,008002,Vertical significance (surface observations),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302055,Icing and ice,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302056,Sea/water temperature,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302021,Waves,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302062,"(Ship ""instantaneous"" data)",,302024,Wind and swell waves,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,302038,Present and past weather,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,302040,Precipitation measurement,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,302034,Precipitation past 24 hours,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,302058,Ship extreme temperature data,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302063,"(Ship ""period"" data)",,302064,Ship or other marine platform wind data,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,002002,Type of instrumentation for wind measurement,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,008021,Time significance,= 2 Time averaged,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,011001,Wind direction,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,011002,Wind speed,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,008021,Time significance,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,103000,Delayed replication of 3 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,011043,Maximum wind gust direction,,,Operational
+02,Meteorological sequences common to surface data,302064,(Ship or other marine platform wind data),,011041,Maximum wind gust speed,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020023,Other weather phenomena,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020024,Intensity of phenomena,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020027,Phenomena occurrence,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020054,True direction from which a phenomenon or clouds are moving or in which they are observed,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020023,Other weather phenomena,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020027,Phenomena occurrence,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020054,True direction from which a phenomenon or clouds are moving or in which they are observed,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020025,Obscuration,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020026,Character of obscuration,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020027,Phenomena occurrence,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020040,Evolution of drift snow,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020066,Maximum diameter of hailstones,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020027,Phenomena occurrence,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020021,Type of precipitation,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020067,Diameter of deposit,,,Operational
+02,Meteorological sequences common to surface data,302066,(Dangerous weather phenomena),,020027,Phenomena occurrence,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),,001023,Observation sequence number,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional “instantaneous” data,004025,Time period or displacement,= 0 minutes,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional “instantaneous” data,002177,Method of snow depth measurement,"= 0 Manual observation, = 1 Ultrasonic method, = 2 Video camera method, = 3 Laser method, 4-13 Reserved, = 14 Others, = 15 Missing value",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional present weather,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional present weather,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional present weather,020003,Present weather,"960ww, 961ww",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Visibility in different directions,103000,Delayed replication of 3 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Visibility in different directions,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Visibility in different directions,005021,Bearing or azimuth,981VV-988VV,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Visibility in different directions,020001,Horizontal visibility,VV,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Visibility in different directions,005021,Bearing or azimuth,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),302056,Sea/water temperature,"Sea-surface temperature, method of measurement, and depth below sea surface",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),103000,Delayed replication of 3 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),033041,Attribute of following value,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),020058,Visibility seawards from a coastal station,980VsVs,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),022061,State of the sea,924SVs,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),302022,Wind waves,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Sea data (observations from a coastal station),302023,Swell waves,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,104000,Delayed replication of 4 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,020054,True direction from which a phenomenon or clouds are moving or in which they are observed,"Da, Dp",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,020137,Evolution of clouds,940Cn3,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,020012,Cloud type,"941CDp, 943CLDp",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,020090,Special clouds,993CsDa,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,103000,Delayed replication of 3 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,020054,True direction from which a phenomenon or clouds are moving or in which they are observed,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,020137,Evolution of clouds,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Clouds,020136,Supplementary cloud type,"948C0Da, 949CaDa, 950Nmn3, 951Nvn4",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),"Additional ""period"" data",004025,Time period or displacement,Reference period of fresh fallen snow,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),"Additional ""period"" data",013012,Depth of fresh snow,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional wind data,004025,Time period or displacement,= -60 minutes,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional wind data,011042,Maximum wind speed (10-minute mean wind),912ff 902tt 912ff .. mandatory ff >= 18,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional wind data,104000,Delayed replication of 4 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional wind data,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional wind data,008021,Time significance,"= 30 Time of occurrence, = 17 Start of phenomenon",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional wind data,004025,Time period or displacement,= -xx | 902tt,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional wind data,011042,Maximum wind speed (10-minute mean wind),912ff,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional wind data,008021,Time significance,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,115000,Delayed replication of 15 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,008021,Time significance,"= 30 Time of occurrence, = 17 Start of phenomenon",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,004015,Time increment,= -xx1,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,008021,Time significance,= 2 Time averaged,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,004025,Time period or displacement,"= -10 minutes, or number of minutes after a significant change of wind",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,011001,Wind direction,915dd,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,011002,Wind speed,913ff,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,008021,Time significance,= 22 Time of occurrence of wind shift,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,004015,Time increment,= +xx2,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,008021,Time significance,= 2 Time averaged,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,004025,Time period or displacement,"= -10 minutes, or number of minutes after a significant change of wind",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,011001,Wind direction,915dd,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,011002,Wind speed,913ff,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,008021,Time significance,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,004025,Time period or displacement,= 0 minutes,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Significant change in wind speed and/or direction,004015,Time increment,= +(xx1-xx2) | Non negative to reset the time to the actual time,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional weather,103000,Delayed replication of 3 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional weather,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional weather,004025,Time period or displacement,"= -xx, i.e. from",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional weather,004025,Time period or displacement,"= -xx, i.e. to",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional weather,020003,Present weather,"962ww, 963w1w1, 964ww, 965w1w1, 966ww, 967w1w1",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,110000,Delayed replication of 10 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,004025,Time period or displacement,"= -xx, i.e. from",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,004025,Time period or displacement,"= -xx, i.e. to",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,005021,Bearing or azimuth,"Da, Dp",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,005021,Bearing or azimuth,"Da, Dp",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,020054,True direction from which a phenomenon or clouds are moving or in which they are observed,"Da, Dp",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,020024,Intensity of phenomena,"= 1 Light, = 2 Moderate, = 3 Heavy, = 4 Violent, = 5 Severe",,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,020025,Obscuration,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,020026,Character of obscuration,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,020027,Phenomena occurrence,,,Operational
+02,Meteorological sequences common to surface data,302067,(Additional synoptical parameters),Additional 9SPSPspsp groups,020063,Special phenomena,,,Operational
+02,Meteorological sequences common to surface data,302069,(Visibility data),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302069,(Visibility data),,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302069,(Visibility data),,033041,Attribute of following value,,,Operational
+02,Meteorological sequences common to surface data,302069,(Visibility data),,020001,Horizontal visibility,,,Operational
+02,Meteorological sequences common to surface data,302070,(Wind data),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302070,(Wind data),,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302070,(Wind data),,011001,Wind direction,,,Operational
+02,Meteorological sequences common to surface data,302070,(Wind data),,011002,Wind speed,,,Operational
+02,Meteorological sequences common to surface data,302070,(Wind data),,011043,Maximum wind gust direction,,,Operational
+02,Meteorological sequences common to surface data,302070,(Wind data),,011041,Maximum wind gust speed,,,Operational
+02,Meteorological sequences common to surface data,302070,(Wind data),,011016,Extreme counterclockwise wind direction of a variable wind,,,Operational
+02,Meteorological sequences common to surface data,302070,(Wind data),,011017,Extreme clockwise wind direction of a variable wind,,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,008021,Time significance,= 2 Time averaged,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,004025,Time period or displacement,"= -10 minutes, or number of minutes after a significant change of wind, if any",,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,011001,Wind direction,,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,011002,Wind speed,,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,008021,Time significance,Set to missing,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,103002,Replicate 3 descriptors 2 times,,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,004025,Time period or displacement,"= -10 minutes in the first replication, = -60 minutes in the second replication",,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,011043,Maximum wind gust direction,,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,011041,Maximum wind gust speed,,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,004025,Time period or displacement,= -10 minutes,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,011016,Extreme counterclockwise wind direction of a variable wind,,,Operational
+02,Meteorological sequences common to surface data,302071,(Wind data from one-hour period),,011017,Extreme clockwise wind direction of a variable wind,,,Operational
+02,Meteorological sequences common to surface data,302072,(Temperature and humidity data),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302072,(Temperature and humidity data),,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302072,(Temperature and humidity data),,012101,Temperature/air temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302072,(Temperature and humidity data),,012103,Dewpoint temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302072,(Temperature and humidity data),,013003,Relative humidity,,,Operational
+02,Meteorological sequences common to surface data,302073,(Cloud data),,020010,Cloud cover (total),,,Operational
+02,Meteorological sequences common to surface data,302073,(Cloud data),,105004,Replicate 5 descriptors 4 times,,,Operational
+02,Meteorological sequences common to surface data,302073,(Cloud data),,008002,Vertical significance (surface observations),,,Operational
+02,Meteorological sequences common to surface data,302073,(Cloud data),,020011,Cloud amount,,,Operational
+02,Meteorological sequences common to surface data,302073,(Cloud data),,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302073,(Cloud data),,033041,Attribute of following value,,,Operational
+02,Meteorological sequences common to surface data,302073,(Cloud data),,020013,Height of base of cloud,,,Operational
+02,Meteorological sequences common to surface data,302074,(Present and past weather),,020003,Present weather,,,Operational
+02,Meteorological sequences common to surface data,302074,(Present and past weather),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302074,(Present and past weather),,020004,Past weather (1),,,Operational
+02,Meteorological sequences common to surface data,302074,(Present and past weather),,020005,Past weather (2),,,Operational
+02,Meteorological sequences common to surface data,302075,"(Intensity of precipitation, size of precipitation element)",,008021,Time significance,= 2 Time averaged,,Operational
+02,Meteorological sequences common to surface data,302075,"(Intensity of precipitation, size of precipitation element)",,004025,Time period or displacement,= -10 minutes,,Operational
+02,Meteorological sequences common to surface data,302075,"(Intensity of precipitation, size of precipitation element)",,013055,Intensity of precipitation,,,Operational
+02,Meteorological sequences common to surface data,302075,"(Intensity of precipitation, size of precipitation element)",,013058,Size of precipitating element,,,Operational
+02,Meteorological sequences common to surface data,302075,"(Intensity of precipitation, size of precipitation element)",,008021,Time significance,Set to missing,,Operational
+02,Meteorological sequences common to surface data,302076,"(Precipitation, obscuration and other phenomena)",,020021,Type of precipitation,,,Operational
+02,Meteorological sequences common to surface data,302076,"(Precipitation, obscuration and other phenomena)",,020022,Character of precipitation,,,Operational
+02,Meteorological sequences common to surface data,302076,"(Precipitation, obscuration and other phenomena)",,026020,Duration of precipitation,,,Operational
+02,Meteorological sequences common to surface data,302076,"(Precipitation, obscuration and other phenomena)",,020023,Other weather phenomena,,,Operational
+02,Meteorological sequences common to surface data,302076,"(Precipitation, obscuration and other phenomena)",,020024,Intensity of phenomena,,,Operational
+02,Meteorological sequences common to surface data,302076,"(Precipitation, obscuration and other phenomena)",,020025,Obscuration,,,Operational
+02,Meteorological sequences common to surface data,302076,"(Precipitation, obscuration and other phenomena)",,020026,Character of obscuration,,,Operational
+02,Meteorological sequences common to surface data,302077,(Extreme temperature data),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302077,(Extreme temperature data),,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302077,(Extreme temperature data),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302077,(Extreme temperature data),,012111,"Maximum temperature, at height and over period specified",Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302077,(Extreme temperature data),,012112,"Minimum temperature, at height and over period specified",Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302077,(Extreme temperature data),,007032,Height of sensor above local ground (or deck of marine platform),Ground temperature,,Operational
+02,Meteorological sequences common to surface data,302077,(Extreme temperature data),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302077,(Extreme temperature data),,012112,"Minimum temperature, at height and over period specified",Scale: 2 | Ground temperature,,Operational
+02,Meteorological sequences common to surface data,302078,(State of ground and snow depth measurement),,002176,Method of state of ground measurement,,,Operational
+02,Meteorological sequences common to surface data,302078,(State of ground and snow depth measurement)),,020062,State of the ground (with or without snow),,,Operational
+02,Meteorological sequences common to surface data,302078,(State of ground and snow depth measurement),,002177,Method of snow depth measurement,,,Operational
+02,Meteorological sequences common to surface data,302078,(State of ground and snow depth measurement),,013013,Total snow depth,,,Operational
+02,Meteorological sequences common to surface data,302079,(Precipitation measurement),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302079,(Precipitation measurement),,002175,Method of precipitation measurement,,,Operational
+02,Meteorological sequences common to surface data,302079,(Precipitation measurement),,002178,Method of liquid content measurement of precipitation,,,Operational
+02,Meteorological sequences common to surface data,302079,(Precipitation measurement),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302079,(Precipitation measurement),,013011,Total precipitation/total water equivalent,,,Operational
+02,Meteorological sequences common to surface data,302080,(Evaporation measurement),,002185,Method of evaporation measurement,,,Operational
+02,Meteorological sequences common to surface data,302080,(Evaporation measurement),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302080,(Evaporation measurement),,013033,Evaporation/evapotranspiration,,,Operational
+02,Meteorological sequences common to surface data,302081,(Total sunshine data),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302081,(Total sunshine data),,014031,Total sunshine,,,Operational
+02,Meteorological sequences common to surface data,302082,(Radiation data),,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302082,(Radiation data),,014002,"Long-wave radiation, integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302082,(Radiation data),,014004,"Short-wave radiation, integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302082,(Radiation data),,014016,"Net radiation, integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302082,(Radiation data),,014028,"Global solar radiation (high accuracy), integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302082,(Radiation data),,014029,"Diffuse solar radiation (high accuracy), integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302082,(Radiation data),,014030,"Direct solar radiation (high accuracy), integrated over period specified",,,Operational
+02,Meteorological sequences common to surface data,302083,"(First-order statistics of P, W, T, U data)",,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302083,"(First-order statistics of P, W, T, U data)",,008023,First-order statistics,,,Operational
+02,Meteorological sequences common to surface data,302083,"(First-order statistics of P, W, T, U data)",,010004,Pressure,,,Operational
+02,Meteorological sequences common to surface data,302083,"(First-order statistics of P, W, T, U data)",,011001,Wind direction,,,Operational
+02,Meteorological sequences common to surface data,302083,"(First-order statistics of P, W, T, U data)",,011002,Wind speed,,,Operational
+02,Meteorological sequences common to surface data,302083,"(First-order statistics of P, W, T, U data)",,012101,Temperature/air temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302083,"(First-order statistics of P, W, T, U data)",,013003,Relative humidity,,,Operational
+02,Meteorological sequences common to surface data,302083,"(First-order statistics of P, W, T, U data)",,008023,First-order statistics,Set to missing,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",,302031,Pressure information,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",,302072,Temperature and humidity data,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",,103000,Delayed replication of 3 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",,101005,Replicate 1 descriptor 5 times,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",,307063,Depth below land surface and soil temperature,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",,007061,Depth below land surface,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Visibility data,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Visibility data,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Visibility data,302069,Visibility data,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Visibility data,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Visibility data,007033,Height of sensor above water surface,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Marine data,105000,Delayed replication of 5 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Marine data,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Marine data,020031,Ice deposit (thickness),,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Marine data,020032,Rate of ice accretion (estimated),,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Marine data,002038,Method of water temperature and/or salinity measurement,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Marine data,022043,Sea/water temperature,Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Marine data,302021,Waves,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",State of ground and snow depth measurement,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",State of ground and snow depth measurement,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",State of ground and snow depth measurement,302078,State of ground and snow depth measurement,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",State of ground and snow depth measurement,012113,"Ground minimum temperature, past 12 hours",Scale: 2,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,302004,General cloud information,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,105000,Delayed replication of 5 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,031001,Delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,008002,Vertical significance (surface observations),,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,020011,Cloud amount,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,020012,Cloud type,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,033041,Attribute of following value,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,020013,Height of base of cloud,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Cloud data,302036,Clouds with bases below station level,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Direction of cloud drift 6DLDMDH,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Direction of cloud drift 6DLDMDH,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Direction of cloud drift 6DLDMDH,302047,Direction of cloud drift,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Direction of cloud drift 6DLDMDH,008002,Vertical significance (surface observations),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Direction and elevation of cloud 57CDaec,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Direction and elevation of cloud 57CDaec,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302084,"(""Instantaneous"" data of sequence 3 07 096)",Direction and elevation of cloud 57CDaec,302048,Direction and elevation of cloud,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Present and past weather data,105000,Delayed replication of 5 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Present and past weather data,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Present and past weather data,020003,Present weather,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Present and past weather data,103002,Replicate 3 descriptors 2 times,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Present and past weather data,004024,Time period or displacement,"= -1 hour in the first replication, = -x hours in the second replication, x corresponding to the time period of W1W2 in the SYNOP report",,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Present and past weather data,020004,Past weather (1),,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Present and past weather data,020005,Past weather (2),,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","Intensity of precipitation, size of precipitation element",101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","Intensity of precipitation, size of precipitation element",031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","Intensity of precipitation, size of precipitation element",302175,"Intensity of precipitation, size of precipitation element",,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","Precipitation, obscuration and other phenomena",102000,Delayed replication of 2 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","Precipitation, obscuration and other phenomena",031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","Precipitation, obscuration and other phenomena",004025,Time period or displacement,= -10 minutes,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","Precipitation, obscuration and other phenomena",302076,"Precipitation, obscuration and other phenomena",,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Lightning data,102000,Delayed replication of 2 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Lightning data,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Lightning data,004025,Time period or displacement,= -10 minutes,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Lightning data,013059,Number of flashes (thunderstorm),,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,008021,Time significance,= 2 Time averaged,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,004025,Time period or displacement,"= -10 minutes, or number of minutes after a significant change of wind",,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,011001,Wind direction,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,011002,Wind speed,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,008021,Time significance,Set to missing,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,103003,Replicate 3 descriptors 3 times,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,004025,Time period or displacement,"= -10 minutes in the first replication, = -60 minutes in the second replication, = -60x3 or 60x6 minutes in the third replication",,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,011043,Maximum wind gust direction,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,011041,Maximum wind gust speed,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,004025,Time period or displacement,= -10 minutes,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,011016,Extreme counterclockwise wind direction of a variable wind,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Wind data,011017,Extreme clockwise wind direction of a variable wind,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Extreme temperature data,302077,Extreme temperature data,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Extreme temperature data,007033,Height of sensor above water surface,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Extreme temperature data,302041,Extreme temperature data,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,106000,Delayed replication of 6 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,002175,Method of precipitation measurement,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,002178,Method of liquid content measurement of precipitation,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,102005,Replicate 2 descriptors 5 times,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,004024,Time period or displacement,"= -1 hour in the first replication, = -3, -6, -12 and -24 hours in the other replications",,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,013011,Total precipitation/total water equivalent,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Precipitation measurement,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Evaporation data,103000,Delayed replication of 3 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Evaporation data,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Evaporation data,002185,Method of evaporation measurement,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Evaporation data,101002,Replicate 1 descriptor 2 times,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Evaporation data,302044,Evaporation data,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Total sunshine data,102000,Delayed replication of 2 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Total sunshine data,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Total sunshine data,101002,Replicate 1 descriptor 2 times,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Total sunshine data,302039,Sunshine data (from 1 hour and 24 hour period),,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Radiation data,102000,Delayed replication of 2 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Radiation data,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Radiation data,101002,Replicate 1 descriptor 2 times,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Radiation data,302045,Radiation data (from 1 hour and 24 hour period),,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Temperature change group 54g0sndT,101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Temperature change group 54g0sndT,031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)",Temperature change group 54g0sndT,302046,Temperature change,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","First-order statistics of P, W, T, U data",101000,Delayed replication of 1 descriptor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","First-order statistics of P, W, T, U data",031000,Short delayed descriptor replication factor,,,Operational
+02,Meteorological sequences common to surface data,302085,"(""Period"" data of sequence 3 07 096)","First-order statistics of P, W, T, U data",302083,"First-order statistics of P, W, T, U data",,,Operational
+02,Meteorological sequences common to surface data,302089,(Locust information),,020101,Locust (acridian) name,Ln,,Operational
+02,Meteorological sequences common to surface data,302089,(Locust information),,020102,Locust (maturity) colour,Lc,,Operational
+02,Meteorological sequences common to surface data,302089,(Locust information),,020103,Stage of development of locusts,Ld,,Operational
+02,Meteorological sequences common to surface data,302089,(Locust information),,020104,Organization state of swarm or band of locusts,Lg,,Operational
+02,Meteorological sequences common to surface data,302089,(Locust information),,020105,Size of swarm or band of locusts and duration of passage of swarm,sL,,Operational
+02,Meteorological sequences common to surface data,302089,(Locust information),,020106,Locust population density,dL,,Operational
+02,Meteorological sequences common to surface data,302089,(Locust information),,020107,Direction of movements of locust swarm,DL,,Operational
+02,Meteorological sequences common to surface data,302089,(Locust information),,020108,Extent of vegetation,ve,,Operational
+02,Meteorological sequences common to surface data,302090,(Sea/water temperature high precision),,002038,Method of water temperature and/or salinity measurement,,,Operational
+02,Meteorological sequences common to surface data,302090,(Sea/water temperature high precision),,007063,Depth below sea/water surface (cm),Sea-surface temperature measurement,,Operational
+02,Meteorological sequences common to surface data,302090,(Sea/water temperature high precision),,022045,Sea/water temperature,,,Operational
+02,Meteorological sequences common to surface data,302091,(Sequence for representation of ancillary meteorological observations),,020001,Horizontal visibility,,,Operational
+02,Meteorological sequences common to surface data,302091,(Sequence for representation of ancillary meteorological observations),,004024,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302091,(Sequence for representation of ancillary meteorological observations),,013011,Total precipitation/total water equivalent,,,Operational
+02,Meteorological sequences common to surface data,302092,(VOSClim data elements),,011104,"True heading of aircraft, ship or other mobile platform",Ship’s true heading,,Operational
+02,Meteorological sequences common to surface data,302092,(VOSClim data elements),,001012,Direction of motion of moving observing platform,Ship’s course over ground,,Operational
+02,Meteorological sequences common to surface data,302092,(VOSClim data elements),,001013,Speed of motion of moving observing platform,Ship’s speed over ground,,Operational
+02,Meteorological sequences common to surface data,302092,(VOSClim data elements),,010038,Maximum height of deck cargo above summer load line,,,Operational
+02,Meteorological sequences common to surface data,302092,(VOSClim data elements),,010039,Departure of reference level (summer maximum load line) from actual sea level,,,Operational
+02,Meteorological sequences common to surface data,302092,(VOSClim data elements),,011007,Relative wind direction (in degrees off bow),,,Operational
+02,Meteorological sequences common to surface data,302092,(VOSClim data elements),,011008,Relative wind speed,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,303099,Metadata common to temperature/humidity sensors,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,012101,Temperature/air temperature,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,103000,Delayed replication of 3 descriptors,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,031000,Short delayed descriptor replication factor,"Set to 0 if no change from previous values, 1 if changes",,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,007032,Height of sensor above local ground (or deck of marine platform),,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,007033,Height of sensor above water surface,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,303099,Metadata common to temperature/humidity sensors,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,002039,Method of wet-bulb temperature measurement,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,002097,Type of humidity sensor,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,003024,Psychrometric coefficient,Set to missing if type of humidity sensor is not psychrometer,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,003021,Hygrometer heating,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,012102,Wet-bulb temperature,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,012103,Dewpoint temperature,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,013003,Relative humidity,,,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,007032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,007033,Height of sensor above water surface,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,303099,Metadata common to temperature/humidity sensors,Set all elements in sequence to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,002039,Method of wet-bulb temperature measurement,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,002097,Type of humidity sensor,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,003021,Hygrometer heating,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302093,(Extended ship temperature and humidity data),,003024,Psychrometric coefficient,Set to missing (cancel),,Operational
+02,Meteorological sequences common to surface data,302175,"(Intensity of precipitation, size of precipitation element)",,008021,Time significance,,,Operational
+02,Meteorological sequences common to surface data,302175,"(Intensity of precipitation, size of precipitation element)",,004025,Time period or displacement,,,Operational
+02,Meteorological sequences common to surface data,302175,"(Intensity of precipitation, size of precipitation element)",,013155,Intensity of precipitation (high accuracy),,,Operational
+02,Meteorological sequences common to surface data,302175,"(Intensity of precipitation, size of precipitation element)",,013058,Size of precipitating element,,,Operational
+02,Meteorological sequences common to surface data,302175,"(Intensity of precipitation, size of precipitation element)",,008021,Time significance,,,Operational

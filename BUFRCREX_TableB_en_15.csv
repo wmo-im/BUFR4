@@ -1,0 +1,47 @@
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+15,Physical/chemical constituents,015001,Total ozone,,DU,0,0,10,DU,0,4,Operational
+15,Physical/chemical constituents,015002,Air mass (slant path at 22 km),,Numeric,2,0,10,Numeric,2,3,Operational
+15,Physical/chemical constituents,015003,Measured ozone partial pressure (sounding),(see Note 1),Pa,4,0,9,nbar,0,3,Operational
+15,Physical/chemical constituents,015004,Ozone sounding correction factor (CF),(see Note 2),Numeric,3,0,11,Numeric,3,4,Operational
+15,Physical/chemical constituents,015005,Ozone p,(see Note 3),DU,0,0,10,DU,0,3,Operational
+15,Physical/chemical constituents,015008,Significand of volumetric mixing ratio,,Numeric,0,0,10,Numeric,0,4,Operational
+15,Physical/chemical constituents,015011,Log10 of integrated electron density,,log (m-2),3,14000,13,log (m-2),3,4,Operational
+15,Physical/chemical constituents,015012,Total electron count per square metre,,m-2,-16,0,6,m-2,-16,2,Operational
+15,Physical/chemical constituents,015015,Maximum image spectral component before normalization,,Numeric,0,0,31,Numeric,0,10,Operational
+15,Physical/chemical constituents,015020,Integrated ozone density,,kg m-2,8,0,21,kg m-2,8,7,Operational
+15,Physical/chemical constituents,015021,Integrated mass density,,kg m-2,11,0,31,kg m-2,11,10,Operational
+15,Physical/chemical constituents,015024,Optical depth,,Numeric,4,0,24,Numeric,4,8,Operational
+15,Physical/chemical constituents,015025,Type of pollutant,,Code table,0,0,4,Code table,0,2,Operational
+15,Physical/chemical constituents,015026,Concentration of pollutant (mol mol-1),,mol/mol,9,0,9,mol/mol,9,3,Operational
+15,Physical/chemical constituents,015027,Concentration of pollutant (kg m-3),,kg m-3,9,0,10,kg m-3,9,4,Operational
+15,Physical/chemical constituents,015028,Mole fraction of atmospheric constituent/pollutant in dry air,,‰,5,0,16,‰,5,5,Operational
+15,Physical/chemical constituents,015029,Extinction coefficient,,/m,9,0,30,/m,9,10,Operational
+15,Physical/chemical constituents,015030,Aerosol contamination index,(see Note 6),Numeric,2,-1000,12,Numeric,2,4,Operational
+15,Physical/chemical constituents,015031,Atmospheric path delay in satellite signal,,m,4,10000,15,m,4,5,Operational
+15,Physical/chemical constituents,015032,Estimated error in atmospheric path delay,,m,4,0,10,m,4,4,Operational
+15,Physical/chemical constituents,015033,Difference in path delays for limb views at extremes of scan,,m,5,-10000,15,m,5,5,Operational
+15,Physical/chemical constituents,015034,Estimated error in path delay difference,,m,5,0,14,m,5,5,Operational
+15,Physical/chemical constituents,015035,Component of zenith path delay due to water vapour,,m,4,0,14,m,4,5,Operational
+15,Physical/chemical constituents,015036,Atmospheric refractivity,(see Note 5),N units,3,0,19,N units,3,6,Operational
+15,Physical/chemical constituents,015037,Bending angle,,rad,8,-100000,23,rad,8,7,Operational
+15,Physical/chemical constituents,015041,Sulphur dioxide index,(see Note 7),Numeric,2,-1200,14,Numeric,2,4,Operational
+15,Physical/chemical constituents,015042,Reflectance,,%,2,0,14,%,2,5,Operational
+15,Physical/chemical constituents,015045,Sulphur dioxide,(see Note 8),DU,2,-2000,15,DU,2,5,Operational
+15,Physical/chemical constituents,015046,Volcano contamination index,(see Note 9),Numeric,2,-1000,11,Numeric,2,4,Operational
+15,Physical/chemical constituents,015049,Aerosol Angstrom wavelength exponent,,Numeric,3,-2000,14,Numeric,3,5,Operational
+15,Physical/chemical constituents,015051,Meteorological optical range,,m,0,0,18,m,0,6,Operational
+15,Physical/chemical constituents,015052,Log10 of number density of aerosol particles with diameter greater than 5 nm,,log (m-3),1,60,6,log (m-3),1,3,Operational
+15,Physical/chemical constituents,015053,Log10 of number density of aerosol particles with diameter greater than 14 nm,,log (m-3),2,600,9,log (m-3),2,4,Operational
+15,Physical/chemical constituents,015054,Log10 of number density of aerosol particles with diameter between 0.25 and 2.5 µm,,log (m-3),2,550,9,log (m-3),2,4,Operational
+15,Physical/chemical constituents,015055,Non volatile aerosol ratio,,Numeric,2,0,7,Numeric,2,3,Operational
+15,Physical/chemical constituents,015062,Aerosol optical thickness,,Numeric,3,-1000,14,Numeric,3,5,Operational
+15,Physical/chemical constituents,015063,Attenuated backscatter,,m-1 sr-1,8,0,20,m-1 sr-1,8,7,Operational
+15,Physical/chemical constituents,015064,Uncertainty in attenuated backscatter,,m-1 sr-1,8,0,20,m-1 sr-1,8,7,Operational
+15,Physical/chemical constituents,015065,Particle backscatter coefficient,,m-1 sr-1,8,0,20,m-1 sr-1,8,7,Operational
+15,Physical/chemical constituents,015066,Uncertainty in particle backscatter coefficient,,m-1 sr-1,8,0,20,m-1 sr-1,8,7,Operational
+15,Physical/chemical constituents,015067,Particle extinction coefficient,,m-1,8,0,20,m-1,8,7,Operational
+15,Physical/chemical constituents,015068,Uncertainty in particle extinction coefficient,,m-1,8,0,20,m-1,8,7,Operational
+15,Physical/chemical constituents,015069,Particle lidar ratio,,sr,2,0,14,sr,2,5,Operational
+15,Physical/chemical constituents,015070,Uncertainty in lidar ratio,,sr,2,0,14,sr,2,5,Operational
+15,Physical/chemical constituents,015071,Particle depolarization ratio,,%,2,0,14,%,2,5,Operational
+15,Physical/chemical constituents,015072,Uncertainty in depolarization ratio,,%,2,0,14,%,2,5,Operational

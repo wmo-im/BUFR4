@@ -1,4 +1,4 @@
-﻿"FXY","OperatorName_en","OperationDefinition_en","Note_en","Status"
+"FXY","OperatorName_en","OperationDefinition_en","Note_en","Status"
 "201YYY","Change data width","Add (YYY-128) bits to the data width given for each data element in Table B, other than CCITT IA5 (character) data, code or flag tables.",,"Operational"
 "202YYY","Change scale","Add YYY-128 to the scale for each data element in Table B, other than CCITT IA5 (character) data, code or flag tables.",,"Operational"
 "203YYY","Change reference values","Subsequent element descriptors define new reference values for corresponding Table B entries. Each new reference value is represented by YYY bits in the Data section. Definition of new reference values is concluded by coding this operator with YYY = 255. Negative reference values shall be represented by a positive integer with the left-most bit (bit 1) set to 1.",,"Operational"
