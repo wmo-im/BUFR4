@@ -219,3 +219,17 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Wave data,101000,Delayed replication of 1 descriptor,,,Operational
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Wave data,031000,Short delayed descriptor replication factor,,,Operational
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Wave data,306039,Sequence for representation of basic wave measurements,,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,112000,Delayed replication of 12 descriptors,,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,031001,Delayed descriptor replication factor,,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,201144,Change data width,Add 16 bits to the width for each data element in Table B,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,202133,Change scale,Add 5 to the scale for each data element in Table B,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,022080,Waveband central frequency (Hz),,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,022096,Spectral band width (Hz),,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,022069,Spectral wave density (m2 Hz-1),,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,202000,Change data width ,Cancel,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,201000,Change scale,Cancel,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,042011,a1 coefficient of the directional Fourier series,First moment of the directional wave spectrum,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,042012,b1 coefficient of the directional Fourier series,First moment of the directional wave spectrum,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,042013,a2 coefficient of the directional Fourier series,Second moment of the directional wave spectrum,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,042014,b2 coefficient of the directional Fourier series,Second moment of the directional wave spectrum,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,042015,Check factor K,Inverse of wave ellipticity,,Operational
