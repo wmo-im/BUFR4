@@ -1,0 +1,60 @@
+EXPLANATORY NOTES (8 May 2013, updated 9 Aug. 2013):
+
+0. The operational code table 0 02 017, which was missing, is added.
+
+1. Tables (txt and xml) included in the zip files are;
+
+	GRIB edition 2 version 11(.0.0)
+		Templates
+		Code and Flag tables
+
+	BUFR tables version 20(.0.0)
+		Table A
+		Table B (common in BUFR/CREX)
+		Table C 
+		Table D
+		Code and Flag tables (common in BUFR/CREX)
+
+	CREX tables version 20(.0.0)
+		Table A
+		Table C
+		Table D
+
+	Common Code tables effective as of 8 May 2013
+		Cover
+		C-1
+		C-2
+		C-3
+		C-4
+		C-5
+		C-7
+		C-8
+		C-11
+		C-12
+		C-13
+		C-14
+
+
+2. Changes from the previous versions (GRIB2 ver. 10.0.1, BUFR/CREX ver. 19.1.1, Common Code tables (26 February 2013)) are;
+
+	a. New entries approved by fast-track (8 May 2013)
+
+		http://www.wmo.int/pages/prog/www/WMOCodes/Amendments/2013/fastTrack/FT2013-1_en.pdf
+
+	b. Editorial corrections
+
+
+3. Character set employed is UTF-8.
+
+
+4. Units in the GRIB2 code tables and the BUFR/CREX Table B (txt and xml) are represented by those in "Abbreviation in IA5/ASCII" column of the Common Code table C-6.
+
+
+5. Notes to entries are available in doc and pdf files on the WMO server at;
+     http://www.wmo.int/pages/prog/www/WMOCodes/WMO306_vI2/LatestVERSION/LatestVERSION.html
+
+
+6. In BUFR/CREX Tables D (txt and xml), the "ExisitingElementName_en" column has been replaced by "ElementDescription_en" so as to be consistent with the BUFR Table D in the Manual on Codes (WMO-No.306) updated in 2012.
+
+
+7. Sorting by "No" column might be necessary in files of text and xml forms.

@@ -1,0 +1,62 @@
+EXPLANATORY NOTES (7 November 2012, updated 9 Aug. 2013):
+
+0. The operational code table 0 02 017, which was missing, is added.
+
+1. Tables (txt and xml) included in the zip files are;
+
+	GRIB edition 2 version 10(.0.0)
+		Templates
+		Code and Flag tables
+
+	BUFR tables version 19(.0.0)
+		Table A
+		Table B (common in BUFR/CREX)
+		Table C 
+		Table D
+		Code and Flag tables (common in BUFR/CREX)
+
+	CREX tables version 19(.0.0)
+		Table A
+		Table C
+		Table D
+
+	Common Code tables effective as of 7 November 2012
+		Cover
+		C-1
+		C-2
+		C-3
+		C-4
+		C-5
+		C-7
+		C-8
+		C-11
+		C-12
+		C-13
+		C-14
+
+
+2. Changes from the previous versions (GRIB2 ver. 9.1.0 (10 July 2012), BUFR/CREX ver. 18.1.0 (10 July 2012), Common Code tables (10 July 2012)) are;
+
+	a. new entries approved by fast-track procedure (7 November 2012)
+
+	b. From this version, CREX Table D (txt and xml) also contains additional entries derived from BUFR Table D with simple replacement of the first character in FXY, i.e. 3 to D, 1 to R (other than delayed replication) and 0 to B. 
+ 
+	c. editorial corrections
+
+
+3. Character set employed is UTF-8.
+
+
+4. Units in the GRIB2 code tables and the BUFR/CREX Table B (txt and xml) are represented by those in "Abbreviation in IA5/ASCII" column of the Common Code table C-6.
+
+
+5. Notes to entries are available in doc and pdf files on the WMO server at;
+     http://www.wmo.int/pages/prog/www/WMOCodes/TDCFtables.html#TDCFtables
+
+
+6. In BUFR/CREX Tables D (txt and xml), "ElementName_en", which derives from BUFR/CREX Table B, is included along with "ExisitingElementName_en".
+
+Note: The column, "ExisitingElementName_en" will be replaced by "ElementDescription_en", which are derived in principle from the existing TDCF tables and complement the "ElementName_en".
+
+
+7. Sorting by "No" column might be necessary in files of text and xml forms.
