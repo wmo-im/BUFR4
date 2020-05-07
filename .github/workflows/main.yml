@@ -13,12 +13,10 @@ jobs:
         ref: ${{ github.ref }}
     - name: create xml files and push
       run: | 
+        git diff --name-only HEAD HEAD~1 | grep 'txt\|xml' || echo "Tables unchanged" && exit 0  # Guard for commits that don't touch tables
         scripts/makeLegacyFormats.sh
-        ls txt
-        ls xml
-        git config --global user.email "efucile@wmo.int"
-        git config --global user.name "Enrico Fucile"
-        git branch 
+        git config user.email "efucile@wmo.int"
+        git config user.name "Enrico Fucile"
         git add .
         git commit -m "xml,txt files" -a
         git push
