@@ -1,6 +1,14 @@
 name: CI
 
-on: [ push , pull_request ]
+on:
+  push:
+    paths:
+      - '*.txt'
+      - '*.xml'
+  pull_request:
+    paths:
+      - '*.txt'
+      - '*.xml'
 
 jobs:
   make_xml:
@@ -13,7 +21,6 @@ jobs:
         ref: ${{ github.ref }}
     - name: create xml files and push
       run: | 
-        git diff --name-only HEAD ${{ github.ref }}^1 | grep 'txt\|xml' || echo "Tables unchanged" && exit 0  # Guard for commits that don't touch tables
         scripts/makeLegacyFormats.sh
         git config user.email "efucile@wmo.int"
         git config user.name "Enrico Fucile"
