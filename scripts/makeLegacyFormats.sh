@@ -18,3 +18,4 @@ cp CREX_TableC_en.csv txt/CREX_TableC_en.txt
 rm -f txt/CREX_TableD_en.txt | true
 cat CREX_TableD_en_*.csv >> txt/CREX_TableD_en.txt
 
+python3 scripts/csv2xml.py
