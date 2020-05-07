@@ -1,0 +1,24 @@
+name: CI
+
+on: [ push , pull_request ]
+
+jobs:
+  make_xml:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+      with: 
+        ref: ${{ github.ref }}
+    - name: create xml files and push
+      run: | 
+        scripts/makeLegacyFormat.sh
+        ls txt
+        ls xml
+        git config --global user.email "efucile@wmo.int"
+        git config --global user.name "Enrico Fucile"
+        git branch 
+        git add .
+        git commit -m "xml,txt files" -a
+        git push
