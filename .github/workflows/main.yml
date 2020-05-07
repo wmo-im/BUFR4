@@ -13,7 +13,7 @@ jobs:
         ref: ${{ github.ref }}
     - name: create xml files and push
       run: | 
-        scripts/makeLegacyFormat.sh
+        scripts/makeLegacyFormats.sh
         ls txt
         ls xml
         git config --global user.email "efucile@wmo.int"
