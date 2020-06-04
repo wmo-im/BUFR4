@@ -1304,6 +1304,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 22,Oceanographic elements,022175,Number of valid points for C band backscatter,,Numeric,0,0,10,Numeric,0,4,Operational
 22,Oceanographic elements,022177,Height of XBT/XCTD launcher,,m,0,0,6,m,0,3,Operational
 22,Oceanographic elements,022178,XBT/XCTD launcher type,,Code table,0,0,8,Code table,0,3,Operational
+22,Oceanographic elements,022179,Specific band significant wave height (negative reference),"similar to 0-22-190, but with a negative reference value",M,3,-500,16,,,,Operational
 22,Oceanographic elements,022182,Water column height,(see Note 9),m,3,0,23,m,3,7,Operational
 22,Oceanographic elements,022184,Water column height deviation from the reference value,,m,3,-2000,12,m,3,4,Operational
 22,Oceanographic elements,022185,BPR transmission count,,Numeric,0,0,10,Numeric,0,3,Operational
