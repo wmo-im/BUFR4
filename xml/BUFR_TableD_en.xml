@@ -90728,11 +90728,6 @@
     <SubTitle_en/>
     <FXY2>301129</FXY2>
     <ElementName_en>Observing satellite and instruments</ElementName_en>
-    <FXY1>340019</FXY1>
-    <Title_en>(Altimeter product)</Title_en>
-    <SubTitle_en/>
-    <FXY2>340020</FXY2>
-    <ElementName_en>Satellite general values</ElementName_en>
     <ElementDescription_en/>
     <Note_en/>
     <Status>Operational</Status>
@@ -90745,11 +90740,6 @@
     <SubTitle_en/>
     <FXY2>301130</FXY2>
     <ElementName_en>High precision timestamp</ElementName_en>
-    <FXY1>340019</FXY1>
-    <Title_en>(Altimeter product)</Title_en>
-    <SubTitle_en/>
-    <FXY2>340021</FXY2>
-    <ElementName_en>General radiometer values</ElementName_en>
     <ElementDescription_en/>
     <Note_en/>
     <Status>Operational</Status>
@@ -90762,11 +90752,6 @@
     <SubTitle_en/>
     <FXY2>301131</FXY2>
     <ElementName_en>Pixel geolocation</ElementName_en>
-    <FXY1>340019</FXY1>
-    <Title_en>(Altimeter product)</Title_en>
-    <SubTitle_en/>
-    <FXY2>340022</FXY2>
-    <ElementName_en>Altimeter model values</ElementName_en>
     <ElementDescription_en/>
     <Note_en/>
     <Status>Operational</Status>
@@ -90779,11 +90764,6 @@
     <SubTitle_en/>
     <FXY2>007072</FXY2>
     <ElementName_en>Scan angle</ElementName_en>
-    <FXY1>340019</FXY1>
-    <Title_en>(Altimeter product)</Title_en>
-    <SubTitle_en/>
-    <FXY2>340023</FXY2>
-    <ElementName_en>Altimeter main values</ElementName_en>
     <ElementDescription_en/>
     <Note_en/>
     <Status>Operational</Status>
@@ -90796,11 +90776,6 @@
     <SubTitle_en/>
     <FXY2>040074</FXY2>
     <ElementName_en>General interferometry quality flags</ElementName_en>
-    <FXY1>340020</FXY1>
-    <Title_en>(Satellite general values)</Title_en>
-    <SubTitle_en/>
-    <FXY2>001007</FXY2>
-    <ElementName_en>Satellite identifier</ElementName_en>
     <ElementDescription_en/>
     <Note_en/>
     <Status>Operational</Status>
@@ -90814,6 +90789,132 @@
     <FXY2>104000</FXY2>
     <ElementName_en>Delayed repetition of 4 descriptors</ElementName_en>
     <ElementDescription_en>Repeat for all channels</ElementDescription_en>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340018</FXY1>
+    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
+    <SubTitle_en/>
+    <FXY2>031002</FXY2>
+    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340018</FXY1>
+    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
+    <SubTitle_en/>
+    <FXY2>201136</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340018</FXY1>
+    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
+    <SubTitle_en/>
+    <FXY2>005042</FXY2>
+    <ElementName_en>Channel number</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340018</FXY1>
+    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
+    <SubTitle_en/>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340018</FXY1>
+    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
+    <SubTitle_en/>
+    <FXY2>014044</FXY2>
+    <ElementName_en>Channel radiance</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340019</FXY1>
+    <Title_en>(Altimeter product)</Title_en>
+    <SubTitle_en/>
+    <FXY2>340020</FXY2>
+    <ElementName_en>Satellite general values</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340019</FXY1>
+    <Title_en>(Altimeter product)</Title_en>
+    <SubTitle_en/>
+    <FXY2>340021</FXY2>
+    <ElementName_en>General radiometer values</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340019</FXY1>
+    <Title_en>(Altimeter product)</Title_en>
+    <SubTitle_en/>
+    <FXY2>340022</FXY2>
+    <ElementName_en>Altimeter model values</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340019</FXY1>
+    <Title_en>(Altimeter product)</Title_en>
+    <SubTitle_en/>
+    <FXY2>340023</FXY2>
+    <ElementName_en>Altimeter main values</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340020</FXY1>
+    <Title_en>(Satellite general values)</Title_en>
+    <SubTitle_en/>
+    <FXY2>001007</FXY2>
+    <ElementName_en>Satellite identifier</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
     <FXY1>340020</FXY1>
     <Title_en>(Satellite general values)</Title_en>
     <SubTitle_en/>
@@ -92542,11 +92643,6 @@
   <BUFR_TableD_en>
     <Category>40</Category>
     <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
-    <FXY1>340018</FXY1>
-    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
-    <SubTitle_en/>
-    <FXY2>031002</FXY2>
-    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
     <FXY1>340025</FXY1>
     <Title_en>(20 Hz C and Ku band values)</Title_en>
     <SubTitle_en/>
@@ -92559,10 +92655,6 @@
   <BUFR_TableD_en>
     <Category>40</Category>
     <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
-    <FXY1>340018</FXY1>
-    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
-    <SubTitle_en/>
-    <FXY2>201136</FXY2>
     <FXY1>340025</FXY1>
     <Title_en>(20 Hz C and Ku band values)</Title_en>
     <SubTitle_en/>
@@ -92575,11 +92667,6 @@
   <BUFR_TableD_en>
     <Category>40</Category>
     <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
-    <FXY1>340018</FXY1>
-    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
-    <SubTitle_en/>
-    <FXY2>005042</FXY2>
-    <ElementName_en>Channel number</ElementName_en>
     <FXY1>340025</FXY1>
     <Title_en>(20 Hz C and Ku band values)</Title_en>
     <SubTitle_en/>
@@ -92592,11 +92679,6 @@
   <BUFR_TableD_en>
     <Category>40</Category>
     <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
-    <FXY1>340018</FXY1>
-    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
-    <SubTitle_en/>
-    <FXY2>201000</FXY2>
-    <ElementName_en>Change data width</ElementName_en>
     <FXY1>340025</FXY1>
     <Title_en>(20 Hz C and Ku band values)</Title_en>
     <SubTitle_en/>
@@ -92753,11 +92835,6 @@
   <BUFR_TableD_en>
     <Category>40</Category>
     <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
-    <FXY1>340018</FXY1>
-    <Title_en>“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”</Title_en>
-    <SubTitle_en/>
-    <FXY2>014044</FXY2>
-    <ElementName_en>Channel radiance</ElementName_en>
     <FXY1>340025</FXY1>
     <Title_en>(20 Hz C and Ku band values)</Title_en>
     <SubTitle_en/>
