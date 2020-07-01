@@ -45,6 +45,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 01,Identification,001051,Platform transmitter ID number,,CCITT IA5,0,0,96,Character,0,12,Operational
 01,Identification,001052,Platform transmitter ID,,Code table,0,0,3,Code table,0,1,Operational
 01,Identification,001053,Tsunameter report sequence number triggered by a tsunami event,,Numeric,0,0,7,Numeric,0,2,Operational
+01,Identification,001154,Sensor identifier,,Numeric,0,0,12,Numeric,0,4,Operational
 01,Identification,001060,Aircraft reporting point (Beacon identifier),,CCITT IA5,0,0,64,Character,0,8,Operational
 01,Identification,001062,Short ICAO location indicator,,CCITT IA5,0,0,32,Character,0,4,Operational
 01,Identification,001063,ICAO location indicator,,CCITT IA5,0,0,64,Character,0,8,Operational

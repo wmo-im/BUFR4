@@ -1068,6 +1068,21 @@
   <BUFRCREX_TableB_en>
     <ClassNo>01</ClassNo>
     <ClassName_en>Identification</ClassName_en>
+    <FXY>001154</FXY>
+    <ElementName_en>Sensor identifier</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>12</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>4</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>01</ClassNo>
+    <ClassName_en>Identification</ClassName_en>
     <FXY>001060</FXY>
     <ElementName_en>Aircraft reporting point (Beacon identifier)</ElementName_en>
     <Note_en/>
@@ -6523,6 +6538,21 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>3</CREX_Scale>
     <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007072</FXY>
+    <ElementName_en>Scan angle</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>deg</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-9000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit/>
+    <CREX_Scale/>
+    <CREX_DataWidth_Char/>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -17701,6 +17731,21 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021189</FXY>
+    <ElementName_en>Corrected OCOG* backscatter coefficient (negative reference)</ElementName_en>
+    <Note_en>is similar to 0-21-177, but with a negative reference value</Note_en>
+    <BUFR_Unit>dB</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-32768</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit/>
+    <CREX_Scale/>
+    <CREX_DataWidth_Char/>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>ClassNo</ClassNo>
     <ClassName_en>ClassName_en</ClassName_en>
     <FXY>FXY</FXY>
@@ -19618,6 +19663,21 @@
     <CREX_Unit>Code table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>22</ClassNo>
+    <ClassName_en>Oceanographic elements</ClassName_en>
+    <FXY>022179</FXY>
+    <ElementName_en>Specific band significant wave height (negative reference)</ElementName_en>
+    <Note_en>similar to 0-22-190, but with a negative reference value</Note_en>
+    <BUFR_Unit>M</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>-500</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit/>
+    <CREX_Scale/>
+    <CREX_DataWidth_Char/>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -25549,7 +25609,7 @@
     <ClassNo>40</ClassNo>
     <ClassName_en>Satellite data</ClassName_en>
     <FXY>040063</FXY>
-    <ElementName_en>Scaling vector multiplying the a priori CO vector in order to define the retrieved CO vector</ElementName_en>
+    <ElementName_en>Scaling vector multiplying the a priori vector in order to define the retrieved vector</ElementName_en>
     <Note_en/>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
@@ -25708,6 +25768,21 @@
     <CREX_Unit>K</CREX_Unit>
     <CREX_Scale>1</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>40</ClassNo>
+    <ClassName_en>Satellite data</ClassName_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit/>
+    <CREX_Scale/>
+    <CREX_DataWidth_Char/>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
