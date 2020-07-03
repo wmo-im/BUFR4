@@ -125,7 +125,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001092,Type of ensemble forecast,1,Unperturbed low-resolution control forecast,,,,Operational
 001092,Type of ensemble forecast,2,Negatively perturbed forecast,,,,Operational
 001092,Type of ensemble forecast,3,Positively perturbed forecast,,,,Operational
-001092,Type of ensemble forecast,4-191,Reserved,,,,Operational
+001092,Type of ensemble forecast,4,Perturbed forecast,,,,Operational
+001092,Type of ensemble forecast,5-191,Reserved,,,,Operational
 001092,Type of ensemble forecast,192-254,Reserved for local use,,,,Operational
 001092,Type of ensemble forecast,255,Missing value,,,,Operational
 001101,State identifier,0-99,Reserved,,,,Operational
@@ -680,7 +681,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002048,Satellite sensor indicator,10,JMR (JASON Microwave Radiometer),,,,Operational
 002048,Satellite sensor indicator,11,MHS,,,,Operational
 002048,Satellite sensor indicator,12,ASCAT,,,,Operational
-002048,Satellite sensor indicator,13-14,Reserved,,,,Operational
+002048,Satellite sensor indicator,13,OSCAT2,,,,Operational
+002048,Satellite sensor indicator,14,Reserved,,,,Operational
 002048,Satellite sensor indicator,15,Missing value,,,,Operational
 002049,Geostationary satellite data-processing technique used,1,Processing technique not defined,,,,Operational
 002049,Geostationary satellite data-processing technique used,2,Simultaneous physical retrieval,,,,Operational
@@ -4748,6 +4750,37 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033052,S band ocean retracking quality,All 21,Missing value,,,,Operational
 033053,Ku band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1=invalid). Bit 1 applies to the 20th data block",,,,Operational
 033053,Ku band ocean retracking quality,All 21,Missing value,,,,Operational
+033055,Wind vector quality flag,1-10,Reserved,,,,Operational
+033055,Wind vector quality flag,11,Ocean sigma0 is not available for wind retrievals,,,,Operational
+033055,Wind vector quality flag,12,Background wind is not available,,,,Operational
+033055,Wind vector quality flag,13,Background model detect land,,,,Operational
+033055,Wind vector quality flag,14,Background model detect ice,,,,Operational
+033055,Wind vector quality flag,15,Sigma0 is not land/ice free,,,,Operational
+033055,Wind vector quality flag,16,Sigma0 land contamination,,,,Operational
+033055,Wind vector quality flag,17,Sigma0 ice contamination,,,,Operational
+033055,Wind vector quality flag,18,Not enough azimuthal diversity,,,,Operational
+033055,Wind vector quality flag,19,Inversion is not done,,,,Operational
+033055,Wind vector quality flag,20,Overall WVC flag,,,,Operational
+033055,Wind vector quality flag,21,Inversion is attempted (flag is set),,,,Operational
+033055,Wind vector quality flag,22,Rainflag is attempted (flag is set),,,,Operational
+033055,Wind vector quality flag,23,Rain is detected,,,,Operational
+033055,Wind vector quality flag,All 24,Missing value,,,,Operational
+033056,Sigma-0 quality flag,1-7,Reserved,,,,Operational
+033056,Sigma-0 quality flag,8,Ascending,,,,Operational
+033056,Sigma-0 quality flag,9,VV polarisation,,,,Operational
+033056,Sigma-0 quality flag,10,Fore of spacecraft,,,,Operational
+033056,Sigma-0 quality flag,11,Land,,,,Operational
+033056,Sigma-0 quality flag,12,Poor sigma0 (summary),,,,Operational
+033056,Sigma-0 quality flag,13,Invalid sigma-0 (summary),,,,Operational
+033056,Sigma-0 quality flag,14,Poor BT,,,,Operational
+033056,Sigma-0 quality flag,15,Invalid BT,,,,Operational
+033056,Sigma-0 quality flag,16,Land-sea boundary,,,,Operational
+033056,Sigma-0 quality flag,17,Negative sigma-0,,,,Operational
+033056,Sigma-0 quality flag,18-20,Reserved,,,,Operational
+033056,Sigma-0 quality flag,21,Ice,,,,Operational
+033056,Sigma-0 quality flag,22,Missing data at a given latitude-longitude for sea-ice flagging process for 2 or more number of days,,,,Operational
+033056,Sigma-0 quality flag,23,Ice-ocean contamination,,,,Operational
+033056,Sigma-0 quality flag,All 24,Missing value,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,0,Good,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,1,Bad,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,2,Reserved,,,,Operational
@@ -5281,6 +5314,18 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040068,General retrieval quality flag for SO2,2,Best quality,,,,Operational
 040068,General retrieval quality flag for SO2,3-14,Reserved,,,,Operational
 040068,General retrieval quality flag for SO2,15,Missing value,,,,Operational
+040074,General interferometry quality flags,1,Incompatibility of a scan angle for electroencephalogram,,,,Operational
+040074,General interferometry quality flags,2,"Calibration failure (limit of black body temperature reached, not enough sources for interferometry, etc.)",,,,Operational
+040074,General interferometry quality flags,3,Geolocation executed taking into account the orientation of the spacecraft and using the star catalogue,,,,Operational
+040074,General interferometry quality flags,4,"High level of cryogenic sediment reached, requiring outgassing of the radiation cooler. Set when NESR level of the ice cover threshold crossed",,,,Operational
+040074,General interferometry quality flags,5,Interferometry package flag,,,,Operational
+040074,General interferometry quality flags,6,General accuracy flag,,,,Operational
+040074,General interferometry quality flags,7,Noise present during the interferometry,,,,Operational
+040074,General interferometry quality flags,8,Outgassing of the radiation cooler,,,,Operational
+040074,General interferometry quality flags,9,Flag preceding the first 24 hours/day mark (on as a rule),,,,Operational
+040074,General interferometry quality flags,10,Telemetry package flag,,,,Operational
+040074,General interferometry quality flags,11-15,Reserved,,,,Operational
+040074,General interferometry quality flags,All 16,Missing value,,,,Operational
 FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 042004,Confidence of inversion for each partition of swell wave spectra,0,Wave direction resolved,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,1,180-degree ambiguity not resolved,,,,Operational
