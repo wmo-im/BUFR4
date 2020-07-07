@@ -16503,6 +16503,51 @@
   <BUFRCREX_TableB_en>
     <ClassNo>21</ClassNo>
     <ClassName_en>Radar data</ClassName_en>
+    <FXY>021095</FXY>
+    <ElementName_en>Kp coefficient A</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>6</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021096</FXY>
+    <ElementName_en>Kp coefficient B</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>6</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021097</FXY>
+    <ElementName_en>Kp coefficient C</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>6</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
     <FXY>021101</FXY>
     <ElementName_en>Number of vector ambiguities</ElementName_en>
     <Note_en/>
@@ -23953,6 +23998,36 @@
     <CREX_Unit>Flag table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>24</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>24</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>

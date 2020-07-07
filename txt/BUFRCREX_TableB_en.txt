@@ -1099,6 +1099,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 21,Radar data,021092,"RASS signal Doppler spectrum 0th moment, referring to RASS signal",,dB,0,-100,8,dB,0,3,Operational
 21,Radar data,021093,Ku band peakiness,,Numeric,3,0,16,Numeric,3,5,Operational
 21,Radar data,021094,S band peakiness,,Numeric,3,0,16,Numeric,3,5,Operational
+21,Radar data,021095,Kp coefficient A,,Numeric,6,0,20,Numeric,6,7,Operational
+21,Radar data,021096,Kp coefficient B,,Numeric,6,0,20,Numeric,6,7,Operational
+21,Radar data,021097,Kp coefficient C,,Numeric,6,0,20,Numeric,6,7,Operational
 21,Radar data,021101,Number of vector ambiguities,,Numeric,0,0,3,Numeric,0,1,Operational
 21,Radar data,021102,Index of selected wind vector,,Numeric,0,0,3,Numeric,0,1,Operational
 21,Radar data,021103,Total number of sigma-0 measurements,,Numeric,0,0,5,Numeric,0,2,Operational
@@ -1596,6 +1599,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 33,Quality information,033050,Global GTSPP quality flag,,Code table,0,0,4,Code table,0,2,Operational
 33,Quality information,033052,S band ocean retracking quality,,Flag table,0,0,21,Flag table,0,7,Operational
 33,Quality information,033053,Ku band ocean retracking quality,,Flag table,0,0,21,Flag table,0,7,Operational
+33,Quality information,033055,Wind vector quality flag,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033056,Sigma-0 quality flag,,Flag table,0,0,24,Flag table,0,8,Operational
 33,Quality information,033060,GqisFlagQual - individual IASI-System quality flag,,Code table,0,0,2,Code table,0,1,Operational
 33,Quality information,033061,GqisQualIndex - indicator for instrument noise performance (contributions from spectral and radiometric calibration),,%,0,0,7,%,0,3,Operational
 33,Quality information,033062,GqisQualIndexLoc - indicator for geometric quality index,,%,0,0,7,%,0,3,Operational

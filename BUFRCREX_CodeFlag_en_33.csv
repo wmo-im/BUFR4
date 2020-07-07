@@ -306,13 +306,42 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033052,S band ocean retracking quality,All 21,Missing value,,,,Operational
 033053,Ku band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1=invalid). Bit 1 applies to the 20th data block",,,,Operational
 033053,Ku band ocean retracking quality,All 21,Missing value,,,,Operational
+033055,Wind vector quality flag,1-10,Reserved,,,,Operational
+033055,Wind vector quality flag,11,Ocean sigma0 is not available for wind retrievals,,,,Operational
+033055,Wind vector quality flag,12,Background wind is not available,,,,Operational
+033055,Wind vector quality flag,13,Background model detect land,,,,Operational
+033055,Wind vector quality flag,14,Background model detect ice,,,,Operational
+033055,Wind vector quality flag,15,Sigma0 is not land/ice free,,,,Operational
+033055,Wind vector quality flag,16,Sigma0 land contamination,,,,Operational
+033055,Wind vector quality flag,17,Sigma0 ice contamination,,,,Operational
+033055,Wind vector quality flag,18,Not enough azimuthal diversity,,,,Operational
+033055,Wind vector quality flag,19,Inversion is not done,,,,Operational
+033055,Wind vector quality flag,20,Overall WVC flag,,,,Operational
+033055,Wind vector quality flag,21,Inversion is attempted (flag is set),,,,Operational
+033055,Wind vector quality flag,22,Rainflag is attempted (flag is set),,,,Operational
+033055,Wind vector quality flag,23,Rain is detected,,,,Operational
+033055,Wind vector quality flag,All 24,Missing value,,,,Operational
+033056,Sigma-0 quality flag,1-7,Reserved,,,,Operational
+033056,Sigma-0 quality flag,8,Ascending,,,,Operational
+033056,Sigma-0 quality flag,9,VV polarisation,,,,Operational
+033056,Sigma-0 quality flag,10,Fore of spacecraft,,,,Operational
+033056,Sigma-0 quality flag,11,Land,,,,Operational
+033056,Sigma-0 quality flag,12,Poor sigma0 (summary),,,,Operational
+033056,Sigma-0 quality flag,13,Invalid sigma-0 (summary),,,,Operational
+033056,Sigma-0 quality flag,14,Poor BT,,,,Operational
+033056,Sigma-0 quality flag,15,Invalid BT,,,,Operational
+033056,Sigma-0 quality flag,16,Land-sea boundary,,,,Operational
+033056,Sigma-0 quality flag,17,Negative sigma-0,,,,Operational
+033056,Sigma-0 quality flag,18-20,Reserved,,,,Operational
+033056,Sigma-0 quality flag,21,Ice,,,,Operational
+033056,Sigma-0 quality flag,22,Missing data at a given latitude-longitude for sea-ice flagging process for 2 or more number of days,,,,Operational
+033056,Sigma-0 quality flag,23,Ice-ocean contamination,,,,Operational
+033056,Sigma-0 quality flag,All 24,Missing value,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,0,Good,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,1,Bad,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,2,Reserved,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,3,Missing value,,,,Operational
-033066,AMV quality flag,1-19,Reserved,,,,Operational
-033066,AMV quality flag,20,"Good wind, but an alternative channel used for feature tracking",,,,Operational
-033066,AMV quality flag,21,"Good wind, but an alternative set of channels used for the determination of cloud-top height/AMV height assignment",,,,Operational
+033066,AMV quality flag,1-21,Reserved,,,,Operational
 033066,AMV quality flag,22,Correlation surface constraint fails,,,,Operational
 033066,AMV quality flag,23,Reserved,,,,Operational
 033066,AMV quality flag,All 24,Missing value,,,,Operational
