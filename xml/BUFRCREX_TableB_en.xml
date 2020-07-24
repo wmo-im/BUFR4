@@ -1818,6 +1818,21 @@
   <BUFRCREX_TableB_en>
     <ClassNo>02</ClassNo>
     <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>002006</FXY>
+    <ElementName_en>Upper air remote sensing instrument type</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>6</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>0</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>02</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
     <FXY>002007</FXY>
     <ElementName_en>Type of sensor for water level measuring instrument</ElementName_en>
     <Note_en/>
@@ -13495,6 +13510,96 @@
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
     <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <CREX_Unit>%</CREX_Unit>
+    <CREX_Scale>2</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015073</FXY>
+    <ElementName_en>Attenuated Backscatter</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>m-1 sr-1</BUFR_Unit>
+    <BUFR_Scale>8</BUFR_Scale>
+    <BUFR_ReferenceValue>-524288</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>m-1 sr-1</CREX_Unit>
+    <CREX_Scale>8</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015074</FXY>
+    <ElementName_en>Particle Backscatter Coefficient</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>m-1 sr-1</BUFR_Unit>
+    <BUFR_Scale>8</BUFR_Scale>
+    <BUFR_ReferenceValue>-524288</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>m-1 sr-1</CREX_Unit>
+    <CREX_Scale>8</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015075</FXY>
+    <ElementName_en>Particle Extinction Coefficient</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>8</BUFR_Scale>
+    <BUFR_ReferenceValue>-524288</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>m-1</CREX_Unit>
+    <CREX_Scale>8</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015076</FXY>
+    <ElementName_en>Particle LIDAR Ratio</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>sr</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>-2048</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>13</BUFR_DataWidth_Bits>
+    <CREX_Unit>sr</CREX_Unit>
+    <CREX_Scale>1</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015077</FXY>
+    <ElementName_en>Uncertainty in LIDAR Ratio</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>sr</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>12</BUFR_DataWidth_Bits>
+    <CREX_Unit>sr</CREX_Unit>
+    <CREX_Scale>1</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015078</FXY>
+    <ElementName_en>Particle Depolarization Ratio</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>%</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-8192</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
     <CREX_Unit>%</CREX_Unit>
     <CREX_Scale>2</CREX_Scale>
     <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
