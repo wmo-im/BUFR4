@@ -1181,7 +1181,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 21,Radar data,021186,Specific band automatic gain control,,dB,2,0,13,dB,2,4,Operational
 21,Radar data,021187,RMS specific band automatic gain control,,dB,2,0,8,dB,2,3,Operational
 21,Radar data,021188,Number of valid points for specific band automatic gain control,,Numeric,0,0,7,Numeric,0,3,Operational
-21,Radar data,021189,Corrected OCOG* backscatter coefficient (negative reference),"is similar to 0-21-177, but with a negative reference value",dB,2,-32768,16,,,,Operational
+21,Radar data,021189,Corrected OCOG* backscatter coefficient (negative reference),"is similar to 0-21-177, but with a negative reference value",dB,2,-32768,16,dB,2,6,Operational
 ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 22,Oceanographic elements,022001,Direction of waves,,degree true,0,0,9,degree true,0,3,Operational
 22,Oceanographic elements,022002,Direction of wind waves,,degree true,0,0,9,degree true,0,3,Operational
