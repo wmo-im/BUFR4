@@ -54,6 +54,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 21,Radar data,021092,"RASS signal Doppler spectrum 0th moment, referring to RASS signal",,dB,0,-100,8,dB,0,3,Operational
 21,Radar data,021093,Ku band peakiness,,Numeric,3,0,16,Numeric,3,5,Operational
 21,Radar data,021094,S band peakiness,,Numeric,3,0,16,Numeric,3,5,Operational
+21,Radar data,021095,Kp coefficient A,,Numeric,6,0,20,Numeric,6,7,Operational
+21,Radar data,021096,Kp coefficient B,,Numeric,6,0,20,Numeric,6,7,Operational
+21,Radar data,021097,Kp coefficient C,,Numeric,6,0,20,Numeric,6,7,Operational
 21,Radar data,021101,Number of vector ambiguities,,Numeric,0,0,3,Numeric,0,1,Operational
 21,Radar data,021102,Index of selected wind vector,,Numeric,0,0,3,Numeric,0,1,Operational
 21,Radar data,021103,Total number of sigma-0 measurements,,Numeric,0,0,5,Numeric,0,2,Operational
@@ -133,3 +136,4 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 21,Radar data,021186,Specific band automatic gain control,,dB,2,0,13,dB,2,4,Operational
 21,Radar data,021187,RMS specific band automatic gain control,,dB,2,0,8,dB,2,3,Operational
 21,Radar data,021188,Number of valid points for specific band automatic gain control,,Numeric,0,0,7,Numeric,0,3,Operational
+21,Radar data,021189,Corrected OCOG* backscatter coefficient (negative reference),"is similar to 0-21-177, but with a negative reference value",dB,2,-32768,16,dB,2,6,Operational
