@@ -219,3 +219,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040068,General retrieval quality flag for SO2,2,Best quality,,,,Operational
 040068,General retrieval quality flag for SO2,3-14,Reserved,,,,Operational
 040068,General retrieval quality flag for SO2,15,Missing value,,,,Operational
+040074,General interferometry quality flags,1,Incompatibility of a scan angle for electroencephalogram,,,,Operational
+040074,General interferometry quality flags,2,"Calibration failure (limit of black body temperature reached, not enough sources for interferometry, etc.)",,,,Operational
+040074,General interferometry quality flags,3,Geolocation executed taking into account the orientation of the spacecraft and using the star catalogue,,,,Operational
+040074,General interferometry quality flags,4,"High level of cryogenic sediment reached, requiring outgassing of the radiation cooler. Set when NESR level of the ice cover threshold crossed",,,,Operational
+040074,General interferometry quality flags,5,Interferometry package flag,,,,Operational
+040074,General interferometry quality flags,6,General accuracy flag,,,,Operational
+040074,General interferometry quality flags,7,Noise present during the interferometry,,,,Operational
+040074,General interferometry quality flags,8,Outgassing of the radiation cooler,,,,Operational
+040074,General interferometry quality flags,9,Flag preceding the first 24 hours/day mark (on as a rule),,,,Operational
+040074,General interferometry quality flags,10,Telemetry package flag,,,,Operational
+040074,General interferometry quality flags,11-15,Reserved,,,,Operational
+040074,General interferometry quality flags,All 16,Missing value,,,,Operational

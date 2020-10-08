@@ -114,6 +114,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 01,Identification,001151,Fixed mean sea-level reference datum,,Code table,0,0,12,Code table,0,4,Operational
 01,Identification,001152,Semi-major axis of rotation ellipsoid,,m,2,0,31,m,2,11,Operational
 01,Identification,001153,Semi-minor axis of rotation ellipsoid,,m,2,0,31,m,2,11,Operational
+01,Identification,001154,Sensor identifier,,Numeric,0,0,12,Numeric,0,4,Operational
 ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 02,Instrumentation,002001,Type of station,,Code table,0,0,2,Code table,0,1,Operational
 02,Instrumentation,002002,Type of instrumentation for wind measurement,,Flag table,0,0,4,Flag table,0,2,Operational
@@ -435,6 +436,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 07,Location (vertical),007065,Water pressure,,Pa,-3,0,17,Pa,-3,6,Operational
 07,Location (vertical),007070,Drogue depth,,m,0,0,10,m,0,4,Operational
 07,Location (vertical),007071,Height (high resolution),,m,3,-10000000,26,m,3,8,Operational
+07,Location (vertical),007072,Scan angle,,deg,2,-9000,15,deg,2,6,Operational
 ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 08,Significance qualifiers,008001,Vertical sounding significance,,Flag table,0,0,7,Flag table,0,3,Operational
 08,Significance qualifiers,008002,Vertical significance (surface observations),,Code table,0,0,6,Code table,0,2,Operational
@@ -1104,6 +1106,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 21,Radar data,021092,"RASS signal Doppler spectrum 0th moment, referring to RASS signal",,dB,0,-100,8,dB,0,3,Operational
 21,Radar data,021093,Ku band peakiness,,Numeric,3,0,16,Numeric,3,5,Operational
 21,Radar data,021094,S band peakiness,,Numeric,3,0,16,Numeric,3,5,Operational
+21,Radar data,021095,Kp coefficient A,,Numeric,6,0,20,Numeric,6,7,Operational
+21,Radar data,021096,Kp coefficient B,,Numeric,6,0,20,Numeric,6,7,Operational
+21,Radar data,021097,Kp coefficient C,,Numeric,6,0,20,Numeric,6,7,Operational
 21,Radar data,021101,Number of vector ambiguities,,Numeric,0,0,3,Numeric,0,1,Operational
 21,Radar data,021102,Index of selected wind vector,,Numeric,0,0,3,Numeric,0,1,Operational
 21,Radar data,021103,Total number of sigma-0 measurements,,Numeric,0,0,5,Numeric,0,2,Operational
@@ -1183,7 +1188,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 21,Radar data,021186,Specific band automatic gain control,,dB,2,0,13,dB,2,4,Operational
 21,Radar data,021187,RMS specific band automatic gain control,,dB,2,0,8,dB,2,3,Operational
 21,Radar data,021188,Number of valid points for specific band automatic gain control,,Numeric,0,0,7,Numeric,0,3,Operational
-21,Radar data,021189,Corrected OCOG* backscatter coefficient (negative reference),"is similar to 0-21-177, but with a negative reference value",dB,2,-32768,16,,,,Operational
+21,Radar data,021189,Corrected OCOG* backscatter coefficient (negative reference),"is similar to 0-21-177, but with a negative reference value",dB,2,-32768,16,dB,2,6,Operational
 ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 22,Oceanographic elements,022001,Direction of waves,,degree true,0,0,9,degree true,0,3,Operational
 22,Oceanographic elements,022002,Direction of wind waves,,degree true,0,0,9,degree true,0,3,Operational
@@ -1312,7 +1317,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 22,Oceanographic elements,022175,Number of valid points for C band backscatter,,Numeric,0,0,10,Numeric,0,4,Operational
 22,Oceanographic elements,022177,Height of XBT/XCTD launcher,,m,0,0,6,m,0,3,Operational
 22,Oceanographic elements,022178,XBT/XCTD launcher type,,Code table,0,0,8,Code table,0,3,Operational
-22,Oceanographic elements,022179,Specific band significant wave height (negative reference),"similar to 0-22-190, but with a negative reference value",M,3,-500,16,,,,Operational
+22,Oceanographic elements,022179,Specific band significant wave height (negative reference),"similar to 0-22-190, but with a negative reference value",m,3,-500,16,m,3,6,Operational
 22,Oceanographic elements,022182,Water column height,(see Note 9),m,3,0,23,m,3,7,Operational
 22,Oceanographic elements,022184,Water column height deviation from the reference value,,m,3,-2000,12,m,3,4,Operational
 22,Oceanographic elements,022185,BPR transmission count,,Numeric,0,0,10,Numeric,0,3,Operational
@@ -1601,6 +1606,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 33,Quality information,033050,Global GTSPP quality flag,,Code table,0,0,4,Code table,0,2,Operational
 33,Quality information,033052,S band ocean retracking quality,,Flag table,0,0,21,Flag table,0,7,Operational
 33,Quality information,033053,Ku band ocean retracking quality,,Flag table,0,0,21,Flag table,0,7,Operational
+33,Quality information,033055,Wind vector quality flag,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033056,Sigma-0 quality flag,,Flag table,0,0,24,Flag table,0,8,Operational
 33,Quality information,033060,GqisFlagQual - individual IASI-System quality flag,,Code table,0,0,2,Code table,0,1,Operational
 33,Quality information,033061,GqisQualIndex - indicator for instrument noise performance (contributions from spectral and radiometric calibration),,%,0,0,7,%,0,3,Operational
 33,Quality information,033062,GqisQualIndexLoc - indicator for geometric quality index,,%,0,0,7,%,0,3,Operational
@@ -1706,7 +1713,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 40,Satellite data,040060,Number of profiles retrieved in scanline,,Numeric,0,0,8,Numeric,0,3,Operational
 40,Satellite data,040061,Air partial columns on each retrieved layer,,mol cm-2,3,0,16,mol cm-2,3,5,Operational
 40,Satellite data,040062,A-priori partial columns on each retrieved layer,,mol cm-2,10,0,16,mol cm-2,10,5,Operational
-40,Satellite data,040063,Scaling vector multiplying the a priori CO vector in order to define the retrieved CO vector,,Numeric,5,0,26,Numeric,5,8,Operational
+40,Satellite data,040063,Scaling vector multiplying the a priori vector in order to define the retrieved vector,,Numeric,5,0,26,Numeric,5,8,Operational
 40,Satellite data,040064,Main eigenvalues of the sensitivity matrix,,Numeric,6,0,31,Numeric,6,10,Operational
 40,Satellite data,040065,Main eigenvectors of the sensitivity matrix,,Numeric,6,-1000000000,31,Numeric,6,10,Operational
 40,Satellite data,040066,Quality indicator for atmospheric water vapour,,Numeric,1,0,8,Numeric,1,3,Operational
@@ -1717,6 +1724,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 40,Satellite data,040071,Retrieval error covariance matrix for ozone in principal component domain,,Numeric,4,-1000000,21,Numeric,4,7,Operational
 40,Satellite data,040072,PWLR estimated retrieval quality indicator of atmospheric ozone,,Numeric,1,0,8,Numeric,1,3,Operational
 40,Satellite data,040073,PWLR estimated retrieval error of surface skin temperature,,K,1,0,8,K,1,3,Operational
+40,Satellite data,040074,General interferometry quality flags,,Flag table,0,0,16,,,,Operational
 ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 41,Oceanographic/biogeochemical parameters,041001,pCO2,,Pa,3,0,18,Pa,3,6,Operational
 41,Oceanographic/biogeochemical parameters,041002,Fluorescence,,kg l-1,12,0,16,kg l-1,12,5,Operational

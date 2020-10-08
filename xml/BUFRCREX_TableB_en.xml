@@ -1726,6 +1726,21 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>01</ClassNo>
+    <ClassName_en>Identification</ClassName_en>
+    <FXY>001154</FXY>
+    <ElementName_en>Sensor identifier</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>12</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>4</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>ClassNo</ClassNo>
     <ClassName_en>ClassName_en</ClassName_en>
     <FXY>FXY</FXY>
@@ -6538,6 +6553,21 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>3</CREX_Scale>
     <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007072</FXY>
+    <ElementName_en>Scan angle</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>deg</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-9000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>deg</CREX_Unit>
+    <CREX_Scale>2</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -16578,6 +16608,51 @@
   <BUFRCREX_TableB_en>
     <ClassNo>21</ClassNo>
     <ClassName_en>Radar data</ClassName_en>
+    <FXY>021095</FXY>
+    <ElementName_en>Kp coefficient A</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>6</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021096</FXY>
+    <ElementName_en>Kp coefficient B</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>6</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021097</FXY>
+    <ElementName_en>Kp coefficient C</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>6</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
     <FXY>021101</FXY>
     <ElementName_en>Number of vector ambiguities</ElementName_en>
     <Note_en/>
@@ -17770,9 +17845,9 @@
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-32768</BUFR_ReferenceValue>
     <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
-    <CREX_Unit/>
-    <CREX_Scale/>
-    <CREX_DataWidth_Char/>
+    <CREX_Unit>dB</CREX_Unit>
+    <CREX_Scale>2</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -19701,13 +19776,13 @@
     <FXY>022179</FXY>
     <ElementName_en>Specific band significant wave height (negative reference)</ElementName_en>
     <Note_en>similar to 0-22-190, but with a negative reference value</Note_en>
-    <BUFR_Unit>M</BUFR_Unit>
+    <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>-500</BUFR_ReferenceValue>
     <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
-    <CREX_Unit/>
-    <CREX_Scale/>
-    <CREX_DataWidth_Char/>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>3</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -24033,6 +24108,36 @@
   <BUFRCREX_TableB_en>
     <ClassNo>33</ClassNo>
     <ClassName_en>Quality information</ClassName_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>24</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>24</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
     <FXY>033060</FXY>
     <ElementName_en>GqisFlagQual - individual IASI-System quality flag</ElementName_en>
     <Note_en/>
@@ -25609,7 +25714,7 @@
     <ClassNo>40</ClassNo>
     <ClassName_en>Satellite data</ClassName_en>
     <FXY>040063</FXY>
-    <ElementName_en>Scaling vector multiplying the a priori CO vector in order to define the retrieved CO vector</ElementName_en>
+    <ElementName_en>Scaling vector multiplying the a priori vector in order to define the retrieved vector</ElementName_en>
     <Note_en/>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
@@ -25768,6 +25873,21 @@
     <CREX_Unit>K</CREX_Unit>
     <CREX_Scale>1</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>40</ClassNo>
+    <ClassName_en>Satellite data</ClassName_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit/>
+    <CREX_Scale/>
+    <CREX_DataWidth_Char/>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>

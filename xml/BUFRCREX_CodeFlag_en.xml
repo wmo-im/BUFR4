@@ -1263,7 +1263,17 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>001092</FXY>
     <ElementName_en>Type of ensemble forecast</ElementName_en>
-    <CodeFigure>4-191</CodeFigure>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Perturbed forecast</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001092</FXY>
+    <ElementName_en>Type of ensemble forecast</ElementName_en>
+    <CodeFigure>5-191</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <EntryName_sub1_en/>
     <EntryName_sub2_en/>
@@ -6913,7 +6923,17 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002048</FXY>
     <ElementName_en>Satellite sensor indicator</ElementName_en>
-    <CodeFigure>13-14</CodeFigure>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>OSCAT2</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002048</FXY>
+    <ElementName_en>Satellite sensor indicator</ElementName_en>
+    <CodeFigure>14</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <EntryName_sub1_en/>
     <EntryName_sub2_en/>
@@ -47591,6 +47611,316 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>1-10</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Ocean sigma0 is not available for wind retrievals</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Background wind is not available</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Background model detect land</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Background model detect ice</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Sigma0 is not land/ice free</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>Sigma0 land contamination</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>Sigma0 ice contamination</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>Not enough azimuthal diversity</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>Inversion is not done</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Overall WVC flag</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>Inversion is attempted (flag is set)</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>Rain flag is attempted (flag is set)</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>Rain is detected</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033055</FXY>
+    <ElementName_en>Wind vector quality flag</ElementName_en>
+    <CodeFigure>All 24</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>1-7</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Ascending</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>VV polarisation</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Fore of spacecraft</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Land</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Poor sigma0 (summary)</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Invalid sigma-0 (summary)</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Poor BT</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Invalid BT</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>Land-sea boundary</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>Negative sigma-0</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>18-20</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>Ice</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>Missing data at a given latitude-longitude for sea-ice flagging process for 2 or more number of days</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>Ice-ocean contamination</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033056</FXY>
+    <ElementName_en>Sigma-0 quality flag</ElementName_en>
+    <CodeFigure>All 24</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>033060</FXY>
     <ElementName_en>GqisFlagQual - individual IASI-System quality flag</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -47633,8 +47963,28 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>033066</FXY>
     <ElementName_en>AMV quality flag</ElementName_en>
-    <CodeFigure>1-21</CodeFigure>
+    <CodeFigure>1-19</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033066</FXY>
+    <ElementName_en>AMV quality flag</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Good wind, but an alternative channel used for feature tracking</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033066</FXY>
+    <ElementName_en>AMV quality flag</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>Good wind, but an alternative set of channels used for the determination of cloud-top height/AMV height assignment</EntryName_en>
     <EntryName_sub1_en/>
     <EntryName_sub2_en/>
     <Note_en/>
@@ -52914,6 +53264,126 @@
     <FXY>040068</FXY>
     <ElementName_en>General retrieval quality flag for SO2</ElementName_en>
     <CodeFigure>15</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Incompatibility of a scan angle for electroencephalogram</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Calibration failure (limit of black body temperature reached, not enough sources for interferometry, etc.)</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Geolocation executed taking into account the orientation of the spacecraft and using the star catalogue</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>High level of cryogenic sediment reached, requiring outgassing of the radiation cooler. Set when NESR level of the ice cover threshold crossed</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Interferometry package flag</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>General accuracy flag</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>Noise present during the interferometry</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Outgassing of the radiation cooler</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Flag preceding the first 24 hours/day mark (on as a rule)</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Telemetry package flag</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>11-15</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <EntryName_sub1_en/>
+    <EntryName_sub2_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040074</FXY>
+    <ElementName_en>General interferometry quality flags</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <EntryName_sub1_en/>
     <EntryName_sub2_en/>

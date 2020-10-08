@@ -61,7 +61,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 40,Satellite data,040060,Number of profiles retrieved in scanline,,Numeric,0,0,8,Numeric,0,3,Operational
 40,Satellite data,040061,Air partial columns on each retrieved layer,,mol cm-2,3,0,16,mol cm-2,3,5,Operational
 40,Satellite data,040062,A-priori partial columns on each retrieved layer,,mol cm-2,10,0,16,mol cm-2,10,5,Operational
-40,Satellite data,040063,Scaling vector multiplying the a priori CO vector in order to define the retrieved CO vector,,Numeric,5,0,26,Numeric,5,8,Operational
+40,Satellite data,040063,Scaling vector multiplying the a priori vector in order to define the retrieved vector,,Numeric,5,0,26,Numeric,5,8,Operational
 40,Satellite data,040064,Main eigenvalues of the sensitivity matrix,,Numeric,6,0,31,Numeric,6,10,Operational
 40,Satellite data,040065,Main eigenvectors of the sensitivity matrix,,Numeric,6,-1000000000,31,Numeric,6,10,Operational
 40,Satellite data,040066,Quality indicator for atmospheric water vapour,,Numeric,1,0,8,Numeric,1,3,Operational
@@ -72,3 +72,4 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 40,Satellite data,040071,Retrieval error covariance matrix for ozone in principal component domain,,Numeric,4,-1000000,21,Numeric,4,7,Operational
 40,Satellite data,040072,PWLR estimated retrieval quality indicator of atmospheric ozone,,Numeric,1,0,8,Numeric,1,3,Operational
 40,Satellite data,040073,PWLR estimated retrieval error of surface skin temperature,,K,1,0,8,K,1,3,Operational
+40,Satellite data,040074,General interferometry quality flags,,Flag table,0,0,16,,,,Operational
