@@ -4890,7 +4890,7 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301132</FXY1>
-    <Title_en>(Pixel geolocation)</Title_en>
+    <Title_en>(Common header sequence)</Title_en>
     <SubTitle_en/>
     <FXY2>301150</FXY2>
     <ElementName_en>WIGOS Identifiers</ElementName_en>
@@ -4902,7 +4902,7 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301132</FXY1>
-    <Title_en>(Pixel geolocation)</Title_en>
+    <Title_en>(Common header sequence)</Title_en>
     <SubTitle_en/>
     <FXY2>301001</FXY2>
     <ElementName_en>WMO block and station numbers</ElementName_en>
@@ -4914,7 +4914,31 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301132</FXY1>
-    <Title_en>(Pixel geolocation )</Title_en>
+    <Title_en>(Common header sequence)</Title_en>
+    <SubTitle_en/>
+    <FXY2>301021</FXY2>
+    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <ElementDescription_en>Sensor</ElementDescription_en>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>01</Category>
+    <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
+    <FXY1>301132</FXY1>
+    <Title_en>(Common header sequence)</Title_en>
+    <SubTitle_en/>
+    <FXY2>007030</FXY2>
+    <ElementName_en>Height of station ground above mean sea level</ElementName_en>
+    <ElementDescription_en/>
+    <Note_en/>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>01</Category>
+    <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
+    <FXY1>301132</FXY1>
+    <Title_en>(Common header sequence)</Title_en>
     <SubTitle_en/>
     <FXY2>008021</FXY2>
     <ElementName_en>Time significance for scan</ElementName_en>
@@ -4926,7 +4950,7 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301132</FXY1>
-    <Title_en>(High precision timestamp)</Title_en>
+    <Title_en>(Common header sequence)</Title_en>
     <SubTitle_en/>
     <FXY2>301011</FXY2>
     <ElementName_en>Year, month, day</ElementName_en>
@@ -4938,7 +4962,7 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301132</FXY1>
-    <Title_en>(High precision timestamp)</Title_en>
+    <Title_en>(Common header sequence)</Title_en>
     <SubTitle_en/>
     <FXY2>301012</FXY2>
     <ElementName_en>Hour, minute</ElementName_en>
@@ -4950,7 +4974,7 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301132</FXY1>
-    <Title_en>(High precision timestamp)</Title_en>
+    <Title_en>(Common header sequence)</Title_en>
     <SubTitle_en/>
     <FXY2>002006</FXY2>
     <ElementName_en>Upper Air Remote Sensing Instrument Type</ElementName_en>
@@ -4962,7 +4986,7 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301132</FXY1>
-    <Title_en>(High precision timestamp)</Title_en>
+    <Title_en>(Common header sequence)</Title_en>
     <SubTitle_en/>
     <FXY2>001079</FXY2>
     <ElementName_en>Unique identifier for the profile</ElementName_en>
@@ -4974,7 +4998,7 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301132</FXY1>
-    <Title_en>(High precision timestamp)</Title_en>
+    <Title_en>(Common header sequence)</Title_en>
     <SubTitle_en/>
     <FXY2>001085</FXY2>
     <ElementName_en>Observing platform manufacturer's mode</ElementName_en>
