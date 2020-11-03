@@ -27,7 +27,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 00,BUFR table entries sequences,300016,(Flag table definition),,031001,Delayed descriptor replication factor,,,Operational
 00,BUFR table entries sequences,300016,(Flag table definition),,000026,Bit number,,,Operational
 00,BUFR table entries sequences,300016,(Flag table definition),,000027,Bit number meaning,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 01,Location and identification sequences,301001,(WMO block and station numbers),,001001,WMO block number,,,Operational
 01,Location and identification sequences,301001,(WMO block and station numbers),,001002,WMO station number,,,Operational
 01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,,Operational
@@ -485,7 +484,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301150,(WIGOS identifier),,001126,WIGOS issuer of identifier,,,Operational
 01,Location and identification sequences,301150,(WIGOS identifier),,001127,WIGOS issue number,,,Operational
 01,Location and identification sequences,301150,(WIGOS identifier),,001128,WIGOS local identifier (character),,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010004,Pressure,Station level,,Operational
 02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010051,Pressure reduced to mean sea level,,,Operational
 02,Meteorological sequences common to surface data,302001,(Pressure and 3-hour pressure change),,010061,3-hour pressure change,,,Operational
@@ -1130,7 +1128,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 02,Meteorological sequences common to surface data,302175,"(Intensity of precipitation, size of precipitation element)",,013155,Intensity of precipitation (high accuracy),,,Operational
 02,Meteorological sequences common to surface data,302175,"(Intensity of precipitation, size of precipitation element)",,013058,Size of precipitating element,,,Operational
 02,Meteorological sequences common to surface data,302175,"(Intensity of precipitation, size of precipitation element)",,008021,Time significance,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 03,Meteorological sequences common to vertical soundings data,303001,,,007003,Geopotential,,,Operational
 03,Meteorological sequences common to vertical soundings data,303001,,,011001,Wind direction,,,Operational
 03,Meteorological sequences common to vertical soundings data,303001,,,011002,Wind speed,,,Operational
@@ -1305,7 +1302,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 03,Meteorological sequences common to vertical soundings data,303099,(Metadata common to temperature/humidity sensors),,003023,Configuration of louvres for thermometer/hygrometer screen,,,Operational
 03,Meteorological sequences common to vertical soundings data,303099,(Metadata common to temperature/humidity sensors),,003008,Artificially ventilated screen or shield,,,Operational
 03,Meteorological sequences common to vertical soundings data,303099,(Metadata common to temperature/humidity sensors),,003009,Amount of forced ventilation at time of reading,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 04,Meteorological sequences common to satellite observations,304001,"(Cloud top pressure, temperature, wind)",,008003,Vertical significance (satellite observations),,,Operational
 04,Meteorological sequences common to satellite observations,304001,"(Cloud top pressure, temperature, wind)",,010004,Pressure,,,Operational
 04,Meteorological sequences common to satellite observations,304001,"(Cloud top pressure, temperature, wind)",,012001,Temperature/air temperature,,,Operational
@@ -1436,7 +1432,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 04,Meteorological sequences common to satellite observations,304040,(Principal component score in band),,101000,Delayed replication of 1 descriptor,,,Operational
 04,Meteorological sequences common to satellite observations,304040,(Principal component score in band),,031002,Extended delayed descriptor replication factor,,,Operational
 04,Meteorological sequences common to satellite observations,304040,(Principal component score in band),,040017,Non-normalized principal component score,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 05,Meteorological or hydrological sequences common to hydrological observations,305001,(SADC-HYCOS single measurement),,011001,Wind direction,,,Operational
 05,Meteorological or hydrological sequences common to hydrological observations,305001,(SADC-HYCOS single measurement),,011002,Wind speed,,,Operational
 05,Meteorological or hydrological sequences common to hydrological observations,305001,(SADC-HYCOS single measurement),,013060,Total accumulated precipitation,,,Operational
@@ -1509,7 +1504,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 05,Meteorological or hydrological sequences common to hydrological observations,305018,(MEDHYCOS report with meteorology and water quality data),,305008,AOCHYCOS-Chad measurement,Same as AOCHYCOS type measurement,,Operational
 05,Meteorological or hydrological sequences common to hydrological observations,305018,(MEDHYCOS report with meteorology and water quality data),,305016,Meteorological parameters associated with hydrological data,,,Operational
 05,Meteorological or hydrological sequences common to hydrological observations,305018,(MEDHYCOS report with meteorology and water quality data),,305017,Water quality measurement,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 06,Meteorological or oceanographic sequences common to oceanographic observations,306001,"(Depth, temperature)",,002032,Indicator for digitization,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306001,"(Depth, temperature)",,102000,Delayed replication of 2 descriptors,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306001,"(Depth, temperature)",,031001,Delayed descriptor replication factor,,,Operational
@@ -1815,7 +1809,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 06,Meteorological or oceanographic sequences common to oceanographic observations,306043,(Marine biogeochemical and radiation observations),,014012,"Net long-wave radiation, integrated over period specified",,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306043,(Marine biogeochemical and radiation observations),,014004,"Short-wave radiation, integrated over period specified",,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306043,(Marine biogeochemical and radiation observations),,004024,Time period or displacement (hours),Cancel,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 07,Surface report sequences (land),307001,(Low altitude station),,301031,"Identification and type of station, date/time, location (high accuracy), height of station",,,Operational
 07,Surface report sequences (land),307001,(Low altitude station),,302011,Low altitude station,Basic surface report,,Operational
 07,Surface report sequences (land),307002,(Low altitude station),,301032,"Identification and type of station, date/time, location (coarse accuracy), height of station",,,Operational
@@ -2859,7 +2852,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,101002,Replicate 1 descriptor 2 times,,,Operational
 07,Surface report sequences (land),307182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,302045,Radiation data (from 1 hour and 24-hour period),,,Operational
 07,Surface report sequences (land),307182,(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II),,302046,Temperature change                   ,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 08,Surface report sequences (sea),308001,(Buoy/platform - fixed),,301033,Buoy/platform - fixed,"Identification, type, date/time, position (high accuracy)",,Operational
 08,Surface report sequences (sea),308001,(Buoy/platform - fixed),,302011,Low altitude station,Basic surface report,,Operational
 08,Surface report sequences (sea),308001,(Buoy/platform - fixed),,022042,Sea/water temperature,,,Operational
@@ -3183,7 +3175,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 08,Surface report sequences (sea),308022,(Monthly normals for an ocean weather station in compliance with regional or national reporting practices),Normals of precipitation,008023,First-order statistics,Set to missing (cancel),,Operational
 08,Surface report sequences (sea),308023,(Sequence for representation of monthly values suitable for CLIMAT SHIP data in compliance with regional or national reporting practices),,308021,Monthly values from an ocean weather station in compliance with regional or national reporting practices,,,Operational
 08,Surface report sequences (sea),308023,(Sequence for representation of monthly values suitable for CLIMAT SHIP data in compliance with regional or national reporting practices),,308022,Monthly normals for an ocean weather station in compliance with regional or national reporting practices,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 09,Vertical sounding sequences (conventional data),309001,(Vertical wind profile),,301037,Land station for vertical soundings,"Identification, etc. (land station, high accuracy position)",,Operational
 09,Vertical sounding sequences (conventional data),309001,(Vertical wind profile),,101000,Delayed replication of 1 descriptor,,,Operational
 09,Vertical sounding sequences (conventional data),309001,(Vertical wind profile),,031001,Delayed descriptor replication factor,,,Operational
@@ -3699,7 +3690,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 09,Vertical sounding sequences (conventional data),309071,(Sequence for representation of PILOT in the area of ASECNA),,007009,Geopotential height,,,Operational
 09,Vertical sounding sequences (conventional data),309071,(Sequence for representation of PILOT in the area of ASECNA),,011001,Wind direction,,,Operational
 09,Vertical sounding sequences (conventional data),309071,(Sequence for representation of PILOT in the area of ASECNA),,011002,Wind speed,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 10,Vertical sounding sequences (satellite data),310001,(Satellite - brightness temperature),,301042,"Satellite identifier, instrument, data-processing technique, date/time, location",,,Operational
 10,Vertical sounding sequences (satellite data),310001,(Satellite - brightness temperature),,303031,"Significance data, land/sea, skin temperature",,,Operational
 10,Vertical sounding sequences (satellite data),310001,(Satellite - brightness temperature),,303032,Cloud,,,Operational
@@ -4929,7 +4919,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 10,Vertical sounding sequences (satellite data),310077,(Satellite-derived winds),Cloud data and microphysics (refers to the nominal image used for height assignment),014050,Emissivity,,,Operational
 10,Vertical sounding sequences (satellite data),310077,(Satellite-derived winds),Cloud data and microphysics (refers to the nominal image used for height assignment),008011,Meteorological feature,Set to missing (cancel),,Operational
 10,Vertical sounding sequences (satellite data),310077,(Satellite-derived winds),Cloud data and microphysics (refers to the nominal image used for height assignment),008023,First order statistics,Set to missing (cancel),,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 11,Single level report sequences (conventional data),311001,(Aircraft reports),,301051,"Flight number, navigational system, date/time, location, phase of flight",ASDAR,,Operational
 11,Single level report sequences (conventional data),311001,(Aircraft reports),,007002,Height or altitude,,,Operational
 11,Single level report sequences (conventional data),311001,(Aircraft reports),,012001,Temperature/air temperature,,,Operational
@@ -5148,7 +5137,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 11,Single level report sequences (conventional data),311012,(BUFR template for aircraft ascent/descent profile with latitude and longitude given for each level),(Aircraft ascent/descent profile data for one level with lat. long. Indicated),201000,Cancel change data width,,,Operational
 11,Single level report sequences (conventional data),311012,(BUFR template for aircraft ascent/descent profile with latitude and longitude given for each level),(Aircraft ascent/descent profile data for one level with lat. long. Indicated),013003,Relative humidity,"Value derived from Mixing ratio, limited to ≤ 100%",,Operational
 11,Single level report sequences (conventional data),311012,(BUFR template for aircraft ascent/descent profile with latitude and longitude given for each level),(Aircraft ascent/descent profile data for one level with lat. long. Indicated),033026,Moisture quality,Code table ,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 12,Single level report sequences (satellite data),312001,,,301043,"Satellite identifier, wind computation method, date/time, location",,,Operational
 12,Single level report sequences (satellite data),312001,,,304001,"Cloud top pressure, temperature, wind",,,Operational
 12,Single level report sequences (satellite data),312002,,,301043,"Satellite identifier, wind computation method, date/time, location",,,Operational
@@ -5852,7 +5840,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 12,Single level report sequences (satellite data),312071,(CryoSat-2 SIRAL altimeter),,025184,L2 product status,,,Operational
 12,Single level report sequences (satellite data),312071,(CryoSat-2 SIRAL altimeter),,025181,L2 processing flag,,,Operational
 12,Single level report sequences (satellite data),312071,(CryoSat-2 SIRAL altimeter),,033080,Scan level quality flags,L2 processing quality,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 13,Sequences common to image data,313009,(Radar reflectivity values),,021001,Horizontal reflectivity,,,Operational
 13,Sequences common to image data,313009,(Radar reflectivity values),,101000,Delayed replication of 1 descriptor,,,Operational
 13,Sequences common to image data,313009,(Radar reflectivity values),,031001,Delayed descriptor replication factor,,,Operational
@@ -5906,7 +5893,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,101000,Delayed replication of 1 descriptor,,,Operational
 13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,031001,Delayed descriptor replication factor,,,Operational
 13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,030001,Pixel value (4 bits),,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,001011,Ship or mobile land station identifier,Ship's call sign,,Operational
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301011,"Year, month, day",,,Operational
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301012,"Hour, minute",,,Operational
@@ -6204,7 +6190,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 
 
 
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 16,Synoptic feature sequences,316001,,,301011,"Year, month, day",,,Operational
 16,Synoptic feature sequences,316001,,,004004,Hour,,,Operational
 16,Synoptic feature sequences,316001,,,301023,Latitude/longitude (coarse accuracy),,,Operational
@@ -6699,7 +6684,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201131,Change data width,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019004,Effective radius with respect to wind speeds above threshold,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width (Cancel - set to missing),,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 18,Radiological report sequences,318001,,,301025,"Latitude/longitude (coarse accuracy), day/time",,,Operational
 18,Radiological report sequences,318001,,,024011,Dose,,,Operational
 18,Radiological report sequences,318003,,,301026,"Latitude/longitude (high accuracy), time period (day, hour, minute)",,,Operational
@@ -6712,7 +6696,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 18,Radiological report sequences,318004,,,024005,Isotope mass,,,Operational
 18,Radiological report sequences,318004,,,024004,Element name,,,Operational
 18,Radiological report sequences,318004,,,024022,Concentration in precipitation (of named isotope type),,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 21,Radar report sequences,321001,(Wind profiler - antenna characteristics),,002101,Type of antenna,,,Operational
 21,Radar report sequences,321001,(Wind profiler - antenna characteristics),,002114,Antenna effective surface area,,,Operational
 21,Radar report sequences,321001,(Wind profiler - antenna characteristics),,002105,Maximum antenna gain,,,Operational
@@ -6899,7 +6882,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 21,Radar report sequences,321030,(ASCAT sigma-0 information),,021164,ASCAT telemetry presence and quality,,,Operational
 21,Radar report sequences,321030,(ASCAT sigma-0 information),,021165,ASCAT extrapolated reference function presence,,,Operational
 21,Radar report sequences,321030,(ASCAT sigma-0 information),,021166,Land fraction,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,001007,Satellite identifier,,,Operational
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,002019,Satellite instruments,,,Operational
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,004001,Year,,,Operational
@@ -6936,7 +6918,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,008043,Atmospheric chemical or physical constituent type,,,Operational
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,008044,CAS registry number,,,Operational
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,015021,Integrated mass density,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
 40,Additional satellite report sequences,340001,(IASI Level 1c data),,001007,Satellite identifier,,,Operational
 40,Additional satellite report sequences,340001,(IASI Level 1c data),,001031,Identification of originating/generating centre,,,Operational
 40,Additional satellite report sequences,340001,(IASI Level 1c data),,002019,Satellite instruments,,,Operational

@@ -23,7 +23,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 00,BUFR/CREX table entries,000026,Bit number,,CCITT IA5,0,0,48,Character,0,6,Operational
 00,BUFR/CREX table entries,000027,Bit number meaning,,CCITT IA5,0,0,496,Character,0,62,Operational
 00,BUFR/CREX table entries,000030,Descriptor defining sequence,,CCITT IA5,0,0,48,Character,0,6,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 01,Identification,001001,WMO block number,,Numeric,0,0,7,Numeric,0,2,Operational
 01,Identification,001002,WMO station number,,Numeric,0,0,10,Numeric,0,3,Operational
 01,Identification,001003,WMO Region number/geographical area,,Code table,0,0,3,Code table,0,1,Operational
@@ -115,7 +114,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 01,Identification,001152,Semi-major axis of rotation ellipsoid,,m,2,0,31,m,2,11,Operational
 01,Identification,001153,Semi-minor axis of rotation ellipsoid,,m,2,0,31,m,2,11,Operational
 01,Identification,001154,Sensor identifier,,Numeric,0,0,12,Numeric,0,4,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 02,Instrumentation,002001,Type of station,,Code table,0,0,2,Code table,0,1,Operational
 02,Instrumentation,002002,Type of instrumentation for wind measurement,,Flag table,0,0,4,Flag table,0,2,Operational
 02,Instrumentation,002003,Type of measuring equipment used,,Code table,0,0,4,Code table,0,2,Operational
@@ -289,7 +287,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 02,Instrumentation,002189,Capability to discriminate lightning strikes,,Flag table,0,0,12,Flag table,0,4,Operational
 02,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),,%,0,0,7,%,0,3,Operational
 02,Instrumentation,002191,Geopotential height calculation,,Code table,0,0,4,Code table,0,2,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 03,Instrumentation,003001,Surface station type,,Code table,0,0,5,Code table,0,2,Operational
 03,Instrumentation,003003,Thermometer/hygrometer housing,,Code table,0,0,4,Code table,0,2,Operational
 03,Instrumentation,003004,Type of screen/shelter/radiation shield,,Code table,0,0,4,Code table,0,2,Operational
@@ -314,7 +311,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 03,Instrumentation,003026,Along-track estimation area size,,m,0,5000,16,m,0,5,Operational
 03,Instrumentation,003027,Type of flight rig,,Code table,0,0,4,Code table,0,2,Operational
 03,Instrumentation,003028,Method of snow water equivalent measurement,,Code table,0,0,6,Code table,0,2,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 04,Location (time),004001,Year,,a,0,0,12,a,0,4,Operational
 04,Location (time),004002,Month,,mon,0,0,4,mon,0,2,Operational
 04,Location (time),004003,Day,,d,0,0,6,d,0,2,Operational
@@ -350,7 +346,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 04,Location (time),004075,Short time period or displacement,,min,0,-128,8,min,0,2,Operational
 04,Location (time),004080,Averaging period for following value,,Code table,0,0,4,Code table,0,2,Operational
 04,Location (time),004086,Long time period or displacement,,s,0,-8192,15,s,0,5,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 05,Location (horizontal - 1),005001,Latitude (high accuracy),,deg,5,-9000000,25,deg,5,7,Operational
 05,Location (horizontal - 1),005002,Latitude (coarse accuracy),,deg,2,-9000,15,deg,2,4,Operational
 05,Location (horizontal - 1),005011,Latitude increment (high accuracy),,deg,5,-9000000,25,deg,5,7,Operational
@@ -389,7 +384,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 05,Location (horizontal - 1),005073,Number of spectra in azimuthal direction,,Numeric,0,0,8,Numeric,0,3,Operational
 05,Location (horizontal - 1),005074,Index in range direction,,Numeric,0,0,8,Numeric,0,3,Operational
 05,Location (horizontal - 1),005075,Index in azimuthal direction,,Numeric,0,0,8,Numeric,0,3,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 06,Location (horizontal - 2),006001,Longitude (high accuracy),,deg,5,-18000000,26,deg,5,8,Operational
 06,Location (horizontal - 2),006002,Longitude (coarse accuracy),,deg,2,-18000,16,deg,2,5,Operational
 06,Location (horizontal - 2),006011,Longitude increment (high accuracy),,deg,5,-18000000,26,deg,5,8,Operational
@@ -405,7 +399,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 06,Location (horizontal - 2),006034,Cross-track cell number,,Numeric,0,0,7,Numeric,0,3,Operational
 06,Location (horizontal - 2),006035,Maximum size of y-dimension,,Numeric,0,0,12,Numeric,0,4,Operational
 06,Location (horizontal - 2),006040,Radius of confidence,,m,0,0,13,m,0,4,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 07,Location (vertical),007001,Height of station,(see Note 1),m,0,-400,15,m,0,5,Operational
 07,Location (vertical),007002,Height or altitude,,m,-1,-40,16,m,-1,5,Operational
 07,Location (vertical),007003,Geopotential,,m2 s-2,-1,-400,17,m2 s-2,-1,6,Operational
@@ -437,7 +430,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 07,Location (vertical),007070,Drogue depth,,m,0,0,10,m,0,4,Operational
 07,Location (vertical),007071,Height (high resolution),,m,3,-10000000,26,m,3,8,Operational
 07,Location (vertical),007072,Scan angle,,deg,2,-9000,15,deg,2,6,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 08,Significance qualifiers,008001,Vertical sounding significance,,Flag table,0,0,7,Flag table,0,3,Operational
 08,Significance qualifiers,008002,Vertical significance (surface observations),,Code table,0,0,6,Code table,0,2,Operational
 08,Significance qualifiers,008003,Vertical significance (satellite observations),,Code table,0,0,6,Code table,0,2,Operational
@@ -509,7 +501,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 08,Significance qualifiers,008091,Coordinates significance,,Code table,0,0,8,Code table,0,3,Operational
 08,Significance qualifiers,008092,Measurement uncertainty expression,,Code table,0,0,5,Code table,0,2,Operational
 08,Significance qualifiers,008093,Measurement uncertainty significance,,Code table,0,0,5,Code table,0,2,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 10,Non-coordinate location (vertical),010001,Height of land surface,,m,0,-400,15,m,0,5,Operational
 10,Non-coordinate location (vertical),010002,Height,,m,-1,-40,16,m,-1,5,Operational
 10,Non-coordinate location (vertical),010003,Geopotential,,m2 s-2,-1,-400,17,m2 s-2,-1,6,Operational
@@ -563,7 +554,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 10,Non-coordinate location (vertical),010101,Squared off-nadir angle of the satellite from waveform data,,deg2,2,-32768,16,deg2,2,5,Operational
 10,Non-coordinate location (vertical),010102,Sea-surface height anomaly,,m,3,-32768,16,m,3,5,Operational
 10,Non-coordinate location (vertical),010103,Mean dynamic topography accuracy,,m,3,-131072,18,m,3,6,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 11,Wind and turbulence,011001,Wind direction,,degree true,0,0,9,degree true,0,3,Operational
 11,Wind and turbulence,011002,Wind speed,,m/s,1,0,12,m/s,1,4,Operational
 11,Wind and turbulence,011003,u-component,,m/s,1,-4096,13,m/s,1,4,Operational
@@ -642,7 +632,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 11,Wind and turbulence,011111,Uncertainty in v-component,,m/s,1,-4096,13,m/s,1,4,Operational
 11,Wind and turbulence,011112,Uncertainty in w-component,,m/s,2,-4096,13,m/s,2,4,Operational
 11,Wind and turbulence,011113,Tracking correlation of vector,,Numeric,3,-1000,12,Numeric,3,4,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 12,Temperature,012001,Temperature/air temperature,,K,1,0,12,C,1,3,Operational
 12,Temperature,012002,Wet-bulb temperature,,K,1,0,12,C,1,3,Operational
 12,Temperature,012003,Dewpoint temperature,,K,1,0,12,C,1,3,Operational
@@ -730,7 +719,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 12,Temperature,012187,Mean dual view sea-surface temperature,,K,2,0,16,K,2,5,Operational
 12,Temperature,012188,Interpolated 23.8 GHz brightness T from MWR,,K,2,0,16,K,2,5,Operational
 12,Temperature,012189,Interpolated 36.5 GHz brightness T from MWR,,K,2,0,16,K,2,5,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 13,Hydrographic and hydrological elements,013001,Specific humidity,,kg/kg,5,0,14,kg/kg,5,5,Operational
 13,Hydrographic and hydrological elements,013002,Mixing ratio,,kg/kg,5,0,14,kg/kg,5,5,Operational
 13,Hydrographic and hydrological elements,013003,Relative humidity,,%,0,0,7,%,0,3,Operational
@@ -807,7 +795,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 13,Hydrographic and hydrological elements,013162,Cloud liquid water,,kg m-2,2,0,8,kg m-2,2,3,Operational
 13,Hydrographic and hydrological elements,013163,Snow water equivalent,,kg m-2,0,0,16,kg m-2,0,5,Operational
 13,Hydrographic and hydrological elements,013164,Sea ice freeboard,,m,3,-131072,18,m,3,6,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 14,Radiation and radiance,014001,"Long-wave radiation, integrated over 24 hours",,J m-2,-3,-65536,17,J m-2,-3,5,Operational
 14,Radiation and radiance,014002,"Long-wave radiation, integrated over period specified",,J m-2,-3,-65536,17,J m-2,-3,5,Operational
 14,Radiation and radiance,014003,"Short-wave radiation, integrated over 24 hours",,J m-2,-3,-65536,17,J m-2,-3,5,Operational
@@ -853,7 +840,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 14,Radiation and radiance,014056,Background luminance,,Cd m-2,0,0,18,Cd m-2,0,6,Operational
 14,Radiation and radiance,014057,Soil heat flux,,J m-2,-2,-1048574,21,J m-2,-2,7,Operational
 14,Radiation and radiance,014072,Global UV irradiation,(see Note 8),J m-2,0,-4000000,23,J m-2,0,7,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 15,Physical/chemical constituents,015001,Total ozone,,DU,0,0,10,DU,0,4,Operational
 15,Physical/chemical constituents,015002,Air mass (slant path at 22 km),,Numeric,2,0,10,Numeric,2,3,Operational
 15,Physical/chemical constituents,015003,Measured ozone partial pressure (sounding),(see Note 1),Pa,4,0,9,nbar,0,3,Operational
@@ -908,7 +894,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 15,Physical/chemical constituents,015076,Particle LIDAR Ratio,,sr,1,-2048,13,sr,1,5,Operational
 15,Physical/chemical constituents,015077,Uncertainty in LIDAR Ratio,,sr,1,0,12,sr,1,5,Operational
 15,Physical/chemical constituents,015078,Particle Depolarization Ratio,,%,2,-8192,15,%,2,5,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 19,Synoptic features,019001,Type of synoptic feature,,Code table,0,0,6,Code table,0,2,Operational
 19,Synoptic features,019002,Effective radius of feature,(see Note 1),m,-2,0,12,m,-2,4,Operational
 19,Synoptic features,019003,Wind speed threshold,(see Note 2),m/s,0,0,8,m/s,0,3,Operational
@@ -940,7 +925,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 19,Synoptic features,019118,Final Tropical (T) number of the tropical cyclone,,Numeric,1,0,7,Numeric,1,3,Operational
 19,Synoptic features,019119,Type of the final T-number,,Code table,0,0,3,Code table,0,1,Operational
 19,Synoptic features,019150,Typhoon International Common Number (Typhoon Committee),,CCITT IA5,0,0,32,Character,0,4,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 20,Observed phenomena,020001,Horizontal visibility,,m,-1,0,13,m,-1,4,Operational
 20,Observed phenomena,020002,Vertical visibility,,m,-1,0,7,m,-1,3,Operational
 20,Observed phenomena,020003,Present weather,(see Note 1),Code table,0,0,9,Code table,0,3,Operational
@@ -1050,7 +1034,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 20,Observed phenomena,020136,Supplementary cloud type,,Code table,0,0,9,Code table,0,3,Operational
 20,Observed phenomena,020137,Evolution of clouds,,Code table,0,0,4,Code table,0,2,Operational
 20,Observed phenomena,020138,Road surface condition,,Code table,0,0,4,Code table,0,2,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 21,Radar data,021001,Horizontal reflectivity,,dB,0,-64,7,dB,0,3,Operational
 21,Radar data,021002,Vertical reflectivity,,dB,0,-64,7,dB,0,3,Operational
 21,Radar data,021003,Differential reflectivity,,dB,1,-5,7,dB,1,3,Operational
@@ -1189,7 +1172,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 21,Radar data,021187,RMS specific band automatic gain control,,dB,2,0,8,dB,2,3,Operational
 21,Radar data,021188,Number of valid points for specific band automatic gain control,,Numeric,0,0,7,Numeric,0,3,Operational
 21,Radar data,021189,Corrected OCOG* backscatter coefficient (negative reference),"is similar to 0-21-177, but with a negative reference value",dB,2,-32768,16,dB,2,6,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 22,Oceanographic elements,022001,Direction of waves,,degree true,0,0,9,degree true,0,3,Operational
 22,Oceanographic elements,022002,Direction of wind waves,,degree true,0,0,9,degree true,0,3,Operational
 22,Oceanographic elements,022003,Direction of swell waves,,degree true,0,0,9,degree true,0,3,Operational
@@ -1327,7 +1309,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 22,Oceanographic elements,022189,Specific band ocean range,,m,3,0,31,m,3,10,Operational
 22,Oceanographic elements,022190,Specific band significant wave height,,m,3,0,16,m,3,5,Operational
 22,Oceanographic elements,022191,RMS of specific band ocean range,,m,4,0,16,m,4,5,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 23,Dispersal and transport,023001,Accident early notification - article applicable,,Code table,0,0,3,Code table,0,1,Operational
 23,Dispersal and transport,023002,Activity or facility involved in incident,,Code table,0,0,5,Code table,0,2,Operational
 23,Dispersal and transport,023003,Type of release,,Code table,0,0,3,Code table,0,1,Operational
@@ -1353,7 +1334,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 23,Dispersal and transport,023032,Plume will encounter change in wind direction and/or speed flag,,Code table,0,0,2,Code table,0,1,Operational
 23,Dispersal and transport,023040,Flow discharge - river,,m3/s,1,0,22,m3/s,1,7,Operational
 23,Dispersal and transport,023041,Flow discharge - well,,m3/s,3,0,16,m3/s,3,5,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 24,Radiological elements,024001,Estimate of amount of radioactivity released up to specified time,,Bq,-11,0,28,Bq,-11,9,Operational
 24,Radiological elements,024002,Estimated maximum potential release,,Bq,-11,0,28,Bq,-11,9,Operational
 24,Radiological elements,024003,Composition of release,,Code table,0,0,5,Code table,0,2,Operational
@@ -1367,7 +1347,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 24,Radiological elements,024022,Concentration in precipitation (of named isotope type),,Bq/l,2,0,32,Bq/l,2,10,Operational
 24,Radiological elements,024023,Pulse rate of beta radiation,,/s,1,0,14,/s,1,4,Operational
 24,Radiological elements,024024,Pulse rate of gamma radiation,,/s,1,0,14,/s,1,4,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 25,Processing information,025001,Range-gate length,,m,-1,0,6,m,-1,2,Operational
 25,Processing information,025002,Number of gates averaged,,Numeric,0,0,4,Numeric,0,2,Operational
 25,Processing information,025003,Number of integrated pulses,,Numeric,0,0,8,Numeric,0,3,Operational
@@ -1517,7 +1496,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 25,Processing information,025189,Range cut-off wavelength,,m,0,1,9,m,0,3,Operational
 25,Processing information,025190,Altimeter echo processing mode,,Code table,0,0,8,Code table,0,3,Operational
 25,Processing information,025191,Altimeter tracking mode,,Code table,0,0,8,Code table,0,3,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 26,Non-coordinate location (time),026001,Principal time of daily reading in UTC of maximum temperature,,h,1,0,12,h,1,3,Operational
 26,Non-coordinate location (time),026002,Principal time of daily reading in UTC of minimum temperature,,h,1,0,12,h,1,3,Operational
 26,Non-coordinate location (time),026003,Time difference,,min,0,-1440,12,min,0,4,Operational
@@ -1527,7 +1505,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 26,Non-coordinate location (time),026022,Month,,mon,0,0,4,mon,0,2,Operational
 26,Non-coordinate location (time),026023,Day,,d,0,0,6,d,0,2,Operational
 26,Non-coordinate location (time),026030,Measurement integration time,,s,2,0,8,s,2,3,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 27,Non-coordinate location (horizontal - 1),027001,Latitude (high accuracy),,deg,5,-9000000,25,deg,5,7,Operational
 27,Non-coordinate location (horizontal - 1),027002,Latitude (coarse accuracy),,deg,2,-9000,15,deg,2,4,Operational
 27,Non-coordinate location (horizontal - 1),027003,Alternate latitude (coarse accuracy),,deg,2,-9000,15,deg,2,4,Operational
@@ -1538,18 +1515,15 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 27,Non-coordinate location (horizontal - 1),027031,"In direction of 0 degrees longitude, distance from the Earth's centre",,m,2,-1073741824,31,m,2,10,Operational
 27,Non-coordinate location (horizontal - 1),027079,Horizontal width of sampled volume,,m,0,0,18,m,0,6,Operational
 27,Non-coordinate location (horizontal - 1),027080,Viewing azimuth angle,,degree true,2,0,16,degree true,0,5,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 28,Non-coordinate location (horizontal - 2),028001,Longitude (high accuracy),,deg,5,-18000000,26,deg,5,8,Operational
 28,Non-coordinate location (horizontal - 2),028002,Longitude (coarse accuracy),,deg,2,-18000,16,deg,2,5,Operational
 28,Non-coordinate location (horizontal - 2),028003,Alternate longitude (coarse accuracy),,deg,2,-18000,16,deg,2,5,Operational
 28,Non-coordinate location (horizontal - 2),028004,Alternate longitude (high accuracy),,deg,5,-18000000,26,deg,5,8,Operational
 28,Non-coordinate location (horizontal - 2),028010,Footprint axis 2,,m,-1,0,14,m,-1,5,Operational
 28,Non-coordinate location (horizontal - 2),028031,"In direction 90 degrees East, distance from the Earth's centre",,m,2,-1073741824,31,m,2,10,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 29,Map data,029001,Projection type,,Code table,0,0,3,Code table,0,1,Operational
 29,Map data,029002,Coordinate grid type,,Code table,0,0,3,Code table,0,1,Operational
 29,Map data,029014,Optional list of parameters for an external map projection library,,CCITT IA5,0,0,504,Character,0,63,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 30,Image,030001,Pixel value (4 bits),,Numeric,0,0,4,Numeric,0,2,Operational
 30,Image,030002,Pixel value (8 bits),,Numeric,0,0,8,Numeric,0,3,Operational
 30,Image,030004,Pixel value (16 bits),,Numeric,0,0,16,Numeric,0,5,Operational
@@ -1560,7 +1534,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 30,Image,030032,Combination with other data,,Flag table,0,0,16,Flag table,0,6,Operational
 30,Image,030033,Number of bins along the radial,,Numeric,0,0,12,Numeric,0,4,Operational
 30,Image,030034,Number of azimuths,,Numeric,0,0,12,Numeric,0,4,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 31,Data description operator qualifiers,031000,Short delayed descriptor replication factor,,Numeric,0,0,1,,,,Operational
 31,Data description operator qualifiers,031001,Delayed descriptor replication factor,,Numeric,0,0,8,,,,Operational
 31,Data description operator qualifiers,031002,Extended delayed descriptor replication factor,,Numeric,0,0,16,,,,Operational
@@ -1568,7 +1541,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 31,Data description operator qualifiers,031012,Extended delayed descriptor and data repetition factor,,Numeric,0,0,16,,,,Operational
 31,Data description operator qualifiers,031021,Associated field significance,,Code table,0,0,6,,,,Operational
 31,Data description operator qualifiers,031031,Data present indicator,,Flag table,0,0,1,,,,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 33,Quality information,033002,Quality information,,Code table,0,0,2,Code table,0,1,Operational
 33,Quality information,033003,Quality information,,Code table,0,0,3,Code table,0,1,Operational
 33,Quality information,033005,Quality information (AWS data),,Flag table,0,0,30,Flag table,0,10,Operational
@@ -1636,7 +1608,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 33,Quality information,033090,NEdT quality indicators for cold target calibration,,K,2,0,12,K,2,4,Operational
 33,Quality information,033091,NEdT quality indicators for overall calibration,,K,2,0,12,K,2,4,Operational
 33,Quality information,033092,Band specific ocean quality flag,,Flag table,0,0,9,Flag table,0,3,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 35,Data monitoring information,035000,FM and regional code number,,Code table,0,0,10,Code table,0,3,Operational
 35,Data monitoring information,035001,Time frame for monitoring,,Code table,0,0,3,Code table,0,1,Operational
 35,Data monitoring information,035011,Number of reports actually received,,Numeric,0,0,14,Numeric,0,4,Operational
@@ -1650,7 +1621,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 35,Data monitoring information,035033,Observation and collection deficiencies,,Code table,0,0,7,Code table,0,2,Operational
 35,Data monitoring information,035034,Statistical trends for availability of data (during the survey period(s)),,Code table,0,0,3,Code table,0,1,Operational
 35,Data monitoring information,035035,Reason for termination,,Code table,0,0,5,Code table,0,2,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 40,Satellite data,040001,Surface soil moisture (ms),,%,1,0,10,%,1,4,Operational
 40,Satellite data,040002,Estimated error in surface soil moisture,,%,1,0,10,%,1,4,Operational
 40,Satellite data,040003,Mean surface soil moisture,,Numeric,3,0,10,Numeric,3,4,Operational
@@ -1725,12 +1695,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 40,Satellite data,040072,PWLR estimated retrieval quality indicator of atmospheric ozone,,Numeric,1,0,8,Numeric,1,3,Operational
 40,Satellite data,040073,PWLR estimated retrieval error of surface skin temperature,,K,1,0,8,K,1,3,Operational
 40,Satellite data,040074,General interferometry quality flags,,Flag table,0,0,16,,,,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 41,Oceanographic/biogeochemical parameters,041001,pCO2,,Pa,3,0,18,Pa,3,6,Operational
 41,Oceanographic/biogeochemical parameters,041002,Fluorescence,,kg l-1,12,0,16,kg l-1,12,5,Operational
 41,Oceanographic/biogeochemical parameters,041003,Dissolved nitrates,,umol kg-1,3,0,17,umol kg-1,3,5,Operational
 41,Oceanographic/biogeochemical parameters,041005,Turbidity,,NTU,2,0,12,NTU,2,4,Operational
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 42,Oceanographic elements,042001,Dominant swell wave direction of spectral partition,,deg,0,0,9,deg,0,3,Operational
 42,Oceanographic elements,042002,Significant swell wave height of spectral partition,,m,1,0,9,m,1,3,Operational
 42,Oceanographic elements,042003,Dominant swell wavelength of spectral partition,,m,2,100,17,m,2,6,Operational
