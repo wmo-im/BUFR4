@@ -1636,6 +1636,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 33,Quality information,033090,NEdT quality indicators for cold target calibration,,K,2,0,12,K,2,4,Operational
 33,Quality information,033091,NEdT quality indicators for overall calibration,,K,2,0,12,K,2,4,Operational
 33,Quality information,033092,Band specific ocean quality flag,,Flag table,0,0,9,Flag table,0,3,Operational
+33,Quality information,033093,Extended quality flags for ground-based GNSS data,,Flag table,0,0,31,Flag table,0,31,
 ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
 35,Data monitoring information,035000,FM and regional code number,,Code table,0,0,10,Code table,0,3,Operational
 35,Data monitoring information,035001,Time frame for monitoring,,Code table,0,0,3,Code table,0,1,Operational
