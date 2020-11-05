@@ -26,6 +26,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 15,Physical/chemical constituents,015035,Component of zenith path delay due to water vapour,,m,4,0,14,m,4,5,Operational
 15,Physical/chemical constituents,015036,Atmospheric refractivity,(see Note 5),N units,3,0,19,N units,3,6,Operational
 15,Physical/chemical constituents,015037,Bending angle,,rad,8,-100000,23,rad,8,7,Operational
+15,Physical/chemical constituents,015038,Path delay due to neutral atmosphere,(see Note 10),m,4,0,20,m,4,11,
+15,Physical/chemical constituents,015039,Estimated error in neutral atmosphere path delay,,m,4,0,14,m,4,9,
 15,Physical/chemical constituents,015041,Sulphur dioxide index,(see Note 7),Numeric,2,-1200,14,Numeric,2,4,Operational
 15,Physical/chemical constituents,015042,Reflectance,,%,2,0,14,%,2,5,Operational
 15,Physical/chemical constituents,015045,Sulphur dioxide,(see Note 8),DU,2,-2000,15,DU,2,5,Operational
@@ -53,3 +55,15 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 15,Physical/chemical constituents,015076,Particle LIDAR Ratio,,sr,1,-2048,13,sr,1,5,Operational
 15,Physical/chemical constituents,015077,Uncertainty in LIDAR Ratio,,sr,1,0,12,sr,1,5,Operational
 15,Physical/chemical constituents,015078,Particle Depolarization Ratio,,%,2,-8192,15,%,2,5,Operational
+15,Physical/chemical constituents,015079,Zenith path delay due to neutral atmosphere,(see Note 11),m,4,0,15,m,4,9,
+15,Physical/chemical constituents,015080,Estimated error in neutral atmosphere zenith path delay,,m,4,0,12,m,4,8,
+15,Physical/chemical constituents,015081,Wet path delay due to neutral atmosphere,(see Note 12),m,4,0,18,m,4,10,
+15,Physical/chemical constituents,015082,Path integrated water vapour,(see Note 16),kg m-2,1,0,16,kg m-2,1,10,
+15,Physical/chemical constituents,015083,GNSS derived neutral atmosphere gradient,(see Note 17),m,5,0,14,m,5,9,
+15,Physical/chemical constituents,015084,GNSS least squares residual,(see Note 18),m,4,0,14,m,4,9,
+15,Physical/chemical constituents,015085,GNSS multi-path delay,(see Note 15),m,4,0,14,m,4,9,
+15,Physical/chemical constituents,015086,GNSS hydrostatic mapping function,(see Note 19),Numeric,3,0,16,Numeric,3,10,
+15,Physical/chemical constituents,015087,GNSS wet mapping function,(see Note 19) ,Numeric,3,0,16,Numeric,3,10,
+15,Physical/chemical constituents,015088,GNSS gradient mapping function,(see Note 19),Numeric,3,0,16,Numeric,3,10,
+15,Physical/chemical constituents,015089,Zenith path delay due to neutral hydrostatic atmosphere,(see Note 13),m,4,0,15,m,4,9,
+15,Physical/chemical constituents,015090,Path delay due to neutral hydrostatic atmosphere,(see Note 14),m,4,0,20,m,4,11,
