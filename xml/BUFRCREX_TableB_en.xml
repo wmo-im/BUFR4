@@ -13235,7 +13235,7 @@
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015038</FXY>
     <ElementName_en>Path delay due to neutral atmosphere</ElementName_en>
-    <Note_en>(see Note 10)</Note_en>
+    <Note_en>(see Note 10) 015038 is the delay of an electromagnetic wave in the neutral atmosphere as compared to undisturbed propagation in vacuum. The delay due to ionized gases in the ionosphere is not covered, hence &quot;neutral atmosphere&quot;. The delay in meters is the time delay multiplied by the vacuum speed of light.</Note_en>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13243,7 +13243,7 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>11</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
@@ -13258,7 +13258,7 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
@@ -13670,7 +13670,7 @@
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015079</FXY>
     <ElementName_en>Zenith path delay due to neutral atmosphere</ElementName_en>
-    <Note_en>(see Note 11)</Note_en>
+    <Note_en>(see Note 11) 015079 is the hypothetical path delay with the transmitter, e.g. GNSS satellite, in the zenith of the receiver.</Note_en>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13678,7 +13678,7 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
@@ -13693,14 +13693,14 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015081</FXY>
     <ElementName_en>Wet path delay due to neutral atmosphere</ElementName_en>
-    <Note_en>(see Note 12)</Note_en>
+    <Note_en>(see Note 12) 015081 is the contribution of atmospheric water vapour to the path delay.</Note_en>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13708,14 +13708,14 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015082</FXY>
     <ElementName_en>Path integrated water vapour</ElementName_en>
-    <Note_en>(see Note 16)</Note_en>
+    <Note_en>(see Note 16) 015082 is the amount of atmospheric water vapour integrated along the signal path.</Note_en>
     <BUFR_Unit>kg m-2</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13723,14 +13723,14 @@
     <CREX_Unit>kg m-2</CREX_Unit>
     <CREX_Scale>1</CREX_Scale>
     <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015083</FXY>
     <ElementName_en>GNSS derived neutral atmosphere gradient</ElementName_en>
-    <Note_en>(see Note 17)</Note_en>
+    <Note_en>(see Note 17) 015083 is the gradient (East-West or North-South) of the neutral atmosphere estimated by the GNSS processing.</Note_en>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13738,14 +13738,14 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>5</CREX_Scale>
     <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015084</FXY>
     <ElementName_en>GNSS least squares residual</ElementName_en>
-    <Note_en>(see Note 18)</Note_en>
+    <Note_en>(see Note 18) 015084 Non-modelled contribution to the path delay estimated by the least squares adjustment of GNSS path delays.</Note_en>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13753,14 +13753,14 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015085</FXY>
     <ElementName_en>GNSS multi-path delay</ElementName_en>
-    <Note_en>(see Note 15)</Note_en>
+    <Note_en>(see Note 15) 015085 is the excess delay due to multi-path effects which needs to be removed from the estimated path delay.</Note_en>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13768,14 +13768,14 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015086</FXY>
     <ElementName_en>GNSS hydrostatic mapping function</ElementName_en>
-    <Note_en>(see Note 19)</Note_en>
+    <Note_en>(see Note 19) A mapping function is an empirical projection of the zenith delay onto the path delay: Path delay = mapping function * zenith delay. It is a dimensionless real number greater than or equal to one. Different mapping functions are used for the wet and hydrostatic contributions to the delay and for the GNSS gradients.</Note_en>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13783,7 +13783,7 @@
     <CREX_Unit>Numeric</CREX_Unit>
     <CREX_Scale>3</CREX_Scale>
     <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
@@ -13798,7 +13798,7 @@
     <CREX_Unit>Numeric</CREX_Unit>
     <CREX_Scale>3</CREX_Scale>
     <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
@@ -13813,14 +13813,14 @@
     <CREX_Unit>Numeric</CREX_Unit>
     <CREX_Scale>3</CREX_Scale>
     <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015089</FXY>
     <ElementName_en>Zenith path delay due to neutral hydrostatic atmosphere</ElementName_en>
-    <Note_en>(see Note 13)</Note_en>
+    <Note_en>(see Note 13) 015089 is the contribution of the (almost) dry atmosphere to the zenith path delay as expressed by the hydrostatic equation.</Note_en>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13828,14 +13828,14 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015090</FXY>
     <ElementName_en>Path delay due to neutral hydrostatic atmosphere</ElementName_en>
-    <Note_en>(see Note 14)</Note_en>
+    <Note_en>(see Note 14) 015090 is the zenith path delay due to the neutral hydrostatic atmosphere mapped onto the signal path.</Note_en>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13843,7 +13843,7 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>4</CREX_Scale>
     <CREX_DataWidth_Char>11</CREX_DataWidth_Char>
-    <Status/>
+    <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>ClassNo</ClassNo>
