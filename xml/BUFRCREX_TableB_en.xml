@@ -13233,6 +13233,36 @@
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015038</FXY>
+    <ElementName_en>Path delay due to neutral atmosphere</ElementName_en>
+    <Note_en>(see Note 10)</Note_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>11</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015039</FXY>
+    <ElementName_en>Estimated error in neutral atmosphere path delay</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015041</FXY>
     <ElementName_en>Sulphur dioxide index</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
@@ -13634,6 +13664,186 @@
     <CREX_Scale>2</CREX_Scale>
     <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
     <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015079</FXY>
+    <ElementName_en>Zenith path delay due to neutral atmosphere</ElementName_en>
+    <Note_en>(see Note 11)</Note_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015080</FXY>
+    <ElementName_en>Estimated error in neutral atmosphere zenith path delay</ElementName_en>
+    <Note_en/>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>12</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015081</FXY>
+    <ElementName_en>Wet path delay due to neutral atmosphere</ElementName_en>
+    <Note_en>(see Note 12)</Note_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>18</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015082</FXY>
+    <ElementName_en>Path integrated water vapour</ElementName_en>
+    <Note_en>(see Note 16)</Note_en>
+    <BUFR_Unit>kg m-2</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>kg m-2</CREX_Unit>
+    <CREX_Scale>1</CREX_Scale>
+    <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015083</FXY>
+    <ElementName_en>GNSS derived neutral atmosphere gradient</ElementName_en>
+    <Note_en>(see Note 17)</Note_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>5</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>5</CREX_Scale>
+    <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015084</FXY>
+    <ElementName_en>GNSS least squares residual</ElementName_en>
+    <Note_en>(see Note 18)</Note_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015085</FXY>
+    <ElementName_en>GNSS multi-path delay</ElementName_en>
+    <Note_en>(see Note 15)</Note_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015086</FXY>
+    <ElementName_en>GNSS hydrostatic mapping function</ElementName_en>
+    <Note_en>(see Note 19)</Note_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>3</CREX_Scale>
+    <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015087</FXY>
+    <ElementName_en>GNSS wet mapping function</ElementName_en>
+    <Note_en>(see Note 19) </Note_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>3</CREX_Scale>
+    <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015088</FXY>
+    <ElementName_en>GNSS gradient mapping function</ElementName_en>
+    <Note_en>(see Note 19)</Note_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>3</CREX_Scale>
+    <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015089</FXY>
+    <ElementName_en>Zenith path delay due to neutral hydrostatic atmosphere</ElementName_en>
+    <Note_en>(see Note 13)</Note_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>9</CREX_DataWidth_Char>
+    <Status/>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015090</FXY>
+    <ElementName_en>Path delay due to neutral hydrostatic atmosphere</ElementName_en>
+    <Note_en>(see Note 14)</Note_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>11</CREX_DataWidth_Char>
+    <Status/>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>ClassNo</ClassNo>
