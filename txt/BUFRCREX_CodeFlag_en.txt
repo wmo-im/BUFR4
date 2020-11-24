@@ -7,7 +7,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001003,WMO Region number/geographical area,5,Region V,,,,Operational
 001003,WMO Region number/geographical area,6,Region VI,,,,Operational
 001003,WMO Region number/geographical area,7,Missing value,,,,Operational
-001007,Satellite identifier,,,,, ,Operational
+001007,Satellite identifier,,,,,,Operational
 001024,Wind speed source,0,No wind speed data available,,,,Operational
 001024,Wind speed source,1,AMSR-E data,,,,Operational
 001024,Wind speed source,2,TMI data,,,,Operational
@@ -35,7 +35,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001029,SSI source,6,UK Met Office,,,,Operational
 001029,SSI source,7-30,Reserved for future use,,,,Operational
 001029,SSI source,31,Missing value,,,,Operational
-001031,Identification of originating/generating centre, ,,,,,Operational
+001031,Identification of originating/generating centre,,,,,,Operational
 001033,Identification of originating/generating centre,,,,,,Operational
 001034,Identification of originating/generating sub-centre,,,,,,Operational
 001036,Agency in charge of operating the observing platform,0-36000,Reserved,,,,Operational
@@ -351,7 +351,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001151,Fixed mean sea-level reference datum,1,Baltic height system 1977,,,,Operational
 001151,Fixed mean sea-level reference datum,2-4094,Reserved,,,,Operational
 001151,Fixed mean sea-level reference datum,4095,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 002001,Type of station,0,Automatic,,,,Operational
 002001,Type of station,1,Manned,,,,Operational
 002001,Type of station,2,Hybrid: both manned and automatic,,,,Operational
@@ -1442,7 +1441,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002191,Geopotential height calculation,2,Geopotential height calculated from radar height,,,,Operational
 002191,Geopotential height calculation,3-14,Reserved,,,,Operational
 002191,Geopotential height calculation,15,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 003001,Surface station type,0,Land station (synoptic network), ,,,Operational
 003001,Surface station type,1,Shallow water station (fixed to sea/lake floor),,,,Operational
 003001,Surface station type,2,Ship,,,,Operational
@@ -1592,7 +1590,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 003028,Method of snow water equivalent measurement,6,Time domain reflectometry,,,,Operational
 003028,Method of snow water equivalent measurement,7-62,Reserved,,,,Operational
 003028,Method of snow water equivalent measurement,63,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 004059,Times of observation used to compute the reported mean values,1,0000 UTC,,,,Operational
 004059,Times of observation used to compute the reported mean values,2,0600 UTC,,,,Operational
 004059,Times of observation used to compute the reported mean values,3,1200 UTC,,,,Operational
@@ -1607,12 +1604,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 004080,Averaging period for following value,9,Data not available,,,,Operational
 004080,Averaging period for following value,10-14,Not used,,,,Operational
 004080,Averaging period for following value,15,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 005069,Receiver channel,0,Mie,,,,Operational
 005069,Receiver channel,1,Rayleigh,,,,Operational
 005069,Receiver channel,2,Reserved,,,,Operational
 005069,Receiver channel,3,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 008001,Vertical sounding significance,1,Surface,,,,Operational
 008001,Vertical sounding significance,2,Standard level,,,,Operational
 008001,Vertical sounding significance,3,Tropopause level,,,,Operational
@@ -2271,7 +2266,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008093,Measurement uncertainty significance,2,Random component of uncertainty,,,,Operational
 008093,Measurement uncertainty significance,3-30,Reserved,,,,Operational
 008093,Measurement uncertainty significance,31,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 010063,Characteristic of pressure tendency,0,"Increasing, then decreasing; atmospheric pressure the same or higher than three hours ago",,,,Operational
 010063,Characteristic of pressure tendency,1,"Increasing, then steady; or increasing, then increasing more slowly",Atmospheric pressure now higher than three hours ago,,,Operational
 010063,Characteristic of pressure tendency,2,Increasing (steadily or unsteadily),Atmospheric pressure now higher than three hours ago,,,Operational
@@ -2288,7 +2282,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 010064,SIGMET cruising level,2,Supersonic,,,,Operational
 010064,SIGMET cruising level,3-6,Reserved,,,,Operational
 010064,SIGMET cruising level,7,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 011030,Extended degree of turbulence,0,Nil,in cloud,,,Operational
 011030,Extended degree of turbulence,1,Light,in cloud,,,Operational
 011030,Extended degree of turbulence,2,Moderate,in cloud,,,Operational
@@ -2399,7 +2392,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 011039,Extended time of occurrence of peak eddy dissipation rate,60,No timing information available,,,,Operational
 011039,Extended time of occurrence of peak eddy dissipation rate,61-62,Reserved,,,,Operational
 011039,Extended time of occurrence of peak eddy dissipation rate,63,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 013038,Superadiabatic indicator,0,Not superadiabatic,,,,Operational
 013038,Superadiabatic indicator,1,Superadiabatic,,,,Operational
 013038,Superadiabatic indicator,2,Reserved,,,,Operational
@@ -2466,14 +2458,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 013057,Time of beginning or end of precipitation,9,More than 10 hours ago,,,,Operational
 013057,Time of beginning or end of precipitation,10-14,Reserved,,,,Operational
 013057,Time of beginning or end of precipitation,15,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 015025,Type of pollutant,0,Ozone,,,,Operational
 015025,Type of pollutant,1-10,Reserved,,,,Operational
 015025,Type of pollutant,11,Fine particulate matter (diameter < 2.5 microns),,,,Operational
 015025,Type of pollutant,12,Fine particulate matter (diameter < 10 microns),,,,Operational
 015025,Type of pollutant,13-14,Reserved,,,,Operational
 015025,Type of pollutant,15,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 019001,Type of synoptic feature,0,Depression or low (extratroplcal),,,,Operational
 019001,Type of synoptic feature,1,Tropical depression,,,,Operational
 019001,Type of synoptic feature,2,Tropical storm,,,,Operational
@@ -2624,7 +2614,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 019119,Type of the final T-number,3,MET-number,,,,Operational
 019119,Type of the final T-number,4-6,Reserved,,,,Operational
 019119,Type of the final T-number,7,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 020003,Present weather,,00-49     No precipitation at the station at the time of observation,,,,Operational
 020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station* at the time of observation or, except for 09 and 17, during the preceding hour",,,,Operational
 020003,Present weather,,00-03     No meteors except photometeors,,,,Operational
@@ -3685,7 +3674,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020138,Road surface condition,7, Not dry,,,,Operational
 020138,Road surface condition,8-14, Reserved,,,,Operational
 020138,Road surface condition,15, Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 021066,Wave scatterometer product confidence data,1,Processing equipment not working,,,,Operational
 021066,Wave scatterometer product confidence data,2,Equipment failed,,,,Operational
 021066,Wave scatterometer product confidence data,3,PRF code changed during image generation,,,,Operational
@@ -3867,7 +3855,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 021169,Ice presence indicator,1,Ice present,,,,Operational
 021169,Ice presence indicator,2,Reserved,,,,Operational
 021169,Ice presence indicator,3,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 022056,Direction of profile,0,Upwards profile,,,,Operational
 022056,Direction of profile,1,Downwards profile,,,,Operational
 022056,Direction of profile,2,Horizontal,,,,Operational
@@ -3952,7 +3939,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 022178,XBT/XCTD launcher type,100,MFSTEP Autolauncher (Mediterranean),,,,Operational
 022178,XBT/XCTD launcher type,101-254,Reserved,,,,Operational
 022178,XBT/XCTD launcher type,255,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 023001,Accident early notification - article applicable,0,Reserved,,,,Operational
 023001,Accident early notification - article applicable,1,Articles 1 and 2,,,,Operational
 023001,Accident early notification - article applicable,2,Article 3,,,,Operational
@@ -4036,14 +4022,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 023032,Plume will encounter change in wind direction and/or speed flag,1,Anticipated significant change expected within the next six hours,,,,Operational
 023032,Plume will encounter change in wind direction and/or speed flag,2,Reserved,,,,Operational
 023032,Plume will encounter change in wind direction and/or speed flag,3,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 024003,Composition of release,0,Noble gases,,,,Operational
 024003,Composition of release,1,Iodines,,,,Operational
 024003,Composition of release,2,Caesiums,,,,Operational
 024003,Composition of release,3,Transuranics,,,,Operational
 024003,Composition of release,4-30,Reserved,,,,Operational
 024003,Composition of release,31,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 025004,Echo processing,0,Incoherent,,,,Operational
 025004,Echo processing,1,Coherent (Doppler),,,,Operational
 025004,Echo processing,2,Reserved,,,,Operational
@@ -4371,7 +4355,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025191,Altimeter tracking mode,2,Open loop fixed gain,,,,Operational
 025191,Altimeter tracking mode,3-254,Reserved,,,,Operational
 025191,Altimeter tracking mode,255,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 026010,Hours included,1,0100 included,,,,Operational
 026010,Hours included,2,0200 included,,,,Operational
 026010,Hours included,3,0300 included,,,,Operational
@@ -4398,7 +4381,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 026010,Hours included,24,2400 included,,,,Operational
 026010,Hours included,25,Unknown mixture of hours,,,,Operational
 026010,Hours included,All 26,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 029001,Projection type,0,Gnomonic projection,,,,Operational
 029001,Projection type,1,Polar stereographic projection,,,,Operational
 029001,Projection type,2,Lambert's conformal conic projection,,,,Operational
@@ -4412,7 +4394,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 029002,Coordinate grid type,2,Other,,,,Operational
 029002,Coordinate grid type,3-6,Reserved,,,,Operational
 029002,Coordinate grid type,7,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 030031,Picture type,0,PPI,,,,Operational
 030031,Picture type,1,Composite,,,,Operational
 030031,Picture type,2,CAPPl,,,,Operational
@@ -4438,7 +4419,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 030032,Combination with other data,9-14,Reserved,,,,Operational
 030032,Combination with other data,15,Other data,,,,Operational
 030032,Combination with other data,All 16,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 031021,Associated field significance,0,Reserved,,,,Operational
 031021,Associated field significance,1,1-bit indicator of quality,"0 = good, 1 = suspect or bad",,,Operational
 031021,Associated field significance,2,2-bit indicator of quality,"0 = good, 1 = slightly suspect, 2 = highly suspect, 3 = bad",,,Operational
@@ -4452,7 +4432,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 031021,Associated field significance,22-62,Reserved for local use,,,,Operational
 031021,Associated field significance,63,Missing value,,,,Operational
 031031,Data present indicator,1,,"0 = Data present, 1 = Data not present",,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 033002,Quality information,0,Data not suspect,,,,Operational
 033002,Quality information,1,Data suspect,,,,Operational
 033002,Quality information,2,Reserved,,,,Operational
@@ -5002,7 +4981,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033092,Band specific ocean quality flag,2,Microwave radiometer (MWR) operating,,,,Operational
 033092,Band specific ocean quality flag,3-8,Reserved,,,,Operational
 033092,Band specific ocean quality flag,All 9,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 035000,FM and regional code number,000-099,International FM Codes,,,,Operational
 035000,FM and regional code number,100-199,RA I Codes,,,,Operational
 035000,FM and regional code number,200-299,RA II Codes,,,,Operational
@@ -5105,7 +5083,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 035035,Reason for termination,18-29,Reserved,,,,Operational
 035035,Reason for termination,30,Other,,,,Operational
 035035,Reason for termination,31,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 040005,Soil moisture correction flag,1,Soil moisture between -20% and 0%,,,,Operational
 040005,Soil moisture correction flag,2,Soil moisture between 100% and 120%,,,,Operational
 040005,Soil moisture correction flag,3,Correction of wet backscatter reference,,,,Operational
@@ -5338,7 +5315,6 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040074,General interferometry quality flags,10,Telemetry package flag,,,,Operational
 040074,General interferometry quality flags,11-15,Reserved,,,,Operational
 040074,General interferometry quality flags,All 16,Missing value,,,,Operational
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
 042004,Confidence of inversion for each partition of swell wave spectra,0,Wave direction resolved,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,1,180-degree ambiguity not resolved,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,2-14,Reserved,,,,Operational

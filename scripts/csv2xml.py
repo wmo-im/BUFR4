@@ -37,15 +37,23 @@ for filePathName in files:
     with open(filePathName) as ifile:
         data = csv.reader(ifile, dialect='custom')
         header = next(data, None)
-
+ 
         xmlFile = ET.Element(rootElement)
+        no = 0
         for record in data:
+          if record != header and record.__len__() != 0 :
             r = ET.SubElement(xmlFile, recordElement)
+            no = no + 1
+            ET.SubElement(r,"No").text = str(no)
             for i, field in enumerate(record):
-                ET.SubElement(r, header[i].replace(' ', '-')).text = field
-
+                if not "10**" in field:
+                    field = field.replace("*","")
+                if field != "" and field != " ":
+                    ET.SubElement(r, header[i].replace(' ', '-')).text = field
+ 
         tree = ET.ElementTree(xmlFile)
         tree.write("xml/" + baseFileName + ".xml")
+    
 
         rough_string = ET.tostring(xmlFile, 'utf-8')
         reparsed = minidom.parseString(rough_string)
