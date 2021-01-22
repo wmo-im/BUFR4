@@ -4740,13 +4740,13 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033053,Ku band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1=invalid). Bit 1 applies to the 20th data block",,,,Operational
 033053,Ku band ocean retracking quality,All 21,Missing value,,,,Operational
 033055,Wind vector quality flag,1-10,Reserved,,,,Operational
-033055,Wind vector quality flag,11,Ocean sigma0 is not available for wind retrievals,,,,Operational
+033055,Wind vector quality flag,11,Ocean sigma-0 is not available for wind retrievals,,,,Operational
 033055,Wind vector quality flag,12,Background wind is not available,,,,Operational
 033055,Wind vector quality flag,13,Background model detect land,,,,Operational
 033055,Wind vector quality flag,14,Background model detect ice,,,,Operational
-033055,Wind vector quality flag,15,Sigma0 is not land/ice free,,,,Operational
-033055,Wind vector quality flag,16,Sigma0 land contamination,,,,Operational
-033055,Wind vector quality flag,17,Sigma0 ice contamination,,,,Operational
+033055,Wind vector quality flag,15,Sigma-0 is not land/ice free,,,,Operational
+033055,Wind vector quality flag,16,Sigma-0 land contamination,,,,Operational
+033055,Wind vector quality flag,17,Sigma-0 ice contamination,,,,Operational
 033055,Wind vector quality flag,18,Not enough azimuthal diversity,,,,Operational
 033055,Wind vector quality flag,19,Inversion is not done,,,,Operational
 033055,Wind vector quality flag,20,Overall WVC flag,,,,Operational
