@@ -345,7 +345,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001150,Coordinate reference system,2,"NAD83, as defined by EPSG:4269",,,,Operational
 001150,Coordinate reference system,3,"DHDN, as defined by EPSG:4314",,,,Operational
 001150,Coordinate reference system,4,"Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS) (see Note 2). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)",,,,Operational
-001150,Coordinate reference system,5-65534,Reserved,,,,Operational
+001150,Coordinate reference system,5,"Earth-Centred, Earth-Fixed (ECEF) coordinate system or Earth-Centred Rotational (ECR) system. This is a right-handed Cartesian coordinate system (X, Y, Z) rotating with the Earth. The origin is defined by the centre of mass of Earth. (Footnote (5) of class 27 does not apply if ECEF coordinates are specified.)",,,,Operational
+001150,Coordinate reference system,6-65534,Reserved,,,,Operational
 001150,Coordinate reference system,65535,Missing value,,,,Operational
 001151,Fixed mean sea-level reference datum,0,Earth Gravitational Model 1996,,,,Operational
 001151,Fixed mean sea-level reference datum,1,Baltic height system 1977,,,,Operational
@@ -4981,6 +4982,28 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033092,Band specific ocean quality flag,2,Microwave radiometer (MWR) operating,,,,Operational
 033092,Band specific ocean quality flag,3-8,Reserved,,,,Operational
 033092,Band specific ocean quality flag,All 9,Missing value,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,1,Path delay quality is considered poor,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,2,GALILEO satellites used,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,3,GLONASS satellites used,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,4,GPS satellites used,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,5,BeiDou satellites used,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,6-8,Reserved for new GNSS,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,9,Meteorological data applied,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,10,Atmospheric loading correction applied,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,11,Ocean tide loading applied,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,12,Second order ionosphere corrections applied,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,13,Third order ionosphere corrections applied,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,14,PPP solution,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,15,Gradients applied to path delay,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,16,Multipath corrections applied to path delay,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,17,Residual applied to path delay,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,18,Climate quality data processing,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,19,Re-processing,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,20,Post-processing,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,21,Near-real time data processing,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,22,Real time data processing,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,23-30,Reserved,,,,Operational
+033093,Extended quality flags for ground-based GNSS data,All 31,Missing value,,,,Operational
 035000,FM and regional code number,000-099,International FM Codes,,,,Operational
 035000,FM and regional code number,100-199,RA I Codes,,,,Operational
 035000,FM and regional code number,200-299,RA II Codes,,,,Operational
