@@ -480,11 +480,11 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301131,(Pixel geolocation),,005021,Bearing or azimuth,,,Operational
 01,Location and identification sequences,301131,(Pixel geolocation),,007025,Solar zenith angle,,,Operational
 01,Location and identification sequences,301131,(Pixel geolocation),,005022,Solar azimuth,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,301150,WIGOS Identifiers,,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,301150,WIGOS Identifiers (see note 12) ,,(12) The common header sequence 3 01 132 should be incorporated into E-PROFILE Table D data sequences as detailed below.,Operational
 01,Location and identification sequences,301132,(Common header sequence),,301001,WMO block and station numbers,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy),Sensor,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy) (see note 13) ,Sensor, (13) The Latitude and Longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).,Operational
 01,Location and identification sequences,301132,(Common header sequence),,007030,Height of station ground above mean sea level,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,008021,Time significance for scan,,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,008021,Time significance,= 29 End of scan or time of ending,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,301011,"Year, month, day",,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,301012,"Hour, minute",,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,002006,"Upper Air Remote Sensing Instrument Type",,,Operational
