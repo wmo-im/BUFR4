@@ -36005,7 +36005,7 @@
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>301021</FXY2>
     <ElementName_en>Latitude/longitude (high accuracy) (See Note 15)</ElementName_en>
-    <Note_en>(15) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective gate of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
+    <Note_en>(15) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36188,8 +36188,8 @@
     <FXY1>309025</FXY1>
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>007007</FXY2>
-    <ElementName_en>Height (See Note 18)</ElementName_en>
-    <Note_en>(18) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective gate of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
+    <ElementName_en>Height (See Note 15)</ElementName_en>
+    <Note_en>(See Note 15)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36199,8 +36199,8 @@
     <FXY1>309025</FXY1>
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>301021</FXY2>
-    <ElementName_en>Latitude/longitude (high accuracy) (See Note 18)</ElementName_en>
-    <Note_en>(18) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective gate of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
+    <ElementName_en>Latitude/longitude (high accuracy) (See Note 15)</ElementName_en>
+    <Note_en>(See Note 15)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36292,8 +36292,8 @@
     <FXY1>309026</FXY1>
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>008093</FXY2>
-    <ElementName_en>Measurement uncertainty significance (See Note 21)</ElementName_en>
-    <Note_en>(21) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
+    <ElementName_en>Measurement uncertainty significance (See Note 15)</ElementName_en>
+    <Note_en>(See Note 15)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36395,8 +36395,8 @@
     <FXY1>309026</FXY1>
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>007007</FXY2>
-    <ElementName_en>Height (See Note 23)</ElementName_en>
-    <Note_en>(23) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
+    <ElementName_en>Height (See Note 15)</ElementName_en>
+    <Note_en>(See Note 15)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
