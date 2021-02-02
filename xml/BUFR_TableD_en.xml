@@ -35952,6 +35952,7 @@
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>008021</FXY2>
     <ElementName_en>Time significance</ElementName_en>
+    <ElementDescription_en>= 2 Time averaged</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -35961,7 +35962,8 @@
     <FXY1>309024</FXY1>
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>004025</FXY2>
-    <ElementName_en>Time period or displacement</ElementName_en>
+    <ElementName_en>Time period or displacement (See Note 13)</ElementName_en>
+    <Note_en> (13) The time period indicates the duration in minutes over which the measurements have been averaged. The end of the time period is marked by the end of scan (see above).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -35991,7 +35993,8 @@
     <FXY1>309024</FXY1>
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>007007</FXY2>
-    <ElementName_en>Height</ElementName_en>
+    <ElementName_en>Height (See Note 14)</ElementName_en>
+    <Note_en>(14) The Quality Information descriptor 0 33 002 at this point relates to both u-component 0 11 003 and v-component 0 11 004. It is given for each respective gate of the profile measurement.</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36001,7 +36004,8 @@
     <FXY1>309024</FXY1>
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>301021</FXY2>
-    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <ElementName_en>Latitude/longitude (high accuracy) (See Note 15)</ElementName_en>
+    <Note_en>(15) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective gate of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36031,7 +36035,8 @@
     <FXY1>309024</FXY1>
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>033002</FXY2>
-    <ElementName_en>Quality information</ElementName_en>
+    <ElementName_en>Quality information (See Note 16)</ElementName_en>
+    <Note_en>(16) The Quality Information descriptor 0 33 002 at this point relates to the w-component 0 11 006. It is given for each respective gate of the profile measurement.</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36142,6 +36147,7 @@
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>008021</FXY2>
     <ElementName_en>Time Significance</ElementName_en>
+    <ElementDescription_en>= 2 Time averaged</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36151,7 +36157,8 @@
     <FXY1>309025</FXY1>
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>004025</FXY2>
-    <ElementName_en>Time SignificanTime period or displacementce</ElementName_en>
+    <ElementName_en>Time period or displacement (See Note 17)</ElementName_en>
+    <Note_en>(17) The time period indicates the duration in minutes over which the measurements have been averaged. The end of the time period is marked by the end of scan (see above).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36181,7 +36188,8 @@
     <FXY1>309025</FXY1>
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>007007</FXY2>
-    <ElementName_en>Height</ElementName_en>
+    <ElementName_en>Height (See Note 18)</ElementName_en>
+    <Note_en>(18) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective gate of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36191,7 +36199,8 @@
     <FXY1>309025</FXY1>
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>301021</FXY2>
-    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <ElementName_en>Latitude/longitude (high accuracy) (See Note 18)</ElementName_en>
+    <Note_en>(18) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective gate of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36211,7 +36220,8 @@
     <FXY1>309025</FXY1>
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>033002</FXY2>
-    <ElementName_en>Quality Information</ElementName_en>
+    <ElementName_en>Quality Information (See Note 19)</ElementName_en>
+    <Note_en>The Quality Information descriptor 0 33 002 relates to the Virtual temperature 0 12 007. It is given for each respective gate of the profile measurement.</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36271,7 +36281,8 @@
     <FXY1>309026</FXY1>
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>008092</FXY2>
-    <ElementName_en>Measurement uncertainty expression</ElementName_en>
+    <ElementName_en>Measurement uncertainty expression (See Note 20)</ElementName_en>
+    <Note_en>(20) The Measurement uncertainty expression and significance descriptors 0 08 092 and 0 08 093 relate to all parameter uncertainties provided in the Backscatter data section.</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36281,7 +36292,8 @@
     <FXY1>309026</FXY1>
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>008093</FXY2>
-    <ElementName_en>Measurement uncertainty significance</ElementName_en>
+    <ElementName_en>Measurement uncertainty significance (See Note 21)</ElementName_en>
+    <Note_en>(21) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36292,6 +36304,7 @@
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>008021</FXY2>
     <ElementName_en>Time significance</ElementName_en>
+    <ElementDescription_en>= 2 Time averaged</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36301,7 +36314,8 @@
     <FXY1>309026</FXY1>
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>004025</FXY2>
-    <ElementName_en>Time period or displacement</ElementName_en>
+    <ElementName_en>Time period or displacement (See Note 22)</ElementName_en>
+    <Note_en>(22) The time period indicates the duration in minutes over which the measurements have been averaged. The end of the time period is marked by the end of scan (see above).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36381,7 +36395,8 @@
     <FXY1>309026</FXY1>
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>007007</FXY2>
-    <ElementName_en>Height</ElementName_en>
+    <ElementName_en>Height (See Note 23)</ElementName_en>
+    <Note_en>(23) The Height descriptor 0 07 007 and the Latitude/Longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each respective vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36392,6 +36407,7 @@
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>301021</FXY2>
     <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <ElementDescription_en>= 2 Time averaged</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36501,7 +36517,8 @@
     <FXY1>309026</FXY1>
     <Title_en>(Single wavelength Elastic Backscatter Lidar sequence)</Title_en>
     <FXY2>033002</FXY2>
-    <ElementName_en>Quality Information</ElementName_en>
+    <ElementName_en>Quality Information (See Note 24)</ElementName_en>
+    <Note_en>(24) The Quality Information descriptor 0 33 002 relates to all parameters provided in the Backscatter data section and is given for each respective vertical bin of the profile measurement.</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
