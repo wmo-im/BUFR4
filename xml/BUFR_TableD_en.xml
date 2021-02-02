@@ -4892,7 +4892,8 @@
     <FXY1>301132</FXY1>
     <Title_en>(Common header sequence)</Title_en>
     <FXY2>301150</FXY2>
-    <ElementName_en>WIGOS Identifiers</ElementName_en>
+    <ElementName_en>WIGOS Identifiers (see note 12) </ElementName_en>
+    <Note_en>(12) The common header sequence 3 01 132 should be incorporated into E-PROFILE Table D data sequences as detailed below.</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -4912,8 +4913,9 @@
     <FXY1>301132</FXY1>
     <Title_en>(Common header sequence)</Title_en>
     <FXY2>301021</FXY2>
-    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <ElementName_en>Latitude/longitude (high accuracy) (see note 13) </ElementName_en>
     <ElementDescription_en>Sensor</ElementDescription_en>
+    <Note_en> (13) The Latitude and Longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -4933,7 +4935,8 @@
     <FXY1>301132</FXY1>
     <Title_en>(Common header sequence)</Title_en>
     <FXY2>008021</FXY2>
-    <ElementName_en>Time significance for scan</ElementName_en>
+    <ElementName_en>Time significance</ElementName_en>
+    <ElementDescription_en>= 29 End of scan or time of ending</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
