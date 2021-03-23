@@ -890,17 +890,17 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 15,Physical/chemical constituents,015070,Uncertainty in lidar ratio,,sr,2,0,14,sr,2,5,Operational
 15,Physical/chemical constituents,015071,Particle depolarization ratio,,%,2,0,14,%,2,5,Operational
 15,Physical/chemical constituents,015072,Uncertainty in depolarization ratio,,%,2,0,14,%,2,5,Operational
-15,Physical/chemical constituents,015073,Attenuated Backscatter,,m-1 sr-1,8,-524288,20,m-1 sr-1,8,7,Operational
-15,Physical/chemical constituents,015074,Particle Backscatter Coefficient,,m-1 sr-1,8,-524288,20,m-1 sr-1,8,7,Operational
-15,Physical/chemical constituents,015075,Particle Extinction Coefficient,,m,8,-524288,20,m-1,8,7,Operational
-15,Physical/chemical constituents,015076,Particle LIDAR Ratio,,sr,1,-2048,13,sr,1,5,Operational
-15,Physical/chemical constituents,015077,Uncertainty in LIDAR Ratio,,sr,1,0,12,sr,1,5,Operational
-15,Physical/chemical constituents,015078,Particle Depolarization Ratio,,%,2,-8192,15,%,2,5,Operational
+15,Physical/chemical constituents,015073,Attenuated backscatter,,m-1 sr-1,8,-524288,20,m-1 sr-1,8,7,Operational
+15,Physical/chemical constituents,015074,Particle backscatter coefficient,,m-1 sr-1,8,-524288,20,m-1 sr-1,8,7,Operational
+15,Physical/chemical constituents,015075,Particle extinction coefficient,,m,8,-524288,20,m-1,8,7,Operational
+15,Physical/chemical constituents,015076,Particle lidar ratio,,sr,1,-2048,13,sr,1,5,Operational
+15,Physical/chemical constituents,015077,Uncertainty in lidar ratio,,sr,1,0,12,sr,1,5,Operational
+15,Physical/chemical constituents,015078,Particle depolarization ratio,,%,2,-8192,15,%,2,5,Operational
 15,Physical/chemical constituents,015079,Zenith path delay due to neutral atmosphere (see Note 11),"(11) 0 15 079 is the hypothetical path delay with the transmitter, e.g. GNSS satellite, in the zenith of the receiver.",m,4,0,15,m,4,9,Operational
 15,Physical/chemical constituents,015080,Estimated error in neutral atmosphere zenith path delay,,m,4,0,12,m,4,8,Operational
 15,Physical/chemical constituents,015081,Wet path delay due to neutral atmosphere (see Note 12),"(12) 0 15 081 is the contribution of atmospheric water vapour to the path delay.",m,4,0,18,m,4,10,Operational
 15,Physical/chemical constituents,015082,Path integrated water vapour (see Note 16),"(16) 015082 is the amount of atmospheric water vapour integrated along the signal path.",kg m-2,1,0,16,kg m-2,1,10,Operational
-15,Physical/chemical constituents,015083,GNSS derived neutral atmosphere gradient (see Note 17),"(17) 0 15 083 is the gradient (East-West or North-South) of the neutral atmosphere estimated by the GNSS processing.",m,5,0,14,m,5,9,Operational
+15,Physical/chemical constituents,015083,GNSS derived neutral atmosphere gradient (see Note 17),"(17) 0 15 083 is the gradient (east-west or north-south) of the neutral atmosphere estimated by the GNSS processing.",m,5,0,14,m,5,9,Operational
 15,Physical/chemical constituents,015084,GNSS least squares residual (see Note 18),"(18) 015084 Non-modelled contribution to the path delay estimated by the least squares adjustment of GNSS path delays.",m,4,0,14,m,4,9,Operational
 15,Physical/chemical constituents,015085,GNSS multi-path delay (see Note 15),"(15) 0 15 085 is the excess delay due to multi-path effects which needs to be removed from the estimated path delay.",m,4,0,14,m,4,9,Operational
 15,Physical/chemical constituents,015086,GNSS hydrostatic mapping function (see Note 19),"(19) A mapping function is an empirical projection of the zenith delay onto the path delay: Path delay = mapping function * zenith delay. It is a dimensionless real number greater than or equal to one. Different mapping functions are used for the wet and hydrostatic contributions to the delay and for the GNSS gradients.",Numeric,3,0,16,Numeric,3,10,Operational
