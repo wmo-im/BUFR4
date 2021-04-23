@@ -43,8 +43,6 @@ for filePathName in files:
         for record in data:
           if record != header and record.__len__() != 0 :
             r = ET.SubElement(xmlFile, recordElement)
-            no = no + 1
-            ET.SubElement(r,"No").text = str(no)
             for i, field in enumerate(record):
                 if not "10**" in field:
                     field = field.replace("*","")
