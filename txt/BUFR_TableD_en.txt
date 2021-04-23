@@ -480,6 +480,16 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301131,(Pixel geolocation),,005021,Bearing or azimuth,,,Operational
 01,Location and identification sequences,301131,(Pixel geolocation),,007025,Solar zenith angle,,,Operational
 01,Location and identification sequences,301131,(Pixel geolocation),,005022,Solar azimuth,,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,301150,WIGOS identifiers,,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,301001,WMO block and station numbers,,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy) (see Note 12),Sensor,(12) The latitude and longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).,Operational
+01,Location and identification sequences,301132,(Common header sequence),,007030,Height of station ground above mean sea level,,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,008021,Time significance,= 29 End of scan or time of ending,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,301011,"Year, month, day",,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,301012,"Hour, minute",,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,002006,"Upper air remote sensing instrument type",,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,001079,"Unique identifier for the profile",,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,001085,"Observing platform manufacturer's mode",,,Operational
 01,Location and identification sequences,301150,(WIGOS identifier),,001125,WIGOS identifier series,,,Operational
 01,Location and identification sequences,301150,(WIGOS identifier),,001126,WIGOS issuer of identifier,,,Operational
 01,Location and identification sequences,301150,(WIGOS identifier),,001127,WIGOS issue number,,,Operational
@@ -1934,6 +1944,73 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307022,(Ground-based GNSS data),,202000,Change scale,Cancel,,Operational
 07,Surface report sequences (land),307022,(Ground-based GNSS data),,201000,Change data width,Cancel,,Operational
 07,Surface report sequences (land),307022,(Ground-based GNSS data),,015011,Log10 of integrated electron density,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,301150,WIGOS identifier,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,001015,Station or site name,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,001040,Processing centre ID code,GNSS processing centre,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,008021,Time significance,= 30 Time of occurrence,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,301011,"Year, month, day",,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,301013,"Hour, minute, second",,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,301022,"Latitude/longitude (high accuracy), height of station",,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,010036,Geoid undulation,"Geoid height above WGS-84 ellipsoid, ±150 m to 1 cm",,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,025061,Software identification and version number,"GNSS processing software, software version",,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,010004,Pressure,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,012001,Temperature/air temperature,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),,013003,Relative humidity,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,120000,Delayed replication of 20 descriptors,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,031000,Short delayed descriptor replication factor,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,025060,Software identification,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,008021,Time significance, = 2 Time averaged,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,004025,Time period or displacement,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,115000,Delayed replication of 15 descriptors,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,031001,Delayed descriptor replication factor,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,015079,Zenith path delay due to neutral atmosphere,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,015080,Estimated error in neutral atmosphere zenith path delay,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,008022,Total number (with respect to accumulation or average),,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,033093,Extended quality flags for ground-based GNSS data,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,015089,Zenith path delay due to neutral hydrostatic atmosphere,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,015035,Component of zenith path delay due to water vapour,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,102002,Replicate 2 descriptors 2 times,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,008060,Sample scanning mode significance,= 5 north/south or =6 east/west,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,015083,GNSS derived neutral atmosphere gradient,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,201131,Change data width,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,202129,Change scale,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,013016,Precipitable water,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,202000,Change scale,Cancel,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,201000,Change data width,Cancel,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Zenith Total Delay,015011,Log10 of integrated electron density,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,131000,Delayed replication of 31 descriptors,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,031000,Short delayed descriptor replication factor,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,025060,Software identification,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,008021,Time significance,Set to missing,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,004025,Time period or displacement,= 0,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,033093,Extended quality flags for ground-based GNSS data,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,125000,Delayed replication of 25 descriptors,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,031001,Delayed descriptor replication factor,Number of GNSS satellites used,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,002020,Satellite classification,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,001050,Platform transmitter ID number,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,001150,Coordinate reference system,= 5 ECF coordinate system,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,202127,Change scale,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,304030,Location of platform,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,202000,Change scale,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,005021,Bearing or azimuth,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,007021,Elevation,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015038,Path delay due to neutral atmosphere,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015039,Estimated error in neutral atmosphere path delay,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015090,Path delay due to neutral hydrostatic atmosphere,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015081,Wet path delay due to neutral atmosphere,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015082,Path integrated water vapour,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015079,Zenith path delay due to neutral atmosphere,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015089,Zenith path delay due to neutral hydrostatic atmosphere,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015035,Component of zenith path delay due to water vapour,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,102002,Replicate 2 descriptors 2 times,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,008060,Sample scanning mode significance,= 5 north/south or = 6 east/west,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015083,GNSS derived neutral atmosphere gradient,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015084,GNSS least squares residual,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015085,GNSS multi-path delay,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015086,GNSS hydrostatic mapping function,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015087,GNSS wet mapping function,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015088,GNSS gradient mapping function,,,Operational
+07,Surface report sequences (land),307024,(Ground-based GNSS data - slant total delay),Slant Total Delay,015011,Log10 of integrated electron density,,,Operational
 07,Surface report sequences (land),307030,(Ozone data - single observation),,015001,Total ozone,,,Operational
 07,Surface report sequences (land),307030,(Ozone data - single observation),,015002,Air mass (slant path at 22 km),,,Operational
 07,Surface report sequences (land),307031,(Ozone data - averaged observations),,008022,Total number (with respect to accumulation or average),Number of measurements,,Operational
@@ -3260,7 +3337,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 09,Vertical sounding sequences (conventional data),309020,(Wind profiler - Cartesian coordinates),,011003,u-component,,,Operational
 09,Vertical sounding sequences (conventional data),309020,(Wind profiler - Cartesian coordinates),,011004,v-component,,,Operational
 09,Vertical sounding sequences (conventional data),309020,(Wind profiler - Cartesian coordinates),,011005,w-component,,,Operational
-09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,301001,WMO block and station numbers,,,Operational
+09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,301001,WMO block and station numbers,,"(20) The sequences 3 09 021, 3 09 022, and 3 09 023 should not be used because they are outdated. The sequence 3 09 024, 3 09 025 and 3 09 026 respectively, should be used instead.",Operational
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,005001,Latitude (high accuracy),,,Operational
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,006001,Longitude (high accuracy),,,Operational
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,007030,Height of station ground above mean sea level,,,Operational
@@ -3281,7 +3358,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,033002,Quality information,,,Operational
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,010071,Vertical resolution,,,Operational
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,027079,Horizontal width of sampled volume,,,Operational
-09,Vertical sounding sequences (conventional data),309022,(RASS virtual temperature (product data)),,301001,WMO block and station numbers,,,Operational
+09,Vertical sounding sequences (conventional data),309022,(RASS virtual temperature (product data)),,301001,WMO block and station numbers,,See Note 20,Operational
 09,Vertical sounding sequences (conventional data),309022,(RASS virtual temperature (product data)),,005001,Latitude (high accuracy),,,Operational
 09,Vertical sounding sequences (conventional data),309022,(RASS virtual temperature (product data)),,006001,Longitude (high accuracy),,,Operational
 09,Vertical sounding sequences (conventional data),309022,(RASS virtual temperature (product data)),,007030,Height of station ground above mean sea level,,,Operational
@@ -3300,34 +3377,98 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 09,Vertical sounding sequences (conventional data),309022,(RASS virtual temperature (product data)),,033002,Quality information,,,Operational
 09,Vertical sounding sequences (conventional data),309022,(RASS virtual temperature (product data)),,010071,Vertical resolution,,,Operational
 09,Vertical sounding sequences (conventional data),309022,(RASS virtual temperature (product data)),,027079,Horizontal width of sampled volume,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Header section,301001,WMO block and station numbers,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Header section,005001,Latitude (high accuracy),,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Header section,006001,Longitude (high accuracy),,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Header section,007030,Height of station ground above mean sea level,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Header section,301014,Time period,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Header section,002003,Type of measuring equipment used,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Cloud data section,302004,General cloud information,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Cloud data section,302005,Cloud layer,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,114000,Delayed replication of 14 descriptors,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,031001,Delayed descriptor replication factor,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,007007,Height,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,301021,Latitude/longitude (high accuracy),,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,101000,Delayed replication of 1 descriptor,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,031001,Delayed descriptor replication factor,Number of wavelength measurements present in the data,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,002121,Mean frequency,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015063,Attenuated backscatter,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015064,Uncertainty in attenuated backscatter,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015065,Particle backscatter coefficient,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015066,Uncertainty in particle backscatter coefficient,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015067,Particle extinction coefficient,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015068,Uncertainty in particle extinction coefficient,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015069,Particle lidar ratio,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015070,Uncertainty in lidar ratio,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015071,Particle depolarization ratio,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,015072,Uncertainty in depolarization ratio,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,033002,Quality information,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,010071,Vertical resolution,,,Operational
-09,Vertical sounding sequences (conventional data),309023,(Single wavelength Elastic Backscatter Lidar sequence),Backscatter data section,027079,Horizontal width of sampled volume,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Header section,301001,WMO block and station numbers,,See Note 20,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Header section,005001,Latitude (high accuracy),,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Header section,006001,Longitude (high accuracy),,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Header section,007030,Height of station ground above mean sea level,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Header section,301014,Time period,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Header section,002003,Type of measuring equipment used,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Cloud data section,302004,General cloud information,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Cloud data section,302005,Cloud layer,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,114000,Delayed replication of 14 descriptors,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,031001,Delayed descriptor replication factor,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,007007,Height,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,301021,Latitude/longitude (high accuracy),,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,101000,Delayed replication of 1 descriptor,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,031001,Delayed descriptor replication factor,Number of wavelength measurements present in the data,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,002121,Mean frequency,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015063,Attenuated backscatter,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015064,Uncertainty in attenuated backscatter,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015065,Particle backscatter coefficient,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015066,Uncertainty in particle backscatter coefficient,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015067,Particle extinction coefficient,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015068,Uncertainty in particle extinction coefficient,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015069,Particle lidar ratio,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015070,Uncertainty in lidar ratio,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015071,Particle depolarization ratio,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,015072,Uncertainty in depolarization ratio,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,033002,Quality information,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,010071,Vertical resolution,,,Operational
+09,Vertical sounding sequences (conventional data),309023,(Single wavelength elastic backscatter lidar sequence),Backscatter data section,027079,Horizontal width of sampled volume,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,301132,Common header sequence,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,201151,Change data width (by YYY-128 bit places),,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,202130,Change scale (by YYY-128 places),,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,002121,Mean frequency,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,202000,Cancel scale change,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,201000,Cancel data width change,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,008021,Time significance,= 2 Time averaged,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,004025,Time period or displacement (see Note 13),,(13) The time period indicates the duration in minutes over which the measurements have been averaged. The end of the time period is marked by the end of scan (see above).,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,109000,Delayed replication of 9 descriptors,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,031002,Extended delayed descriptor replication factor,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,007007,Height,,(14) The Quality information descriptor 0 33 002 at this point relates to both u-component 0 11 003 and v-component 0 11 004. It is given for each respective gate of the profile measurement.,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,301021,Latitude/longitude (high accuracy),,(15) The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,011003,u-component,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,011004,v-component,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,033002,Quality information,,(16) The Quality information descriptor 0 33 002 at this point relates to the w-component 0 11 006. It is given for each respective gate of the profile measurement.,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,011006,w-component,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,033002,Quality information,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,010071,Vertical resolution,,,Operational
+09,Vertical sounding sequences (conventional data),309024,(Single wavelength wind profiler wind data sequence (product data)),,027079,Horizontal width of sampled volume,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,301132,Common Header Sequence,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,201151,Change data width,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,202130,Change scale,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,002121,Mean frequency,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,202000,Cancel scale change,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,201000,Cancel data width change,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,008021,Time significance,= 2 Time averaged,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,004025,Time period or displacement,,(see Note 13),Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,106000,Delayed replication of 6 descriptors,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,031002,Extended delayed descriptor replication factor,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,007007,Height (see Note 15),,(See Note 15),Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,301021,Latitude/longitude (high accuracy),,(see Note 15),Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,012007,Virtual temperature,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,033002,Quality information,,(17) The Quality information descriptor 0 33 002 relates to the virtual temperature 0 12 007. It is given for each respective gate of the profile measurement.,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,010071,Vertical resolution,,,Operational
+09,Vertical sounding sequences (conventional data),309025,(RASS virtual temperature sequence (product data)),,027079,Horizontal width of sampled volume,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,301132,Common header sequence,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,302004,General cloud information,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,302005,Cloud layer,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,008092,Measurement uncertainty expression,,(18) The Measurement uncertainty expression and significance descriptors 0 08 092 and 0 08 093 relate to all parameter uncertainties provided in the backscatter data section.,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,008093,Measurement uncertainty significance,,(see Note 15),Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,008021,Time significance,= 2 Time averaged,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,004025,Time period or displacement,,(see Note 13),Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,201138,Change data width,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,202126,Change scale,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,002121,Mean frequency,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,202000,Cancel scale change,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,201000,Cancel data width change,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,115000,Delayed replication of 15 descriptors,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,031002,Extended delayed replication factor,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,007007,Height,,(see Note 15),Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,301021,Latitude/longitude (high accuracy),= 2 Time averaged,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015073,Attenuated backscatter,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015064,Uncertainty in attenuated backscatter,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015074,Particle backscatter coefficient,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015066,Uncertainty in particle backscatter coefficient,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015075,Particle extinction coefficient,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015068,Uncertainty in particle extinction coefficient,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015076,Particle lidar ratio,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015077,Uncertainty in lidar ratio,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015078,Particle depolarization ratio,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,015072,Uncertainty in depolarization ratio,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,033002,Quality information,,(19) The Quality information descriptor 0 33 002 relates to all parameters provided in the Backscatter data section and is given for each respective vertical bin of the profile measurement.,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,010071,Vertical resolution,,,Operational
+09,Vertical sounding sequences (conventional data),309026,(Single wavelength elastic backscatter lidar sequence),,027079,Horizontal width of sampled volume,,,Operational
 09,Vertical sounding sequences (conventional data),309030,(Ozone sonde flight data) (see Note 1),,015004,Ozone sounding correction factor (CF),,,Operational
 09,Vertical sounding sequences (conventional data),309030,(Ozone sonde flight data),,015005,Ozone p,,,Operational
 09,Vertical sounding sequences (conventional data),309030,(Ozone sonde flight data),,104000,Delayed replication of 4 descriptors,,,Operational
@@ -5348,7 +5489,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 12,Single level report sequences (satellite data),312029,(Scatterometer level 2b data),,201136,Change data width,,,Operational
 12,Single level report sequences (satellite data),312029,(Scatterometer level 2b data),,004006,Second,,,Operational
 12,Single level report sequences (satellite data),312029,(Scatterometer level 2b data),,201000,Cancel change data width,,,Operational
-12,Single level report sequences (satellite data),312029,(Scatterometer level 2b data),,005034,Along track row number,,,Operational
+12,Single level report sequences (satellite data),312029,(Scatterometer level 2b data),,005034,Along-track row number,,,Operational
 12,Single level report sequences (satellite data),312029,(Scatterometer level 2b data),,201129,Change data width,,,Operational
 12,Single level report sequences (satellite data),312029,(Scatterometer level 2b data),,006034,Cross-track cell number,,,Operational
 12,Single level report sequences (satellite data),312029,(Scatterometer level 2b data),,201000,Cancel change data width,,,Operational
@@ -5438,7 +5579,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 12,Single level report sequences (satellite data),312035,(Scatterometer level 2a data),,004006,Second,,,Operational
 12,Single level report sequences (satellite data),312035,(Scatterometer level 2a data),,005002,Latitude (coarse accuracy),,,Operational
 12,Single level report sequences (satellite data),312035,(Scatterometer level 2a data),,006002,Longitude (coarse accuracy),,,Operational
-12,Single level report sequences (satellite data),312035,(Scatterometer level 2a data),,005034,Along track row number,,,Operational
+12,Single level report sequences (satellite data),312035,(Scatterometer level 2a data),,005034,Along-track row number,,,Operational
 12,Single level report sequences (satellite data),312035,(Scatterometer level 2a data),,006031,Column number,,,Operational
 12,Single level report sequences (satellite data),312035,(Scatterometer level 2a data),,201129,Change data width,,,Operational
 12,Single level report sequences (satellite data),312035,(Scatterometer level 2a data),,006034,Cross-track cell number,,,Operational
@@ -6134,34 +6275,34 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,001086,"Observing platform manufacturer’s serial number",,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,003001,Surface station type,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,208032,Change width of CCITT IA5 field,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,001079,Unique ID for profile,"UUID for report, 32 character hex string",,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,001079,Unique ID for profile,"UUID for report, 32-character hex string",,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,208000,Change width of CCITT IA5 field,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,301011,"Year, month, day",,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,301012,"Hour, minute",,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,301021,(Latitude/longitude (high accuracy)),,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,301021,Latitude/longitude (high accuracy),,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,001012,Direction of motion of moving observing platform,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,001014,"Platform drift speed (high precision)",,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,011104,"True heading of aircraft, ship or other mobile platform[DB2]",,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,011104,"True heading of aircraft, ship or other mobile platform",,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,103000,Delayed replication of 3 descriptor,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,007031,Height of barometer above mean sea level,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306038,Sequence for representation of standard surface marine meteorological observations from moored buoys,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,012161,Skin temperature,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptors,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306034,(Surface current),,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptor,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306039,(Sequence for representation of basic wave measurements),,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptors,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306033,(Surface salinity),,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306034,Surface current,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptor,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306041,(Depth and temperature profile (high accuracy/precision)),,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptors,,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306039,Sequence for representation of basic wave measurements,,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptor,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306004,"(Depth, temperature, salinity)",,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306033,Surface salinity,,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptor,,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306041,Depth and temperature profile (high accuracy/precision),,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptor,,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306004,"Depth, temperature, salinity",,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,101000,Delayed replication of 1 descriptor,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,306005,Sub-surface current measurements,,,Operational
@@ -6169,7 +6310,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,031000,Short delayed descriptor replication factor,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,041001,pCO2,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,008043,Atmospheric chemical or physical constituent type,,,Operational
-15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,015028,"Mole fraction of atmospheric constituent / pollutant in dry air",,,Operational
+15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,015028,"Mole fraction of atmospheric constituent/pollutant in dry air",,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,008043,Atmospheric chemical or physical constituent type,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,013080,Water pH,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,104000,Delayed replication of 4 descriptors,,,Operational
@@ -6187,6 +6328,38 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,004025,Time period or displacement,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014017,Instantaneous long-wave radiation,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014018,Instantaneous short-wave radiation,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier ,WMO number where assigned,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5 ,change width to 32 characters,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001019,Ship or mobile land station identifier ,"Platform ID, e.g. ct145-933-BAT2-18 (max 32 characters)",,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208000,Change width of CCITT IA5 ,Cancel change width,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,003001,Surface station type ,10 (Marine animal),,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,022067,Instrument type for water temperature and/or salinity measurement,set to 995 (attached to marine animal),,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001051,Platform transmitter ID number,e.g. Argos PTT,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,002148,Data collection and/or location system,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,112000,Delayed replication of 12 descriptors,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,031001,Delayed descriptor replication factor,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,008021,Time significance,"set to 26, time of last known position",,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301011,"Year, month, day",,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301012,"Hour, minute",,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301021,Latitude/longitude (high accuracy),,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001012,Direction of motion of moving observing platform,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001014,Platform drift speed (high precision),,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,033022,Quality of buoy satellite transmission,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,033023,Quality buoy location,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,033027,Location quality class (range of radius of 66% confidence),,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,007063,Depth below sea/water surface,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,022045,Sea/water temperature,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,008021,Time significance ,Set to missing/cancel,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,107000,Delayed replication of 7 descriptors,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,031001,Delayed descriptor replication factor,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301011,"Year, month, day",,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301012,"Hour, minute",,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301021,Latitude/longitude (high accuracy),,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001079,Unique identifier for the profile,Profile ID,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001023,Observation sequence number,Upcast number,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,022056,Direction of profile,Set to 0 (ascending/upwards),,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,306035,Temperature and salinity profile,,,Operational
 16,Synoptic feature sequences,316001,,,301011,"Year, month, day",,,Operational
 16,Synoptic feature sequences,316001,,,004004,Hour,,,Operational
 16,Synoptic feature sequences,316001,,,301023,Latitude/longitude (coarse accuracy),,,Operational
@@ -6637,8 +6810,8 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,316081,(GFA freezing level),,316074,GFA identifier and observed/forecast location,,,Operational
 16,Synoptic feature sequences,316081,(GFA freezing level),,008041,Data significance,Set to missing (cancel),,Operational
 16,Synoptic feature sequences,316081,(GFA freezing level),,008079,Product status,Set to missing (cancel),,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001033,Identification of Originating/generating Centre,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001034,Identification of Originating/generating Centre Sub-Centre,,,Operational
+16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001033,Identification of originating/generating centre,,,Operational
+16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001034,Identification of originating/generating sub-centre,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001032,Generating application,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001025,Storm identifier,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001027,WMO long storm name,,,Operational
@@ -6662,7 +6835,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201131,Change data width,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019004,Effective radius with respect to wind speeds above threshold,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width (Cancel - set to missing),,,Operational
+16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width,Set to missing (cancel),,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,116000,Delayed replication of 16 descriptors,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,031001,Delayed descriptor replication factor,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008021,Time significance,,,Operational
@@ -6680,7 +6853,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201131,Change data width,,,Operational
 16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019004,Effective radius with respect to wind speeds above threshold,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width (Cancel - set to missing),,,Operational
+16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width,Set to missing (cancel),,Operational
 18,Radiological report sequences,318001,,,301025,"Latitude/longitude (coarse accuracy), day/time",,,Operational
 18,Radiological report sequences,318001,,,024011,Dose,,,Operational
 18,Radiological report sequences,318003,,,301026,"Latitude/longitude (high accuracy), time period (day, hour, minute)",,,Operational
@@ -7709,17 +7882,17 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 40,Additional satellite report sequences,340017,(Sentinel-3 (S3) level 2 water product),,013013,Total snow depth,,,Operational
 40,Additional satellite report sequences,340017,(Sentinel-3 (S3) level 2 water product),,025112,Band specific altimeter data quality flag,,,Operational
 40,Additional satellite report sequences,340017,(Sentinel-3 (S3) level 2 water product),,033092,Band specific ocean quality flag,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,301129,Observing satellite and instruments,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,301130,High precision timestamp,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,301131,Pixel geolocation,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,007072,Scan angle,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,040074,General interferometry quality flags,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,104000,Delayed repetition of 4 descriptors,Repeat for all channels,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,031002,Extended delayed descriptor replication factor,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,201136,Change data width,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,005042,Channel number,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,201000,Change data width,,,Operational
-40,Additional satellite report sequences,340018,“Infrared Fourier Spectrometer - 2 (IKFS-2) spectra”,,014044,Channel radiance,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,301129,Observing satellite and instruments,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,301130,High precision timestamp,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,301131,Pixel geolocation,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,007072,Scan angle,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,040074,General interferometry quality flags,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,104000,Delayed repetition of 4 descriptors,Repeat for all channels,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,031002,Extended delayed descriptor replication factor,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,201136,Change data width,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,005042,Channel number,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,201000,Change data width,,,Operational
+40,Additional satellite report sequences,340018,(Infrared Fourier spectrometer - 2 (IKFS-2) spectra),,014044,Channel radiance,,,Operational
 40,Additional satellite report sequences,340019,(Altimeter product),,340020,Satellite general values,,,Operational
 40,Additional satellite report sequences,340019,(Altimeter product),,340021,General radiometer values,,,Operational
 40,Additional satellite report sequences,340019,(Altimeter product),,340022,Altimeter model values,,,Operational
@@ -7729,7 +7902,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 40,Additional satellite report sequences,340020,(Satellite general values),,005044,Satellite cycle number,,,Operational
 40,Additional satellite report sequences,340020,(Satellite general values),,001096,Station acquisition,,,Operational
 40,Additional satellite report sequences,340020,(Satellite general values),,005040,Orbit number,,,Operational
-40,Additional satellite report sequences,340020,(Satellite general values),,001040,Processing centre id code,,,Operational
+40,Additional satellite report sequences,340020,(Satellite general values),,001040,Processing centre ID code,,,Operational
 40,Additional satellite report sequences,340020,(Satellite general values),,025061,Software identification and version number,,,Operational
 40,Additional satellite report sequences,340020,(Satellite general values),,025182,L1 processing flag,,,Operational
 40,Additional satellite report sequences,340020,(Satellite general values),,025183,L1 processing quality,,,Operational
@@ -7774,7 +7947,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 40,Additional satellite report sequences,340022,(Altimeter model values),,010088,Total geocentric ocean tide height (solution 1),,,Operational
 40,Additional satellite report sequences,340022,(Altimeter model values),,010089,Total geocentric ocean tide height (solution 2),,,Operational
 40,Additional satellite report sequences,340022,(Altimeter model values),,010090,Long period tide height,,,Operational
-40,Additional satellite report sequences,340022,(Altimeter model values),,010092,Solid earth tide height,,,Operational
+40,Additional satellite report sequences,340022,(Altimeter model values),,010092,Solid Earth tide height,,,Operational
 40,Additional satellite report sequences,340022,(Altimeter model values),,010093,Geocentric pole tide height,,,Operational
 40,Additional satellite report sequences,340022,(Altimeter model values),,010098,Loading tide height geocentric ocean tide solution 1,,,Operational
 40,Additional satellite report sequences,340022,(Altimeter model values),,010099,Loading tide height geocentric ocean tide solution 2,,,Operational
@@ -7803,10 +7976,10 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,025190,Altimeter echo processing mode,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,010102,Sea-surface height anomaly,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022189,Specific band ocean range,,,Operational
-40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022191,Rms of specific band ocean range,,,Operational
+40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022191,RMS of specific band ocean range,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022130,Number of valid points for specific band,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,025167,Specific band net instrumental correction,,,Operational
-40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,025163,Altimeter ionospheric correction on ku band,,,Operational
+40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,025163,Altimeter ionospheric correction on Ku band,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,015012,Total electron count per square metre,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,025164,Radiometer wet tropospheric correction,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,013090,Radiometer water vapour content,,,Operational
@@ -7815,17 +7988,17 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,007002,Height or altitude,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,011097,Wind speed from altimeter,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021183,Specific band corrected ocean backscatter coefficient,,,Operational
-40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021184,Std specific band corrected ocean backscatter coefficient,,,Operational
+40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021184,STD specific band corrected ocean backscatter coefficient,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022134,Number of valid points for specific band backscatter,,,Operational
-40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021122,Attenuation correction on sigma-0 (from tb),,,Operational
+40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021122,Attenuation correction on sigma-0 (from tB),,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021186,Specific band automatic gain control,,,Operational
-40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021187,Rms specific band automatic gain control,,,Operational
+40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021187,RMS specific band automatic gain control,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021188,Number of valid points for specific band automatic gain control,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,201131,Change data width,,,Operational
-40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021185,Specific band net instrumental correction for agc,,,Operational
+40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021185,Specific band net instrumental correction for AGC,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,201000,Reset width,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022179,Specific band significant wave height,,,Operational
-40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022131,Rms specific band significant wave height,,,Operational
+40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022131,RMS specific band significant wave height,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022132,Number of valid points for specific band significant wave height,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,022133,Specific band net instrument correction for significant wave height,,,Operational
 40,Additional satellite report sequences,340024,(1 Hz C and Ku band values),,021144,Altimeter rain flag,,,Operational
@@ -7868,18 +8041,18 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,010102,Sea-surface height anomaly,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,022189,Specific band ocean range,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,025167,Specific band net instrumental correction,,,Operational
-40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,025163,Altimeter ionospheric correction on ku band,,,Operational
+40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,025163,Altimeter ionospheric correction on Ku band,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,021183,Specific band corrected ocean backscatter coefficient,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,201131,Change data width,,,Operational
-40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,021185,Specific band net instrumental correction for agc,,,Operational
+40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,021185,Specific band net instrumental correction for AGC,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,201000,Reset width,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,022179,Specific band significant wave height,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,022133,Specific band net instrument correction for significant wave height,,,Operational
-40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,022146,Ocog range,,,Operational
+40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,022146,OCOG range,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,021189,Corrected OCOG* backscatter coefficient,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,013163,Snow water equivalent,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,202126,Change data scale,,,Operational
-40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,022046,Sea ice fraction,,,Operational
+40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,022046,Sea-ice fraction,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,202000,Reset scale,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,013117,Snow density (liquid water content),,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,013013,Total snow depth,,,Operational
