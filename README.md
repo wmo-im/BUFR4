@@ -1,4 +1,4 @@
 # BUFR4
-BUFR edition 4
+The BUFR edition 4 tables are published to the [Manual on Codes, Volume I.2](https://library.wmo.int/index.php?lvl=notice_display&id=10684#.X18yfpMza3I) (WMO-No. 306) in Part B. Binary Codes, section FM94-XIV BUFR.  
 
-Please work only on the csv version. The xml version of the table will be generated automatically after a push or pull_request.
+The CSV files are the working documents. The TXT and XML files are generated automatically. 
