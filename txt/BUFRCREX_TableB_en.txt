@@ -504,6 +504,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 08,Significance qualifiers,008092,Measurement uncertainty expression,,Code table,0,0,5,Code table,0,2,Operational
 08,Significance qualifiers,008093,Measurement uncertainty significance,,Code table,0,0,5,Code table,0,2,Operational
 08,Significance qualifiers,008094,Method used to calculate the average daily temperature,,Code table,0,0,8,Code table,0,3,Operational
+08,Significance qualifiers,008095,Siting and Measurement Quality Classification for temperature,,Code table,0,0,8,Code table,0,3,Operational
+08,Significance qualifiers,008096,Siting and Measurement Quality Classification for precipitation,,Code table,0,0,8,Code table,0,3,Operational
 10,Non-coordinate location (vertical),010001,Height of land surface,,m,0,-400,15,m,0,5,Operational
 10,Non-coordinate location (vertical),010002,Height,,m,-1,-40,16,m,-1,5,Operational
 10,Non-coordinate location (vertical),010003,Geopotential,,m2 s-2,-1,-400,17,m2 s-2,-1,6,Operational
@@ -732,8 +734,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 13,Hydrographic and hydrological elements,013008,Maximum relative humidity,,%,0,0,7,%,0,3,Operational
 13,Hydrographic and hydrological elements,013009,Relative humidity,(see Note 6),%,1,-1000,12,%,1,4,Operational
 13,Hydrographic and hydrological elements,013011,Total precipitation/total water equivalent,,kg m-2,1,-1,14,kg m-2,1,5,Operational
-13,Hydrographic and hydrological elements,013012,Depth of fresh snow,,m,2,-2,12,m,2,4,Operational
-13,Hydrographic and hydrological elements,013013,Total snow depth,,m,2,-2,16,m,2,5,Operational
+13,Hydrographic and hydrological elements,013012,Depth of fresh snow (Depth of snowfall),,m,2,-2,12,m,2,4,Operational
+13,Hydrographic and hydrological elements,013013,Total snow depth (Snow Depth),,m,2,-2,16,m,2,5,Operational
 13,Hydrographic and hydrological elements,013014,Rainfall/water equivalent of snow (averaged rate),,kg m-2 s-1,4,0,12,kg m-2 s-1,4,4,Operational
 13,Hydrographic and hydrological elements,013015,Snowfall (averaged rate),,m/s,7,0,12,m/s,7,4,Operational
 13,Hydrographic and hydrological elements,013016,Precipitable water,,kg m-2,0,0,7,kg m-2,0,3,Operational
