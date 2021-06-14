@@ -15987,6 +15987,62 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Average of maximum and minimum values: Tm = ( Tx + Tn) / 2 (see Note 1)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Average of the 8 tri-hourly observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Average of 24 hourly observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Weighted average of 3 observations: Tm = (aT1 +bT2 + cT3) (see Note 1)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008093</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Weighted average of 3 observation and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn) (see Note 1)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>AWS complete integration from minute data</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>6-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>010063</FXY>
     <ElementName_en>Characteristic of pressure tendency</ElementName_en>
     <CodeFigure>0</CodeFigure>
