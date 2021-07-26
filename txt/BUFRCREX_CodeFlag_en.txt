@@ -35,9 +35,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001029,SSI source,6,UK Met Office,,,,Operational
 001029,SSI source,7-30,Reserved for future use,,,,Operational
 001029,SSI source,31,Missing value,,,,Operational
-001031,Identification of originating/generating centre,,,,,,Operational
-001033,Identification of originating/generating centre,,,,,,Operational
-001034,Identification of originating/generating sub-centre,,,,,,Operational
+001031,Identification of originating/generating centre,,,,,"(See Common Code table C–1 in Part C/c.)",Operational
+001033,Identification of originating/generating centre,,,,,"(See Common Code table C–1 in Part C/c.)",Operational
+001034,Identification of originating/generating sub-centre,,,,,"(To be defined by centres themselves - See Common Code table C-12 in Part C/c.)",Operational
+001035,Originating/generating centre,,,,,"(See Common Code table C-11 in Part C/c.)",Operational
 001036,Agency in charge of operating the observing platform,0-36000,Reserved,,,,Operational
 001036,Agency in charge of operating the observing platform,36001,"Australia, Bureau of Meteorology (BoM)",,,,Operational
 001036,Agency in charge of operating the observing platform,36002,"Australia, Joint Australian Facility for Ocean Observing Systems (JAFOOS)",,,,Operational
@@ -352,6 +353,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001151,Fixed mean sea-level reference datum,1,Baltic height system 1977,,,,Operational
 001151,Fixed mean sea-level reference datum,2-4094,Reserved,,,,Operational
 001151,Fixed mean sea-level reference datum,4095,Missing value,,,,Operational
+001155,Retrieval identifier,0,Standard Correct Algorithm,,,,Operational
+001155,Retrieval identifier,1-254,Reserved,,,,Operational
+001155,Retrieval identifier,255,Missing value,,,,Operational
 002001,Type of station,0,Automatic,,,,Operational
 002001,Type of station,1,Manned,,,,Operational
 002001,Type of station,2,Hybrid: both manned and automatic,,,,Operational
@@ -2050,7 +2054,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008043,Atmospheric chemical or physical constituent type,6,Nitrous oxide,N2O,10024-97-2,,Operational
 008043,Atmospheric chemical or physical constituent type,7,Formaldehyde,HCHO,50-00-0,,Operational
 008043,Atmospheric chemical or physical constituent type,8,Sulphur dioxide,SO2,7446-09-5,,Operational
-008043,Atmospheric chemical or physical constituent type,9-24,Reserved,,,,Operational
+008043,Atmospheric chemical or physical constituent type,9,Volcanic sulphur dioxide,,,,Operational
+008043,Atmospheric chemical or physical constituent type,10-24,Reserved,,,,Operational
 008043,Atmospheric chemical or physical constituent type,25,Particulate matter < 1.0 microns,,,,Operational
 008043,Atmospheric chemical or physical constituent type,26,Particulate matter < 2.5 microns,,,,Operational
 008043,Atmospheric chemical or physical constituent type,27,Particulate matter < 10 microns,,,,Operational
@@ -2058,9 +2063,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008043,Atmospheric chemical or physical constituent type,29,Smoke (generic),,,,Operational
 008043,Atmospheric chemical or physical constituent type,30,Crustal material (generic dust),,,,Operational
 008043,Atmospheric chemical or physical constituent type,31,Volcanic ash,,,,Operational
-008043,Atmospheric chemical or physical constituent type,32-200,Reserved,,,,Operational
+008043,Atmospheric chemical or physical constituent type,32,Cloud,,,,Operational
+008043,Atmospheric chemical or physical constituent type,33,Cloud and aerosols,,,,Operational
+008043,Atmospheric chemical or physical constituent type,34-200,Reserved,,,,Operational
 008043,Atmospheric chemical or physical constituent type,201-254,Reserved for local use,,,,Operational
 008043,Atmospheric chemical or physical constituent type,255,Missing value,,,,Operational
+008046,Atmospheric chemical or physical constituent type,,,,,"(See Common Code table C–14 in Part C/c.)",Operational
 008050,Qualifier for number of missing values in calculation of statistic,0,Reserved,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,2,Temperature,,,,Operational
@@ -3372,10 +3380,17 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020063,Special phenomena,32,Deep-red coloration of clouds at sunrise associated with a tropical disturbance,,,,Operational
 020063,Special phenomena,33,Slight coloration of clouds at sunset associated with a tropical disturbance,,,,Operational
 020063,Special phenomena,34,Deep-red coloration of clouds at sunset associated with a tropical disturbance,,,,Operational
+<<<<<<< HEAD
 020063,Special phenomena,35,Convergence of CH clouds at a point below 45 deg forming or increasing and associated with a tropical disturbance,,,,Operational
 020063,Special phenomena,36,Convergence of CH clouds at a point above 45 deg associated with a tropical disturbance,,,,Operational
 020063,Special phenomena,37,Convergence of CH clouds at a point below 45 deg dissolving or diminishing and associated with a tropical disturbance,,,,Operational
 020063,Special phenomena,38,Convergence of CH clouds at a point above 45 deg associated with a tropical disturbance,,,,Operational
+=======
+020063,Special phenomena,35,Convergence of CH clouds at a point below 45° forming or increasing and associated with a tropical disturbance,,,,Operational
+020063,Special phenomena,36,Convergence of CH clouds at a point above 45° forming or increasing and associated with a tropical disturbance,,,,Operational
+020063,Special phenomena,37,Convergence of CH clouds at a point below 45° dissolving or diminishing and associated with a tropical disturbance,,,,Operational
+020063,Special phenomena,38,Convergence of CH clouds at a point above 45° dissolving or diminishing and associated with a tropical disturbance,,,,Operational
+>>>>>>> ft21-2
 020063,Special phenomena,39,Reserved,,,,Operational
 020063,Special phenomena,,40-43     Hoar frost or coloured precipitation,,,,Operational
 020063,Special phenomena,40,Hoar frost on horizontal surfaces,,,,Operational
@@ -4654,7 +4669,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033039,Quality flags for radio occultation data,5,Bending angle processing non-nominal,,,,Operational
 033039,Quality flags for radio occultation data,6,Refractivity processing non-nominal,,,,Operational
 033039,Quality flags for radio occultation data,7,Meteorological processing non-nominal,,,,Operational
-033039,Quality flags for radio occultation data,8-13,Reserved,,,,Operational
+033039,Quality flags for radio occultation data,8,Open loop data included,,,,Operational
+033039,Quality flags for radio occultation data,9,Surface reflections detected,,,,Operational
+033039,Quality flags for radio occultation data,10,L2C GNSS signals used,,,,Operational
+033039,Quality flags for radio occultation data,11-13,Reserved,,,,Operational
 033039,Quality flags for radio occultation data,14,Background profile non-nominal,,,,Operational
 033039,Quality flags for radio occultation data,15,Background (i.e. not retrieved) profile present,,,,Operational
 033039,Quality flags for radio occultation data,All 16,Missing value,,,,Operational

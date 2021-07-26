@@ -253,16 +253,25 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>001031</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
+    <Note_en>(See Common Code table C–1 in Part C/c.)</Note_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001033</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
+    <Note_en>(See Common Code table C–1 in Part C/c.)</Note_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001034</FXY>
     <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
+    <Note_en>(To be defined by centres themselves - See Common Code table C-12 in Part C/c.)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001035</FXY>
+    <ElementName_en>Originating/generating centre</ElementName_en>
+    <Note_en>(See Common Code table C-11 in Part C/c.)</Note_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -2460,6 +2469,27 @@
     <FXY>001151</FXY>
     <ElementName_en>Fixed mean sea-level reference datum</ElementName_en>
     <CodeFigure>4095</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001155</FXY>
+    <ElementName_en>Retrieval identifier</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Standard Correct Algorithm</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001155</FXY>
+    <ElementName_en>Retrieval identifier</ElementName_en>
+    <CodeFigure>1-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001155</FXY>
+    <ElementName_en>Retrieval identifier</ElementName_en>
+    <CodeFigure>255</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -14406,7 +14436,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008043</FXY>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <CodeFigure>9-24</CodeFigure>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Volcanic sulphur dioxide</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008043</FXY>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <CodeFigure>10-24</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -14462,7 +14499,21 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008043</FXY>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <CodeFigure>32-200</CodeFigure>
+    <CodeFigure>32</CodeFigure>
+    <EntryName_en>Cloud</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008043</FXY>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <CodeFigure>33</CodeFigure>
+    <EntryName_en>Cloud and aerosols</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008043</FXY>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <CodeFigure>34-200</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -14478,6 +14529,12 @@
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
     <CodeFigure>255</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008046</FXY>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <Note_en>(See Common Code table C–14 in Part C/c.)</Note_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -23830,7 +23887,11 @@
     <FXY>020063</FXY>
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>36</CodeFigure>
+<<<<<<< HEAD
     <EntryName_en>Convergence of CH clouds at a point above 45 deg associated with a tropical disturbance</EntryName_en>
+=======
+    <EntryName_en>Convergence of CH clouds at a point above 45° forming or increasing and associated with a tropical disturbance</EntryName_en>
+>>>>>>> ft21-2
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -23844,7 +23905,11 @@
     <FXY>020063</FXY>
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>38</CodeFigure>
+<<<<<<< HEAD
     <EntryName_en>Convergence of CH clouds at a point above 45 deg associated with a tropical disturbance</EntryName_en>
+=======
+    <EntryName_en>Convergence of CH clouds at a point above 45° dissolving or diminishing and associated with a tropical disturbance</EntryName_en>
+>>>>>>> ft21-2
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -32803,7 +32868,28 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>033039</FXY>
     <ElementName_en>Quality flags for radio occultation data</ElementName_en>
-    <CodeFigure>8-13</CodeFigure>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Open loop data included</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033039</FXY>
+    <ElementName_en>Quality flags for radio occultation data</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Surface reflections detected</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033039</FXY>
+    <ElementName_en>Quality flags for radio occultation data</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>L2C GNSS signals used</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033039</FXY>
+    <ElementName_en>Quality flags for radio occultation data</ElementName_en>
+    <CodeFigure>11-13</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>

@@ -31843,7 +31843,6 @@
     <Title_en>(Single wavelength wind profiler wind data (product data))</Title_en>
     <FXY2>301001</FXY2>
     <ElementName_en>WMO block and station numbers</ElementName_en>
-    <Note_en>(20) The sequences 3 09 021, 3 09 022, and 3 09 023 should not be used because they are outdated. The sequence 3 09 024, 3 09 025 and 3 09 026 respectively, should be used instead.</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32033,7 +32032,7 @@
     <Title_en>(RASS virtual temperature (product data))</Title_en>
     <FXY2>301001</FXY2>
     <ElementName_en>WMO block and station numbers</ElementName_en>
-    <Note_en>See Note 20</Note_en>
+    <Note_en>(See Note 20)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32206,7 +32205,7 @@
     <SubTitle_en>Header section</SubTitle_en>
     <FXY2>301001</FXY2>
     <ElementName_en>WMO block and station numbers</ElementName_en>
-    <Note_en>See Note 20</Note_en>
+    <Note_en>(See Note 20)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32550,8 +32549,8 @@
     <FXY1>309024</FXY1>
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>004025</FXY2>
-    <ElementName_en>Time period or displacement (see Note 13)</ElementName_en>
-    <Note_en>(13) The time period indicates the duration in minutes over which the measurements have been averaged. The end of the time period is marked by the end of scan (see above).</Note_en>
+    <ElementName_en>Time period or displacement</ElementName_en>
+    <Note_en>(see Note 13)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32579,7 +32578,7 @@
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>007007</FXY2>
     <ElementName_en>Height</ElementName_en>
-    <Note_en>(14) The Quality information descriptor 0 33 002 at this point relates to both u-component 0 11 003 and v-component 0 11 004. It is given for each respective gate of the profile measurement.</Note_en>
+    <Note_en>(see Note 14)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32589,7 +32588,7 @@
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>301021</FXY2>
     <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
-    <Note_en>(15) The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).</Note_en>
+    <Note_en>(see Note 15)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32754,8 +32753,8 @@
     <FXY1>309025</FXY1>
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>007007</FXY2>
-    <ElementName_en>Height (see Note 15)</ElementName_en>
-    <Note_en>(See Note 15)</Note_en>
+    <ElementName_en>Height</ElementName_en>
+    <Note_en>(see Note 15)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32839,7 +32838,7 @@
     <Title_en>(Single wavelength elastic backscatter lidar sequence)</Title_en>
     <FXY2>008092</FXY2>
     <ElementName_en>Measurement uncertainty expression</ElementName_en>
-    <Note_en>(18) The Measurement uncertainty expression and significance descriptors 0 08 092 and 0 08 093 relate to all parameter uncertainties provided in the backscatter data section.</Note_en>
+    <Note_en>(see Note 18) The Measurement uncertainty expression and significance descriptors 0 08 092 and 0 08 093 relate to all parameter uncertainties provided in the backscatter data section.</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33076,8 +33075,276 @@
   <BUFR_TableD_en>
     <Category>09</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>301132</FXY2>
+    <ElementName_en>Common header sequence</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>008043</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>025061</FXY2>
+    <ElementName_en>Software Version Number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>302004</FXY2>
+    <ElementName_en>General cloud information</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>302005</FXY2>
+    <ElementName_en>Cloud layer</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>008092</FXY2>
+    <ElementName_en>Measurement uncertainty expression</ElementName_en>
+    <Note_en>(see Note 18)</Note_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>008093</FXY2>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
+    <Note_en>(see Note 15)</Note_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>008021</FXY2>
+    <ElementName_en>Time significance</ElementName_en>
+    <ElementDescription_en>= 2 Time averaged</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>004025</FXY2>
+    <ElementName_en>Time period or displacement</ElementName_en>
+    <Note_en>(see Note 13)</Note_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>118000</FXY2>
+    <ElementName_en>Delayed replication of 18 descriptors</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>031001</FXY2>
+    <ElementName_en>Delayed replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>002090</FXY2>
+    <ElementName_en>Instrument wavelength</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>115000</FXY2>
+    <ElementName_en>Delayed replication of 15 descriptors</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>031002</FXY2>
+    <ElementName_en>Extended delayed replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>007007</FXY2>
+    <ElementName_en>Height</ElementName_en>
+    <Note_en>(see Note 15)</Note_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>301021</FXY2>
+    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <ElementDescription_en>= 2 Time averaged</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015073</FXY2>
+    <ElementName_en>Attenuated backscatter</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015064</FXY2>
+    <ElementName_en>Uncertainty in attenuated backscatter</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015074</FXY2>
+    <ElementName_en>Particle backscatter coefficient</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015066</FXY2>
+    <ElementName_en>Uncertainty in particle backscatter coefficient</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015075</FXY2>
+    <ElementName_en>Particle extinction coefficient</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015068</FXY2>
+    <ElementName_en>Uncertainty in particle extinction coefficient</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015076</FXY2>
+    <ElementName_en>Particle lidar ratio</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015077</FXY2>
+    <ElementName_en>Uncertainty in lidar ratio</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015078</FXY2>
+    <ElementName_en>Particle depolarization ratio</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>015072</FXY2>
+    <ElementName_en>Uncertainty in depolarization ratio</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>033002</FXY2>
+    <ElementName_en>Quality information</ElementName_en>
+    <Note_en>(see Note 19)</Note_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>010071</FXY2>
+    <ElementName_en>Vertical resolution</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>309027</FXY1>
+    <Title_en>(Multi wavelength ground-based lidar sequence)</Title_en>
+    <FXY2>027079</FXY2>
+    <ElementName_en>Horizontal width of sampled volume</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>09</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
     <FXY1>309030</FXY1>
-    <Title_en>(Ozone sonde flight data) (see Note 1)</Title_en>
+    <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>015004</FXY2>
     <ElementName_en>Ozone sounding correction factor (CF)</ElementName_en>
     <Status>Operational</Status>
@@ -33223,7 +33490,7 @@
     <Category>09</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
     <FXY1>309040</FXY1>
-    <Title_en>(Ozone sounding not coupled to a ground-based spectrophotometer) (see Note 2)</Title_en>
+    <Title_en>(Ozone sounding not coupled to a ground-based spectrophotometer)</Title_en>
     <FXY2>301075</FXY2>
     <ElementName_en>Sounding identification</ElementName_en>
     <Status>Operational</Status>
@@ -33250,7 +33517,7 @@
     <Category>09</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
     <FXY1>309041</FXY1>
-    <Title_en>(Ozone sounding coupled to measurements from a Brewer ground-based spectrophotometer; the total ozone obtained from the Brewer is a single value) (see Note 2)</Title_en>
+    <Title_en>(Ozone sounding coupled to measurements from a Brewer ground-based spectrophotometer; the total ozone obtained from the Brewer is a single value)</Title_en>
     <FXY2>307041</FXY2>
     <ElementName_en>Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation</ElementName_en>
     <ElementDescription_en>Description of the ground-based part</ElementDescription_en>
@@ -33288,7 +33555,7 @@
     <Category>09</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
     <FXY1>309042</FXY1>
-    <Title_en>(Ozone sounding coupled to measurements from a Brewer ground-based spectrophotometer; the total ozone obtained from the Brewer is an averaged value) (see Note 2)</Title_en>
+    <Title_en>(Ozone sounding coupled to measurements from a Brewer ground-based spectrophotometer; the total ozone obtained from the Brewer is an averaged value)</Title_en>
     <FXY2>307042</FXY2>
     <ElementName_en>Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations</ElementName_en>
     <ElementDescription_en>Description of the ground-based part</ElementDescription_en>
@@ -33326,7 +33593,7 @@
     <Category>09</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
     <FXY1>309043</FXY1>
-    <Title_en>(Ozone sounding coupled to measurements from a Dobson ground-based spectrophotometer; the total ozone obtained from the Dobson is a single value) (see Note 2)</Title_en>
+    <Title_en>(Ozone sounding coupled to measurements from a Dobson ground-based spectrophotometer; the total ozone obtained from the Dobson is a single value)</Title_en>
     <FXY2>307043</FXY2>
     <ElementName_en>Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation</ElementName_en>
     <ElementDescription_en>Description of the ground-based part</ElementDescription_en>
@@ -33364,7 +33631,7 @@
     <Category>09</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
     <FXY1>309044</FXY1>
-    <Title_en>(Ozone sounding coupled to measurements from a Dobson ground-based spectrophotometer; the total ozone obtained from the Dobson is an averaged value) (see Note 2)</Title_en>
+    <Title_en>(Ozone sounding coupled to measurements from a Dobson ground-based spectrophotometer; the total ozone obtained from the Dobson is an averaged value)</Title_en>
     <FXY2>307044</FXY2>
     <ElementName_en>Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations</ElementName_en>
     <ElementDescription_en>Description of the ground-based part</ElementDescription_en>
