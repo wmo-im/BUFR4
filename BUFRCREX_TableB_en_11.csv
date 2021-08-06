@@ -1,79 +1,79 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-11,Wind and turbulence,011001,Wind direction,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011002,Wind speed,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011003,u-component,,m/s,1,-4096,13,m/s,1,4,Operational
-11,Wind and turbulence,011004,v-component,,m/s,1,-4096,13,m/s,1,4,Operational
-11,Wind and turbulence,011005,w-component,,Pa/s,1,-512,10,Pa/s,1,4,Operational
-11,Wind and turbulence,011006,w-component,,m/s,2,-4096,13,m/s,2,4,Operational
-11,Wind and turbulence,011007,Relative wind direction (in degrees off bow),,deg,0,0,9,deg,0,3,Operational
-11,Wind and turbulence,011008,Relative wind speed,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011010,Wind direction associated with wind speed which follows,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011011,Wind direction at 10 m,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011012,Wind speed at 10 m,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011013,Wind direction at 5 m,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011014,Wind speed at 5 m,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011016,Extreme counterclockwise wind direction of a variable wind,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011017,Extreme clockwise wind direction of a variable wind,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011019,Steadiness of wind,(see Note 6),%,0,0,7,%,0,3,Operational
-11,Wind and turbulence,011021,Relative vorticity,,/s,9,-65536,17,/s,9,6,Operational
-11,Wind and turbulence,011022,Divergence,,/s,9,-65536,17,/s,9,6,Operational
-11,Wind and turbulence,011023,Velocity potential,,m2/s,-2,-65536,17,m2/s,-2,6,Operational
-11,Wind and turbulence,011030,Extended degree of turbulence,,Code table,0,0,6,Code table,0,2,Operational
-11,Wind and turbulence,011031,Degree of turbulence,,Code table,0,0,4,Code table,0,2,Operational
-11,Wind and turbulence,011032,Height of base of turbulence,,m,-1,-40,16,m,-1,5,Operational
-11,Wind and turbulence,011033,Height of top of turbulence,,m,-1,-40,16,m,-1,5,Operational
-11,Wind and turbulence,011034,Vertical gust velocity,,m/s,1,-1024,11,m/s,1,4,Operational
-11,Wind and turbulence,011035,Vertical gust acceleration,,m s-2,2,-8192,14,m s-2,2,5,Operational
-11,Wind and turbulence,011036,Maximum derived equivalent vertical gust speed,,m/s,1,0,10,m/s,1,4,Operational
-11,Wind and turbulence,011037,Turbulence index,,Code table,0,0,6,Code table,0,2,Operational
-11,Wind and turbulence,011038,Time of occurrence of peak eddy dissipation rate,,Code table,0,0,5,Code table,0,2,Operational
-11,Wind and turbulence,011039,Extended time of occurrence of peak eddy dissipation rate,,Code table,0,0,6,Code table,0,2,Operational
-11,Wind and turbulence,011040,Maximum wind speed (mean wind),,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011041,Maximum wind gust speed,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011042,Maximum wind speed (10-minute mean wind),,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011043,Maximum wind gust direction,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011044,Mean wind direction for surface - 1 500 m (5 000 feet),,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011045,Mean wind speed for surface - 1 500 m (5 000 feet),,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011046,Maximum instantaneous wind speed,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011047,Maximum instantaneous wind speed over 10 minutes,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011049,Standard deviation of wind direction,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011050,Standard deviation of horizontal wind speed,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011051,Standard deviation of vertical wind speed,,m/s,1,0,8,m/s,1,3,Operational
-11,Wind and turbulence,011052,Formal uncertainty in wind speed,,m/s,2,0,13,m/s,2,5,Operational
-11,Wind and turbulence,011053,Formal uncertainty in wind direction,,degree true,2,0,15,degree true,2,5,Operational
-11,Wind and turbulence,011054,Mean wind direction for 1 500 - 3 000 m,,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011055,Mean wind speed for 1 500 - 3 000 m,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011061,Absolute wind shear in 1 km layer below,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011062,Absolute wind shear in 1 km layer above,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011070,Designator of the runway affected by wind shear (including ALL),,CCITT IA5,0,0,32,Character,0,4,Operational
-11,Wind and turbulence,011071,Turbulent vertical momentum flux,,m2 s-2,3,-128,14,m2 s-2,3,5,Operational
-11,Wind and turbulence,011072,Turbulent vertical buoyancy flux,,K m s-1,3,-128,11,K m s-1,3,4,Operational
-11,Wind and turbulence,011073,Turbulent kinetic energy,,m2 s-2,2,-1024,13,m2 s-2,2,4,Operational
-11,Wind and turbulence,011074,Dissipation energy,,m2 s-2,2,-1024,10,m2 s-2,2,4,Operational
-11,Wind and turbulence,011075,Mean turbulence intensity (eddy dissipation rate),,m2/3 s-1,2,0,8,m2/3 s-1,2,3,Operational
-11,Wind and turbulence,011076,Peak turbulence intensity (eddy dissipation rate),,m2/3 s-1,2,0,8,m2/3 s-1,2,3,Operational
-11,Wind and turbulence,011077,Reporting interval or averaging time for eddy dissipation rate,,s,0,0,12,s,0,4,Operational
-11,Wind and turbulence,011081,Model wind direction at 10 m,,degree true,2,0,16,degree true,2,5,Operational
-11,Wind and turbulence,011082,Model wind speed at 10 m,,m/s,2,0,14,m/s,2,4,Operational
-11,Wind and turbulence,011083,Wind speed,,km/h,0,0,9,km/h,0,3,Operational
-11,Wind and turbulence,011084,Wind speed,,kt,0,0,8,kt,0,3,Operational
-11,Wind and turbulence,011085,Maximum wind gust speed,,km/h,0,0,9,km/h,0,3,Operational
-11,Wind and turbulence,011086,Maximum wind gust speed,,kt,0,0,8,kt,0,3,Operational
-11,Wind and turbulence,011095,u-component of the model wind vector,,m/s,1,-4096,13,m/s,1,4,Operational
-11,Wind and turbulence,011096,v-component of the model wind vector,,m/s,1,-4096,13,m/s,1,4,Operational
-11,Wind and turbulence,011097,Wind speed from altimeter,,m/s,2,0,12,m/s,2,4,Operational
-11,Wind and turbulence,011098,Wind speed from radiometer,,m/s,2,0,12,m/s,2,4,Operational
-11,Wind and turbulence,011100,Aircraft true airspeed,,m/s,1,0,12,m/s,1,4,Operational
-11,Wind and turbulence,011101,Aircraft ground speed u-component,,m/s,1,-4096,13,m/s,1,4,Operational
-11,Wind and turbulence,011102,Aircraft ground speed v-component,,m/s,1,-4096,13,m/s,1,4,Operational
-11,Wind and turbulence,011103,Aircraft ground speed w-component,,m/s,1,-512,10,m/s,1,3,Operational
-11,Wind and turbulence,011104,"True heading of aircraft, ship or other mobile platform",,degree true,0,0,9,degree true,0,3,Operational
-11,Wind and turbulence,011105,EDR algorithm version,,Numeric,0,0,6,Numeric,0,2,Operational
-11,Wind and turbulence,011106,Running minimum confidence,,Numeric,1,0,4,Numeric,1,2,Operational
-11,Wind and turbulence,011107,Maximum number bad inputs,,Numeric,0,0,5,Numeric,0,2,Operational
-11,Wind and turbulence,011108,Peak location,,Numeric,1,0,4,Numeric,1,2,Operational
-11,Wind and turbulence,011109,Number of good EDR,,Numeric,0,0,4,Numeric,0,2,Operational
-11,Wind and turbulence,011110,Uncertainty in u-component,,m/s,1,-4096,13,m/s,1,4,Operational
-11,Wind and turbulence,011111,Uncertainty in v-component,,m/s,1,-4096,13,m/s,1,4,Operational
-11,Wind and turbulence,011112,Uncertainty in w-component,,m/s,2,-4096,13,m/s,2,4,Operational
-11,Wind and turbulence,011113,Tracking correlation of vector,,Numeric,3,-1000,12,Numeric,3,4,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+11,Wind and turbulence,011001,Wind direction,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011002,Wind speed,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011003,u-component,,,m/s,1,-4096,13,m/s,1,4,Operational
+11,Wind and turbulence,011004,v-component,,,m/s,1,-4096,13,m/s,1,4,Operational
+11,Wind and turbulence,011005,w-component,,,Pa/s,1,-512,10,Pa/s,1,4,Operational
+11,Wind and turbulence,011006,w-component,,,m/s,2,-4096,13,m/s,2,4,Operational
+11,Wind and turbulence,011007,Relative wind direction (in degrees off bow),,,deg,0,0,9,deg,0,3,Operational
+11,Wind and turbulence,011008,Relative wind speed,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011010,Wind direction associated with wind speed which follows,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011011,Wind direction at 10 m,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011012,Wind speed at 10 m,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011013,Wind direction at 5 m,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011014,Wind speed at 5 m,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011016,Extreme counterclockwise wind direction of a variable wind,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011017,Extreme clockwise wind direction of a variable wind,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011019,Steadiness of wind,(see Note 6),,%,0,0,7,%,0,3,Operational
+11,Wind and turbulence,011021,Relative vorticity,,,/s,9,-65536,17,/s,9,6,Operational
+11,Wind and turbulence,011022,Divergence,,,/s,9,-65536,17,/s,9,6,Operational
+11,Wind and turbulence,011023,Velocity potential,,,m2/s,-2,-65536,17,m2/s,-2,6,Operational
+11,Wind and turbulence,011030,Extended degree of turbulence,,,Code table,0,0,6,Code table,0,2,Operational
+11,Wind and turbulence,011031,Degree of turbulence,,,Code table,0,0,4,Code table,0,2,Operational
+11,Wind and turbulence,011032,Height of base of turbulence,,,m,-1,-40,16,m,-1,5,Operational
+11,Wind and turbulence,011033,Height of top of turbulence,,,m,-1,-40,16,m,-1,5,Operational
+11,Wind and turbulence,011034,Vertical gust velocity,,,m/s,1,-1024,11,m/s,1,4,Operational
+11,Wind and turbulence,011035,Vertical gust acceleration,,,m s-2,2,-8192,14,m s-2,2,5,Operational
+11,Wind and turbulence,011036,Maximum derived equivalent vertical gust speed,,,m/s,1,0,10,m/s,1,4,Operational
+11,Wind and turbulence,011037,Turbulence index,,,Code table,0,0,6,Code table,0,2,Operational
+11,Wind and turbulence,011038,Time of occurrence of peak eddy dissipation rate,,,Code table,0,0,5,Code table,0,2,Operational
+11,Wind and turbulence,011039,Extended time of occurrence of peak eddy dissipation rate,,,Code table,0,0,6,Code table,0,2,Operational
+11,Wind and turbulence,011040,Maximum wind speed (mean wind),,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011041,Maximum wind gust speed,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011042,Maximum wind speed (10-minute mean wind),,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011043,Maximum wind gust direction,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011044,Mean wind direction for surface - 1 500 m (5 000 feet),,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011045,Mean wind speed for surface - 1 500 m (5 000 feet),,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011046,Maximum instantaneous wind speed,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011047,Maximum instantaneous wind speed over 10 minutes,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011049,Standard deviation of wind direction,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011050,Standard deviation of horizontal wind speed,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011051,Standard deviation of vertical wind speed,,,m/s,1,0,8,m/s,1,3,Operational
+11,Wind and turbulence,011052,Formal uncertainty in wind speed,,,m/s,2,0,13,m/s,2,5,Operational
+11,Wind and turbulence,011053,Formal uncertainty in wind direction,,,degree true,2,0,15,degree true,2,5,Operational
+11,Wind and turbulence,011054,Mean wind direction for 1 500 - 3 000 m,,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011055,Mean wind speed for 1 500 - 3 000 m,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011061,Absolute wind shear in 1 km layer below,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011062,Absolute wind shear in 1 km layer above,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011070,Designator of the runway affected by wind shear (including ALL),,,CCITT IA5,0,0,32,Character,0,4,Operational
+11,Wind and turbulence,011071,Turbulent vertical momentum flux,,,m2 s-2,3,-128,14,m2 s-2,3,5,Operational
+11,Wind and turbulence,011072,Turbulent vertical buoyancy flux,,,K m s-1,3,-128,11,K m s-1,3,4,Operational
+11,Wind and turbulence,011073,Turbulent kinetic energy,,,m2 s-2,2,-1024,13,m2 s-2,2,4,Operational
+11,Wind and turbulence,011074,Dissipation energy,,,m2 s-2,2,-1024,10,m2 s-2,2,4,Operational
+11,Wind and turbulence,011075,Mean turbulence intensity (eddy dissipation rate),,,m2/3 s-1,2,0,8,m2/3 s-1,2,3,Operational
+11,Wind and turbulence,011076,Peak turbulence intensity (eddy dissipation rate),,,m2/3 s-1,2,0,8,m2/3 s-1,2,3,Operational
+11,Wind and turbulence,011077,Reporting interval or averaging time for eddy dissipation rate,,,s,0,0,12,s,0,4,Operational
+11,Wind and turbulence,011081,Model wind direction at 10 m,,,degree true,2,0,16,degree true,2,5,Operational
+11,Wind and turbulence,011082,Model wind speed at 10 m,,,m/s,2,0,14,m/s,2,4,Operational
+11,Wind and turbulence,011083,Wind speed,,,km/h,0,0,9,km/h,0,3,Operational
+11,Wind and turbulence,011084,Wind speed,,,kt,0,0,8,kt,0,3,Operational
+11,Wind and turbulence,011085,Maximum wind gust speed,,,km/h,0,0,9,km/h,0,3,Operational
+11,Wind and turbulence,011086,Maximum wind gust speed,,,kt,0,0,8,kt,0,3,Operational
+11,Wind and turbulence,011095,u-component of the model wind vector,,,m/s,1,-4096,13,m/s,1,4,Operational
+11,Wind and turbulence,011096,v-component of the model wind vector,,,m/s,1,-4096,13,m/s,1,4,Operational
+11,Wind and turbulence,011097,Wind speed from altimeter,,,m/s,2,0,12,m/s,2,4,Operational
+11,Wind and turbulence,011098,Wind speed from radiometer,,,m/s,2,0,12,m/s,2,4,Operational
+11,Wind and turbulence,011100,Aircraft true airspeed,,,m/s,1,0,12,m/s,1,4,Operational
+11,Wind and turbulence,011101,Aircraft ground speed u-component,,,m/s,1,-4096,13,m/s,1,4,Operational
+11,Wind and turbulence,011102,Aircraft ground speed v-component,,,m/s,1,-4096,13,m/s,1,4,Operational
+11,Wind and turbulence,011103,Aircraft ground speed w-component,,,m/s,1,-512,10,m/s,1,3,Operational
+11,Wind and turbulence,011104,"True heading of aircraft, ship or other mobile platform",,,degree true,0,0,9,degree true,0,3,Operational
+11,Wind and turbulence,011105,EDR algorithm version,,,Numeric,0,0,6,Numeric,0,2,Operational
+11,Wind and turbulence,011106,Running minimum confidence,,,Numeric,1,0,4,Numeric,1,2,Operational
+11,Wind and turbulence,011107,Maximum number bad inputs,,,Numeric,0,0,5,Numeric,0,2,Operational
+11,Wind and turbulence,011108,Peak location,,,Numeric,1,0,4,Numeric,1,2,Operational
+11,Wind and turbulence,011109,Number of good EDR,,,Numeric,0,0,4,Numeric,0,2,Operational
+11,Wind and turbulence,011110,Uncertainty in u-component,,,m/s,1,-4096,13,m/s,1,4,Operational
+11,Wind and turbulence,011111,Uncertainty in v-component,,,m/s,1,-4096,13,m/s,1,4,Operational
+11,Wind and turbulence,011112,Uncertainty in w-component,,,m/s,2,-4096,13,m/s,2,4,Operational
+11,Wind and turbulence,011113,Tracking correlation of vector,,,Numeric,3,-1000,12,Numeric,3,4,Operational

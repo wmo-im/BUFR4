@@ -1,67 +1,67 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
-013038,Superadiabatic indicator,0,Not superadiabatic,,,,Operational
-013038,Superadiabatic indicator,1,Superadiabatic,,,,Operational
-013038,Superadiabatic indicator,2,Reserved,,,,Operational
-013038,Superadiabatic indicator,3,Missing value,,,,Operational
-013039,Terrain type (ice/snow),0,Sea ice,,,,Operational
-013039,Terrain type (ice/snow),1,Snow on land,,,,Operational
-013039,Terrain type (ice/snow),2-6,Reserved,,,,Operational
-013039,Terrain type (ice/snow),7,Missing value,,,,Operational
-013040,Surface flag,0,Land,,,,Operational
-013040,Surface flag,1,Reserved,,,,Operational
-013040,Surface flag,2,Near coast,,,,Operational
-013040,Surface flag,3,Ice,,,,Operational
-013040,Surface flag,4,Possible ice,,,,Operational
-013040,Surface flag,5,Ocean,,,,Operational
-013040,Surface flag,6,Coast,,,,Operational
-013040,Surface flag,7,Inland water,,,*,Operational
-013040,Surface flag,8,Snow cover,,,,Operational
-013040,Surface flag,9,Sea ice,,,,Operational
-013040,Surface flag,10,Standing water,,,,Operational
-013040,Surface flag,11,Snow,,,,Operational
-013040,Surface flag,12-14,Reserved,,,,Operational
-013040,Surface flag,15,Missing value,,,,Operational
-013041,Pasquill-Gifford stability category,1,A,,,,Operational
-013041,Pasquill-Gifford stability category,2,A - B,,,,Operational
-013041,Pasquill-Gifford stability category,3,B,,,,Operational
-013041,Pasquill-Gifford stability category,4,B - C,,,,Operational
-013041,Pasquill-Gifford stability category,5,C,,,,Operational
-013041,Pasquill-Gifford stability category,6,D,,,,Operational
-013041,Pasquill-Gifford stability category,7,E,,,,Operational
-013041,Pasquill-Gifford stability category,8,F,,,,Operational
-013041,Pasquill-Gifford stability category,9,G,,,,Operational
-013041,Pasquill-Gifford stability category,10-14,Reserved,,,,Operational
-013041,Pasquill-Gifford stability category,15,Missing value,,,,Operational
-013051,"Frequency group, precipitation",0,Smaller than any value in the 30-year period,,,,Operational
-013051,"Frequency group, precipitation",1,In the first quintile,,,,Operational
-013051,"Frequency group, precipitation",2,In the second quintile,,,,Operational
-013051,"Frequency group, precipitation",3,In the third quintile,,,,Operational
-013051,"Frequency group, precipitation",4,In the fourth quintile,,,,Operational
-013051,"Frequency group, precipitation",5,In the fifth quintile,,,,Operational
-013051,"Frequency group, precipitation",6,Greater than any value in the 30-year period,,,,Operational
-013051,"Frequency group, precipitation",7-14,Reserved,,,,Operational
-013051,"Frequency group, precipitation",15,Missing value,,,,Operational
-013056,Character and intensity of precipitation,0,No precipitation,,,,Operational
-013056,Character and intensity of precipitation,1,Light intermittent,,,,Operational
-013056,Character and intensity of precipitation,2,Moderate intermittent,,,,Operational
-013056,Character and intensity of precipitation,3,Heavy intermittent,,,,Operational
-013056,Character and intensity of precipitation,4,Very heavy intermittent,,,,Operational
-013056,Character and intensity of precipitation,5,Light continuous,,,,Operational
-013056,Character and intensity of precipitation,6,Moderate continuous,,,,Operational
-013056,Character and intensity of precipitation,7,Heavy continuous,,,,Operational
-013056,Character and intensity of precipitation,8,Very heavy continuous,,,,Operational
-013056,Character and intensity of precipitation,9,Variable - alternatively light and heavy,,,,Operational
-013056,Character and intensity of precipitation,10-14,Reserved,,,,Operational
-013056,Character and intensity of precipitation,15,Missing value,,,,Operational
-013057,Time of beginning or end of precipitation,0,No precipitation,,,,Operational
-013057,Time of beginning or end of precipitation,1,Within the last hour,,,,Operational
-013057,Time of beginning or end of precipitation,2,1 to 2 hours ago,,,,Operational
-013057,Time of beginning or end of precipitation,3,2 to 3 hours ago,,,,Operational
-013057,Time of beginning or end of precipitation,4,3 to 4 hours ago,,,,Operational
-013057,Time of beginning or end of precipitation,5,4 to 5 hours ago,,,,Operational
-013057,Time of beginning or end of precipitation,6,5 to 6 hours ago,,,,Operational
-013057,Time of beginning or end of precipitation,7,6 to 8 hours ago,,,,Operational
-013057,Time of beginning or end of precipitation,8,8 to 10 hours ago,,,,Operational
-013057,Time of beginning or end of precipitation,9,More than 10 hours ago,,,,Operational
-013057,Time of beginning or end of precipitation,10-14,Reserved,,,,Operational
-013057,Time of beginning or end of precipitation,15,Missing value,,,,Operational
+FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+013038,Superadiabatic indicator,0,Not superadiabatic,,,,,Operational
+013038,Superadiabatic indicator,1,Superadiabatic,,,,,Operational
+013038,Superadiabatic indicator,2,Reserved,,,,,Operational
+013038,Superadiabatic indicator,3,Missing value,,,,,Operational
+013039,Terrain type (ice/snow),0,Sea ice,,,,,Operational
+013039,Terrain type (ice/snow),1,Snow on land,,,,,Operational
+013039,Terrain type (ice/snow),2-6,Reserved,,,,,Operational
+013039,Terrain type (ice/snow),7,Missing value,,,,,Operational
+013040,Surface flag,0,Land,,,,,Operational
+013040,Surface flag,1,Reserved,,,,,Operational
+013040,Surface flag,2,Near coast,,,,,Operational
+013040,Surface flag,3,Ice,,,,,Operational
+013040,Surface flag,4,Possible ice,,,,,Operational
+013040,Surface flag,5,Ocean,,,,,Operational
+013040,Surface flag,6,Coast,,,,,Operational
+013040,Surface flag,7,Inland water,,,*,,Operational
+013040,Surface flag,8,Snow cover,,,,,Operational
+013040,Surface flag,9,Sea ice,,,,,Operational
+013040,Surface flag,10,Standing water,,,,,Operational
+013040,Surface flag,11,Snow,,,,,Operational
+013040,Surface flag,12-14,Reserved,,,,,Operational
+013040,Surface flag,15,Missing value,,,,,Operational
+013041,Pasquill-Gifford stability category,1,A,,,,,Operational
+013041,Pasquill-Gifford stability category,2,A - B,,,,,Operational
+013041,Pasquill-Gifford stability category,3,B,,,,,Operational
+013041,Pasquill-Gifford stability category,4,B - C,,,,,Operational
+013041,Pasquill-Gifford stability category,5,C,,,,,Operational
+013041,Pasquill-Gifford stability category,6,D,,,,,Operational
+013041,Pasquill-Gifford stability category,7,E,,,,,Operational
+013041,Pasquill-Gifford stability category,8,F,,,,,Operational
+013041,Pasquill-Gifford stability category,9,G,,,,,Operational
+013041,Pasquill-Gifford stability category,10-14,Reserved,,,,,Operational
+013041,Pasquill-Gifford stability category,15,Missing value,,,,,Operational
+013051,"Frequency group, precipitation",0,Smaller than any value in the 30-year period,,,,,Operational
+013051,"Frequency group, precipitation",1,In the first quintile,,,,,Operational
+013051,"Frequency group, precipitation",2,In the second quintile,,,,,Operational
+013051,"Frequency group, precipitation",3,In the third quintile,,,,,Operational
+013051,"Frequency group, precipitation",4,In the fourth quintile,,,,,Operational
+013051,"Frequency group, precipitation",5,In the fifth quintile,,,,,Operational
+013051,"Frequency group, precipitation",6,Greater than any value in the 30-year period,,,,,Operational
+013051,"Frequency group, precipitation",7-14,Reserved,,,,,Operational
+013051,"Frequency group, precipitation",15,Missing value,,,,,Operational
+013056,Character and intensity of precipitation,0,No precipitation,,,,,Operational
+013056,Character and intensity of precipitation,1,Light intermittent,,,,,Operational
+013056,Character and intensity of precipitation,2,Moderate intermittent,,,,,Operational
+013056,Character and intensity of precipitation,3,Heavy intermittent,,,,,Operational
+013056,Character and intensity of precipitation,4,Very heavy intermittent,,,,,Operational
+013056,Character and intensity of precipitation,5,Light continuous,,,,,Operational
+013056,Character and intensity of precipitation,6,Moderate continuous,,,,,Operational
+013056,Character and intensity of precipitation,7,Heavy continuous,,,,,Operational
+013056,Character and intensity of precipitation,8,Very heavy continuous,,,,,Operational
+013056,Character and intensity of precipitation,9,Variable - alternatively light and heavy,,,,,Operational
+013056,Character and intensity of precipitation,10-14,Reserved,,,,,Operational
+013056,Character and intensity of precipitation,15,Missing value,,,,,Operational
+013057,Time of beginning or end of precipitation,0,No precipitation,,,,,Operational
+013057,Time of beginning or end of precipitation,1,Within the last hour,,,,,Operational
+013057,Time of beginning or end of precipitation,2,1 to 2 hours ago,,,,,Operational
+013057,Time of beginning or end of precipitation,3,2 to 3 hours ago,,,,,Operational
+013057,Time of beginning or end of precipitation,4,3 to 4 hours ago,,,,,Operational
+013057,Time of beginning or end of precipitation,5,4 to 5 hours ago,,,,,Operational
+013057,Time of beginning or end of precipitation,6,5 to 6 hours ago,,,,,Operational
+013057,Time of beginning or end of precipitation,7,6 to 8 hours ago,,,,,Operational
+013057,Time of beginning or end of precipitation,8,8 to 10 hours ago,,,,,Operational
+013057,Time of beginning or end of precipitation,9,More than 10 hours ago,,,,,Operational
+013057,Time of beginning or end of precipitation,10-14,Reserved,,,,,Operational
+013057,Time of beginning or end of precipitation,15,Missing value,,,,,Operational

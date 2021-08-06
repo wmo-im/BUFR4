@@ -1,14 +1,14 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
-031021,Associated field significance,0,Reserved,,,,Operational
-031021,Associated field significance,1,1-bit indicator of quality,"0 = good, 1 = suspect or bad",,,Operational
-031021,Associated field significance,2,2-bit indicator of quality,"0 = good, 1 = slightly suspect, 2 = highly suspect, 3 = bad",,,Operational
-031021,Associated field significance,3-5,Reserved,,,,Operational
-031021,Associated field significance,6,4-bit indicator of quality control class according to GTSPP,"0 = Unqualified, 1 = Correct value (all checks passed), 2 = Probably good but value inconsistent with statistics (differ from climatology), 3 = Probably bad (spike, gradient, ... if other tests passed), 4 = Bad value, impossible value (out of scale, vertical instability, constant profile), 5 = Value modified during quality control, 6-7 = Not used (reserved), 8 = Interpolated value, 9 = Missing value",,,Operational
-031021,Associated field significance,7,Percentage confidence,,,,Operational
-031021,Associated field significance,8,"0 = Not suspected, 1 = Suspected, 2 = Reserved, 3 = Information not required",,,,Operational
-031021,Associated field significance,9,"0 = Data present, good, collocated, 1 = Data available but of degraded quality and not used, 2 = No spatiotemporally collocated data available, 3-14 = Not used (reserved), 15 = Missing value",,,,Operational
-031021,Associated field significance,10-20,Reserved,,,,Operational
-031021,Associated field significance,21,1-bit indicator of correction,"0 = original value, 1 = substituted/corrected value",,(see Note 2),Operational
-031021,Associated field significance,22-62,Reserved for local use,,,,Operational
-031021,Associated field significance,63,Missing value,,,,Operational
-031031,Data present indicator,1,,"0 = Data present, 1 = Data not present",,,Operational
+FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+031021,Associated field significance,0,Reserved,,,,,Operational
+031021,Associated field significance,1,1-bit indicator of quality,"0 = good, 1 = suspect or bad",,,,Operational
+031021,Associated field significance,2,2-bit indicator of quality,"0 = good, 1 = slightly suspect, 2 = highly suspect, 3 = bad",,,,Operational
+031021,Associated field significance,3-5,Reserved,,,,,Operational
+031021,Associated field significance,6,4-bit indicator of quality control class according to GTSPP,"0 = Unqualified, 1 = Correct value (all checks passed), 2 = Probably good but value inconsistent with statistics (differ from climatology), 3 = Probably bad (spike, gradient, ... if other tests passed), 4 = Bad value, impossible value (out of scale, vertical instability, constant profile), 5 = Value modified during quality control, 6-7 = Not used (reserved), 8 = Interpolated value, 9 = Missing value",,,,Operational
+031021,Associated field significance,7,Percentage confidence,,,,,Operational
+031021,Associated field significance,8,"0 = Not suspected, 1 = Suspected, 2 = Reserved, 3 = Information not required",,,,,Operational
+031021,Associated field significance,9,"0 = Data present, good, collocated, 1 = Data available but of degraded quality and not used, 2 = No spatiotemporally collocated data available, 3-14 = Not used (reserved), 15 = Missing value",,,,,Operational
+031021,Associated field significance,10-20,Reserved,,,,,Operational
+031021,Associated field significance,21,1-bit indicator of correction,"0 = original value, 1 = substituted/corrected value",,(see Note 2),,Operational
+031021,Associated field significance,22-62,Reserved for local use,,,,,Operational
+031021,Associated field significance,63,Missing value,,,,,Operational
+031031,Data present indicator,1,,"0 = Data present, 1 = Data not present",,,,Operational

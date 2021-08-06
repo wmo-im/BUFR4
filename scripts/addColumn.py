@@ -6,10 +6,10 @@ from shutil import move
 
 note_id_name = "noteID"
 
-files = glob.glob("*.csv")
+        
+files = glob.glob("*TableD*.csv")
 
 for file in files:
-    #print("processing {}".format(file))
     with open(file,encoding="utf8") as f:
         reader = csv.DictReader(f, delimiter=',', quotechar='"')
         new_file = file+".tmp"
@@ -18,5 +18,12 @@ for file in files:
             new_fieldnames = reader.fieldnames[0:idx+1 ] + ["noteIDs",] + reader.fieldnames[idx+1:]
             writer = csv.DictWriter(f_out, delimiter=",", quotechar='"',fieldnames=new_fieldnames )
             writer.writeheader()
+            for row in reader:
+                try:
+                    base = os.path.basename(file)
+                    writer.writerow(row)
+                except ValueError as ve:
+                    print(ve)
+                    print(row)
                     
     move(new_file,file)

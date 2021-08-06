@@ -1,26 +1,26 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-23,Dispersal and transport,023001,Accident early notification - article applicable,,Code table,0,0,3,Code table,0,1,Operational
-23,Dispersal and transport,023002,Activity or facility involved in incident,,Code table,0,0,5,Code table,0,2,Operational
-23,Dispersal and transport,023003,Type of release,,Code table,0,0,3,Code table,0,1,Operational
-23,Dispersal and transport,023004,Countermeasures taken near border,,Code table,0,0,3,Code table,0,1,Operational
-23,Dispersal and transport,023005,Cause of incident,,Code table,0,0,2,Code table,0,1,Operational
-23,Dispersal and transport,023006,Incident situation,,Code table,0,0,3,Code table,0,1,Operational
-23,Dispersal and transport,023007,Characteristics of release,,Code table,0,0,3,Code table,0,1,Operational
-23,Dispersal and transport,023008,State of current release,,Code table,0,0,2,Code table,0,1,Operational
-23,Dispersal and transport,023009,State of expected release,,Code table,0,0,2,Code table,0,1,Operational
-23,Dispersal and transport,023016,Possibility of significant chemical toxic health effect,,Code table,0,0,2,Code table,0,1,Operational
-23,Dispersal and transport,023017,Flow discharge of major recipient,,m3/s,6,0,20,m3/s,6,7,Operational
-23,Dispersal and transport,023018,Release behaviour over time,,Code table,0,0,3,Code table,0,1,Operational
-23,Dispersal and transport,023019,Actual release height,,m,0,-15000,17,m,0,6,Operational
-23,Dispersal and transport,023021,Effective release height,,m,0,-15000,17,m,0,6,Operational
-23,Dispersal and transport,023022,Distance of release point or site of incident,,m,0,0,24,m,0,8,Operational
-23,Dispersal and transport,023023,Main transport speed in the atmosphere,,m/s,1,0,12,m/s,1,4,Operational
-23,Dispersal and transport,023024,Main transport speed in water,,m/s,2,0,13,m/s,2,4,Operational
-23,Dispersal and transport,023025,Main transport speed in ground water,,m/s,2,0,13,m/s,2,4,Operational
-23,Dispersal and transport,023027,Main transport direction in the atmosphere,,degree true,0,0,9,degree true,0,3,Operational
-23,Dispersal and transport,023028,Main transport direction in water,,degree true,0,0,9,degree true,0,3,Operational
-23,Dispersal and transport,023029,Main transport direction in ground water,,degree true,0,0,9,degree true,0,3,Operational
-23,Dispersal and transport,023031,Possibility that plume will encounter precipitation in State in which incident occurred,,Code table,0,0,2,Code table,0,1,Operational
-23,Dispersal and transport,023032,Plume will encounter change in wind direction and/or speed flag,,Code table,0,0,2,Code table,0,1,Operational
-23,Dispersal and transport,023040,Flow discharge - river,,m3/s,1,0,22,m3/s,1,7,Operational
-23,Dispersal and transport,023041,Flow discharge - well,,m3/s,3,0,16,m3/s,3,5,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+23,Dispersal and transport,023001,Accident early notification - article applicable,,,Code table,0,0,3,Code table,0,1,Operational
+23,Dispersal and transport,023002,Activity or facility involved in incident,,,Code table,0,0,5,Code table,0,2,Operational
+23,Dispersal and transport,023003,Type of release,,,Code table,0,0,3,Code table,0,1,Operational
+23,Dispersal and transport,023004,Countermeasures taken near border,,,Code table,0,0,3,Code table,0,1,Operational
+23,Dispersal and transport,023005,Cause of incident,,,Code table,0,0,2,Code table,0,1,Operational
+23,Dispersal and transport,023006,Incident situation,,,Code table,0,0,3,Code table,0,1,Operational
+23,Dispersal and transport,023007,Characteristics of release,,,Code table,0,0,3,Code table,0,1,Operational
+23,Dispersal and transport,023008,State of current release,,,Code table,0,0,2,Code table,0,1,Operational
+23,Dispersal and transport,023009,State of expected release,,,Code table,0,0,2,Code table,0,1,Operational
+23,Dispersal and transport,023016,Possibility of significant chemical toxic health effect,,,Code table,0,0,2,Code table,0,1,Operational
+23,Dispersal and transport,023017,Flow discharge of major recipient,,,m3/s,6,0,20,m3/s,6,7,Operational
+23,Dispersal and transport,023018,Release behaviour over time,,,Code table,0,0,3,Code table,0,1,Operational
+23,Dispersal and transport,023019,Actual release height,,,m,0,-15000,17,m,0,6,Operational
+23,Dispersal and transport,023021,Effective release height,,,m,0,-15000,17,m,0,6,Operational
+23,Dispersal and transport,023022,Distance of release point or site of incident,,,m,0,0,24,m,0,8,Operational
+23,Dispersal and transport,023023,Main transport speed in the atmosphere,,,m/s,1,0,12,m/s,1,4,Operational
+23,Dispersal and transport,023024,Main transport speed in water,,,m/s,2,0,13,m/s,2,4,Operational
+23,Dispersal and transport,023025,Main transport speed in ground water,,,m/s,2,0,13,m/s,2,4,Operational
+23,Dispersal and transport,023027,Main transport direction in the atmosphere,,,degree true,0,0,9,degree true,0,3,Operational
+23,Dispersal and transport,023028,Main transport direction in water,,,degree true,0,0,9,degree true,0,3,Operational
+23,Dispersal and transport,023029,Main transport direction in ground water,,,degree true,0,0,9,degree true,0,3,Operational
+23,Dispersal and transport,023031,Possibility that plume will encounter precipitation in State in which incident occurred,,,Code table,0,0,2,Code table,0,1,Operational
+23,Dispersal and transport,023032,Plume will encounter change in wind direction and/or speed flag,,,Code table,0,0,2,Code table,0,1,Operational
+23,Dispersal and transport,023040,Flow discharge - river,,,m3/s,1,0,22,m3/s,1,7,Operational
+23,Dispersal and transport,023041,Flow discharge - well,,,m3/s,3,0,16,m3/s,3,5,Operational

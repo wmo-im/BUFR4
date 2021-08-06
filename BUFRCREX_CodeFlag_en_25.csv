@@ -1,328 +1,328 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
-025004,Echo processing,0,Incoherent,,,,Operational
-025004,Echo processing,1,Coherent (Doppler),,,,Operational
-025004,Echo processing,2,Reserved,,,,Operational
-025004,Echo processing,3,Missing value,,,,Operational
-025005,Echo integration,0,Logarithm - 2.5 dB,,,,Operational
-025005,Echo integration,1,Linear,,,,Operational
-025005,Echo integration,2,Special,,,,Operational
-025005,Echo integration,3,Missing value,,,,Operational
-025006,Z to R conversion,0,ZH to R conversion,,,,Operational
-025006,Z to R conversion,1,"(ZH, ZDR) to (NO, DO) to R",,,,Operational
-025006,Z to R conversion,2,"(Z (F1), Z (F2)) to attenuation to R",,,,Operational
-025006,Z to R conversion,3-5,Reserved,,,,Operational
-025006,Z to R conversion,6,Other,,,,Operational
-025006,Z to R conversion,7,Missing value,,,,Operational
-025009,Calibration method,1,None,,,,Deprecated
-025009,Calibration method,2,Calibration target or signal,,,,Deprecated
-025009,Calibration method,3,Against raingauges,,,,Deprecated
-025009,Calibration method,4,Against other Instruments (disdrometer - attenuation),,,,Deprecated
-025009,Calibration method,All 4,Missing value,,,,Deprecated
-025010,Clutter treatment,0,None,,,,Operational
-025010,Clutter treatment,1,Map,,,,Operational
-025010,Clutter treatment,2,Insertion of higher elevation data and map,,,,Operational
-025010,Clutter treatment,3,Analysis of the fluctuating logarithm signal (clutter detection),,,,Operational
-025010,Clutter treatment,4,Extraction of the fluctuating part of linear signal (clutter suppression),,,,Operational
-025010,Clutter treatment,5,Clutter suppression - Doppler,,,,Operational
-025010,Clutter treatment,6,Multiparameter analysis,,,,Operational
-025010,Clutter treatment,7-14,Reserved,,,,Operational
-025010,Clutter treatment,15,Missing value,,,,Operational
-025011,Ground occultation correction (screening),0,None,,,,Operational
-025011,Ground occultation correction (screening),1,Map of correction factors,,,,Operational
-025011,Ground occultation correction (screening),2,Interpolation (azimuth or elevation),,,,Operational
-025011,Ground occultation correction (screening),3,Missing value,,,,Operational
-025012,Range attenuation correction,0,Hardware,,,,Operational
-025012,Range attenuation correction,1,Software,,,,Operational
-025012,Range attenuation correction,2,Hardware and software,,,,Operational
-025012,Range attenuation correction,3,Missing value,,,,Operational
-025013,Bright-band correction,1,Bright-band correction,,,,Operational
-025013,Bright-band correction,All 2,Missing value,,,,Operational
-025015,Radome attenuation correction,1,Radome attenuation correction,,,,Operational
-025015,Radome attenuation correction,All 2,Missing value,,,,Operational
-025017,Precipitation attenuation correction,1,Precipitation attenuation correction,,,,Operational
-025017,Precipitation attenuation correction,All 2,Missing value,,,,Operational
-025020,Mean speed estimation,0,FFT (fast Fourier transform),,,,Operational
-025020,Mean speed estimation,1,PPP (pulse-pair processing),,,,Operational
-025020,Mean speed estimation,2,VPC (vector-phase change),,,,Operational
-025020,Mean speed estimation,3,Missing value,,,,Operational
-025021,Wind computation enhancement,1,Simple average,,,,Operational
-025021,Wind computation enhancement,2,Consensus average,,,,Operational
-025021,Wind computation enhancement,3,Median check,,,,Operational
-025021,Wind computation enhancement,4,Vertical consistency check,,,,Operational
-025021,Wind computation enhancement,5,Other,,,,Operational
-025021,Wind computation enhancement,6-7,Reserved,,,,Operational
-025021,Wind computation enhancement,All 8,Missing value,,,,Operational
-025022,GHRSST* rejection flag,1,Unprocessed,,,,Operational
-025022,GHRSST* rejection flag,2,Land suspected,,,,Operational
-025022,GHRSST* rejection flag,3,Wind speed too large,,,,Operational
-025022,GHRSST* rejection flag,4,Ice detected,,,,Operational
-025022,GHRSST* rejection flag,5,Rain detected (Microwave retrievals only),,,,Operational
-025022,GHRSST* rejection flag,6,Cloudy detected (Infra-red retrievals only),,,,Operational
-025022,GHRSST* rejection flag,7,Cosmetic value,,,,Operational
-025022,GHRSST* rejection flag,8,SST out of range,,,,Operational
-025022,GHRSST* rejection flag,All 9,Missing value,,,,Operational
-025023,GHRSST confidence flag,1,Default confidence value has been used,,,,Operational
-025023,GHRSST confidence flag,2,Default bias and standard deviation have been used,,,,Operational
-025023,GHRSST confidence flag,3,Sun glint suspected,,,,Operational
-025023,GHRSST confidence flag,4,Sea ice retrieval for microwave data,,,,Operational
-025023,GHRSST confidence flag,5,High wind speed retrieval,,,,Operational
-025023,GHRSST confidence flag,6,Inaccurate SST due to low SST (< 285K) (only applies to the TMI instrument),,,,Operational
-025023,GHRSST confidence flag,7,Relaxed rain contamination suspected,,,,Operational
-025023,GHRSST confidence flag,8,Potential side lobe contamination,,,,Operational
-025023,GHRSST confidence flag,All 9,Missing value,,,,Operational
-025024,GHRSST data quality,0,Unprocessed infrared retrieval,,,,Operational
-025024,GHRSST data quality,1,Cloudy retrievals,,,,Operational
-025024,GHRSST data quality,2,Bad: Data that are probably contaminated by cloud,,,,Operational
-025024,GHRSST data quality,3,Suspect data,,,,Operational
-025024,GHRSST data quality,4,Acceptable data,,,,Operational
-025024,GHRSST data quality,5,Excellent data,,,,Operational
-025024,GHRSST data quality,6,Cool skin suspected,,,,Operational
-025024,GHRSST data quality,7-9,Reserved,,,,Operational
-025024,GHRSST data quality,10,Unprocessed microwave retrieval,,,,Operational
-025024,GHRSST data quality,11,Questionable microwave retrieval that may be contaminated,,,,Operational
-025024,GHRSST data quality,12,Acceptable microwave retrieval,,,,Operational
-025024,GHRSST data quality,13,High probability of diurnal variability,,,,Operational
-025024,GHRSST data quality,14,Reserved,,,,Operational
-025024,GHRSST data quality,15,Missing value,,,,Operational
-025029,Calibration method,1,Reserved,,,,Operational
-025029,Calibration method,2,Calibration target or signal,,,,Operational
-025029,Calibration method,3,Against raingauges,,,,Operational
-025029,Calibration method,4,Against other instruments (disdrometer - attenuation),,,,Operational
-025029,Calibration method,5,Reserved,,,,Operational
-025029,Calibration method,All 6,Missing value,,,,Operational
-025030,Running mean sea-surface temperature usage,0,Running mean sea-surface temperature not used because usage criteria not met,,,,Operational
-025030,Running mean sea-surface temperature usage,1,Running mean sea-surface temperature not used because data not available,,,,Operational
-025030,Running mean sea-surface temperature usage,2,Running mean sea-surface temperature used as predictor,,,,Operational
-025030,Running mean sea-surface temperature usage,3,Missing value,,,,Operational
-025031,NWP-generated vertical profile thinning method,0,Reserved,,,,Operational
-025031,NWP-generated vertical profile thinning method,1,No thinning applied (all native model levels are included from base to top of pseudo-sounding),,,,Operational
-025031,NWP-generated vertical profile thinning method,2,Native model levels are present only if they are significant levels as per regulations B/C 25 for conventional TEMP soundings,,,,Operational
-025031,NWP-generated vertical profile thinning method,3,A predefined subset of native model levels is present,,,,Operational
-025031,NWP-generated vertical profile thinning method,4,No native model levels are present.  All profile levels are interpolated to a predefined set of pressure coordinate levels,,,,Operational
-025031,NWP-generated vertical profile thinning method,5-6,Reserved,,,,Operational
-025031,NWP-generated vertical profile thinning method,7,Missing value,,,,Operational
-025032,Wind profiler mode information,0,Reserved,,,,Operational
-025032,Wind profiler mode information,1,Data from low mode,,,,Operational
-025032,Wind profiler mode information,2,Data from high mode,,,,Operational
-025032,Wind profiler mode information,3,Missing value,,,,Operational
-025033,Wind profiler submode information,0,Wind profiler operating in submode A,,,,Operational
-025033,Wind profiler submode information,1,Wind profiler operating in submode B,,,,Operational
-025033,Wind profiler submode information,2,Reserved,,,,Operational
-025033,Wind profiler submode information,3,Missing value,,,,Operational
-025034,Wind profiler quality control test results,1,Test A performed and failed,,,,Operational
-025034,Wind profiler quality control test results,2,Test B performed and failed,,,,Operational
-025034,Wind profiler quality control test results,3,Test results inconclusive,,,,Operational
-025034,Wind profiler quality control test results,All 4,Missing value,,,,Operational
-025035,Decision method for polarity,0,Not defined,,,,Operational
-025035,Decision method for polarity,1,Individual voltage deflection,,,,Operational
-025035,Decision method for polarity,2,"Current based, above a threshold",,,,Operational
-025035,Decision method for polarity,3,"Voltage based, above a threshold",,,,Operational
-025035,Decision method for polarity,4,"Consensus of sensors, current above a threshold",,,,Operational
-025035,Decision method for polarity,5,"Consensus of sensors, voltage above a threshold",,,,Operational
-025035,Decision method for polarity,6,Reserved,,,,Operational
-025035,Decision method for polarity,7,Missing value,,,,Operational
-025036,Atmospherics location method,0,Network of several direction-finders operating on the same individual atmospherics,,,,Operational
-025036,Atmospherics location method,1,Network of several arrival-time stations operating on the same individual atmospherics,,,,Operational
-025036,Atmospherics location method,2-5,Reserved,,,,Operational
-025036,Atmospherics location method,6,Single station range bearing technique,,,,Operational
-025036,Atmospherics location method,7-14,Reserved,,,,Operational
-025036,Atmospherics location method,15,Missing value,,,,Operational
-025040,CO2 wind product derivation,0,Non-specific mode,,,,Operational
-025040,CO2 wind product derivation,1,First guess data,,,,Operational
-025040,CO2 wind product derivation,2,Cloud data,,,,Operational
-025040,CO2 wind product derivation,3,Average vector data,,,,Operational
-025040,CO2 wind product derivation,4,Primary data,,,,Operational
-025040,CO2 wind product derivation,5,Guess data,,,,Operational
-025040,CO2 wind product derivation,6,Vector data,,,,Operational
-025040,CO2 wind product derivation,7,Tracer data; this image,,,,Operational
-025040,CO2 wind product derivation,8,Tracer data to next image,,,,Operational
-025040,CO2 wind product derivation,9-14,Reserved,,,,Operational
-025040,CO2 wind product derivation,15,Missing value,,,,Operational
-025041,Moving platform direction reporting method,0,Direction originally reported in true degrees,,,,Operational
-025041,Moving platform direction reporting method,1,"Direction originally reported using Code table 0700, FM 13",,,,Operational
-025041,Moving platform direction reporting method,2,Reserved,,,,Operational
-025041,Moving platform direction reporting method,3,Missing value,,,,Operational
-025042,Moving platform speed reporting method,0,Speed originally reported in metres per second,,,,Operational
-025042,Moving platform speed reporting method,1,"Speed originally reported using Code table 4451, FM 13",,,,Operational
-025042,Moving platform speed reporting method,2,Reserved,,,,Operational
-025042,Moving platform speed reporting method,3,Missing value,,,,Operational
-025045,HIRS channel combination,1-20,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,Operational
-025045,HIRS channel combination,All 21,Missing value,,,,Operational
-025046,MSU channel combination,1-4,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,Operational
-025046,MSU channel combination,All 5,Missing value,,,,Operational
-025047,SSU channel combination,1-3,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present; if bit position is set to 0, then channel is not present",,,,Operational
-025047,SSU channel combination,All 4,Missing value,,,,Operational
-025048,AMSU-A channel combination,1-15,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,Operational
-025048,AMSU-A channel combination,All 16,Missing value,,,,Operational
-025049,AMSU-B channel combination,1-5,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,Operational
-025049,AMSU-B channel combination,All 6,Missing value,,,,Operational
-025051,AVHRR channel combination,1-6,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,Operational
-025051,AVHRR channel combination,All 7,Missing value,,,,Operational
-025053,Observation quality,1,Good,,,,Operational
-025053,Observation quality,2,Redundant,,,,Operational
-025053,Observation quality,3,Questionable,,,,Operational
-025053,Observation quality,4,Bad,,,,Operational
-025053,Observation quality,5,Experimental,,,,Operational
-025053,Observation quality,6,Precipitating,,,,Operational
-025053,Observation quality,7-11,Reserved,,,,Operational
-025053,Observation quality,All 12,Missing value,,,,Operational
-025063,Central processor or system identifier,0,Not defined,,,,Operational
-025063,Central processor or system identifier,1,Main processor,,,,Operational
-025063,Central processor or system identifier,2,Backup processor,,,,Operational
-025063,Central processor or system identifier,3-254,Reserved,,,,Operational
-025063,Central processor or system identifier,255,Missing value,,,,Operational
-025069,Flight level pressure corrections,1,Smoothed,,,,Operational
-025069,Flight level pressure corrections,2,Baseline adjusted,,,,Operational
-025069,Flight level pressure corrections,3,Normalized time interval,,,,Operational
-025069,Flight level pressure corrections,4,Outlier checked,,,,Operational
-025069,Flight level pressure corrections,5,Plausibility checked,,,,Operational
-025069,Flight level pressure corrections,6,Consistency checked,,,,Operational
-025069,Flight level pressure corrections,7,Interpolated,,,,Operational
-025069,Flight level pressure corrections,All 8,Missing value,,,,Operational
-025086,Depth correction indicator,0,Depths are not corrected,,,,Operational
-025086,Depth correction indicator,1,Depths are corrected,,,,Operational
-025086,Depth correction indicator,2,Reserved,,,,Operational
-025086,Depth correction indicator,3,Missing value,,,,Operational
-025090,Orbit state flag,0,Orbit computed during a manoeuvre,,,,Operational
-025090,Orbit state flag,1,Adjusted mission operations orbit,,,,Operational
-025090,Orbit state flag,2,Extrapolated mission operations orbit,,,,Operational
-025090,Orbit state flag,3,Adjusted (preliminary/precise) orbit,,,,Operational
-025090,Orbit state flag,4,(Preliminary/precise) orbit is estimated during a manoeuvre period,,,,Operational
-025090,Orbit state flag,5,(Preliminary/precise) orbit is interpolated over a tracking data gap,,,,Operational
-025090,Orbit state flag,6,(Preliminary/precise) orbit is extrapolated for a duration less than 1 day,,,,Operational
-025090,Orbit state flag,7,(Preliminary/precise) orbit is extrapolated for a duration that ranges from 1 day to 2 days,,,,Operational
-025090,Orbit state flag,8,"(Preliminary/precise) orbit is extrapolated for a duration larger than 2 days, or that the orbit is extrapolated just after a manoeuvre",,,,Operational
-025090,Orbit state flag,9,DORIS* DIODE** navigator orbit,,,,Operational
-025090,Orbit state flag,10-14,Reserved,,,,Operational
-025090,Orbit state flag,15,Missing value,,,,Operational
-025093,RASS computation correction,1,No correction,,,,Operational
-025093,RASS computation correction,2,Vertical velocity correction,,,,Operational
-025093,RASS computation correction,3-6,Reserved,,,,Operational
-025093,RASS computation correction,7,All corrections,,,,Operational
-025093,RASS computation correction,All 8,Missing value,,,,Operational
-025095,Altimeter state flag,1,"Altimeter operating (0 if nominal, 1 if backup)",,,,Operational
-025095,Altimeter state flag,All 2,Missing value,,,,Operational
-025096,Radiometer state flag,1,"Mode indicator (0 if mode 2, 1 if mode 1)",,,,Operational
-025096,Radiometer state flag,2,"Mode 1 calibration sequence indicator (0 if normal data taking either mode 1 or 2, 1 if mode 1 calibration sequence)  Bits 3 and 4 indicate active 23.8 GHz channel(s):",,,,Operational
-025096,Radiometer state flag,3,"Channel 2 (0 if on, 1 if off)",,,,Operational
-025096,Radiometer state flag,4,"Channel 3 (0 if on, 1 if off)",,,,Operational
-025096,Radiometer state flag,All 5,Missing value,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,0,Ranges between 0 and 30 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,1,Ranges between 30 and 60 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,2,Ranges between 60 and 90 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,3,Ranges between 90 and 120 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,4,Ranges between 120 and 150 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,5,Ranges between 150 and 180 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,6,Ranges between 180 and 210 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,7,Ranges between 210 and 240 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,8,Ranges between 240 and 270 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,9,Ranges larger than 270 cm,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,10-14,Reserved,,,,Operational
-025097,Three-dimensional error estimate of the navigator orbit,15,Missing value,,,,Operational
-025098,Altimeter data quality flag,1,Ku band range,,,,Operational
-025098,Altimeter data quality flag,2,C band range,,,,Operational
-025098,Altimeter data quality flag,3,Ku band SWH*,,,,Operational
-025098,Altimeter data quality flag,4,C band SWH*,,,,Operational
-025098,Altimeter data quality flag,5,Ku band backscatter coefficient,,,,Operational
-025098,Altimeter data quality flag,6,C band backscatter coefficient,,,,Operational
-025098,Altimeter data quality flag,7,Off nadir angle from Ku band waveform parameters,,,,Operational
-025098,Altimeter data quality flag,8,Off nadir angle from platform,,,,Operational
-025098,Altimeter data quality flag,All 9,Missing value,,,,Operational
-025099,Altimeter correction quality flag,1,Ku band range instrumental correction,,,,Operational
-025099,Altimeter correction quality flag,2,C band range instrumental correction,,,,Operational
-025099,Altimeter correction quality flag,3,Ku band SWH* instrumental correction,,,,Operational
-025099,Altimeter correction quality flag,4,C band SWH* instrumental correction,,,,Operational
-025099,Altimeter correction quality flag,5,Ku band backscatter coefficient instrumental correction,,,,Operational
-025099,Altimeter correction quality flag,6,C band backscatter coefficient instrumental correction,,,,Operational
-025099,Altimeter correction quality flag,7-8,Reserved,,,,Operational
-025099,Altimeter correction quality flag,All 9,Missing value,,,,Operational
-025110,Image processing summary,1,Raw data analysis used for raw data correction. Correction done using default parameters,,,,Operational
-025110,Image processing summary,2,Raw data analysis used for raw data correction. Correction done using raw data analysis results,,,,Operational
-025110,Image processing summary,3,Antenna elevation pattern correction applied,,,,Operational
-025110,Image processing summary,4,Nominal chirp replica used,,,,Operational
-025110,Image processing summary,5,Reconstructed chirp used,,,,Operational
-025110,Image processing summary,6,Slant range to ground range conversion applied,,,,Operational
-025110,Image processing summary,7-9,Reserved,,,,Operational
-025110,Image processing summary,All 10,Missing value,,,,Operational
-025112,Band specific altimeter data quality flag,1,Band specific range,,,,Operational
-025112,Band specific altimeter data quality flag,2,Band specific significant wave height,,,,Operational
-025112,Band specific altimeter data quality flag,3,Band specific backscatter coefficient,,,,Operational
-025112,Band specific altimeter data quality flag,4,Off nadir angle from band specific waveform parameters,,,,Operational
-025112,Band specific altimeter data quality flag,5,Off nadir angle from platform,,,,Operational
-025112,Band specific altimeter data quality flag,6-8,Reserved,,,,Operational
-025112,Band specific altimeter data quality flag,All 9,Missing value,,,,Operational
-025113,Band specific altimeter correction quality flag,1,Band specific range instrumental correction,,,,Operational
-025113,Band specific altimeter correction quality flag,2,Band specific significant wave height instrumental correction,,,,Operational
-025113,Band specific altimeter correction quality flag,3,Band specific backscatter coefficient instrumental correction,,,,Operational
-025113,Band specific altimeter correction quality flag,4-8,Reserved,,,,Operational
-025113,Band specific altimeter correction quality flag,All 9,Missing value,,,,Operational
-025120,RA2-L2-processing flag,0,Percentage of DSRs* free of processing errors during Level 2 processing is greater than the acceptable threshold,,,,Operational
-025120,RA2-L2-processing flag,1,Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold,,,,Operational
-025120,RA2-L2-processing flag,2,Reserved,,,,Operational
-025120,RA2-L2-processing flag,3,Missing value,,,,Operational
-025122,Hardware configuration for RF,0,Hardware configuration for RF is A,,,,Operational
-025122,Hardware configuration for RF,1,Hardware configuration for RF is B,,,,Operational
-025122,Hardware configuration for RF,2,Reserved,,,,Operational
-025122,Hardware configuration for RF,3,Missing value,,,,Operational
-025123,Hardware configuration for HPA,0,Hardware configuration for HPA is A,,,,Operational
-025123,Hardware configuration for HPA,1,Hardware configuration for HPA is B,,,,Operational
-025123,Hardware configuration for HPA,2,Reserved,,,,Operational
-025123,Hardware configuration for HPA,3,Missing value,,,,Operational
-025124,MWR-L2-processing flag,0,Percentage of DSRs** free of processing errors during Level 2 processing is greater than the acceptable threshold,,,,Operational
-025124,MWR-L2-processing flag,1,Percentage of DSRs** free of processing errors during Level 2 processing is less than the acceptable threshold,,,,Operational
-025124,MWR-L2-processing flag,2,Reserved,,,,Operational
-025124,MWR-L2-processing flag,3,Missing value,,,,Operational
-025150,Method of tropical cyclone intensity analysis using satellite data,1,The Dvorak's VIS (VISual imagery) intensity analysis,,,,Operational
-025150,Method of tropical cyclone intensity analysis using satellite data,2,The Dvorak's EIR (Enhanced InfraRed imagery) intensity analysis,,,,Operational
-025150,Method of tropical cyclone intensity analysis using satellite data,3-14,Reserved,,,,Operational
-025150,Method of tropical cyclone intensity analysis using satellite data,15,Missing value,,,,Operational
-025174,SMOS information flag,1,Pixel is affected by RFI effects,,,,Operational
-025174,SMOS information flag,2,Pixel is located in the hexagonal alias direction centred on Sun alias,,,,Operational
-025174,SMOS information flag,3,Pixel is close to the border delimiting the extended alias free zone,,,,Operational
-025174,SMOS information flag,4,Pixel is inside the extended alias free zone,,,,Operational
-025174,SMOS information flag,5,Pixel is inside the exclusive of alias free zone,,,,Operational
-025174,SMOS information flag,6,Pixel is located in a zone where a moon alias was reconstructed,,,,Operational
-025174,SMOS information flag,7,Pixel is located in a zone where Sun reflection has been detected,,,,Operational
-025174,SMOS information flag,8,Pixel is located in a zone where Sun alias was reconstructed,,,,Operational
-025174,SMOS information flag,9,Flat target transformation has been performed during image reconstruction of this pixel,,,,Operational
-025174,SMOS information flag,10,Scene has been combined with an adjustment scene in opposite polarization during image reconstruction to account for cross-polarization leakage,,,,Operational
-025174,SMOS information flag,11,Direct Moon correction has been performed during image reconstruction of this pixel,,,,Operational
-025174,SMOS information flag,12,Reflected Sun correction has been performed during image reconstruction of this pixel,,,,Operational
-025174,SMOS information flag,13,Direct Sun correction has been performed during image reconstruction of this image,,,,Operational
-025174,SMOS information flag,All 14,Missing value,,,,Operational
-025181,L2 processing flag,0,OK,,,,Operational
-025181,L2 processing flag,1,Percentage of L2b records free of processing errors is less than acceptable threshold,,,,Operational
-025181,L2 processing flag,2,Missing value,,,,Operational
-025182,L1 processing flag,0,OK,,,,Operational
-025182,L1 processing flag,1,Percentage of L1b records free of processing errors is less than acceptable threshold,,,,Operational
-025182,L1 processing flag,2,Missing value,,,,Operational
-025184,L2 product status,0,OK,,,,Operational
-025184,L2 product status,1,Product as a duration shorter than the input product,,,,Operational
-025184,L2 product status,2,Missing value,,,,Operational
-025185,Encryption method,0,AES 256,,,,Operational
-025185,Encryption method,1-254,Reserved,,,,Operational
-025185,Encryption method,255,Missing value,,,,Operational
-025187,Confidence flag,0,Valid,,,,Operational
-025187,Confidence flag,1,Invalid,,,,Operational
-025187,Confidence flag,2-14,Reserved,,,,Operational
-025187,Confidence flag,15,Missing value,,,,Operational
-025188,Method for reducing pressure to sea level,0,Pressure adjusted to mean sea level following WMO-No. 8 for low level (< 50 m) stations,,,*,Operational
-025188,Method for reducing pressure to sea level,1,Pressure adjusted to mean sea level following WMO-No. 8 for stations below 750 m,,,,Operational
-025188,Method for reducing pressure to sea level,2,Pressure adjusted to sea level following national practice,,,,Operational
-025188,Method for reducing pressure to sea level,3,Pressure adjusted to local water level following national practice,,,,Operational
-025188,Method for reducing pressure to sea level,4,Pressure not corrected for height,,,,Operational
-025188,Method for reducing pressure to sea level,5-14,Reserved,,,,Operational
-025188,Method for reducing pressure to sea level,15,Missing value,,,,Operational
-025190,Altimeter echo processing mode,0,Low resolution mode (LRM),,,,Operational
-025190,Altimeter echo processing mode,1,Synthetic aperture radar (SAR),,,,Operational
-025190,Altimeter echo processing mode,2,LRM and SAR (interleaved),,,,Operational
-025190,Altimeter echo processing mode,3,Reserved,,,,Operational
-025190,Altimeter echo processing mode,4,Pseudo-LRM (PLRM),,,,Operational
-025190,Altimeter echo processing mode,5,SAR interferometric mode (SARIN),,,,Operational
-025190,Altimeter echo processing mode,6-254,Reserved ,,,,Operational
-025190,Altimeter echo processing mode,255,Missing value,,,,Operational
-025191,Altimeter tracking mode,0,Open  loop ,,,,Operational
-025191,Altimeter tracking mode,1,Closed loop,,,,Operational
-025191,Altimeter tracking mode,2,Open loop fixed gain,,,,Operational
-025191,Altimeter tracking mode,3-254,Reserved,,,,Operational
-025191,Altimeter tracking mode,255,Missing value,,,,Operational
+FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+025004,Echo processing,0,Incoherent,,,,,Operational
+025004,Echo processing,1,Coherent (Doppler),,,,,Operational
+025004,Echo processing,2,Reserved,,,,,Operational
+025004,Echo processing,3,Missing value,,,,,Operational
+025005,Echo integration,0,Logarithm - 2.5 dB,,,,,Operational
+025005,Echo integration,1,Linear,,,,,Operational
+025005,Echo integration,2,Special,,,,,Operational
+025005,Echo integration,3,Missing value,,,,,Operational
+025006,Z to R conversion,0,ZH to R conversion,,,,,Operational
+025006,Z to R conversion,1,"(ZH, ZDR) to (NO, DO) to R",,,,,Operational
+025006,Z to R conversion,2,"(Z (F1), Z (F2)) to attenuation to R",,,,,Operational
+025006,Z to R conversion,3-5,Reserved,,,,,Operational
+025006,Z to R conversion,6,Other,,,,,Operational
+025006,Z to R conversion,7,Missing value,,,,,Operational
+025009,Calibration method,1,None,,,,,Deprecated
+025009,Calibration method,2,Calibration target or signal,,,,,Deprecated
+025009,Calibration method,3,Against raingauges,,,,,Deprecated
+025009,Calibration method,4,Against other Instruments (disdrometer - attenuation),,,,,Deprecated
+025009,Calibration method,All 4,Missing value,,,,,Deprecated
+025010,Clutter treatment,0,None,,,,,Operational
+025010,Clutter treatment,1,Map,,,,,Operational
+025010,Clutter treatment,2,Insertion of higher elevation data and map,,,,,Operational
+025010,Clutter treatment,3,Analysis of the fluctuating logarithm signal (clutter detection),,,,,Operational
+025010,Clutter treatment,4,Extraction of the fluctuating part of linear signal (clutter suppression),,,,,Operational
+025010,Clutter treatment,5,Clutter suppression - Doppler,,,,,Operational
+025010,Clutter treatment,6,Multiparameter analysis,,,,,Operational
+025010,Clutter treatment,7-14,Reserved,,,,,Operational
+025010,Clutter treatment,15,Missing value,,,,,Operational
+025011,Ground occultation correction (screening),0,None,,,,,Operational
+025011,Ground occultation correction (screening),1,Map of correction factors,,,,,Operational
+025011,Ground occultation correction (screening),2,Interpolation (azimuth or elevation),,,,,Operational
+025011,Ground occultation correction (screening),3,Missing value,,,,,Operational
+025012,Range attenuation correction,0,Hardware,,,,,Operational
+025012,Range attenuation correction,1,Software,,,,,Operational
+025012,Range attenuation correction,2,Hardware and software,,,,,Operational
+025012,Range attenuation correction,3,Missing value,,,,,Operational
+025013,Bright-band correction,1,Bright-band correction,,,,,Operational
+025013,Bright-band correction,All 2,Missing value,,,,,Operational
+025015,Radome attenuation correction,1,Radome attenuation correction,,,,,Operational
+025015,Radome attenuation correction,All 2,Missing value,,,,,Operational
+025017,Precipitation attenuation correction,1,Precipitation attenuation correction,,,,,Operational
+025017,Precipitation attenuation correction,All 2,Missing value,,,,,Operational
+025020,Mean speed estimation,0,FFT (fast Fourier transform),,,,,Operational
+025020,Mean speed estimation,1,PPP (pulse-pair processing),,,,,Operational
+025020,Mean speed estimation,2,VPC (vector-phase change),,,,,Operational
+025020,Mean speed estimation,3,Missing value,,,,,Operational
+025021,Wind computation enhancement,1,Simple average,,,,,Operational
+025021,Wind computation enhancement,2,Consensus average,,,,,Operational
+025021,Wind computation enhancement,3,Median check,,,,,Operational
+025021,Wind computation enhancement,4,Vertical consistency check,,,,,Operational
+025021,Wind computation enhancement,5,Other,,,,,Operational
+025021,Wind computation enhancement,6-7,Reserved,,,,,Operational
+025021,Wind computation enhancement,All 8,Missing value,,,,,Operational
+025022,GHRSST* rejection flag,1,Unprocessed,,,,,Operational
+025022,GHRSST* rejection flag,2,Land suspected,,,,,Operational
+025022,GHRSST* rejection flag,3,Wind speed too large,,,,,Operational
+025022,GHRSST* rejection flag,4,Ice detected,,,,,Operational
+025022,GHRSST* rejection flag,5,Rain detected (Microwave retrievals only),,,,,Operational
+025022,GHRSST* rejection flag,6,Cloudy detected (Infra-red retrievals only),,,,,Operational
+025022,GHRSST* rejection flag,7,Cosmetic value,,,,,Operational
+025022,GHRSST* rejection flag,8,SST out of range,,,,,Operational
+025022,GHRSST* rejection flag,All 9,Missing value,,,,,Operational
+025023,GHRSST confidence flag,1,Default confidence value has been used,,,,,Operational
+025023,GHRSST confidence flag,2,Default bias and standard deviation have been used,,,,,Operational
+025023,GHRSST confidence flag,3,Sun glint suspected,,,,,Operational
+025023,GHRSST confidence flag,4,Sea ice retrieval for microwave data,,,,,Operational
+025023,GHRSST confidence flag,5,High wind speed retrieval,,,,,Operational
+025023,GHRSST confidence flag,6,Inaccurate SST due to low SST (< 285K) (only applies to the TMI instrument),,,,,Operational
+025023,GHRSST confidence flag,7,Relaxed rain contamination suspected,,,,,Operational
+025023,GHRSST confidence flag,8,Potential side lobe contamination,,,,,Operational
+025023,GHRSST confidence flag,All 9,Missing value,,,,,Operational
+025024,GHRSST data quality,0,Unprocessed infrared retrieval,,,,,Operational
+025024,GHRSST data quality,1,Cloudy retrievals,,,,,Operational
+025024,GHRSST data quality,2,Bad: Data that are probably contaminated by cloud,,,,,Operational
+025024,GHRSST data quality,3,Suspect data,,,,,Operational
+025024,GHRSST data quality,4,Acceptable data,,,,,Operational
+025024,GHRSST data quality,5,Excellent data,,,,,Operational
+025024,GHRSST data quality,6,Cool skin suspected,,,,,Operational
+025024,GHRSST data quality,7-9,Reserved,,,,,Operational
+025024,GHRSST data quality,10,Unprocessed microwave retrieval,,,,,Operational
+025024,GHRSST data quality,11,Questionable microwave retrieval that may be contaminated,,,,,Operational
+025024,GHRSST data quality,12,Acceptable microwave retrieval,,,,,Operational
+025024,GHRSST data quality,13,High probability of diurnal variability,,,,,Operational
+025024,GHRSST data quality,14,Reserved,,,,,Operational
+025024,GHRSST data quality,15,Missing value,,,,,Operational
+025029,Calibration method,1,Reserved,,,,,Operational
+025029,Calibration method,2,Calibration target or signal,,,,,Operational
+025029,Calibration method,3,Against raingauges,,,,,Operational
+025029,Calibration method,4,Against other instruments (disdrometer - attenuation),,,,,Operational
+025029,Calibration method,5,Reserved,,,,,Operational
+025029,Calibration method,All 6,Missing value,,,,,Operational
+025030,Running mean sea-surface temperature usage,0,Running mean sea-surface temperature not used because usage criteria not met,,,,,Operational
+025030,Running mean sea-surface temperature usage,1,Running mean sea-surface temperature not used because data not available,,,,,Operational
+025030,Running mean sea-surface temperature usage,2,Running mean sea-surface temperature used as predictor,,,,,Operational
+025030,Running mean sea-surface temperature usage,3,Missing value,,,,,Operational
+025031,NWP-generated vertical profile thinning method,0,Reserved,,,,,Operational
+025031,NWP-generated vertical profile thinning method,1,No thinning applied (all native model levels are included from base to top of pseudo-sounding),,,,,Operational
+025031,NWP-generated vertical profile thinning method,2,Native model levels are present only if they are significant levels as per regulations B/C 25 for conventional TEMP soundings,,,,,Operational
+025031,NWP-generated vertical profile thinning method,3,A predefined subset of native model levels is present,,,,,Operational
+025031,NWP-generated vertical profile thinning method,4,No native model levels are present.  All profile levels are interpolated to a predefined set of pressure coordinate levels,,,,,Operational
+025031,NWP-generated vertical profile thinning method,5-6,Reserved,,,,,Operational
+025031,NWP-generated vertical profile thinning method,7,Missing value,,,,,Operational
+025032,Wind profiler mode information,0,Reserved,,,,,Operational
+025032,Wind profiler mode information,1,Data from low mode,,,,,Operational
+025032,Wind profiler mode information,2,Data from high mode,,,,,Operational
+025032,Wind profiler mode information,3,Missing value,,,,,Operational
+025033,Wind profiler submode information,0,Wind profiler operating in submode A,,,,,Operational
+025033,Wind profiler submode information,1,Wind profiler operating in submode B,,,,,Operational
+025033,Wind profiler submode information,2,Reserved,,,,,Operational
+025033,Wind profiler submode information,3,Missing value,,,,,Operational
+025034,Wind profiler quality control test results,1,Test A performed and failed,,,,,Operational
+025034,Wind profiler quality control test results,2,Test B performed and failed,,,,,Operational
+025034,Wind profiler quality control test results,3,Test results inconclusive,,,,,Operational
+025034,Wind profiler quality control test results,All 4,Missing value,,,,,Operational
+025035,Decision method for polarity,0,Not defined,,,,,Operational
+025035,Decision method for polarity,1,Individual voltage deflection,,,,,Operational
+025035,Decision method for polarity,2,"Current based, above a threshold",,,,,Operational
+025035,Decision method for polarity,3,"Voltage based, above a threshold",,,,,Operational
+025035,Decision method for polarity,4,"Consensus of sensors, current above a threshold",,,,,Operational
+025035,Decision method for polarity,5,"Consensus of sensors, voltage above a threshold",,,,,Operational
+025035,Decision method for polarity,6,Reserved,,,,,Operational
+025035,Decision method for polarity,7,Missing value,,,,,Operational
+025036,Atmospherics location method,0,Network of several direction-finders operating on the same individual atmospherics,,,,,Operational
+025036,Atmospherics location method,1,Network of several arrival-time stations operating on the same individual atmospherics,,,,,Operational
+025036,Atmospherics location method,2-5,Reserved,,,,,Operational
+025036,Atmospherics location method,6,Single station range bearing technique,,,,,Operational
+025036,Atmospherics location method,7-14,Reserved,,,,,Operational
+025036,Atmospherics location method,15,Missing value,,,,,Operational
+025040,CO2 wind product derivation,0,Non-specific mode,,,,,Operational
+025040,CO2 wind product derivation,1,First guess data,,,,,Operational
+025040,CO2 wind product derivation,2,Cloud data,,,,,Operational
+025040,CO2 wind product derivation,3,Average vector data,,,,,Operational
+025040,CO2 wind product derivation,4,Primary data,,,,,Operational
+025040,CO2 wind product derivation,5,Guess data,,,,,Operational
+025040,CO2 wind product derivation,6,Vector data,,,,,Operational
+025040,CO2 wind product derivation,7,Tracer data; this image,,,,,Operational
+025040,CO2 wind product derivation,8,Tracer data to next image,,,,,Operational
+025040,CO2 wind product derivation,9-14,Reserved,,,,,Operational
+025040,CO2 wind product derivation,15,Missing value,,,,,Operational
+025041,Moving platform direction reporting method,0,Direction originally reported in true degrees,,,,,Operational
+025041,Moving platform direction reporting method,1,"Direction originally reported using Code table 0700, FM 13",,,,,Operational
+025041,Moving platform direction reporting method,2,Reserved,,,,,Operational
+025041,Moving platform direction reporting method,3,Missing value,,,,,Operational
+025042,Moving platform speed reporting method,0,Speed originally reported in metres per second,,,,,Operational
+025042,Moving platform speed reporting method,1,"Speed originally reported using Code table 4451, FM 13",,,,,Operational
+025042,Moving platform speed reporting method,2,Reserved,,,,,Operational
+025042,Moving platform speed reporting method,3,Missing value,,,,,Operational
+025045,HIRS channel combination,1-20,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,,Operational
+025045,HIRS channel combination,All 21,Missing value,,,,,Operational
+025046,MSU channel combination,1-4,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,,Operational
+025046,MSU channel combination,All 5,Missing value,,,,,Operational
+025047,SSU channel combination,1-3,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present; if bit position is set to 0, then channel is not present",,,,,Operational
+025047,SSU channel combination,All 4,Missing value,,,,,Operational
+025048,AMSU-A channel combination,1-15,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,,Operational
+025048,AMSU-A channel combination,All 16,Missing value,,,,,Operational
+025049,AMSU-B channel combination,1-5,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,,Operational
+025049,AMSU-B channel combination,All 6,Missing value,,,,,Operational
+025051,AVHRR channel combination,1-6,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,,Operational
+025051,AVHRR channel combination,All 7,Missing value,,,,,Operational
+025053,Observation quality,1,Good,,,,,Operational
+025053,Observation quality,2,Redundant,,,,,Operational
+025053,Observation quality,3,Questionable,,,,,Operational
+025053,Observation quality,4,Bad,,,,,Operational
+025053,Observation quality,5,Experimental,,,,,Operational
+025053,Observation quality,6,Precipitating,,,,,Operational
+025053,Observation quality,7-11,Reserved,,,,,Operational
+025053,Observation quality,All 12,Missing value,,,,,Operational
+025063,Central processor or system identifier,0,Not defined,,,,,Operational
+025063,Central processor or system identifier,1,Main processor,,,,,Operational
+025063,Central processor or system identifier,2,Backup processor,,,,,Operational
+025063,Central processor or system identifier,3-254,Reserved,,,,,Operational
+025063,Central processor or system identifier,255,Missing value,,,,,Operational
+025069,Flight level pressure corrections,1,Smoothed,,,,,Operational
+025069,Flight level pressure corrections,2,Baseline adjusted,,,,,Operational
+025069,Flight level pressure corrections,3,Normalized time interval,,,,,Operational
+025069,Flight level pressure corrections,4,Outlier checked,,,,,Operational
+025069,Flight level pressure corrections,5,Plausibility checked,,,,,Operational
+025069,Flight level pressure corrections,6,Consistency checked,,,,,Operational
+025069,Flight level pressure corrections,7,Interpolated,,,,,Operational
+025069,Flight level pressure corrections,All 8,Missing value,,,,,Operational
+025086,Depth correction indicator,0,Depths are not corrected,,,,,Operational
+025086,Depth correction indicator,1,Depths are corrected,,,,,Operational
+025086,Depth correction indicator,2,Reserved,,,,,Operational
+025086,Depth correction indicator,3,Missing value,,,,,Operational
+025090,Orbit state flag,0,Orbit computed during a manoeuvre,,,,,Operational
+025090,Orbit state flag,1,Adjusted mission operations orbit,,,,,Operational
+025090,Orbit state flag,2,Extrapolated mission operations orbit,,,,,Operational
+025090,Orbit state flag,3,Adjusted (preliminary/precise) orbit,,,,,Operational
+025090,Orbit state flag,4,(Preliminary/precise) orbit is estimated during a manoeuvre period,,,,,Operational
+025090,Orbit state flag,5,(Preliminary/precise) orbit is interpolated over a tracking data gap,,,,,Operational
+025090,Orbit state flag,6,(Preliminary/precise) orbit is extrapolated for a duration less than 1 day,,,,,Operational
+025090,Orbit state flag,7,(Preliminary/precise) orbit is extrapolated for a duration that ranges from 1 day to 2 days,,,,,Operational
+025090,Orbit state flag,8,"(Preliminary/precise) orbit is extrapolated for a duration larger than 2 days, or that the orbit is extrapolated just after a manoeuvre",,,,,Operational
+025090,Orbit state flag,9,DORIS* DIODE** navigator orbit,,,,,Operational
+025090,Orbit state flag,10-14,Reserved,,,,,Operational
+025090,Orbit state flag,15,Missing value,,,,,Operational
+025093,RASS computation correction,1,No correction,,,,,Operational
+025093,RASS computation correction,2,Vertical velocity correction,,,,,Operational
+025093,RASS computation correction,3-6,Reserved,,,,,Operational
+025093,RASS computation correction,7,All corrections,,,,,Operational
+025093,RASS computation correction,All 8,Missing value,,,,,Operational
+025095,Altimeter state flag,1,"Altimeter operating (0 if nominal, 1 if backup)",,,,,Operational
+025095,Altimeter state flag,All 2,Missing value,,,,,Operational
+025096,Radiometer state flag,1,"Mode indicator (0 if mode 2, 1 if mode 1)",,,,,Operational
+025096,Radiometer state flag,2,"Mode 1 calibration sequence indicator (0 if normal data taking either mode 1 or 2, 1 if mode 1 calibration sequence)  Bits 3 and 4 indicate active 23.8 GHz channel(s):",,,,,Operational
+025096,Radiometer state flag,3,"Channel 2 (0 if on, 1 if off)",,,,,Operational
+025096,Radiometer state flag,4,"Channel 3 (0 if on, 1 if off)",,,,,Operational
+025096,Radiometer state flag,All 5,Missing value,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,0,Ranges between 0 and 30 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,1,Ranges between 30 and 60 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,2,Ranges between 60 and 90 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,3,Ranges between 90 and 120 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,4,Ranges between 120 and 150 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,5,Ranges between 150 and 180 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,6,Ranges between 180 and 210 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,7,Ranges between 210 and 240 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,8,Ranges between 240 and 270 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,9,Ranges larger than 270 cm,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,10-14,Reserved,,,,,Operational
+025097,Three-dimensional error estimate of the navigator orbit,15,Missing value,,,,,Operational
+025098,Altimeter data quality flag,1,Ku band range,,,,,Operational
+025098,Altimeter data quality flag,2,C band range,,,,,Operational
+025098,Altimeter data quality flag,3,Ku band SWH*,,,,,Operational
+025098,Altimeter data quality flag,4,C band SWH*,,,,,Operational
+025098,Altimeter data quality flag,5,Ku band backscatter coefficient,,,,,Operational
+025098,Altimeter data quality flag,6,C band backscatter coefficient,,,,,Operational
+025098,Altimeter data quality flag,7,Off nadir angle from Ku band waveform parameters,,,,,Operational
+025098,Altimeter data quality flag,8,Off nadir angle from platform,,,,,Operational
+025098,Altimeter data quality flag,All 9,Missing value,,,,,Operational
+025099,Altimeter correction quality flag,1,Ku band range instrumental correction,,,,,Operational
+025099,Altimeter correction quality flag,2,C band range instrumental correction,,,,,Operational
+025099,Altimeter correction quality flag,3,Ku band SWH* instrumental correction,,,,,Operational
+025099,Altimeter correction quality flag,4,C band SWH* instrumental correction,,,,,Operational
+025099,Altimeter correction quality flag,5,Ku band backscatter coefficient instrumental correction,,,,,Operational
+025099,Altimeter correction quality flag,6,C band backscatter coefficient instrumental correction,,,,,Operational
+025099,Altimeter correction quality flag,7-8,Reserved,,,,,Operational
+025099,Altimeter correction quality flag,All 9,Missing value,,,,,Operational
+025110,Image processing summary,1,Raw data analysis used for raw data correction. Correction done using default parameters,,,,,Operational
+025110,Image processing summary,2,Raw data analysis used for raw data correction. Correction done using raw data analysis results,,,,,Operational
+025110,Image processing summary,3,Antenna elevation pattern correction applied,,,,,Operational
+025110,Image processing summary,4,Nominal chirp replica used,,,,,Operational
+025110,Image processing summary,5,Reconstructed chirp used,,,,,Operational
+025110,Image processing summary,6,Slant range to ground range conversion applied,,,,,Operational
+025110,Image processing summary,7-9,Reserved,,,,,Operational
+025110,Image processing summary,All 10,Missing value,,,,,Operational
+025112,Band specific altimeter data quality flag,1,Band specific range,,,,,Operational
+025112,Band specific altimeter data quality flag,2,Band specific significant wave height,,,,,Operational
+025112,Band specific altimeter data quality flag,3,Band specific backscatter coefficient,,,,,Operational
+025112,Band specific altimeter data quality flag,4,Off nadir angle from band specific waveform parameters,,,,,Operational
+025112,Band specific altimeter data quality flag,5,Off nadir angle from platform,,,,,Operational
+025112,Band specific altimeter data quality flag,6-8,Reserved,,,,,Operational
+025112,Band specific altimeter data quality flag,All 9,Missing value,,,,,Operational
+025113,Band specific altimeter correction quality flag,1,Band specific range instrumental correction,,,,,Operational
+025113,Band specific altimeter correction quality flag,2,Band specific significant wave height instrumental correction,,,,,Operational
+025113,Band specific altimeter correction quality flag,3,Band specific backscatter coefficient instrumental correction,,,,,Operational
+025113,Band specific altimeter correction quality flag,4-8,Reserved,,,,,Operational
+025113,Band specific altimeter correction quality flag,All 9,Missing value,,,,,Operational
+025120,RA2-L2-processing flag,0,Percentage of DSRs* free of processing errors during Level 2 processing is greater than the acceptable threshold,,,,,Operational
+025120,RA2-L2-processing flag,1,Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold,,,,,Operational
+025120,RA2-L2-processing flag,2,Reserved,,,,,Operational
+025120,RA2-L2-processing flag,3,Missing value,,,,,Operational
+025122,Hardware configuration for RF,0,Hardware configuration for RF is A,,,,,Operational
+025122,Hardware configuration for RF,1,Hardware configuration for RF is B,,,,,Operational
+025122,Hardware configuration for RF,2,Reserved,,,,,Operational
+025122,Hardware configuration for RF,3,Missing value,,,,,Operational
+025123,Hardware configuration for HPA,0,Hardware configuration for HPA is A,,,,,Operational
+025123,Hardware configuration for HPA,1,Hardware configuration for HPA is B,,,,,Operational
+025123,Hardware configuration for HPA,2,Reserved,,,,,Operational
+025123,Hardware configuration for HPA,3,Missing value,,,,,Operational
+025124,MWR-L2-processing flag,0,Percentage of DSRs** free of processing errors during Level 2 processing is greater than the acceptable threshold,,,,,Operational
+025124,MWR-L2-processing flag,1,Percentage of DSRs** free of processing errors during Level 2 processing is less than the acceptable threshold,,,,,Operational
+025124,MWR-L2-processing flag,2,Reserved,,,,,Operational
+025124,MWR-L2-processing flag,3,Missing value,,,,,Operational
+025150,Method of tropical cyclone intensity analysis using satellite data,1,The Dvorak's VIS (VISual imagery) intensity analysis,,,,,Operational
+025150,Method of tropical cyclone intensity analysis using satellite data,2,The Dvorak's EIR (Enhanced InfraRed imagery) intensity analysis,,,,,Operational
+025150,Method of tropical cyclone intensity analysis using satellite data,3-14,Reserved,,,,,Operational
+025150,Method of tropical cyclone intensity analysis using satellite data,15,Missing value,,,,,Operational
+025174,SMOS information flag,1,Pixel is affected by RFI effects,,,,,Operational
+025174,SMOS information flag,2,Pixel is located in the hexagonal alias direction centred on Sun alias,,,,,Operational
+025174,SMOS information flag,3,Pixel is close to the border delimiting the extended alias free zone,,,,,Operational
+025174,SMOS information flag,4,Pixel is inside the extended alias free zone,,,,,Operational
+025174,SMOS information flag,5,Pixel is inside the exclusive of alias free zone,,,,,Operational
+025174,SMOS information flag,6,Pixel is located in a zone where a moon alias was reconstructed,,,,,Operational
+025174,SMOS information flag,7,Pixel is located in a zone where Sun reflection has been detected,,,,,Operational
+025174,SMOS information flag,8,Pixel is located in a zone where Sun alias was reconstructed,,,,,Operational
+025174,SMOS information flag,9,Flat target transformation has been performed during image reconstruction of this pixel,,,,,Operational
+025174,SMOS information flag,10,Scene has been combined with an adjustment scene in opposite polarization during image reconstruction to account for cross-polarization leakage,,,,,Operational
+025174,SMOS information flag,11,Direct Moon correction has been performed during image reconstruction of this pixel,,,,,Operational
+025174,SMOS information flag,12,Reflected Sun correction has been performed during image reconstruction of this pixel,,,,,Operational
+025174,SMOS information flag,13,Direct Sun correction has been performed during image reconstruction of this image,,,,,Operational
+025174,SMOS information flag,All 14,Missing value,,,,,Operational
+025181,L2 processing flag,0,OK,,,,,Operational
+025181,L2 processing flag,1,Percentage of L2b records free of processing errors is less than acceptable threshold,,,,,Operational
+025181,L2 processing flag,2,Missing value,,,,,Operational
+025182,L1 processing flag,0,OK,,,,,Operational
+025182,L1 processing flag,1,Percentage of L1b records free of processing errors is less than acceptable threshold,,,,,Operational
+025182,L1 processing flag,2,Missing value,,,,,Operational
+025184,L2 product status,0,OK,,,,,Operational
+025184,L2 product status,1,Product as a duration shorter than the input product,,,,,Operational
+025184,L2 product status,2,Missing value,,,,,Operational
+025185,Encryption method,0,AES 256,,,,,Operational
+025185,Encryption method,1-254,Reserved,,,,,Operational
+025185,Encryption method,255,Missing value,,,,,Operational
+025187,Confidence flag,0,Valid,,,,,Operational
+025187,Confidence flag,1,Invalid,,,,,Operational
+025187,Confidence flag,2-14,Reserved,,,,,Operational
+025187,Confidence flag,15,Missing value,,,,,Operational
+025188,Method for reducing pressure to sea level,0,Pressure adjusted to mean sea level following WMO-No. 8 for low level (< 50 m) stations,,,*,,Operational
+025188,Method for reducing pressure to sea level,1,Pressure adjusted to mean sea level following WMO-No. 8 for stations below 750 m,,,,,Operational
+025188,Method for reducing pressure to sea level,2,Pressure adjusted to sea level following national practice,,,,,Operational
+025188,Method for reducing pressure to sea level,3,Pressure adjusted to local water level following national practice,,,,,Operational
+025188,Method for reducing pressure to sea level,4,Pressure not corrected for height,,,,,Operational
+025188,Method for reducing pressure to sea level,5-14,Reserved,,,,,Operational
+025188,Method for reducing pressure to sea level,15,Missing value,,,,,Operational
+025190,Altimeter echo processing mode,0,Low resolution mode (LRM),,,,,Operational
+025190,Altimeter echo processing mode,1,Synthetic aperture radar (SAR),,,,,Operational
+025190,Altimeter echo processing mode,2,LRM and SAR (interleaved),,,,,Operational
+025190,Altimeter echo processing mode,3,Reserved,,,,,Operational
+025190,Altimeter echo processing mode,4,Pseudo-LRM (PLRM),,,,,Operational
+025190,Altimeter echo processing mode,5,SAR interferometric mode (SARIN),,,,,Operational
+025190,Altimeter echo processing mode,6-254,Reserved ,,,,,Operational
+025190,Altimeter echo processing mode,255,Missing value,,,,,Operational
+025191,Altimeter tracking mode,0,Open  loop ,,,,,Operational
+025191,Altimeter tracking mode,1,Closed loop,,,,,Operational
+025191,Altimeter tracking mode,2,Open loop fixed gain,,,,,Operational
+025191,Altimeter tracking mode,3-254,Reserved,,,,,Operational
+025191,Altimeter tracking mode,255,Missing value,,,,,Operational
