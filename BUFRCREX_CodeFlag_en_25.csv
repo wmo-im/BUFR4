@@ -139,11 +139,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025040,CO2 wind product derivation,9-14,Reserved,,,,,Operational
 025040,CO2 wind product derivation,15,Missing value,,,,,Operational
 025041,Moving platform direction reporting method,0,Direction originally reported in true degrees,,,,,Operational
-025041,Moving platform direction reporting method,1,"Direction originally reported using Code table 0700, FM 13",,,,,Operational
+025041,Moving platform direction reporting method,1,"Direction originally reported using Code table 0700, FM 13",,,,94,Operational
 025041,Moving platform direction reporting method,2,Reserved,,,,,Operational
 025041,Moving platform direction reporting method,3,Missing value,,,,,Operational
 025042,Moving platform speed reporting method,0,Speed originally reported in metres per second,,,,,Operational
-025042,Moving platform speed reporting method,1,"Speed originally reported using Code table 4451, FM 13",,,,,Operational
+025042,Moving platform speed reporting method,1,"Speed originally reported using Code table 4451, FM 13",,,,95,Operational
 025042,Moving platform speed reporting method,2,Reserved,,,,,Operational
 025042,Moving platform speed reporting method,3,Missing value,,,,,Operational
 025045,HIRS channel combination,1-20,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,,Operational
@@ -192,7 +192,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025090,Orbit state flag,6,(Preliminary/precise) orbit is extrapolated for a duration less than 1 day,,,,,Operational
 025090,Orbit state flag,7,(Preliminary/precise) orbit is extrapolated for a duration that ranges from 1 day to 2 days,,,,,Operational
 025090,Orbit state flag,8,"(Preliminary/precise) orbit is extrapolated for a duration larger than 2 days, or that the orbit is extrapolated just after a manoeuvre",,,,,Operational
-025090,Orbit state flag,9,DORIS* DIODE** navigator orbit,,,,,Operational
+025090,Orbit state flag,9,DORIS DIODE navigator orbit,,,"*,**","9,37",Operational
 025090,Orbit state flag,10-14,Reserved,,,,,Operational
 025090,Orbit state flag,15,Missing value,,,,,Operational
 025093,RASS computation correction,1,No correction,,,,,Operational
@@ -221,8 +221,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025097,Three-dimensional error estimate of the navigator orbit,15,Missing value,,,,,Operational
 025098,Altimeter data quality flag,1,Ku band range,,,,,Operational
 025098,Altimeter data quality flag,2,C band range,,,,,Operational
-025098,Altimeter data quality flag,3,Ku band SWH*,,,,,Operational
-025098,Altimeter data quality flag,4,C band SWH*,,,,,Operational
+025098,Altimeter data quality flag,3,Ku band SWH,,,*,96,Operational
+025098,Altimeter data quality flag,4,C band SWH,,,*,96,Operational
 025098,Altimeter data quality flag,5,Ku band backscatter coefficient,,,,,Operational
 025098,Altimeter data quality flag,6,C band backscatter coefficient,,,,,Operational
 025098,Altimeter data quality flag,7,Off nadir angle from Ku band waveform parameters,,,,,Operational
@@ -230,8 +230,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025098,Altimeter data quality flag,All 9,Missing value,,,,,Operational
 025099,Altimeter correction quality flag,1,Ku band range instrumental correction,,,,,Operational
 025099,Altimeter correction quality flag,2,C band range instrumental correction,,,,,Operational
-025099,Altimeter correction quality flag,3,Ku band SWH* instrumental correction,,,,,Operational
-025099,Altimeter correction quality flag,4,C band SWH* instrumental correction,,,,,Operational
+025099,Altimeter correction quality flag,3,Ku band SWH instrumental correction,,,*,96,Operational
+025099,Altimeter correction quality flag,4,C band SWH instrumental correction,,,*,96,Operational
 025099,Altimeter correction quality flag,5,Ku band backscatter coefficient instrumental correction,,,,,Operational
 025099,Altimeter correction quality flag,6,C band backscatter coefficient instrumental correction,,,,,Operational
 025099,Altimeter correction quality flag,7-8,Reserved,,,,,Operational
@@ -256,7 +256,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025113,Band specific altimeter correction quality flag,3,Band specific backscatter coefficient instrumental correction,,,,,Operational
 025113,Band specific altimeter correction quality flag,4-8,Reserved,,,,,Operational
 025113,Band specific altimeter correction quality flag,All 9,Missing value,,,,,Operational
-025120,RA2-L2-processing flag,0,Percentage of DSRs* free of processing errors during Level 2 processing is greater than the acceptable threshold,,,,,Operational
+t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold,,,*,98,Operational
 025120,RA2-L2-processing flag,1,Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold,,,,,Operational
 025120,RA2-L2-processing flag,2,Reserved,,,,,Operational
 025120,RA2-L2-processing flag,3,Missing value,,,,,Operational
@@ -268,8 +268,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025123,Hardware configuration for HPA,1,Hardware configuration for HPA is B,,,,,Operational
 025123,Hardware configuration for HPA,2,Reserved,,,,,Operational
 025123,Hardware configuration for HPA,3,Missing value,,,,,Operational
-025124,MWR-L2-processing flag,0,Percentage of DSRs** free of processing errors during Level 2 processing is greater than the acceptable threshold,,,,,Operational
-025124,MWR-L2-processing flag,1,Percentage of DSRs** free of processing errors during Level 2 processing is less than the acceptable threshold,,,,,Operational
+025124,MWR-L2-processing flag,0,Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold,,,**,98,Operational
+025124,MWR-L2-processing flag,1,Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold,,,**,98,Operational
 025124,MWR-L2-processing flag,2,Reserved,,,,,Operational
 025124,MWR-L2-processing flag,3,Missing value,,,,,Operational
 025150,Method of tropical cyclone intensity analysis using satellite data,1,The Dvorak's VIS (VISual imagery) intensity analysis,,,,,Operational
@@ -306,7 +306,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025187,Confidence flag,1,Invalid,,,,,Operational
 025187,Confidence flag,2-14,Reserved,,,,,Operational
 025187,Confidence flag,15,Missing value,,,,,Operational
-025188,Method for reducing pressure to sea level,0,Pressure adjusted to mean sea level following WMO-No. 8 for low level (< 50 m) stations,,,*,,Operational
+025188,Method for reducing pressure to sea level,0,Pressure adjusted to mean sea level following WMO-No. 8 for low level (< 50 m) stations,,,*,44,Operational
 025188,Method for reducing pressure to sea level,1,Pressure adjusted to mean sea level following WMO-No. 8 for stations below 750 m,,,,,Operational
 025188,Method for reducing pressure to sea level,2,Pressure adjusted to sea level following national practice,,,,,Operational
 025188,Method for reducing pressure to sea level,3,Pressure adjusted to local water level following national practice,,,,,Operational

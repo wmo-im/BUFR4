@@ -63,8 +63,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002008,Type of offshore platform,5,Light vessel,,,,,Operational
 002008,Type of offshore platform,6-14,Reserved,,,,,Operational
 002008,Type of offshore platform,15,Missing value,,,,,Operational
-002011,Radiosonde type,,,,,,,Operational
-002012,Radiosonde computational method,,,,,,,Operational
+002011,Radiosonde type,,,,,,7,Operational
+002012,Radiosonde computational method,,,,,,1,Operational
 002013,Solar and infrared radiation correction,0,No correction,,,,,Operational
 002013,Solar and infrared radiation correction,1,CIMO solar corrected and CIMO infrared corrected,,,,,Operational
 002013,Solar and infrared radiation correction,2,CIMO solar corrected and infrared corrected,,,,,Operational
@@ -73,11 +73,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002013,Solar and infrared radiation correction,5,Solar corrected automatically by radiosonde system,,,,,Operational
 002013,Solar and infrared radiation correction,6,Solar and infrared corrected as specified by country,,,,,Operational
 002013,Solar and infrared radiation correction,7,Solar corrected as specified by country,,,,,Operational
-002013,Solar and infrared radiation correction,8,Solar and infrared corrected as specified by GRUAN,,,*,,Operational
+002013,Solar and infrared radiation correction,8,Solar and infrared corrected as specified by GRUAN,,,*,8,Operational
 002013,Solar and infrared radiation correction,9,Solar corrected as specified by GRUAN,,,,,Operational
 002013,Solar and infrared radiation correction,10-14,Reserved,,,,,Operational
 002013,Solar and infrared radiation correction,15,Missing value,,,,,Operational
-002014,Tracking technique/status of system used,,,,,,,Operational
+002014,Tracking technique/status of system used,,,,,,11,Operational
 002015,Radiosonde completeness,0,Reserved,,,,,Operational
 002015,Radiosonde completeness,1,Pressure only radiosonde,,,,,Operational
 002015,Radiosonde completeness,2,Pressure only radiosonde plus transponder,,,,,Operational
@@ -99,7 +99,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002017,Correction algorithms for humidity measurements,7,GRUAN solar radiation and time lag correction,,,,,Operational
 002017,Correction algorithms for humidity measurements,8-30,Reserved,,,,,Operational
 002017,Correction algorithms for humidity measurements,31,Missing value,,,,,Operational
-002019,Satellite instruments,,,,,,,Operational
+002019,Satellite instruments,,,,,,12,Operational
 002020,Satellite classification,0,Nimbus,,,,,Operational
 002020,Satellite classification,1,VTPR,,,,,Operational
 002020,Satellite classification,2,"Tiros 1 (Tiros, NOAA-6 to NOAA-13)",,,,,Operational
@@ -145,9 +145,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002021,Satellite instrument data used in processing,All 9,Missing value,,,,,Operational
 002022,Satellite data-processing technique used,1,Processing technique not defined,,,,,Operational
 002022,Satellite data-processing technique used,2,Automated statistical regression,,,,,Operational
-002022,Satellite data-processing technique used,3,Clear path,,,,,Operational
-002022,Satellite data-processing technique used,4,Partly cloudy path,,,,,Operational
-002022,Satellite data-processing technique used,5,Cloudy path,,,,,Operational
+002022,Satellite data-processing technique used,3,Clear path,,,,28,Operational
+002022,Satellite data-processing technique used,4,Partly cloudy path,,,,62,Operational
+002022,Satellite data-processing technique used,5,Cloudy path,,,,30,Operational
 002022,Satellite data-processing technique used,6-7,Reserved,,,,,Operational
 002022,Satellite data-processing technique used,All 8,Missing value,,,,,Operational
 002023,Satellite-derived wind computation method,0,Reserved,,,,,Operational
@@ -183,18 +183,18 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002025,Satellite channel(s) used in computation,13-14,Reserved,,,,,Operational
 002025,Satellite channel(s) used in computation,,"Group 4 - Mean temperature for the layers: surface to 850 hPa, 850 to 700 hPa, 700 to 500 hPa, 500 to 400 hPa, 400 to 300 hPa, 300 to 200 hPa, and 200 to 100 hPa",,,,,Operational
 002025,Satellite channel(s) used in computation,15,HIRS,,,,,Operational
-002025,Satellite channel(s) used in computation,16,HIRS,,,*,,Operational
+002025,Satellite channel(s) used in computation,16,HIRS,,,*,47,Operational
 002025,Satellite channel(s) used in computation,17,MSU,,,,,Operational
 002025,Satellite channel(s) used in computation,18,SKINTK (ocean only),,,,,Operational
 002025,Satellite channel(s) used in computation,19-20,Reserved,,,,,Operational
 002025,Satellite channel(s) used in computation,,"Group 5 - Channel combinations used to obtain mean temperatures for the layers 100 to 70 hPa, 70 to 50 hPa, 50 to 30 hPa, 30 to 10 hPa, 10 to 5 hPa, 5 to 2 hPa, 2 to 1 hPa, 1 to 0.4 hPa",,,,,Operational
-002025,Satellite channel(s) used in computation,21,HIRS,,,*,,Operational
+002025,Satellite channel(s) used in computation,21,HIRS,,,*,47,Operational
 002025,Satellite channel(s) used in computation,22,SSU,,,,,Operational
 002025,Satellite channel(s) used in computation,23,"MSU (3, 4)",,,,,Operational
 002025,Satellite channel(s) used in computation,24,Reserved,,,,,Operational
 002025,Satellite channel(s) used in computation,All 25,Missing value,,,,,Operational
 002030,Method of current measurement,0,Reserved,,,,,Operational
-002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,*,,Operational
+002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,*,91,Operational
 002030,Method of current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,,Operational
 002030,Method of current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,,Operational
 002030,Method of current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,,Operational
@@ -343,8 +343,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002048,Satellite sensor indicator,15,Missing value,,,,,Operational
 002049,Geostationary satellite data-processing technique used,1,Processing technique not defined,,,,,Operational
 002049,Geostationary satellite data-processing technique used,2,Simultaneous physical retrieval,,,,,Operational
-002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,,,Operational
-002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,,,Operational
+002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,,29,Operational
+002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,,31,Operational
 002049,Geostationary satellite data-processing technique used,5-7,Reserved for future use,,,,,Operational
 002049,Geostationary satellite data-processing technique used,All 8,Missing value,,,,,Operational
 002050,Geostationary sounder satellite channels used,1,1,14.71,,,,Operational
@@ -451,7 +451,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002062,Type of aircraft data relay system,6-14,Reserved,,,,,Operational
 002062,Type of aircraft data relay system,15,Missing value,,,,,Operational
 002064,Aircraft roll angle quality,0,Good,,,,,Operational
-002064,Aircraft roll angle quality,1,Bad,,,,,Operational
+002064,Aircraft roll angle quality,1,Bad,,,,20,Operational
 002064,Aircraft roll angle quality,2,Reserved,,,,,Operational
 002064,Aircraft roll angle quality,3,Missing value,,,,,Operational
 002066,Radiosonde ground receiving system,0,InterMet IMS 2000,,,,,Operational
@@ -643,8 +643,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002143,Ozone instrument type,20-126,Reserved,,,,,Operational
 002143,Ozone instrument type,127,Missing value,,,,,Operational
 002144,Light source type for Brewer spectrophotometer,0,Direct sun,,,,,Operational
-002144,Light source type for Brewer spectrophotometer,1,"Direct sun, attenuator #1",,,,,Operational
-002144,Light source type for Brewer spectrophotometer,2,"Direct sun, attenuator #2",,,,,Operational
+002144,Light source type for Brewer spectrophotometer,1,"Direct sun, attenuator #1",,,,38,Operational
+002144,Light source type for Brewer spectrophotometer,2,"Direct sun, attenuator #2",,,,38,Operational
 002144,Light source type for Brewer spectrophotometer,3,Focused moon,,,,,Operational
 002144,Light source type for Brewer spectrophotometer,4,Focused sun,,,,,Operational
 002144,Light source type for Brewer spectrophotometer,5,Focused sun corrected with adjacent sky measurements,,,,,Operational
@@ -679,7 +679,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002147,Method of transmission to collection centre,3,Internet ISP ,,,,,Operational
 002147,Method of transmission to collection centre,4,"DCP via satellite (MTSAT, METEOSAT, etc.)",,,,,Operational
 002147,Method of transmission to collection centre,5,VSAT ,,,,,Operational
-002147,Method of transmission to collection centre,6,"GAN,* BGAN**",,,,,Operational
+002147,Method of transmission to collection centre,6,"GAN,* BGAN**",,,,"115,118",Operational
 002147,Method of transmission to collection centre,7,Thiss terminal,,,,,Operational
 002147,Method of transmission to collection centre,8,Iridium satellites,,,,,Operational
 002147,Method of transmission to collection centre,9,Mobile telephony,,,,,Operational
@@ -858,8 +858,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002161,Wind processing method,15,Nested tracking,,,,,Operational
 002161,Wind processing method,All 16,Missing value,,,,,Operational
 002162,Extended height assignment method,0,Auto editor,,,,,Operational
-002162,Extended height assignment method,1,IRW height assignment,,,,,Operational
-002162,Extended height assignment method,2,WV height assignment,,,,,Operational
+002162,Extended height assignment method,1,IRW height assignment,,,,108,Operational
+002162,Extended height assignment method,2,WV height assignment,,,,99,Operational
 002162,Extended height assignment method,3,H2O intercept height assignment,,,,,Operational
 002162,Extended height assignment method,4,CO2 slicing height assignment,,,,,Operational
 002162,Extended height assignment method,5,Low pixel max gradient,,,,,Operational
