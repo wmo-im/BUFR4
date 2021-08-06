@@ -59,6 +59,7 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>001007</FXY>
     <ElementName_en>Satellite identifier</ElementName_en>
+    <noteIDs>10</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -253,25 +254,25 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>001031</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
-    <Note_en>(See Common Code table C–1 in Part C/c.)</Note_en>
+    <noteIDs>6</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001033</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
-    <Note_en>(See Common Code table C–1 in Part C/c.)</Note_en>
+    <noteIDs>6</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001034</FXY>
     <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
-    <Note_en>(To be defined by centres themselves - See Common Code table C-12 in Part C/c.)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001035</FXY>
     <ElementName_en>Originating/generating centre</ElementName_en>
-    <Note_en>(See Common Code table C-11 in Part C/c.)</Note_en>
+    <noteIDs>6</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -2420,7 +2421,9 @@
     <FXY>001150</FXY>
     <ElementName_en>Coordinate reference system</ElementName_en>
     <CodeFigure>4</CodeFigure>
-    <EntryName_en>Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS) (see Note 2). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)</EntryName_en>
+    <EntryName_en>Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>92</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -2954,11 +2957,13 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002011</FXY>
     <ElementName_en>Radiosonde type</ElementName_en>
+    <noteIDs>7</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>002012</FXY>
     <ElementName_en>Radiosonde computational method</ElementName_en>
+    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3022,6 +3027,7 @@
     <ElementName_en>Solar and infrared radiation correction</ElementName_en>
     <CodeFigure>8</CodeFigure>
     <EntryName_en>Solar and infrared corrected as specified by GRUAN</EntryName_en>
+    <noteIDs>8</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3048,6 +3054,7 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002014</FXY>
     <ElementName_en>Tracking technique/status of system used</ElementName_en>
+    <noteIDs>11</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3200,6 +3207,7 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002019</FXY>
     <ElementName_en>Satellite instruments</ElementName_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3522,6 +3530,7 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Clear path</EntryName_en>
+    <noteIDs>28</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3529,6 +3538,7 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>Partly cloudy path</EntryName_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3536,6 +3546,7 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>5</CodeFigure>
     <EntryName_en>Cloudy path</EntryName_en>
+    <noteIDs>30</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3784,6 +3795,7 @@
     <ElementName_en>Satellite channel(s) used in computation</ElementName_en>
     <CodeFigure>16</CodeFigure>
     <EntryName_en>HIRS</EntryName_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3818,6 +3830,7 @@
     <ElementName_en>Satellite channel(s) used in computation</ElementName_en>
     <CodeFigure>21</CodeFigure>
     <EntryName_en>HIRS</EntryName_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3860,6 +3873,7 @@
     <ElementName_en>Method of current measurement</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>ADCP (Acoustic Doppler Current Profiler)</EntryName_en>
+    <noteIDs>91</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -4917,6 +4931,7 @@
     <ElementName_en>Geostationary satellite data-processing technique used</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Clear sounding</EntryName_en>
+    <noteIDs>29</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -4924,6 +4939,7 @@
     <ElementName_en>Geostationary satellite data-processing technique used</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>Cloudy sounding</EntryName_en>
+    <noteIDs>31</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -5697,6 +5713,7 @@
     <ElementName_en>Aircraft roll angle quality</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Bad</EntryName_en>
+    <noteIDs>20</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -7041,6 +7058,7 @@
     <ElementName_en>Light source type for Brewer spectrophotometer</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Direct sun, attenuator #1</EntryName_en>
+    <noteIDs>38</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -7048,6 +7066,7 @@
     <ElementName_en>Light source type for Brewer spectrophotometer</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Direct sun, attenuator #2</EntryName_en>
+    <noteIDs>38</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -7293,6 +7312,7 @@
     <ElementName_en>Method of transmission to collection centre</ElementName_en>
     <CodeFigure>6</CodeFigure>
     <EntryName_en>GAN, BGAN</EntryName_en>
+    <noteIDs>115,118</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -8546,6 +8566,7 @@
     <ElementName_en>Extended height assignment method</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>IRW height assignment</EntryName_en>
+    <noteIDs>108</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -8553,6 +8574,7 @@
     <ElementName_en>Extended height assignment method</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>WV height assignment</EntryName_en>
+    <noteIDs>99</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -10444,6 +10466,7 @@
     <CodeFigure>1</CodeFigure>
     <EntryName_en>ADCP</EntryName_en>
     <Note_en>, </Note_en>
+    <noteIDs>91</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -10479,6 +10502,7 @@
     <ElementName_en>Method of sea/water current measurement</ElementName_en>
     <CodeFigure>6</CodeFigure>
     <EntryName_en>ADCP</EntryName_en>
+    <noteIDs>122</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -10941,6 +10965,7 @@
     <ElementName_en>Material for thermometer/hygrometer housing</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Plastic/GRP</EntryName_en>
+    <noteIDs>113</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -12676,7 +12701,9 @@
     <FXY>008021</FXY>
     <ElementName_en>Time significance</ElementName_en>
     <CodeFigure>2</CodeFigure>
-    <EntryName_en>Time averaged (see Note 1)</EntryName_en>
+    <EntryName_en>Time averaged</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>4</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -12718,7 +12745,9 @@
     <FXY>008021</FXY>
     <ElementName_en>Time significance</ElementName_en>
     <CodeFigure>8</CodeFigure>
-    <EntryName_en>Ensemble mean (see Note 2)</EntryName_en>
+    <EntryName_en>Ensemble mean</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -13076,6 +13105,7 @@
     <ElementName_en>Difference statistics</ElementName_en>
     <CodeFigure>14</CodeFigure>
     <EntryName_en>Observed minus forecast value</EntryName_en>
+    <noteIDs>93</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -14336,6 +14366,7 @@
     <ElementName_en>Extended vertical sounding significance</ElementName_en>
     <CodeFigure>16</CodeFigure>
     <EntryName_en>Freezing level</EntryName_en>
+    <noteIDs>41</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -15557,6 +15588,7 @@
     <ElementName_en>Modification of sensor height to another value</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Sensor height is modified to standard level</EntryName_en>
+    <noteIDs>48</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -17039,6 +17071,7 @@
     <ElementName_en>Surface flag</ElementName_en>
     <CodeFigure>7</CodeFigure>
     <EntryName_en>Inland water</EntryName_en>
+    <noteIDs>56</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -18497,6 +18530,7 @@
     <FXY>020003</FXY>
     <ElementName_en>Present weather</ElementName_en>
     <EntryName_en>00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour</EntryName_en>
+    <noteIDs>77</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -18657,6 +18691,7 @@
     <CodeFigure>19</CodeFigure>
     <EntryName_en>Funnel cloud(s)</EntryName_en>
     <EntryName_sub1_en>at or within sight of the station during the preceding hour or at the time of observation</EntryName_sub1_en>
+    <noteIDs>89</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -18725,6 +18760,7 @@
     <ElementName_en>Present weather</ElementName_en>
     <CodeFigure>27</CodeFigure>
     <EntryName_en>Shower(s) of hail, or of rain and hail</EntryName_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19270,6 +19306,7 @@
     <CodeFigure>93</CodeFigure>
     <EntryName_en>Slight snow, or rain and snow mixed or hail at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm during the preceding hour but not at time of observation</EntryName_sub1_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19278,6 +19315,7 @@
     <CodeFigure>94</CodeFigure>
     <EntryName_en>Moderate or heavy snow, or rain and snow mixed or hail at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm during the preceding hour but not at time of observation</EntryName_sub1_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19302,6 +19340,7 @@
     <CodeFigure>97</CodeFigure>
     <EntryName_en>Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm at time of observation</EntryName_sub1_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -20705,7 +20744,9 @@
     <FXY>020004</FXY>
     <ElementName_en>Past weather (1)</ElementName_en>
     <CodeFigure>11</CodeFigure>
-    <EntryName_en>VISIBILITY REDUCED (see Note)</EntryName_en>
+    <EntryName_en>VISIBILITY REDUCED</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -20719,14 +20760,18 @@
     <FXY>020004</FXY>
     <ElementName_en>Past weather (1)</ElementName_en>
     <CodeFigure>13</CodeFigure>
-    <EntryName_en>FOG (see Note)</EntryName_en>
+    <EntryName_en>FOG</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>020004</FXY>
     <ElementName_en>Past weather (1)</ElementName_en>
     <CodeFigure>14</CodeFigure>
-    <EntryName_en>PRECIPITATION (see Note)</EntryName_en>
+    <EntryName_en>PRECIPITATION</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -20859,7 +20904,9 @@
     <FXY>020005</FXY>
     <ElementName_en>Past weather (2)</ElementName_en>
     <CodeFigure>11</CodeFigure>
-    <EntryName_en>VISIBILITY REDUCED (see Note)</EntryName_en>
+    <EntryName_en>VISIBILITY REDUCED</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -20873,14 +20920,18 @@
     <FXY>020005</FXY>
     <ElementName_en>Past weather (2)</ElementName_en>
     <CodeFigure>13</CodeFigure>
-    <EntryName_en>FOG (see Note)</EntryName_en>
+    <EntryName_en>FOG</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>020005</FXY>
     <ElementName_en>Past weather (2)</ElementName_en>
     <CodeFigure>14</CodeFigure>
-    <EntryName_en>PRECIPITATION (see Note)</EntryName_en>
+    <EntryName_en>PRECIPITATION</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -21290,6 +21341,7 @@
     <ElementName_en>Cloud amount</ElementName_en>
     <CodeFigure>15</CodeFigure>
     <EntryName_en>Cloud cover is indiscernible for reasons other than fog or other meteorological phenomena, or observation is not made</EntryName_en>
+    <noteIDs>40</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -21514,6 +21566,7 @@
     <ElementName_en>Cloud type</ElementName_en>
     <CodeFigure>31</CodeFigure>
     <EntryName_en>Cumulus humilis or cumulus fractus other than of bad weather, or both</EntryName_en>
+    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -21549,6 +21602,7 @@
     <ElementName_en>Cloud type</ElementName_en>
     <CodeFigure>36</CodeFigure>
     <EntryName_en>Stratus nebulosus or stratus fractus other than of bad weather, or both</EntryName_en>
+    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -21556,6 +21610,7 @@
     <ElementName_en>Cloud type</ElementName_en>
     <CodeFigure>37</CodeFigure>
     <EntryName_en>Stratus fractus or cumulus fractus of bad weather, or both (pannus), usually below altostratus or nimbostratus</EntryName_en>
+    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -22473,6 +22528,7 @@
     <CodeFigure>7</CodeFigure>
     <EntryName_en>At the station</EntryName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>51</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -22481,6 +22537,7 @@
     <CodeFigure>8</CodeFigure>
     <EntryName_en>In the vicinity</EntryName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>51</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -23408,6 +23465,7 @@
     <CodeFigure>5</CodeFigure>
     <EntryName_en>Tall Cumulus congestus with vertical thickness more than twice the average width; not organized in clusters or lines; one or more layers of clouds extend out from the cloud towers, although no continuous cloud layers exist</EntryName_en>
     <Note_en>(see Note)</Note_en>
+    <noteIDs>55</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -23430,6 +23488,7 @@
     <CodeFigure>8</CodeFigure>
     <EntryName_en>Continuous dense middle clouds and/or Cirrostratus cloud sheets with some large isolated Cumulonimbus or Cumulus congestus clouds penetrating these sheets; light rain occasionally observed from the Altostratus; Cumulonimbus bases ragged and dark with showers visible</EntryName_en>
     <Note_en>(see Note)</Note_en>
+    <noteIDs>55</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24115,6 +24174,7 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>70</CodeFigure>
     <EntryName_en>Visibility has not varied (sun visible) towards direction specified</EntryName_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24122,6 +24182,7 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>71</CodeFigure>
     <EntryName_en>Visibility has not varied (sun invisible) towards direction specified</EntryName_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24129,6 +24190,7 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>72</CodeFigure>
     <EntryName_en>Visibility has increased (sun visible) towards direction specified</EntryName_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24136,6 +24198,7 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>73</CodeFigure>
     <EntryName_en>Visibility has increased (sun invisible) towards direction specified</EntryName_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24143,6 +24206,7 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>74</CodeFigure>
     <EntryName_en>Visibility has decreased (sun visible) towards direction specified</EntryName_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24150,6 +24214,7 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>75</CodeFigure>
     <EntryName_en>Visibility has decreased (sun invisible) towards direction specified</EntryName_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -29469,6 +29534,7 @@
     <ElementName_en>Moving platform direction reporting method</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Direction originally reported using Code table 0700, FM 13</EntryName_en>
+    <noteIDs>94</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -29497,6 +29563,7 @@
     <ElementName_en>Moving platform speed reporting method</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Speed originally reported using Code table 4451, FM 13</EntryName_en>
+    <noteIDs>95</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -29840,6 +29907,8 @@
     <ElementName_en>Orbit state flag</ElementName_en>
     <CodeFigure>9</CodeFigure>
     <EntryName_en>DORIS DIODE navigator orbit</EntryName_en>
+    <Note_en>,</Note_en>
+    <noteIDs>9,37</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30043,6 +30112,7 @@
     <ElementName_en>Altimeter data quality flag</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Ku band SWH</EntryName_en>
+    <noteIDs>96</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30050,6 +30120,7 @@
     <ElementName_en>Altimeter data quality flag</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>C band SWH</EntryName_en>
+    <noteIDs>96</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30106,6 +30177,7 @@
     <ElementName_en>Altimeter correction quality flag</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Ku band SWH instrumental correction</EntryName_en>
+    <noteIDs>96</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30113,6 +30185,7 @@
     <ElementName_en>Altimeter correction quality flag</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>C band SWH instrumental correction</EntryName_en>
+    <noteIDs>96</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30284,10 +30357,11 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
-    <FXY>025120</FXY>
+    <FXY>t25120</FXY>
     <ElementName_en>RA2-L2-processing flag</ElementName_en>
     <CodeFigure>0</CodeFigure>
     <EntryName_en>Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold</EntryName_en>
+    <noteIDs>98</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30372,6 +30446,7 @@
     <ElementName_en>MWR-L2-processing flag</ElementName_en>
     <CodeFigure>0</CodeFigure>
     <EntryName_en>Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold</EntryName_en>
+    <noteIDs>98</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30379,6 +30454,7 @@
     <ElementName_en>MWR-L2-processing flag</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold</EntryName_en>
+    <noteIDs>98</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30638,6 +30714,7 @@
     <ElementName_en>Method for reducing pressure to sea level</ElementName_en>
     <CodeFigure>0</CodeFigure>
     <EntryName_en>Pressure adjusted to mean sea level following WMO-No. 8 for low level (&lt; 50 m) stations</EntryName_en>
+    <noteIDs>44</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
