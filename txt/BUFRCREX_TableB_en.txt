@@ -1190,8 +1190,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 21,Radar data,021188,Number of valid points for specific band automatic gain control,,,Numeric,0,0,7,Numeric,0,3,Operational
 21,Radar data,021189,Corrected OCOG backscatter coefficient (negative reference),"*","112,11",dB,2,-32768,16,dB,2,6,Operational
 22,Oceanographic elements,022001,Direction of waves,(see Note 6),136,degree true,0,0,9,degree true,0,3,Operational
-22,Oceanographic elements,022002,Direction of wind waves,,136,degree true,0,0,9,degree true,0,3,Operational
-22,Oceanographic elements,022003,Direction of swell waves,,136,degree true,0,0,9,degree true,0,3,Operational
+22,Oceanographic elements,022002,Direction of wind waves,(see Note 6),136,degree true,0,0,9,degree true,0,3,Operational
+22,Oceanographic elements,022003,Direction of swell waves,(see Note 6),136,degree true,0,0,9,degree true,0,3,Operational
 22,Oceanographic elements,022004,Direction of current,(see Note 7),54,degree true,0,0,9,degree true,0,3,Operational
 22,Oceanographic elements,022005,Direction of sea-surface current,,,degree true,0,0,9,degree true,0,3,Operational
 22,Oceanographic elements,022011,Period of waves,,,s,0,0,6,s,0,2,Operational
@@ -1259,9 +1259,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 22,Oceanographic elements,022095,Directional spread of individual waves,,,deg,0,0,8,deg,0,3,Operational
 22,Oceanographic elements,022096,Spectral band width,,,/s,3,0,4,/s,3,2,Operational
 22,Oceanographic elements,022097,Mean wavelength > 731 m of image spectrum at low wave numbers,(see Note 5),107,m,0,0,14,m,0,5,Operational
-22,Oceanographic elements,022098,Wavelength spread (wavelength > 731 m) at low wave numbers,,107,m,0,0,14,m,0,5,Operational
+22,Oceanographic elements,022098,Wavelength spread (wavelength > 731 m) at low wave numbers,(see Note 5),107,m,0,0,14,m,0,5,Operational
 22,Oceanographic elements,022099,Mean direction at low wave numbers (wavelength > 731 m),(see Note 5),109,degree true,0,0,9,degree true,0,3,Operational
-22,Oceanographic elements,022100,Direction spread at low wave numbers (wavelength > 731 m),,109,deg,0,0,9,deg,0,3,Operational
+22,Oceanographic elements,022100,Direction spread at low wave numbers (wavelength > 731 m),(see Note 5),109,deg,0,0,9,deg,0,3,Operational
 22,Oceanographic elements,022101,Total energy (wavelength > 731m) at low wave numbers,(see Note 5),108,Numeric,0,0,31,Numeric,0,10,Operational
 22,Oceanographic elements,022102,Scaled maximum non-directional spectral wave density by frequency,(see Note 10),104,m2 s,0,0,14,m2 s,0,5,Operational
 22,Oceanographic elements,022103,Scaled maximum non-directional spectral wave density by wave number,(see Note 10),104,m3,0,0,14,m3,0,5,Operational
