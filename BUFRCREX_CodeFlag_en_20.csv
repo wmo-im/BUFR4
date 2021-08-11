@@ -1,6 +1,6 @@
 FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
 020003,Present weather,,00-49     No precipitation at the station at the time of observation,,,,,Operational
-020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station* at the time of observation or, except for 09 and 17, during the preceding hour",,,,77,Operational
+020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour",,,*,77,Operational
 020003,Present weather,,00-03     No meteors except photometeors,,,,,Operational
 020003,Present weather,00,Cloud development not observed or not observable,Characteristic change of the state of sky during the past hour,,,,Operational
 020003,Present weather,01,Clouds generally dissolving or becoming less developed,Characteristic change of the state of sky during the past hour,,,,Operational
@@ -106,11 +106,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,92,Moderate or heavy rain at time of observation,Thunderstorm during the preceding hour but not at time of observation,,,,Operational
 020003,Present weather,93,"Slight snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,*,46,Operational
 020003,Present weather,94,"Moderate or heavy snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,*,46,Operational
-020003,Present weather,95,"Thunderstorm, slight or moderate, without hail*, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,,,Operational
-020003,Present weather,96,"Thunderstorm, slight or moderate, with hail* at time of observation",Thunderstorm at time of observation,,,,Operational
+020003,Present weather,95,"Thunderstorm, slight or moderate, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,*,46,Operational
+020003,Present weather,96,"Thunderstorm, slight or moderate, with hail at time of observation",Thunderstorm at time of observation,,*,46,Operational
 020003,Present weather,97,"Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,*,46,Operational
 020003,Present weather,98,Thunderstorm combined with duststorm or sandstorm at time of observation,Thunderstorm at time of observation,,,,Operational
-020003,Present weather,99,"Thunderstorm, heavy, with hail* at time of observation",Thunderstorm at time of observation,,,,Operational
+020003,Present weather,99,"Thunderstorm, heavy, with hail at time of observation",Thunderstorm at time of observation,,*,46,Operational
 020003,Present weather,,Present weather reported from an automatic weather station,,,,,Operational
 020003,Present weather,100,No significant weather observed,,,,,Operational
 020003,Present weather,101,Clouds generally dissolving or becoming less developed during the past hour,,,,,Operational
