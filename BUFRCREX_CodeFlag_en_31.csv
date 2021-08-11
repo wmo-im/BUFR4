@@ -8,7 +8,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 031021,Associated field significance,8,"0 = Not suspected, 1 = Suspected, 2 = Reserved, 3 = Information not required",,,,,Operational
 031021,Associated field significance,9,"0 = Data present, good, collocated, 1 = Data available but of degraded quality and not used, 2 = No spatiotemporally collocated data available, 3-14 = Not used (reserved), 15 = Missing value",,,,,Operational
 031021,Associated field significance,10-20,Reserved,,,,,Operational
-031021,Associated field significance,21,1-bit indicator of correction,"0 = original value, 1 = substituted/corrected value",,(see Note 2),,Operational
+031021,Associated field significance,21,1-bit indicator of correction,"0 = original value, 1 = substituted/corrected value",,(see Note 2),74,Operational
 031021,Associated field significance,22-62,Reserved for local use,,,,,Operational
 031021,Associated field significance,63,Missing value,,,,,Operational
 031031,Data present indicator,1,,"0 = Data present, 1 = Data not present",,,,Operational

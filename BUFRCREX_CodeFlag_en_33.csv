@@ -167,7 +167,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033032,Channel quality flags for ATOVS,8-23,Reserved (bits set to zero),,,,,Operational
 033032,Channel quality flags for ATOVS,All 24,Missing value,,,,,Operational
 033033,Field of view quality flags for ATOVS,1,Set if secondary calibration used,,,,,Operational
-033033,Field of view quality flags for ATOVS,2-21,Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems,,,,,Operational
+033033,Field of view quality flags for ATOVS,2-21,Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems,,,,26,Operational
 033033,Field of view quality flags for ATOVS,22,Set if all the channels are missing,,,,,Operational
 033033,Field of view quality flags for ATOVS,23,Suspect,,,,,Operational
 033033,Field of view quality flags for ATOVS,All 24,Missing value,,,,,Operational
@@ -397,26 +397,26 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033072,Ozone error,31,Missing value,,,,,Operational
 033075,Scan-level quality flags,1,"Gap in raw data record (RDR) data detected (i.e., missing scan(s) preceding the current scan)",,,,,Operational
 033075,Scan-level quality flags,2,"Recorded time is not in sequence (i.e., the scan start time is out of sequence)",,,,,Operational
-033075,Scan-level quality flags,3,Lambda monitored calculation cannot be updated,,,(see Note 1),,Operational
-033075,Scan-level quality flags,4,"The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges",,,(see Note 2),,Operational
+033075,Scan-level quality flags,3,Lambda monitored calculation cannot be updated,,,(see Note 1),72,Operational
+033075,Scan-level quality flags,4,"The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges",,,(see Note 2),83,Operational
 033075,Scan-level quality flags,5,At least one of the monitored instrument temperatures has drifted more than a specified tolerance value,,,,,Operational
 033075,Scan-level quality flags,6-12,Reserved,,,,,Operational
 033075,Scan-level quality flags,All 13,Missing value,,,,,Operational
-033076,Calibration quality flags,1,Lunar intrusion on first deep space view,,,(see Note),,Operational
-033076,Calibration quality flags,2,Lunar intrusion on second deep space view,,,(see Note),,Operational
+033076,Calibration quality flags,1,Lunar intrusion on first deep space view,,,(see Note),71,Operational
+033076,Calibration quality flags,2,Lunar intrusion on second deep space view,,,(see Note),71,Operational
 033076,Calibration quality flags,3-8,Reserved,,,,,Operational
 033076,Calibration quality flags,All 9,Missing value,,,,,Operational
-033077,Field-of-view quality flags,1,Degraded SDR* quality,,,,,Operational
-033077,Field-of-view quality flags,2,Invalid SDR* quality,,,(see Note 1),,Operational
-033077,Field-of-view quality flags,3,Invalid SDR* geolocation information,,,,,Operational
+033077,Field-of-view quality flags,1,Degraded SDR quality,,,*,97,Operational
+033077,Field-of-view quality flags,2,Invalid SDR quality,,,"(see Note 1),*","68,97",Operational
+033077,Field-of-view quality flags,3,Invalid SDR geolocation information,,,*,97,Operational
 033077,Field-of-view quality flags,4,Degraded radiometric calibration,,,,,Operational
-033077,Field-of-view quality flags,5,Invalid radiometric calibration,,,(see Note 2),,Operational
+033077,Field-of-view quality flags,5,Invalid radiometric calibration,,,(see Note 2),67,Operational
 033077,Field-of-view quality flags,6,Degraded spectral calibration,,,,,Operational
-033077,Field-of-view quality flags,7,Invalid spectral calibration,,,(see Note 3),,Operational
-033077,Field-of-view quality flags,8,Fringe count error detected and corrected,,,(see Note 4),,Operational
-033077,Field-of-view quality flags,9,Day/night indicator,,,(see Note 5),,Operational
-033077,Field-of-view quality flags,10,Invalid RDR** data,,,(see Note 6),,Operational
-033077,Field-of-view quality flags,11,Significant fringe count error detected,,,(see Note 7),,Operational
+033077,Field-of-view quality flags,7,Invalid spectral calibration,,,(see Note 3),73,Operational
+033077,Field-of-view quality flags,8,Fringe count error detected and corrected,,,(see Note 4),70,Operational
+033077,Field-of-view quality flags,9,Day/night indicator,,,(see Note 5),69,Operational
+033077,Field-of-view quality flags,10,Invalid RDR data,,,"(see Note 6),**","87,103",Operational
+033077,Field-of-view quality flags,11,Significant fringe count error detected,,,(see Note 7),86,Operational
 033077,Field-of-view quality flags,12,Bit trim failed,,,,,Operational
 033077,Field-of-view quality flags,13-18,Reserved,,,,,Operational
 033077,Field-of-view quality flags,All 19,Missing value,,,,,Operational
@@ -439,7 +439,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033079,Granule level quality flags,15,Quadratic correction applied to the radiometric transfer function for non-linearity correction,,,,,Operational
 033079,Granule level quality flags,All 16,Missing value,,,,,Operational
 033080,Scan level quality flags,1-6,Reserved,,,,,Operational
-033080,Scan level quality flags,7,Divide-by-zero condition or computation loop failed to converge in the K/Ka and V (KAV) band PRT,,,*,,Operational
+033080,Scan level quality flags,7,Divide-by-zero condition or computation loop failed to converge in the K/Ka and V (KAV) band PRT,,,*,104,Operational
 033080,Scan level quality flags,8,Divide-by-zero condition or computation loop failed to converge in the WG band PRT,,,,,Operational
 033080,Scan level quality flags,9,"Divide-by-zero condition or computation loop failed to converge in the K/Ka, V, W, G band receiver shelf PRT K temperature computation",,,,,Operational
 033080,Scan level quality flags,10,Out of range condition for the K/Ka and V band PRT,,,,,Operational
@@ -478,7 +478,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033082,Geolocation quality flags,All 16,Missing value,,,,,Operational
 033083,Radiance data quality flags,1-5,Reserved,,,,,Operational
 033083,Radiance data quality flags,6,Pixel is affected by radio-frequency interference,,,,,Operational
-033083,Radiance data quality flags,7,"Poor calibration quality due to bad space view offsets, OBC * view offsets, etc. or use of a previous calibration view",,,,,Operational
+033083,Radiance data quality flags,7,"Poor calibration quality due to bad space view offsets, OBC view offsets, etc. or use of a previous calibration view",,,*,105,Operational
 033083,Radiance data quality flags,8,Saturated pixel,,,,,Operational
 033083,Radiance data quality flags,9,Missing data -data required for calibration processing are not available for processing,,,,,Operational
 033083,Radiance data quality flags,10,Calibrated pixel radiance out of range,,,,,Operational
@@ -502,7 +502,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033084,Pixel level quality flags,All 16,Missing value,,,,,Operational
 033085,Aerosol optical thickness quality flags,1-3,Reserved,,,,,Operational
 033085,Aerosol optical thickness quality flags,4,Angstrom exponent is outside of the system specification range,,,,,Operational
-033085,Aerosol optical thickness quality flags,5,"Excluded, Angstrom exponent for AOT* at 550 nm < 0.15",,,,,Operational
+033085,Aerosol optical thickness quality flags,5,"Excluded, Angstrom exponent for AOT at 550 nm < 0.15",,,*,121,Operational
 033085,Aerosol optical thickness quality flags,6,"Bright surface in cell (if over land), or shallow or turbid water in cell (if over ocean)",,,,,Operational
 033085,Aerosol optical thickness quality flags,7,"Low sun, excluded, Solar Zenith Angle > 80 degrees",,,,,Operational
 033085,Aerosol optical thickness quality flags,8,"Low sun, degraded, 65 degrees < Solar Zenith Angle =< 80 degrees",,,,,Operational
@@ -510,7 +510,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033085,Aerosol optical thickness quality flags,10,Snow/Ice in cell,,,,,Operational
 033085,Aerosol optical thickness quality flags,11,Cloud shadow in cell,,,,,Operational
 033085,Aerosol optical thickness quality flags,12,Sun glint in cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,13,Bad SDR** data present in horizontal cell (quality of AOT/APSP*** degraded or AOT/APSP not retrieved due to bad SDR data in horizontal cell),,,,,Operational
+033085,Aerosol optical thickness quality flags,13,Bad SDR data present in horizontal cell (quality of AOT/APSP degraded or AOT/APSP not retrieved due to bad SDR data in horizontal cell),,,"**,***","97,120",Operational
 033085,Aerosol optical thickness quality flags,14,Cirrus contamination in cell,,,,,Operational
 033085,Aerosol optical thickness quality flags,15,Cloud adjacent to cell,,,,,Operational
 033085,Aerosol optical thickness quality flags,16,Cloud contamination in cell,,,,,Operational
@@ -537,7 +537,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033088,Ozone total column quality flag,6,Surface reflectivity out of range,,,,,Operational
 033088,Ozone total column quality flag,7,Residual too large,,,,,Operational
 033088,Ozone total column quality flag,8,Aerosol index limit exceeded,,,,,Operational
-033088,Ozone total column quality flag,9,"Solar eclipse present (all or part of the IFOV* is affected by a solar eclipse, umbra or penumbra viewing)",,,,,Operational
+033088,Ozone total column quality flag,9,"Solar eclipse present (all or part of the IFOV is affected by a solar eclipse, umbra or penumbra viewing)",,,*,109,Operational
 033088,Ozone total column quality flag,10,Sun glint present within IFOV,,,,,Operational
 033088,Ozone total column quality flag,11,Snow or ice surface is within the IFOV,,,,,Operational
 033088,Ozone total column quality flag,12,Solar zenith angle in excluded (night) condition (solar zenith angle >= 88 degrees),,,,,Operational
