@@ -31065,6 +31065,7 @@
     <ElementName_en>Projection type</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>Scanning Cone (radar)</EntryName_en>
+    <noteIDs>65</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -31371,6 +31372,7 @@
     <EntryName_en>1-bit indicator of correction</EntryName_en>
     <EntryName_sub1_en>0 = original value, 1 = substituted/corrected value</EntryName_sub1_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>74</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -32575,6 +32577,7 @@
     <ElementName_en>Field of view quality flags for ATOVS</ElementName_en>
     <CodeFigure>2-21</CodeFigure>
     <EntryName_en>Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems</EntryName_en>
+    <noteIDs>26</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34186,6 +34189,7 @@
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Lambda monitored calculation cannot be updated</EntryName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>72</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34194,6 +34198,7 @@
     <CodeFigure>4</CodeFigure>
     <EntryName_en>The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges</EntryName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>83</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34223,6 +34228,7 @@
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Lunar intrusion on first deep space view</EntryName_en>
     <Note_en>(see Note)</Note_en>
+    <noteIDs>71</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34231,6 +34237,7 @@
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Lunar intrusion on second deep space view</EntryName_en>
     <Note_en>(see Note)</Note_en>
+    <noteIDs>71</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34252,6 +34259,7 @@
     <ElementName_en>Field-of-view quality flags</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Degraded SDR quality</EntryName_en>
+    <noteIDs>97</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34259,7 +34267,8 @@
     <ElementName_en>Field-of-view quality flags</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Invalid SDR quality</EntryName_en>
-    <Note_en>(see Note 1)</Note_en>
+    <Note_en>(see Note 1),</Note_en>
+    <noteIDs>68,97</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34267,6 +34276,7 @@
     <ElementName_en>Field-of-view quality flags</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Invalid SDR geolocation information</EntryName_en>
+    <noteIDs>97</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34282,6 +34292,7 @@
     <CodeFigure>5</CodeFigure>
     <EntryName_en>Invalid radiometric calibration</EntryName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34297,6 +34308,7 @@
     <CodeFigure>7</CodeFigure>
     <EntryName_en>Invalid spectral calibration</EntryName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>73</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34305,6 +34317,7 @@
     <CodeFigure>8</CodeFigure>
     <EntryName_en>Fringe count error detected and corrected</EntryName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>70</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34313,6 +34326,7 @@
     <CodeFigure>9</CodeFigure>
     <EntryName_en>Day/night indicator</EntryName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>69</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34320,7 +34334,8 @@
     <ElementName_en>Field-of-view quality flags</ElementName_en>
     <CodeFigure>10</CodeFigure>
     <EntryName_en>Invalid RDR data</EntryName_en>
-    <Note_en>(see Note 6)</Note_en>
+    <Note_en>(see Note 6),</Note_en>
+    <noteIDs>87,103</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34329,6 +34344,7 @@
     <CodeFigure>11</CodeFigure>
     <EntryName_en>Significant fringe count error detected</EntryName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>86</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34490,6 +34506,7 @@
     <ElementName_en>Scan level quality flags</ElementName_en>
     <CodeFigure>7</CodeFigure>
     <EntryName_en>Divide-by-zero condition or computation loop failed to converge in the K/Ka and V (KAV) band PRT</EntryName_en>
+    <noteIDs>104</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34762,7 +34779,8 @@
     <FXY>033083</FXY>
     <ElementName_en>Radiance data quality flags</ElementName_en>
     <CodeFigure>7</CodeFigure>
-    <EntryName_en>Poor calibration quality due to bad space view offsets, OBC  view offsets, etc. or use of a previous calibration view</EntryName_en>
+    <EntryName_en>Poor calibration quality due to bad space view offsets, OBC view offsets, etc. or use of a previous calibration view</EntryName_en>
+    <noteIDs>105</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34931,6 +34949,7 @@
     <ElementName_en>Aerosol optical thickness quality flags</ElementName_en>
     <CodeFigure>5</CodeFigure>
     <EntryName_en>Excluded, Angstrom exponent for AOT at 550 nm &lt; 0.15</EntryName_en>
+    <noteIDs>121</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34987,6 +35006,8 @@
     <ElementName_en>Aerosol optical thickness quality flags</ElementName_en>
     <CodeFigure>13</CodeFigure>
     <EntryName_en>Bad SDR data present in horizontal cell (quality of AOT/APSP degraded or AOT/APSP not retrieved due to bad SDR data in horizontal cell)</EntryName_en>
+    <Note_en>,</Note_en>
+    <noteIDs>97,120</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -35176,6 +35197,7 @@
     <ElementName_en>Ozone total column quality flag</ElementName_en>
     <CodeFigure>9</CodeFigure>
     <EntryName_en>Solar eclipse present (all or part of the IFOV is affected by a solar eclipse, umbra or penumbra viewing)</EntryName_en>
+    <noteIDs>109</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -36338,6 +36360,7 @@
     <ElementName_en>Radiometer brightness temperature interpretation flag</ElementName_en>
     <CodeFigure>0</CodeFigure>
     <EntryName_en>Interpolation with no gap between JMR data</EntryName_en>
+    <noteIDs>107</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -36345,6 +36368,7 @@
     <ElementName_en>Radiometer brightness temperature interpretation flag</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Interpolation with gaps between JMR data</EntryName_en>
+    <noteIDs>107</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -36352,6 +36376,7 @@
     <ElementName_en>Radiometer brightness temperature interpretation flag</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Extrapolation of JMR data</EntryName_en>
+    <noteIDs>107</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
