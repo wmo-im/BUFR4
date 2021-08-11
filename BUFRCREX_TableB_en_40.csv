@@ -67,7 +67,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 40,Satellite data,040066,Quality indicator for atmospheric water vapour,,,Numeric,1,0,8,Numeric,1,3,Operational
 40,Satellite data,040067,Quality indicator for atmospheric temperature,,,Numeric,1,0,8,Numeric,1,3,Operational
 40,Satellite data,040068,General retrieval quality flag for SO2,,,Code table,0,0,4,Code table,0,2,Operational
-40,Satellite data,040069,PWLR estimated retrieval error for surface air temperature,,114,K,4,-1000000,21,K,4,7,Operational
+40,Satellite data,040069,PWLR estimated retrieval error for surface air temperature,*,114,K,4,-1000000,21,K,4,7,Operational
 40,Satellite data,040070,PWLR estimated retrieval error of surface dewpoint,,,K,4,-1000000,21,K,4,7,Operational
 40,Satellite data,040071,Retrieval error covariance matrix for ozone in principal component domain,,,Numeric,4,-1000000,21,Numeric,4,7,Operational
 40,Satellite data,040072,PWLR estimated retrieval quality indicator of atmospheric ozone,,,Numeric,1,0,8,Numeric,1,3,Operational
