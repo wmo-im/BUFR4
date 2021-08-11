@@ -1036,7 +1036,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002147,Method of transmission to collection centre,3,Internet ISP ,,,,,Operational
 002147,Method of transmission to collection centre,4,"DCP via satellite (MTSAT, METEOSAT, etc.)",,,,,Operational
 002147,Method of transmission to collection centre,5,VSAT ,,,,,Operational
-002147,Method of transmission to collection centre,6,"GAN,* BGAN**",,,,"115,118",Operational
+002147,Method of transmission to collection centre,6,"GAN, BGAN",,,"*,**","115,118",Operational
 002147,Method of transmission to collection centre,7,Thiss terminal,,,,,Operational
 002147,Method of transmission to collection centre,8,Iridium satellites,,,,,Operational
 002147,Method of transmission to collection centre,9,Mobile telephony,,,,,Operational
@@ -2625,7 +2625,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 019119,Type of the final T-number,4-6,Reserved,,,,,Operational
 019119,Type of the final T-number,7,Missing value,,,,,Operational
 020003,Present weather,,00-49     No precipitation at the station at the time of observation,,,,,Operational
-020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station* at the time of observation or, except for 09 and 17, during the preceding hour",,,,77,Operational
+020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour",,,*,77,Operational
 020003,Present weather,,00-03     No meteors except photometeors,,,,,Operational
 020003,Present weather,00,Cloud development not observed or not observable,Characteristic change of the state of sky during the past hour,,,,Operational
 020003,Present weather,01,Clouds generally dissolving or becoming less developed,Characteristic change of the state of sky during the past hour,,,,Operational
@@ -2731,11 +2731,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,92,Moderate or heavy rain at time of observation,Thunderstorm during the preceding hour but not at time of observation,,,,Operational
 020003,Present weather,93,"Slight snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,*,46,Operational
 020003,Present weather,94,"Moderate or heavy snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,*,46,Operational
-020003,Present weather,95,"Thunderstorm, slight or moderate, without hail*, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,,,Operational
-020003,Present weather,96,"Thunderstorm, slight or moderate, with hail* at time of observation",Thunderstorm at time of observation,,,,Operational
+020003,Present weather,95,"Thunderstorm, slight or moderate, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,*,46,Operational
+020003,Present weather,96,"Thunderstorm, slight or moderate, with hail at time of observation",Thunderstorm at time of observation,,*,46,Operational
 020003,Present weather,97,"Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,*,46,Operational
 020003,Present weather,98,Thunderstorm combined with duststorm or sandstorm at time of observation,Thunderstorm at time of observation,,,,Operational
-020003,Present weather,99,"Thunderstorm, heavy, with hail* at time of observation",Thunderstorm at time of observation,,,,Operational
+020003,Present weather,99,"Thunderstorm, heavy, with hail at time of observation",Thunderstorm at time of observation,,*,46,Operational
 020003,Present weather,,Present weather reported from an automatic weather station,,,,,Operational
 020003,Present weather,100,No significant weather observed,,,,,Operational
 020003,Present weather,101,Clouds generally dissolving or becoming less developed during the past hour,,,,,Operational
@@ -4091,15 +4091,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025021,Wind computation enhancement,5,Other,,,,,Operational
 025021,Wind computation enhancement,6-7,Reserved,,,,,Operational
 025021,Wind computation enhancement,All 8,Missing value,,,,,Operational
-025022,GHRSST* rejection flag,1,Unprocessed,,,,,Operational
-025022,GHRSST* rejection flag,2,Land suspected,,,,,Operational
-025022,GHRSST* rejection flag,3,Wind speed too large,,,,,Operational
-025022,GHRSST* rejection flag,4,Ice detected,,,,,Operational
-025022,GHRSST* rejection flag,5,Rain detected (Microwave retrievals only),,,,,Operational
-025022,GHRSST* rejection flag,6,Cloudy detected (Infra-red retrievals only),,,,,Operational
-025022,GHRSST* rejection flag,7,Cosmetic value,,,,,Operational
-025022,GHRSST* rejection flag,8,SST out of range,,,,,Operational
-025022,GHRSST* rejection flag,All 9,Missing value,,,,,Operational
+025022,GHRSST rejection flag,1,Unprocessed,,,*,116,Operational
+025022,GHRSST rejection flag,2,Land suspected,,,*,116,Operational
+025022,GHRSST rejection flag,3,Wind speed too large,,,*,116,Operational
+025022,GHRSST rejection flag,4,Ice detected,,,*,116,Operational
+025022,GHRSST rejection flag,5,Rain detected (Microwave retrievals only),,,*,116,Operational
+025022,GHRSST rejection flag,6,Cloudy detected (Infra-red retrievals only),,,*,116,Operational
+025022,GHRSST rejection flag,7,Cosmetic value,,,*,116,Operational
+025022,GHRSST rejection flag,8,SST out of range,,,*,116,Operational
+025022,GHRSST rejection flag,All 9,Missing value,,,*,116,Operational
 025023,GHRSST confidence flag,1,Default confidence value has been used,,,,,Operational
 025023,GHRSST confidence flag,2,Default bias and standard deviation have been used,,,,,Operational
 025023,GHRSST confidence flag,3,Sun glint suspected,,,,,Operational
