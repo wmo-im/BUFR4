@@ -76,7 +76,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 21,Radar data,021118,Attenuation correction on sigma-0,,,dB,2,-10000,14,dB,2,5,Operational
 21,Radar data,021119,Wind scatterometer geophysical model function,,,Code table,0,0,6,Code table,0,2,Operational
 21,Radar data,021120,Probability of rain,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021121,SEAWINDS NOF* rain index,,,Numeric,0,0,8,Numeric,0,3,Operational
+21,Radar data,021121,SEAWINDS NOF rain index,*,106,Numeric,0,0,8,Numeric,0,3,Operational
 21,Radar data,021122,Attenuation correction on sigma-0 (from tB),,,dB,2,-10000,14,dB,2,5,Operational
 21,Radar data,021123,SEAWINDS normalized radar cross-section,,,dB,2,-30000,15,dB,2,5,Operational
 21,Radar data,021128,Number of valid points per second used to derive previous parameters,,,Numeric,0,0,8,Numeric,0,3,Operational
@@ -124,7 +124,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 21,Radar data,021174,RMS C band automatic gain control,,,dB,2,0,9,dB,2,3,Operational
 21,Radar data,021175,Number of valid points for C band automatic gain control,,,Numeric,0,0,10,Numeric,0,4,Operational
 21,Radar data,021176,High frequency variability correction,,,m,3,0,16,m,3,5,Operational
-21,Radar data,021177,Corrected OCOG* backscatter coefficient,,,dB,2,0,16,dB,2,5,Operational
+21,Radar data,021177,Corrected OCOG backscatter coefficient,*,112,dB,2,0,16,dB,2,5,Operational
 21,Radar data,021178,STD of 20 Hz OCOG backscatter coefficient,,,dB,2,0,16,dB,2,5,Operational
 21,Radar data,021179,Number of 20 Hz valid points for OCOG backscatter coefficient,,,Numeric,0,0,16,Numeric,0,5,Operational
 21,Radar data,021180,Number of 20 Hz valid points for ocean backscatter coefficient,,,Numeric,0,0,8,Numeric,0,3,Operational
@@ -136,4 +136,4 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 21,Radar data,021186,Specific band automatic gain control,,,dB,2,0,13,dB,2,4,Operational
 21,Radar data,021187,RMS specific band automatic gain control,,,dB,2,0,8,dB,2,3,Operational
 21,Radar data,021188,Number of valid points for specific band automatic gain control,,,Numeric,0,0,7,Numeric,0,3,Operational
-21,Radar data,021189,Corrected OCOG* backscatter coefficient (negative reference),"is similar to 0-21-177, but with a negative reference value",,dB,2,-32768,16,dB,2,6,Operational
+21,Radar data,021189,Corrected OCOG backscatter coefficient (negative reference),"*","112,11",dB,2,-32768,16,dB,2,6,Operational

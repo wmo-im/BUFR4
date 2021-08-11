@@ -21,7 +21,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 04,Location (time),004026,Time period or displacement,,,s,0,-4096,13,s,0,4,Operational
 04,Location (time),004031,Duration of time relating to following value,,,h,0,0,8,h,0,3,Operational
 04,Location (time),004032,Duration of time relating to following value,,,min,0,0,6,min,0,2,Operational
-04,Location (time),004041,"Time difference, UTC - LMT",(see Note 6),,min,0,-1440,12,min,0,4,Operational
+04,Location (time),004041,"Time difference, UTC - LMT",(see Note 6),48,min,0,-1440,12,min,0,4,Operational
 04,Location (time),004043,Day of the year,,,d,0,0,9,d,0,3,Operational
 04,Location (time),004051,Principal time of daily reading of maximum temperature,,,h,0,0,5,h,0,2,Operational
 04,Location (time),004052,Principal time of daily reading of minimum temperature,,,h,0,0,5,h,0,2,Operational

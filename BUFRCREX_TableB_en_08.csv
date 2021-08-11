@@ -21,15 +21,15 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 08,Significance qualifiers,008020,Total number of missing entities (with respect to accumulation or average),,,Numeric,0,0,16,Numeric,0,5,Operational
 08,Significance qualifiers,008021,Time significance,,,Code table,0,0,5,Code table,0,2,Operational
 08,Significance qualifiers,008022,Total number (with respect to accumulation or average),,,Numeric,0,0,16,Numeric,0,5,Operational
-08,Significance qualifiers,008023,First-order statistics,,,Code table,0,0,6,Code table,0,2,Operational
-08,Significance qualifiers,008024,Difference statistics,,,Code table,0,0,6,Code table,0,2,Operational
-08,Significance qualifiers,008025,Time difference qualifier,(see Note 5),,Code table,0,0,4,Code table,0,2,Operational
+08,Significance qualifiers,008023,First-order statistics,,70,Code table,0,0,6,Code table,0,2,Operational
+08,Significance qualifiers,008024,Difference statistics,,61,Code table,0,0,6,Code table,0,2,Operational
+08,Significance qualifiers,008025,Time difference qualifier,(see Note 5),49,Code table,0,0,4,Code table,0,2,Operational
 08,Significance qualifiers,008026,Matrix significance,,,Code table,0,0,6,Code table,0,2,Operational
 08,Significance qualifiers,008029,Surface type,,,Code table,0,0,8,Code table,0,3,Operational
 08,Significance qualifiers,008030,"Manual on Codes (Volume I.1, Section C) Code table from which data are derived",,,Numeric,0,0,13,Numeric,0,4,Operational
 08,Significance qualifiers,008031,Data category - CREX table A,,,Numeric,0,0,8,Numeric,0,3,Operational
 08,Significance qualifiers,008032,Status of operation,,,Code table,0,0,4,Code table,0,2,Operational
-08,Significance qualifiers,008033,Method of derivation of percentage confidence,(see Note 6),,Code table,0,0,7,Code table,0,3,Operational
+08,Significance qualifiers,008033,Method of derivation of percentage confidence,(see Note 6),50,Code table,0,0,7,Code table,0,3,Operational
 08,Significance qualifiers,008034,Temperature/salinity measurement qualifier,,,Code table,0,0,4,Code table,0,2,Operational
 08,Significance qualifiers,008035,Type of monitoring exercise,,,Code table,0,0,3,Code table,0,1,Operational
 08,Significance qualifiers,008036,Type of centre or station performing monitoring,,,Code table,0,0,3,Code table,0,1,Operational
@@ -39,7 +39,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 08,Significance qualifiers,008040,Flight level significance,,,Code table,0,0,6,Code table,0,2,Operational
 08,Significance qualifiers,008041,Data significance,,,Code table,0,0,5,Code table,0,2,Operational
 08,Significance qualifiers,008042,Extended vertical sounding significance,,,Flag table,0,0,18,Flag table,0,6,Operational
-08,Significance qualifiers,008043,Atmospheric chemical or physical constituent type,,,Code table,0,0,8,Code table,0,3,Operational
+08,Significance qualifiers,008043,Atmospheric chemical or physical constituent type,,169,Code table,0,0,8,Code table,0,3,Operational
 08,Significance qualifiers,008044,CAS registry number,,,CCITT IA5,0,0,88,Character,0,11,Operational
 08,Significance qualifiers,008046,Atmospheric chemical or physical constituent type,,,Common Code table C-14,0,0,16,Common Code table C-14,0,5,Operational
 08,Significance qualifiers,008049,Number of observations,,,Numeric,0,0,8,Numeric,0,3,Operational
@@ -66,7 +66,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 08,Significance qualifiers,008086,Vertical significance for NWP,,,Flag table,0,0,12,Flag table,0,4,Operational
 08,Significance qualifiers,008087,Corner position of observation,,,Code table,0,0,3,Code table,0,1,Operational
 08,Significance qualifiers,008088,Map significance,,,Code table,0,0,6,Code table,0,2,Operational
-08,Significance qualifiers,008090,Decimal scale of following significands,,,Numeric,0,-127,8,Numeric,0,3,Operational
+08,Significance qualifiers,008090,Decimal scale of following significands,,51,Numeric,0,-127,8,Numeric,0,3,Operational
 08,Significance qualifiers,008091,Coordinates significance,,,Code table,0,0,8,Code table,0,3,Operational
 08,Significance qualifiers,008092,Measurement uncertainty expression,,,Code table,0,0,5,Code table,0,2,Operational
 08,Significance qualifiers,008093,Measurement uncertainty significance,,,Code table,0,0,5,Code table,0,2,Operational

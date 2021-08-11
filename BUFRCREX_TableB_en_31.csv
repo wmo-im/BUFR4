@@ -2,7 +2,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 31,Data description operator qualifiers,031000,Short delayed descriptor replication factor,,,Numeric,0,0,1,,,,Operational
 31,Data description operator qualifiers,031001,Delayed descriptor replication factor,,,Numeric,0,0,8,,,,Operational
 31,Data description operator qualifiers,031002,Extended delayed descriptor replication factor,,,Numeric,0,0,16,,,,Operational
-31,Data description operator qualifiers,031011,Delayed descriptor and data repetition factor,,,Numeric,0,0,8,,,,Operational
+31,Data description operator qualifiers,031011,Delayed descriptor and data repetition factor,,127,Numeric,0,0,8,,,,Operational
 31,Data description operator qualifiers,031012,Extended delayed descriptor and data repetition factor,,,Numeric,0,0,16,,,,Operational
 31,Data description operator qualifiers,031021,Associated field significance,,,Code table,0,0,6,,,,Operational
-31,Data description operator qualifiers,031031,Data present indicator,,,Flag table,0,0,1,,,,Operational
+31,Data description operator qualifiers,031031,Data present indicator,,"59,113",Flag table,0,0,1,,,,Operational

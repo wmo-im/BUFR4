@@ -7,12 +7,12 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 25,Processing information,025006,Z to R conversion,,,Code table,0,0,3,Code table,0,1,Operational
 25,Processing information,025007,Z to R conversion factor,,,Numeric,0,0,12,Numeric,0,4,Operational
 25,Processing information,025008,Z to R conversion exponent,,,Numeric,2,0,9,Numeric,2,3,Operational
-25,Processing information,025009,Calibration method,(see Note 3),,Flag table,0,0,4,Flag table,0,2,Operational
+25,Processing information,025009,Calibration method,(see Note 3),56,Flag table,0,0,4,Flag table,0,2,Operational
 25,Processing information,025010,Clutter treatment,,,Code table,0,0,4,Code table,0,2,Operational
 25,Processing information,025011,Ground occultation correction (screening),,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025012,Range attenuation correction,,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025013,Bright-band correction,,,Flag table,0,0,2,Flag table,0,1,Operational
-25,Processing information,025014,Azimuth clutter cut-off,(see Note 1),,Numeric,0,0,12,Numeric,0,4,Operational
+25,Processing information,025014,Azimuth clutter cut-off,(see Note 1),15,Numeric,0,0,12,Numeric,0,4,Operational
 25,Processing information,025015,Radome attenuation correction,,,Flag table,0,0,2,Flag table,0,1,Operational
 25,Processing information,025016,Clear-air attenuation correction,,,dB/m,5,0,6,dB/m,5,2,Operational
 25,Processing information,025017,Precipitation attenuation correction,,,Flag table,0,0,2,Flag table,0,1,Operational
@@ -20,19 +20,19 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 25,Processing information,025019,A to Z law for attenuation exponent,,,Numeric,2,0,7,Numeric,2,3,Operational
 25,Processing information,025020,Mean speed estimation,,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025021,Wind computation enhancement,,,Flag table,0,0,8,Flag table,0,3,Operational
-25,Processing information,025022,GHRSST* rejection flag,,,Flag table,0,0,9,Flag table,0,3,Operational
+25,Processing information,025022,GHRSST rejection flag,*,82,Flag table,0,0,9,Flag table,0,3,Operational
 25,Processing information,025023,GHRSST confidence flag,,,Flag table,0,0,9,Flag table,0,3,Operational
 25,Processing information,025024,GHRSST data quality,,,Code table,0,0,4,Code table,0,2,Operational
 25,Processing information,025025,Battery voltage,,,V,1,0,9,V,1,3,Operational
 25,Processing information,025026,Battery voltage (large range),,,V,1,0,12,V,1,4,Operational
 25,Processing information,025028,Operator or manufacturer defined parameter,,,Numeric,1,-16384,15,Numeric,1,5,Operational
-25,Processing information,025029,Calibration method,(see Note 3),,Flag table,0,0,6,Flag table,0,2,Operational
+25,Processing information,025029,Calibration method,(see Note 3),56,Flag table,0,0,6,Flag table,0,2,Operational
 25,Processing information,025030,Running mean sea-surface temperature usage,,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025031,NWP-generated vertical profile thinning method,,,Code table,0,0,3,Code table,0,1,Operational
-25,Processing information,025032,Wind profiler mode information,(see Note 2),,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025033,Wind profiler submode information,(see Note 2),,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025034,Wind profiler quality control test results,(see Note 2),,Flag table,0,0,4,Flag table,0,2,Operational
-25,Processing information,025035,Decision method for polarity,(see Note 5),,Code table,0,0,3,Code table,0,1,Operational
+25,Processing information,025032,Wind profiler mode information,(see Note 2),131,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025033,Wind profiler submode information,(see Note 2),131,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025034,Wind profiler quality control test results,(see Note 2),131,Flag table,0,0,4,Flag table,0,2,Operational
+25,Processing information,025035,Decision method for polarity,(see Note 5),34,Code table,0,0,3,Code table,0,1,Operational
 25,Processing information,025036,Atmospherics location method,,,Code table,0,0,4,Code table,0,2,Operational
 25,Processing information,025037,SST bias,,,K,2,-127,8,K,2,3,Operational
 25,Processing information,025038,Difference between SST and analysis,,,K,1,-127,8,K,1,3,Operational
@@ -52,10 +52,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 25,Processing information,025053,Observation quality,,,Flag table,0,0,12,Flag table,0,4,Operational
 25,Processing information,025054,SSMIS subframe ID number,,,Numeric,0,0,5,Numeric,0,2,Operational
 25,Processing information,025055,Multiplexer housekeeping,,,K,2,0,16,K,2,5,Operational
-25,Processing information,025060,Software identification,(see Note 2),,Numeric,0,0,14,Numeric,0,5,Operational
+25,Processing information,025060,Software identification,(see Note 2),131,Numeric,0,0,14,Numeric,0,5,Operational
 25,Processing information,025061,Software identification and version number,,,CCITT IA5,0,0,96,Character,0,12,Operational
 25,Processing information,025062,Database identification,,,Numeric,0,0,14,Numeric,0,5,Operational
-25,Processing information,025063,Central processor or system identifier,(see Note 6),,Code table,0,0,8,Code table,0,3,Operational
+25,Processing information,025063,Central processor or system identifier,(see Note 6),71,Code table,0,0,8,Code table,0,3,Operational
 25,Processing information,025065,Orientation correction (azimuth),,,deg,2,-1000,11,deg,2,4,Operational
 25,Processing information,025066,Orientation correction (elevation),,,deg,2,-1000,11,deg,2,4,Operational
 25,Processing information,025067,Radiosonde release point pressure correction,,,Pa,0,-8000,14,Pa,0,4,Operational
@@ -119,7 +119,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 25,Processing information,025140,Start channel,,,Numeric,0,0,14,Numeric,0,5,Operational
 25,Processing information,025141,End channel,,,Numeric,0,0,14,Numeric,0,5,Operational
 25,Processing information,025142,Channel scale factor,,,Numeric,0,0,6,Numeric,0,2,Operational
-25,Processing information,025143,Linear coefficient,,,Numeric,6,-5000000,24,Numeric,6,8,Operational
+25,Processing information,025143,Linear coefficient,,57,Numeric,6,-5000000,24,Numeric,6,8,Operational
 25,Processing information,025148,Coefficient of variation,,,Numeric,2,-10000,15,Numeric,2,5,Operational
 25,Processing information,025149,Optimal estimation cost,,,Numeric,0,0,8,Numeric,0,3,Operational
 25,Processing information,025150,Method of tropical cyclone intensity analysis using satellite data,,,Code table,0,0,4,Code table,0,2,Operational
@@ -135,8 +135,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 25,Processing information,025171,Sample averaging period,,,s,0,0,10,s,0,4,Operational
 25,Processing information,025172,Number of samples,,,Numeric,0,0,10,Numeric,0,4,Operational
 25,Processing information,025174,SMOS information flag,,,Flag table,0,0,14,Flag table,0,5,Operational
-25,Processing information,025175,Modified residual,(see Note 7),,Numeric,2,0,13,Numeric,2,4,Operational
-25,Processing information,025180,LRM* per cent,,,%,2,0,16,%,2,5,Operational
+25,Processing information,025175,Modified residual,(see Note 7),103,Numeric,2,0,13,Numeric,2,4,Operational
+25,Processing information,025180,LRM per cent,*,97,%,2,0,16,%,2,5,Operational
 25,Processing information,025181,L2 processing flag,,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025182,L1 processing flag,,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025183,L1 processing quality,,,%,2,0,14,%,2,5,Operational

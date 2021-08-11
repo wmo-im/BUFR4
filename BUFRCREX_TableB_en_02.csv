@@ -16,7 +16,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002017,Correction algorithms for humidity measurements,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002019,Satellite instruments,,,Code table,0,0,11,Code table,0,4,Operational
 02,Instrumentation,002020,Satellite classification,,,Code table,0,0,9,Code table,0,3,Operational
-02,Instrumentation,002021,Satellite instrument data used in processing,*,,Flag table,0,0,9,Flag table,0,3,Operational
+02,Instrumentation,002021,Satellite instrument data used in processing,*,47,Flag table,0,0,9,Flag table,0,3,Operational
 02,Instrumentation,002022,Satellite data-processing technique used,,,Flag table,0,0,8,Flag table,0,3,Operational
 02,Instrumentation,002023,Satellite-derived wind computation method,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002024,Integrated mean humidity computational method,,,Code table,0,0,4,Code table,0,2,Operational
@@ -81,7 +81,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002096,Type of temperature sensor,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002097,Type of humidity sensor,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002099,Polarization,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002100,Radar constant,*,,dB,1,0,12,dB,1,4,Operational
+02,Instrumentation,002100,Radar constant,*,157,dB,1,0,12,dB,1,4,Operational
 02,Instrumentation,002101,Type of antenna,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002102,Antenna height above tower base,,,m,0,0,8,m,0,3,Operational
 02,Instrumentation,002103,Radome,,,Flag table,0,0,2,Flag table,0,1,Operational
@@ -121,9 +121,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002137,Radar dual PRF ratio,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002138,Antenna rotation direction,,,Code table,0,0,2,Code table,0,1,Operational
 02,Instrumentation,002139,SIRAL instrument configuration,,,Code table,0,0,2,Code table,0,1,Operational
-02,Instrumentation,002140,Satellite radar beam azimuth angle,(see Note 4),,deg,0,0,9,deg,0,3,Operational
+02,Instrumentation,002140,Satellite radar beam azimuth angle,(see Note 4),111,deg,0,0,9,deg,0,3,Operational
 02,Instrumentation,002141,Measurement type,,,CCITT IA5,0,0,24,Character,0,3,Operational
-02,Instrumentation,002142,Ozone instrument serial number/identification,(see Note 5),,CCITT IA5,0,0,32,Character,0,4,Operational
+02,Instrumentation,002142,Ozone instrument serial number/identification,(see Note 5),91,CCITT IA5,0,0,32,Character,0,4,Operational
 02,Instrumentation,002143,Ozone instrument type,,,Code table,0,0,7,Code table,0,3,Operational
 02,Instrumentation,002144,Light source type for Brewer spectrophotometer,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002145,Wavelength setting for Dobson instruments,,,Code table,0,0,4,Code table,0,2,Operational
@@ -133,7 +133,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002149,Type of data buoy,,,Code table,0,0,6,Code table,0,2,Operational
 02,Instrumentation,002150,TOVS/ATOVS/AVHRR instrumentation channel number,,,Code table,0,0,6,Code table,0,2,Operational
 02,Instrumentation,002151,Radiometer identifier,,,Code table,0,0,11,Code table,0,4,Operational
-02,Instrumentation,002152,Satellite instrument used in data processing,(see Note 6),,Flag table,0,0,31,Flag table,0,10,Operational
+02,Instrumentation,002152,Satellite instrument used in data processing,(see Note 6),46,Flag table,0,0,31,Flag table,0,10,Operational
 02,Instrumentation,002153,Satellite channel centre frequency,,,Hz,-8,0,26,Hz,-8,8,Operational
 02,Instrumentation,002154,Satellite channel band width,,,Hz,-8,0,26,Hz,-8,8,Operational
 02,Instrumentation,002155,Satellite channel wavelength,,,m,9,0,16,m,9,5,Operational
@@ -154,7 +154,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002170,Aircraft humidity sensors,,,Code table,0,0,6,Code table,0,2,Operational
 02,Instrumentation,002171,Instrument serial number for water temperature profile measurement,,,CCITT IA5,0,0,64,Character,0,8,Operational
 02,Instrumentation,002172,Product type for retrieved atmospheric gases,,,Code table,0,0,8,Code table,0,3,Operational
-02,Instrumentation,002173,Square of the off-nadir angle,(see Note 7),,deg2,4,0,10,deg2,4,4,Operational
+02,Instrumentation,002173,Square of the off-nadir angle,(see Note 7),124,deg2,4,0,10,deg2,4,4,Operational
 02,Instrumentation,002174,Mean across track pixel number,,,Numeric,0,0,9,Numeric,0,3,Operational
 02,Instrumentation,002175,Method of precipitation measurement,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002176,Method of state of ground measurement,,,Code table,0,0,4,Code table,0,2,Operational

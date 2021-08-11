@@ -8,12 +8,12 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 10,Non-coordinate location (vertical),010009,Geopotential height,,,gpm,0,-1000,17,gpm,0,5,Operational
 10,Non-coordinate location (vertical),010010,Minimum pressure reduced to mean sea level,,,Pa,-1,0,14,Pa,-1,5,Operational
 10,Non-coordinate location (vertical),010011,Maximum pressure reduced to mean sea level,,,Pa,-1,0,14,Pa,-1,5,Operational
-10,Non-coordinate location (vertical),010031,"In direction of the North Pole, distance from the Earth's centre",(see Notes 2 and 3),,m,2,-1073741824,31,m,2,10,Operational
+10,Non-coordinate location (vertical),010031,"In direction of the North Pole, distance from the Earth's centre",(see Notes 2 and 3),"93,150",m,2,-1073741824,31,m,2,10,Operational
 10,Non-coordinate location (vertical),010032,Satellite distance to Earth's centre,,,m,1,0,27,m,2,9,Operational
 10,Non-coordinate location (vertical),010033,Altitude (platform to ellipsoid),,,m,1,0,27,m,2,9,Operational
 10,Non-coordinate location (vertical),010034,Earth's radius,,,m,1,0,27,m,2,9,Operational
 10,Non-coordinate location (vertical),010035,Earth's local radius of curvature,,,m,1,62000000,22,m,1,8,Operational
-10,Non-coordinate location (vertical),010036,Geoid undulation,(see Note 4),,m,2,-15000,15,m,2,6,Operational
+10,Non-coordinate location (vertical),010036,Geoid undulation,(see Note 4),128,m,2,-15000,15,m,2,6,Operational
 10,Non-coordinate location (vertical),010038,Maximum height of deck cargo above summer load line,,,m,0,0,6,m,0,2,Operational
 10,Non-coordinate location (vertical),010039,Departure of reference level (summer maximum load line) from actual sea level,,,m,0,-32,6,m,0,3,Operational
 10,Non-coordinate location (vertical),010040,Number of retrieved layers,,,Numeric,0,0,10,Numeric,0,4,Operational

@@ -28,8 +28,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 33,Quality information,033042,Type of limit represented by following value,,,Code table,0,0,3,Code table,0,1,Operational
 33,Quality information,033043,AST confidence,,,Flag table,0,0,8,Flag table,0,3,Operational
 33,Quality information,033044,ASAR quality information,,,Flag table,0,0,15,Flag table,0,5,Operational
-33,Quality information,033045,Probability of following event,(see Notes 1 and 3),,%,0,0,7,%,0,3,Operational
-33,Quality information,033046,Conditional probability of following event with respect to specified conditioning event,"(see Notes 1, 2 and 3)",,%,0,0,7,%,0,3,Operational
+33,Quality information,033045,Probability of following event,(see Notes 1 and 3),"168,173",%,0,0,7,%,0,3,Operational
+33,Quality information,033046,Conditional probability of following event with respect to specified conditioning event,"(see Notes 1, 2 and 3)","168,173,174",%,0,0,7,%,0,3,Operational
 33,Quality information,033047,Measurement confidence data,,,Flag table,0,0,31,Flag table,0,11,Operational
 33,Quality information,033048,Confidence measure of SAR inversion,,,Code table,0,0,2,Code table,0,1,Operational
 33,Quality information,033049,Confidence measure of wind retrieval,,,Code table,0,0,2,Code table,0,1,Operational
