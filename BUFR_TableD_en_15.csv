@@ -37,10 +37,10 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001079,Unique identifier for the profile,Hexadecimal string,,,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001103,IMO Number. Unique Lloyd's register,= 0 to 9999999,,,Operational
-15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001087,WMO marine observing platform extended identifier,,(see Note 1),,Operational
+15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001087,WMO marine observing platform extended identifier,,(see Note 1),24,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001019,Long station or site name,Ship name,,,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001080,Ship line number according to SOOP,,,,Operational
-15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,005036,Ship transect number according to SOOP,,(see Note 2),,Operational
+15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,005036,Ship transect number according to SOOP,,(see Note 2),31,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001036,Agency in charge of operating the observing platform,,,,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001013,Speed of motion of moving observing platform,,,,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,001012,Direction of motion of moving observing platform,,,,Operational
@@ -80,7 +80,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,002171,Instrument serial number for water temperature profile measurement,,,,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,302090,Sea/water temperature high precision,,,,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,002171,Instrument serial number for water temperature profile measurement,,,,Operational
-15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,002032,Indicator for digitization,,(see Note 3),,Operational
+15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,002032,Indicator for digitization,,(see Note 3),64,Operational
 15,Oceanographic report sequences,315004,(XBT temperature profile data sequence),,315005,Water temperature profile (temperature profile observed by XBT or buoy),,,,Operational
 15,Oceanographic report sequences,315005,(Water temperature profile (temperature profile observed by XBT or buoy),,106000,Delayed replication of 6 descriptors,,,,Operational
 15,Oceanographic report sequences,315005,(Water temperature profile (Temperature profile observed by XBT or buoy),,031002,Extended delayed descriptor replication factor,,,,Operational

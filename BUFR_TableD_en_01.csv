@@ -1,10 +1,10 @@
 Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
 01,Location and identification sequences,301001,(WMO block and station numbers),,001001,WMO block number,,,,Operational
 01,Location and identification sequences,301001,(WMO block and station numbers),,001002,WMO station number,,,,Operational
-01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,,,Operational
-01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,,,Operational
-01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,,,Operational
-01,Location and identification sequences,301003,(Ship's call sign and motion),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational
+01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,(see Note 1),11,Operational
+01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,(see Note 1),11,Operational
+01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,(see Note 1),11,Operational
+01,Location and identification sequences,301003,(Ship's call sign and motion),,001011,Ship or mobile land station identifier,Ship's call sign,(see Note 2),57,Operational
 01,Location and identification sequences,301003,(Ship's call sign and motion),,001012,Direction of motion of moving observing platform,,,,Operational
 01,Location and identification sequences,301003,(Ship's call sign and motion),,001013,Speed of motion of moving observing platform,,,,Operational
 01,Location and identification sequences,301004,(Surface station identification),,001001,WMO block number,,,,Operational
@@ -24,7 +24,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301014,(Time period),,102002,Replicate 2 descriptors 2 times,,,,Operational
 01,Location and identification sequences,301014,(Time period),,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301014,(Time period),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,001114,Encrypted ship or mobile land station identifier (base64 encoding),See Notes 2-4,,,Operational
+01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,001114,Encrypted ship or mobile land station identifier (base64 encoding),,(see Notes 2,3 and 4),"57,23,46",Operational
 01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,025185,Encryption method,,,,Operational
 01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,025186,Encryption key version,,,,Operational
 01,Location and identification sequences,301021,(Latitude/longitude (high accuracy)),,005001,Latitude (high accuracy),,,,Operational
@@ -49,16 +49,16 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004005,Minute,,,,Operational
 01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,008007,Dimensional significance,"= 0 Point, = 1 Line, = 2 Area, = 3 Volume",,,Operational
 01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,101000,Delayed replication of 1 descriptor,,,,Operational
-01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,031001,Delayed descriptor replication factor,,(see Note 5),,Operational
+01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,031001,Delayed descriptor replication factor,,(see Note 5),65,Operational
 01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,301028,"Horizontal section of a feature described as a polygon, circle, line or point",,,,Operational
 01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,008007,Dimensional significance,Set to missing (cancel),,,Operational
 01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,008040,Flight level significance,,,,Operational
 01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,033042,Type of limit represented by following value,,,,Operational
 01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,007010,Flight level,,,,Operational
 01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,101000,Delayed replication of 1 descriptor,,,,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,031002,Extended delayed descriptor replication factor,,(see Note 6),,Operational
+01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,031002,Extended delayed descriptor replication factor,,(see Note 6),66,Operational
 01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,019007,Effective radius of feature,,(see Note 7),,Operational
+01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,019007,Effective radius of feature,,(see Note 7),61,Operational
 01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,008040,Flight level significance,Set to missing (cancel),,,Operational
 01,Location and identification sequences,301029,(Identification),,001018,Short station or site name,,,,Operational
 01,Location and identification sequences,301029,(Identification),,002001,Type of station,,,,Operational
@@ -87,13 +87,13 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301034,(Buoy/platform - fixed),,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301034,(Buoy/platform - fixed),,301012,"Hour, minute",,,,Operational
 01,Location and identification sequences,301034,(Buoy/platform - fixed),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving) (see Note 8),,001005,Buoy/platform identifier,,,,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,001012,Direction of motion of moving observing platform,,,,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,001013,Speed of motion of moving observing platform,,,,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+01,Location and identification sequences,301035,(Buoy/platform - moving),,001005,Buoy/platform identifier,,(see Note 8),12,Operational
+01,Location and identification sequences,301035,(Buoy/platform - moving),,001012,Direction of motion of moving observing platform,,(see Note 8),12,Operational
+01,Location and identification sequences,301035,(Buoy/platform - moving),,001013,Speed of motion of moving observing platform,,(see Note 8),12,Operational
+01,Location and identification sequences,301035,(Buoy/platform - moving),,002001,Type of station,,(see Note 8),12,Operational
+01,Location and identification sequences,301035,(Buoy/platform - moving),,301011,"Year, month, day",,(see Note 8),12,Operational
+01,Location and identification sequences,301035,(Buoy/platform - moving),,301012,"Hour, minute",,(see Note 8),12,Operational
+01,Location and identification sequences,301035,(Buoy/platform - moving),,301023,Latitude/longitude (coarse accuracy),,(see Note 8),12,Operational
 01,Location and identification sequences,301036,(Ship),,301003,Ship's call sign and motion,,,,Operational
 01,Location and identification sequences,301036,(Ship),,002001,Type of station,,,,Operational
 01,Location and identification sequences,301036,(Ship),,301011,"Year, month, day",,,,Operational
@@ -123,24 +123,24 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301040,(Ship for vertical soundings),,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301040,(Ship for vertical soundings),,301012,"Hour, minute",,,,Operational
 01,Location and identification sequences,301040,(Ship for vertical soundings),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
-01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,001007,Satellite identifier,,,,Operational
+01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,001007,Satellite identifier,,(see Note 9),62,Operational
 01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,002021,Satellite instrument data used in processing,,,,Operational
 01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,002022,Satellite data-processing technique used,,,,Operational
 01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301041,"Satellite identifier, instrument, data-processing technique, date/time",,,,Operational
+01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301041,"Satellite identifier, instrument, data-processing technique, date/time",,(see Note 9),62,Operational
 01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,001007,Satellite identifier,,,,Operational
+01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,001007,Satellite identifier,,(see Note 9),62,Operational
 01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,002023,Satellite-derived wind computation method,,,,Operational
 01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301013,"Hour, minute, second",,,,Operational
 01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
 01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,002024,Integrated mean humidity computational method,,,,Operational
+01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,002024,Integrated mean humidity computational method,,(see Note 9),62,Operational
 01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301013,"Hour, minute, second",,,,Operational
 01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,301011,"Year, month, day",,,,Operational
+01,Location and identification sequences,301045,(Satellite location and velocity),,301011,"Year, month, day",,(see Note 9),62,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,301012,"Hour, minute",,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,201138,Change data width,16 bits long,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,202131,Change scale,Scale: 3,,,Operational
@@ -149,7 +149,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301045,(Satellite location and velocity),,202000,Change scale,Cancel,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,304030,Location of platform,Relative to the Earth’s centre,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,304031,Speed of platform,Relative to the Earth’s centre,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001007,Satellite identifier,,,,Operational
+01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001007,Satellite identifier,,(see Note 9),62,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001012,Direction of motion of moving observing platform,,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002048,Satellite sensor indicator,,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,021119,Wind scatterometer geophysical model function,,,,Operational
@@ -159,7 +159,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002027,Along-track resolution,,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,202000,Change scale,Cancel,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,005040,Orbit number,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,001007,Satellite identifier,,,,Operational
+01,Location and identification sequences,301047,(ERS product header),,001007,Satellite identifier,,(see Note 9),62,Operational
 01,Location and identification sequences,301047,(ERS product header),,025060,Software identification,,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,001033,Identification of originating/generating centre,,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,001034,Identification of originating/generating sub-centre,,,,Operational
@@ -174,7 +174,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301047,(ERS product header),,201000,Change data width,Cancel,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,202000,Change scale,Cancel,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002104,Antenna polarization,,,,Operational
+01,Location and identification sequences,301048,(Radar parameters),,002104,Antenna polarization,,(see Note 9),62,Operational
 01,Location and identification sequences,301048,(Radar parameters),,002121,Mean frequency,,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,002113,Number of azimuth looks,,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,002026,Cross-track resolution,,,,Operational
@@ -188,7 +188,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301048,(Radar parameters),,202000,Change scale,Cancel,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,025010,Clutter treatment,,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,021064,Clutter noise estimate,,,,Operational
-01,Location and identification sequences,301049,(Radar beam data),,002111,Radar incidence angle,,,,Operational
+01,Location and identification sequences,301049,(Radar beam data),,002111,Radar incidence angle,,(see Note 9),62,Operational
 01,Location and identification sequences,301049,(Radar beam data),,002112,Radar look angle,,,,Operational
 01,Location and identification sequences,301049,(Radar beam data),,021062,Backscatter,,,,Operational
 01,Location and identification sequences,301049,(Radar beam data),,021063,Radiometric resolution (noise value),,,,Operational
@@ -207,7 +207,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001012,Direction of motion of moving observing platform,,,,Operational
 01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001014,Platform drift speed (high precision),,,,Operational
 01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001087,WMO marine observing platform extended identifier,WMO number (extended 7 digit identifier),,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001011,Ship or mobile land station identifier,Call sign (where allocated),,,Operational
+01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001011,Ship or mobile land station identifier,Call sign (where allocated),(see Note 2),57,Operational
 01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001015,Station or site name,Platform name,,,Operational
 01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,002008,Type of offshore platform,,,,Operational
 01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,002001,Type of station,,,,Operational
@@ -256,11 +256,11 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,301021,Latitude/longitude (high accuracy),Sensor,,,Operational
 01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,007030,Height of station ground above mean sea level,,,,Operational
 01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,007032,Height of sensor above local ground (or deck of marine platform),Sensor for lightning,,,Operational
-01,Location and identification sequences,301062,(Radar location(s)),,101000,Delayed replication of 1 descriptor,,,,Operational
+01,Location and identification sequences,301062,(Radar location(s)),,101000,Delayed replication of 1 descriptor,,(see Note 9),62,Operational
 01,Location and identification sequences,301062,(Radar location(s)),,031001,Delayed descriptor replication factor,,,,Operational
 01,Location and identification sequences,301062,(Radar location(s)),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301065,(ACARS identification),,001006,Aircraft flight number,,(see Note 10),,Operational
-01,Location and identification sequences,301065,(ACARS identification),,001008,Aircraft registration number or other identification,,(see Note 10),,Operational
+01,Location and identification sequences,301065,(ACARS identification),,001006,Aircraft flight number,,(see Note 10),5,Operational
+01,Location and identification sequences,301065,(ACARS identification),,001008,Aircraft registration number or other identification,,(see Note 10),5,Operational
 01,Location and identification sequences,301065,(ACARS identification),,002001,Type of station,,,,Operational
 01,Location and identification sequences,301065,(ACARS identification),,002002,Type of instrumentation for wind measurement,,,,Operational
 01,Location and identification sequences,301065,(ACARS identification),,002005,Precision of temperature observation,,,,Operational
@@ -276,12 +276,12 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002143,Ozone instrument type,,,,Operational
 01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002142,Ozone instrument serial number/identification,,,,Operational
 01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002144,Light source type for Brewer spectrophotometer,,,,Operational
-01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001007,Satellite identifier,,,,Operational
+01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001007,Satellite identifier,,(see Note 9),62,Operational
 01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001031,Identification of originating/generating centre,,,,Operational
 01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002020,Satellite classification,,,,Operational
 01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002028,Segment size at nadir in x-direction,,,,Operational
 01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002029,Segment size at nadir in y-direction,,,,Operational
-01,Location and identification sequences,301072,(Satellite identification),,301071,Satellite identifier/Generating resolution,,,,Operational
+01,Location and identification sequences,301072,(Satellite identification),,301071,Satellite identifier/Generating resolution,,(see Note 9),62,Operational
 01,Location and identification sequences,301072,(Satellite identification),,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301072,(Satellite identification),,301013,"Hour, minute, second",,,,Operational
 01,Location and identification sequences,301072,(Satellite identification),,301021,Latitude/longitude (high accuracy),,,,Operational
@@ -316,7 +316,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301091,(Surface station instrumentation),,002187,Capability to detect other weather phenomena,,,,Operational
 01,Location and identification sequences,301091,(Surface station instrumentation),,002188,Capability to detect obscuration,,,,Operational
 01,Location and identification sequences,301091,(Surface station instrumentation),,002189,Capability to discriminate lightning strikes,,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001011,Ship or mobile land station identifier,,,,Operational
+01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001011,Ship or mobile land station identifier,,(see Note 2),57,Operational
 01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001003,WMO Region number/geographical area,,,,Operational
 01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,002001,Type of station,,,,Operational
 01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,301011,"Year, month, day",,,,Operational
@@ -328,13 +328,13 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,301036,Ship,Ship identification,,,Operational
 01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,007030,Height of station ground above mean sea level,,,,Operational
 01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,007031,Height of barometer above mean sea level,,,,Operational
-01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,301001,WMO block and station numbers,,,,Operational
+01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,301001,WMO block and station numbers,,(see Note 2),57,Operational
 01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,001011,Ship or mobile land station identifier,,,,Operational
 01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002011,Radiosonde type,,,,Operational
 01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002014,Tracking technique/status of system used,,,,Operational
 01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002003,Type of measuring equipment used,,,,Operational
 01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,001011,Ship or mobile land station identifier,,,,Operational
+01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,001011,Ship or mobile land station identifier,,(see Note 2),57,Operational
 01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002011,Radiosonde type,,,,Operational
 01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002013,Solar and infrared radiation correction,,,,Operational
 01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002014,Tracking technique/status of system used,,,,Operational
@@ -344,7 +344,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002013,Solar and infrared radiation correction,,,,Operational
 01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002014,Tracking technique/status of system used,,,,Operational
 01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002003,Type of measuring equipment used,,,,Operational
-01,Location and identification sequences,301113,(Date/time of launch) (see Note 11),,008021,Time significance,= 18 Launch time,,,Operational
+01,Location and identification sequences,301113,(Date/time of launch),,008021,Time significance,= 18 Launch time,(see Note 11),72,Operational
 01,Location and identification sequences,301113,(Date/time of launch),,301011,"Year, month, day",Launch time,,,Operational
 01,Location and identification sequences,301113,(Date/time of launch),,301013,"Hour, minute, second",Launch time,,,Operational
 01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,301021,Latitude/longitude (high accuracy),,,,Operational
@@ -361,7 +361,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301121,(Radiosonde launch point location),,301021,Latitude/longitude (high accuracy),,,,Operational
 01,Location and identification sequences,301121,(Radiosonde launch point location),,007031,Height of barometer above mean sea level,,,,Operational
 01,Location and identification sequences,301121,(Radiosonde launch point location),,007007,Height,Release of radiosonde above mean sea level,,,Operational
-01,Location and identification sequences,301122,(Date/time (to hundredths of second)) (see Note 11),,301011,"Year, month, day",,,,Operational
+01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301011,"Year, month, day",,(see Note 11),72,Operational
 01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301012,"Hour, minute",,,,Operational
 01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,201135,Change data width,,,,Operational
 01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,202130,Change scale,,,,Operational
@@ -454,7 +454,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301131,(Pixel geolocation),,005022,Solar azimuth,,,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,301150,WIGOS identifiers,,,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy) (see Note 12),Sensor,(12) The latitude and longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).,,Operational
+01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy),Sensor,(see Note 12),48,Operational
 01,Location and identification sequences,301132,(Common header sequence),,007030,Height of station ground above mean sea level,,,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,008021,Time significance,= 29 End of scan or time of ending,,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,301011,"Year, month, day",,,,Operational
