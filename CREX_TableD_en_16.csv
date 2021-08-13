@@ -42,7 +42,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,D16004,(Turbulence),,R02000,Delayed replication of 2 descriptors,,,,Operational
 16,Synoptic feature sequences,D16004,(Turbulence),,B05002,Latitude (coarse accuracy),,,,Operational
 16,Synoptic feature sequences,D16004,(Turbulence),,B06002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,D16004,(Turbulence),,B11031,Degree of turbulence,,(see Note 1),,Operational
+16,Synoptic feature sequences,D16004,(Turbulence),,B11031,Degree of turbulence,,(see Note 1),3,Operational
 16,Synoptic feature sequences,D16004,(Turbulence),,B08007,Dimensional significance,Cancel,,,Operational
 16,Synoptic feature sequences,D16004,(Turbulence),,B08011,Meteorological feature,Cancel | End of object,,,Operational
 16,Synoptic feature sequences,D16005,(Storm),,R08000,Delayed replication of 8 descriptors,,,,Operational
@@ -62,12 +62,12 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,D16006,(Cloud),,R02000,Delayed replication of 2 descriptors,,,,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B05002,Latitude (coarse accuracy),,,,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B06002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,D16006,(Cloud),,B20011,Cloud amount,,(see Note 2),,Operational
+16,Synoptic feature sequences,D16006,(Cloud),,B20011,Cloud amount,,(see Note 2),1,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B20012,Cloud type,,,,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B08007,Dimensional significance,Cancel,,,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B08011,Meteorological feature,Cancel | End of object,,,Operational
 16,Synoptic feature sequences,D16007,(Front),,R09000,Delayed replication of 9 descriptors,,,,Operational
-16,Synoptic feature sequences,D16007,(Front),,B08011,Meteorological feature,Value for type of front,(see Note 3),,Operational
+16,Synoptic feature sequences,D16007,(Front),,B08011,Meteorological feature,Value for type of front,(see Note 3),4,Operational
 16,Synoptic feature sequences,D16007,(Front),,B08007,Dimensional significance,Value for line,,,Operational
 16,Synoptic feature sequences,D16007,(Front),,R04000,Delayed replication of 4 descriptors,,,,Operational
 16,Synoptic feature sequences,D16007,(Front),,B05002,Latitude (coarse accuracy),,,,Operational
@@ -79,7 +79,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,D16008,(Tropopause),,R10000,Delayed replication of 10 descriptors,,,,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,B08001,Vertical sounding significance,Bit 3 set for tropopause,,,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,B08007,Dimensional significance,Value for point,,,Operational
-16,Synoptic feature sequences,D16008,(Tropopause),,B08023,First-order statistics,Type of tropopause value,(see Note 4),,Operational
+16,Synoptic feature sequences,D16008,(Tropopause),,B08023,First-order statistics,Type of tropopause value,(see Note 4),9,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,R03000,Delayed replication of 3 descriptors,,,,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,B05002,Latitude (coarse accuracy),,,,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,B06002,Longitude (coarse accuracy),,,,Operational

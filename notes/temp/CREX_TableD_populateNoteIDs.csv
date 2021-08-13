@@ -1,0 +1,36 @@
+category,FXY1,FXY2,notation,noteID,note
+00,n/a,n/a,(see Note 1),5,"It could be argued that, as only additions are possible, only complete lines should be allowed; but it is conceivable that local areas will require changes as well as additions, so it is better and in any case clearer to provide descriptions for all the fields."
+00,n/a,n/a,(see Note 2),6,"It is better to use different Class 00 descriptors for the defining and defined elements, in the same way as different descriptors correspond to pressure considered as a coordinate and pressure measured at a given point; otherwise special rules would be needed to interpret such message. Entries B 00 010 to B 00 012 define F, X and Y for Tables B and D; entry B 00 030 is a descriptor used as data and provides the F, X and Y values defining a sequence for Table D entries."
+00,n/a,n/a,(see Note 3),10,These entries include the facility to update the Table A code figure and data description.
+01,D01027,R01000,(see Note 5),11,"This replication factor shall have a value of ""1"" when a 2-D feature is being described, whereas 3-D features may be described via any one of the following methods: (a) Via two or more horizontal sections in successive ascending flight levels. In this case, each section shall be described by an identical number of latitude/longitude points listed in identical order (i.e. where each point x of section n is to be joined via a straight line to point x of section n+1), in order to ensure that the overall shape of the 3-D feature is unambiguously described. In this case, all values reported for B 33 042 shall be ""missing"". (b) Via a single horizontal section with an appropriate value reported for B 33 042, as follows. In all such cases,the corresponding horizontal section description applies throughout the entire region. (i) A value of ""0"" to indicate a region above (but not including) the reported flight level and with unspecified upper bound. (ii) A value of ""1"" to indicate a region above (and including) the reported flight level and with unspecified upper bound. ( iii) A value of ""2"" to indicate a region below (but not including) the reported flight level and extending to the surface. (iv) A value of ""3"" to indicate a region below (and including) the reported flight level and extending to the surface. (c) Via two replications of the same horizontal section at the same reported flight level, in order to indicate a region extending both below and above (and including!) the reported flight level. In this case, the values reported for the two replications of B 33 042 shall be as follows:(i) Values of ""3"" and ""1"", respectively, to indicate a region beginning from below a reported flightlevel, but continuing through that level upward to some unspecified point above (e.g. TOP ABVFL100). (ii) Values of ""1"" and ""3"", respectively, to indicate a region beginning from above a reported flightlevel, but continuing through that level downward to some unspecified point below (e.g. CIGSBLW FL010)."
+06,D06019,B04015,(see Note 1),7,Range of value for parameter B 04 015 limited from -99 to 99; CREX common sequence D 06 019 being the original sequence with 2 characters only for the corresponding descriptor.
+07,D07048,B11002,(see Note 5),12,"""Within D 07 045, D 07 048 and D 07 053, wind speed shall be reported in the same units as in the original TAC
+data and:
+B 11 083 shall be set to missing, if wind speed is reported in knots or m s–1 in TAC data,
+B 11 084 shall be set to missing, if wind speed is reported in km h–1 or m s–1 in TAC data."""
+07,D07048,B11083,(see Note 5),12,"""Within D 07 045, D 07 048 and D 07 053, wind speed shall be reported in the same units as in the original TAC
+data and:
+B 11 083 shall be set to missing, if wind speed is reported in knots or m s–1 in TAC data,
+B 11 084 shall be set to missing, if wind speed is reported in km h–1 or m s–1 in TAC data."""
+07,D07048,B11084,(see Note 5),12,"""Within D 07 045, D 07 048 and D 07 053, wind speed shall be reported in the same units as in the original TAC
+data and:
+B 11 083 shall be set to missing, if wind speed is reported in knots or m s–1 in TAC data,
+B 11 084 shall be set to missing, if wind speed is reported in km h–1 or m s–1 in TAC data."""
+07,D07048,B11041,(see Note 6),13,"""Within D 07 045, D 07 048 and D 07 053, maximum wind speed (gusts) shall be reported in the same units as in
+the original TAC data and:
+B 11 085 shall be set to missing, if maximum wind speed is reported in knots or m s–1 in TAC data,
+B 11 086 shall be set to missing, if maximum wind speed is reported in km h–1 or m s–1 in TAC data."""
+07,D07048,B11085,(see Note 6),13,"""Within D 07 045, D 07 048 and D 07 053, maximum wind speed (gusts) shall be reported in the same units as in
+the original TAC data and:
+B 11 085 shall be set to missing, if maximum wind speed is reported in knots or m s–1 in TAC data,
+B 11 086 shall be set to missing, if maximum wind speed is reported in km h–1 or m s–1 in TAC data."""
+07,D07048,B11086,(see Note 6),13,"""Within D 07 045, D 07 048 and D 07 053, maximum wind speed (gusts) shall be reported in the same units as in
+the original TAC data and:
+B 11 085 shall be set to missing, if maximum wind speed is reported in knots or m s–1 in TAC data,
+B 11 086 shall be set to missing, if maximum wind speed is reported in km h–1 or m s–1 in TAC data."""
+09,D09030,n/a,,8,Sequence D 09 030 is deprecated because of incorrect usage of descriptor B 04 015; sequence D 09 031 should be used instead.
+16,D16004,B11031,(see Note 1),3,For MOD OCNL SEV code as 12 (extreme in clear air) or 13 (extreme in cloud).
+16,D16006,B20011,(see Note 2),1,Code table values: FRQ = code figure 8 (8 oktas) OCNL EMBD = code figure 6 (6 oktas) ISOL = code figure 2 (2 oktas) when the cloud = Cb.
+16,D16007,B08011,(see Note 3),4,Front direction (towards which the front is moving) must always be given as it is needed for plotting purposes. A front direction with a front speed of zero would indicate a slow front. A value in the code table exists to represent a quasi-stationary front.
+16,D16008,B08023,(see Note 4),9,"The statistic is to determine whether the following tropopause levels are minimum, maximum or spot values (missing code value)."
+16,n/a,n/a,(see Note 5),2,"Decibel (dB) is a logarithmic measure of the relative power, or of the relative values of two flux densities, especially of sound intensities and radio and radar power densities. In radar meteorology, the logarithmic scale (dBZ) is used for measuring radar reflectivity factor (obtained from the American Meteorological Society Glossary of Meteorology)."
