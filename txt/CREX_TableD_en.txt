@@ -73,7 +73,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,D01026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,B04005,Minute,Time period in minutes,,,Operational
 01,Location and identification sequences,D01026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,B04005,Minute,,,,Operational
 01,Location and identification sequences,D01027,(Description of a feature in 3-D or 2-D),,B08007,Dimensional significance,"= 0 Point, = 1 Line, = 2 Area, = 3 Volume",,,Operational
-01,Location and identification sequences,D01027,(Description of a feature in 3-D or 2-D),,R01000,Delayed replication of 1 descriptor,,(see Note 5),,Operational
+01,Location and identification sequences,D01027,(Description of a feature in 3-D or 2-D),,R01000,Delayed replication of 1 descriptor,,(see Note 5),11,Operational
 01,Location and identification sequences,D01027,(Description of a feature in 3-D or 2-D),,D01028,"Horizontal section of a feature described as a polygon, circle, line or point",,,,Operational
 01,Location and identification sequences,D01027,(Description of a feature in 3-D or 2-D),,B08007,Dimensional significance,Set to missing (cancel),,,Operational
 01,Location and identification sequences,D01029,(Identification),,B01018,Short station or site name,,,,Operational
@@ -1075,7 +1075,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 06,Meteorological or oceanographic sequences common to oceanographic observations,D06019,"(Tide report identification, water level checks, time increments)",,B22120,Tide station automated water level check,,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,D06019,"(Tide report identification, water level checks, time increments)",,B22121,Tide station manual water level check,,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,D06019,"(Tide report identification, water level checks, time increments)",,C01002,Data width replacement,2 characters long,,,Operational
-06,Meteorological or oceanographic sequences common to oceanographic observations,D06019,"(Tide report identification, water level checks, time increments)",,B04015,Time increment,,(see Note 1),,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,D06019,"(Tide report identification, water level checks, time increments)",,B04015,Time increment,,(see Note 1),7,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,D06019,"(Tide report identification, water level checks, time increments)",,B04065,Short time increment,,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,D06020,"(Tide report identification, water level checks, time period or displacement, time increment) (see Note 2)",,B01075,Tide station identification,Alphanumeric,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,D06020,"(Tide report identification, water level checks, time period or displacement, time increment)",,D01011,"Year, month, day",,,,Operational
@@ -1377,13 +1377,13 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B07032,Height of sensor above local ground (or deck of marine platform),= 10 m (if the actual value is not available),,,Operational
 07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11001,Wind direction,ddd,,,Operational
 07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B08054,Qualifier for wind speed or wind gusts,P,,,Operational
-07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11083,Wind speed,ff - km/h,(see Note 5),,Operational
-07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11084,Wind speed,ff - kt,(see Note 5),,Operational
-07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11002,Wind speed,ff - m/s,(see Note 5),,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11083,Wind speed,ff - km/h,(see Note 5),12,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11084,Wind speed,ff - kt,(see Note 5),12,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11002,Wind speed,ff - m/s,(see Note 5),12,Operational
 07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B08054,Qualifier for wind speed or wind gusts,P,,,Operational
-07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11085,Maximum wind gust speed,fmfm - km/h,(see Note 6),,Operational
-07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11086,Maximum wind gust speed,fmfm - kt,(see Note 6),,Operational
-07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11041,Maximum wind gust speed,fmfm - m/s,(see Note 6),,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11085,Maximum wind gust speed,fmfm - km/h,(see Note 6),13,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11086,Maximum wind gust speed,fmfm - kt,(see Note 6),13,Operational
+07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B11041,Maximum wind gust speed,fmfm - m/s,(see Note 6),13,Operational
 07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B08054,Qualifier for wind speed or wind gusts,Set to missing (cancel),,,Operational
 07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B07032,Height of sensor above local ground (or deck of marine platform),Set to missing (cancel),,,Operational
 07,Surface report sequences (land),D07048,"(Trend type forecast), replacing D 07 018",,B20009,General weather indicator (TAF/METAR),CAVOK NSW NSC,,,Operational
@@ -2199,13 +2199,13 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 09,Vertical sounding sequences (conventional data),D09020,(Wind profiler - Cartesian coordinates),,B11003,u-component,,,,Operational
 09,Vertical sounding sequences (conventional data),D09020,(Wind profiler - Cartesian coordinates),,B11004,v-component,,,,Operational
 09,Vertical sounding sequences (conventional data),D09020,(Wind profiler - Cartesian coordinates),,B11005,w-component,,,,Operational
-09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data) (see Note 1),,B15004,Ozone sounding correction factor (CF),,,,Operational
-09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B15005,Ozone p,,,,Operational
-09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,R04000,Delayed replication of 4 descriptors,,,,Operational
-09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B04015,Time increment,"Since launch time, if needed, in minutes",,,Operational
-09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B08006,Ozone vertical sounding significance,,,,Operational
-09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B07004,Pressure,,,,Operational
-09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B15003,Measured ozone partial pressure (sounding),,,,Operational
+09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B15004,Ozone sounding correction factor (CF),,(see Note 1),8,Deprecated
+09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B15005,Ozone p,,(see Note 1),8,Deprecated
+09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,R04000,Delayed replication of 4 descriptors,,(see Note 1),8,Deprecated
+09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B04015,Time increment,"Since launch time, if needed, in minutes",(see Note 1),8,Deprecated
+09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B08006,Ozone vertical sounding significance,,(see Note 1),8,Deprecated
+09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B07004,Pressure,,(see Note 1),8,Deprecated
+09,Vertical sounding sequences (conventional data),D09030,(Ozone sonde flight data),,B15003,Measured ozone partial pressure (sounding),,(see Note 1),8,Deprecated
 09,Vertical sounding sequences (conventional data),D09031,(Ozone sonde flight data),,B15004,Ozone sounding correction factor (CF),,,,Operational
 09,Vertical sounding sequences (conventional data),D09031,(Ozone sonde flight data),,B15005,Ozone p,,,,Operational
 09,Vertical sounding sequences (conventional data),D09031,(Ozone sonde flight data),,R04000,Delayed replication of 4 descriptors,,,,Operational
@@ -2598,7 +2598,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,D16004,(Turbulence),,R02000,Delayed replication of 2 descriptors,,,,Operational
 16,Synoptic feature sequences,D16004,(Turbulence),,B05002,Latitude (coarse accuracy),,,,Operational
 16,Synoptic feature sequences,D16004,(Turbulence),,B06002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,D16004,(Turbulence),,B11031,Degree of turbulence,,(see Note 1),,Operational
+16,Synoptic feature sequences,D16004,(Turbulence),,B11031,Degree of turbulence,,(see Note 1),3,Operational
 16,Synoptic feature sequences,D16004,(Turbulence),,B08007,Dimensional significance,Cancel,,,Operational
 16,Synoptic feature sequences,D16004,(Turbulence),,B08011,Meteorological feature,Cancel | End of object,,,Operational
 16,Synoptic feature sequences,D16005,(Storm),,R08000,Delayed replication of 8 descriptors,,,,Operational
@@ -2618,12 +2618,12 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,D16006,(Cloud),,R02000,Delayed replication of 2 descriptors,,,,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B05002,Latitude (coarse accuracy),,,,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B06002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,D16006,(Cloud),,B20011,Cloud amount,,(see Note 2),,Operational
+16,Synoptic feature sequences,D16006,(Cloud),,B20011,Cloud amount,,(see Note 2),1,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B20012,Cloud type,,,,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B08007,Dimensional significance,Cancel,,,Operational
 16,Synoptic feature sequences,D16006,(Cloud),,B08011,Meteorological feature,Cancel | End of object,,,Operational
 16,Synoptic feature sequences,D16007,(Front),,R09000,Delayed replication of 9 descriptors,,,,Operational
-16,Synoptic feature sequences,D16007,(Front),,B08011,Meteorological feature,Value for type of front,(see Note 3),,Operational
+16,Synoptic feature sequences,D16007,(Front),,B08011,Meteorological feature,Value for type of front,(see Note 3),4,Operational
 16,Synoptic feature sequences,D16007,(Front),,B08007,Dimensional significance,Value for line,,,Operational
 16,Synoptic feature sequences,D16007,(Front),,R04000,Delayed replication of 4 descriptors,,,,Operational
 16,Synoptic feature sequences,D16007,(Front),,B05002,Latitude (coarse accuracy),,,,Operational
@@ -2635,7 +2635,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 16,Synoptic feature sequences,D16008,(Tropopause),,R10000,Delayed replication of 10 descriptors,,,,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,B08001,Vertical sounding significance,Bit 3 set for tropopause,,,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,B08007,Dimensional significance,Value for point,,,Operational
-16,Synoptic feature sequences,D16008,(Tropopause),,B08023,First-order statistics,Type of tropopause value,(see Note 4),,Operational
+16,Synoptic feature sequences,D16008,(Tropopause),,B08023,First-order statistics,Type of tropopause value,(see Note 4),9,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,R03000,Delayed replication of 3 descriptors,,,,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,B05002,Latitude (coarse accuracy),,,,Operational
 16,Synoptic feature sequences,D16008,(Tropopause),,B06002,Longitude (coarse accuracy),,,,Operational
