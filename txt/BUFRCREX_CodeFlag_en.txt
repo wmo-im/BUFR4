@@ -35,9 +35,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001029,SSI source,6,UK Met Office,,,,Operational
 001029,SSI source,7-30,Reserved for future use,,,,Operational
 001029,SSI source,31,Missing value,,,,Operational
-001031,Identification of originating/generating centre,,,,,,Operational
-001033,Identification of originating/generating centre,,,,,,Operational
-001034,Identification of originating/generating sub-centre,,,,,,Operational
+001031,Identification of originating/generating centre,,,,,"(See Common Code table C–1 in Part C/c.)",Operational
+001033,Identification of originating/generating centre,,,,,"(See Common Code table C–1 in Part C/c.)",Operational
+001034,Identification of originating/generating sub-centre,,,,,"(To be defined by centres themselves - See Common Code table C-12 in Part C/c.)",Operational
+001035,Originating/generating centre,,,,,"(See Common Code table C-11 in Part C/c.)",Operational
 001036,Agency in charge of operating the observing platform,0-36000,Reserved,,,,Operational
 001036,Agency in charge of operating the observing platform,36001,"Australia, Bureau of Meteorology (BoM)",,,,Operational
 001036,Agency in charge of operating the observing platform,36002,"Australia, Joint Australian Facility for Ocean Observing Systems (JAFOOS)",,,,Operational
@@ -352,6 +353,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001151,Fixed mean sea-level reference datum,1,Baltic height system 1977,,,,Operational
 001151,Fixed mean sea-level reference datum,2-4094,Reserved,,,,Operational
 001151,Fixed mean sea-level reference datum,4095,Missing value,,,,Operational
+001155,Retrieval identifier,0,Standard Correct Algorithm,,,,Operational
+001155,Retrieval identifier,1-254,Reserved,,,,Operational
+001155,Retrieval identifier,255,Missing value,,,,Operational
 002001,Type of station,0,Automatic,,,,Operational
 002001,Type of station,1,Manned,,,,Operational
 002001,Type of station,2,Hybrid: both manned and automatic,,,,Operational
@@ -581,8 +585,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002032,Indicator for digitization,2,Reserved,,,,Operational
 002032,Indicator for digitization,3,Missing value,,,,Operational
 002033,Method of salinity/depth measurement,0,No salinity measured,,,,Operational
-002033,Method of salinity/depth measurement,1,"In situ sensor, accuracy better than 0.02 ‰",,,,Operational
-002033,Method of salinity/depth measurement,2,"In situ sensor, accuracy less than 0.02 ‰",,,,Operational
+002033,Method of salinity/depth measurement,1,"In situ sensor, accuracy better than 0.02 0/00",,,,Operational
+002033,Method of salinity/depth measurement,2,"In situ sensor, accuracy less than 0.02 0/00",,,,Operational
 002033,Method of salinity/depth measurement,3,Sample analysis,,,,Operational
 002033,Method of salinity/depth measurement,4-6,Reserved,,,,Operational
 002033,Method of salinity/depth measurement,7,Missing value,,,,Operational
@@ -1939,7 +1943,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008036,Type of centre or station performing monitoring,5,Observing site,,,,Operational
 008036,Type of centre or station performing monitoring,6,Other,,,,Operational
 008036,Type of centre or station performing monitoring,7,Missing value,,,,Operational
-008037,Baseline check significance,0,Manufacturer’s baseline check unit,,,,Operational
+008037,Baseline check significance,0,Manufacturer's baseline check unit,,,,Operational
 008037,Baseline check significance,1,Weather screen,,,,Operational
 008037,Baseline check significance,2,GRUAN standard humidity chamber,,,,Operational
 008037,Baseline check significance,3-30,Reserved,,,,Operational
@@ -2050,7 +2054,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008043,Atmospheric chemical or physical constituent type,6,Nitrous oxide,N2O,10024-97-2,,Operational
 008043,Atmospheric chemical or physical constituent type,7,Formaldehyde,HCHO,50-00-0,,Operational
 008043,Atmospheric chemical or physical constituent type,8,Sulphur dioxide,SO2,7446-09-5,,Operational
-008043,Atmospheric chemical or physical constituent type,9-24,Reserved,,,,Operational
+008043,Atmospheric chemical or physical constituent type,9,Volcanic sulphur dioxide,,,,Operational
+008043,Atmospheric chemical or physical constituent type,10-24,Reserved,,,,Operational
 008043,Atmospheric chemical or physical constituent type,25,Particulate matter < 1.0 microns,,,,Operational
 008043,Atmospheric chemical or physical constituent type,26,Particulate matter < 2.5 microns,,,,Operational
 008043,Atmospheric chemical or physical constituent type,27,Particulate matter < 10 microns,,,,Operational
@@ -2058,9 +2063,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008043,Atmospheric chemical or physical constituent type,29,Smoke (generic),,,,Operational
 008043,Atmospheric chemical or physical constituent type,30,Crustal material (generic dust),,,,Operational
 008043,Atmospheric chemical or physical constituent type,31,Volcanic ash,,,,Operational
-008043,Atmospheric chemical or physical constituent type,32-200,Reserved,,,,Operational
+008043,Atmospheric chemical or physical constituent type,32,Cloud,,,,Operational
+008043,Atmospheric chemical or physical constituent type,33,Cloud and aerosols,,,,Operational
+008043,Atmospheric chemical or physical constituent type,34-200,Reserved,,,,Operational
 008043,Atmospheric chemical or physical constituent type,201-254,Reserved for local use,,,,Operational
 008043,Atmospheric chemical or physical constituent type,255,Missing value,,,,Operational
+008046,Atmospheric chemical or physical constituent type,,,,,"(See Common Code table C–14 in Part C/c.)",Operational
 008050,Qualifier for number of missing values in calculation of statistic,0,Reserved,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,2,Temperature,,,,Operational
@@ -2574,16 +2582,16 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 019108,Accuracy of geographical position of the tropical cyclone,5,Cyclone centre within 300 km of the transmitted position,,,,Operational
 019108,Accuracy of geographical position of the tropical cyclone,6,Cyclone centre undetermined,,,,Operational
 019108,Accuracy of geographical position of the tropical cyclone,7,Missing value,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,0,Less than 1° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,1,1° to less than 2° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,2,2° to less than 3° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,3,3° to less than 4° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,4,4° to less than 5° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,5,5° to less than 6° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,6,6° to less than 7° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,7,7° to less than 8° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,8,8° to less than 9° of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,9,9° of latitude or more,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,0,Less than 1 deg of latitude,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,1,1 deg to less than 2 deg of latitude,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,2,2 deg to less than 3 deg of latitude,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,3,3 deg to less than 4 deg of latitude,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,4,4 deg to less than 5 deg of latitude,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,5,5 deg to less than 6 deg of latitude,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,6,6 deg to less than 7 deg of latitude,,,,Operational 
+019109,Mean diameter of the overcast cloud of the tropical cyclone,7,7 deg to less than 8 deg of latitude,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,8,8 deg to less than 9 deg of latitude,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,9,9 deg of latitude or more,,,,Operational
 019109,Mean diameter of the overcast cloud of the tropical cyclone,10,Undetermined,,,,Operational
 019109,Mean diameter of the overcast cloud of the tropical cyclone,11-14,Not used,,,,Operational
 019109,Mean diameter of the overcast cloud of the tropical cyclone,15,Missing value,,,,Operational
@@ -2849,7 +2857,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,228,Deposition of ice crust (ice slick),,,,Operational
 020003,Present weather,229,Not used,,,,Operational
 020003,Present weather,,Deciles 230-239,,,,Operational
-020003,Present weather,230,Duststorm or sandstorm with temperature below 0 °C,,,,Operational
+020003,Present weather,230,Duststorm or sandstorm with temperature below 0 deg C,,,,Operational
 020003,Present weather,231-238,Not used,,,,Operational
 020003,Present weather,239,"Blowing snow, impossible to determine whether snow is falling or not",,,,Operational
 020003,Present weather,,Deciles 240-249,,,,Operational
@@ -3372,10 +3380,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020063,Special phenomena,32,Deep-red coloration of clouds at sunrise associated with a tropical disturbance,,,,Operational
 020063,Special phenomena,33,Slight coloration of clouds at sunset associated with a tropical disturbance,,,,Operational
 020063,Special phenomena,34,Deep-red coloration of clouds at sunset associated with a tropical disturbance,,,,Operational
-020063,Special phenomena,35,Convergence of CH clouds at a point below 45° forming or increasing and associated with a tropical disturbance,,,,Operational
-020063,Special phenomena,36,Convergence of CH clouds at a point above 45° associated with a tropical disturbance,,,,Operational
-020063,Special phenomena,37,Convergence of CH clouds at a point below 45° dissolving or diminishing and associated with a tropical disturbance,,,,Operational
-020063,Special phenomena,38,Convergence of CH clouds at a point above 45° associated with a tropical disturbance,,,,Operational
+020063,Special phenomena,35,Convergence of CH clouds at a point below 45 deg forming or increasing and associated with a tropical disturbance,,,,Operational
+020063,Special phenomena,36,Convergence of CH clouds at a point above 45 deg forming or increasing and associated with a tropical disturbance,,,,Operational
+020063,Special phenomena,37,Convergence of CH clouds at a point below 45 deg dissolving or diminishing and associated with a tropical disturbance,,,,Operational
+020063,Special phenomena,38,Convergence of CH clouds at a point above 45 deg dissolving or diminishing and associated with a tropical disturbance,,,,Operational
 020063,Special phenomena,39,Reserved,,,,Operational
 020063,Special phenomena,,40-43     Hoar frost or coloured precipitation,,,,Operational
 020063,Special phenomena,40,Hoar frost on horizontal surfaces,,,,Operational
@@ -3396,12 +3404,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020063,Special phenomena,59,Line squall with drifting or blowing dust or sand,,,,Operational
 020063,Special phenomena,,"60-69     Variation of temperature during the period specified, associated with glaze or rime",,,,Operational
 020063,Special phenomena,60,Temperature steady,,,,Operational
-020063,Special phenomena,61,"Temperature falling, without going below 0°C",,,,Operational
-020063,Special phenomena,62,"Temperature rising, without going above 0°C",,,,Operational
-020063,Special phenomena,63,Temperature falling to a value below 0°C,,,,Operational
-020063,Special phenomena,64,Temperature rising to a value above 0°C,,,,Operational
-020063,Special phenomena,65,"Irregular variation, oscillations of temperature passing through 0°C",,,,Operational
-020063,Special phenomena,66,"Irregular variation, oscillations of temperature not passing through 0°C",,,,Operational
+020063,Special phenomena,61,"Temperature falling, without going below 0 deg C",,,,Operational
+020063,Special phenomena,62,"Temperature rising, without going above 0 deg C",,,,Operational
+020063,Special phenomena,63,Temperature falling to a value below 0 deg C,,,,Operational
+020063,Special phenomena,64,Temperature rising to a value above 0 deg C,,,,Operational
+020063,Special phenomena,65,"Irregular variation, oscillations of temperature passing through 0 deg C",,,,Operational
+020063,Special phenomena,66,"Irregular variation, oscillations of temperature not passing through 0 deg C",,,,Operational
 020063,Special phenomena,67,Variation of temperature not observed,,,,Operational
 020063,Special phenomena,68,Not allocated,,,,Operational
 020063,Special phenomena,69,Variation of temperature unknown owing to lack of thermograph,,,,Operational
@@ -3424,7 +3432,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020063,Special phenomena,84,Sun pillar,,,,Operational
 020063,Special phenomena,85,Corona,,,,Operational
 020063,Special phenomena,86,Twilight glow,,,,Operational
-020063,Special phenomena,87,Twilight glow on the mountains (Alpenglühen),,,,Operational
+020063,Special phenomena,87,Twilight glow on the mountains (Alpengluehen),,,,Operational
 020063,Special phenomena,88,Mirage,,,,Operational
 020063,Special phenomena,89,Zodiacal light,,,,Operational
 020063,Special phenomena,90,St Elmo's fire,,,,Operational
@@ -3469,7 +3477,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020087,Runway contamination,15,Missing or not reported (e.g. due to runway clearance in progress),,,,Operational
 020089,Runway friction coefficient,0,0.00,,,,Operational
 020089,Runway friction coefficient,1,0.01,,,,Operational
-020089,Runway friction coefficient,2-88,0.02…0.88,,,,Operational
+020089,Runway friction coefficient,2-88,0.02 to 0.88,,,,Operational
 020089,Runway friction coefficient,89,0.89,,,,Operational
 020089,Runway friction coefficient,90,0.90,,,,Operational
 020089,Runway friction coefficient,91,Braking action poor,,,,Operational
@@ -3617,12 +3625,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020136,Supplementary cloud type,11,"Isolated orographic clouds, pileus, incus, forming",,,,Operational
 020136,Supplementary cloud type,12,"Isolated orographic clouds, pileus, incus, not changing",,,,Operational
 020136,Supplementary cloud type,13,"Isolated orographic clouds, pileus, incus, dissolving",,,,Operational
-020136,Supplementary cloud type,14,"Irregular banks of orographic cloud, föhn bank, etc., forming",,,,Operational
-020136,Supplementary cloud type,15,"Irregular banks of orographic cloud, föhn bank, etc., not changing",,,,Operational
-020136,Supplementary cloud type,16,"Irregular banks of orographic cloud, föhn bank, etc., dissolving",,,,Operational
-020136,Supplementary cloud type,17,"Compact layer of orographic cloud, föhn bank, etc., forming",,,,Operational
-020136,Supplementary cloud type,18,"Compact layer of orographic cloud, föhn bank, etc., not changing",,,,Operational
-020136,Supplementary cloud type,19,"Compact layer of orographic cloud, föhn bank, etc., dissolving",,,,Operational
+020136,Supplementary cloud type,14,"Irregular banks of orographic cloud, foehn bank, etc., forming",,,,Operational
+020136,Supplementary cloud type,15,"Irregular banks of orographic cloud, foehn bank, etc., not changing",,,,Operational
+020136,Supplementary cloud type,16,"Irregular banks of orographic cloud, foehn bank, etc., dissolving",,,,Operational
+020136,Supplementary cloud type,17,"Compact layer of orographic cloud, foehn bank, etc., forming",,,,Operational
+020136,Supplementary cloud type,18,"Compact layer of orographic cloud, foehn bank, etc., not changing",,,,Operational
+020136,Supplementary cloud type,19,"Compact layer of orographic cloud, foehn bank, etc., dissolving",,,,Operational
 020136,Supplementary cloud type,,20-29   Cloud conditions over mountains and passes (Nm - Code table 2745),,,,Operational
 020136,Supplementary cloud type,20,"All mountains open, only small amounts of cloud present",,,,Operational
 020136,Supplementary cloud type,21,Mountains partly covered with detached clouds (not more than half the peaks can be seen),,,,Operational
@@ -3709,14 +3717,14 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 021068,Radar altimeter product confidence data,6,Height-time loop time constant correction not performed,,,,Operational
 021068,Radar altimeter product confidence data,7,Not enough measurements (N < 10),,,,Operational
 021068,Radar altimeter product confidence data,All 8,Missing value,,,,Operational
-021069,SST product confidence data,1,12.0 µm channel present in source data,,,,Operational
-021069,SST product confidence data,2,11.0 µm channel present in source data,,,,Operational
-021069,SST product confidence data,3,3.7 µm channel present in source data,,,,Operational
-021069,SST product confidence data,4,1.6 µm channel present in source data,,,,Operational
-021069,SST product confidence data,5,Cloud identification used 1.6 µm histogram reflectance cloud test,,,,Operational
-021069,SST product confidence data,6,1.6 µm histogram reflectance cloud test used dynamic threshold,,,,Operational
-021069,SST product confidence data,7,Sun glint detected by 1.6 µm reflectance cloud test,,,,Operational
-021069,SST product confidence data,8,3.7 µm channel used in sea-surface temperature retrieval,,,,Operational
+021069,SST product confidence data,1,12.0 micron channel present in source data,,,,Operational
+021069,SST product confidence data,2,11.0 micron channel present in source data,,,,Operational
+021069,SST product confidence data,3,3.7 micron channel present in source data,,,,Operational
+021069,SST product confidence data,4,1.6 micron channel present in source data,,,,Operational
+021069,SST product confidence data,5,Cloud identification used 1.6 micron histogram reflectance cloud test,,,,Operational
+021069,SST product confidence data,6,1.6 micron histogram reflectance cloud test used dynamic threshold,,,,Operational
+021069,SST product confidence data,7,Sun glint detected by 1.6 micron reflectance cloud test,,,,Operational
+021069,SST product confidence data,8,3.7 micron channel used in sea-surface temperature retrieval,,,,Operational
 021069,SST product confidence data,9,Sea-surface temperature derivation used daytime data (night-time if zero),,,,Operational
 021069,SST product confidence data,All 10,Missing value,,,,Operational
 021070,SST product confidence data (SADIST-2),,1-9   Nadir-only view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,Operational
@@ -4654,7 +4662,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033039,Quality flags for radio occultation data,5,Bending angle processing non-nominal,,,,Operational
 033039,Quality flags for radio occultation data,6,Refractivity processing non-nominal,,,,Operational
 033039,Quality flags for radio occultation data,7,Meteorological processing non-nominal,,,,Operational
-033039,Quality flags for radio occultation data,8-13,Reserved,,,,Operational
+033039,Quality flags for radio occultation data,8,Open loop data included,,,,Operational
+033039,Quality flags for radio occultation data,9,Surface reflections detected,,,,Operational
+033039,Quality flags for radio occultation data,10,L2C GNSS signals used,,,,Operational
+033039,Quality flags for radio occultation data,11-13,Reserved,,,,Operational
 033039,Quality flags for radio occultation data,14,Background profile non-nominal,,,,Operational
 033039,Quality flags for radio occultation data,15,Background (i.e. not retrieved) profile present,,,,Operational
 033039,Quality flags for radio occultation data,All 16,Missing value,,,,Operational
@@ -4799,7 +4810,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033070,Total ozone quality,15,Missing value,,,,Operational
 033071,Profile ozone quality,0,Good retrieval,,,,Operational
 033071,Profile ozone quality,1,Solar zenith angle greater than 84 degrees,,,,Operational
-033071,Profile ozone quality,2,Difference between step 3 and profile total ozone greater than limit (25 DU),,,,Operational
+033071,Profile ozone quality,2,Difference between step 3 and profile total ozone greater than limit (25 DU),,,,Operational
 033071,Profile ozone quality,3,Average final residue for wavelengths used in retrieval greater than threshold,,,,Operational
 033071,Profile ozone quality,4,Final residue greater than 3 times a priori error,,,,Operational
 033071,Profile ozone quality,5,Difference between retrieved and a priori greater than 3 times a priori error,,,,Operational
@@ -5280,8 +5291,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040055,Diagnostics on the retrieval,13,Matrix ill conditioned,,,,Operational
 040055,Diagnostics on the retrieval,14,Fit diverged,,,,Operational
 040055,Diagnostics on the retrieval,15,Error in GNU scientific library (GSL) usage,,,,Operational
-040055,Diagnostics on the retrieval,16,Residuals “biased”,,,,Operational
-040055,Diagnostics on the retrieval,17,Residuals “sloped”,,,,Operational
+040055,Diagnostics on the retrieval,16,Residuals "biased",,,,Operational
+040055,Diagnostics on the retrieval,17,Residuals "sloped",,,,Operational
 040055,Diagnostics on the retrieval,18,Residuals root mean square (RMS) error is large,,,,Operational
 040055,Diagnostics on the retrieval,19,Weird averaging kernels,,,,Operational
 040055,Diagnostics on the retrieval,20,Ice presence detected,,,,Operational

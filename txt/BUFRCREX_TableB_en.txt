@@ -114,6 +114,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 01,Identification,001152,Semi-major axis of rotation ellipsoid,,m,2,0,31,m,2,11,Operational
 01,Identification,001153,Semi-minor axis of rotation ellipsoid,,m,2,0,31,m,2,11,Operational
 01,Identification,001154,Sensor identifier,,Numeric,0,0,12,Numeric,0,4,Operational
+01,Identification,001155,Retrieval identifier,,Code table,0,0,8,Code table,0,3,Operational
 02,Instrumentation,002001,Type of station,,Code table,0,0,2,Code table,0,1,Operational
 02,Instrumentation,002002,Type of instrumentation for wind measurement,,Flag table,0,0,4,Flag table,0,2,Operational
 02,Instrumentation,002003,Type of measuring equipment used,,Code table,0,0,4,Code table,0,2,Operational
@@ -189,6 +190,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 02,Instrumentation,002086,Balloon flight train length,,m,1,0,10,m,1,4,Operational
 02,Instrumentation,002087,Parachute surface area,,m2,4,0,15,m2,4,5,Operational
 02,Instrumentation,002088,Volume of gas used in balloon,,m3,3,0,13,m3,3,4,Operational
+02,Instrumentation,002090,Instrument wavelength,,m,9,0,16,m,9,5,Operational
 02,Instrumentation,002091,Entry sensor 4/20 mA,,A,4,0,10,A,4,3,Operational
 02,Instrumentation,002092,Ozone profile computation method,,Code table,0,0,3,Code table,0,1,Operational
 02,Instrumentation,002095,Type of pressure sensor,,Code table,0,0,5,Code table,0,2,Operational
@@ -853,11 +855,12 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 15,Physical/chemical constituents,015015,Maximum image spectral component before normalization,,Numeric,0,0,31,Numeric,0,10,Operational
 15,Physical/chemical constituents,015020,Integrated ozone density,,kg m-2,8,0,21,kg m-2,8,7,Operational
 15,Physical/chemical constituents,015021,Integrated mass density,,kg m-2,11,0,31,kg m-2,11,10,Operational
+15,Physical/chemical constituents,015022,Extended integrated mass density,,kg m-2,1,-100000000,31,kg m-2,1,10,Operational
 15,Physical/chemical constituents,015024,Optical depth,,Numeric,4,0,24,Numeric,4,8,Operational
 15,Physical/chemical constituents,015025,Type of pollutant,,Code table,0,0,4,Code table,0,2,Operational
 15,Physical/chemical constituents,015026,Concentration of pollutant (mol mol-1),,mol/mol,9,0,9,mol/mol,9,3,Operational
 15,Physical/chemical constituents,015027,Concentration of pollutant (kg m-3),,kg m-3,9,0,10,kg m-3,9,4,Operational
-15,Physical/chemical constituents,015028,Mole fraction of atmospheric constituent/pollutant in dry air,,‰,5,0,16,‰,5,5,Operational
+15,Physical/chemical constituents,015028,Mole fraction of atmospheric constituent/pollutant in dry air,,0/00,5,0,16,0/00,5,5,Operational
 15,Physical/chemical constituents,015029,Extinction coefficient,,/m,9,0,30,/m,9,10,Operational
 15,Physical/chemical constituents,015030,Aerosol contamination index,(see Note 6),Numeric,2,-1000,12,Numeric,2,4,Operational
 15,Physical/chemical constituents,015031,Atmospheric path delay in satellite signal,,m,4,10000,15,m,4,5,Operational
@@ -877,7 +880,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_Refere
 15,Physical/chemical constituents,015051,Meteorological optical range,,m,0,0,18,m,0,6,Operational
 15,Physical/chemical constituents,015052,Log10 of number density of aerosol particles with diameter greater than 5 nm,,log (m-3),1,60,6,log (m-3),1,3,Operational
 15,Physical/chemical constituents,015053,Log10 of number density of aerosol particles with diameter greater than 14 nm,,log (m-3),2,600,9,log (m-3),2,4,Operational
-15,Physical/chemical constituents,015054,Log10 of number density of aerosol particles with diameter between 0.25 and 2.5 µm,,log (m-3),2,550,9,log (m-3),2,4,Operational
+15,Physical/chemical constituents,015054,Log10 of number density of aerosol particles with diameter between 0.25 and 2.5 um,,log (m-3),2,550,9,log (m-3),2,4,Operational
 15,Physical/chemical constituents,015055,Non volatile aerosol ratio,,Numeric,2,0,7,Numeric,2,3,Operational
 15,Physical/chemical constituents,015062,Aerosol optical thickness,,Numeric,3,-1000,14,Numeric,3,5,Operational
 15,Physical/chemical constituents,015063,Attenuated backscatter,,m-1 sr-1,8,0,20,m-1 sr-1,8,7,Operational
