@@ -16020,6 +16020,597 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Average of maximum and minimum values: Tm = ( Tx + Tn) / 2</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Average of the 8 tri-hourly observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Average of 24 hourly observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Weighted average of 3 observations: Tm = (aT1 +bT2 + cT3)</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <Status>Operationa</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008093</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Weighted average of 3 observation and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn)</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>AWS complete integration from minute data</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>6-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>1A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>1B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>1C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>1D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>1E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>2A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>2B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>2C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>2D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>2E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>3A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>3B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>3C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>3D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>3E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>4A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>4B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>4C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>4D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>4E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>5A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>5B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>5C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>5D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>5E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>1 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>2 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>3 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>4 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>5 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>31</CodeFigure>
+    <EntryName_en>A (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>32</CodeFigure>
+    <EntryName_en>B (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>33</CodeFigure>
+    <EntryName_en>C (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>34</CodeFigure>
+    <EntryName_en>D (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>35</CodeFigure>
+    <EntryName_en>E (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>36-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>1A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>1B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>1C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>1D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>1E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>2A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>2B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>2C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>2D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>2E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>3A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>3B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>3C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>3D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>3E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>4A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>4B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>4C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>4D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>4E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>5A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>5B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>5C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>5D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>5E (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>1 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>2 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>3 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>4 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>5 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>31</CodeFigure>
+    <EntryName_en>A (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>32</CodeFigure>
+    <EntryName_en>B (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>33</CodeFigure>
+    <EntryName_en>C (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>34</CodeFigure>
+    <EntryName_en>D (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>35</CodeFigure>
+    <EntryName_en>E (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>36-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>010063</FXY>
     <ElementName_en>Characteristic of pressure tendency</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -31338,8 +31929,16 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>031021</FXY>
     <ElementName_en>Associated field significance</ElementName_en>
-    <CodeFigure>3-5</CodeFigure>
+    <CodeFigure>3-4</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>031021</FXY>
+    <ElementName_en>Associated field significance</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>8-bit indicator of quality control</EntryName_en>
+    <EntryName_sub1_en>0 = Data checked and declared good, 1 = Data checked and declared suspect, 2 = Data checked and declared aggregated, 3 = Data checked and declared out of instrument range, 4 = Data checked and declared aggregated and out of instrument range, 5 = Parameter is not measured at the station, 6 = Daily value not provided, 7 = Data unchecked, 8-254 = Reserved, 255 = Missing (QC info not available)</EntryName_sub1_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>

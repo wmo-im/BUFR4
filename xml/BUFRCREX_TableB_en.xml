@@ -7138,6 +7138,48 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for temperature</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and Measurement Quality Classification for precipitation</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>10</ClassNo>
     <ClassName_en>Non-coordinate location (vertical)</ClassName_en>
     <FXY>010001</FXY>
@@ -10351,9 +10393,13 @@
     <ClassNo>13</ClassNo>
     <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
     <FXY>013012</FXY>
+<<<<<<< HEAD
+    <ElementName_en>Depth of fresh snow (Depth of snowfall)</ElementName_en>
+=======
     <ElementName_en>Depth of fresh snow</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
     <noteIDs>26</noteIDs>
+>>>>>>> origin/issue51
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-2</BUFR_ReferenceValue>
@@ -10367,9 +10413,13 @@
     <ClassNo>13</ClassNo>
     <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
     <FXY>013013</FXY>
+<<<<<<< HEAD
+    <ElementName_en>Total snow depth (Snow Depth)</ElementName_en>
+=======
     <ElementName_en>Total snow depth</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
     <noteIDs>26</noteIDs>
+>>>>>>> origin/issue51
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-2</BUFR_ReferenceValue>

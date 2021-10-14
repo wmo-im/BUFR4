@@ -2,7 +2,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 031021,Associated field significance,0,Reserved,,,,,Operational
 031021,Associated field significance,1,1-bit indicator of quality,"0 = good, 1 = suspect or bad",,,,Operational
 031021,Associated field significance,2,2-bit indicator of quality,"0 = good, 1 = slightly suspect, 2 = highly suspect, 3 = bad",,,,Operational
-031021,Associated field significance,3-5,Reserved,,,,,Operational
+031021,Associated field significance,3-4,Reserved,,,,,Operational
+031021,Associated field significance,5,8-bit indicator of quality control,"0 = Data checked and declared good, 1 = Data checked and declared suspect, 2 = Data checked and declared aggregated, 3 = Data checked and declared out of instrument range, 4 = Data checked and declared aggregated and out of instrument range, 5 = Parameter is not measured at the station, 6 = Daily value not provided, 7 = Data unchecked, 8-254 = Reserved, 255 = Missing (QC info not available)",,,,Operational
 031021,Associated field significance,6,4-bit indicator of quality control class according to GTSPP,"0 = Unqualified, 1 = Correct value (all checks passed), 2 = Probably good but value inconsistent with statistics (differ from climatology), 3 = Probably bad (spike, gradient, ... if other tests passed), 4 = Bad value, impossible value (out of scale, vertical instability, constant profile), 5 = Value modified during quality control, 6-7 = Not used (reserved), 8 = Interpolated value, 9 = Missing value",,,,Operational
 031021,Associated field significance,7,Percentage confidence,,,,,Operational
 031021,Associated field significance,8,"0 = Not suspected, 1 = Suspected, 2 = Reserved, 3 = Information not required",,,,,Operational
