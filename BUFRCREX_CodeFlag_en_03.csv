@@ -1,151 +1,151 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
-003001,Surface station type,0,Land station (synoptic network),,,,Operational
-003001,Surface station type,1,Shallow water station (fixed to sea/lake floor),,,,Operational
-003001,Surface station type,2,Ship,,,,Operational
-003001,Surface station type,3,Rig/platform,,,,Operational
-003001,Surface station type,4,Moored buoy,,,,Operational
-003001,Surface station type,5,Drifting buoy (or drifter),,,,Operational
-003001,Surface station type,6,Ice buoy,,,,Operational
-003001,Surface station type,7,Land station (local network),,,,Operational
-003001,Surface station type,8,Land vehicle,,,,Operational
-003001,Surface station type,9,Autonomous marine vehicle,,,,Operational
-003001,Surface station type,10,Tag attached to marine animal,,,,Operational
-003001,Surface station type,11-30,Reserved for future use,,,,Operational
-003001,Surface station type,31,Missing value,,,,Operational
-003003,Thermometer/hygrometer housing,0,Screen,,,,Operational
-003003,Thermometer/hygrometer housing,1,Sling/whirling,,,,Operational
-003003,Thermometer/hygrometer housing,2,Unscreened,,,,Operational
-003003,Thermometer/hygrometer housing,3,Radiation shield,,,,Operational
-003003,Thermometer/hygrometer housing,4,Aspirated (e.g. Assmann),,,,Operational
-003003,Thermometer/hygrometer housing,5,Other shelter,,,,Operational
-003003,Thermometer/hygrometer housing,6,Handheld,,,,Operational
-003003,Thermometer/hygrometer housing,7-14,Reserved for future use,,,,Operational
-003003,Thermometer/hygrometer housing,15,Missing value,,,,Operational
-003004,Type of screen/shelter/radiation shield,0,Stevenson screen,,,,Operational
-003004,Type of screen/shelter/radiation shield,1,Marine Stevenson screen,,,,Operational
-003004,Type of screen/shelter/radiation shield,2,Cylindrical section plate shield,,,,Operational
-003004,Type of screen/shelter/radiation shield,3,Concentric tube,,,,Operational
-003004,Type of screen/shelter/radiation shield,4,Rectangular section shield,,,,Operational
-003004,Type of screen/shelter/radiation shield,5,Square section shield,,,,Operational
-003004,Type of screen/shelter/radiation shield,6,Triangular section shield,,,,Operational
-003004,Type of screen/shelter/radiation shield,7,Open covered lean-to,,,,Operational
-003004,Type of screen/shelter/radiation shield,8,Open covered inverted V roof,,,,Operational
-003004,Type of screen/shelter/radiation shield,9,Integrated (e.g. chilled mirror),,,,Operational
-003004,Type of screen/shelter/radiation shield,10-14,Reserved for future use,,,,Operational
-003004,Type of screen/shelter/radiation shield,15,Missing value,,,,Operational
-003008,Artificially ventilated screen or shield,0,Natural ventilation in use,,,,Operational
-003008,Artificially ventilated screen or shield,1,Artificial aspiration in use: constant flow at time of reading,,,,Operational
-003008,Artificially ventilated screen or shield,2,Artificial aspiration in use: variable flow at time of reading,,,,Operational
-003008,Artificially ventilated screen or shield,3-6,Reserved,,,,Operational
-003008,Artificially ventilated screen or shield,7,Missing value,,,,Operational
-003010,Method of sea/water current measurement,0,Reserved,,,,Operational
-003010,Method of sea/water current measurement,1,ADCP,,,"*, **",Operational
-003010,Method of sea/water current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,Operational
-003010,Method of sea/water current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,Operational
-003010,Method of sea/water current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,Operational
-003010,Method of sea/water current measurement,5,Drift of buoy,,,,Operational
-003010,Method of sea/water current measurement,6,ADCP,,,,Operational
-003010,Method of sea/water current measurement,7,ADCP bottom tracking mode,,,,Operational
-003010,Method of sea/water current measurement,8,Electromagnetic sensor,,,,Operational
-003010,Method of sea/water current measurement,9,Rotor and vane,,,,Operational
-003010,Method of sea/water current measurement,10,Lowered ADCP,,,,Operational
-003010,Method of sea/water current measurement,11-14,Reserved,,,,Operational
-003010,Method of sea/water current measurement,15,Missing value,,,,Operational
-003011,Method of depth calculation,0,Depth calculated using fall rate equation,,,,Operational
-003011,Method of depth calculation,1,Depth calculated from water pressure/equation of state,,,,Operational
-003011,Method of depth calculation,2,Reserved,,,,Operational
-003011,Method of depth calculation,3,Missing value,,,,Operational
-003012,Instrument type/sensor for dissolved oxygen measurement,0,Anderraa oxygen optode,,,,Operational
-003012,Instrument type/sensor for dissolved oxygen measurement,1,Winkler bottle,,,,Operational
-003012,Instrument type/sensor for dissolved oxygen measurement,2-14,Reserved,,,,Operational
-003012,Instrument type/sensor for dissolved oxygen measurement,15,Missing value,,,,Operational
-003016,Position of road sensors,0,Fast lane between the wheel tracks,,,,Operational
-003016,Position of road sensors,1,Fast lane between the wheel tracks in the opposite direction,,,,Operational
-003016,Position of road sensors,2,Fast lane in the wheel tracks,,,,Operational
-003016,Position of road sensors,3,Fast lane in the wheel tracks in the opposite direction,,,,Operational
-003016,Position of road sensors,4,Slow lane between the wheel tracks,,,,Operational
-003016,Position of road sensors,5,Slow lane between the wheel tracks in the opposite direction,,,,Operational
-003016,Position of road sensors,6,Slow lane in the wheel tracks,,,,Operational
-003016,Position of road sensors,7,Slow lane in the wheel tracks in the opposite direction,,,,Operational
-003016,Position of road sensors,8-14,Reserved,,,,Operational
-003016,Position of road sensors,15,Missing value,,,,Operational
-003017,Extended type of station,1,Automatic,,,,Operational
-003017,Extended type of station,2,Manned,,,,Operational
-003017,Extended type of station,3,Event triggered,,,,Operational
-003017,Extended type of station,4,Longer time period than the standard,,,,Operational
-003017,Extended type of station,5,Reserved,,,,Operational
-003017,Extended type of station,All 6,Missing value,,,,Operational
-003018,Type of road,0,Free track without further information,,,,Operational
-003018,Type of road,1,"Free track, embankment",,,,Operational
-003018,Type of road,2,"Free track, flat relative to surroundings",,,,Operational
-003018,Type of road,3,"Free track, water basin(s) in vicinity",,,,Operational
-003018,Type of road,4,"Free track, forest",,,,Operational
-003018,Type of road,5,"Free track, cleft",,,,Operational
-003018,Type of road,6,"Free track, on hilltop",,,,Operational
-003018,Type of road,7,"Free track, on hilltop, forest",,,,Operational
-003018,Type of road,8,"Free track, in valley",,,,Operational
-003018,Type of road,9,"Free track, in valley, forest",,,,Operational
-003018,Type of road,10,"Free track, north inclination",,,,Operational
-003018,Type of road,11,"Free track, north inclination, forest",,,,Operational
-003018,Type of road,12,"Free track, south inclination",,,,Operational
-003018,Type of road,13,"Free track, south inclination, forest",,,,Operational
-003018,Type of road,14-19,Reserved,,,,Operational
-003018,Type of road,20,Bridge without further information,,,,Operational
-003018,Type of road,21,Bridge across a valley in an urban area,,,,Operational
-003018,Type of road,22,Bridge across a valley with forest/meadows/fields,,,,Operational
-003018,Type of road,23,Bridge across street/track,,,,Operational
-003018,Type of road,24,Bridge across big river/canal,,,,Operational
-003018,Type of road,25,Bridge across river/canal of medium size,,,,Operational
-003018,Type of road,26,Bridge across a small stream/loading canal,,,,Operational
-003018,Type of road,27-30,Reserved,,,,Operational
-003018,Type of road,31,Missing value,,,,Operational
-003019,Type of construction,0,Asphalt,,,,Operational
-003019,Type of construction,1,Concrete,,,,Operational
-003019,Type of construction,2,Concrete construction,,,,Operational
-003019,Type of construction,3,Steel-girder construction,,,,Operational
-003019,Type of construction,4,Box girder bridge,,,,Operational
-003019,Type of construction,5,Orthotropic slab,,,,Operational
-003019,Type of construction,6,Drain asphalt,,,,Operational
-003019,Type of construction,7-14,Reserved,,,,Operational
-003019,Type of construction,15,Missing value,,,,Operational
-003020,Material for thermometer/hygrometer housing,0,Wood,,,,Operational
-003020,Material for thermometer/hygrometer housing,1,Metal alloy,,,,Operational
-003020,Material for thermometer/hygrometer housing,2,Plastic/GRP,,,*,Operational
-003020,Material for thermometer/hygrometer housing,3,Reed/grass/leaf,,,,Operational
-003020,Material for thermometer/hygrometer housing,4-6,Reserved for future use,,,,Operational
-003020,Material for thermometer/hygrometer housing,7,Missing value,,,,Operational
-003021,Hygrometer heating,0,Unheated,,,,Operational
-003021,Hygrometer heating,1,Heated,,,,Operational
-003021,Hygrometer heating,2,Not applicable,,,,Operational
-003021,Hygrometer heating,3,Missing value,,,,Operational
-003022,Instrument owner,0,National hydrometeorological/weather service,,,,Operational
-003022,Instrument owner,1,Other,,,,Operational
-003022,Instrument owner,2,Standards institute,,,,Operational
-003022,Instrument owner,3-6,Reserved for future use,,,,Operational
-003022,Instrument owner,7,Missing value,,,,Operational
-003023,Configuration of louvers for thermometer/hygrometer screen,0,Single v-section louvers,,,,Operational
-003023,Configuration of louvers for thermometer/hygrometer screen,1,Overlapping louvers,,,,Operational
-003023,Configuration of louvers for thermometer/hygrometer screen,2,Double v-section louvers,,,,Operational
-003023,Configuration of louvers for thermometer/hygrometer screen,3,Non-overlapping louvers,,,,Operational
-003023,Configuration of louvers for thermometer/hygrometer screen,4,"Vented, non-louvered",,,,Operational
-003023,Configuration of louvers for thermometer/hygrometer screen,5,Not applicable,,,,Operational
-003023,Configuration of louvers for thermometer/hygrometer screen,6,Reserved for future use,,,,Operational
-003023,Configuration of louvers for thermometer/hygrometer screen,7,Missing value,,,,Operational
-003027,Type of flight rig,0,Solo (single radiosonde),,,,Operational
-003027,Type of flight rig,1,Block,,,,Operational
-003027,Type of flight rig,2,Bar,,,,Operational
-003027,Type of flight rig,3,Cross,,,,Operational
-003027,Type of flight rig,4,T-rig,,,,Operational
-003027,Type of flight rig,5,Double T-rig,,,,Operational
-003027,Type of flight rig,6,Complex,,,,Operational
-003027,Type of flight rig,7-14,Reserved,,,,Operational
-003027,Type of flight rig,15,Missing value,,,,Operational
-003028,Method of snow water equivalent measurement,0,Multi point manual snow survey,,,,Operational
-003028,Method of snow water equivalent measurement,1,Single point manual snow water equivalent measurement,,,,Operational
-003028,Method of snow water equivalent measurement,2,Snow pillow or snow scale,,,,Operational
-003028,Method of snow water equivalent measurement,3,Passive gamma,,,,Operational
-003028,Method of snow water equivalent measurement,4,GNSS/GPS methods,,,,Operational
-003028,Method of snow water equivalent measurement,5,Cosmic ray attenuation,,,,Operational
-003028,Method of snow water equivalent measurement,6,Time domain reflectometry,,,,Operational
-003028,Method of snow water equivalent measurement,7-62,Reserved,,,,Operational
-003028,Method of snow water equivalent measurement,63,Missing value,,,,Operational
+FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+003001,Surface station type,0,Land station (synoptic network),,,,,Operational
+003001,Surface station type,1,Shallow water station (fixed to sea/lake floor),,,,,Operational
+003001,Surface station type,2,Ship,,,,,Operational
+003001,Surface station type,3,Rig/platform,,,,,Operational
+003001,Surface station type,4,Moored buoy,,,,,Operational
+003001,Surface station type,5,Drifting buoy (or drifter),,,,,Operational
+003001,Surface station type,6,Ice buoy,,,,,Operational
+003001,Surface station type,7,Land station (local network),,,,,Operational
+003001,Surface station type,8,Land vehicle,,,,,Operational
+003001,Surface station type,9,Autonomous marine vehicle,,,,,Operational
+003001,Surface station type,10,Tag attached to marine animal,,,,,Operational
+003001,Surface station type,11-30,Reserved for future use,,,,,Operational
+003001,Surface station type,31,Missing value,,,,,Operational
+003003,Thermometer/hygrometer housing,0,Screen,,,,,Operational
+003003,Thermometer/hygrometer housing,1,Sling/whirling,,,,,Operational
+003003,Thermometer/hygrometer housing,2,Unscreened,,,,,Operational
+003003,Thermometer/hygrometer housing,3,Radiation shield,,,,,Operational
+003003,Thermometer/hygrometer housing,4,Aspirated (e.g. Assmann),,,,,Operational
+003003,Thermometer/hygrometer housing,5,Other shelter,,,,,Operational
+003003,Thermometer/hygrometer housing,6,Handheld,,,,,Operational
+003003,Thermometer/hygrometer housing,7-14,Reserved for future use,,,,,Operational
+003003,Thermometer/hygrometer housing,15,Missing value,,,,,Operational
+003004,Type of screen/shelter/radiation shield,0,Stevenson screen,,,,,Operational
+003004,Type of screen/shelter/radiation shield,1,Marine Stevenson screen,,,,,Operational
+003004,Type of screen/shelter/radiation shield,2,Cylindrical section plate shield,,,,,Operational
+003004,Type of screen/shelter/radiation shield,3,Concentric tube,,,,,Operational
+003004,Type of screen/shelter/radiation shield,4,Rectangular section shield,,,,,Operational
+003004,Type of screen/shelter/radiation shield,5,Square section shield,,,,,Operational
+003004,Type of screen/shelter/radiation shield,6,Triangular section shield,,,,,Operational
+003004,Type of screen/shelter/radiation shield,7,Open covered lean-to,,,,,Operational
+003004,Type of screen/shelter/radiation shield,8,Open covered inverted V roof,,,,,Operational
+003004,Type of screen/shelter/radiation shield,9,Integrated (e.g. chilled mirror),,,,,Operational
+003004,Type of screen/shelter/radiation shield,10-14,Reserved for future use,,,,,Operational
+003004,Type of screen/shelter/radiation shield,15,Missing value,,,,,Operational
+003008,Artificially ventilated screen or shield,0,Natural ventilation in use,,,,,Operational
+003008,Artificially ventilated screen or shield,1,Artificial aspiration in use: constant flow at time of reading,,,,,Operational
+003008,Artificially ventilated screen or shield,2,Artificial aspiration in use: variable flow at time of reading,,,,,Operational
+003008,Artificially ventilated screen or shield,3-6,Reserved,,,,,Operational
+003008,Artificially ventilated screen or shield,7,Missing value,,,,,Operational
+003010,Method of sea/water current measurement,0,Reserved,,,,,Operational
+003010,Method of sea/water current measurement,1,ADCP,,,"*, **","91",Operational
+003010,Method of sea/water current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,,Operational
+003010,Method of sea/water current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,,Operational
+003010,Method of sea/water current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,,Operational
+003010,Method of sea/water current measurement,5,Drift of buoy,,,,,Operational
+003010,Method of sea/water current measurement,6,ADCP,,,,122,Operational
+003010,Method of sea/water current measurement,7,ADCP bottom tracking mode,,,,,Operational
+003010,Method of sea/water current measurement,8,Electromagnetic sensor,,,,,Operational
+003010,Method of sea/water current measurement,9,Rotor and vane,,,,,Operational
+003010,Method of sea/water current measurement,10,Lowered ADCP,,,,,Operational
+003010,Method of sea/water current measurement,11-14,Reserved,,,,,Operational
+003010,Method of sea/water current measurement,15,Missing value,,,,,Operational
+003011,Method of depth calculation,0,Depth calculated using fall rate equation,,,,,Operational
+003011,Method of depth calculation,1,Depth calculated from water pressure/equation of state,,,,,Operational
+003011,Method of depth calculation,2,Reserved,,,,,Operational
+003011,Method of depth calculation,3,Missing value,,,,,Operational
+003012,Instrument type/sensor for dissolved oxygen measurement,0,Anderraa oxygen optode,,,,,Operational
+003012,Instrument type/sensor for dissolved oxygen measurement,1,Winkler bottle,,,,,Operational
+003012,Instrument type/sensor for dissolved oxygen measurement,2-14,Reserved,,,,,Operational
+003012,Instrument type/sensor for dissolved oxygen measurement,15,Missing value,,,,,Operational
+003016,Position of road sensors,0,Fast lane between the wheel tracks,,,,,Operational
+003016,Position of road sensors,1,Fast lane between the wheel tracks in the opposite direction,,,,,Operational
+003016,Position of road sensors,2,Fast lane in the wheel tracks,,,,,Operational
+003016,Position of road sensors,3,Fast lane in the wheel tracks in the opposite direction,,,,,Operational
+003016,Position of road sensors,4,Slow lane between the wheel tracks,,,,,Operational
+003016,Position of road sensors,5,Slow lane between the wheel tracks in the opposite direction,,,,,Operational
+003016,Position of road sensors,6,Slow lane in the wheel tracks,,,,,Operational
+003016,Position of road sensors,7,Slow lane in the wheel tracks in the opposite direction,,,,,Operational
+003016,Position of road sensors,8-14,Reserved,,,,,Operational
+003016,Position of road sensors,15,Missing value,,,,,Operational
+003017,Extended type of station,1,Automatic,,,,,Operational
+003017,Extended type of station,2,Manned,,,,,Operational
+003017,Extended type of station,3,Event triggered,,,,,Operational
+003017,Extended type of station,4,Longer time period than the standard,,,,,Operational
+003017,Extended type of station,5,Reserved,,,,,Operational
+003017,Extended type of station,All 6,Missing value,,,,,Operational
+003018,Type of road,0,Free track without further information,,,,,Operational
+003018,Type of road,1,"Free track, embankment",,,,,Operational
+003018,Type of road,2,"Free track, flat relative to surroundings",,,,,Operational
+003018,Type of road,3,"Free track, water basin(s) in vicinity",,,,,Operational
+003018,Type of road,4,"Free track, forest",,,,,Operational
+003018,Type of road,5,"Free track, cleft",,,,,Operational
+003018,Type of road,6,"Free track, on hilltop",,,,,Operational
+003018,Type of road,7,"Free track, on hilltop, forest",,,,,Operational
+003018,Type of road,8,"Free track, in valley",,,,,Operational
+003018,Type of road,9,"Free track, in valley, forest",,,,,Operational
+003018,Type of road,10,"Free track, north inclination",,,,,Operational
+003018,Type of road,11,"Free track, north inclination, forest",,,,,Operational
+003018,Type of road,12,"Free track, south inclination",,,,,Operational
+003018,Type of road,13,"Free track, south inclination, forest",,,,,Operational
+003018,Type of road,14-19,Reserved,,,,,Operational
+003018,Type of road,20,Bridge without further information,,,,,Operational
+003018,Type of road,21,Bridge across a valley in an urban area,,,,,Operational
+003018,Type of road,22,Bridge across a valley with forest/meadows/fields,,,,,Operational
+003018,Type of road,23,Bridge across street/track,,,,,Operational
+003018,Type of road,24,Bridge across big river/canal,,,,,Operational
+003018,Type of road,25,Bridge across river/canal of medium size,,,,,Operational
+003018,Type of road,26,Bridge across a small stream/loading canal,,,,,Operational
+003018,Type of road,27-30,Reserved,,,,,Operational
+003018,Type of road,31,Missing value,,,,,Operational
+003019,Type of construction,0,Asphalt,,,,,Operational
+003019,Type of construction,1,Concrete,,,,,Operational
+003019,Type of construction,2,Concrete construction,,,,,Operational
+003019,Type of construction,3,Steel-girder construction,,,,,Operational
+003019,Type of construction,4,Box girder bridge,,,,,Operational
+003019,Type of construction,5,Orthotropic slab,,,,,Operational
+003019,Type of construction,6,Drain asphalt,,,,,Operational
+003019,Type of construction,7-14,Reserved,,,,,Operational
+003019,Type of construction,15,Missing value,,,,,Operational
+003020,Material for thermometer/hygrometer housing,0,Wood,,,,,Operational
+003020,Material for thermometer/hygrometer housing,1,Metal alloy,,,,,Operational
+003020,Material for thermometer/hygrometer housing,2,Plastic/GRP,,,*,113,Operational
+003020,Material for thermometer/hygrometer housing,3,Reed/grass/leaf,,,,,Operational
+003020,Material for thermometer/hygrometer housing,4-6,Reserved for future use,,,,,Operational
+003020,Material for thermometer/hygrometer housing,7,Missing value,,,,,Operational
+003021,Hygrometer heating,0,Unheated,,,,,Operational
+003021,Hygrometer heating,1,Heated,,,,,Operational
+003021,Hygrometer heating,2,Not applicable,,,,,Operational
+003021,Hygrometer heating,3,Missing value,,,,,Operational
+003022,Instrument owner,0,National hydrometeorological/weather service,,,,,Operational
+003022,Instrument owner,1,Other,,,,,Operational
+003022,Instrument owner,2,Standards institute,,,,,Operational
+003022,Instrument owner,3-6,Reserved for future use,,,,,Operational
+003022,Instrument owner,7,Missing value,,,,,Operational
+003023,Configuration of louvers for thermometer/hygrometer screen,0,Single v-section louvers,,,,,Operational
+003023,Configuration of louvers for thermometer/hygrometer screen,1,Overlapping louvers,,,,,Operational
+003023,Configuration of louvers for thermometer/hygrometer screen,2,Double v-section louvers,,,,,Operational
+003023,Configuration of louvers for thermometer/hygrometer screen,3,Non-overlapping louvers,,,,,Operational
+003023,Configuration of louvers for thermometer/hygrometer screen,4,"Vented, non-louvered",,,,,Operational
+003023,Configuration of louvers for thermometer/hygrometer screen,5,Not applicable,,,,,Operational
+003023,Configuration of louvers for thermometer/hygrometer screen,6,Reserved for future use,,,,,Operational
+003023,Configuration of louvers for thermometer/hygrometer screen,7,Missing value,,,,,Operational
+003027,Type of flight rig,0,Solo (single radiosonde),,,,,Operational
+003027,Type of flight rig,1,Block,,,,,Operational
+003027,Type of flight rig,2,Bar,,,,,Operational
+003027,Type of flight rig,3,Cross,,,,,Operational
+003027,Type of flight rig,4,T-rig,,,,,Operational
+003027,Type of flight rig,5,Double T-rig,,,,,Operational
+003027,Type of flight rig,6,Complex,,,,,Operational
+003027,Type of flight rig,7-14,Reserved,,,,,Operational
+003027,Type of flight rig,15,Missing value,,,,,Operational
+003028,Method of snow water equivalent measurement,0,Multi point manual snow survey,,,,,Operational
+003028,Method of snow water equivalent measurement,1,Single point manual snow water equivalent measurement,,,,,Operational
+003028,Method of snow water equivalent measurement,2,Snow pillow or snow scale,,,,,Operational
+003028,Method of snow water equivalent measurement,3,Passive gamma,,,,,Operational
+003028,Method of snow water equivalent measurement,4,GNSS/GPS methods,,,,,Operational
+003028,Method of snow water equivalent measurement,5,Cosmic ray attenuation,,,,,Operational
+003028,Method of snow water equivalent measurement,6,Time domain reflectometry,,,,,Operational
+003028,Method of snow water equivalent measurement,7-62,Reserved,,,,,Operational
+003028,Method of snow water equivalent measurement,63,Missing value,,,,,Operational

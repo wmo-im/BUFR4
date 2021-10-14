@@ -1,14 +1,14 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-24,Radiological elements,024001,Estimate of amount of radioactivity released up to specified time,,Bq,-11,0,28,Bq,-11,9,Operational
-24,Radiological elements,024002,Estimated maximum potential release,,Bq,-11,0,28,Bq,-11,9,Operational
-24,Radiological elements,024003,Composition of release,,Code table,0,0,5,Code table,0,2,Operational
-24,Radiological elements,024004,Element name,,CCITT IA5,0,0,16,Character,0,2,Operational
-24,Radiological elements,024005,Isotope mass,,Numeric,0,0,9,Numeric,0,3,Operational
-24,Radiological elements,024011,Dose,,mSv,2,0,32,mSv,2,10,Operational
-24,Radiological elements,024012,Trajectory dose (defined location and expected time of arrival),,mSv,2,0,32,mSv,2,10,Operational
-24,Radiological elements,024013,Gamma dose in air along the main transport path (defined location and time period),,mSv,2,0,32,mSv,2,10,Operational
-24,Radiological elements,024014,Gamma radiation dose rate,(see Note 2),nSv/h,1,0,14,nSv/h,1,4,Operational
-24,Radiological elements,024021,Air concentration (of named isotope type including gross beta),,Bq m-3,2,0,32,Bq m-3,2,10,Operational
-24,Radiological elements,024022,Concentration in precipitation (of named isotope type),,Bq/l,2,0,32,Bq/l,2,10,Operational
-24,Radiological elements,024023,Pulse rate of beta radiation,,/s,1,0,14,/s,1,4,Operational
-24,Radiological elements,024024,Pulse rate of gamma radiation,,/s,1,0,14,/s,1,4,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+24,Radiological elements,024001,Estimate of amount of radioactivity released up to specified time,,,Bq,-11,0,28,Bq,-11,9,Operational
+24,Radiological elements,024002,Estimated maximum potential release,,,Bq,-11,0,28,Bq,-11,9,Operational
+24,Radiological elements,024003,Composition of release,,,Code table,0,0,5,Code table,0,2,Operational
+24,Radiological elements,024004,Element name,,,CCITT IA5,0,0,16,Character,0,2,Operational
+24,Radiological elements,024005,Isotope mass,,,Numeric,0,0,9,Numeric,0,3,Operational
+24,Radiological elements,024011,Dose,,,mSv,2,0,32,mSv,2,10,Operational
+24,Radiological elements,024012,Trajectory dose (defined location and expected time of arrival),,,mSv,2,0,32,mSv,2,10,Operational
+24,Radiological elements,024013,Gamma dose in air along the main transport path (defined location and time period),,,mSv,2,0,32,mSv,2,10,Operational
+24,Radiological elements,024014,Gamma radiation dose rate,(see Note 2),81,nSv/h,1,0,14,nSv/h,1,4,Operational
+24,Radiological elements,024021,Air concentration (of named isotope type including gross beta),,,Bq m-3,2,0,32,Bq m-3,2,10,Operational
+24,Radiological elements,024022,Concentration in precipitation (of named isotope type),,,Bq/l,2,0,32,Bq/l,2,10,Operational
+24,Radiological elements,024023,Pulse rate of beta radiation,,,/s,1,0,14,/s,1,4,Operational
+24,Radiological elements,024024,Pulse rate of gamma radiation,,,/s,1,0,14,/s,1,4,Operational

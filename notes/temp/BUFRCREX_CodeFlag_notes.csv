@@ -1,0 +1,570 @@
+row #,category,table,Code figure / Bit No.,note (github),notation (manual),note (manual),note applies to,my comment
+1000,01,001003,/,/,/,/,/,no notes
+1282,20,020012,31,n/a,f*,"""Bad weather"" denotes the conditions which generally exist during precipitation and a short time before and after.",code,"""bad weather,*"""
+1002,01,001024,/,/,/,/,/,no notes
+1003,01,001028,/,/,/,/,/,no notes
+1283,20,020012,36,n/a,f,"""Bad weather"" denotes the conditions which generally exist during precipitation and a short time before and after.",code,"""bad weather,*"""
+1284,20,020012,37,n/a,f,"""Bad weather"" denotes the conditions which generally exist during precipitation and a short time before and after.",code,"""bad weather,*"""
+1281,20,020011,n/a,n/a,2,"""Clear"" and ""overcast"" are coded by 0 and 8, respectively.",table,
+1183,08,008021,8,n/a,2,"""Ensemble mean"" indicates that a number of distinct values corresponding to a set of time locations are averaged.",code,
+1182,08,008021,2,n/a,1,"""Time averaged"" indicates that values are continuously averaged over a period of time.",code,
+1433,25,025112,n/a,n/a,n/a,"(0 is good, 1 is bad)",table,move to note under table? 
+1010,01,001038,/,/,/,/,/,no notes
+1011,01,001044,/,/,/,/,/,no notes
+1012,01,001052,/,/,/,/,/,no notes
+1013,01,001090,/,/,/,/,/,no notes
+1014,01,001092,/,/,/,/,/,no notes
+1434,25,025113,n/a,n/a,n/a,"(0 is good, 1 is bad)",table,move to note under table? 
+1201,08,008042,16,n/a,1,"(1) Freezing level is the level at which temperature first decreases to 0 °C. The criteria for the selection of freezing level in upper-air observations are:(a) If the surface temperature is not lower than 0 °C when the radiosonde is released, then the lowest level at which the temperature first decreases to 0 °C will be selected as the freezing level.(b) If the surface temperature is equal to 0 °C, then the surface level will be the freezing level.(c) If during observation there is no level at which the temperature equals 0 °C, then the closest twolevels between which the temperature crosses from a positive to a negative value should be usedto interpolate the freezing-level temperature equal to 0 °C.(d) The following elements will be calculated for the freezing level: time, elevation, pressure, humidity,dewpoint temperature, dewpoint depression, and deviation of longitude and latitude.",tbd,add association
+1017,01,001151,/,/,/,/,/,no notes
+1018,01,001155,/,/,/,/,/,no notes
+1019,02,002001,/,/,/,/,/,no notes
+1005,01,001031,n/a,n/a,no id,(See common Code table C-1 in Part C/c.),table,no codes
+1021,02,002003,/,/,/,/,/,no notes
+1022,02,002004,/,/,/,/,/,no notes
+1023,02,002006,/,/,/,/,/,no notes
+1024,02,002007,/,/,/,/,/,no notes
+1025,02,002008,/,/,/,/,/,no notes
+1006,01,001033,n/a,n/a,no id,(See common Code table C-1 in Part C/c.),table,no codes
+1008,01,001035,n/a,n/a,no id,(See common Code table C-1 in Part C/c.),table,no codes
+1026,02,002011,n/a,n/a,no id,(See common Code table C-2 in Part C/c.),table,no codes
+1365,22,022067,n/a,n/a,no id,(See common Code table C-3),table,no codes
+1030,02,002015,/,/,/,/,/,no notes
+1031,02,002016,/,/,/,/,/,no notes
+1032,02,002017,/,/,/,/,/,no notes
+1366,22,022068,n/a,n/a,no id,(See common Code table C-4),table,no codes
+1034,02,002020,/,/,/,/,/,no notes
+1035,02,002021,/,/,/,/,/,no notes
+1001,01,001007,n/a,n/a,no id,(See common Code table C-5 Part C/c.),table,no codes
+1029,02,002014,n/a,n/a,no id,(See common Code table C-7 in Part C/c.),table,no codes
+1033,02,002019,n/a,n/a,no id,(See common Code table C-8 in Part C/c.),table,no codes
+1203,08,008046,n/a,n/a,no id,(See Common Code table C–14 Part C/c.),table,no codes
+1040,02,002023,/,/,/,/,/,no notes
+1041,02,002024,/,/,/,/,/,no notes
+1009,01,001036,n/a,n/a,no id,(The first three digits represent the ISO country code),table,
+1007,01,001034,n/a,n/a,no id,(To be defined by centres themselves -See common Code table C-12 in Part C/c.),table,
+1027,02,002012,n/a,n/a,no id,(To be developed),table,no codes
+1491,33,033048,n/a,n/a,*,* SAR = Synthetic aperture radar,word in title,
+1169,08,008007,n/a,n/a,no id,"A consecutive sequence of 2 or more of location coordinates, such as latitude and longitude pairs,defines a line or polygon. Points shall be joined in the order given in the message. Any area described will fall left of the drawn boundary in the direction established by the order of the points given in the message. This definition is for simple non-intersecting polygons without holes.",tbd,
+1147,03,003010,6,**,**,Acoustic Doppler Current Profiler,code,
+1479,33,033032,n/a,n/a,no id,All bits off implies a good calibration.,table,
+1049,02,002032,/,/,/,/,/,no notes
+1050,02,002033,/,/,/,/,/,no notes
+1051,02,002034,/,/,/,/,/,no notes
+1052,02,002036,/,/,/,/,/,no notes
+1053,02,002037,/,/,/,/,/,no notes
+1054,02,002038,/,/,/,/,/,no notes
+1055,02,002039,/,/,/,/,/,no notes
+1056,02,002040,/,/,/,/,/,no notes
+1057,02,002041,/,/,/,/,/,no notes
+1058,02,002042,/,/,/,/,/,no notes
+1059,02,002044,/,/,/,/,/,no notes
+1060,02,002045,/,/,/,/,/,no notes
+1061,02,002046,/,/,/,/,/,no notes
+1062,02,002047,/,/,/,/,/,no notes
+1063,02,002048,/,/,/,/,/,no notes
+1480,33,033033,n/a,n/a,1,All bits off implies a good calibration.,table,
+1185,08,008023,n/a,n/a,*,All first-order statistics are in the units defined by the original data descriptors.,title,
+1525,33,033085,5,n/a,*,AOT = Aerosol optical thickness,word in code,
+1067,02,002051,/,/,/,/,/,no notes
+1527,33,033085,13,n/a,***,APSP = Aerosol particle size parameter,word in code,
+1069,02,002053,/,/,/,/,/,no notes
+1070,02,002054,/,/,/,/,/,no notes
+1071,02,002055,/,/,/,/,/,no notes
+1072,02,002056,/,/,/,/,/,no notes
+1073,02,002057,/,/,/,/,/,no notes
+1074,02,002058,/,/,/,/,/,no notes
+1075,02,002059,/,/,/,/,/,no notes
+1076,02,002060,/,/,/,/,/,no notes
+1077,02,002061,/,/,/,/,/,no notes
+1078,02,002062,/,/,/,/,/,no notes
+1456,31,031021,n/a,n/a,1,Associated field significance shall be used initially in conjunction with the quality of observed data.,table,
+1080,02,002066,/,/,/,/,/,no notes
+1081,02,002070,/,/,/,/,/,no notes
+1082,02,002080,/,/,/,/,/,no notes
+1083,02,002081,/,/,/,/,/,no notes
+1084,02,002083,/,/,/,/,/,no notes
+1085,02,002084,/,/,/,/,/,no notes
+1086,02,002092,/,/,/,/,/,no notes
+1087,02,002095,/,/,/,/,/,no notes
+1088,02,002096,/,/,/,/,/,no notes
+1089,02,002097,/,/,/,/,/,no notes
+1090,02,002099,/,/,/,/,/,no notes
+1091,02,002101,/,/,/,/,/,no notes
+1092,02,002103,/,/,/,/,/,no notes
+1093,02,002104,/,/,/,/,/,no notes
+1094,02,002115,/,/,/,/,/,no notes
+1095,02,002119,/,/,/,/,/,no notes
+1096,02,002131,/,/,/,/,/,no notes
+1097,02,002137,/,/,/,/,/,no notes
+1098,02,002138,/,/,/,/,/,no notes
+1099,02,002139,/,/,/,/,/,no notes
+1100,02,002143,/,/,/,/,/,no notes
+1499,33,033066,n/a,n/a,*,Atmospheric motion vectors,word in title,
+1079,02,002064,1,n/a,no id,Bad is currently defined as a roll angle > 5 degrees from vertical.,code,
+1103,02,002145,/,/,/,/,/,no notes
+1104,02,002146,/,/,/,/,/,no notes
+1066,02,002050,n/a,n/a,no id,"Beginning with the first bit position (high order bit), if the bit position is set to one, then the channel is used. If the bit position is set to zero, then the channel is not used.",table,
+1068,02,002052,n/a,n/a,no id,"Beginning with the first bit position (high order bit), if the bit position is set to one, then the channel is used. If the bit position is set to zero, then the channel is not used.",table,
+1107,02,002148,/,/,/,/,/,no notes
+1108,02,002149,/,/,/,/,/,no notes
+1109,02,002150,/,/,/,/,/,no notes
+1110,02,002151,/,/,/,/,/,no notes
+1111,02,002152,/,/,/,/,/,no notes
+1038,02,002022,na,na,na,Bit flags denoting the elements included in processing sounding data.,table,"above table, under title"
+1042,02,002025,n/a,n/a,no id,"Bit flags denoting the instrument and/or channels used in obtaining various physical parameters. If, in any grouping of parameters, all bits = 0, then no retrieval was made for that parameter or set of parameters.",table,"above table, under title"
+1114,02,002160,/,/,/,/,/,no notes
+1115,02,002161,/,/,/,/,/,no notes
+1476,33,033031,n/a,n/a,2,Bits 1-4 represent time problem code. All bits off implies the scan time is as expected.,table,
+1478,33,033031,n/a,n/a,4,Bits 11-17 represent Earth location problem code. All bits set to zero implies the Earth location was normal.,table,
+1118,02,002163,/,/,/,/,/,no notes
+1119,02,002164,/,/,/,/,/,no notes
+1120,02,002165,/,/,/,/,/,no notes
+1121,02,002166,/,/,/,/,/,no notes
+1122,02,002167,/,/,/,/,/,no notes
+1123,02,002169,/,/,/,/,/,no notes
+1124,02,002170,/,/,/,/,/,no notes
+1125,02,002172,/,/,/,/,/,no notes
+1126,02,002175,/,/,/,/,/,no notes
+1127,02,002176,/,/,/,/,/,no notes
+1128,02,002177,/,/,/,/,/,no notes
+1129,02,002178,/,/,/,/,/,no notes
+1130,02,002179,/,/,/,/,/,no notes
+1131,02,002180,/,/,/,/,/,no notes
+1132,02,002181,/,/,/,/,/,no notes
+1133,02,002182,/,/,/,/,/,no notes
+1134,02,002183,/,/,/,/,/,no notes
+1135,02,002184,/,/,/,/,/,no notes
+1136,02,002185,/,/,/,/,/,no notes
+1137,02,002186,/,/,/,/,/,no notes
+1138,02,002187,/,/,/,/,/,no notes
+1139,02,002188,/,/,/,/,/,no notes
+1140,02,002189,/,/,/,/,/,no notes
+1141,02,002191,/,/,/,/,/,no notes
+1142,03,003001,/,/,/,/,/,no notes
+1143,03,003003,/,/,/,/,/,no notes
+1144,03,003004,/,/,/,/,/,no notes
+1145,03,003008,/,/,/,/,/,no notes
+1481,33,033033,2-21,n/a,2,"Bits 2-21 used for HIRS, but only bits 2-16 used for AMSU-A and only bits 2-6 used for AMSU-B.",table,
+1477,33,033031,n/a,n/a,3,"Bits 5-10 represent calibration problem code. All bits set to zero indicated normal calibration. Where any of bits 5, 7, 10 are set, secondary calibration coefficients have been used.",table,
+1148,03,003011,/,/,/,/,/,no notes
+1149,03,003012,/,/,/,/,/,no notes
+1150,03,003016,/,/,/,/,/,no notes
+1151,03,003017,/,/,/,/,/,no notes
+1152,03,003018,/,/,/,/,/,no notes
+1153,03,003019,/,/,/,/,/,no notes
+1106,02,002147,6,n/a,**,Broadband Global Area Network,code,
+1155,03,003021,/,/,/,/,/,no notes
+1156,03,003022,/,/,/,/,/,no notes
+1157,03,003023,/,/,/,/,/,no notes
+1158,03,003027,/,/,/,/,/,no notes
+1159,03,003028,/,/,/,/,/,no notes
+1160,04,004059,/,/,/,/,/,no notes
+1161,04,004080,/,/,/,/,/,no notes
+1162,05,005069,/,/,/,/,/,no notes
+1163,08,008001,/,/,/,/,/,no notes
+1164,08,008002,/,/,/,/,/,no notes
+1165,08,008003,/,/,/,/,/,no notes
+1166,08,008004,/,/,/,/,/,no notes
+1167,08,008005,/,/,/,/,/,no notes
+1168,08,008006,/,/,/,/,/,no notes
+1036,02,002022,1,n/a,1,"Clear path means the sounding has been generated from clear radiances derived from actual clear spot measurements. Tropospheric and stratospheric HIRS data, as well as MSU and SSU data, have been used.",code,update association
+1170,08,008008,/,/,/,/,/,no notes
+1171,08,008009,/,/,/,/,/,no notes
+1172,08,008010,/,/,/,/,/,no notes
+1173,08,008011,/,/,/,/,/,no notes
+1174,08,008012,/,/,/,/,/,no notes
+1175,08,008013,/,/,/,/,/,no notes
+1176,08,008014,/,/,/,/,/,no notes
+1177,08,008015,/,/,/,/,/,no notes
+1178,08,008016,/,/,/,/,/,no notes
+1179,08,008017,/,/,/,/,/,no notes
+1180,08,008018,/,/,/,/,/,no notes
+1181,08,008019,/,/,/,/,/,no notes
+1064,02,002049,3,n/a,1,Clear sounding indicates the sounding has been generated from a set of clear radiances using all available sounder radiances.,code,add association
+1039,02,002022,5,n/a,3,"Cloudy path means the sounding has been generated only from stratospheric HIRS data, MSU data andSSU data. Tropospheric HIRS data have not been used because of cloudy conditions.",code,update association
+1065,02,002049,4,n/a,2,Cloudy sounding indicates that sufficient clear radiances could not be identified in the sounding area. The sounding is calculated from the cloud top (cloud pressure greater than or equal to 780 hPa) upwards.,code,add association
+1046,02,002031,n/a,n/a,1,Code figures 1-9: Duration and time of current measurement (vector or Doppler current profiling method).,table,
+1047,02,002031,n/a,n/a,2,Code figures 11-19: Period of current measurement (drift method).,table,
+1270,20,020003,n/a,n/a,3,"Code figures for generic precipitation (code figures 140-148) are arranged in order of increasing complexity. For example, a very simple station that can sense only the presence or absence of precipitation would use code figure 140 (precipitation). At the next level, an automatic station capable of sensing amount but not type would use code figure 141 or 142. An automatic station capable of sensing gross type (liquid, solid, freezing) and amount would use code figures 143-148. An automatic station capable of reporting actual types of precipitation (e.g. drizzle rain), but not the amount, would use the appropriate whole decile number (e.g. 150 for generic drizzle, 160 for generic rain).",table,
+1188,08,008025,/,/,/,/,/,no notes
+1189,08,008026,/,/,/,/,/,no notes
+1190,08,008029,/,/,/,/,/,no notes
+1191,08,008032,/,/,/,/,/,no notes
+1192,08,008033,/,/,/,/,/,no notes
+1193,08,008034,/,/,/,/,/,no notes
+1194,08,008035,/,/,/,/,/,no notes
+1195,08,008036,/,/,/,/,/,no notes
+1196,08,008037,/,/,/,/,/,no notes
+1197,08,008038,/,/,/,/,/,no notes
+1198,08,008039,/,/,/,/,/,no notes
+1199,08,008040,/,/,/,/,/,no notes
+1200,08,008041,/,/,/,/,/,no notes
+1389,25,025009,n/a,n/a,no id,Descriptor 0 25 009 is deprecated. 0 25 029 should be used instead.,table,move to top of table
+1186,08,008024,n/a,n/a,*,"Difference statistics are difference values; they have dimensions the same as the corresponding reported values with respect to units, but assume a range centred on zero (e.g., the difference between reported and analysed values, the difference between reported and forecast values).",title,
+1423,25,025090,9,n/a,**,"DIODE means détermination immédiate d’orbite par DORIS embarqué or immediate onboard orbit determination by DORIS. It is part of the DORIS instrument, which calculates the satellite’s position and velocity.",code,"""DORIS* DIODE**"""
+1204,08,008050,/,/,/,/,/,no notes
+1205,08,008051,/,/,/,/,/,no notes
+1206,08,008052,/,/,/,/,/,no notes
+1207,08,008053,/,/,/,/,/,no notes
+1208,08,008054,/,/,/,/,/,no notes
+1209,08,008060,/,/,/,/,/,no notes
+1210,08,008065,/,/,/,/,/,no notes
+1211,08,008066,/,/,/,/,/,no notes
+1212,08,008070,/,/,/,/,/,no notes
+1213,08,008072,/,/,/,/,/,no notes
+1214,08,008074,/,/,/,/,/,no notes
+1215,08,008075,/,/,/,/,/,no notes
+1216,08,008076,/,/,/,/,/,no notes
+1217,08,008077,/,/,/,/,/,no notes
+1218,08,008079,/,/,/,/,/,no notes
+1422,25,025090,9,n/a,*,"DORIS stands for ""Doppler orbitography and radio-positioning integrated by Satellite"".",word in code,"""DORIS* DIODE**"""
+1220,08,008081,/,/,/,/,/,no notes
+1435,25,025120,1,n/a,*,DSR = Data set record,word in code,"""DSRs*"""
+1222,08,008083,/,/,/,/,/,no notes
+1223,08,008085,/,/,/,/,/,no notes
+1224,08,008086,/,/,/,/,/,no notes
+1225,08,008087,/,/,/,/,/,no notes
+1226,08,008088,/,/,/,/,/,no notes
+1227,08,008091,/,/,/,/,/,no notes
+1228,08,008092,/,/,/,/,/,no notes
+1229,08,008093,/,/,/,/,/,no notes
+1439,25,025124,0,n/a,**,DSR = Data set record,word in code,DSRs**
+1440,25,025124,1,n/a,**,DSR = Data set record,word in code,DSRs**
+1232,10,010064,/,/,/,/,/,no notes
+1233,11,011030,/,/,/,/,/,no notes
+1234,11,011031,/,/,/,/,/,no notes
+1235,11,011037,/,/,/,/,/,no notes
+1236,11,011038,/,/,/,/,/,no notes
+1237,11,011039,/,/,/,/,/,no notes
+1238,13,013038,/,/,/,/,/,no notes
+1239,13,013039,/,/,/,/,/,no notes
+1101,02,002144,1,n/a,no id,Entries 1 and 2 should not be used.,code,
+1241,13,013041,/,/,/,/,/,no notes
+1242,13,013051,/,/,/,/,/,no notes
+1243,13,013056,/,/,/,/,/,no notes
+1244,13,013057,/,/,/,/,/,no notes
+1245,15,015025,/,/,/,/,/,no notes
+1102,02,002144,2,n/a,no id,Entries 1 and 2 should not be used.,code,
+1247,19,019008,/,/,/,/,/,no notes
+1248,19,019010,/,/,/,/,/,no notes
+1249,19,019100,/,/,/,/,/,no notes
+1250,19,019101,/,/,/,/,/,no notes
+1251,19,019102,/,/,/,/,/,no notes
+1252,19,019103,/,/,/,/,/,no notes
+1253,19,019104,/,/,/,/,/,no notes
+1254,19,019105,/,/,/,/,/,no notes
+1255,19,019107,/,/,/,/,/,no notes
+1256,19,019108,/,/,/,/,/,no notes
+1257,19,019109,/,/,/,/,/,no notes
+1258,19,019110,/,/,/,/,/,no notes
+1259,19,019113,/,/,/,/,/,no notes
+1260,19,019117,/,/,/,/,/,no notes
+1261,19,019119,/,/,/,/,/,no notes
+1015,01,001150,n/a,n/a,1,"EPSG is a dataset of coordinate system and coordinate system transformations, originally produced and maintained by the European Petroleum Survey Group. It is now maintained by the Geodesy Subcommittee of the International Association of Oil and Gas Producers Geomatics Committee.",table,
+1280,20,020011,15,n/a,1,"For use of code figure 15, see Regulation 12.1.4.",code,
+1458,31,031021,n/a,n/a,3,Further applications may be developed.,table,
+1269,20,020003,n/a,n/a,2,"Generic terms for weather (e.g. fog, drizzle) are intended for use at automatic stations capable of determining types of weather but no other information. Generic terms are included in the code table using all capital letters.",table,
+1398,25,025022,n/a,n/a,*,GHRSST = GODAE high-resolution sea-surface temperature,word in title,
+1105,02,002147,6,n/a,*,Global Area Network.,word in code,
+1484,33,033038,n/a,n/a,*,GNSS = Global Navigation Satellite Systems,word in title,
+1154,03,003020,2,*,*,GRP = Glass-reinforced plastic,word in code,
+1028,02,002013,8,*,*,GRUAN = GCOS Reference Upper-Air Network,word in code,
+1219,08,008080,n/a,n/a,*,GTSPP = Global Temperature Salinity Profile Programme,word in title,
+1448,25,025188,0,*,*,Guide to Meteorological Instruments and Methods of Observation,code,"""WMO-No. 8*"""
+1048,02,002031,n/a,n/a,3,H = Time of observation.,table,
+1264,20,020003,27,n/a,c,"Hail, small hail, snow pellets.",code,
+1265,20,020003,93,n/a,d,"Hail, small hail, snow pellets.",code,
+1266,20,020003,94,n/a,d,"Hail, small hail, snow pellets.",code,
+1277,20,020006,/,/,/,/,/,no notes
+1278,20,020008,/,/,/,/,/,no notes
+1279,20,020009,/,/,/,/,/,no notes
+1267,20,020003,97,n/a,e,"Hail, small hail, snow pellets.",code,
+1043,02,002025,16,*,*,HIRS* is equivalent to: HIRS channels 1 (669 cm-1) 2 (679 cm-1) 3 (690 cm-1) 4 (2358 cm-1),code,"superscript, formatted "
+1044,02,002025,21,*,*,HIRS* is equivalent to: HIRS channels 1 (669 cm-1)2 (679 cm-1)3 (690 cm-1)4 (2358 cm-1),code,"superscript, formatted "
+1437,25,025123,n/a,n/a,*,HPA = High power amplifier,word in title,
+1221,08,008082,1,*,*,"If 0 08 082 = 1, the standard level is indicated by the Class 07 descriptor, which immediately follows. It is possible to indicate the real height of the sensor by preceding the descriptor by the relevant Class 07 descriptor.",code,
+1285,20,020017,/,/,/,/,/,no notes
+1286,20,020018,/,/,/,/,/,no notes
+1474,33,033030,n/a,n/a,no id,If bit is set to 1 then statement is true.,table,
+1288,20,020022,/,/,/,/,/,no notes
+1289,20,020023,/,/,/,/,/,no notes
+1290,20,020024,/,/,/,/,/,no notes
+1291,20,020025,/,/,/,/,/,no notes
+1292,20,020026,/,/,/,/,/,no notes
+1475,33,033031,n/a,n/a,1,If bit is set to 1 then statement is true.,table,
+1530,33,033088,9,n/a,*,IFOV = Instantaneous field of view,word in code,
+1314,20,020062,n/a,n/a,2,In all instances the highest code figures applicable are to be reported.,table,
+1296,20,020028,/,/,/,/,/,no notes
+1297,20,020029,/,/,/,/,/,no notes
+1298,20,020032,/,/,/,/,/,no notes
+1299,20,020033,/,/,/,/,/,no notes
+1300,20,020034,/,/,/,/,/,no notes
+1301,20,020035,/,/,/,/,/,no notes
+1302,20,020036,/,/,/,/,/,no notes
+1303,20,020037,/,/,/,/,/,no notes
+1304,20,020040,/,/,/,/,/,no notes
+1305,20,020041,/,/,/,/,/,no notes
+1306,20,020042,/,/,/,/,/,no notes
+1307,20,020045,/,/,/,/,/,no notes
+1308,20,020048,/,/,/,/,/,no notes
+1309,20,020050,/,/,/,/,/,no notes
+1295,20,020027,8,(see Note 2),2,"In conjunction with the observation of waterspouts or funnel clouds, i.e., more than 3 km from the station.",code,
+1294,20,020027,7,(see Note 1),1,"In conjunction with the observation of waterspouts or funnel clouds, i.e., within 3 km of the station.",code,
+1312,20,020056,/,/,/,/,/,no notes
+1230,10,010063,n/a,n/a,1,"In reports from automatic stations, code figure 2 shall be used when tendency is positive, 7 whennegative, and 4 when pressure is the same as three hours before.",table,
+1231,10,010063,n/a,n/a,2,"In reports from tropical stations reporting 24-hour pressure changes, code figure 2 shall be used when tendency is positive, 7 when negative, and 4 when pressure is the same as 24 hours before.",table,
+1315,20,020062,n/a,n/a,3,"In the above code table, whenever reference is made to ice, it also includes solid precipitation other than snow.",table,
+1310,20,020055,5,(see Note),no id,"In the event of obscuration of clouds due to heavy rain, the observer should use code 5 or 8. Code 5 should be used if the rain is localized or is brief in duration; Code 8 should be used if the rain is widespread or lasts for longer periods of time.",code,
+1311,20,020055,8,(see Note),no id,"In the event of obscuration of clouds due to heavy rain, the observer should use code 5 or 8. Code 5 should be used if the rain is localized or is brief in duration; Code 8 should be used if the rain is widespread or lasts for longer periods of time.",code,
+1116,02,002162,1,n/a,*,Infrared window,word in code,
+1240,13,013040,7,*,*,"Inland water includes rivers, lakes, wetlands and swamps.",code,
+1545,40,040013,tbd,n/a,*,JMR = JASON-1 Microwave Radiometer,word in code,
+1287,20,020021,n/a,n/a,no id,Mixed precipitation is indicated by setting to one the bits of all the observed single types of precipitation.,table,
+1322,20,020071,/,/,/,/,/,no notes
+1323,20,020085,/,/,/,/,/,no notes
+1324,20,020086,/,/,/,/,/,no notes
+1325,20,020087,/,/,/,/,/,no notes
+1326,20,020089,/,/,/,/,/,no notes
+1327,20,020090,/,/,/,/,/,no notes
+1328,20,020101,/,/,/,/,/,no notes
+1329,20,020102,/,/,/,/,/,no notes
+1330,20,020103,/,/,/,/,/,no notes
+1331,20,020104,/,/,/,/,/,no notes
+1332,20,020105,/,/,/,/,/,no notes
+1333,20,020106,/,/,/,/,/,no notes
+1334,20,020107,/,/,/,/,/,no notes
+1335,20,020108,/,/,/,/,/,no notes
+1336,20,020119,/,/,/,/,/,no notes
+1337,20,020124,/,/,/,/,/,no notes
+1338,20,020136,/,/,/,/,/,no notes
+1339,20,020137,/,/,/,/,/,no notes
+1340,20,020138,/,/,/,/,/,no notes
+1341,21,021066,n/a,n/a,1,MMCC is Mission Management Control Centre.,table,
+1344,21,021068,n/a,n/a,no id,MMCC is Mission Management Control Centre.,table,
+1343,21,021067,/,/,/,/,/,no notes
+1113,02,002159,n/a,n/a,no id,MWR = Microwave radiometer,table,no notes
+1345,21,021069,/,/,/,/,/,no notes
+1346,21,021070,/,/,/,/,/,no notes
+1347,21,021072,/,/,/,/,/,no notes
+1348,21,021073,/,/,/,/,/,no notes
+1349,21,021076,/,/,/,/,/,no notes
+1350,21,021109,/,/,/,/,/,no notes
+1351,21,021115,/,/,/,/,/,no notes
+1352,21,021116,/,/,/,/,/,no notes
+1353,21,021119,/,/,/,/,/,no notes
+1354,21,021144,/,/,/,/,/,no notes
+1355,21,021148,/,/,/,/,/,no notes
+1356,21,021150,/,/,/,/,/,no notes
+1357,21,021155,/,/,/,/,/,no notes
+1358,21,021158,/,/,/,/,/,no notes
+1359,21,021159,/,/,/,/,/,no notes
+1360,21,021169,/,/,/,/,/,no notes
+1361,22,022056,/,/,/,/,/,no notes
+1362,22,022060,/,/,/,/,/,no notes
+1438,25,025124,n/a,n/a,*,MWR = Microwave radiometer,word in title,MWR*-L2-processing flag
+1246,19,019001,n/a,n/a,no id,New local names for storm of various strengths shall be added as necessary.,table,
+1403,25,025031,n/a,n/a,no id,None of the code figures exclude the addition of interpolated levels at the discretion of the generating centre.,table,
+1523,33,033083,7,n/a,*,OBC = on-board calibration,word in code,OBC
+1367,22,022120,/,/,/,/,/,no notes
+1368,22,022121,/,/,/,/,/,no notes
+1369,22,022122,/,/,/,/,/,no notes
+1370,22,022123,/,/,/,/,/,no notes
+1371,22,022178,/,/,/,/,/,no notes
+1372,23,023001,/,/,/,/,/,no notes
+1373,23,023002,/,/,/,/,/,no notes
+1374,23,023003,/,/,/,/,/,no notes
+1375,23,023004,/,/,/,/,/,no notes
+1376,23,023005,/,/,/,/,/,no notes
+1377,23,023006,/,/,/,/,/,no notes
+1378,23,023007,/,/,/,/,/,no notes
+1379,23,023008,/,/,/,/,/,no notes
+1380,23,023009,/,/,/,/,/,no notes
+1381,23,023016,/,/,/,/,/,no notes
+1382,23,023018,/,/,/,/,/,no notes
+1383,23,023031,/,/,/,/,/,no notes
+1384,23,023032,/,/,/,/,/,no notes
+1385,24,024003,/,/,/,/,/,no notes
+1386,25,025004,/,/,/,/,/,no notes
+1387,25,025005,/,/,/,/,/,no notes
+1388,25,025006,/,/,/,/,/,no notes
+1316,20,020063,70,/,*,"Or sky (if sun is low), or moon or stars at night.",code,
+1390,25,025010,/,/,/,/,/,no notes
+1391,25,025011,/,/,/,/,/,no notes
+1392,25,025012,/,/,/,/,/,no notes
+1393,25,025013,/,/,/,/,/,no notes
+1394,25,025015,/,/,/,/,/,no notes
+1395,25,025017,/,/,/,/,/,no notes
+1396,25,025020,/,/,/,/,/,no notes
+1397,25,025021,/,/,/,/,/,no notes
+1317,20,020063,71,/,*,"Or sky (if sun is low), or moon or stars at night.",code,
+1399,25,025023,/,/,/,/,/,no notes
+1400,25,025024,/,/,/,/,/,no notes
+1401,25,025029,/,/,/,/,/,no notes
+1402,25,025030,/,/,/,/,/,no notes
+1318,20,020063,72,/,*,"Or sky (if sun is low), or moon or stars at night.",code,
+1404,25,025032,/,/,/,/,/,no notes
+1405,25,025033,/,/,/,/,/,no notes
+1406,25,025034,/,/,/,/,/,no notes
+1407,25,025035,/,/,/,/,/,no notes
+1408,25,025036,/,/,/,/,/,no notes
+1409,25,025040,/,/,/,/,/,no notes
+1319,20,020063,73,/,*,"Or sky (if sun is low), or moon or stars at night.",code,
+1320,20,020063,74,/,*,"Or sky (if sun is low), or moon or stars at night.",code,
+1412,25,025045,/,/,/,/,/,no notes
+1413,25,025046,/,/,/,/,/,no notes
+1414,25,025047,/,/,/,/,/,no notes
+1415,25,025048,/,/,/,/,/,no notes
+1416,25,025049,/,/,/,/,/,no notes
+1417,25,025051,/,/,/,/,/,no notes
+1418,25,025053,/,/,/,/,/,no notes
+1419,25,025063,/,/,/,/,/,no notes
+1420,25,025069,/,/,/,/,/,no notes
+1421,25,025086,/,/,/,/,/,no notes
+1321,20,020063,75,/,*,"Or sky (if sun is low), or moon or stars at night.",code,
+1037,02,002022,4,n/a,2,"Partly cloudy path means the sounding has been generated from clear radiances which have been calculated from partly cloudy spots. Tropospheric and stratospheric HIRS data, as well as MSU and SSU data, have been used.",code,update association
+1424,25,025093,/,/,/,/,/,no notes
+1425,25,025095,/,/,/,/,/,no notes
+1426,25,025096,/,/,/,/,/,no notes
+1427,25,025097,/,/,/,/,/,no notes
+1293,20,020027,n/a,n/a,*,"Phenomenon in this flag table means any phenomenon, including precipitation and obscuration.",title,
+1342,21,021066,n/a,n/a,2,PRF is pulse repetition frequency.,table,
+1452,29,029001,4,n/a,*,Projection type 4 indicates a Cartesian grid placed directly on the scanning cone defined by the azimuthal sweep of the radar.,code,
+1520,33,033080,7,*,*,PRT = Platinum Resistance Temperature,word in code,
+1432,25,025110,/,/,/,/,/,no notes
+1112,02,002158,n/a,n/a,no id,PTR = Pulse target response HPA = High power amplifier RFSS = Radio frequency subsystemRED = Redundancy,table,formatted
+1512,33,033077,5,(see Note 2),2,"Radiometric calibration is invalid if radiometric calibration is not performed, or if it is performed with invalid calibration data (e.g., deep space window size = 0).",code,
+1510,33,033077,10,n/a,**,RDR = Raw data record,word in code,
+1436,25,025122,n/a,n/a,*,RF = Radio frequency,word in title,
+1507,33,033077,1,n/a,*,SDR = Sensor data record,word in code,
+1508,33,033077,2,n/a,*,SDR = Sensor data record,word in code,
+1509,33,033077,3,n/a,*,SDR = Sensor data record,word in code,
+1526,33,033085,13,n/a,**,SDR = Sensor data record,word in code,
+1441,25,025150,/,/,/,/,/,no notes
+1442,25,025174,/,/,/,/,/,no notes
+1443,25,025181,/,/,/,/,/,no notes
+1444,25,025182,/,/,/,/,/,no notes
+1445,25,025184,/,/,/,/,/,no notes
+1446,25,025185,/,/,/,/,/,no notes
+1447,25,025187,/,/,/,/,/,no notes
+1511,33,033077,2,(see Note 1),1,"SDR quality is invalid if bit trim failed (see bit 12), or fringe count error detected (see bit 11), or invalid raw data record (RDR) data (see bit 10), or invalid radiometric calibration (see bit 5), or invalid spectral calibration (see bit 7).",code,
+1449,25,025190,/,/,/,/,/,no notes
+1450,25,025191,/,/,/,/,/,no notes
+1451,26,026010,/,/,/,/,/,no notes
+1515,33,033077,9,(see Note 5),5,Set to 0 if day (solar zenith angle < 90°). Set to 1 if night (solar zenith angle ≥ 90°).,code,
+1453,29,029002,/,/,/,/,/,no notes
+1454,30,030031,/,/,/,/,/,no notes
+1455,30,030032,/,/,/,/,/,no notes
+1514,33,033077,8,(see Note 4),4,"Set to 0 if no fringe count error was detected (see bit 11), or a fringe count error was detected but it was not corrected.",code,
+1505,33,033076,1,(see Note),no id,Set to 1 if at least one spectrum in the deep space moving average was invalidated due to a lunar intrusion.,code,
+1506,33,033076,2,(see Note),no id,Set to 1 if at least one spectrum in the deep space moving average was invalidated due to a lunar intrusion.,code,
+1459,31,031031,/,/,/,/,/,no notes
+1460,33,033002,/,/,/,/,/,no notes
+1461,33,033003,/,/,/,/,/,no notes
+1462,33,033005,/,/,/,/,/,no notes
+1463,33,033006,/,/,/,/,/,no notes
+1464,33,033015,/,/,/,/,/,no notes
+1465,33,033020,/,/,/,/,/,no notes
+1466,33,033021,/,/,/,/,/,no notes
+1467,33,033022,/,/,/,/,/,no notes
+1468,33,033023,/,/,/,/,/,no notes
+1469,33,033024,/,/,/,/,/,no notes
+1470,33,033025,/,/,/,/,/,no notes
+1471,33,033026,/,/,/,/,/,no notes
+1472,33,033027,/,/,/,/,/,no notes
+1473,33,033028,/,/,/,/,/,no notes
+1503,33,033075,3,(see Note 1),1,Set to 1 if laser wavelength calculation is invalid due to laser diode bias current and/or laser diode temperature measurements being outside the predetermined allowable ranges. These ranges are tunable.In this case Lambda monitored calculation shall have 1 bit per scan.,code,
+1513,33,033077,7,(see Note 3),3,"Spectral calibration is invalid if fringe count error detected and corrected (see bit 8), or if neon calibration is suspect and Lambda monitored calculation cannot be updated (see ""Scan-level quality flags"" (0 33 075) -bit 3).",code,
+1004,01,001029,n/a,n/a,*,Surface solar irradiance,word in title,
+1428,25,025098,3,n/a,*,SWH = Significant wave height,word in code,
+1429,25,025098,4,n/a,*,SWH = Significant wave height,word in code,
+1430,25,025099,3,n/a,*,SWH = Significant wave height,word in code,
+1431,25,025099,4,n/a,*,SWH = Significant wave height,word in code,
+1457,31,031021,21,(see Note 2),2,The code figure 21 may be used within corrected messages with the substituted/corrected values identified.,code,
+1482,33,033035,/,/,/,/,/,no notes
+1483,33,033037,/,/,/,/,/,no notes
+1313,20,020062,n/a,n/a,1,"The definitions in code numbers 0 to 2 and 4 apply to representative bare ground and numbers 3, 5 to 9 and 10 to 19 to an open representative area.",table,
+1485,33,033039,/,/,/,/,/,no notes
+1364,22,022061,n/a,n/a,2,"The exact bounding height shall be assigned for the lower code figure; e.g., a height of 4 m is coded as5.",table,
+1487,33,033042,/,/,/,/,/,no notes
+1488,33,033043,/,/,/,/,/,no notes
+1489,33,033044,/,/,/,/,/,no notes
+1490,33,033047,/,/,/,/,/,no notes
+1262,20,020003,00-19,n/a,a,"The expression ""at the station"" refers to a land station or a ship.",code,change to (see Note...)
+1492,33,033049,/,/,/,/,/,no notes
+1493,33,033050,/,/,/,/,/,no notes
+1494,33,033052,/,/,/,/,/,no notes
+1495,33,033053,/,/,/,/,/,no notes
+1496,33,033055,/,/,/,/,/,no notes
+1497,33,033056,/,/,/,/,/,no notes
+1498,33,033060,/,/,/,/,/,no notes
+1202,08,008043,n/a,n/a,no id,The last column in the table contains the associated registry number from the Chemical Abstracts Service (CAS) of the American Chemical Society.,table,
+1500,33,033070,/,/,/,/,/,no notes
+1501,33,033071,/,/,/,/,/,no notes
+1502,33,033072,/,/,/,/,/,no notes
+1268,20,020003,n/a,n/a,1,The middle portion of this code table (code figures 100-199) includes terms on several levels to cover simple and increasingly complex automatic stations.,table,
+1541,40,040005,n/a,n/a,no id,"The nominal range for the surface soil moisture is 0% - 100%. In extreme cases, the extrapolated backscatter at 40 degrees incidence angle may exceed the dry or the wet backscatter reference. In these cases, the value provided by the measurement process of surface soil moisture is, respectively,less than 0% or more than 100%.",table,
+1542,40,040006,n/a,n/a,no id,"The nominal range for the surface soil moisture is 0% - 100%. In extreme cases, the extrapolated backscatter at 40 degrees incidence angle may exceed the dry or the wet backscatter reference. In these cases, the value provided by the measurement process of surface soil moisture is, respectively,less than 0% or more than 100%.",table,"previous: ""See Note under Flag table 0 40 005"""
+1271,20,020004,11,n/a,no id,"The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown incapital letters). Stations with progressively higher discrimination capability shall use the moredetailed descriptions (higher codes).",code,
+1272,20,020004,13,n/a,no id,"The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown incapital letters). Stations with progressively higher discrimination capability shall use the moredetailed descriptions (higher codes).",code,
+1273,20,020004,14,n/a,no id,"The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown incapital letters). Stations with progressively higher discrimination capability shall use the moredetailed descriptions (higher codes).",code,
+1274,20,020005,11,n/a,no id,"The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown incapital letters). Stations with progressively higher discrimination capability shall use the moredetailed descriptions (higher codes).",code,
+1275,20,020005,13,n/a,no id,"The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown incapital letters). Stations with progressively higher discrimination capability shall use the moredetailed descriptions (higher codes).",code,
+1276,20,020005,14,n/a,no id,"The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown incapital letters). Stations with progressively higher discrimination capability shall use the moredetailed descriptions (higher codes).",code,
+1504,33,033075,4,(see Note 2),2,"These temperatures are used to compute the ""environmental"" contribution to the internal calibration target(ICT) radiances. When this bit is set to 1, the invalid temperatures shall be replaced with the validated temperature values of the ICT.",code,
+1363,22,022061,n/a,n/a,1,"These values refer to well-developed wind waves of the open sea. While priority shall be given to the descriptive terms, these height values may be used for guidance by the observer when reporting the total state of agitation of the sea resulting from various factors such as wind, swell, currents, anglebetween swell and wind, etc.",table,
+1486,33,033041,n/a,n/a,no id,"This descriptor will be associated with visibility data or height of clouds data to specify if the value is bounded. If the reported data is the true value, the code figure is 0. However, the measurement can hit the limit of the instrument measurement capability. If the reported value is higher than the true value, the codefigure is 1; if the reported value is lower than the true value, the code figure is 2.",table,
+1517,33,033077,11,(see Note 7),7,"This flag indicates that a significant number of fringes have been missed, shifting the interferogram ZPD outside of a window monitored by the instrument, and the interferogram is excluded from SDR processing.",code,
+1516,33,033077,10,(see Note 6),6,This flag indicates the instrument exhibited operational errors and the associated interferogram(s) is/are excluded from SDR processing.,code,
+1184,08,008021,n/a,n/a,3,Time significance must be qualified by appropriate time periods being specified.,table,
+1518,33,033078,/,/,/,/,/,no notes
+1519,33,033079,/,/,/,/,/,no notes
+1263,20,020003,19,n/a,b,Tornado cloud or waterspout.,code,
+1521,33,033081,/,/,/,/,/,no notes
+1522,33,033082,/,/,/,/,/,no notes
+1020,02,002002,na,na,na,"Type of Instrumentation and original units for wind measurement
+(measured in m s–1 unless otherwise indicated)",table,"note is in weird place, move to under table."
+1524,33,033084,/,/,/,/,/,no notes
+1045,02,002030,1,*,*,Value deprecated. Code figure 6 should be used instead.,code,
+1146,03,003010,1,*,*,Value deprecated. Code figure 6 should be used instead.,code,
+1117,02,002162,2,n/a,**,Water vapour,code,
+1528,33,033086,/,/,/,/,/,no notes
+1529,33,033087,/,/,/,/,/,no notes
+1016,01,001150,4,n/a,2,"When Code figure 4 is used to specify a custom coordinate reference system, the ellipsoidal datum shall be an oblate ellipsoid of revolution, where the major axis is uniplanar with the equatorial plane and the minor axis traverses the prime meridian towards the prime pole. North corresponds to the directionfrom the Equator to the prime pole. East corresponds to the counterclockwise direction from the primemeridian as viewed from above the North Pole. In this case, the semi-major and semi-minor axes mustbe specified (e.g. by descriptors 0 01 152 and 0 01 153).",code,update association
+1531,33,033092,/,/,/,/,/,no notes
+1532,33,033093,/,/,/,/,/,no notes
+1533,35,035000,/,/,/,/,/,no notes
+1534,35,035001,/,/,/,/,/,no notes
+1535,35,035030,/,/,/,/,/,no notes
+1536,35,035031,/,/,/,/,/,no notes
+1537,35,035032,/,/,/,/,/,no notes
+1538,35,035033,/,/,/,/,/,no notes
+1539,35,035034,/,/,/,/,/,no notes
+1540,35,035035,/,/,/,/,/,no notes
+1187,08,008024,14,**,**,"Where observed minus forecast values are represented, the period of the forecast shall be indicated by an appropriate descriptor from Class 04.",code,
+1410,25,025041,1,n/a,no id,"Where the original reporting method is as indicated by code figure 1, the following conversion is recommended to obtain a suitable data value corresponding to descriptor 0 01 012:Reported value Data value0 01 452 903 1354 1805 2256 2707 3158 3609 511",code,note is formatted
+1543,40,040011,/,/,/,/,/,no notes
+1544,40,040012,/,/,/,/,/,no notes
+1411,25,025042,1,n/a,no id,"Where the original reporting method is as indicated by code figure 1, the following conversion is recommended to obtain a suitable data value corresponding to descriptor 0 01 013:Reported value Data value 0 01 12 43 74 95 126 147 178 199 21/ 1023",code,
+1546,40,040020,/,/,/,/,/,no notes
+1547,40,040023,/,/,/,/,/,no notes
+1548,40,040024,/,/,/,/,/,no notes
+1549,40,040025,/,/,/,/,/,no notes
+1550,40,040028,/,/,/,/,/,no notes
+1551,40,040036,/,/,/,/,/,no notes
+1552,40,040043,/,/,/,/,/,no notes
+1553,40,040045,/,/,/,/,/,no notes
+1554,40,040046,/,/,/,/,/,no notes
+1555,40,040047,/,/,/,/,/,no notes
+1556,40,040048,/,/,/,/,/,no notes
+1557,40,040049,/,/,/,/,/,no notes
+1558,40,040050,/,/,/,/,/,no notes
+1559,40,040051,/,/,/,/,/,no notes
+1560,40,040052,/,/,/,/,/,no notes
+1561,40,040054,/,/,/,/,/,no notes
+1562,40,040055,/,/,/,/,/,no notes
+1563,40,040056,/,/,/,/,/,no notes
+1564,40,040057,/,/,/,/,/,no notes
+1565,40,040068,/,/,/,/,/,no notes
+1566,40,040074,/,/,/,/,/,no notes
+1567,42,042004,/,/,/,/,/,no notes

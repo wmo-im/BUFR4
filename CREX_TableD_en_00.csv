@@ -1,26 +1,26 @@
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
-00,CREX table entries sequences,D00002,,,B00002,"Table A: data category description, line 1",,,Operational
-00,CREX table entries sequences,D00002,,,B00003,"Table A: data category description, line 2",,,Operational
-00,CREX table entries sequences,D00003,"(F, X, Y of descriptor to be added or defined)",,B00010,F descriptor to be added or defined,,,Operational
-00,CREX table entries sequences,D00003,"(F, X, Y of descriptor to be added or defined)",,B00011,X descriptor to be added or defined,,,Operational
-00,CREX table entries sequences,D00003,"(F, X, Y of descriptor to be added or defined)",,B00012,Y descriptor to be added or defined,,,Operational
-00,CREX table entries sequences,D00004,,,D00003,"F, X, Y of descriptor to be added or defined",,,Operational
-00,CREX table entries sequences,D00004,,,B00013,"Element name, line 1",,,Operational
-00,CREX table entries sequences,D00004,,,B00014,"Element name, line 2",,,Operational
-00,CREX table entries sequences,D00004,,,B00015,Units name,,,Operational
-00,CREX table entries sequences,D00004,,,B00016,Units scale sign,,,Operational
-00,CREX table entries sequences,D00004,,,B00017,Units scale,,,Operational
-00,CREX table entries sequences,D00004,,,B00018,Units reference sign,,,Operational
-00,CREX table entries sequences,D00004,,,B00019,Units reference value,,,Operational
-00,CREX table entries sequences,D00004,,,B00020,Element data width,,,Operational
-00,CREX table entries sequences,D00010,,,D00003,"F, X, Y of descriptor to be added or defined",,,Operational
-00,CREX table entries sequences,D00010,,,R01000,Delayed replication of 1 descriptor,,,Operational
-00,CREX table entries sequences,D00010,,,B00030,Descriptor defining sequence,,,Operational
-00,CREX table entries sequences,D00015,(Code table definition),,B00030,Descriptor defining sequence,,,Operational
-00,CREX table entries sequences,D00015,(Code table definition),,R02000,Delayed replication of 2 descriptors,Up to 9999 entries,,Operational
-00,CREX table entries sequences,D00015,(Code table definition),,B00024,Code figure,,,Operational
-00,CREX table entries sequences,D00015,(Code table definition),,B00025,Code figure meaning,,,Operational
-00,CREX table entries sequences,D00016,(Flag table definition),,B00030,Descriptor defining sequence,,,Operational
-00,CREX table entries sequences,D00016,(Flag table definition),,R02000,Delayed replication of 2 descriptors,,,Operational
-00,CREX table entries sequences,D00016,(Flag table definition),,B00026,Bit number,,,Operational
-00,CREX table entries sequences,D00016,(Flag table definition),,B00027,Bit number meaning,,,Operational
+Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
+00,CREX table entries sequences,D00002,,,B00002,"Table A: data category description, line 1",,,,Operational
+00,CREX table entries sequences,D00002,,,B00003,"Table A: data category description, line 2",,,,Operational
+00,CREX table entries sequences,D00003,"(F, X, Y of descriptor to be added or defined)",,B00010,F descriptor to be added or defined,,,,Operational
+00,CREX table entries sequences,D00003,"(F, X, Y of descriptor to be added or defined)",,B00011,X descriptor to be added or defined,,,,Operational
+00,CREX table entries sequences,D00003,"(F, X, Y of descriptor to be added or defined)",,B00012,Y descriptor to be added or defined,,,,Operational
+00,CREX table entries sequences,D00004,,,D00003,"F, X, Y of descriptor to be added or defined",,,,Operational
+00,CREX table entries sequences,D00004,,,B00013,"Element name, line 1",,,,Operational
+00,CREX table entries sequences,D00004,,,B00014,"Element name, line 2",,,,Operational
+00,CREX table entries sequences,D00004,,,B00015,Units name,,,,Operational
+00,CREX table entries sequences,D00004,,,B00016,Units scale sign,,,,Operational
+00,CREX table entries sequences,D00004,,,B00017,Units scale,,,,Operational
+00,CREX table entries sequences,D00004,,,B00018,Units reference sign,,,,Operational
+00,CREX table entries sequences,D00004,,,B00019,Units reference value,,,,Operational
+00,CREX table entries sequences,D00004,,,B00020,Element data width,,,,Operational
+00,CREX table entries sequences,D00010,,,D00003,"F, X, Y of descriptor to be added or defined",,,,Operational
+00,CREX table entries sequences,D00010,,,R01000,Delayed replication of 1 descriptor,,,,Operational
+00,CREX table entries sequences,D00010,,,B00030,Descriptor defining sequence,,,,Operational
+00,CREX table entries sequences,D00015,(Code table definition),,B00030,Descriptor defining sequence,,,,Operational
+00,CREX table entries sequences,D00015,(Code table definition),,R02000,Delayed replication of 2 descriptors,Up to 9999 entries,,,Operational
+00,CREX table entries sequences,D00015,(Code table definition),,B00024,Code figure,,,,Operational
+00,CREX table entries sequences,D00015,(Code table definition),,B00025,Code figure meaning,,,,Operational
+00,CREX table entries sequences,D00016,(Flag table definition),,B00030,Descriptor defining sequence,,,,Operational
+00,CREX table entries sequences,D00016,(Flag table definition),,R02000,Delayed replication of 2 descriptors,,,,Operational
+00,CREX table entries sequences,D00016,(Flag table definition),,B00026,Bit number,,,,Operational
+00,CREX table entries sequences,D00016,(Flag table definition),,B00027,Bit number meaning,,,,Operational

@@ -23,6 +23,8 @@
     <Title_en>(F, X, Y of descriptor to be added or defined)</Title_en>
     <FXY2>000010</FXY2>
     <ElementName_en>F descriptor to be added or defined</ElementName_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>18</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -154,6 +156,8 @@
     <Title_en>(Code table definition)</Title_en>
     <FXY2>000030</FXY2>
     <ElementName_en>Descriptor defining sequence</ElementName_en>
+    <Note_en>(see Note 4)</Note_en>
+    <noteIDs>19</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -261,6 +265,8 @@
     <FXY1>301002</FXY1>
     <FXY2>001003</FXY2>
     <ElementName_en>WMO Region number/geographical area</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>11</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -269,6 +275,8 @@
     <FXY1>301002</FXY1>
     <FXY2>001004</FXY2>
     <ElementName_en>WMO Region sub-area</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>11</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -277,6 +285,8 @@
     <FXY1>301002</FXY1>
     <FXY2>001005</FXY2>
     <ElementName_en>Buoy/platform identifier</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>11</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -287,6 +297,8 @@
     <FXY2>001011</FXY2>
     <ElementName_en>Ship or mobile land station identifier</ElementName_en>
     <ElementDescription_en>Ship's call sign</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>57</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -467,7 +479,8 @@
     <Title_en>(Encrypted ship's call sign and encryption method)</Title_en>
     <FXY2>001114</FXY2>
     <ElementName_en>Encrypted ship or mobile land station identifier (base64 encoding)</ElementName_en>
-    <ElementDescription_en>See Notes 2-4</ElementDescription_en>
+    <Note_en>(see Notes 2,3 and 4)</Note_en>
+    <noteIDs>57,23,46</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -698,6 +711,7 @@
     <FXY2>031001</FXY2>
     <ElementName_en>Delayed descriptor replication factor</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>65</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -763,6 +777,7 @@
     <FXY2>031002</FXY2>
     <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>66</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -782,6 +797,7 @@
     <FXY2>019007</FXY2>
     <ElementName_en>Effective radius of feature</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1041,9 +1057,11 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301035</FXY1>
-    <Title_en>(Buoy/platform - moving) (see Note 8)</Title_en>
+    <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>001005</FXY2>
     <ElementName_en>Buoy/platform identifier</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1053,6 +1071,8 @@
     <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>001012</FXY2>
     <ElementName_en>Direction of motion of moving observing platform</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1062,6 +1082,8 @@
     <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>001013</FXY2>
     <ElementName_en>Speed of motion of moving observing platform</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1071,6 +1093,8 @@
     <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>002001</FXY2>
     <ElementName_en>Type of station</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1080,6 +1104,8 @@
     <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>301011</FXY2>
     <ElementName_en>Year, month, day</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1089,6 +1115,8 @@
     <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>301012</FXY2>
     <ElementName_en>Hour, minute</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1098,6 +1126,8 @@
     <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>301023</FXY2>
     <ElementName_en>Latitude/longitude (coarse accuracy)</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1368,6 +1398,8 @@
     <Title_en>(Satellite identifier, instrument, data-processing technique, date/time)</Title_en>
     <FXY2>001007</FXY2>
     <ElementName_en>Satellite identifier</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1413,6 +1445,8 @@
     <Title_en>(Satellite identifier, instrument, data-processing technique, date/time, location)</Title_en>
     <FXY2>301041</FXY2>
     <ElementName_en>Satellite identifier, instrument, data-processing technique, date/time</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1431,6 +1465,8 @@
     <Title_en>(Satellite identifier, wind computation method, date/time, location)</Title_en>
     <FXY2>001007</FXY2>
     <ElementName_en>Satellite identifier</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1485,6 +1521,8 @@
     <Title_en>(Satellite identifier, humidity computation method, date/time, location)</Title_en>
     <FXY2>002024</FXY2>
     <ElementName_en>Integrated mean humidity computational method</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1521,6 +1559,8 @@
     <Title_en>(Satellite location and velocity)</Title_en>
     <FXY2>301011</FXY2>
     <ElementName_en>Year, month, day</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1608,6 +1648,8 @@
     <Title_en>(Satellite identifier, direction of motion, sensor, model function, software, resolution)</Title_en>
     <FXY2>001007</FXY2>
     <ElementName_en>Satellite identifier</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1699,6 +1741,8 @@
     <Title_en>(ERS product header)</Title_en>
     <FXY2>001007</FXY2>
     <ElementName_en>Satellite identifier</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1838,6 +1882,8 @@
     <Title_en>(Radar parameters)</Title_en>
     <FXY2>002104</FXY2>
     <ElementName_en>Antenna polarization</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -1969,6 +2015,8 @@
     <Title_en>(Radar beam data)</Title_en>
     <FXY2>002111</FXY2>
     <ElementName_en>Radar incidence angle</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -2142,6 +2190,8 @@
     <FXY2>001011</FXY2>
     <ElementName_en>Ship or mobile land station identifier</ElementName_en>
     <ElementDescription_en>Call sign (where allocated)</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>57</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -2628,6 +2678,8 @@
     <Title_en>(Radar location(s))</Title_en>
     <FXY2>101000</FXY2>
     <ElementName_en>Delayed replication of 1 descriptor</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -2656,6 +2708,7 @@
     <FXY2>001006</FXY2>
     <ElementName_en>Aircraft flight number</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>5</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -2666,6 +2719,7 @@
     <FXY2>001008</FXY2>
     <ElementName_en>Aircraft registration number or other identification</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>5</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -2810,6 +2864,8 @@
     <Title_en>(Satellite identifier/Generating resolution)</Title_en>
     <FXY2>001007</FXY2>
     <ElementName_en>Satellite identifier</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -2855,6 +2911,8 @@
     <Title_en>(Satellite identification)</Title_en>
     <FXY2>301071</FXY2>
     <ElementName_en>Satellite identifier/Generating resolution</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -3171,6 +3229,8 @@
     <Title_en>(Mobile surface station identification, date/time, horizontal and vertical coordinates)</Title_en>
     <FXY2>001011</FXY2>
     <ElementName_en>Ship or mobile land station identifier</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>57</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -3280,6 +3340,8 @@
     <Title_en>(Identification of launch site and instrumentation for wind measurements)</Title_en>
     <FXY2>301001</FXY2>
     <ElementName_en>WMO block and station numbers</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>57</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -3334,6 +3396,8 @@
     <Title_en>(Identification of launch site and instrumentation for P, T, U and wind measurements)</Title_en>
     <FXY2>001011</FXY2>
     <ElementName_en>Ship or mobile land station identifier</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>57</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -3421,10 +3485,12 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301113</FXY1>
-    <Title_en>(Date/time of launch) (see Note 11)</Title_en>
+    <Title_en>(Date/time of launch)</Title_en>
     <FXY2>008021</FXY2>
     <ElementName_en>Time significance</ElementName_en>
     <ElementDescription_en>= 18 Launch time</ElementDescription_en>
+    <Note_en>(see Note 11)</Note_en>
+    <noteIDs>72</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -3580,9 +3646,11 @@
     <Category>01</Category>
     <CategoryOfSequences_en>Location and identification sequences</CategoryOfSequences_en>
     <FXY1>301122</FXY1>
-    <Title_en>(Date/time (to hundredths of second)) (see Note 11)</Title_en>
+    <Title_en>(Date/time (to hundredths of second))</Title_en>
     <FXY2>301011</FXY2>
     <ElementName_en>Year, month, day</ElementName_en>
+    <Note_en>(see Note 11)</Note_en>
+    <noteIDs>72</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -4428,9 +4496,10 @@
     <FXY1>301132</FXY1>
     <Title_en>(Common header sequence)</Title_en>
     <FXY2>301021</FXY2>
-    <ElementName_en>Latitude/longitude (high accuracy) (see Note 12)</ElementName_en>
+    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
     <ElementDescription_en>Sensor</ElementDescription_en>
-    <Note_en>(12) The latitude and longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).</Note_en>
+    <Note_en>(see Note 12)</Note_en>
+    <noteIDs>48</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -5446,6 +5515,7 @@
     <FXY2>004024</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Notes 1 and 2)</Note_en>
+    <noteIDs>78,77</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -5475,6 +5545,7 @@
     <FXY2>004024</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>77</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -5764,6 +5835,7 @@
     <FXY2>004024</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>73</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -6656,6 +6728,7 @@
     <FXY2>004024</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Notes 1 and 2)</Note_en>
+    <noteIDs>78,77</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -6685,6 +6758,7 @@
     <FXY2>004024</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>77</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11011,6 +11085,8 @@
     <FXY2>007004</FXY2>
     <ElementName_en>Pressure</ElementName_en>
     <ElementDescription_en>Define layer</ElementDescription_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>15</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11227,6 +11303,8 @@
     <FXY1>303027</FXY1>
     <FXY2>007004</FXY2>
     <ElementName_en>Pressure</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>15</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11603,6 +11681,8 @@
     <FXY2>004086</FXY2>
     <ElementName_en>Long time period or displacement</ElementName_en>
     <ElementDescription_en>Since launch time</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>35</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11631,6 +11711,8 @@
     <FXY2>005015</FXY2>
     <ElementName_en>Latitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11641,6 +11723,8 @@
     <FXY2>006015</FXY2>
     <ElementName_en>Longitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11669,6 +11753,8 @@
     <FXY2>004086</FXY2>
     <ElementName_en>Long time period or displacement</ElementName_en>
     <ElementDescription_en>Since launch time</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>35</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11697,6 +11783,8 @@
     <FXY2>005015</FXY2>
     <ElementName_en>Latitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11707,6 +11795,8 @@
     <FXY2>006015</FXY2>
     <ElementName_en>Longitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11735,6 +11825,8 @@
     <FXY2>004086</FXY2>
     <ElementName_en>Long time period or displacement</ElementName_en>
     <ElementDescription_en>Since launch time</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>35</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11763,6 +11855,8 @@
     <FXY2>005015</FXY2>
     <ElementName_en>Latitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11773,6 +11867,8 @@
     <FXY2>006015</FXY2>
     <ElementName_en>Longitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11801,6 +11897,8 @@
     <FXY2>004086</FXY2>
     <ElementName_en>Long time period or displacement</ElementName_en>
     <ElementDescription_en>Since launch time</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>35</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11829,6 +11927,8 @@
     <FXY2>005015</FXY2>
     <ElementName_en>Latitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11839,6 +11939,8 @@
     <FXY2>006015</FXY2>
     <ElementName_en>Longitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11867,6 +11969,8 @@
     <FXY2>004086</FXY2>
     <ElementName_en>Long time period or displacement</ElementName_en>
     <ElementDescription_en>Since launch time</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>35</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11904,6 +12008,8 @@
     <FXY2>005015</FXY2>
     <ElementName_en>Latitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11914,6 +12020,8 @@
     <FXY2>006015</FXY2>
     <ElementName_en>Longitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11962,6 +12070,8 @@
     <FXY2>004086</FXY2>
     <ElementName_en>Long time period or displacement</ElementName_en>
     <ElementDescription_en>Since launch time</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>35</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -11990,6 +12100,8 @@
     <FXY2>005015</FXY2>
     <ElementName_en>Latitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12000,6 +12112,8 @@
     <FXY2>006015</FXY2>
     <ElementName_en>Longitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12057,6 +12171,8 @@
     <FXY2>004086</FXY2>
     <ElementName_en>Long time period or displacement</ElementName_en>
     <ElementDescription_en>Since launch time</ElementDescription_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>35</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12115,6 +12231,8 @@
     <FXY2>005015</FXY2>
     <ElementName_en>Latitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12125,6 +12243,8 @@
     <FXY2>006015</FXY2>
     <ElementName_en>Longitude displacement (high accuracy)</ElementName_en>
     <ElementDescription_en>Since launch site</ElementDescription_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>34</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13314,6 +13434,8 @@
     <Title_en>(All sky radiance data)</Title_en>
     <FXY2>002153</FXY2>
     <ElementName_en>Satellite channel centre frequency</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13323,6 +13445,8 @@
     <Title_en>(All sky radiance data)</Title_en>
     <FXY2>002154</FXY2>
     <ElementName_en>Satellite channel band width</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13332,6 +13456,8 @@
     <Title_en>(All sky radiance data)</Title_en>
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13342,6 +13468,8 @@
     <FXY2>008001</FXY2>
     <ElementName_en>Meteorological feature</ElementName_en>
     <ElementDescription_en>Pixel type: clear</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13352,6 +13480,8 @@
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
     <ElementDescription_en>Clear</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13362,6 +13492,8 @@
     <FXY2>008001</FXY2>
     <ElementName_en>Meteorological feature</ElementName_en>
     <ElementDescription_en>Pixel type: cloudy</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13372,6 +13504,8 @@
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
     <ElementDescription_en>Cloudy</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13382,6 +13516,8 @@
     <FXY2>008001</FXY2>
     <ElementName_en>Meteorological feature</ElementName_en>
     <ElementDescription_en>Cancel</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13392,6 +13528,8 @@
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
     <ElementDescription_en>Low cloud</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13402,6 +13540,8 @@
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
     <ElementDescription_en>Low cloud</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13412,6 +13552,8 @@
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
     <ElementDescription_en>Mid cloud</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13422,6 +13564,8 @@
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
     <ElementDescription_en>Mid cloud</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13432,6 +13576,8 @@
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
     <ElementDescription_en>High cloud</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13442,6 +13588,8 @@
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
     <ElementDescription_en>High cloud</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -13452,6 +13600,8 @@
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
     <ElementDescription_en>Cancel</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -15543,6 +15693,7 @@
     <ElementName_en>Time increment</ElementName_en>
     <ElementDescription_en>Minutes</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>42</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -15558,11 +15709,13 @@
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306020</FXY1>
-    <Title_en>(Tide report identification, water level checks, time period or displacement, time increment) (see Note 2)</Title_en>
+    <Title_en>(Tide report identification, water level checks, time period or displacement, time increment)</Title_en>
     <FXY2>001075</FXY2>
     <ElementName_en>Tide station identification</ElementName_en>
     <ElementDescription_en>Alphanumeric</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>69</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15571,7 +15724,9 @@
     <Title_en>(Tide report identification, water level checks, time period or displacement, time increment)</Title_en>
     <FXY2>301011</FXY2>
     <ElementName_en>Year, month, day</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>69</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15580,7 +15735,9 @@
     <Title_en>(Tide report identification, water level checks, time period or displacement, time increment)</Title_en>
     <FXY2>301012</FXY2>
     <ElementName_en>Hour, minute</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>69</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15589,7 +15746,9 @@
     <Title_en>(Tide report identification, water level checks, time period or displacement, time increment)</Title_en>
     <FXY2>022042</FXY2>
     <ElementName_en>Sea/water temperature</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>69</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15598,7 +15757,9 @@
     <Title_en>(Tide report identification, water level checks, time period or displacement, time increment)</Title_en>
     <FXY2>022120</FXY2>
     <ElementName_en>Tide station automated water level check</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>69</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15607,7 +15768,9 @@
     <Title_en>(Tide report identification, water level checks, time period or displacement, time increment)</Title_en>
     <FXY2>022121</FXY2>
     <ElementName_en>Tide station manual water level check</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>69</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15616,7 +15779,9 @@
     <Title_en>(Tide report identification, water level checks, time period or displacement, time increment)</Title_en>
     <FXY2>004075</FXY2>
     <ElementName_en>Short time period or displacement</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>69</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15625,7 +15790,9 @@
     <Title_en>(Tide report identification, water level checks, time period or displacement, time increment)</Title_en>
     <FXY2>004065</FXY2>
     <ElementName_en>Short time increment</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>69</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15804,10 +15971,12 @@
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306024</FXY1>
-    <Title_en>(Tide elevation series) (see Note 3)</Title_en>
+    <Title_en>(Tide elevation series)</Title_en>
     <FXY2>306020</FXY2>
     <ElementName_en>Tide report identification, water level checks, time period or displacement, time increment</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>68</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15816,7 +15985,9 @@
     <Title_en>(Tide elevation series)</Title_en>
     <FXY2>102006</FXY2>
     <ElementName_en>Replicate 2 descriptors 6 times</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>68</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15825,7 +15996,9 @@
     <Title_en>(Tide elevation series)</Title_en>
     <FXY2>022038</FXY2>
     <ElementName_en>Tidal elevation with respect to local chart datum</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>68</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -15834,7 +16007,9 @@
     <Title_en>(Tide elevation series)</Title_en>
     <FXY2>022039</FXY2>
     <ElementName_en>Meteorological residual tidal elevation (surge or offset)</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>68</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
@@ -19663,6 +19838,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - km/h</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -19674,6 +19850,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - kt</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -19685,6 +19862,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - m/s</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -19706,6 +19884,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - km/h</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -19717,6 +19896,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - kt</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -19728,6 +19908,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - m/s</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20043,6 +20224,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - km/h</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20054,6 +20236,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - kt</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20065,6 +20248,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - m/s</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20086,6 +20270,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - km/h</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20097,6 +20282,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - kt</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20108,6 +20294,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - m/s</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20656,6 +20843,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - km/h</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20667,6 +20855,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - kt</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20678,6 +20867,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - m/s</ElementDescription_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>76</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20699,6 +20889,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - km/h</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20710,6 +20901,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - kt</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -20721,6 +20913,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - m/s</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>75</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21152,6 +21345,7 @@
     <FXY2>301090</FXY2>
     <ElementName_en>Surface station identification; time, horizontal and vertical coordinates</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>59</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21163,6 +21357,7 @@
     <ElementName_en>Short time period or displacement</ElementName_en>
     <ElementDescription_en>= UTC - LT</ElementDescription_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>59</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21237,6 +21432,7 @@
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21455,6 +21651,7 @@
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21623,6 +21820,7 @@
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21687,6 +21885,7 @@
     <ElementName_en>Day</ElementName_en>
     <ElementDescription_en>= 1</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21699,6 +21898,7 @@
     <ElementName_en>Hour</ElementName_en>
     <ElementDescription_en>= 6</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21711,6 +21911,7 @@
     <ElementName_en>Time period or displacement</ElementName_en>
     <ElementDescription_en>Number of days in the month</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21722,6 +21923,7 @@
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21886,7 +22088,8 @@
     <FXY2>004003</FXY2>
     <ElementName_en>Day</ElementName_en>
     <ElementDescription_en>= 1</ElementDescription_en>
-    <Note_en>(see Note 3)</Note_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21897,7 +22100,8 @@
     <FXY2>004004</FXY2>
     <ElementName_en>Hour</ElementName_en>
     <ElementDescription_en>= 0</ElementDescription_en>
-    <Note_en>(see Note 3)</Note_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21908,7 +22112,8 @@
     <FXY2>004074</FXY2>
     <ElementName_en>Short time period or displacement</ElementName_en>
     <ElementDescription_en>= UTC - LT</ElementDescription_en>
-    <Note_en>(see Note 3)</Note_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -21983,6 +22188,7 @@
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22140,6 +22346,7 @@
     <ElementName_en>Day</ElementName_en>
     <ElementDescription_en>= 1</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22152,6 +22359,7 @@
     <ElementName_en>Hour</ElementName_en>
     <ElementDescription_en>= 6</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22174,6 +22382,7 @@
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22238,6 +22447,7 @@
     <ElementName_en>Qualifier for number of missing values in calculation of statistic</ElementName_en>
     <ElementDescription_en>= 1 Pressure, = 2 Temperature, = 3 Extreme temperature, = 4 Vapour pressure, = 5 Precipitation, = 6 Sunshine duration, = 7 Maximum temperature, = 8 Minimum temperature</ElementDescription_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>51</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22250,6 +22460,7 @@
     <ElementName_en>Total number of missing entities (with respect to accumulation or average)</ElementName_en>
     <ElementDescription_en>Years</ElementDescription_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>51</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -24172,138 +24383,168 @@
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>301090</FXY2>
     <ElementName_en>Surface station identification; time, horizontal and vertical coordinates</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302031</FXY2>
     <ElementName_en>Pressure information</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302035</FXY2>
     <ElementName_en>Basic synoptic &quot;instantaneous&quot; data</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302036</FXY2>
     <ElementName_en>Clouds with bases below station level</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302047</FXY2>
     <ElementName_en>Direction of cloud drift</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>008002</FXY2>
     <ElementName_en>Vertical significance (surface observations)</ElementName_en>
     <ElementDescription_en>Set to missing (cancel)</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302048</FXY2>
     <ElementName_en>Direction and elevation of cloud</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302037</FXY2>
     <ElementName_en>State of ground, snow depth, ground minimum temperature</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>012121</FXY2>
     <ElementName_en>Ground minimum temperature</ElementName_en>
     <ElementDescription_en>At the time of observation</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>012122</FXY2>
     <ElementName_en>Ground minimum temperature of the preceding night</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302043</FXY2>
     <ElementName_en>Basic synoptic &quot;period&quot; data</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302044</FXY2>
     <ElementName_en>Evaporation data</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>101002</FXY2>
     <ElementName_en>Replicate 1 descriptor 2 times</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302045</FXY2>
     <ElementName_en>Radiation data (from 1 hour and 24-hour period)</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307082</FXY1>
-    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II) (see Note 7)</Title_en>
+    <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA II)</Title_en>
     <FXY2>302046</FXY2>
     <ElementName_en>Temperature change</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
@@ -24312,7 +24553,9 @@
     <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III)</Title_en>
     <FXY2>301090</FXY2>
     <ElementName_en>Surface station identification; time, horizontal and vertical coordinates</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
@@ -24321,7 +24564,9 @@
     <Title_en>(Sequence for representation of synoptic reports from a fixed land station suitable for SYNOP data in compliance with reporting practices in RA III)</Title_en>
     <FXY2>302031</FXY2>
     <ElementName_en>Pressure information</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>2</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
@@ -27432,6 +27677,8 @@
     <SubTitle_en>Station identification</SubTitle_en>
     <FXY2>301089</FXY2>
     <ElementName_en>National station identification</ElementName_en>
+    <Note_en>(see Notes 9 and 10)</Note_en>
+    <noteIDs>4,49</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -27644,6 +27891,8 @@
     <SubTitle_en>Road temperature and other data</SubTitle_en>
     <FXY2>003016</FXY2>
     <ElementName_en>Position of road sensors</ElementName_en>
+    <Note_en>(see Note 11)</Note_en>
+    <noteIDs>17</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -27726,6 +27975,8 @@
     <SubTitle_en>Road temperature and other data</SubTitle_en>
     <FXY2>020138</FXY2>
     <ElementName_en>Road surface condition</ElementName_en>
+    <Note_en>(see Note 12)</Note_en>
+    <noteIDs>45</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -27758,6 +28009,8 @@
     <SubTitle_en>Precipitation data</SubTitle_en>
     <FXY2>013055</FXY2>
     <ElementName_en>Intensity of precipitation</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>74</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -27768,6 +28021,8 @@
     <SubTitle_en>Precipitation data</SubTitle_en>
     <FXY2>020021</FXY2>
     <ElementName_en>Type of precipitation</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>74</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28130,10 +28385,12 @@
     <Category>08</Category>
     <CategoryOfSequences_en>Surface report sequences (sea)</CategoryOfSequences_en>
     <FXY1>308003</FXY1>
-    <Title_en>(Buoy/platform - moving) (see Note 1)</Title_en>
+    <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>301035</FXY2>
     <ElementName_en>Buoy/platform - moving</ElementName_en>
     <ElementDescription_en>Identification, movement, type, date/time, position (coarse accuracy)</ElementDescription_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>13</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28144,6 +28401,8 @@
     <FXY2>302011</FXY2>
     <ElementName_en>Low altitude station</ElementName_en>
     <ElementDescription_en>Basic surface report</ElementDescription_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>13</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28153,6 +28412,8 @@
     <Title_en>(Buoy/platform - moving)</Title_en>
     <FXY2>022042</FXY2>
     <ElementName_en>Sea/water temperature</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>13</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28542,6 +28803,7 @@
     <FXY2>301011</FXY2>
     <ElementName_en>Year, month, day</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>59</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28552,6 +28814,7 @@
     <FXY2>301012</FXY2>
     <ElementName_en>Hour, minute</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>59</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28571,6 +28834,7 @@
     <FXY2>007030</FXY2>
     <ElementName_en>Height of station ground above mean sea level</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28581,6 +28845,7 @@
     <FXY2>007031</FXY2>
     <ElementName_en>Height of barometer above mean sea level</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28593,6 +28858,7 @@
     <ElementName_en>Short time period or displacement)</ElementName_en>
     <ElementDescription_en>= UTC - LT</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>59</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28637,6 +28903,7 @@
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <ElementDescription_en>Temperature measurement</ElementDescription_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28649,6 +28916,7 @@
     <ElementName_en>Height of sensor above water surface</ElementName_en>
     <ElementDescription_en>Temperature measurement</ElementDescription_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28725,6 +28993,7 @@
     <ElementName_en>Day</ElementName_en>
     <ElementDescription_en>= 1</ElementDescription_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28737,6 +29006,7 @@
     <ElementName_en>Hour</ElementName_en>
     <ElementDescription_en>= 6</ElementDescription_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28749,6 +29019,7 @@
     <ElementName_en>Time period or displacement</ElementName_en>
     <ElementDescription_en>= Number of days in the month</ElementDescription_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28760,6 +29031,7 @@
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28841,6 +29113,7 @@
     <ElementName_en>Day</ElementName_en>
     <ElementDescription_en>= 1</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>59</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28852,6 +29125,7 @@
     <ElementName_en>Hour</ElementName_en>
     <ElementDescription_en>= 0</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>59</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28863,6 +29137,7 @@
     <ElementName_en>Short time period or displacement</ElementName_en>
     <ElementDescription_en>= UTC - LT</ElementDescription_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>59</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28906,6 +29181,7 @@
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <ElementDescription_en>Temperature measurement</ElementDescription_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28918,6 +29194,7 @@
     <ElementName_en>Height of sensor above water surface</ElementName_en>
     <ElementDescription_en>Temperature measurement</ElementDescription_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -29026,6 +29303,7 @@
     <ElementName_en>Day</ElementName_en>
     <ElementDescription_en>= 1</ElementDescription_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -29038,6 +29316,7 @@
     <ElementName_en>Hour</ElementName_en>
     <ElementDescription_en>= 6</ElementDescription_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>27</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -29061,6 +29340,7 @@
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <ElementDescription_en>Precipitation measurement</ElementDescription_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>25</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -29609,6 +29889,7 @@
     <ElementName_en>Delayed descriptor replication factor</ElementName_en>
     <ElementDescription_en>(0,1,2) normally 1</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>41</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -29763,6 +30044,7 @@
     <FXY2>105000</FXY2>
     <ElementName_en>Delayed replication of 5 descriptors</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>39</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -29819,6 +30101,7 @@
     <ElementName_en>Direction from which waves are coming</ElementName_en>
     <ElementDescription_en>1d1d1 - Section 5</ElementDescription_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>37</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -29831,6 +30114,7 @@
     <ElementName_en>Directional spread of wave</ElementName_en>
     <ElementDescription_en>dsds - Section 5</ElementDescription_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>37</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -29842,6 +30126,7 @@
     <FXY2>105000</FXY2>
     <ElementName_en>Delayed replication of 5 descriptors</ElementName_en>
     <Note_en>(see Note 8)</Note_en>
+    <noteIDs>2222</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -30195,6 +30480,7 @@
     <ElementName_en>Delayed descriptor replication factor</ElementName_en>
     <ElementDescription_en>(0,1,2) normally 1</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>41</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -30349,6 +30635,7 @@
     <FXY2>105000</FXY2>
     <ElementName_en>Delayed replication of 5 descriptors</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>39</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -30405,6 +30692,7 @@
     <ElementName_en>Direction from which waves are coming</ElementName_en>
     <ElementDescription_en>1d1d1 - Section 5</ElementDescription_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>37</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -30417,6 +30705,7 @@
     <ElementName_en>Directional spread of wave</ElementName_en>
     <ElementDescription_en>dsds - Section 5</ElementDescription_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>37</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -30428,6 +30717,7 @@
     <FXY2>105000</FXY2>
     <ElementName_en>Delayed replication of 5 descriptors</ElementName_en>
     <Note_en>(see Note 8)</Note_en>
+    <noteIDs>22</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -30558,7 +30848,6 @@
     <Title_en>(Sequence for reporting observations from offshore platforms)</Title_en>
     <FXY2>302064</FXY2>
     <ElementName_en>Ship or other marine platform wind data</ElementName_en>
-    <Note_en>(see Note)</Note_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32378,7 +32667,8 @@
     <Title_en>(RASS virtual temperature (product data))</Title_en>
     <FXY2>301001</FXY2>
     <ElementName_en>WMO block and station numbers</ElementName_en>
-    <Note_en>(See Note 20)</Note_en>
+    <Note_en>(see Note 20)</Note_en>
+    <noteIDs>56</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32551,7 +32841,8 @@
     <SubTitle_en>Header section</SubTitle_en>
     <FXY2>301001</FXY2>
     <ElementName_en>WMO block and station numbers</ElementName_en>
-    <Note_en>(See Note 20)</Note_en>
+    <Note_en>(see Note 20)</Note_en>
+    <noteIDs>56</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32897,6 +33188,7 @@
     <FXY2>004025</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Note 13)</Note_en>
+    <noteIDs>60</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32925,6 +33217,7 @@
     <FXY2>007007</FXY2>
     <ElementName_en>Height</ElementName_en>
     <Note_en>(see Note 14)</Note_en>
+    <noteIDs>52</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32935,6 +33228,7 @@
     <FXY2>301021</FXY2>
     <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -32962,7 +33256,8 @@
     <Title_en>(Single wavelength wind profiler wind data sequence (product data))</Title_en>
     <FXY2>033002</FXY2>
     <ElementName_en>Quality information</ElementName_en>
-    <Note_en>(16) The Quality information descriptor 0 33 002 at this point relates to the w-component 0 11 006. It is given for each respective gate of the profile measurement.</Note_en>
+    <Note_en>(see Note 16)</Note_en>
+    <noteIDs>53</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33073,6 +33368,7 @@
     <FXY2>004025</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Note 13)</Note_en>
+    <noteIDs>60</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33101,6 +33397,7 @@
     <FXY2>007007</FXY2>
     <ElementName_en>Height</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33111,6 +33408,7 @@
     <FXY2>301021</FXY2>
     <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33129,7 +33427,8 @@
     <Title_en>(RASS virtual temperature sequence (product data))</Title_en>
     <FXY2>033002</FXY2>
     <ElementName_en>Quality information</ElementName_en>
-    <Note_en>(17) The Quality information descriptor 0 33 002 relates to the virtual temperature 0 12 007. It is given for each respective gate of the profile measurement.</Note_en>
+    <Note_en>(see Note 17)</Note_en>
+    <noteIDs>55</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33184,7 +33483,8 @@
     <Title_en>(Single wavelength elastic backscatter lidar sequence)</Title_en>
     <FXY2>008092</FXY2>
     <ElementName_en>Measurement uncertainty expression</ElementName_en>
-    <Note_en>(see Note 18) The Measurement uncertainty expression and significance descriptors 0 08 092 and 0 08 093 relate to all parameter uncertainties provided in the backscatter data section.</Note_en>
+    <Note_en>(see Note 18)</Note_en>
+    <noteIDs>50</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33195,6 +33495,7 @@
     <FXY2>008093</FXY2>
     <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33215,6 +33516,7 @@
     <FXY2>004025</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Note 13)</Note_en>
+    <noteIDs>60</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33288,6 +33590,7 @@
     <FXY2>007007</FXY2>
     <ElementName_en>Height</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33397,7 +33700,8 @@
     <Title_en>(Single wavelength elastic backscatter lidar sequence)</Title_en>
     <FXY2>033002</FXY2>
     <ElementName_en>Quality information</ElementName_en>
-    <Note_en>(19) The Quality information descriptor 0 33 002 relates to all parameters provided in the Backscatter data section and is given for each respective vertical bin of the profile measurement.</Note_en>
+    <Note_en>(see Note 19)</Note_en>
+    <noteIDs>54</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33481,6 +33785,7 @@
     <FXY2>008093</FXY2>
     <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33501,6 +33806,7 @@
     <FXY2>004025</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <Note_en>(see Note 13)</Note_en>
+    <noteIDs>60</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33556,6 +33862,7 @@
     <FXY2>007007</FXY2>
     <ElementName_en>Height</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33666,6 +33973,7 @@
     <FXY2>033002</FXY2>
     <ElementName_en>Quality information</ElementName_en>
     <Note_en>(see Note 19)</Note_en>
+    <noteIDs>54</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -33693,7 +34001,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>015004</FXY2>
     <ElementName_en>Ozone sounding correction factor (CF)</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>44</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33702,7 +34012,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>015005</FXY2>
     <ElementName_en>Ozone p</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>44</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33711,7 +34023,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>104000</FXY2>
     <ElementName_en>Delayed replication of 4 descriptors</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>44</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33720,7 +34034,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>031001</FXY2>
     <ElementName_en>Delayed descriptor replication factor</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>44</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33730,7 +34046,9 @@
     <FXY2>004015</FXY2>
     <ElementName_en>Time increment</ElementName_en>
     <ElementDescription_en>Since launch time, if needed, in minutes</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>44</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33739,7 +34057,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>008006</FXY2>
     <ElementName_en>Ozone vertical sounding significance</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>44</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33748,7 +34068,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>007004</FXY2>
     <ElementName_en>Pressure</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>44</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33757,7 +34079,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>015003</FXY2>
     <ElementName_en>Measured ozone partial pressure (sounding)</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>44</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33839,7 +34163,9 @@
     <Title_en>(Ozone sounding not coupled to a ground-based spectrophotometer)</Title_en>
     <FXY2>301075</FXY2>
     <ElementName_en>Sounding identification</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33848,7 +34174,9 @@
     <Title_en>(Ozone sounding not coupled to a ground-based spectrophotometer)</Title_en>
     <FXY2>301076</FXY2>
     <ElementName_en>Ozone sounding instrumentation</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33857,7 +34185,9 @@
     <Title_en>(Ozone sounding not coupled to a ground-based spectrophotometer)</Title_en>
     <FXY2>309030</FXY2>
     <ElementName_en>Ozone sonde flight data</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33867,7 +34197,9 @@
     <FXY2>307041</FXY2>
     <ElementName_en>Total ozone measurement from a Brewer ground-based spectrophotometer obtained from a single observation</ElementName_en>
     <ElementDescription_en>Description of the ground-based part</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33877,7 +34209,9 @@
     <FXY2>301075</FXY2>
     <ElementName_en>Sounding identification</ElementName_en>
     <ElementDescription_en>Identification of the ozone sounding part</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33886,7 +34220,9 @@
     <Title_en>(Ozone sounding coupled to measurements from a Brewer ground-based spectrophotometer; the total ozone obtained from the Brewer is a single value)</Title_en>
     <FXY2>301076</FXY2>
     <ElementName_en>Ozone sounding instrumentation</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33895,7 +34231,9 @@
     <Title_en>(Ozone sounding coupled to measurements from a Brewer ground-based spectrophotometer; the total ozone obtained from the Brewer is a single value)</Title_en>
     <FXY2>309030</FXY2>
     <ElementName_en>Ozone sonde flight data</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33905,7 +34243,9 @@
     <FXY2>307042</FXY2>
     <ElementName_en>Total ozone measurement from a Brewer ground-based spectrophotometer obtained from averaged observations</ElementName_en>
     <ElementDescription_en>Description of the ground-based part</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33915,7 +34255,9 @@
     <FXY2>301075</FXY2>
     <ElementName_en>Sounding identification</ElementName_en>
     <ElementDescription_en>Identification of the ozone sounding part</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33924,7 +34266,9 @@
     <Title_en>(Ozone sounding coupled to measurements from a Brewer ground-based spectrophotometer; the total ozone obtained from the Brewer is an averaged value)</Title_en>
     <FXY2>301076</FXY2>
     <ElementName_en>Ozone sounding instrumentation</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33933,7 +34277,9 @@
     <Title_en>(Ozone sounding coupled to measurements from a Brewer ground-based spectrophotometer; the total ozone obtained from the Brewer is an averaged value)</Title_en>
     <FXY2>309030</FXY2>
     <ElementName_en>Ozone sonde flight data</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33943,7 +34289,9 @@
     <FXY2>307043</FXY2>
     <ElementName_en>Total ozone measurement from a Dobson ground-based spectrophotometer obtained from a single observation</ElementName_en>
     <ElementDescription_en>Description of the ground-based part</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33953,7 +34301,9 @@
     <FXY2>301075</FXY2>
     <ElementName_en>Sounding identification</ElementName_en>
     <ElementDescription_en>Identification of the ozone sounding part</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33962,7 +34312,9 @@
     <Title_en>(Ozone sounding coupled to measurements from a Dobson ground-based spectrophotometer; the total ozone obtained from the Dobson is a single value)</Title_en>
     <FXY2>301076</FXY2>
     <ElementName_en>Ozone sounding instrumentation</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33971,7 +34323,9 @@
     <Title_en>(Ozone sounding coupled to measurements from a Dobson ground-based spectrophotometer; the total ozone obtained from the Dobson is a single value)</Title_en>
     <FXY2>309030</FXY2>
     <ElementName_en>Ozone sonde flight data</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33981,7 +34335,9 @@
     <FXY2>307044</FXY2>
     <ElementName_en>Total ozone measurement from a Dobson ground-based spectrophotometer obtained from averaged observations</ElementName_en>
     <ElementDescription_en>Description of the ground-based part</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -33991,7 +34347,9 @@
     <FXY2>301075</FXY2>
     <ElementName_en>Sounding identification</ElementName_en>
     <ElementDescription_en>Identification of the ozone sounding part</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -34000,7 +34358,9 @@
     <Title_en>(Ozone sounding coupled to measurements from a Dobson ground-based spectrophotometer; the total ozone obtained from the Dobson is an averaged value)</Title_en>
     <FXY2>301076</FXY2>
     <ElementName_en>Ozone sounding instrumentation</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -34009,7 +34369,9 @@
     <Title_en>(Ozone sounding coupled to measurements from a Dobson ground-based spectrophotometer; the total ozone obtained from the Dobson is an averaged value)</Title_en>
     <FXY2>309030</FXY2>
     <ElementName_en>Ozone sonde flight data</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
+    <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>09</Category>
@@ -34921,6 +35283,7 @@
     <FXY2>301113</FXY2>
     <ElementName_en>Date/time of launch</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>71</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -35049,6 +35412,7 @@
     <FXY2>303055</FXY2>
     <ElementName_en>Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position</ElementName_en>
     <Note_en>(see Notes 4, 5 and 6)</Note_en>
+    <noteIDs>36,34,26</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -35086,7 +35450,8 @@
     <Title_en>(Sequence for representation of radiosonde descent data)</Title_en>
     <FXY2>301113</FXY2>
     <ElementName_en>Date/time of launch</ElementName_en>
-    <ElementDescription_en>(see Note 10)</ElementDescription_en>
+    <Note_en>(see Note 10)</Note_en>
+    <noteIDs>9</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -35153,7 +35518,8 @@
     <Title_en>(Sequence for representation of radiosonde descent data)</Title_en>
     <FXY2>303056</FXY2>
     <ElementName_en>Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height</ElementName_en>
-    <ElementDescription_en>(see Notes 11 and 12)</ElementDescription_en>
+    <Note_en>(see Notes 11 and 12)</Note_en>
+    <noteIDs>30,8</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36590,6 +36956,7 @@
     <ElementName_en>Height of land surface</ElementName_en>
     <ElementDescription_en>Station elevation (non coordinate)</ElementDescription_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>70</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36634,6 +37001,7 @@
     <FXY2>025031</FXY2>
     <ElementName_en>NWP-generated vertical profile thinning method</ElementName_en>
     <Note_en>(see Note 8)</Note_en>
+    <noteIDs>29</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -36770,6 +37138,7 @@
     <FXY2>007004</FXY2>
     <ElementName_en>Pressure</ElementName_en>
     <Note_en>(see Note 9)</Note_en>
+    <noteIDs>40</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41765,6 +42134,8 @@
     <FXY2>301071</FXY2>
     <ElementName_en>Satellite identifier/Generating resolution</ElementName_en>
     <ElementDescription_en>Product information</ElementDescription_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41774,6 +42145,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>301011</FXY2>
     <ElementName_en>Year, month, day</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41783,6 +42156,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41792,6 +42167,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>301021</FXY2>
     <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41801,6 +42178,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>030021</FXY2>
     <ElementName_en>Number of pixels per row</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41810,6 +42189,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>030022</FXY2>
     <ElementName_en>Number of pixels per column</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41820,6 +42201,8 @@
     <FXY2>010002</FXY2>
     <ElementName_en>Height</ElementName_en>
     <ElementDescription_en>Orbit height</ElementDescription_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41829,6 +42212,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>304036</FXY2>
     <ElementName_en>Cloud coverage</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41838,6 +42223,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>002152</FXY2>
     <ElementName_en>Satellite instrument used in data processing</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41847,6 +42234,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>002167</FXY2>
     <ElementName_en>Radiance computational method</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41856,6 +42245,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>101011</FXY2>
     <ElementName_en>Replicate 1 descriptor 11 times</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -41865,6 +42256,8 @@
     <Title_en>(All sky radiance product main sequence)</Title_en>
     <FXY2>304035</FXY2>
     <ElementName_en>All sky radiance data</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Deprecated</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -45493,6 +45886,7 @@
     <FXY2>001033</FXY2>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>28</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57890,6 +58284,7 @@
     <FXY2>001087</FXY2>
     <ElementName_en>WMO marine observing platform extended identifier</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>24</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57919,6 +58314,7 @@
     <FXY2>005036</FXY2>
     <ElementName_en>Ship transect number according to SOOP</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>31</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -58285,6 +58681,7 @@
     <FXY2>002032</FXY2>
     <ElementName_en>Indicator for digitization</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>64</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -61088,6 +61485,7 @@
     <FXY2>011031</FXY2>
     <ElementName_en>Degree of turbulence</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>20</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -61308,6 +61706,7 @@
     <FXY2>020011</FXY2>
     <ElementName_en>Cloud amount</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>6</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -61366,6 +61765,7 @@
     <ElementName_en>Meteorological feature</ElementName_en>
     <ElementDescription_en>Value for type of front</ElementDescription_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>21</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -61499,6 +61899,7 @@
     <ElementName_en>First-order statistics</ElementName_en>
     <ElementDescription_en>Type of tropopause value</ElementDescription_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>58</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68017,6 +68418,8 @@
     <Title_en>(JASON2 OGDR data)</Title_en>
     <FXY2>001007</FXY2>
     <ElementName_en>Satellite identifier</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68026,6 +68429,8 @@
     <Title_en>(JASON2 OGDR data)</Title_en>
     <FXY2>002019</FXY2>
     <ElementName_en>Satellite instruments</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68035,6 +68440,8 @@
     <Title_en>(JASON2 OGDR data)</Title_en>
     <FXY2>001096</FXY2>
     <ElementName_en>Station acquisition</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68044,6 +68451,8 @@
     <Title_en>(JASON2 OGDR data)</Title_en>
     <FXY2>025061</FXY2>
     <ElementName_en>Software identification and version number</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68053,6 +68462,8 @@
     <Title_en>(JASON2 OGDR data)</Title_en>
     <FXY2>005044</FXY2>
     <ElementName_en>Satellite cycle number</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68062,6 +68473,8 @@
     <Title_en>(JASON2 OGDR data)</Title_en>
     <FXY2>005040</FXY2>
     <ElementName_en>Orbit number</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68071,6 +68484,8 @@
     <Title_en>(JASON2 OGDR data)</Title_en>
     <FXY2>001030</FXY2>
     <ElementName_en>Numerical model identifier</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68081,6 +68496,8 @@
     <SubTitle_en>Datation</SubTitle_en>
     <FXY2>004001</FXY2>
     <ElementName_en>Year</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68091,6 +68508,8 @@
     <SubTitle_en>Datation</SubTitle_en>
     <FXY2>004002</FXY2>
     <ElementName_en>Month</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68101,6 +68520,8 @@
     <SubTitle_en>Datation</SubTitle_en>
     <FXY2>004003</FXY2>
     <ElementName_en>Day</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68111,6 +68532,8 @@
     <SubTitle_en>Datation</SubTitle_en>
     <FXY2>004004</FXY2>
     <ElementName_en>Hour</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68121,6 +68544,8 @@
     <SubTitle_en>Datation</SubTitle_en>
     <FXY2>004005</FXY2>
     <ElementName_en>Minute</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68131,6 +68556,8 @@
     <SubTitle_en>Datation</SubTitle_en>
     <FXY2>004007</FXY2>
     <ElementName_en>Seconds within a minute (microsecond accuracy)</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68141,6 +68568,8 @@
     <SubTitle_en>Location and surface type</SubTitle_en>
     <FXY2>005001</FXY2>
     <ElementName_en>Latitude (high accuracy)</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68151,6 +68580,8 @@
     <SubTitle_en>Location and surface type</SubTitle_en>
     <FXY2>006001</FXY2>
     <ElementName_en>Longitude (high accuracy)</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68161,6 +68592,8 @@
     <SubTitle_en>Location and surface type</SubTitle_en>
     <FXY2>008029</FXY2>
     <ElementName_en>Surface type</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68171,6 +68604,8 @@
     <SubTitle_en>Location and surface type</SubTitle_en>
     <FXY2>008074</FXY2>
     <ElementName_en>Altimeter echo type</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68181,6 +68616,8 @@
     <SubTitle_en>Location and surface type</SubTitle_en>
     <FXY2>008077</FXY2>
     <ElementName_en>Radiometer sensed surface type</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68191,6 +68628,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>040011</FXY2>
     <ElementName_en>Interpolation flag</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68201,6 +68640,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>025097</FXY2>
     <ElementName_en>Three-dimensional error estimate of the navigator orbit</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68211,6 +68652,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>025095</FXY2>
     <ElementName_en>Altimeter state flag</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68221,6 +68664,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>025098</FXY2>
     <ElementName_en>Altimeter data quality flag</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68231,6 +68676,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>025099</FXY2>
     <ElementName_en>Altimeter correction quality flag</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68241,6 +68688,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>021144</FXY2>
     <ElementName_en>Altimeter rain flag</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68251,6 +68700,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>025096</FXY2>
     <ElementName_en>Radiometer state flag</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68261,6 +68712,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>040012</FXY2>
     <ElementName_en>Radiometer data quality flag</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68271,6 +68724,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>040013</FXY2>
     <ElementName_en>Radiometer brightness temperature interpretation flag</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68281,6 +68736,8 @@
     <SubTitle_en>Flags</SubTitle_en>
     <FXY2>021169</FXY2>
     <ElementName_en>Ice presence indicator</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68291,6 +68748,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>022151</FXY2>
     <ElementName_en>Ku band ocean range</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68301,6 +68760,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>022162</FXY2>
     <ElementName_en>RMS of 20 Hz Ku band ocean range</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68311,6 +68772,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>022163</FXY2>
     <ElementName_en>Number of 20 Hz valid points for Ku band</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68321,6 +68784,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>025160</FXY2>
     <ElementName_en>Ku band net instrumental correction</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68331,6 +68796,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>025133</FXY2>
     <ElementName_en>Sea state bias correction on Ku band</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68341,6 +68808,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>022156</FXY2>
     <ElementName_en>Ku band significant wave height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68351,6 +68820,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>022164</FXY2>
     <ElementName_en>RMS 20 Hz Ku band significant wave height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68361,6 +68832,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>022165</FXY2>
     <ElementName_en>Number of 20 Hz valid points for Ku band significant wave height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68371,6 +68844,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>022166</FXY2>
     <ElementName_en>Ku band net instrumental correction for significant wave height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68381,6 +68856,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>021137</FXY2>
     <ElementName_en>Ku band corrected ocean backscatter coefficient</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68391,6 +68868,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>021138</FXY2>
     <ElementName_en>STD Ku band corrected ocean backscatter coefficient</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68401,6 +68880,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>022167</FXY2>
     <ElementName_en>Number of valid points for Ku band backscatter</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68411,6 +68892,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>021139</FXY2>
     <ElementName_en>Ku band net instrumental correction for AGC</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68421,6 +68904,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>021118</FXY2>
     <ElementName_en>Attenuation correction on sigma-0</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68431,6 +68916,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>021145</FXY2>
     <ElementName_en>Ku band automatic gain control</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68441,6 +68928,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>021146</FXY2>
     <ElementName_en>RMS Ku band automatic gain control</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68451,6 +68940,8 @@
     <SubTitle_en>Altimeter: Ku band</SubTitle_en>
     <FXY2>021147</FXY2>
     <ElementName_en>Number of valid points for Ku band automatic gain control</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68461,6 +68952,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>022168</FXY2>
     <ElementName_en>C band ocean range</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68471,6 +68964,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>022169</FXY2>
     <ElementName_en>RMS of C band ocean range</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68481,6 +68976,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>022170</FXY2>
     <ElementName_en>Number of 20 Hz valid points for C band</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68491,6 +68988,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>025161</FXY2>
     <ElementName_en>C band net instrumental correction</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68501,6 +69000,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>025162</FXY2>
     <ElementName_en>Sea state bias correction on C band</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68511,6 +69012,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>022171</FXY2>
     <ElementName_en>C band significant wave height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68521,6 +69024,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>022172</FXY2>
     <ElementName_en>RMS 20 Hz C band significant wave height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68531,6 +69036,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>022173</FXY2>
     <ElementName_en>Number of 20 Hz valid points for C band significant wave height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68541,6 +69048,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>022174</FXY2>
     <ElementName_en>C band net instrumental correction for significant wave height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68551,6 +69060,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>021170</FXY2>
     <ElementName_en>C band corrected ocean backscatter coefficient</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68561,6 +69072,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>021171</FXY2>
     <ElementName_en>RMS C band corrected ocean backscatter coefficient</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68571,6 +69084,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>022175</FXY2>
     <ElementName_en>Number of valid points for C band backscatter</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68581,6 +69096,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>021172</FXY2>
     <ElementName_en>C band net instrumental correction for AGC</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68591,6 +69108,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>021118</FXY2>
     <ElementName_en>Attenuation correction on sigma-0</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68601,6 +69120,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>021173</FXY2>
     <ElementName_en>C band automatic gain control</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68611,6 +69132,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>021174</FXY2>
     <ElementName_en>RMS C band automatic gain control</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68621,6 +69144,8 @@
     <SubTitle_en>Altimeter: C band</SubTitle_en>
     <FXY2>021175</FXY2>
     <ElementName_en>Number of valid points for C band automatic gain control</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68631,6 +69156,8 @@
     <SubTitle_en>Radiometer</SubTitle_en>
     <FXY2>002153</FXY2>
     <ElementName_en>Satellite channel centre frequency</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68641,6 +69168,8 @@
     <SubTitle_en>Radiometer</SubTitle_en>
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68651,6 +69180,8 @@
     <SubTitle_en>Radiometer</SubTitle_en>
     <FXY2>002153</FXY2>
     <ElementName_en>Satellite channel centre frequency</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68661,6 +69192,8 @@
     <SubTitle_en>Radiometer</SubTitle_en>
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68671,6 +69204,8 @@
     <SubTitle_en>Radiometer</SubTitle_en>
     <FXY2>002153</FXY2>
     <ElementName_en>Satellite channel centre frequency</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68681,6 +69216,8 @@
     <SubTitle_en>Radiometer</SubTitle_en>
     <FXY2>012063</FXY2>
     <ElementName_en>Brightness temperature</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68691,6 +69228,8 @@
     <SubTitle_en>Radiometer</SubTitle_en>
     <FXY2>013090</FXY2>
     <ElementName_en>Radiometer water vapour content</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68701,6 +69240,8 @@
     <SubTitle_en>Radiometer</SubTitle_en>
     <FXY2>013091</FXY2>
     <ElementName_en>Radiometer liquid content</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68711,6 +69252,8 @@
     <SubTitle_en>Wind</SubTitle_en>
     <FXY2>007002</FXY2>
     <ElementName_en>Height or altitude</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68721,6 +69264,8 @@
     <SubTitle_en>Wind</SubTitle_en>
     <FXY2>011097</FXY2>
     <ElementName_en>Wind speed from altimeter</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68731,6 +69276,8 @@
     <SubTitle_en>Wind</SubTitle_en>
     <FXY2>011098</FXY2>
     <ElementName_en>Wind speed from radiometer</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68741,6 +69288,8 @@
     <SubTitle_en>Wind</SubTitle_en>
     <FXY2>007002</FXY2>
     <ElementName_en>Height or altitude</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68751,6 +69300,8 @@
     <SubTitle_en>Wind</SubTitle_en>
     <FXY2>011095</FXY2>
     <ElementName_en>u-component of the model wind vector</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68761,6 +69312,8 @@
     <SubTitle_en>Wind</SubTitle_en>
     <FXY2>011096</FXY2>
     <ElementName_en>v-component of the model wind vector</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68771,6 +69324,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010096</FXY2>
     <ElementName_en>Mean dynamic topography</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68781,6 +69336,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010081</FXY2>
     <ElementName_en>Altitude of COG above reference ellipsoid</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68791,6 +69348,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010082</FXY2>
     <ElementName_en>Instantaneous altitude rate</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68801,6 +69360,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010083</FXY2>
     <ElementName_en>Squared off nadir angle of the satellite from platform data</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68811,6 +69372,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010101</FXY2>
     <ElementName_en>Squared off nadir angle of the satellite from waveform data</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68821,6 +69384,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>025132</FXY2>
     <ElementName_en>Ionospheric correction from model on Ku band</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68831,6 +69396,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>025163</FXY2>
     <ElementName_en>Altimeter ionospheric correction on Ku band</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68841,6 +69408,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>025126</FXY2>
     <ElementName_en>Model dry tropospheric correction</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68851,6 +69420,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>025128</FXY2>
     <ElementName_en>Model wet tropospheric correction</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68861,6 +69432,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>025164</FXY2>
     <ElementName_en>Radiometer wet tropospheric correction</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68871,6 +69444,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010085</FXY2>
     <ElementName_en>Mean sea-surface height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68881,6 +69456,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010097</FXY2>
     <ElementName_en>Mean sea-surface height from altimeter only</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68891,6 +69468,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010086</FXY2>
     <ElementName_en>Geoid's height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68901,6 +69480,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010087</FXY2>
     <ElementName_en>Ocean depth/land elevation</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68911,6 +69492,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010092</FXY2>
     <ElementName_en>Solid Earth tide height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68921,6 +69504,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010088</FXY2>
     <ElementName_en>Total geocentric ocean tide height (solution 1)</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68931,6 +69516,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010089</FXY2>
     <ElementName_en>Total geocentric ocean tide height (solution 2)</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68941,6 +69528,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010098</FXY2>
     <ElementName_en>Loading tide height geocentric ocean tide solution 1</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68951,6 +69540,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010099</FXY2>
     <ElementName_en>Loading tide height geocentric ocean tide solution 2</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68961,6 +69552,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010090</FXY2>
     <ElementName_en>Long period tide height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68971,6 +69564,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010100</FXY2>
     <ElementName_en>Non-equilibrium long period tide height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68981,6 +69576,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>010093</FXY2>
     <ElementName_en>Geocentric pole tide height</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -68992,6 +69589,8 @@
     <FXY2>025127</FXY2>
     <ElementName_en>Inverted barometer correction</ElementName_en>
     <ElementDescription_en>Sea-surface height correction due to pressure loading</ElementDescription_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -69002,6 +69601,8 @@
     <SubTitle_en>Dynamic topography</SubTitle_en>
     <FXY2>040014</FXY2>
     <ElementName_en>High-frequency fluctuations of the sea-surface topography correction</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>

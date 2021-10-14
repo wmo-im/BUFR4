@@ -1,233 +1,233 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
-040005,Soil moisture correction flag,1,Soil moisture between -20% and 0%,,,,Operational
-040005,Soil moisture correction flag,2,Soil moisture between 100% and 120%,,,,Operational
-040005,Soil moisture correction flag,3,Correction of wet backscatter reference,,,,Operational
-040005,Soil moisture correction flag,4,Correction of dry backscatter reference,,,,Operational
-040005,Soil moisture correction flag,5,Correction of volume scattering in sand,,,,Operational
-040005,Soil moisture correction flag,6-7,Reserved,,,,Operational
-040005,Soil moisture correction flag,All 8,Missing value,,,,Operational
-040006,Soil moisture processing flag,1,Not soil,,,,Operational
-040006,Soil moisture processing flag,2,Sensitivity to soil moisture below limit,,,,Operational
-040006,Soil moisture processing flag,3,Azimuthal noise above limit,,,,Operational
-040006,Soil moisture processing flag,4,Backscatter Fore-Aft beam out of range,,,,Operational
-040006,Soil moisture processing flag,5,Slope Mid-Fore beam out of range,,,,Operational
-040006,Soil moisture processing flag,6,Slope Mid-Aft beam out of range,,,,Operational
-040006,Soil moisture processing flag,7,Soil moisture below -20%,,,,Operational
-040006,Soil moisture processing flag,8,Soil moisture above 120%,,,,Operational
-040006,Soil moisture processing flag,9-15,Reserved,,,,Operational
-040006,Soil moisture processing flag,All 16,Missing value,,,,Operational
-040011,Interpolation flag,1,Mean sea-surface (MSS) interpolation flag,,,,Operational
-040011,Interpolation flag,2,"Ocean tide solution 1 interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,Operational
-040011,Interpolation flag,3,"Ocean tide solution 2 interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,Operational
-040011,Interpolation flag,4,"Meteorological data interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,Operational
-040011,Interpolation flag,5-7,Reserved,,,,Operational
-040011,Interpolation flag,All 8,Missing value,,,,Operational
-040012,Radiometer data quality flag,1,18.7 GHz brightness temperature,,,,Operational
-040012,Radiometer data quality flag,2,23.8 GHz brightness temperature,,,,Operational
-040012,Radiometer data quality flag,3,34 GHz brightness temperature,,,,Operational
-040012,Radiometer data quality flag,4-7,Reserved,,,,Operational
-040012,Radiometer data quality flag,All 8,Missing value,,,,Operational
-040013,Radiometer brightness temperature interpretation flag,0,Interpolation with no gap between JMR* data,,,,Operational
-040013,Radiometer brightness temperature interpretation flag,1,Interpolation with gaps between JMR* data,,,,Operational
-040013,Radiometer brightness temperature interpretation flag,2,Extrapolation of JMR* data,,,,Operational
-040013,Radiometer brightness temperature interpretation flag,3,Failure of extrapolation and interpolation,,,,Operational
-040013,Radiometer brightness temperature interpretation flag,4-6,Reserved,,,,Operational
-040013,Radiometer brightness temperature interpretation flag,7,Missing value,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,1,NZPD and complex calibration error,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,2,Band 3 affected by spike,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,3,Band 3 affected by saturation,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,4,Band 2 affected by spike,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,5,Band 1 affected by spike,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,6,Overflow/under flow,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,7,On-board processing error,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,8,Spectral calibration error,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,9,Radiometric calibration error,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,10,Missing AVHRR data,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,11,Missing IIS data,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,12,Missing sounder data,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,13,GqisFlagQual summary flag for all bands,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,14,On-ground processing error,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,15,Inter-calibration error IASI/AVHRR,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,16,Spare,,,,Operational
-040020,GqisFlagQualDetailed - quality flag for the system,All 17,Missing value,,,,Operational
-040023,Auxiliary altimeter state flags,1,"Band sequence (0 = 3Ku_1C_3Ku, 1 = 2Ku_1C_2Ku)",,,,Operational
-040023,Auxiliary altimeter state flags,2,"C band frequency (0 = 320 MHz, 1 = 100 MHz)",,,,Operational
-040023,Auxiliary altimeter state flags,3,"C band status (0 = On, 1 = Off)",,,,Operational
-040023,Auxiliary altimeter state flags,4,"Ku band status (0 = On, 1 = Off)",,,,Operational
-040023,Auxiliary altimeter state flags,All 5,Missing value,,,,Operational
-040024,Meteorological map availability,0,2 maps available (6 hours apart),,,,Operational
-040024,Meteorological map availability,1,2 maps available (> 6 hours apart),,,,Operational
-040024,Meteorological map availability,2,1 map available; data extrapolated,,,,Operational
-040024,Meteorological map availability,3,No maps used,,,,Operational
-040024,Meteorological map availability,4-6,Reserved,,,,Operational
-040024,Meteorological map availability,7,Missing value,,,,Operational
-040025,Interpolation flag for mean diurnal tide,0,Good,,,,Operational
-040025,Interpolation flag for mean diurnal tide,1,Bad,,,,Operational
-040025,Interpolation flag for mean diurnal tide,2,Reserved,,,,Operational
-040025,Interpolation flag for mean diurnal tide,3,Missing value,,,,Operational
-040028,GMI quality flag,0,Good data,,,,Operational
-040028,GMI quality flag,1,Possible sun glint,,,,Operational
-040028,GMI quality flag,2,Possible radio-frequency interference,,,,Operational
-040028,GMI quality flag,3,Degraded geolocation data,,,,Operational
-040028,GMI quality flag,4,Data corrected for warm load intrusion,,,,Operational
-040028,GMI quality flag,5,Scan blanking on,,,,Operational
-040028,GMI quality flag,6,Data is missing from file or unreadable,,,,Operational
-040028,GMI quality flag,7,Unphysical brightness temperature,,,,Operational
-040028,GMI quality flag,8,Error in geolocation data,,,,Operational
-040028,GMI quality flag,9,Data missing in one channel,,,,Operational
-040028,GMI quality flag,10,Data missing in multiple channels,,,,Operational
-040028,GMI quality flag,11,Lat/lon values are out of range,,,,Operational
-040028,GMI quality flag,12,Non-normal status modes,,,,Operational
-040028,GMI quality flag,13,Distance to corresponding low frequency pixel > 7 km,,,,Operational
-040028,GMI quality flag,14,Reserved,,,,Operational
-040028,GMI quality flag,15,Missing value (no quality information available),,,,Operational
-040036,Lidar L2b classification type,0,Clear,,,,Operational
-040036,Lidar L2b classification type,1,Cloud,,,,Operational
-040036,Lidar L2b classification type,2-14,Reserved,,,,Operational
-040036,Lidar L2b classification type,15,Missing value,,,,Operational
-040043,Satellite manoeuvre indicator,0,The platform is not undergoing a manoeuvre,,,,Operational
-040043,Satellite manoeuvre indicator,1,"The platform is undergoing a manoeuvre, nominal processing",,,,Operational
-040043,Satellite manoeuvre indicator,2,"The platform is undergoing a manoeuvre, no processing",,,,Operational
-040043,Satellite manoeuvre indicator,3-6,Reserved,,,,Operational
-040043,Satellite manoeuvre indicator,7,Missing value,,,,Operational
-040045,Cloud formation and height assignment,1,Cloud products retrieved with the chi-squared method,,,,Operational
-040045,Cloud formation and height assignment,2,Cloud products retrieved with the CO2-slicing,,,,Operational
-040045,Cloud formation and height assignment,3,Height assignment performed with statistical first guess retrieval,,,,Operational
-040045,Cloud formation and height assignment,4,Height assignment performed with NWP forecasts,,,,Operational
-040045,Cloud formation and height assignment,All 5,Missing value,,,,Operational
-040046,Cloudiness summary,0,The IASI IFOV is clear,,,,Operational
-040046,Cloudiness summary,1,Small cloud contamination possible,,,,Operational
-040046,Cloudiness summary,2,The IASI IFOV is partially covered by clouds,,,,Operational
-040046,Cloudiness summary,3,High or full cloud coverage,,,,Operational
-040046,Cloudiness summary,4-6,Reserved,,,,Operational
-040046,Cloudiness summary,7,Missing value,,,,Operational
-040047,Validation flag for IASI or IASI-NG level 1 product,0,The measurements and side information are available and of good quality for L2 processing,,,,Operational
-040047,Validation flag for IASI or IASI-NG level 1 product,1,"The L1c products are of degraded quality according to L1c flags, no L2 processing",,,,Operational
-040047,Validation flag for IASI or IASI-NG level 1 product,2,"Quality control indicates that the L1c data are of degraded quality (not indicated by the IASI L1c flags), no L2 processing",,,,Operational
-040047,Validation flag for IASI or IASI-NG level 1 product,3-6,Reserved,,,,Operational
-040047,Validation flag for IASI or IASI-NG level 1 product,7,Missing value,,,,Operational
-040048,Validation flag of AMSU-A level 1 data flow,0,"The expected AMSU measurements are available, of good quality and collocated with IASI for processing",,,,Operational
-040048,Validation flag of AMSU-A level 1 data flow,1,AMSU-A data are available but of degraded quality (according to AMSU L1 flags or QC tests) and not used for processing,,,,Operational
-040048,Validation flag of AMSU-A level 1 data flow,2,No coincident (time and space) AMSU measurements available for processing,,,,Operational
-040048,Validation flag of AMSU-A level 1 data flow,3-6,Reserved,,,,Operational
-040048,Validation flag of AMSU-A level 1 data flow,7,Missing value,,,,Operational
-040049,Cloud tests executed and results,1-3,Reserved,,,,Operational
-040049,Cloud tests executed and results,4,IASI cloud optical thickness indicates a cloud,,,,Operational
-040049,Cloud tests executed and results,5,IASI cloud optical thickness computed,,,,Operational
-040049,Cloud tests executed and results,6,AVHRR heterogeneity test indicates a cloud,,,,Operational
-040049,Cloud tests executed and results,7,AVHRR heterogeneity test executed,,,,Operational
-040049,Cloud tests executed and results,8,IASI-AVHRR ANN cloud test indicates a cloud,,,,Operational
-040049,Cloud tests executed and results,9,IASI-AVHRR ANN cloud test executed,,,,Operational
-040049,Cloud tests executed and results,10,AVHRR integrated cloud fraction indicates a cloud,,,,Operational
-040049,Cloud tests executed and results,11,AVHRR integrated cloud fraction assessed,,,,Operational
-040049,Cloud tests executed and results,12,AMSU cloud test indicates a cloud,,,,Operational
-040049,Cloud tests executed and results,13,AMSU cloud test executed,,,,Operational
-040049,Cloud tests executed and results,14,IASI Window cloud test indicates a cloud,,,,Operational
-040049,Cloud tests executed and results,15,IASI Window cloud test executed,,,,Operational
-040049,Cloud tests executed and results,All 16,Missing value,,,,Operational
-040050,Retrieval initialisation,1-4,Reserved,,,,Operational
-040050,Retrieval initialisation,5,MHS included ,,,,Operational
-040050,Retrieval initialisation,6,AMSU included,,,,Operational
-040050,Retrieval initialisation,7,IASI included,,,,Operational
-040050,Retrieval initialisation,All 8,Missing value,,,,Operational
-040051,Convergence of the iterative retrieval,0,Optimal estimation methods (OEM) not attempted,,,,Operational
-040051,Convergence of the iterative retrieval,1,OEM aborted because first guess residuals too high,,,,Operational
-040051,Convergence of the iterative retrieval,2,"The minimization did not converge, sounding rejected",,,,Operational
-040051,Convergence of the iterative retrieval,3,"The minimization did not converge, sounding accepted",,,,Operational
-040051,Convergence of the iterative retrieval,4,The minimization converged but sounding rejected,,,,Operational
-040051,Convergence of the iterative retrieval,5,"The minimization converged, sounding accepted",,,,Operational
-040051,Convergence of the iterative retrieval,6,Reserved,,,,Operational
-040051,Convergence of the iterative retrieval,7,Missing value,,,,Operational
-040052,Indication of super-adiabatic and super-saturation in final retrieval,1-3,Reserved,,,,Operational
-040052,Indication of super-adiabatic and super-saturation in final retrieval,4,Supersaturation conditions in the OEM retrieval,,,,Operational
-040052,Indication of super-adiabatic and super-saturation in final retrieval,5,Superadiabatic conditions in the OEM retrieval,,,,Operational
-040052,Indication of super-adiabatic and super-saturation in final retrieval,6,Supersaturation conditions in the first guess,,,,Operational
-040052,Indication of super-adiabatic and super-saturation in final retrieval,7,Superadiabatic conditions in the first guess,,,,Operational
-040052,Indication of super-adiabatic and super-saturation in final retrieval,All 8,Missing value,,,,Operational
-040054,Potential processing and inputs errors,1,An error has been detected,,,,Operational
-040054,Potential processing and inputs errors,2,Message from L1,,,,Operational
-040054,Potential processing and inputs errors,3,Message from L2,,,,Operational
-040054,Potential processing and inputs errors,4,Message from ancillary data,,,,Operational
-040054,Potential processing and inputs errors,5,Message from fitting procedure,,,,Operational
-040054,Potential processing and inputs errors,6,File opening,,,,Operational
-040054,Potential processing and inputs errors,7,File reading,,,,Operational
-040054,Potential processing and inputs errors,8,Quality flag,,,,Operational
-040054,Potential processing and inputs errors,9,"Level 2 ""from linear regression""(F_Qual), report a pixel where L2 are not fully trusted",,,,Operational
-040054,Potential processing and inputs errors,10,Empty field or data,,,,Operational
-040054,Potential processing and inputs errors,11,Missing surface pressure value,,,,Operational
-040054,Potential processing and inputs errors,12,Radiance filtering,,,,Operational
-040054,Potential processing and inputs errors,All 13,Missing value,,,,Operational
-040055,Diagnostics on the retrieval,1,Radiance filtering,,,,Operational
-040055,Diagnostics on the retrieval,2,Polar regions,,,,Operational
-040055,Diagnostics on the retrieval,3,Location in the night,,,,Operational
-040055,Diagnostics on the retrieval,4,Negative altitude surface below mean sea level,,,,Operational
-040055,Diagnostics on the retrieval,5,Cloud covered scene,,,,Operational
-040055,Diagnostics on the retrieval,6,Scene above the sea,,,,Operational
-040055,Diagnostics on the retrieval,7,Scene above desert,,,,Operational
-040055,Diagnostics on the retrieval,8,Skin temperature,,,,Operational
-040055,Diagnostics on the retrieval,9,Skin temperature differential,,,,Operational
-040055,Diagnostics on the retrieval,10,Spectral line contrast too weak,,,,Operational
-040055,Diagnostics on the retrieval,11,Maximum number of iterations exceeded,,,,Operational
-040055,Diagnostics on the retrieval,12,Negative partial columns,,,,Operational
-040055,Diagnostics on the retrieval,13,Matrix ill conditioned,,,,Operational
-040055,Diagnostics on the retrieval,14,Fit diverged,,,,Operational
-040055,Diagnostics on the retrieval,15,Error in GNU scientific library (GSL) usage,,,,Operational
-040055,Diagnostics on the retrieval,16,Residuals "biased",,,,Operational
-040055,Diagnostics on the retrieval,17,Residuals "sloped",,,,Operational
-040055,Diagnostics on the retrieval,18,Residuals root mean square (RMS) error is large,,,,Operational
-040055,Diagnostics on the retrieval,19,Weird averaging kernels,,,,Operational
-040055,Diagnostics on the retrieval,20,Ice presence detected,,,,Operational
-040055,Diagnostics on the retrieval,All 21,Missing value,,,,Operational
-040056,General retrieval quality,0,Use not recommended,,,,Operational
-040056,General retrieval quality,1,Use with caution,,,,Operational
-040056,General retrieval quality,2,Best quality,,,,Operational
-040056,General retrieval quality,3-6,Reserved,,,,Operational
-040056,General retrieval quality,7,Missing value,,,,Operational
-040057,IASI level 2 retrieval flags,1,An error has been detected,,,,Operational
-040057,IASI level 2 retrieval flags,2,Message from L1,,,,Operational
-040057,IASI level 2 retrieval flags,3,Message from L2,,,,Operational
-040057,IASI level 2 retrieval flags,4,Message from ancillary data,,,,Operational
-040057,IASI level 2 retrieval flags,5,Message from fitting procedure,,,,Operational
-040057,IASI level 2 retrieval flags,6,Reserved,,,,Operational
-040057,IASI level 2 retrieval flags,7,Bad L1 or L2 flag raised,,,,Operational
-040057,IASI level 2 retrieval flags,8,Level 2 not fully trusted,,,,Operational
-040057,IASI level 2 retrieval flags,9,Missing temperature or humidity levels in the vertical profile,,,,Operational
-040057,IASI level 2 retrieval flags,10,Missing surface pressure value,,,,Operational
-040057,IASI level 2 retrieval flags,11,Radiance filtering,,,,Operational
-040057,IASI level 2 retrieval flags,12,Polar regions,,,,Operational
-040057,IASI level 2 retrieval flags,13,Location in the night,,,,Operational
-040057,IASI level 2 retrieval flags,14,Negative altitude,,,,Operational
-040057,IASI level 2 retrieval flags,15,Cloud covered scene,,,,Operational
-040057,IASI level 2 retrieval flags,16,Scene above the sea,,,,Operational
-040057,IASI level 2 retrieval flags,17,Scene above desert,,,,Operational
-040057,IASI level 2 retrieval flags,18,Missing skin temperature,,,,Operational
-040057,IASI level 2 retrieval flags,19,Retrieved skin temperature too different from model,,,,Operational
-040057,IASI level 2 retrieval flags,20,Spectral line contrast too weak,,,,Operational
-040057,IASI level 2 retrieval flags,21,Maximum number of iterations exceeds,,,,Operational
-040057,IASI level 2 retrieval flags,22,Negative partial columns,,,,Operational
-040057,IASI level 2 retrieval flags,23,Matrix ill conditioned,,,,Operational
-040057,IASI level 2 retrieval flags,24,Fit diverged,,,,Operational
-040057,IASI level 2 retrieval flags,25,Error in GSL usage,,,,Operational
-040057,IASI level 2 retrieval flags,26,Residuals biased,,,,Operational
-040057,IASI level 2 retrieval flags,27,Residuals sloped,,,,Operational
-040057,IASI level 2 retrieval flags,28,Residuals RMS error is large,,,,Operational
-040057,IASI level 2 retrieval flags,29,Weird averaging kernels,,,,Operational
-040057,IASI level 2 retrieval flags,30,Ice presence detected,,,,Operational
-040057,IASI level 2 retrieval flags,All 31,Missing value,,,,Operational
-040068,General retrieval quality flag for SO2,0,Values calculated with IASI L2,,,,Operational
-040068,General retrieval quality flag for SO2,1,Pressure and temperature profiles missing in IASI L2 data; model/forecast data used instead,,,,Operational
-040068,General retrieval quality flag for SO2,2,Best quality,,,,Operational
-040068,General retrieval quality flag for SO2,3-14,Reserved,,,,Operational
-040068,General retrieval quality flag for SO2,15,Missing value,,,,Operational
-040074,General interferometry quality flags,1,Incompatibility of a scan angle for electroencephalogram,,,,Operational
-040074,General interferometry quality flags,2,"Calibration failure (limit of black body temperature reached, not enough sources for interferometry, etc.)",,,,Operational
-040074,General interferometry quality flags,3,Geolocation executed taking into account the orientation of the spacecraft and using the star catalogue,,,,Operational
-040074,General interferometry quality flags,4,"High level of cryogenic sediment reached, requiring outgassing of the radiation cooler. Set when NESR level of the ice cover threshold crossed",,,,Operational
-040074,General interferometry quality flags,5,Interferometry package flag,,,,Operational
-040074,General interferometry quality flags,6,General accuracy flag,,,,Operational
-040074,General interferometry quality flags,7,Noise present during the interferometry,,,,Operational
-040074,General interferometry quality flags,8,Outgassing of the radiation cooler,,,,Operational
-040074,General interferometry quality flags,9,Flag preceding the first 24 hours/day mark (set to on as a rule),,,,Operational
-040074,General interferometry quality flags,10,Telemetry package flag,,,,Operational
-040074,General interferometry quality flags,11-15,Reserved,,,,Operational
-040074,General interferometry quality flags,All 16,Missing value,,,,Operational
+FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+040005,Soil moisture correction flag,1,Soil moisture between -20% and 0%,,,,,Operational
+040005,Soil moisture correction flag,2,Soil moisture between 100% and 120%,,,,,Operational
+040005,Soil moisture correction flag,3,Correction of wet backscatter reference,,,,,Operational
+040005,Soil moisture correction flag,4,Correction of dry backscatter reference,,,,,Operational
+040005,Soil moisture correction flag,5,Correction of volume scattering in sand,,,,,Operational
+040005,Soil moisture correction flag,6-7,Reserved,,,,,Operational
+040005,Soil moisture correction flag,All 8,Missing value,,,,,Operational
+040006,Soil moisture processing flag,1,Not soil,,,,,Operational
+040006,Soil moisture processing flag,2,Sensitivity to soil moisture below limit,,,,,Operational
+040006,Soil moisture processing flag,3,Azimuthal noise above limit,,,,,Operational
+040006,Soil moisture processing flag,4,Backscatter Fore-Aft beam out of range,,,,,Operational
+040006,Soil moisture processing flag,5,Slope Mid-Fore beam out of range,,,,,Operational
+040006,Soil moisture processing flag,6,Slope Mid-Aft beam out of range,,,,,Operational
+040006,Soil moisture processing flag,7,Soil moisture below -20%,,,,,Operational
+040006,Soil moisture processing flag,8,Soil moisture above 120%,,,,,Operational
+040006,Soil moisture processing flag,9-15,Reserved,,,,,Operational
+040006,Soil moisture processing flag,All 16,Missing value,,,,,Operational
+040011,Interpolation flag,1,Mean sea-surface (MSS) interpolation flag,,,,,Operational
+040011,Interpolation flag,2,"Ocean tide solution 1 interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,,Operational
+040011,Interpolation flag,3,"Ocean tide solution 2 interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,,Operational
+040011,Interpolation flag,4,"Meteorological data interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,,Operational
+040011,Interpolation flag,5-7,Reserved,,,,,Operational
+040011,Interpolation flag,All 8,Missing value,,,,,Operational
+040012,Radiometer data quality flag,1,18.7 GHz brightness temperature,,,,,Operational
+040012,Radiometer data quality flag,2,23.8 GHz brightness temperature,,,,,Operational
+040012,Radiometer data quality flag,3,34 GHz brightness temperature,,,,,Operational
+040012,Radiometer data quality flag,4-7,Reserved,,,,,Operational
+040012,Radiometer data quality flag,All 8,Missing value,,,,,Operational
+040013,Radiometer brightness temperature interpretation flag,0,Interpolation with no gap between JMR data,,,*,107,Operational
+040013,Radiometer brightness temperature interpretation flag,1,Interpolation with gaps between JMR data,,,*,107,Operational
+040013,Radiometer brightness temperature interpretation flag,2,Extrapolation of JMR data,,,*,107,Operational
+040013,Radiometer brightness temperature interpretation flag,3,Failure of extrapolation and interpolation,,,,,Operational
+040013,Radiometer brightness temperature interpretation flag,4-6,Reserved,,,,,Operational
+040013,Radiometer brightness temperature interpretation flag,7,Missing value,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,1,NZPD and complex calibration error,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,2,Band 3 affected by spike,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,3,Band 3 affected by saturation,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,4,Band 2 affected by spike,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,5,Band 1 affected by spike,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,6,Overflow/under flow,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,7,On-board processing error,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,8,Spectral calibration error,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,9,Radiometric calibration error,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,10,Missing AVHRR data,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,11,Missing IIS data,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,12,Missing sounder data,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,13,GqisFlagQual summary flag for all bands,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,14,On-ground processing error,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,15,Inter-calibration error IASI/AVHRR,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,16,Spare,,,,,Operational
+040020,GqisFlagQualDetailed - quality flag for the system,All 17,Missing value,,,,,Operational
+040023,Auxiliary altimeter state flags,1,"Band sequence (0 = 3Ku_1C_3Ku, 1 = 2Ku_1C_2Ku)",,,,,Operational
+040023,Auxiliary altimeter state flags,2,"C band frequency (0 = 320 MHz, 1 = 100 MHz)",,,,,Operational
+040023,Auxiliary altimeter state flags,3,"C band status (0 = On, 1 = Off)",,,,,Operational
+040023,Auxiliary altimeter state flags,4,"Ku band status (0 = On, 1 = Off)",,,,,Operational
+040023,Auxiliary altimeter state flags,All 5,Missing value,,,,,Operational
+040024,Meteorological map availability,0,2 maps available (6 hours apart),,,,,Operational
+040024,Meteorological map availability,1,2 maps available (> 6 hours apart),,,,,Operational
+040024,Meteorological map availability,2,1 map available; data extrapolated,,,,,Operational
+040024,Meteorological map availability,3,No maps used,,,,,Operational
+040024,Meteorological map availability,4-6,Reserved,,,,,Operational
+040024,Meteorological map availability,7,Missing value,,,,,Operational
+040025,Interpolation flag for mean diurnal tide,0,Good,,,,,Operational
+040025,Interpolation flag for mean diurnal tide,1,Bad,,,,,Operational
+040025,Interpolation flag for mean diurnal tide,2,Reserved,,,,,Operational
+040025,Interpolation flag for mean diurnal tide,3,Missing value,,,,,Operational
+040028,GMI quality flag,0,Good data,,,,,Operational
+040028,GMI quality flag,1,Possible sun glint,,,,,Operational
+040028,GMI quality flag,2,Possible radio-frequency interference,,,,,Operational
+040028,GMI quality flag,3,Degraded geolocation data,,,,,Operational
+040028,GMI quality flag,4,Data corrected for warm load intrusion,,,,,Operational
+040028,GMI quality flag,5,Scan blanking on,,,,,Operational
+040028,GMI quality flag,6,Data is missing from file or unreadable,,,,,Operational
+040028,GMI quality flag,7,Unphysical brightness temperature,,,,,Operational
+040028,GMI quality flag,8,Error in geolocation data,,,,,Operational
+040028,GMI quality flag,9,Data missing in one channel,,,,,Operational
+040028,GMI quality flag,10,Data missing in multiple channels,,,,,Operational
+040028,GMI quality flag,11,Lat/lon values are out of range,,,,,Operational
+040028,GMI quality flag,12,Non-normal status modes,,,,,Operational
+040028,GMI quality flag,13,Distance to corresponding low frequency pixel > 7 km,,,,,Operational
+040028,GMI quality flag,14,Reserved,,,,,Operational
+040028,GMI quality flag,15,Missing value (no quality information available),,,,,Operational
+040036,Lidar L2b classification type,0,Clear,,,,,Operational
+040036,Lidar L2b classification type,1,Cloud,,,,,Operational
+040036,Lidar L2b classification type,2-14,Reserved,,,,,Operational
+040036,Lidar L2b classification type,15,Missing value,,,,,Operational
+040043,Satellite manoeuvre indicator,0,The platform is not undergoing a manoeuvre,,,,,Operational
+040043,Satellite manoeuvre indicator,1,"The platform is undergoing a manoeuvre, nominal processing",,,,,Operational
+040043,Satellite manoeuvre indicator,2,"The platform is undergoing a manoeuvre, no processing",,,,,Operational
+040043,Satellite manoeuvre indicator,3-6,Reserved,,,,,Operational
+040043,Satellite manoeuvre indicator,7,Missing value,,,,,Operational
+040045,Cloud formation and height assignment,1,Cloud products retrieved with the chi-squared method,,,,,Operational
+040045,Cloud formation and height assignment,2,Cloud products retrieved with the CO2-slicing,,,,,Operational
+040045,Cloud formation and height assignment,3,Height assignment performed with statistical first guess retrieval,,,,,Operational
+040045,Cloud formation and height assignment,4,Height assignment performed with NWP forecasts,,,,,Operational
+040045,Cloud formation and height assignment,All 5,Missing value,,,,,Operational
+040046,Cloudiness summary,0,The IASI IFOV is clear,,,,,Operational
+040046,Cloudiness summary,1,Small cloud contamination possible,,,,,Operational
+040046,Cloudiness summary,2,The IASI IFOV is partially covered by clouds,,,,,Operational
+040046,Cloudiness summary,3,High or full cloud coverage,,,,,Operational
+040046,Cloudiness summary,4-6,Reserved,,,,,Operational
+040046,Cloudiness summary,7,Missing value,,,,,Operational
+040047,Validation flag for IASI or IASI-NG level 1 product,0,The measurements and side information are available and of good quality for L2 processing,,,,,Operational
+040047,Validation flag for IASI or IASI-NG level 1 product,1,"The L1c products are of degraded quality according to L1c flags, no L2 processing",,,,,Operational
+040047,Validation flag for IASI or IASI-NG level 1 product,2,"Quality control indicates that the L1c data are of degraded quality (not indicated by the IASI L1c flags), no L2 processing",,,,,Operational
+040047,Validation flag for IASI or IASI-NG level 1 product,3-6,Reserved,,,,,Operational
+040047,Validation flag for IASI or IASI-NG level 1 product,7,Missing value,,,,,Operational
+040048,Validation flag of AMSU-A level 1 data flow,0,"The expected AMSU measurements are available, of good quality and collocated with IASI for processing",,,,,Operational
+040048,Validation flag of AMSU-A level 1 data flow,1,AMSU-A data are available but of degraded quality (according to AMSU L1 flags or QC tests) and not used for processing,,,,,Operational
+040048,Validation flag of AMSU-A level 1 data flow,2,No coincident (time and space) AMSU measurements available for processing,,,,,Operational
+040048,Validation flag of AMSU-A level 1 data flow,3-6,Reserved,,,,,Operational
+040048,Validation flag of AMSU-A level 1 data flow,7,Missing value,,,,,Operational
+040049,Cloud tests executed and results,1-3,Reserved,,,,,Operational
+040049,Cloud tests executed and results,4,IASI cloud optical thickness indicates a cloud,,,,,Operational
+040049,Cloud tests executed and results,5,IASI cloud optical thickness computed,,,,,Operational
+040049,Cloud tests executed and results,6,AVHRR heterogeneity test indicates a cloud,,,,,Operational
+040049,Cloud tests executed and results,7,AVHRR heterogeneity test executed,,,,,Operational
+040049,Cloud tests executed and results,8,IASI-AVHRR ANN cloud test indicates a cloud,,,,,Operational
+040049,Cloud tests executed and results,9,IASI-AVHRR ANN cloud test executed,,,,,Operational
+040049,Cloud tests executed and results,10,AVHRR integrated cloud fraction indicates a cloud,,,,,Operational
+040049,Cloud tests executed and results,11,AVHRR integrated cloud fraction assessed,,,,,Operational
+040049,Cloud tests executed and results,12,AMSU cloud test indicates a cloud,,,,,Operational
+040049,Cloud tests executed and results,13,AMSU cloud test executed,,,,,Operational
+040049,Cloud tests executed and results,14,IASI Window cloud test indicates a cloud,,,,,Operational
+040049,Cloud tests executed and results,15,IASI Window cloud test executed,,,,,Operational
+040049,Cloud tests executed and results,All 16,Missing value,,,,,Operational
+040050,Retrieval initialisation,1-4,Reserved,,,,,Operational
+040050,Retrieval initialisation,5,MHS included ,,,,,Operational
+040050,Retrieval initialisation,6,AMSU included,,,,,Operational
+040050,Retrieval initialisation,7,IASI included,,,,,Operational
+040050,Retrieval initialisation,All 8,Missing value,,,,,Operational
+040051,Convergence of the iterative retrieval,0,Optimal estimation methods (OEM) not attempted,,,,,Operational
+040051,Convergence of the iterative retrieval,1,OEM aborted because first guess residuals too high,,,,,Operational
+040051,Convergence of the iterative retrieval,2,"The minimization did not converge, sounding rejected",,,,,Operational
+040051,Convergence of the iterative retrieval,3,"The minimization did not converge, sounding accepted",,,,,Operational
+040051,Convergence of the iterative retrieval,4,The minimization converged but sounding rejected,,,,,Operational
+040051,Convergence of the iterative retrieval,5,"The minimization converged, sounding accepted",,,,,Operational
+040051,Convergence of the iterative retrieval,6,Reserved,,,,,Operational
+040051,Convergence of the iterative retrieval,7,Missing value,,,,,Operational
+040052,Indication of super-adiabatic and super-saturation in final retrieval,1-3,Reserved,,,,,Operational
+040052,Indication of super-adiabatic and super-saturation in final retrieval,4,Supersaturation conditions in the OEM retrieval,,,,,Operational
+040052,Indication of super-adiabatic and super-saturation in final retrieval,5,Superadiabatic conditions in the OEM retrieval,,,,,Operational
+040052,Indication of super-adiabatic and super-saturation in final retrieval,6,Supersaturation conditions in the first guess,,,,,Operational
+040052,Indication of super-adiabatic and super-saturation in final retrieval,7,Superadiabatic conditions in the first guess,,,,,Operational
+040052,Indication of super-adiabatic and super-saturation in final retrieval,All 8,Missing value,,,,,Operational
+040054,Potential processing and inputs errors,1,An error has been detected,,,,,Operational
+040054,Potential processing and inputs errors,2,Message from L1,,,,,Operational
+040054,Potential processing and inputs errors,3,Message from L2,,,,,Operational
+040054,Potential processing and inputs errors,4,Message from ancillary data,,,,,Operational
+040054,Potential processing and inputs errors,5,Message from fitting procedure,,,,,Operational
+040054,Potential processing and inputs errors,6,File opening,,,,,Operational
+040054,Potential processing and inputs errors,7,File reading,,,,,Operational
+040054,Potential processing and inputs errors,8,Quality flag,,,,,Operational
+040054,Potential processing and inputs errors,9,"Level 2 ""from linear regression""(F_Qual), report a pixel where L2 are not fully trusted",,,,,Operational
+040054,Potential processing and inputs errors,10,Empty field or data,,,,,Operational
+040054,Potential processing and inputs errors,11,Missing surface pressure value,,,,,Operational
+040054,Potential processing and inputs errors,12,Radiance filtering,,,,,Operational
+040054,Potential processing and inputs errors,All 13,Missing value,,,,,Operational
+040055,Diagnostics on the retrieval,1,Radiance filtering,,,,,Operational
+040055,Diagnostics on the retrieval,2,Polar regions,,,,,Operational
+040055,Diagnostics on the retrieval,3,Location in the night,,,,,Operational
+040055,Diagnostics on the retrieval,4,Negative altitude surface below mean sea level,,,,,Operational
+040055,Diagnostics on the retrieval,5,Cloud covered scene,,,,,Operational
+040055,Diagnostics on the retrieval,6,Scene above the sea,,,,,Operational
+040055,Diagnostics on the retrieval,7,Scene above desert,,,,,Operational
+040055,Diagnostics on the retrieval,8,Skin temperature,,,,,Operational
+040055,Diagnostics on the retrieval,9,Skin temperature differential,,,,,Operational
+040055,Diagnostics on the retrieval,10,Spectral line contrast too weak,,,,,Operational
+040055,Diagnostics on the retrieval,11,Maximum number of iterations exceeded,,,,,Operational
+040055,Diagnostics on the retrieval,12,Negative partial columns,,,,,Operational
+040055,Diagnostics on the retrieval,13,Matrix ill conditioned,,,,,Operational
+040055,Diagnostics on the retrieval,14,Fit diverged,,,,,Operational
+040055,Diagnostics on the retrieval,15,Error in GNU scientific library (GSL) usage,,,,,Operational
+040055,Diagnostics on the retrieval,16,"Residuals ""biased""",,,,,Operational
+040055,Diagnostics on the retrieval,17,"Residuals ""sloped""",,,,,Operational
+040055,Diagnostics on the retrieval,18,Residuals root mean square (RMS) error is large,,,,,Operational
+040055,Diagnostics on the retrieval,19,Weird averaging kernels,,,,,Operational
+040055,Diagnostics on the retrieval,20,Ice presence detected,,,,,Operational
+040055,Diagnostics on the retrieval,All 21,Missing value,,,,,Operational
+040056,General retrieval quality,0,Use not recommended,,,,,Operational
+040056,General retrieval quality,1,Use with caution,,,,,Operational
+040056,General retrieval quality,2,Best quality,,,,,Operational
+040056,General retrieval quality,3-6,Reserved,,,,,Operational
+040056,General retrieval quality,7,Missing value,,,,,Operational
+040057,IASI level 2 retrieval flags,1,An error has been detected,,,,,Operational
+040057,IASI level 2 retrieval flags,2,Message from L1,,,,,Operational
+040057,IASI level 2 retrieval flags,3,Message from L2,,,,,Operational
+040057,IASI level 2 retrieval flags,4,Message from ancillary data,,,,,Operational
+040057,IASI level 2 retrieval flags,5,Message from fitting procedure,,,,,Operational
+040057,IASI level 2 retrieval flags,6,Reserved,,,,,Operational
+040057,IASI level 2 retrieval flags,7,Bad L1 or L2 flag raised,,,,,Operational
+040057,IASI level 2 retrieval flags,8,Level 2 not fully trusted,,,,,Operational
+040057,IASI level 2 retrieval flags,9,Missing temperature or humidity levels in the vertical profile,,,,,Operational
+040057,IASI level 2 retrieval flags,10,Missing surface pressure value,,,,,Operational
+040057,IASI level 2 retrieval flags,11,Radiance filtering,,,,,Operational
+040057,IASI level 2 retrieval flags,12,Polar regions,,,,,Operational
+040057,IASI level 2 retrieval flags,13,Location in the night,,,,,Operational
+040057,IASI level 2 retrieval flags,14,Negative altitude,,,,,Operational
+040057,IASI level 2 retrieval flags,15,Cloud covered scene,,,,,Operational
+040057,IASI level 2 retrieval flags,16,Scene above the sea,,,,,Operational
+040057,IASI level 2 retrieval flags,17,Scene above desert,,,,,Operational
+040057,IASI level 2 retrieval flags,18,Missing skin temperature,,,,,Operational
+040057,IASI level 2 retrieval flags,19,Retrieved skin temperature too different from model,,,,,Operational
+040057,IASI level 2 retrieval flags,20,Spectral line contrast too weak,,,,,Operational
+040057,IASI level 2 retrieval flags,21,Maximum number of iterations exceeds,,,,,Operational
+040057,IASI level 2 retrieval flags,22,Negative partial columns,,,,,Operational
+040057,IASI level 2 retrieval flags,23,Matrix ill conditioned,,,,,Operational
+040057,IASI level 2 retrieval flags,24,Fit diverged,,,,,Operational
+040057,IASI level 2 retrieval flags,25,Error in GSL usage,,,,,Operational
+040057,IASI level 2 retrieval flags,26,Residuals biased,,,,,Operational
+040057,IASI level 2 retrieval flags,27,Residuals sloped,,,,,Operational
+040057,IASI level 2 retrieval flags,28,Residuals RMS error is large,,,,,Operational
+040057,IASI level 2 retrieval flags,29,Weird averaging kernels,,,,,Operational
+040057,IASI level 2 retrieval flags,30,Ice presence detected,,,,,Operational
+040057,IASI level 2 retrieval flags,All 31,Missing value,,,,,Operational
+040068,General retrieval quality flag for SO2,0,Values calculated with IASI L2,,,,,Operational
+040068,General retrieval quality flag for SO2,1,Pressure and temperature profiles missing in IASI L2 data; model/forecast data used instead,,,,,Operational
+040068,General retrieval quality flag for SO2,2,Best quality,,,,,Operational
+040068,General retrieval quality flag for SO2,3-14,Reserved,,,,,Operational
+040068,General retrieval quality flag for SO2,15,Missing value,,,,,Operational
+040074,General interferometry quality flags,1,Incompatibility of a scan angle for electroencephalogram,,,,,Operational
+040074,General interferometry quality flags,2,"Calibration failure (limit of black body temperature reached, not enough sources for interferometry, etc.)",,,,,Operational
+040074,General interferometry quality flags,3,Geolocation executed taking into account the orientation of the spacecraft and using the star catalogue,,,,,Operational
+040074,General interferometry quality flags,4,"High level of cryogenic sediment reached, requiring outgassing of the radiation cooler. Set when NESR level of the ice cover threshold crossed",,,,,Operational
+040074,General interferometry quality flags,5,Interferometry package flag,,,,,Operational
+040074,General interferometry quality flags,6,General accuracy flag,,,,,Operational
+040074,General interferometry quality flags,7,Noise present during the interferometry,,,,,Operational
+040074,General interferometry quality flags,8,Outgassing of the radiation cooler,,,,,Operational
+040074,General interferometry quality flags,9,Flag preceding the first 24 hours/day mark (set to on as a rule),,,,,Operational
+040074,General interferometry quality flags,10,Telemetry package flag,,,,,Operational
+040074,General interferometry quality flags,11-15,Reserved,,,,,Operational
+040074,General interferometry quality flags,All 16,Missing value,,,,,Operational

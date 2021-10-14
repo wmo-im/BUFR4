@@ -664,6 +664,7 @@
     <FXY2>R01000</FXY2>
     <ElementName_en>Delayed replication of 1 descriptor</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>11</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -9935,6 +9936,7 @@
     <FXY2>B04015</FXY2>
     <ElementName_en>Time increment</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>7</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -12799,6 +12801,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - km/h</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -12810,6 +12813,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - kt</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -12821,6 +12825,7 @@
     <ElementName_en>Wind speed</ElementName_en>
     <ElementDescription_en>ff - m/s</ElementDescription_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -12842,6 +12847,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - km/h</ElementDescription_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>13</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -12853,6 +12859,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - kt</ElementDescription_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>13</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -12864,6 +12871,7 @@
     <ElementName_en>Maximum wind gust speed</ElementName_en>
     <ElementDescription_en>fmfm - m/s</ElementDescription_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>13</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -20896,10 +20904,12 @@
     <Category>09</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (conventional data)</CategoryOfSequences_en>
     <FXY1>D09030</FXY1>
-    <Title_en>(Ozone sonde flight data) (see Note 1)</Title_en>
+    <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>B15004</FXY2>
     <ElementName_en>Ozone sounding correction factor (CF)</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>8</noteIDs>
+    <Status>Deprecated</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
     <Category>09</Category>
@@ -20908,7 +20918,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>B15005</FXY2>
     <ElementName_en>Ozone p</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>8</noteIDs>
+    <Status>Deprecated</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
     <Category>09</Category>
@@ -20917,7 +20929,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>R04000</FXY2>
     <ElementName_en>Delayed replication of 4 descriptors</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>8</noteIDs>
+    <Status>Deprecated</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
     <Category>09</Category>
@@ -20927,7 +20941,9 @@
     <FXY2>B04015</FXY2>
     <ElementName_en>Time increment</ElementName_en>
     <ElementDescription_en>Since launch time, if needed, in minutes</ElementDescription_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>8</noteIDs>
+    <Status>Deprecated</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
     <Category>09</Category>
@@ -20936,7 +20952,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>B08006</FXY2>
     <ElementName_en>Ozone vertical sounding significance</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>8</noteIDs>
+    <Status>Deprecated</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
     <Category>09</Category>
@@ -20945,7 +20963,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>B07004</FXY2>
     <ElementName_en>Pressure</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>8</noteIDs>
+    <Status>Deprecated</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
     <Category>09</Category>
@@ -20954,7 +20974,9 @@
     <Title_en>(Ozone sonde flight data)</Title_en>
     <FXY2>B15003</FXY2>
     <ElementName_en>Measured ozone partial pressure (sounding)</ElementName_en>
-    <Status>Operational</Status>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>8</noteIDs>
+    <Status>Deprecated</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
     <Category>09</Category>
@@ -24669,6 +24691,7 @@
     <FXY2>B11031</FXY2>
     <ElementName_en>Degree of turbulence</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -24862,6 +24885,7 @@
     <FXY2>B20011</FXY2>
     <ElementName_en>Cloud amount</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -24911,6 +24935,7 @@
     <ElementName_en>Meteorological feature</ElementName_en>
     <ElementDescription_en>Value for type of front</ElementDescription_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>4</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
@@ -25026,6 +25051,7 @@
     <ElementName_en>First-order statistics</ElementName_en>
     <ElementDescription_en>Type of tropopause value</ElementDescription_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>9</noteIDs>
     <Status>Operational</Status>
   </CREX_TableD_en>
   <CREX_TableD_en>
