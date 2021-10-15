@@ -12456,7 +12456,7 @@
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>301011</FXY2>
-    <ElementName_en>Year, Month, Day (Total accumulated precipitation)</ElementName_en>
+    <ElementName_en>Year, Month, Day</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12464,19 +12464,19 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>004004</FXY2>
-    <ElementName_en>Hour</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>03</Category>
-    <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
-    <FXY1>307075</FXY1>
-    <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>004024</FXY2>
+    <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>in hours</ElementDescription_en>
+    <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>03</Category>
+    <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
+    <FXY1>307075</FXY1>
+    <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <FXY2>301013</FXY2>
+    <ElementName_en>Hour, minute, second</ElementName_en>
+    <ElementDescription_en>beginning time of the period</ElementDescription_en>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>03</Category>
@@ -12513,7 +12513,7 @@
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>204000</FXY2>
-    <ElementName_en>Add associated field (Depth of fresh snow)</ElementName_en>
+    <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -12522,8 +12522,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>004004</FXY2>
-    <ElementName_en>Hour</ElementName_en>
+    <FXY2>004023</FXY2>
+    <ElementName_en>Time period or displacement</ElementName_en>
+    <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12531,10 +12532,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>004024</FXY2>
-    <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>in hours</ElementDescription_en>
-    <Status>Operational</Status>
+    <FXY2>301013</FXY2>
+    <ElementName_en>Hour, minute, second</ElementName_en>
+    <ElementDescription_en>beginning time of the period</ElementDescription_en>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>03</Category>
@@ -12571,7 +12571,7 @@
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>204000</FXY2>
-    <ElementName_en>Add associated field (Total snow depth)</ElementName_en>
+    <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -12580,8 +12580,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>004004</FXY2>
-    <ElementName_en>Hour</ElementName_en>
+    <FXY2>004023</FXY2>
+    <ElementName_en>Time period or displacement</ElementName_en>
+    <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12589,10 +12590,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>004024</FXY2>
-    <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>in hours</ElementDescription_en>
-    <Status>Operational</Status>
+    <FXY2>0301013</FXY2>
+    <ElementName_en>Hour, minute, second</ElementName_en>
+    <ElementDescription_en>beginning time of the period</ElementDescription_en>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>03</Category>
@@ -12629,7 +12629,7 @@
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>204000</FXY2>
-    <ElementName_en>Add associated field (Max, Min, Mean temperature)</ElementName_en>
+    <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -12657,8 +12657,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>004004</FXY2>
-    <ElementName_en>Hour</ElementName_en>
+    <FXY2>004023</FXY2>
+    <ElementName_en>Time period or displacement</ElementName_en>
+    <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12666,10 +12667,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>004024</FXY2>
-    <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>in hours</ElementDescription_en>
-    <Status>Operational</Status>
+    <FXY2>301013</FXY2>
+    <ElementName_en>Hour, minute, second</ElementName_en>
+    <ElementDescription_en>beginning time of the period</ElementDescription_en>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>03</Category>
