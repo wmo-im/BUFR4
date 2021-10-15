@@ -12417,7 +12417,9 @@
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>007030</FXY2>
-    <ElementName_en>Height of station ground above mean sea level (see note 3) (m)</ElementName_en>
+    <ElementName_en>Height of station ground above mean sea level</ElementName_en>
+    <Note_en>see Note 3</Note_en>
+    <noteIDs>87</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12427,7 +12429,6 @@
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>008095</FXY2>
     <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
-    <ElementDescription_en>Code table - Examples: 1A,1B, 2A,2B,... etc.</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12437,7 +12438,6 @@
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>008096</FXY2>
     <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
-    <ElementDescription_en>Code table - Examples: 1A,1B, 2A,2B,... etc.</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12447,7 +12447,6 @@
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>008094</FXY2>
     <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
-    <ElementDescription_en>Code table</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12464,6 +12463,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
@@ -12474,15 +12474,18 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
     <ElementDescription_en>beginning time of the period</ElementDescription_en>
+    <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>03</Category>
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>204008</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>8 bits long</ElementDescription_en>
@@ -12491,8 +12494,17 @@
   <BUFR_TableD_en>
     <Category>03</Category>
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
+    <FXY2>031021</FXY2>
+    <ElementName_en>Associated field significance</ElementName_en>
+    <ElementDescription_en>Set as 5 for 8-bit indicator of quality control</ElementDescription_en>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>03</Category>
+    <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>031021</FXY2>
     <ElementName_en>Associated field significance</ElementName_en>
     <ElementDescription_en>Set as 5 for 8-bit indicator of quality control</ElementDescription_en>
@@ -12503,8 +12515,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>013060</FXY2>
-    <ElementName_en>Total accumulated precipitation (kg m-2)</ElementName_en>
+    <ElementName_en>Total accumulated precipitation</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12512,6 +12525,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>cancel</ElementDescription_en>
@@ -12522,8 +12536,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>004023</FXY2>
-    <ElementName_en>Time period or displacement</ElementName_en>
+    <ElementName_en>Time period of displacement</ElementName_en>
     <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -12532,6 +12547,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
     <ElementDescription_en>beginning time of the period</ElementDescription_en>
@@ -12541,6 +12557,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>204008</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>8 bits long</ElementDescription_en>
@@ -12551,6 +12568,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>031021</FXY2>
     <ElementName_en>Associated field significance</ElementName_en>
     <ElementDescription_en>Set as 5 for 8-bit indicator of quality control</ElementDescription_en>
@@ -12561,8 +12579,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>013012</FXY2>
-    <ElementName_en>Depth of fresh snow (Depth of snowfall)</ElementName_en>
+    <ElementName_en>Depth of fresh snow (depth of snowfall)</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12570,6 +12589,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>cancel</ElementDescription_en>
@@ -12580,6 +12600,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
@@ -12590,15 +12611,18 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>0301013</FXY2>
+    <SubTitle_en>Total snow depth</SubTitle_en>
+    <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
     <ElementDescription_en>beginning time of the period</ElementDescription_en>
+    <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>03</Category>
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>204008</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>8 bits long</ElementDescription_en>
@@ -12609,6 +12633,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>031021</FXY2>
     <ElementName_en>Associated field significance</ElementName_en>
     <ElementDescription_en>Set as 5 for 8-bit indicator of quality control</ElementDescription_en>
@@ -12619,8 +12644,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>013013</FXY2>
-    <ElementName_en>Total snow depth (Snow depth)</ElementName_en>
+    <ElementName_en>Total snow depth (snow depth)</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12628,6 +12654,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>cancel</ElementDescription_en>
@@ -12638,6 +12665,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground</ElementName_en>
     <ElementDescription_en>for temperature measurement</ElementDescription_en>
@@ -12648,6 +12676,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>107003</FXY2>
     <ElementName_en>Replicate 7 descriptors 3 times</ElementName_en>
     <Status>Operational</Status>
@@ -12657,6 +12686,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
     <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
@@ -12667,18 +12697,10 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
     <ElementDescription_en>beginning time of the period</ElementDescription_en>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>03</Category>
-    <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
-    <FXY1>307075</FXY1>
-    <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
-    <FXY2>008023</FXY2>
-    <ElementName_en>First-order statistics</ElementName_en>
-    <ElementDescription_en>2 – maximum; 3 – minimum; 4 – mean</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12686,6 +12708,18 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>2 - maximum; 3 - minimum; 4 - mean</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>03</Category>
+    <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
+    <FXY1>307075</FXY1>
+    <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>204008</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>8 bits long</ElementDescription_en>
@@ -12696,6 +12730,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>031021</FXY2>
     <ElementName_en>Associated field significance</ElementName_en>
     <ElementDescription_en>Set as 5 for 8-bit indicator of quality control</ElementDescription_en>
@@ -12706,8 +12741,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>012101</FXY2>
-    <ElementName_en>Temperature/air temperature (k)</ElementName_en>
+    <ElementName_en>Temperature/air temperature</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -12715,6 +12751,7 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
     <ElementDescription_en>cancel</ElementDescription_en>
@@ -12725,8 +12762,9 @@
     <CategoryOfSequences_en>Meteorological sequences common to vertical soundings data</CategoryOfSequences_en>
     <FXY1>307075</FXY1>
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
+    <SubTitle_en>Max, Min, Mean temperature</SubTitle_en>
     <FXY2>008023</FXY2>
-    <ElementName_en>First-order statistics (code table)</ElementName_en>
+    <ElementName_en>First-order statistics</ElementName_en>
     <ElementDescription_en>Set as missing value</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
