@@ -4441,7 +4441,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 031021,Associated field significance,21,1-bit indicator of correction,"0 = original value, 1 = substituted/corrected value",,(see Note 2),74,Operational
 031021,Associated field significance,22-62,Reserved for local use,,,,,Operational
 031021,Associated field significance,63,Missing value,,,,,Operational
-031031,Data present indicator,1,,"0 = Data present, 1 = Data not present",,,,Operational
+031031,Data present indicator,1,"0 = Data present, 1 = Data not present",,,,,Operational
 033002,Quality information,0,Data not suspect,,,,,Operational
 033002,Quality information,1,Data suspect,,,,,Operational
 033002,Quality information,2,Reserved,,,,,Operational
