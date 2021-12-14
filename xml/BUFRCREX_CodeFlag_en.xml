@@ -59,7 +59,6 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>001007</FXY>
     <ElementName_en>Satellite identifier</ElementName_en>
-    <noteIDs>10</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -254,25 +253,21 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>001031</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
-    <noteIDs>6</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001033</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
-    <noteIDs>6</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001034</FXY>
     <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
-    <noteIDs>14</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001035</FXY>
     <ElementName_en>Originating/generating centre</ElementName_en>
-    <noteIDs>6</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -2957,13 +2952,11 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002011</FXY>
     <ElementName_en>Radiosonde type</ElementName_en>
-    <noteIDs>7</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>002012</FXY>
     <ElementName_en>Radiosonde computational method</ElementName_en>
-    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3027,7 +3020,6 @@
     <ElementName_en>Solar and infrared radiation correction</ElementName_en>
     <CodeFigure>8</CodeFigure>
     <EntryName_en>Solar and infrared corrected as specified by GRUAN</EntryName_en>
-    <noteIDs>8</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3054,7 +3046,6 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002014</FXY>
     <ElementName_en>Tracking technique/status of system used</ElementName_en>
-    <noteIDs>11</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3207,7 +3198,6 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002019</FXY>
     <ElementName_en>Satellite instruments</ElementName_en>
-    <noteIDs>12</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3530,6 +3520,7 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Clear path</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
     <noteIDs>28</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -3538,6 +3529,7 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>Partly cloudy path</EntryName_en>
+    <Note_en>(see Note 3)</Note_en>
     <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -3546,6 +3538,7 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>5</CodeFigure>
     <EntryName_en>Cloudy path</EntryName_en>
+    <Note_en>(see Note 4)</Note_en>
     <noteIDs>30</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -3795,6 +3788,7 @@
     <ElementName_en>Satellite channel(s) used in computation</ElementName_en>
     <CodeFigure>16</CodeFigure>
     <EntryName_en>HIRS</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
     <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -3830,6 +3824,7 @@
     <ElementName_en>Satellite channel(s) used in computation</ElementName_en>
     <CodeFigure>21</CodeFigure>
     <EntryName_en>HIRS</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
     <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -3873,6 +3868,7 @@
     <ElementName_en>Method of current measurement</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>ADCP (Acoustic Doppler Current Profiler)</EntryName_en>
+    <Note_en>(see Note)</Note_en>
     <noteIDs>91</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -4931,6 +4927,7 @@
     <ElementName_en>Geostationary satellite data-processing technique used</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Clear sounding</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
     <noteIDs>29</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -4939,6 +4936,7 @@
     <ElementName_en>Geostationary satellite data-processing technique used</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>Cloudy sounding</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
     <noteIDs>31</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -5713,6 +5711,7 @@
     <ElementName_en>Aircraft roll angle quality</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Bad</EntryName_en>
+    <Note_en>(see Note)</Note_en>
     <noteIDs>20</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -7058,6 +7057,7 @@
     <ElementName_en>Light source type for Brewer spectrophotometer</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Direct sun, attenuator #1</EntryName_en>
+    <Note_en>(see Note)</Note_en>
     <noteIDs>38</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -7066,6 +7066,7 @@
     <ElementName_en>Light source type for Brewer spectrophotometer</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Direct sun, attenuator #2</EntryName_en>
+    <Note_en>(see Note)</Note_en>
     <noteIDs>38</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -7312,8 +7313,6 @@
     <ElementName_en>Method of transmission to collection centre</ElementName_en>
     <CodeFigure>6</CodeFigure>
     <EntryName_en>GAN, BGAN</EntryName_en>
-    <Note_en>,</Note_en>
-    <noteIDs>115,118</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -8567,7 +8566,6 @@
     <ElementName_en>Extended height assignment method</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>IRW height assignment</EntryName_en>
-    <noteIDs>108</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -8575,7 +8573,6 @@
     <ElementName_en>Extended height assignment method</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>WV height assignment</EntryName_en>
-    <noteIDs>99</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -10466,7 +10463,7 @@
     <ElementName_en>Method of sea/water current measurement</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>ADCP</EntryName_en>
-    <Note_en>, </Note_en>
+    <Note_en>(see Note)</Note_en>
     <noteIDs>91</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -10503,7 +10500,6 @@
     <ElementName_en>Method of sea/water current measurement</ElementName_en>
     <CodeFigure>6</CodeFigure>
     <EntryName_en>ADCP</EntryName_en>
-    <noteIDs>122</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -10966,7 +10962,6 @@
     <ElementName_en>Material for thermometer/hygrometer housing</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Plastic/GRP</EntryName_en>
-    <noteIDs>113</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -13106,6 +13101,7 @@
     <ElementName_en>Difference statistics</ElementName_en>
     <CodeFigure>14</CodeFigure>
     <EntryName_en>Observed minus forecast value</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
     <noteIDs>93</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -14367,6 +14363,7 @@
     <ElementName_en>Extended vertical sounding significance</ElementName_en>
     <CodeFigure>16</CodeFigure>
     <EntryName_en>Freezing level</EntryName_en>
+    <Note_en>(see Note)</Note_en>
     <noteIDs>41</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -15589,6 +15586,7 @@
     <ElementName_en>Modification of sensor height to another value</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Sensor height is modified to standard level</EntryName_en>
+    <Note_en>(see Note)</Note_en>
     <noteIDs>48</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
