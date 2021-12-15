@@ -103,7 +103,7 @@ tableNo,tableName,noteID,notation
 0 02 150,TOVS/ATOVS/AVHRR instrumentation channel number,,
 0 02 151,Radiometer identifier,,
 0 02 152,Satellite instrument used in data processing,,
-0 02 158,RA-2 instrument,66,0
+0 02 158,RA-2 instrument,,
 0 02 159,MWR instrument,,
 0 02 160,Wave length of the radar,,
 0 02 161,Wind processing method,,
@@ -265,7 +265,7 @@ tableNo,tableName,noteID,notation
 0 20 024,Intensity of phenomena,,
 0 20 025,Obscuration,,
 0 20 026,Character of obscuration,,
-0 20 027,Phenomena occurrence,63,3
+0 20 027,Phenomena occurrence,63,1
 0 20 028,Expected change in intensity,,
 0 20 029,Rain flag,,
 0 20 032,Rate of ice accretion (estimated),,
@@ -372,8 +372,8 @@ tableNo,tableName,noteID,notation
 0 25 035,Decision method for polarity,,
 0 25 036,Atmospherics location method,,
 0 25 040,CO2 wind product derivation,,
-0 25 041,Moving platform direction reporting method,,
-0 25 042,Moving platform speed reporting method,,
+0 25 041,Moving platform direction reporting method,94,0
+0 25 042,Moving platform speed reporting method,95,0
 0 25 045,HIRS channel combination,,
 0 25 046,MSU channel combination,,
 0 25 047,SSU channel combination,,
@@ -389,8 +389,8 @@ tableNo,tableName,noteID,notation
 0 25 095,Altimeter state flag,,
 0 25 096,Radiometer state flag,,
 0 25 097,Three-dimensional error estimate of the navigator orbit,,
-0 25 098,Altimeter data quality flag,,
-0 25 099,Altimeter correction quality flag,,
+0 25 098,Altimeter data quality flag,5,0
+0 25 099,Altimeter correction quality flag,5,0
 0 25 110,Image processing summary,,
 0 25 112,Band specific altimeter data quality flag,5,0
 0 25 113,Band specific altimeter correction quality flag,5,0
