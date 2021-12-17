@@ -506,7 +506,7 @@
     <FXY>001012</FXY>
     <ElementName_en>Direction of motion of moving observing platform</ElementName_en>
     <Note_en>(see Notes 14 and 15)</Note_en>
-    <noteIDs>60,125</noteIDs>
+    <noteIDs>125,60</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -681,6 +681,7 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001026</FXY>
     <ElementName_en>WMO storm name</ElementName_en>
+    <Note_en>(see Note 16)</Note_en>
     <noteIDs>43</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
@@ -773,7 +774,7 @@
     <FXY>001032</FXY>
     <ElementName_en>Generating application</ElementName_en>
     <Note_en>(Notes 3, 4 and 5)</Note_en>
-    <noteIDs>21,38,175</noteIDs>
+    <noteIDs>175,21,38</noteIDs>
     <BUFR_Unit>Code table defined by originating/generating centre</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -900,8 +901,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001041</FXY>
     <ElementName_en>Absolute platform velocity - first component</ElementName_en>
-    <Note_en>(see Note 6)</Note_en>
-    <noteIDs>95,134,154</noteIDs>
+    <Note_en>(see Notes 6, 7 and 8)</Note_en>
+    <noteIDs>134,154,95</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -916,8 +917,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001042</FXY>
     <ElementName_en>Absolute platform velocity - second component</ElementName_en>
-    <Note_en>(see Note 6)</Note_en>
-    <noteIDs>95,134,154</noteIDs>
+    <Note_en>(see Notes 6, 7 and 8)</Note_en>
+    <noteIDs>134,154,95</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -932,8 +933,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001043</FXY>
     <ElementName_en>Absolute platform velocity - third component</ElementName_en>
-    <Note_en>(see Note 6)</Note_en>
-    <noteIDs>95,134,154</noteIDs>
+    <Note_en>(see Notes 6, 7 and 8)</Note_en>
+    <noteIDs>134,154,95</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -1904,6 +1905,7 @@
     <ClassName_en>Instrumentation</ClassName_en>
     <FXY>002021</FXY>
     <ElementName_en>Satellite instrument data used in processing</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
     <noteIDs>47</noteIDs>
     <BUFR_Unit>Flag table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
@@ -2815,6 +2817,7 @@
     <ClassName_en>Instrumentation</ClassName_en>
     <FXY>002100</FXY>
     <ElementName_en>Radar constant</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
     <noteIDs>157</noteIDs>
     <BUFR_Unit>dB</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
@@ -13546,6 +13549,7 @@
     <ClassName_en>Observed phenomena</ClassName_en>
     <FXY>020013</FXY>
     <ElementName_en>Height of base of cloud</ElementName_en>
+    <Note_en>(see Note 6)</Note_en>
     <noteIDs>170</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>-1</BUFR_Scale>
@@ -17570,6 +17574,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022076</FXY>
     <ElementName_en>Direction from which dominant waves are coming</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>137</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17901,7 +17907,7 @@
     <FXY>022099</FXY>
     <ElementName_en>Mean direction at low wave numbers (wavelength &gt; 731 m)</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
-    <noteIDs>109</noteIDs>
+    <noteIDs>107</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17917,7 +17923,7 @@
     <FXY>022100</FXY>
     <ElementName_en>Direction spread at low wave numbers (wavelength &gt; 731 m)</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
-    <noteIDs>109</noteIDs>
+    <noteIDs>107</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17933,7 +17939,7 @@
     <FXY>022101</FXY>
     <ElementName_en>Total energy (wavelength &gt; 731m) at low wave numbers</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
-    <noteIDs>108</noteIDs>
+    <noteIDs>107</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19682,7 +19688,6 @@
     <ClassName_en>Processing information</ClassName_en>
     <FXY>025022</FXY>
     <ElementName_en>GHRSST rejection flag</ElementName_en>
-    <noteIDs>82</noteIDs>
     <BUFR_Unit>Flag table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -21325,7 +21330,6 @@
     <ClassName_en>Processing information</ClassName_en>
     <FXY>025180</FXY>
     <ElementName_en>LRM per cent</ElementName_en>
-    <noteIDs>97</noteIDs>
     <BUFR_Unit>%</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -21666,6 +21670,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 1)</ClassName_en>
     <FXY>027004</FXY>
     <ElementName_en>Alternate latitude (high accuracy)</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>132</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-9000000</BUFR_ReferenceValue>
@@ -24213,6 +24219,7 @@
     <ClassName_en>Satellite data</ClassName_en>
     <FXY>040069</FXY>
     <ElementName_en>PWLR estimated retrieval error for surface air temperature</ElementName_en>
+    <Note_en>(see Note)</Note_en>
     <noteIDs>114</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
