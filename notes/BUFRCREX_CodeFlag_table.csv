@@ -3,7 +3,7 @@ tableNo,tableName,noteID,notation
 0 01 007,Satellite identifier,10,0
 0 01 024,Wind speed source,,
 0 01 028,Aerosol optical depth (AOD) source,,
-0 01 029,SSI* source,,
+0 01 029,,,
 0 01 031,Identification of originating/generating centre,6,0
 0 01 033,Identification of originating/generating centre,6,0
 0 01 034,Identification of originating/generating sub-centre,14,0
@@ -38,7 +38,7 @@ tableNo,tableName,noteID,notation
 0 02 022,Satellite data-processing technique used,22,4
 0 02 023,Satellite-derived wind computation method,,
 0 02 024,Integrated mean humidity computational method,,
-0 02 025,Satellite channel(s) used in computation,23,0
+0 02 025,Satellite channel(s) used in computation,23,1
 0 02 030,Method of current measurement,,
 0 02 031,Duration and time of current measurement,32,1
 0 02 031,Duration and time of current measurement,33,2
@@ -61,13 +61,13 @@ tableNo,tableName,noteID,notation
 0 02 049,Geostationary satellite data-processing technique used,,
 0 02 050,Geostationary sounder satellite channels used,21,0
 0 02 051,Indicator to specify observing method for extreme temperatures,,
-0 02 052,Geostationary imager satellite channels used,,
+0 02 052,Geostationary imager satellite channels used,21,0
 0 02 053,GOES-I/M brightness temperature characteristics,,
 0 02 054,GOES-I/M soundings parameter characteristics,,
 0 02 055,Geostationary soundings statistical parameters,,
 0 02 056,Geostationary soundings accuracy statistics,,
 0 02 057,Origin of first-guess information for GOES-I/M soundings,,
-0 02 058,Valid times of first-guess information for GOES-I/M soundings,66,0
+0 02 058,Valid times of first-guess information for GOES-I/M soundings,,
 0 02 059,Origin of analysis information for GOES-I/M soundings,,
 0 02 060,Origin of surface information for GOES-I/M soundings,,
 0 02 061,Aircraft navigational system,,
@@ -172,8 +172,8 @@ tableNo,tableName,noteID,notation
 0 08 018,SEAWINDS land/ice surface type,,
 0 08 019,Qualifier for following centre identifier,,
 0 08 021,Time significance,88,3
-0 08 023,First-order statistics*,18,0
-0 08 024,Difference statistics*,36,1
+0 08 023,First-order statistics,18,0
+0 08 024,Difference statistics,36,1
 0 08 025,Time difference qualifier,,
 0 08 026,Matrix significance,,
 0 08 029,Surface type,,
@@ -188,7 +188,7 @@ tableNo,tableName,noteID,notation
 0 08 040,Flight level significance,,
 0 08 041,Data significance,,
 0 08 042,Extended vertical sounding significance,,
-0 08 043,Atmospheric chemical or physical constituent type,79,1
+0 08 043,Atmospheric chemical or physical constituent type,79,0
 0 08 046,Atmospheric chemical or physical constituent type,13,0
 0 08 050,Qualifier for number of missing values in calculation of statistic,,
 0 08 051,Qualifier for number of missing values in calculation of statistic,,
@@ -265,7 +265,7 @@ tableNo,tableName,noteID,notation
 0 20 024,Intensity of phenomena,,
 0 20 025,Obscuration,,
 0 20 026,Character of obscuration,,
-0 20 027,Phenomena occurrence,63,3
+0 20 027,Phenomena occurrence,63,1
 0 20 028,Expected change in intensity,,
 0 20 029,Rain flag,,
 0 20 032,Rate of ice accretion (estimated),,
@@ -372,8 +372,8 @@ tableNo,tableName,noteID,notation
 0 25 035,Decision method for polarity,,
 0 25 036,Atmospherics location method,,
 0 25 040,CO2 wind product derivation,,
-0 25 041,Moving platform direction reporting method,,
-0 25 042,Moving platform speed reporting method,,
+0 25 041,Moving platform direction reporting method,94,0
+0 25 042,Moving platform speed reporting method,95,0
 0 25 045,HIRS channel combination,,
 0 25 046,MSU channel combination,,
 0 25 047,SSU channel combination,,
@@ -389,8 +389,8 @@ tableNo,tableName,noteID,notation
 0 25 095,Altimeter state flag,,
 0 25 096,Radiometer state flag,,
 0 25 097,Three-dimensional error estimate of the navigator orbit,,
-0 25 098,Altimeter data quality flag,,
-0 25 099,Altimeter correction quality flag,,
+0 25 098,Altimeter data quality flag,5,0
+0 25 099,Altimeter correction quality flag,5,0
 0 25 110,Image processing summary,,
 0 25 112,Band specific altimeter data quality flag,5,0
 0 25 113,Band specific altimeter correction quality flag,5,0

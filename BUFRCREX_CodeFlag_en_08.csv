@@ -247,7 +247,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008024,Difference statistics,11,Observed minus climatology (anomaly),,,,,Operational
 008024,Difference statistics,12,Observed minus analysed value,,,,,Operational
 008024,Difference statistics,13,Observed minus initialized analysed value,,,,,Operational
-008024,Difference statistics,14,Observed minus forecast value,,,**,93,Operational
+008024,Difference statistics,14,Observed minus forecast value,,,(see Note 2),93,Operational
 008024,Difference statistics,15-20,Reserved,,,,,Operational
 008024,Difference statistics,21,Observed minus interpolated value,,,,,Operational
 008024,Difference statistics,22,Observed minus hydrostatically calculated value,,,,,Operational
@@ -427,7 +427,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008042,Extended vertical sounding significance,13,End of missing wind data,,,,,Operational
 008042,Extended vertical sounding significance,14,Top of wind sounding,,,,,Operational
 008042,Extended vertical sounding significance,15,Level determined by regional decision,,,,,Operational
-008042,Extended vertical sounding significance,16,Freezing level,,,,41,Operational
+008042,Extended vertical sounding significance,16,Freezing level,,,(see Note),41,Operational
 008042,Extended vertical sounding significance,17,Pressure level originally indicated by height as the vertical coordinate,,,,,Operational
 008042,Extended vertical sounding significance,All 18,Missing value,,,,,Operational
 008043,Atmospheric chemical or physical constituent type,0,Ozone,O3,10028-15-6,,,Operational
@@ -599,7 +599,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008081,Type of equipment,4-62,Reserved,,,,,Operational
 008081,Type of equipment,63,Missing value,,,,,Operational
 008082,Modification of sensor height to another value,0,Sensor height is not modified,,,,,Operational
-008082,Modification of sensor height to another value,1,Sensor height is modified to standard level,,,*,48,Operational
+008082,Modification of sensor height to another value,1,Sensor height is modified to standard level,,,(see Note),48,Operational
 008082,Modification of sensor height to another value,2-6,Reserved,,,,,Operational
 008082,Modification of sensor height to another value,7,Missing value,,,,,Operational
 008083,Nominal value indicator,1,Adjusted to or with respect to representative height of sensor above local ground (or deck of marine platform),,,,,Operational

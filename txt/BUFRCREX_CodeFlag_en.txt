@@ -7,7 +7,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001003,WMO Region number/geographical area,5,Region V,,,,,Operational
 001003,WMO Region number/geographical area,6,Region VI,,,,,Operational
 001003,WMO Region number/geographical area,7,Missing value,,,,,Operational
-001007,Satellite identifier,,,,,,10,Operational
+001007,Satellite identifier,,,,,,,Operational
 001024,Wind speed source,0,No wind speed data available,,,,,Operational
 001024,Wind speed source,1,AMSR-E data,,,,,Operational
 001024,Wind speed source,2,TMI data,,,,,Operational
@@ -35,10 +35,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001029,SSI source,6,UK Met Office,,,,,Operational
 001029,SSI source,7-30,Reserved for future use,,,,,Operational
 001029,SSI source,31,Missing value,,,,,Operational
-001031,Identification of originating/generating centre,,,,,,6,Operational
-001033,Identification of originating/generating centre,,,,,,6,Operational
-001034,Identification of originating/generating sub-centre,,,,,,14,Operational
-001035,Originating/generating centre,,,,,,6,Operational
+001031,Identification of originating/generating centre,,,,,,,Operational
+001033,Identification of originating/generating centre,,,,,,,Operational
+001034,Identification of originating/generating sub-centre,,,,,,,Operational
+001035,Originating/generating centre,,,,,,,Operational
 001036,Agency in charge of operating the observing platform,0-36000,Reserved,,,,,Operational
 001036,Agency in charge of operating the observing platform,36001,"Australia, Bureau of Meteorology (BoM)",,,,,Operational
 001036,Agency in charge of operating the observing platform,36002,"Australia, Joint Australian Facility for Ocean Observing Systems (JAFOOS)",,,,,Operational
@@ -83,8 +83,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001036,Agency in charge of operating the observing platform,724001,"Spain, Instituto Español de Oceanografia",,,,,Operational
 001036,Agency in charge of operating the observing platform,724002-826000,Reserved,,,,,Operational
 001036,Agency in charge of operating the observing platform,826001,"United Kingdom, Hydrographic Office",,,,,Operational
-001036,Agency in charge of operating the observing platform,826002,"United Kingdom, Southampton Oceanography Centre (SOC)",,,,,Operational
-001036,Agency in charge of operating the observing platform,826003-840000,Reserved,,,,,Operational
+001036,Agency in charge of operating the observing platform,826002,"United Kingdom, National Oceanography Centre (NOC)",,,,,Operational
+001036,Agency in charge of operating the observing platform,826003,"United Kingdom, Centre for Environment, Fisheries and Aquaculture (Cefas)",,,,,Operational
+001036,Agency in charge of operating the observing platform,826004,"United Kingdom, Marine Scotland (MS)",,,,,Operational
+001036,Agency in charge of operating the observing platform,826005,"United Kingdom, Plymouth Marine Laboratory (PML)",,,,,Operational
+001036,Agency in charge of operating the observing platform,826006,"United Kingdom, British Antarctic Survey (BAS)",,,,,Operational
+001036,Agency in charge of operating the observing platform,826007-840000,Reserved,,,,,Operational
 001036,Agency in charge of operating the observing platform,840001,"USA, NOAA Atlantic Oceanographic and Meteorological Laboratories (AOML)",,,,,Operational
 001036,Agency in charge of operating the observing platform,840002,"USA, NOAA Pacific Marine Environmental Laboratories (PMEL)",,,,,Operational
 001036,Agency in charge of operating the observing platform,840003,"USA, Scripps Institution of Oceanography (SIO)",,,,,Operational
@@ -420,8 +424,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002008,Type of offshore platform,5,Light vessel,,,,,Operational
 002008,Type of offshore platform,6-14,Reserved,,,,,Operational
 002008,Type of offshore platform,15,Missing value,,,,,Operational
-002011,Radiosonde type,,,,,,7,Operational
-002012,Radiosonde computational method,,,,,,1,Operational
+002011,Radiosonde type,,,,,,,Operational
+002012,Radiosonde computational method,,,,,,,Operational
 002013,Solar and infrared radiation correction,0,No correction,,,,,Operational
 002013,Solar and infrared radiation correction,1,CIMO solar corrected and CIMO infrared corrected,,,,,Operational
 002013,Solar and infrared radiation correction,2,CIMO solar corrected and infrared corrected,,,,,Operational
@@ -430,11 +434,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002013,Solar and infrared radiation correction,5,Solar corrected automatically by radiosonde system,,,,,Operational
 002013,Solar and infrared radiation correction,6,Solar and infrared corrected as specified by country,,,,,Operational
 002013,Solar and infrared radiation correction,7,Solar corrected as specified by country,,,,,Operational
-002013,Solar and infrared radiation correction,8,Solar and infrared corrected as specified by GRUAN,,,*,8,Operational
+002013,Solar and infrared radiation correction,8,Solar and infrared corrected as specified by GRUAN,,,,,Operational
 002013,Solar and infrared radiation correction,9,Solar corrected as specified by GRUAN,,,,,Operational
 002013,Solar and infrared radiation correction,10-14,Reserved,,,,,Operational
 002013,Solar and infrared radiation correction,15,Missing value,,,,,Operational
-002014,Tracking technique/status of system used,,,,,,11,Operational
+002014,Tracking technique/status of system used,,,,,,,Operational
 002015,Radiosonde completeness,0,Reserved,,,,,Operational
 002015,Radiosonde completeness,1,Pressure only radiosonde,,,,,Operational
 002015,Radiosonde completeness,2,Pressure only radiosonde plus transponder,,,,,Operational
@@ -456,7 +460,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002017,Correction algorithms for humidity measurements,7,GRUAN solar radiation and time lag correction,,,,,Operational
 002017,Correction algorithms for humidity measurements,8-30,Reserved,,,,,Operational
 002017,Correction algorithms for humidity measurements,31,Missing value,,,,,Operational
-002019,Satellite instruments,,,,,,12,Operational
+002019,Satellite instruments,,,,,,,Operational
 002020,Satellite classification,0,Nimbus,,,,,Operational
 002020,Satellite classification,1,VTPR,,,,,Operational
 002020,Satellite classification,2,"Tiros 1 (Tiros, NOAA-6 to NOAA-13)",,,,,Operational
@@ -465,6 +469,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002020,Satellite classification,20,GPM-core,,,,,Operational
 002020,Satellite classification,31,DMSP,,,,,Operational
 002020,Satellite classification,61,EUMETSAT Polar System (EPS),,,,,Operational
+002020,Satellite classification,62,EUMETSAT Polar System (EPS-SG),,,,,Operational
 002020,Satellite classification,91,ERS,,,,,Operational
 002020,Satellite classification,92,Sentinel-3,,,,,Operational
 002020,Satellite classification,121,ADEOS,,,,,Operational
@@ -479,7 +484,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002020,Satellite classification,331,METEOSAT Operational Programme (MOP),,,,,Operational
 002020,Satellite classification,332,METEOSAT Transitional Programme (MTP),,,,,Operational
 002020,Satellite classification,333,METEOSAT Second Generation Programme (MSG),,,,,Operational
+002020,Satellite classification,334,METEOSAT Third Generation Programme (MTG),,,,,Operational
 002020,Satellite classification,351,GOMS,,,,,Operational
+002020,Satellite classification,352,Meteor-M N2,,,,,Operational
 002020,Satellite classification,380,FY-1,,,,,Operational
 002020,Satellite classification,381,FY-2,,,,,Operational
 002020,Satellite classification,382,FY-3,,,,,Operational
@@ -489,7 +496,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002020,Satellite classification,402,GLONASS,,,,,Operational
 002020,Satellite classification,403,GALILEO,,,,,Operational
 002020,Satellite classification,404,BDS (BeiDou navigation satellite system),,,,,Operational
-002020,Satellite classification,405-510,Reserved,,,,,Operational
+002020,Satellite classification,405,Quasi-Zenith Satellite System (QZSS),,,,,Operational
+002020,Satellite classification,406-510,Reserved,,,,,Operational
 002020,Satellite classification,511,Missing value,,,,,Operational
 002021,Satellite instrument data used in processing,1,High-resolution infrared sounder (HIRS),,,,,Operational
 002021,Satellite instrument data used in processing,2,Microwave sounding unit (MSU),,,,,Operational
@@ -502,9 +510,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002021,Satellite instrument data used in processing,All 9,Missing value,,,,,Operational
 002022,Satellite data-processing technique used,1,Processing technique not defined,,,,,Operational
 002022,Satellite data-processing technique used,2,Automated statistical regression,,,,,Operational
-002022,Satellite data-processing technique used,3,Clear path,,,,28,Operational
-002022,Satellite data-processing technique used,4,Partly cloudy path,,,,62,Operational
-002022,Satellite data-processing technique used,5,Cloudy path,,,,30,Operational
+002022,Satellite data-processing technique used,3,Clear path,,,(see Note 2),28,Operational
+002022,Satellite data-processing technique used,4,Partly cloudy path,,,(see Note 3),62,Operational
+002022,Satellite data-processing technique used,5,Cloudy path,,,(see Note 4),30,Operational
 002022,Satellite data-processing technique used,6-7,Reserved,,,,,Operational
 002022,Satellite data-processing technique used,All 8,Missing value,,,,,Operational
 002023,Satellite-derived wind computation method,0,Reserved,,,,,Operational
@@ -540,18 +548,18 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002025,Satellite channel(s) used in computation,13-14,Reserved,,,,,Operational
 002025,Satellite channel(s) used in computation,,"Group 4 - Mean temperature for the layers: surface to 850 hPa, 850 to 700 hPa, 700 to 500 hPa, 500 to 400 hPa, 400 to 300 hPa, 300 to 200 hPa, and 200 to 100 hPa",,,,,Operational
 002025,Satellite channel(s) used in computation,15,HIRS,,,,,Operational
-002025,Satellite channel(s) used in computation,16,HIRS,,,*,47,Operational
+002025,Satellite channel(s) used in computation,16,HIRS*,,,(see Note 2),47,Operational
 002025,Satellite channel(s) used in computation,17,MSU,,,,,Operational
 002025,Satellite channel(s) used in computation,18,SKINTK (ocean only),,,,,Operational
 002025,Satellite channel(s) used in computation,19-20,Reserved,,,,,Operational
 002025,Satellite channel(s) used in computation,,"Group 5 - Channel combinations used to obtain mean temperatures for the layers 100 to 70 hPa, 70 to 50 hPa, 50 to 30 hPa, 30 to 10 hPa, 10 to 5 hPa, 5 to 2 hPa, 2 to 1 hPa, 1 to 0.4 hPa",,,,,Operational
-002025,Satellite channel(s) used in computation,21,HIRS,,,*,47,Operational
+002025,Satellite channel(s) used in computation,21,HIRS,,,(see Note 2),47,Operational
 002025,Satellite channel(s) used in computation,22,SSU,,,,,Operational
 002025,Satellite channel(s) used in computation,23,"MSU (3, 4)",,,,,Operational
 002025,Satellite channel(s) used in computation,24,Reserved,,,,,Operational
 002025,Satellite channel(s) used in computation,All 25,Missing value,,,,,Operational
 002030,Method of current measurement,0,Reserved,,,,,Operational
-002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,*,91,Operational
+002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,(see Note),91,Operational
 002030,Method of current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,,Operational
 002030,Method of current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,,Operational
 002030,Method of current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,,Operational
@@ -700,8 +708,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002048,Satellite sensor indicator,15,Missing value,,,,,Operational
 002049,Geostationary satellite data-processing technique used,1,Processing technique not defined,,,,,Operational
 002049,Geostationary satellite data-processing technique used,2,Simultaneous physical retrieval,,,,,Operational
-002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,,29,Operational
-002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,,31,Operational
+002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,(see Note 1),29,Operational
+002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,(see Note 2),31,Operational
 002049,Geostationary satellite data-processing technique used,5-7,Reserved for future use,,,,,Operational
 002049,Geostationary satellite data-processing technique used,All 8,Missing value,,,,,Operational
 002050,Geostationary sounder satellite channels used,1,1,14.71,,,,Operational
@@ -808,7 +816,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002062,Type of aircraft data relay system,6-14,Reserved,,,,,Operational
 002062,Type of aircraft data relay system,15,Missing value,,,,,Operational
 002064,Aircraft roll angle quality,0,Good,,,,,Operational
-002064,Aircraft roll angle quality,1,Bad,,,,20,Operational
+002064,Aircraft roll angle quality,1,Bad,,,(see Note),20,Operational
 002064,Aircraft roll angle quality,2,Reserved,,,,,Operational
 002064,Aircraft roll angle quality,3,Missing value,,,,,Operational
 002066,Radiosonde ground receiving system,0,InterMet IMS 2000,,,,,Operational
@@ -1000,8 +1008,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002143,Ozone instrument type,20-126,Reserved,,,,,Operational
 002143,Ozone instrument type,127,Missing value,,,,,Operational
 002144,Light source type for Brewer spectrophotometer,0,Direct sun,,,,,Operational
-002144,Light source type for Brewer spectrophotometer,1,"Direct sun, attenuator #1",,,,38,Operational
-002144,Light source type for Brewer spectrophotometer,2,"Direct sun, attenuator #2",,,,38,Operational
+002144,Light source type for Brewer spectrophotometer,1,"Direct sun, attenuator #1",,,(see Note),38,Operational
+002144,Light source type for Brewer spectrophotometer,2,"Direct sun, attenuator #2",,,(see Note),38,Operational
 002144,Light source type for Brewer spectrophotometer,3,Focused moon,,,,,Operational
 002144,Light source type for Brewer spectrophotometer,4,Focused sun,,,,,Operational
 002144,Light source type for Brewer spectrophotometer,5,Focused sun corrected with adjacent sky measurements,,,,,Operational
@@ -1036,7 +1044,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002147,Method of transmission to collection centre,3,Internet ISP ,,,,,Operational
 002147,Method of transmission to collection centre,4,"DCP via satellite (MTSAT, METEOSAT, etc.)",,,,,Operational
 002147,Method of transmission to collection centre,5,VSAT ,,,,,Operational
-002147,Method of transmission to collection centre,6,"GAN, BGAN",,,"*,**","115,118",Operational
+002147,Method of transmission to collection centre,6,"GAN, BGAN",,,,,Operational
 002147,Method of transmission to collection centre,7,Thiss terminal,,,,,Operational
 002147,Method of transmission to collection centre,8,Iridium satellites,,,,,Operational
 002147,Method of transmission to collection centre,9,Mobile telephony,,,,,Operational
@@ -1215,8 +1223,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002161,Wind processing method,15,Nested tracking,,,,,Operational
 002161,Wind processing method,All 16,Missing value,,,,,Operational
 002162,Extended height assignment method,0,Auto editor,,,,,Operational
-002162,Extended height assignment method,1,IRW height assignment,,,,108,Operational
-002162,Extended height assignment method,2,WV height assignment,,,,99,Operational
+002162,Extended height assignment method,1,IRW height assignment,,,,,Operational
+002162,Extended height assignment method,2,WV height assignment,,,,,Operational
 002162,Extended height assignment method,3,H2O intercept height assignment,,,,,Operational
 002162,Extended height assignment method,4,CO2 slicing height assignment,,,,,Operational
 002162,Extended height assignment method,5,Low pixel max gradient,,,,,Operational
@@ -1486,12 +1494,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 003008,Artificially ventilated screen or shield,3-6,Reserved,,,,,Operational
 003008,Artificially ventilated screen or shield,7,Missing value,,,,,Operational
 003010,Method of sea/water current measurement,0,Reserved,,,,,Operational
-003010,Method of sea/water current measurement,1,ADCP,,,"*, **","91",Operational
+003010,Method of sea/water current measurement,1,ADCP,,,(see Note),91,Operational
 003010,Method of sea/water current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,,Operational
 003010,Method of sea/water current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,,Operational
 003010,Method of sea/water current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,,Operational
 003010,Method of sea/water current measurement,5,Drift of buoy,,,,,Operational
-003010,Method of sea/water current measurement,6,ADCP,,,,122,Operational
+003010,Method of sea/water current measurement,6,ADCP,,,,,Operational
 003010,Method of sea/water current measurement,7,ADCP bottom tracking mode,,,,,Operational
 003010,Method of sea/water current measurement,8,Electromagnetic sensor,,,,,Operational
 003010,Method of sea/water current measurement,9,Rotor and vane,,,,,Operational
@@ -1557,7 +1565,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 003019,Type of construction,15,Missing value,,,,,Operational
 003020,Material for thermometer/hygrometer housing,0,Wood,,,,,Operational
 003020,Material for thermometer/hygrometer housing,1,Metal alloy,,,,,Operational
-003020,Material for thermometer/hygrometer housing,2,Plastic/GRP,,,*,113,Operational
+003020,Material for thermometer/hygrometer housing,2,Plastic/GRP,,,,,Operational
 003020,Material for thermometer/hygrometer housing,3,Reed/grass/leaf,,,,,Operational
 003020,Material for thermometer/hygrometer housing,4-6,Reserved for future use,,,,,Operational
 003020,Material for thermometer/hygrometer housing,7,Missing value,,,,,Operational
@@ -1612,8 +1620,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 004080,Averaging period for following value,15,Missing value,,,,,Operational
 005069,Receiver channel,0,Mie,,,,,Operational
 005069,Receiver channel,1,Rayleigh,,,,,Operational
-005069,Receiver channel,2,Reserved,,,,,Operational
-005069,Receiver channel,3,Missing value,,,,,Operational
+005069,Receiver channel,2,Cross polar,,,,,Operational
+005069,Receiver channel,3,Reserved,,,,,Operational
+005069,Receiver channel,4,Missing value,,,,,Operational
 008001,Vertical sounding significance,1,Surface,,,,,Operational
 008001,Vertical sounding significance,2,Standard level,,,,,Operational
 008001,Vertical sounding significance,3,Tropopause level,,,,,Operational
@@ -1862,7 +1871,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008024,Difference statistics,11,Observed minus climatology (anomaly),,,,,Operational
 008024,Difference statistics,12,Observed minus analysed value,,,,,Operational
 008024,Difference statistics,13,Observed minus initialized analysed value,,,,,Operational
-008024,Difference statistics,14,Observed minus forecast value,,,**,93,Operational
+008024,Difference statistics,14,Observed minus forecast value,,,(see Note 2),93,Operational
 008024,Difference statistics,15-20,Reserved,,,,,Operational
 008024,Difference statistics,21,Observed minus interpolated value,,,,,Operational
 008024,Difference statistics,22,Observed minus hydrostatically calculated value,,,,,Operational
@@ -2042,7 +2051,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008042,Extended vertical sounding significance,13,End of missing wind data,,,,,Operational
 008042,Extended vertical sounding significance,14,Top of wind sounding,,,,,Operational
 008042,Extended vertical sounding significance,15,Level determined by regional decision,,,,,Operational
-008042,Extended vertical sounding significance,16,Freezing level,,,,41,Operational
+008042,Extended vertical sounding significance,16,Freezing level,,,(see Note),41,Operational
 008042,Extended vertical sounding significance,17,Pressure level originally indicated by height as the vertical coordinate,,,,,Operational
 008042,Extended vertical sounding significance,All 18,Missing value,,,,,Operational
 008043,Atmospheric chemical or physical constituent type,0,Ozone,O3,10028-15-6,,,Operational
@@ -2214,7 +2223,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008081,Type of equipment,4-62,Reserved,,,,,Operational
 008081,Type of equipment,63,Missing value,,,,,Operational
 008082,Modification of sensor height to another value,0,Sensor height is not modified,,,,,Operational
-008082,Modification of sensor height to another value,1,Sensor height is modified to standard level,,,*,48,Operational
+008082,Modification of sensor height to another value,1,Sensor height is modified to standard level,,,(see Note),48,Operational
 008082,Modification of sensor height to another value,2-6,Reserved,,,,,Operational
 008082,Modification of sensor height to another value,7,Missing value,,,,,Operational
 008083,Nominal value indicator,1,Adjusted to or with respect to representative height of sensor above local ground (or deck of marine platform),,,,,Operational
@@ -2501,7 +2510,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 013040,Surface flag,4,Possible ice,,,,,Operational
 013040,Surface flag,5,Ocean,,,,,Operational
 013040,Surface flag,6,Coast,,,,,Operational
-013040,Surface flag,7,Inland water,,,*,56,Operational
+013040,Surface flag,7,Inland water,,,(see Note),56,Operational
 013040,Surface flag,8,Snow cover,,,,,Operational
 013040,Surface flag,9,Sea ice,,,,,Operational
 013040,Surface flag,10,Standing water,,,,,Operational
@@ -2709,7 +2718,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 019119,Type of the final T-number,4-6,Reserved,,,,,Operational
 019119,Type of the final T-number,7,Missing value,,,,,Operational
 020003,Present weather,,00-49     No precipitation at the station at the time of observation,,,,,Operational
-020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour",,,*,77,Operational
+020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour",,,(see Note 4),77,Operational
 020003,Present weather,,00-03     No meteors except photometeors,,,,,Operational
 020003,Present weather,00,Cloud development not observed or not observable,Characteristic change of the state of sky during the past hour,,,,Operational
 020003,Present weather,01,Clouds generally dissolving or becoming less developed,Characteristic change of the state of sky during the past hour,,,,Operational
@@ -2731,7 +2740,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,16,"Precipitation within sight, reaching the ground or the surface of the sea, near to, but not at the station",,,,,Operational
 020003,Present weather,17,"Thunderstorm, but no precipitation at the time of observation",,,,,Operational
 020003,Present weather,18,Squalls,at or within sight of the station during the preceding hour or at the time of observation,,,,Operational
-020003,Present weather,19,Funnel cloud(s),at or within sight of the station during the preceding hour or at the time of observation,,**,89,Operational
+020003,Present weather,19,Funnel cloud(s),at or within sight of the station during the preceding hour or at the time of observation,,(see Note 5),89,Operational
 020003,Present weather,,"20-29     Precipitation, fog, ice fog or thunderstorm at the station during the preceding hour but not at the time of observation",,,,,Operational
 020003,Present weather,20,Drizzle (not freezing) or snow grains,not falling as shower(s),,,,Operational
 020003,Present weather,21,Rain (not freezing),not falling as shower(s),,,,Operational
@@ -2740,7 +2749,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,24,Freezing drizzle or freezing rain,not falling as shower(s),,,,Operational
 020003,Present weather,25,Shower(s) of rain,not falling as shower(s),,,,Operational
 020003,Present weather,26,"Shower(s) of snow, or of rain and snow",,,,,Operational
-020003,Present weather,27,"Shower(s) of hail, or of rain and hail",,,*,46,Operational
+020003,Present weather,27,"Shower(s) of hail, or of rain and hail",,,(see Note 6),46,Operational
 020003,Present weather,28,Fog or ice fog,,,,,Operational
 020003,Present weather,29,Thunderstorm (with or without precipitation),,,,,Operational
 020003,Present weather,,"30-39     Duststorm, sandstorm, drifting or blowing snow",,,,,Operational
@@ -2813,13 +2822,13 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,90,"Shower(s) of hail, with or without rain or rain and snow mixed, not associated with thunder",moderate or heavy,,,,Operational
 020003,Present weather,91,Slight rain at time of observation,Thunderstorm during the preceding hour but not at time of observation,,,,Operational
 020003,Present weather,92,Moderate or heavy rain at time of observation,Thunderstorm during the preceding hour but not at time of observation,,,,Operational
-020003,Present weather,93,"Slight snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,*,46,Operational
-020003,Present weather,94,"Moderate or heavy snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,*,46,Operational
-020003,Present weather,95,"Thunderstorm, slight or moderate, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,*,46,Operational
-020003,Present weather,96,"Thunderstorm, slight or moderate, with hail at time of observation",Thunderstorm at time of observation,,*,46,Operational
-020003,Present weather,97,"Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,*,46,Operational
+020003,Present weather,93,"Slight snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,(see Note 6),46,Operational
+020003,Present weather,94,"Moderate or heavy snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,(see Note 6),46,Operational
+020003,Present weather,95,"Thunderstorm, slight or moderate, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,(see Note 6),46,Operational
+020003,Present weather,96,"Thunderstorm, slight or moderate, with hail at time of observation",Thunderstorm at time of observation,,(see Note 6),46,Operational
+020003,Present weather,97,"Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,(see Note 6),46,Operational
 020003,Present weather,98,Thunderstorm combined with duststorm or sandstorm at time of observation,Thunderstorm at time of observation,,,,Operational
-020003,Present weather,99,"Thunderstorm, heavy, with hail at time of observation",Thunderstorm at time of observation,,*,46,Operational
+020003,Present weather,99,"Thunderstorm, heavy, with hail at time of observation",Thunderstorm at time of observation,,(see Note 6),46,Operational
 020003,Present weather,,Present weather reported from an automatic weather station,,,,,Operational
 020003,Present weather,100,No significant weather observed,,,,,Operational
 020003,Present weather,101,Clouds generally dissolving or becoming less developed during the past hour,,,,,Operational
@@ -3100,7 +3109,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020011,Cloud amount,12,Broken,,,,,Operational
 020011,Cloud amount,13,Few,,,,,Operational
 020011,Cloud amount,14,Reserved,,,,,Operational
-020011,Cloud amount,15,"Cloud cover is indiscernible for reasons other than fog or other meteorological phenomena, or observation is not made",,,,40,Operational
+020011,Cloud amount,15,"Cloud cover is indiscernible for reasons other than fog or other meteorological phenomena, or observation is not made",,, (see Note 1),40,Operational
 020012,Cloud type,0,Cirrus (Ci),,,,,Operational
 020012,Cloud type,1,Cirrocumulus (Cc),,,,,Operational
 020012,Cloud type,2,Cirrostratus (Cs),,,,,Operational
@@ -3132,13 +3141,13 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020012,Cloud type,28,Altocumulus castellanus or floccus,,,,,Operational
 020012,Cloud type,29,"Altocumulus of a chaotic sky, generally at several levels",,,,,Operational
 020012,Cloud type,30,No CL clouds,,,,,Operational
-020012,Cloud type,31,"Cumulus humilis or cumulus fractus other than of bad weather, or both",,,*,1,Operational
+020012,Cloud type,31,"Cumulus humilis or cumulus fractus other than of bad weather, or both",,,(see Note),1,Operational
 020012,Cloud type,32,"Cumulus mediocris or congestus, towering cumulus (TCU), with or without cumulus of species fractus or humilis or stratocumulus, all having their bases at the same level",,,,,Operational
 020012,Cloud type,33,"Cumulonimbus calvus, with or without cumulus, stratocumulus or stratus",,,,,Operational
 020012,Cloud type,34,Stratocumulus cumulogenitus,,,,,Operational
 020012,Cloud type,35,Stratocumulus other than stratocumulus cumulogenitus,,,,,Operational
-020012,Cloud type,36,"Stratus nebulosus or stratus fractus other than of bad weather, or both",,,,1,Operational
-020012,Cloud type,37,"Stratus fractus or cumulus fractus of bad weather, or both (pannus), usually below altostratus or nimbostratus",,,,1,Operational
+020012,Cloud type,36,"Stratus nebulosus or stratus fractus other than of bad weather, or both",,,(see Note),1,Operational
+020012,Cloud type,37,"Stratus fractus or cumulus fractus of bad weather, or both (pannus), usually below altostratus or nimbostratus",,,(see Note),1,Operational
 020012,Cloud type,38,"Cumulus and stratocumulus other than stratocumulus cumulogenitus, with bases at different levels",,,,,Operational
 020012,Cloud type,39,"Cumulonimbus capillatus (often with an anvil), with or without cumulonimbus calvus, cumulus, stratocumulus, stratus or pannus",,,,,Operational
 020012,Cloud type,40,CH,,,,,Operational
@@ -3268,8 +3277,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020027,Phenomena occurrence,4,In time period specified,,,,,Operational
 020027,Phenomena occurrence,5,Reserved,,,,,Operational
 020027,Phenomena occurrence,6,Below station level,,,,,Operational
-020027,Phenomena occurrence,7,At the station,,,(see Note 1),51,Operational
-020027,Phenomena occurrence,8,In the vicinity,,,(see Note 2),51,Operational
+020027,Phenomena occurrence,7,At the station,,,(see Note 2),51,Operational
+020027,Phenomena occurrence,8,In the vicinity,,,(see Note 3),96,Operational
 020027,Phenomena occurrence,All 9,Missing value,,,,,Operational
 020028,Expected change in intensity,0,No change (NC),,,,,Operational
 020028,Expected change in intensity,1,Forecast to weaken (WKN),,,,,Operational
@@ -3498,12 +3507,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020063,Special phenomena,68,Not allocated,,,,,Operational
 020063,Special phenomena,69,Variation of temperature unknown owing to lack of thermograph,,,,,Operational
 020063,Special phenomena,,70-79     Variation of visibility during the period specified,,,,,Operational
-020063,Special phenomena,70,Visibility has not varied (sun visible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,71,Visibility has not varied (sun invisible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,72,Visibility has increased (sun visible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,73,Visibility has increased (sun invisible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,74,Visibility has decreased (sun visible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,75,Visibility has decreased (sun invisible) towards direction specified,,,*,61,Operational
+020063,Special phenomena,70,Visibility has not varied (sun visible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,71,Visibility has not varied (sun invisible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,72,Visibility has increased (sun visible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,73,Visibility has increased (sun invisible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,74,Visibility has decreased (sun visible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,75,Visibility has decreased (sun invisible) towards direction specified,,,(see Note),61,Operational
 020063,Special phenomena,76,Fog coming from direction specified,,,,,Operational
 020063,Special phenomena,77,"Fog has lifted, without dissipating",,,,,Operational
 020063,Special phenomena,78,Fog has dispersed without regard to direction,,,,,Operational
@@ -4175,15 +4184,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025021,Wind computation enhancement,5,Other,,,,,Operational
 025021,Wind computation enhancement,6-7,Reserved,,,,,Operational
 025021,Wind computation enhancement,All 8,Missing value,,,,,Operational
-025022,GHRSST rejection flag,1,Unprocessed,,,*,116,Operational
-025022,GHRSST rejection flag,2,Land suspected,,,*,116,Operational
-025022,GHRSST rejection flag,3,Wind speed too large,,,*,116,Operational
-025022,GHRSST rejection flag,4,Ice detected,,,*,116,Operational
-025022,GHRSST rejection flag,5,Rain detected (Microwave retrievals only),,,*,116,Operational
-025022,GHRSST rejection flag,6,Cloudy detected (Infra-red retrievals only),,,*,116,Operational
-025022,GHRSST rejection flag,7,Cosmetic value,,,*,116,Operational
-025022,GHRSST rejection flag,8,SST out of range,,,*,116,Operational
-025022,GHRSST rejection flag,All 9,Missing value,,,*,116,Operational
+025022,GHRSST rejection flag,1,Unprocessed,,,,,Operational
+025022,GHRSST rejection flag,2,Land suspected,,,,,Operational
+025022,GHRSST rejection flag,3,Wind speed too large,,,,,Operational
+025022,GHRSST rejection flag,4,Ice detected,,,,,Operational
+025022,GHRSST rejection flag,5,Rain detected (Microwave retrievals only),,,,,Operational
+025022,GHRSST rejection flag,6,Cloudy detected (Infra-red retrievals only),,,,,Operational
+025022,GHRSST rejection flag,7,Cosmetic value,,,,,Operational
+025022,GHRSST rejection flag,8,SST out of range,,,,,Operational
+025022,GHRSST rejection flag,All 9,Missing value,,,,,Operational
 025023,GHRSST confidence flag,1,Default confidence value has been used,,,,,Operational
 025023,GHRSST confidence flag,2,Default bias and standard deviation have been used,,,,,Operational
 025023,GHRSST confidence flag,3,Sun glint suspected,,,,,Operational
@@ -4262,11 +4271,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025040,CO2 wind product derivation,9-14,Reserved,,,,,Operational
 025040,CO2 wind product derivation,15,Missing value,,,,,Operational
 025041,Moving platform direction reporting method,0,Direction originally reported in true degrees,,,,,Operational
-025041,Moving platform direction reporting method,1,"Direction originally reported using Code table 0700, FM 13",,,,94,Operational
+025041,Moving platform direction reporting method,1,"Direction originally reported using Code table 0700, FM 13",,,,,Operational
 025041,Moving platform direction reporting method,2,Reserved,,,,,Operational
 025041,Moving platform direction reporting method,3,Missing value,,,,,Operational
 025042,Moving platform speed reporting method,0,Speed originally reported in metres per second,,,,,Operational
-025042,Moving platform speed reporting method,1,"Speed originally reported using Code table 4451, FM 13",,,,95,Operational
+025042,Moving platform speed reporting method,1,"Speed originally reported using Code table 4451, FM 13",,,,,Operational
 025042,Moving platform speed reporting method,2,Reserved,,,,,Operational
 025042,Moving platform speed reporting method,3,Missing value,,,,,Operational
 025045,HIRS channel combination,1-20,"Beginning with first bit position (high order bit), if bit position is set to 1, then channel is present, if bit position is set to 0, then channel is not present",,,,,Operational
@@ -4315,7 +4324,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025090,Orbit state flag,6,(Preliminary/precise) orbit is extrapolated for a duration less than 1 day,,,,,Operational
 025090,Orbit state flag,7,(Preliminary/precise) orbit is extrapolated for a duration that ranges from 1 day to 2 days,,,,,Operational
 025090,Orbit state flag,8,"(Preliminary/precise) orbit is extrapolated for a duration larger than 2 days, or that the orbit is extrapolated just after a manoeuvre",,,,,Operational
-025090,Orbit state flag,9,DORIS DIODE navigator orbit,,,"*,**","9,37",Operational
+025090,Orbit state flag,9,DORIS DIODE navigator orbit,,,(see Note),37,Operational
 025090,Orbit state flag,10-14,Reserved,,,,,Operational
 025090,Orbit state flag,15,Missing value,,,,,Operational
 025093,RASS computation correction,1,No correction,,,,,Operational
@@ -4344,8 +4353,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025097,Three-dimensional error estimate of the navigator orbit,15,Missing value,,,,,Operational
 025098,Altimeter data quality flag,1,Ku band range,,,,,Operational
 025098,Altimeter data quality flag,2,C band range,,,,,Operational
-025098,Altimeter data quality flag,3,Ku band SWH,,,*,96,Operational
-025098,Altimeter data quality flag,4,C band SWH,,,*,96,Operational
+025098,Altimeter data quality flag,3,Ku band SWH,,,,,Operational
+025098,Altimeter data quality flag,4,C band SWH,,,,,Operational
 025098,Altimeter data quality flag,5,Ku band backscatter coefficient,,,,,Operational
 025098,Altimeter data quality flag,6,C band backscatter coefficient,,,,,Operational
 025098,Altimeter data quality flag,7,Off nadir angle from Ku band waveform parameters,,,,,Operational
@@ -4353,8 +4362,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025098,Altimeter data quality flag,All 9,Missing value,,,,,Operational
 025099,Altimeter correction quality flag,1,Ku band range instrumental correction,,,,,Operational
 025099,Altimeter correction quality flag,2,C band range instrumental correction,,,,,Operational
-025099,Altimeter correction quality flag,3,Ku band SWH instrumental correction,,,*,96,Operational
-025099,Altimeter correction quality flag,4,C band SWH instrumental correction,,,*,96,Operational
+025099,Altimeter correction quality flag,3,Ku band SWH instrumental correction,,,,,Operational
+025099,Altimeter correction quality flag,4,C band SWH instrumental correction,,,,,Operational
 025099,Altimeter correction quality flag,5,Ku band backscatter coefficient instrumental correction,,,,,Operational
 025099,Altimeter correction quality flag,6,C band backscatter coefficient instrumental correction,,,,,Operational
 025099,Altimeter correction quality flag,7-8,Reserved,,,,,Operational
@@ -4379,7 +4388,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025113,Band specific altimeter correction quality flag,3,Band specific backscatter coefficient instrumental correction,,,,,Operational
 025113,Band specific altimeter correction quality flag,4-8,Reserved,,,,,Operational
 025113,Band specific altimeter correction quality flag,All 9,Missing value,,,,,Operational
-t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold,,,*,98,Operational
+025120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold,,,,,Operational
 025120,RA2-L2-processing flag,1,Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold,,,,,Operational
 025120,RA2-L2-processing flag,2,Reserved,,,,,Operational
 025120,RA2-L2-processing flag,3,Missing value,,,,,Operational
@@ -4391,10 +4400,14 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 025123,Hardware configuration for HPA,1,Hardware configuration for HPA is B,,,,,Operational
 025123,Hardware configuration for HPA,2,Reserved,,,,,Operational
 025123,Hardware configuration for HPA,3,Missing value,,,,,Operational
-025124,MWR-L2-processing flag,0,Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold,,,**,98,Operational
-025124,MWR-L2-processing flag,1,Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold,,,**,98,Operational
+025124,MWR-L2-processing flag,0,Percentage of DSRs free of processing errors during Level 2 processing is greater than the acceptable threshold,,,,,Operational
+025124,MWR-L2-processing flag,1,Percentage of DSRs free of processing errors during Level 2 processing is less than the acceptable threshold,,,,,Operational
 025124,MWR-L2-processing flag,2,Reserved,,,,,Operational
 025124,MWR-L2-processing flag,3,Missing value,,,,,Operational
+025139,Processing level,0,L1B,,,,,Operational
+025139,Processing level,1,L2A,,,,,Operational
+025139,Processing level,2-30,Reserved,,,,,Operational
+025139,Processing level,31,Missing value,,,,,Operational
 025150,Method of tropical cyclone intensity analysis using satellite data,1,The Dvorak's VIS (VISual imagery) intensity analysis,,,,,Operational
 025150,Method of tropical cyclone intensity analysis using satellite data,2,The Dvorak's EIR (Enhanced InfraRed imagery) intensity analysis,,,,,Operational
 025150,Method of tropical cyclone intensity analysis using satellite data,3-14,Reserved,,,,,Operational
@@ -4429,7 +4442,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 025187,Confidence flag,1,Invalid,,,,,Operational
 025187,Confidence flag,2-14,Reserved,,,,,Operational
 025187,Confidence flag,15,Missing value,,,,,Operational
-025188,Method for reducing pressure to sea level,0,Pressure adjusted to mean sea level following WMO-No. 8 for low level (< 50 m) stations,,,*,44,Operational
+025188,Method for reducing pressure to sea level,0,Pressure adjusted to mean sea level following WMO-No. 8 for low level (< 50 m) stations,,,(see Note),44,Operational
 025188,Method for reducing pressure to sea level,1,Pressure adjusted to mean sea level following WMO-No. 8 for stations below 750 m,,,,,Operational
 025188,Method for reducing pressure to sea level,2,Pressure adjusted to sea level following national practice,,,,,Operational
 025188,Method for reducing pressure to sea level,3,Pressure adjusted to local water level following national practice,,,,,Operational
@@ -4479,7 +4492,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 029001,Projection type,1,Polar stereographic projection,,,,,Operational
 029001,Projection type,2,Lambert's conformal conic projection,,,,,Operational
 029001,Projection type,3,Mercator's projection,,,,,Operational
-029001,Projection type,4,Scanning Cone (radar),,,*,65,Operational
+029001,Projection type,4,Scanning Cone (radar),,,(see Note),65,Operational
 029001,Projection type,5,Reserved,,,,,Operational
 029001,Projection type,6,No projection,,,,,Operational
 029001,Projection type,7,Missing value,,,,,Operational
@@ -4526,7 +4539,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 031021,Associated field significance,21,1-bit indicator of correction,"0 = original value, 1 = substituted/corrected value",,(see Note 2),74,Operational
 031021,Associated field significance,22-62,Reserved for local use,,,,,Operational
 031021,Associated field significance,63,Missing value,,,,,Operational
-031031,Data present indicator,1,,"0 = Data present, 1 = Data not present",,,,Operational
+031031,Data present indicator,1,"0 = Data present, 1 = Data not present",,,,,Operational
 033002,Quality information,0,Data not suspect,,,,,Operational
 033002,Quality information,1,Data suspect,,,,,Operational
 033002,Quality information,2,Reserved,,,,,Operational
@@ -4695,7 +4708,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 033032,Channel quality flags for ATOVS,8-23,Reserved (bits set to zero),,,,,Operational
 033032,Channel quality flags for ATOVS,All 24,Missing value,,,,,Operational
 033033,Field of view quality flags for ATOVS,1,Set if secondary calibration used,,,,,Operational
-033033,Field of view quality flags for ATOVS,2-21,Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems,,,,26,Operational
+033033,Field of view quality flags for ATOVS,2-21,Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems,,,(see Note 2),26,Operational
 033033,Field of view quality flags for ATOVS,22,Set if all the channels are missing,,,,,Operational
 033033,Field of view quality flags for ATOVS,23,Suspect,,,,,Operational
 033033,Field of view quality flags for ATOVS,All 24,Missing value,,,,,Operational
@@ -4934,16 +4947,16 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 033076,Calibration quality flags,2,Lunar intrusion on second deep space view,,,(see Note),71,Operational
 033076,Calibration quality flags,3-8,Reserved,,,,,Operational
 033076,Calibration quality flags,All 9,Missing value,,,,,Operational
-033077,Field-of-view quality flags,1,Degraded SDR quality,,,*,97,Operational
-033077,Field-of-view quality flags,2,Invalid SDR quality,,,"(see Note 1),*","68,97",Operational
-033077,Field-of-view quality flags,3,Invalid SDR geolocation information,,,*,97,Operational
+033077,Field-of-view quality flags,1,Degraded SDR quality,,,,,Operational
+033077,Field-of-view quality flags,2,Invalid SDR quality,,,(see Note 1),68,Operational
+033077,Field-of-view quality flags,3,Invalid SDR geolocation information,,,,,Operational
 033077,Field-of-view quality flags,4,Degraded radiometric calibration,,,,,Operational
 033077,Field-of-view quality flags,5,Invalid radiometric calibration,,,(see Note 2),67,Operational
 033077,Field-of-view quality flags,6,Degraded spectral calibration,,,,,Operational
 033077,Field-of-view quality flags,7,Invalid spectral calibration,,,(see Note 3),73,Operational
 033077,Field-of-view quality flags,8,Fringe count error detected and corrected,,,(see Note 4),70,Operational
 033077,Field-of-view quality flags,9,Day/night indicator,,,(see Note 5),69,Operational
-033077,Field-of-view quality flags,10,Invalid RDR data,,,"(see Note 6),**","87,103",Operational
+033077,Field-of-view quality flags,10,Invalid RDR data,,,(see Note 6),87,Operational
 033077,Field-of-view quality flags,11,Significant fringe count error detected,,,(see Note 7),86,Operational
 033077,Field-of-view quality flags,12,Bit trim failed,,,,,Operational
 033077,Field-of-view quality flags,13-18,Reserved,,,,,Operational
@@ -4967,7 +4980,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 033079,Granule level quality flags,15,Quadratic correction applied to the radiometric transfer function for non-linearity correction,,,,,Operational
 033079,Granule level quality flags,All 16,Missing value,,,,,Operational
 033080,Scan level quality flags,1-6,Reserved,,,,,Operational
-033080,Scan level quality flags,7,Divide-by-zero condition or computation loop failed to converge in the K/Ka and V (KAV) band PRT,,,*,104,Operational
+033080,Scan level quality flags,7,Divide-by-zero condition or computation loop failed to converge in the K/Ka and V (KAV) band PRT,,,,,Operational
 033080,Scan level quality flags,8,Divide-by-zero condition or computation loop failed to converge in the WG band PRT,,,,,Operational
 033080,Scan level quality flags,9,"Divide-by-zero condition or computation loop failed to converge in the K/Ka, V, W, G band receiver shelf PRT K temperature computation",,,,,Operational
 033080,Scan level quality flags,10,Out of range condition for the K/Ka and V band PRT,,,,,Operational
@@ -5006,7 +5019,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 033082,Geolocation quality flags,All 16,Missing value,,,,,Operational
 033083,Radiance data quality flags,1-5,Reserved,,,,,Operational
 033083,Radiance data quality flags,6,Pixel is affected by radio-frequency interference,,,,,Operational
-033083,Radiance data quality flags,7,"Poor calibration quality due to bad space view offsets, OBC view offsets, etc. or use of a previous calibration view",,,*,105,Operational
+033083,Radiance data quality flags,7,"Poor calibration quality due to bad space view offsets, OBC view offsets, etc. or use of a previous calibration view",,,,,Operational
 033083,Radiance data quality flags,8,Saturated pixel,,,,,Operational
 033083,Radiance data quality flags,9,Missing data -data required for calibration processing are not available for processing,,,,,Operational
 033083,Radiance data quality flags,10,Calibrated pixel radiance out of range,,,,,Operational
@@ -5030,7 +5043,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 033084,Pixel level quality flags,All 16,Missing value,,,,,Operational
 033085,Aerosol optical thickness quality flags,1-3,Reserved,,,,,Operational
 033085,Aerosol optical thickness quality flags,4,Angstrom exponent is outside of the system specification range,,,,,Operational
-033085,Aerosol optical thickness quality flags,5,"Excluded, Angstrom exponent for AOT at 550 nm < 0.15",,,*,121,Operational
+033085,Aerosol optical thickness quality flags,5,"Excluded, Angstrom exponent for AOT at 550 nm < 0.15",,,,,Operational
 033085,Aerosol optical thickness quality flags,6,"Bright surface in cell (if over land), or shallow or turbid water in cell (if over ocean)",,,,,Operational
 033085,Aerosol optical thickness quality flags,7,"Low sun, excluded, Solar Zenith Angle > 80 degrees",,,,,Operational
 033085,Aerosol optical thickness quality flags,8,"Low sun, degraded, 65 degrees < Solar Zenith Angle =< 80 degrees",,,,,Operational
@@ -5038,7 +5051,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 033085,Aerosol optical thickness quality flags,10,Snow/Ice in cell,,,,,Operational
 033085,Aerosol optical thickness quality flags,11,Cloud shadow in cell,,,,,Operational
 033085,Aerosol optical thickness quality flags,12,Sun glint in cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,13,Bad SDR data present in horizontal cell (quality of AOT/APSP degraded or AOT/APSP not retrieved due to bad SDR data in horizontal cell),,,"**,***","97,120",Operational
+033085,Aerosol optical thickness quality flags,13,Bad SDR data present in horizontal cell (quality of AOT/APSP degraded or AOT/APSP not retrieved due to bad SDR data in horizontal cell),,,,,Operational
 033085,Aerosol optical thickness quality flags,14,Cirrus contamination in cell,,,,,Operational
 033085,Aerosol optical thickness quality flags,15,Cloud adjacent to cell,,,,,Operational
 033085,Aerosol optical thickness quality flags,16,Cloud contamination in cell,,,,,Operational
@@ -5065,7 +5078,7 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 033088,Ozone total column quality flag,6,Surface reflectivity out of range,,,,,Operational
 033088,Ozone total column quality flag,7,Residual too large,,,,,Operational
 033088,Ozone total column quality flag,8,Aerosol index limit exceeded,,,,,Operational
-033088,Ozone total column quality flag,9,"Solar eclipse present (all or part of the IFOV is affected by a solar eclipse, umbra or penumbra viewing)",,,*,109,Operational
+033088,Ozone total column quality flag,9,"Solar eclipse present (all or part of the IFOV is affected by a solar eclipse, umbra or penumbra viewing)",,,,,Operational
 033088,Ozone total column quality flag,10,Sun glint present within IFOV,,,,,Operational
 033088,Ozone total column quality flag,11,Snow or ice surface is within the IFOV,,,,,Operational
 033088,Ozone total column quality flag,12,Solar zenith angle in excluded (night) condition (solar zenith angle >= 88 degrees),,,,,Operational
@@ -5231,9 +5244,9 @@ t25120,RA2-L2-processing flag,0,Percentage of DSRs free of processing errors dur
 040012,Radiometer data quality flag,3,34 GHz brightness temperature,,,,,Operational
 040012,Radiometer data quality flag,4-7,Reserved,,,,,Operational
 040012,Radiometer data quality flag,All 8,Missing value,,,,,Operational
-040013,Radiometer brightness temperature interpretation flag,0,Interpolation with no gap between JMR data,,,*,107,Operational
-040013,Radiometer brightness temperature interpretation flag,1,Interpolation with gaps between JMR data,,,*,107,Operational
-040013,Radiometer brightness temperature interpretation flag,2,Extrapolation of JMR data,,,*,107,Operational
+040013,Radiometer brightness temperature interpretation flag,0,Interpolation with no gap between JMR data,,,,,Operational
+040013,Radiometer brightness temperature interpretation flag,1,Interpolation with gaps between JMR data,,,,,Operational
+040013,Radiometer brightness temperature interpretation flag,2,Extrapolation of JMR data,,,,,Operational
 040013,Radiometer brightness temperature interpretation flag,3,Failure of extrapolation and interpolation,,,,,Operational
 040013,Radiometer brightness temperature interpretation flag,4-6,Reserved,,,,,Operational
 040013,Radiometer brightness temperature interpretation flag,7,Missing value,,,,,Operational

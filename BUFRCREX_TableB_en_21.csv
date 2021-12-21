@@ -5,6 +5,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 21,Radar data,021004,Differential reflectivity,,,dB,2,-800,11,dB,2,4,Operational
 21,Radar data,021005,Linear depolarization ratio,,,dB,0,-65,6,dB,0,2,Operational
 21,Radar data,021006,Circular depolarization ratio,,,dB,0,-65,6,dB,0,2,Operational
+21,Radar data,021007,Radar reflectivity factor,,,dB,2,-9000,15,dB,0,0,Operational
+21,Radar data,021008,Uncertainty in radar reflectivity factor,,,dB,2,0,13,dB,0,0,Operational
+21,Radar data,021009,Vertical Doppler velocity,,,m/s,2,-10000,15,m/s,0,0,Operational
+21,Radar data,021010,Uncertainty in vertical Doppler velocity,,,m/s,2,-10000,15,m/s,0,0,Operational
 21,Radar data,021011,Doppler mean velocity in x-direction,,,m/s,0,-128,8,m/s,0,3,Operational
 21,Radar data,021012,Doppler mean velocity in y-direction,,,m/s,0,-128,8,m/s,0,3,Operational
 21,Radar data,021013,Doppler mean velocity in z-direction,,,m/s,0,-128,8,m/s,0,3,Operational
