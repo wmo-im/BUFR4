@@ -16,7 +16,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002017,Correction algorithms for humidity measurements,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002019,Satellite instruments,,,Code table,0,0,11,Code table,0,4,Operational
 02,Instrumentation,002020,Satellite classification,,,Code table,0,0,9,Code table,0,3,Operational
-02,Instrumentation,002021,Satellite instrument data used in processing,*,47,Flag table,0,0,9,Flag table,0,3,Operational
+02,Instrumentation,002021,Satellite instrument data used in processing,(see Note 8),47,Flag table,0,0,9,Flag table,0,3,Operational
 02,Instrumentation,002022,Satellite data-processing technique used,,,Flag table,0,0,8,Flag table,0,3,Operational
 02,Instrumentation,002023,Satellite-derived wind computation method,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002024,Integrated mean humidity computational method,,,Code table,0,0,4,Code table,0,2,Operational
@@ -81,7 +81,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002096,Type of temperature sensor,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002097,Type of humidity sensor,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002099,Polarization,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002100,Radar constant,*,157,dB,1,0,12,dB,1,4,Operational
+02,Instrumentation,002100,Radar constant,(see Note 9),157,dB,1,0,12,dB,1,4,Operational
 02,Instrumentation,002101,Type of antenna,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002102,Antenna height above tower base,,,m,0,0,8,m,0,3,Operational
 02,Instrumentation,002103,Radome,,,Flag table,0,0,2,Flag table,0,1,Operational

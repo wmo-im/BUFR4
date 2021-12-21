@@ -1,6 +1,6 @@
 noteID,note
 1,"0 15 003 is the partial pressure of ozone, measured at the pressure level identified by 0 07 004."
-2,"0 15 004 (CF) is defined as:CF = TOI/TOS where TOI is the integrated ozone value obtained ""simultaneously to a sounding"" from a Dobson or Brewer spectrophotometer at the site or ""nearby""and TOS is the total ozone obtained from the sounding. TOS is the sum of the integrated ozone below the lowest pressure level reached by the sounding and the estimate of the amount above. In the absence of any spectrophotometer measurement, CF = Missing value."
+2,"0 15 004 (CF) is defined as: CF = TOI/TOS where TOI is the integrated ozone value obtained ""simultaneously to a sounding"" from a Dobson or Brewer spectrophotometer at the site or ""nearby""and TOS is the total ozone obtained from the sounding. TOS is the sum of the integrated ozone below the lowest pressure level reached by the sounding and the estimate of the amount above. In the absence of any spectrophotometer measurement, CF = Missing value."
 3,"0 15 005 is the value obtained as the result of the vertical integration of the sounding values (0 15 003) measured below the lowest pressure level reached by the sonde, multiplied by 0 15 004."
 4,"0 15 038 is the delay of an electromagnetic wave in the neutral atmosphere as compared to undisturbed propagation in vacuum. The delay due to ionized gases in the ionosphere is not covered, hence ""neutral atmosphere"". The delay in meters is the time delay multiplied by the vacuum speed of light."
 5,"0 15 079 is the hypothetical path delay with the transmitter, e.g. GNSS satellite, in the zenith of the receiver."
@@ -49,7 +49,7 @@ noteID,note
 48,Descriptor 0 04 041 has been replaced by the combination of 0 08 025 and 0 26 003 and should not be used for encoding this element.
 49,Descriptor 0 08 025 is to be used with 0 26 003 (time difference).
 50,Descriptor 0 08 033 is to be used by preceding the element 0 33 007 as part of quality control information in order to specify the method used to calculate the percentage confidence.
-51,"Descriptor 0 08 090 is to be used to establish the decimal scale of one or more subsequent numerical element descriptors requiring a large dynamic range of values.The numerical element descriptor(s) will contain the scaled value of the measurement(s) with the required number of significant digits. The actual value will be obtained, at the application level, by multiplying the scaled value by the given decimal scale: (scaled value x 10 decimal scale)."
+51,"Descriptor 0 08 090 is to be used to establish the decimal scale of one or more subsequent numerical element descriptors requiring a large dynamic range of values. The numerical element descriptor(s) will contain the scaled value of the measurement(s) with the required number of significant digits. The actual value will be obtained, at the application level, by multiplying the scaled value by the given decimal scale: (scaled value x 10 decimal scale)."
 52,Descriptor 0 12 076 should be used instead of descriptor 0 12 072 to encode radiance.
 53,Descriptor 0 13 033 should be used instead of descriptor 0 13 032 to encode evaporation/evapotranspiration.
 54,Descriptor 0 22 004: the direction given in this entry is the direction towards which current is flowing.
@@ -92,7 +92,6 @@ noteID,note
 94,"Left handed x, y and z axes have been chosen for descriptor 0 28 031."
 95,"Left handed x, y and z axes have been chosen for descriptors 0 01 041, 0 01 042 and 0 01 043."
 96,"Left-handed x, y and z axes have been chosen for descriptor 0 27 031."
-97,LRM = Low resolution mode
 98,"Master tables are described in Note 2 to Section 1 of the BUFR regulations (part of the regulation entitled ""Specifications of octet contents"")."
 99,Maximum wind and effective radius of maximum wind shall be indicated by means of the 0 19 003 and 0 19 004 entries.
 100,"Mean wave direction is the angle alpha 1 and principal wave direction is the angle alpha 2, in the expression S(f, alpha) approximately equals:c11 × (0.5 + r1 × cos (alpha - alpha 1) + r2 × cos (2 (alpha - alpha 2))) / piin which S(f, alpha) is the wave directional spectrum and c11 is the non-directional spectrum, and the right hand side of this expression is the first two terms of the Fourier series expansion of S(f, alpha). If the mean and principal directions differ significantly (e.g. more than 15 degrees) for a given frequency, crossing seas are indicated."
@@ -100,13 +99,9 @@ noteID,note
 103,Modified residual calculated from the loci of the sensors and signal to noise ratios for the flash.
 104,"Must be preceded by 0 08 090, possibly with intervening operators. The value is 10x multiplied by the encoded value, where x is the value associated with the preceding 0 08 090 descriptor. The encoded value is the actual value multiplied by 10-x."
 105,Negative time periods or displacements shall be used to indicate time periods or displacements preceding the currently defined time.
-106,NOF = Normalized objective function
-107,nominal input range 0 - 10000
-108,"nominal input range 0 - 2 x 106, but may be greater because of uncertainty"
-109,nominal input range 0 - 359
+107,"Additional information: 0 22 097 nominal input range 0 - 10000; 0 22 098 nominal input range 0 - 10000; 0 22 099 nominal input range 0 - 359; 0 22 100 nominal input range 0 - 359; 0 22 101 nominal input range 0 - 2 x 106, but may be greater because of uncertainty."
 110,North to south increments shall be assigned negative values.
 111,Note that descriptor 0 02 140 is the azimuth angle measured anticlockwise from satellite heading vector.
-112,OCOG = Offset centre of gravity
 113,Other applications of the data present indicator may be developed.
 114,Piece-Wise Linear Regression-cube and is a first-guess optimal estimation method.
 115,Pixel data width can be changed with descriptor 2 01 YYY.
@@ -128,7 +123,7 @@ noteID,note
 131,The actual meaning of this quantity may be obtained from the originator of the data.
 132,The alternate latitude may be used when the computation of the position yields multiple solutions and there is no a priori way to distinguish between them.
 133,The alternate longitude may be used when the computation of the position yields multiple solutions and there is no a priori way to distinguish between them.
-134,"The components of absolute platform velocity (0 01 041, 0 01 042, 0 01 043) are defined as follows:- First component: From the Earth’s centre to 0 degree longitude at the Equator: velocity of the platform along this line relative to the Earth’s centre.- Second component: From the Earth’s centre to 90 degrees East longitude at the Equator: velocity of the platform along this line relative to the Earth’scentre.- Third component: From the Earth’s centre to the north pole: velocity of the platform along this line relative to the Earth’s centre."
+134,"The components of absolute platform velocity (0 01 041, 0 01 042, 0 01 043) are defined as follows:- First component: From the Earth's centre to 0 degree longitude at the Equator: velocity of the platform along this line relative to the Earth's centre.- Second component: From the Earth's centre to 90 degrees East longitude at the Equator: velocity of the platform along this line relative to the Earth's centre.- Third component: From the Earth's centre to the north pole: velocity of the platform along this line relative to the Earth's centre."
 135,"The data width for descriptor 0 20 038 originally defined to be 12 is wrong. 9 bits are sufficient as for all the other ""degree true"" quantities. However, the 12-bit width is maintained for historical consistency. Also: A bearing of ice edge value 0 shall indicate ""Ship in shore or flaw lead""."
 136,The direction given in this entry is the direction which waves are coming from.
 137,The dominant wave is the one that has the maximum energy in the energy spectrum.
@@ -148,10 +143,10 @@ noteID,note
 151,The value for descriptor 0 27 031 has been chosen to be suitable for polar orbiting satellites in approximately Sun-synchronous orbits. Geostationary orbits would require greater data widths for distance and slightly less for speed.
 152,The value for descriptor 0 28 031 has been chosen to be suitable for polar orbiting satellites in approximately Sun-synchronous orbits. Geostationary orbits would require greater data widths for distance and slightly less for speed.
 153,"The value of this feature could be a string of characters, which contain the name of the model and other useful elements such as the model mesh."
-154,"The values for descriptors 0 01 041, 0 01 042 and 0 01 043 have been chosen to be suitable for polar orbiting satellites in approximately Sun-synchronous orbits.Geostationary orbits would require greater data widths for distance and slightly less for speed."
+154,"The values for descriptors 0 01 041, 0 01 042 and 0 01 043 have been chosen to be suitable for polar orbiting satellites in approximately Sun-synchronous orbits. Geostationary orbits would require greater data widths for distance and slightly less for speed."
 155,This class may also contain elements relating to observational procedures.
 156,This class shall contain elements to describe the instrumentation used to obtain the meteorological elements reported.
-157,This constant is defined as follows: Z = P + radar constant where Z = the reflectivity of target in beam direction (dBZ);P = the input receiver power above 1 mW (dBm).This constant is used to normalize the signal to the equivalent 100 km range.
+157,This constant is defined as follows: Z = P + radar constant where Z = the reflectivity of target in beam direction (dBZ); P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range.
 158,"Time periods or displacements and time increments require an initial time location to be defined prior to their use, followed where appropriate by a time significance definition."
 159,"True direction of a phenomenon or clouds (0 20 054) shall be used to indicate true direction from which a phenomenon or clouds are moving or in which they are observed. 0 20 054 value 0 shall indicate ""stationary or no clouds"" or ""observed at the station"", whereas value 500 shall indicate ""observed in all directions"" and value 501 shall indicate ""unknown or clouds invisible""."
 160,Upward radiation shall be assigned negative values.
@@ -163,7 +158,7 @@ noteID,note
 166,West longitude shall be assigned negative values.
 167,West to east u-components shall be assigned positive values.
 168,"When defining an event for use with descriptor 0 33 045 or 0 33 046, descriptor 0 33 042 may be employed in order to indicate that the following value is actually abound for a range of values."
-169,"When descriptor 0 08 043 is used to specify particulate matter (PM) under a given size threshold, descriptor 0 08 045 may also be used to further specify a subset of the PM population on the basis of ion composition."
+169,"When descriptor 0 08 043 is used to specify particulate matter (PM) under a given size threshold, descriptor 0 08 044 or 0 08 046 may also be used to further specify a subset of the PM population on the basis of ion composition."
 170,"When encoding height of cloud base between 20 050 and 21 000 m, 0 20 013 shall be set to 20 050; when encoding height of cloud base above 21 000 m, 0 20 013 shall be set to 20 060."
 171,"When encoding past weather reported from an automatic weather station, the appropriate combination of descriptors 0 20 021, 0 20 022, 0 20 023, 0 20 024, 0 20 025,0 20 026 and 0 20 027 should be used and preferred. Descriptors 0 20 004 or 0 20 005 should be used only when descriptors mentioned above are not applicable."
 172,"When encoding present weather reported from an automatic weather station, the appropriate combination of descriptors 0 20 021, 0 20 022, 0 20 023, 0 20 024,0 20 025, 0 20 026 and 0 20 027 should be used and preferred. Descriptor 0 20 003 should be used only when descriptors mentioned above are not applicable."

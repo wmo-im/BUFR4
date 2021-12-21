@@ -1,6 +1,6 @@
 FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
 020003,Present weather,,00-49     No precipitation at the station at the time of observation,,,,,Operational
-020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour",,,*,77,Operational
+020003,Present weather,,"00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour",,,(see Note 4),77,Operational
 020003,Present weather,,00-03     No meteors except photometeors,,,,,Operational
 020003,Present weather,00,Cloud development not observed or not observable,Characteristic change of the state of sky during the past hour,,,,Operational
 020003,Present weather,01,Clouds generally dissolving or becoming less developed,Characteristic change of the state of sky during the past hour,,,,Operational
@@ -22,7 +22,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,16,"Precipitation within sight, reaching the ground or the surface of the sea, near to, but not at the station",,,,,Operational
 020003,Present weather,17,"Thunderstorm, but no precipitation at the time of observation",,,,,Operational
 020003,Present weather,18,Squalls,at or within sight of the station during the preceding hour or at the time of observation,,,,Operational
-020003,Present weather,19,Funnel cloud(s),at or within sight of the station during the preceding hour or at the time of observation,,**,89,Operational
+020003,Present weather,19,Funnel cloud(s),at or within sight of the station during the preceding hour or at the time of observation,,(see Note 5),89,Operational
 020003,Present weather,,"20-29     Precipitation, fog, ice fog or thunderstorm at the station during the preceding hour but not at the time of observation",,,,,Operational
 020003,Present weather,20,Drizzle (not freezing) or snow grains,not falling as shower(s),,,,Operational
 020003,Present weather,21,Rain (not freezing),not falling as shower(s),,,,Operational
@@ -31,7 +31,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,24,Freezing drizzle or freezing rain,not falling as shower(s),,,,Operational
 020003,Present weather,25,Shower(s) of rain,not falling as shower(s),,,,Operational
 020003,Present weather,26,"Shower(s) of snow, or of rain and snow",,,,,Operational
-020003,Present weather,27,"Shower(s) of hail, or of rain and hail",,,*,46,Operational
+020003,Present weather,27,"Shower(s) of hail, or of rain and hail",,,(see Note 6),46,Operational
 020003,Present weather,28,Fog or ice fog,,,,,Operational
 020003,Present weather,29,Thunderstorm (with or without precipitation),,,,,Operational
 020003,Present weather,,"30-39     Duststorm, sandstorm, drifting or blowing snow",,,,,Operational
@@ -104,13 +104,13 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020003,Present weather,90,"Shower(s) of hail, with or without rain or rain and snow mixed, not associated with thunder",moderate or heavy,,,,Operational
 020003,Present weather,91,Slight rain at time of observation,Thunderstorm during the preceding hour but not at time of observation,,,,Operational
 020003,Present weather,92,Moderate or heavy rain at time of observation,Thunderstorm during the preceding hour but not at time of observation,,,,Operational
-020003,Present weather,93,"Slight snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,*,46,Operational
-020003,Present weather,94,"Moderate or heavy snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,*,46,Operational
-020003,Present weather,95,"Thunderstorm, slight or moderate, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,*,46,Operational
-020003,Present weather,96,"Thunderstorm, slight or moderate, with hail at time of observation",Thunderstorm at time of observation,,*,46,Operational
-020003,Present weather,97,"Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,*,46,Operational
+020003,Present weather,93,"Slight snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,(see Note 6),46,Operational
+020003,Present weather,94,"Moderate or heavy snow, or rain and snow mixed or hail at time of observation",Thunderstorm during the preceding hour but not at time of observation,,(see Note 6),46,Operational
+020003,Present weather,95,"Thunderstorm, slight or moderate, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,(see Note 6),46,Operational
+020003,Present weather,96,"Thunderstorm, slight or moderate, with hail at time of observation",Thunderstorm at time of observation,,(see Note 6),46,Operational
+020003,Present weather,97,"Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation",Thunderstorm at time of observation,,(see Note 6),46,Operational
 020003,Present weather,98,Thunderstorm combined with duststorm or sandstorm at time of observation,Thunderstorm at time of observation,,,,Operational
-020003,Present weather,99,"Thunderstorm, heavy, with hail at time of observation",Thunderstorm at time of observation,,*,46,Operational
+020003,Present weather,99,"Thunderstorm, heavy, with hail at time of observation",Thunderstorm at time of observation,,(see Note 6),46,Operational
 020003,Present weather,,Present weather reported from an automatic weather station,,,,,Operational
 020003,Present weather,100,No significant weather observed,,,,,Operational
 020003,Present weather,101,Clouds generally dissolving or becoming less developed during the past hour,,,,,Operational
@@ -391,7 +391,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020011,Cloud amount,12,Broken,,,,,Operational
 020011,Cloud amount,13,Few,,,,,Operational
 020011,Cloud amount,14,Reserved,,,,,Operational
-020011,Cloud amount,15,"Cloud cover is indiscernible for reasons other than fog or other meteorological phenomena, or observation is not made",,,,40,Operational
+020011,Cloud amount,15,"Cloud cover is indiscernible for reasons other than fog or other meteorological phenomena, or observation is not made",,, (see Note 1),40,Operational
 020012,Cloud type,0,Cirrus (Ci),,,,,Operational
 020012,Cloud type,1,Cirrocumulus (Cc),,,,,Operational
 020012,Cloud type,2,Cirrostratus (Cs),,,,,Operational
@@ -423,13 +423,13 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020012,Cloud type,28,Altocumulus castellanus or floccus,,,,,Operational
 020012,Cloud type,29,"Altocumulus of a chaotic sky, generally at several levels",,,,,Operational
 020012,Cloud type,30,No CL clouds,,,,,Operational
-020012,Cloud type,31,"Cumulus humilis or cumulus fractus other than of bad weather, or both",,,*,1,Operational
+020012,Cloud type,31,"Cumulus humilis or cumulus fractus other than of bad weather, or both",,,(see Note),1,Operational
 020012,Cloud type,32,"Cumulus mediocris or congestus, towering cumulus (TCU), with or without cumulus of species fractus or humilis or stratocumulus, all having their bases at the same level",,,,,Operational
 020012,Cloud type,33,"Cumulonimbus calvus, with or without cumulus, stratocumulus or stratus",,,,,Operational
 020012,Cloud type,34,Stratocumulus cumulogenitus,,,,,Operational
 020012,Cloud type,35,Stratocumulus other than stratocumulus cumulogenitus,,,,,Operational
-020012,Cloud type,36,"Stratus nebulosus or stratus fractus other than of bad weather, or both",,,,1,Operational
-020012,Cloud type,37,"Stratus fractus or cumulus fractus of bad weather, or both (pannus), usually below altostratus or nimbostratus",,,,1,Operational
+020012,Cloud type,36,"Stratus nebulosus or stratus fractus other than of bad weather, or both",,,(see Note),1,Operational
+020012,Cloud type,37,"Stratus fractus or cumulus fractus of bad weather, or both (pannus), usually below altostratus or nimbostratus",,,(see Note),1,Operational
 020012,Cloud type,38,"Cumulus and stratocumulus other than stratocumulus cumulogenitus, with bases at different levels",,,,,Operational
 020012,Cloud type,39,"Cumulonimbus capillatus (often with an anvil), with or without cumulonimbus calvus, cumulus, stratocumulus, stratus or pannus",,,,,Operational
 020012,Cloud type,40,CH,,,,,Operational
@@ -559,8 +559,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020027,Phenomena occurrence,4,In time period specified,,,,,Operational
 020027,Phenomena occurrence,5,Reserved,,,,,Operational
 020027,Phenomena occurrence,6,Below station level,,,,,Operational
-020027,Phenomena occurrence,7,At the station,,,(see Note 1),51,Operational
-020027,Phenomena occurrence,8,In the vicinity,,,(see Note 2),51,Operational
+020027,Phenomena occurrence,7,At the station,,,(see Note 2),51,Operational
+020027,Phenomena occurrence,8,In the vicinity,,,(see Note 3),96,Operational
 020027,Phenomena occurrence,All 9,Missing value,,,,,Operational
 020028,Expected change in intensity,0,No change (NC),,,,,Operational
 020028,Expected change in intensity,1,Forecast to weaken (WKN),,,,,Operational
@@ -789,12 +789,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020063,Special phenomena,68,Not allocated,,,,,Operational
 020063,Special phenomena,69,Variation of temperature unknown owing to lack of thermograph,,,,,Operational
 020063,Special phenomena,,70-79     Variation of visibility during the period specified,,,,,Operational
-020063,Special phenomena,70,Visibility has not varied (sun visible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,71,Visibility has not varied (sun invisible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,72,Visibility has increased (sun visible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,73,Visibility has increased (sun invisible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,74,Visibility has decreased (sun visible) towards direction specified,,,*,61,Operational
-020063,Special phenomena,75,Visibility has decreased (sun invisible) towards direction specified,,,*,61,Operational
+020063,Special phenomena,70,Visibility has not varied (sun visible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,71,Visibility has not varied (sun invisible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,72,Visibility has increased (sun visible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,73,Visibility has increased (sun invisible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,74,Visibility has decreased (sun visible) towards direction specified,,,(see Note),61,Operational
+020063,Special phenomena,75,Visibility has decreased (sun invisible) towards direction specified,,,(see Note),61,Operational
 020063,Special phenomena,76,Fog coming from direction specified,,,,,Operational
 020063,Special phenomena,77,"Fog has lifted, without dissipating",,,,,Operational
 020063,Special phenomena,78,Fog has dispersed without regard to direction,,,,,Operational

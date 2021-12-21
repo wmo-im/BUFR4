@@ -34,7 +34,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 01,Identification,001009,Type of commercial aircraft,,,CCITT IA5,0,0,64,Character,0,8,Operational
 01,Identification,001010,Stationary buoy platform identifier; e.g. C-MAN buoys,,,CCITT IA5,0,0,64,Character,0,8,Operational
 01,Identification,001011,Ship or mobile land station identifier,,,CCITT IA5,0,0,72,Character,0,9,Operational
-01,Identification,001012,Direction of motion of moving observing platform,(see Notes 14 and 15),"60,125",degree true,0,0,9,degree true,0,3,Operational
+01,Identification,001012,Direction of motion of moving observing platform,(see Notes 14 and 15),"125,60",degree true,0,0,9,degree true,0,3,Operational
 01,Identification,001013,Speed of motion of moving observing platform,(see Notes 14 and 15),"60,125",m/s,0,0,10,m/s,0,3,Operational
 01,Identification,001014,Platform drift speed (high precision),,,m/s,2,0,10,m/s,2,4,Operational
 01,Identification,001015,Station or site name,,,CCITT IA5,0,0,160,Character,0,20,Operational
@@ -46,13 +46,13 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 01,Identification,001023,Observation sequence number,,,Numeric,0,0,9,Numeric,0,3,Operational
 01,Identification,001024,Wind speed source,,,Code table,0,0,5,Code table,0,2,Operational
 01,Identification,001025,Storm identifier,(see Note 1),148,CCITT IA5,0,0,24,Character,0,3,Operational
-01,Identification,001026,WMO storm name,*,43,CCITT IA5,0,0,64,Character,0,8,Operational
+01,Identification,001026,WMO storm name,(see Note 16),43,CCITT IA5,0,0,64,Character,0,8,Operational
 01,Identification,001027,WMO long storm name,(see Note 2),182,CCITT IA5,0,0,80,Character,0,10,Operational
 01,Identification,001028,Aerosol optical depth (AOD) source,,,Code table,0,0,5,Code table,0,2,Operational
 01,Identification,001029,SSI source,,,Code table,0,0,5,Code table,0,2,Operational
 01,Identification,001030,Numerical model identifier,(see Note 13),153,CCITT IA5,0,0,128,Character,0,16,Operational
 01,Identification,001031,Identification of originating/generating centre,(see Note 10),44,Code table,0,0,16,Code table,0,5,Operational
-01,Identification,001032,Generating application,"(Notes 3, 4 and 5)","21,38,175",Code table defined by originating/generating centre,0,0,8,Code table,0,3,Operational
+01,Identification,001032,Generating application,"(Notes 3, 4 and 5)","175,21,38",Code table defined by originating/generating centre,0,0,8,Code table,0,3,Operational
 01,Identification,001033,Identification of originating/generating centre,,,Common Code table C-1,0,0,8,Common Code table C-1,0,3,Operational
 01,Identification,001034,Identification of originating/generating sub-centre,,,Common Code table C-12,0,0,8,Common Code table C-12,0,3,Operational
 01,Identification,001035,Originating centre,,,Common Code table C-11,0,0,16,Common Code table C-11,0,5,Operational
@@ -61,9 +61,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 01,Identification,001038,Source of sea ice fraction,,,Code table,0,0,5,Code table,0,2,Operational
 01,Identification,001039,Graphical Area Forecast (GFA) sequence identifier,,,CCITT IA5,0,0,40,Character,0,5,Operational
 01,Identification,001040,Processing centre ID code,,,CCITT IA5,0,0,48,Character,0,6,Operational
-01,Identification,001041,Absolute platform velocity - first component,(see Note 6),"95,134,154",m/s,5,-1073741824,31,m/s,5,10,Operational
-01,Identification,001042,Absolute platform velocity - second component,(see Note 6),"95,134,154",m/s,5,-1073741824,31,m/s,5,10,Operational
-01,Identification,001043,Absolute platform velocity - third component,(see Note 6),"95,134,154",m/s,5,-1073741824,31,m/s,5,10,Operational
+01,Identification,001041,Absolute platform velocity - first component,"(see Notes 6, 7 and 8)","134,154,95",m/s,5,-1073741824,31,m/s,5,10,Operational
+01,Identification,001042,Absolute platform velocity - second component,"(see Notes 6, 7 and 8)","134,154,95",m/s,5,-1073741824,31,m/s,5,10,Operational
+01,Identification,001043,Absolute platform velocity - third component,"(see Notes 6, 7 and 8)","134,154,95",m/s,5,-1073741824,31,m/s,5,10,Operational
 01,Identification,001044,Standard generating application,,,Code table,0,0,8,Code table,0,3,Operational
 01,Identification,001050,Platform transmitter ID number,,,Numeric,0,0,17,Numeric,0,6,Operational
 01,Identification,001051,Platform transmitter ID number,,,CCITT IA5,0,0,96,Character,0,12,Operational
@@ -132,7 +132,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002017,Correction algorithms for humidity measurements,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002019,Satellite instruments,,,Code table,0,0,11,Code table,0,4,Operational
 02,Instrumentation,002020,Satellite classification,,,Code table,0,0,9,Code table,0,3,Operational
-02,Instrumentation,002021,Satellite instrument data used in processing,*,47,Flag table,0,0,9,Flag table,0,3,Operational
+02,Instrumentation,002021,Satellite instrument data used in processing,(see Note 8),47,Flag table,0,0,9,Flag table,0,3,Operational
 02,Instrumentation,002022,Satellite data-processing technique used,,,Flag table,0,0,8,Flag table,0,3,Operational
 02,Instrumentation,002023,Satellite-derived wind computation method,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002024,Integrated mean humidity computational method,,,Code table,0,0,4,Code table,0,2,Operational
@@ -197,7 +197,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 02,Instrumentation,002096,Type of temperature sensor,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002097,Type of humidity sensor,,,Code table,0,0,5,Code table,0,2,Operational
 02,Instrumentation,002099,Polarization,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002100,Radar constant,*,157,dB,1,0,12,dB,1,4,Operational
+02,Instrumentation,002100,Radar constant,(see Note 9),157,dB,1,0,12,dB,1,4,Operational
 02,Instrumentation,002101,Type of antenna,,,Code table,0,0,4,Code table,0,2,Operational
 02,Instrumentation,002102,Antenna height above tower base,,,m,0,0,8,m,0,3,Operational
 02,Instrumentation,002103,Radome,,,Flag table,0,0,2,Flag table,0,1,Operational
@@ -833,6 +833,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 14,Radiation and radiance,014046,Scaled radiance,(see Note 6),29,W m-2 sr-1 m,0,-5000,16,W m-2 sr-1 m,0,5,Operational
 14,Radiation and radiance,014047,Scaled mean AVHRR radiance,,,W m-2 sr-1 m,0,0,31,W m-2 sr-1 m,0,10,Operational
 14,Radiation and radiance,014048,Scaled standard deviation AVHRR radiance,,,W m-2 sr-1 m,0,0,31,W m-2 sr-1 m,0,10,Operational
+14,Radiation and radiance,014049,Noise equivalent delta radiance,,,W m-2 sr-1 cm,7,0,22,W m-2 sr-1 cm,0,0,Operational
 14,Radiation and radiance,014050,Emissivity,(see Note 5),69,%,1,0,10,%,1,4,Operational
 14,Radiation and radiance,014051,Direct solar radiation integrated over last hour,,,J m-2,-3,0,14,J m-2,-3,4,Operational
 14,Radiation and radiance,014052,"Global upward solar radiation, integrated over period specified",,,J m-2,-2,-1048574,20,J m-2,-2,7,Operational
@@ -903,7 +904,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 15,Physical/chemical constituents,015080,Estimated error in neutral atmosphere zenith path delay,,,m,4,0,12,m,4,8,Operational
 15,Physical/chemical constituents,015081,Wet path delay due to neutral atmosphere, (see Note 12),6,m,4,0,18,m,4,10,Operational
 15,Physical/chemical constituents,015082,Path integrated water vapour,(see Note 16),16,kg m-2,1,0,16,kg m-2,1,10,Operational
-15,Physical/chemical constituents,015083,GNSS derived neutral atmosphere gradient,(see Note 17),7,m,5,0,14,m,5,9,Operational
+15,Physical/chemical constituents,015083,GNSS derived neutral atmosphere gradient,(see Note 17),7,m,5,-8192,14,m,5,9,Operational
 15,Physical/chemical constituents,015084,GNSS least squares residual,(see Note 18),17,m,4,0,14,m,4,9,Operational
 15,Physical/chemical constituents,015085,GNSS multi-path delay,(see Note 15),8,m,4,0,14,m,4,9,Operational
 15,Physical/chemical constituents,015086,GNSS hydrostatic mapping function,(see Note 19),22,Numeric,3,0,16,Numeric,3,10,Operational
@@ -953,7 +954,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 20,Observed phenomena,020010,Cloud cover (total),(see Note 5),20,%,0,0,7,%,0,3,Operational
 20,Observed phenomena,020011,Cloud amount,,,Code table,0,0,4,Code table,0,2,Operational
 20,Observed phenomena,020012,Cloud type,,,Code table,0,0,6,Code table,0,2,Operational
-20,Observed phenomena,020013,Height of base of cloud,,170,m,-1,-40,11,m,-1,4,Operational
+20,Observed phenomena,020013,Height of base of cloud,(see Note 6),170,m,-1,-40,11,m,-1,4,Operational
 20,Observed phenomena,020014,Height of top of cloud,,,m,-1,-40,11,m,-1,4,Operational
 20,Observed phenomena,020015,Pressure at base of cloud,,,Pa,-1,0,14,Pa,-1,5,Operational
 20,Observed phenomena,020016,Pressure at top of cloud,,,Pa,-1,0,14,Pa,-1,5,Operational
@@ -1241,7 +1242,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 22,Oceanographic elements,022073,Maximum wave height,,,m,2,0,13,m,2,4,Operational
 22,Oceanographic elements,022074,Average wave period,,,s,1,0,9,s,1,3,Operational
 22,Oceanographic elements,022075,Average wavelength,,,m,0,0,13,m,0,4,Operational
-22,Oceanographic elements,022076,Direction from which dominant waves are coming,,,degree true,0,0,9,degree true,0,3,Operational
+22,Oceanographic elements,022076,Direction from which dominant waves are coming,(see Note 2),137,degree true,0,0,9,degree true,0,3,Operational
 22,Oceanographic elements,022077,Directional spread of dominant wave,(see Note 2),137,deg,0,0,9,deg,0,3,Operational
 22,Oceanographic elements,022078,Duration of wave record,,,s,0,0,12,s,0,4,Operational
 22,Oceanographic elements,022079,Length of wave record,,,m,0,0,16,m,0,5,Operational
@@ -1264,9 +1265,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 22,Oceanographic elements,022096,Spectral band width,,,/s,3,0,4,/s,3,2,Operational
 22,Oceanographic elements,022097,Mean wavelength > 731 m of image spectrum at low wave numbers,(see Note 5),107,m,0,0,14,m,0,5,Operational
 22,Oceanographic elements,022098,Wavelength spread (wavelength > 731 m) at low wave numbers,(see Note 5),107,m,0,0,14,m,0,5,Operational
-22,Oceanographic elements,022099,Mean direction at low wave numbers (wavelength > 731 m),(see Note 5),109,degree true,0,0,9,degree true,0,3,Operational
-22,Oceanographic elements,022100,Direction spread at low wave numbers (wavelength > 731 m),(see Note 5),109,deg,0,0,9,deg,0,3,Operational
-22,Oceanographic elements,022101,Total energy (wavelength > 731m) at low wave numbers,(see Note 5),108,Numeric,0,0,31,Numeric,0,10,Operational
+22,Oceanographic elements,022099,Mean direction at low wave numbers (wavelength > 731 m),(see Note 5),107,degree true,0,0,9,degree true,0,3,Operational
+22,Oceanographic elements,022100,Direction spread at low wave numbers (wavelength > 731 m),(see Note 5),107,deg,0,0,9,deg,0,3,Operational
+22,Oceanographic elements,022101,Total energy (wavelength > 731m) at low wave numbers,(see Note 5),107,Numeric,0,0,31,Numeric,0,10,Operational
 22,Oceanographic elements,022102,Scaled maximum non-directional spectral wave density by frequency,(see Note 10),104,m2 s,0,0,14,m2 s,0,5,Operational
 22,Oceanographic elements,022103,Scaled maximum non-directional spectral wave density by wave number,(see Note 10),104,m3,0,0,14,m3,0,5,Operational
 22,Oceanographic elements,022104,Scaled non-directional spectral wave density by frequency,(see Note 10),104,m2 s,0,0,14,m2 s,0,5,Operational
@@ -1389,7 +1390,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 25,Processing information,025019,A to Z law for attenuation exponent,,,Numeric,2,0,7,Numeric,2,3,Operational
 25,Processing information,025020,Mean speed estimation,,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025021,Wind computation enhancement,,,Flag table,0,0,8,Flag table,0,3,Operational
-25,Processing information,025022,GHRSST rejection flag,*,82,Flag table,0,0,9,Flag table,0,3,Operational
+25,Processing information,025022,GHRSST rejection flag,,,Flag table,0,0,9,Flag table,0,3,Operational
 25,Processing information,025023,GHRSST confidence flag,,,Flag table,0,0,9,Flag table,0,3,Operational
 25,Processing information,025024,GHRSST data quality,,,Code table,0,0,4,Code table,0,2,Operational
 25,Processing information,025025,Battery voltage,,,V,1,0,9,V,1,3,Operational
@@ -1506,7 +1507,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 25,Processing information,025172,Number of samples,,,Numeric,0,0,10,Numeric,0,4,Operational
 25,Processing information,025174,SMOS information flag,,,Flag table,0,0,14,Flag table,0,5,Operational
 25,Processing information,025175,Modified residual,(see Note 7),103,Numeric,2,0,13,Numeric,2,4,Operational
-25,Processing information,025180,LRM per cent,*,97,%,2,0,16,%,2,5,Operational
+25,Processing information,025180,LRM per cent,,,%,2,0,16,%,2,5,Operational
 25,Processing information,025181,L2 processing flag,,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025182,L1 processing flag,,,Code table,0,0,2,Code table,0,1,Operational
 25,Processing information,025183,L1 processing quality,,,%,2,0,14,%,2,5,Operational
@@ -1530,7 +1531,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 27,Non-coordinate location (horizontal - 1),027001,Latitude (high accuracy),,,deg,5,-9000000,25,deg,5,7,Operational
 27,Non-coordinate location (horizontal - 1),027002,Latitude (coarse accuracy),,,deg,2,-9000,15,deg,2,4,Operational
 27,Non-coordinate location (horizontal - 1),027003,Alternate latitude (coarse accuracy),(see Note 1),132,deg,2,-9000,15,deg,2,4,Operational
-27,Non-coordinate location (horizontal - 1),027004,Alternate latitude (high accuracy),,,deg,5,-9000000,25,deg,5,7,Operational
+27,Non-coordinate location (horizontal - 1),027004,Alternate latitude (high accuracy),(see Note 1),132,deg,5,-9000000,25,deg,5,7,Operational
 27,Non-coordinate location (horizontal - 1),027010,Footprint axis 1,,,m,-1,0,14,m,-1,5,Operational
 27,Non-coordinate location (horizontal - 1),027020,Satellite location counter,(see Note 2),143,Numeric,0,0,16,Numeric,0,5,Operational
 27,Non-coordinate location (horizontal - 1),027021,Satellite sublocation dimension,(see Note 3),144,Numeric,0,0,16,Numeric,0,5,Operational
@@ -1712,7 +1713,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUF
 40,Satellite data,040066,Quality indicator for atmospheric water vapour,,,Numeric,1,0,8,Numeric,1,3,Operational
 40,Satellite data,040067,Quality indicator for atmospheric temperature,,,Numeric,1,0,8,Numeric,1,3,Operational
 40,Satellite data,040068,General retrieval quality flag for SO2,,,Code table,0,0,4,Code table,0,2,Operational
-40,Satellite data,040069,PWLR estimated retrieval error for surface air temperature,*,114,K,4,-1000000,21,K,4,7,Operational
+40,Satellite data,040069,PWLR estimated retrieval error for surface air temperature,(see Note),114,K,4,-1000000,21,K,4,7,Operational
 40,Satellite data,040070,PWLR estimated retrieval error of surface dewpoint,,,K,4,-1000000,21,K,4,7,Operational
 40,Satellite data,040071,Retrieval error covariance matrix for ozone in principal component domain,,,Numeric,4,-1000000,21,Numeric,4,7,Operational
 40,Satellite data,040072,PWLR estimated retrieval quality indicator of atmospheric ozone,,,Numeric,1,0,8,Numeric,1,3,Operational

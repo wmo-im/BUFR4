@@ -1,72 +1,72 @@
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
-05,Meteorological or hydrological sequences common to hydrological observations,D05001,(SADC-HYCOS single measurement),,B11001,Wind direction,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05001,(SADC-HYCOS single measurement),,B11002,Wind speed,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05001,(SADC-HYCOS single measurement),,B13060,Total accumulated precipitation,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05001,(SADC-HYCOS single measurement),,B13071,Upstream water level,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,D01012,"Hour, minute",,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B12001,Temperature/air temperature,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13003,Relative humidity,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B14051,Direct solar radiation integrated over last hour,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13060,Total accumulated precipitation,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13072,Downstream water level,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13080,Water pH,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13081,Water conductivity,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13082,Water temperature,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13083,Dissolved oxygen,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13084,Turbidity,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05003,(SADC-HYCOS measurement array definition),,D01012,"Hour, minute",First single measurement minus increment,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05003,(SADC-HYCOS measurement array definition),,B04065,Short time increment,Time interval between measurements,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05003,(SADC-HYCOS measurement array definition),,R01000,Delayed replication of 1 descriptor,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05003,(SADC-HYCOS measurement array definition),,D05001,SADC-HYCOS single measurement,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05004,(SADC-HYCOS report),,D01030,Identification - with physical location,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05004,(SADC-HYCOS report),,D05002,SADC-HYCOS environmental measurement,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05004,(SADC-HYCOS report),,D05003,SADC-HYCOS measurement array definition,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13072,Downstream water level,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13082,Water temperature,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13019,Total precipitation past 1 hour,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,C07005,Units replacement,Kelvin,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,C01004,Data width replacement,4 characters long,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B12001,Temperature/air temperature,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13073,Maximum water level,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13060,Total accumulated precipitation,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,D01029,Identification,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,D01012,"Hour, minute",Time of first measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,B04065,Short time increment,Time interval between measurements,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,R01000,Delayed replication of 1 descriptor,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,D05006,MEDHYCOS measurement,Single measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05008,(AOCHYCOS - Chad measurement),,D05006,MEDHYCOS measurement,Same as MEDHYCOS type measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05008,(AOCHYCOS - Chad measurement),,C07005,Units replacement,Kelvin,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05008,(AOCHYCOS - Chad measurement),,C01004,Data width replacement,4 characters long,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05008,(AOCHYCOS - Chad measurement),,B12030,Soil temperature,At -50 cm,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,D01029,Identification,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,D01012,"Hour, minute",Time of first measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,B04065,Short time increment,Time interval between measurements,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,R01000,Delayed replication of 1 descriptor,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,D05008,AOCHYCOS - Chad measurement,Single measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05010,(MEDHYCOS-Measurement type 2),,D05008,AOCHYCOS - Chad measurement,Same as AOCHYCOS type measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05010,(MEDHYCOS-Measurement type 2),,B02091,Entry sensor 4/20 mA,No. 1,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05010,(MEDHYCOS-Measurement type 2),,B02091,Entry sensor 4/20 mA,No. 2,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,D01029,Identification,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,D01012,"Hour, minute",Time of first measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,B04065,Short time increment,Time interval between measurements,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,R01000,Delayed replication of 1 descriptor,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,D05010,MEDHYCOS-Measurement type 2,Single measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B14021,"Global solar radiation, integrated over period specified",,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B07004,Pressure,Atmospheric pressure,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B13003,Relative humidity,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B11002,Wind speed,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B11001,Wind direction,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B11041,Maximum wind gust speed,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B11043,Maximum wind gust direction,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13080,Water pH,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13081,Water conductivity,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13083,Dissolved oxygen,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13085,Oxydation reduction potential (ORP),,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13084,Turbidity,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D01029,Identification,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D01012,"Hour, minute",Time of first measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,B04065,Short time increment,Hour increment,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,R03000,Delayed replication of 3 descriptors,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D05008,AOCHYCOS - Chad measurement,Same as AOCHYCOS type measurement,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D05016,Meteorological parameters associated with hydrological data,,,,Operational
-05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D05017,Water quality measurement,,,,Operational
+Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,Status
+05,Meteorological or hydrological sequences common to hydrological observations,D05001,(SADC-HYCOS single measurement),,B11001,Wind direction,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05001,(SADC-HYCOS single measurement),,B11002,Wind speed,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05001,(SADC-HYCOS single measurement),,B13060,Total accumulated precipitation,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05001,(SADC-HYCOS single measurement),,B13071,Upstream water level,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,D01012,"Hour, minute",,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B12001,Temperature/air temperature,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13003,Relative humidity,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B14051,Direct solar radiation integrated over last hour,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13060,Total accumulated precipitation,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13072,Downstream water level,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13080,Water pH,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13081,Water conductivity,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13082,Water temperature,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13083,Dissolved oxygen,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05002,(SADC-HYCOS environmental measurement),,B13084,Turbidity,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05003,(SADC-HYCOS measurement array definition),,D01012,"Hour, minute",First single measurement minus increment,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05003,(SADC-HYCOS measurement array definition),,B04065,Short time increment,Time interval between measurements,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05003,(SADC-HYCOS measurement array definition),,R01000,Delayed replication of 1 descriptor,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05003,(SADC-HYCOS measurement array definition),,D05001,SADC-HYCOS single measurement,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05004,(SADC-HYCOS report),,D01030,Identification - with physical location,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05004,(SADC-HYCOS report),,D05002,SADC-HYCOS environmental measurement,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05004,(SADC-HYCOS report),,D05003,SADC-HYCOS measurement array definition,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13072,Downstream water level,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13082,Water temperature,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13019,Total precipitation past 1 hour,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,C07005,Units replacement,Kelvin,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,C01004,Data width replacement,4 characters long,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B12001,Temperature/air temperature,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13073,Maximum water level,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05006,(MEDHYCOS measurement),,B13060,Total accumulated precipitation,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,D01029,Identification,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,D01012,"Hour, minute",Time of first measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,B04065,Short time increment,Time interval between measurements,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,R01000,Delayed replication of 1 descriptor,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05007,(MEDHYCOS report),,D05006,MEDHYCOS measurement,Single measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05008,(AOCHYCOS - Chad measurement),,D05006,MEDHYCOS measurement,Same as MEDHYCOS type measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05008,(AOCHYCOS - Chad measurement),,C07005,Units replacement,Kelvin,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05008,(AOCHYCOS - Chad measurement),,C01004,Data width replacement,4 characters long,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05008,(AOCHYCOS - Chad measurement),,B12030,Soil temperature,At -50 cm,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,D01029,Identification,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,D01012,"Hour, minute",Time of first measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,B04065,Short time increment,Time interval between measurements,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,R01000,Delayed replication of 1 descriptor,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05009,(AOCHYCOS - Chad report),,D05008,AOCHYCOS - Chad measurement,Single measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05010,(MEDHYCOS-Measurement type 2),,D05008,AOCHYCOS - Chad measurement,Same as AOCHYCOS type measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05010,(MEDHYCOS-Measurement type 2),,B02091,Entry sensor 4/20 mA,No. 1,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05010,(MEDHYCOS-Measurement type 2),,B02091,Entry sensor 4/20 mA,No. 2,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,D01029,Identification,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,D01012,"Hour, minute",Time of first measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,B04065,Short time increment,Time interval between measurements,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,R01000,Delayed replication of 1 descriptor,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05011,(MEDHYCOS report type 2),,D05010,MEDHYCOS-Measurement type 2,Single measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B14021,"Global solar radiation, integrated over period specified",,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B07004,Pressure,Atmospheric pressure,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B13003,Relative humidity,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B11002,Wind speed,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B11001,Wind direction,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B11041,Maximum wind gust speed,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05016,(Meteorological parameters associated with hydrological data),,B11043,Maximum wind gust direction,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13080,Water pH,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13081,Water conductivity,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13083,Dissolved oxygen,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13085,Oxydation reduction potential (ORP),,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05017,(Water quality measurement),,B13084,Turbidity,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D01029,Identification,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D01012,"Hour, minute",Time of first measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,B04065,Short time increment,Hour increment,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,R03000,Delayed replication of 3 descriptors,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D05008,AOCHYCOS - Chad measurement,Same as AOCHYCOS type measurement,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D05016,Meteorological parameters associated with hydrological data,,,Operational
+05,Meteorological or hydrological sequences common to hydrological observations,D05018,(MEDHYCOS report with meteorology and water quality data),,D05017,Water quality measurement,,,Operational

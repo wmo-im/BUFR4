@@ -1,7 +1,7 @@
 Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
 00,BUFR table entries sequences,300002,,,000002,"Table A: data category description, line 1",,,,Operational
 00,BUFR table entries sequences,300002,,,000003,"Table A: data category description, line 2",,,,Operational
-00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000010,F descriptor to be added or defined,,(see Note 3),18,Operational
+00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000010,F descriptor to be added or defined,,,,Operational
 00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000011,X descriptor to be added or defined,,,,Operational
 00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000012,Y descriptor to be added or defined,,,,Operational
 00,BUFR table entries sequences,300004,,,300003,"F, X, Y of descriptor to be added or defined",,,,Operational
@@ -17,7 +17,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 00,BUFR table entries sequences,300010,,,101000,Delayed replication of 1 descriptor,,,,Operational
 00,BUFR table entries sequences,300010,,,031001,Delayed descriptor replication factor,,,,Operational
 00,BUFR table entries sequences,300010,,,000030,Descriptor defining sequence,,,,Operational
-00,BUFR table entries sequences,300015,(Code table definition),,000030,Descriptor defining sequence,,(see Note 4),19,Operational
+00,BUFR table entries sequences,300015,(Code table definition),,000030,Descriptor defining sequence,,,,Operational
 00,BUFR table entries sequences,300015,(Code table definition),,102000,Delayed replication of 2 descriptors,,,,Operational
 00,BUFR table entries sequences,300015,(Code table definition),,031002,Extended delayed descriptor replication factor,,,,Operational
 00,BUFR table entries sequences,300015,(Code table definition),,000024,Code figure,,,,Operational
@@ -32,7 +32,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,(see Note 1),11,Operational
 01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,(see Note 1),11,Operational
 01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,(see Note 1),11,Operational
-01,Location and identification sequences,301003,(Ship's call sign and motion),,001011,Ship or mobile land station identifier,Ship's call sign,(see Note 2),57,Operational
+01,Location and identification sequences,301003,(Ship's call sign and motion),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational
 01,Location and identification sequences,301003,(Ship's call sign and motion),,001012,Direction of motion of moving observing platform,,,,Operational
 01,Location and identification sequences,301003,(Ship's call sign and motion),,001013,Speed of motion of moving observing platform,,,,Operational
 01,Location and identification sequences,301004,(Surface station identification),,001001,WMO block number,,,,Operational
@@ -151,24 +151,24 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301040,(Ship for vertical soundings),,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301040,(Ship for vertical soundings),,301012,"Hour, minute",,,,Operational
 01,Location and identification sequences,301040,(Ship for vertical soundings),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
-01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,001007,Satellite identifier,,(see Note 9),62,Operational
+01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,001007,Satellite identifier,,,,Operational
 01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,002021,Satellite instrument data used in processing,,,,Operational
 01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,002022,Satellite data-processing technique used,,,,Operational
 01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301041,"Satellite identifier, instrument, data-processing technique, date/time",,(see Note 9),62,Operational
+01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301041,"Satellite identifier, instrument, data-processing technique, date/time",,,,Operational
 01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,001007,Satellite identifier,,(see Note 9),62,Operational
+01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,001007,Satellite identifier,,,,Operational
 01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,002023,Satellite-derived wind computation method,,,,Operational
 01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301013,"Hour, minute, second",,,,Operational
 01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
 01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,002024,Integrated mean humidity computational method,,(see Note 9),62,Operational
+01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,002024,Integrated mean humidity computational method,,,,Operational
 01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301013,"Hour, minute, second",,,,Operational
 01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,301011,"Year, month, day",,(see Note 9),62,Operational
+01,Location and identification sequences,301045,(Satellite location and velocity),,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,301012,"Hour, minute",,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,201138,Change data width,16 bits long,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,202131,Change scale,Scale: 3,,,Operational
@@ -177,7 +177,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301045,(Satellite location and velocity),,202000,Change scale,Cancel,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,304030,Location of platform,Relative to the Earth’s centre,,,Operational
 01,Location and identification sequences,301045,(Satellite location and velocity),,304031,Speed of platform,Relative to the Earth’s centre,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001007,Satellite identifier,,(see Note 9),62,Operational
+01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001007,Satellite identifier,,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001012,Direction of motion of moving observing platform,,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002048,Satellite sensor indicator,,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,021119,Wind scatterometer geophysical model function,,,,Operational
@@ -187,7 +187,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002027,Along-track resolution,,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,202000,Change scale,Cancel,,,Operational
 01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,005040,Orbit number,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,001007,Satellite identifier,,(see Note 9),62,Operational
+01,Location and identification sequences,301047,(ERS product header),,001007,Satellite identifier,,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,025060,Software identification,,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,001033,Identification of originating/generating centre,,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,001034,Identification of originating/generating sub-centre,,,,Operational
@@ -202,7 +202,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301047,(ERS product header),,201000,Change data width,Cancel,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,202000,Change scale,Cancel,,,Operational
 01,Location and identification sequences,301047,(ERS product header),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002104,Antenna polarization,,(see Note 9),62,Operational
+01,Location and identification sequences,301048,(Radar parameters),,002104,Antenna polarization,,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,002121,Mean frequency,,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,002113,Number of azimuth looks,,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,002026,Cross-track resolution,,,,Operational
@@ -216,7 +216,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301048,(Radar parameters),,202000,Change scale,Cancel,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,025010,Clutter treatment,,,,Operational
 01,Location and identification sequences,301048,(Radar parameters),,021064,Clutter noise estimate,,,,Operational
-01,Location and identification sequences,301049,(Radar beam data),,002111,Radar incidence angle,,(see Note 9),62,Operational
+01,Location and identification sequences,301049,(Radar beam data),,002111,Radar incidence angle,,,,Operational
 01,Location and identification sequences,301049,(Radar beam data),,002112,Radar look angle,,,,Operational
 01,Location and identification sequences,301049,(Radar beam data),,021062,Backscatter,,,,Operational
 01,Location and identification sequences,301049,(Radar beam data),,021063,Radiometric resolution (noise value),,,,Operational
@@ -235,7 +235,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001012,Direction of motion of moving observing platform,,,,Operational
 01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001014,Platform drift speed (high precision),,,,Operational
 01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001087,WMO marine observing platform extended identifier,WMO number (extended 7 digit identifier),,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001011,Ship or mobile land station identifier,Call sign (where allocated),(see Note 2),57,Operational
+01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001011,Ship or mobile land station identifier,Call sign (where allocated),,,Operational
 01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001015,Station or site name,Platform name,,,Operational
 01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,002008,Type of offshore platform,,,,Operational
 01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,002001,Type of station,,,,Operational
@@ -284,7 +284,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,301021,Latitude/longitude (high accuracy),Sensor,,,Operational
 01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,007030,Height of station ground above mean sea level,,,,Operational
 01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,007032,Height of sensor above local ground (or deck of marine platform),Sensor for lightning,,,Operational
-01,Location and identification sequences,301062,(Radar location(s)),,101000,Delayed replication of 1 descriptor,,(see Note 9),62,Operational
+01,Location and identification sequences,301062,(Radar location(s)),,101000,Delayed replication of 1 descriptor,,,,Operational
 01,Location and identification sequences,301062,(Radar location(s)),,031001,Delayed descriptor replication factor,,,,Operational
 01,Location and identification sequences,301062,(Radar location(s)),,301001,WMO block and station numbers,,,,Operational
 01,Location and identification sequences,301065,(ACARS identification),,001006,Aircraft flight number,,(see Note 10),5,Operational
@@ -304,12 +304,12 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002143,Ozone instrument type,,,,Operational
 01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002142,Ozone instrument serial number/identification,,,,Operational
 01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002144,Light source type for Brewer spectrophotometer,,,,Operational
-01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001007,Satellite identifier,,(see Note 9),62,Operational
+01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001007,Satellite identifier,,,,Operational
 01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001031,Identification of originating/generating centre,,,,Operational
 01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002020,Satellite classification,,,,Operational
 01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002028,Segment size at nadir in x-direction,,,,Operational
 01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002029,Segment size at nadir in y-direction,,,,Operational
-01,Location and identification sequences,301072,(Satellite identification),,301071,Satellite identifier/Generating resolution,,(see Note 9),62,Operational
+01,Location and identification sequences,301072,(Satellite identification),,301071,Satellite identifier/Generating resolution,,,,Operational
 01,Location and identification sequences,301072,(Satellite identification),,301011,"Year, month, day",,,,Operational
 01,Location and identification sequences,301072,(Satellite identification),,301013,"Hour, minute, second",,,,Operational
 01,Location and identification sequences,301072,(Satellite identification),,301021,Latitude/longitude (high accuracy),,,,Operational
@@ -344,7 +344,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301091,(Surface station instrumentation),,002187,Capability to detect other weather phenomena,,,,Operational
 01,Location and identification sequences,301091,(Surface station instrumentation),,002188,Capability to detect obscuration,,,,Operational
 01,Location and identification sequences,301091,(Surface station instrumentation),,002189,Capability to discriminate lightning strikes,,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001011,Ship or mobile land station identifier,,(see Note 2),57,Operational
+01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001011,Ship or mobile land station identifier,,,,Operational
 01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001003,WMO Region number/geographical area,,,,Operational
 01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,002001,Type of station,,,,Operational
 01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,301011,"Year, month, day",,,,Operational
@@ -356,13 +356,13 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,301036,Ship,Ship identification,,,Operational
 01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,007030,Height of station ground above mean sea level,,,,Operational
 01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,007031,Height of barometer above mean sea level,,,,Operational
-01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,301001,WMO block and station numbers,,(see Note 2),57,Operational
+01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,301001,WMO block and station numbers,,,,Operational
 01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,001011,Ship or mobile land station identifier,,,,Operational
 01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002011,Radiosonde type,,,,Operational
 01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002014,Tracking technique/status of system used,,,,Operational
 01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002003,Type of measuring equipment used,,,,Operational
 01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,001011,Ship or mobile land station identifier,,(see Note 2),57,Operational
+01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,001011,Ship or mobile land station identifier,,,,Operational
 01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002011,Radiosonde type,,,,Operational
 01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002013,Solar and infrared radiation correction,,,,Operational
 01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002014,Tracking technique/status of system used,,,,Operational
@@ -1176,7 +1176,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 03,Meteorological sequences common to vertical soundings data,303014,"(Geopotential, temperature, dewpoint temperature, wind at pressure level)",,012003,Dewpoint temperature,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303014,"(Geopotential, temperature, dewpoint temperature, wind at pressure level)",,011001,Wind direction,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303014,"(Geopotential, temperature, dewpoint temperature, wind at pressure level)",,011002,Wind speed,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303021,"(Layer, quality)",,007004,Pressure,Define layer,(see Note 1),15,Operational
+03,Meteorological sequences common to vertical soundings data,303021,"(Layer, quality)",,007004,Pressure,Define layer,,,Operational
 03,Meteorological sequences common to vertical soundings data,303021,"(Layer, quality)",,007004,Pressure,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303021,"(Layer, quality)",,204007,Add associated field,7 bits long,,,Operational
 03,Meteorological sequences common to vertical soundings data,303021,"(Layer, quality)",,031021,Associated field significance,,,,Operational
@@ -1200,7 +1200,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 03,Meteorological sequences common to vertical soundings data,303026,,,031021,Associated field significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303026,,,012001,Temperature/air temperature,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303026,,,204000,Add associated field,Cancel,,,Operational
-03,Meteorological sequences common to vertical soundings data,303027,,,007004,Pressure,,(see Note 1),15,Operational
+03,Meteorological sequences common to vertical soundings data,303027,,,007004,Pressure,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303027,,,204007,Add associated field,7 bits long,,,Operational
 03,Meteorological sequences common to vertical soundings data,303027,,,031021,Associated field significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303027,,,010003,Geopotential,,,,Operational
@@ -1241,62 +1241,62 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 03,Meteorological sequences common to vertical soundings data,303041,(Wind sequence),,002153,Satellite channel centre frequency,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303041,(Wind sequence),,002154,Satellite channel band width,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303041,(Wind sequence),,012071,Coldest cluster temperature,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,004086,Long time period or displacement,Since launch time,(see Note 2),35,Operational
+03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,004086,Long time period or displacement,Since launch time,,,Operational
 03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,008042,Extended vertical sounding significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,007004,Pressure,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,005015,Latitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
-03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,006015,Longitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
+03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,005015,Latitude displacement (high accuracy),Since launch site,,,Operational
+03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,006015,Longitude displacement (high accuracy),Since launch site,,,Operational
 03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,011001,Wind direction,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303050,(Wind data at a pressure level with radiosonde position),,011002,Wind speed,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,004086,Long time period or displacement,Since launch time,(see Note 2),35,Operational
+03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,004086,Long time period or displacement,Since launch time,,,Operational
 03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,008042,Extended vertical sounding significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,007004,Pressure,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,005015,Latitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
-03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,006015,Longitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
+03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,005015,Latitude displacement (high accuracy),Since launch site,,,Operational
+03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,006015,Longitude displacement (high accuracy),Since launch site,,,Operational
 03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,011061,Absolute wind shear in 1 km layer below,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303051,(Wind shear data at a pressure level with radiosonde position),,011062,Absolute wind shear in 1 km layer above,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,004086,Long time period or displacement,Since launch time,(see Note 2),35,Operational
+03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,004086,Long time period or displacement,Since launch time,,,Operational
 03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,008042,Extended vertical sounding significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,007009,Geopotential height,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,005015,Latitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
-03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,006015,Longitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
+03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,005015,Latitude displacement (high accuracy),Since launch site,,,Operational
+03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,006015,Longitude displacement (high accuracy),Since launch site,,,Operational
 03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,011001,Wind direction,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303052,(Wind data at a height level with radiosonde position),,011002,Wind speed,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,004086,Long time period or displacement,Since launch time,(see Note 2),35,Operational
+03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,004086,Long time period or displacement,Since launch time,,,Operational
 03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,008042,Extended vertical sounding significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,007009,Geopotential height,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,005015,Latitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
-03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,006015,Longitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
+03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,005015,Latitude displacement (high accuracy),Since launch site,,,Operational
+03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,006015,Longitude displacement (high accuracy),Since launch site,,,Operational
 03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,011061,Absolute wind shear in 1 km layer below,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303053,(Wind shear data at a height level with radiosonde position),,011062,Absolute wind shear in 1 km layer above,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,004086,Long time period or displacement,Since launch time,(see Note 2),35,Operational
+03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,004086,Long time period or displacement,Since launch time,,,Operational
 03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,008042,Extended vertical sounding significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,007004,Pressure,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,010009,Geopotential height,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,005015,Latitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
-03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,006015,Longitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
+03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,005015,Latitude displacement (high accuracy),Since launch site,,,Operational
+03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,006015,Longitude displacement (high accuracy),Since launch site,,,Operational
 03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,012101,Temperature/air temperature,Scale: 2,,,Operational
 03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,012103,Dewpoint temperature,Scale: 2,,,Operational
 03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,011001,Wind direction,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303054,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position)",,011002,Wind speed,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,004086,Long time period or displacement,Since launch time,(see Note 2),35,Operational
+03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,004086,Long time period or displacement,Since launch time,,,Operational
 03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,008042,Extended vertical sounding significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,007009,Geopotential height,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,005015,Latitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
-03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,006015,Longitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
+03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,005015,Latitude displacement (high accuracy),Since launch site,,,Operational
+03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,006015,Longitude displacement (high accuracy),Since launch site,,,Operational
 03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,012101,Temperature/air temperature,Scale: 2,,,Operational
 03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,013009,Relative humidity,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,012103,Dewpoint temperature,Scale: 2,,,Operational
 03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,011001,Wind direction,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303055,"(Temperature, dewpoint, relative humidity and wind data at a height level with radiosonde position)",,011002,Wind speed,,,,Operational
-03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,004086,Long time period or displacement,Since launch time,(see Note 2),35,Operational
+03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,004086,Long time period or displacement,Since launch time,,,Operational
 03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,008042,Extended vertical sounding significance,,,,Operational
 03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,207001,"Increase scale, reference value and data width",,,,Operational
 03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,007004,Pressure,Scale: 0,,,Operational
 03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,010009,Geopotential height,Scale: 1,,,Operational
 03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,207000,"Increase scale, reference value and data width",Cancel,,,Operational
-03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,005015,Latitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
-03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,006015,Longitude displacement (high accuracy),Since launch site,(see Note 3),34,Operational
+03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,005015,Latitude displacement (high accuracy),Since launch site,,,Operational
+03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,006015,Longitude displacement (high accuracy),Since launch site,,,Operational
 03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,012101,Temperature/air temperature,Scale: 2,,,Operational
 03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,012103,Dewpoint temperature,Scale: 2,,,Operational
 03,Meteorological sequences common to vertical soundings data,303056,"(Temperature, dewpoint and wind data at a pressure level with radiosonde position and higher precision of pressure and geopotential height)",,011001,Wind direction,,,,Operational
@@ -2286,9 +2286,9 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307072,(Monthly normals for a land station),,004001,Year,Beginning of the reference period,,,Operational
 07,Surface report sequences (land),307072,(Monthly normals for a land station),,004001,Year,Ending of the reference period,,,Operational
 07,Surface report sequences (land),307072,(Monthly normals for a land station),,004002,Month,,,,Operational
-07,Surface report sequences (land),307072,(Monthly normals for a land station),,004003,Day,= 1,(see Note 5),27,Operational
-07,Surface report sequences (land),307072,(Monthly normals for a land station),,004004,Hour,= 0,(see Note 5),27,Operational
-07,Surface report sequences (land),307072,(Monthly normals for a land station),,004074,Short time period or displacement,= UTC - LT,(see Note 5),27,Operational
+07,Surface report sequences (land),307072,(Monthly normals for a land station),,004003,Day,= 1,(see Note 3),59,Operational
+07,Surface report sequences (land),307072,(Monthly normals for a land station),,004004,Hour,= 0,(see Note 3),59,Operational
+07,Surface report sequences (land),307072,(Monthly normals for a land station),,004074,Short time period or displacement,= UTC - LT,(see Note 3),59,Operational
 07,Surface report sequences (land),307072,(Monthly normals for a land station),,004022,Time period or displacement,= 1,,,Operational
 07,Surface report sequences (land),307072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",008023,First-order statistics,= 4 Mean value,,,Operational
 07,Surface report sequences (land),307072,(Monthly normals for a land station),"Normals of monthly mean pressure, temperature, vapour pressure and of standard deviation",010004,Pressure,,,,Operational
@@ -2864,7 +2864,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 07,Surface report sequences (land),307101,(Snow observation),,002177,Method of snow depth measurement,,,,Operational
 07,Surface report sequences (land),307101,(Snow observation),,020062,State of the ground (with or without snow),,,,Operational
 07,Surface report sequences (land),307101,(Snow observation),,013013,Total snow depth,,,,Operational
-07,Surface report sequences (land),307102,(Road weather information),Station identification,301089,National station identification,,(see Notes 9 and 10),"4,49",Operational
+07,Surface report sequences (land),307102,(Road weather information),Station identification,301089,National station identification,,,,Operational
 07,Surface report sequences (land),307102,(Road weather information),Station identification,001018,Short station or site name,For identification of the road weather monitoring site,,,Operational
 07,Surface report sequences (land),307102,(Road weather information),Station identification,001015,Station or site name,,,,Operational
 07,Surface report sequences (land),307102,(Road weather information),Station identification,001104,State/federal state identifier,,,,Operational
@@ -2985,7 +2985,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 08,Surface report sequences (sea),308011,(Monthly values from an ocean weather station - CLIMAT SHIP),,301023,Latitude/longitude (coarse accuracy),,,,Operational
 08,Surface report sequences (sea),308011,(Monthly values from an ocean weather station - CLIMAT SHIP),,007030,Height of station ground above mean sea level,,(see Note 3),25,Operational
 08,Surface report sequences (sea),308011,(Monthly values from an ocean weather station - CLIMAT SHIP),,007031,Height of barometer above mean sea level,,(see Note 3),25,Operational
-08,Surface report sequences (sea),308011,(Monthly values from an ocean weather station - CLIMAT SHIP),"Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature",004074,Short time period or displacement),= UTC - LT,(see Note 2),59,Operational
+08,Surface report sequences (sea),308011,(Monthly values from an ocean weather station - CLIMAT SHIP),"Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature",004074,Short time period or displacement,= UTC - LT,(see Note 2),59,Operational
 08,Surface report sequences (sea),308011,(Monthly values from an ocean weather station - CLIMAT SHIP),"Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature",004023,Time period or displacement,= Number of days in the month,,,Operational
 08,Surface report sequences (sea),308011,(Monthly values from an ocean weather station - CLIMAT SHIP),"Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature",008023,First-order statistics,= 4 Mean value,,,Operational
 08,Surface report sequences (sea),308011,(Monthly values from an ocean weather station - CLIMAT SHIP),"Monthly mean values of pressure, temperature, vapour pressure and sea/water temperature",010051,Pressure reduced to mean sea level,,,,Operational
@@ -3103,7 +3103,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),008090,Decimal scale of following significands,Set to missing,,,Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),022186,Direction from which waves are coming,1d1d1 - Section 5,(see Note 7),37,Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),022187,Directional spread of wave,dsds - Section 5,(see Note 7),37,Operational
-08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),105000,Delayed replication of 5 descriptors,,(see Note 8),2222,Operational
+08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),105000,Delayed replication of 5 descriptors,,(see Note 8),22,Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),031001,Delayed descriptor replication factor,n - Section 5 (number of directions counted); = 0 if Ib = 0 (non-directional),,,Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),008090,Decimal scale of following significands,x - Scale to be applied to following element descriptors,,,Operational
 08,Surface report sequences (sea),308015,(Template for WAVEOB data expressed as frequency (Ia = 0 in FM-65 WAVEOB),Spectral data (WAVEOB Sections 1-5),022106,Scaled directional spectral wave density by frequency,1A1A1A1x ... - Section 5,,,Operational
@@ -3337,7 +3337,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 09,Vertical sounding sequences (conventional data),309020,(Wind profiler - Cartesian coordinates),,011003,u-component,,,,Operational
 09,Vertical sounding sequences (conventional data),309020,(Wind profiler - Cartesian coordinates),,011004,v-component,,,,Operational
 09,Vertical sounding sequences (conventional data),309020,(Wind profiler - Cartesian coordinates),,011005,w-component,,,,Operational
-09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,301001,WMO block and station numbers,,,,Operational
+09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,301001,WMO block and station numbers,,(see Note 20),56,Operational
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,005001,Latitude (high accuracy),,,,Operational
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,006001,Longitude (high accuracy),,,,Operational
 09,Vertical sounding sequences (conventional data),309021,(Single wavelength wind profiler wind data (product data)),,007030,Height of station ground above mean sea level,,,,Operational
@@ -7199,105 +7199,105 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 40,Additional satellite report sequences,340004,(IASI Level 1c AVHRR single scene),,025142,Channel scale factor,,,,Operational
 40,Additional satellite report sequences,340004,(IASI Level 1c AVHRR single scene),,014048,Scaled standard deviation AVHRR radiance,,,,Operational
 40,Additional satellite report sequences,340005,(JASON2 OGDR data),,001007,Satellite identifier,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),,002019,Satellite instruments,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),,001096,Station acquisition,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),,025061,Software identification and version number,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),,005044,Satellite cycle number,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),,005040,Orbit number,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),,001030,Numerical model identifier,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004001,Year,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004002,Month,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004003,Day,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004004,Hour,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004005,Minute,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004007,Seconds within a minute (microsecond accuracy),,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,005001,Latitude (high accuracy),,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,006001,Longitude (high accuracy),,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,008029,Surface type,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,008074,Altimeter echo type,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,008077,Radiometer sensed surface type,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,040011,Interpolation flag,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025097,Three-dimensional error estimate of the navigator orbit,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025095,Altimeter state flag,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025098,Altimeter data quality flag,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025099,Altimeter correction quality flag,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,021144,Altimeter rain flag,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025096,Radiometer state flag,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,040012,Radiometer data quality flag,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,040013,Radiometer brightness temperature interpretation flag,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,021169,Ice presence indicator,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022151,Ku band ocean range,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022162,RMS of 20 Hz Ku band ocean range,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022163,Number of 20 Hz valid points for Ku band,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,025160,Ku band net instrumental correction,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,025133,Sea state bias correction on Ku band,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022156,Ku band significant wave height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022164,RMS 20 Hz Ku band significant wave height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022165,Number of 20 Hz valid points for Ku band significant wave height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022166,Ku band net instrumental correction for significant wave height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021137,Ku band corrected ocean backscatter coefficient,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021138,STD Ku band corrected ocean backscatter coefficient,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022167,Number of valid points for Ku band backscatter,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021139,Ku band net instrumental correction for AGC,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021118,Attenuation correction on sigma-0,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021145,Ku band automatic gain control,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021146,RMS Ku band automatic gain control,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021147,Number of valid points for Ku band automatic gain control,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022168,C band ocean range,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022169,RMS of C band ocean range,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022170,Number of 20 Hz valid points for C band,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,025161,C band net instrumental correction,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,025162,Sea state bias correction on C band,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022171,C band significant wave height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022172,RMS 20 Hz C band significant wave height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022173,Number of 20 Hz valid points for C band significant wave height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022174,C band net instrumental correction for significant wave height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021170,C band corrected ocean backscatter coefficient,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021171,RMS C band corrected ocean backscatter coefficient,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022175,Number of valid points for C band backscatter,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021172,C band net instrumental correction for AGC,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021118,Attenuation correction on sigma-0,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021173,C band automatic gain control,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021174,RMS C band automatic gain control,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021175,Number of valid points for C band automatic gain control,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,002153,Satellite channel centre frequency,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,012063,Brightness temperature,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,002153,Satellite channel centre frequency,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,012063,Brightness temperature,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,002153,Satellite channel centre frequency,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,012063,Brightness temperature,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,013090,Radiometer water vapour content,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,013091,Radiometer liquid content,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,007002,Height or altitude,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,011097,Wind speed from altimeter,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,011098,Wind speed from radiometer,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,007002,Height or altitude,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,011095,u-component of the model wind vector,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,011096,v-component of the model wind vector,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010096,Mean dynamic topography,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010081,Altitude of COG above reference ellipsoid,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010082,Instantaneous altitude rate,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010083,Squared off nadir angle of the satellite from platform data,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010101,Squared off nadir angle of the satellite from waveform data,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025132,Ionospheric correction from model on Ku band,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025163,Altimeter ionospheric correction on Ku band,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025126,Model dry tropospheric correction,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025128,Model wet tropospheric correction,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025164,Radiometer wet tropospheric correction,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010085,Mean sea-surface height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010097,Mean sea-surface height from altimeter only,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010086,Geoid's height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010087,Ocean depth/land elevation,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010092,Solid Earth tide height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010088,Total geocentric ocean tide height (solution 1),,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010089,Total geocentric ocean tide height (solution 2),,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010098,Loading tide height geocentric ocean tide solution 1,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010099,Loading tide height geocentric ocean tide solution 2,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010090,Long period tide height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010100,Non-equilibrium long period tide height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010093,Geocentric pole tide height,,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025127,Inverted barometer correction,Sea-surface height correction due to pressure loading,(see Note),14,Operational
-40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,040014,High-frequency fluctuations of the sea-surface topography correction,,(see Note),14,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),,002019,Satellite instruments,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),,001096,Station acquisition,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),,025061,Software identification and version number,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),,005044,Satellite cycle number,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),,005040,Orbit number,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),,001030,Numerical model identifier,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004001,Year,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004002,Month,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004003,Day,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004004,Hour,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004005,Minute,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Datation,004007,Seconds within a minute (microsecond accuracy),,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,005001,Latitude (high accuracy),,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,006001,Longitude (high accuracy),,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,008029,Surface type,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,008074,Altimeter echo type,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Location and surface type,008077,Radiometer sensed surface type,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,040011,Interpolation flag,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025097,Three-dimensional error estimate of the navigator orbit,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025095,Altimeter state flag,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025098,Altimeter data quality flag,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025099,Altimeter correction quality flag,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,021144,Altimeter rain flag,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,025096,Radiometer state flag,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,040012,Radiometer data quality flag,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,040013,Radiometer brightness temperature interpretation flag,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Flags,021169,Ice presence indicator,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022151,Ku band ocean range,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022162,RMS of 20 Hz Ku band ocean range,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022163,Number of 20 Hz valid points for Ku band,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,025160,Ku band net instrumental correction,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,025133,Sea state bias correction on Ku band,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022156,Ku band significant wave height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022164,RMS 20 Hz Ku band significant wave height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022165,Number of 20 Hz valid points for Ku band significant wave height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022166,Ku band net instrumental correction for significant wave height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021137,Ku band corrected ocean backscatter coefficient,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021138,STD Ku band corrected ocean backscatter coefficient,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,022167,Number of valid points for Ku band backscatter,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021139,Ku band net instrumental correction for AGC,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021118,Attenuation correction on sigma-0,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021145,Ku band automatic gain control,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021146,RMS Ku band automatic gain control,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: Ku band,021147,Number of valid points for Ku band automatic gain control,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022168,C band ocean range,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022169,RMS of C band ocean range,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022170,Number of 20 Hz valid points for C band,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,025161,C band net instrumental correction,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,025162,Sea state bias correction on C band,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022171,C band significant wave height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022172,RMS 20 Hz C band significant wave height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022173,Number of 20 Hz valid points for C band significant wave height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022174,C band net instrumental correction for significant wave height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021170,C band corrected ocean backscatter coefficient,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021171,RMS C band corrected ocean backscatter coefficient,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,022175,Number of valid points for C band backscatter,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021172,C band net instrumental correction for AGC,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021118,Attenuation correction on sigma-0,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021173,C band automatic gain control,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021174,RMS C band automatic gain control,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Altimeter: C band,021175,Number of valid points for C band automatic gain control,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,002153,Satellite channel centre frequency,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,012063,Brightness temperature,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,002153,Satellite channel centre frequency,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,012063,Brightness temperature,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,002153,Satellite channel centre frequency,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,012063,Brightness temperature,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,013090,Radiometer water vapour content,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Radiometer,013091,Radiometer liquid content,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,007002,Height or altitude,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,011097,Wind speed from altimeter,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,011098,Wind speed from radiometer,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,007002,Height or altitude,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,011095,u-component of the model wind vector,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Wind,011096,v-component of the model wind vector,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010096,Mean dynamic topography,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010081,Altitude of COG above reference ellipsoid,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010082,Instantaneous altitude rate,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010083,Squared off nadir angle of the satellite from platform data,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010101,Squared off nadir angle of the satellite from waveform data,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025132,Ionospheric correction from model on Ku band,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025163,Altimeter ionospheric correction on Ku band,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025126,Model dry tropospheric correction,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025128,Model wet tropospheric correction,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025164,Radiometer wet tropospheric correction,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010085,Mean sea-surface height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010097,Mean sea-surface height from altimeter only,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010086,Geoid's height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010087,Ocean depth/land elevation,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010092,Solid Earth tide height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010088,Total geocentric ocean tide height (solution 1),,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010089,Total geocentric ocean tide height (solution 2),,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010098,Loading tide height geocentric ocean tide solution 1,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010099,Loading tide height geocentric ocean tide solution 2,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010090,Long period tide height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010100,Non-equilibrium long period tide height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,010093,Geocentric pole tide height,,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,025127,Inverted barometer correction,Sea-surface height correction due to pressure loading,,,Operational
+40,Additional satellite report sequences,340005,(JASON2 OGDR data),Dynamic topography,040014,High-frequency fluctuations of the sea-surface topography correction,,,,Operational
 40,Additional satellite report sequences,340007,(IASI Level 1c data (all channels)),,001007,Satellite identifier,,,,Operational
 40,Additional satellite report sequences,340007,(IASI Level 1c data (all channels)),,001031,Identification of originating/generating centre,,,,Operational
 40,Additional satellite report sequences,340007,(IASI Level 1c data (all channels)),,002019,Satellite instruments,,,,Operational
@@ -8107,3 +8107,36 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,025112,Band specific altimeter data quality flag,,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,025113,Band specific altimeter correction quality flag,,,,Operational
 40,Additional satellite report sequences,340025,(20 Hz C and Ku band values),,033092,Band specific ocean quality flag,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,001007,Satellite identifier,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,002019,Satellite instruments,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,001033,Identification of originating/generating centre,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,001034,Identification of originating/generating sub-centre,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,301011,"Year, month, day",,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,301013,"Hour, minute, second",,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,301021,Latitude/longitude (high accuracy),,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,010033,Altitude (platform to ellipsoid),,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,008043,Atmospheric chemical or physical constituent type,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,025139,Processing level,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,002155,Satellite channel wavelength,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,112000,Delayed replication of 12 descriptors,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,031002,Extended delayed descriptor replication factor,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,007071,Height (high resolution),,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,033003,Quality information,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,201136,Change data width,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015074,Particle backscatter coefficient,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015066,Uncertainty in particle backscatter coefficient,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015075,Particle extinction coefficient,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015068,Uncertainty in particle extinction coefficient,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,201000,Change data width,Cancel,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015076,Particle lidar ratio,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015070,Uncertainty in lidar ratio,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015078,Particle depolarization ratio,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015072,Uncertainty in depolarization ratio,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,107003,Delayed replication of 7 descriptors,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,005069,Receiver channel,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,104000,Delayed replication of 4 descriptors,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,031002,Extended delayed descriptor replication factor,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,201135,Change data width,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015073,Attenuated backscatter,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,015064,Uncertainty in attenuated backscatter,,,,Operational
+40,Additional satellite report sequences,340026,(Lidar observations from satellite),,201000,Change data width,Cancel,,,Operational
