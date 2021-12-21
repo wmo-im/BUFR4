@@ -158,7 +158,7 @@ noteID,note
 166,West longitude shall be assigned negative values.
 167,West to east u-components shall be assigned positive values.
 168,"When defining an event for use with descriptor 0 33 045 or 0 33 046, descriptor 0 33 042 may be employed in order to indicate that the following value is actually abound for a range of values."
-169,"When descriptor 0 08 043 is used to specify particulate matter (PM) under a given size threshold, descriptor 0 08 045 may also be used to further specify a subset of the PM population on the basis of ion composition."
+169,"When descriptor 0 08 043 is used to specify particulate matter (PM) under a given size threshold, descriptor 0 08 044 or 0 08 046 may also be used to further specify a subset of the PM population on the basis of ion composition."
 170,"When encoding height of cloud base between 20 050 and 21 000 m, 0 20 013 shall be set to 20 050; when encoding height of cloud base above 21 000 m, 0 20 013 shall be set to 20 060."
 171,"When encoding past weather reported from an automatic weather station, the appropriate combination of descriptors 0 20 021, 0 20 022, 0 20 023, 0 20 024, 0 20 025,0 20 026 and 0 20 027 should be used and preferred. Descriptors 0 20 004 or 0 20 005 should be used only when descriptors mentioned above are not applicable."
 172,"When encoding present weather reported from an automatic weather station, the appropriate combination of descriptors 0 20 021, 0 20 022, 0 20 023, 0 20 024,0 20 025, 0 20 026 and 0 20 027 should be used and preferred. Descriptor 0 20 003 should be used only when descriptors mentioned above are not applicable."
