@@ -48,6 +48,7 @@
     <FXY>000004</FXY>
     <ElementName_en>BUFR/CREX Master table</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>98</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -77,6 +78,7 @@
     <FXY>000006</FXY>
     <ElementName_en>BUFR Master table version number</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>33</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -92,6 +94,7 @@
     <FXY>000007</FXY>
     <ElementName_en>CREX Master table version number</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>40</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -107,6 +110,7 @@
     <FXY>000008</FXY>
     <ElementName_en>BUFR Local table version number</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>76</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -388,6 +392,7 @@
     <FXY>001004</FXY>
     <ElementName_en>WMO Region sub-area</ElementName_en>
     <Note_en>(see Note 9)</Note_en>
+    <noteIDs>42</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -500,6 +505,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001012</FXY>
     <ElementName_en>Direction of motion of moving observing platform</ElementName_en>
+    <Note_en>(see Notes 14 and 15)</Note_en>
+    <noteIDs>125,60</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -514,6 +521,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001013</FXY>
     <ElementName_en>Speed of motion of moving observing platform</ElementName_en>
+    <Note_en>(see Notes 14 and 15)</Note_en>
+    <noteIDs>60,125</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -613,6 +622,7 @@
     <FXY>001022</FXY>
     <ElementName_en>Name of feature</ElementName_en>
     <Note_en>(see Note 11)</Note_en>
+    <noteIDs>72</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -656,6 +666,7 @@
     <FXY>001025</FXY>
     <ElementName_en>Storm identifier</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>148</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -670,6 +681,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001026</FXY>
     <ElementName_en>WMO storm name</ElementName_en>
+    <Note_en>(see Note 16)</Note_en>
+    <noteIDs>43</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -684,6 +697,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001027</FXY>
     <ElementName_en>WMO long storm name</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>182</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -727,6 +742,7 @@
     <FXY>001030</FXY>
     <ElementName_en>Numerical model identifier</ElementName_en>
     <Note_en>(see Note 13)</Note_en>
+    <noteIDs>153</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -742,6 +758,7 @@
     <FXY>001031</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>44</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -757,6 +774,7 @@
     <FXY>001032</FXY>
     <ElementName_en>Generating application</ElementName_en>
     <Note_en>(Notes 3, 4 and 5)</Note_en>
+    <noteIDs>175,21,38</noteIDs>
     <BUFR_Unit>Code table defined by originating/generating centre</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -883,7 +901,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001041</FXY>
     <ElementName_en>Absolute platform velocity - first component</ElementName_en>
-    <Note_en>(see Note 6)</Note_en>
+    <Note_en>(see Notes 6, 7 and 8)</Note_en>
+    <noteIDs>134,154,95</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -898,7 +917,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001042</FXY>
     <ElementName_en>Absolute platform velocity - second component</ElementName_en>
-    <Note_en>(see Note 6)</Note_en>
+    <Note_en>(see Notes 6, 7 and 8)</Note_en>
+    <noteIDs>134,154,95</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -913,7 +933,8 @@
     <ClassName_en>Identification</ClassName_en>
     <FXY>001043</FXY>
     <ElementName_en>Absolute platform velocity - third component</ElementName_en>
-    <Note_en>(see Note 6)</Note_en>
+    <Note_en>(see Notes 6, 7 and 8)</Note_en>
+    <noteIDs>134,154,95</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -1125,6 +1146,7 @@
     <FXY>001082</FXY>
     <ElementName_en>Radiosonde ascension number</ElementName_en>
     <Note_en>(see Note 12)</Note_en>
+    <noteIDs>45</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -1140,6 +1162,7 @@
     <FXY>001083</FXY>
     <ElementName_en>Radiosonde release number</ElementName_en>
     <Note_en>(see Note 12)</Note_en>
+    <noteIDs>45</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -1882,6 +1905,8 @@
     <ClassName_en>Instrumentation</ClassName_en>
     <FXY>002021</FXY>
     <ElementName_en>Satellite instrument data used in processing</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>47</noteIDs>
     <BUFR_Unit>Flag table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -2792,6 +2817,8 @@
     <ClassName_en>Instrumentation</ClassName_en>
     <FXY>002100</FXY>
     <ElementName_en>Radar constant</ElementName_en>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>157</noteIDs>
     <BUFR_Unit>dB</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -3353,6 +3380,7 @@
     <FXY>002140</FXY>
     <ElementName_en>Satellite radar beam azimuth angle</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>111</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -3382,6 +3410,7 @@
     <FXY>002142</FXY>
     <ElementName_en>Ozone instrument serial number/identification</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>91</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -3523,6 +3552,7 @@
     <FXY>002152</FXY>
     <ElementName_en>Satellite instrument used in data processing</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>46</noteIDs>
     <BUFR_Unit>Flag table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -3818,6 +3848,7 @@
     <FXY>002173</FXY>
     <ElementName_en>Square of the off-nadir angle</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>124</noteIDs>
     <BUFR_Unit>deg2</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -4729,6 +4760,7 @@
     <FXY>004041</FXY>
     <ElementName_en>Time difference, UTC - LMT</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>48</noteIDs>
     <BUFR_Unit>min</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-1440</BUFR_ReferenceValue>
@@ -4788,7 +4820,7 @@
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
-    <BUFR_DataWidth_Bits> 6</BUFR_DataWidth_Bits>
+    <BUFR_DataWidth_Bits>6</BUFR_DataWidth_Bits>
     <CREX_Unit>Numeric</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
@@ -5066,6 +5098,7 @@
     <FXY>005032</FXY>
     <ElementName_en>Y offset</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>184</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -5585,6 +5618,7 @@
     <FXY>006032</FXY>
     <ElementName_en>X offset</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>183</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -5656,6 +5690,7 @@
     <FXY>007001</FXY>
     <ElementName_en>Height of station</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>116</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-400</BUFR_ReferenceValue>
@@ -5811,6 +5846,7 @@
     <FXY>007021</FXY>
     <ElementName_en>Elevation</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>68</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-9000</BUFR_ReferenceValue>
@@ -5882,6 +5918,7 @@
     <FXY>007030</FXY>
     <ElementName_en>Height of station ground above mean sea level</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>87</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>-4000</BUFR_ReferenceValue>
@@ -5897,6 +5934,7 @@
     <FXY>007031</FXY>
     <ElementName_en>Height of barometer above mean sea level</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>84</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>-4000</BUFR_ReferenceValue>
@@ -5912,6 +5950,7 @@
     <FXY>007032</FXY>
     <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>85</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -5927,6 +5966,7 @@
     <FXY>007033</FXY>
     <ElementName_en>Height of sensor above water surface</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>86</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -5970,6 +6010,7 @@
     <FXY>007040</FXY>
     <ElementName_en>Impact parameter</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>74</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>62000000</BUFR_ReferenceValue>
@@ -6027,6 +6068,7 @@
     <FXY>007064</FXY>
     <ElementName_en>Representative height of sensor above station</ElementName_en>
     <Note_en>(see Note 8)</Note_en>
+    <noteIDs>117</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -6405,6 +6447,8 @@
     <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008023</FXY>
     <ElementName_en>First-order statistics</ElementName_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>70</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -6419,6 +6463,8 @@
     <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008024</FXY>
     <ElementName_en>Difference statistics</ElementName_en>
+    <Note_en>(see Note 4)</Note_en>
+    <noteIDs>61</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -6434,6 +6480,7 @@
     <FXY>008025</FXY>
     <ElementName_en>Time difference qualifier</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>49</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -6519,6 +6566,7 @@
     <FXY>008033</FXY>
     <ElementName_en>Method of derivation of percentage confidence</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>50</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -6659,6 +6707,8 @@
     <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008043</FXY>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>169</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -7037,6 +7087,8 @@
     <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008090</FXY>
     <ElementName_en>Decimal scale of following significands</ElementName_en>
+    <Note_en>(see Note 8)</Note_en>
+    <noteIDs>51</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-127</BUFR_ReferenceValue>
@@ -7086,6 +7138,48 @@
     <CREX_Unit>Code table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -7220,6 +7314,7 @@
     <FXY>010031</FXY>
     <ElementName_en>In direction of the North Pole, distance from the Earth's centre</ElementName_en>
     <Note_en>(see Notes 2 and 3)</Note_en>
+    <noteIDs>93,150</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -7291,6 +7386,7 @@
     <FXY>010036</FXY>
     <ElementName_en>Geoid undulation</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>128</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-15000</BUFR_ReferenceValue>
@@ -8048,6 +8144,7 @@
     <FXY>011019</FXY>
     <ElementName_en>Steadiness of wind</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>147</noteIDs>
     <BUFR_Unit>%</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -9042,6 +9139,8 @@
     <ClassName_en>Temperature</ClassName_en>
     <FXY>012011</FXY>
     <ElementName_en>Maximum temperature, at height and over period specified</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>177</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -9056,6 +9155,8 @@
     <ClassName_en>Temperature</ClassName_en>
     <FXY>012012</FXY>
     <ElementName_en>Minimum temperature, at height and over period specified</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>177</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -9421,6 +9522,7 @@
     <FXY>012076</FXY>
     <ElementName_en>Radiance</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>52</noteIDs>
     <BUFR_Unit>W m-2 sr-1</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -9575,6 +9677,8 @@
     <ClassName_en>Temperature</ClassName_en>
     <FXY>012111</FXY>
     <ElementName_en>Maximum temperature, at height and over period specified</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>177</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -9589,6 +9693,8 @@
     <ClassName_en>Temperature</ClassName_en>
     <FXY>012112</FXY>
     <ElementName_en>Minimum temperature, at height and over period specified</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>177</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -10262,6 +10368,7 @@
     <FXY>013009</FXY>
     <ElementName_en>Relative humidity</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>39</noteIDs>
     <BUFR_Unit>%</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>-1000</BUFR_ReferenceValue>
@@ -10290,6 +10397,8 @@
     <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
     <FXY>013012</FXY>
     <ElementName_en>Depth of fresh snow</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>26</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-2</BUFR_ReferenceValue>
@@ -10304,6 +10413,8 @@
     <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
     <FXY>013013</FXY>
     <ElementName_en>Total snow depth</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>26</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-2</BUFR_ReferenceValue>
@@ -10445,6 +10556,7 @@
     <FXY>013032</FXY>
     <ElementName_en>Evaporation/evapotranspiration</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>53</noteIDs>
     <BUFR_Unit>kg m-2</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -10530,6 +10642,7 @@
     <FXY>013042</FXY>
     <ElementName_en>Parcel lifted index (to 500 hPa)</ElementName_en>
     <Note_en>(see Notes 3 and 4)</Note_en>
+    <noteIDs>119,130</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-20</BUFR_ReferenceValue>
@@ -10545,6 +10658,7 @@
     <FXY>013043</FXY>
     <ElementName_en>Best lifted index (to 500 hPa)</ElementName_en>
     <Note_en>(see Notes 3 and 4)</Note_en>
+    <noteIDs>119,130</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-20</BUFR_ReferenceValue>
@@ -10602,6 +10716,7 @@
     <FXY>013047</FXY>
     <ElementName_en>Modified Showalter stability index</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>129</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-60</BUFR_ReferenceValue>
@@ -11093,6 +11208,7 @@
     <FXY>013115</FXY>
     <ElementName_en>Ice thickness</ElementName_en>
     <Note_en>(see Note 9)</Note_en>
+    <noteIDs>88</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -11136,6 +11252,7 @@
     <FXY>013118</FXY>
     <ElementName_en>Depth of fresh snow (high accuracy)</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>41</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>-2</BUFR_ReferenceValue>
@@ -11151,6 +11268,7 @@
     <FXY>013155</FXY>
     <ElementName_en>Intensity of precipitation (high accuracy)</ElementName_en>
     <Note_en>(see Note 8)</Note_en>
+    <noteIDs>28</noteIDs>
     <BUFR_Unit>kg m-2 s-1</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-1</BUFR_ReferenceValue>
@@ -11641,6 +11759,8 @@
     <ClassName_en>Radiation and radiance</ClassName_en>
     <FXY>014043</FXY>
     <ElementName_en>Channel radiance</ElementName_en>
+    <Note_en>(see Note 7)</Note_en>
+    <noteIDs>35</noteIDs>
     <BUFR_Unit>W m-2 sr-1 um-1</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -11670,6 +11790,7 @@
     <FXY>014045</FXY>
     <ElementName_en>Channel radiance</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>36</noteIDs>
     <BUFR_Unit>W m-2 sr-1 cm</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -11685,6 +11806,7 @@
     <FXY>014046</FXY>
     <ElementName_en>Scaled radiance</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>29</noteIDs>
     <BUFR_Unit>W m-2 sr-1 m</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-5000</BUFR_ReferenceValue>
@@ -11725,9 +11847,24 @@
   <BUFRCREX_TableB_en>
     <ClassNo>14</ClassNo>
     <ClassName_en>Radiation and radiance</ClassName_en>
+    <FXY>014049</FXY>
+    <ElementName_en>Noise equivalent delta radiance</ElementName_en>
+    <BUFR_Unit>W m-2 sr-1 cm</BUFR_Unit>
+    <BUFR_Scale>7</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>22</BUFR_DataWidth_Bits>
+    <CREX_Unit>W m-2 sr-1 cm</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>0</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>14</ClassNo>
+    <ClassName_en>Radiation and radiance</ClassName_en>
     <FXY>014050</FXY>
     <ElementName_en>Emissivity</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>69</noteIDs>
     <BUFR_Unit>%</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -11841,6 +11978,7 @@
     <FXY>014072</FXY>
     <ElementName_en>Global UV irradiation</ElementName_en>
     <Note_en>(see Note 8)</Note_en>
+    <noteIDs>83</noteIDs>
     <BUFR_Unit>J m-2</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-4000000</BUFR_ReferenceValue>
@@ -11884,6 +12022,7 @@
     <FXY>015003</FXY>
     <ElementName_en>Measured ozone partial pressure (sounding)</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>1</noteIDs>
     <BUFR_Unit>Pa</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -11899,6 +12038,7 @@
     <FXY>015004</FXY>
     <ElementName_en>Ozone sounding correction factor (CF)</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>2</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -11914,6 +12054,7 @@
     <FXY>015005</FXY>
     <ElementName_en>Ozone p</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>3</noteIDs>
     <BUFR_Unit>DU</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12139,6 +12280,7 @@
     <FXY>015030</FXY>
     <ElementName_en>Aerosol contamination index</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>79</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-1000</BUFR_ReferenceValue>
@@ -12224,6 +12366,7 @@
     <FXY>015036</FXY>
     <ElementName_en>Atmospheric refractivity</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>142</noteIDs>
     <BUFR_Unit>N units</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12251,8 +12394,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015038</FXY>
-    <ElementName_en>Path delay due to neutral atmosphere (see Note 10)</ElementName_en>
-    <Note_en>(10) 0 15 038 is the delay of an electromagnetic wave in the neutral atmosphere as compared to undisturbed propagation in vacuum. The delay due to ionized gases in the ionosphere is not covered, hence &quot;neutral atmosphere&quot;. The delay in meters is the time delay multiplied by the vacuum speed of light.</Note_en>
+    <ElementName_en>Path delay due to neutral atmosphere</ElementName_en>
+    <Note_en>(see Note 10)</Note_en>
+    <noteIDs>4</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12282,6 +12426,7 @@
     <FXY>015041</FXY>
     <ElementName_en>Sulphur dioxide index</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>78</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-1200</BUFR_ReferenceValue>
@@ -12311,6 +12456,7 @@
     <FXY>015045</FXY>
     <ElementName_en>Sulphur dioxide</ElementName_en>
     <Note_en>(see Note 8)</Note_en>
+    <noteIDs>77</noteIDs>
     <BUFR_Unit>DU</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-2000</BUFR_ReferenceValue>
@@ -12326,6 +12472,7 @@
     <FXY>015046</FXY>
     <ElementName_en>Volcano contamination index</ElementName_en>
     <Note_en>(see Note 9)</Note_en>
+    <noteIDs>80</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-1000</BUFR_ReferenceValue>
@@ -12661,8 +12808,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015079</FXY>
-    <ElementName_en>Zenith path delay due to neutral atmosphere (see Note 11)</ElementName_en>
-    <Note_en>(11) 0 15 079 is the hypothetical path delay with the transmitter, e.g. GNSS satellite, in the zenith of the receiver.</Note_en>
+    <ElementName_en>Zenith path delay due to neutral atmosphere</ElementName_en>
+    <Note_en>(see Note 11)</Note_en>
+    <noteIDs>5</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12690,8 +12838,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015081</FXY>
-    <ElementName_en>Wet path delay due to neutral atmosphere (see Note 12)</ElementName_en>
-    <Note_en>(12) 0 15 081 is the contribution of atmospheric water vapour to the path delay.</Note_en>
+    <ElementName_en>Wet path delay due to neutral atmosphere</ElementName_en>
+    <Note_en> (see Note 12)</Note_en>
+    <noteIDs>6</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12705,8 +12854,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015082</FXY>
-    <ElementName_en>Path integrated water vapour (see Note 16)</ElementName_en>
-    <Note_en>(16) 015082 is the amount of atmospheric water vapour integrated along the signal path.</Note_en>
+    <ElementName_en>Path integrated water vapour</ElementName_en>
+    <Note_en>(see Note 16)</Note_en>
+    <noteIDs>16</noteIDs>
     <BUFR_Unit>kg m-2</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12720,11 +12870,12 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015083</FXY>
-    <ElementName_en>GNSS derived neutral atmosphere gradient (see Note 17)</ElementName_en>
-    <Note_en>(17) 0 15 083 is the gradient (east-west or north-south) of the neutral atmosphere estimated by the GNSS processing.</Note_en>
+    <ElementName_en>GNSS derived neutral atmosphere gradient</ElementName_en>
+    <Note_en>(see Note 17)</Note_en>
+    <noteIDs>7</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
-    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_ReferenceValue>-8192</BUFR_ReferenceValue>
     <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>5</CREX_Scale>
@@ -12735,8 +12886,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015084</FXY>
-    <ElementName_en>GNSS least squares residual (see Note 18)</ElementName_en>
-    <Note_en>(18) 015084 Non-modelled contribution to the path delay estimated by the least squares adjustment of GNSS path delays.</Note_en>
+    <ElementName_en>GNSS least squares residual</ElementName_en>
+    <Note_en>(see Note 18)</Note_en>
+    <noteIDs>17</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12750,8 +12902,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015085</FXY>
-    <ElementName_en>GNSS multi-path delay (see Note 15)</ElementName_en>
-    <Note_en>(15) 0 15 085 is the excess delay due to multi-path effects which needs to be removed from the estimated path delay.</Note_en>
+    <ElementName_en>GNSS multi-path delay</ElementName_en>
+    <Note_en>(see Note 15)</Note_en>
+    <noteIDs>8</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12765,8 +12918,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015086</FXY>
-    <ElementName_en>GNSS hydrostatic mapping function (see Note 19)</ElementName_en>
-    <Note_en>(19) A mapping function is an empirical projection of the zenith delay onto the path delay: Path delay = mapping function  zenith delay. It is a dimensionless real number greater than or equal to one. Different mapping functions are used for the wet and hydrostatic contributions to the delay and for the GNSS gradients.</Note_en>
+    <ElementName_en>GNSS hydrostatic mapping function</ElementName_en>
+    <Note_en>(see Note 19)</Note_en>
+    <noteIDs>22</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12780,7 +12934,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015087</FXY>
-    <ElementName_en>GNSS wet mapping function (see Note 19)</ElementName_en>
+    <ElementName_en>GNSS wet mapping function</ElementName_en>
+    <Note_en>(see Note 19)</Note_en>
+    <noteIDs>22</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12794,7 +12950,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015088</FXY>
-    <ElementName_en>GNSS gradient mapping function(see Note 19)</ElementName_en>
+    <ElementName_en>GNSS gradient mapping function</ElementName_en>
+    <Note_en>(see Note 19)</Note_en>
+    <noteIDs>22</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12808,8 +12966,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015089</FXY>
-    <ElementName_en>Zenith path delay due to neutral hydrostatic atmosphere (see Note 13)</ElementName_en>
-    <Note_en>(13) 015089 is the contribution of the (almost) dry atmosphere to the zenith path delay as expressed by the hydrostatic equation.</Note_en>
+    <ElementName_en>Zenith path delay due to neutral hydrostatic atmosphere</ElementName_en>
+    <Note_en>(see Note 13)</Note_en>
+    <noteIDs>18</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12823,8 +12982,9 @@
     <ClassNo>15</ClassNo>
     <ClassName_en>Physical/chemical constituents</ClassName_en>
     <FXY>015090</FXY>
-    <ElementName_en>Path delay due to neutral hydrostatic atmosphere (see Note 14)</ElementName_en>
-    <Note_en>(14) 015090 is the zenith path delay due to the neutral hydrostatic atmosphere mapped onto the signal path.</Note_en>
+    <ElementName_en>Path delay due to neutral hydrostatic atmosphere</ElementName_en>
+    <Note_en>(see Note 14)</Note_en>
+    <noteIDs>19</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12854,6 +13014,7 @@
     <FXY>019002</FXY>
     <ElementName_en>Effective radius of feature</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>138</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>-2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12869,6 +13030,7 @@
     <FXY>019003</FXY>
     <ElementName_en>Wind speed threshold</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>99</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12884,6 +13046,7 @@
     <FXY>019004</FXY>
     <ElementName_en>Effective radius with respect to wind speeds above threshold</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>99</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>-2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12899,6 +13062,7 @@
     <FXY>019005</FXY>
     <ElementName_en>Direction of motion of feature</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>73</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -12914,6 +13078,7 @@
     <FXY>019006</FXY>
     <ElementName_en>Speed of motion of feature</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>73</noteIDs>
     <BUFR_Unit>m/s</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13307,6 +13472,7 @@
     <FXY>020003</FXY>
     <ElementName_en>Present weather</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>172</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13322,6 +13488,7 @@
     <FXY>020004</FXY>
     <ElementName_en>Past weather (1)</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>171</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13337,6 +13504,7 @@
     <FXY>020005</FXY>
     <ElementName_en>Past weather (2)</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>171</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13394,6 +13562,7 @@
     <FXY>020010</FXY>
     <ElementName_en>Cloud cover (total)</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>20</noteIDs>
     <BUFR_Unit>%</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13436,6 +13605,8 @@
     <ClassName_en>Observed phenomena</ClassName_en>
     <FXY>020013</FXY>
     <ElementName_en>Height of base of cloud</ElementName_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>170</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>-1</BUFR_Scale>
     <BUFR_ReferenceValue>-40</BUFR_ReferenceValue>
@@ -13521,6 +13692,7 @@
     <FXY>020019</FXY>
     <ElementName_en>Significant present or forecast weather</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>118</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13536,6 +13708,7 @@
     <FXY>020020</FXY>
     <ElementName_en>Significant recent weather phenomena</ElementName_en>
     <Note_en>(see Note 15)</Note_en>
+    <noteIDs>118</noteIDs>
     <BUFR_Unit>CCITT IA5</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13775,6 +13948,7 @@
     <FXY>020038</FXY>
     <ElementName_en>Bearing of ice edge</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>135</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -13958,6 +14132,7 @@
     <FXY>020054</FXY>
     <ElementName_en>True direction from which a phenomenon or clouds are moving or in which they are observed</ElementName_en>
     <Note_en>(see Note 17)</Note_en>
+    <noteIDs>159</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14029,6 +14204,7 @@
     <FXY>020060</FXY>
     <ElementName_en>Prevailing horizontal visibility</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>24</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>-1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14086,6 +14262,7 @@
     <FXY>020065</FXY>
     <ElementName_en>Snow cover</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>120</noteIDs>
     <BUFR_Unit>%</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14465,6 +14642,7 @@
     <FXY>020111</FXY>
     <ElementName_en>x-axis error ellipse major component</ElementName_en>
     <Note_en>(see Notes 8 and 9)</Note_en>
+    <noteIDs>89,90</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>-1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14480,6 +14658,7 @@
     <FXY>020112</FXY>
     <ElementName_en>y-axis error ellipse minor component</ElementName_en>
     <Note_en>(see Notes 8 and 9)</Note_en>
+    <noteIDs>89,90</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>-1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14495,6 +14674,7 @@
     <FXY>020113</FXY>
     <ElementName_en>z-axis error ellipse component</ElementName_en>
     <Note_en>(see Note 9)</Note_en>
+    <noteIDs>89</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>-1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14510,6 +14690,7 @@
     <FXY>020114</FXY>
     <ElementName_en>Angle of x-axis in error ellipse</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>31</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-18000</BUFR_ReferenceValue>
@@ -14525,6 +14706,7 @@
     <FXY>020115</FXY>
     <ElementName_en>Angle of z-axis in error ellipse</ElementName_en>
     <Note_en>(see Note 11)</Note_en>
+    <noteIDs>30</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-18000</BUFR_ReferenceValue>
@@ -14596,6 +14778,7 @@
     <FXY>020121</FXY>
     <ElementName_en>Threshold value for polarity decision</ElementName_en>
     <Note_en>(see Note 12)</Note_en>
+    <noteIDs>9</noteIDs>
     <BUFR_Unit>V</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14611,6 +14794,7 @@
     <FXY>020122</FXY>
     <ElementName_en>Threshold value for polarity decision</ElementName_en>
     <Note_en>(see Note 13)</Note_en>
+    <noteIDs>10</noteIDs>
     <BUFR_Unit>A</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14626,6 +14810,7 @@
     <FXY>020123</FXY>
     <ElementName_en>Minimum threshold for detection</ElementName_en>
     <Note_en>(see Note 14)</Note_en>
+    <noteIDs>102</noteIDs>
     <BUFR_Unit>V/m</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14711,6 +14896,7 @@
     <FXY>020130</FXY>
     <ElementName_en>Cloud hydrometeor concentration</ElementName_en>
     <Note_en>(see Note 16)</Note_en>
+    <noteIDs>37</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -14900,6 +15086,62 @@
     <CREX_Unit>dB</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021007</FXY>
+    <ElementName_en>Radar reflectivity factor</ElementName_en>
+    <BUFR_Unit>dB</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-9000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>dB</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>0</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021008</FXY>
+    <ElementName_en>Uncertainty in radar reflectivity factor</ElementName_en>
+    <BUFR_Unit>dB</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>13</BUFR_DataWidth_Bits>
+    <CREX_Unit>dB</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>0</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021009</FXY>
+    <ElementName_en>Vertical Doppler velocity</ElementName_en>
+    <BUFR_Unit>m/s</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-10000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>m/s</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>0</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021010</FXY>
+    <ElementName_en>Uncertainty in vertical Doppler velocity</ElementName_en>
+    <BUFR_Unit>m/s</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-10000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>m/s</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>0</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -15901,6 +16143,7 @@
     <ClassName_en>Radar data</ClassName_en>
     <FXY>021121</FXY>
     <ElementName_en>SEAWINDS NOF rain index</ElementName_en>
+    <noteIDs>106</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -16573,6 +16816,7 @@
     <ClassName_en>Radar data</ClassName_en>
     <FXY>021177</FXY>
     <ElementName_en>Corrected OCOG backscatter coefficient</ElementName_en>
+    <noteIDs>112</noteIDs>
     <BUFR_Unit>dB</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -16741,7 +16985,7 @@
     <ClassName_en>Radar data</ClassName_en>
     <FXY>021189</FXY>
     <ElementName_en>Corrected OCOG backscatter coefficient (negative reference)</ElementName_en>
-    <Note_en>is similar to 0-21-177, but with a negative reference value</Note_en>
+    <noteIDs>112,11</noteIDs>
     <BUFR_Unit>dB</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-32768</BUFR_ReferenceValue>
@@ -16756,6 +17000,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022001</FXY>
     <ElementName_en>Direction of waves</ElementName_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>136</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -16770,6 +17016,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022002</FXY>
     <ElementName_en>Direction of wind waves</ElementName_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>136</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -16784,6 +17032,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022003</FXY>
     <ElementName_en>Direction of swell waves</ElementName_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>136</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -16799,6 +17049,7 @@
     <FXY>022004</FXY>
     <ElementName_en>Direction of current</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>54</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17024,6 +17275,7 @@
     <FXY>022039</FXY>
     <ElementName_en>Meteorological residual tidal elevation (surge or offset)</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>55</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>-5000</BUFR_ReferenceValue>
@@ -17039,6 +17291,7 @@
     <FXY>022040</FXY>
     <ElementName_en>Meteorological residual tidal elevation (surge or offset)</ElementName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>55</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>-5000</BUFR_ReferenceValue>
@@ -17347,6 +17600,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022070</FXY>
     <ElementName_en>Significant wave height</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>146</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17431,6 +17686,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022076</FXY>
     <ElementName_en>Direction from which dominant waves are coming</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>137</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17445,6 +17702,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022077</FXY>
     <ElementName_en>Directional spread of dominant wave</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>137</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17571,6 +17830,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022086</FXY>
     <ElementName_en>Mean direction from which waves are coming</ElementName_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>100</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17725,6 +17986,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022097</FXY>
     <ElementName_en>Mean wavelength &gt; 731 m of image spectrum at low wave numbers</ElementName_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>107</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17739,6 +18002,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022098</FXY>
     <ElementName_en>Wavelength spread (wavelength &gt; 731 m) at low wave numbers</ElementName_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>107</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17753,6 +18018,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022099</FXY>
     <ElementName_en>Mean direction at low wave numbers (wavelength &gt; 731 m)</ElementName_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>107</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17767,6 +18034,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022100</FXY>
     <ElementName_en>Direction spread at low wave numbers (wavelength &gt; 731 m)</ElementName_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>107</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17781,6 +18050,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022101</FXY>
     <ElementName_en>Total energy (wavelength &gt; 731m) at low wave numbers</ElementName_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>107</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17796,6 +18067,7 @@
     <FXY>022102</FXY>
     <ElementName_en>Scaled maximum non-directional spectral wave density by frequency</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>104</noteIDs>
     <BUFR_Unit>m2 s</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17811,6 +18083,7 @@
     <FXY>022103</FXY>
     <ElementName_en>Scaled maximum non-directional spectral wave density by wave number</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>104</noteIDs>
     <BUFR_Unit>m3</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17826,6 +18099,7 @@
     <FXY>022104</FXY>
     <ElementName_en>Scaled non-directional spectral wave density by frequency</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>104</noteIDs>
     <BUFR_Unit>m2 s</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17841,6 +18115,7 @@
     <FXY>022105</FXY>
     <ElementName_en>Scaled non-directional spectral wave density by wave number</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>104</noteIDs>
     <BUFR_Unit>m3</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17856,6 +18131,7 @@
     <FXY>022106</FXY>
     <ElementName_en>Scaled directional spectral wave density by frequency</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>104</noteIDs>
     <BUFR_Unit>m2 s rad-1</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -17871,6 +18147,7 @@
     <FXY>022107</FXY>
     <ElementName_en>Scaled directional spectral wave density by wave number</ElementName_en>
     <Note_en>(see Note 10)</Note_en>
+    <noteIDs>104</noteIDs>
     <BUFR_Unit>m4</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -18543,7 +18820,8 @@
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022179</FXY>
     <ElementName_en>Specific band significant wave height (negative reference)</ElementName_en>
-    <Note_en>similar to 0-22-190, but with a negative reference value</Note_en>
+    <Note_en>(see Note 13)</Note_en>
+    <noteIDs>12</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>-500</BUFR_ReferenceValue>
@@ -18559,6 +18837,7 @@
     <FXY>022182</FXY>
     <ElementName_en>Water column height</ElementName_en>
     <Note_en>(see Note 9)</Note_en>
+    <noteIDs>139</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>3</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -18602,6 +18881,7 @@
     <FXY>022186</FXY>
     <ElementName_en>Direction from which waves are coming</ElementName_en>
     <Note_en>(see Note 11)</Note_en>
+    <noteIDs>13</noteIDs>
     <BUFR_Unit>degree true</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -18617,6 +18897,7 @@
     <FXY>022187</FXY>
     <ElementName_en>Directional spread of wave</ElementName_en>
     <Note_en>(see Note 12)</Note_en>
+    <noteIDs>14</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19150,6 +19431,7 @@
     <FXY>024014</FXY>
     <ElementName_en>Gamma radiation dose rate</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>81</noteIDs>
     <BUFR_Unit>nSv/h</BUFR_Unit>
     <BUFR_Scale>1</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19333,6 +19615,7 @@
     <FXY>025009</FXY>
     <ElementName_en>Calibration method</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>56</noteIDs>
     <BUFR_Unit>Flag table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19404,6 +19687,7 @@
     <FXY>025014</FXY>
     <ElementName_en>Azimuth clutter cut-off</ElementName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>15</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19601,6 +19885,7 @@
     <FXY>025029</FXY>
     <ElementName_en>Calibration method</ElementName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>56</noteIDs>
     <BUFR_Unit>Flag table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19644,6 +19929,7 @@
     <FXY>025032</FXY>
     <ElementName_en>Wind profiler mode information</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>131</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19659,6 +19945,7 @@
     <FXY>025033</FXY>
     <ElementName_en>Wind profiler submode information</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>131</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19674,6 +19961,7 @@
     <FXY>025034</FXY>
     <ElementName_en>Wind profiler quality control test results</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>131</noteIDs>
     <BUFR_Unit>Flag table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19689,6 +19977,7 @@
     <FXY>025035</FXY>
     <ElementName_en>Decision method for polarity</ElementName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>34</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -19970,6 +20259,7 @@
     <FXY>025060</FXY>
     <ElementName_en>Software identification</ElementName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>131</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -20013,6 +20303,7 @@
     <FXY>025063</FXY>
     <ElementName_en>Central processor or system identifier</ElementName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>71</noteIDs>
     <BUFR_Unit>Code table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -20865,6 +21156,20 @@
   <BUFRCREX_TableB_en>
     <ClassNo>25</ClassNo>
     <ClassName_en>Processing information</ClassName_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>5</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>4</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>25</ClassNo>
+    <ClassName_en>Processing information</ClassName_en>
     <FXY>025140</FXY>
     <ElementName_en>Start channel</ElementName_en>
     <BUFR_Unit>Numeric</BUFR_Unit>
@@ -20909,6 +21214,8 @@
     <ClassName_en>Processing information</ClassName_en>
     <FXY>025143</FXY>
     <ElementName_en>Linear coefficient</ElementName_en>
+    <Note_en>(see Note 4)</Note_en>
+    <noteIDs>57</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>6</BUFR_Scale>
     <BUFR_ReferenceValue>-5000000</BUFR_ReferenceValue>
@@ -21134,6 +21441,7 @@
     <FXY>025175</FXY>
     <ElementName_en>Modified residual</ElementName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>103</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -21344,6 +21652,8 @@
     <ClassName_en>Non-coordinate location (time)</ClassName_en>
     <FXY>026003</FXY>
     <ElementName_en>Time difference</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>58</noteIDs>
     <BUFR_Unit>min</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>-1440</BUFR_ReferenceValue>
@@ -21470,6 +21780,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 1)</ClassName_en>
     <FXY>027003</FXY>
     <ElementName_en>Alternate latitude (coarse accuracy)</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>132</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-9000</BUFR_ReferenceValue>
@@ -21484,6 +21796,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 1)</ClassName_en>
     <FXY>027004</FXY>
     <ElementName_en>Alternate latitude (high accuracy)</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>132</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-9000000</BUFR_ReferenceValue>
@@ -21512,6 +21826,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 1)</ClassName_en>
     <FXY>027020</FXY>
     <ElementName_en>Satellite location counter</ElementName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>143</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -21526,6 +21842,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 1)</ClassName_en>
     <FXY>027021</FXY>
     <ElementName_en>Satellite sublocation dimension</ElementName_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>144</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -21540,6 +21858,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 1)</ClassName_en>
     <FXY>027031</FXY>
     <ElementName_en>In direction of 0 degrees longitude, distance from the Earth's centre</ElementName_en>
+    <Note_en>(see Notes 4 and 5)</Note_en>
+    <noteIDs>96,151</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -21610,6 +21930,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 2)</ClassName_en>
     <FXY>028003</FXY>
     <ElementName_en>Alternate longitude (coarse accuracy)</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>133</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-18000</BUFR_ReferenceValue>
@@ -21624,6 +21946,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 2)</ClassName_en>
     <FXY>028004</FXY>
     <ElementName_en>Alternate longitude (high accuracy)</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>133</noteIDs>
     <BUFR_Unit>deg</BUFR_Unit>
     <BUFR_Scale>5</BUFR_Scale>
     <BUFR_ReferenceValue>-18000000</BUFR_ReferenceValue>
@@ -21652,6 +21976,8 @@
     <ClassName_en>Non-coordinate location (horizontal - 2)</ClassName_en>
     <FXY>028031</FXY>
     <ElementName_en>In direction 90 degrees East, distance from the Earth's centre</ElementName_en>
+    <Note_en>(see Notes 2 and 3)</Note_en>
+    <noteIDs>94,152</noteIDs>
     <BUFR_Unit>m</BUFR_Unit>
     <BUFR_Scale>2</BUFR_Scale>
     <BUFR_ReferenceValue>-1073741824</BUFR_ReferenceValue>
@@ -21881,6 +22207,8 @@
     <ClassName_en>Data description operator qualifiers</ClassName_en>
     <FXY>031011</FXY>
     <ElementName_en>Delayed descriptor and data repetition factor</ElementName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>127</noteIDs>
     <BUFR_Unit>Numeric</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -21914,6 +22242,8 @@
     <ClassName_en>Data description operator qualifiers</ClassName_en>
     <FXY>031031</FXY>
     <ElementName_en>Data present indicator</ElementName_en>
+    <Note_en>(see Notes 2 and 3) </Note_en>
+    <noteIDs>59,113</noteIDs>
     <BUFR_Unit>Flag table</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -22332,6 +22662,7 @@
     <FXY>033045</FXY>
     <ElementName_en>Probability of following event</ElementName_en>
     <Note_en>(see Notes 1 and 3)</Note_en>
+    <noteIDs>168,173</noteIDs>
     <BUFR_Unit>%</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -22347,6 +22678,7 @@
     <FXY>033046</FXY>
     <ElementName_en>Conditional probability of following event with respect to specified conditioning event</ElementName_en>
     <Note_en>(see Notes 1, 2 and 3)</Note_en>
+    <noteIDs>168,173,174</noteIDs>
     <BUFR_Unit>%</BUFR_Unit>
     <BUFR_Scale>0</BUFR_Scale>
     <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
@@ -24013,6 +24345,8 @@
     <ClassName_en>Satellite data</ClassName_en>
     <FXY>040069</FXY>
     <ElementName_en>PWLR estimated retrieval error for surface air temperature</ElementName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>114</noteIDs>
     <BUFR_Unit>K</BUFR_Unit>
     <BUFR_Scale>4</BUFR_Scale>
     <BUFR_ReferenceValue>-1000000</BUFR_ReferenceValue>

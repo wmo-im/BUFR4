@@ -1,16 +1,16 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-06,Location (horizontal - 2),006001,Longitude (high accuracy),,deg,5,-18000000,26,deg,5,8,Operational
-06,Location (horizontal - 2),006002,Longitude (coarse accuracy),,deg,2,-18000,16,deg,2,5,Operational
-06,Location (horizontal - 2),006011,Longitude increment (high accuracy),,deg,5,-18000000,26,deg,5,8,Operational
-06,Location (horizontal - 2),006012,Longitude increment (coarse accuracy),,deg,2,-18000,16,deg,2,5,Operational
-06,Location (horizontal - 2),006015,Longitude displacement (high accuracy),,deg,5,-18000000,26,deg,5,8,Operational
-06,Location (horizontal - 2),006016,Longitude displacement (coarse accuracy),,deg,2,-18000,16,deg,2,5,Operational
-06,Location (horizontal - 2),006021,Distance,,m,-1,0,13,m,-1,4,Operational
-06,Location (horizontal - 2),006029,Wave number,,/m,1,0,22,/m,1,7,Operational
-06,Location (horizontal - 2),006030,Wave number (spectral),,rad/m,5,0,13,rad/m,5,4,Operational
-06,Location (horizontal - 2),006031,Column number,,Numeric,0,0,12,Numeric,0,4,Operational
-06,Location (horizontal - 2),006032,X offset,(see Note 6),m,2,-1073741824,31,m,2,11,Operational
-06,Location (horizontal - 2),006033,Pixel size on horizontal - 2,,m,-1,0,16,m,-1,5,Operational
-06,Location (horizontal - 2),006034,Cross-track cell number,,Numeric,0,0,7,Numeric,0,3,Operational
-06,Location (horizontal - 2),006035,Maximum size of y-dimension,,Numeric,0,0,12,Numeric,0,4,Operational
-06,Location (horizontal - 2),006040,Radius of confidence,,m,0,0,13,m,0,4,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+06,Location (horizontal - 2),006001,Longitude (high accuracy),,,deg,5,-18000000,26,deg,5,8,Operational
+06,Location (horizontal - 2),006002,Longitude (coarse accuracy),,,deg,2,-18000,16,deg,2,5,Operational
+06,Location (horizontal - 2),006011,Longitude increment (high accuracy),,,deg,5,-18000000,26,deg,5,8,Operational
+06,Location (horizontal - 2),006012,Longitude increment (coarse accuracy),,,deg,2,-18000,16,deg,2,5,Operational
+06,Location (horizontal - 2),006015,Longitude displacement (high accuracy),,,deg,5,-18000000,26,deg,5,8,Operational
+06,Location (horizontal - 2),006016,Longitude displacement (coarse accuracy),,,deg,2,-18000,16,deg,2,5,Operational
+06,Location (horizontal - 2),006021,Distance,,,m,-1,0,13,m,-1,4,Operational
+06,Location (horizontal - 2),006029,Wave number,,,/m,1,0,22,/m,1,7,Operational
+06,Location (horizontal - 2),006030,Wave number (spectral),,,rad/m,5,0,13,rad/m,5,4,Operational
+06,Location (horizontal - 2),006031,Column number,,,Numeric,0,0,12,Numeric,0,4,Operational
+06,Location (horizontal - 2),006032,X offset,(see Note 6),183,m,2,-1073741824,31,m,2,11,Operational
+06,Location (horizontal - 2),006033,Pixel size on horizontal - 2,,,m,-1,0,16,m,-1,5,Operational
+06,Location (horizontal - 2),006034,Cross-track cell number,,,Numeric,0,0,7,Numeric,0,3,Operational
+06,Location (horizontal - 2),006035,Maximum size of y-dimension,,,Numeric,0,0,12,Numeric,0,4,Operational
+06,Location (horizontal - 2),006040,Radius of confidence,,,m,0,0,13,m,0,4,Operational

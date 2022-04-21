@@ -1,69 +1,69 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-33,Quality information,033002,Quality information,,Code table,0,0,2,Code table,0,1,Operational
-33,Quality information,033003,Quality information,,Code table,0,0,3,Code table,0,1,Operational
-33,Quality information,033005,Quality information (AWS data),,Flag table,0,0,30,Flag table,0,10,Operational
-33,Quality information,033006,Internal measurement status information (AWS),,Code table,0,0,3,Code table,0,1,Operational
-33,Quality information,033007,Per cent confidence,,%,0,0,7,%,0,3,Operational
-33,Quality information,033015,Data quality-check indicator,,Code table,0,0,6,Code table,0,2,Operational
-33,Quality information,033020,Quality control indication of following value,,Code table,0,0,3,Code table,0,1,Operational
-33,Quality information,033021,Quality of following value,,Code table,0,0,2,Code table,0,1,Operational
-33,Quality information,033022,Quality of buoy satellite transmission,,Code table,0,0,2,Code table,0,1,Operational
-33,Quality information,033023,Quality of buoy location,,Code table,0,0,2,Code table,0,1,Operational
-33,Quality information,033024,Station elevation quality mark (for mobile stations),,Code table,0,0,4,Code table,0,2,Operational
-33,Quality information,033025,ACARS interpolated values indicator,,Code table,0,0,3,Code table,0,1,Operational
-33,Quality information,033026,Moisture quality,,Code table,0,0,6,Code table,0,2,Operational
-33,Quality information,033027,Location quality class (range of radius of 66 % confidence),,Code table,0,0,3,Code table,0,1,Operational
-33,Quality information,033028,Snapshot overall quality,,Code table,0,0,3,Code table,0,1,Operational
-33,Quality information,033030,Scan line status flags for ATOVS,,Flag table,0,0,24,Flag table,0,8,Operational
-33,Quality information,033031,Scan line quality flags for ATOVS,,Flag table,0,0,24,Flag table,0,8,Operational
-33,Quality information,033032,Channel quality flags for ATOVS,,Flag table,0,0,24,Flag table,0,8,Operational
-33,Quality information,033033,Field of view quality flags for ATOVS,,Flag table,0,0,24,Flag table,0,8,Operational
-33,Quality information,033035,Manual/automatic quality control,,Code table,0,0,4,Code table,0,2,Operational
-33,Quality information,033036,Nominal confidence threshold,,%,0,0,7,%,0,3,Operational
-33,Quality information,033037,Wind correlation error,,Flag table,0,0,20,Flag table,0,7,Operational
-33,Quality information,033038,Quality flags for ground-based GNSS data,,Flag table,0,0,10,Flag table,0,4,Operational
-33,Quality information,033039,Quality flags for radio occultation data,,Flag table,0,0,16,Flag table,0,6,Operational
-33,Quality information,033040,Confidence interval,,%,0,0,7,%,0,3,Operational
-33,Quality information,033041,Attribute of following value,,Code table,0,0,2,Code table,0,1,Operational
-33,Quality information,033042,Type of limit represented by following value,,Code table,0,0,3,Code table,0,1,Operational
-33,Quality information,033043,AST confidence,,Flag table,0,0,8,Flag table,0,3,Operational
-33,Quality information,033044,ASAR quality information,,Flag table,0,0,15,Flag table,0,5,Operational
-33,Quality information,033045,Probability of following event,(see Notes 1 and 3),%,0,0,7,%,0,3,Operational
-33,Quality information,033046,Conditional probability of following event with respect to specified conditioning event,"(see Notes 1, 2 and 3)",%,0,0,7,%,0,3,Operational
-33,Quality information,033047,Measurement confidence data,,Flag table,0,0,31,Flag table,0,11,Operational
-33,Quality information,033048,Confidence measure of SAR inversion,,Code table,0,0,2,Code table,0,1,Operational
-33,Quality information,033049,Confidence measure of wind retrieval,,Code table,0,0,2,Code table,0,1,Operational
-33,Quality information,033050,Global GTSPP quality flag,,Code table,0,0,4,Code table,0,2,Operational
-33,Quality information,033052,S band ocean retracking quality,,Flag table,0,0,21,Flag table,0,7,Operational
-33,Quality information,033053,Ku band ocean retracking quality,,Flag table,0,0,21,Flag table,0,7,Operational
-33,Quality information,033055,Wind vector quality flag,,Flag table,0,0,24,Flag table,0,8,Operational
-33,Quality information,033056,Sigma-0 quality flag,,Flag table,0,0,24,Flag table,0,8,Operational
-33,Quality information,033060,GqisFlagQual - individual IASI-System quality flag,,Code table,0,0,2,Code table,0,1,Operational
-33,Quality information,033061,GqisQualIndex - indicator for instrument noise performance (contributions from spectral and radiometric calibration),,%,0,0,7,%,0,3,Operational
-33,Quality information,033062,GqisQualIndexLoc - indicator for geometric quality index,,%,0,0,7,%,0,3,Operational
-33,Quality information,033063,GqisQualIndexRad - indicator for instrument noise performance (contributions from radiometric calibration),,%,0,0,7,%,0,3,Operational
-33,Quality information,033064,GqisQualIndexSpect - indicator for instrument noise performance (contributions from spectral calibration),,%,0,0,7,%,0,3,Operational
-33,Quality information,033065,GqisSysTecSondQual - output of system TEC (Technical Expertise Centre) quality function,,Numeric,0,0,24,Numeric,0,8,Operational
-33,Quality information,033066,AMV quality flag,,Flag table,0,0,24,Flag table,0,8,Operational
-33,Quality information,033070,Total ozone quality,,Code table,0,0,4,Code table,0,2,Operational
-33,Quality information,033071,Profile ozone quality,,Code table,0,0,4,Code table,0,2,Operational
-33,Quality information,033072,Ozone error,,Code table,0,0,5,Code table,0,2,Operational
-33,Quality information,033075,Scan-level quality flags,,Flag table,0,0,13,Flag table,0,5,Operational
-33,Quality information,033076,Calibration quality flags,,Flag table,0,0,9,Flag table,0,3,Operational
-33,Quality information,033077,Field-of-view quality flags,,Flag table,0,0,19,Flag table,0,7,Operational
-33,Quality information,033078,Geolocation quality,,Code table,0,0,4,Code table,0,2,Operational
-33,Quality information,033079,Granule level quality flags,,Flag table,0,0,16,Flag table,0,6,Operational
-33,Quality information,033080,Scan level quality flags,,Flag table,0,0,20,Flag table,0,7,Operational
-33,Quality information,033081,Channel data quality flags,,Flag table,0,0,12,Flag table,0,4,Operational
-33,Quality information,033082,Geolocation quality flags,,Flag table,0,0,16,Flag table,0,6,Operational
-33,Quality information,033083,Radiance data quality flags,,Flag table,0,0,16,Flag table,0,6,Operational
-33,Quality information,033084,Pixel level quality flags,,Flag table,0,0,16,Flag table,0,6,Operational
-33,Quality information,033085,Aerosol optical thickness quality flags,,Flag table,0,0,18,Flag table,0,6,Operational
-33,Quality information,033086,Quality of pixel level retrieval,,Code table,0,0,3,Code table,0,1,Operational
-33,Quality information,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),,Code table,0,0,4,Code table,0,1,Operational
-33,Quality information,033088,Ozone total column quality flag,,Flag table,0,0,18,Flag table,0,6,Operational
-33,Quality information,033089,Noise equivalent delta temperature (NEdT) quality indicators for warm target calibration,,K,2,0,12,K,2,4,Operational
-33,Quality information,033090,NEdT quality indicators for cold target calibration,,K,2,0,12,K,2,4,Operational
-33,Quality information,033091,NEdT quality indicators for overall calibration,,K,2,0,12,K,2,4,Operational
-33,Quality information,033092,Band specific ocean quality flag,,Flag table,0,0,9,Flag table,0,3,Operational
-33,Quality information,033093,Extended quality flags for ground-based GNSS data,,Flag table,0,0,31,Flag table,0,31,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+33,Quality information,033002,Quality information,,,Code table,0,0,2,Code table,0,1,Operational
+33,Quality information,033003,Quality information,,,Code table,0,0,3,Code table,0,1,Operational
+33,Quality information,033005,Quality information (AWS data),,,Flag table,0,0,30,Flag table,0,10,Operational
+33,Quality information,033006,Internal measurement status information (AWS),,,Code table,0,0,3,Code table,0,1,Operational
+33,Quality information,033007,Per cent confidence,,,%,0,0,7,%,0,3,Operational
+33,Quality information,033015,Data quality-check indicator,,,Code table,0,0,6,Code table,0,2,Operational
+33,Quality information,033020,Quality control indication of following value,,,Code table,0,0,3,Code table,0,1,Operational
+33,Quality information,033021,Quality of following value,,,Code table,0,0,2,Code table,0,1,Operational
+33,Quality information,033022,Quality of buoy satellite transmission,,,Code table,0,0,2,Code table,0,1,Operational
+33,Quality information,033023,Quality of buoy location,,,Code table,0,0,2,Code table,0,1,Operational
+33,Quality information,033024,Station elevation quality mark (for mobile stations),,,Code table,0,0,4,Code table,0,2,Operational
+33,Quality information,033025,ACARS interpolated values indicator,,,Code table,0,0,3,Code table,0,1,Operational
+33,Quality information,033026,Moisture quality,,,Code table,0,0,6,Code table,0,2,Operational
+33,Quality information,033027,Location quality class (range of radius of 66 % confidence),,,Code table,0,0,3,Code table,0,1,Operational
+33,Quality information,033028,Snapshot overall quality,,,Code table,0,0,3,Code table,0,1,Operational
+33,Quality information,033030,Scan line status flags for ATOVS,,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033031,Scan line quality flags for ATOVS,,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033032,Channel quality flags for ATOVS,,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033033,Field of view quality flags for ATOVS,,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033035,Manual/automatic quality control,,,Code table,0,0,4,Code table,0,2,Operational
+33,Quality information,033036,Nominal confidence threshold,,,%,0,0,7,%,0,3,Operational
+33,Quality information,033037,Wind correlation error,,,Flag table,0,0,20,Flag table,0,7,Operational
+33,Quality information,033038,Quality flags for ground-based GNSS data,,,Flag table,0,0,10,Flag table,0,4,Operational
+33,Quality information,033039,Quality flags for radio occultation data,,,Flag table,0,0,16,Flag table,0,6,Operational
+33,Quality information,033040,Confidence interval,,,%,0,0,7,%,0,3,Operational
+33,Quality information,033041,Attribute of following value,,,Code table,0,0,2,Code table,0,1,Operational
+33,Quality information,033042,Type of limit represented by following value,,,Code table,0,0,3,Code table,0,1,Operational
+33,Quality information,033043,AST confidence,,,Flag table,0,0,8,Flag table,0,3,Operational
+33,Quality information,033044,ASAR quality information,,,Flag table,0,0,15,Flag table,0,5,Operational
+33,Quality information,033045,Probability of following event,(see Notes 1 and 3),"168,173",%,0,0,7,%,0,3,Operational
+33,Quality information,033046,Conditional probability of following event with respect to specified conditioning event,"(see Notes 1, 2 and 3)","168,173,174",%,0,0,7,%,0,3,Operational
+33,Quality information,033047,Measurement confidence data,,,Flag table,0,0,31,Flag table,0,11,Operational
+33,Quality information,033048,Confidence measure of SAR inversion,,,Code table,0,0,2,Code table,0,1,Operational
+33,Quality information,033049,Confidence measure of wind retrieval,,,Code table,0,0,2,Code table,0,1,Operational
+33,Quality information,033050,Global GTSPP quality flag,,,Code table,0,0,4,Code table,0,2,Operational
+33,Quality information,033052,S band ocean retracking quality,,,Flag table,0,0,21,Flag table,0,7,Operational
+33,Quality information,033053,Ku band ocean retracking quality,,,Flag table,0,0,21,Flag table,0,7,Operational
+33,Quality information,033055,Wind vector quality flag,,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033056,Sigma-0 quality flag,,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033060,GqisFlagQual - individual IASI-System quality flag,,,Code table,0,0,2,Code table,0,1,Operational
+33,Quality information,033061,GqisQualIndex - indicator for instrument noise performance (contributions from spectral and radiometric calibration),,,%,0,0,7,%,0,3,Operational
+33,Quality information,033062,GqisQualIndexLoc - indicator for geometric quality index,,,%,0,0,7,%,0,3,Operational
+33,Quality information,033063,GqisQualIndexRad - indicator for instrument noise performance (contributions from radiometric calibration),,,%,0,0,7,%,0,3,Operational
+33,Quality information,033064,GqisQualIndexSpect - indicator for instrument noise performance (contributions from spectral calibration),,,%,0,0,7,%,0,3,Operational
+33,Quality information,033065,GqisSysTecSondQual - output of system TEC (Technical Expertise Centre) quality function,,,Numeric,0,0,24,Numeric,0,8,Operational
+33,Quality information,033066,AMV quality flag,,,Flag table,0,0,24,Flag table,0,8,Operational
+33,Quality information,033070,Total ozone quality,,,Code table,0,0,4,Code table,0,2,Operational
+33,Quality information,033071,Profile ozone quality,,,Code table,0,0,4,Code table,0,2,Operational
+33,Quality information,033072,Ozone error,,,Code table,0,0,5,Code table,0,2,Operational
+33,Quality information,033075,Scan-level quality flags,,,Flag table,0,0,13,Flag table,0,5,Operational
+33,Quality information,033076,Calibration quality flags,,,Flag table,0,0,9,Flag table,0,3,Operational
+33,Quality information,033077,Field-of-view quality flags,,,Flag table,0,0,19,Flag table,0,7,Operational
+33,Quality information,033078,Geolocation quality,,,Code table,0,0,4,Code table,0,2,Operational
+33,Quality information,033079,Granule level quality flags,,,Flag table,0,0,16,Flag table,0,6,Operational
+33,Quality information,033080,Scan level quality flags,,,Flag table,0,0,20,Flag table,0,7,Operational
+33,Quality information,033081,Channel data quality flags,,,Flag table,0,0,12,Flag table,0,4,Operational
+33,Quality information,033082,Geolocation quality flags,,,Flag table,0,0,16,Flag table,0,6,Operational
+33,Quality information,033083,Radiance data quality flags,,,Flag table,0,0,16,Flag table,0,6,Operational
+33,Quality information,033084,Pixel level quality flags,,,Flag table,0,0,16,Flag table,0,6,Operational
+33,Quality information,033085,Aerosol optical thickness quality flags,,,Flag table,0,0,18,Flag table,0,6,Operational
+33,Quality information,033086,Quality of pixel level retrieval,,,Code table,0,0,3,Code table,0,1,Operational
+33,Quality information,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),,,Code table,0,0,4,Code table,0,1,Operational
+33,Quality information,033088,Ozone total column quality flag,,,Flag table,0,0,18,Flag table,0,6,Operational
+33,Quality information,033089,Noise equivalent delta temperature (NEdT) quality indicators for warm target calibration,,,K,2,0,12,K,2,4,Operational
+33,Quality information,033090,NEdT quality indicators for cold target calibration,,,K,2,0,12,K,2,4,Operational
+33,Quality information,033091,NEdT quality indicators for overall calibration,,,K,2,0,12,K,2,4,Operational
+33,Quality information,033092,Band specific ocean quality flag,,,Flag table,0,0,9,Flag table,0,3,Operational
+33,Quality information,033093,Extended quality flags for ground-based GNSS data,,,Flag table,0,0,31,Flag table,0,31,Operational

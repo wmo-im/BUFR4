@@ -1,150 +1,151 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-25,Processing information,025001,Range-gate length,,m,-1,0,6,m,-1,2,Operational
-25,Processing information,025002,Number of gates averaged,,Numeric,0,0,4,Numeric,0,2,Operational
-25,Processing information,025003,Number of integrated pulses,,Numeric,0,0,8,Numeric,0,3,Operational
-25,Processing information,025004,Echo processing,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025005,Echo integration,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025006,Z to R conversion,,Code table,0,0,3,Code table,0,1,Operational
-25,Processing information,025007,Z to R conversion factor,,Numeric,0,0,12,Numeric,0,4,Operational
-25,Processing information,025008,Z to R conversion exponent,,Numeric,2,0,9,Numeric,2,3,Operational
-25,Processing information,025009,Calibration method,(see Note 3),Flag table,0,0,4,Flag table,0,2,Operational
-25,Processing information,025010,Clutter treatment,,Code table,0,0,4,Code table,0,2,Operational
-25,Processing information,025011,Ground occultation correction (screening),,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025012,Range attenuation correction,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025013,Bright-band correction,,Flag table,0,0,2,Flag table,0,1,Operational
-25,Processing information,025014,Azimuth clutter cut-off,(see Note 1),Numeric,0,0,12,Numeric,0,4,Operational
-25,Processing information,025015,Radome attenuation correction,,Flag table,0,0,2,Flag table,0,1,Operational
-25,Processing information,025016,Clear-air attenuation correction,,dB/m,5,0,6,dB/m,5,2,Operational
-25,Processing information,025017,Precipitation attenuation correction,,Flag table,0,0,2,Flag table,0,1,Operational
-25,Processing information,025018,A to Z law for attenuation factor,,Numeric,7,0,6,Numeric,7,2,Operational
-25,Processing information,025019,A to Z law for attenuation exponent,,Numeric,2,0,7,Numeric,2,3,Operational
-25,Processing information,025020,Mean speed estimation,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025021,Wind computation enhancement,,Flag table,0,0,8,Flag table,0,3,Operational
-25,Processing information,025022,GHRSST* rejection flag,,Flag table,0,0,9,Flag table,0,3,Operational
-25,Processing information,025023,GHRSST confidence flag,,Flag table,0,0,9,Flag table,0,3,Operational
-25,Processing information,025024,GHRSST data quality,,Code table,0,0,4,Code table,0,2,Operational
-25,Processing information,025025,Battery voltage,,V,1,0,9,V,1,3,Operational
-25,Processing information,025026,Battery voltage (large range),,V,1,0,12,V,1,4,Operational
-25,Processing information,025028,Operator or manufacturer defined parameter,,Numeric,1,-16384,15,Numeric,1,5,Operational
-25,Processing information,025029,Calibration method,(see Note 3),Flag table,0,0,6,Flag table,0,2,Operational
-25,Processing information,025030,Running mean sea-surface temperature usage,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025031,NWP-generated vertical profile thinning method,,Code table,0,0,3,Code table,0,1,Operational
-25,Processing information,025032,Wind profiler mode information,(see Note 2),Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025033,Wind profiler submode information,(see Note 2),Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025034,Wind profiler quality control test results,(see Note 2),Flag table,0,0,4,Flag table,0,2,Operational
-25,Processing information,025035,Decision method for polarity,(see Note 5),Code table,0,0,3,Code table,0,1,Operational
-25,Processing information,025036,Atmospherics location method,,Code table,0,0,4,Code table,0,2,Operational
-25,Processing information,025037,SST bias,,K,2,-127,8,K,2,3,Operational
-25,Processing information,025038,Difference between SST and analysis,,K,1,-127,8,K,1,3,Operational
-25,Processing information,025040,CO2 wind product derivation,,Code table,0,0,4,Code table,0,2,Operational
-25,Processing information,025041,Moving platform direction reporting method,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025042,Moving platform speed reporting method,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025043,Wave sampling interval (time),,s,4,0,15,s,4,5,Operational
-25,Processing information,025044,Wave sampling interval (space),,m,2,0,14,m,2,5,Operational
-25,Processing information,025045,HIRS channel combination,,Flag table,0,0,21,Flag table,0,7,Operational
-25,Processing information,025046,MSU channel combination,,Flag table,0,0,5,Flag table,0,2,Operational
-25,Processing information,025047,SSU channel combination,,Flag table,0,0,4,Flag table,0,2,Operational
-25,Processing information,025048,AMSU-A channel combination,,Flag table,0,0,16,Flag table,0,6,Operational
-25,Processing information,025049,AMSU-B channel combination,,Flag table,0,0,6,Flag table,0,2,Operational
-25,Processing information,025050,Principal component score,,Numeric,4,-131072,18,Numeric,4,6,Operational
-25,Processing information,025051,AVHRR channel combination,,Flag table,0,0,7,Flag table,0,3,Operational
-25,Processing information,025052,Log10 of principal components normalized fit to data,,Numeric,4,0,15,Numeric,4,5,Operational
-25,Processing information,025053,Observation quality,,Flag table,0,0,12,Flag table,0,4,Operational
-25,Processing information,025054,SSMIS subframe ID number,,Numeric,0,0,5,Numeric,0,2,Operational
-25,Processing information,025055,Multiplexer housekeeping,,K,2,0,16,K,2,5,Operational
-25,Processing information,025060,Software identification,(see Note 2),Numeric,0,0,14,Numeric,0,5,Operational
-25,Processing information,025061,Software identification and version number,,CCITT IA5,0,0,96,Character,0,12,Operational
-25,Processing information,025062,Database identification,,Numeric,0,0,14,Numeric,0,5,Operational
-25,Processing information,025063,Central processor or system identifier,(see Note 6),Code table,0,0,8,Code table,0,3,Operational
-25,Processing information,025065,Orientation correction (azimuth),,deg,2,-1000,11,deg,2,4,Operational
-25,Processing information,025066,Orientation correction (elevation),,deg,2,-1000,11,deg,2,4,Operational
-25,Processing information,025067,Radiosonde release point pressure correction,,Pa,0,-8000,14,Pa,0,4,Operational
-25,Processing information,025068,Number of archive recomputes,,Numeric,0,0,7,Numeric,0,3,Operational
-25,Processing information,025069,Flight level pressure corrections,,Flag table,0,0,8,Flag table,0,3,Operational
-25,Processing information,025070,Major frame count,,Numeric,0,0,4,Numeric,0,2,Operational
-25,Processing information,025071,Frame count,,Numeric,0,0,5,Numeric,0,2,Operational
-25,Processing information,025075,Satellite antenna corrections version number,,Numeric,0,0,5,Numeric,0,2,Operational
-25,Processing information,025076,Log10 of (temperature-radiance central wave number) for ATOVS,,log (m-1),8,0,30,log (m-1),8,10,Operational
-25,Processing information,025077,Bandwidth correction coefficient 1,,Numeric,5,-100000,18,Numeric,5,7,Operational
-25,Processing information,025078,Bandwidth correction coefficient 2,,Numeric,5,0,17,Numeric,5,6,Operational
-25,Processing information,025079,Albedo-radiance solar filtered irradiance for ATOVS,,W m-2,4,0,24,W m-2,4,8,Operational
-25,Processing information,025080,Albedo-radiance equivalent filter width for ATOVS,,m,10,0,14,m,10,5,Operational
-25,Processing information,025081,Incidence angle,,deg,3,0,17,deg,3,6,Operational
-25,Processing information,025082,Azimuth angle,,deg,3,0,19,deg,3,6,Operational
-25,Processing information,025083,Faraday rotational angle,,deg,3,0,19,deg,3,6,Operational
-25,Processing information,025084,Geometric rotational angle,,deg,5,0,26,deg,5,8,Operational
-25,Processing information,025085,Fraction of clear pixels in HIRS FOV,,Numeric,0,0,7,Numeric,0,3,Operational
-25,Processing information,025086,Depth correction indicator,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025090,Orbit state flag,,Code table,0,0,4,Code table,0,2,Operational
-25,Processing information,025091,Structure constant of the refraction index (Cn2),,dB,3,-18192,13,dB,3,5,Operational
-25,Processing information,025092,Acoustic propagation velocity,,m/s,2,28000,14,m/s,2,5,Operational
-25,Processing information,025093,RASS computation correction,,Flag table,0,0,8,Flag table,0,3,Operational
-25,Processing information,025095,Altimeter state flag,,Flag table,0,0,2,Flag table,0,1,Operational
-25,Processing information,025096,Radiometer state flag,,Flag table,0,0,5,Flag table,0,2,Operational
-25,Processing information,025097,Three-dimensional error estimate of the navigator orbit,,Code table,0,0,4,Code table,0,2,Operational
-25,Processing information,025098,Altimeter data quality flag,,Flag table,0,0,9,Flag table,0,3,Operational
-25,Processing information,025099,Altimeter correction quality flag,,Flag table,0,0,9,Flag table,0,3,Operational
-25,Processing information,025100,XBT/XCTD fall rate equation coefficient a,,Numeric,5,0,20,Numeric,5,6,Operational
-25,Processing information,025101,XBT/XCTD fall rate equation coefficient b,,Numeric,5,-500000,21,Numeric,5,6,Operational
-25,Processing information,025102,Number of missing lines excluding data gaps,,Numeric,0,0,8,Numeric,0,3,Operational
-25,Processing information,025103,Number of directional bins,,Numeric,0,0,8,Numeric,0,3,Operational
-25,Processing information,025104,Number of wavelength bins,,Numeric,0,0,8,Numeric,0,3,Operational
-25,Processing information,025105,First directional bin,,deg,3,0,19,deg,3,6,Operational
-25,Processing information,025106,Directional bin step,,deg,3,0,19,deg,3,6,Operational
-25,Processing information,025107,First wavelength bin,,m,3,0,29,m,3,9,Operational
-25,Processing information,025108,Last wavelength bin,,m,3,0,29,m,3,9,Operational
-25,Processing information,025110,Image processing summary,,Flag table,0,0,10,Flag table,0,4,Operational
-25,Processing information,025111,Number of input data gaps,,Numeric,0,0,8,Numeric,0,3,Operational
-25,Processing information,025112,Band specific altimeter data quality flag,,Flag table,0,0,9,Flag table,0,3,Operational
-25,Processing information,025113,Band specific altimeter correction quality flag,,Flag table,0,0,9,Flag table,0,3,Operational
-25,Processing information,025120,RA2-L2-processing flag,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025121,RA2-L2-processing quality,,%,0,0,7,%,0,3,Operational
-25,Processing information,025122,Hardware configuration for RF,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025123,Hardware configuration for HPA,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025124,MWR-L2-processing flag,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025125,MWR-L2-processing quality,,%,0,0,7,%,0,3,Operational
-25,Processing information,025126,Model dry tropospheric correction,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025127,Inverted barometer correction,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025128,Model wet tropospheric correction,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025129,MWR derived wet tropospheric correction,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025130,RA2 ionospheric correction on Ku band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025131,Ionospheric correction from Doris on Ku band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025132,Ionospheric correction from model on Ku band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025133,Sea state bias correction on Ku band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025134,RA2 ionospheric correction on S band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025135,Ionospheric correction from Doris on S band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025136,Ionospheric correction from model on S band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025137,Sea state bias correction on S band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025138,Average signal-to-noise ratio,,Numeric,0,-2048,12,Numeric,0,4,Operational
-25,Processing information,025140,Start channel,,Numeric,0,0,14,Numeric,0,5,Operational
-25,Processing information,025141,End channel,,Numeric,0,0,14,Numeric,0,5,Operational
-25,Processing information,025142,Channel scale factor,,Numeric,0,0,6,Numeric,0,2,Operational
-25,Processing information,025143,Linear coefficient,,Numeric,6,-5000000,24,Numeric,6,8,Operational
-25,Processing information,025148,Coefficient of variation,,Numeric,2,-10000,15,Numeric,2,5,Operational
-25,Processing information,025149,Optimal estimation cost,,Numeric,0,0,8,Numeric,0,3,Operational
-25,Processing information,025150,Method of tropical cyclone intensity analysis using satellite data,,Code table,0,0,4,Code table,0,2,Operational
-25,Processing information,025160,Ku band net instrumental correction,,m,4,-120000,18,m,4,6,Operational
-25,Processing information,025161,C band net instrumental correction,,m,4,-120000,18,m,4,6,Operational
-25,Processing information,025162,Sea state bias correction on C band,,m,4,-6000,13,m,4,4,Operational
-25,Processing information,025163,Altimeter ionospheric correction on Ku band,,m,3,-32768,16,m,3,5,Operational
-25,Processing information,025164,Radiometer wet tropospheric correction,,m,4,-5000,13,m,4,4,Operational
-25,Processing information,025165,Ionospheric correction from model on specific band,,m,4,-32768,16,m,4,5,Operational
-25,Processing information,025166,Sea state bias correction on specific band,,m,4,-32768,16,m,4,5,Operational
-25,Processing information,025167,Specific band net instrumental correction,,m,4,-120000,18,m,4,6,Operational
-25,Processing information,025170,Sampling interval (time),,s,0,0,10,s,0,4,Operational
-25,Processing information,025171,Sample averaging period,,s,0,0,10,s,0,4,Operational
-25,Processing information,025172,Number of samples,,Numeric,0,0,10,Numeric,0,4,Operational
-25,Processing information,025174,SMOS information flag,,Flag table,0,0,14,Flag table,0,5,Operational
-25,Processing information,025175,Modified residual,(see Note 7),Numeric,2,0,13,Numeric,2,4,Operational
-25,Processing information,025180,LRM* per cent,,%,2,0,16,%,2,5,Operational
-25,Processing information,025181,L2 processing flag,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025182,L1 processing flag,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025183,L1 processing quality,,%,2,0,14,%,2,5,Operational
-25,Processing information,025184,L2 product status,,Code table,0,0,2,Code table,0,1,Operational
-25,Processing information,025185,Encryption method,,Code table,0,0,8,Code table,0,3,Operational
-25,Processing information,025186,Encryption key version,,CCITT IA5,0,0,96,Character,0,12,Operational
-25,Processing information,025187,Confidence flag,,Code table,0,0,4,Code table,0,2,Operational
-25,Processing information,025188,Method for reducing pressure to sea level,,Code table,0,0,5,Code table,0,2,Operational
-25,Processing information,025189,Range cut-off wavelength,,m,0,1,9,m,0,3,Operational
-25,Processing information,025190,Altimeter echo processing mode,,Code table,0,0,8,Code table,0,3,Operational
-25,Processing information,025191,Altimeter tracking mode,,Code table,0,0,8,Code table,0,3,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+25,Processing information,025001,Range-gate length,,,m,-1,0,6,m,-1,2,Operational
+25,Processing information,025002,Number of gates averaged,,,Numeric,0,0,4,Numeric,0,2,Operational
+25,Processing information,025003,Number of integrated pulses,,,Numeric,0,0,8,Numeric,0,3,Operational
+25,Processing information,025004,Echo processing,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025005,Echo integration,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025006,Z to R conversion,,,Code table,0,0,3,Code table,0,1,Operational
+25,Processing information,025007,Z to R conversion factor,,,Numeric,0,0,12,Numeric,0,4,Operational
+25,Processing information,025008,Z to R conversion exponent,,,Numeric,2,0,9,Numeric,2,3,Operational
+25,Processing information,025009,Calibration method,(see Note 3),56,Flag table,0,0,4,Flag table,0,2,Operational
+25,Processing information,025010,Clutter treatment,,,Code table,0,0,4,Code table,0,2,Operational
+25,Processing information,025011,Ground occultation correction (screening),,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025012,Range attenuation correction,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025013,Bright-band correction,,,Flag table,0,0,2,Flag table,0,1,Operational
+25,Processing information,025014,Azimuth clutter cut-off,(see Note 1),15,Numeric,0,0,12,Numeric,0,4,Operational
+25,Processing information,025015,Radome attenuation correction,,,Flag table,0,0,2,Flag table,0,1,Operational
+25,Processing information,025016,Clear-air attenuation correction,,,dB/m,5,0,6,dB/m,5,2,Operational
+25,Processing information,025017,Precipitation attenuation correction,,,Flag table,0,0,2,Flag table,0,1,Operational
+25,Processing information,025018,A to Z law for attenuation factor,,,Numeric,7,0,6,Numeric,7,2,Operational
+25,Processing information,025019,A to Z law for attenuation exponent,,,Numeric,2,0,7,Numeric,2,3,Operational
+25,Processing information,025020,Mean speed estimation,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025021,Wind computation enhancement,,,Flag table,0,0,8,Flag table,0,3,Operational
+25,Processing information,025022,GHRSST rejection flag,,,Flag table,0,0,9,Flag table,0,3,Operational
+25,Processing information,025023,GHRSST confidence flag,,,Flag table,0,0,9,Flag table,0,3,Operational
+25,Processing information,025024,GHRSST data quality,,,Code table,0,0,4,Code table,0,2,Operational
+25,Processing information,025025,Battery voltage,,,V,1,0,9,V,1,3,Operational
+25,Processing information,025026,Battery voltage (large range),,,V,1,0,12,V,1,4,Operational
+25,Processing information,025028,Operator or manufacturer defined parameter,,,Numeric,1,-16384,15,Numeric,1,5,Operational
+25,Processing information,025029,Calibration method,(see Note 3),56,Flag table,0,0,6,Flag table,0,2,Operational
+25,Processing information,025030,Running mean sea-surface temperature usage,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025031,NWP-generated vertical profile thinning method,,,Code table,0,0,3,Code table,0,1,Operational
+25,Processing information,025032,Wind profiler mode information,(see Note 2),131,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025033,Wind profiler submode information,(see Note 2),131,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025034,Wind profiler quality control test results,(see Note 2),131,Flag table,0,0,4,Flag table,0,2,Operational
+25,Processing information,025035,Decision method for polarity,(see Note 5),34,Code table,0,0,3,Code table,0,1,Operational
+25,Processing information,025036,Atmospherics location method,,,Code table,0,0,4,Code table,0,2,Operational
+25,Processing information,025037,SST bias,,,K,2,-127,8,K,2,3,Operational
+25,Processing information,025038,Difference between SST and analysis,,,K,1,-127,8,K,1,3,Operational
+25,Processing information,025040,CO2 wind product derivation,,,Code table,0,0,4,Code table,0,2,Operational
+25,Processing information,025041,Moving platform direction reporting method,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025042,Moving platform speed reporting method,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025043,Wave sampling interval (time),,,s,4,0,15,s,4,5,Operational
+25,Processing information,025044,Wave sampling interval (space),,,m,2,0,14,m,2,5,Operational
+25,Processing information,025045,HIRS channel combination,,,Flag table,0,0,21,Flag table,0,7,Operational
+25,Processing information,025046,MSU channel combination,,,Flag table,0,0,5,Flag table,0,2,Operational
+25,Processing information,025047,SSU channel combination,,,Flag table,0,0,4,Flag table,0,2,Operational
+25,Processing information,025048,AMSU-A channel combination,,,Flag table,0,0,16,Flag table,0,6,Operational
+25,Processing information,025049,AMSU-B channel combination,,,Flag table,0,0,6,Flag table,0,2,Operational
+25,Processing information,025050,Principal component score,,,Numeric,4,-131072,18,Numeric,4,6,Operational
+25,Processing information,025051,AVHRR channel combination,,,Flag table,0,0,7,Flag table,0,3,Operational
+25,Processing information,025052,Log10 of principal components normalized fit to data,,,Numeric,4,0,15,Numeric,4,5,Operational
+25,Processing information,025053,Observation quality,,,Flag table,0,0,12,Flag table,0,4,Operational
+25,Processing information,025054,SSMIS subframe ID number,,,Numeric,0,0,5,Numeric,0,2,Operational
+25,Processing information,025055,Multiplexer housekeeping,,,K,2,0,16,K,2,5,Operational
+25,Processing information,025060,Software identification,(see Note 2),131,Numeric,0,0,14,Numeric,0,5,Operational
+25,Processing information,025061,Software identification and version number,,,CCITT IA5,0,0,96,Character,0,12,Operational
+25,Processing information,025062,Database identification,,,Numeric,0,0,14,Numeric,0,5,Operational
+25,Processing information,025063,Central processor or system identifier,(see Note 6),71,Code table,0,0,8,Code table,0,3,Operational
+25,Processing information,025065,Orientation correction (azimuth),,,deg,2,-1000,11,deg,2,4,Operational
+25,Processing information,025066,Orientation correction (elevation),,,deg,2,-1000,11,deg,2,4,Operational
+25,Processing information,025067,Radiosonde release point pressure correction,,,Pa,0,-8000,14,Pa,0,4,Operational
+25,Processing information,025068,Number of archive recomputes,,,Numeric,0,0,7,Numeric,0,3,Operational
+25,Processing information,025069,Flight level pressure corrections,,,Flag table,0,0,8,Flag table,0,3,Operational
+25,Processing information,025070,Major frame count,,,Numeric,0,0,4,Numeric,0,2,Operational
+25,Processing information,025071,Frame count,,,Numeric,0,0,5,Numeric,0,2,Operational
+25,Processing information,025075,Satellite antenna corrections version number,,,Numeric,0,0,5,Numeric,0,2,Operational
+25,Processing information,025076,Log10 of (temperature-radiance central wave number) for ATOVS,,,log (m-1),8,0,30,log (m-1),8,10,Operational
+25,Processing information,025077,Bandwidth correction coefficient 1,,,Numeric,5,-100000,18,Numeric,5,7,Operational
+25,Processing information,025078,Bandwidth correction coefficient 2,,,Numeric,5,0,17,Numeric,5,6,Operational
+25,Processing information,025079,Albedo-radiance solar filtered irradiance for ATOVS,,,W m-2,4,0,24,W m-2,4,8,Operational
+25,Processing information,025080,Albedo-radiance equivalent filter width for ATOVS,,,m,10,0,14,m,10,5,Operational
+25,Processing information,025081,Incidence angle,,,deg,3,0,17,deg,3,6,Operational
+25,Processing information,025082,Azimuth angle,,,deg,3,0,19,deg,3,6,Operational
+25,Processing information,025083,Faraday rotational angle,,,deg,3,0,19,deg,3,6,Operational
+25,Processing information,025084,Geometric rotational angle,,,deg,5,0,26,deg,5,8,Operational
+25,Processing information,025085,Fraction of clear pixels in HIRS FOV,,,Numeric,0,0,7,Numeric,0,3,Operational
+25,Processing information,025086,Depth correction indicator,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025090,Orbit state flag,,,Code table,0,0,4,Code table,0,2,Operational
+25,Processing information,025091,Structure constant of the refraction index (Cn2),,,dB,3,-18192,13,dB,3,5,Operational
+25,Processing information,025092,Acoustic propagation velocity,,,m/s,2,28000,14,m/s,2,5,Operational
+25,Processing information,025093,RASS computation correction,,,Flag table,0,0,8,Flag table,0,3,Operational
+25,Processing information,025095,Altimeter state flag,,,Flag table,0,0,2,Flag table,0,1,Operational
+25,Processing information,025096,Radiometer state flag,,,Flag table,0,0,5,Flag table,0,2,Operational
+25,Processing information,025097,Three-dimensional error estimate of the navigator orbit,,,Code table,0,0,4,Code table,0,2,Operational
+25,Processing information,025098,Altimeter data quality flag,,,Flag table,0,0,9,Flag table,0,3,Operational
+25,Processing information,025099,Altimeter correction quality flag,,,Flag table,0,0,9,Flag table,0,3,Operational
+25,Processing information,025100,XBT/XCTD fall rate equation coefficient a,,,Numeric,5,0,20,Numeric,5,6,Operational
+25,Processing information,025101,XBT/XCTD fall rate equation coefficient b,,,Numeric,5,-500000,21,Numeric,5,6,Operational
+25,Processing information,025102,Number of missing lines excluding data gaps,,,Numeric,0,0,8,Numeric,0,3,Operational
+25,Processing information,025103,Number of directional bins,,,Numeric,0,0,8,Numeric,0,3,Operational
+25,Processing information,025104,Number of wavelength bins,,,Numeric,0,0,8,Numeric,0,3,Operational
+25,Processing information,025105,First directional bin,,,deg,3,0,19,deg,3,6,Operational
+25,Processing information,025106,Directional bin step,,,deg,3,0,19,deg,3,6,Operational
+25,Processing information,025107,First wavelength bin,,,m,3,0,29,m,3,9,Operational
+25,Processing information,025108,Last wavelength bin,,,m,3,0,29,m,3,9,Operational
+25,Processing information,025110,Image processing summary,,,Flag table,0,0,10,Flag table,0,4,Operational
+25,Processing information,025111,Number of input data gaps,,,Numeric,0,0,8,Numeric,0,3,Operational
+25,Processing information,025112,Band specific altimeter data quality flag,,,Flag table,0,0,9,Flag table,0,3,Operational
+25,Processing information,025113,Band specific altimeter correction quality flag,,,Flag table,0,0,9,Flag table,0,3,Operational
+25,Processing information,025120,RA2-L2-processing flag,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025121,RA2-L2-processing quality,,,%,0,0,7,%,0,3,Operational
+25,Processing information,025122,Hardware configuration for RF,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025123,Hardware configuration for HPA,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025124,MWR-L2-processing flag,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025125,MWR-L2-processing quality,,,%,0,0,7,%,0,3,Operational
+25,Processing information,025126,Model dry tropospheric correction,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025127,Inverted barometer correction,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025128,Model wet tropospheric correction,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025129,MWR derived wet tropospheric correction,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025130,RA2 ionospheric correction on Ku band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025131,Ionospheric correction from Doris on Ku band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025132,Ionospheric correction from model on Ku band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025133,Sea state bias correction on Ku band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025134,RA2 ionospheric correction on S band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025135,Ionospheric correction from Doris on S band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025136,Ionospheric correction from model on S band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025137,Sea state bias correction on S band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025138,Average signal-to-noise ratio,,,Numeric,0,-2048,12,Numeric,0,4,Operational
+25,Processing information,025139,Processing level,,,Numeric,0,0,5,Numeric,0,4,Operational
+25,Processing information,025140,Start channel,,,Numeric,0,0,14,Numeric,0,5,Operational
+25,Processing information,025141,End channel,,,Numeric,0,0,14,Numeric,0,5,Operational
+25,Processing information,025142,Channel scale factor,,,Numeric,0,0,6,Numeric,0,2,Operational
+25,Processing information,025143,Linear coefficient,(see Note 4),57,Numeric,6,-5000000,24,Numeric,6,8,Operational
+25,Processing information,025148,Coefficient of variation,,,Numeric,2,-10000,15,Numeric,2,5,Operational
+25,Processing information,025149,Optimal estimation cost,,,Numeric,0,0,8,Numeric,0,3,Operational
+25,Processing information,025150,Method of tropical cyclone intensity analysis using satellite data,,,Code table,0,0,4,Code table,0,2,Operational
+25,Processing information,025160,Ku band net instrumental correction,,,m,4,-120000,18,m,4,6,Operational
+25,Processing information,025161,C band net instrumental correction,,,m,4,-120000,18,m,4,6,Operational
+25,Processing information,025162,Sea state bias correction on C band,,,m,4,-6000,13,m,4,4,Operational
+25,Processing information,025163,Altimeter ionospheric correction on Ku band,,,m,3,-32768,16,m,3,5,Operational
+25,Processing information,025164,Radiometer wet tropospheric correction,,,m,4,-5000,13,m,4,4,Operational
+25,Processing information,025165,Ionospheric correction from model on specific band,,,m,4,-32768,16,m,4,5,Operational
+25,Processing information,025166,Sea state bias correction on specific band,,,m,4,-32768,16,m,4,5,Operational
+25,Processing information,025167,Specific band net instrumental correction,,,m,4,-120000,18,m,4,6,Operational
+25,Processing information,025170,Sampling interval (time),,,s,0,0,10,s,0,4,Operational
+25,Processing information,025171,Sample averaging period,,,s,0,0,10,s,0,4,Operational
+25,Processing information,025172,Number of samples,,,Numeric,0,0,10,Numeric,0,4,Operational
+25,Processing information,025174,SMOS information flag,,,Flag table,0,0,14,Flag table,0,5,Operational
+25,Processing information,025175,Modified residual,(see Note 7),103,Numeric,2,0,13,Numeric,2,4,Operational
+25,Processing information,025180,LRM per cent,,,%,2,0,16,%,2,5,Operational
+25,Processing information,025181,L2 processing flag,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025182,L1 processing flag,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025183,L1 processing quality,,,%,2,0,14,%,2,5,Operational
+25,Processing information,025184,L2 product status,,,Code table,0,0,2,Code table,0,1,Operational
+25,Processing information,025185,Encryption method,,,Code table,0,0,8,Code table,0,3,Operational
+25,Processing information,025186,Encryption key version,,,CCITT IA5,0,0,96,Character,0,12,Operational
+25,Processing information,025187,Confidence flag,,,Code table,0,0,4,Code table,0,2,Operational
+25,Processing information,025188,Method for reducing pressure to sea level,,,Code table,0,0,5,Code table,0,2,Operational
+25,Processing information,025189,Range cut-off wavelength,,,m,0,1,9,m,0,3,Operational
+25,Processing information,025190,Altimeter echo processing mode,,,Code table,0,0,8,Code table,0,3,Operational
+25,Processing information,025191,Altimeter tracking mode,,,Code table,0,0,8,Code table,0,3,Operational

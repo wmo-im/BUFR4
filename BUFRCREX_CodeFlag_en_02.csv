@@ -1,1091 +1,1095 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
-002001,Type of station,0,Automatic,,,,Operational
-002001,Type of station,1,Manned,,,,Operational
-002001,Type of station,2,Hybrid: both manned and automatic,,,,Operational
-002001,Type of station,3,Missing value,,,,Operational
-002002,Type of instrumentation for wind measurement,1,Certified instruments,,,,Operational
-002002,Type of instrumentation for wind measurement,2,Originally measured in knots,,,,Operational
-002002,Type of instrumentation for wind measurement,3,Originally measured in km h-1,,,,Operational
-002002,Type of instrumentation for wind measurement,All 4,Missing value,,,,Operational
-002003,Type of measuring equipment used,0,Pressure instrument associated with wind measuring equipment,,,,Operational
-002003,Type of measuring equipment used,1,Optical theodolite,,,,Operational
-002003,Type of measuring equipment used,2,Radio theodolite,,,,Operational
-002003,Type of measuring equipment used,3,Radar,,,,Operational
-002003,Type of measuring equipment used,4,VLF-Omega,,,,Operational
-002003,Type of measuring equipment used,5,Loran C,,,,Operational
-002003,Type of measuring equipment used,6,Wind profiler,,,,Operational
-002003,Type of measuring equipment used,7,Satellite navigation,,,,Operational
-002003,Type of measuring equipment used,8,Radio-acoustic Sounding System (RASS),,,,Operational
-002003,Type of measuring equipment used,9,Sodar,,,,Operational
-002003,Type of measuring equipment used,10,Lidar,,,,Operational
-002003,Type of measuring equipment used,11-13,Reserved,,,,Operational
-002003,Type of measuring equipment used,14,Pressure instrument associated with wind measuring equipment but pressure element failed during ascent,,,,Operational
-002003,Type of measuring equipment used,15,Missing value,,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,0,USA open pan evaporimeter (without cover),Evaporation,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,1,USA open pan evaporimeter (mesh covered),Evaporation,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,2,GGI-3000 evaporimeter (sunken),Evaporation,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,3,20 m2 tank,Evaporation,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,4,Others,Evaporation,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,5,Rice,Evapotranspiration,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,6,Wheat,Evapotranspiration,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,7,Maize,Evapotranspiration,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,8,Sorghum,Evapotranspiration,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,9,Other crops,Evapotranspiration,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,10-14,Reserved,,,,Operational
-002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,15,Missing value,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,0,Reserved,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,1,Elastic backscatter lidar,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,2,Raman backscatter lidar,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,3,Radar wind profiler,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,4,Lidar wind profiler,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,5,Sodar wind profiler,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,6,Wind profiler,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,7,Lidar,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,8-62,Reserved,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,63,Missing value,,,,Operational
-002007,Type of sensor for water level measuring instrument,0,Reserved,,,,Operational
-002007,Type of sensor for water level measuring instrument,1,Shaft encoder float system,,,,Operational
-002007,Type of sensor for water level measuring instrument,2,Ultrasonic,,,,Operational
-002007,Type of sensor for water level measuring instrument,3,Radar,,,,Operational
-002007,Type of sensor for water level measuring instrument,4,Pressure (single transducer),,,,Operational
-002007,Type of sensor for water level measuring instrument,5,Pressure (multiple transducer),,,,Operational
-002007,Type of sensor for water level measuring instrument,6,Pressure (in stilling well),,,,Operational
-002007,Type of sensor for water level measuring instrument,7,Bubbler pressure,,,,Operational
-002007,Type of sensor for water level measuring instrument,8,Acoustic (with sounding tube),,,,Operational
-002007,Type of sensor for water level measuring instrument,9,Acoustic (in open air),,,,Operational
-002007,Type of sensor for water level measuring instrument,10-62,Reserved,,,,Operational
-002007,Type of sensor for water level measuring instrument,63,Missing value,,,,Operational
-002008,Type of offshore platform,0,Fixed platform,,,,Operational
-002008,Type of offshore platform,1,Mobile offshore drill ship,,,,Operational
-002008,Type of offshore platform,2,Jack-up rig,,,,Operational
-002008,Type of offshore platform,3,Semi-submersible platform,,,,Operational
-002008,Type of offshore platform,4,Floating production storage and offloading (FPSO) unit,,,,Operational
-002008,Type of offshore platform,5,Light vessel,,,,Operational
-002008,Type of offshore platform,6-14,Reserved,,,,Operational
-002008,Type of offshore platform,15,Missing value,,,,Operational
-002011,Radiosonde type,,,,,,Operational
-002012,Radiosonde computational method,,,,,,Operational
-002013,Solar and infrared radiation correction,0,No correction,,,,Operational
-002013,Solar and infrared radiation correction,1,CIMO solar corrected and CIMO infrared corrected,,,,Operational
-002013,Solar and infrared radiation correction,2,CIMO solar corrected and infrared corrected,,,,Operational
-002013,Solar and infrared radiation correction,3,CIMO solar corrected only,,,,Operational
-002013,Solar and infrared radiation correction,4,Solar and infrared corrected automatically by radiosonde system,,,,Operational
-002013,Solar and infrared radiation correction,5,Solar corrected automatically by radiosonde system,,,,Operational
-002013,Solar and infrared radiation correction,6,Solar and infrared corrected as specified by country,,,,Operational
-002013,Solar and infrared radiation correction,7,Solar corrected as specified by country,,,,Operational
-002013,Solar and infrared radiation correction,8,Solar and infrared corrected as specified by GRUAN,,,*,Operational
-002013,Solar and infrared radiation correction,9,Solar corrected as specified by GRUAN,,,,Operational
-002013,Solar and infrared radiation correction,10-14,Reserved,,,,Operational
-002013,Solar and infrared radiation correction,15,Missing value,,,,Operational
-002014,Tracking technique/status of system used,,,,,,Operational
-002015,Radiosonde completeness,0,Reserved,,,,Operational
-002015,Radiosonde completeness,1,Pressure only radiosonde,,,,Operational
-002015,Radiosonde completeness,2,Pressure only radiosonde plus transponder,,,,Operational
-002015,Radiosonde completeness,3,Pressure only radiosonde plus radar reflector,,,,Operational
-002015,Radiosonde completeness,4,No-pressure radiosonde plus transponder,,,,Operational
-002015,Radiosonde completeness,5,No-pressure radiosonde plus radar reflector,,,,Operational
-002015,Radiosonde completeness,6-14,Reserved,,,,Operational
-002015,Radiosonde completeness,15,Missing value,,,,Operational
-002016,Radiosonde configuration,1,Train regulator,,,,Operational
-002016,Radiosonde configuration,2,Light unit,,,,Operational
-002016,Radiosonde configuration,3,Parachute,,,,Operational
-002016,Radiosonde configuration,4,Rooftop release,,,,Operational
-002016,Radiosonde configuration,All 5,Missing value,,,,Operational
-002017,Correction algorithms for humidity measurements,0,No corrections,,,,Operational
-002017,Correction algorithms for humidity measurements,1,Time lag correction provided by the manufacturer,,,,Operational
-002017,Correction algorithms for humidity measurements,2,Solar radiation correction provided by the manufacturer,,,,Operational
-002017,Correction algorithms for humidity measurements,3,Solar radiation and time lag correction provided by the manufacturer,,,,Operational
-002017,Correction algorithms for humidity measurements,4-6,Reserved,,,,Operational
-002017,Correction algorithms for humidity measurements,7,GRUAN solar radiation and time lag correction,,,,Operational
-002017,Correction algorithms for humidity measurements,8-30,Reserved,,,,Operational
-002017,Correction algorithms for humidity measurements,31,Missing value,,,,Operational
-002019,Satellite instruments,,,,,,Operational
-002020,Satellite classification,0,Nimbus,,,,Operational
-002020,Satellite classification,1,VTPR,,,,Operational
-002020,Satellite classification,2,"Tiros 1 (Tiros, NOAA-6 to NOAA-13)",,,,Operational
-002020,Satellite classification,3,Tiros 2 (NOAA-14 onwards),,,,Operational
-002020,Satellite classification,10,EOS,,,,Operational
-002020,Satellite classification,20,GPM-core,,,,Operational
-002020,Satellite classification,31,DMSP,,,,Operational
-002020,Satellite classification,61,EUMETSAT Polar System (EPS),,,,Operational
-002020,Satellite classification,91,ERS,,,,Operational
-002020,Satellite classification,92,Sentinel-3,,,,Operational
-002020,Satellite classification,121,ADEOS,,,,Operational
-002020,Satellite classification,122,GCOM,,,,Operational
-002020,Satellite classification,241,GOES,,,,Operational
-002020,Satellite classification,261,JASON,,,,Operational
-002020,Satellite classification,271,GMS,,,,Operational
-002020,Satellite classification,272,MTSAT,,,,Operational
-002020,Satellite classification,273,Himawari,,,,Operational
-002020,Satellite classification,281,COMS,,,,Operational
-002020,Satellite classification,301,INSAT,,,,Operational
-002020,Satellite classification,331,METEOSAT Operational Programme (MOP),,,,Operational
-002020,Satellite classification,332,METEOSAT Transitional Programme (MTP),,,,Operational
-002020,Satellite classification,333,METEOSAT Second Generation Programme (MSG),,,,Operational
-002020,Satellite classification,351,GOMS,,,,Operational
-002020,Satellite classification,380,FY-1,,,,Operational
-002020,Satellite classification,381,FY-2,,,,Operational
-002020,Satellite classification,382,FY-3,,,,Operational
-002020,Satellite classification,383,FY-4,,,,Operational
-002020,Satellite classification,384-400,Reserved,,,,Operational
-002020,Satellite classification,401,GPS,,,,Operational
-002020,Satellite classification,402,GLONASS,,,,Operational
-002020,Satellite classification,403,GALILEO,,,,Operational
-002020,Satellite classification,404,BDS (BeiDou navigation satellite system),,,,Operational
-002020,Satellite classification,405-510,Reserved,,,,Operational
-002020,Satellite classification,511,Missing value,,,,Operational
-002021,Satellite instrument data used in processing,1,High-resolution infrared sounder (HIRS),,,,Operational
-002021,Satellite instrument data used in processing,2,Microwave sounding unit (MSU),,,,Operational
-002021,Satellite instrument data used in processing,3,Stratospheric sounding unit (SSU),,,,Operational
-002021,Satellite instrument data used in processing,4,AMI (advanced microwave instrument) wind mode,,,,Operational
-002021,Satellite instrument data used in processing,5,AMI (advanced microwave instrument) wave mode,,,,Operational
-002021,Satellite instrument data used in processing,6,AMI (advanced microwave instrument) image mode,,,,Operational
-002021,Satellite instrument data used in processing,7,Radar altimeter,,,,Operational
-002021,Satellite instrument data used in processing,8,ATSR (along-track scanning radiometer),,,,Operational
-002021,Satellite instrument data used in processing,All 9,Missing value,,,,Operational
-002022,Satellite data-processing technique used,1,Processing technique not defined,,,,Operational
-002022,Satellite data-processing technique used,2,Automated statistical regression,,,,Operational
-002022,Satellite data-processing technique used,3,Clear path,,,,Operational
-002022,Satellite data-processing technique used,4,Partly cloudy path,,,,Operational
-002022,Satellite data-processing technique used,5,Cloudy path,,,,Operational
-002022,Satellite data-processing technique used,6-7,Reserved,,,,Operational
-002022,Satellite data-processing technique used,All 8,Missing value,,,,Operational
-002023,Satellite-derived wind computation method,0,Reserved,,,,Operational
-002023,Satellite-derived wind computation method,1,Wind derived from cloud motion observed in the infrared channel,,,,Operational
-002023,Satellite-derived wind computation method,2,Wind derived from cloud motion observed in the visible channel,,,,Operational
-002023,Satellite-derived wind computation method,3,Wind derived from cloud motion observed in the water vapour channel,,,,Operational
-002023,Satellite-derived wind computation method,4,Wind derived from motion observed in a combination of spectral channels,,,,Operational
-002023,Satellite-derived wind computation method,5,Wind derived from motion observed in the water vapour channel in clear air,,,,Operational
-002023,Satellite-derived wind computation method,6,Wind derived from motion observed in the ozone channel,,,,Operational
-002023,Satellite-derived wind computation method,7,Wind derived from motion observed in water vapour channel (cloud or clear air not specified),,,,Operational
-002023,Satellite-derived wind computation method,8-12,Reserved,,,,Operational
-002023,Satellite-derived wind computation method,13,Root-mean-square,,,,Operational
-002023,Satellite-derived wind computation method,14,Reserved,,,,Operational
-002023,Satellite-derived wind computation method,15,Missing value,,,,Operational
-002024,Integrated mean humidity computational method,0,Reserved,,,,Operational
-002024,Integrated mean humidity computational method,1,Table with full range of humidity variation in layer,,,,Operational
-002024,Integrated mean humidity computational method,2,Regression technique on 2 humidity values in layer,,,,Operational
-002024,Integrated mean humidity computational method,3-14,Reserved,,,,Operational
-002024,Integrated mean humidity computational method,15,Missing value,,,,Operational
-002025,Satellite channel(s) used in computation,1,Reserved,,,,Operational
-002025,Satellite channel(s) used in computation,,"Group 1 - Layer precipitable water for the layers: surface to 700 hPa, 700 to 500 hPa, and 500 to 300 hPa",,,,Operational
-002025,Satellite channel(s) used in computation,2,HIRS,,,,Operational
-002025,Satellite channel(s) used in computation,3,MSU,,,,Operational
-002025,Satellite channel(s) used in computation,4-5,Reserved,,,,Operational
-002025,Satellite channel(s) used in computation,,Group 2 - Tropopause temperature and pressure,,,,Operational
-002025,Satellite channel(s) used in computation,6,HIRS,,,,Operational
-002025,Satellite channel(s) used in computation,7,MSU,,,,Operational
-002025,Satellite channel(s) used in computation,8-9,Reserved,,,,Operational
-002025,Satellite channel(s) used in computation,,Group 3 - Total ozone,,,,Operational
-002025,Satellite channel(s) used in computation,10,"HIRS (1, 2, 3, 8, 9, 16, 17)",,,,Operational
-002025,Satellite channel(s) used in computation,11,"HIRS (1, 2, 3, 9, 17)",,,,Operational
-002025,Satellite channel(s) used in computation,12,MSU,,,,Operational
-002025,Satellite channel(s) used in computation,13-14,Reserved,,,,Operational
-002025,Satellite channel(s) used in computation,,"Group 4 - Mean temperature for the layers: surface to 850 hPa, 850 to 700 hPa, 700 to 500 hPa, 500 to 400 hPa, 400 to 300 hPa, 300 to 200 hPa, and 200 to 100 hPa",,,,Operational
-002025,Satellite channel(s) used in computation,15,HIRS,,,,Operational
-002025,Satellite channel(s) used in computation,16,HIRS,,,*,Operational
-002025,Satellite channel(s) used in computation,17,MSU,,,,Operational
-002025,Satellite channel(s) used in computation,18,SKINTK (ocean only),,,,Operational
-002025,Satellite channel(s) used in computation,19-20,Reserved,,,,Operational
-002025,Satellite channel(s) used in computation,,"Group 5 - Channel combinations used to obtain mean temperatures for the layers 100 to 70 hPa, 70 to 50 hPa, 50 to 30 hPa, 30 to 10 hPa, 10 to 5 hPa, 5 to 2 hPa, 2 to 1 hPa, 1 to 0.4 hPa",,,,Operational
-002025,Satellite channel(s) used in computation,21,HIRS,,,*,Operational
-002025,Satellite channel(s) used in computation,22,SSU,,,,Operational
-002025,Satellite channel(s) used in computation,23,"MSU (3, 4)",,,,Operational
-002025,Satellite channel(s) used in computation,24,Reserved,,,,Operational
-002025,Satellite channel(s) used in computation,All 25,Missing value,,,,Operational
-002030,Method of current measurement,0,Reserved,,,,Operational
-002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,*,Operational
-002030,Method of current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,Operational
-002030,Method of current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,Operational
-002030,Method of current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,Operational
-002030,Method of current measurement,5,Drift of buoy,,,,Operational
-002030,Method of current measurement,6,ADCP (Acoustic Doppler Current Profiler),,,,Operational
-002030,Method of current measurement,7,Missing value,,,,Operational
-002031,Duration and time of current measurement,0,Reserved,,,,Operational
-002031,Duration and time of current measurement,1,Instantaneous,between H - 1 and H,,,Operational
-002031,Duration and time of current measurement,2,Averaged over 3 min or less,between H - 1 and H,,,Operational
-002031,Duration and time of current measurement,3,"Averaged over more than 3 min, but 6 min at the most",between H - 1 and H,,,Operational
-002031,Duration and time of current measurement,4,"Averaged over more than 6 min, but 12 min at the most",between H - 1 and H,,,Operational
-002031,Duration and time of current measurement,5,Instantaneous,between H - 2 and H - 1,,,Operational
-002031,Duration and time of current measurement,6,Averaged over 3 min or less,between H - 2 and H - 1,,,Operational
-002031,Duration and time of current measurement,7,"Averaged over more than 3 min, but 6 min at the most",between H - 2 and H - 1,,,Operational
-002031,Duration and time of current measurement,8,"Averaged over more than 6 min, but 12 min at the most",between H - 2 and H - 1,,,Operational
-002031,Duration and time of current measurement,9,Vector or Doppler current profiling method not used,,,,Operational
-002031,Duration and time of current measurement,10,Reserved,,,,Operational
-002031,Duration and time of current measurement,11,1 hour or less,,,,Operational
-002031,Duration and time of current measurement,12,More than 1 hour but 2 hours at the most,,,,Operational
-002031,Duration and time of current measurement,13,More than 2 hours but 4 hours at the most,,,,Operational
-002031,Duration and time of current measurement,14,More than 4 hours but 8 hours at the most,,,,Operational
-002031,Duration and time of current measurement,15,More than 8 hours but 12 hours at the most,,,,Operational
-002031,Duration and time of current measurement,16,More than 12 hours but 18 hours at the most,,,,Operational
-002031,Duration and time of current measurement,17,More than 18 hours but 24 hours at the most,,,,Operational
-002031,Duration and time of current measurement,18,Reserved,,,,Operational
-002031,Duration and time of current measurement,19,Drift method not used,,,,Operational
-002031,Duration and time of current measurement,20-30,Reserved,,,,Operational
-002031,Duration and time of current measurement,31,Missing value,,,,Operational
-002032,Indicator for digitization,0,Values at selected depths (data points fixed by the instrument or selected by any other method),,,,Operational
-002032,Indicator for digitization,1,Values at selected depths (data points taken from traces at significant depths),,,,Operational
-002032,Indicator for digitization,2,Reserved,,,,Operational
-002032,Indicator for digitization,3,Missing value,,,,Operational
-002033,Method of salinity/depth measurement,0,No salinity measured,,,,Operational
-002033,Method of salinity/depth measurement,1,"In situ sensor, accuracy better than 0.02 0/00",,,,Operational
-002033,Method of salinity/depth measurement,2,"In situ sensor, accuracy less than 0.02 0/00",,,,Operational
-002033,Method of salinity/depth measurement,3,Sample analysis,,,,Operational
-002033,Method of salinity/depth measurement,4-6,Reserved,,,,Operational
-002033,Method of salinity/depth measurement,7,Missing value,,,,Operational
-002034,Drogue type,0,Unspecified drogue,,,,Operational
-002034,Drogue type,1,Holey sock,,,,Operational
-002034,Drogue type,2,TRISTAR,,,,Operational
-002034,Drogue type,3,Window shade,,,,Operational
-002034,Drogue type,4,Parachute,,,,Operational
-002034,Drogue type,5,Non-Lagrangian sea anchor,,,,Operational
-002034,Drogue type,6-30,Reserved (to be developed),,,,Operational
-002034,Drogue type,31,Missing value,,,,Operational
-002036,Buoy type,0,Drifting buoy,,,,Operational
-002036,Buoy type,1,Fixed buoy,,,,Operational
-002036,Buoy type,2,Subsurface float (moving),,,,Operational
-002036,Buoy type,3,Missing value,,,,Operational
-002037,Method of tidal observation,0,Reserved,,,,Operational
-002037,Method of tidal observation,1,Manual reading from vertical tide staff,,,,Operational
-002037,Method of tidal observation,2,Manual reading from single automatic recorder at station,,,,Operational
-002037,Method of tidal observation,3,Manual reading from multiple automatic recorders at station,,,,Operational
-002037,Method of tidal observation,4,Automatic reading from single automatic recorder at station without level reference check,,,,Operational
-002037,Method of tidal observation,5,"Automatic reading from single automatic recorder at station with level reference check, or from multiple automatic recorders",,,,Operational
-002037,Method of tidal observation,6,Reserved,,,,Operational
-002037,Method of tidal observation,7,Missing value,,,,Operational
-002038,Method of water temperature and/or salinity measurement,0,Ship intake,,,,Operational
-002038,Method of water temperature and/or salinity measurement,1,Bucket,,,,Operational
-002038,Method of water temperature and/or salinity measurement,2,Hull contact sensor,,,,Operational
-002038,Method of water temperature and/or salinity measurement,3,Reversing thermometer,,,,Operational
-002038,Method of water temperature and/or salinity measurement,4,STD/CTD sensor,,,,Operational
-002038,Method of water temperature and/or salinity measurement,5,Mechanical BT,,,,Operational
-002038,Method of water temperature and/or salinity measurement,6,Expendable BT,,,,Operational
-002038,Method of water temperature and/or salinity measurement,7,Digital BT,,,,Operational
-002038,Method of water temperature and/or salinity measurement,8,Thermistor chain,,,,Operational
-002038,Method of water temperature and/or salinity measurement,9,Infrared scanner,,,,Operational
-002038,Method of water temperature and/or salinity measurement,10,Microwave scanner,,,,Operational
-002038,Method of water temperature and/or salinity measurement,11,Infrared radiometer,,,,Operational
-002038,Method of water temperature and/or salinity measurement,12,In-line thermosalinograph,,,,Operational
-002038,Method of water temperature and/or salinity measurement,13,Towed body,,,,Operational
-002038,Method of water temperature and/or salinity measurement,14,Other,,,,Operational
-002038,Method of water temperature and/or salinity measurement,15,Missing value,,,,Operational
-002039,Method of wet-bulb temperature measurement,0,Measured wet-bulb temperature,,,,Operational
-002039,Method of wet-bulb temperature measurement,1,Iced bulb measured wet-bulb temperature,,,,Operational
-002039,Method of wet-bulb temperature measurement,2,Computed wet-bulb temperature,,,,Operational
-002039,Method of wet-bulb temperature measurement,3,Iced bulb computed wet-bulb temperature,,,,Operational
-002039,Method of wet-bulb temperature measurement,4-6,Reserved,,,,Operational
-002039,Method of wet-bulb temperature measurement,7,Missing value,,,,Operational
-002040,Method of removing velocity and motion of platform from current,0,Ship's motion removed by averaging,Ship's velocity removed by bottom tracking,,,Operational
-002040,Method of removing velocity and motion of platform from current,1,Ship's motion removed by motion compensation,Ship's velocity removed by bottom tracking,,,Operational
-002040,Method of removing velocity and motion of platform from current,2,Ship's motion not removed,Ship's velocity removed by bottom tracking,,,Operational
-002040,Method of removing velocity and motion of platform from current,3,Ship's motion removed by averaging,Ship's velocity removed by navigation,,,Operational
-002040,Method of removing velocity and motion of platform from current,4,Ship's motion removed by motion compensation,Ship's velocity removed by navigation,,,Operational
-002040,Method of removing velocity and motion of platform from current,5,Ship's motion not removed,Ship's velocity removed by navigation,,,Operational
-002040,Method of removing velocity and motion of platform from current,6,Doppler current profiling method not used,,,,Operational
-002040,Method of removing velocity and motion of platform from current,7-14,Reserved,,,,Operational
-002040,Method of removing velocity and motion of platform from current,15,Missing value,,,,Operational
-002041,Method for estimating reports related to synoptic features,0,Information based on manual analysis,,,,Operational
-002041,Method for estimating reports related to synoptic features,1,Information based on computer analysis,,,,Operational
-002041,Method for estimating reports related to synoptic features,2,Information based on data assimilation,,,,Operational
-002041,Method for estimating reports related to synoptic features,3,Information based on computer analysis or data assimilation manually modified,,,,Operational
-002041,Method for estimating reports related to synoptic features,4-9,Reserved,,,,Operational
-002041,Method for estimating reports related to synoptic features,10,Information based on the numerical weather prediction,,,,Operational
-002041,Method for estimating reports related to synoptic features,11-62,Reserved for future use,,,,Operational
-002041,Method for estimating reports related to synoptic features,63,Missing value,,,,Operational
-002042,Indicator for sea-surface current speed,0,Value originally reported in m/s,,,,Operational
-002042,Indicator for sea-surface current speed,1,Value originally reported in knots,,,,Operational
-002042,Indicator for sea-surface current speed,2,No sea current data available,,,,Operational
-002042,Indicator for sea-surface current speed,3,Missing value,,,,Operational
-002044,Indicator for method of calculating spectral wave data,0,Reserved for future use,,,,Operational
-002044,Indicator for method of calculating spectral wave data,1,Longuet-Higgins (1964),,,,Operational
-002044,Indicator for method of calculating spectral wave data,2,Longuet-Higgins (F3 method),,,,Operational
-002044,Indicator for method of calculating spectral wave data,3,Maximum likelihood method,,,,Operational
-002044,Indicator for method of calculating spectral wave data,4,Maximum entropy method,,,,Operational
-002044,Indicator for method of calculating spectral wave data,5-14,Reserved,,,,Operational
-002044,Indicator for method of calculating spectral wave data,15,Missing value,,,,Operational
-002045,Indicator for type of platform,0,Sea station,,,,Operational
-002045,Indicator for type of platform,1,Automatic data buoy,,,,Operational
-002045,Indicator for type of platform,2,Aircraft,,,,Operational
-002045,Indicator for type of platform,3,Satellite,,,,Operational
-002045,Indicator for type of platform,4-14,Reserved,,,,Operational
-002045,Indicator for type of platform,15,Missing value,,,,Operational
-002046,Wave measurement instrumentation,0,Reserved for future use,,,,Operational
-002046,Wave measurement instrumentation,1,Heave sensor,,,,Operational
-002046,Wave measurement instrumentation,2,Slope sensor,,,,Operational
-002046,Wave measurement instrumentation,3-14,Reserved,,,,Operational
-002046,Wave measurement instrumentation,15,Missing value,,,,Operational
-002047,Deep-ocean tsunameter type,0,Reserved,,,,Operational
-002047,Deep-ocean tsunameter type,1,DART II (PMEL),,,,Operational
-002047,Deep-ocean tsunameter type,2,DART ETD,,,,Operational
-002047,Deep-ocean tsunameter type,3,SAIC Tsunami Buoy (STB),,,,Operational
-002047,Deep-ocean tsunameter type,4,GFZ - Potsdam,,,,Operational
-002047,Deep-ocean tsunameter type,5,INCOIS (India),,,,Operational
-002047,Deep-ocean tsunameter type,6,InaBuoy (Indonesia),,,,Operational
-002047,Deep-ocean tsunameter type,7,Envirtech,,,,Operational
-002047,Deep-ocean tsunameter type,8-99,Reserved,,,,Operational
-002047,Deep-ocean tsunameter type,100-126,Not used,,,,Operational
-002047,Deep-ocean tsunameter type,127,Missing value,,,,Operational
-002048,Satellite sensor indicator,0,HIRS,,,,Operational
-002048,Satellite sensor indicator,1,MSU,,,,Operational
-002048,Satellite sensor indicator,2,SSU,,,,Operational
-002048,Satellite sensor indicator,3,AMSU-A,,,,Operational
-002048,Satellite sensor indicator,4,AMSU-B,,,,Operational
-002048,Satellite sensor indicator,5,AVHRR,,,,Operational
-002048,Satellite sensor indicator,6,SSMI,,,,Operational
-002048,Satellite sensor indicator,7,NSCAT,,,,Operational
-002048,Satellite sensor indicator,8,SEAWINDS,,,,Operational
-002048,Satellite sensor indicator,9,POSEIDON altimeter,,,,Operational
-002048,Satellite sensor indicator,10,JMR (JASON Microwave Radiometer),,,,Operational
-002048,Satellite sensor indicator,11,MHS,,,,Operational
-002048,Satellite sensor indicator,12,ASCAT,,,,Operational
-002048,Satellite sensor indicator,13,OSCAT2,,,,Operational
-002048,Satellite sensor indicator,14,Reserved,,,,Operational
-002048,Satellite sensor indicator,15,Missing value,,,,Operational
-002049,Geostationary satellite data-processing technique used,1,Processing technique not defined,,,,Operational
-002049,Geostationary satellite data-processing technique used,2,Simultaneous physical retrieval,,,,Operational
-002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,,Operational
-002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,,Operational
-002049,Geostationary satellite data-processing technique used,5-7,Reserved for future use,,,,Operational
-002049,Geostationary satellite data-processing technique used,All 8,Missing value,,,,Operational
-002050,Geostationary sounder satellite channels used,1,1,14.71,,,Operational
-002050,Geostationary sounder satellite channels used,2,2,14.37,,,Operational
-002050,Geostationary sounder satellite channels used,3,3,14.06,,,Operational
-002050,Geostationary sounder satellite channels used,4,4,13.64,,,Operational
-002050,Geostationary sounder satellite channels used,5,5,13.37,,,Operational
-002050,Geostationary sounder satellite channels used,6,6,12.66,,,Operational
-002050,Geostationary sounder satellite channels used,7,7,12.02,,,Operational
-002050,Geostationary sounder satellite channels used,8,8,11.03,,,Operational
-002050,Geostationary sounder satellite channels used,9,9,9.71,,,Operational
-002050,Geostationary sounder satellite channels used,10,10,7.43,,,Operational
-002050,Geostationary sounder satellite channels used,11,11,7.02,,,Operational
-002050,Geostationary sounder satellite channels used,12,12,6.51,,,Operational
-002050,Geostationary sounder satellite channels used,13,13,4.57,,,Operational
-002050,Geostationary sounder satellite channels used,14,14,4.52,,,Operational
-002050,Geostationary sounder satellite channels used,15,15,4.45,,,Operational
-002050,Geostationary sounder satellite channels used,16,16,4.13,,,Operational
-002050,Geostationary sounder satellite channels used,17,17,3.98,,,Operational
-002050,Geostationary sounder satellite channels used,18,18,3.74,,,Operational
-002050,Geostationary sounder satellite channels used,19,19,0.969,,,Operational
-002050,Geostationary sounder satellite channels used,All 20,Missing value,,,,Operational
-002051,Indicator to specify observing method for extreme temperatures,0,Reserved,,,,Operational
-002051,Indicator to specify observing method for extreme temperatures,1,Maximum/minimum thermometers,,,,Operational
-002051,Indicator to specify observing method for extreme temperatures,2,Automated instruments,,,,Operational
-002051,Indicator to specify observing method for extreme temperatures,3,Thermograph,,,,Operational
-002051,Indicator to specify observing method for extreme temperatures,4-14,Reserved,,,,Operational
-002051,Indicator to specify observing method for extreme temperatures,15,Missing value,,,,Operational
-002052,Geostationary imager satellite channels used,1,1,0.55 - 0.75,,,Operational
-002052,Geostationary imager satellite channels used,2,2,3.9,,,Operational
-002052,Geostationary imager satellite channels used,3,3,6.7,,,Operational
-002052,Geostationary imager satellite channels used,4,4,10.7,,,Operational
-002052,Geostationary imager satellite channels used,5,5,12.0,,,Operational
-002052,Geostationary imager satellite channels used,All 6,Missing value,,,,Operational
-002053,GOES-I/M brightness temperature characteristics,0,Observed brightness temperature,,,,Operational
-002053,GOES-I/M brightness temperature characteristics,1,Brightness temperature with bias correction applied,,,,Operational
-002053,GOES-I/M brightness temperature characteristics,2,Brightness temperature calculated from first guess,,,,Operational
-002053,GOES-I/M brightness temperature characteristics,3,Brightness temperature calculated from sounding,,,,Operational
-002053,GOES-I/M brightness temperature characteristics,4-14,Reserved,,,,Operational
-002053,GOES-I/M brightness temperature characteristics,15,Missing value,,,,Operational
-002054,GOES-I/M soundings parameter characteristics,0,Parameter derived using observed sounder brightness temperatures,,,,Operational
-002054,GOES-I/M soundings parameter characteristics,1,Parameter derived using observed imager brightness temperatures,,,,Operational
-002054,GOES-I/M soundings parameter characteristics,2,Parameter derived using first guess information,,,,Operational
-002054,GOES-I/M soundings parameter characteristics,3,Parameter derived using NMC analysis information,,,,Operational
-002054,GOES-I/M soundings parameter characteristics,4,Parameter derived using radiosonde information,,,,Operational
-002054,GOES-I/M soundings parameter characteristics,5-14,Reserved,,,,Operational
-002054,GOES-I/M soundings parameter characteristics,15,Missing value,,,,Operational
-002055,Geostationary soundings statistical parameters,0,Statistics generated comparing retrieval versus radiosonde,,,,Operational
-002055,Geostationary soundings statistical parameters,1,Statistics generated comparing retrieval versus first guess,,,,Operational
-002055,Geostationary soundings statistical parameters,2,Statistics generated comparing radiosonde versus first guess,,,,Operational
-002055,Geostationary soundings statistical parameters,3,Statistics generated comparing observed versus retrieval,,,,Operational
-002055,Geostationary soundings statistical parameters,4,Statistics generated comparing observed versus first guess,,,,Operational
-002055,Geostationary soundings statistical parameters,5,Statistics generated comparing radiosonde versus imager,,,,Operational
-002055,Geostationary soundings statistical parameters,6,Statistics generated comparing radiosonde versus sounder,,,,Operational
-002055,Geostationary soundings statistical parameters,7,Statistics generated for radiosonde,,,,Operational
-002055,Geostationary soundings statistical parameters,8,Statistics generated for first guess,,,,Operational
-002055,Geostationary soundings statistical parameters,9-14,Reserved,,,,Operational
-002055,Geostationary soundings statistical parameters,15,Missing value,,,,Operational
-002056,Geostationary soundings accuracy statistics,0,Sums of differences,,,,Operational
-002056,Geostationary soundings accuracy statistics,1,Sums of squared differences,,,,Operational
-002056,Geostationary soundings accuracy statistics,2,Sample size,,,,Operational
-002056,Geostationary soundings accuracy statistics,3,Minimum difference,,,,Operational
-002056,Geostationary soundings accuracy statistics,4,Maximum difference,,,,Operational
-002056,Geostationary soundings accuracy statistics,5-14,Reserved,,,,Operational
-002056,Geostationary soundings accuracy statistics,15,Missing value,,,,Operational
-002057,Origin of first-guess information for GOES-I/M soundings,0,Nested Grid Model (NGM),,,,Operational
-002057,Origin of first-guess information for GOES-I/M soundings,1,Aviation Model (AVN),,,,Operational
-002057,Origin of first-guess information for GOES-I/M soundings,2,Medium Range Forecast (MRF) Model,,,,Operational
-002057,Origin of first-guess information for GOES-I/M soundings,3,Global Data Assimilation System (GDAS) Forecast Model,,,,Operational
-002057,Origin of first-guess information for GOES-I/M soundings,4,Prior soundings (within 3 hours of current time),,,,Operational
-002057,Origin of first-guess information for GOES-I/M soundings,5,Climatology,,,,Operational
-002057,Origin of first-guess information for GOES-I/M soundings,6-14,Reserved,,,,Operational
-002057,Origin of first-guess information for GOES-I/M soundings,15,Missing value,,,,Operational
-002058,Valid times of first-guess information for GOES-I/M soundings,0,12 hour and 18 hour,,,,Operational
-002058,Valid times of first-guess information for GOES-I/M soundings,1,18 hour and 24 hour,,,,Operational
-002058,Valid times of first-guess information for GOES-I/M soundings,2,6 hour and 12 hour,,,,Operational
-002058,Valid times of first-guess information for GOES-I/M soundings,3,Greater than 24 hours,,,,Operational
-002058,Valid times of first-guess information for GOES-I/M soundings,4-14,Reserved,,,,Operational
-002058,Valid times of first-guess information for GOES-I/M soundings,15,Missing value,,,,Operational
-002059,Origin of analysis information for GOES-I/M soundings,0,NCEP Nested Grid Model (NGM) Analysis,,,,Operational
-002059,Origin of analysis information for GOES-I/M soundings,1,NCEP Aviation Model (AVN) Analysis,,,,Operational
-002059,Origin of analysis information for GOES-I/M soundings,2,NCEP Medium Range Forecast (MRF) Model Analysis,,,,Operational
-002059,Origin of analysis information for GOES-I/M soundings,3,NCEP Global Data Assimilation System (GDAS) Forecast Model Analysis,,,,Operational
-002059,Origin of analysis information for GOES-I/M soundings,4-14,Reserved,,,,Operational
-002059,Origin of analysis information for GOES-I/M soundings,15,Missing value,,,,Operational
-002060,Origin of surface information for GOES-I/M soundings,0,Current surface hourly reports,,,,Operational
-002060,Origin of surface information for GOES-I/M soundings,1,Current ship reports,,,,Operational
-002060,Origin of surface information for GOES-I/M soundings,2,Current buoy reports,,,,Operational
-002060,Origin of surface information for GOES-I/M soundings,3,One hour old surface hourly reports,,,,Operational
-002060,Origin of surface information for GOES-I/M soundings,4,One hour old ship reports,,,,Operational
-002060,Origin of surface information for GOES-I/M soundings,5,One hour old buoy reports,,,,Operational
-002060,Origin of surface information for GOES-I/M soundings,6-14,Reserved,,,,Operational
-002060,Origin of surface information for GOES-I/M soundings,15,Missing value,,,,Operational
-002061,Aircraft navigational system,0,Inertial navigation system,,,,Operational
-002061,Aircraft navigational system,1,OMEGA,,,,Operational
-002061,Aircraft navigational system,2-6,Reserved,,,,Operational
-002061,Aircraft navigational system,7,Missing value,,,,Operational
-002062,Type of aircraft data relay system,0,ASDAR,,,,Operational
-002062,Type of aircraft data relay system,1,ASDAR (ACARS also available but not operative),,,,Operational
-002062,Type of aircraft data relay system,2,ASDAR (ACARS also available and operative),,,,Operational
-002062,Type of aircraft data relay system,3,ACARS,,,,Operational
-002062,Type of aircraft data relay system,4,ACARS (ASDAR also available but not operative),,,,Operational
-002062,Type of aircraft data relay system,5,ACARS (ASDAR also available and operative),,,,Operational
-002062,Type of aircraft data relay system,6-14,Reserved,,,,Operational
-002062,Type of aircraft data relay system,15,Missing value,,,,Operational
-002064,Aircraft roll angle quality,0,Good,,,,Operational
-002064,Aircraft roll angle quality,1,Bad,,,,Operational
-002064,Aircraft roll angle quality,2,Reserved,,,,Operational
-002064,Aircraft roll angle quality,3,Missing value,,,,Operational
-002066,Radiosonde ground receiving system,0,InterMet IMS 2000,,,,Operational
-002066,Radiosonde ground receiving system,1,InterMet IMS 1500C,,,,Operational
-002066,Radiosonde ground receiving system,2,Shanghai GTC1,,,,Operational
-002066,Radiosonde ground receiving system,3,Nanjing GTC2,,,,Operational
-002066,Radiosonde ground receiving system,4,Nanjing GFE(L)1,,,,Operational
-002066,Radiosonde ground receiving system,5,MARL-A radar,,,,Operational
-002066,Radiosonde ground receiving system,6,VEKTOR-M radar,,,,Operational
-002066,Radiosonde ground receiving system,7-61,Reserved,,,,Operational
-002066,Radiosonde ground receiving system,62,Other,,,,Operational
-002066,Radiosonde ground receiving system,63,Missing value,,,,Operational
-002070,Original specification of latitude/longitude,0,Actual location in seconds,,,,Operational
-002070,Original specification of latitude/longitude,1,Actual location in minutes,,,,Operational
-002070,Original specification of latitude/longitude,2,Actual location in degrees,,,,Operational
-002070,Original specification of latitude/longitude,3,Actual location in decidegrees,,,,Operational
-002070,Original specification of latitude/longitude,4,Actual location in centidegrees,,,,Operational
-002070,Original specification of latitude/longitude,5,Referenced to checkpoint in seconds,,,,Operational
-002070,Original specification of latitude/longitude,6,Referenced to checkpoint in minutes,,,,Operational
-002070,Original specification of latitude/longitude,7,Referenced to checkpoint in degrees,,,,Operational
-002070,Original specification of latitude/longitude,8,Referenced to checkpoint in decidegrees,,,,Operational
-002070,Original specification of latitude/longitude,9,Referenced to checkpoint in centidegrees,,,,Operational
-002070,Original specification of latitude/longitude,10,Actual location in tenths of a minute,,,,Operational
-002070,Original specification of latitude/longitude,11,Referenced to checkpoint in tenths of a minute,,,,Operational
-002070,Original specification of latitude/longitude,12-14,Reserved,,,,Operational
-002070,Original specification of latitude/longitude,15,Missing value,,,,Operational
-002080,Balloon manufacturer,0,Kaysam,,,,Operational
-002080,Balloon manufacturer,1,Totex,,,,Operational
-002080,Balloon manufacturer,2,KKS,,,,Operational
-002080,Balloon manufacturer,3,Guangzhou Shuangyi (China),,,,Operational
-002080,Balloon manufacturer,4,ChemChina Zhuzhou (China),,,,Operational
-002080,Balloon manufacturer,5-61,Reserved,,,,Operational
-002080,Balloon manufacturer,62,Other,,,,Operational
-002080,Balloon manufacturer,63,Missing value,,,,Operational
-002081,Type of balloon,0,GP26,,,,Operational
-002081,Type of balloon,1,GP28,,,,Operational
-002081,Type of balloon,2,GP30,,,,Operational
-002081,Type of balloon,3,HM26,,,,Operational
-002081,Type of balloon,4,HM28,,,,Operational
-002081,Type of balloon,5,HM30,,,,Operational
-002081,Type of balloon,6,SV16,,,,Operational
-002081,Type of balloon,7,Totex TA type balloons,,,,Operational
-002081,Type of balloon,8,Totex TX type balloons,,,,Operational
-002081,Type of balloon,9-29,Reserved,,,,Operational
-002081,Type of balloon,30,Other,,,,Operational
-002081,Type of balloon,31,Missing value,,,,Operational
-002083,Type of balloon shelter,0,High bay,,,,Operational
-002083,Type of balloon shelter,1,Low bay,,,,Operational
-002083,Type of balloon shelter,2,Balloon-inflated launch system (BILS),,,,Operational
-002083,Type of balloon shelter,3,Roof-top BILS,,,,Operational
-002083,Type of balloon shelter,4,Automated unmanned sounding system,,,,Operational
-002083,Type of balloon shelter,5-13,Reserved,,,,Operational
-002083,Type of balloon shelter,14,Other,,,,Operational
-002083,Type of balloon shelter,15,Missing value,,,,Operational
-002084,Type of gas used in balloon,0,Hydrogen,,,,Operational
-002084,Type of gas used in balloon,1,Helium,,,,Operational
-002084,Type of gas used in balloon,2,Natural gas,,,,Operational
-002084,Type of gas used in balloon,3-13,Reserved,,,,Operational
-002084,Type of gas used in balloon,14,Other,,,,Operational
-002084,Type of gas used in balloon,15,Missing value,,,,Operational
-002092,Ozone profile computation method,0,UV channel based retrieval,,,,Operational
-002092,Ozone profile computation method,1,Visible channel based retrieval,,,,Operational
-002092,Ozone profile computation method,2,Combined UV based retrieval and visible based retrieval,,,,Operational
-002092,Ozone profile computation method,3-6,Reserved,,,,Operational
-002092,Ozone profile computation method,7,Missing value,,,,Operational
-002095,Type of pressure sensor,0,Capacitance aneroid,,,,Operational
-002095,Type of pressure sensor,1,Derived from GPS,,,,Operational
-002095,Type of pressure sensor,2,Resistive strain gauge,,,,Operational
-002095,Type of pressure sensor,3,Silicon capacitor,,,,Operational
-002095,Type of pressure sensor,4,Derived from radar height,,,,Operational
-002095,Type of pressure sensor,5-29,Reserved,,,,Operational
-002095,Type of pressure sensor,30,Other,,,,Operational
-002095,Type of pressure sensor,31,Missing value,,,,Operational
-002096,Type of temperature sensor,0,Rod thermistor,,,,Operational
-002096,Type of temperature sensor,1,Bead thermistor,,,,Operational
-002096,Type of temperature sensor,2,Capacitance bead,,,,Operational
-002096,Type of temperature sensor,3,Capacitance wire,,,,Operational
-002096,Type of temperature sensor,4,Resistive sensor,,,,Operational
-002096,Type of temperature sensor,5,Chip thermistor,,,,Operational
-002096,Type of temperature sensor,6,Mercury,,,,Operational
-002096,Type of temperature sensor,7,Alcohol/glycol,,,,Operational
-002096,Type of temperature sensor,8-30,Reserved for future use,,,,Operational
-002096,Type of temperature sensor,31,Missing value,,,,Operational
-002097,Type of humidity sensor,0,VIZ Mark II carbon hygristor,,,,Operational
-002097,Type of humidity sensor,1,VIZ B2 hygristor,,,,Operational
-002097,Type of humidity sensor,2,Vaisala A-Humicap,,,,Operational
-002097,Type of humidity sensor,3,Vaisala H-Humicap,,,,Operational
-002097,Type of humidity sensor,4,Capacitance sensor,,,,Operational
-002097,Type of humidity sensor,5,Vaisala RS90,,,,Operational
-002097,Type of humidity sensor,6,Sippican Mark IIA carbon hygristor,,,,Operational
-002097,Type of humidity sensor,7,Twin alternatively heated Humicap capacitance sensor,,,,Operational
-002097,Type of humidity sensor,8,Humicap capacitance sensor with active de-icing method,,,,Operational
-002097,Type of humidity sensor,9,Carbon hygristor,,,,Operational
-002097,Type of humidity sensor,10,Psychrometer,,,,Operational
-002097,Type of humidity sensor,11,Capacitive (polymer),,,,Operational
-002097,Type of humidity sensor,12,"Capacitive (ceramic, including metal oxide)",,,,Operational
-002097,Type of humidity sensor,13,Resistive (generic),,,,Operational
-002097,Type of humidity sensor,14,Resistive (salt polymer),,,,Operational
-002097,Type of humidity sensor,15,Resistive (conductive polymer),,,,Operational
-002097,Type of humidity sensor,16,Thermal conductivity,,,,Operational
-002097,Type of humidity sensor,17,Gravimetric,,,,Operational
-002097,Type of humidity sensor,18,Paper-metal coil,,,,Operational
-002097,Type of humidity sensor,19,Ordinary human hair,,,,Operational
-002097,Type of humidity sensor,20,Rolled hair (torsion),,,,Operational
-002097,Type of humidity sensor,21,Goldbeater's skin,,,,Operational
-002097,Type of humidity sensor,22,Chilled mirror hygrometer,,,,Operational
-002097,Type of humidity sensor,23,Dew cell,,,,Operational
-002097,Type of humidity sensor,24,Optical absorption sensor,,,,Operational
-002097,Type of humidity sensor,25-30,Reserved for future use,,,,Operational
-002097,Type of humidity sensor,31,Missing value,,,,Operational
-002099,Polarization,0,HH polarization,,,,Operational
-002099,Polarization,1,VV polarization,,,,Operational
-002099,Polarization,2,HV polarization real valued component,,,,Operational
-002099,Polarization,3,HV polarization imaginary valued component,,,,Operational
-002099,Polarization,4-6,Reserved,,,,Operational
-002099,Polarization,7,Missing value,,,,Operational
-002101,Type of antenna,0,Centre front-fed paraboloid,,,,Operational
-002101,Type of antenna,1,Offset front-fed paraboloid,,,,Operational
-002101,Type of antenna,2,Centre Cassegrain paraboloid,,,,Operational
-002101,Type of antenna,3,Offset Cassegrain paraboloid,,,,Operational
-002101,Type of antenna,4,Planar array,,,,Operational
-002101,Type of antenna,5,Coaxial-collinear array,,,,Operational
-002101,Type of antenna,6,Yagi elements array,,,,Operational
-002101,Type of antenna,7,Microstrip,,,,Operational
-002101,Type of antenna,8-13,Reserved,,,,Operational
-002101,Type of antenna,14,Other,,,,Operational
-002101,Type of antenna,15,Missing value,,,,Operational
-002103,Radome,1,Radar antenna is protected by a radome,,,,Operational
-002103,Radome,All 2,Missing value,,,,Operational
-002104,Antenna polarization,0,Horizontal polarization,,,,Operational
-002104,Antenna polarization,1,Vertical polarization,,,,Operational
-002104,Antenna polarization,2,Right circular polarization,,,,Operational
-002104,Antenna polarization,3,Left circular polarization,,,,Operational
-002104,Antenna polarization,4,Horizontal and vertical polarization,,,,Operational
-002104,Antenna polarization,5,Right and left circular polarization,,,,Operational
-002104,Antenna polarization,6,Quasi-horizontal polarization,,,,Operational
-002104,Antenna polarization,7,Quasi-vertical polarization,,,,Operational
-002104,Antenna polarization,8-14,Reserved,,,,Operational
-002104,Antenna polarization,15,Missing value,,,,Operational
-002115,Type of surface observing equipment,0,PDB,,,,Operational
-002115,Type of surface observing equipment,1,RSOIS,,,,Operational
-002115,Type of surface observing equipment,2,ASOS,,,,Operational
-002115,Type of surface observing equipment,3,Psychrometer,,,,Operational
-002115,Type of surface observing equipment,4,F420,,,,Operational
-002115,Type of surface observing equipment,5-29,Reserved,,,,Operational
-002115,Type of surface observing equipment,30,Other,,,,Operational
-002115,Type of surface observing equipment,31,Missing value,,,,Operational
-002119,RA-2 instrument operations,0,Intermediate frequency calibration mode (IF CAL),,,,Operational
-002119,RA-2 instrument operations,1,Built-in test equipment digital (BITE DGT),,,,Operational
-002119,RA-2 instrument operations,2,Built-in test equipment radio frequency (BITE RF),,,,Operational
-002119,RA-2 instrument operations,3,Preset tracking (PSET TRK),,,,Operational
-002119,RA-2 instrument operations,4,Preset LOOP OUT,,,,Operational
-002119,RA-2 instrument operations,5,ACQUISITION,,,,Operational
-002119,RA-2 instrument operations,6,TRACKING,,,,Operational
-002119,RA-2 instrument operations,7,Missing value,,,,Operational
-002131,Sensitivity time control (STC),1,STC operational,,,,Operational
-002131,Sensitivity time control (STC),All 2,Missing values,,,,Operational
-002137,Radar dual PRF ratio,1,3:2,,,,Operational
-002137,Radar dual PRF ratio,2,4:3,,,,Operational
-002137,Radar dual PRF ratio,3,5:4,,,,Operational
-002137,Radar dual PRF ratio,4-14,Reserved,,,,Operational
-002137,Radar dual PRF ratio,15,Missing value,,,,Operational
-002138,Antenna rotation direction,1,Clockwise rotation,,,,Operational
-002138,Antenna rotation direction,2,Counterclockwise rotation,,,,Operational
-002138,Antenna rotation direction,3,Missing value,,,,Operational
-002139,SIRAL instrument configuration,0,SIRAL nominal,,,,Operational
-002139,SIRAL instrument configuration,1,SIRAL redundant,,,,Operational
-002139,SIRAL instrument configuration,2,Missing value,,,,Operational
-002143,Ozone instrument type,0,Reserved,,,,Operational
-002143,Ozone instrument type,1,Brewer spectrophotometer,,,,Operational
-002143,Ozone instrument type,2,Caver Teichert,,,,Operational
-002143,Ozone instrument type,3,Dobson,,,,Operational
-002143,Ozone instrument type,4,Dobson (Japan),,,,Operational
-002143,Ozone instrument type,5,Ehmet,,,,Operational
-002143,Ozone instrument type,6,Fecker telescope,,,,Operational
-002143,Ozone instrument type,7,Hoelper,,,,Operational
-002143,Ozone instrument type,8,Jodmeter,,,,Operational
-002143,Ozone instrument type,9,Filter Ozonometer M-83,,,,Operational
-002143,Ozone instrument type,10,Mast,,,,Operational
-002143,Ozone instrument type,11,Oxford,,,,Operational
-002143,Ozone instrument type,12,Paetzold,,,,Operational
-002143,Ozone instrument type,13,Regener,,,,Operational
-002143,Ozone instrument type,14,Reserved for future use,,,,Operational
-002143,Ozone instrument type,15,Vassy filter ozonometer,,,,Operational
-002143,Ozone instrument type,16,Carbon iodide,,,,Operational
-002143,Ozone instrument type,17,Surface ozone bubbler,,,,Operational
-002143,Ozone instrument type,18,Filter ozonometer M-124,,,,Operational
-002143,Ozone instrument type,19,ECC sonde,,,,Operational
-002143,Ozone instrument type,20-126,Reserved,,,,Operational
-002143,Ozone instrument type,127,Missing value,,,,Operational
-002144,Light source type for Brewer spectrophotometer,0,Direct sun,,,,Operational
-002144,Light source type for Brewer spectrophotometer,1,"Direct sun, attenuator #1",,,,Operational
-002144,Light source type for Brewer spectrophotometer,2,"Direct sun, attenuator #2",,,,Operational
-002144,Light source type for Brewer spectrophotometer,3,Focused moon,,,,Operational
-002144,Light source type for Brewer spectrophotometer,4,Focused sun,,,,Operational
-002144,Light source type for Brewer spectrophotometer,5,Focused sun corrected with adjacent sky measurements,,,,Operational
-002144,Light source type for Brewer spectrophotometer,6,Zenith sky,,,,Operational
-002144,Light source type for Brewer spectrophotometer,7-14,Reserved,,,,Operational
-002144,Light source type for Brewer spectrophotometer,15,Missing value,,,,Operational
-002145,Wavelength setting for Dobson instruments,0,Wavelengths AD ordinary setting,,,,Operational
-002145,Wavelength setting for Dobson instruments,1,Wavelengths BD ordinary setting,,,,Operational
-002145,Wavelength setting for Dobson instruments,2,Wavelengths CD ordinary setting,,,,Operational
-002145,Wavelength setting for Dobson instruments,3,Wavelengths CC' ordinary setting,,,,Operational
-002145,Wavelength setting for Dobson instruments,4,Wavelengths AD focused image,,,,Operational
-002145,Wavelength setting for Dobson instruments,5,Wavelengths BD focused image,,,,Operational
-002145,Wavelength setting for Dobson instruments,6,Wavelengths CD focused image,,,,Operational
-002145,Wavelength setting for Dobson instruments,7,Wavelengths CC' focused image,,,,Operational
-002145,Wavelength setting for Dobson instruments,8-14,Reserved,,,,Operational
-002145,Wavelength setting for Dobson instruments,15,Missing value,,,,Operational
-002146,Source conditions for Dobson instruments,0,On direct sun,,,,Operational
-002146,Source conditions for Dobson instruments,1,On direct moon,,,,Operational
-002146,Source conditions for Dobson instruments,2,On blue zenith sky,,,,Operational
-002146,Source conditions for Dobson instruments,3,On zenith cloud (uniform stratified layer of small opacity),,,,Operational
-002146,Source conditions for Dobson instruments,4,On zenith cloud (uniform or moderately variable layer of medium opacity),,,,Operational
-002146,Source conditions for Dobson instruments,5,On zenith cloud (uniform or moderately variable layer of large opacity),,,,Operational
-002146,Source conditions for Dobson instruments,6,"On zenith cloud (highly variable opacity, with or without precipitation)",,,,Operational
-002146,Source conditions for Dobson instruments,7,On zenith cloud (fog),,,,Operational
-002146,Source conditions for Dobson instruments,8,On zenith haze,,,,Operational
-002146,Source conditions for Dobson instruments,9,"On direct sun through thin cloud, fog or haze",,,,Operational
-002146,Source conditions for Dobson instruments,10-14,Reserved,,,,Operational
-002146,Source conditions for Dobson instruments,15,Missing value,,,,Operational
-002147,Method of transmission to collection centre,0,Reserved,,,,Operational
-002147,Method of transmission to collection centre,1,Direct leased circuit,,,,Operational
-002147,Method of transmission to collection centre,2,Dialled up connection,,,,Operational
-002147,Method of transmission to collection centre,3,Internet ISP ,,,,Operational
-002147,Method of transmission to collection centre,4,"DCP via satellite (MTSAT, METEOSAT, etc.)",,,,Operational
-002147,Method of transmission to collection centre,5,VSAT ,,,,Operational
-002147,Method of transmission to collection centre,6,"GAN,* BGAN**",,,,Operational
-002147,Method of transmission to collection centre,7,Thiss terminal,,,,Operational
-002147,Method of transmission to collection centre,8,Iridium satellites,,,,Operational
-002147,Method of transmission to collection centre,9,Mobile telephony,,,,Operational
-002147,Method of transmission to collection centre,10-62,Reserved,,,,Operational
-002147,Method of transmission to collection centre,63,Missing value,,,,Operational
-002148,Data collection and/or location system,0,Reserved,,,,Operational
-002148,Data collection and/or location system,1,Argos,,,,Operational
-002148,Data collection and/or location system,2,GPS,,,,Operational
-002148,Data collection and/or location system,3,GOES DCP,,,,Operational
-002148,Data collection and/or location system,4,METEOSAT DCP,,,,Operational
-002148,Data collection and/or location system,5,ORBCOMM,,,,Operational
-002148,Data collection and/or location system,6,INMARSAT,,,,Operational
-002148,Data collection and/or location system,7,Iridium,,,,Operational
-002148,Data collection and/or location system,8,Iridium and GPS,,,,Operational
-002148,Data collection and/or location system,9,Argos-3,,,,Operational
-002148,Data collection and/or location system,10,Argos-4,,,,Operational
-002148,Data collection and/or location system,11-30,Reserved,,,,Operational
-002148,Data collection and/or location system,31,Missing value,,,,Operational
-002149,Type of data buoy,0,Unspecified drifting buoy,,,,Operational
-002149,Type of data buoy,1,Standard Lagrangian drifter (Global Drifter Programme),,,,Operational
-002149,Type of data buoy,2,Standard FGGE type drifting buoy (non-Lagrangian meteorological drifting buoy),,,,Operational
-002149,Type of data buoy,3,Wind measuring FGGE type drifting buoy (non-Lagrangian meteorological drifting buoy),,,,Operational
-002149,Type of data buoy,4,Ice drifter,,,,Operational
-002149,Type of data buoy,5,SVPG Standard Lagrangian drifter with GPS,,,,Operational
-002149,Type of data buoy,6,SVP-HR drifter with high-resolution temperature or thermistor string,,,,Operational
-002149,Type of data buoy,7,Reserved,,,,Operational
-002149,Type of data buoy,8,Unspecified subsurface float,,,,Operational
-002149,Type of data buoy,9,SOFAR,,,,Operational
-002149,Type of data buoy,10,ALACE,,,,Operational
-002149,Type of data buoy,11,MARVOR,,,,Operational
-002149,Type of data buoy,12,RAFOS,,,,Operational
-002149,Type of data buoy,13,PROVOR,,,,Operational
-002149,Type of data buoy,14,SOLO,,,,Operational
-002149,Type of data buoy,15,APEX,,,,Operational
-002149,Type of data buoy,16,Unspecified moored buoy,,,,Operational
-002149,Type of data buoy,17,Nomad,,,,Operational
-002149,Type of data buoy,18,3-metre discus,,,,Operational
-002149,Type of data buoy,19,10-12-metre discus,,,,Operational
-002149,Type of data buoy,20,ODAS 30 series,,,,Operational
-002149,Type of data buoy,21,ATLAS (e.g. TAO area),,,,Operational
-002149,Type of data buoy,22,TRITON buoy,,,,Operational
-002149,Type of data buoy,23,FLEX mooring (e.g. TIP area),,,,Operational
-002149,Type of data buoy,24,Omnidirectional waverider,,,,Operational
-002149,Type of data buoy,25,Directional waverider,,,,Operational
-002149,Type of data buoy,26,Subsurface ARGO float,,,,Operational
-002149,Type of data buoy,27,PALACE,,,,Operational
-002149,Type of data buoy,28,NEMO,,,,Operational
-002149,Type of data buoy,29,NINJA,,,,Operational
-002149,Type of data buoy,30,Ice buoy/float (POPS or ITP),,,,Operational
-002149,Type of data buoy,31-33,Reserved,,,,Operational
-002149,Type of data buoy,34,Mooring oceanographic,,,,Operational
-002149,Type of data buoy,35,Mooring meteorological,,,,Operational
-002149,Type of data buoy,36,Mooring multidisciplinary (OceanSITES),,,,Operational
-002149,Type of data buoy,37,Mooring tide gauge or tsunami buoy,,,,Operational
-002149,Type of data buoy,38,Ice beacon,,,,Operational
-002149,Type of data buoy,39,Ice mass balance buoy,,,,Operational
-002149,Type of data buoy,40-62,Reserved,,,,Operational
-002149,Type of data buoy,63,Missing value,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,0,Reserved,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,1,HIRS 1,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,2,HIRS 2,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,3,HIRS 3,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,4,HIRS 4,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,5,HIRS 5,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,6,HIRS 6,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,7,HIRS 7,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,8,HIRS 8,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,9,HIRS 9,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,10,HIRS 10,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,11,HIRS 11,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,12,HIRS 12,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,13,HIRS 13,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,14,HIRS 14,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,15,HIRS 15,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,16,HIRS 16,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,17,HIRS 17,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,18,HIRS 18,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,19,HIRS 19,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,20,HIRS 20,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,21,MSU 1,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,22,MSU 2,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,23,MSU 3,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,24,MSU 4,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,25,SSU 1,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,26,SSU 2,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,27,SSU 3,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,28,AMSU-A 1,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,29,AMSU-A 2,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,30,AMSU-A 3,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,31,AMSU-A 4,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,32,AMSU-A 5,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,33,AMSU-A 6,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,34,AMSU-A 7,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,35,AMSU-A 8,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,36,AMSU-A 9,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,37,AMSU-A 10,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,38,AMSU-A 11,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,39,AMSU-A 12,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,40,AMSU-A 13,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,41,AMSU-A 14,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,42,AMSU-A 15,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,43,AMSU-B 1 / MHS 1,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,44,AMSU-B 2 / MHS 2,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,45,AMSU-B 3 / MHS 3,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,46,AMSU-B 4 / MHS 4,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,47,AMSU-B 5 / MHS 5,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,48,AVHRR 1,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,49,AVHRR 2,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,50,AVHRR 3a,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,51,AVHRR 3b,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,52,AVHRR 4,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,53,AVHRR 5,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,54-62,Reserved,,,,Operational
-002150,TOVS/ATOVS/AVHRR instrumentation channel number,63,Missing value,,,,Operational
-002151,Radiometer identifier,0,HIRS,,,,Operational
-002151,Radiometer identifier,1,MSU,,,,Operational
-002151,Radiometer identifier,2,SSU,,,,Operational
-002151,Radiometer identifier,3,AMSU-A1-1,,,,Operational
-002151,Radiometer identifier,4,AMSU-A1-2,,,,Operational
-002151,Radiometer identifier,5,AMSU-A2,,,,Operational
-002151,Radiometer identifier,6,AMSU-B,,,,Operational
-002151,Radiometer identifier,7,AVHRR,,,,Operational
-002151,Radiometer identifier,8,Reserved,,,,Operational
-002151,Radiometer identifier,9,MHS,,,,Operational
-002151,Radiometer identifier,10-2046,Reserved,,,,Operational
-002151,Radiometer identifier,2047,Missing value,,,,Operational
-002152,Satellite instrument used in data processing,1,High-resolution infrared sounder (HIRS),,,,Operational
-002152,Satellite instrument used in data processing,2,Microwave sounding unit (MSU),,,,Operational
-002152,Satellite instrument used in data processing,3,Stratospheric sounding unit (SSU),,,,Operational
-002152,Satellite instrument used in data processing,4,AMI wind mode,,,,Operational
-002152,Satellite instrument used in data processing,5,AMI wave mode,,,,Operational
-002152,Satellite instrument used in data processing,6,AMI image mode,,,,Operational
-002152,Satellite instrument used in data processing,7,RADAR altimeter,,,,Operational
-002152,Satellite instrument used in data processing,8,ATSR,,,,Operational
-002152,Satellite instrument used in data processing,9,Geostationary imager,,,,Operational
-002152,Satellite instrument used in data processing,10,Geostationary sounder,,,,Operational
-002152,Satellite instrument used in data processing,11,Geostationary Earth radiation (GERB),,,,Operational
-002152,Satellite instrument used in data processing,12,Multi-channel scanning radiometer,,,,Operational
-002152,Satellite instrument used in data processing,13,Polar-orbiting imager,,,,Operational
-002152,Satellite instrument used in data processing,14-30,Reserved,,,,Operational
-002152,Satellite instrument used in data processing,All 31,Missing value,,,,Operational
-002158,RA-2 instrument,1,Mismatch in RED VEC HPA,,,,Operational
-002158,RA-2 instrument,2,Mismatch in RED VEC RFSS,,,,Operational
-002158,RA-2 instrument,3,PTR calibration band 320 MHz (Ku),,,,Operational
-002158,RA-2 instrument,4,PTR calibration band 80 MHz (Ku),,,,Operational
-002158,RA-2 instrument,5,PTR calibration band 20 MHz (Ku),,,,Operational
-002158,RA-2 instrument,6,PTR calibration band 160 MHz (S),,,,Operational
-002158,RA-2 instrument,7,Ku flight calibration parameters available,,,,Operational
-002158,RA-2 instrument,8,S flight calibration parameters available,,,,Operational
-002158,RA-2 instrument,All 9,Missing value,,,,Operational
-002159,MWR instrument,1,Temperature inconsistency,,,,Operational
-002159,MWR instrument,2,Data is missing,,,,Operational
-002159,MWR instrument,3,Redundancy channel,,,,Operational
-002159,MWR instrument,4,Power bus protection,,,,Operational
-002159,MWR instrument,5,Overvoltage/Overload protection,,,,Operational
-002159,MWR instrument,6,Reserved,,,,Operational
-002159,MWR instrument,7,Reserved,,,,Operational
-002159,MWR instrument,All 8,Missing value,,,,Operational
-002160,Wavelength of the radar,0,Reserved,,,,Operational
-002160,Wavelength of the radar,1,10 to less than 20 mm,,,,Operational
-002160,Wavelength of the radar,2,Reserved,,,,Operational
-002160,Wavelength of the radar,3,20 to less than 40 mm,,,,Operational
-002160,Wavelength of the radar,4,Reserved,,,,Operational
-002160,Wavelength of the radar,5,40 to less than 60 mm,,,,Operational
-002160,Wavelength of the radar,6,Reserved,,,,Operational
-002160,Wavelength of the radar,7,60 to less than 90 mm,,,,Operational
-002160,Wavelength of the radar,8,90 to less than 110 mm,,,,Operational
-002160,Wavelength of the radar,9,110 mm and greater,,,,Operational
-002160,Wavelength of the radar,10-14,Not used,,,,Operational
-002160,Wavelength of the radar,15,Missing value,,,,Operational
-002161,Wind processing method,1-10,Reserved,,,,Operational
-002161,Wind processing method,11,Wind height calculated from median cloud-top pressure of target,,,,Operational
-002161,Wind processing method,12,Target is cloudy,,,,Operational
-002161,Wind processing method,13,Low-level inversion,,,,Operational
-002161,Wind processing method,14,Cross correlation contribution (CCC) method,,,,Operational
-002161,Wind processing method,15,Nested tracking,,,,Operational
-002161,Wind processing method,All 16,Missing value,,,,Operational
-002162,Extended height assignment method,0,Auto editor,,,,Operational
-002162,Extended height assignment method,1,IRW height assignment,,,,Operational
-002162,Extended height assignment method,2,WV height assignment,,,,Operational
-002162,Extended height assignment method,3,H2O intercept height assignment,,,,Operational
-002162,Extended height assignment method,4,CO2 slicing height assignment,,,,Operational
-002162,Extended height assignment method,5,Low pixel max gradient,,,,Operational
-002162,Extended height assignment method,6,Higher pixel max gradient,,,,Operational
-002162,Extended height assignment method,7,Primary height assignment,,,,Operational
-002162,Extended height assignment method,8,Layer thickness assignment,,,,Operational
-002162,Extended height assignment method,9,Cumulative contribution function - 10 per cent height,,,,Operational
-002162,Extended height assignment method,10,Cumulative contribution function - 50 per cent height,,,,Operational
-002162,Extended height assignment method,11,Cumulative contribution function - 90 per cent height,,,,Operational
-002162,Extended height assignment method,12,Cumulative contribution function - height of maximum gradient,,,,Operational
-002162,Extended height assignment method,13,IR/two WV channel rationing method,,,,Operational
-002162,Extended height assignment method,14,Composite height assignment,,,,Operational
-002162,Extended height assignment method,15,Optimal estimation,,,,Operational
-002162,Extended height assignment method,16,Inversion correction,,,,Operational
-002162,Extended height assignment method,17,Geometric height assignment,,,,Operational
-002162,Extended height assignment method,18-62,Reserved,,,,Operational
-002162,Extended height assignment method,63,Missing value,,,,Operational
-002163,Height assignment method,0,Auto editor,,,,Operational
-002163,Height assignment method,1,IRW height assignment,,,,Operational
-002163,Height assignment method,2,WV height assignment,,,,Operational
-002163,Height assignment method,3,H2O intercept height assignment,,,,Operational
-002163,Height assignment method,4,CO2 slicing height assignment,,,,Operational
-002163,Height assignment method,5,Low pixel max gradient,,,,Operational
-002163,Height assignment method,6,Higher pixel max gradient,,,,Operational
-002163,Height assignment method,7,Primary height assignment,,,,Operational
-002163,Height assignment method,8,Layer thickness assignment,,,,Operational
-002163,Height assignment method,9,Cumulative contribution function - 10 per cent height,,,,Operational
-002163,Height assignment method,10,Cumulative contribution function - 50 per cent height,,,,Operational
-002163,Height assignment method,11,Cumulative contribution function - 90 per cent height,,,,Operational
-002163,Height assignment method,12,Cumulative contribution function - height of maximum gradient,,,,Operational
-002163,Height assignment method,13,IR / two WV channel ratioing method,,,,Operational
-002163,Height assignment method,14,Composite height assignment,,,,Operational
-002163,Height assignment method,15,Missing value,,,,Operational
-002164,Tracer correlation method,0,LP - Norms least square minimum,,,,Operational
-002164,Tracer correlation method,1,EN - Euclidean norm with radiance correlation,,,,Operational
-002164,Tracer correlation method,2,CC - Cross correlation,,,,Operational
-002164,Tracer correlation method,3,Stereo matching,,,,Operational
-002164,Tracer correlation method,4-6,Reserved,,,,Operational
-002164,Tracer correlation method,7,Missing value,,,,Operational
-002165,Radiance type flags,1,Clear path,,,,Operational
-002165,Radiance type flags,2,Partly cloudy path,,,,Operational
-002165,Radiance type flags,3,Cloudy path,,,,Operational
-002165,Radiance type flags,4,Apodized,,,,Operational
-002165,Radiance type flags,5,Unapodized,,,,Operational
-002165,Radiance type flags,6,Reconstructed,,,,Operational
-002165,Radiance type flags,7,Cloud cleared,,,,Operational
-002165,Radiance type flags,8-14,Reserved,,,,Operational
-002165,Radiance type flags,All 15,Missing value,,,,Operational
-002166,Radiance type,0,Type not defined,,,,Operational
-002166,Radiance type,1,Automated statistical regression,,,,Operational
-002166,Radiance type,2,Clear path,,,,Operational
-002166,Radiance type,3,Partly cloudy path,,,,Operational
-002166,Radiance type,4,Cloudy path,,,,Operational
-002166,Radiance type,5-14,Reserved,,,,Operational
-002166,Radiance type,15,Missing value,,,,Operational
-002167,Radiance computational method,0,Method not defined,,,,Operational
-002167,Radiance computational method,1,1b raw radiance,,,,Operational
-002167,Radiance computational method,2,Processed radiance,,,,Operational
-002167,Radiance computational method,3-14,Reserved,,,,Operational
-002167,Radiance computational method,15,Missing value,,,,Operational
-002169,Anemometer type,0,Cup rotor,,,,Operational
-002169,Anemometer type,1,Propeller rotor,,,,Operational
-002169,Anemometer type,2,Wind Observation Through Ambient Noise (WOTAN),,,,Operational
-002169,Anemometer type,3,Sonic,,,,Operational
-002169,Anemometer type,4-14,Reserved,,,,Operational
-002169,Anemometer type,15,Missing value,,,,Operational
-002170,Aircraft humidity sensors,0,"SpectraSensors WVSS-II, Version 1",,,,Operational
-002170,Aircraft humidity sensors,1,"SpectraSensors WVSS-II, Version 2",,,,Operational
-002170,Aircraft humidity sensors,2,"SpectraSensors WVSS-II, Version 3",,,,Operational
-002170,Aircraft humidity sensors,3-61,Reserved,,,,Operational
-002170,Aircraft humidity sensors,62,Other,,,,Operational
-002170,Aircraft humidity sensors,63,Missing value,,,,Operational
-002172,Product type for retrieved atmospheric gases,0,Reserved,,,,Operational
-002172,Product type for retrieved atmospheric gases,1,Retrieval from a nadir sounding,,,,Operational
-002172,Product type for retrieved atmospheric gases,2,Retrieval from a limb sounding,,,,Operational
-002172,Product type for retrieved atmospheric gases,3-254,Reserved,,,,Operational
-002172,Product type for retrieved atmospheric gases,255,Missing value,,,,Operational
-002175,Method of precipitation measurement,0,Manual measurement,,,,Operational
-002175,Method of precipitation measurement,1,Tipping bucket method,,,,Operational
-002175,Method of precipitation measurement,2,Weighing method,,,,Operational
-002175,Method of precipitation measurement,3,Optical method,,,,Operational
-002175,Method of precipitation measurement,4,Pressure method,,,,Operational
-002175,Method of precipitation measurement,5,Float method,,,,Operational
-002175,Method of precipitation measurement,6,Drop counter method,,,,Operational
-002175,Method of precipitation measurement,7-13,Reserved,,,,Operational
-002175,Method of precipitation measurement,14,Others,,,,Operational
-002175,Method of precipitation measurement,15,Missing value,,,,Operational
-002176,Method of state of ground measurement,0,Manual observation,,,,Operational
-002176,Method of state of ground measurement,1,Video camera method,,,,Operational
-002176,Method of state of ground measurement,2,Infrared method,,,,Operational
-002176,Method of state of ground measurement,3,Laser method,,,,Operational
-002176,Method of state of ground measurement,4-13,Reserved,,,,Operational
-002176,Method of state of ground measurement,14,Others,,,,Operational
-002176,Method of state of ground measurement,15,Missing value,,,,Operational
-002177,Method of snow depth measurement,0,Manual observation,,,,Operational
-002177,Method of snow depth measurement,1,Ultrasonic method,,,,Operational
-002177,Method of snow depth measurement,2,Video camera method,,,,Operational
-002177,Method of snow depth measurement,3,Laser method,,,,Operational
-002177,Method of snow depth measurement,4-13,Reserved,,,,Operational
-002177,Method of snow depth measurement,14,Others,,,,Operational
-002177,Method of snow depth measurement,15,Missing value,,,,Operational
-002178,Method of liquid content measurement of precipitation,0,Manual observation,,,,Operational
-002178,Method of liquid content measurement of precipitation,1,Optical method,,,,Operational
-002178,Method of liquid content measurement of precipitation,2,Capacitive method,,,,Operational
-002178,Method of liquid content measurement of precipitation,3-13,Reserved,,,,Operational
-002178,Method of liquid content measurement of precipitation,14,Others,,,,Operational
-002178,Method of liquid content measurement of precipitation,15,Missing value,,,,Operational
-002179,Type of sky condition algorithm,0,Manual observation,,,,Operational
-002179,Type of sky condition algorithm,1,VAISALA algorithm,,,,Operational
-002179,Type of sky condition algorithm,2,ASOS (FAA) algorithm,,,,Operational
-002179,Type of sky condition algorithm,3,AWOS (Canada) algorithm,,,,Operational
-002179,Type of sky condition algorithm,4-13,Reserved,,,,Operational
-002179,Type of sky condition algorithm,14,Others,,,,Operational
-002179,Type of sky condition algorithm,15,Missing value,,,,Operational
-002180,Main present weather detecting system,0,Manual observation,,,,Operational
-002180,Main present weather detecting system,1,Optical scatter system combined with precipitation occurrence sensing system,,,,Operational
-002180,Main present weather detecting system,2,Forward and/or backscatter system of visible light,,,,Operational
-002180,Main present weather detecting system,3,Forward and/or backscatter system of infrared light,,,,Operational
-002180,Main present weather detecting system,4,Infrared light emitting diode (IRED) system,,,,Operational
-002180,Main present weather detecting system,5,Doppler radar system,,,,Operational
-002180,Main present weather detecting system,6-13,Reserved,,,,Operational
-002180,Main present weather detecting system,14,Others,,,,Operational
-002180,Main present weather detecting system,15,Missing value,,,,Operational
-002181,Supplementary present weather sensor,1,Rain detector,,,,Operational
-002181,Supplementary present weather sensor,2,Freezing rain sensor,,,,Operational
-002181,Supplementary present weather sensor,3,Ice detection sensor,,,,Operational
-002181,Supplementary present weather sensor,4,Hail and ice pellet sensor,,,,Operational
-002181,Supplementary present weather sensor,5-19,Reserved,,,,Operational
-002181,Supplementary present weather sensor,20,Others,,,,Operational
-002181,Supplementary present weather sensor,All 21,Missing value,,,,Operational
-002182,Visibility measurement system,0,Manual measurement,,,,Operational
-002182,Visibility measurement system,1,Transmissometer system (base > 25 m),,,,Operational
-002182,Visibility measurement system,2,Transmissometer system (base < 25 m),,,,Operational
-002182,Visibility measurement system,3,Forward scatter system,,,,Operational
-002182,Visibility measurement system,4,Backscatter system,,,,Operational
-002182,Visibility measurement system,5-13,Reserved,,,,Operational
-002182,Visibility measurement system,14,Others,,,,Operational
-002182,Visibility measurement system,15,Missing value,,,,Operational
-002183,Cloud detection system,0,Manual observation,,,,Operational
-002183,Cloud detection system,1,Ceilometer system,,,,Operational
-002183,Cloud detection system,2,Infrared camera system,,,,Operational
-002183,Cloud detection system,3,Microwave visual camera system,,,,Operational
-002183,Cloud detection system,4,Sky imager system,,,,Operational
-002183,Cloud detection system,5,Video time-lapsed camera system,,,,Operational
-002183,Cloud detection system,6,Micropulse lidar (MPL) system,,,,Operational
-002183,Cloud detection system,7-13,Reserved,,,,Operational
-002183,Cloud detection system,14,Others,,,,Operational
-002183,Cloud detection system,15,Missing value,,,,Operational
-002184,Type of lightning detection sensor,0,Manual observation,,,,Operational
-002184,Type of lightning detection sensor,1,Lightning imaging sensor,,,,Operational
-002184,Type of lightning detection sensor,2,Electrical storm identification sensor,,,,Operational
-002184,Type of lightning detection sensor,3,Magnetic finder sensor,,,,Operational
-002184,Type of lightning detection sensor,4,Lightning strike sensor,,,,Operational
-002184,Type of lightning detection sensor,5,Flash counter,,,,Operational
-002184,Type of lightning detection sensor,6,ATDnet VLF waveform correlated sensor,,,,Operational
-002184,Type of lightning detection sensor,7-13,Reserved,,,,Operational
-002184,Type of lightning detection sensor,14,Others,,,,Operational
-002184,Type of lightning detection sensor,15,Missing value,,,,Operational
-002185,Method of evaporation measurement,0,Manual measurement,,,,Operational
-002185,Method of evaporation measurement,1,Balanced floating method,,,,Operational
-002185,Method of evaporation measurement,2,Pressure method,,,,Operational
-002185,Method of evaporation measurement,3,Ultrasonic method,,,,Operational
-002185,Method of evaporation measurement,4,Hydraulic method,,,,Operational
-002185,Method of evaporation measurement,5-13,Reserved,,,,Operational
-002185,Method of evaporation measurement,14,Others,,,,Operational
-002185,Method of evaporation measurement,15,Missing value,,,,Operational
-002186,Capability to detect precipitation phenomena,1,Precipitation-unknown type,,,,Operational
-002186,Capability to detect precipitation phenomena,2,Liquid precipitation not freezing,,,,Operational
-002186,Capability to detect precipitation phenomena,3,Liquid freezing precipitation,,,,Operational
-002186,Capability to detect precipitation phenomena,4,Drizzle,,,,Operational
-002186,Capability to detect precipitation phenomena,5,Rain,,,,Operational
-002186,Capability to detect precipitation phenomena,6,Solid precipitation,,,,Operational
-002186,Capability to detect precipitation phenomena,7,Snow,,,,Operational
-002186,Capability to detect precipitation phenomena,8,Snow grains,,,,Operational
-002186,Capability to detect precipitation phenomena,9,Snow pellets,,,,Operational
-002186,Capability to detect precipitation phenomena,10,Ice pellets,,,,Operational
-002186,Capability to detect precipitation phenomena,11,Ice crystals,,,,Operational
-002186,Capability to detect precipitation phenomena,12,Diamond dust,,,,Operational
-002186,Capability to detect precipitation phenomena,13,Small hail,,,,Operational
-002186,Capability to detect precipitation phenomena,14,Hail,,,,Operational
-002186,Capability to detect precipitation phenomena,15,Glaze,,,,Operational
-002186,Capability to detect precipitation phenomena,16,Rime,,,,Operational
-002186,Capability to detect precipitation phenomena,17,Soft rime,,,,Operational
-002186,Capability to detect precipitation phenomena,18,Hard rime,,,,Operational
-002186,Capability to detect precipitation phenomena,19,Clear ice,,,,Operational
-002186,Capability to detect precipitation phenomena,20,Wet snow,,,,Operational
-002186,Capability to detect precipitation phenomena,21,Hoar frost,,,,Operational
-002186,Capability to detect precipitation phenomena,22,Dew,,,,Operational
-002186,Capability to detect precipitation phenomena,23,White dew,,,,Operational
-002186,Capability to detect precipitation phenomena,24,Convective precipitation,,,,Operational
-002186,Capability to detect precipitation phenomena,25-29,Reserved,,,,Operational
-002186,Capability to detect precipitation phenomena,All 30,Missing value,,,,Operational
-002187,Capability to detect other weather phenomena,1,Dust/sand whirl,,,,Operational
-002187,Capability to detect other weather phenomena,2,Squalls,,,,Operational
-002187,Capability to detect other weather phenomena,3,Sand storm,,,,Operational
-002187,Capability to detect other weather phenomena,4,Dust storm,,,,Operational
-002187,Capability to detect other weather phenomena,5,Lightning - cloud to surface,,,,Operational
-002187,Capability to detect other weather phenomena,6,Lightning - cloud to cloud,,,,Operational
-002187,Capability to detect other weather phenomena,7,Lightning - distant,,,,Operational
-002187,Capability to detect other weather phenomena,8,Thunderstorm,,,,Operational
-002187,Capability to detect other weather phenomena,9,Funnel cloud not touching surface,,,,Operational
-002187,Capability to detect other weather phenomena,10,Funnel cloud touching surface,,,,Operational
-002187,Capability to detect other weather phenomena,11,Spray,,,,Operational
-002187,Capability to detect other weather phenomena,12-17,Reserved,,,,Operational
-002187,Capability to detect other weather phenomena,All 18,Missing value,,,,Operational
-002188,Capability to detect obscuration,1,Fog,,,,Operational
-002188,Capability to detect obscuration,2,Ice fog,,,,Operational
-002188,Capability to detect obscuration,3,Steam fog,,,,Operational
-002188,Capability to detect obscuration,4-6,Reserved,,,,Operational
-002188,Capability to detect obscuration,7,Mist,,,,Operational
-002188,Capability to detect obscuration,8,Haze,,,,Operational
-002188,Capability to detect obscuration,9,Smoke,,,,Operational
-002188,Capability to detect obscuration,10,Volcanic ash,,,,Operational
-002188,Capability to detect obscuration,11,Dust,,,,Operational
-002188,Capability to detect obscuration,12,Sand,,,,Operational
-002188,Capability to detect obscuration,13,Snow,,,,Operational
-002188,Capability to detect obscuration,14-20,Reserved,,,,Operational
-002188,Capability to detect obscuration,All 21,Missing value,,,,Operational
-002189,Capability to discriminate lightning strikes,1,Manual observation,,,,Operational
-002189,Capability to discriminate lightning strikes,2,All lightning strikes without discrimination,,,,Operational
-002189,Capability to discriminate lightning strikes,3,Lightning strikes cloud to ground only,,,,Operational
-002189,Capability to discriminate lightning strikes,4,All lightning strikes with discrimination between cloud to ground and cloud to cloud,,,,Operational
-002189,Capability to discriminate lightning strikes,5-11,Reserved,,,,Operational
-002189,Capability to discriminate lightning strikes,All 12,Missing value,,,,Operational
-002191,Geopotential height calculation,0,Geopotential height calculated from pressure,,,,Operational
-002191,Geopotential height calculation,1,Geopotential height calculated from GPS height,,,,Operational
-002191,Geopotential height calculation,2,Geopotential height calculated from radar height,,,,Operational
-002191,Geopotential height calculation,3-14,Reserved,,,,Operational
-002191,Geopotential height calculation,15,Missing value,,,,Operational
+FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+002001,Type of station,0,Automatic,,,,,Operational
+002001,Type of station,1,Manned,,,,,Operational
+002001,Type of station,2,Hybrid: both manned and automatic,,,,,Operational
+002001,Type of station,3,Missing value,,,,,Operational
+002002,Type of instrumentation for wind measurement,1,Certified instruments,,,,,Operational
+002002,Type of instrumentation for wind measurement,2,Originally measured in knots,,,,,Operational
+002002,Type of instrumentation for wind measurement,3,Originally measured in km h-1,,,,,Operational
+002002,Type of instrumentation for wind measurement,All 4,Missing value,,,,,Operational
+002003,Type of measuring equipment used,0,Pressure instrument associated with wind measuring equipment,,,,,Operational
+002003,Type of measuring equipment used,1,Optical theodolite,,,,,Operational
+002003,Type of measuring equipment used,2,Radio theodolite,,,,,Operational
+002003,Type of measuring equipment used,3,Radar,,,,,Operational
+002003,Type of measuring equipment used,4,VLF-Omega,,,,,Operational
+002003,Type of measuring equipment used,5,Loran C,,,,,Operational
+002003,Type of measuring equipment used,6,Wind profiler,,,,,Operational
+002003,Type of measuring equipment used,7,Satellite navigation,,,,,Operational
+002003,Type of measuring equipment used,8,Radio-acoustic Sounding System (RASS),,,,,Operational
+002003,Type of measuring equipment used,9,Sodar,,,,,Operational
+002003,Type of measuring equipment used,10,Lidar,,,,,Operational
+002003,Type of measuring equipment used,11-13,Reserved,,,,,Operational
+002003,Type of measuring equipment used,14,Pressure instrument associated with wind measuring equipment but pressure element failed during ascent,,,,,Operational
+002003,Type of measuring equipment used,15,Missing value,,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,0,USA open pan evaporimeter (without cover),Evaporation,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,1,USA open pan evaporimeter (mesh covered),Evaporation,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,2,GGI-3000 evaporimeter (sunken),Evaporation,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,3,20 m2 tank,Evaporation,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,4,Others,Evaporation,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,5,Rice,Evapotranspiration,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,6,Wheat,Evapotranspiration,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,7,Maize,Evapotranspiration,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,8,Sorghum,Evapotranspiration,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,9,Other crops,Evapotranspiration,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,10-14,Reserved,,,,,Operational
+002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,15,Missing value,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,0,Reserved,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,1,Elastic backscatter lidar,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,2,Raman backscatter lidar,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,3,Radar wind profiler,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,4,Lidar wind profiler,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,5,Sodar wind profiler,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,6,Wind profiler,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,7,Lidar,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,8-62,Reserved,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,63,Missing value,,,,,Operational
+002007,Type of sensor for water level measuring instrument,0,Reserved,,,,,Operational
+002007,Type of sensor for water level measuring instrument,1,Shaft encoder float system,,,,,Operational
+002007,Type of sensor for water level measuring instrument,2,Ultrasonic,,,,,Operational
+002007,Type of sensor for water level measuring instrument,3,Radar,,,,,Operational
+002007,Type of sensor for water level measuring instrument,4,Pressure (single transducer),,,,,Operational
+002007,Type of sensor for water level measuring instrument,5,Pressure (multiple transducer),,,,,Operational
+002007,Type of sensor for water level measuring instrument,6,Pressure (in stilling well),,,,,Operational
+002007,Type of sensor for water level measuring instrument,7,Bubbler pressure,,,,,Operational
+002007,Type of sensor for water level measuring instrument,8,Acoustic (with sounding tube),,,,,Operational
+002007,Type of sensor for water level measuring instrument,9,Acoustic (in open air),,,,,Operational
+002007,Type of sensor for water level measuring instrument,10-62,Reserved,,,,,Operational
+002007,Type of sensor for water level measuring instrument,63,Missing value,,,,,Operational
+002008,Type of offshore platform,0,Fixed platform,,,,,Operational
+002008,Type of offshore platform,1,Mobile offshore drill ship,,,,,Operational
+002008,Type of offshore platform,2,Jack-up rig,,,,,Operational
+002008,Type of offshore platform,3,Semi-submersible platform,,,,,Operational
+002008,Type of offshore platform,4,Floating production storage and offloading (FPSO) unit,,,,,Operational
+002008,Type of offshore platform,5,Light vessel,,,,,Operational
+002008,Type of offshore platform,6-14,Reserved,,,,,Operational
+002008,Type of offshore platform,15,Missing value,,,,,Operational
+002011,Radiosonde type,,,,,,,Operational
+002012,Radiosonde computational method,,,,,,,Operational
+002013,Solar and infrared radiation correction,0,No correction,,,,,Operational
+002013,Solar and infrared radiation correction,1,CIMO solar corrected and CIMO infrared corrected,,,,,Operational
+002013,Solar and infrared radiation correction,2,CIMO solar corrected and infrared corrected,,,,,Operational
+002013,Solar and infrared radiation correction,3,CIMO solar corrected only,,,,,Operational
+002013,Solar and infrared radiation correction,4,Solar and infrared corrected automatically by radiosonde system,,,,,Operational
+002013,Solar and infrared radiation correction,5,Solar corrected automatically by radiosonde system,,,,,Operational
+002013,Solar and infrared radiation correction,6,Solar and infrared corrected as specified by country,,,,,Operational
+002013,Solar and infrared radiation correction,7,Solar corrected as specified by country,,,,,Operational
+002013,Solar and infrared radiation correction,8,Solar and infrared corrected as specified by GRUAN,,,,,Operational
+002013,Solar and infrared radiation correction,9,Solar corrected as specified by GRUAN,,,,,Operational
+002013,Solar and infrared radiation correction,10-14,Reserved,,,,,Operational
+002013,Solar and infrared radiation correction,15,Missing value,,,,,Operational
+002014,Tracking technique/status of system used,,,,,,,Operational
+002015,Radiosonde completeness,0,Reserved,,,,,Operational
+002015,Radiosonde completeness,1,Pressure only radiosonde,,,,,Operational
+002015,Radiosonde completeness,2,Pressure only radiosonde plus transponder,,,,,Operational
+002015,Radiosonde completeness,3,Pressure only radiosonde plus radar reflector,,,,,Operational
+002015,Radiosonde completeness,4,No-pressure radiosonde plus transponder,,,,,Operational
+002015,Radiosonde completeness,5,No-pressure radiosonde plus radar reflector,,,,,Operational
+002015,Radiosonde completeness,6-14,Reserved,,,,,Operational
+002015,Radiosonde completeness,15,Missing value,,,,,Operational
+002016,Radiosonde configuration,1,Train regulator,,,,,Operational
+002016,Radiosonde configuration,2,Light unit,,,,,Operational
+002016,Radiosonde configuration,3,Parachute,,,,,Operational
+002016,Radiosonde configuration,4,Rooftop release,,,,,Operational
+002016,Radiosonde configuration,All 5,Missing value,,,,,Operational
+002017,Correction algorithms for humidity measurements,0,No corrections,,,,,Operational
+002017,Correction algorithms for humidity measurements,1,Time lag correction provided by the manufacturer,,,,,Operational
+002017,Correction algorithms for humidity measurements,2,Solar radiation correction provided by the manufacturer,,,,,Operational
+002017,Correction algorithms for humidity measurements,3,Solar radiation and time lag correction provided by the manufacturer,,,,,Operational
+002017,Correction algorithms for humidity measurements,4-6,Reserved,,,,,Operational
+002017,Correction algorithms for humidity measurements,7,GRUAN solar radiation and time lag correction,,,,,Operational
+002017,Correction algorithms for humidity measurements,8-30,Reserved,,,,,Operational
+002017,Correction algorithms for humidity measurements,31,Missing value,,,,,Operational
+002019,Satellite instruments,,,,,,,Operational
+002020,Satellite classification,0,Nimbus,,,,,Operational
+002020,Satellite classification,1,VTPR,,,,,Operational
+002020,Satellite classification,2,"Tiros 1 (Tiros, NOAA-6 to NOAA-13)",,,,,Operational
+002020,Satellite classification,3,Tiros 2 (NOAA-14 onwards),,,,,Operational
+002020,Satellite classification,10,EOS,,,,,Operational
+002020,Satellite classification,20,GPM-core,,,,,Operational
+002020,Satellite classification,31,DMSP,,,,,Operational
+002020,Satellite classification,61,EUMETSAT Polar System (EPS),,,,,Operational
+002020,Satellite classification,62,EUMETSAT Polar System (EPS-SG),,,,,Operational
+002020,Satellite classification,91,ERS,,,,,Operational
+002020,Satellite classification,92,Sentinel-3,,,,,Operational
+002020,Satellite classification,121,ADEOS,,,,,Operational
+002020,Satellite classification,122,GCOM,,,,,Operational
+002020,Satellite classification,241,GOES,,,,,Operational
+002020,Satellite classification,261,JASON,,,,,Operational
+002020,Satellite classification,271,GMS,,,,,Operational
+002020,Satellite classification,272,MTSAT,,,,,Operational
+002020,Satellite classification,273,Himawari,,,,,Operational
+002020,Satellite classification,281,COMS,,,,,Operational
+002020,Satellite classification,301,INSAT,,,,,Operational
+002020,Satellite classification,331,METEOSAT Operational Programme (MOP),,,,,Operational
+002020,Satellite classification,332,METEOSAT Transitional Programme (MTP),,,,,Operational
+002020,Satellite classification,333,METEOSAT Second Generation Programme (MSG),,,,,Operational
+002020,Satellite classification,334,METEOSAT Third Generation Programme (MTG),,,,,Operational
+002020,Satellite classification,351,GOMS,,,,,Operational
+002020,Satellite classification,352,Meteor-M N2,,,,,Operational
+002020,Satellite classification,380,FY-1,,,,,Operational
+002020,Satellite classification,381,FY-2,,,,,Operational
+002020,Satellite classification,382,FY-3,,,,,Operational
+002020,Satellite classification,383,FY-4,,,,,Operational
+002020,Satellite classification,384-400,Reserved,,,,,Operational
+002020,Satellite classification,401,GPS,,,,,Operational
+002020,Satellite classification,402,GLONASS,,,,,Operational
+002020,Satellite classification,403,GALILEO,,,,,Operational
+002020,Satellite classification,404,BDS (BeiDou navigation satellite system),,,,,Operational
+002020,Satellite classification,405,Quasi-Zenith Satellite System (QZSS),,,,,Operational
+002020,Satellite classification,406-510,Reserved,,,,,Operational
+002020,Satellite classification,511,Missing value,,,,,Operational
+002021,Satellite instrument data used in processing,1,High-resolution infrared sounder (HIRS),,,,,Operational
+002021,Satellite instrument data used in processing,2,Microwave sounding unit (MSU),,,,,Operational
+002021,Satellite instrument data used in processing,3,Stratospheric sounding unit (SSU),,,,,Operational
+002021,Satellite instrument data used in processing,4,AMI (advanced microwave instrument) wind mode,,,,,Operational
+002021,Satellite instrument data used in processing,5,AMI (advanced microwave instrument) wave mode,,,,,Operational
+002021,Satellite instrument data used in processing,6,AMI (advanced microwave instrument) image mode,,,,,Operational
+002021,Satellite instrument data used in processing,7,Radar altimeter,,,,,Operational
+002021,Satellite instrument data used in processing,8,ATSR (along-track scanning radiometer),,,,,Operational
+002021,Satellite instrument data used in processing,All 9,Missing value,,,,,Operational
+002022,Satellite data-processing technique used,1,Processing technique not defined,,,,,Operational
+002022,Satellite data-processing technique used,2,Automated statistical regression,,,,,Operational
+002022,Satellite data-processing technique used,3,Clear path,,,(see Note 2),28,Operational
+002022,Satellite data-processing technique used,4,Partly cloudy path,,,(see Note 3),62,Operational
+002022,Satellite data-processing technique used,5,Cloudy path,,,(see Note 4),30,Operational
+002022,Satellite data-processing technique used,6-7,Reserved,,,,,Operational
+002022,Satellite data-processing technique used,All 8,Missing value,,,,,Operational
+002023,Satellite-derived wind computation method,0,Reserved,,,,,Operational
+002023,Satellite-derived wind computation method,1,Wind derived from cloud motion observed in the infrared channel,,,,,Operational
+002023,Satellite-derived wind computation method,2,Wind derived from cloud motion observed in the visible channel,,,,,Operational
+002023,Satellite-derived wind computation method,3,Wind derived from cloud motion observed in the water vapour channel,,,,,Operational
+002023,Satellite-derived wind computation method,4,Wind derived from motion observed in a combination of spectral channels,,,,,Operational
+002023,Satellite-derived wind computation method,5,Wind derived from motion observed in the water vapour channel in clear air,,,,,Operational
+002023,Satellite-derived wind computation method,6,Wind derived from motion observed in the ozone channel,,,,,Operational
+002023,Satellite-derived wind computation method,7,Wind derived from motion observed in water vapour channel (cloud or clear air not specified),,,,,Operational
+002023,Satellite-derived wind computation method,8-12,Reserved,,,,,Operational
+002023,Satellite-derived wind computation method,13,Root-mean-square,,,,,Operational
+002023,Satellite-derived wind computation method,14,Reserved,,,,,Operational
+002023,Satellite-derived wind computation method,15,Missing value,,,,,Operational
+002024,Integrated mean humidity computational method,0,Reserved,,,,,Operational
+002024,Integrated mean humidity computational method,1,Table with full range of humidity variation in layer,,,,,Operational
+002024,Integrated mean humidity computational method,2,Regression technique on 2 humidity values in layer,,,,,Operational
+002024,Integrated mean humidity computational method,3-14,Reserved,,,,,Operational
+002024,Integrated mean humidity computational method,15,Missing value,,,,,Operational
+002025,Satellite channel(s) used in computation,1,Reserved,,,,,Operational
+002025,Satellite channel(s) used in computation,,"Group 1 - Layer precipitable water for the layers: surface to 700 hPa, 700 to 500 hPa, and 500 to 300 hPa",,,,,Operational
+002025,Satellite channel(s) used in computation,2,HIRS,,,,,Operational
+002025,Satellite channel(s) used in computation,3,MSU,,,,,Operational
+002025,Satellite channel(s) used in computation,4-5,Reserved,,,,,Operational
+002025,Satellite channel(s) used in computation,,Group 2 - Tropopause temperature and pressure,,,,,Operational
+002025,Satellite channel(s) used in computation,6,HIRS,,,,,Operational
+002025,Satellite channel(s) used in computation,7,MSU,,,,,Operational
+002025,Satellite channel(s) used in computation,8-9,Reserved,,,,,Operational
+002025,Satellite channel(s) used in computation,,Group 3 - Total ozone,,,,,Operational
+002025,Satellite channel(s) used in computation,10,"HIRS (1, 2, 3, 8, 9, 16, 17)",,,,,Operational
+002025,Satellite channel(s) used in computation,11,"HIRS (1, 2, 3, 9, 17)",,,,,Operational
+002025,Satellite channel(s) used in computation,12,MSU,,,,,Operational
+002025,Satellite channel(s) used in computation,13-14,Reserved,,,,,Operational
+002025,Satellite channel(s) used in computation,,"Group 4 - Mean temperature for the layers: surface to 850 hPa, 850 to 700 hPa, 700 to 500 hPa, 500 to 400 hPa, 400 to 300 hPa, 300 to 200 hPa, and 200 to 100 hPa",,,,,Operational
+002025,Satellite channel(s) used in computation,15,HIRS,,,,,Operational
+002025,Satellite channel(s) used in computation,16,HIRS*,,,(see Note 2),47,Operational
+002025,Satellite channel(s) used in computation,17,MSU,,,,,Operational
+002025,Satellite channel(s) used in computation,18,SKINTK (ocean only),,,,,Operational
+002025,Satellite channel(s) used in computation,19-20,Reserved,,,,,Operational
+002025,Satellite channel(s) used in computation,,"Group 5 - Channel combinations used to obtain mean temperatures for the layers 100 to 70 hPa, 70 to 50 hPa, 50 to 30 hPa, 30 to 10 hPa, 10 to 5 hPa, 5 to 2 hPa, 2 to 1 hPa, 1 to 0.4 hPa",,,,,Operational
+002025,Satellite channel(s) used in computation,21,HIRS,,,(see Note 2),47,Operational
+002025,Satellite channel(s) used in computation,22,SSU,,,,,Operational
+002025,Satellite channel(s) used in computation,23,"MSU (3, 4)",,,,,Operational
+002025,Satellite channel(s) used in computation,24,Reserved,,,,,Operational
+002025,Satellite channel(s) used in computation,All 25,Missing value,,,,,Operational
+002030,Method of current measurement,0,Reserved,,,,,Operational
+002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,(see Note),91,Operational
+002030,Method of current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,,Operational
+002030,Method of current measurement,3,Ship's set and drift determined by fixes 3-6 hours apart,,,,,Operational
+002030,Method of current measurement,4,Ship's set and drift determined by fixes more than 6 hours but less than 12 hours apart,,,,,Operational
+002030,Method of current measurement,5,Drift of buoy,,,,,Operational
+002030,Method of current measurement,6,ADCP (Acoustic Doppler Current Profiler),,,,,Operational
+002030,Method of current measurement,7,Missing value,,,,,Operational
+002031,Duration and time of current measurement,0,Reserved,,,,,Operational
+002031,Duration and time of current measurement,1,Instantaneous,between H - 1 and H,,,,Operational
+002031,Duration and time of current measurement,2,Averaged over 3 min or less,between H - 1 and H,,,,Operational
+002031,Duration and time of current measurement,3,"Averaged over more than 3 min, but 6 min at the most",between H - 1 and H,,,,Operational
+002031,Duration and time of current measurement,4,"Averaged over more than 6 min, but 12 min at the most",between H - 1 and H,,,,Operational
+002031,Duration and time of current measurement,5,Instantaneous,between H - 2 and H - 1,,,,Operational
+002031,Duration and time of current measurement,6,Averaged over 3 min or less,between H - 2 and H - 1,,,,Operational
+002031,Duration and time of current measurement,7,"Averaged over more than 3 min, but 6 min at the most",between H - 2 and H - 1,,,,Operational
+002031,Duration and time of current measurement,8,"Averaged over more than 6 min, but 12 min at the most",between H - 2 and H - 1,,,,Operational
+002031,Duration and time of current measurement,9,Vector or Doppler current profiling method not used,,,,,Operational
+002031,Duration and time of current measurement,10,Reserved,,,,,Operational
+002031,Duration and time of current measurement,11,1 hour or less,,,,,Operational
+002031,Duration and time of current measurement,12,More than 1 hour but 2 hours at the most,,,,,Operational
+002031,Duration and time of current measurement,13,More than 2 hours but 4 hours at the most,,,,,Operational
+002031,Duration and time of current measurement,14,More than 4 hours but 8 hours at the most,,,,,Operational
+002031,Duration and time of current measurement,15,More than 8 hours but 12 hours at the most,,,,,Operational
+002031,Duration and time of current measurement,16,More than 12 hours but 18 hours at the most,,,,,Operational
+002031,Duration and time of current measurement,17,More than 18 hours but 24 hours at the most,,,,,Operational
+002031,Duration and time of current measurement,18,Reserved,,,,,Operational
+002031,Duration and time of current measurement,19,Drift method not used,,,,,Operational
+002031,Duration and time of current measurement,20-30,Reserved,,,,,Operational
+002031,Duration and time of current measurement,31,Missing value,,,,,Operational
+002032,Indicator for digitization,0,Values at selected depths (data points fixed by the instrument or selected by any other method),,,,,Operational
+002032,Indicator for digitization,1,Values at selected depths (data points taken from traces at significant depths),,,,,Operational
+002032,Indicator for digitization,2,Reserved,,,,,Operational
+002032,Indicator for digitization,3,Missing value,,,,,Operational
+002033,Method of salinity/depth measurement,0,No salinity measured,,,,,Operational
+002033,Method of salinity/depth measurement,1,"In situ sensor, accuracy better than 0.02 0/00",,,,,Operational
+002033,Method of salinity/depth measurement,2,"In situ sensor, accuracy less than 0.02 0/00",,,,,Operational
+002033,Method of salinity/depth measurement,3,Sample analysis,,,,,Operational
+002033,Method of salinity/depth measurement,4-6,Reserved,,,,,Operational
+002033,Method of salinity/depth measurement,7,Missing value,,,,,Operational
+002034,Drogue type,0,Unspecified drogue,,,,,Operational
+002034,Drogue type,1,Holey sock,,,,,Operational
+002034,Drogue type,2,TRISTAR,,,,,Operational
+002034,Drogue type,3,Window shade,,,,,Operational
+002034,Drogue type,4,Parachute,,,,,Operational
+002034,Drogue type,5,Non-Lagrangian sea anchor,,,,,Operational
+002034,Drogue type,6-30,Reserved (to be developed),,,,,Operational
+002034,Drogue type,31,Missing value,,,,,Operational
+002036,Buoy type,0,Drifting buoy,,,,,Operational
+002036,Buoy type,1,Fixed buoy,,,,,Operational
+002036,Buoy type,2,Subsurface float (moving),,,,,Operational
+002036,Buoy type,3,Missing value,,,,,Operational
+002037,Method of tidal observation,0,Reserved,,,,,Operational
+002037,Method of tidal observation,1,Manual reading from vertical tide staff,,,,,Operational
+002037,Method of tidal observation,2,Manual reading from single automatic recorder at station,,,,,Operational
+002037,Method of tidal observation,3,Manual reading from multiple automatic recorders at station,,,,,Operational
+002037,Method of tidal observation,4,Automatic reading from single automatic recorder at station without level reference check,,,,,Operational
+002037,Method of tidal observation,5,"Automatic reading from single automatic recorder at station with level reference check, or from multiple automatic recorders",,,,,Operational
+002037,Method of tidal observation,6,Reserved,,,,,Operational
+002037,Method of tidal observation,7,Missing value,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,0,Ship intake,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,1,Bucket,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,2,Hull contact sensor,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,3,Reversing thermometer,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,4,STD/CTD sensor,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,5,Mechanical BT,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,6,Expendable BT,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,7,Digital BT,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,8,Thermistor chain,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,9,Infrared scanner,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,10,Microwave scanner,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,11,Infrared radiometer,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,12,In-line thermosalinograph,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,13,Towed body,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,14,Other,,,,,Operational
+002038,Method of water temperature and/or salinity measurement,15,Missing value,,,,,Operational
+002039,Method of wet-bulb temperature measurement,0,Measured wet-bulb temperature,,,,,Operational
+002039,Method of wet-bulb temperature measurement,1,Iced bulb measured wet-bulb temperature,,,,,Operational
+002039,Method of wet-bulb temperature measurement,2,Computed wet-bulb temperature,,,,,Operational
+002039,Method of wet-bulb temperature measurement,3,Iced bulb computed wet-bulb temperature,,,,,Operational
+002039,Method of wet-bulb temperature measurement,4-6,Reserved,,,,,Operational
+002039,Method of wet-bulb temperature measurement,7,Missing value,,,,,Operational
+002040,Method of removing velocity and motion of platform from current,0,Ship's motion removed by averaging,Ship's velocity removed by bottom tracking,,,,Operational
+002040,Method of removing velocity and motion of platform from current,1,Ship's motion removed by motion compensation,Ship's velocity removed by bottom tracking,,,,Operational
+002040,Method of removing velocity and motion of platform from current,2,Ship's motion not removed,Ship's velocity removed by bottom tracking,,,,Operational
+002040,Method of removing velocity and motion of platform from current,3,Ship's motion removed by averaging,Ship's velocity removed by navigation,,,,Operational
+002040,Method of removing velocity and motion of platform from current,4,Ship's motion removed by motion compensation,Ship's velocity removed by navigation,,,,Operational
+002040,Method of removing velocity and motion of platform from current,5,Ship's motion not removed,Ship's velocity removed by navigation,,,,Operational
+002040,Method of removing velocity and motion of platform from current,6,Doppler current profiling method not used,,,,,Operational
+002040,Method of removing velocity and motion of platform from current,7-14,Reserved,,,,,Operational
+002040,Method of removing velocity and motion of platform from current,15,Missing value,,,,,Operational
+002041,Method for estimating reports related to synoptic features,0,Information based on manual analysis,,,,,Operational
+002041,Method for estimating reports related to synoptic features,1,Information based on computer analysis,,,,,Operational
+002041,Method for estimating reports related to synoptic features,2,Information based on data assimilation,,,,,Operational
+002041,Method for estimating reports related to synoptic features,3,Information based on computer analysis or data assimilation manually modified,,,,,Operational
+002041,Method for estimating reports related to synoptic features,4-9,Reserved,,,,,Operational
+002041,Method for estimating reports related to synoptic features,10,Information based on the numerical weather prediction,,,,,Operational
+002041,Method for estimating reports related to synoptic features,11-62,Reserved for future use,,,,,Operational
+002041,Method for estimating reports related to synoptic features,63,Missing value,,,,,Operational
+002042,Indicator for sea-surface current speed,0,Value originally reported in m/s,,,,,Operational
+002042,Indicator for sea-surface current speed,1,Value originally reported in knots,,,,,Operational
+002042,Indicator for sea-surface current speed,2,No sea current data available,,,,,Operational
+002042,Indicator for sea-surface current speed,3,Missing value,,,,,Operational
+002044,Indicator for method of calculating spectral wave data,0,Reserved for future use,,,,,Operational
+002044,Indicator for method of calculating spectral wave data,1,Longuet-Higgins (1964),,,,,Operational
+002044,Indicator for method of calculating spectral wave data,2,Longuet-Higgins (F3 method),,,,,Operational
+002044,Indicator for method of calculating spectral wave data,3,Maximum likelihood method,,,,,Operational
+002044,Indicator for method of calculating spectral wave data,4,Maximum entropy method,,,,,Operational
+002044,Indicator for method of calculating spectral wave data,5-14,Reserved,,,,,Operational
+002044,Indicator for method of calculating spectral wave data,15,Missing value,,,,,Operational
+002045,Indicator for type of platform,0,Sea station,,,,,Operational
+002045,Indicator for type of platform,1,Automatic data buoy,,,,,Operational
+002045,Indicator for type of platform,2,Aircraft,,,,,Operational
+002045,Indicator for type of platform,3,Satellite,,,,,Operational
+002045,Indicator for type of platform,4-14,Reserved,,,,,Operational
+002045,Indicator for type of platform,15,Missing value,,,,,Operational
+002046,Wave measurement instrumentation,0,Reserved for future use,,,,,Operational
+002046,Wave measurement instrumentation,1,Heave sensor,,,,,Operational
+002046,Wave measurement instrumentation,2,Slope sensor,,,,,Operational
+002046,Wave measurement instrumentation,3-14,Reserved,,,,,Operational
+002046,Wave measurement instrumentation,15,Missing value,,,,,Operational
+002047,Deep-ocean tsunameter type,0,Reserved,,,,,Operational
+002047,Deep-ocean tsunameter type,1,DART II (PMEL),,,,,Operational
+002047,Deep-ocean tsunameter type,2,DART ETD,,,,,Operational
+002047,Deep-ocean tsunameter type,3,SAIC Tsunami Buoy (STB),,,,,Operational
+002047,Deep-ocean tsunameter type,4,GFZ - Potsdam,,,,,Operational
+002047,Deep-ocean tsunameter type,5,INCOIS (India),,,,,Operational
+002047,Deep-ocean tsunameter type,6,InaBuoy (Indonesia),,,,,Operational
+002047,Deep-ocean tsunameter type,7,Envirtech,,,,,Operational
+002047,Deep-ocean tsunameter type,8-99,Reserved,,,,,Operational
+002047,Deep-ocean tsunameter type,100-126,Not used,,,,,Operational
+002047,Deep-ocean tsunameter type,127,Missing value,,,,,Operational
+002048,Satellite sensor indicator,0,HIRS,,,,,Operational
+002048,Satellite sensor indicator,1,MSU,,,,,Operational
+002048,Satellite sensor indicator,2,SSU,,,,,Operational
+002048,Satellite sensor indicator,3,AMSU-A,,,,,Operational
+002048,Satellite sensor indicator,4,AMSU-B,,,,,Operational
+002048,Satellite sensor indicator,5,AVHRR,,,,,Operational
+002048,Satellite sensor indicator,6,SSMI,,,,,Operational
+002048,Satellite sensor indicator,7,NSCAT,,,,,Operational
+002048,Satellite sensor indicator,8,SEAWINDS,,,,,Operational
+002048,Satellite sensor indicator,9,POSEIDON altimeter,,,,,Operational
+002048,Satellite sensor indicator,10,JMR (JASON Microwave Radiometer),,,,,Operational
+002048,Satellite sensor indicator,11,MHS,,,,,Operational
+002048,Satellite sensor indicator,12,ASCAT,,,,,Operational
+002048,Satellite sensor indicator,13,OSCAT2,,,,,Operational
+002048,Satellite sensor indicator,14,Reserved,,,,,Operational
+002048,Satellite sensor indicator,15,Missing value,,,,,Operational
+002049,Geostationary satellite data-processing technique used,1,Processing technique not defined,,,,,Operational
+002049,Geostationary satellite data-processing technique used,2,Simultaneous physical retrieval,,,,,Operational
+002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,(see Note 1),29,Operational
+002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,(see Note 2),31,Operational
+002049,Geostationary satellite data-processing technique used,5-7,Reserved for future use,,,,,Operational
+002049,Geostationary satellite data-processing technique used,All 8,Missing value,,,,,Operational
+002050,Geostationary sounder satellite channels used,1,1,14.71,,,,Operational
+002050,Geostationary sounder satellite channels used,2,2,14.37,,,,Operational
+002050,Geostationary sounder satellite channels used,3,3,14.06,,,,Operational
+002050,Geostationary sounder satellite channels used,4,4,13.64,,,,Operational
+002050,Geostationary sounder satellite channels used,5,5,13.37,,,,Operational
+002050,Geostationary sounder satellite channels used,6,6,12.66,,,,Operational
+002050,Geostationary sounder satellite channels used,7,7,12.02,,,,Operational
+002050,Geostationary sounder satellite channels used,8,8,11.03,,,,Operational
+002050,Geostationary sounder satellite channels used,9,9,9.71,,,,Operational
+002050,Geostationary sounder satellite channels used,10,10,7.43,,,,Operational
+002050,Geostationary sounder satellite channels used,11,11,7.02,,,,Operational
+002050,Geostationary sounder satellite channels used,12,12,6.51,,,,Operational
+002050,Geostationary sounder satellite channels used,13,13,4.57,,,,Operational
+002050,Geostationary sounder satellite channels used,14,14,4.52,,,,Operational
+002050,Geostationary sounder satellite channels used,15,15,4.45,,,,Operational
+002050,Geostationary sounder satellite channels used,16,16,4.13,,,,Operational
+002050,Geostationary sounder satellite channels used,17,17,3.98,,,,Operational
+002050,Geostationary sounder satellite channels used,18,18,3.74,,,,Operational
+002050,Geostationary sounder satellite channels used,19,19,0.969,,,,Operational
+002050,Geostationary sounder satellite channels used,All 20,Missing value,,,,,Operational
+002051,Indicator to specify observing method for extreme temperatures,0,Reserved,,,,,Operational
+002051,Indicator to specify observing method for extreme temperatures,1,Maximum/minimum thermometers,,,,,Operational
+002051,Indicator to specify observing method for extreme temperatures,2,Automated instruments,,,,,Operational
+002051,Indicator to specify observing method for extreme temperatures,3,Thermograph,,,,,Operational
+002051,Indicator to specify observing method for extreme temperatures,4-14,Reserved,,,,,Operational
+002051,Indicator to specify observing method for extreme temperatures,15,Missing value,,,,,Operational
+002052,Geostationary imager satellite channels used,1,1,0.55 - 0.75,,,,Operational
+002052,Geostationary imager satellite channels used,2,2,3.9,,,,Operational
+002052,Geostationary imager satellite channels used,3,3,6.7,,,,Operational
+002052,Geostationary imager satellite channels used,4,4,10.7,,,,Operational
+002052,Geostationary imager satellite channels used,5,5,12.0,,,,Operational
+002052,Geostationary imager satellite channels used,All 6,Missing value,,,,,Operational
+002053,GOES-I/M brightness temperature characteristics,0,Observed brightness temperature,,,,,Operational
+002053,GOES-I/M brightness temperature characteristics,1,Brightness temperature with bias correction applied,,,,,Operational
+002053,GOES-I/M brightness temperature characteristics,2,Brightness temperature calculated from first guess,,,,,Operational
+002053,GOES-I/M brightness temperature characteristics,3,Brightness temperature calculated from sounding,,,,,Operational
+002053,GOES-I/M brightness temperature characteristics,4-14,Reserved,,,,,Operational
+002053,GOES-I/M brightness temperature characteristics,15,Missing value,,,,,Operational
+002054,GOES-I/M soundings parameter characteristics,0,Parameter derived using observed sounder brightness temperatures,,,,,Operational
+002054,GOES-I/M soundings parameter characteristics,1,Parameter derived using observed imager brightness temperatures,,,,,Operational
+002054,GOES-I/M soundings parameter characteristics,2,Parameter derived using first guess information,,,,,Operational
+002054,GOES-I/M soundings parameter characteristics,3,Parameter derived using NMC analysis information,,,,,Operational
+002054,GOES-I/M soundings parameter characteristics,4,Parameter derived using radiosonde information,,,,,Operational
+002054,GOES-I/M soundings parameter characteristics,5-14,Reserved,,,,,Operational
+002054,GOES-I/M soundings parameter characteristics,15,Missing value,,,,,Operational
+002055,Geostationary soundings statistical parameters,0,Statistics generated comparing retrieval versus radiosonde,,,,,Operational
+002055,Geostationary soundings statistical parameters,1,Statistics generated comparing retrieval versus first guess,,,,,Operational
+002055,Geostationary soundings statistical parameters,2,Statistics generated comparing radiosonde versus first guess,,,,,Operational
+002055,Geostationary soundings statistical parameters,3,Statistics generated comparing observed versus retrieval,,,,,Operational
+002055,Geostationary soundings statistical parameters,4,Statistics generated comparing observed versus first guess,,,,,Operational
+002055,Geostationary soundings statistical parameters,5,Statistics generated comparing radiosonde versus imager,,,,,Operational
+002055,Geostationary soundings statistical parameters,6,Statistics generated comparing radiosonde versus sounder,,,,,Operational
+002055,Geostationary soundings statistical parameters,7,Statistics generated for radiosonde,,,,,Operational
+002055,Geostationary soundings statistical parameters,8,Statistics generated for first guess,,,,,Operational
+002055,Geostationary soundings statistical parameters,9-14,Reserved,,,,,Operational
+002055,Geostationary soundings statistical parameters,15,Missing value,,,,,Operational
+002056,Geostationary soundings accuracy statistics,0,Sums of differences,,,,,Operational
+002056,Geostationary soundings accuracy statistics,1,Sums of squared differences,,,,,Operational
+002056,Geostationary soundings accuracy statistics,2,Sample size,,,,,Operational
+002056,Geostationary soundings accuracy statistics,3,Minimum difference,,,,,Operational
+002056,Geostationary soundings accuracy statistics,4,Maximum difference,,,,,Operational
+002056,Geostationary soundings accuracy statistics,5-14,Reserved,,,,,Operational
+002056,Geostationary soundings accuracy statistics,15,Missing value,,,,,Operational
+002057,Origin of first-guess information for GOES-I/M soundings,0,Nested Grid Model (NGM),,,,,Operational
+002057,Origin of first-guess information for GOES-I/M soundings,1,Aviation Model (AVN),,,,,Operational
+002057,Origin of first-guess information for GOES-I/M soundings,2,Medium Range Forecast (MRF) Model,,,,,Operational
+002057,Origin of first-guess information for GOES-I/M soundings,3,Global Data Assimilation System (GDAS) Forecast Model,,,,,Operational
+002057,Origin of first-guess information for GOES-I/M soundings,4,Prior soundings (within 3 hours of current time),,,,,Operational
+002057,Origin of first-guess information for GOES-I/M soundings,5,Climatology,,,,,Operational
+002057,Origin of first-guess information for GOES-I/M soundings,6-14,Reserved,,,,,Operational
+002057,Origin of first-guess information for GOES-I/M soundings,15,Missing value,,,,,Operational
+002058,Valid times of first-guess information for GOES-I/M soundings,0,12 hour and 18 hour,,,,,Operational
+002058,Valid times of first-guess information for GOES-I/M soundings,1,18 hour and 24 hour,,,,,Operational
+002058,Valid times of first-guess information for GOES-I/M soundings,2,6 hour and 12 hour,,,,,Operational
+002058,Valid times of first-guess information for GOES-I/M soundings,3,Greater than 24 hours,,,,,Operational
+002058,Valid times of first-guess information for GOES-I/M soundings,4-14,Reserved,,,,,Operational
+002058,Valid times of first-guess information for GOES-I/M soundings,15,Missing value,,,,,Operational
+002059,Origin of analysis information for GOES-I/M soundings,0,NCEP Nested Grid Model (NGM) Analysis,,,,,Operational
+002059,Origin of analysis information for GOES-I/M soundings,1,NCEP Aviation Model (AVN) Analysis,,,,,Operational
+002059,Origin of analysis information for GOES-I/M soundings,2,NCEP Medium Range Forecast (MRF) Model Analysis,,,,,Operational
+002059,Origin of analysis information for GOES-I/M soundings,3,NCEP Global Data Assimilation System (GDAS) Forecast Model Analysis,,,,,Operational
+002059,Origin of analysis information for GOES-I/M soundings,4-14,Reserved,,,,,Operational
+002059,Origin of analysis information for GOES-I/M soundings,15,Missing value,,,,,Operational
+002060,Origin of surface information for GOES-I/M soundings,0,Current surface hourly reports,,,,,Operational
+002060,Origin of surface information for GOES-I/M soundings,1,Current ship reports,,,,,Operational
+002060,Origin of surface information for GOES-I/M soundings,2,Current buoy reports,,,,,Operational
+002060,Origin of surface information for GOES-I/M soundings,3,One hour old surface hourly reports,,,,,Operational
+002060,Origin of surface information for GOES-I/M soundings,4,One hour old ship reports,,,,,Operational
+002060,Origin of surface information for GOES-I/M soundings,5,One hour old buoy reports,,,,,Operational
+002060,Origin of surface information for GOES-I/M soundings,6-14,Reserved,,,,,Operational
+002060,Origin of surface information for GOES-I/M soundings,15,Missing value,,,,,Operational
+002061,Aircraft navigational system,0,Inertial navigation system,,,,,Operational
+002061,Aircraft navigational system,1,OMEGA,,,,,Operational
+002061,Aircraft navigational system,2-6,Reserved,,,,,Operational
+002061,Aircraft navigational system,7,Missing value,,,,,Operational
+002062,Type of aircraft data relay system,0,ASDAR,,,,,Operational
+002062,Type of aircraft data relay system,1,ASDAR (ACARS also available but not operative),,,,,Operational
+002062,Type of aircraft data relay system,2,ASDAR (ACARS also available and operative),,,,,Operational
+002062,Type of aircraft data relay system,3,ACARS,,,,,Operational
+002062,Type of aircraft data relay system,4,ACARS (ASDAR also available but not operative),,,,,Operational
+002062,Type of aircraft data relay system,5,ACARS (ASDAR also available and operative),,,,,Operational
+002062,Type of aircraft data relay system,6-14,Reserved,,,,,Operational
+002062,Type of aircraft data relay system,15,Missing value,,,,,Operational
+002064,Aircraft roll angle quality,0,Good,,,,,Operational
+002064,Aircraft roll angle quality,1,Bad,,,(see Note),20,Operational
+002064,Aircraft roll angle quality,2,Reserved,,,,,Operational
+002064,Aircraft roll angle quality,3,Missing value,,,,,Operational
+002066,Radiosonde ground receiving system,0,InterMet IMS 2000,,,,,Operational
+002066,Radiosonde ground receiving system,1,InterMet IMS 1500C,,,,,Operational
+002066,Radiosonde ground receiving system,2,Shanghai GTC1,,,,,Operational
+002066,Radiosonde ground receiving system,3,Nanjing GTC2,,,,,Operational
+002066,Radiosonde ground receiving system,4,Nanjing GFE(L)1,,,,,Operational
+002066,Radiosonde ground receiving system,5,MARL-A radar,,,,,Operational
+002066,Radiosonde ground receiving system,6,VEKTOR-M radar,,,,,Operational
+002066,Radiosonde ground receiving system,7-61,Reserved,,,,,Operational
+002066,Radiosonde ground receiving system,62,Other,,,,,Operational
+002066,Radiosonde ground receiving system,63,Missing value,,,,,Operational
+002070,Original specification of latitude/longitude,0,Actual location in seconds,,,,,Operational
+002070,Original specification of latitude/longitude,1,Actual location in minutes,,,,,Operational
+002070,Original specification of latitude/longitude,2,Actual location in degrees,,,,,Operational
+002070,Original specification of latitude/longitude,3,Actual location in decidegrees,,,,,Operational
+002070,Original specification of latitude/longitude,4,Actual location in centidegrees,,,,,Operational
+002070,Original specification of latitude/longitude,5,Referenced to checkpoint in seconds,,,,,Operational
+002070,Original specification of latitude/longitude,6,Referenced to checkpoint in minutes,,,,,Operational
+002070,Original specification of latitude/longitude,7,Referenced to checkpoint in degrees,,,,,Operational
+002070,Original specification of latitude/longitude,8,Referenced to checkpoint in decidegrees,,,,,Operational
+002070,Original specification of latitude/longitude,9,Referenced to checkpoint in centidegrees,,,,,Operational
+002070,Original specification of latitude/longitude,10,Actual location in tenths of a minute,,,,,Operational
+002070,Original specification of latitude/longitude,11,Referenced to checkpoint in tenths of a minute,,,,,Operational
+002070,Original specification of latitude/longitude,12-14,Reserved,,,,,Operational
+002070,Original specification of latitude/longitude,15,Missing value,,,,,Operational
+002080,Balloon manufacturer,0,Kaysam,,,,,Operational
+002080,Balloon manufacturer,1,Totex,,,,,Operational
+002080,Balloon manufacturer,2,KKS,,,,,Operational
+002080,Balloon manufacturer,3,Guangzhou Shuangyi (China),,,,,Operational
+002080,Balloon manufacturer,4,ChemChina Zhuzhou (China),,,,,Operational
+002080,Balloon manufacturer,5-61,Reserved,,,,,Operational
+002080,Balloon manufacturer,62,Other,,,,,Operational
+002080,Balloon manufacturer,63,Missing value,,,,,Operational
+002081,Type of balloon,0,GP26,,,,,Operational
+002081,Type of balloon,1,GP28,,,,,Operational
+002081,Type of balloon,2,GP30,,,,,Operational
+002081,Type of balloon,3,HM26,,,,,Operational
+002081,Type of balloon,4,HM28,,,,,Operational
+002081,Type of balloon,5,HM30,,,,,Operational
+002081,Type of balloon,6,SV16,,,,,Operational
+002081,Type of balloon,7,Totex TA type balloons,,,,,Operational
+002081,Type of balloon,8,Totex TX type balloons,,,,,Operational
+002081,Type of balloon,9-29,Reserved,,,,,Operational
+002081,Type of balloon,30,Other,,,,,Operational
+002081,Type of balloon,31,Missing value,,,,,Operational
+002083,Type of balloon shelter,0,High bay,,,,,Operational
+002083,Type of balloon shelter,1,Low bay,,,,,Operational
+002083,Type of balloon shelter,2,Balloon-inflated launch system (BILS),,,,,Operational
+002083,Type of balloon shelter,3,Roof-top BILS,,,,,Operational
+002083,Type of balloon shelter,4,Automated unmanned sounding system,,,,,Operational
+002083,Type of balloon shelter,5-13,Reserved,,,,,Operational
+002083,Type of balloon shelter,14,Other,,,,,Operational
+002083,Type of balloon shelter,15,Missing value,,,,,Operational
+002084,Type of gas used in balloon,0,Hydrogen,,,,,Operational
+002084,Type of gas used in balloon,1,Helium,,,,,Operational
+002084,Type of gas used in balloon,2,Natural gas,,,,,Operational
+002084,Type of gas used in balloon,3-13,Reserved,,,,,Operational
+002084,Type of gas used in balloon,14,Other,,,,,Operational
+002084,Type of gas used in balloon,15,Missing value,,,,,Operational
+002092,Ozone profile computation method,0,UV channel based retrieval,,,,,Operational
+002092,Ozone profile computation method,1,Visible channel based retrieval,,,,,Operational
+002092,Ozone profile computation method,2,Combined UV based retrieval and visible based retrieval,,,,,Operational
+002092,Ozone profile computation method,3-6,Reserved,,,,,Operational
+002092,Ozone profile computation method,7,Missing value,,,,,Operational
+002095,Type of pressure sensor,0,Capacitance aneroid,,,,,Operational
+002095,Type of pressure sensor,1,Derived from GPS,,,,,Operational
+002095,Type of pressure sensor,2,Resistive strain gauge,,,,,Operational
+002095,Type of pressure sensor,3,Silicon capacitor,,,,,Operational
+002095,Type of pressure sensor,4,Derived from radar height,,,,,Operational
+002095,Type of pressure sensor,5-29,Reserved,,,,,Operational
+002095,Type of pressure sensor,30,Other,,,,,Operational
+002095,Type of pressure sensor,31,Missing value,,,,,Operational
+002096,Type of temperature sensor,0,Rod thermistor,,,,,Operational
+002096,Type of temperature sensor,1,Bead thermistor,,,,,Operational
+002096,Type of temperature sensor,2,Capacitance bead,,,,,Operational
+002096,Type of temperature sensor,3,Capacitance wire,,,,,Operational
+002096,Type of temperature sensor,4,Resistive sensor,,,,,Operational
+002096,Type of temperature sensor,5,Chip thermistor,,,,,Operational
+002096,Type of temperature sensor,6,Mercury,,,,,Operational
+002096,Type of temperature sensor,7,Alcohol/glycol,,,,,Operational
+002096,Type of temperature sensor,8-30,Reserved for future use,,,,,Operational
+002096,Type of temperature sensor,31,Missing value,,,,,Operational
+002097,Type of humidity sensor,0,VIZ Mark II carbon hygristor,,,,,Operational
+002097,Type of humidity sensor,1,VIZ B2 hygristor,,,,,Operational
+002097,Type of humidity sensor,2,Vaisala A-Humicap,,,,,Operational
+002097,Type of humidity sensor,3,Vaisala H-Humicap,,,,,Operational
+002097,Type of humidity sensor,4,Capacitance sensor,,,,,Operational
+002097,Type of humidity sensor,5,Vaisala RS90,,,,,Operational
+002097,Type of humidity sensor,6,Sippican Mark IIA carbon hygristor,,,,,Operational
+002097,Type of humidity sensor,7,Twin alternatively heated Humicap capacitance sensor,,,,,Operational
+002097,Type of humidity sensor,8,Humicap capacitance sensor with active de-icing method,,,,,Operational
+002097,Type of humidity sensor,9,Carbon hygristor,,,,,Operational
+002097,Type of humidity sensor,10,Psychrometer,,,,,Operational
+002097,Type of humidity sensor,11,Capacitive (polymer),,,,,Operational
+002097,Type of humidity sensor,12,"Capacitive (ceramic, including metal oxide)",,,,,Operational
+002097,Type of humidity sensor,13,Resistive (generic),,,,,Operational
+002097,Type of humidity sensor,14,Resistive (salt polymer),,,,,Operational
+002097,Type of humidity sensor,15,Resistive (conductive polymer),,,,,Operational
+002097,Type of humidity sensor,16,Thermal conductivity,,,,,Operational
+002097,Type of humidity sensor,17,Gravimetric,,,,,Operational
+002097,Type of humidity sensor,18,Paper-metal coil,,,,,Operational
+002097,Type of humidity sensor,19,Ordinary human hair,,,,,Operational
+002097,Type of humidity sensor,20,Rolled hair (torsion),,,,,Operational
+002097,Type of humidity sensor,21,Goldbeater's skin,,,,,Operational
+002097,Type of humidity sensor,22,Chilled mirror hygrometer,,,,,Operational
+002097,Type of humidity sensor,23,Dew cell,,,,,Operational
+002097,Type of humidity sensor,24,Optical absorption sensor,,,,,Operational
+002097,Type of humidity sensor,25-30,Reserved for future use,,,,,Operational
+002097,Type of humidity sensor,31,Missing value,,,,,Operational
+002099,Polarization,0,HH polarization,,,,,Operational
+002099,Polarization,1,VV polarization,,,,,Operational
+002099,Polarization,2,HV polarization real valued component,,,,,Operational
+002099,Polarization,3,HV polarization imaginary valued component,,,,,Operational
+002099,Polarization,4-6,Reserved,,,,,Operational
+002099,Polarization,7,Missing value,,,,,Operational
+002101,Type of antenna,0,Centre front-fed paraboloid,,,,,Operational
+002101,Type of antenna,1,Offset front-fed paraboloid,,,,,Operational
+002101,Type of antenna,2,Centre Cassegrain paraboloid,,,,,Operational
+002101,Type of antenna,3,Offset Cassegrain paraboloid,,,,,Operational
+002101,Type of antenna,4,Planar array,,,,,Operational
+002101,Type of antenna,5,Coaxial-collinear array,,,,,Operational
+002101,Type of antenna,6,Yagi elements array,,,,,Operational
+002101,Type of antenna,7,Microstrip,,,,,Operational
+002101,Type of antenna,8-13,Reserved,,,,,Operational
+002101,Type of antenna,14,Other,,,,,Operational
+002101,Type of antenna,15,Missing value,,,,,Operational
+002103,Radome,1,Radar antenna is protected by a radome,,,,,Operational
+002103,Radome,All 2,Missing value,,,,,Operational
+002104,Antenna polarization,0,Horizontal polarization,,,,,Operational
+002104,Antenna polarization,1,Vertical polarization,,,,,Operational
+002104,Antenna polarization,2,Right circular polarization,,,,,Operational
+002104,Antenna polarization,3,Left circular polarization,,,,,Operational
+002104,Antenna polarization,4,Horizontal and vertical polarization,,,,,Operational
+002104,Antenna polarization,5,Right and left circular polarization,,,,,Operational
+002104,Antenna polarization,6,Quasi-horizontal polarization,,,,,Operational
+002104,Antenna polarization,7,Quasi-vertical polarization,,,,,Operational
+002104,Antenna polarization,8-14,Reserved,,,,,Operational
+002104,Antenna polarization,15,Missing value,,,,,Operational
+002115,Type of surface observing equipment,0,PDB,,,,,Operational
+002115,Type of surface observing equipment,1,RSOIS,,,,,Operational
+002115,Type of surface observing equipment,2,ASOS,,,,,Operational
+002115,Type of surface observing equipment,3,Psychrometer,,,,,Operational
+002115,Type of surface observing equipment,4,F420,,,,,Operational
+002115,Type of surface observing equipment,5-29,Reserved,,,,,Operational
+002115,Type of surface observing equipment,30,Other,,,,,Operational
+002115,Type of surface observing equipment,31,Missing value,,,,,Operational
+002119,RA-2 instrument operations,0,Intermediate frequency calibration mode (IF CAL),,,,,Operational
+002119,RA-2 instrument operations,1,Built-in test equipment digital (BITE DGT),,,,,Operational
+002119,RA-2 instrument operations,2,Built-in test equipment radio frequency (BITE RF),,,,,Operational
+002119,RA-2 instrument operations,3,Preset tracking (PSET TRK),,,,,Operational
+002119,RA-2 instrument operations,4,Preset LOOP OUT,,,,,Operational
+002119,RA-2 instrument operations,5,ACQUISITION,,,,,Operational
+002119,RA-2 instrument operations,6,TRACKING,,,,,Operational
+002119,RA-2 instrument operations,7,Missing value,,,,,Operational
+002131,Sensitivity time control (STC),1,STC operational,,,,,Operational
+002131,Sensitivity time control (STC),All 2,Missing values,,,,,Operational
+002137,Radar dual PRF ratio,1,3:2,,,,,Operational
+002137,Radar dual PRF ratio,2,4:3,,,,,Operational
+002137,Radar dual PRF ratio,3,5:4,,,,,Operational
+002137,Radar dual PRF ratio,4-14,Reserved,,,,,Operational
+002137,Radar dual PRF ratio,15,Missing value,,,,,Operational
+002138,Antenna rotation direction,1,Clockwise rotation,,,,,Operational
+002138,Antenna rotation direction,2,Counterclockwise rotation,,,,,Operational
+002138,Antenna rotation direction,3,Missing value,,,,,Operational
+002139,SIRAL instrument configuration,0,SIRAL nominal,,,,,Operational
+002139,SIRAL instrument configuration,1,SIRAL redundant,,,,,Operational
+002139,SIRAL instrument configuration,2,Missing value,,,,,Operational
+002143,Ozone instrument type,0,Reserved,,,,,Operational
+002143,Ozone instrument type,1,Brewer spectrophotometer,,,,,Operational
+002143,Ozone instrument type,2,Caver Teichert,,,,,Operational
+002143,Ozone instrument type,3,Dobson,,,,,Operational
+002143,Ozone instrument type,4,Dobson (Japan),,,,,Operational
+002143,Ozone instrument type,5,Ehmet,,,,,Operational
+002143,Ozone instrument type,6,Fecker telescope,,,,,Operational
+002143,Ozone instrument type,7,Hoelper,,,,,Operational
+002143,Ozone instrument type,8,Jodmeter,,,,,Operational
+002143,Ozone instrument type,9,Filter Ozonometer M-83,,,,,Operational
+002143,Ozone instrument type,10,Mast,,,,,Operational
+002143,Ozone instrument type,11,Oxford,,,,,Operational
+002143,Ozone instrument type,12,Paetzold,,,,,Operational
+002143,Ozone instrument type,13,Regener,,,,,Operational
+002143,Ozone instrument type,14,Reserved for future use,,,,,Operational
+002143,Ozone instrument type,15,Vassy filter ozonometer,,,,,Operational
+002143,Ozone instrument type,16,Carbon iodide,,,,,Operational
+002143,Ozone instrument type,17,Surface ozone bubbler,,,,,Operational
+002143,Ozone instrument type,18,Filter ozonometer M-124,,,,,Operational
+002143,Ozone instrument type,19,ECC sonde,,,,,Operational
+002143,Ozone instrument type,20-126,Reserved,,,,,Operational
+002143,Ozone instrument type,127,Missing value,,,,,Operational
+002144,Light source type for Brewer spectrophotometer,0,Direct sun,,,,,Operational
+002144,Light source type for Brewer spectrophotometer,1,"Direct sun, attenuator #1",,,(see Note),38,Operational
+002144,Light source type for Brewer spectrophotometer,2,"Direct sun, attenuator #2",,,(see Note),38,Operational
+002144,Light source type for Brewer spectrophotometer,3,Focused moon,,,,,Operational
+002144,Light source type for Brewer spectrophotometer,4,Focused sun,,,,,Operational
+002144,Light source type for Brewer spectrophotometer,5,Focused sun corrected with adjacent sky measurements,,,,,Operational
+002144,Light source type for Brewer spectrophotometer,6,Zenith sky,,,,,Operational
+002144,Light source type for Brewer spectrophotometer,7-14,Reserved,,,,,Operational
+002144,Light source type for Brewer spectrophotometer,15,Missing value,,,,,Operational
+002145,Wavelength setting for Dobson instruments,0,Wavelengths AD ordinary setting,,,,,Operational
+002145,Wavelength setting for Dobson instruments,1,Wavelengths BD ordinary setting,,,,,Operational
+002145,Wavelength setting for Dobson instruments,2,Wavelengths CD ordinary setting,,,,,Operational
+002145,Wavelength setting for Dobson instruments,3,Wavelengths CC' ordinary setting,,,,,Operational
+002145,Wavelength setting for Dobson instruments,4,Wavelengths AD focused image,,,,,Operational
+002145,Wavelength setting for Dobson instruments,5,Wavelengths BD focused image,,,,,Operational
+002145,Wavelength setting for Dobson instruments,6,Wavelengths CD focused image,,,,,Operational
+002145,Wavelength setting for Dobson instruments,7,Wavelengths CC' focused image,,,,,Operational
+002145,Wavelength setting for Dobson instruments,8-14,Reserved,,,,,Operational
+002145,Wavelength setting for Dobson instruments,15,Missing value,,,,,Operational
+002146,Source conditions for Dobson instruments,0,On direct sun,,,,,Operational
+002146,Source conditions for Dobson instruments,1,On direct moon,,,,,Operational
+002146,Source conditions for Dobson instruments,2,On blue zenith sky,,,,,Operational
+002146,Source conditions for Dobson instruments,3,On zenith cloud (uniform stratified layer of small opacity),,,,,Operational
+002146,Source conditions for Dobson instruments,4,On zenith cloud (uniform or moderately variable layer of medium opacity),,,,,Operational
+002146,Source conditions for Dobson instruments,5,On zenith cloud (uniform or moderately variable layer of large opacity),,,,,Operational
+002146,Source conditions for Dobson instruments,6,"On zenith cloud (highly variable opacity, with or without precipitation)",,,,,Operational
+002146,Source conditions for Dobson instruments,7,On zenith cloud (fog),,,,,Operational
+002146,Source conditions for Dobson instruments,8,On zenith haze,,,,,Operational
+002146,Source conditions for Dobson instruments,9,"On direct sun through thin cloud, fog or haze",,,,,Operational
+002146,Source conditions for Dobson instruments,10-14,Reserved,,,,,Operational
+002146,Source conditions for Dobson instruments,15,Missing value,,,,,Operational
+002147,Method of transmission to collection centre,0,Reserved,,,,,Operational
+002147,Method of transmission to collection centre,1,Direct leased circuit,,,,,Operational
+002147,Method of transmission to collection centre,2,Dialled up connection,,,,,Operational
+002147,Method of transmission to collection centre,3,Internet ISP ,,,,,Operational
+002147,Method of transmission to collection centre,4,"DCP via satellite (MTSAT, METEOSAT, etc.)",,,,,Operational
+002147,Method of transmission to collection centre,5,VSAT ,,,,,Operational
+002147,Method of transmission to collection centre,6,"GAN, BGAN",,,,,Operational
+002147,Method of transmission to collection centre,7,Thiss terminal,,,,,Operational
+002147,Method of transmission to collection centre,8,Iridium satellites,,,,,Operational
+002147,Method of transmission to collection centre,9,Mobile telephony,,,,,Operational
+002147,Method of transmission to collection centre,10-62,Reserved,,,,,Operational
+002147,Method of transmission to collection centre,63,Missing value,,,,,Operational
+002148,Data collection and/or location system,0,Reserved,,,,,Operational
+002148,Data collection and/or location system,1,Argos,,,,,Operational
+002148,Data collection and/or location system,2,GPS,,,,,Operational
+002148,Data collection and/or location system,3,GOES DCP,,,,,Operational
+002148,Data collection and/or location system,4,METEOSAT DCP,,,,,Operational
+002148,Data collection and/or location system,5,ORBCOMM,,,,,Operational
+002148,Data collection and/or location system,6,INMARSAT,,,,,Operational
+002148,Data collection and/or location system,7,Iridium,,,,,Operational
+002148,Data collection and/or location system,8,Iridium and GPS,,,,,Operational
+002148,Data collection and/or location system,9,Argos-3,,,,,Operational
+002148,Data collection and/or location system,10,Argos-4,,,,,Operational
+002148,Data collection and/or location system,11-30,Reserved,,,,,Operational
+002148,Data collection and/or location system,31,Missing value,,,,,Operational
+002149,Type of data buoy,0,Unspecified drifting buoy,,,,,Operational
+002149,Type of data buoy,1,Standard Lagrangian drifter (Global Drifter Programme),,,,,Operational
+002149,Type of data buoy,2,Standard FGGE type drifting buoy (non-Lagrangian meteorological drifting buoy),,,,,Operational
+002149,Type of data buoy,3,Wind measuring FGGE type drifting buoy (non-Lagrangian meteorological drifting buoy),,,,,Operational
+002149,Type of data buoy,4,Ice drifter,,,,,Operational
+002149,Type of data buoy,5,SVPG Standard Lagrangian drifter with GPS,,,,,Operational
+002149,Type of data buoy,6,SVP-HR drifter with high-resolution temperature or thermistor string,,,,,Operational
+002149,Type of data buoy,7,Reserved,,,,,Operational
+002149,Type of data buoy,8,Unspecified subsurface float,,,,,Operational
+002149,Type of data buoy,9,SOFAR,,,,,Operational
+002149,Type of data buoy,10,ALACE,,,,,Operational
+002149,Type of data buoy,11,MARVOR,,,,,Operational
+002149,Type of data buoy,12,RAFOS,,,,,Operational
+002149,Type of data buoy,13,PROVOR,,,,,Operational
+002149,Type of data buoy,14,SOLO,,,,,Operational
+002149,Type of data buoy,15,APEX,,,,,Operational
+002149,Type of data buoy,16,Unspecified moored buoy,,,,,Operational
+002149,Type of data buoy,17,Nomad,,,,,Operational
+002149,Type of data buoy,18,3-metre discus,,,,,Operational
+002149,Type of data buoy,19,10-12-metre discus,,,,,Operational
+002149,Type of data buoy,20,ODAS 30 series,,,,,Operational
+002149,Type of data buoy,21,ATLAS (e.g. TAO area),,,,,Operational
+002149,Type of data buoy,22,TRITON buoy,,,,,Operational
+002149,Type of data buoy,23,FLEX mooring (e.g. TIP area),,,,,Operational
+002149,Type of data buoy,24,Omnidirectional waverider,,,,,Operational
+002149,Type of data buoy,25,Directional waverider,,,,,Operational
+002149,Type of data buoy,26,Subsurface ARGO float,,,,,Operational
+002149,Type of data buoy,27,PALACE,,,,,Operational
+002149,Type of data buoy,28,NEMO,,,,,Operational
+002149,Type of data buoy,29,NINJA,,,,,Operational
+002149,Type of data buoy,30,Ice buoy/float (POPS or ITP),,,,,Operational
+002149,Type of data buoy,31-33,Reserved,,,,,Operational
+002149,Type of data buoy,34,Mooring oceanographic,,,,,Operational
+002149,Type of data buoy,35,Mooring meteorological,,,,,Operational
+002149,Type of data buoy,36,Mooring multidisciplinary (OceanSITES),,,,,Operational
+002149,Type of data buoy,37,Mooring tide gauge or tsunami buoy,,,,,Operational
+002149,Type of data buoy,38,Ice beacon,,,,,Operational
+002149,Type of data buoy,39,Ice mass balance buoy,,,,,Operational
+002149,Type of data buoy,40-62,Reserved,,,,,Operational
+002149,Type of data buoy,63,Missing value,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,0,Reserved,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,1,HIRS 1,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,2,HIRS 2,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,3,HIRS 3,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,4,HIRS 4,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,5,HIRS 5,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,6,HIRS 6,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,7,HIRS 7,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,8,HIRS 8,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,9,HIRS 9,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,10,HIRS 10,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,11,HIRS 11,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,12,HIRS 12,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,13,HIRS 13,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,14,HIRS 14,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,15,HIRS 15,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,16,HIRS 16,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,17,HIRS 17,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,18,HIRS 18,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,19,HIRS 19,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,20,HIRS 20,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,21,MSU 1,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,22,MSU 2,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,23,MSU 3,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,24,MSU 4,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,25,SSU 1,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,26,SSU 2,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,27,SSU 3,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,28,AMSU-A 1,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,29,AMSU-A 2,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,30,AMSU-A 3,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,31,AMSU-A 4,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,32,AMSU-A 5,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,33,AMSU-A 6,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,34,AMSU-A 7,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,35,AMSU-A 8,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,36,AMSU-A 9,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,37,AMSU-A 10,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,38,AMSU-A 11,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,39,AMSU-A 12,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,40,AMSU-A 13,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,41,AMSU-A 14,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,42,AMSU-A 15,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,43,AMSU-B 1 / MHS 1,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,44,AMSU-B 2 / MHS 2,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,45,AMSU-B 3 / MHS 3,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,46,AMSU-B 4 / MHS 4,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,47,AMSU-B 5 / MHS 5,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,48,AVHRR 1,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,49,AVHRR 2,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,50,AVHRR 3a,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,51,AVHRR 3b,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,52,AVHRR 4,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,53,AVHRR 5,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,54-62,Reserved,,,,,Operational
+002150,TOVS/ATOVS/AVHRR instrumentation channel number,63,Missing value,,,,,Operational
+002151,Radiometer identifier,0,HIRS,,,,,Operational
+002151,Radiometer identifier,1,MSU,,,,,Operational
+002151,Radiometer identifier,2,SSU,,,,,Operational
+002151,Radiometer identifier,3,AMSU-A1-1,,,,,Operational
+002151,Radiometer identifier,4,AMSU-A1-2,,,,,Operational
+002151,Radiometer identifier,5,AMSU-A2,,,,,Operational
+002151,Radiometer identifier,6,AMSU-B,,,,,Operational
+002151,Radiometer identifier,7,AVHRR,,,,,Operational
+002151,Radiometer identifier,8,Reserved,,,,,Operational
+002151,Radiometer identifier,9,MHS,,,,,Operational
+002151,Radiometer identifier,10-2046,Reserved,,,,,Operational
+002151,Radiometer identifier,2047,Missing value,,,,,Operational
+002152,Satellite instrument used in data processing,1,High-resolution infrared sounder (HIRS),,,,,Operational
+002152,Satellite instrument used in data processing,2,Microwave sounding unit (MSU),,,,,Operational
+002152,Satellite instrument used in data processing,3,Stratospheric sounding unit (SSU),,,,,Operational
+002152,Satellite instrument used in data processing,4,AMI wind mode,,,,,Operational
+002152,Satellite instrument used in data processing,5,AMI wave mode,,,,,Operational
+002152,Satellite instrument used in data processing,6,AMI image mode,,,,,Operational
+002152,Satellite instrument used in data processing,7,RADAR altimeter,,,,,Operational
+002152,Satellite instrument used in data processing,8,ATSR,,,,,Operational
+002152,Satellite instrument used in data processing,9,Geostationary imager,,,,,Operational
+002152,Satellite instrument used in data processing,10,Geostationary sounder,,,,,Operational
+002152,Satellite instrument used in data processing,11,Geostationary Earth radiation (GERB),,,,,Operational
+002152,Satellite instrument used in data processing,12,Multi-channel scanning radiometer,,,,,Operational
+002152,Satellite instrument used in data processing,13,Polar-orbiting imager,,,,,Operational
+002152,Satellite instrument used in data processing,14-30,Reserved,,,,,Operational
+002152,Satellite instrument used in data processing,All 31,Missing value,,,,,Operational
+002158,RA-2 instrument,1,Mismatch in RED VEC HPA,,,,,Operational
+002158,RA-2 instrument,2,Mismatch in RED VEC RFSS,,,,,Operational
+002158,RA-2 instrument,3,PTR calibration band 320 MHz (Ku),,,,,Operational
+002158,RA-2 instrument,4,PTR calibration band 80 MHz (Ku),,,,,Operational
+002158,RA-2 instrument,5,PTR calibration band 20 MHz (Ku),,,,,Operational
+002158,RA-2 instrument,6,PTR calibration band 160 MHz (S),,,,,Operational
+002158,RA-2 instrument,7,Ku flight calibration parameters available,,,,,Operational
+002158,RA-2 instrument,8,S flight calibration parameters available,,,,,Operational
+002158,RA-2 instrument,All 9,Missing value,,,,,Operational
+002159,MWR instrument,1,Temperature inconsistency,,,,,Operational
+002159,MWR instrument,2,Data is missing,,,,,Operational
+002159,MWR instrument,3,Redundancy channel,,,,,Operational
+002159,MWR instrument,4,Power bus protection,,,,,Operational
+002159,MWR instrument,5,Overvoltage/Overload protection,,,,,Operational
+002159,MWR instrument,6,Reserved,,,,,Operational
+002159,MWR instrument,7,Reserved,,,,,Operational
+002159,MWR instrument,All 8,Missing value,,,,,Operational
+002160,Wavelength of the radar,0,Reserved,,,,,Operational
+002160,Wavelength of the radar,1,10 to less than 20 mm,,,,,Operational
+002160,Wavelength of the radar,2,Reserved,,,,,Operational
+002160,Wavelength of the radar,3,20 to less than 40 mm,,,,,Operational
+002160,Wavelength of the radar,4,Reserved,,,,,Operational
+002160,Wavelength of the radar,5,40 to less than 60 mm,,,,,Operational
+002160,Wavelength of the radar,6,Reserved,,,,,Operational
+002160,Wavelength of the radar,7,60 to less than 90 mm,,,,,Operational
+002160,Wavelength of the radar,8,90 to less than 110 mm,,,,,Operational
+002160,Wavelength of the radar,9,110 mm and greater,,,,,Operational
+002160,Wavelength of the radar,10-14,Not used,,,,,Operational
+002160,Wavelength of the radar,15,Missing value,,,,,Operational
+002161,Wind processing method,1-10,Reserved,,,,,Operational
+002161,Wind processing method,11,Wind height calculated from median cloud-top pressure of target,,,,,Operational
+002161,Wind processing method,12,Target is cloudy,,,,,Operational
+002161,Wind processing method,13,Low-level inversion,,,,,Operational
+002161,Wind processing method,14,Cross correlation contribution (CCC) method,,,,,Operational
+002161,Wind processing method,15,Nested tracking,,,,,Operational
+002161,Wind processing method,All 16,Missing value,,,,,Operational
+002162,Extended height assignment method,0,Auto editor,,,,,Operational
+002162,Extended height assignment method,1,IRW height assignment,,,,,Operational
+002162,Extended height assignment method,2,WV height assignment,,,,,Operational
+002162,Extended height assignment method,3,H2O intercept height assignment,,,,,Operational
+002162,Extended height assignment method,4,CO2 slicing height assignment,,,,,Operational
+002162,Extended height assignment method,5,Low pixel max gradient,,,,,Operational
+002162,Extended height assignment method,6,Higher pixel max gradient,,,,,Operational
+002162,Extended height assignment method,7,Primary height assignment,,,,,Operational
+002162,Extended height assignment method,8,Layer thickness assignment,,,,,Operational
+002162,Extended height assignment method,9,Cumulative contribution function - 10 per cent height,,,,,Operational
+002162,Extended height assignment method,10,Cumulative contribution function - 50 per cent height,,,,,Operational
+002162,Extended height assignment method,11,Cumulative contribution function - 90 per cent height,,,,,Operational
+002162,Extended height assignment method,12,Cumulative contribution function - height of maximum gradient,,,,,Operational
+002162,Extended height assignment method,13,IR/two WV channel rationing method,,,,,Operational
+002162,Extended height assignment method,14,Composite height assignment,,,,,Operational
+002162,Extended height assignment method,15,Optimal estimation,,,,,Operational
+002162,Extended height assignment method,16,Inversion correction,,,,,Operational
+002162,Extended height assignment method,17,Geometric height assignment,,,,,Operational
+002162,Extended height assignment method,18-62,Reserved,,,,,Operational
+002162,Extended height assignment method,63,Missing value,,,,,Operational
+002163,Height assignment method,0,Auto editor,,,,,Operational
+002163,Height assignment method,1,IRW height assignment,,,,,Operational
+002163,Height assignment method,2,WV height assignment,,,,,Operational
+002163,Height assignment method,3,H2O intercept height assignment,,,,,Operational
+002163,Height assignment method,4,CO2 slicing height assignment,,,,,Operational
+002163,Height assignment method,5,Low pixel max gradient,,,,,Operational
+002163,Height assignment method,6,Higher pixel max gradient,,,,,Operational
+002163,Height assignment method,7,Primary height assignment,,,,,Operational
+002163,Height assignment method,8,Layer thickness assignment,,,,,Operational
+002163,Height assignment method,9,Cumulative contribution function - 10 per cent height,,,,,Operational
+002163,Height assignment method,10,Cumulative contribution function - 50 per cent height,,,,,Operational
+002163,Height assignment method,11,Cumulative contribution function - 90 per cent height,,,,,Operational
+002163,Height assignment method,12,Cumulative contribution function - height of maximum gradient,,,,,Operational
+002163,Height assignment method,13,IR / two WV channel ratioing method,,,,,Operational
+002163,Height assignment method,14,Composite height assignment,,,,,Operational
+002163,Height assignment method,15,Missing value,,,,,Operational
+002164,Tracer correlation method,0,LP - Norms least square minimum,,,,,Operational
+002164,Tracer correlation method,1,EN - Euclidean norm with radiance correlation,,,,,Operational
+002164,Tracer correlation method,2,CC - Cross correlation,,,,,Operational
+002164,Tracer correlation method,3,Stereo matching,,,,,Operational
+002164,Tracer correlation method,4-6,Reserved,,,,,Operational
+002164,Tracer correlation method,7,Missing value,,,,,Operational
+002165,Radiance type flags,1,Clear path,,,,,Operational
+002165,Radiance type flags,2,Partly cloudy path,,,,,Operational
+002165,Radiance type flags,3,Cloudy path,,,,,Operational
+002165,Radiance type flags,4,Apodized,,,,,Operational
+002165,Radiance type flags,5,Unapodized,,,,,Operational
+002165,Radiance type flags,6,Reconstructed,,,,,Operational
+002165,Radiance type flags,7,Cloud cleared,,,,,Operational
+002165,Radiance type flags,8-14,Reserved,,,,,Operational
+002165,Radiance type flags,All 15,Missing value,,,,,Operational
+002166,Radiance type,0,Type not defined,,,,,Operational
+002166,Radiance type,1,Automated statistical regression,,,,,Operational
+002166,Radiance type,2,Clear path,,,,,Operational
+002166,Radiance type,3,Partly cloudy path,,,,,Operational
+002166,Radiance type,4,Cloudy path,,,,,Operational
+002166,Radiance type,5-14,Reserved,,,,,Operational
+002166,Radiance type,15,Missing value,,,,,Operational
+002167,Radiance computational method,0,Method not defined,,,,,Operational
+002167,Radiance computational method,1,1b raw radiance,,,,,Operational
+002167,Radiance computational method,2,Processed radiance,,,,,Operational
+002167,Radiance computational method,3-14,Reserved,,,,,Operational
+002167,Radiance computational method,15,Missing value,,,,,Operational
+002169,Anemometer type,0,Cup rotor,,,,,Operational
+002169,Anemometer type,1,Propeller rotor,,,,,Operational
+002169,Anemometer type,2,Wind Observation Through Ambient Noise (WOTAN),,,,,Operational
+002169,Anemometer type,3,Sonic,,,,,Operational
+002169,Anemometer type,4-14,Reserved,,,,,Operational
+002169,Anemometer type,15,Missing value,,,,,Operational
+002170,Aircraft humidity sensors,0,"SpectraSensors WVSS-II, Version 1",,,,,Operational
+002170,Aircraft humidity sensors,1,"SpectraSensors WVSS-II, Version 2",,,,,Operational
+002170,Aircraft humidity sensors,2,"SpectraSensors WVSS-II, Version 3",,,,,Operational
+002170,Aircraft humidity sensors,3-61,Reserved,,,,,Operational
+002170,Aircraft humidity sensors,62,Other,,,,,Operational
+002170,Aircraft humidity sensors,63,Missing value,,,,,Operational
+002172,Product type for retrieved atmospheric gases,0,Reserved,,,,,Operational
+002172,Product type for retrieved atmospheric gases,1,Retrieval from a nadir sounding,,,,,Operational
+002172,Product type for retrieved atmospheric gases,2,Retrieval from a limb sounding,,,,,Operational
+002172,Product type for retrieved atmospheric gases,3-254,Reserved,,,,,Operational
+002172,Product type for retrieved atmospheric gases,255,Missing value,,,,,Operational
+002175,Method of precipitation measurement,0,Manual measurement,,,,,Operational
+002175,Method of precipitation measurement,1,Tipping bucket method,,,,,Operational
+002175,Method of precipitation measurement,2,Weighing method,,,,,Operational
+002175,Method of precipitation measurement,3,Optical method,,,,,Operational
+002175,Method of precipitation measurement,4,Pressure method,,,,,Operational
+002175,Method of precipitation measurement,5,Float method,,,,,Operational
+002175,Method of precipitation measurement,6,Drop counter method,,,,,Operational
+002175,Method of precipitation measurement,7-13,Reserved,,,,,Operational
+002175,Method of precipitation measurement,14,Others,,,,,Operational
+002175,Method of precipitation measurement,15,Missing value,,,,,Operational
+002176,Method of state of ground measurement,0,Manual observation,,,,,Operational
+002176,Method of state of ground measurement,1,Video camera method,,,,,Operational
+002176,Method of state of ground measurement,2,Infrared method,,,,,Operational
+002176,Method of state of ground measurement,3,Laser method,,,,,Operational
+002176,Method of state of ground measurement,4-13,Reserved,,,,,Operational
+002176,Method of state of ground measurement,14,Others,,,,,Operational
+002176,Method of state of ground measurement,15,Missing value,,,,,Operational
+002177,Method of snow depth measurement,0,Manual observation,,,,,Operational
+002177,Method of snow depth measurement,1,Ultrasonic method,,,,,Operational
+002177,Method of snow depth measurement,2,Video camera method,,,,,Operational
+002177,Method of snow depth measurement,3,Laser method,,,,,Operational
+002177,Method of snow depth measurement,4-13,Reserved,,,,,Operational
+002177,Method of snow depth measurement,14,Others,,,,,Operational
+002177,Method of snow depth measurement,15,Missing value,,,,,Operational
+002178,Method of liquid content measurement of precipitation,0,Manual observation,,,,,Operational
+002178,Method of liquid content measurement of precipitation,1,Optical method,,,,,Operational
+002178,Method of liquid content measurement of precipitation,2,Capacitive method,,,,,Operational
+002178,Method of liquid content measurement of precipitation,3-13,Reserved,,,,,Operational
+002178,Method of liquid content measurement of precipitation,14,Others,,,,,Operational
+002178,Method of liquid content measurement of precipitation,15,Missing value,,,,,Operational
+002179,Type of sky condition algorithm,0,Manual observation,,,,,Operational
+002179,Type of sky condition algorithm,1,VAISALA algorithm,,,,,Operational
+002179,Type of sky condition algorithm,2,ASOS (FAA) algorithm,,,,,Operational
+002179,Type of sky condition algorithm,3,AWOS (Canada) algorithm,,,,,Operational
+002179,Type of sky condition algorithm,4-13,Reserved,,,,,Operational
+002179,Type of sky condition algorithm,14,Others,,,,,Operational
+002179,Type of sky condition algorithm,15,Missing value,,,,,Operational
+002180,Main present weather detecting system,0,Manual observation,,,,,Operational
+002180,Main present weather detecting system,1,Optical scatter system combined with precipitation occurrence sensing system,,,,,Operational
+002180,Main present weather detecting system,2,Forward and/or backscatter system of visible light,,,,,Operational
+002180,Main present weather detecting system,3,Forward and/or backscatter system of infrared light,,,,,Operational
+002180,Main present weather detecting system,4,Infrared light emitting diode (IRED) system,,,,,Operational
+002180,Main present weather detecting system,5,Doppler radar system,,,,,Operational
+002180,Main present weather detecting system,6-13,Reserved,,,,,Operational
+002180,Main present weather detecting system,14,Others,,,,,Operational
+002180,Main present weather detecting system,15,Missing value,,,,,Operational
+002181,Supplementary present weather sensor,1,Rain detector,,,,,Operational
+002181,Supplementary present weather sensor,2,Freezing rain sensor,,,,,Operational
+002181,Supplementary present weather sensor,3,Ice detection sensor,,,,,Operational
+002181,Supplementary present weather sensor,4,Hail and ice pellet sensor,,,,,Operational
+002181,Supplementary present weather sensor,5-19,Reserved,,,,,Operational
+002181,Supplementary present weather sensor,20,Others,,,,,Operational
+002181,Supplementary present weather sensor,All 21,Missing value,,,,,Operational
+002182,Visibility measurement system,0,Manual measurement,,,,,Operational
+002182,Visibility measurement system,1,Transmissometer system (base > 25 m),,,,,Operational
+002182,Visibility measurement system,2,Transmissometer system (base < 25 m),,,,,Operational
+002182,Visibility measurement system,3,Forward scatter system,,,,,Operational
+002182,Visibility measurement system,4,Backscatter system,,,,,Operational
+002182,Visibility measurement system,5-13,Reserved,,,,,Operational
+002182,Visibility measurement system,14,Others,,,,,Operational
+002182,Visibility measurement system,15,Missing value,,,,,Operational
+002183,Cloud detection system,0,Manual observation,,,,,Operational
+002183,Cloud detection system,1,Ceilometer system,,,,,Operational
+002183,Cloud detection system,2,Infrared camera system,,,,,Operational
+002183,Cloud detection system,3,Microwave visual camera system,,,,,Operational
+002183,Cloud detection system,4,Sky imager system,,,,,Operational
+002183,Cloud detection system,5,Video time-lapsed camera system,,,,,Operational
+002183,Cloud detection system,6,Micropulse lidar (MPL) system,,,,,Operational
+002183,Cloud detection system,7-13,Reserved,,,,,Operational
+002183,Cloud detection system,14,Others,,,,,Operational
+002183,Cloud detection system,15,Missing value,,,,,Operational
+002184,Type of lightning detection sensor,0,Manual observation,,,,,Operational
+002184,Type of lightning detection sensor,1,Lightning imaging sensor,,,,,Operational
+002184,Type of lightning detection sensor,2,Electrical storm identification sensor,,,,,Operational
+002184,Type of lightning detection sensor,3,Magnetic finder sensor,,,,,Operational
+002184,Type of lightning detection sensor,4,Lightning strike sensor,,,,,Operational
+002184,Type of lightning detection sensor,5,Flash counter,,,,,Operational
+002184,Type of lightning detection sensor,6,ATDnet VLF waveform correlated sensor,,,,,Operational
+002184,Type of lightning detection sensor,7-13,Reserved,,,,,Operational
+002184,Type of lightning detection sensor,14,Others,,,,,Operational
+002184,Type of lightning detection sensor,15,Missing value,,,,,Operational
+002185,Method of evaporation measurement,0,Manual measurement,,,,,Operational
+002185,Method of evaporation measurement,1,Balanced floating method,,,,,Operational
+002185,Method of evaporation measurement,2,Pressure method,,,,,Operational
+002185,Method of evaporation measurement,3,Ultrasonic method,,,,,Operational
+002185,Method of evaporation measurement,4,Hydraulic method,,,,,Operational
+002185,Method of evaporation measurement,5-13,Reserved,,,,,Operational
+002185,Method of evaporation measurement,14,Others,,,,,Operational
+002185,Method of evaporation measurement,15,Missing value,,,,,Operational
+002186,Capability to detect precipitation phenomena,1,Precipitation-unknown type,,,,,Operational
+002186,Capability to detect precipitation phenomena,2,Liquid precipitation not freezing,,,,,Operational
+002186,Capability to detect precipitation phenomena,3,Liquid freezing precipitation,,,,,Operational
+002186,Capability to detect precipitation phenomena,4,Drizzle,,,,,Operational
+002186,Capability to detect precipitation phenomena,5,Rain,,,,,Operational
+002186,Capability to detect precipitation phenomena,6,Solid precipitation,,,,,Operational
+002186,Capability to detect precipitation phenomena,7,Snow,,,,,Operational
+002186,Capability to detect precipitation phenomena,8,Snow grains,,,,,Operational
+002186,Capability to detect precipitation phenomena,9,Snow pellets,,,,,Operational
+002186,Capability to detect precipitation phenomena,10,Ice pellets,,,,,Operational
+002186,Capability to detect precipitation phenomena,11,Ice crystals,,,,,Operational
+002186,Capability to detect precipitation phenomena,12,Diamond dust,,,,,Operational
+002186,Capability to detect precipitation phenomena,13,Small hail,,,,,Operational
+002186,Capability to detect precipitation phenomena,14,Hail,,,,,Operational
+002186,Capability to detect precipitation phenomena,15,Glaze,,,,,Operational
+002186,Capability to detect precipitation phenomena,16,Rime,,,,,Operational
+002186,Capability to detect precipitation phenomena,17,Soft rime,,,,,Operational
+002186,Capability to detect precipitation phenomena,18,Hard rime,,,,,Operational
+002186,Capability to detect precipitation phenomena,19,Clear ice,,,,,Operational
+002186,Capability to detect precipitation phenomena,20,Wet snow,,,,,Operational
+002186,Capability to detect precipitation phenomena,21,Hoar frost,,,,,Operational
+002186,Capability to detect precipitation phenomena,22,Dew,,,,,Operational
+002186,Capability to detect precipitation phenomena,23,White dew,,,,,Operational
+002186,Capability to detect precipitation phenomena,24,Convective precipitation,,,,,Operational
+002186,Capability to detect precipitation phenomena,25-29,Reserved,,,,,Operational
+002186,Capability to detect precipitation phenomena,All 30,Missing value,,,,,Operational
+002187,Capability to detect other weather phenomena,1,Dust/sand whirl,,,,,Operational
+002187,Capability to detect other weather phenomena,2,Squalls,,,,,Operational
+002187,Capability to detect other weather phenomena,3,Sand storm,,,,,Operational
+002187,Capability to detect other weather phenomena,4,Dust storm,,,,,Operational
+002187,Capability to detect other weather phenomena,5,Lightning - cloud to surface,,,,,Operational
+002187,Capability to detect other weather phenomena,6,Lightning - cloud to cloud,,,,,Operational
+002187,Capability to detect other weather phenomena,7,Lightning - distant,,,,,Operational
+002187,Capability to detect other weather phenomena,8,Thunderstorm,,,,,Operational
+002187,Capability to detect other weather phenomena,9,Funnel cloud not touching surface,,,,,Operational
+002187,Capability to detect other weather phenomena,10,Funnel cloud touching surface,,,,,Operational
+002187,Capability to detect other weather phenomena,11,Spray,,,,,Operational
+002187,Capability to detect other weather phenomena,12-17,Reserved,,,,,Operational
+002187,Capability to detect other weather phenomena,All 18,Missing value,,,,,Operational
+002188,Capability to detect obscuration,1,Fog,,,,,Operational
+002188,Capability to detect obscuration,2,Ice fog,,,,,Operational
+002188,Capability to detect obscuration,3,Steam fog,,,,,Operational
+002188,Capability to detect obscuration,4-6,Reserved,,,,,Operational
+002188,Capability to detect obscuration,7,Mist,,,,,Operational
+002188,Capability to detect obscuration,8,Haze,,,,,Operational
+002188,Capability to detect obscuration,9,Smoke,,,,,Operational
+002188,Capability to detect obscuration,10,Volcanic ash,,,,,Operational
+002188,Capability to detect obscuration,11,Dust,,,,,Operational
+002188,Capability to detect obscuration,12,Sand,,,,,Operational
+002188,Capability to detect obscuration,13,Snow,,,,,Operational
+002188,Capability to detect obscuration,14-20,Reserved,,,,,Operational
+002188,Capability to detect obscuration,All 21,Missing value,,,,,Operational
+002189,Capability to discriminate lightning strikes,1,Manual observation,,,,,Operational
+002189,Capability to discriminate lightning strikes,2,All lightning strikes without discrimination,,,,,Operational
+002189,Capability to discriminate lightning strikes,3,Lightning strikes cloud to ground only,,,,,Operational
+002189,Capability to discriminate lightning strikes,4,All lightning strikes with discrimination between cloud to ground and cloud to cloud,,,,,Operational
+002189,Capability to discriminate lightning strikes,5-11,Reserved,,,,,Operational
+002189,Capability to discriminate lightning strikes,All 12,Missing value,,,,,Operational
+002191,Geopotential height calculation,0,Geopotential height calculated from pressure,,,,,Operational
+002191,Geopotential height calculation,1,Geopotential height calculated from GPS height,,,,,Operational
+002191,Geopotential height calculation,2,Geopotential height calculated from radar height,,,,,Operational
+002191,Geopotential height calculation,3-14,Reserved,,,,,Operational
+002191,Geopotential height calculation,15,Missing value,,,,,Operational

@@ -1,151 +1,151 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,Status
-019001,Type of synoptic feature,0,Depression or low (extratroplcal),,,,Operational
-019001,Type of synoptic feature,1,Tropical depression,,,,Operational
-019001,Type of synoptic feature,2,Tropical storm,,,,Operational
-019001,Type of synoptic feature,3,Severe tropical storm,,,,Operational
-019001,Type of synoptic feature,4,Typhoon,,,,Operational
-019001,Type of synoptic feature,5-9,Reserved,,,,Operational
-019001,Type of synoptic feature,10,Dust/sandstorm,,,,Operational
-019001,Type of synoptic feature,11-62,Reserved,,,,Operational
-019001,Type of synoptic feature,63,Missing value,,,,Operational
-019008,Vertical extent of circulation,0,Reserved,,,,Operational
-019008,Vertical extent of circulation,1,Shallow (top of circulation below 700-hPa level),,,,Operational
-019008,Vertical extent of circulation,2,Medium (top between 700-hPa and 400-hPa level),,,,Operational
-019008,Vertical extent of circulation,3,Deep (top above 400-hPa level),,,,Operational
-019008,Vertical extent of circulation,4-6,Reserved,,,,Operational
-019008,Vertical extent of circulation,7,Missing value,,,,Operational
-019010,Method for tracking the centre of synoptic feature,1,Minimum value of sea level pressure,,,,Operational
-019010,Method for tracking the centre of synoptic feature,2,Maximum value of 850 hPa relative vorticity,,,,Operational
-019010,Method for tracking the centre of synoptic feature,3-14,Reserved,,,,Operational
-019010,Method for tracking the centre of synoptic feature,15,Missing value,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,0-2,Not used,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,3,During the preceding 15 minutes,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,4,During the preceding 30 minutes,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,5,During the preceding 1 hour,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,6,During the preceding 2 hours,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,7,During the preceding 3 hours,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,8,During the preceding 6 hours,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,9,During a period of more than 6 hours,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,10,Undetermined,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,11-14,Not used,,,,Operational
-019100,Time interval to calculate the movement of the tropical cyclone,15,Missing value,,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,0,Reserved,,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,1,"Eye visible on radar scope, accuracy good (within 10 km)",,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,2,"Eye visible on radar scope, accuracy fair (within 30 km)",,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,3,"Eye visible on radar scope, accuracy poor (within 50 km)",,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,4,"Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy good (within 10 km)",,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,5,"Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy fair (within 30 km)",,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,6,"Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy poor (within 50 km)",,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,7,"Position of the centre outside the area covered by the radar scope, extrapolation by means of the spiral-band overlay",,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,8-9,Reserved,,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,10,Accuracy undetermined,,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,11-14,Not used,,,,Operational
-019101,Accuracy of the position of the centre of the tropical cyclone,15,Missing value,,,,Operational
-019102,Shape and definition of the eye of the tropical cyclone,0,Circular,,,,Operational
-019102,Shape and definition of the eye of the tropical cyclone,1,Elliptical - the minor axis is at least 3/4 the length of the major axis,well defined,,,Operational
-019102,Shape and definition of the eye of the tropical cyclone,2,Elliptical - the minor axis is less than 3/4 the length of the major axis,well defined,,,Operational
-019102,Shape and definition of the eye of the tropical cyclone,3,Apparent double eye,well defined,,,Operational
-019102,Shape and definition of the eye of the tropical cyclone,4,Other shape,well defined,,,Operational
-019102,Shape and definition of the eye of the tropical cyclone,5,Ill defined,,,,Operational
-019102,Shape and definition of the eye of the tropical cyclone,6,Undetermined,,,,Operational
-019102,Shape and definition of the eye of the tropical cyclone,7,Missing value,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,0,Less than 5 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,1,5 to less than 10 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,2,10 to less than 15 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,3,15 to less than 20 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,4,20 to less than 25 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,5,25 to less than 30 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,6,30 to less than 35 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,7,35 to less than 40 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,8,40 to less than 50 km,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,9,50 km and greater,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,10,Undetermined,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,11-14,Not used,,,,Operational
-019103,Diameter of major axis of the eye of the tropical cyclone,15,Missing value,,,,Operational
-019104,Change in character of the eye during the 30 minutes,0,Eye has first become visible during the past 30 minutes,,,,Operational
-019104,Change in character of the eye during the 30 minutes,1,No significant change in the characteristics or size of the eye,,,,Operational
-019104,Change in character of the eye during the 30 minutes,2,Eye has become smaller with no other significant change in characteristics,,,,Operational
-019104,Change in character of the eye during the 30 minutes,3,Eye has become larger with no other significant change in characteristics,,,,Operational
-019104,Change in character of the eye during the 30 minutes,4,Eye has become less distinct with no significant change in size,,,,Operational
-019104,Change in character of the eye during the 30 minutes,5,Eye has become less distinct and decreased in size,,,,Operational
-019104,Change in character of the eye during the 30 minutes,6,Eye has become less distinct and increased in size,,,,Operational
-019104,Change in character of the eye during the 30 minutes,7,Eye has become more distinct with no significant change in size,,,,Operational
-019104,Change in character of the eye during the 30 minutes,8,Eye has become more distinct and decreased in size,,,,Operational
-019104,Change in character of the eye during the 30 minutes,9,Eye has become more distinct and increased in size,,,,Operational
-019104,Change in character of the eye during the 30 minutes,10,Change in character and size of eye cannot be determined,,,,Operational
-019104,Change in character of the eye during the 30 minutes,11-14,Not used,,,,Operational
-019104,Change in character of the eye during the 30 minutes,15,Missing value,,,,Operational
-019105,Distance between the end of spiral band and the centre,0,0 to less than 100 km,,,,Operational
-019105,Distance between the end of spiral band and the centre,1,100 to less than 200 km,,,,Operational
-019105,Distance between the end of spiral band and the centre,2,200 to less than 300 km,,,,Operational
-019105,Distance between the end of spiral band and the centre,3,300 to less than 400 km,,,,Operational
-019105,Distance between the end of spiral band and the centre,4,400 to less than 500 km,,,,Operational
-019105,Distance between the end of spiral band and the centre,5,500 to less than 600 km,,,,Operational
-019105,Distance between the end of spiral band and the centre,6,600 to less than 800 km,,,,Operational
-019105,Distance between the end of spiral band and the centre,7,800 km or more,,,,Operational
-019105,Distance between the end of spiral band and the centre,8-9,Reserved,,,,Operational
-019105,Distance between the end of spiral band and the centre,10,Doubtful or undetermined,,,,Operational
-019105,Distance between the end of spiral band and the centre,11-14,Not used,,,,Operational
-019105,Distance between the end of spiral band and the centre,15,Missing value,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,0,Less than 1 hour,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,1,1 to less than 2 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,2,2 to less than 3 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,3,3 to less than 6 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,4,6 to less than 9 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,5,9 to less than 12 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,6,12 to less than 15 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,7,15 to less than 18 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,8,18 to less than 21 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,9,21 to less than 30 hours,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,10-14,Not used,,,,Operational
-019107,Time interval over which the movement of the tropical cyclone has been calculated,15,Missing value,,,,Operational
-019108,Accuracy of geographical position of the tropical cyclone,0,Cyclone centre within 10 km of the transmitted position,,,,Operational
-019108,Accuracy of geographical position of the tropical cyclone,1,Cyclone centre within 20 km of the transmitted position,,,,Operational
-019108,Accuracy of geographical position of the tropical cyclone,2,Cyclone centre within 50 km of the transmitted position,,,,Operational
-019108,Accuracy of geographical position of the tropical cyclone,3,Cyclone centre within 100 km of the transmitted position,,,,Operational
-019108,Accuracy of geographical position of the tropical cyclone,4,Cyclone centre within 200 km of the transmitted position,,,,Operational
-019108,Accuracy of geographical position of the tropical cyclone,5,Cyclone centre within 300 km of the transmitted position,,,,Operational
-019108,Accuracy of geographical position of the tropical cyclone,6,Cyclone centre undetermined,,,,Operational
-019108,Accuracy of geographical position of the tropical cyclone,7,Missing value,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,0,Less than 1 deg of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,1,1 deg to less than 2 deg of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,2,2 deg to less than 3 deg of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,3,3 deg to less than 4 deg of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,4,4 deg to less than 5 deg of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,5,5 deg to less than 6 deg of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,6,6 deg to less than 7 deg of latitude,,,,Operational 
-019109,Mean diameter of the overcast cloud of the tropical cyclone,7,7 deg to less than 8 deg of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,8,8 deg to less than 9 deg of latitude,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,9,9 deg of latitude or more,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,10,Undetermined,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,11-14,Not used,,,,Operational
-019109,Mean diameter of the overcast cloud of the tropical cyclone,15,Missing value,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,0,Much weakening,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,1,Weakening,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,2,No change,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,3,Intensification,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,4,Strong Intensification,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,5-8,Reserved,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,9,Not observed previously,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,10,Undetermined,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,11-14,Not used,,,,Operational
-019110,Apparent 24-hour change in intensity of the tropical cyclone,15,Missing value,,,,Operational
-019113,Cloud pattern type of the DT-number,1,Curved Band,,,,Operational
-019113,Cloud pattern type of the DT-number,2,Shear,,,,Operational
-019113,Cloud pattern type of the DT-number,3,Eye,,,,Operational
-019113,Cloud pattern type of the DT-number,4,Banding Eye,,,,Operational
-019113,Cloud pattern type of the DT-number,5,Central Dense Overcast (CDO),,,,Operational
-019113,Cloud pattern type of the DT-number,6,Embedded Centre,,,,Operational
-019113,Cloud pattern type of the DT-number,7,Centre Cold Cover (CCC),,,,Operational
-019113,Cloud pattern type of the DT-number,8-14,Reserved,,,,Operational
-019113,Cloud pattern type of the DT-number,15,Missing value,,,,Operational
-019117,Cloud picture type of the PT-number,1,A (curved band),,,,Operational
-019117,Cloud picture type of the PT-number,2,B (CDO),,,,Operational
-019117,Cloud picture type of the PT-number,3,C (shear),,,,Operational
-019117,Cloud picture type of the PT-number,4-6,Reserved,,,,Operational
-019117,Cloud picture type of the PT-number,7,Missing value,,,,Operational
-019119,Type of the final T-number,1,DT-number,,,,Operational
-019119,Type of the final T-number,2,PT-number,,,,Operational
-019119,Type of the final T-number,3,MET-number,,,,Operational
-019119,Type of the final T-number,4-6,Reserved,,,,Operational
-019119,Type of the final T-number,7,Missing value,,,,Operational
+FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+019001,Type of synoptic feature,0,Depression or low (extratroplcal),,,,,Operational
+019001,Type of synoptic feature,1,Tropical depression,,,,,Operational
+019001,Type of synoptic feature,2,Tropical storm,,,,,Operational
+019001,Type of synoptic feature,3,Severe tropical storm,,,,,Operational
+019001,Type of synoptic feature,4,Typhoon,,,,,Operational
+019001,Type of synoptic feature,5-9,Reserved,,,,,Operational
+019001,Type of synoptic feature,10,Dust/sandstorm,,,,,Operational
+019001,Type of synoptic feature,11-62,Reserved,,,,,Operational
+019001,Type of synoptic feature,63,Missing value,,,,,Operational
+019008,Vertical extent of circulation,0,Reserved,,,,,Operational
+019008,Vertical extent of circulation,1,Shallow (top of circulation below 700-hPa level),,,,,Operational
+019008,Vertical extent of circulation,2,Medium (top between 700-hPa and 400-hPa level),,,,,Operational
+019008,Vertical extent of circulation,3,Deep (top above 400-hPa level),,,,,Operational
+019008,Vertical extent of circulation,4-6,Reserved,,,,,Operational
+019008,Vertical extent of circulation,7,Missing value,,,,,Operational
+019010,Method for tracking the centre of synoptic feature,1,Minimum value of sea level pressure,,,,,Operational
+019010,Method for tracking the centre of synoptic feature,2,Maximum value of 850 hPa relative vorticity,,,,,Operational
+019010,Method for tracking the centre of synoptic feature,3-14,Reserved,,,,,Operational
+019010,Method for tracking the centre of synoptic feature,15,Missing value,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,0-2,Not used,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,3,During the preceding 15 minutes,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,4,During the preceding 30 minutes,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,5,During the preceding 1 hour,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,6,During the preceding 2 hours,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,7,During the preceding 3 hours,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,8,During the preceding 6 hours,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,9,During a period of more than 6 hours,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,10,Undetermined,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,11-14,Not used,,,,,Operational
+019100,Time interval to calculate the movement of the tropical cyclone,15,Missing value,,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,0,Reserved,,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,1,"Eye visible on radar scope, accuracy good (within 10 km)",,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,2,"Eye visible on radar scope, accuracy fair (within 30 km)",,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,3,"Eye visible on radar scope, accuracy poor (within 50 km)",,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,4,"Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy good (within 10 km)",,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,5,"Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy fair (within 30 km)",,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,6,"Position of the centre within the area covered by the radar scope, determination by means of the spiral-band overlay, accuracy poor (within 50 km)",,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,7,"Position of the centre outside the area covered by the radar scope, extrapolation by means of the spiral-band overlay",,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,8-9,Reserved,,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,10,Accuracy undetermined,,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,11-14,Not used,,,,,Operational
+019101,Accuracy of the position of the centre of the tropical cyclone,15,Missing value,,,,,Operational
+019102,Shape and definition of the eye of the tropical cyclone,0,Circular,,,,,Operational
+019102,Shape and definition of the eye of the tropical cyclone,1,Elliptical - the minor axis is at least 3/4 the length of the major axis,well defined,,,,Operational
+019102,Shape and definition of the eye of the tropical cyclone,2,Elliptical - the minor axis is less than 3/4 the length of the major axis,well defined,,,,Operational
+019102,Shape and definition of the eye of the tropical cyclone,3,Apparent double eye,well defined,,,,Operational
+019102,Shape and definition of the eye of the tropical cyclone,4,Other shape,well defined,,,,Operational
+019102,Shape and definition of the eye of the tropical cyclone,5,Ill defined,,,,,Operational
+019102,Shape and definition of the eye of the tropical cyclone,6,Undetermined,,,,,Operational
+019102,Shape and definition of the eye of the tropical cyclone,7,Missing value,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,0,Less than 5 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,1,5 to less than 10 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,2,10 to less than 15 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,3,15 to less than 20 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,4,20 to less than 25 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,5,25 to less than 30 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,6,30 to less than 35 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,7,35 to less than 40 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,8,40 to less than 50 km,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,9,50 km and greater,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,10,Undetermined,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,11-14,Not used,,,,,Operational
+019103,Diameter of major axis of the eye of the tropical cyclone,15,Missing value,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,0,Eye has first become visible during the past 30 minutes,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,1,No significant change in the characteristics or size of the eye,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,2,Eye has become smaller with no other significant change in characteristics,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,3,Eye has become larger with no other significant change in characteristics,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,4,Eye has become less distinct with no significant change in size,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,5,Eye has become less distinct and decreased in size,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,6,Eye has become less distinct and increased in size,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,7,Eye has become more distinct with no significant change in size,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,8,Eye has become more distinct and decreased in size,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,9,Eye has become more distinct and increased in size,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,10,Change in character and size of eye cannot be determined,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,11-14,Not used,,,,,Operational
+019104,Change in character of the eye during the 30 minutes,15,Missing value,,,,,Operational
+019105,Distance between the end of spiral band and the centre,0,0 to less than 100 km,,,,,Operational
+019105,Distance between the end of spiral band and the centre,1,100 to less than 200 km,,,,,Operational
+019105,Distance between the end of spiral band and the centre,2,200 to less than 300 km,,,,,Operational
+019105,Distance between the end of spiral band and the centre,3,300 to less than 400 km,,,,,Operational
+019105,Distance between the end of spiral band and the centre,4,400 to less than 500 km,,,,,Operational
+019105,Distance between the end of spiral band and the centre,5,500 to less than 600 km,,,,,Operational
+019105,Distance between the end of spiral band and the centre,6,600 to less than 800 km,,,,,Operational
+019105,Distance between the end of spiral band and the centre,7,800 km or more,,,,,Operational
+019105,Distance between the end of spiral band and the centre,8-9,Reserved,,,,,Operational
+019105,Distance between the end of spiral band and the centre,10,Doubtful or undetermined,,,,,Operational
+019105,Distance between the end of spiral band and the centre,11-14,Not used,,,,,Operational
+019105,Distance between the end of spiral band and the centre,15,Missing value,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,0,Less than 1 hour,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,1,1 to less than 2 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,2,2 to less than 3 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,3,3 to less than 6 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,4,6 to less than 9 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,5,9 to less than 12 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,6,12 to less than 15 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,7,15 to less than 18 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,8,18 to less than 21 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,9,21 to less than 30 hours,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,10-14,Not used,,,,,Operational
+019107,Time interval over which the movement of the tropical cyclone has been calculated,15,Missing value,,,,,Operational
+019108,Accuracy of geographical position of the tropical cyclone,0,Cyclone centre within 10 km of the transmitted position,,,,,Operational
+019108,Accuracy of geographical position of the tropical cyclone,1,Cyclone centre within 20 km of the transmitted position,,,,,Operational
+019108,Accuracy of geographical position of the tropical cyclone,2,Cyclone centre within 50 km of the transmitted position,,,,,Operational
+019108,Accuracy of geographical position of the tropical cyclone,3,Cyclone centre within 100 km of the transmitted position,,,,,Operational
+019108,Accuracy of geographical position of the tropical cyclone,4,Cyclone centre within 200 km of the transmitted position,,,,,Operational
+019108,Accuracy of geographical position of the tropical cyclone,5,Cyclone centre within 300 km of the transmitted position,,,,,Operational
+019108,Accuracy of geographical position of the tropical cyclone,6,Cyclone centre undetermined,,,,,Operational
+019108,Accuracy of geographical position of the tropical cyclone,7,Missing value,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,0,Less than 1 deg of latitude,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,1,1 deg to less than 2 deg of latitude,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,2,2 deg to less than 3 deg of latitude,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,3,3 deg to less than 4 deg of latitude,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,4,4 deg to less than 5 deg of latitude,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,5,5 deg to less than 6 deg of latitude,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,6,6 deg to less than 7 deg of latitude,,,,,Operational 
+019109,Mean diameter of the overcast cloud of the tropical cyclone,7,7 deg to less than 8 deg of latitude,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,8,8 deg to less than 9 deg of latitude,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,9,9 deg of latitude or more,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,10,Undetermined,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,11-14,Not used,,,,,Operational
+019109,Mean diameter of the overcast cloud of the tropical cyclone,15,Missing value,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,0,Much weakening,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,1,Weakening,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,2,No change,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,3,Intensification,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,4,Strong Intensification,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,5-8,Reserved,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,9,Not observed previously,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,10,Undetermined,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,11-14,Not used,,,,,Operational
+019110,Apparent 24-hour change in intensity of the tropical cyclone,15,Missing value,,,,,Operational
+019113,Cloud pattern type of the DT-number,1,Curved Band,,,,,Operational
+019113,Cloud pattern type of the DT-number,2,Shear,,,,,Operational
+019113,Cloud pattern type of the DT-number,3,Eye,,,,,Operational
+019113,Cloud pattern type of the DT-number,4,Banding Eye,,,,,Operational
+019113,Cloud pattern type of the DT-number,5,Central Dense Overcast (CDO),,,,,Operational
+019113,Cloud pattern type of the DT-number,6,Embedded Centre,,,,,Operational
+019113,Cloud pattern type of the DT-number,7,Centre Cold Cover (CCC),,,,,Operational
+019113,Cloud pattern type of the DT-number,8-14,Reserved,,,,,Operational
+019113,Cloud pattern type of the DT-number,15,Missing value,,,,,Operational
+019117,Cloud picture type of the PT-number,1,A (curved band),,,,,Operational
+019117,Cloud picture type of the PT-number,2,B (CDO),,,,,Operational
+019117,Cloud picture type of the PT-number,3,C (shear),,,,,Operational
+019117,Cloud picture type of the PT-number,4-6,Reserved,,,,,Operational
+019117,Cloud picture type of the PT-number,7,Missing value,,,,,Operational
+019119,Type of the final T-number,1,DT-number,,,,,Operational
+019119,Type of the final T-number,2,PT-number,,,,,Operational
+019119,Type of the final T-number,3,MET-number,,,,,Operational
+019119,Type of the final T-number,4-6,Reserved,,,,,Operational
+019119,Type of the final T-number,7,Missing value,,,,,Operational

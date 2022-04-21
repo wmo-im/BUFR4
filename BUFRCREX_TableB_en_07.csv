@@ -1,32 +1,32 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-07,Location (vertical),007001,Height of station,(see Note 1),m,0,-400,15,m,0,5,Operational
-07,Location (vertical),007002,Height or altitude,,m,-1,-40,16,m,-1,5,Operational
-07,Location (vertical),007003,Geopotential,,m2 s-2,-1,-400,17,m2 s-2,-1,6,Operational
-07,Location (vertical),007004,Pressure,,Pa,-1,0,14,Pa,-1,5,Operational
-07,Location (vertical),007005,Height increment,,m,0,-400,12,m,0,4,Operational
-07,Location (vertical),007006,Height above station,,m,0,0,15,m,0,5,Operational
-07,Location (vertical),007007,Height,,m,0,-1000,17,m,0,6,Operational
-07,Location (vertical),007008,Geopotential,,m2 s-2,0,-10000,20,m2 s-2,0,7,Operational
-07,Location (vertical),007009,Geopotential height,,gpm,0,-1000,17,gpm,0,5,Operational
-07,Location (vertical),007010,Flight level,,m,0,-1024,16,ft,-1,5,Operational
-07,Location (vertical),007012,Grid point altitude,,m,2,-50000,20,m,2,7,Operational
-07,Location (vertical),007021,Elevation,(see Note 2),deg,2,-9000,15,deg,2,5,Operational
-07,Location (vertical),007022,Solar elevation,,deg,2,-9000,15,deg,2,5,Operational
-07,Location (vertical),007024,Satellite zenith angle,,deg,2,-9000,15,deg,2,5,Operational
-07,Location (vertical),007025,Solar zenith angle,,deg,2,-9000,15,deg,2,5,Operational
-07,Location (vertical),007026,Satellite zenith angle,,deg,4,-900000,21,deg,4,7,Operational
-07,Location (vertical),007030,Height of station ground above mean sea level,(see Note 3),m,1,-4000,17,m,1,5,Operational
-07,Location (vertical),007031,Height of barometer above mean sea level,(see Note 4),m,1,-4000,17,m,1,5,Operational
-07,Location (vertical),007032,Height of sensor above local ground (or deck of marine platform),(see Note 5),m,2,0,16,m,2,5,Operational
-07,Location (vertical),007033,Height of sensor above water surface,(see Note 6),m,1,0,12,m,1,4,Operational
-07,Location (vertical),007035,Maximum size of z-dimension,,Numeric,0,0,12,Numeric,0,4,Operational
-07,Location (vertical),007036,Level index of z,,Numeric,0,0,12,Numeric,0,4,Operational
-07,Location (vertical),007040,Impact parameter,(see Note 7),m,1,62000000,22,m,1,8,Operational
-07,Location (vertical),007061,Depth below land surface,,m,2,0,14,m,2,5,Operational
-07,Location (vertical),007062,Depth below sea/water surface,,m,1,0,17,m,1,6,Operational
-07,Location (vertical),007063,Depth below sea/water surface (cm),,m,2,0,20,m,2,7,Operational
-07,Location (vertical),007064,Representative height of sensor above station,(see Note 8),m,0,0,4,m,0,2,Operational
-07,Location (vertical),007065,Water pressure,,Pa,-3,0,17,Pa,-3,6,Operational
-07,Location (vertical),007070,Drogue depth,,m,0,0,10,m,0,4,Operational
-07,Location (vertical),007071,Height (high resolution),,m,3,-10000000,26,m,3,8,Operational
-07,Location (vertical),007072,Scan angle,,deg,2,-9000,15,deg,2,6,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
+07,Location (vertical),007001,Height of station,(see Note 1),116,m,0,-400,15,m,0,5,Operational
+07,Location (vertical),007002,Height or altitude,,,m,-1,-40,16,m,-1,5,Operational
+07,Location (vertical),007003,Geopotential,,,m2 s-2,-1,-400,17,m2 s-2,-1,6,Operational
+07,Location (vertical),007004,Pressure,,,Pa,-1,0,14,Pa,-1,5,Operational
+07,Location (vertical),007005,Height increment,,,m,0,-400,12,m,0,4,Operational
+07,Location (vertical),007006,Height above station,,,m,0,0,15,m,0,5,Operational
+07,Location (vertical),007007,Height,,,m,0,-1000,17,m,0,6,Operational
+07,Location (vertical),007008,Geopotential,,,m2 s-2,0,-10000,20,m2 s-2,0,7,Operational
+07,Location (vertical),007009,Geopotential height,,,gpm,0,-1000,17,gpm,0,5,Operational
+07,Location (vertical),007010,Flight level,,,m,0,-1024,16,ft,-1,5,Operational
+07,Location (vertical),007012,Grid point altitude,,,m,2,-50000,20,m,2,7,Operational
+07,Location (vertical),007021,Elevation,(see Note 2),68,deg,2,-9000,15,deg,2,5,Operational
+07,Location (vertical),007022,Solar elevation,,,deg,2,-9000,15,deg,2,5,Operational
+07,Location (vertical),007024,Satellite zenith angle,,,deg,2,-9000,15,deg,2,5,Operational
+07,Location (vertical),007025,Solar zenith angle,,,deg,2,-9000,15,deg,2,5,Operational
+07,Location (vertical),007026,Satellite zenith angle,,,deg,4,-900000,21,deg,4,7,Operational
+07,Location (vertical),007030,Height of station ground above mean sea level,(see Note 3),87,m,1,-4000,17,m,1,5,Operational
+07,Location (vertical),007031,Height of barometer above mean sea level,(see Note 4),84,m,1,-4000,17,m,1,5,Operational
+07,Location (vertical),007032,Height of sensor above local ground (or deck of marine platform),(see Note 5),85,m,2,0,16,m,2,5,Operational
+07,Location (vertical),007033,Height of sensor above water surface,(see Note 6),86,m,1,0,12,m,1,4,Operational
+07,Location (vertical),007035,Maximum size of z-dimension,,,Numeric,0,0,12,Numeric,0,4,Operational
+07,Location (vertical),007036,Level index of z,,,Numeric,0,0,12,Numeric,0,4,Operational
+07,Location (vertical),007040,Impact parameter,(see Note 7),74,m,1,62000000,22,m,1,8,Operational
+07,Location (vertical),007061,Depth below land surface,,,m,2,0,14,m,2,5,Operational
+07,Location (vertical),007062,Depth below sea/water surface,,,m,1,0,17,m,1,6,Operational
+07,Location (vertical),007063,Depth below sea/water surface (cm),,,m,2,0,20,m,2,7,Operational
+07,Location (vertical),007064,Representative height of sensor above station,(see Note 8),117,m,0,0,4,m,0,2,Operational
+07,Location (vertical),007065,Water pressure,,,Pa,-3,0,17,Pa,-3,6,Operational
+07,Location (vertical),007070,Drogue depth,,,m,0,0,10,m,0,4,Operational
+07,Location (vertical),007071,Height (high resolution),,,m,3,-10000000,26,m,3,8,Operational
+07,Location (vertical),007072,Scan angle,,,deg,2,-9000,15,deg,2,6,Operational

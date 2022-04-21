@@ -253,25 +253,21 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>001031</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
-    <Note_en>(See Common Code table C–1 in Part C/c.)</Note_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001033</FXY>
     <ElementName_en>Identification of originating/generating centre</ElementName_en>
-    <Note_en>(See Common Code table C–1 in Part C/c.)</Note_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001034</FXY>
     <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
-    <Note_en>(To be defined by centres themselves - See Common Code table C-12 in Part C/c.)</Note_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001035</FXY>
     <ElementName_en>Originating/generating centre</ElementName_en>
-    <Note_en>(See Common Code table C-11 in Part C/c.)</Note_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -586,13 +582,41 @@
     <FXY>001036</FXY>
     <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
     <CodeFigure>826002</CodeFigure>
-    <EntryName_en>United Kingdom, Southampton Oceanography Centre (SOC)</EntryName_en>
+    <EntryName_en>United Kingdom, National Oceanography Centre (NOC)</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>001036</FXY>
     <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
-    <CodeFigure>826003-840000</CodeFigure>
+    <CodeFigure>826003</CodeFigure>
+    <EntryName_en>United Kingdom, Centre for Environment, Fisheries and Aquaculture (Cefas)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001036</FXY>
+    <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
+    <CodeFigure>826004</CodeFigure>
+    <EntryName_en>United Kingdom, Marine Scotland (MS)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001036</FXY>
+    <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
+    <CodeFigure>826005</CodeFigure>
+    <EntryName_en>United Kingdom, Plymouth Marine Laboratory (PML)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001036</FXY>
+    <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
+    <CodeFigure>826006</CodeFigure>
+    <EntryName_en>United Kingdom, British Antarctic Survey (BAS)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001036</FXY>
+    <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
+    <CodeFigure>826007-840000</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -2420,7 +2444,9 @@
     <FXY>001150</FXY>
     <ElementName_en>Coordinate reference system</ElementName_en>
     <CodeFigure>4</CodeFigure>
-    <EntryName_en>Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS) (see Note 2). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)</EntryName_en>
+    <EntryName_en>Ellipsoidal datum using the International Reference Meridian and the International Reference Pole as the prime meridian and prime pole, respectively, and the origin of the International Terrestrial Reference System (ITRS). The International Reference Meridian, International Reference Pole and ITRS are maintained by the International Earth Rotation and Reference Systems Service (IERS)</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>92</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3261,6 +3287,13 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002020</FXY>
     <ElementName_en>Satellite classification</ElementName_en>
+    <CodeFigure>62</CodeFigure>
+    <EntryName_en>EUMETSAT Polar System (EPS-SG)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002020</FXY>
+    <ElementName_en>Satellite classification</ElementName_en>
     <CodeFigure>91</CodeFigure>
     <EntryName_en>ERS</EntryName_en>
     <Status>Operational</Status>
@@ -3359,8 +3392,22 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002020</FXY>
     <ElementName_en>Satellite classification</ElementName_en>
+    <CodeFigure>334</CodeFigure>
+    <EntryName_en>METEOSAT Third Generation Programme (MTG)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002020</FXY>
+    <ElementName_en>Satellite classification</ElementName_en>
     <CodeFigure>351</CodeFigure>
     <EntryName_en>GOMS</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002020</FXY>
+    <ElementName_en>Satellite classification</ElementName_en>
+    <CodeFigure>352</CodeFigure>
+    <EntryName_en>Meteor-M N2</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3429,7 +3476,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002020</FXY>
     <ElementName_en>Satellite classification</ElementName_en>
-    <CodeFigure>405-510</CodeFigure>
+    <CodeFigure>405</CodeFigure>
+    <EntryName_en>Quasi-Zenith Satellite System (QZSS)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002020</FXY>
+    <ElementName_en>Satellite classification</ElementName_en>
+    <CodeFigure>406-510</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -3522,6 +3576,8 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Clear path</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>28</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3529,6 +3585,8 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>Partly cloudy path</EntryName_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>62</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3536,6 +3594,8 @@
     <ElementName_en>Satellite data-processing technique used</ElementName_en>
     <CodeFigure>5</CodeFigure>
     <EntryName_en>Cloudy path</EntryName_en>
+    <Note_en>(see Note 4)</Note_en>
+    <noteIDs>30</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3784,6 +3844,8 @@
     <ElementName_en>Satellite channel(s) used in computation</ElementName_en>
     <CodeFigure>16</CodeFigure>
     <EntryName_en>HIRS</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3818,6 +3880,8 @@
     <ElementName_en>Satellite channel(s) used in computation</ElementName_en>
     <CodeFigure>21</CodeFigure>
     <EntryName_en>HIRS</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>47</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -3860,6 +3924,8 @@
     <ElementName_en>Method of current measurement</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>ADCP (Acoustic Doppler Current Profiler)</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>91</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -4917,6 +4983,8 @@
     <ElementName_en>Geostationary satellite data-processing technique used</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Clear sounding</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>29</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -4924,6 +4992,8 @@
     <ElementName_en>Geostationary satellite data-processing technique used</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>Cloudy sounding</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>31</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -5697,6 +5767,8 @@
     <ElementName_en>Aircraft roll angle quality</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Bad</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>20</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -7041,6 +7113,8 @@
     <ElementName_en>Light source type for Brewer spectrophotometer</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Direct sun, attenuator #1</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>38</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -7048,6 +7122,8 @@
     <ElementName_en>Light source type for Brewer spectrophotometer</ElementName_en>
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Direct sun, attenuator #2</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>38</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -10443,7 +10519,8 @@
     <ElementName_en>Method of sea/water current measurement</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>ADCP</EntryName_en>
-    <Note_en>, </Note_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>91</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -11325,13 +11402,20 @@
     <FXY>005069</FXY>
     <ElementName_en>Receiver channel</ElementName_en>
     <CodeFigure>2</CodeFigure>
-    <EntryName_en>Reserved</EntryName_en>
+    <EntryName_en>Cross polar</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>005069</FXY>
     <ElementName_en>Receiver channel</ElementName_en>
     <CodeFigure>3</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>005069</FXY>
+    <ElementName_en>Receiver channel</ElementName_en>
+    <CodeFigure>4</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -12676,7 +12760,9 @@
     <FXY>008021</FXY>
     <ElementName_en>Time significance</ElementName_en>
     <CodeFigure>2</CodeFigure>
-    <EntryName_en>Time averaged (see Note 1)</EntryName_en>
+    <EntryName_en>Time averaged</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>4</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -12718,7 +12804,9 @@
     <FXY>008021</FXY>
     <ElementName_en>Time significance</ElementName_en>
     <CodeFigure>8</CodeFigure>
-    <EntryName_en>Ensemble mean (see Note 2)</EntryName_en>
+    <EntryName_en>Ensemble mean</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>3</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -13076,6 +13164,8 @@
     <ElementName_en>Difference statistics</ElementName_en>
     <CodeFigure>14</CodeFigure>
     <EntryName_en>Observed minus forecast value</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>93</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -14336,6 +14426,8 @@
     <ElementName_en>Extended vertical sounding significance</ElementName_en>
     <CodeFigure>16</CodeFigure>
     <EntryName_en>Freezing level</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>41</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -15557,6 +15649,8 @@
     <ElementName_en>Modification of sensor height to another value</ElementName_en>
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Sensor height is modified to standard level</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>48</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -15984,6 +16078,593 @@
     <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <CodeFigure>31</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Average of maximum and minimum values: Tm = (Tx + Tn)/2</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>97</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Average of the 8 tri-hourly observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Average of 24 hourly observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Weighted average of 3 observations: Tm = (aT1 +bT2 + cT3)</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>97</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Weighted average of 3 observations and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn)</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>97</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Automatic weather station complete integration from minute data</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Average of the 4 six-hourly observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>7-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>1A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>1B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>1C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>1D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>2A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>2B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>2C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>2D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>3A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>3B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>3C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>3D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>4A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>4B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>4C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>4D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>5A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>5B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>5C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>5D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>1 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>2 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>3 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>4 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>5 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>31</CodeFigure>
+    <EntryName_en>A (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>32</CodeFigure>
+    <EntryName_en>B (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>33</CodeFigure>
+    <EntryName_en>C (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>34</CodeFigure>
+    <EntryName_en>D (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>35-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008095</FXY>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>1A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>1B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>1C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>1D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>2A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>2B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>2C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>2D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>3A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>3B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>3C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>3D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>4A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>4B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>4C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>4D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>5A (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>5B (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>5C (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>5D (Siting Classification according to ISO/WMO standard 119289:2014(E) and Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>1 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>2 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>3 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>4 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>5 (Siting Classification according to ISO/WMO standard 119289:2014(E), Measurement Quality Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>31</CodeFigure>
+    <EntryName_en>A (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>32</CodeFigure>
+    <EntryName_en>B (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>33</CodeFigure>
+    <EntryName_en>C (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>34</CodeFigure>
+    <EntryName_en>D (Measurement Quality Classification according to the Guide to Instruments and Methods of Observation (WMO-No. 8), 2020 Edition), Siting Classification is missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>35-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008096</FXY>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -17039,6 +17720,8 @@
     <ElementName_en>Surface flag</ElementName_en>
     <CodeFigure>7</CodeFigure>
     <EntryName_en>Inland water</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>56</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -18497,6 +19180,8 @@
     <FXY>020003</FXY>
     <ElementName_en>Present weather</ElementName_en>
     <EntryName_en>00-19     No precipitation, fog, ice fog (except for 11 and 12), duststorm, sandstorm, drifting or blowing snow at the station at the time of observation or, except for 09 and 17, during the preceding hour</EntryName_en>
+    <Note_en>(see Note 4)</Note_en>
+    <noteIDs>77</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -18657,6 +19342,8 @@
     <CodeFigure>19</CodeFigure>
     <EntryName_en>Funnel cloud(s)</EntryName_en>
     <EntryName_sub1_en>at or within sight of the station during the preceding hour or at the time of observation</EntryName_sub1_en>
+    <Note_en>(see Note 5)</Note_en>
+    <noteIDs>89</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -18725,6 +19412,8 @@
     <ElementName_en>Present weather</ElementName_en>
     <CodeFigure>27</CodeFigure>
     <EntryName_en>Shower(s) of hail, or of rain and hail</EntryName_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19270,6 +19959,8 @@
     <CodeFigure>93</CodeFigure>
     <EntryName_en>Slight snow, or rain and snow mixed or hail at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm during the preceding hour but not at time of observation</EntryName_sub1_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19278,6 +19969,8 @@
     <CodeFigure>94</CodeFigure>
     <EntryName_en>Moderate or heavy snow, or rain and snow mixed or hail at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm during the preceding hour but not at time of observation</EntryName_sub1_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19286,6 +19979,8 @@
     <CodeFigure>95</CodeFigure>
     <EntryName_en>Thunderstorm, slight or moderate, without hail, but with rain and/or snow at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm at time of observation</EntryName_sub1_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19294,6 +19989,8 @@
     <CodeFigure>96</CodeFigure>
     <EntryName_en>Thunderstorm, slight or moderate, with hail at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm at time of observation</EntryName_sub1_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19302,6 +19999,8 @@
     <CodeFigure>97</CodeFigure>
     <EntryName_en>Thunderstorm, heavy, without hail, but with rain and/or snow at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm at time of observation</EntryName_sub1_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -19318,6 +20017,8 @@
     <CodeFigure>99</CodeFigure>
     <EntryName_en>Thunderstorm, heavy, with hail at time of observation</EntryName_en>
     <EntryName_sub1_en>Thunderstorm at time of observation</EntryName_sub1_en>
+    <Note_en>(see Note 6)</Note_en>
+    <noteIDs>46</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -20705,7 +21406,9 @@
     <FXY>020004</FXY>
     <ElementName_en>Past weather (1)</ElementName_en>
     <CodeFigure>11</CodeFigure>
-    <EntryName_en>VISIBILITY REDUCED (see Note)</EntryName_en>
+    <EntryName_en>VISIBILITY REDUCED</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -20719,14 +21422,18 @@
     <FXY>020004</FXY>
     <ElementName_en>Past weather (1)</ElementName_en>
     <CodeFigure>13</CodeFigure>
-    <EntryName_en>FOG (see Note)</EntryName_en>
+    <EntryName_en>FOG</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>020004</FXY>
     <ElementName_en>Past weather (1)</ElementName_en>
     <CodeFigure>14</CodeFigure>
-    <EntryName_en>PRECIPITATION (see Note)</EntryName_en>
+    <EntryName_en>PRECIPITATION</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -20859,7 +21566,9 @@
     <FXY>020005</FXY>
     <ElementName_en>Past weather (2)</ElementName_en>
     <CodeFigure>11</CodeFigure>
-    <EntryName_en>VISIBILITY REDUCED (see Note)</EntryName_en>
+    <EntryName_en>VISIBILITY REDUCED</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -20873,14 +21582,18 @@
     <FXY>020005</FXY>
     <ElementName_en>Past weather (2)</ElementName_en>
     <CodeFigure>13</CodeFigure>
-    <EntryName_en>FOG (see Note)</EntryName_en>
+    <EntryName_en>FOG</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
     <FXY>020005</FXY>
     <ElementName_en>Past weather (2)</ElementName_en>
     <CodeFigure>14</CodeFigure>
-    <EntryName_en>PRECIPITATION (see Note)</EntryName_en>
+    <EntryName_en>PRECIPITATION</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>82</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -21290,6 +22003,8 @@
     <ElementName_en>Cloud amount</ElementName_en>
     <CodeFigure>15</CodeFigure>
     <EntryName_en>Cloud cover is indiscernible for reasons other than fog or other meteorological phenomena, or observation is not made</EntryName_en>
+    <Note_en> (see Note 1)</Note_en>
+    <noteIDs>40</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -21514,6 +22229,8 @@
     <ElementName_en>Cloud type</ElementName_en>
     <CodeFigure>31</CodeFigure>
     <EntryName_en>Cumulus humilis or cumulus fractus other than of bad weather, or both</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -21549,6 +22266,8 @@
     <ElementName_en>Cloud type</ElementName_en>
     <CodeFigure>36</CodeFigure>
     <EntryName_en>Stratus nebulosus or stratus fractus other than of bad weather, or both</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -21556,6 +22275,8 @@
     <ElementName_en>Cloud type</ElementName_en>
     <CodeFigure>37</CodeFigure>
     <EntryName_en>Stratus fractus or cumulus fractus of bad weather, or both (pannus), usually below altostratus or nimbostratus</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>1</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -22472,7 +23193,8 @@
     <ElementName_en>Phenomena occurrence</ElementName_en>
     <CodeFigure>7</CodeFigure>
     <EntryName_en>At the station</EntryName_en>
-    <Note_en>(see Note 1)</Note_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>51</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -22480,7 +23202,8 @@
     <ElementName_en>Phenomena occurrence</ElementName_en>
     <CodeFigure>8</CodeFigure>
     <EntryName_en>In the vicinity</EntryName_en>
-    <Note_en>(see Note 2)</Note_en>
+    <Note_en>(see Note 3)</Note_en>
+    <noteIDs>96</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -23408,6 +24131,7 @@
     <CodeFigure>5</CodeFigure>
     <EntryName_en>Tall Cumulus congestus with vertical thickness more than twice the average width; not organized in clusters or lines; one or more layers of clouds extend out from the cloud towers, although no continuous cloud layers exist</EntryName_en>
     <Note_en>(see Note)</Note_en>
+    <noteIDs>55</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -23430,6 +24154,7 @@
     <CodeFigure>8</CodeFigure>
     <EntryName_en>Continuous dense middle clouds and/or Cirrostratus cloud sheets with some large isolated Cumulonimbus or Cumulus congestus clouds penetrating these sheets; light rain occasionally observed from the Altostratus; Cumulonimbus bases ragged and dark with showers visible</EntryName_en>
     <Note_en>(see Note)</Note_en>
+    <noteIDs>55</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24115,6 +24840,8 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>70</CodeFigure>
     <EntryName_en>Visibility has not varied (sun visible) towards direction specified</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24122,6 +24849,8 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>71</CodeFigure>
     <EntryName_en>Visibility has not varied (sun invisible) towards direction specified</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24129,6 +24858,8 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>72</CodeFigure>
     <EntryName_en>Visibility has increased (sun visible) towards direction specified</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24136,6 +24867,8 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>73</CodeFigure>
     <EntryName_en>Visibility has increased (sun invisible) towards direction specified</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24143,6 +24876,8 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>74</CodeFigure>
     <EntryName_en>Visibility has decreased (sun visible) towards direction specified</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -24150,6 +24885,8 @@
     <ElementName_en>Special phenomena</ElementName_en>
     <CodeFigure>75</CodeFigure>
     <EntryName_en>Visibility has decreased (sun invisible) towards direction specified</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>61</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -29840,6 +30577,8 @@
     <ElementName_en>Orbit state flag</ElementName_en>
     <CodeFigure>9</CodeFigure>
     <EntryName_en>DORIS DIODE navigator orbit</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>37</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30396,6 +31135,34 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>L1B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>L2A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <CodeFigure>2-30</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <CodeFigure>31</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>025150</FXY>
     <ElementName_en>Method of tropical cyclone intensity analysis using satellite data</ElementName_en>
     <CodeFigure>1</CodeFigure>
@@ -30638,6 +31405,8 @@
     <ElementName_en>Method for reducing pressure to sea level</ElementName_en>
     <CodeFigure>0</CodeFigure>
     <EntryName_en>Pressure adjusted to mean sea level following WMO-No. 8 for low level (&lt; 50 m) stations</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>44</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -30988,6 +31757,8 @@
     <ElementName_en>Projection type</ElementName_en>
     <CodeFigure>4</CodeFigure>
     <EntryName_en>Scanning Cone (radar)</EntryName_en>
+    <Note_en>(see Note)</Note_en>
+    <noteIDs>65</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -31247,8 +32018,16 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>031021</FXY>
     <ElementName_en>Associated field significance</ElementName_en>
-    <CodeFigure>3-5</CodeFigure>
+    <CodeFigure>3-4</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>031021</FXY>
+    <ElementName_en>Associated field significance</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>8-bit indicator of quality control</EntryName_en>
+    <EntryName_sub1_en>0 = Data checked and declared good; 1 = Data checked and declared suspect; 2 = Data checked and declared aggregated; 3 = Data checked and declared out of instrument range; 4 = Data checked, declared aggregated, and out of instrument range; 5 = Parameter is not measured at the station; 6 = Daily value not provided; 7 = Data unchecked, 8-254 = Reserved; 255 = Missing (QC info not available)</EntryName_sub1_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -31294,6 +32073,7 @@
     <EntryName_en>1-bit indicator of correction</EntryName_en>
     <EntryName_sub1_en>0 = original value, 1 = substituted/corrected value</EntryName_sub1_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>74</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -31314,7 +32094,7 @@
     <FXY>031031</FXY>
     <ElementName_en>Data present indicator</ElementName_en>
     <CodeFigure>1</CodeFigure>
-    <EntryName_sub1_en>0 = Data present, 1 = Data not present</EntryName_sub1_en>
+    <EntryName_en>0 = Data present, 1 = Data not present</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -32498,6 +33278,8 @@
     <ElementName_en>Field of view quality flags for ATOVS</ElementName_en>
     <CodeFigure>2-21</CodeFigure>
     <EntryName_en>Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>26</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34109,6 +34891,7 @@
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Lambda monitored calculation cannot be updated</EntryName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>72</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34117,6 +34900,7 @@
     <CodeFigure>4</CodeFigure>
     <EntryName_en>The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges</EntryName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>83</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34146,6 +34930,7 @@
     <CodeFigure>1</CodeFigure>
     <EntryName_en>Lunar intrusion on first deep space view</EntryName_en>
     <Note_en>(see Note)</Note_en>
+    <noteIDs>71</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34154,6 +34939,7 @@
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Lunar intrusion on second deep space view</EntryName_en>
     <Note_en>(see Note)</Note_en>
+    <noteIDs>71</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34183,6 +34969,7 @@
     <CodeFigure>2</CodeFigure>
     <EntryName_en>Invalid SDR quality</EntryName_en>
     <Note_en>(see Note 1)</Note_en>
+    <noteIDs>68</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34205,6 +34992,7 @@
     <CodeFigure>5</CodeFigure>
     <EntryName_en>Invalid radiometric calibration</EntryName_en>
     <Note_en>(see Note 2)</Note_en>
+    <noteIDs>67</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34220,6 +35008,7 @@
     <CodeFigure>7</CodeFigure>
     <EntryName_en>Invalid spectral calibration</EntryName_en>
     <Note_en>(see Note 3)</Note_en>
+    <noteIDs>73</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34228,6 +35017,7 @@
     <CodeFigure>8</CodeFigure>
     <EntryName_en>Fringe count error detected and corrected</EntryName_en>
     <Note_en>(see Note 4)</Note_en>
+    <noteIDs>70</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34236,6 +35026,7 @@
     <CodeFigure>9</CodeFigure>
     <EntryName_en>Day/night indicator</EntryName_en>
     <Note_en>(see Note 5)</Note_en>
+    <noteIDs>69</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34244,6 +35035,7 @@
     <CodeFigure>10</CodeFigure>
     <EntryName_en>Invalid RDR data</EntryName_en>
     <Note_en>(see Note 6)</Note_en>
+    <noteIDs>87</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34252,6 +35044,7 @@
     <CodeFigure>11</CodeFigure>
     <EntryName_en>Significant fringe count error detected</EntryName_en>
     <Note_en>(see Note 7)</Note_en>
+    <noteIDs>86</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -34685,7 +35478,7 @@
     <FXY>033083</FXY>
     <ElementName_en>Radiance data quality flags</ElementName_en>
     <CodeFigure>7</CodeFigure>
-    <EntryName_en>Poor calibration quality due to bad space view offsets, OBC  view offsets, etc. or use of a previous calibration view</EntryName_en>
+    <EntryName_en>Poor calibration quality due to bad space view offsets, OBC view offsets, etc. or use of a previous calibration view</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
