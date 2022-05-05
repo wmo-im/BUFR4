@@ -22315,7 +22315,7 @@
     <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
+    <ElementDescription_en>Day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22326,7 +22326,7 @@
     <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
-    <ElementDescription_en>beginning time of the period</ElementDescription_en>
+    <ElementDescription_en>Beginning time of the period</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22369,7 +22369,7 @@
     <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
-    <ElementDescription_en>cancel</ElementDescription_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22379,8 +22379,8 @@
     <Title_en>(Supplemental daily temperature and precipitation values with the time of occurrence for monthly climate report)</Title_en>
     <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>004023</FXY2>
-    <ElementName_en>Time period of displacement</ElementName_en>
-    <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
+    <ElementName_en>Time period or displacement</ElementName_en>
+    <ElementDescription_en>Day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22391,7 +22391,7 @@
     <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
-    <ElementDescription_en>beginning time of the period</ElementDescription_en>
+    <ElementDescription_en>Beginning time of the period</ElementDescription_en>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>07</Category>
@@ -22433,7 +22433,7 @@
     <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
-    <ElementDescription_en>cancel</ElementDescription_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22444,7 +22444,7 @@
     <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
+    <ElementDescription_en>Day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22455,7 +22455,7 @@
     <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
-    <ElementDescription_en>beginning time of the period</ElementDescription_en>
+    <ElementDescription_en>Beginning time of the period</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22498,7 +22498,7 @@
     <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
-    <ElementDescription_en>cancel</ElementDescription_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22530,7 +22530,7 @@
     <SubTitle_en>Max, min, mean temperature</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>in day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
+    <ElementDescription_en>Day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22541,7 +22541,7 @@
     <SubTitle_en>Max, min, mean temperature</SubTitle_en>
     <FXY2>301013</FXY2>
     <ElementName_en>Hour, minute, second</ElementName_en>
-    <ElementDescription_en>beginning time of the period</ElementDescription_en>
+    <ElementDescription_en>Beginning time of the period</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22595,7 +22595,7 @@
     <SubTitle_en>Max, min, mean temperature</SubTitle_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
-    <ElementDescription_en>cancel</ElementDescription_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -67567,7 +67567,7 @@
     <FXY1>321031</FXY1>
     <Title_en>(Satellite radar observations)</Title_en>
     <FXY2>106000</FXY2>
-    <ElementName_en>Delayed replication of 6 elements</ElementName_en>
+    <ElementName_en>Delayed replication of 6 descriptors</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
