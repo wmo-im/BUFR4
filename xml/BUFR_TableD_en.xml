@@ -22315,7 +22315,7 @@
     <SubTitle_en>Total accumulated precipitation</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>Day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
+    <ElementDescription_en>= 0 when beginning time of the period is on the same day as reference date, = -1 when beginning time of the period is on the day before reference date</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22380,7 +22380,7 @@
     <SubTitle_en>Depth of fresh snow</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>Day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
+    <ElementDescription_en>= 0 when beginning time of the period is on the same day as reference date, = -1 when beginning time of the period is on the day before reference date</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22444,7 +22444,7 @@
     <SubTitle_en>Total snow depth</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>Day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
+    <ElementDescription_en>= 0 when beginning time of the period is on the same day as reference date, = -1 when beginning time of the period is on the day before reference date</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22509,7 +22509,7 @@
     <SubTitle_en>Max, min, mean temperature</SubTitle_en>
     <FXY2>007032</FXY2>
     <ElementName_en>Height of sensor above local ground</ElementName_en>
-    <ElementDescription_en>for temperature measurement</ElementDescription_en>
+    <ElementDescription_en>For temperature measurement</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -22530,7 +22530,7 @@
     <SubTitle_en>Max, min, mean temperature</SubTitle_en>
     <FXY2>004023</FXY2>
     <ElementName_en>Time period or displacement</ElementName_en>
-    <ElementDescription_en>Day since reference date, 0 (when beginning time of the period is on the same day) or -1 (previous day)</ElementDescription_en>
+    <ElementDescription_en>= 0 when beginning time of the period is on the same day as reference date, = -1 when beginning time of the period is on the day before reference date</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
