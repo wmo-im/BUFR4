@@ -1,138 +1,138 @@
 ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-22,Oceanographic elements,22001,Direction of waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational
-22,Oceanographic elements,22002,Direction of wind waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational
-22,Oceanographic elements,22003,Direction of swell waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational
-22,Oceanographic elements,22004,Direction of current,degree true,0,0,9,degree true,0,3,(see Note 7),54,Operational
-22,Oceanographic elements,22005,Direction of sea-surface current,degree true,0,0,9,degree true,0,3,,,Operational
-22,Oceanographic elements,22011,Period of waves,s,0,0,6,s,0,2,,,Operational
-22,Oceanographic elements,22012,Period of wind waves,s,0,0,6,s,0,2,,,Operational
-22,Oceanographic elements,22013,Period of swell waves,s,0,0,6,s,0,2,,,Operational
-22,Oceanographic elements,22021,Height of waves,m,1,0,10,m,1,4,,,Operational
-22,Oceanographic elements,22022,Height of wind waves,m,1,0,10,m,1,4,,,Operational
-22,Oceanographic elements,22023,Height of swell waves,m,1,0,10,m,1,4,,,Operational
-22,Oceanographic elements,22025,Standard deviation wave height,m,2,0,10,m,2,4,,,Operational
-22,Oceanographic elements,22026,Standard deviation of significant wave height,m,2,0,10,m,2,4,,,Operational
-22,Oceanographic elements,22031,Speed of current,m/s,2,0,13,m/s,2,4,,,Operational
-22,Oceanographic elements,22032,Speed of sea-surface current,m/s,2,0,13,m/s,2,4,,,Operational
-22,Oceanographic elements,22035,Tidal elevation with respect to local chart datum,m,2,0,14,m,2,4,,,Operational
-22,Oceanographic elements,22036,Meteorological residual tidal elevation (surge or offset),m,2,0,14,m,2,4,,,Operational
-22,Oceanographic elements,22037,Tidal elevation with respect to national land datum,m,3,-10000,15,m,3,5,,,Operational
-22,Oceanographic elements,22038,Tidal elevation with respect to local chart datum,m,3,-10000,15,m,3,5,,,Operational
-22,Oceanographic elements,22039,Meteorological residual tidal elevation (surge or offset),m,3,-5000,13,m,3,4,(see Note 4),55,Operational
-22,Oceanographic elements,22040,Meteorological residual tidal elevation (surge or offset),m,3,-5000,14,m,3,5,(see Note 4),55,Operational
-22,Oceanographic elements,22041,Sea-surface temperature (15-day running mean),K,1,0,12,K,1,4,,,Operational
-22,Oceanographic elements,22042,Sea/water temperature,K,1,0,12,K,1,4,,,Operational
-22,Oceanographic elements,22043,Sea/water temperature,K,2,0,15,K,2,5,,,Operational
-22,Oceanographic elements,22044,Sound velocity,m/s,1,0,14,m/s,1,5,,,Operational
-22,Oceanographic elements,22045,Sea/water temperature,K,3,0,19,K,3,6,,,Operational
-22,Oceanographic elements,22046,Sea ice fraction,Numeric,2,0,7,Numeric,2,3,,,Operational
-22,Oceanographic elements,22049,Sea-surface temperature,K,2,0,15,K,2,5,,,Operational
-22,Oceanographic elements,22050,Standard deviation sea-surface temperature,K,2,0,8,K,2,3,,,Operational
-22,Oceanographic elements,22055,Float cycle number,Numeric,0,0,10,Numeric,0,3,,,Operational
-22,Oceanographic elements,22056,Direction of profile,Code table,0,0,2,Code table,0,1,,,Operational
-22,Oceanographic elements,22059,Sea-surface salinity,0/00,2,0,14,0/00,2,5,,,Operational
-22,Oceanographic elements,22060,Lagrangian drifter drogue status,Code table,0,0,3,Code table,0,1,,,Operational
-22,Oceanographic elements,22061,State of the sea,Code table,0,0,4,Code table,0,2,,,Operational
-22,Oceanographic elements,22062,Salinity,0/00,2,0,14,0/00,2,5,,,Operational
-22,Oceanographic elements,22063,Total water depth,m,0,0,14,m,0,5,,,Operational
-22,Oceanographic elements,22064,Salinity,0/00,3,0,17,0/00,3,6,,,Operational
-22,Oceanographic elements,22065,Water pressure,Pa,-3,0,17,Pa,-3,6,,,Operational
-22,Oceanographic elements,22066,Water conductivity,S/m,6,0,26,S/m,6,8,,,Operational
-22,Oceanographic elements,22067,Instrument type for water temperature/salinity profile measurement,Code table,0,0,10,Code table,0,4,,,Operational
-22,Oceanographic elements,22068,Water temperature profile recorder types,Code table,0,0,7,Code table,0,3,,,Operational
-22,Oceanographic elements,22069,Spectral wave density,m2/Hz,3,0,22,m2/Hz,3,7,,,Operational
-22,Oceanographic elements,22070,Significant wave height,m,2,0,13,m,2,4,(see Note 1),146,Operational
-22,Oceanographic elements,22071,Spectral peak wave period,s,1,0,9,s,1,3,,,Operational
-22,Oceanographic elements,22072,Spectral peak wavelength,m,0,0,13,m,0,4,,,Operational
-22,Oceanographic elements,22073,Maximum wave height,m,2,0,13,m,2,4,,,Operational
-22,Oceanographic elements,22074,Average wave period,s,1,0,9,s,1,3,,,Operational
-22,Oceanographic elements,22075,Average wavelength,m,0,0,13,m,0,4,,,Operational
-22,Oceanographic elements,22076,Direction from which dominant waves are coming,degree true,0,0,9,degree true,0,3,(see Note 2),137,Operational
-22,Oceanographic elements,22077,Directional spread of dominant wave,deg,0,0,9,deg,0,3,(see Note 2),137,Operational
-22,Oceanographic elements,22078,Duration of wave record,s,0,0,12,s,0,4,,,Operational
-22,Oceanographic elements,22079,Length of wave record,m,0,0,16,m,0,5,,,Operational
-22,Oceanographic elements,22080,Waveband central frequency,Hz,3,0,10,Hz,3,4,,,Operational
-22,Oceanographic elements,22081,Waveband central wave number,/m,5,0,13,/m,5,4,,,Operational
-22,Oceanographic elements,22082,Maximum non-directional spectral wave density,m2 s,2,0,20,m2 s,2,7,,,Operational
-22,Oceanographic elements,22083,Maximum non-directional spectral wave number,m3,2,0,20,m3,2,7,,,Operational
-22,Oceanographic elements,22084,Band containing maximum non-directional spectral wave density,Numeric,0,0,7,Numeric,0,3,,,Operational
-22,Oceanographic elements,22085,Spectral wave density ratio,Numeric,0,0,7,Numeric,0,3,,,Operational
-22,Oceanographic elements,22086,Mean direction from which waves are coming,degree true,0,0,9,degree true,0,3,(see Note 3),100,Operational
-22,Oceanographic elements,22087,Principal direction from which waves are coming,degree true,0,0,9,degree true,0,3,,,Operational
-22,Oceanographic elements,22088,First normalized polar coordinate from Fourier coefficients,Numeric,2,0,7,Numeric,2,3,,,Operational
-22,Oceanographic elements,22089,Second normalized polar coordinate from Fourier coefficients,Numeric,2,0,7,Numeric,2,3,,,Operational
-22,Oceanographic elements,22090,Non-directional spectral estimate by wave frequency,m2 s,2,0,20,m2 s,2,7,,,Operational
-22,Oceanographic elements,22091,Non-directional spectral estimate by wave number,m3,2,0,20,m3,2,7,,,Operational
-22,Oceanographic elements,22092,Directional spectral estimate by wave frequency,m2 rad-1 s,2,0,20,m2 rad-1 s,2,7,,,Operational
-22,Oceanographic elements,22093,Directional spectral estimate by wave number,m4,2,0,20,m4,2,7,,,Operational
-22,Oceanographic elements,22094,Total number of wave bands,Numeric,0,0,7,Numeric,0,3,,,Operational
-22,Oceanographic elements,22095,Directional spread of individual waves,deg,0,0,8,deg,0,3,,,Operational
-22,Oceanographic elements,22096,Spectral band width,/s,3,0,4,/s,3,2,,,Operational
-22,Oceanographic elements,22097,Mean wavelength > 731 m of image spectrum at low wave numbers,m,0,0,14,m,0,5,(see Note 5),107,Operational
-22,Oceanographic elements,22098,Wavelength spread (wavelength > 731 m) at low wave numbers,m,0,0,14,m,0,5,(see Note 5),107,Operational
-22,Oceanographic elements,22099,Mean direction at low wave numbers (wavelength > 731 m),degree true,0,0,9,degree true,0,3,(see Note 5),107,Operational
-22,Oceanographic elements,22100,Direction spread at low wave numbers (wavelength > 731 m),deg,0,0,9,deg,0,3,(see Note 5),107,Operational
-22,Oceanographic elements,22101,Total energy (wavelength > 731m) at low wave numbers,Numeric,0,0,31,Numeric,0,10,(see Note 5),107,Operational
-22,Oceanographic elements,22102,Scaled maximum non-directional spectral wave density by frequency,m2 s,0,0,14,m2 s,0,5,(see Note 10),104,Operational
-22,Oceanographic elements,22103,Scaled maximum non-directional spectral wave density by wave number,m3,0,0,14,m3,0,5,(see Note 10),104,Operational
-22,Oceanographic elements,22104,Scaled non-directional spectral wave density by frequency,m2 s,0,0,14,m2 s,0,5,(see Note 10),104,Operational
-22,Oceanographic elements,22105,Scaled non-directional spectral wave density by wave number,m3,0,0,14,m3,0,5,(see Note 10),104,Operational
-22,Oceanographic elements,22106,Scaled directional spectral wave density by frequency,m2 s rad-1,0,0,14,m2 s rad-1,0,5,(see Note 10),104,Operational
-22,Oceanographic elements,22107,Scaled directional spectral wave density by wave number,m4,0,0,14,m4,0,5,(see Note 10),104,Operational
-22,Oceanographic elements,22108,Spectral wave density ratio,%,0,0,7,%,0,3,,,Operational
-22,Oceanographic elements,22120,Tide station automated water level check,Code table,0,0,5,Code table,0,2,,,Operational
-22,Oceanographic elements,22121,Tide station manual water level check,Code table,0,0,5,Code table,0,2,,,Operational
-22,Oceanographic elements,22122,Tide station automated meteorological data check,Code table,0,0,5,Code table,0,2,,,Operational
-22,Oceanographic elements,22123,Tide station manual meteorological data check,Code table,0,0,5,Code table,0,2,,,Operational
-22,Oceanographic elements,22130,Number of valid points for specific band,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22131,RMS specific band significant wave height,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22132,Number of valid points for specific band significant wave height,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22133,Specific band net instrument correction for significant wave height,m,3,-1000,11,m,3,4,,,Operational
-22,Oceanographic elements,22134,Number of valid points for specific band backscatter,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22141,Sea-surface temperature (15-day running mean),K,2,0,15,K,2,5,,,Operational
-22,Oceanographic elements,22142,Square of significant wave height,m2,3,-33554432,26,m2,3,8,,,Operational
-22,Oceanographic elements,22143,STD of 20 Hz SWH squared,m2,3,-8388608,24,m2,3,8,,,Operational
-22,Oceanographic elements,22144,Number of 20 Hz valid points for SWH squared,Numeric,0,0,9,Numeric,0,3,,,Operational
-22,Oceanographic elements,22145,STD of 20 Hz ocean range,m,3,-33554432,31,m,3,10,,,Operational
-22,Oceanographic elements,22146,OCOG range,m,3,0,31,m,3,10,,,Operational
-22,Oceanographic elements,22147,STD of 20 Hz OCOG range,m,3,-8388608,31,m,3,10,,,Operational
-22,Oceanographic elements,22148,Number of 20 Hz valid points for ocean range,Numeric,0,0,9,Numeric,0,3,,,Operational
-22,Oceanographic elements,22149,20 Hz significant wave height squared,m2,3,-33554432,26,m2,3,8,,,Operational
-22,Oceanographic elements,22150,Number of 18 Hz valid points for Ku band,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22151,Ku band ocean range,m,3,0,31,m,3,10,,,Operational
-22,Oceanographic elements,22152,STD of 18 Hz Ku band ocean range,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22153,Number of 18 Hz valid points for S band,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22154,S band ocean range,m,3,0,31,m,3,10,,,Operational
-22,Oceanographic elements,22155,STD of 18 Hz S band ocean range,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22156,Ku band significant wave height,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22157,STD of 18 Hz Ku band ocean range,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22158,S band significant wave height,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22159,STD of 18 Hz S band significant wave height,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22160,Normalized inverse wave age,Numeric,6,0,21,Numeric,6,7,,,Operational
-22,Oceanographic elements,22161,Wave spectra,m4,4,0,27,m4,4,9,,,Operational
-22,Oceanographic elements,22162,RMS of 20 Hz Ku band ocean range,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22163,Number of 20 Hz valid points for Ku band,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22164,RMS 20 Hz Ku band significant wave height,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22165,Number of 20 Hz valid points for Ku band significant wave height,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22166,Ku band net instrumental correction for significant wave height,m,3,-1000,11,m,3,4,,,Operational
-22,Oceanographic elements,22167,Number of valid points for Ku band backscatter,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22168,C band ocean range,m,3,0,31,m,3,10,,,Operational
-22,Oceanographic elements,22169,RMS of C band ocean range,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22170,Number of 20 Hz valid points for C band,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22171,C band significant wave height,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22172,RMS 20 Hz C band significant wave height,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22173,Number of 20 Hz valid points for C band significant wave height,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22174,C band net instrumental correction for significant wave height,m,3,-1000,11,m,3,4,,,Operational
-22,Oceanographic elements,22175,Number of valid points for C band backscatter,Numeric,0,0,10,Numeric,0,4,,,Operational
-22,Oceanographic elements,22177,Height of XBT/XCTD launcher,m,0,0,6,m,0,3,,,Operational
-22,Oceanographic elements,22178,XBT/XCTD launcher type,Code table,0,0,8,Code table,0,3,,,Operational
-22,Oceanographic elements,22179,Specific band significant wave height (negative reference),m,3,-500,16,m,3,6,(see Note 13),12,Operational
-22,Oceanographic elements,22182,Water column height,m,3,0,23,m,3,7,(see Note 9),139,Operational
-22,Oceanographic elements,22184,Water column height deviation from the reference value,m,3,-2000,12,m,3,4,,,Operational
-22,Oceanographic elements,22185,BPR transmission count,Numeric,0,0,10,Numeric,0,3,,,Operational
-22,Oceanographic elements,22186,Direction from which waves are coming,degree true,0,0,9,degree true,0,3,(see Note 11),13,Operational
-22,Oceanographic elements,22187,Directional spread of wave,deg,0,0,9,deg,0,3,(see Note 12),14,Operational
-22,Oceanographic elements,22188,Dissolved oxygen,umol/kg,3,0,19,umol/kg,3,6,,,Operational
-22,Oceanographic elements,22189,Specific band ocean range,m,3,0,31,m,3,10,,,Operational
-22,Oceanographic elements,22190,Specific band significant wave height,m,3,0,16,m,3,5,,,Operational
-22,Oceanographic elements,22191,RMS of specific band ocean range,m,4,0,16,m,4,5,,,Operational
+22,Oceanographic elements,022001,Direction of waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational
+22,Oceanographic elements,022002,Direction of wind waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational
+22,Oceanographic elements,022003,Direction of swell waves,degree true,0,0,9,degree true,0,3,(see Note 6),136,Operational
+22,Oceanographic elements,022004,Direction of current,degree true,0,0,9,degree true,0,3,(see Note 7),54,Operational
+22,Oceanographic elements,022005,Direction of sea-surface current,degree true,0,0,9,degree true,0,3,,,Operational
+22,Oceanographic elements,022011,Period of waves,s,0,0,6,s,0,2,,,Operational
+22,Oceanographic elements,022012,Period of wind waves,s,0,0,6,s,0,2,,,Operational
+22,Oceanographic elements,022013,Period of swell waves,s,0,0,6,s,0,2,,,Operational
+22,Oceanographic elements,022021,Height of waves,m,1,0,10,m,1,4,,,Operational
+22,Oceanographic elements,022022,Height of wind waves,m,1,0,10,m,1,4,,,Operational
+22,Oceanographic elements,022023,Height of swell waves,m,1,0,10,m,1,4,,,Operational
+22,Oceanographic elements,022025,Standard deviation wave height,m,2,0,10,m,2,4,,,Operational
+22,Oceanographic elements,022026,Standard deviation of significant wave height,m,2,0,10,m,2,4,,,Operational
+22,Oceanographic elements,022031,Speed of current,m/s,2,0,13,m/s,2,4,,,Operational
+22,Oceanographic elements,022032,Speed of sea-surface current,m/s,2,0,13,m/s,2,4,,,Operational
+22,Oceanographic elements,022035,Tidal elevation with respect to local chart datum,m,2,0,14,m,2,4,,,Operational
+22,Oceanographic elements,022036,Meteorological residual tidal elevation (surge or offset),m,2,0,14,m,2,4,,,Operational
+22,Oceanographic elements,022037,Tidal elevation with respect to national land datum,m,3,-10000,15,m,3,5,,,Operational
+22,Oceanographic elements,022038,Tidal elevation with respect to local chart datum,m,3,-10000,15,m,3,5,,,Operational
+22,Oceanographic elements,022039,Meteorological residual tidal elevation (surge or offset),m,3,-5000,13,m,3,4,(see Note 4),55,Operational
+22,Oceanographic elements,022040,Meteorological residual tidal elevation (surge or offset),m,3,-5000,14,m,3,5,(see Note 4),55,Operational
+22,Oceanographic elements,022041,Sea-surface temperature (15-day running mean),K,1,0,12,K,1,4,,,Operational
+22,Oceanographic elements,022042,Sea/water temperature,K,1,0,12,K,1,4,,,Operational
+22,Oceanographic elements,022043,Sea/water temperature,K,2,0,15,K,2,5,,,Operational
+22,Oceanographic elements,022044,Sound velocity,m/s,1,0,14,m/s,1,5,,,Operational
+22,Oceanographic elements,022045,Sea/water temperature,K,3,0,19,K,3,6,,,Operational
+22,Oceanographic elements,022046,Sea ice fraction,Numeric,2,0,7,Numeric,2,3,,,Operational
+22,Oceanographic elements,022049,Sea-surface temperature,K,2,0,15,K,2,5,,,Operational
+22,Oceanographic elements,022050,Standard deviation sea-surface temperature,K,2,0,8,K,2,3,,,Operational
+22,Oceanographic elements,022055,Float cycle number,Numeric,0,0,10,Numeric,0,3,,,Operational
+22,Oceanographic elements,022056,Direction of profile,Code table,0,0,2,Code table,0,1,,,Operational
+22,Oceanographic elements,022059,Sea-surface salinity,0/00,2,0,14,0/00,2,5,,,Operational
+22,Oceanographic elements,022060,Lagrangian drifter drogue status,Code table,0,0,3,Code table,0,1,,,Operational
+22,Oceanographic elements,022061,State of the sea,Code table,0,0,4,Code table,0,2,,,Operational
+22,Oceanographic elements,022062,Salinity,0/00,2,0,14,0/00,2,5,,,Operational
+22,Oceanographic elements,022063,Total water depth,m,0,0,14,m,0,5,,,Operational
+22,Oceanographic elements,022064,Salinity,0/00,3,0,17,0/00,3,6,,,Operational
+22,Oceanographic elements,022065,Water pressure,Pa,-3,0,17,Pa,-3,6,,,Operational
+22,Oceanographic elements,022066,Water conductivity,S/m,6,0,26,S/m,6,8,,,Operational
+22,Oceanographic elements,022067,Instrument type for water temperature/salinity profile measurement,Code table,0,0,10,Code table,0,4,,,Operational
+22,Oceanographic elements,022068,Water temperature profile recorder types,Code table,0,0,7,Code table,0,3,,,Operational
+22,Oceanographic elements,022069,Spectral wave density,m2/Hz,3,0,22,m2/Hz,3,7,,,Operational
+22,Oceanographic elements,022070,Significant wave height,m,2,0,13,m,2,4,(see Note 1),146,Operational
+22,Oceanographic elements,022071,Spectral peak wave period,s,1,0,9,s,1,3,,,Operational
+22,Oceanographic elements,022072,Spectral peak wavelength,m,0,0,13,m,0,4,,,Operational
+22,Oceanographic elements,022073,Maximum wave height,m,2,0,13,m,2,4,,,Operational
+22,Oceanographic elements,022074,Average wave period,s,1,0,9,s,1,3,,,Operational
+22,Oceanographic elements,022075,Average wavelength,m,0,0,13,m,0,4,,,Operational
+22,Oceanographic elements,022076,Direction from which dominant waves are coming,degree true,0,0,9,degree true,0,3,(see Note 2),137,Operational
+22,Oceanographic elements,022077,Directional spread of dominant wave,deg,0,0,9,deg,0,3,(see Note 2),137,Operational
+22,Oceanographic elements,022078,Duration of wave record,s,0,0,12,s,0,4,,,Operational
+22,Oceanographic elements,022079,Length of wave record,m,0,0,16,m,0,5,,,Operational
+22,Oceanographic elements,022080,Waveband central frequency,Hz,3,0,10,Hz,3,4,,,Operational
+22,Oceanographic elements,022081,Waveband central wave number,/m,5,0,13,/m,5,4,,,Operational
+22,Oceanographic elements,022082,Maximum non-directional spectral wave density,m2 s,2,0,20,m2 s,2,7,,,Operational
+22,Oceanographic elements,022083,Maximum non-directional spectral wave number,m3,2,0,20,m3,2,7,,,Operational
+22,Oceanographic elements,022084,Band containing maximum non-directional spectral wave density,Numeric,0,0,7,Numeric,0,3,,,Operational
+22,Oceanographic elements,022085,Spectral wave density ratio,Numeric,0,0,7,Numeric,0,3,,,Operational
+22,Oceanographic elements,022086,Mean direction from which waves are coming,degree true,0,0,9,degree true,0,3,(see Note 3),100,Operational
+22,Oceanographic elements,022087,Principal direction from which waves are coming,degree true,0,0,9,degree true,0,3,,,Operational
+22,Oceanographic elements,022088,First normalized polar coordinate from Fourier coefficients,Numeric,2,0,7,Numeric,2,3,,,Operational
+22,Oceanographic elements,022089,Second normalized polar coordinate from Fourier coefficients,Numeric,2,0,7,Numeric,2,3,,,Operational
+22,Oceanographic elements,022090,Non-directional spectral estimate by wave frequency,m2 s,2,0,20,m2 s,2,7,,,Operational
+22,Oceanographic elements,022091,Non-directional spectral estimate by wave number,m3,2,0,20,m3,2,7,,,Operational
+22,Oceanographic elements,022092,Directional spectral estimate by wave frequency,m2 rad-1 s,2,0,20,m2 rad-1 s,2,7,,,Operational
+22,Oceanographic elements,022093,Directional spectral estimate by wave number,m4,2,0,20,m4,2,7,,,Operational
+22,Oceanographic elements,022094,Total number of wave bands,Numeric,0,0,7,Numeric,0,3,,,Operational
+22,Oceanographic elements,022095,Directional spread of individual waves,deg,0,0,8,deg,0,3,,,Operational
+22,Oceanographic elements,022096,Spectral band width,/s,3,0,4,/s,3,2,,,Operational
+22,Oceanographic elements,022097,Mean wavelength > 731 m of image spectrum at low wave numbers,m,0,0,14,m,0,5,(see Note 5),107,Operational
+22,Oceanographic elements,022098,Wavelength spread (wavelength > 731 m) at low wave numbers,m,0,0,14,m,0,5,(see Note 5),107,Operational
+22,Oceanographic elements,022099,Mean direction at low wave numbers (wavelength > 731 m),degree true,0,0,9,degree true,0,3,(see Note 5),107,Operational
+22,Oceanographic elements,022100,Direction spread at low wave numbers (wavelength > 731 m),deg,0,0,9,deg,0,3,(see Note 5),107,Operational
+22,Oceanographic elements,022101,Total energy (wavelength > 731m) at low wave numbers,Numeric,0,0,31,Numeric,0,10,(see Note 5),107,Operational
+22,Oceanographic elements,022102,Scaled maximum non-directional spectral wave density by frequency,m2 s,0,0,14,m2 s,0,5,(see Note 10),104,Operational
+22,Oceanographic elements,022103,Scaled maximum non-directional spectral wave density by wave number,m3,0,0,14,m3,0,5,(see Note 10),104,Operational
+22,Oceanographic elements,022104,Scaled non-directional spectral wave density by frequency,m2 s,0,0,14,m2 s,0,5,(see Note 10),104,Operational
+22,Oceanographic elements,022105,Scaled non-directional spectral wave density by wave number,m3,0,0,14,m3,0,5,(see Note 10),104,Operational
+22,Oceanographic elements,022106,Scaled directional spectral wave density by frequency,m2 s rad-1,0,0,14,m2 s rad-1,0,5,(see Note 10),104,Operational
+22,Oceanographic elements,022107,Scaled directional spectral wave density by wave number,m4,0,0,14,m4,0,5,(see Note 10),104,Operational
+22,Oceanographic elements,022108,Spectral wave density ratio,%,0,0,7,%,0,3,,,Operational
+22,Oceanographic elements,022120,Tide station automated water level check,Code table,0,0,5,Code table,0,2,,,Operational
+22,Oceanographic elements,022121,Tide station manual water level check,Code table,0,0,5,Code table,0,2,,,Operational
+22,Oceanographic elements,022122,Tide station automated meteorological data check,Code table,0,0,5,Code table,0,2,,,Operational
+22,Oceanographic elements,022123,Tide station manual meteorological data check,Code table,0,0,5,Code table,0,2,,,Operational
+22,Oceanographic elements,022130,Number of valid points for specific band,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022131,RMS specific band significant wave height,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022132,Number of valid points for specific band significant wave height,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022133,Specific band net instrument correction for significant wave height,m,3,-1000,11,m,3,4,,,Operational
+22,Oceanographic elements,022134,Number of valid points for specific band backscatter,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022141,Sea-surface temperature (15-day running mean),K,2,0,15,K,2,5,,,Operational
+22,Oceanographic elements,022142,Square of significant wave height,m2,3,-33554432,26,m2,3,8,,,Operational
+22,Oceanographic elements,022143,STD of 20 Hz SWH squared,m2,3,-8388608,24,m2,3,8,,,Operational
+22,Oceanographic elements,022144,Number of 20 Hz valid points for SWH squared,Numeric,0,0,9,Numeric,0,3,,,Operational
+22,Oceanographic elements,022145,STD of 20 Hz ocean range,m,3,-33554432,31,m,3,10,,,Operational
+22,Oceanographic elements,022146,OCOG range,m,3,0,31,m,3,10,,,Operational
+22,Oceanographic elements,022147,STD of 20 Hz OCOG range,m,3,-8388608,31,m,3,10,,,Operational
+22,Oceanographic elements,022148,Number of 20 Hz valid points for ocean range,Numeric,0,0,9,Numeric,0,3,,,Operational
+22,Oceanographic elements,022149,20 Hz significant wave height squared,m2,3,-33554432,26,m2,3,8,,,Operational
+22,Oceanographic elements,022150,Number of 18 Hz valid points for Ku band,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022151,Ku band ocean range,m,3,0,31,m,3,10,,,Operational
+22,Oceanographic elements,022152,STD of 18 Hz Ku band ocean range,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022153,Number of 18 Hz valid points for S band,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022154,S band ocean range,m,3,0,31,m,3,10,,,Operational
+22,Oceanographic elements,022155,STD of 18 Hz S band ocean range,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022156,Ku band significant wave height,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022157,STD of 18 Hz Ku band ocean range,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022158,S band significant wave height,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022159,STD of 18 Hz S band significant wave height,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022160,Normalized inverse wave age,Numeric,6,0,21,Numeric,6,7,,,Operational
+22,Oceanographic elements,022161,Wave spectra,m4,4,0,27,m4,4,9,,,Operational
+22,Oceanographic elements,022162,RMS of 20 Hz Ku band ocean range,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022163,Number of 20 Hz valid points for Ku band,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022164,RMS 20 Hz Ku band significant wave height,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022165,Number of 20 Hz valid points for Ku band significant wave height,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022166,Ku band net instrumental correction for significant wave height,m,3,-1000,11,m,3,4,,,Operational
+22,Oceanographic elements,022167,Number of valid points for Ku band backscatter,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022168,C band ocean range,m,3,0,31,m,3,10,,,Operational
+22,Oceanographic elements,022169,RMS of C band ocean range,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022170,Number of 20 Hz valid points for C band,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022171,C band significant wave height,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022172,RMS 20 Hz C band significant wave height,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022173,Number of 20 Hz valid points for C band significant wave height,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022174,C band net instrumental correction for significant wave height,m,3,-1000,11,m,3,4,,,Operational
+22,Oceanographic elements,022175,Number of valid points for C band backscatter,Numeric,0,0,10,Numeric,0,4,,,Operational
+22,Oceanographic elements,022177,Height of XBT/XCTD launcher,m,0,0,6,m,0,3,,,Operational
+22,Oceanographic elements,022178,XBT/XCTD launcher type,Code table,0,0,8,Code table,0,3,,,Operational
+22,Oceanographic elements,022179,Specific band significant wave height (negative reference),m,3,-500,16,m,3,6,(see Note 13),12,Operational
+22,Oceanographic elements,022182,Water column height,m,3,0,23,m,3,7,(see Note 9),139,Operational
+22,Oceanographic elements,022184,Water column height deviation from the reference value,m,3,-2000,12,m,3,4,,,Operational
+22,Oceanographic elements,022185,BPR transmission count,Numeric,0,0,10,Numeric,0,3,,,Operational
+22,Oceanographic elements,022186,Direction from which waves are coming,degree true,0,0,9,degree true,0,3,(see Note 11),13,Operational
+22,Oceanographic elements,022187,Directional spread of wave,deg,0,0,9,deg,0,3,(see Note 12),14,Operational
+22,Oceanographic elements,022188,Dissolved oxygen,umol/kg,3,0,19,umol/kg,3,6,,,Operational
+22,Oceanographic elements,022189,Specific band ocean range,m,3,0,31,m,3,10,,,Operational
+22,Oceanographic elements,022190,Specific band significant wave height,m,3,0,16,m,3,5,,,Operational
+22,Oceanographic elements,022191,RMS of specific band ocean range,m,4,0,16,m,4,5,,,Operational

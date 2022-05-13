@@ -1,32 +1,32 @@
 ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-19,Synoptic features,19001,Type of synoptic feature,Code table,0,0,6,Code table,0,2,,,Operational
-19,Synoptic features,19002,Effective radius of feature,m,-2,0,12,m,-2,4,(see Note 1),138,Operational
-19,Synoptic features,19003,Wind speed threshold,m/s,0,0,8,m/s,0,3,(see Note 2),99,Operational
-19,Synoptic features,19004,Effective radius with respect to wind speeds above threshold,m,-2,0,12,m,-2,4,(see Note 2),99,Operational
-19,Synoptic features,19005,Direction of motion of feature,degree true,0,0,9,degree true,0,3,(see Note 3),73,Operational
-19,Synoptic features,19006,Speed of motion of feature,m/s,2,0,14,m/s,2,5,(see Note 3),73,Operational
-19,Synoptic features,19007,Effective radius of feature,m,-3,0,12,m,-3,4,,,Operational
-19,Synoptic features,19008,Vertical extent of circulation,Code table,0,0,3,Code table,0,1,,,Operational
-19,Synoptic features,19009,Effective radius with respect to wind speeds above threshold (large storms),m,-3,0,12,m,-3,4,,,Operational
-19,Synoptic features,19010,Method for tracking the centre of synoptic feature,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19100,Time interval to calculate the movement of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19101,Accuracy of the position of the centre of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19102,Shape and definition of the eye of the tropical cyclone,Code table,0,0,3,Code table,0,1,,,Operational
-19,Synoptic features,19103,Diameter of major axis of the eye of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19104,Change in character of the eye during the 30 minutes,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19105,Distance between the end of spiral band and the centre,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19106,Identification number of tropical cyclone,Numeric,0,0,7,Numeric,0,3,,,Operational
-19,Synoptic features,19107,Time interval over which the movement of the tropical cyclone has been calculated,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19108,Accuracy of geographical position of the tropical cyclone,Code table,0,0,3,Code table,0,1,,,Operational
-19,Synoptic features,19109,Mean diameter of the overcast cloud of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19110,Apparent 24-hour change in intensity of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19111,Current Intensity (CI) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
-19,Synoptic features,19112,Data Tropical (DT) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
-19,Synoptic features,19113,Cloud pattern type of the DT-number,Code table,0,0,4,Code table,0,2,,,Operational
-19,Synoptic features,19114,Model Expected Tropical (MET) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
-19,Synoptic features,19115,"Trend of the past 24-hour change (+: Developed, -: Weakened)",Numeric,1,-30,6,Numeric,1,2,,,Operational
-19,Synoptic features,19116,Pattern Tropical (PT) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
-19,Synoptic features,19117,Cloud picture type of the PT-number,Code table,0,0,3,Code table,0,1,,,Operational
-19,Synoptic features,19118,Final Tropical (T) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
-19,Synoptic features,19119,Type of the final T-number,Code table,0,0,3,Code table,0,1,,,Operational
-19,Synoptic features,19150,Typhoon International Common Number (Typhoon Committee),CCITT IA5,0,0,32,Character,0,4,,,Operational
+19,Synoptic features,019001,Type of synoptic feature,Code table,0,0,6,Code table,0,2,,,Operational
+19,Synoptic features,019002,Effective radius of feature,m,-2,0,12,m,-2,4,(see Note 1),138,Operational
+19,Synoptic features,019003,Wind speed threshold,m/s,0,0,8,m/s,0,3,(see Note 2),99,Operational
+19,Synoptic features,019004,Effective radius with respect to wind speeds above threshold,m,-2,0,12,m,-2,4,(see Note 2),99,Operational
+19,Synoptic features,019005,Direction of motion of feature,degree true,0,0,9,degree true,0,3,(see Note 3),73,Operational
+19,Synoptic features,019006,Speed of motion of feature,m/s,2,0,14,m/s,2,5,(see Note 3),73,Operational
+19,Synoptic features,019007,Effective radius of feature,m,-3,0,12,m,-3,4,,,Operational
+19,Synoptic features,019008,Vertical extent of circulation,Code table,0,0,3,Code table,0,1,,,Operational
+19,Synoptic features,019009,Effective radius with respect to wind speeds above threshold (large storms),m,-3,0,12,m,-3,4,,,Operational
+19,Synoptic features,019010,Method for tracking the centre of synoptic feature,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019100,Time interval to calculate the movement of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019101,Accuracy of the position of the centre of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019102,Shape and definition of the eye of the tropical cyclone,Code table,0,0,3,Code table,0,1,,,Operational
+19,Synoptic features,019103,Diameter of major axis of the eye of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019104,Change in character of the eye during the 30 minutes,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019105,Distance between the end of spiral band and the centre,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019106,Identification number of tropical cyclone,Numeric,0,0,7,Numeric,0,3,,,Operational
+19,Synoptic features,019107,Time interval over which the movement of the tropical cyclone has been calculated,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019108,Accuracy of geographical position of the tropical cyclone,Code table,0,0,3,Code table,0,1,,,Operational
+19,Synoptic features,019109,Mean diameter of the overcast cloud of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019110,Apparent 24-hour change in intensity of the tropical cyclone,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019111,Current Intensity (CI) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
+19,Synoptic features,019112,Data Tropical (DT) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
+19,Synoptic features,019113,Cloud pattern type of the DT-number,Code table,0,0,4,Code table,0,2,,,Operational
+19,Synoptic features,019114,Model Expected Tropical (MET) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
+19,Synoptic features,019115,"Trend of the past 24-hour change (+: Developed, -: Weakened)",Numeric,1,-30,6,Numeric,1,2,,,Operational
+19,Synoptic features,019116,Pattern Tropical (PT) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
+19,Synoptic features,019117,Cloud picture type of the PT-number,Code table,0,0,3,Code table,0,1,,,Operational
+19,Synoptic features,019118,Final Tropical (T) number of the tropical cyclone,Numeric,1,0,7,Numeric,1,3,,,Operational
+19,Synoptic features,019119,Type of the final T-number,Code table,0,0,3,Code table,0,1,,,Operational
+19,Synoptic features,019150,Typhoon International Common Number (Typhoon Committee),CCITT IA5,0,0,32,Character,0,4,,,Operational
