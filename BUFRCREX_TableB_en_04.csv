@@ -1,36 +1,36 @@
 ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-4,Location (time),004001,Year,a,0,0,12,a,0,4,,,Operational
-4,Location (time),004002,Month,mon,0,0,4,mon,0,2,,,Operational
-4,Location (time),004003,Day,d,0,0,6,d,0,2,,,Operational
-4,Location (time),004004,Hour,h,0,0,5,h,0,2,,,Operational
-4,Location (time),004005,Minute,min,0,0,6,min,0,2,,,Operational
-4,Location (time),004006,Second,s,0,0,6,s,0,2,,,Operational
-4,Location (time),004007,Seconds within a minute (microsecond accuracy),s,6,0,26,s,6,8,,,Operational
-4,Location (time),004011,Time increment,a,0,-1024,11,a,0,4,,,Operational
-4,Location (time),004012,Time increment,mon,0,-1024,11,mon,0,4,,,Operational
-4,Location (time),004013,Time increment,d,0,-1024,11,d,0,4,,,Operational
-4,Location (time),004014,Time increment,h,0,-1024,11,h,0,4,,,Operational
-4,Location (time),004015,Time increment,min,0,-2048,12,min,0,4,,,Operational
-4,Location (time),004016,Time increment,s,0,-4096,13,s,0,4,,,Operational
-4,Location (time),004017,Reference time period for accumulated or extreme data,min,0,-1440,12,min,0,4,,,Operational
-4,Location (time),004021,Time period or displacement,a,0,-1024,11,a,0,4,,,Operational
-4,Location (time),004022,Time period or displacement,mon,0,-1024,11,mon,0,4,,,Operational
-4,Location (time),004023,Time period or displacement,d,0,-1024,11,d,0,4,,,Operational
-4,Location (time),004024,Time period or displacement,h,0,-2048,12,h,0,4,,,Operational
-4,Location (time),004025,Time period or displacement,min,0,-2048,12,min,0,4,,,Operational
-4,Location (time),004026,Time period or displacement,s,0,-4096,13,s,0,4,,,Operational
-4,Location (time),004031,Duration of time relating to following value,h,0,0,8,h,0,3,,,Operational
-4,Location (time),004032,Duration of time relating to following value,min,0,0,6,min,0,2,,,Operational
-4,Location (time),004041,"Time difference, UTC - LMT",min,0,-1440,12,min,0,4,(see Note 6),48,Operational
-4,Location (time),004043,Day of the year,d,0,0,9,d,0,3,,,Operational
-4,Location (time),004051,Principal time of daily reading of maximum temperature,h,0,0,5,h,0,2,,,Operational
-4,Location (time),004052,Principal time of daily reading of minimum temperature,h,0,0,5,h,0,2,,,Operational
-4,Location (time),004053,Number of days with precipitation equal to or more than 1 mm,Numeric,0,0,6,Numeric,0,2,,,Operational
-4,Location (time),004059,Times of observation used to compute the reported mean values,Flag table,0,0,6,Flag table,0,2,,,Operational
-4,Location (time),004065,Short time increment,min,0,-128,8,min,0,2,,,Operational
-4,Location (time),004066,Short time increment,s,0,-128,8,s,0,2,,,Operational
-4,Location (time),004073,Short time period or displacement,d,0,-128,8,d,0,2,,,Operational
-4,Location (time),004074,Short time period or displacement,h,0,-128,8,h,0,2,,,Operational
-4,Location (time),004075,Short time period or displacement,min,0,-128,8,min,0,2,,,Operational
-4,Location (time),004080,Averaging period for following value,Code table,0,0,4,Code table,0,2,,,Operational
-4,Location (time),004086,Long time period or displacement,s,0,-8192,15,s,0,5,,,Operational
+04,Location (time),004001,Year,a,0,0,12,a,0,4,,,Operational
+04,Location (time),004002,Month,mon,0,0,4,mon,0,2,,,Operational
+04,Location (time),004003,Day,d,0,0,6,d,0,2,,,Operational
+04,Location (time),004004,Hour,h,0,0,5,h,0,2,,,Operational
+04,Location (time),004005,Minute,min,0,0,6,min,0,2,,,Operational
+04,Location (time),004006,Second,s,0,0,6,s,0,2,,,Operational
+04,Location (time),004007,Seconds within a minute (microsecond accuracy),s,6,0,26,s,6,8,,,Operational
+04,Location (time),004011,Time increment,a,0,-1024,11,a,0,4,,,Operational
+04,Location (time),004012,Time increment,mon,0,-1024,11,mon,0,4,,,Operational
+04,Location (time),004013,Time increment,d,0,-1024,11,d,0,4,,,Operational
+04,Location (time),004014,Time increment,h,0,-1024,11,h,0,4,,,Operational
+04,Location (time),004015,Time increment,min,0,-2048,12,min,0,4,,,Operational
+04,Location (time),004016,Time increment,s,0,-4096,13,s,0,4,,,Operational
+04,Location (time),004017,Reference time period for accumulated or extreme data,min,0,-1440,12,min,0,4,,,Operational
+04,Location (time),004021,Time period or displacement,a,0,-1024,11,a,0,4,,,Operational
+04,Location (time),004022,Time period or displacement,mon,0,-1024,11,mon,0,4,,,Operational
+04,Location (time),004023,Time period or displacement,d,0,-1024,11,d,0,4,,,Operational
+04,Location (time),004024,Time period or displacement,h,0,-2048,12,h,0,4,,,Operational
+04,Location (time),004025,Time period or displacement,min,0,-2048,12,min,0,4,,,Operational
+04,Location (time),004026,Time period or displacement,s,0,-4096,13,s,0,4,,,Operational
+04,Location (time),004031,Duration of time relating to following value,h,0,0,8,h,0,3,,,Operational
+04,Location (time),004032,Duration of time relating to following value,min,0,0,6,min,0,2,,,Operational
+04,Location (time),004041,"Time difference, UTC - LMT",min,0,-1440,12,min,0,4,(see Note 6),48,Operational
+04,Location (time),004043,Day of the year,d,0,0,9,d,0,3,,,Operational
+04,Location (time),004051,Principal time of daily reading of maximum temperature,h,0,0,5,h,0,2,,,Operational
+04,Location (time),004052,Principal time of daily reading of minimum temperature,h,0,0,5,h,0,2,,,Operational
+04,Location (time),004053,Number of days with precipitation equal to or more than 1 mm,Numeric,0,0,6,Numeric,0,2,,,Operational
+04,Location (time),004059,Times of observation used to compute the reported mean values,Flag table,0,0,6,Flag table,0,2,,,Operational
+04,Location (time),004065,Short time increment,min,0,-128,8,min,0,2,,,Operational
+04,Location (time),004066,Short time increment,s,0,-128,8,s,0,2,,,Operational
+04,Location (time),004073,Short time period or displacement,d,0,-128,8,d,0,2,,,Operational
+04,Location (time),004074,Short time period or displacement,h,0,-128,8,h,0,2,,,Operational
+04,Location (time),004075,Short time period or displacement,min,0,-128,8,min,0,2,,,Operational
+04,Location (time),004080,Averaging period for following value,Code table,0,0,4,Code table,0,2,,,Operational
+04,Location (time),004086,Long time period or displacement,s,0,-8192,15,s,0,5,,,Operational
