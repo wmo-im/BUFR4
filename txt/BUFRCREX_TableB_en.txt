@@ -1,511 +1,511 @@
 ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-0,BUFR/CREX table entries,000001,Table A: entry,CCITT IA5,0,0,24,Character,0,3,,,Operational
-0,BUFR/CREX table entries,000002,"Table A: data category description, line 1",CCITT IA5,0,0,256,Character,0,32,,,Operational
-0,BUFR/CREX table entries,000003,"Table A: data category description, line 2",CCITT IA5,0,0,256,Character,0,32,,,Operational
-0,BUFR/CREX table entries,000004,BUFR/CREX Master table,CCITT IA5,0,0,16,Character,0,2,(see Note 1),98,Operational
-0,BUFR/CREX table entries,000005,BUFR/CREX edition number,CCITT IA5,0,0,24,Character,0,3,,,Operational
-0,BUFR/CREX table entries,000006,BUFR Master table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 2),33,Operational
-0,BUFR/CREX table entries,000007,CREX Master table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 3),40,Operational
-0,BUFR/CREX table entries,000008,BUFR Local table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 4),76,Operational
-0,BUFR/CREX table entries,000010,F descriptor to be added or defined,CCITT IA5,0,0,8,Character,0,1,,,Operational
-0,BUFR/CREX table entries,000011,X descriptor to be added or defined,CCITT IA5,0,0,16,Character,0,2,,,Operational
-0,BUFR/CREX table entries,000012,Y descriptor to be added or defined,CCITT IA5,0,0,24,Character,0,3,,,Operational
-0,BUFR/CREX table entries,000013,"Element name, line 1",CCITT IA5,0,0,256,Character,0,32,,,Operational
-0,BUFR/CREX table entries,000014,"Element name, line 2",CCITT IA5,0,0,256,Character,0,32,,,Operational
-0,BUFR/CREX table entries,000015,Units name,CCITT IA5,0,0,192,Character,0,24,,,Operational
-0,BUFR/CREX table entries,000016,Units scale sign,CCITT IA5,0,0,8,Character,0,1,,,Operational
-0,BUFR/CREX table entries,000017,Units scale,CCITT IA5,0,0,24,Character,0,3,,,Operational
-0,BUFR/CREX table entries,000018,Units reference sign,CCITT IA5,0,0,8,Character,0,1,,,Operational
-0,BUFR/CREX table entries,000019,Units reference value,CCITT IA5,0,0,80,Character,0,10,,,Operational
-0,BUFR/CREX table entries,000020,Element data width,CCITT IA5,0,0,24,Character,0,3,,,Operational
-0,BUFR/CREX table entries,000024,Code figure,CCITT IA5,0,0,64,Character,0,8,,,Operational
-0,BUFR/CREX table entries,000025,Code figure meaning,CCITT IA5,0,0,496,Character,0,62,,,Operational
-0,BUFR/CREX table entries,000026,Bit number,CCITT IA5,0,0,48,Character,0,6,,,Operational
-0,BUFR/CREX table entries,000027,Bit number meaning,CCITT IA5,0,0,496,Character,0,62,,,Operational
-0,BUFR/CREX table entries,000030,Descriptor defining sequence,CCITT IA5,0,0,48,Character,0,6,,,Operational
-1,Identification,001001,WMO block number,Numeric,0,0,7,Numeric,0,2,,,Operational
-1,Identification,001002,WMO station number,Numeric,0,0,10,Numeric,0,3,,,Operational
-1,Identification,001003,WMO Region number/geographical area,Code table,0,0,3,Code table,0,1,,,Operational
-1,Identification,001004,WMO Region sub-area,Numeric,0,0,3,Numeric,0,1,(see Note 9),42,Operational
-1,Identification,001005,Buoy/platform identifier,Numeric,0,0,17,Numeric,0,5,,,Operational
-1,Identification,001006,Aircraft flight number,CCITT IA5,0,0,64,Character,0,8,,,Operational
-1,Identification,001007,Satellite identifier,Code table,0,0,10,Code table,0,4,,,Operational
-1,Identification,001008,Aircraft registration number or other identification,CCITT IA5,0,0,64,Character,0,8,,,Operational
-1,Identification,001009,Type of commercial aircraft,CCITT IA5,0,0,64,Character,0,8,,,Operational
-1,Identification,001010,Stationary buoy platform identifier; e.g. C-MAN buoys,CCITT IA5,0,0,64,Character,0,8,,,Operational
-1,Identification,001011,Ship or mobile land station identifier,CCITT IA5,0,0,72,Character,0,9,,,Operational
-1,Identification,001012,Direction of motion of moving observing platform,degree true,0,0,9,degree true,0,3,(see Notes 14 and 15),"125,60",Operational
-1,Identification,001013,Speed of motion of moving observing platform,m/s,0,0,10,m/s,0,3,(see Notes 14 and 15),"60,125",Operational
-1,Identification,001014,Platform drift speed (high precision),m/s,2,0,10,m/s,2,4,,,Operational
-1,Identification,001015,Station or site name,CCITT IA5,0,0,160,Character,0,20,,,Operational
-1,Identification,001018,Short station or site name,CCITT IA5,0,0,40,Character,0,5,,,Operational
-1,Identification,001019,Long station or site name,CCITT IA5,0,0,256,Character,0,32,,,Operational
-1,Identification,001020,WMO Region sub-area,Numeric,0,0,4,Numeric,0,2,,,Operational
-1,Identification,001021,Synoptic feature identifier,Numeric,0,0,14,Numeric,0,4,,,Operational
-1,Identification,001022,Name of feature,CCITT IA5,0,0,224,Character,0,28,(see Note 11),72,Operational
-1,Identification,001023,Observation sequence number,Numeric,0,0,9,Numeric,0,3,,,Operational
-1,Identification,001024,Wind speed source,Code table,0,0,5,Code table,0,2,,,Operational
-1,Identification,001025,Storm identifier,CCITT IA5,0,0,24,Character,0,3,(see Note 1),148,Operational
-1,Identification,001026,WMO storm name,CCITT IA5,0,0,64,Character,0,8,(see Note 16),43,Operational
-1,Identification,001027,WMO long storm name,CCITT IA5,0,0,80,Character,0,10,(see Note 2),182,Operational
-1,Identification,001028,Aerosol optical depth (AOD) source,Code table,0,0,5,Code table,0,2,,,Operational
-1,Identification,001029,SSI source,Code table,0,0,5,Code table,0,2,,,Operational
-1,Identification,001030,Numerical model identifier,CCITT IA5,0,0,128,Character,0,16,(see Note 13),153,Operational
-1,Identification,001031,Identification of originating/generating centre,Code table,0,0,16,Code table,0,5,(see Note 10),44,Operational
-1,Identification,001032,Generating application,Code table defined by originating/generating centre,0,0,8,Code table,0,3,"(Notes 3, 4 and 5)","175,21,38",Operational
-1,Identification,001033,Identification of originating/generating centre,Common Code table C-1,0,0,8,Common Code table C-1,0,3,,,Operational
-1,Identification,001034,Identification of originating/generating sub-centre,Common Code table C-12,0,0,8,Common Code table C-12,0,3,,,Operational
-1,Identification,001035,Originating centre,Common Code table C-11,0,0,16,Common Code table C-11,0,5,,,Operational
-1,Identification,001036,Agency in charge of operating the observing platform,Code table,0,0,20,Code table,0,7,,,Operational
-1,Identification,001037,SIGMET sequence identifier,CCITT IA5,0,0,24,Character,0,3,,,Operational
-1,Identification,001038,Source of sea ice fraction,Code table,0,0,5,Code table,0,2,,,Operational
-1,Identification,001039,Graphical Area Forecast (GFA) sequence identifier,CCITT IA5,0,0,40,Character,0,5,,,Operational
-1,Identification,001040,Processing centre ID code,CCITT IA5,0,0,48,Character,0,6,,,Operational
-1,Identification,001041,Absolute platform velocity - first component,m/s,5,-1073741824,31,m/s,5,10,"(see Notes 6, 7 and 8)","134,154,95",Operational
-1,Identification,001042,Absolute platform velocity - second component,m/s,5,-1073741824,31,m/s,5,10,"(see Notes 6, 7 and 8)","134,154,95",Operational
-1,Identification,001043,Absolute platform velocity - third component,m/s,5,-1073741824,31,m/s,5,10,"(see Notes 6, 7 and 8)","134,154,95",Operational
-1,Identification,001044,Standard generating application,Code table,0,0,8,Code table,0,3,,,Operational
-1,Identification,001050,Platform transmitter ID number,Numeric,0,0,17,Numeric,0,6,,,Operational
-1,Identification,001051,Platform transmitter ID number,CCITT IA5,0,0,96,Character,0,12,,,Operational
-1,Identification,001052,Platform transmitter ID,Code table,0,0,3,Code table,0,1,,,Operational
-1,Identification,001053,Tsunameter report sequence number triggered by a tsunami event,Numeric,0,0,7,Numeric,0,2,,,Operational
-1,Identification,001060,Aircraft reporting point (Beacon identifier),CCITT IA5,0,0,64,Character,0,8,,,Operational
-1,Identification,001062,Short ICAO location indicator,CCITT IA5,0,0,32,Character,0,4,,,Operational
-1,Identification,001063,ICAO location indicator,CCITT IA5,0,0,64,Character,0,8,,,Operational
-1,Identification,001064,Runway designator,CCITT IA5,0,0,32,Character,0,4,,,Operational
-1,Identification,001065,ICAO region identifier,CCITT IA5,0,0,256,Character,0,32,,,Operational
-1,Identification,001075,Tide station identification,CCITT IA5,0,0,40,Character,0,5,,,Operational
-1,Identification,001079,Unique identifier for the profile,CCITT IA5,0,0,64,Character,0,8,,,Operational
-1,Identification,001080,Ship line number according to SOOP,CCITT IA5,0,0,32,Character,0,4,,,Operational
-1,Identification,001081,Radiosonde serial number,CCITT IA5,0,0,160,Character,0,20,,,Operational
-1,Identification,001082,Radiosonde ascension number,Numeric,0,0,14,Numeric,0,4,(see Note 12),45,Operational
-1,Identification,001083,Radiosonde release number,Numeric,0,0,3,Numeric,0,1,(see Note 12),45,Operational
-1,Identification,001085,Observing platform manufacturer's model,CCITT IA5,0,0,160,Character,0,20,,,Operational
-1,Identification,001086,Observing platform manufacturer's serial number,CCITT IA5,0,0,256,Character,0,32,,,Operational
-1,Identification,001087,WMO marine observing platform extended identifier,Numeric,0,0,23,Numeric,0,7,,,Operational
-1,Identification,001090,Technique for making up initial perturbations,Code table,0,0,8,Code table,0,3,,,Operational
-1,Identification,001091,Ensemble member number,Numeric,0,0,10,Numeric,0,4,,,Operational
-1,Identification,001092,Type of ensemble forecast,Code table,0,0,8,Code table,0,3,,,Operational
-1,Identification,001093,Balloon lot number,CCITT IA5,0,0,96,Character,0,12,,,Operational
-1,Identification,001094,WBAN number,Numeric,0,0,17,Numeric,0,5,,,Operational
-1,Identification,001095,Observer identification,CCITT IA5,0,0,32,Character,0,4,,,Operational
-1,Identification,001096,Station acquisition,CCITT IA5,0,0,160,Character,0,20,,,Operational
-1,Identification,001099,Unique product definition,CCITT IA5,0,0,248,Character,0,31,,,Operational
-1,Identification,001101,State identifier,Code table,0,0,10,Code table,0,3,,,Operational
-1,Identification,001102,National station number,Numeric,0,0,30,Numeric,0,9,,,Operational
-1,Identification,001103,IMO Number. Unique Lloyd's register,Numeric,0,0,24,Numeric,0,7,,,Operational
-1,Identification,001104,State/federal state identifier,CCITT IA5,0,0,32,Character,0,4,,,Operational
-1,Identification,001105,Highway designator,CCITT IA5,0,0,40,Character,0,5,,,Operational
-1,Identification,001106,Location along highway as indicated by position markers,m,-2,0,14,m,-2,5,,,Operational
-1,Identification,001110,Aircraft tail number,CCITT IA5,0,0,48,Character,0,6,,,Operational
-1,Identification,001111,Origination airport,CCITT IA5,0,0,24,Character,0,3,,,Operational
-1,Identification,001112,Destination airport,CCITT IA5,0,0,24,Character,0,3,,,Operational
-1,Identification,001113,Template version number defined by originating centre,Numeric,1,0,9,Numeric,1,3,,,Operational
-1,Identification,001114,Encrypted ship or mobile land station identifier (base64 encoding),CCITT IA5,0,0,352,Character,0,44,,,Operational
-1,Identification,001115,Identifier of the cruise or mission under which the data were collected,CCITT IA5,0,0,160,Character,0,20,,,Operational
-1,Identification,001124,Grid point identifier,Numeric,0,0,24,Numeric,0,8,,,Operational
-1,Identification,001125,WIGOS identifier series,Numeric,0,0,4,Numeric,0,2,,,Operational
-1,Identification,001126,WIGOS issuer of identifier,Numeric,0,0,16,Numeric,0,5,,,Operational
-1,Identification,001127,WIGOS issue number,Numeric,0,0,16,Numeric,0,5,,,Operational
-1,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
-1,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
-1,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
-1,Identification,001151,Fixed mean sea-level reference datum,Code table,0,0,12,Code table,0,4,,,Operational
-1,Identification,001152,Semi-major axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
-1,Identification,001153,Semi-minor axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
-1,Identification,001154,Sensor identifier,Numeric,0,0,12,Numeric,0,4,,,Operational
-1,Identification,001155,Retrieval identifier,Code table,0,0,8,Code table,0,3,,,Operational
-2,Instrumentation,002001,Type of station,Code table,0,0,2,Code table,0,1,,,Operational
-2,Instrumentation,002002,Type of instrumentation for wind measurement,Flag table,0,0,4,Flag table,0,2,,,Operational
-2,Instrumentation,002003,Type of measuring equipment used,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002005,Precision of temperature observation,K,2,0,7,K,2,3,,,Operational
-2,Instrumentation,002006,Upper air remote sensing instrument type,Code table,0,0,6,Code table,0,0,,,Operational
-2,Instrumentation,002007,Type of sensor for water level measuring instrument,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002008,Type of offshore platform,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002011,Radiosonde type,Code table,0,0,8,Code table,0,3,,,Operational
-2,Instrumentation,002012,Radiosonde computational method,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002013,Solar and infrared radiation correction,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002014,Tracking technique/status of system used,Code table,0,0,7,Code table,0,3,,,Operational
-2,Instrumentation,002015,Radiosonde completeness,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002016,Radiosonde configuration,Flag table,0,0,5,Flag table,0,2,,,Operational
-2,Instrumentation,002017,Correction algorithms for humidity measurements,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002019,Satellite instruments,Code table,0,0,11,Code table,0,4,,,Operational
-2,Instrumentation,002020,Satellite classification,Code table,0,0,9,Code table,0,3,,,Operational
-2,Instrumentation,002021,Satellite instrument data used in processing,Flag table,0,0,9,Flag table,0,3,(see Note 8),47,Operational
-2,Instrumentation,002022,Satellite data-processing technique used,Flag table,0,0,8,Flag table,0,3,,,Operational
-2,Instrumentation,002023,Satellite-derived wind computation method,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002024,Integrated mean humidity computational method,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002025,Satellite channel(s) used in computation,Flag table,0,0,25,Flag table,0,9,,,Operational
-2,Instrumentation,002026,Cross-track resolution,m,2,0,12,m,2,4,,,Operational
-2,Instrumentation,002027,Along-track resolution,m,2,0,12,m,2,4,,,Operational
-2,Instrumentation,002028,Segment size at nadir in x-direction,m,0,0,18,m,0,6,,,Operational
-2,Instrumentation,002029,Segment size at nadir in y-direction,m,0,0,18,m,0,6,,,Operational
-2,Instrumentation,002030,Method of current measurement,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002031,Duration and time of current measurement,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002032,Indicator for digitization,Code table,0,0,2,Code table,0,1,,,Operational
-2,Instrumentation,002033,Method of salinity/depth measurement,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002034,Drogue type,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002035,Cable length,m,0,0,9,m,0,3,,,Operational
-2,Instrumentation,002036,Buoy type,Code table,0,0,2,Code table,0,1,,,Operational
-2,Instrumentation,002037,Method of tidal observation,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002038,Method of water temperature and/or salinity measurement,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002039,Method of wet-bulb temperature measurement,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002040,Method of removing velocity and motion of platform from current,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002041,Method for estimating reports related to synoptic features,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002042,Indicator for sea-surface current speed,Code table,0,0,2,Code table,0,1,,,Operational
-2,Instrumentation,002044,Indicator for method of calculating spectral wave data,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002045,Indicator for type of platform,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002046,Wave measurement instrumentation,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002047,Deep-ocean tsunameter type,Code table,0,0,7,Code table,0,2,,,Operational
-2,Instrumentation,002048,Satellite sensor indicator,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002049,Geostationary satellite data-processing technique used,Flag table,0,0,8,Flag table,0,3,,,Operational
-2,Instrumentation,002050,Geostationary sounder satellite channels used,Flag table,0,0,20,Flag table,0,7,,,Operational
-2,Instrumentation,002051,Indicator to specify observing method for extreme temperatures,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002052,Geostationary imager satellite channels used,Flag table,0,0,6,Flag table,0,2,,,Operational
-2,Instrumentation,002053,GOES-I/M brightness temperature characteristics,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002054,GOES-I/M soundings parameter characteristics,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002055,Geostationary soundings statistical parameters,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002056,Geostationary soundings accuracy statistics,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002057,Origin of first-guess information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002058,Valid times of first-guess information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002059,Origin of analysis information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002060,Origin of surface information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002061,Aircraft navigational system,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002062,Type of aircraft data relay system,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002063,Aircraft roll angle,deg,2,-18000,16,deg,2,5,,,Operational
-2,Instrumentation,002064,Aircraft roll angle quality,Code table,0,0,2,Code table,0,1,,,Operational
-2,Instrumentation,002065,ACARS ground-receiving station,CCITT IA5,0,0,40,Character,0,5,,,Operational
-2,Instrumentation,002066,Radiosonde ground receiving system,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002067,Radiosonde operating frequency,Hz,-5,0,15,Hz,-5,5,,,Operational
-2,Instrumentation,002070,Original specification of latitude/longitude,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002071,Spectrographic wavelength,m,13,0,30,m,13,10,,,Operational
-2,Instrumentation,002072,Spectrographic width,m,13,0,30,m,13,10,,,Operational
-2,Instrumentation,002080,Balloon manufacturer,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002081,Type of balloon,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002082,Weight of balloon,kg,3,0,12,kg,3,4,,,Operational
-2,Instrumentation,002083,Type of balloon shelter,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002084,Type of gas used in balloon,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002085,Amount of gas used in balloon,kg,3,0,13,kg,3,4,,,Operational
-2,Instrumentation,002086,Balloon flight train length,m,1,0,10,m,1,4,,,Operational
-2,Instrumentation,002087,Parachute surface area,m2,4,0,15,m2,4,5,,,Operational
-2,Instrumentation,002088,Volume of gas used in balloon,m3,3,0,13,m3,3,4,,,Operational
-2,Instrumentation,002090,Instrument wavelength,m,9,0,16,m,9,5,,,Operational
-2,Instrumentation,002091,Entry sensor 4/20 mA,A,4,0,10,A,4,3,,,Operational
-2,Instrumentation,002092,Ozone profile computation method,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002095,Type of pressure sensor,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002096,Type of temperature sensor,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002097,Type of humidity sensor,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002099,Polarization,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002100,Radar constant,dB,1,0,12,dB,1,4,(see Note 9),157,Operational
-2,Instrumentation,002101,Type of antenna,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002102,Antenna height above tower base,m,0,0,8,m,0,3,,,Operational
-2,Instrumentation,002103,Radome,Flag table,0,0,2,Flag table,0,1,,,Operational
-2,Instrumentation,002104,Antenna polarization,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002105,Maximum antenna gain,dB,0,0,6,dB,0,2,,,Operational
-2,Instrumentation,002106,3-dB beamwidth,deg,1,0,6,deg,1,2,,,Operational
-2,Instrumentation,002107,Sidelobe suppression,dB,0,0,6,dB,0,2,,,Operational
-2,Instrumentation,002108,Crosspol discrimination (on axis),dB,0,0,6,dB,0,2,,,Operational
-2,Instrumentation,002109,Antenna speed (azimuth),deg/s,2,0,12,deg/s,2,4,,,Operational
-2,Instrumentation,002110,Antenna speed (elevation),deg/s,2,0,12,deg/s,2,4,,,Operational
-2,Instrumentation,002111,Radar incidence angle,deg,1,0,10,deg,1,4,,,Operational
-2,Instrumentation,002112,Radar look angle,deg,1,0,12,deg,1,4,,,Operational
-2,Instrumentation,002113,Number of azimuth looks,Numeric,0,0,4,Numeric,0,2,,,Operational
-2,Instrumentation,002114,Antenna effective surface area,m2,0,0,15,m2,0,5,,,Operational
-2,Instrumentation,002115,Type of surface observing equipment,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002116,Percentage of 320 MHz band processed,%,0,0,7,%,0,3,,,Operational
-2,Instrumentation,002117,Percentage of 80 MHz band processed,%,0,0,7,%,0,3,,,Operational
-2,Instrumentation,002118,Percentage of 20 MHz band processed,%,0,0,7,%,0,3,,,Operational
-2,Instrumentation,002119,RA-2 instrument operations,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002120,Ocean wave frequency,Hz,3,0,10,Hz,3,4,,,Operational
-2,Instrumentation,002121,Mean frequency,Hz,-8,0,7,Hz,-8,3,,,Operational
-2,Instrumentation,002122,Frequency agility range,Hz,-6,-128,8,Hz,-6,3,,,Operational
-2,Instrumentation,002123,Peak power,W,-4,0,7,W,-4,3,,,Operational
-2,Instrumentation,002124,Average power,W,-1,0,7,W,-1,3,,,Operational
-2,Instrumentation,002125,Pulse repetition frequency,Hz,-1,0,8,Hz,-1,3,,,Operational
-2,Instrumentation,002126,Pulse width,s,7,0,6,s,7,2,,,Operational
-2,Instrumentation,002127,Receiver intermediate frequency,Hz,-6,0,7,Hz,-6,3,,,Operational
-2,Instrumentation,002128,Intermediate frequency bandwidth,Hz,-5,0,6,Hz,-5,2,,,Operational
-2,Instrumentation,002129,Minimum detectable signal,dB,0,-150,5,dB,0,3,,,Operational
-2,Instrumentation,002130,Dynamic range,dB,0,0,7,dB,0,3,,,Operational
-2,Instrumentation,002131,Sensitivity time control (STC),Flag table,0,0,2,Flag table,0,1,,,Operational
-2,Instrumentation,002132,Azimuth pointing accuracy,deg,2,0,6,deg,2,2,,,Operational
-2,Instrumentation,002133,Elevation pointing accuracy,deg,2,0,6,deg,2,2,,,Operational
-2,Instrumentation,002134,Antenna beam azimuth,deg,2,0,16,deg,2,5,,,Operational
-2,Instrumentation,002135,Antenna elevation,deg,2,-9000,15,deg,2,5,,,Operational
-2,Instrumentation,002136,Range processed by range attenuation correction,m,-3,0,16,m,-3,5,,,Operational
-2,Instrumentation,002137,Radar dual PRF ratio,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002138,Antenna rotation direction,Code table,0,0,2,Code table,0,1,,,Operational
-2,Instrumentation,002139,SIRAL instrument configuration,Code table,0,0,2,Code table,0,1,,,Operational
-2,Instrumentation,002140,Satellite radar beam azimuth angle,deg,0,0,9,deg,0,3,(see Note 4),111,Operational
-2,Instrumentation,002141,Measurement type,CCITT IA5,0,0,24,Character,0,3,,,Operational
-2,Instrumentation,002142,Ozone instrument serial number/identification,CCITT IA5,0,0,32,Character,0,4,(see Note 5),91,Operational
-2,Instrumentation,002143,Ozone instrument type,Code table,0,0,7,Code table,0,3,,,Operational
-2,Instrumentation,002144,Light source type for Brewer spectrophotometer,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002145,Wavelength setting for Dobson instruments,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002146,Source conditions for Dobson instruments,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002147,Method of transmission to collection centre,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002148,Data collection and/or location system,Code table,0,0,5,Code table,0,2,,,Operational
-2,Instrumentation,002149,Type of data buoy,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002150,TOVS/ATOVS/AVHRR instrumentation channel number,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002151,Radiometer identifier,Code table,0,0,11,Code table,0,4,,,Operational
-2,Instrumentation,002152,Satellite instrument used in data processing,Flag table,0,0,31,Flag table,0,10,(see Note 6),46,Operational
-2,Instrumentation,002153,Satellite channel centre frequency,Hz,-8,0,26,Hz,-8,8,,,Operational
-2,Instrumentation,002154,Satellite channel band width,Hz,-8,0,26,Hz,-8,8,,,Operational
-2,Instrumentation,002155,Satellite channel wavelength,m,9,0,16,m,9,5,,,Operational
-2,Instrumentation,002156,Percentage of valid KU ocean retracker measurements,%,0,0,7,%,0,3,,,Operational
-2,Instrumentation,002157,Percentage of valid S ocean retracker measurements,%,0,0,7,%,0,3,,,Operational
-2,Instrumentation,002158,RA-2 instrument,Flag table,0,0,9,Flag table,0,3,,,Operational
-2,Instrumentation,002159,MWR instrument,Flag table,0,0,8,Flag table,0,3,,,Operational
-2,Instrumentation,002160,Wavelength of the radar,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002161,Wind processing method,Flag table,0,0,16,Flag table,0,6,,,Operational
-2,Instrumentation,002162,Extended height assignment method,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002163,Height assignment method,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002164,Tracer correlation method,Code table,0,0,3,Code table,0,1,,,Operational
-2,Instrumentation,002165,Radiance type flags,Flag table,0,0,15,Flag table,0,5,,,Operational
-2,Instrumentation,002166,Radiance type,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002167,Radiance computational method,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002168,Hydrostatic pressure of lower end of cable (thermistor string),Pa,-3,0,16,kPa,0,5,,,Operational
-2,Instrumentation,002169,Anemometer type,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002170,Aircraft humidity sensors,Code table,0,0,6,Code table,0,2,,,Operational
-2,Instrumentation,002171,Instrument serial number for water temperature profile measurement,CCITT IA5,0,0,64,Character,0,8,,,Operational
-2,Instrumentation,002172,Product type for retrieved atmospheric gases,Code table,0,0,8,Code table,0,3,,,Operational
-2,Instrumentation,002173,Square of the off-nadir angle,deg2,4,0,10,deg2,4,4,(see Note 7),124,Operational
-2,Instrumentation,002174,Mean across track pixel number,Numeric,0,0,9,Numeric,0,3,,,Operational
-2,Instrumentation,002175,Method of precipitation measurement,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002176,Method of state of ground measurement,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002177,Method of snow depth measurement,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002178,Method of liquid content measurement of precipitation,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002179,Type of sky condition algorithm,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002180,Main present weather detecting system,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002181,Supplementary present weather sensor,Flag table,0,0,21,Flag table,0,7,,,Operational
-2,Instrumentation,002182,Visibility measurement system,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002183,Cloud detection system,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002184,Type of lightning detection sensor,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002185,Method of evaporation measurement,Code table,0,0,4,Code table,0,2,,,Operational
-2,Instrumentation,002186,Capability to detect precipitation phenomena,Flag table,0,0,30,Flag table,0,10,,,Operational
-2,Instrumentation,002187,Capability to detect other weather phenomena,Flag table,0,0,18,Flag table,0,6,,,Operational
-2,Instrumentation,002188,Capability to detect obscuration,Flag table,0,0,21,Flag table,0,7,,,Operational
-2,Instrumentation,002189,Capability to discriminate lightning strikes,Flag table,0,0,12,Flag table,0,4,,,Operational
-2,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),%,0,0,7,%,0,3,,,Operational
-2,Instrumentation,002191,Geopotential height calculation,Code table,0,0,4,Code table,0,2,,,Operational
-3,Instrumentation,003001,Surface station type,Code table,0,0,5,Code table,0,2,,,Operational
-3,Instrumentation,003003,Thermometer/hygrometer housing,Code table,0,0,4,Code table,0,2,,,Operational
-3,Instrumentation,003004,Type of screen/shelter/radiation shield,Code table,0,0,4,Code table,0,2,,,Operational
-3,Instrumentation,003005,Horizontal width of screen or shield (x),m,3,0,16,m,3,5,,,Operational
-3,Instrumentation,003006,Horizontal depth of screen or shield (y),m,3,0,16,m,3,5,,,Operational
-3,Instrumentation,003007,Vertical height of screen or shield (z),m,3,0,16,m,3,5,,,Operational
-3,Instrumentation,003008,Artificially ventilated screen or shield,Code table,0,0,3,Code table,0,1,,,Operational
-3,Instrumentation,003009,Amount of forced ventilation at time of reading,m/s,1,0,9,m/s,1,3,,,Operational
-3,Instrumentation,003010,Method of sea/water current measurement,Code table,0,0,4,Code table,0,2,,,Operational
-3,Instrumentation,003011,Method of depth calculation,Code table,0,0,2,Code table,0,1,,,Operational
-3,Instrumentation,003012,Instrument type/sensor for dissolved oxygen measurement,Code table,0,0,4,Code table,0,2,,,Operational
-3,Instrumentation,003016,Position of road sensors,Code table,0,0,4,Code table,0,2,,,Operational
-3,Instrumentation,003017,Extended type of station,Flag table,0,0,6,Flag table,0,2,,,Operational
-3,Instrumentation,003018,Type of road,Code table,0,0,5,Code table,0,2,,,Operational
-3,Instrumentation,003019,Type of construction,Code table,0,0,4,Code table,0,2,,,Operational
-3,Instrumentation,003020,Material for thermometer/hygrometer housing,Code table,0,0,3,Code table,0,1,,,Operational
-3,Instrumentation,003021,Hygrometer heating,Code table,0,0,2,Code table,0,1,,,Operational
-3,Instrumentation,003022,Instrument owner,Code table,0,0,3,Code table,0,1,,,Operational
-3,Instrumentation,003023,Configuration of louvers for thermometer/hygrometer screen,Code table,0,0,3,Code table,0,1,,,Operational
-3,Instrumentation,003024,Psychrometric coefficient,K-1,6,0,10,K-1,6,3,,,Operational
-3,Instrumentation,003025,Cross-track estimation area size,m,0,5000,16,m,0,5,,,Operational
-3,Instrumentation,003026,Along-track estimation area size,m,0,5000,16,m,0,5,,,Operational
-3,Instrumentation,003027,Type of flight rig,Code table,0,0,4,Code table,0,2,,,Operational
-3,Instrumentation,003028,Method of snow water equivalent measurement,Code table,0,0,6,Code table,0,2,,,Operational
-4,Location (time),004001,Year,a,0,0,12,a,0,4,,,Operational
-4,Location (time),004002,Month,mon,0,0,4,mon,0,2,,,Operational
-4,Location (time),004003,Day,d,0,0,6,d,0,2,,,Operational
-4,Location (time),004004,Hour,h,0,0,5,h,0,2,,,Operational
-4,Location (time),004005,Minute,min,0,0,6,min,0,2,,,Operational
-4,Location (time),004006,Second,s,0,0,6,s,0,2,,,Operational
-4,Location (time),004007,Seconds within a minute (microsecond accuracy),s,6,0,26,s,6,8,,,Operational
-4,Location (time),004011,Time increment,a,0,-1024,11,a,0,4,,,Operational
-4,Location (time),004012,Time increment,mon,0,-1024,11,mon,0,4,,,Operational
-4,Location (time),004013,Time increment,d,0,-1024,11,d,0,4,,,Operational
-4,Location (time),004014,Time increment,h,0,-1024,11,h,0,4,,,Operational
-4,Location (time),004015,Time increment,min,0,-2048,12,min,0,4,,,Operational
-4,Location (time),004016,Time increment,s,0,-4096,13,s,0,4,,,Operational
-4,Location (time),004017,Reference time period for accumulated or extreme data,min,0,-1440,12,min,0,4,,,Operational
-4,Location (time),004021,Time period or displacement,a,0,-1024,11,a,0,4,,,Operational
-4,Location (time),004022,Time period or displacement,mon,0,-1024,11,mon,0,4,,,Operational
-4,Location (time),004023,Time period or displacement,d,0,-1024,11,d,0,4,,,Operational
-4,Location (time),004024,Time period or displacement,h,0,-2048,12,h,0,4,,,Operational
-4,Location (time),004025,Time period or displacement,min,0,-2048,12,min,0,4,,,Operational
-4,Location (time),004026,Time period or displacement,s,0,-4096,13,s,0,4,,,Operational
-4,Location (time),004031,Duration of time relating to following value,h,0,0,8,h,0,3,,,Operational
-4,Location (time),004032,Duration of time relating to following value,min,0,0,6,min,0,2,,,Operational
-4,Location (time),004041,"Time difference, UTC - LMT",min,0,-1440,12,min,0,4,(see Note 6),48,Operational
-4,Location (time),004043,Day of the year,d,0,0,9,d,0,3,,,Operational
-4,Location (time),004051,Principal time of daily reading of maximum temperature,h,0,0,5,h,0,2,,,Operational
-4,Location (time),004052,Principal time of daily reading of minimum temperature,h,0,0,5,h,0,2,,,Operational
-4,Location (time),004053,Number of days with precipitation equal to or more than 1 mm,Numeric,0,0,6,Numeric,0,2,,,Operational
-4,Location (time),004059,Times of observation used to compute the reported mean values,Flag table,0,0,6,Flag table,0,2,,,Operational
-4,Location (time),004065,Short time increment,min,0,-128,8,min,0,2,,,Operational
-4,Location (time),004066,Short time increment,s,0,-128,8,s,0,2,,,Operational
-4,Location (time),004073,Short time period or displacement,d,0,-128,8,d,0,2,,,Operational
-4,Location (time),004074,Short time period or displacement,h,0,-128,8,h,0,2,,,Operational
-4,Location (time),004075,Short time period or displacement,min,0,-128,8,min,0,2,,,Operational
-4,Location (time),004080,Averaging period for following value,Code table,0,0,4,Code table,0,2,,,Operational
-4,Location (time),004086,Long time period or displacement,s,0,-8192,15,s,0,5,,,Operational
-5,Location (horizontal - 1),005001,Latitude (high accuracy),deg,5,-9000000,25,deg,5,7,,,Operational
-5,Location (horizontal - 1),005002,Latitude (coarse accuracy),deg,2,-9000,15,deg,2,4,,,Operational
-5,Location (horizontal - 1),005011,Latitude increment (high accuracy),deg,5,-9000000,25,deg,5,7,,,Operational
-5,Location (horizontal - 1),005012,Latitude increment (coarse accuracy),deg,2,-9000,15,deg,2,4,,,Operational
-5,Location (horizontal - 1),005015,Latitude displacement (high accuracy),deg,5,-9000000,25,deg,5,7,,,Operational
-5,Location (horizontal - 1),005016,Latitude displacement (coarse accuracy),deg,2,-9000,15,deg,2,4,,,Operational
-5,Location (horizontal - 1),005021,Bearing or azimuth,degree true,2,0,16,degree true,2,5,,,Operational
-5,Location (horizontal - 1),005022,Solar azimuth,degree true,2,0,16,degree true,2,5,,,Operational
-5,Location (horizontal - 1),005023,Sun to satellite azimuth difference,deg,1,-1800,12,deg,1,4,,,Operational
-5,Location (horizontal - 1),005030,Direction (spectral),deg,0,0,12,deg,0,4,,,Operational
-5,Location (horizontal - 1),005031,Row number,Numeric,0,0,12,Numeric,0,4,,,Operational
-5,Location (horizontal - 1),005032,Y offset,m,2,-1073741824,31,m,2,11,(see Note 6),184,Operational
-5,Location (horizontal - 1),005033,Pixel size on horizontal - 1,m,-1,0,16,m,-1,5,,,Operational
-5,Location (horizontal - 1),005034,Along track row number,Numeric,0,0,11,Numeric,0,4,,,Operational
-5,Location (horizontal - 1),005035,Maximum size of x-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
-5,Location (horizontal - 1),005036,Ship transect number according to SOOP,Numeric,0,0,7,Numeric,0,2,,,Operational
-5,Location (horizontal - 1),005040,Orbit number,Numeric,0,0,24,Numeric,0,8,,,Operational
-5,Location (horizontal - 1),005041,Scan line number,Numeric,0,0,8,Numeric,0,3,,,Operational
-5,Location (horizontal - 1),005042,Channel number,Numeric,0,0,6,Numeric,0,2,,,Operational
-5,Location (horizontal - 1),005043,Field of view number,Numeric,0,0,8,Numeric,0,3,,,Operational
-5,Location (horizontal - 1),005044,Satellite cycle number,Numeric,0,0,11,Numeric,0,4,,,Operational
-5,Location (horizontal - 1),005045,Field of regard number,Numeric,0,0,8,Numeric,0,3,,,Operational
-5,Location (horizontal - 1),005052,Channel number increment,Numeric,0,0,5,Numeric,0,2,,,Operational
-5,Location (horizontal - 1),005053,Field of view number increment,Numeric,0,0,5,Numeric,0,2,,,Operational
-5,Location (horizontal - 1),005060,Y angular position from centre of gravity,deg,6,-8000000,24,deg,6,8,,,Operational
-5,Location (horizontal - 1),005061,Z angular position from centre of gravity,deg,6,-8000000,24,deg,6,8,,,Operational
-5,Location (horizontal - 1),005063,Spacecraft roll,deg,2,0,16,deg,2,5,,,Operational
-5,Location (horizontal - 1),005064,Spacecraft pitch,deg,2,0,16,deg,2,5,,,Operational
-5,Location (horizontal - 1),005066,Spacecraft yaw,deg,2,0,16,deg,2,5,,,Operational
-5,Location (horizontal - 1),005067,Number of scan lines,Numeric,0,0,8,Numeric,0,3,,,Operational
-5,Location (horizontal - 1),005068,Profile number,Numeric,0,0,16,Numeric,0,5,,,Operational
-5,Location (horizontal - 1),005069,Receiver channel,Code table,0,0,2,Code table,0,1,,,Operational
-5,Location (horizontal - 1),005070,Observation identifier,Numeric,0,0,30,Numeric,0,10,,,Operational
-5,Location (horizontal - 1),005071,Stripmap identifier,Numeric,0,0,16,Numeric,0,5,,,Operational
-5,Location (horizontal - 1),005072,Number of spectra in range direction,Numeric,0,0,8,Numeric,0,3,,,Operational
-5,Location (horizontal - 1),005073,Number of spectra in azimuthal direction,Numeric,0,0,8,Numeric,0,3,,,Operational
-5,Location (horizontal - 1),005074,Index in range direction,Numeric,0,0,8,Numeric,0,3,,,Operational
-5,Location (horizontal - 1),005075,Index in azimuthal direction,Numeric,0,0,8,Numeric,0,3,,,Operational
-6,Location (horizontal - 2),006001,Longitude (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
-6,Location (horizontal - 2),006002,Longitude (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
-6,Location (horizontal - 2),006011,Longitude increment (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
-6,Location (horizontal - 2),006012,Longitude increment (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
-6,Location (horizontal - 2),006015,Longitude displacement (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
-6,Location (horizontal - 2),006016,Longitude displacement (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
-6,Location (horizontal - 2),006021,Distance,m,-1,0,13,m,-1,4,,,Operational
-6,Location (horizontal - 2),006029,Wave number,/m,1,0,22,/m,1,7,,,Operational
-6,Location (horizontal - 2),006030,Wave number (spectral),rad/m,5,0,13,rad/m,5,4,,,Operational
-6,Location (horizontal - 2),006031,Column number,Numeric,0,0,12,Numeric,0,4,,,Operational
-6,Location (horizontal - 2),006032,X offset,m,2,-1073741824,31,m,2,11,(see Note 6),183,Operational
-6,Location (horizontal - 2),006033,Pixel size on horizontal - 2,m,-1,0,16,m,-1,5,,,Operational
-6,Location (horizontal - 2),006034,Cross-track cell number,Numeric,0,0,7,Numeric,0,3,,,Operational
-6,Location (horizontal - 2),006035,Maximum size of y-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
-6,Location (horizontal - 2),006040,Radius of confidence,m,0,0,13,m,0,4,,,Operational
-7,Location (vertical),007001,Height of station,m,0,-400,15,m,0,5,(see Note 1),116,Operational
-7,Location (vertical),007002,Height or altitude,m,-1,-40,16,m,-1,5,,,Operational
-7,Location (vertical),007003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
-7,Location (vertical),007004,Pressure,Pa,-1,0,14,Pa,-1,5,,,Operational
-7,Location (vertical),007005,Height increment,m,0,-400,12,m,0,4,,,Operational
-7,Location (vertical),007006,Height above station,m,0,0,15,m,0,5,,,Operational
-7,Location (vertical),007007,Height,m,0,-1000,17,m,0,6,,,Operational
-7,Location (vertical),007008,Geopotential,m2 s-2,0,-10000,20,m2 s-2,0,7,,,Operational
-7,Location (vertical),007009,Geopotential height,gpm,0,-1000,17,gpm,0,5,,,Operational
-7,Location (vertical),007010,Flight level,m,0,-1024,16,ft,-1,5,,,Operational
-7,Location (vertical),007012,Grid point altitude,m,2,-50000,20,m,2,7,,,Operational
-7,Location (vertical),007021,Elevation,deg,2,-9000,15,deg,2,5,(see Note 2),68,Operational
-7,Location (vertical),007022,Solar elevation,deg,2,-9000,15,deg,2,5,,,Operational
-7,Location (vertical),007024,Satellite zenith angle,deg,2,-9000,15,deg,2,5,,,Operational
-7,Location (vertical),007025,Solar zenith angle,deg,2,-9000,15,deg,2,5,,,Operational
-7,Location (vertical),007026,Satellite zenith angle,deg,4,-900000,21,deg,4,7,,,Operational
-7,Location (vertical),007030,Height of station ground above mean sea level,m,1,-4000,17,m,1,5,(see Note 3),87,Operational
-7,Location (vertical),007031,Height of barometer above mean sea level,m,1,-4000,17,m,1,5,(see Note 4),84,Operational
-7,Location (vertical),007032,Height of sensor above local ground (or deck of marine platform),m,2,0,16,m,2,5,(see Note 5),85,Operational
-7,Location (vertical),007033,Height of sensor above water surface,m,1,0,12,m,1,4,(see Note 6),86,Operational
-7,Location (vertical),007035,Maximum size of z-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
-7,Location (vertical),007036,Level index of z,Numeric,0,0,12,Numeric,0,4,,,Operational
-7,Location (vertical),007040,Impact parameter,m,1,62000000,22,m,1,8,(see Note 7),74,Operational
-7,Location (vertical),007061,Depth below land surface,m,2,0,14,m,2,5,,,Operational
-7,Location (vertical),007062,Depth below sea/water surface,m,1,0,17,m,1,6,,,Operational
-7,Location (vertical),007063,Depth below sea/water surface (cm),m,2,0,20,m,2,7,,,Operational
-7,Location (vertical),007064,Representative height of sensor above station,m,0,0,4,m,0,2,(see Note 8),117,Operational
-7,Location (vertical),007065,Water pressure,Pa,-3,0,17,Pa,-3,6,,,Operational
-7,Location (vertical),007070,Drogue depth,m,0,0,10,m,0,4,,,Operational
-7,Location (vertical),007071,Height (high resolution),m,3,-10000000,26,m,3,8,,,Operational
-7,Location (vertical),007072,Scan angle,deg,2,-9000,15,deg,2,6,,,Operational
-8,Significance qualifiers,008001,Vertical sounding significance,Flag table,0,0,7,Flag table,0,3,,,Operational
-8,Significance qualifiers,008002,Vertical significance (surface observations),Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008003,Vertical significance (satellite observations),Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008004,Phase of aircraft flight,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008005,Meteorological attribute significance,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008006,Ozone vertical sounding significance,Flag table,0,0,9,Flag table,0,3,,,Operational
-8,Significance qualifiers,008007,Dimensional significance,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008008,Radiation vertical sounding significance,Flag table,0,0,9,Flag table,0,3,,,Operational
-8,Significance qualifiers,008009,Detailed phase of flight,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008010,Surface qualifier (temperature data),Code table,0,0,5,Code table,0,2,,,Operational
-8,Significance qualifiers,008011,Meteorological feature,Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008012,Land/sea qualifier,Code table,0,0,2,Code table,0,1,,,Operational
-8,Significance qualifiers,008013,Day/night qualifier,Code table,0,0,2,Code table,0,1,,,Operational
-8,Significance qualifiers,008014,Qualifier for runway visual range,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008015,Significant qualifier for sensor,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008017,Qualifier of the time when the forecast change is expected,Code table,0,0,2,Code table,0,1,,,Operational
-8,Significance qualifiers,008018,SEAWINDS land/ice surface type,Flag table,0,0,17,Flag table,0,6,,,Operational
-8,Significance qualifiers,008019,Qualifier for following centre identifier,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008020,Total number of missing entities (with respect to accumulation or average),Numeric,0,0,16,Numeric,0,5,,,Operational
-8,Significance qualifiers,008021,Time significance,Code table,0,0,5,Code table,0,2,,,Operational
-8,Significance qualifiers,008022,Total number (with respect to accumulation or average),Numeric,0,0,16,Numeric,0,5,,,Operational
-8,Significance qualifiers,008023,First-order statistics,Code table,0,0,6,Code table,0,2,(see Note 3),70,Operational
-8,Significance qualifiers,008024,Difference statistics,Code table,0,0,6,Code table,0,2,(see Note 4),61,Operational
-8,Significance qualifiers,008025,Time difference qualifier,Code table,0,0,4,Code table,0,2,(see Note 5),49,Operational
-8,Significance qualifiers,008026,Matrix significance,Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008029,Surface type,Code table,0,0,8,Code table,0,3,,,Operational
-8,Significance qualifiers,008030,"Manual on Codes (Volume I.1, Section C) Code table from which data are derived",Numeric,0,0,13,Numeric,0,4,,,Operational
-8,Significance qualifiers,008031,Data category - CREX table A,Numeric,0,0,8,Numeric,0,3,,,Operational
-8,Significance qualifiers,008032,Status of operation,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008033,Method of derivation of percentage confidence,Code table,0,0,7,Code table,0,3,(see Note 6),50,Operational
-8,Significance qualifiers,008034,Temperature/salinity measurement qualifier,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008035,Type of monitoring exercise,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008036,Type of centre or station performing monitoring,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008037,Baseline check significance,Code table,0,0,5,Code table,0,2,,,Operational
-8,Significance qualifiers,008038,Instrument data significance,Code table,0,0,8,Code table,0,3,,,Operational
-8,Significance qualifiers,008039,Time significance (Aviation forecast),Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008040,Flight level significance,Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008041,Data significance,Code table,0,0,5,Code table,0,2,,,Operational
-8,Significance qualifiers,008042,Extended vertical sounding significance,Flag table,0,0,18,Flag table,0,6,,,Operational
-8,Significance qualifiers,008043,Atmospheric chemical or physical constituent type,Code table,0,0,8,Code table,0,3,(see Note 7),169,Operational
-8,Significance qualifiers,008044,CAS registry number,CCITT IA5,0,0,88,Character,0,11,,,Operational
-8,Significance qualifiers,008046,Atmospheric chemical or physical constituent type,Common Code table C-14,0,0,16,Common Code table C-14,0,5,,,Operational
-8,Significance qualifiers,008049,Number of observations,Numeric,0,0,8,Numeric,0,3,,,Operational
-8,Significance qualifiers,008050,Qualifier for number of missing values in calculation of statistic,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008051,Qualifier for number of missing values in calculation of statistic,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008052,Condition for which number of days of occurrence follows,Code table,0,0,5,Code table,0,2,,,Operational
-8,Significance qualifiers,008053,Day of occurrence qualifier,Code table,0,0,2,Code table,0,1,,,Operational
-8,Significance qualifiers,008054,Qualifier for wind speed or wind gusts,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008060,Sample scanning mode significance,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008065,Sun-glint indicator,Code table,0,0,2,Code table,0,1,,,Operational
-8,Significance qualifiers,008066,Semi-transparency indicator,Code table,0,0,2,Code table,0,1,,,Operational
-8,Significance qualifiers,008070,Vertical sounding product qualifier,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008072,Pixel(s) type,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008074,Altimeter echo type,Code table,0,0,2,Code table,0,1,,,Operational
-8,Significance qualifiers,008075,Ascending/descending orbit qualifier,Code table,0,0,2,Code table,0,1,,,Operational
-8,Significance qualifiers,008076,Type of band,Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008077,Radiometer sensed surface type,Code table,0,0,7,Code table,0,3,,,Operational
-8,Significance qualifiers,008079,Product status,Code table,0,0,4,Code table,0,2,,,Operational
-8,Significance qualifiers,008080,Qualifier for GTSPP quality flag,Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008081,Type of equipment,Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008082,Modification of sensor height to another value,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008083,Nominal value indicator,Flag table,0,0,15,Flag table,0,5,,,Operational
-8,Significance qualifiers,008085,Beam identifier,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008086,Vertical significance for NWP,Flag table,0,0,12,Flag table,0,4,,,Operational
-8,Significance qualifiers,008087,Corner position of observation,Code table,0,0,3,Code table,0,1,,,Operational
-8,Significance qualifiers,008088,Map significance,Code table,0,0,6,Code table,0,2,,,Operational
-8,Significance qualifiers,008090,Decimal scale of following significands,Numeric,0,-127,8,Numeric,0,3,(see Note 8),51,Operational
-8,Significance qualifiers,008091,Coordinates significance,Code table,0,0,8,Code table,0,3,,,Operational
-8,Significance qualifiers,008092,Measurement uncertainty expression,Code table,0,0,5,Code table,0,2,,,Operational
-8,Significance qualifiers,008093,Measurement uncertainty significance,Code table,0,0,5,Code table,0,2,,,Operational
-8,Significance qualifiers,008094,Method used to calculate the average daily temperature,Code table,0,0,8,Code table,0,3,,,Operational
-8,Significance qualifiers,008095,Siting and measurement quality classification for temperature,Code table,0,0,8,Code table,0,3,,,Operational
-8,Significance qualifiers,008096,Siting and measurement quality classification for precipitation,Code table,0,0,8,Code table,0,3,,,Operational
+00,BUFR/CREX table entries,000001,Table A: entry,CCITT IA5,0,0,24,Character,0,3,,,Operational
+00,BUFR/CREX table entries,000002,"Table A: data category description, line 1",CCITT IA5,0,0,256,Character,0,32,,,Operational
+00,BUFR/CREX table entries,000003,"Table A: data category description, line 2",CCITT IA5,0,0,256,Character,0,32,,,Operational
+00,BUFR/CREX table entries,000004,BUFR/CREX Master table,CCITT IA5,0,0,16,Character,0,2,(see Note 1),98,Operational
+00,BUFR/CREX table entries,000005,BUFR/CREX edition number,CCITT IA5,0,0,24,Character,0,3,,,Operational
+00,BUFR/CREX table entries,000006,BUFR Master table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 2),33,Operational
+00,BUFR/CREX table entries,000007,CREX Master table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 3),40,Operational
+00,BUFR/CREX table entries,000008,BUFR Local table version number,CCITT IA5,0,0,16,Character,0,2,(see Note 4),76,Operational
+00,BUFR/CREX table entries,000010,F descriptor to be added or defined,CCITT IA5,0,0,8,Character,0,1,,,Operational
+00,BUFR/CREX table entries,000011,X descriptor to be added or defined,CCITT IA5,0,0,16,Character,0,2,,,Operational
+00,BUFR/CREX table entries,000012,Y descriptor to be added or defined,CCITT IA5,0,0,24,Character,0,3,,,Operational
+00,BUFR/CREX table entries,000013,"Element name, line 1",CCITT IA5,0,0,256,Character,0,32,,,Operational
+00,BUFR/CREX table entries,000014,"Element name, line 2",CCITT IA5,0,0,256,Character,0,32,,,Operational
+00,BUFR/CREX table entries,000015,Units name,CCITT IA5,0,0,192,Character,0,24,,,Operational
+00,BUFR/CREX table entries,000016,Units scale sign,CCITT IA5,0,0,8,Character,0,1,,,Operational
+00,BUFR/CREX table entries,000017,Units scale,CCITT IA5,0,0,24,Character,0,3,,,Operational
+00,BUFR/CREX table entries,000018,Units reference sign,CCITT IA5,0,0,8,Character,0,1,,,Operational
+00,BUFR/CREX table entries,000019,Units reference value,CCITT IA5,0,0,80,Character,0,10,,,Operational
+00,BUFR/CREX table entries,000020,Element data width,CCITT IA5,0,0,24,Character,0,3,,,Operational
+00,BUFR/CREX table entries,000024,Code figure,CCITT IA5,0,0,64,Character,0,8,,,Operational
+00,BUFR/CREX table entries,000025,Code figure meaning,CCITT IA5,0,0,496,Character,0,62,,,Operational
+00,BUFR/CREX table entries,000026,Bit number,CCITT IA5,0,0,48,Character,0,6,,,Operational
+00,BUFR/CREX table entries,000027,Bit number meaning,CCITT IA5,0,0,496,Character,0,62,,,Operational
+00,BUFR/CREX table entries,000030,Descriptor defining sequence,CCITT IA5,0,0,48,Character,0,6,,,Operational
+01,Identification,001001,WMO block number,Numeric,0,0,7,Numeric,0,2,,,Operational
+01,Identification,001002,WMO station number,Numeric,0,0,10,Numeric,0,3,,,Operational
+01,Identification,001003,WMO Region number/geographical area,Code table,0,0,3,Code table,0,1,,,Operational
+01,Identification,001004,WMO Region sub-area,Numeric,0,0,3,Numeric,0,1,(see Note 9),42,Operational
+01,Identification,001005,Buoy/platform identifier,Numeric,0,0,17,Numeric,0,5,,,Operational
+01,Identification,001006,Aircraft flight number,CCITT IA5,0,0,64,Character,0,8,,,Operational
+01,Identification,001007,Satellite identifier,Code table,0,0,10,Code table,0,4,,,Operational
+01,Identification,001008,Aircraft registration number or other identification,CCITT IA5,0,0,64,Character,0,8,,,Operational
+01,Identification,001009,Type of commercial aircraft,CCITT IA5,0,0,64,Character,0,8,,,Operational
+01,Identification,001010,Stationary buoy platform identifier; e.g. C-MAN buoys,CCITT IA5,0,0,64,Character,0,8,,,Operational
+01,Identification,001011,Ship or mobile land station identifier,CCITT IA5,0,0,72,Character,0,9,,,Operational
+01,Identification,001012,Direction of motion of moving observing platform,degree true,0,0,9,degree true,0,3,(see Notes 14 and 15),"125,60",Operational
+01,Identification,001013,Speed of motion of moving observing platform,m/s,0,0,10,m/s,0,3,(see Notes 14 and 15),"60,125",Operational
+01,Identification,001014,Platform drift speed (high precision),m/s,2,0,10,m/s,2,4,,,Operational
+01,Identification,001015,Station or site name,CCITT IA5,0,0,160,Character,0,20,,,Operational
+01,Identification,001018,Short station or site name,CCITT IA5,0,0,40,Character,0,5,,,Operational
+01,Identification,001019,Long station or site name,CCITT IA5,0,0,256,Character,0,32,,,Operational
+01,Identification,001020,WMO Region sub-area,Numeric,0,0,4,Numeric,0,2,,,Operational
+01,Identification,001021,Synoptic feature identifier,Numeric,0,0,14,Numeric,0,4,,,Operational
+01,Identification,001022,Name of feature,CCITT IA5,0,0,224,Character,0,28,(see Note 11),72,Operational
+01,Identification,001023,Observation sequence number,Numeric,0,0,9,Numeric,0,3,,,Operational
+01,Identification,001024,Wind speed source,Code table,0,0,5,Code table,0,2,,,Operational
+01,Identification,001025,Storm identifier,CCITT IA5,0,0,24,Character,0,3,(see Note 1),148,Operational
+01,Identification,001026,WMO storm name,CCITT IA5,0,0,64,Character,0,8,(see Note 16),43,Operational
+01,Identification,001027,WMO long storm name,CCITT IA5,0,0,80,Character,0,10,(see Note 2),182,Operational
+01,Identification,001028,Aerosol optical depth (AOD) source,Code table,0,0,5,Code table,0,2,,,Operational
+01,Identification,001029,SSI source,Code table,0,0,5,Code table,0,2,,,Operational
+01,Identification,001030,Numerical model identifier,CCITT IA5,0,0,128,Character,0,16,(see Note 13),153,Operational
+01,Identification,001031,Identification of originating/generating centre,Code table,0,0,16,Code table,0,5,(see Note 10),44,Operational
+01,Identification,001032,Generating application,Code table defined by originating/generating centre,0,0,8,Code table,0,3,"(Notes 3, 4 and 5)","175,21,38",Operational
+01,Identification,001033,Identification of originating/generating centre,Common Code table C-1,0,0,8,Common Code table C-1,0,3,,,Operational
+01,Identification,001034,Identification of originating/generating sub-centre,Common Code table C-12,0,0,8,Common Code table C-12,0,3,,,Operational
+01,Identification,001035,Originating centre,Common Code table C-11,0,0,16,Common Code table C-11,0,5,,,Operational
+01,Identification,001036,Agency in charge of operating the observing platform,Code table,0,0,20,Code table,0,7,,,Operational
+01,Identification,001037,SIGMET sequence identifier,CCITT IA5,0,0,24,Character,0,3,,,Operational
+01,Identification,001038,Source of sea ice fraction,Code table,0,0,5,Code table,0,2,,,Operational
+01,Identification,001039,Graphical Area Forecast (GFA) sequence identifier,CCITT IA5,0,0,40,Character,0,5,,,Operational
+01,Identification,001040,Processing centre ID code,CCITT IA5,0,0,48,Character,0,6,,,Operational
+01,Identification,001041,Absolute platform velocity - first component,m/s,5,-1073741824,31,m/s,5,10,"(see Notes 6, 7 and 8)","134,154,95",Operational
+01,Identification,001042,Absolute platform velocity - second component,m/s,5,-1073741824,31,m/s,5,10,"(see Notes 6, 7 and 8)","134,154,95",Operational
+01,Identification,001043,Absolute platform velocity - third component,m/s,5,-1073741824,31,m/s,5,10,"(see Notes 6, 7 and 8)","134,154,95",Operational
+01,Identification,001044,Standard generating application,Code table,0,0,8,Code table,0,3,,,Operational
+01,Identification,001050,Platform transmitter ID number,Numeric,0,0,17,Numeric,0,6,,,Operational
+01,Identification,001051,Platform transmitter ID number,CCITT IA5,0,0,96,Character,0,12,,,Operational
+01,Identification,001052,Platform transmitter ID,Code table,0,0,3,Code table,0,1,,,Operational
+01,Identification,001053,Tsunameter report sequence number triggered by a tsunami event,Numeric,0,0,7,Numeric,0,2,,,Operational
+01,Identification,001060,Aircraft reporting point (Beacon identifier),CCITT IA5,0,0,64,Character,0,8,,,Operational
+01,Identification,001062,Short ICAO location indicator,CCITT IA5,0,0,32,Character,0,4,,,Operational
+01,Identification,001063,ICAO location indicator,CCITT IA5,0,0,64,Character,0,8,,,Operational
+01,Identification,001064,Runway designator,CCITT IA5,0,0,32,Character,0,4,,,Operational
+01,Identification,001065,ICAO region identifier,CCITT IA5,0,0,256,Character,0,32,,,Operational
+01,Identification,001075,Tide station identification,CCITT IA5,0,0,40,Character,0,5,,,Operational
+01,Identification,001079,Unique identifier for the profile,CCITT IA5,0,0,64,Character,0,8,,,Operational
+01,Identification,001080,Ship line number according to SOOP,CCITT IA5,0,0,32,Character,0,4,,,Operational
+01,Identification,001081,Radiosonde serial number,CCITT IA5,0,0,160,Character,0,20,,,Operational
+01,Identification,001082,Radiosonde ascension number,Numeric,0,0,14,Numeric,0,4,(see Note 12),45,Operational
+01,Identification,001083,Radiosonde release number,Numeric,0,0,3,Numeric,0,1,(see Note 12),45,Operational
+01,Identification,001085,Observing platform manufacturer's model,CCITT IA5,0,0,160,Character,0,20,,,Operational
+01,Identification,001086,Observing platform manufacturer's serial number,CCITT IA5,0,0,256,Character,0,32,,,Operational
+01,Identification,001087,WMO marine observing platform extended identifier,Numeric,0,0,23,Numeric,0,7,,,Operational
+01,Identification,001090,Technique for making up initial perturbations,Code table,0,0,8,Code table,0,3,,,Operational
+01,Identification,001091,Ensemble member number,Numeric,0,0,10,Numeric,0,4,,,Operational
+01,Identification,001092,Type of ensemble forecast,Code table,0,0,8,Code table,0,3,,,Operational
+01,Identification,001093,Balloon lot number,CCITT IA5,0,0,96,Character,0,12,,,Operational
+01,Identification,001094,WBAN number,Numeric,0,0,17,Numeric,0,5,,,Operational
+01,Identification,001095,Observer identification,CCITT IA5,0,0,32,Character,0,4,,,Operational
+01,Identification,001096,Station acquisition,CCITT IA5,0,0,160,Character,0,20,,,Operational
+01,Identification,001099,Unique product definition,CCITT IA5,0,0,248,Character,0,31,,,Operational
+01,Identification,001101,State identifier,Code table,0,0,10,Code table,0,3,,,Operational
+01,Identification,001102,National station number,Numeric,0,0,30,Numeric,0,9,,,Operational
+01,Identification,001103,IMO Number. Unique Lloyd's register,Numeric,0,0,24,Numeric,0,7,,,Operational
+01,Identification,001104,State/federal state identifier,CCITT IA5,0,0,32,Character,0,4,,,Operational
+01,Identification,001105,Highway designator,CCITT IA5,0,0,40,Character,0,5,,,Operational
+01,Identification,001106,Location along highway as indicated by position markers,m,-2,0,14,m,-2,5,,,Operational
+01,Identification,001110,Aircraft tail number,CCITT IA5,0,0,48,Character,0,6,,,Operational
+01,Identification,001111,Origination airport,CCITT IA5,0,0,24,Character,0,3,,,Operational
+01,Identification,001112,Destination airport,CCITT IA5,0,0,24,Character,0,3,,,Operational
+01,Identification,001113,Template version number defined by originating centre,Numeric,1,0,9,Numeric,1,3,,,Operational
+01,Identification,001114,Encrypted ship or mobile land station identifier (base64 encoding),CCITT IA5,0,0,352,Character,0,44,,,Operational
+01,Identification,001115,Identifier of the cruise or mission under which the data were collected,CCITT IA5,0,0,160,Character,0,20,,,Operational
+01,Identification,001124,Grid point identifier,Numeric,0,0,24,Numeric,0,8,,,Operational
+01,Identification,001125,WIGOS identifier series,Numeric,0,0,4,Numeric,0,2,,,Operational
+01,Identification,001126,WIGOS issuer of identifier,Numeric,0,0,16,Numeric,0,5,,,Operational
+01,Identification,001127,WIGOS issue number,Numeric,0,0,16,Numeric,0,5,,,Operational
+01,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
+01,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
+01,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
+01,Identification,001151,Fixed mean sea-level reference datum,Code table,0,0,12,Code table,0,4,,,Operational
+01,Identification,001152,Semi-major axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
+01,Identification,001153,Semi-minor axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
+01,Identification,001154,Sensor identifier,Numeric,0,0,12,Numeric,0,4,,,Operational
+01,Identification,001155,Retrieval identifier,Code table,0,0,8,Code table,0,3,,,Operational
+02,Instrumentation,002001,Type of station,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002002,Type of instrumentation for wind measurement,Flag table,0,0,4,Flag table,0,2,,,Operational
+02,Instrumentation,002003,Type of measuring equipment used,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002005,Precision of temperature observation,K,2,0,7,K,2,3,,,Operational
+02,Instrumentation,002006,Upper air remote sensing instrument type,Code table,0,0,6,Code table,0,0,,,Operational
+02,Instrumentation,002007,Type of sensor for water level measuring instrument,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002008,Type of offshore platform,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002011,Radiosonde type,Code table,0,0,8,Code table,0,3,,,Operational
+02,Instrumentation,002012,Radiosonde computational method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002013,Solar and infrared radiation correction,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002014,Tracking technique/status of system used,Code table,0,0,7,Code table,0,3,,,Operational
+02,Instrumentation,002015,Radiosonde completeness,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002016,Radiosonde configuration,Flag table,0,0,5,Flag table,0,2,,,Operational
+02,Instrumentation,002017,Correction algorithms for humidity measurements,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002019,Satellite instruments,Code table,0,0,11,Code table,0,4,,,Operational
+02,Instrumentation,002020,Satellite classification,Code table,0,0,9,Code table,0,3,,,Operational
+02,Instrumentation,002021,Satellite instrument data used in processing,Flag table,0,0,9,Flag table,0,3,(see Note 8),47,Operational
+02,Instrumentation,002022,Satellite data-processing technique used,Flag table,0,0,8,Flag table,0,3,,,Operational
+02,Instrumentation,002023,Satellite-derived wind computation method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002024,Integrated mean humidity computational method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002025,Satellite channel(s) used in computation,Flag table,0,0,25,Flag table,0,9,,,Operational
+02,Instrumentation,002026,Cross-track resolution,m,2,0,12,m,2,4,,,Operational
+02,Instrumentation,002027,Along-track resolution,m,2,0,12,m,2,4,,,Operational
+02,Instrumentation,002028,Segment size at nadir in x-direction,m,0,0,18,m,0,6,,,Operational
+02,Instrumentation,002029,Segment size at nadir in y-direction,m,0,0,18,m,0,6,,,Operational
+02,Instrumentation,002030,Method of current measurement,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002031,Duration and time of current measurement,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002032,Indicator for digitization,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002033,Method of salinity/depth measurement,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002034,Drogue type,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002035,Cable length,m,0,0,9,m,0,3,,,Operational
+02,Instrumentation,002036,Buoy type,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002037,Method of tidal observation,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002038,Method of water temperature and/or salinity measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002039,Method of wet-bulb temperature measurement,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002040,Method of removing velocity and motion of platform from current,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002041,Method for estimating reports related to synoptic features,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002042,Indicator for sea-surface current speed,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002044,Indicator for method of calculating spectral wave data,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002045,Indicator for type of platform,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002046,Wave measurement instrumentation,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002047,Deep-ocean tsunameter type,Code table,0,0,7,Code table,0,2,,,Operational
+02,Instrumentation,002048,Satellite sensor indicator,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002049,Geostationary satellite data-processing technique used,Flag table,0,0,8,Flag table,0,3,,,Operational
+02,Instrumentation,002050,Geostationary sounder satellite channels used,Flag table,0,0,20,Flag table,0,7,,,Operational
+02,Instrumentation,002051,Indicator to specify observing method for extreme temperatures,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002052,Geostationary imager satellite channels used,Flag table,0,0,6,Flag table,0,2,,,Operational
+02,Instrumentation,002053,GOES-I/M brightness temperature characteristics,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002054,GOES-I/M soundings parameter characteristics,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002055,Geostationary soundings statistical parameters,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002056,Geostationary soundings accuracy statistics,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002057,Origin of first-guess information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002058,Valid times of first-guess information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002059,Origin of analysis information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002060,Origin of surface information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002061,Aircraft navigational system,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002062,Type of aircraft data relay system,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002063,Aircraft roll angle,deg,2,-18000,16,deg,2,5,,,Operational
+02,Instrumentation,002064,Aircraft roll angle quality,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002065,ACARS ground-receiving station,CCITT IA5,0,0,40,Character,0,5,,,Operational
+02,Instrumentation,002066,Radiosonde ground receiving system,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002067,Radiosonde operating frequency,Hz,-5,0,15,Hz,-5,5,,,Operational
+02,Instrumentation,002070,Original specification of latitude/longitude,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002071,Spectrographic wavelength,m,13,0,30,m,13,10,,,Operational
+02,Instrumentation,002072,Spectrographic width,m,13,0,30,m,13,10,,,Operational
+02,Instrumentation,002080,Balloon manufacturer,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002081,Type of balloon,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002082,Weight of balloon,kg,3,0,12,kg,3,4,,,Operational
+02,Instrumentation,002083,Type of balloon shelter,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002084,Type of gas used in balloon,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002085,Amount of gas used in balloon,kg,3,0,13,kg,3,4,,,Operational
+02,Instrumentation,002086,Balloon flight train length,m,1,0,10,m,1,4,,,Operational
+02,Instrumentation,002087,Parachute surface area,m2,4,0,15,m2,4,5,,,Operational
+02,Instrumentation,002088,Volume of gas used in balloon,m3,3,0,13,m3,3,4,,,Operational
+02,Instrumentation,002090,Instrument wavelength,m,9,0,16,m,9,5,,,Operational
+02,Instrumentation,002091,Entry sensor 4/20 mA,A,4,0,10,A,4,3,,,Operational
+02,Instrumentation,002092,Ozone profile computation method,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002095,Type of pressure sensor,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002096,Type of temperature sensor,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002097,Type of humidity sensor,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002099,Polarization,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002100,Radar constant,dB,1,0,12,dB,1,4,(see Note 9),157,Operational
+02,Instrumentation,002101,Type of antenna,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002102,Antenna height above tower base,m,0,0,8,m,0,3,,,Operational
+02,Instrumentation,002103,Radome,Flag table,0,0,2,Flag table,0,1,,,Operational
+02,Instrumentation,002104,Antenna polarization,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002105,Maximum antenna gain,dB,0,0,6,dB,0,2,,,Operational
+02,Instrumentation,002106,3-dB beamwidth,deg,1,0,6,deg,1,2,,,Operational
+02,Instrumentation,002107,Sidelobe suppression,dB,0,0,6,dB,0,2,,,Operational
+02,Instrumentation,002108,Crosspol discrimination (on axis),dB,0,0,6,dB,0,2,,,Operational
+02,Instrumentation,002109,Antenna speed (azimuth),deg/s,2,0,12,deg/s,2,4,,,Operational
+02,Instrumentation,002110,Antenna speed (elevation),deg/s,2,0,12,deg/s,2,4,,,Operational
+02,Instrumentation,002111,Radar incidence angle,deg,1,0,10,deg,1,4,,,Operational
+02,Instrumentation,002112,Radar look angle,deg,1,0,12,deg,1,4,,,Operational
+02,Instrumentation,002113,Number of azimuth looks,Numeric,0,0,4,Numeric,0,2,,,Operational
+02,Instrumentation,002114,Antenna effective surface area,m2,0,0,15,m2,0,5,,,Operational
+02,Instrumentation,002115,Type of surface observing equipment,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002116,Percentage of 320 MHz band processed,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002117,Percentage of 80 MHz band processed,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002118,Percentage of 20 MHz band processed,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002119,RA-2 instrument operations,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002120,Ocean wave frequency,Hz,3,0,10,Hz,3,4,,,Operational
+02,Instrumentation,002121,Mean frequency,Hz,-8,0,7,Hz,-8,3,,,Operational
+02,Instrumentation,002122,Frequency agility range,Hz,-6,-128,8,Hz,-6,3,,,Operational
+02,Instrumentation,002123,Peak power,W,-4,0,7,W,-4,3,,,Operational
+02,Instrumentation,002124,Average power,W,-1,0,7,W,-1,3,,,Operational
+02,Instrumentation,002125,Pulse repetition frequency,Hz,-1,0,8,Hz,-1,3,,,Operational
+02,Instrumentation,002126,Pulse width,s,7,0,6,s,7,2,,,Operational
+02,Instrumentation,002127,Receiver intermediate frequency,Hz,-6,0,7,Hz,-6,3,,,Operational
+02,Instrumentation,002128,Intermediate frequency bandwidth,Hz,-5,0,6,Hz,-5,2,,,Operational
+02,Instrumentation,002129,Minimum detectable signal,dB,0,-150,5,dB,0,3,,,Operational
+02,Instrumentation,002130,Dynamic range,dB,0,0,7,dB,0,3,,,Operational
+02,Instrumentation,002131,Sensitivity time control (STC),Flag table,0,0,2,Flag table,0,1,,,Operational
+02,Instrumentation,002132,Azimuth pointing accuracy,deg,2,0,6,deg,2,2,,,Operational
+02,Instrumentation,002133,Elevation pointing accuracy,deg,2,0,6,deg,2,2,,,Operational
+02,Instrumentation,002134,Antenna beam azimuth,deg,2,0,16,deg,2,5,,,Operational
+02,Instrumentation,002135,Antenna elevation,deg,2,-9000,15,deg,2,5,,,Operational
+02,Instrumentation,002136,Range processed by range attenuation correction,m,-3,0,16,m,-3,5,,,Operational
+02,Instrumentation,002137,Radar dual PRF ratio,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002138,Antenna rotation direction,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002139,SIRAL instrument configuration,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002140,Satellite radar beam azimuth angle,deg,0,0,9,deg,0,3,(see Note 4),111,Operational
+02,Instrumentation,002141,Measurement type,CCITT IA5,0,0,24,Character,0,3,,,Operational
+02,Instrumentation,002142,Ozone instrument serial number/identification,CCITT IA5,0,0,32,Character,0,4,(see Note 5),91,Operational
+02,Instrumentation,002143,Ozone instrument type,Code table,0,0,7,Code table,0,3,,,Operational
+02,Instrumentation,002144,Light source type for Brewer spectrophotometer,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002145,Wavelength setting for Dobson instruments,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002146,Source conditions for Dobson instruments,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002147,Method of transmission to collection centre,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002148,Data collection and/or location system,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002149,Type of data buoy,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002150,TOVS/ATOVS/AVHRR instrumentation channel number,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002151,Radiometer identifier,Code table,0,0,11,Code table,0,4,,,Operational
+02,Instrumentation,002152,Satellite instrument used in data processing,Flag table,0,0,31,Flag table,0,10,(see Note 6),46,Operational
+02,Instrumentation,002153,Satellite channel centre frequency,Hz,-8,0,26,Hz,-8,8,,,Operational
+02,Instrumentation,002154,Satellite channel band width,Hz,-8,0,26,Hz,-8,8,,,Operational
+02,Instrumentation,002155,Satellite channel wavelength,m,9,0,16,m,9,5,,,Operational
+02,Instrumentation,002156,Percentage of valid KU ocean retracker measurements,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002157,Percentage of valid S ocean retracker measurements,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002158,RA-2 instrument,Flag table,0,0,9,Flag table,0,3,,,Operational
+02,Instrumentation,002159,MWR instrument,Flag table,0,0,8,Flag table,0,3,,,Operational
+02,Instrumentation,002160,Wavelength of the radar,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002161,Wind processing method,Flag table,0,0,16,Flag table,0,6,,,Operational
+02,Instrumentation,002162,Extended height assignment method,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002163,Height assignment method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002164,Tracer correlation method,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002165,Radiance type flags,Flag table,0,0,15,Flag table,0,5,,,Operational
+02,Instrumentation,002166,Radiance type,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002167,Radiance computational method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002168,Hydrostatic pressure of lower end of cable (thermistor string),Pa,-3,0,16,kPa,0,5,,,Operational
+02,Instrumentation,002169,Anemometer type,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002170,Aircraft humidity sensors,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002171,Instrument serial number for water temperature profile measurement,CCITT IA5,0,0,64,Character,0,8,,,Operational
+02,Instrumentation,002172,Product type for retrieved atmospheric gases,Code table,0,0,8,Code table,0,3,,,Operational
+02,Instrumentation,002173,Square of the off-nadir angle,deg2,4,0,10,deg2,4,4,(see Note 7),124,Operational
+02,Instrumentation,002174,Mean across track pixel number,Numeric,0,0,9,Numeric,0,3,,,Operational
+02,Instrumentation,002175,Method of precipitation measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002176,Method of state of ground measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002177,Method of snow depth measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002178,Method of liquid content measurement of precipitation,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002179,Type of sky condition algorithm,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002180,Main present weather detecting system,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002181,Supplementary present weather sensor,Flag table,0,0,21,Flag table,0,7,,,Operational
+02,Instrumentation,002182,Visibility measurement system,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002183,Cloud detection system,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002184,Type of lightning detection sensor,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002185,Method of evaporation measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002186,Capability to detect precipitation phenomena,Flag table,0,0,30,Flag table,0,10,,,Operational
+02,Instrumentation,002187,Capability to detect other weather phenomena,Flag table,0,0,18,Flag table,0,6,,,Operational
+02,Instrumentation,002188,Capability to detect obscuration,Flag table,0,0,21,Flag table,0,7,,,Operational
+02,Instrumentation,002189,Capability to discriminate lightning strikes,Flag table,0,0,12,Flag table,0,4,,,Operational
+02,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002191,Geopotential height calculation,Code table,0,0,4,Code table,0,2,,,Operational
+03,Instrumentation,003001,Surface station type,Code table,0,0,5,Code table,0,2,,,Operational
+03,Instrumentation,003003,Thermometer/hygrometer housing,Code table,0,0,4,Code table,0,2,,,Operational
+03,Instrumentation,003004,Type of screen/shelter/radiation shield,Code table,0,0,4,Code table,0,2,,,Operational
+03,Instrumentation,003005,Horizontal width of screen or shield (x),m,3,0,16,m,3,5,,,Operational
+03,Instrumentation,003006,Horizontal depth of screen or shield (y),m,3,0,16,m,3,5,,,Operational
+03,Instrumentation,003007,Vertical height of screen or shield (z),m,3,0,16,m,3,5,,,Operational
+03,Instrumentation,003008,Artificially ventilated screen or shield,Code table,0,0,3,Code table,0,1,,,Operational
+03,Instrumentation,003009,Amount of forced ventilation at time of reading,m/s,1,0,9,m/s,1,3,,,Operational
+03,Instrumentation,003010,Method of sea/water current measurement,Code table,0,0,4,Code table,0,2,,,Operational
+03,Instrumentation,003011,Method of depth calculation,Code table,0,0,2,Code table,0,1,,,Operational
+03,Instrumentation,003012,Instrument type/sensor for dissolved oxygen measurement,Code table,0,0,4,Code table,0,2,,,Operational
+03,Instrumentation,003016,Position of road sensors,Code table,0,0,4,Code table,0,2,,,Operational
+03,Instrumentation,003017,Extended type of station,Flag table,0,0,6,Flag table,0,2,,,Operational
+03,Instrumentation,003018,Type of road,Code table,0,0,5,Code table,0,2,,,Operational
+03,Instrumentation,003019,Type of construction,Code table,0,0,4,Code table,0,2,,,Operational
+03,Instrumentation,003020,Material for thermometer/hygrometer housing,Code table,0,0,3,Code table,0,1,,,Operational
+03,Instrumentation,003021,Hygrometer heating,Code table,0,0,2,Code table,0,1,,,Operational
+03,Instrumentation,003022,Instrument owner,Code table,0,0,3,Code table,0,1,,,Operational
+03,Instrumentation,003023,Configuration of louvers for thermometer/hygrometer screen,Code table,0,0,3,Code table,0,1,,,Operational
+03,Instrumentation,003024,Psychrometric coefficient,K-1,6,0,10,K-1,6,3,,,Operational
+03,Instrumentation,003025,Cross-track estimation area size,m,0,5000,16,m,0,5,,,Operational
+03,Instrumentation,003026,Along-track estimation area size,m,0,5000,16,m,0,5,,,Operational
+03,Instrumentation,003027,Type of flight rig,Code table,0,0,4,Code table,0,2,,,Operational
+03,Instrumentation,003028,Method of snow water equivalent measurement,Code table,0,0,6,Code table,0,2,,,Operational
+04,Location (time),004001,Year,a,0,0,12,a,0,4,,,Operational
+04,Location (time),004002,Month,mon,0,0,4,mon,0,2,,,Operational
+04,Location (time),004003,Day,d,0,0,6,d,0,2,,,Operational
+04,Location (time),004004,Hour,h,0,0,5,h,0,2,,,Operational
+04,Location (time),004005,Minute,min,0,0,6,min,0,2,,,Operational
+04,Location (time),004006,Second,s,0,0,6,s,0,2,,,Operational
+04,Location (time),004007,Seconds within a minute (microsecond accuracy),s,6,0,26,s,6,8,,,Operational
+04,Location (time),004011,Time increment,a,0,-1024,11,a,0,4,,,Operational
+04,Location (time),004012,Time increment,mon,0,-1024,11,mon,0,4,,,Operational
+04,Location (time),004013,Time increment,d,0,-1024,11,d,0,4,,,Operational
+04,Location (time),004014,Time increment,h,0,-1024,11,h,0,4,,,Operational
+04,Location (time),004015,Time increment,min,0,-2048,12,min,0,4,,,Operational
+04,Location (time),004016,Time increment,s,0,-4096,13,s,0,4,,,Operational
+04,Location (time),004017,Reference time period for accumulated or extreme data,min,0,-1440,12,min,0,4,,,Operational
+04,Location (time),004021,Time period or displacement,a,0,-1024,11,a,0,4,,,Operational
+04,Location (time),004022,Time period or displacement,mon,0,-1024,11,mon,0,4,,,Operational
+04,Location (time),004023,Time period or displacement,d,0,-1024,11,d,0,4,,,Operational
+04,Location (time),004024,Time period or displacement,h,0,-2048,12,h,0,4,,,Operational
+04,Location (time),004025,Time period or displacement,min,0,-2048,12,min,0,4,,,Operational
+04,Location (time),004026,Time period or displacement,s,0,-4096,13,s,0,4,,,Operational
+04,Location (time),004031,Duration of time relating to following value,h,0,0,8,h,0,3,,,Operational
+04,Location (time),004032,Duration of time relating to following value,min,0,0,6,min,0,2,,,Operational
+04,Location (time),004041,"Time difference, UTC - LMT",min,0,-1440,12,min,0,4,(see Note 6),48,Operational
+04,Location (time),004043,Day of the year,d,0,0,9,d,0,3,,,Operational
+04,Location (time),004051,Principal time of daily reading of maximum temperature,h,0,0,5,h,0,2,,,Operational
+04,Location (time),004052,Principal time of daily reading of minimum temperature,h,0,0,5,h,0,2,,,Operational
+04,Location (time),004053,Number of days with precipitation equal to or more than 1 mm,Numeric,0,0,6,Numeric,0,2,,,Operational
+04,Location (time),004059,Times of observation used to compute the reported mean values,Flag table,0,0,6,Flag table,0,2,,,Operational
+04,Location (time),004065,Short time increment,min,0,-128,8,min,0,2,,,Operational
+04,Location (time),004066,Short time increment,s,0,-128,8,s,0,2,,,Operational
+04,Location (time),004073,Short time period or displacement,d,0,-128,8,d,0,2,,,Operational
+04,Location (time),004074,Short time period or displacement,h,0,-128,8,h,0,2,,,Operational
+04,Location (time),004075,Short time period or displacement,min,0,-128,8,min,0,2,,,Operational
+04,Location (time),004080,Averaging period for following value,Code table,0,0,4,Code table,0,2,,,Operational
+04,Location (time),004086,Long time period or displacement,s,0,-8192,15,s,0,5,,,Operational
+05,Location (horizontal - 1),005001,Latitude (high accuracy),deg,5,-9000000,25,deg,5,7,,,Operational
+05,Location (horizontal - 1),005002,Latitude (coarse accuracy),deg,2,-9000,15,deg,2,4,,,Operational
+05,Location (horizontal - 1),005011,Latitude increment (high accuracy),deg,5,-9000000,25,deg,5,7,,,Operational
+05,Location (horizontal - 1),005012,Latitude increment (coarse accuracy),deg,2,-9000,15,deg,2,4,,,Operational
+05,Location (horizontal - 1),005015,Latitude displacement (high accuracy),deg,5,-9000000,25,deg,5,7,,,Operational
+05,Location (horizontal - 1),005016,Latitude displacement (coarse accuracy),deg,2,-9000,15,deg,2,4,,,Operational
+05,Location (horizontal - 1),005021,Bearing or azimuth,degree true,2,0,16,degree true,2,5,,,Operational
+05,Location (horizontal - 1),005022,Solar azimuth,degree true,2,0,16,degree true,2,5,,,Operational
+05,Location (horizontal - 1),005023,Sun to satellite azimuth difference,deg,1,-1800,12,deg,1,4,,,Operational
+05,Location (horizontal - 1),005030,Direction (spectral),deg,0,0,12,deg,0,4,,,Operational
+05,Location (horizontal - 1),005031,Row number,Numeric,0,0,12,Numeric,0,4,,,Operational
+05,Location (horizontal - 1),005032,Y offset,m,2,-1073741824,31,m,2,11,(see Note 6),184,Operational
+05,Location (horizontal - 1),005033,Pixel size on horizontal - 1,m,-1,0,16,m,-1,5,,,Operational
+05,Location (horizontal - 1),005034,Along track row number,Numeric,0,0,11,Numeric,0,4,,,Operational
+05,Location (horizontal - 1),005035,Maximum size of x-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
+05,Location (horizontal - 1),005036,Ship transect number according to SOOP,Numeric,0,0,7,Numeric,0,2,,,Operational
+05,Location (horizontal - 1),005040,Orbit number,Numeric,0,0,24,Numeric,0,8,,,Operational
+05,Location (horizontal - 1),005041,Scan line number,Numeric,0,0,8,Numeric,0,3,,,Operational
+05,Location (horizontal - 1),005042,Channel number,Numeric,0,0,6,Numeric,0,2,,,Operational
+05,Location (horizontal - 1),005043,Field of view number,Numeric,0,0,8,Numeric,0,3,,,Operational
+05,Location (horizontal - 1),005044,Satellite cycle number,Numeric,0,0,11,Numeric,0,4,,,Operational
+05,Location (horizontal - 1),005045,Field of regard number,Numeric,0,0,8,Numeric,0,3,,,Operational
+05,Location (horizontal - 1),005052,Channel number increment,Numeric,0,0,5,Numeric,0,2,,,Operational
+05,Location (horizontal - 1),005053,Field of view number increment,Numeric,0,0,5,Numeric,0,2,,,Operational
+05,Location (horizontal - 1),005060,Y angular position from centre of gravity,deg,6,-8000000,24,deg,6,8,,,Operational
+05,Location (horizontal - 1),005061,Z angular position from centre of gravity,deg,6,-8000000,24,deg,6,8,,,Operational
+05,Location (horizontal - 1),005063,Spacecraft roll,deg,2,0,16,deg,2,5,,,Operational
+05,Location (horizontal - 1),005064,Spacecraft pitch,deg,2,0,16,deg,2,5,,,Operational
+05,Location (horizontal - 1),005066,Spacecraft yaw,deg,2,0,16,deg,2,5,,,Operational
+05,Location (horizontal - 1),005067,Number of scan lines,Numeric,0,0,8,Numeric,0,3,,,Operational
+05,Location (horizontal - 1),005068,Profile number,Numeric,0,0,16,Numeric,0,5,,,Operational
+05,Location (horizontal - 1),005069,Receiver channel,Code table,0,0,2,Code table,0,1,,,Operational
+05,Location (horizontal - 1),005070,Observation identifier,Numeric,0,0,30,Numeric,0,10,,,Operational
+05,Location (horizontal - 1),005071,Stripmap identifier,Numeric,0,0,16,Numeric,0,5,,,Operational
+05,Location (horizontal - 1),005072,Number of spectra in range direction,Numeric,0,0,8,Numeric,0,3,,,Operational
+05,Location (horizontal - 1),005073,Number of spectra in azimuthal direction,Numeric,0,0,8,Numeric,0,3,,,Operational
+05,Location (horizontal - 1),005074,Index in range direction,Numeric,0,0,8,Numeric,0,3,,,Operational
+05,Location (horizontal - 1),005075,Index in azimuthal direction,Numeric,0,0,8,Numeric,0,3,,,Operational
+06,Location (horizontal - 2),006001,Longitude (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
+06,Location (horizontal - 2),006002,Longitude (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
+06,Location (horizontal - 2),006011,Longitude increment (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
+06,Location (horizontal - 2),006012,Longitude increment (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
+06,Location (horizontal - 2),006015,Longitude displacement (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
+06,Location (horizontal - 2),006016,Longitude displacement (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
+06,Location (horizontal - 2),006021,Distance,m,-1,0,13,m,-1,4,,,Operational
+06,Location (horizontal - 2),006029,Wave number,/m,1,0,22,/m,1,7,,,Operational
+06,Location (horizontal - 2),006030,Wave number (spectral),rad/m,5,0,13,rad/m,5,4,,,Operational
+06,Location (horizontal - 2),006031,Column number,Numeric,0,0,12,Numeric,0,4,,,Operational
+06,Location (horizontal - 2),006032,X offset,m,2,-1073741824,31,m,2,11,(see Note 6),183,Operational
+06,Location (horizontal - 2),006033,Pixel size on horizontal - 2,m,-1,0,16,m,-1,5,,,Operational
+06,Location (horizontal - 2),006034,Cross-track cell number,Numeric,0,0,7,Numeric,0,3,,,Operational
+06,Location (horizontal - 2),006035,Maximum size of y-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
+06,Location (horizontal - 2),006040,Radius of confidence,m,0,0,13,m,0,4,,,Operational
+07,Location (vertical),007001,Height of station,m,0,-400,15,m,0,5,(see Note 1),116,Operational
+07,Location (vertical),007002,Height or altitude,m,-1,-40,16,m,-1,5,,,Operational
+07,Location (vertical),007003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
+07,Location (vertical),007004,Pressure,Pa,-1,0,14,Pa,-1,5,,,Operational
+07,Location (vertical),007005,Height increment,m,0,-400,12,m,0,4,,,Operational
+07,Location (vertical),007006,Height above station,m,0,0,15,m,0,5,,,Operational
+07,Location (vertical),007007,Height,m,0,-1000,17,m,0,6,,,Operational
+07,Location (vertical),007008,Geopotential,m2 s-2,0,-10000,20,m2 s-2,0,7,,,Operational
+07,Location (vertical),007009,Geopotential height,gpm,0,-1000,17,gpm,0,5,,,Operational
+07,Location (vertical),007010,Flight level,m,0,-1024,16,ft,-1,5,,,Operational
+07,Location (vertical),007012,Grid point altitude,m,2,-50000,20,m,2,7,,,Operational
+07,Location (vertical),007021,Elevation,deg,2,-9000,15,deg,2,5,(see Note 2),68,Operational
+07,Location (vertical),007022,Solar elevation,deg,2,-9000,15,deg,2,5,,,Operational
+07,Location (vertical),007024,Satellite zenith angle,deg,2,-9000,15,deg,2,5,,,Operational
+07,Location (vertical),007025,Solar zenith angle,deg,2,-9000,15,deg,2,5,,,Operational
+07,Location (vertical),007026,Satellite zenith angle,deg,4,-900000,21,deg,4,7,,,Operational
+07,Location (vertical),007030,Height of station ground above mean sea level,m,1,-4000,17,m,1,5,(see Note 3),87,Operational
+07,Location (vertical),007031,Height of barometer above mean sea level,m,1,-4000,17,m,1,5,(see Note 4),84,Operational
+07,Location (vertical),007032,Height of sensor above local ground (or deck of marine platform),m,2,0,16,m,2,5,(see Note 5),85,Operational
+07,Location (vertical),007033,Height of sensor above water surface,m,1,0,12,m,1,4,(see Note 6),86,Operational
+07,Location (vertical),007035,Maximum size of z-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
+07,Location (vertical),007036,Level index of z,Numeric,0,0,12,Numeric,0,4,,,Operational
+07,Location (vertical),007040,Impact parameter,m,1,62000000,22,m,1,8,(see Note 7),74,Operational
+07,Location (vertical),007061,Depth below land surface,m,2,0,14,m,2,5,,,Operational
+07,Location (vertical),007062,Depth below sea/water surface,m,1,0,17,m,1,6,,,Operational
+07,Location (vertical),007063,Depth below sea/water surface (cm),m,2,0,20,m,2,7,,,Operational
+07,Location (vertical),007064,Representative height of sensor above station,m,0,0,4,m,0,2,(see Note 8),117,Operational
+07,Location (vertical),007065,Water pressure,Pa,-3,0,17,Pa,-3,6,,,Operational
+07,Location (vertical),007070,Drogue depth,m,0,0,10,m,0,4,,,Operational
+07,Location (vertical),007071,Height (high resolution),m,3,-10000000,26,m,3,8,,,Operational
+07,Location (vertical),007072,Scan angle,deg,2,-9000,15,deg,2,6,,,Operational
+08,Significance qualifiers,008001,Vertical sounding significance,Flag table,0,0,7,Flag table,0,3,,,Operational
+08,Significance qualifiers,008002,Vertical significance (surface observations),Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008003,Vertical significance (satellite observations),Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008004,Phase of aircraft flight,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008005,Meteorological attribute significance,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008006,Ozone vertical sounding significance,Flag table,0,0,9,Flag table,0,3,,,Operational
+08,Significance qualifiers,008007,Dimensional significance,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008008,Radiation vertical sounding significance,Flag table,0,0,9,Flag table,0,3,,,Operational
+08,Significance qualifiers,008009,Detailed phase of flight,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008010,Surface qualifier (temperature data),Code table,0,0,5,Code table,0,2,,,Operational
+08,Significance qualifiers,008011,Meteorological feature,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008012,Land/sea qualifier,Code table,0,0,2,Code table,0,1,,,Operational
+08,Significance qualifiers,008013,Day/night qualifier,Code table,0,0,2,Code table,0,1,,,Operational
+08,Significance qualifiers,008014,Qualifier for runway visual range,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008015,Significant qualifier for sensor,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008016,Change qualifier of a trend-type forecast or an aerodrome forecast,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008017,Qualifier of the time when the forecast change is expected,Code table,0,0,2,Code table,0,1,,,Operational
+08,Significance qualifiers,008018,SEAWINDS land/ice surface type,Flag table,0,0,17,Flag table,0,6,,,Operational
+08,Significance qualifiers,008019,Qualifier for following centre identifier,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008020,Total number of missing entities (with respect to accumulation or average),Numeric,0,0,16,Numeric,0,5,,,Operational
+08,Significance qualifiers,008021,Time significance,Code table,0,0,5,Code table,0,2,,,Operational
+08,Significance qualifiers,008022,Total number (with respect to accumulation or average),Numeric,0,0,16,Numeric,0,5,,,Operational
+08,Significance qualifiers,008023,First-order statistics,Code table,0,0,6,Code table,0,2,(see Note 3),70,Operational
+08,Significance qualifiers,008024,Difference statistics,Code table,0,0,6,Code table,0,2,(see Note 4),61,Operational
+08,Significance qualifiers,008025,Time difference qualifier,Code table,0,0,4,Code table,0,2,(see Note 5),49,Operational
+08,Significance qualifiers,008026,Matrix significance,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008029,Surface type,Code table,0,0,8,Code table,0,3,,,Operational
+08,Significance qualifiers,008030,"Manual on Codes (Volume I.1, Section C) Code table from which data are derived",Numeric,0,0,13,Numeric,0,4,,,Operational
+08,Significance qualifiers,008031,Data category - CREX table A,Numeric,0,0,8,Numeric,0,3,,,Operational
+08,Significance qualifiers,008032,Status of operation,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008033,Method of derivation of percentage confidence,Code table,0,0,7,Code table,0,3,(see Note 6),50,Operational
+08,Significance qualifiers,008034,Temperature/salinity measurement qualifier,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008035,Type of monitoring exercise,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008036,Type of centre or station performing monitoring,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008037,Baseline check significance,Code table,0,0,5,Code table,0,2,,,Operational
+08,Significance qualifiers,008038,Instrument data significance,Code table,0,0,8,Code table,0,3,,,Operational
+08,Significance qualifiers,008039,Time significance (Aviation forecast),Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008040,Flight level significance,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008041,Data significance,Code table,0,0,5,Code table,0,2,,,Operational
+08,Significance qualifiers,008042,Extended vertical sounding significance,Flag table,0,0,18,Flag table,0,6,,,Operational
+08,Significance qualifiers,008043,Atmospheric chemical or physical constituent type,Code table,0,0,8,Code table,0,3,(see Note 7),169,Operational
+08,Significance qualifiers,008044,CAS registry number,CCITT IA5,0,0,88,Character,0,11,,,Operational
+08,Significance qualifiers,008046,Atmospheric chemical or physical constituent type,Common Code table C-14,0,0,16,Common Code table C-14,0,5,,,Operational
+08,Significance qualifiers,008049,Number of observations,Numeric,0,0,8,Numeric,0,3,,,Operational
+08,Significance qualifiers,008050,Qualifier for number of missing values in calculation of statistic,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008051,Qualifier for number of missing values in calculation of statistic,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008052,Condition for which number of days of occurrence follows,Code table,0,0,5,Code table,0,2,,,Operational
+08,Significance qualifiers,008053,Day of occurrence qualifier,Code table,0,0,2,Code table,0,1,,,Operational
+08,Significance qualifiers,008054,Qualifier for wind speed or wind gusts,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008060,Sample scanning mode significance,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008065,Sun-glint indicator,Code table,0,0,2,Code table,0,1,,,Operational
+08,Significance qualifiers,008066,Semi-transparency indicator,Code table,0,0,2,Code table,0,1,,,Operational
+08,Significance qualifiers,008070,Vertical sounding product qualifier,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008072,Pixel(s) type,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008074,Altimeter echo type,Code table,0,0,2,Code table,0,1,,,Operational
+08,Significance qualifiers,008075,Ascending/descending orbit qualifier,Code table,0,0,2,Code table,0,1,,,Operational
+08,Significance qualifiers,008076,Type of band,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008077,Radiometer sensed surface type,Code table,0,0,7,Code table,0,3,,,Operational
+08,Significance qualifiers,008079,Product status,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008080,Qualifier for GTSPP quality flag,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008081,Type of equipment,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008082,Modification of sensor height to another value,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008083,Nominal value indicator,Flag table,0,0,15,Flag table,0,5,,,Operational
+08,Significance qualifiers,008085,Beam identifier,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008086,Vertical significance for NWP,Flag table,0,0,12,Flag table,0,4,,,Operational
+08,Significance qualifiers,008087,Corner position of observation,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008088,Map significance,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008090,Decimal scale of following significands,Numeric,0,-127,8,Numeric,0,3,(see Note 8),51,Operational
+08,Significance qualifiers,008091,Coordinates significance,Code table,0,0,8,Code table,0,3,,,Operational
+08,Significance qualifiers,008092,Measurement uncertainty expression,Code table,0,0,5,Code table,0,2,,,Operational
+08,Significance qualifiers,008093,Measurement uncertainty significance,Code table,0,0,5,Code table,0,2,,,Operational
+08,Significance qualifiers,008094,Method used to calculate the average daily temperature,Code table,0,0,8,Code table,0,3,,,Operational
+08,Significance qualifiers,008095,Siting and measurement quality classification for temperature,Code table,0,0,8,Code table,0,3,,,Operational
+08,Significance qualifiers,008096,Siting and measurement quality classification for precipitation,Code table,0,0,8,Code table,0,3,,,Operational
 10,Non-coordinate location (vertical),010001,Height of land surface,m,0,-400,15,m,0,5,,,Operational
 10,Non-coordinate location (vertical),010002,Height,m,-1,-40,16,m,-1,5,,,Operational
 10,Non-coordinate location (vertical),010003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
