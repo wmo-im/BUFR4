@@ -1,47 +1,47 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-14,Radiation and radiance,014001,"Long-wave radiation, integrated over 24 hours",,,J m-2,-3,-65536,17,J m-2,-3,5,Operational
-14,Radiation and radiance,014002,"Long-wave radiation, integrated over period specified",,,J m-2,-3,-65536,17,J m-2,-3,5,Operational
-14,Radiation and radiance,014003,"Short-wave radiation, integrated over 24 hours",,,J m-2,-3,-65536,17,J m-2,-3,5,Operational
-14,Radiation and radiance,014004,"Short-wave radiation, integrated over period specified",,,J m-2,-3,-65536,17,J m-2,-3,5,Operational
-14,Radiation and radiance,014011,"Net long-wave radiation, integrated over 24 hours",,,J m-2,-3,-65536,17,J m-2,-3,5,Operational
-14,Radiation and radiance,014012,"Net long-wave radiation, integrated over period specified",,,J m-2,-3,-65536,17,J m-2,-3,5,Operational
-14,Radiation and radiance,014013,"Net short-wave radiation, integrated over 24 hours",,,J m-2,-3,-65536,17,J m-2,-3,5,Operational
-14,Radiation and radiance,014014,"Net short-wave radiation, integrated over period specified",,,J m-2,-3,-65536,17,J m-2,-3,5,Operational
-14,Radiation and radiance,014015,"Net radiation, integrated over 24 hours",,,J m-2,-4,-16384,15,J m-2,-4,5,Operational
-14,Radiation and radiance,014016,"Net radiation, integrated over period specified",,,J m-2,-4,-16384,15,J m-2,-4,5,Operational
-14,Radiation and radiance,014017,Instantaneous long-wave radiation,,,W m-2,0,-512,10,W m-2,0,4,Operational
-14,Radiation and radiance,014018,Instantaneous short-wave radiation,,,W m-2,0,-2048,12,W m-2,0,4,Operational
-14,Radiation and radiance,014019,Surface albedo,,,%,0,0,7,%,0,3,Operational
-14,Radiation and radiance,014020,"Global solar radiation, integrated over 24 hours",,,J m-2,-4,0,15,J m-2,-4,5,Operational
-14,Radiation and radiance,014021,"Global solar radiation, integrated over period specified",,,J m-2,-4,0,15,J m-2,-4,5,Operational
-14,Radiation and radiance,014022,"Diffuse solar radiation, integrated over 24 hours",,,J m-2,-4,0,15,J m-2,-4,5,Operational
-14,Radiation and radiance,014023,"Diffuse solar radiation, integrated over period specified",,,J m-2,-4,0,15,J m-2,-4,5,Operational
-14,Radiation and radiance,014024,"Direct solar radiation, integrated over 24 hours",,,J m-2,-4,0,15,J m-2,-4,5,Operational
-14,Radiation and radiance,014025,"Direct solar radiation, integrated over period specified",,,J m-2,-4,0,15,J m-2,-4,5,Operational
-14,Radiation and radiance,014026,Albedo at the top of clouds,,,%,0,0,7,%,0,3,Operational
-14,Radiation and radiance,014027,Albedo,,,%,0,0,7,%,0,3,Operational
-14,Radiation and radiance,014028,"Global solar radiation (high accuracy), integrated over period specified",,,J m-2,-2,0,20,J m-2,-2,6,Operational
-14,Radiation and radiance,014029,"Diffuse solar radiation (high accuracy), integrated over period specified",,,J m-2,-2,0,20,J m-2,-2,6,Operational
-14,Radiation and radiance,014030,"Direct solar radiation (high accuracy), integrated over period specified",,,J m-2,-2,0,20,J m-2,-2,6,Operational
-14,Radiation and radiance,014031,Total sunshine,,,min,0,0,11,min,0,4,Operational
-14,Radiation and radiance,014032,Total sunshine,,,h,0,0,10,h,0,4,Operational
-14,Radiation and radiance,014033,Total sunshine,,,%,0,0,9,%,0,3,Operational
-14,Radiation and radiance,014034,Sunshine over period specified,,,min,0,0,11,min,0,4,Operational
-14,Radiation and radiance,014035,Solar radiation flux,,,W m-2,1,0,14,W m-2,1,5,Operational
-14,Radiation and radiance,014042,Bidirectional reflectance,,,%,0,0,7,%,0,3,Operational
-14,Radiation and radiance,014043,Channel radiance,(see Note 7),35,W m-2 sr-1 um-1,4,0,23,W m-2 sr-1 um-1,4,7,Operational
-14,Radiation and radiance,014044,Channel radiance,,,W m-2 sr-1 cm,7,-100000,22,W m-2 sr-1 cm,7,7,Operational
-14,Radiation and radiance,014045,Channel radiance,(see Note 4),36,W m-2 sr-1 cm,0,0,11,W m-2 sr-1 cm,0,4,Operational
-14,Radiation and radiance,014046,Scaled radiance,(see Note 6),29,W m-2 sr-1 m,0,-5000,16,W m-2 sr-1 m,0,5,Operational
-14,Radiation and radiance,014047,Scaled mean AVHRR radiance,,,W m-2 sr-1 m,0,0,31,W m-2 sr-1 m,0,10,Operational
-14,Radiation and radiance,014048,Scaled standard deviation AVHRR radiance,,,W m-2 sr-1 m,0,0,31,W m-2 sr-1 m,0,10,Operational
-14,Radiation and radiance,014049,Noise equivalent delta radiance,,,W m-2 sr-1 cm,7,0,22,W m-2 sr-1 cm,0,0,Operational
-14,Radiation and radiance,014050,Emissivity,(see Note 5),69,%,1,0,10,%,1,4,Operational
-14,Radiation and radiance,014051,Direct solar radiation integrated over last hour,,,J m-2,-3,0,14,J m-2,-3,4,Operational
-14,Radiation and radiance,014052,"Global upward solar radiation, integrated over period specified",,,J m-2,-2,-1048574,20,J m-2,-2,7,Operational
-14,Radiation and radiance,014053,"Net radiation (high accuracy), integrated over period specified",,,J m-2,-2,-1048574,21,J m-2,-2,7,Operational
-14,Radiation and radiance,014054,"Photosynthetically active radiation, integrated over period specified",,,J m-2,-3,0,16,J m-2,-3,5,Operational
-14,Radiation and radiance,014055,Solar activity index,,,Numeric,0,-32768,16,Numeric,0,5,Operational
-14,Radiation and radiance,014056,Background luminance,,,Cd m-2,0,0,18,Cd m-2,0,6,Operational
-14,Radiation and radiance,014057,Soil heat flux,,,J m-2,-2,-1048574,21,J m-2,-2,7,Operational
-14,Radiation and radiance,014072,Global UV irradiation,(see Note 8),83,J m-2,0,-4000000,23,J m-2,0,7,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+14,Radiation and radiance,14001,"Long-wave radiation, integrated over 24 hours",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14002,"Long-wave radiation, integrated over period specified",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14003,"Short-wave radiation, integrated over 24 hours",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14004,"Short-wave radiation, integrated over period specified",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14011,"Net long-wave radiation, integrated over 24 hours",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14012,"Net long-wave radiation, integrated over period specified",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14013,"Net short-wave radiation, integrated over 24 hours",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14014,"Net short-wave radiation, integrated over period specified",J m-2,-3,-65536,17,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14015,"Net radiation, integrated over 24 hours",J m-2,-4,-16384,15,J m-2,-4,5,,,Operational
+14,Radiation and radiance,14016,"Net radiation, integrated over period specified",J m-2,-4,-16384,15,J m-2,-4,5,,,Operational
+14,Radiation and radiance,14017,Instantaneous long-wave radiation,W m-2,0,-512,10,W m-2,0,4,,,Operational
+14,Radiation and radiance,14018,Instantaneous short-wave radiation,W m-2,0,-2048,12,W m-2,0,4,,,Operational
+14,Radiation and radiance,14019,Surface albedo,%,0,0,7,%,0,3,,,Operational
+14,Radiation and radiance,14020,"Global solar radiation, integrated over 24 hours",J m-2,-4,0,15,J m-2,-4,5,,,Operational
+14,Radiation and radiance,14021,"Global solar radiation, integrated over period specified",J m-2,-4,0,15,J m-2,-4,5,,,Operational
+14,Radiation and radiance,14022,"Diffuse solar radiation, integrated over 24 hours",J m-2,-4,0,15,J m-2,-4,5,,,Operational
+14,Radiation and radiance,14023,"Diffuse solar radiation, integrated over period specified",J m-2,-4,0,15,J m-2,-4,5,,,Operational
+14,Radiation and radiance,14024,"Direct solar radiation, integrated over 24 hours",J m-2,-4,0,15,J m-2,-4,5,,,Operational
+14,Radiation and radiance,14025,"Direct solar radiation, integrated over period specified",J m-2,-4,0,15,J m-2,-4,5,,,Operational
+14,Radiation and radiance,14026,Albedo at the top of clouds,%,0,0,7,%,0,3,,,Operational
+14,Radiation and radiance,14027,Albedo,%,0,0,7,%,0,3,,,Operational
+14,Radiation and radiance,14028,"Global solar radiation (high accuracy), integrated over period specified",J m-2,-2,0,20,J m-2,-2,6,,,Operational
+14,Radiation and radiance,14029,"Diffuse solar radiation (high accuracy), integrated over period specified",J m-2,-2,0,20,J m-2,-2,6,,,Operational
+14,Radiation and radiance,14030,"Direct solar radiation (high accuracy), integrated over period specified",J m-2,-2,0,20,J m-2,-2,6,,,Operational
+14,Radiation and radiance,14031,Total sunshine,min,0,0,11,min,0,4,,,Operational
+14,Radiation and radiance,14032,Total sunshine,h,0,0,10,h,0,4,,,Operational
+14,Radiation and radiance,14033,Total sunshine,%,0,0,9,%,0,3,,,Operational
+14,Radiation and radiance,14034,Sunshine over period specified,min,0,0,11,min,0,4,,,Operational
+14,Radiation and radiance,14035,Solar radiation flux,W m-2,1,0,14,W m-2,1,5,,,Operational
+14,Radiation and radiance,14042,Bidirectional reflectance,%,0,0,7,%,0,3,,,Operational
+14,Radiation and radiance,14043,Channel radiance,W m-2 sr-1 um-1,4,0,23,W m-2 sr-1 um-1,4,7,(see Note 7),35,Operational
+14,Radiation and radiance,14044,Channel radiance,W m-2 sr-1 cm,7,-100000,22,W m-2 sr-1 cm,7,7,,,Operational
+14,Radiation and radiance,14045,Channel radiance,W m-2 sr-1 cm,0,0,11,W m-2 sr-1 cm,0,4,(see Note 4),36,Operational
+14,Radiation and radiance,14046,Scaled radiance,W m-2 sr-1 m,0,-5000,16,W m-2 sr-1 m,0,5,(see Note 6),29,Operational
+14,Radiation and radiance,14047,Scaled mean AVHRR radiance,W m-2 sr-1 m,0,0,31,W m-2 sr-1 m,0,10,,,Operational
+14,Radiation and radiance,14048,Scaled standard deviation AVHRR radiance,W m-2 sr-1 m,0,0,31,W m-2 sr-1 m,0,10,,,Operational
+14,Radiation and radiance,14049,Noise equivalent delta radiance,W m-2 sr-1 cm,7,0,22,W m-2 sr-1 cm,0,0,,,Operational
+14,Radiation and radiance,14050,Emissivity,%,1,0,10,%,1,4,(see Note 5),69,Operational
+14,Radiation and radiance,14051,Direct solar radiation integrated over last hour,J m-2,-3,0,14,J m-2,-3,4,,,Operational
+14,Radiation and radiance,14052,"Global upward solar radiation, integrated over period specified",J m-2,-2,-1048574,20,J m-2,-2,7,,,Operational
+14,Radiation and radiance,14053,"Net radiation (high accuracy), integrated over period specified",J m-2,-2,-1048574,21,J m-2,-2,7,,,Operational
+14,Radiation and radiance,14054,"Photosynthetically active radiation, integrated over period specified",J m-2,-3,0,16,J m-2,-3,5,,,Operational
+14,Radiation and radiance,14055,Solar activity index,Numeric,0,-32768,16,Numeric,0,5,,,Operational
+14,Radiation and radiance,14056,Background luminance,Cd m-2,0,0,18,Cd m-2,0,6,,,Operational
+14,Radiation and radiance,14057,Soil heat flux,J m-2,-2,-1048574,21,J m-2,-2,7,,,Operational
+14,Radiation and radiance,14072,Global UV irradiation,J m-2,0,-4000000,23,J m-2,0,7,(see Note 8),83,Operational

@@ -1,143 +1,143 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-21,Radar data,021001,Horizontal reflectivity,,,dB,0,-64,7,dB,0,3,Operational
-21,Radar data,021002,Vertical reflectivity,,,dB,0,-64,7,dB,0,3,Operational
-21,Radar data,021003,Differential reflectivity,,,dB,1,-5,7,dB,1,3,Operational
-21,Radar data,021004,Differential reflectivity,,,dB,2,-800,11,dB,2,4,Operational
-21,Radar data,021005,Linear depolarization ratio,,,dB,0,-65,6,dB,0,2,Operational
-21,Radar data,021006,Circular depolarization ratio,,,dB,0,-65,6,dB,0,2,Operational
-21,Radar data,021007,Radar reflectivity factor,,,dB,2,-9000,15,dB,0,0,Operational
-21,Radar data,021008,Uncertainty in radar reflectivity factor,,,dB,2,0,13,dB,0,0,Operational
-21,Radar data,021009,Vertical Doppler velocity,,,m/s,2,-10000,15,m/s,0,0,Operational
-21,Radar data,021010,Uncertainty in vertical Doppler velocity,,,m/s,2,-10000,15,m/s,0,0,Operational
-21,Radar data,021011,Doppler mean velocity in x-direction,,,m/s,0,-128,8,m/s,0,3,Operational
-21,Radar data,021012,Doppler mean velocity in y-direction,,,m/s,0,-128,8,m/s,0,3,Operational
-21,Radar data,021013,Doppler mean velocity in z-direction,,,m/s,0,-128,8,m/s,0,3,Operational
-21,Radar data,021014,Doppler mean velocity (radial),,,m/s,1,-4096,13,m/s,1,4,Operational
-21,Radar data,021017,Doppler velocity spectral width,,,m/s,1,0,8,m/s,1,3,Operational
-21,Radar data,021018,Extended NYQUIST velocity,,,m/s,1,0,10,m/s,1,4,Operational
-21,Radar data,021019,High NYQUIST velocity,,,m/s,1,0,10,m/s,1,3,Operational
-21,Radar data,021021,Echo tops,,,m,-3,0,4,m,-3,2,Operational
-21,Radar data,021022,Range bin offset,,,m,1,0,14,m,1,5,Operational
-21,Radar data,021023,Range bin size,,,m,0,0,14,m,0,5,Operational
-21,Radar data,021024,Azimuth offset,,,deg,1,0,12,deg,1,4,Operational
-21,Radar data,021025,Azimuthal resolution,,,deg,1,0,8,deg,1,3,Operational
-21,Radar data,021028,Differential phase,,,deg,1,0,12,deg,1,4,Operational
-21,Radar data,021029,Cross-polarization correlation coefficient,,,Numeric,2,-100,8,Numeric,2,3,Operational
-21,Radar data,021030,Signal to noise ratio,,,dB,0,-32,8,dB,0,3,Operational
-21,Radar data,021031,Vertically integrated liquid-water content,,,kg m-2,0,0,7,kg m-2,0,3,Operational
-21,Radar data,021036,Radar rainfall intensity,,,m/s,7,0,12,m/s,7,4,Operational
-21,Radar data,021041,Bright-band height,,,m,-2,0,8,m,-2,3,Operational
-21,Radar data,021051,Signal power above 1 mW,,,dB,0,-256,8,dB,0,3,Operational
-21,Radar data,021062,Backscatter,,,dB,2,-5000,13,dB,2,4,Operational
-21,Radar data,021063,Radiometric resolution (noise value),,,%,1,0,10,%,1,4,Operational
-21,Radar data,021064,Clutter noise estimate,,,Numeric,0,0,8,Numeric,0,3,Operational
-21,Radar data,021065,Missing packet counter,,,Numeric,0,-127,8,Numeric,0,3,Operational
-21,Radar data,021066,Wave scatterometer product confidence data,,,Flag table,0,0,12,Flag table,0,4,Operational
-21,Radar data,021067,Wind product confidence data,,,Flag table,0,0,13,Flag table,0,5,Operational
-21,Radar data,021068,Radar altimeter product confidence data,,,Flag table,0,0,8,Flag table,0,3,Operational
-21,Radar data,021069,SST product confidence data,,,Flag table,0,0,10,Flag table,0,4,Operational
-21,Radar data,021070,SST product confidence data (SADIST-2),,,Flag table,0,0,23,Flag table,0,6,Operational
-21,Radar data,021071,Peakiness,,,Numeric,0,0,16,Numeric,0,5,Operational
-21,Radar data,021072,Satellite altimeter calibration status,,,Flag table,0,0,4,Flag table,0,2,Operational
-21,Radar data,021073,Satellite altimeter instrument mode,,,Flag table,0,0,9,Flag table,0,3,Operational
-21,Radar data,021075,Image spectrum intensity,,,Numeric,0,0,8,Numeric,0,3,Operational
-21,Radar data,021076,Representation of intensities,,,Code table,0,0,3,Code table,0,1,Operational
-21,Radar data,021077,Altitude correction (ionosphere),,,m,3,0,14,m,3,5,Operational
-21,Radar data,021078,Altitude correction (dry troposphere),,,m,3,0,9,m,3,3,Operational
-21,Radar data,021079,Altitude correction (wet troposphere),,,m,3,2000,10,m,3,4,Operational
-21,Radar data,021080,Altitude correction (calibration constant),,,m,3,0,11,m,3,4,Operational
-21,Radar data,021081,Open loop correction (height-time loop),,,m,3,0,10,m,3,4,Operational
-21,Radar data,021082,Open loop correction (auto gain control),,,dB,3,-3000,14,dB,3,5,Operational
-21,Radar data,021083,Warm target calibration,,,Numeric,0,0,16,Numeric,0,5,Operational
-21,Radar data,021084,Cold target calibration,,,Numeric,0,0,16,Numeric,0,5,Operational
-21,Radar data,021085,ATSR sea-surface temperature across-track band number,,,Numeric,0,0,4,Numeric,0,2,Operational
-21,Radar data,021086,"Number of pixels in nadir only, average",,,Numeric,0,0,9,Numeric,0,3,Operational
-21,Radar data,021087,"Number of pixels in dual view, average",,,Numeric,0,0,9,Numeric,0,3,Operational
-21,Radar data,021088,Wet backscatter,,,dB,2,-5000,13,dB,2,4,Operational
-21,Radar data,021091,Radar signal Doppler spectrum 0th moment,,,dB,0,-100,8,dB,0,3,Operational
-21,Radar data,021092,"RASS signal Doppler spectrum 0th moment, referring to RASS signal",,,dB,0,-100,8,dB,0,3,Operational
-21,Radar data,021093,Ku band peakiness,,,Numeric,3,0,16,Numeric,3,5,Operational
-21,Radar data,021094,S band peakiness,,,Numeric,3,0,16,Numeric,3,5,Operational
-21,Radar data,021095,Kp coefficient A,,,Numeric,6,0,20,Numeric,6,7,Operational
-21,Radar data,021096,Kp coefficient B,,,Numeric,6,0,20,Numeric,6,7,Operational
-21,Radar data,021097,Kp coefficient C,,,Numeric,6,0,20,Numeric,6,7,Operational
-21,Radar data,021101,Number of vector ambiguities,,,Numeric,0,0,3,Numeric,0,1,Operational
-21,Radar data,021102,Index of selected wind vector,,,Numeric,0,0,3,Numeric,0,1,Operational
-21,Radar data,021103,Total number of sigma-0 measurements,,,Numeric,0,0,5,Numeric,0,2,Operational
-21,Radar data,021104,Likelihood computed for solution,,,Numeric,3,-30000,15,Numeric,3,5,Operational
-21,Radar data,021105,Normalized radar cross-section,,,dB,2,-10000,14,dB,2,5,Operational
-21,Radar data,021106,Kp variance coefficient (alpha),,,Numeric,3,0,14,Numeric,3,5,Operational
-21,Radar data,021107,Kp variance coefficient (beta),,,Numeric,8,0,16,Numeric,8,5,Operational
-21,Radar data,021109,SEAWINDS wind vector cell quality,,,Flag table,0,0,17,Flag table,0,6,Operational
-21,Radar data,021110,Number of inner-beam sigma-0 (forward of satellite),,,Numeric,0,0,6,Numeric,0,2,Operational
-21,Radar data,021111,Number of outer-beam sigma-0 (forward of satellite),,,Numeric,0,0,6,Numeric,0,2,Operational
-21,Radar data,021112,Number of inner-beam sigma-0 (aft of satellite),,,Numeric,0,0,6,Numeric,0,2,Operational
-21,Radar data,021113,Number of outer-beam sigma-0 (aft of satellite),,,Numeric,0,0,6,Numeric,0,2,Operational
-21,Radar data,021114,Kp variance coefficient (gamma),,,dB,3,-140000,18,dB,3,6,Operational
-21,Radar data,021115,SEAWINDS sigma-0 quality,,,Flag table,0,0,17,Flag table,0,6,Operational
-21,Radar data,021116,SEAWINDS sigma-0 mode,,,Flag table,0,0,17,Flag table,0,6,Operational
-21,Radar data,021117,Sigma-0 variance quality control,,,Numeric,2,0,16,Numeric,2,5,Operational
-21,Radar data,021118,Attenuation correction on sigma-0,,,dB,2,-10000,14,dB,2,5,Operational
-21,Radar data,021119,Wind scatterometer geophysical model function,,,Code table,0,0,6,Code table,0,2,Operational
-21,Radar data,021120,Probability of rain,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021121,SEAWINDS NOF rain index,*,106,Numeric,0,0,8,Numeric,0,3,Operational
-21,Radar data,021122,Attenuation correction on sigma-0 (from tB),,,dB,2,-10000,14,dB,2,5,Operational
-21,Radar data,021123,SEAWINDS normalized radar cross-section,,,dB,2,-30000,15,dB,2,5,Operational
-21,Radar data,021128,Number of valid points per second used to derive previous parameters,,,Numeric,0,0,8,Numeric,0,3,Operational
-21,Radar data,021130,Spectrum total energy,,,Numeric,6,0,28,Numeric,6,9,Operational
-21,Radar data,021131,Spectrum max energy,,,Numeric,6,0,28,Numeric,6,9,Operational
-21,Radar data,021132,Direction of spectrum max on higher resolution grid,,,deg,3,0,19,deg,3,6,Operational
-21,Radar data,021133,Wavelength of spectrum max on higher resolution grid,,,m,3,0,29,m,3,9,Operational
-21,Radar data,021134,Range resolution of cress covariance spectrum,,,rad/m,3,0,19,rad/m,3,6,Operational
-21,Radar data,021135,Real part of cross spectra polar grid number of bins,,,Numeric,3,-524288,20,Numeric,3,7,Operational
-21,Radar data,021136,Imaginary part of cross spectra polar grid number of bins,,,Numeric,3,-524288,20,Numeric,3,7,Operational
-21,Radar data,021137,Ku band corrected ocean backscatter coefficient,,,dB,2,-32768,16,dB,2,5,Operational
-21,Radar data,021138,Std Ku band corrected ocean backscatter coefficient,,,dB,2,-32768,16,dB,2,5,Operational
-21,Radar data,021139,Ku band net instrumental correction for AGC,,,dB,2,-2048,12,dB,2,4,Operational
-21,Radar data,021140,S band corrected ocean backscatter coefficient,,,dB,2,-32768,16,dB,2,5,Operational
-21,Radar data,021141,Std S band corrected ocean backscatter coefficient,,,dB,2,-32768,16,dB,2,5,Operational
-21,Radar data,021142,S band net instrumental correction for AGC,,,dB,2,-1024,11,dB,2,4,Operational
-21,Radar data,021143,Ku band rain attenuation,,,dB,2,-1073741824,31,dB,2,10,Operational
-21,Radar data,021144,Altimeter rain flag,,,Flag table,0,0,2,Flag table,0,1,Operational
-21,Radar data,021145,Ku band automatic gain control,,,dB,2,0,13,dB,2,4,Operational
-21,Radar data,021146,RMS Ku band automatic gain control,,,dB,2,0,8,dB,2,3,Operational
-21,Radar data,021147,Number of valid points for Ku band automatic gain control,,,Numeric,0,0,5,Numeric,0,2,Operational
-21,Radar data,021148,Trailing edge variation flag,,,Flag table,0,0,9,Flag table,0,3,Operational
-21,Radar data,021150,Beam co-location,,,Code table,0,0,2,Code table,0,1,Operational
-21,Radar data,021151,Estimated error in sigma-0 at 40 degrees incidence angle,,,dB,2,0,9,dB,2,3,Operational
-21,Radar data,021152,Slope at 40 degrees incidence angle,,,dB/deg,2,-80,7,dB/deg,2,2,Operational
-21,Radar data,021153,Estimated error in slope at 40 degrees incidence angle,,,dB/deg,2,-40,6,dB/deg,2,2,Operational
-21,Radar data,021154,Soil moisture sensitivity,,,dB,2,0,12,dB,2,4,Operational
-21,Radar data,021155,Wind vector cell quality,,,Flag table,0,0,24,Flag table,0,8,Operational
-21,Radar data,021156,Backscatter distance,,,Numeric,1,-4096,13,Numeric,1,4,Operational
-21,Radar data,021157,Loss per unit length of atmosphere used,,,dB/m,10,0,22,dB/m,10,7,Operational
-21,Radar data,021158,ASCAT Kp estimate quality,,,Code table,0,0,2,Code table,0,1,Operational
-21,Radar data,021159,ASCAT sigma-0 usability,,,Code table,0,0,2,Code table,0,1,Operational
-21,Radar data,021160,ASCAT use of synthetic data,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021161,ASCAT synthetic data quantity,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021162,ASCAT satellite orbit and attitude quality,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021163,ASCAT solar array reflection contamination,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021164,ASCAT telemetry presence and quality,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021165,ASCAT extrapolated reference function presence,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021166,Land fraction,,,Numeric,3,0,10,Numeric,3,4,Operational
-21,Radar data,021169,Ice presence indicator,,,Code table,0,0,2,Code table,0,1,Operational
-21,Radar data,021170,C band corrected ocean backscatter coefficient,,,dB,2,-32768,16,dB,2,5,Operational
-21,Radar data,021171,RMS C band corrected ocean backscatter coefficient,,,dB,2,-32768,16,dB,2,5,Operational
-21,Radar data,021172,C band net instrumental correction for AGC,,,dB,2,-2048,12,dB,2,4,Operational
-21,Radar data,021173,C band automatic gain control,,,dB,2,0,13,dB,2,4,Operational
-21,Radar data,021174,RMS C band automatic gain control,,,dB,2,0,9,dB,2,3,Operational
-21,Radar data,021175,Number of valid points for C band automatic gain control,,,Numeric,0,0,10,Numeric,0,4,Operational
-21,Radar data,021176,High frequency variability correction,,,m,3,0,16,m,3,5,Operational
-21,Radar data,021177,Corrected OCOG backscatter coefficient,*,112,dB,2,0,16,dB,2,5,Operational
-21,Radar data,021178,STD of 20 Hz OCOG backscatter coefficient,,,dB,2,0,16,dB,2,5,Operational
-21,Radar data,021179,Number of 20 Hz valid points for OCOG backscatter coefficient,,,Numeric,0,0,16,Numeric,0,5,Operational
-21,Radar data,021180,Number of 20 Hz valid points for ocean backscatter coefficient,,,Numeric,0,0,8,Numeric,0,3,Operational
-21,Radar data,021181,20 Hz ocean backscatter coefficient,,,dB,2,0,16,dB,2,5,Operational
-21,Radar data,021182,20 Hz Ku band peakiness,,,Numeric,3,0,16,Numeric,3,5,Operational
-21,Radar data,021183,Specific band corrected ocean backscatter coefficient,,,dB,2,-32768,16,dB,2,5,Operational
-21,Radar data,021184,STD specific band corrected ocean backscatter coefficient,,,dB,2,-32768,16,dB,2,5,Operational
-21,Radar data,021185,Specific band net instrumental correction for AGC,,,dB,2,-2048,12,dB,2,4,Operational
-21,Radar data,021186,Specific band automatic gain control,,,dB,2,0,13,dB,2,4,Operational
-21,Radar data,021187,RMS specific band automatic gain control,,,dB,2,0,8,dB,2,3,Operational
-21,Radar data,021188,Number of valid points for specific band automatic gain control,,,Numeric,0,0,7,Numeric,0,3,Operational
-21,Radar data,021189,Corrected OCOG backscatter coefficient (negative reference),"*","112,11",dB,2,-32768,16,dB,2,6,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+21,Radar data,21001,Horizontal reflectivity,dB,0,-64,7,dB,0,3,,,Operational
+21,Radar data,21002,Vertical reflectivity,dB,0,-64,7,dB,0,3,,,Operational
+21,Radar data,21003,Differential reflectivity,dB,1,-5,7,dB,1,3,,,Operational
+21,Radar data,21004,Differential reflectivity,dB,2,-800,11,dB,2,4,,,Operational
+21,Radar data,21005,Linear depolarization ratio,dB,0,-65,6,dB,0,2,,,Operational
+21,Radar data,21006,Circular depolarization ratio,dB,0,-65,6,dB,0,2,,,Operational
+21,Radar data,21007,Radar reflectivity factor,dB,2,-9000,15,dB,0,0,,,Operational
+21,Radar data,21008,Uncertainty in radar reflectivity factor,dB,2,0,13,dB,0,0,,,Operational
+21,Radar data,21009,Vertical Doppler velocity,m/s,2,-10000,15,m/s,0,0,,,Operational
+21,Radar data,21010,Uncertainty in vertical Doppler velocity,m/s,2,-10000,15,m/s,0,0,,,Operational
+21,Radar data,21011,Doppler mean velocity in x-direction,m/s,0,-128,8,m/s,0,3,,,Operational
+21,Radar data,21012,Doppler mean velocity in y-direction,m/s,0,-128,8,m/s,0,3,,,Operational
+21,Radar data,21013,Doppler mean velocity in z-direction,m/s,0,-128,8,m/s,0,3,,,Operational
+21,Radar data,21014,Doppler mean velocity (radial),m/s,1,-4096,13,m/s,1,4,,,Operational
+21,Radar data,21017,Doppler velocity spectral width,m/s,1,0,8,m/s,1,3,,,Operational
+21,Radar data,21018,Extended NYQUIST velocity,m/s,1,0,10,m/s,1,4,,,Operational
+21,Radar data,21019,High NYQUIST velocity,m/s,1,0,10,m/s,1,3,,,Operational
+21,Radar data,21021,Echo tops,m,-3,0,4,m,-3,2,,,Operational
+21,Radar data,21022,Range bin offset,m,1,0,14,m,1,5,,,Operational
+21,Radar data,21023,Range bin size,m,0,0,14,m,0,5,,,Operational
+21,Radar data,21024,Azimuth offset,deg,1,0,12,deg,1,4,,,Operational
+21,Radar data,21025,Azimuthal resolution,deg,1,0,8,deg,1,3,,,Operational
+21,Radar data,21028,Differential phase,deg,1,0,12,deg,1,4,,,Operational
+21,Radar data,21029,Cross-polarization correlation coefficient,Numeric,2,-100,8,Numeric,2,3,,,Operational
+21,Radar data,21030,Signal to noise ratio,dB,0,-32,8,dB,0,3,,,Operational
+21,Radar data,21031,Vertically integrated liquid-water content,kg m-2,0,0,7,kg m-2,0,3,,,Operational
+21,Radar data,21036,Radar rainfall intensity,m/s,7,0,12,m/s,7,4,,,Operational
+21,Radar data,21041,Bright-band height,m,-2,0,8,m,-2,3,,,Operational
+21,Radar data,21051,Signal power above 1 mW,dB,0,-256,8,dB,0,3,,,Operational
+21,Radar data,21062,Backscatter,dB,2,-5000,13,dB,2,4,,,Operational
+21,Radar data,21063,Radiometric resolution (noise value),%,1,0,10,%,1,4,,,Operational
+21,Radar data,21064,Clutter noise estimate,Numeric,0,0,8,Numeric,0,3,,,Operational
+21,Radar data,21065,Missing packet counter,Numeric,0,-127,8,Numeric,0,3,,,Operational
+21,Radar data,21066,Wave scatterometer product confidence data,Flag table,0,0,12,Flag table,0,4,,,Operational
+21,Radar data,21067,Wind product confidence data,Flag table,0,0,13,Flag table,0,5,,,Operational
+21,Radar data,21068,Radar altimeter product confidence data,Flag table,0,0,8,Flag table,0,3,,,Operational
+21,Radar data,21069,SST product confidence data,Flag table,0,0,10,Flag table,0,4,,,Operational
+21,Radar data,21070,SST product confidence data (SADIST-2),Flag table,0,0,23,Flag table,0,6,,,Operational
+21,Radar data,21071,Peakiness,Numeric,0,0,16,Numeric,0,5,,,Operational
+21,Radar data,21072,Satellite altimeter calibration status,Flag table,0,0,4,Flag table,0,2,,,Operational
+21,Radar data,21073,Satellite altimeter instrument mode,Flag table,0,0,9,Flag table,0,3,,,Operational
+21,Radar data,21075,Image spectrum intensity,Numeric,0,0,8,Numeric,0,3,,,Operational
+21,Radar data,21076,Representation of intensities,Code table,0,0,3,Code table,0,1,,,Operational
+21,Radar data,21077,Altitude correction (ionosphere),m,3,0,14,m,3,5,,,Operational
+21,Radar data,21078,Altitude correction (dry troposphere),m,3,0,9,m,3,3,,,Operational
+21,Radar data,21079,Altitude correction (wet troposphere),m,3,2000,10,m,3,4,,,Operational
+21,Radar data,21080,Altitude correction (calibration constant),m,3,0,11,m,3,4,,,Operational
+21,Radar data,21081,Open loop correction (height-time loop),m,3,0,10,m,3,4,,,Operational
+21,Radar data,21082,Open loop correction (auto gain control),dB,3,-3000,14,dB,3,5,,,Operational
+21,Radar data,21083,Warm target calibration,Numeric,0,0,16,Numeric,0,5,,,Operational
+21,Radar data,21084,Cold target calibration,Numeric,0,0,16,Numeric,0,5,,,Operational
+21,Radar data,21085,ATSR sea-surface temperature across-track band number,Numeric,0,0,4,Numeric,0,2,,,Operational
+21,Radar data,21086,"Number of pixels in nadir only, average",Numeric,0,0,9,Numeric,0,3,,,Operational
+21,Radar data,21087,"Number of pixels in dual view, average",Numeric,0,0,9,Numeric,0,3,,,Operational
+21,Radar data,21088,Wet backscatter,dB,2,-5000,13,dB,2,4,,,Operational
+21,Radar data,21091,Radar signal Doppler spectrum 0th moment,dB,0,-100,8,dB,0,3,,,Operational
+21,Radar data,21092,"RASS signal Doppler spectrum 0th moment, referring to RASS signal",dB,0,-100,8,dB,0,3,,,Operational
+21,Radar data,21093,Ku band peakiness,Numeric,3,0,16,Numeric,3,5,,,Operational
+21,Radar data,21094,S band peakiness,Numeric,3,0,16,Numeric,3,5,,,Operational
+21,Radar data,21095,Kp coefficient A,Numeric,6,0,20,Numeric,6,7,,,Operational
+21,Radar data,21096,Kp coefficient B,Numeric,6,0,20,Numeric,6,7,,,Operational
+21,Radar data,21097,Kp coefficient C,Numeric,6,0,20,Numeric,6,7,,,Operational
+21,Radar data,21101,Number of vector ambiguities,Numeric,0,0,3,Numeric,0,1,,,Operational
+21,Radar data,21102,Index of selected wind vector,Numeric,0,0,3,Numeric,0,1,,,Operational
+21,Radar data,21103,Total number of sigma-0 measurements,Numeric,0,0,5,Numeric,0,2,,,Operational
+21,Radar data,21104,Likelihood computed for solution,Numeric,3,-30000,15,Numeric,3,5,,,Operational
+21,Radar data,21105,Normalized radar cross-section,dB,2,-10000,14,dB,2,5,,,Operational
+21,Radar data,21106,Kp variance coefficient (alpha),Numeric,3,0,14,Numeric,3,5,,,Operational
+21,Radar data,21107,Kp variance coefficient (beta),Numeric,8,0,16,Numeric,8,5,,,Operational
+21,Radar data,21109,SEAWINDS wind vector cell quality,Flag table,0,0,17,Flag table,0,6,,,Operational
+21,Radar data,21110,Number of inner-beam sigma-0 (forward of satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
+21,Radar data,21111,Number of outer-beam sigma-0 (forward of satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
+21,Radar data,21112,Number of inner-beam sigma-0 (aft of satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
+21,Radar data,21113,Number of outer-beam sigma-0 (aft of satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
+21,Radar data,21114,Kp variance coefficient (gamma),dB,3,-140000,18,dB,3,6,,,Operational
+21,Radar data,21115,SEAWINDS sigma-0 quality,Flag table,0,0,17,Flag table,0,6,,,Operational
+21,Radar data,21116,SEAWINDS sigma-0 mode,Flag table,0,0,17,Flag table,0,6,,,Operational
+21,Radar data,21117,Sigma-0 variance quality control,Numeric,2,0,16,Numeric,2,5,,,Operational
+21,Radar data,21118,Attenuation correction on sigma-0,dB,2,-10000,14,dB,2,5,,,Operational
+21,Radar data,21119,Wind scatterometer geophysical model function,Code table,0,0,6,Code table,0,2,,,Operational
+21,Radar data,21120,Probability of rain,Numeric,3,0,10,Numeric,3,4,,,Operational
+21,Radar data,21121,SEAWINDS NOF rain index,Numeric,0,0,8,Numeric,0,3,*,106,Operational
+21,Radar data,21122,Attenuation correction on sigma-0 (from tB),dB,2,-10000,14,dB,2,5,,,Operational
+21,Radar data,21123,SEAWINDS normalized radar cross-section,dB,2,-30000,15,dB,2,5,,,Operational
+21,Radar data,21128,Number of valid points per second used to derive previous parameters,Numeric,0,0,8,Numeric,0,3,,,Operational
+21,Radar data,21130,Spectrum total energy,Numeric,6,0,28,Numeric,6,9,,,Operational
+21,Radar data,21131,Spectrum max energy,Numeric,6,0,28,Numeric,6,9,,,Operational
+21,Radar data,21132,Direction of spectrum max on higher resolution grid,deg,3,0,19,deg,3,6,,,Operational
+21,Radar data,21133,Wavelength of spectrum max on higher resolution grid,m,3,0,29,m,3,9,,,Operational
+21,Radar data,21134,Range resolution of cress covariance spectrum,rad/m,3,0,19,rad/m,3,6,,,Operational
+21,Radar data,21135,Real part of cross spectra polar grid number of bins,Numeric,3,-524288,20,Numeric,3,7,,,Operational
+21,Radar data,21136,Imaginary part of cross spectra polar grid number of bins,Numeric,3,-524288,20,Numeric,3,7,,,Operational
+21,Radar data,21137,Ku band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
+21,Radar data,21138,Std Ku band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
+21,Radar data,21139,Ku band net instrumental correction for AGC,dB,2,-2048,12,dB,2,4,,,Operational
+21,Radar data,21140,S band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
+21,Radar data,21141,Std S band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
+21,Radar data,21142,S band net instrumental correction for AGC,dB,2,-1024,11,dB,2,4,,,Operational
+21,Radar data,21143,Ku band rain attenuation,dB,2,-1073741824,31,dB,2,10,,,Operational
+21,Radar data,21144,Altimeter rain flag,Flag table,0,0,2,Flag table,0,1,,,Operational
+21,Radar data,21145,Ku band automatic gain control,dB,2,0,13,dB,2,4,,,Operational
+21,Radar data,21146,RMS Ku band automatic gain control,dB,2,0,8,dB,2,3,,,Operational
+21,Radar data,21147,Number of valid points for Ku band automatic gain control,Numeric,0,0,5,Numeric,0,2,,,Operational
+21,Radar data,21148,Trailing edge variation flag,Flag table,0,0,9,Flag table,0,3,,,Operational
+21,Radar data,21150,Beam co-location,Code table,0,0,2,Code table,0,1,,,Operational
+21,Radar data,21151,Estimated error in sigma-0 at 40 degrees incidence angle,dB,2,0,9,dB,2,3,,,Operational
+21,Radar data,21152,Slope at 40 degrees incidence angle,dB/deg,2,-80,7,dB/deg,2,2,,,Operational
+21,Radar data,21153,Estimated error in slope at 40 degrees incidence angle,dB/deg,2,-40,6,dB/deg,2,2,,,Operational
+21,Radar data,21154,Soil moisture sensitivity,dB,2,0,12,dB,2,4,,,Operational
+21,Radar data,21155,Wind vector cell quality,Flag table,0,0,24,Flag table,0,8,,,Operational
+21,Radar data,21156,Backscatter distance,Numeric,1,-4096,13,Numeric,1,4,,,Operational
+21,Radar data,21157,Loss per unit length of atmosphere used,dB/m,10,0,22,dB/m,10,7,,,Operational
+21,Radar data,21158,ASCAT Kp estimate quality,Code table,0,0,2,Code table,0,1,,,Operational
+21,Radar data,21159,ASCAT sigma-0 usability,Code table,0,0,2,Code table,0,1,,,Operational
+21,Radar data,21160,ASCAT use of synthetic data,Numeric,3,0,10,Numeric,3,4,,,Operational
+21,Radar data,21161,ASCAT synthetic data quantity,Numeric,3,0,10,Numeric,3,4,,,Operational
+21,Radar data,21162,ASCAT satellite orbit and attitude quality,Numeric,3,0,10,Numeric,3,4,,,Operational
+21,Radar data,21163,ASCAT solar array reflection contamination,Numeric,3,0,10,Numeric,3,4,,,Operational
+21,Radar data,21164,ASCAT telemetry presence and quality,Numeric,3,0,10,Numeric,3,4,,,Operational
+21,Radar data,21165,ASCAT extrapolated reference function presence,Numeric,3,0,10,Numeric,3,4,,,Operational
+21,Radar data,21166,Land fraction,Numeric,3,0,10,Numeric,3,4,,,Operational
+21,Radar data,21169,Ice presence indicator,Code table,0,0,2,Code table,0,1,,,Operational
+21,Radar data,21170,C band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
+21,Radar data,21171,RMS C band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
+21,Radar data,21172,C band net instrumental correction for AGC,dB,2,-2048,12,dB,2,4,,,Operational
+21,Radar data,21173,C band automatic gain control,dB,2,0,13,dB,2,4,,,Operational
+21,Radar data,21174,RMS C band automatic gain control,dB,2,0,9,dB,2,3,,,Operational
+21,Radar data,21175,Number of valid points for C band automatic gain control,Numeric,0,0,10,Numeric,0,4,,,Operational
+21,Radar data,21176,High frequency variability correction,m,3,0,16,m,3,5,,,Operational
+21,Radar data,21177,Corrected OCOG backscatter coefficient,dB,2,0,16,dB,2,5,*,112,Operational
+21,Radar data,21178,STD of 20 Hz OCOG backscatter coefficient,dB,2,0,16,dB,2,5,,,Operational
+21,Radar data,21179,Number of 20 Hz valid points for OCOG backscatter coefficient,Numeric,0,0,16,Numeric,0,5,,,Operational
+21,Radar data,21180,Number of 20 Hz valid points for ocean backscatter coefficient,Numeric,0,0,8,Numeric,0,3,,,Operational
+21,Radar data,21181,20 Hz ocean backscatter coefficient,dB,2,0,16,dB,2,5,,,Operational
+21,Radar data,21182,20 Hz Ku band peakiness,Numeric,3,0,16,Numeric,3,5,,,Operational
+21,Radar data,21183,Specific band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
+21,Radar data,21184,STD specific band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
+21,Radar data,21185,Specific band net instrumental correction for AGC,dB,2,-2048,12,dB,2,4,,,Operational
+21,Radar data,21186,Specific band automatic gain control,dB,2,0,13,dB,2,4,,,Operational
+21,Radar data,21187,RMS specific band automatic gain control,dB,2,0,8,dB,2,3,,,Operational
+21,Radar data,21188,Number of valid points for specific band automatic gain control,Numeric,0,0,7,Numeric,0,3,,,Operational
+21,Radar data,21189,Corrected OCOG backscatter coefficient (negative reference),dB,2,-32768,16,dB,2,6,*,"112,11",Operational
