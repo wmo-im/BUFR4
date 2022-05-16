@@ -1,11 +1,11 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-27,Non-coordinate location (horizontal - 1),027001,Latitude (high accuracy),,,deg,5,-9000000,25,deg,5,7,Operational
-27,Non-coordinate location (horizontal - 1),027002,Latitude (coarse accuracy),,,deg,2,-9000,15,deg,2,4,Operational
-27,Non-coordinate location (horizontal - 1),027003,Alternate latitude (coarse accuracy),(see Note 1),132,deg,2,-9000,15,deg,2,4,Operational
-27,Non-coordinate location (horizontal - 1),027004,Alternate latitude (high accuracy),(see Note 1),132,deg,5,-9000000,25,deg,5,7,Operational
-27,Non-coordinate location (horizontal - 1),027010,Footprint axis 1,,,m,-1,0,14,m,-1,5,Operational
-27,Non-coordinate location (horizontal - 1),027020,Satellite location counter,(see Note 2),143,Numeric,0,0,16,Numeric,0,5,Operational
-27,Non-coordinate location (horizontal - 1),027021,Satellite sublocation dimension,(see Note 3),144,Numeric,0,0,16,Numeric,0,5,Operational
-27,Non-coordinate location (horizontal - 1),027031,"In direction of 0 degrees longitude, distance from the Earth's centre",(see Notes 4 and 5),"96,151",m,2,-1073741824,31,m,2,10,Operational
-27,Non-coordinate location (horizontal - 1),027079,Horizontal width of sampled volume,,,m,0,0,18,m,0,6,Operational
-27,Non-coordinate location (horizontal - 1),027080,Viewing azimuth angle,,,degree true,2,0,16,degree true,0,5,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+27,Non-coordinate location (horizontal - 1),027001,Latitude (high accuracy),deg,5,-9000000,25,deg,5,7,,,Operational
+27,Non-coordinate location (horizontal - 1),027002,Latitude (coarse accuracy),deg,2,-9000,15,deg,2,4,,,Operational
+27,Non-coordinate location (horizontal - 1),027003,Alternate latitude (coarse accuracy),deg,2,-9000,15,deg,2,4,(see Note 1),132,Operational
+27,Non-coordinate location (horizontal - 1),027004,Alternate latitude (high accuracy),deg,5,-9000000,25,deg,5,7,(see Note 1),132,Operational
+27,Non-coordinate location (horizontal - 1),027010,Footprint axis 1,m,-1,0,14,m,-1,5,,,Operational
+27,Non-coordinate location (horizontal - 1),027020,Satellite location counter,Numeric,0,0,16,Numeric,0,5,(see Note 2),143,Operational
+27,Non-coordinate location (horizontal - 1),027021,Satellite sublocation dimension,Numeric,0,0,16,Numeric,0,5,(see Note 3),144,Operational
+27,Non-coordinate location (horizontal - 1),027031,"In direction of 0 degrees longitude, distance from the Earth's centre",m,2,-1073741824,31,m,2,10,(see Notes 4 and 5),"96,151",Operational
+27,Non-coordinate location (horizontal - 1),027079,Horizontal width of sampled volume,m,0,0,18,m,0,6,,,Operational
+27,Non-coordinate location (horizontal - 1),027080,Viewing azimuth angle,degree true,2,0,16,degree true,0,5,,,Operational

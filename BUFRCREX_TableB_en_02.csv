@@ -1,175 +1,175 @@
-ClassNo,ClassName_en,FXY,ElementName_en,Note_en,noteIDs,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Status
-02,Instrumentation,002001,Type of station,,,Code table,0,0,2,Code table,0,1,Operational
-02,Instrumentation,002002,Type of instrumentation for wind measurement,,,Flag table,0,0,4,Flag table,0,2,Operational
-02,Instrumentation,002003,Type of measuring equipment used,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002005,Precision of temperature observation,,,K,2,0,7,K,2,3,Operational
-02,Instrumentation,002006,Upper air remote sensing instrument type,,,Code table,0,0,6,Code table,0,0,Operational
-02,Instrumentation,002007,Type of sensor for water level measuring instrument,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002008,Type of offshore platform,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002011,Radiosonde type,,,Code table,0,0,8,Code table,0,3,Operational
-02,Instrumentation,002012,Radiosonde computational method,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002013,Solar and infrared radiation correction,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002014,Tracking technique/status of system used,,,Code table,0,0,7,Code table,0,3,Operational
-02,Instrumentation,002015,Radiosonde completeness,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002016,Radiosonde configuration,,,Flag table,0,0,5,Flag table,0,2,Operational
-02,Instrumentation,002017,Correction algorithms for humidity measurements,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002019,Satellite instruments,,,Code table,0,0,11,Code table,0,4,Operational
-02,Instrumentation,002020,Satellite classification,,,Code table,0,0,9,Code table,0,3,Operational
-02,Instrumentation,002021,Satellite instrument data used in processing,(see Note 8),47,Flag table,0,0,9,Flag table,0,3,Operational
-02,Instrumentation,002022,Satellite data-processing technique used,,,Flag table,0,0,8,Flag table,0,3,Operational
-02,Instrumentation,002023,Satellite-derived wind computation method,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002024,Integrated mean humidity computational method,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002025,Satellite channel(s) used in computation,,,Flag table,0,0,25,Flag table,0,9,Operational
-02,Instrumentation,002026,Cross-track resolution,,,m,2,0,12,m,2,4,Operational
-02,Instrumentation,002027,Along-track resolution,,,m,2,0,12,m,2,4,Operational
-02,Instrumentation,002028,Segment size at nadir in x-direction,,,m,0,0,18,m,0,6,Operational
-02,Instrumentation,002029,Segment size at nadir in y-direction,,,m,0,0,18,m,0,6,Operational
-02,Instrumentation,002030,Method of current measurement,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002031,Duration and time of current measurement,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002032,Indicator for digitization,,,Code table,0,0,2,Code table,0,1,Operational
-02,Instrumentation,002033,Method of salinity/depth measurement,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002034,Drogue type,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002035,Cable length,,,m,0,0,9,m,0,3,Operational
-02,Instrumentation,002036,Buoy type,,,Code table,0,0,2,Code table,0,1,Operational
-02,Instrumentation,002037,Method of tidal observation,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002038,Method of water temperature and/or salinity measurement,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002039,Method of wet-bulb temperature measurement,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002040,Method of removing velocity and motion of platform from current,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002041,Method for estimating reports related to synoptic features,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002042,Indicator for sea-surface current speed,,,Code table,0,0,2,Code table,0,1,Operational
-02,Instrumentation,002044,Indicator for method of calculating spectral wave data,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002045,Indicator for type of platform,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002046,Wave measurement instrumentation,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002047,Deep-ocean tsunameter type,,,Code table,0,0,7,Code table,0,2,Operational
-02,Instrumentation,002048,Satellite sensor indicator,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002049,Geostationary satellite data-processing technique used,,,Flag table,0,0,8,Flag table,0,3,Operational
-02,Instrumentation,002050,Geostationary sounder satellite channels used,,,Flag table,0,0,20,Flag table,0,7,Operational
-02,Instrumentation,002051,Indicator to specify observing method for extreme temperatures,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002052,Geostationary imager satellite channels used,,,Flag table,0,0,6,Flag table,0,2,Operational
-02,Instrumentation,002053,GOES-I/M brightness temperature characteristics,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002054,GOES-I/M soundings parameter characteristics,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002055,Geostationary soundings statistical parameters,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002056,Geostationary soundings accuracy statistics,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002057,Origin of first-guess information for GOES-I/M soundings,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002058,Valid times of first-guess information for GOES-I/M soundings,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002059,Origin of analysis information for GOES-I/M soundings,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002060,Origin of surface information for GOES-I/M soundings,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002061,Aircraft navigational system,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002062,Type of aircraft data relay system,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002063,Aircraft roll angle,,,deg,2,-18000,16,deg,2,5,Operational
-02,Instrumentation,002064,Aircraft roll angle quality,,,Code table,0,0,2,Code table,0,1,Operational
-02,Instrumentation,002065,ACARS ground-receiving station,,,CCITT IA5,0,0,40,Character,0,5,Operational
-02,Instrumentation,002066,Radiosonde ground receiving system,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002067,Radiosonde operating frequency,,,Hz,-5,0,15,Hz,-5,5,Operational
-02,Instrumentation,002070,Original specification of latitude/longitude,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002071,Spectrographic wavelength,,,m,13,0,30,m,13,10,Operational
-02,Instrumentation,002072,Spectrographic width,,,m,13,0,30,m,13,10,Operational
-02,Instrumentation,002080,Balloon manufacturer,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002081,Type of balloon,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002082,Weight of balloon,,,kg,3,0,12,kg,3,4,Operational
-02,Instrumentation,002083,Type of balloon shelter,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002084,Type of gas used in balloon,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002085,Amount of gas used in balloon,,,kg,3,0,13,kg,3,4,Operational
-02,Instrumentation,002086,Balloon flight train length,,,m,1,0,10,m,1,4,Operational
-02,Instrumentation,002087,Parachute surface area,,,m2,4,0,15,m2,4,5,Operational
-02,Instrumentation,002088,Volume of gas used in balloon,,,m3,3,0,13,m3,3,4,Operational
-02,Instrumentation,002090,Instrument wavelength,,,m,9,0,16,m,9,5,Operational
-02,Instrumentation,002091,Entry sensor 4/20 mA,,,A,4,0,10,A,4,3,Operational
-02,Instrumentation,002092,Ozone profile computation method,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002095,Type of pressure sensor,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002096,Type of temperature sensor,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002097,Type of humidity sensor,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002099,Polarization,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002100,Radar constant,(see Note 9),157,dB,1,0,12,dB,1,4,Operational
-02,Instrumentation,002101,Type of antenna,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002102,Antenna height above tower base,,,m,0,0,8,m,0,3,Operational
-02,Instrumentation,002103,Radome,,,Flag table,0,0,2,Flag table,0,1,Operational
-02,Instrumentation,002104,Antenna polarization,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002105,Maximum antenna gain,,,dB,0,0,6,dB,0,2,Operational
-02,Instrumentation,002106,3-dB beamwidth,,,deg,1,0,6,deg,1,2,Operational
-02,Instrumentation,002107,Sidelobe suppression,,,dB,0,0,6,dB,0,2,Operational
-02,Instrumentation,002108,Crosspol discrimination (on axis),,,dB,0,0,6,dB,0,2,Operational
-02,Instrumentation,002109,Antenna speed (azimuth),,,deg/s,2,0,12,deg/s,2,4,Operational
-02,Instrumentation,002110,Antenna speed (elevation),,,deg/s,2,0,12,deg/s,2,4,Operational
-02,Instrumentation,002111,Radar incidence angle,,,deg,1,0,10,deg,1,4,Operational
-02,Instrumentation,002112,Radar look angle,,,deg,1,0,12,deg,1,4,Operational
-02,Instrumentation,002113,Number of azimuth looks,,,Numeric,0,0,4,Numeric,0,2,Operational
-02,Instrumentation,002114,Antenna effective surface area,,,m2,0,0,15,m2,0,5,Operational
-02,Instrumentation,002115,Type of surface observing equipment,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002116,Percentage of 320 MHz band processed,,,%,0,0,7,%,0,3,Operational
-02,Instrumentation,002117,Percentage of 80 MHz band processed,,,%,0,0,7,%,0,3,Operational
-02,Instrumentation,002118,Percentage of 20 MHz band processed,,,%,0,0,7,%,0,3,Operational
-02,Instrumentation,002119,RA-2 instrument operations,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002120,Ocean wave frequency,,,Hz,3,0,10,Hz,3,4,Operational
-02,Instrumentation,002121,Mean frequency,,,Hz,-8,0,7,Hz,-8,3,Operational
-02,Instrumentation,002122,Frequency agility range,,,Hz,-6,-128,8,Hz,-6,3,Operational
-02,Instrumentation,002123,Peak power,,,W,-4,0,7,W,-4,3,Operational
-02,Instrumentation,002124,Average power,,,W,-1,0,7,W,-1,3,Operational
-02,Instrumentation,002125,Pulse repetition frequency,,,Hz,-1,0,8,Hz,-1,3,Operational
-02,Instrumentation,002126,Pulse width,,,s,7,0,6,s,7,2,Operational
-02,Instrumentation,002127,Receiver intermediate frequency,,,Hz,-6,0,7,Hz,-6,3,Operational
-02,Instrumentation,002128,Intermediate frequency bandwidth,,,Hz,-5,0,6,Hz,-5,2,Operational
-02,Instrumentation,002129,Minimum detectable signal,,,dB,0,-150,5,dB,0,3,Operational
-02,Instrumentation,002130,Dynamic range,,,dB,0,0,7,dB,0,3,Operational
-02,Instrumentation,002131,Sensitivity time control (STC),,,Flag table,0,0,2,Flag table,0,1,Operational
-02,Instrumentation,002132,Azimuth pointing accuracy,,,deg,2,0,6,deg,2,2,Operational
-02,Instrumentation,002133,Elevation pointing accuracy,,,deg,2,0,6,deg,2,2,Operational
-02,Instrumentation,002134,Antenna beam azimuth,,,deg,2,0,16,deg,2,5,Operational
-02,Instrumentation,002135,Antenna elevation,,,deg,2,-9000,15,deg,2,5,Operational
-02,Instrumentation,002136,Range processed by range attenuation correction,,,m,-3,0,16,m,-3,5,Operational
-02,Instrumentation,002137,Radar dual PRF ratio,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002138,Antenna rotation direction,,,Code table,0,0,2,Code table,0,1,Operational
-02,Instrumentation,002139,SIRAL instrument configuration,,,Code table,0,0,2,Code table,0,1,Operational
-02,Instrumentation,002140,Satellite radar beam azimuth angle,(see Note 4),111,deg,0,0,9,deg,0,3,Operational
-02,Instrumentation,002141,Measurement type,,,CCITT IA5,0,0,24,Character,0,3,Operational
-02,Instrumentation,002142,Ozone instrument serial number/identification,(see Note 5),91,CCITT IA5,0,0,32,Character,0,4,Operational
-02,Instrumentation,002143,Ozone instrument type,,,Code table,0,0,7,Code table,0,3,Operational
-02,Instrumentation,002144,Light source type for Brewer spectrophotometer,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002145,Wavelength setting for Dobson instruments,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002146,Source conditions for Dobson instruments,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002147,Method of transmission to collection centre,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002148,Data collection and/or location system,,,Code table,0,0,5,Code table,0,2,Operational
-02,Instrumentation,002149,Type of data buoy,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002150,TOVS/ATOVS/AVHRR instrumentation channel number,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002151,Radiometer identifier,,,Code table,0,0,11,Code table,0,4,Operational
-02,Instrumentation,002152,Satellite instrument used in data processing,(see Note 6),46,Flag table,0,0,31,Flag table,0,10,Operational
-02,Instrumentation,002153,Satellite channel centre frequency,,,Hz,-8,0,26,Hz,-8,8,Operational
-02,Instrumentation,002154,Satellite channel band width,,,Hz,-8,0,26,Hz,-8,8,Operational
-02,Instrumentation,002155,Satellite channel wavelength,,,m,9,0,16,m,9,5,Operational
-02,Instrumentation,002156,Percentage of valid KU ocean retracker measurements,,,%,0,0,7,%,0,3,Operational
-02,Instrumentation,002157,Percentage of valid S ocean retracker measurements,,,%,0,0,7,%,0,3,Operational
-02,Instrumentation,002158,RA-2 instrument,,,Flag table,0,0,9,Flag table,0,3,Operational
-02,Instrumentation,002159,MWR instrument,,,Flag table,0,0,8,Flag table,0,3,Operational
-02,Instrumentation,002160,Wavelength of the radar,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002161,Wind processing method,,,Flag table,0,0,16,Flag table,0,6,Operational
-02,Instrumentation,002162,Extended height assignment method,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002163,Height assignment method,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002164,Tracer correlation method,,,Code table,0,0,3,Code table,0,1,Operational
-02,Instrumentation,002165,Radiance type flags,,,Flag table,0,0,15,Flag table,0,5,Operational
-02,Instrumentation,002166,Radiance type,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002167,Radiance computational method,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002168,Hydrostatic pressure of lower end of cable (thermistor string),,,Pa,-3,0,16,kPa,0,5,Operational
-02,Instrumentation,002169,Anemometer type,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002170,Aircraft humidity sensors,,,Code table,0,0,6,Code table,0,2,Operational
-02,Instrumentation,002171,Instrument serial number for water temperature profile measurement,,,CCITT IA5,0,0,64,Character,0,8,Operational
-02,Instrumentation,002172,Product type for retrieved atmospheric gases,,,Code table,0,0,8,Code table,0,3,Operational
-02,Instrumentation,002173,Square of the off-nadir angle,(see Note 7),124,deg2,4,0,10,deg2,4,4,Operational
-02,Instrumentation,002174,Mean across track pixel number,,,Numeric,0,0,9,Numeric,0,3,Operational
-02,Instrumentation,002175,Method of precipitation measurement,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002176,Method of state of ground measurement,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002177,Method of snow depth measurement,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002178,Method of liquid content measurement of precipitation,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002179,Type of sky condition algorithm,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002180,Main present weather detecting system,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002181,Supplementary present weather sensor,,,Flag table,0,0,21,Flag table,0,7,Operational
-02,Instrumentation,002182,Visibility measurement system,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002183,Cloud detection system,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002184,Type of lightning detection sensor,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002185,Method of evaporation measurement,,,Code table,0,0,4,Code table,0,2,Operational
-02,Instrumentation,002186,Capability to detect precipitation phenomena,,,Flag table,0,0,30,Flag table,0,10,Operational
-02,Instrumentation,002187,Capability to detect other weather phenomena,,,Flag table,0,0,18,Flag table,0,6,Operational
-02,Instrumentation,002188,Capability to detect obscuration,,,Flag table,0,0,21,Flag table,0,7,Operational
-02,Instrumentation,002189,Capability to discriminate lightning strikes,,,Flag table,0,0,12,Flag table,0,4,Operational
-02,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),,,%,0,0,7,%,0,3,Operational
-02,Instrumentation,002191,Geopotential height calculation,,,Code table,0,0,4,Code table,0,2,Operational
+ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+02,Instrumentation,002001,Type of station,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002002,Type of instrumentation for wind measurement,Flag table,0,0,4,Flag table,0,2,,,Operational
+02,Instrumentation,002003,Type of measuring equipment used,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002004,Type of instrumentation for evaporation measurement or type of crop for which evapotranspiration is reported,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002005,Precision of temperature observation,K,2,0,7,K,2,3,,,Operational
+02,Instrumentation,002006,Upper air remote sensing instrument type,Code table,0,0,6,Code table,0,0,,,Operational
+02,Instrumentation,002007,Type of sensor for water level measuring instrument,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002008,Type of offshore platform,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002011,Radiosonde type,Code table,0,0,8,Code table,0,3,,,Operational
+02,Instrumentation,002012,Radiosonde computational method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002013,Solar and infrared radiation correction,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002014,Tracking technique/status of system used,Code table,0,0,7,Code table,0,3,,,Operational
+02,Instrumentation,002015,Radiosonde completeness,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002016,Radiosonde configuration,Flag table,0,0,5,Flag table,0,2,,,Operational
+02,Instrumentation,002017,Correction algorithms for humidity measurements,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002019,Satellite instruments,Code table,0,0,11,Code table,0,4,,,Operational
+02,Instrumentation,002020,Satellite classification,Code table,0,0,9,Code table,0,3,,,Operational
+02,Instrumentation,002021,Satellite instrument data used in processing,Flag table,0,0,9,Flag table,0,3,(see Note 8),47,Operational
+02,Instrumentation,002022,Satellite data-processing technique used,Flag table,0,0,8,Flag table,0,3,,,Operational
+02,Instrumentation,002023,Satellite-derived wind computation method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002024,Integrated mean humidity computational method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002025,Satellite channel(s) used in computation,Flag table,0,0,25,Flag table,0,9,,,Operational
+02,Instrumentation,002026,Cross-track resolution,m,2,0,12,m,2,4,,,Operational
+02,Instrumentation,002027,Along-track resolution,m,2,0,12,m,2,4,,,Operational
+02,Instrumentation,002028,Segment size at nadir in x-direction,m,0,0,18,m,0,6,,,Operational
+02,Instrumentation,002029,Segment size at nadir in y-direction,m,0,0,18,m,0,6,,,Operational
+02,Instrumentation,002030,Method of current measurement,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002031,Duration and time of current measurement,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002032,Indicator for digitization,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002033,Method of salinity/depth measurement,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002034,Drogue type,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002035,Cable length,m,0,0,9,m,0,3,,,Operational
+02,Instrumentation,002036,Buoy type,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002037,Method of tidal observation,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002038,Method of water temperature and/or salinity measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002039,Method of wet-bulb temperature measurement,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002040,Method of removing velocity and motion of platform from current,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002041,Method for estimating reports related to synoptic features,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002042,Indicator for sea-surface current speed,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002044,Indicator for method of calculating spectral wave data,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002045,Indicator for type of platform,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002046,Wave measurement instrumentation,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002047,Deep-ocean tsunameter type,Code table,0,0,7,Code table,0,2,,,Operational
+02,Instrumentation,002048,Satellite sensor indicator,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002049,Geostationary satellite data-processing technique used,Flag table,0,0,8,Flag table,0,3,,,Operational
+02,Instrumentation,002050,Geostationary sounder satellite channels used,Flag table,0,0,20,Flag table,0,7,,,Operational
+02,Instrumentation,002051,Indicator to specify observing method for extreme temperatures,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002052,Geostationary imager satellite channels used,Flag table,0,0,6,Flag table,0,2,,,Operational
+02,Instrumentation,002053,GOES-I/M brightness temperature characteristics,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002054,GOES-I/M soundings parameter characteristics,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002055,Geostationary soundings statistical parameters,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002056,Geostationary soundings accuracy statistics,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002057,Origin of first-guess information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002058,Valid times of first-guess information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002059,Origin of analysis information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002060,Origin of surface information for GOES-I/M soundings,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002061,Aircraft navigational system,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002062,Type of aircraft data relay system,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002063,Aircraft roll angle,deg,2,-18000,16,deg,2,5,,,Operational
+02,Instrumentation,002064,Aircraft roll angle quality,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002065,ACARS ground-receiving station,CCITT IA5,0,0,40,Character,0,5,,,Operational
+02,Instrumentation,002066,Radiosonde ground receiving system,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002067,Radiosonde operating frequency,Hz,-5,0,15,Hz,-5,5,,,Operational
+02,Instrumentation,002070,Original specification of latitude/longitude,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002071,Spectrographic wavelength,m,13,0,30,m,13,10,,,Operational
+02,Instrumentation,002072,Spectrographic width,m,13,0,30,m,13,10,,,Operational
+02,Instrumentation,002080,Balloon manufacturer,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002081,Type of balloon,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002082,Weight of balloon,kg,3,0,12,kg,3,4,,,Operational
+02,Instrumentation,002083,Type of balloon shelter,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002084,Type of gas used in balloon,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002085,Amount of gas used in balloon,kg,3,0,13,kg,3,4,,,Operational
+02,Instrumentation,002086,Balloon flight train length,m,1,0,10,m,1,4,,,Operational
+02,Instrumentation,002087,Parachute surface area,m2,4,0,15,m2,4,5,,,Operational
+02,Instrumentation,002088,Volume of gas used in balloon,m3,3,0,13,m3,3,4,,,Operational
+02,Instrumentation,002090,Instrument wavelength,m,9,0,16,m,9,5,,,Operational
+02,Instrumentation,002091,Entry sensor 4/20 mA,A,4,0,10,A,4,3,,,Operational
+02,Instrumentation,002092,Ozone profile computation method,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002095,Type of pressure sensor,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002096,Type of temperature sensor,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002097,Type of humidity sensor,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002099,Polarization,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002100,Radar constant,dB,1,0,12,dB,1,4,(see Note 9),157,Operational
+02,Instrumentation,002101,Type of antenna,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002102,Antenna height above tower base,m,0,0,8,m,0,3,,,Operational
+02,Instrumentation,002103,Radome,Flag table,0,0,2,Flag table,0,1,,,Operational
+02,Instrumentation,002104,Antenna polarization,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002105,Maximum antenna gain,dB,0,0,6,dB,0,2,,,Operational
+02,Instrumentation,002106,3-dB beamwidth,deg,1,0,6,deg,1,2,,,Operational
+02,Instrumentation,002107,Sidelobe suppression,dB,0,0,6,dB,0,2,,,Operational
+02,Instrumentation,002108,Crosspol discrimination (on axis),dB,0,0,6,dB,0,2,,,Operational
+02,Instrumentation,002109,Antenna speed (azimuth),deg/s,2,0,12,deg/s,2,4,,,Operational
+02,Instrumentation,002110,Antenna speed (elevation),deg/s,2,0,12,deg/s,2,4,,,Operational
+02,Instrumentation,002111,Radar incidence angle,deg,1,0,10,deg,1,4,,,Operational
+02,Instrumentation,002112,Radar look angle,deg,1,0,12,deg,1,4,,,Operational
+02,Instrumentation,002113,Number of azimuth looks,Numeric,0,0,4,Numeric,0,2,,,Operational
+02,Instrumentation,002114,Antenna effective surface area,m2,0,0,15,m2,0,5,,,Operational
+02,Instrumentation,002115,Type of surface observing equipment,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002116,Percentage of 320 MHz band processed,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002117,Percentage of 80 MHz band processed,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002118,Percentage of 20 MHz band processed,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002119,RA-2 instrument operations,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002120,Ocean wave frequency,Hz,3,0,10,Hz,3,4,,,Operational
+02,Instrumentation,002121,Mean frequency,Hz,-8,0,7,Hz,-8,3,,,Operational
+02,Instrumentation,002122,Frequency agility range,Hz,-6,-128,8,Hz,-6,3,,,Operational
+02,Instrumentation,002123,Peak power,W,-4,0,7,W,-4,3,,,Operational
+02,Instrumentation,002124,Average power,W,-1,0,7,W,-1,3,,,Operational
+02,Instrumentation,002125,Pulse repetition frequency,Hz,-1,0,8,Hz,-1,3,,,Operational
+02,Instrumentation,002126,Pulse width,s,7,0,6,s,7,2,,,Operational
+02,Instrumentation,002127,Receiver intermediate frequency,Hz,-6,0,7,Hz,-6,3,,,Operational
+02,Instrumentation,002128,Intermediate frequency bandwidth,Hz,-5,0,6,Hz,-5,2,,,Operational
+02,Instrumentation,002129,Minimum detectable signal,dB,0,-150,5,dB,0,3,,,Operational
+02,Instrumentation,002130,Dynamic range,dB,0,0,7,dB,0,3,,,Operational
+02,Instrumentation,002131,Sensitivity time control (STC),Flag table,0,0,2,Flag table,0,1,,,Operational
+02,Instrumentation,002132,Azimuth pointing accuracy,deg,2,0,6,deg,2,2,,,Operational
+02,Instrumentation,002133,Elevation pointing accuracy,deg,2,0,6,deg,2,2,,,Operational
+02,Instrumentation,002134,Antenna beam azimuth,deg,2,0,16,deg,2,5,,,Operational
+02,Instrumentation,002135,Antenna elevation,deg,2,-9000,15,deg,2,5,,,Operational
+02,Instrumentation,002136,Range processed by range attenuation correction,m,-3,0,16,m,-3,5,,,Operational
+02,Instrumentation,002137,Radar dual PRF ratio,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002138,Antenna rotation direction,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002139,SIRAL instrument configuration,Code table,0,0,2,Code table,0,1,,,Operational
+02,Instrumentation,002140,Satellite radar beam azimuth angle,deg,0,0,9,deg,0,3,(see Note 4),111,Operational
+02,Instrumentation,002141,Measurement type,CCITT IA5,0,0,24,Character,0,3,,,Operational
+02,Instrumentation,002142,Ozone instrument serial number/identification,CCITT IA5,0,0,32,Character,0,4,(see Note 5),91,Operational
+02,Instrumentation,002143,Ozone instrument type,Code table,0,0,7,Code table,0,3,,,Operational
+02,Instrumentation,002144,Light source type for Brewer spectrophotometer,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002145,Wavelength setting for Dobson instruments,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002146,Source conditions for Dobson instruments,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002147,Method of transmission to collection centre,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002148,Data collection and/or location system,Code table,0,0,5,Code table,0,2,,,Operational
+02,Instrumentation,002149,Type of data buoy,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002150,TOVS/ATOVS/AVHRR instrumentation channel number,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002151,Radiometer identifier,Code table,0,0,11,Code table,0,4,,,Operational
+02,Instrumentation,002152,Satellite instrument used in data processing,Flag table,0,0,31,Flag table,0,10,(see Note 6),46,Operational
+02,Instrumentation,002153,Satellite channel centre frequency,Hz,-8,0,26,Hz,-8,8,,,Operational
+02,Instrumentation,002154,Satellite channel band width,Hz,-8,0,26,Hz,-8,8,,,Operational
+02,Instrumentation,002155,Satellite channel wavelength,m,9,0,16,m,9,5,,,Operational
+02,Instrumentation,002156,Percentage of valid KU ocean retracker measurements,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002157,Percentage of valid S ocean retracker measurements,%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002158,RA-2 instrument,Flag table,0,0,9,Flag table,0,3,,,Operational
+02,Instrumentation,002159,MWR instrument,Flag table,0,0,8,Flag table,0,3,,,Operational
+02,Instrumentation,002160,Wavelength of the radar,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002161,Wind processing method,Flag table,0,0,16,Flag table,0,6,,,Operational
+02,Instrumentation,002162,Extended height assignment method,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002163,Height assignment method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002164,Tracer correlation method,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002165,Radiance type flags,Flag table,0,0,15,Flag table,0,5,,,Operational
+02,Instrumentation,002166,Radiance type,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002167,Radiance computational method,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002168,Hydrostatic pressure of lower end of cable (thermistor string),Pa,-3,0,16,kPa,0,5,,,Operational
+02,Instrumentation,002169,Anemometer type,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002170,Aircraft humidity sensors,Code table,0,0,6,Code table,0,2,,,Operational
+02,Instrumentation,002171,Instrument serial number for water temperature profile measurement,CCITT IA5,0,0,64,Character,0,8,,,Operational
+02,Instrumentation,002172,Product type for retrieved atmospheric gases,Code table,0,0,8,Code table,0,3,,,Operational
+02,Instrumentation,002173,Square of the off-nadir angle,deg2,4,0,10,deg2,4,4,(see Note 7),124,Operational
+02,Instrumentation,002174,Mean across track pixel number,Numeric,0,0,9,Numeric,0,3,,,Operational
+02,Instrumentation,002175,Method of precipitation measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002176,Method of state of ground measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002177,Method of snow depth measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002178,Method of liquid content measurement of precipitation,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002179,Type of sky condition algorithm,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002180,Main present weather detecting system,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002181,Supplementary present weather sensor,Flag table,0,0,21,Flag table,0,7,,,Operational
+02,Instrumentation,002182,Visibility measurement system,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002183,Cloud detection system,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002184,Type of lightning detection sensor,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002185,Method of evaporation measurement,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002186,Capability to detect precipitation phenomena,Flag table,0,0,30,Flag table,0,10,,,Operational
+02,Instrumentation,002187,Capability to detect other weather phenomena,Flag table,0,0,18,Flag table,0,6,,,Operational
+02,Instrumentation,002188,Capability to detect obscuration,Flag table,0,0,21,Flag table,0,7,,,Operational
+02,Instrumentation,002189,Capability to discriminate lightning strikes,Flag table,0,0,12,Flag table,0,4,,,Operational
+02,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),%,0,0,7,%,0,3,,,Operational
+02,Instrumentation,002191,Geopotential height calculation,Code table,0,0,4,Code table,0,2,,,Operational

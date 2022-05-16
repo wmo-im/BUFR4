@@ -103,7 +103,7 @@ noteID,note
 110,North to south increments shall be assigned negative values.
 111,Note that descriptor 0 02 140 is the azimuth angle measured anticlockwise from satellite heading vector.
 113,Other applications of the data present indicator may be developed.
-114,Piece-Wise Linear Regression-cube and is a first-guess optimal estimation method.
+114,Piece-wise linear regression cube is a first-guess optimal estimation method.
 115,Pixel data width can be changed with descriptor 2 01 YYY.
 116,"Regarding data from ground-based stations, this descriptor should be used for archived data only. Descriptors 0 07 030 and 0 07 031 should be used and preferred to represent ground elevation and elevation of barometer, respectively, as defined in Weather Reporting (WMO-No. 9), Volume A - Observing Stations. Regarding marine stations, this descriptor refers to the height above mean sea level of the deck of marine platform where the instruments stand."
 117,"Representative height of sensor above station is the standard height of a sensor required by WMO documentation. The value of the following meteorological elements should be adjusted using a formula. For example, standard height recommended in WMO documentation for surface wind sensors is 10 metres. If the sensor is placed at a different height, the wind speed may be adjusted using a formula."
@@ -146,7 +146,7 @@ noteID,note
 154,"The values for descriptors 0 01 041, 0 01 042 and 0 01 043 have been chosen to be suitable for polar orbiting satellites in approximately Sun-synchronous orbits. Geostationary orbits would require greater data widths for distance and slightly less for speed."
 155,This class may also contain elements relating to observational procedures.
 156,This class shall contain elements to describe the instrumentation used to obtain the meteorological elements reported.
-157,This constant is defined as follows: Z = P + radar constant where Z = the reflectivity of target in beam direction (dBZ); P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range.
+157,This constant is defined as follows: Z = P + radar constant, where Z = the reflectivity of target in beam direction (dBZ) and P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range.
 158,"Time periods or displacements and time increments require an initial time location to be defined prior to their use, followed where appropriate by a time significance definition."
 159,"True direction of a phenomenon or clouds (0 20 054) shall be used to indicate true direction from which a phenomenon or clouds are moving or in which they are observed. 0 20 054 value 0 shall indicate ""stationary or no clouds"" or ""observed at the station"", whereas value 500 shall indicate ""observed in all directions"" and value 501 shall indicate ""unknown or clouds invisible""."
 160,Upward radiation shall be assigned negative values.
