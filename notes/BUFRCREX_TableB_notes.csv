@@ -146,7 +146,7 @@ noteID,note
 154,"The values for descriptors 0 01 041, 0 01 042 and 0 01 043 have been chosen to be suitable for polar orbiting satellites in approximately Sun-synchronous orbits. Geostationary orbits would require greater data widths for distance and slightly less for speed."
 155,This class may also contain elements relating to observational procedures.
 156,This class shall contain elements to describe the instrumentation used to obtain the meteorological elements reported.
-157,This constant is defined as follows: Z = P + radar constant, where Z = the reflectivity of target in beam direction (dBZ) and P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range.
+157,"This constant is defined as follows: Z = P + radar constant, where Z = the reflectivity of target in beam direction (dBZ) and P = the input receiver power above 1 mW (dBm). This constant is used to normalize the signal to the equivalent 100 km range."
 158,"Time periods or displacements and time increments require an initial time location to be defined prior to their use, followed where appropriate by a time significance definition."
 159,"True direction of a phenomenon or clouds (0 20 054) shall be used to indicate true direction from which a phenomenon or clouds are moving or in which they are observed. 0 20 054 value 0 shall indicate ""stationary or no clouds"" or ""observed at the station"", whereas value 500 shall indicate ""observed in all directions"" and value 501 shall indicate ""unknown or clouds invisible""."
 160,Upward radiation shall be assigned negative values.
