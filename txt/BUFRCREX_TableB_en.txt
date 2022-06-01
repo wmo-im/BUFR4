@@ -109,7 +109,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001127,WIGOS issue number,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
 01,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
-01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,,,Operational
+01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,,issue109,Operational
 01,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
 01,Identification,001151,Fixed mean sea-level reference datum,Code table,0,0,12,Code table,0,4,,,Operational
 01,Identification,001152,Semi-major axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
