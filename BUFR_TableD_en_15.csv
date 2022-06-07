@@ -93,7 +93,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315007,"(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)",,301003,Ship’s call sign and motion,,,,Operational
 15,Oceanographic report sequences,315007,"(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)",Extended identification,001019,Long station or site name,,,,Operational
 15,Oceanographic report sequences,315007,"(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)",Extended identification,001103,IMO Number. Unique Lloyd's register,Values are restricted to between 0 and 9999999,,,Operational
-15,Oceanographic report sequences,315007,"(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)",Extended identification,001087,WMO marine observing platform extended identifier ,"Set to missing, if ship's call sign is reported",,,Operational
+15,Oceanographic report sequences,315007,"(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)",Extended identification,001087,WMO marine observing platform extended identifier,"Set to missing, if ship's call sign is reported",,,Operational
 15,Oceanographic report sequences,315007,"(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)",Cruise/ship line information,001036,Agency in charge of operating the observing platform,,,,Operational
 15,Oceanographic report sequences,315007,"(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)",Cruise/ship line information,001115,Identifier of the cruise or mission under which the data were collected,"Set to missing, if no cruise identifier is reported",,,Operational
 15,Oceanographic report sequences,315007,"(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)",Cruise/ship line information,001080,Ship line number according to SOOP,,,,Operational
@@ -151,7 +151,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315008,(Sequence for the representation of data from moored buoys),Standard meteorological data,306038,Sequence for representation of standard surface marine meteorological observations from moored buoys,"For buoys equipped with more than 1 anemometer, the height of sensor should relate to the one being used",,,Operational
 15,Oceanographic report sequences,315008,(Sequence for the representation of data from moored buoys),Optional ancillary meteorological data,101000,Delayed replication of 1 descriptor,,,,Operational
 15,Oceanographic report sequences,315008,(Sequence for the representation of data from moored buoys),Optional ancillary meteorological data,031000,Short delayed descriptor replication factor,,,,Operational
-15,Oceanographic report sequences,315008,(Sequence for the representation of data from moored buoys),Optional ancillary meteorological data,302091,Sequence for representation of ancillary meteorological observations ,,,,Operational
+15,Oceanographic report sequences,315008,(Sequence for the representation of data from moored buoys),Optional ancillary meteorological data,302091,Sequence for representation of ancillary meteorological observations,,,,Operational
 15,Oceanographic report sequences,315008,(Sequence for the representation of data from moored buoys),Optional radiation measurements,101000,Delayed replication of 1 descriptor,,,,Operational
 15,Oceanographic report sequences,315008,(Sequence for the representation of data from moored buoys),Optional radiation measurements,031000,Short delayed descriptor replication factor,,,,Operational
 15,Oceanographic report sequences,315008,(Sequence for the representation of data from moored buoys),Optional radiation measurements,302082,Radiation data,,,,Operational
@@ -198,7 +198,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Time/date of observation,301012,"Hour, minute",Time of observation,,,Operational
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Surface temperature and salinity,002005,Precision of temperature observation,,,,Operational
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Surface temperature and salinity,022043,Sea/water temperature,,,,Operational
-15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Surface temperature and salinity,002033,Method of salinity/depth measurement ,,,,Operational
+15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Surface temperature and salinity,002033,Method of salinity/depth measurement,,,,Operational
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Surface temperature and salinity,022059,Sea-surface salinity,,,,Operational
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Surface type/ice information,008029,Surface type,,,,Operational
 15,Oceanographic report sequences,315009,(Sequence for the representation of data from drifting buoys),Surface type/ice information,013115,Ice thickness,,,,Operational
@@ -226,7 +226,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,022080,Waveband central frequency (Hz),,,,Operational
 15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,022096,Spectral band width (Hz),,,,Operational
 15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,022069,Spectral wave density (m2 Hz-1),,,,Operational
-15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,202000,Change data width ,Cancel,,,Operational
+15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,202000,Change data width,Cancel,,,Operational
 15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,201000,Change scale,Cancel,,,Operational
 15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,042011,a1 coefficient of the directional Fourier series,First moment of the directional wave spectrum,,,Operational
 15,Oceanographic report sequences,315010,(First five Fourier components of the wave spectrum),,042012,b1 coefficient of the directional Fourier series,First moment of the directional wave spectrum,,,Operational
@@ -294,11 +294,11 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014017,Instantaneous long-wave radiation,,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014018,Instantaneous short-wave radiation,,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,,,Operational
-15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier ,WMO number where assigned,,,Operational
-15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5 ,change width to 32 characters,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier,WMO number where assigned,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5,change width to 32 characters,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001019,Long station or site name,"Platform ID, e.g. ct145-933-BAT2-18 (max 32 characters)",,,Operational
-15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208000,Change width of CCITT IA5 ,Cancel change width,,,Operational
-15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,003001,Surface station type ,10 (Marine animal),,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208000,Change width of CCITT IA5,Cancel change width,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,003001,Surface station type,10 (Marine animal),,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,022067,Instrument type for water temperature and/or salinity measurement,set to 995 (attached to marine animal),,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001051,Platform transmitter ID number,e.g. Argos PTT,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,002148,Data collection and/or location system,,,,Operational
@@ -315,7 +315,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,033027,Location quality class (range of radius of 66% confidence),,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,007063,Depth below sea/water surface,,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,022045,Sea/water temperature,,,,Operational
-15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,008021,Time significance ,Set to missing/cancel,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,008021,Time significance,Set to missing/cancel,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,107000,Delayed replication of 7 descriptors,,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,031001,Delayed descriptor replication factor,,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301011,"Year, month, day",,,,Operational
@@ -327,12 +327,12 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,306035,Temperature and salinity profile,,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,201129,Change width,Add one bit to width of following descriptor,,,Operational
-15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier ,WMO number where assigned,,,Operational
+15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier,WMO number where assigned,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,201000,Change width,Cancel change width,,,Operational
-15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5 ,change width to 32 characters,,,Operational
+15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5,change width to 32 characters,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,001019,Long station or site name,"Platform ID, e.g. ct145-933-BAT2-18 (max 32 characters)",,,Operational
-15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,208000,Change width of CCITT IA5 ,Cancel change width,,,Operational
-15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,003001,Surface station type ,10 (Marine animal),,,Operational
+15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,208000,Change width of CCITT IA5,Cancel change width,,,Operational
+15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,003001,Surface station type,10 (Marine animal),,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,022067,Instrument type for water temperature and/or salinity measurement,set to 995 (attached to marine animal),,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,001051,Platform transmitter ID number,e.g. Argos PTT,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,002148,Data collection and/or location system,,,,Operational
@@ -349,7 +349,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,033027,Location quality class (range of radius of 66% confidence),,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,007063,Depth below sea/water surface,,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,022045,Sea/water temperature,,,,Operational
-15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,008021,Time significance ,Set to missing/cancel,,,Operational
+15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,008021,Time significance,Set to missing/cancel,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,107000,Delayed replication of 7 descriptors,,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,031001,Delayed descriptor replication factor,,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,301011,"Year, month, day",,,,Operational
