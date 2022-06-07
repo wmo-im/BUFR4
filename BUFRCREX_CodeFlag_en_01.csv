@@ -357,6 +357,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001151,Fixed mean sea-level reference datum,1,Baltic height system 1977,,,,,Operational
 001151,Fixed mean sea-level reference datum,2-4094,Reserved,,,,,Operational
 001151,Fixed mean sea-level reference datum,4095,Missing value,,,,,Operational
-001155,Retrieval identifier,0,Standard Correct Algorithm,,,,,Operational
-001155,Retrieval identifier,1-254,Reserved,,,,,Operational
+001155,Retrieval identifier,0,Standard Correct Algorithm (SCA),,,,,Operational
+001155,Retrieval identifier,1,Standard Correct Algorithm mid bin (SCA mid bin),,,,,Operational
+001155,Retrieval identifier,2,Maximum Likelihood Method (MLE),,,,,Operational
+001155,Retrieval identifier,3,Optimal Estimation Profile (OE-PRO),,,,,Operational
+001155,Retrieval identifier,4,Group,,,,,Operational
+001155,Retrieval identifier,5,Group mid bin,,,,,Operational
+001155,Retrieval identifier,6-254,Reserved,,,,,Operational
 001155,Retrieval identifier,255,Missing value,,,,,Operational
