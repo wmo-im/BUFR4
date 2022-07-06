@@ -16661,6 +16661,41 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>008097</FXY>
+    <ElementName_en>Method used to calculate the average instrument temperature</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>The average of six temperature sensors placed throughout the payload</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008097</FXY>
+    <ElementName_en>Method used to calculate the average instrument temperature</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Average of WF-band IFP and RFE sensors for channels 1 to 8</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008097</FXY>
+    <ElementName_en>Method used to calculate the average instrument temperature</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Average of G-band RFE sensor for channels 9 to 12</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008097</FXY>
+    <ElementName_en>Method used to calculate the average instrument temperature</ElementName_en>
+    <CodeFigure>3-126</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008097</FXY>
+    <ElementName_en>Method used to calculate the average instrument temperature</ElementName_en>
+    <CodeFigure>127</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>010063</FXY>
     <ElementName_en>Characteristic of pressure tendency</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -36129,6 +36164,76 @@
     <FXY>033093</FXY>
     <ElementName_en>Extended quality flags for ground-based GNSS data</ElementName_en>
     <CodeFigure>All 31</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>1-15</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>Non ocean</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>Lunar or Solar intrusion</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>Spacecraft maneuver</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>Cold calibration consistency</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Warm calibration consistency</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>Descending</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>Night</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>Payload rear orientation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033094</FXY>
+    <ElementName_en>Calibration quality control flags</ElementName_en>
+    <CodeFigure>All 24</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>

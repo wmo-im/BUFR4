@@ -2367,6 +2367,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008096,Siting and measurement quality classification for precipitation,34,D,,,,,Operational
 008096,Siting and measurement quality classification for precipitation,35-254,Reserved,,,,,Operational
 008096,Siting and measurement quality classification for precipitation,255,Missing,,,,,Operational
+008097,Method used to calculate the average instrument temperature,0,The average of six temperature sensors placed throughout the payload,,,,,Operational
+008097,Method used to calculate the average instrument temperature,1,Average of WF-band IFP and RFE sensors for channels 1 to 8,,,,,Operational
+008097,Method used to calculate the average instrument temperature,2,Average of G-band RFE sensor for channels 9 to 12,,,,,Operational
+008097,Method used to calculate the average instrument temperature,3-126,Reserved,,,,,Operational
+008097,Method used to calculate the average instrument temperature,127,Missing,,,,,Operational
 010063,Characteristic of pressure tendency,0,"Increasing, then decreasing; atmospheric pressure the same or higher than three hours ago",,,,,Operational
 010063,Characteristic of pressure tendency,1,"Increasing, then steady; or increasing, then increasing more slowly",Atmospheric pressure now higher than three hours ago,,,,Operational
 010063,Characteristic of pressure tendency,2,Increasing (steadily or unsteadily),Atmospheric pressure now higher than three hours ago,,,,Operational
@@ -5112,6 +5117,16 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033093,Extended quality flags for ground-based GNSS data,22,Real time data processing,,,,,Operational
 033093,Extended quality flags for ground-based GNSS data,23-30,Reserved,,,,,Operational
 033093,Extended quality flags for ground-based GNSS data,All 31,Missing value,,,,,Operational
+033094,Calibration quality control flags,1-15,Reserved,,,,,Operational
+033094,Calibration quality control flags,16,Non ocean,,,,,Operational
+033094,Calibration quality control flags,17,Lunar or Solar intrusion,,,,,Operational
+033094,Calibration quality control flags,18,Spacecraft maneuver,,,,,Operational
+033094,Calibration quality control flags,19,Cold calibration consistency,,,,,Operational
+033094,Calibration quality control flags,20,Warm calibration consistency,,,,,Operational
+033094,Calibration quality control flags,21,Descending,,,,,Operational
+033094,Calibration quality control flags,22,Night,,,,,Operational
+033094,Calibration quality control flags,23,Payload rear orientation,,,,,Operational
+033094,Calibration quality control flags,All 24,Missing value,,,,,Operational
 035000,FM and regional code number,000-099,International FM Codes,,,,,Operational
 035000,FM and regional code number,100-199,RA I Codes,,,,,Operational
 035000,FM and regional code number,200-299,RA II Codes,,,,,Operational
