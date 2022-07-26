@@ -1595,6 +1595,21 @@
   <BUFRCREX_TableB_en>
     <ClassNo>01</ClassNo>
     <ClassName_en>Identification</ClassName_en>
+    <FXY>001145</FXY>
+    <ElementName_en>Light source identifier</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>-8</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <noteIDs>issue109</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>01</ClassNo>
+    <ClassName_en>Identification</ClassName_en>
     <FXY>001150</FXY>
     <ElementName_en>Coordinate reference system</ElementName_en>
     <BUFR_Unit>Code table</BUFR_Unit>
