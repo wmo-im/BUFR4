@@ -58829,7 +58829,7 @@
     <Title_en>(Sequence for representation of data derived from a ship-based lowered instrument measuring subsurface sea/water temperature, salinity and current profiles)</Title_en>
     <SubTitle_en>Extended identification</SubTitle_en>
     <FXY2>001087</FXY2>
-    <ElementName_en>WMO marine observing platform extended identifier </ElementName_en>
+    <ElementName_en>WMO marine observing platform extended identifier</ElementName_en>
     <ElementDescription_en>Set to missing, if ship's call sign is reported</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -59416,7 +59416,7 @@
     <Title_en>(Sequence for the representation of data from moored buoys)</Title_en>
     <SubTitle_en>Optional ancillary meteorological data</SubTitle_en>
     <FXY2>302091</FXY2>
-    <ElementName_en>Sequence for representation of ancillary meteorological observations </ElementName_en>
+    <ElementName_en>Sequence for representation of ancillary meteorological observations</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59895,7 +59895,7 @@
     <Title_en>(Sequence for the representation of data from drifting buoys)</Title_en>
     <SubTitle_en>Surface temperature and salinity</SubTitle_en>
     <FXY2>002033</FXY2>
-    <ElementName_en>Method of salinity/depth measurement </ElementName_en>
+    <ElementName_en>Method of salinity/depth measurement</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -60170,7 +60170,7 @@
     <FXY1>315010</FXY1>
     <Title_en>(First five Fourier components of the wave spectrum)</Title_en>
     <FXY2>202000</FXY2>
-    <ElementName_en>Change data width </ElementName_en>
+    <ElementName_en>Change data width</ElementName_en>
     <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -60790,7 +60790,7 @@
     <FXY1>315013</FXY1>
     <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
     <FXY2>001087</FXY2>
-    <ElementName_en>WMO marine observing platform extended identifier </ElementName_en>
+    <ElementName_en>WMO marine observing platform extended identifier</ElementName_en>
     <ElementDescription_en>WMO number where assigned</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -60800,7 +60800,7 @@
     <FXY1>315013</FXY1>
     <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
     <FXY2>208032</FXY2>
-    <ElementName_en>Change width of CCITT IA5 </ElementName_en>
+    <ElementName_en>Change width of CCITT IA5</ElementName_en>
     <ElementDescription_en>change width to 32 characters</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -60810,7 +60810,7 @@
     <FXY1>315013</FXY1>
     <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
     <FXY2>001019</FXY2>
-    <ElementName_en>Ship or mobile land station identifier </ElementName_en>
+    <ElementName_en>Long station or site name</ElementName_en>
     <ElementDescription_en>Platform ID, e.g. ct145-933-BAT2-18 (max 32 characters)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -60820,7 +60820,7 @@
     <FXY1>315013</FXY1>
     <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
     <FXY2>208000</FXY2>
-    <ElementName_en>Change width of CCITT IA5 </ElementName_en>
+    <ElementName_en>Change width of CCITT IA5</ElementName_en>
     <ElementDescription_en>Cancel change width</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -60830,7 +60830,7 @@
     <FXY1>315013</FXY1>
     <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
     <FXY2>003001</FXY2>
-    <ElementName_en>Surface station type </ElementName_en>
+    <ElementName_en>Surface station type</ElementName_en>
     <ElementDescription_en>10 (Marine animal)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -60987,7 +60987,7 @@
     <FXY1>315013</FXY1>
     <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
     <FXY2>008021</FXY2>
-    <ElementName_en>Time significance </ElementName_en>
+    <ElementName_en>Time significance</ElementName_en>
     <ElementDescription_en>Set to missing/cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -61070,6 +61070,326 @@
     <Category>15</Category>
     <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
     <FXY1>315013</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>306035</FXY2>
+    <ElementName_en>Temperature and salinity profile</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>301150</FXY2>
+    <ElementName_en>WIGOS identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>201129</FXY2>
+    <ElementName_en>Change width</ElementName_en>
+    <ElementDescription_en>Add one bit to width of following descriptor</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>001087</FXY2>
+    <ElementName_en>WMO marine observing platform extended identifier</ElementName_en>
+    <ElementDescription_en>WMO number where assigned</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change width</ElementName_en>
+    <ElementDescription_en>Cancel change width</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>208032</FXY2>
+    <ElementName_en>Change width of CCITT IA5</ElementName_en>
+    <ElementDescription_en>change width to 32 characters</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>001019</FXY2>
+    <ElementName_en>Long station or site name</ElementName_en>
+    <ElementDescription_en>Platform ID, e.g. ct145-933-BAT2-18 (max 32 characters)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>208000</FXY2>
+    <ElementName_en>Change width of CCITT IA5</ElementName_en>
+    <ElementDescription_en>Cancel change width</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>003001</FXY2>
+    <ElementName_en>Surface station type</ElementName_en>
+    <ElementDescription_en>10 (Marine animal)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>022067</FXY2>
+    <ElementName_en>Instrument type for water temperature and/or salinity measurement</ElementName_en>
+    <ElementDescription_en>set to 995 (attached to marine animal)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>001051</FXY2>
+    <ElementName_en>Platform transmitter ID number</ElementName_en>
+    <ElementDescription_en>e.g. Argos PTT</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>002148</FXY2>
+    <ElementName_en>Data collection and/or location system</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>112000</FXY2>
+    <ElementName_en>Delayed replication of 12 descriptors</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>031001</FXY2>
+    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>008021</FXY2>
+    <ElementName_en>Time significance</ElementName_en>
+    <ElementDescription_en>set to 26, time of last known position</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>301012</FXY2>
+    <ElementName_en>Hour, minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>301021</FXY2>
+    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>001012</FXY2>
+    <ElementName_en>Direction of motion of moving observing platform</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>001014</FXY2>
+    <ElementName_en>Platform drift speed (high precision)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>033022</FXY2>
+    <ElementName_en>Quality of buoy satellite transmission</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>033023</FXY2>
+    <ElementName_en>Quality buoy location</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>033027</FXY2>
+    <ElementName_en>Location quality class (range of radius of 66% confidence)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>007063</FXY2>
+    <ElementName_en>Depth below sea/water surface</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>022045</FXY2>
+    <ElementName_en>Sea/water temperature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>008021</FXY2>
+    <ElementName_en>Time significance</ElementName_en>
+    <ElementDescription_en>Set to missing/cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>107000</FXY2>
+    <ElementName_en>Delayed replication of 7 descriptors</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>031001</FXY2>
+    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>301012</FXY2>
+    <ElementName_en>Hour, minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>301021</FXY2>
+    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>001079</FXY2>
+    <ElementName_en>Unique identifier for the profile</ElementName_en>
+    <ElementDescription_en>Profile ID</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>001023</FXY2>
+    <ElementName_en>Observation sequence number</ElementName_en>
+    <ElementDescription_en>Upcast number</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
+    <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
+    <FXY2>022056</FXY2>
+    <ElementName_en>Direction of profile</ElementName_en>
+    <ElementDescription_en>Set to 0 (ascending/upwards)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>15</Category>
+    <CategoryOfSequences_en>Oceanographic report sequences</CategoryOfSequences_en>
+    <FXY1>315023</FXY1>
     <Title_en>(Sequence for reporting trajectory profile data from marine animal tags)</Title_en>
     <FXY2>306035</FXY2>
     <ElementName_en>Temperature and salinity profile</ElementName_en>
