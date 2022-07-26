@@ -1,4 +1,3 @@
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301011,"Year, month, day",,,,Operational
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301012,"Hour, minute",,,,Operational
@@ -293,7 +292,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,004025,Time period or displacement,,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014017,Instantaneous long-wave radiation,,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014018,Instantaneous short-wave radiation,,,,Operational
-15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,,,Operational
+15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,(see Note 4),79,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier,WMO number where assigned,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5,change width to 32 characters,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001019,Long station or site name,"Platform ID, e.g. ct145-933-BAT2-18 (max 32 characters)",,,Operational
@@ -359,3 +358,4 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,001023,Observation sequence number,Upcast number,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,022056,Direction of profile,Set to 0 (ascending/upwards),,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,306035,Temperature and salinity profile,,,,Operational
+Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
