@@ -6108,6 +6108,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,101000,Delayed replication of 1 descriptor,,,,Operational
 13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,031001,Delayed descriptor replication factor,,,,Operational
 13,Sequences common to image data,313043,"(Run-length encoded picture data for pixel value (4 bits), regular grid)",,030001,Pixel value (4 bits),,,,Operational
+15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301011,"Year, month, day",,,,Operational
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301012,"Hour, minute",,,,Operational
 15,Oceanographic report sequences,315001,(Typically reported underwater sounding without optional fields),,301023,Latitude/longitude (coarse accuracy),,,,Operational
@@ -6467,7 +6468,6 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,001023,Observation sequence number,Upcast number,,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,022056,Direction of profile,Set to 0 (ascending/upwards),,,Operational
 15,Oceanographic report sequences,315023,(Sequence for reporting trajectory profile data from marine animal tags),,306035,Temperature and salinity profile,,,,Operational
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
 16,Synoptic feature sequences,316001,,,301011,"Year, month, day",,,,Operational
 16,Synoptic feature sequences,316001,,,004004,Hour,,,,Operational
 16,Synoptic feature sequences,316001,,,301023,Latitude/longitude (coarse accuracy),,,,Operational
