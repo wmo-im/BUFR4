@@ -1,8 +1,8 @@
 noteID,note
-1,"""Bad weather"" denotes the conditions which generally exist during precipitation and a short time before and after."
-2,"""Clear"" and ""overcast"" are coded by 0 and 8, respectively."
-3,"""Ensemble mean"" indicates that a number of distinct values corresponding to a set of time locations are averaged."
-4,"""Time averaged"" indicates that values are continuously averaged over a period of time."
+1,"'Bad weather' denotes the conditions which generally exist during precipitation and a short time before and after."
+2,"'Clear' and 'overcast' are coded by 0 and 8, respectively."
+3,"'Ensemble mean' indicates that a number of distinct values corresponding to a set of time locations are averaged."
+4,"'Time averaged' indicates that values are continuously averaged over a period of time."
 5,"(0 is good, 1 is bad)"
 6,(See Common Code table C-1 in Part C/c.)
 7,(See Common Code table C-2 in Part C/c.)
@@ -86,7 +86,7 @@ noteID,note
 86,"This flag indicates that a significant number of fringes have been missed, shifting the interferogram ZPD outside of a window monitored by the instrument, and the interferogram is excluded from SDR processing."
 87,This flag indicates the instrument exhibited operational errors and the associated interferogram(s) is/are excluded from SDR processing.
 88,Time significance must be qualified by appropriate time periods being specified.
-89,"Funnel cloud(s)" refer to tornado clouds or waterspouts.
+89,'Funnel cloud(s)' refer to tornado clouds or waterspouts.
 90,Type of instrumentation and original units for wind measurement (measured in m s–1 unless otherwise indicated).
 91,Code figure 1 is deprecated. Code figure 6 should be used instead.
 92,"When Code figure 4 is used to specify a custom coordinate reference system, the ellipsoidal datum shall be an oblate ellipsoid of revolution, where the major axis is uniplanar with the equatorial plane and the minor axis traverses the prime meridian towards the prime pole. North corresponds to the direction from the Equator to the prime pole. East corresponds to the counterclockwise direction from the prime meridian as viewed from above the North Pole. In this case, the semi-major and semi-minor axes must be specified (e.g. by descriptors 0 01 152 and 0 01 153)."
