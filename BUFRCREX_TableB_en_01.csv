@@ -14,6 +14,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001013,Speed of motion of moving observing platform,m/s,0,0,10,m/s,0,3,(see Notes 14 and 15),"60,125",Operational
 01,Identification,001014,Platform drift speed (high precision),m/s,2,0,10,m/s,2,4,,,Operational
 01,Identification,001015,Station or site name,CCITT IA5,0,0,160,Character,0,20,,,Operational
+01,Identification,001016,Satellite sub-identifier,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001018,Short station or site name,CCITT IA5,0,0,40,Character,0,5,,,Operational
 01,Identification,001019,Long station or site name,CCITT IA5,0,0,256,Character,0,32,,,Operational
 01,Identification,001020,WMO Region sub-area,Numeric,0,0,4,Numeric,0,2,,,Operational
@@ -85,6 +86,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001127,WIGOS issue number,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
 01,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
+01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,(see Note 19),185,Operational
 01,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
 01,Identification,001151,Fixed mean sea-level reference datum,Code table,0,0,12,Code table,0,4,,,Operational
 01,Identification,001152,Semi-major axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational

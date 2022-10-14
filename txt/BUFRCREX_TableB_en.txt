@@ -38,6 +38,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001013,Speed of motion of moving observing platform,m/s,0,0,10,m/s,0,3,(see Notes 14 and 15),"60,125",Operational
 01,Identification,001014,Platform drift speed (high precision),m/s,2,0,10,m/s,2,4,,,Operational
 01,Identification,001015,Station or site name,CCITT IA5,0,0,160,Character,0,20,,,Operational
+01,Identification,001016,Satellite sub-identifier,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001018,Short station or site name,CCITT IA5,0,0,40,Character,0,5,,,Operational
 01,Identification,001019,Long station or site name,CCITT IA5,0,0,256,Character,0,32,,,Operational
 01,Identification,001020,WMO Region sub-area,Numeric,0,0,4,Numeric,0,2,,,Operational
@@ -109,6 +110,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001127,WIGOS issue number,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
 01,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
+01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,(see Note 19),185,Operational
 01,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
 01,Identification,001151,Fixed mean sea-level reference datum,Code table,0,0,12,Code table,0,4,,,Operational
 01,Identification,001152,Semi-major axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
@@ -506,6 +508,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008094,Method used to calculate the average daily temperature,Code table,0,0,8,Code table,0,3,,,Operational
 08,Significance qualifiers,008095,Siting and measurement quality classification for temperature,Code table,0,0,8,Code table,0,3,,,Operational
 08,Significance qualifiers,008096,Siting and measurement quality classification for precipitation,Code table,0,0,8,Code table,0,3,,,Operational
+08,Significance qualifiers,008097,Method used to calculate the average instrument temperature,Code table,0,0,7,Code table,0,3,,,Operational
 10,Non-coordinate location (vertical),010001,Height of land surface,m,0,-400,15,m,0,5,,,Operational
 10,Non-coordinate location (vertical),010002,Height,m,-1,-40,16,m,-1,5,,,Operational
 10,Non-coordinate location (vertical),010003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
@@ -1635,6 +1638,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033091,NEdT quality indicators for overall calibration,K,2,0,12,K,2,4,,,Operational
 33,Quality information,033092,Band specific ocean quality flag,Flag table,0,0,9,Flag table,0,3,,,Operational
 33,Quality information,033093,Extended quality flags for ground-based GNSS data,Flag table,0,0,31,Flag table,0,31,,,Operational
+33,Quality information,033094,Calibration quality control flags,Flag table,0,0,24,Flag table,0,24,,,Operational
 35,Data monitoring information,035000,FM and regional code number,Code table,0,0,10,Code table,0,3,,,Operational
 35,Data monitoring information,035001,Time frame for monitoring,Code table,0,0,3,Code table,0,1,,,Operational
 35,Data monitoring information,035011,Number of reports actually received,Numeric,0,0,14,Numeric,0,4,,,Operational

@@ -1,8 +1,8 @@
 noteID,note
-1,"""Bad weather"" denotes the conditions which generally exist during precipitation and a short time before and after."
-2,"""Clear"" and ""overcast"" are coded by 0 and 8, respectively."
-3,"""Ensemble mean"" indicates that a number of distinct values corresponding to a set of time locations are averaged."
-4,"""Time averaged"" indicates that values are continuously averaged over a period of time."
+1,"'Bad weather' denotes the conditions which generally exist during precipitation and a short time before and after."
+2,"'Clear' and 'overcast' are coded by 0 and 8, respectively."
+3,"'Ensemble mean' indicates that a number of distinct values corresponding to a set of time locations are averaged."
+4,"'Time averaged' indicates that values are continuously averaged over a period of time."
 5,"(0 is good, 1 is bad)"
 6,(See Common Code table C-1 in Part C/c.)
 7,(See Common Code table C-2 in Part C/c.)
@@ -44,8 +44,8 @@ noteID,note
 43,"Generic terms for weather (e.g. fog, drizzle) are intended for use at automatic stations capable of determining types of weather but no other information. Generic terms are included in the code table using all capital letters."
 44,Guide to Instruments and Methods of Observation
 45,H = Time of observation.
-46,""Hail" refers to hail, small hail or snow pellets."
-47,HIRS* is equivalent to: HIRS channels 1 (669 cm-1) 2 (679 cm-1) 3 (690 cm-1) 4 (2358 cm-1)
+46,"'Hail' refers to hail, small hail or snow pellets."
+47,"HIRS* is equivalent to: HIRS channels 1 (669 cm-1) 2 (679 cm-1) 3 (690 cm-1) 4 (2358 cm-1)"
 48,"If 0 08 082 = 1, the standard level is indicated by the Class 07 descriptor, which immediately follows. It is possible to indicate the real height of the sensor by preceding the descriptor by the relevant Class 07 descriptor."
 49,If bit is set to 1 then statement is true.
 50,In all instances the highest code figures applicable are to be reported.
@@ -59,7 +59,7 @@ noteID,note
 58,MMCC is Mission Management Control Centre.
 59,New local names for storm of various strengths shall be added as necessary.
 60,None of the code figures exclude the addition of interpolated levels at the discretion of the generating centre.
-61,"""Sun"" can also be sky (if sun is low), or moon or stars at night."
+61,"'Sun' can also be sky (if sun is low), or moon or stars at night."
 62,"Partly cloudy path means the sounding has been generated from clear radiances which have been calculated from partly cloudy spots. Tropospheric and stratospheric HIRS data, as well as MSU and SSU data, have been used."
 63,"Phenomenon in this flag table means any phenomenon, including precipitation and obscuration."
 64,PRF is pulse repetition frequency.
@@ -70,33 +70,33 @@ noteID,note
 70,"Set to 0 if no fringe count error was detected (see bit 11), or a fringe count error was detected but it was not corrected."
 71,Set to 1 if at least one spectrum in the deep space moving average was invalidated due to a lunar intrusion.
 72,Set to 1 if laser wavelength calculation is invalid due to laser diode bias current and/or laser diode temperature measurements being outside the predetermined allowable ranges. These ranges are tunable.In this case Lambda monitored calculation shall have 1 bit per scan.
-73,"Spectral calibration is invalid if fringe count error detected and corrected (see bit 8), or if neon calibration is suspect and Lambda monitored calculation cannot be updated (see ""Scan-level quality flags"" (0 33 075) -bit 3)."
+73,"Spectral calibration is invalid if fringe count error detected and corrected (see bit 8), or if neon calibration is suspect and Lambda monitored calculation cannot be updated (see 'Scan-level quality flags' (0 33 075) -bit 3)."
 74,The code figure 21 may be used within corrected messages with the substituted/corrected values identified.
 75,"The definitions in code numbers 0 to 2 and 4 apply to representative bare ground and numbers 3, 5 to 9 and 10 to 19 to an open representative area."
 76,"The exact bounding height shall be assigned for the lower code figure; e.g., a height of 4 m is coded as 5."
-77,"The expression ""at the station"" refers to a land station or a ship."
+77,"The expression 'at the station' refers to a land station or a ship."
 78,The first three digits represent the ISO country code.
 79,The last column in the table contains the associated registry number from the Chemical Abstracts Service (CAS) of the American Chemical Society.
 80,The middle portion of this code table (code figures 100-199) includes terms on several levels to cover simple and increasingly complex automatic stations.
 81,"The nominal range for the surface soil moisture is 0% - 100%. In extreme cases, the extrapolated backscatter at 40 degrees incidence angle may exceed the dry or the wet backscatter reference. In these cases, the value provided by the measurement process of surface soil moisture is, respectively,less than 0% or more than 100%."
 82,"The weather descriptions in code figures 10 to 19 are progressively complex, to accommodate the different levels of weather discrimination capability of various automatic stations. Stations having only basic sensing capability may use the lower code figures and basic generic descriptions (shown in capital letters). Stations with progressively higher discrimination capability shall use the more detailed descriptions (higher codes)."
-83,"These temperatures are used to compute the ""environmental"" contribution to the internal calibration target (ICT) radiances. When this bit is set to 1, the invalid temperatures shall be replaced with the validated temperature values of the ICT."
+83,"These temperatures are used to compute the 'environmental' contribution to the internal calibration target (ICT) radiances. When this bit is set to 1, the invalid temperatures shall be replaced with the validated temperature values of the ICT."
 84,"These values refer to well-developed wind waves of the open sea. While priority shall be given to the descriptive terms, these height values may be used for guidance by the observer when reporting the total state of agitation of the sea resulting from various factors such as wind, swell, currents, angle between swell and wind, etc."
 85,"This descriptor will be associated with visibility data or height of clouds data to specify if the value is bounded. If the reported data is the true value, the code figure is 0. However, the measurement can hit the limit of the instrument measurement capability. If the reported value is higher than the true value, the codefigure is 1; if the reported value is lower than the true value, the code figure is 2."
 86,"This flag indicates that a significant number of fringes have been missed, shifting the interferogram ZPD outside of a window monitored by the instrument, and the interferogram is excluded from SDR processing."
 87,This flag indicates the instrument exhibited operational errors and the associated interferogram(s) is/are excluded from SDR processing.
 88,Time significance must be qualified by appropriate time periods being specified.
-89,"Funnel cloud(s)" refer to tornado clouds or waterspouts.
+89,'Funnel cloud(s)' refer to tornado clouds or waterspouts.
 90,Type of instrumentation and original units for wind measurement (measured in m s–1 unless otherwise indicated).
 91,Code figure 1 is deprecated. Code figure 6 should be used instead.
 92,"When Code figure 4 is used to specify a custom coordinate reference system, the ellipsoidal datum shall be an oblate ellipsoid of revolution, where the major axis is uniplanar with the equatorial plane and the minor axis traverses the prime meridian towards the prime pole. North corresponds to the direction from the Equator to the prime pole. East corresponds to the counterclockwise direction from the prime meridian as viewed from above the North Pole. In this case, the semi-major and semi-minor axes must be specified (e.g. by descriptors 0 01 152 and 0 01 153)."
 93,"Where observed minus forecast values are represented, the period of the forecast shall be indicated by an appropriate descriptor from Class 04."
 94,"Where the original reporting method is as indicated by code figure 1, the following conversion is recommended to obtain a suitable data value corresponding to descriptor 0 01 012:Reported value Data value0 01 452 903 1354 1805 2256 2707 3158 3609 511"
 95,"Where the original reporting method is as indicated by code figure 1, the following conversion is recommended to obtain a suitable data value corresponding to descriptor 0 01 013:Reported value Data value 0 01 12 43 74 95 126 147 178 199 21/ 1023"
-96,""In conjunction with the observation of waterspouts or funnel clouds, i.e., more than 3 km from the station."
+96,"In conjunction with the observation of waterspouts or funnel clouds, i.e., more than 3 km from the station."
 97,"The letters a, b, c, d and e generically represent the weight associated with the respective temperature T. The sub-index of T: 1, 2, 3, x and n represent the values measured at different times or maximum (x) or minimum (n) values."
 98,"Code figures 1 - 24 are siting classifications and measurement quality classifications according to the Guide to Instruments and Methods of Observation (WMO-No. 8), Volume I, Chapter 1, Annex 1.D and Annex 1.G."
 99,"Code figures 26 - 30 are siting classifications according to the Guide to Instruments and Methods of Observation (WMO-No. 8), Volume I, Chapter 1, Annex 1.D."
 100,"Code figures 31 - 34 are measurement quality classifications according to the Guide to Instruments and Methods of Observation (WMO-No. 8), Volume I, Chapter 1, Annex 1.G."
 101,"Annex 1.G is a new annex that will be part of an updated version of WMO-No. 8 to be published in mid-2022."
- 
+102,"For determining combined standard uncertainty see the Guide to the Expression of Uncertainty in Measurement [JCGM 100:2008] from BIPM."
