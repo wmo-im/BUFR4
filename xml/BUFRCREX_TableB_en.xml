@@ -6165,6 +6165,34 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007073</FXY>
+    <ElementName_en>Scattering angle</ElementName_en>
+    <BUFR_Unit>deg</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>deg</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007074</FXY>
+    <ElementName_en>Relative azimuth angle</ElementName_en>
+    <BUFR_Unit>deg</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>deg</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>08</ClassNo>
     <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008001</FXY>
@@ -7224,6 +7252,20 @@
     <CREX_Unit>Code table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008098</FXY>
+    <ElementName_en>Sensing direction</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -23262,6 +23304,20 @@
     <CREX_Unit>Flag table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>24</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033095</FXY>
+    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
