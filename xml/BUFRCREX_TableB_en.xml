@@ -4477,6 +4477,34 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>03</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>003029</FXY>
+    <ElementName_en>Swath</ElementName_en>
+    <BUFR_Unit>Code Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>3</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>1</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>03</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>003030</FXY>
+    <ElementName_en>Antenna status</ElementName_en>
+    <BUFR_Unit>Code Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>3</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>1</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>04</ClassNo>
     <ClassName_en>Location (time)</ClassName_en>
     <FXY>004001</FXY>
@@ -5503,6 +5531,76 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>05</ClassNo>
+    <ClassName_en>Location (horizontal - 1)</ClassName_en>
+    <FXY>005076</FXY>
+    <ElementName_en>Solar azimuth in instrument reference frame</ElementName_en>
+    <BUFR_Unit>Degrees</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Degrees</CREX_Unit>
+    <CREX_Scale>2</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>05</ClassNo>
+    <ClassName_en>Location (horizontal - 1)</ClassName_en>
+    <FXY>005077</FXY>
+    <ElementName_en>Sub-satellite point latitude</ElementName_en>
+    <BUFR_Unit>Degrees</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>-900000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>21</BUFR_DataWidth_Bits>
+    <CREX_Unit>Degrees</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>05</ClassNo>
+    <ClassName_en>Location (horizontal - 1)</ClassName_en>
+    <FXY>005078</FXY>
+    <ElementName_en>Horn number</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>05</ClassNo>
+    <ClassName_en>Location (horizontal - 1)</ClassName_en>
+    <FXY>005079</FXY>
+    <ElementName_en>Band number</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>6</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>05</ClassNo>
+    <ClassName_en>Location (horizontal - 1)</ClassName_en>
+    <FXY>005080</FXY>
+    <ElementName_en>Resolution radius</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>-3</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>6</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>-3</CREX_Scale>
+    <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>06</ClassNo>
     <ClassName_en>Location (horizontal - 2)</ClassName_en>
     <FXY>006001</FXY>
@@ -5712,6 +5810,48 @@
     <CREX_Unit>m</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>4</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>06</ClassNo>
+    <ClassName_en>Location (horizontal - 2)</ClassName_en>
+    <FXY>006041</FXY>
+    <ElementName_en>Earth scan sample number</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>11</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>4</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>06</ClassNo>
+    <ClassName_en>Location (horizontal - 2)</ClassName_en>
+    <FXY>006042</FXY>
+    <ElementName_en>Space/moon scan sample number</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>6</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>06</ClassNo>
+    <ClassName_en>Location (horizontal - 2)</ClassName_en>
+    <FXY>006043</FXY>
+    <ElementName_en>Sub-satellite point longitude</ElementName_en>
+    <BUFR_Unit>Degrees</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>-1800000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>22</BUFR_DataWidth_Bits>
+    <CREX_Unit>Degrees</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -6162,6 +6302,34 @@
     <CREX_Unit>deg</CREX_Unit>
     <CREX_Scale>2</CREX_Scale>
     <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007073</FXY>
+    <ElementName_en>Angle between moon and space view</ElementName_en>
+    <BUFR_Unit>Degrees</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>Degrees</CREX_Unit>
+    <CREX_Scale>2</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007074</FXY>
+    <ElementName_en>Solar elevation angle in instrument reference frame</ElementName_en>
+    <BUFR_Unit>Degrees</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-9000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>Degrees</CREX_Unit>
+    <CREX_Scale>2</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -7224,6 +7392,20 @@
     <CREX_Unit>Code table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008098</FXY>
+    <ElementName_en>Source of temperature measurement</ElementName_en>
+    <BUFR_Unit>Code Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -12030,6 +12212,20 @@
     <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
     <Note_en>(see Note 8)</Note_en>
     <noteIDs>83</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>14</ClassNo>
+    <ClassName_en>Radiation and radiance</ClassName_en>
+    <FXY>014058</FXY>
+    <ElementName_en>Corrected cross-pole backscatter</ElementName_en>
+    <BUFR_Unit>dB</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-5000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>13</BUFR_DataWidth_Bits>
+    <CREX_Unit>dB</CREX_Unit>
+    <CREX_Scale>2</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -17040,6 +17236,34 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021026</FXY>
+    <ElementName_en>ASCAT sigma-0 usability</ElementName_en>
+    <BUFR_Unit>Code Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>3</BUFR_DataWidth_Bits>
+    <CREX_Unit>Code Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>1</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021027</FXY>
+    <ElementName_en>Land contribution ratio</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>22</ClassNo>
     <ClassName_en>Oceanographic elements</ClassName_en>
     <FXY>022001</FXY>
@@ -21664,6 +21888,20 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>25</ClassNo>
+    <ClassName_en>Processing information</ClassName_en>
+    <FXY>025056</FXY>
+    <ElementName_en>Normalised error estimate in backscatter measurement (Kp)</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>26</ClassNo>
     <ClassName_en>Non-coordinate location (time)</ClassName_en>
     <FXY>026001</FXY>
@@ -23262,6 +23500,286 @@
     <CREX_Unit>Flag table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>24</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033095</FXY>
+    <ElementName_en>MWI temperatures flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033096</FXY>
+    <ElementName_en>MWI calibration flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033097</FXY>
+    <ElementName_en>MWI scan quality flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033098</FXY>
+    <ElementName_en>MWI data quality flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>9</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033099</FXY>
+    <ElementName_en>MWI navigation status flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033100</FXY>
+    <ElementName_en>ICI temperatures flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033101</FXY>
+    <ElementName_en>ICI calibration flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033102</FXY>
+    <ElementName_en>ICI scan quality flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033103</FXY>
+    <ElementName_en>ICI data quality flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>9</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033104</FXY>
+    <ElementName_en>ICI navigation status flag</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033105</FXY>
+    <ElementName_en>ICI processing flags</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033106</FXY>
+    <ElementName_en>MWI processing flags</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033107</FXY>
+    <ElementName_en>MWS scan line processing flags</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033108</FXY>
+    <ElementName_en>MWS navigation status flags</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033109</FXY>
+    <ElementName_en>MWS overall quality flags</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033110</FXY>
+    <ElementName_en>MWS channel processing flags</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>9</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033111</FXY>
+    <ElementName_en>SCA quality flags</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>32</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>11</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033112</FXY>
+    <ElementName_en>Faraday rotation angle (one way)</ElementName_en>
+    <BUFR_Unit>Deg</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-18000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Deg</CREX_Unit>
+    <CREX_Scale>2</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033113</FXY>
+    <ElementName_en>IASI-NG general quality flags</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033114</FXY>
+    <ElementName_en>Out of bounds check</ElementName_en>
+    <BUFR_Unit>Flag Table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>17</BUFR_DataWidth_Bits>
+    <CREX_Unit>Flag Table</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
