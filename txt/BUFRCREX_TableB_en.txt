@@ -315,8 +315,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 03,Instrumentation,003026,Along-track estimation area size,m,0,5000,16,m,0,5,,,Operational
 03,Instrumentation,003027,Type of flight rig,Code table,0,0,4,Code table,0,2,,,Operational
 03,Instrumentation,003028,Method of snow water equivalent measurement,Code table,0,0,6,Code table,0,2,,,Operational
-03,Instrumentation,003029,Swath,Code Table,0,0,3,Code Table,0,1,,,Operational
-03,Instrumentation,003030,Antenna status,Code Table,0,0,3,Code Table,0,1,,,Operational
+03,Instrumentation,003029,Swath,Code table,0,0,3,Code table,0,1,,,Operational
+03,Instrumentation,003030,Antenna status,Code table,0,0,3,Code table,0,1,,,Operational
 04,Location (time),004001,Year,a,0,0,12,a,0,4,,,Operational
 04,Location (time),004002,Month,mon,0,0,4,mon,0,2,,,Operational
 04,Location (time),004003,Day,d,0,0,6,d,0,2,,,Operational
@@ -390,8 +390,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 05,Location (horizontal - 1),005073,Number of spectra in azimuthal direction,Numeric,0,0,8,Numeric,0,3,,,Operational
 05,Location (horizontal - 1),005074,Index in range direction,Numeric,0,0,8,Numeric,0,3,,,Operational
 05,Location (horizontal - 1),005075,Index in azimuthal direction,Numeric,0,0,8,Numeric,0,3,,,Operational
-05,Location (horizontal - 1),005076,Solar azimuth in instrument reference frame,Degrees,2,0,16,Degrees,2,6,,,Operational
-05,Location (horizontal - 1),005077,Sub-satellite point latitude,Degrees,4,-900000,21,Degrees,4,7,,,Operational
+05,Location (horizontal - 1),005076,Solar azimuth in instrument reference frame,deg,2,0,16,deg,2,6,,,Operational
+05,Location (horizontal - 1),005077,Sub-satellite point latitude,deg,4,-900000,21,deg,4,7,,,Operational
 05,Location (horizontal - 1),005078,Horn number,Numeric,0,0,4,Numeric,0,2,,,Operational
 05,Location (horizontal - 1),005079,Band number,Numeric,0,0,6,Numeric,0,2,,,Operational
 05,Location (horizontal - 1),005080,Resolution radius,m,-3,0,6,m,-3,2,,,Operational
@@ -412,7 +412,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 06,Location (horizontal - 2),006040,Radius of confidence,m,0,0,13,m,0,4,,,Operational
 06,Location (horizontal - 2),006041,Earth scan sample number,Numeric,0,0,11,Numeric,0,4,,,Operational
 06,Location (horizontal - 2),006042,Space/moon scan sample number,Numeric,0,0,6,Numeric,0,2,,,Operational
-06,Location (horizontal - 2),006043,Sub-satellite point longitude,Degrees,4,-1800000,22,Degrees,4,8,,,Operational
+06,Location (horizontal - 2),006043,Sub-satellite point longitude,deg,4,-1800000,22,deg,4,8,,,Operational
 07,Location (vertical),007001,Height of station,m,0,-400,15,m,0,5,(see Note 1),116,Operational
 07,Location (vertical),007002,Height or altitude,m,-1,-40,16,m,-1,5,,,Operational
 07,Location (vertical),007003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
@@ -444,8 +444,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 07,Location (vertical),007070,Drogue depth,m,0,0,10,m,0,4,,,Operational
 07,Location (vertical),007071,Height (high resolution),m,3,-10000000,26,m,3,8,,,Operational
 07,Location (vertical),007072,Scan angle,deg,2,-9000,15,deg,2,6,,,Operational
-07,Location (vertical),007073,Angle between moon and space view,Degrees,2,0,15,Degrees,2,5,,,Operational
-07,Location (vertical),007074,Solar elevation angle in instrument reference frame,Degrees,2,-9000,15,Degrees,2,5,,,Operational
+07,Location (vertical),007073,Angle between moon and space view,deg,2,0,15,deg,2,5,,,Operational
+07,Location (vertical),007074,Solar elevation angle in instrument reference frame,deg,2,-9000,15,deg,2,5,,,Operational
 08,Significance qualifiers,008001,Vertical sounding significance,Flag table,0,0,7,Flag table,0,3,,,Operational
 08,Significance qualifiers,008002,Vertical significance (surface observations),Code table,0,0,6,Code table,0,2,,,Operational
 08,Significance qualifiers,008003,Vertical significance (satellite observations),Code table,0,0,6,Code table,0,2,,,Operational
@@ -861,8 +861,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 14,Radiation and radiance,014055,Solar activity index,Numeric,0,-32768,16,Numeric,0,5,,,Operational
 14,Radiation and radiance,014056,Background luminance,Cd m-2,0,0,18,Cd m-2,0,6,,,Operational
 14,Radiation and radiance,014057,Soil heat flux,J m-2,-2,-1048574,21,J m-2,-2,7,,,Operational
-14,Radiation and radiance,014072,Global UV irradiation,J m-2,0,-4000000,23,J m-2,0,7,(see Note 8),83,Operational
 14,Radiation and radiance,014058,Corrected cross-pole backscatter,dB,2,-5000,13,dB,2,5,,,Operational
+14,Radiation and radiance,014072,Global UV irradiation,J m-2,0,-4000000,23,J m-2,0,7,(see Note 8),83,Operational
 15,Physical/chemical constituents,015001,Total ozone,DU,0,0,10,DU,0,4,,,Operational
 15,Physical/chemical constituents,015002,Air mass (slant path at 22 km),Numeric,2,0,10,Numeric,2,3,,,Operational
 15,Physical/chemical constituents,015003,Measured ozone partial pressure (sounding),Pa,4,0,9,nbar,0,3,(see Note 1),1,Operational
@@ -1541,7 +1541,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 25,Processing information,025189,Range cut-off wavelength,m,0,1,9,m,0,3,,,Operational
 25,Processing information,025190,Altimeter echo processing mode,Code table,0,0,8,Code table,0,3,,,Operational
 25,Processing information,025191,Altimeter tracking mode,Code table,0,0,8,Code table,0,3,,,Operational
-25,Processing information,025056,Normalised error estimate in backscatter measurement (Kp),Numeric,4,0,14,Numeric,4,5,,,Operational
+25,Processing information,025056,Normalized error estimate in backscatter measurement (Kp),Numeric,4,0,14,Numeric,4,5,,,Operational
 26,Non-coordinate location (time),026001,Principal time of daily reading in UTC of maximum temperature,h,1,0,12,h,1,3,,,Operational
 26,Non-coordinate location (time),026002,Principal time of daily reading in UTC of minimum temperature,h,1,0,12,h,1,3,,,Operational
 26,Non-coordinate location (time),026003,Time difference,min,0,-1440,12,min,0,4,(see Note),58,Operational
@@ -1656,26 +1656,26 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033092,Band specific ocean quality flag,Flag table,0,0,9,Flag table,0,3,,,Operational
 33,Quality information,033093,Extended quality flags for ground-based GNSS data,Flag table,0,0,31,Flag table,0,31,,,Operational
 33,Quality information,033094,Calibration quality control flags,Flag table,0,0,24,Flag table,0,24,,,Operational
-33,Quality information,033095,MWI temperatures flag,Flag Table,0,0,8,Flag Table,0,3,,,Operational
-33,Quality information,033096,MWI calibration flag,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033097,MWI scan quality flag,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033098,MWI data quality flag,Flag Table,0,0,9,Flag Table,0,3,,,Operational
-33,Quality information,033099,MWI navigation status flag,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033100,ICI temperatures flag,Flag Table,0,0,8,Flag Table,0,3,,,Operational
-33,Quality information,033101,ICI calibration flag,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033102,ICI scan quality flag,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033103,ICI data quality flag,Flag Table,0,0,9,Flag Table,0,3,,,Operational
-33,Quality information,033104,ICI navigation status flag,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033105,ICI processing flags,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033106,MWI processing flags,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033107,MWS scan line processing flags,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033108,MWS navigation status flags,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033109,MWS overall quality flags,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033110,MWS channel processing flags,Flag Table,0,0,9,Flag Table,0,3,,,Operational
-33,Quality information,033111,SCA quality flags,Flag Table,0,0,32,Flag Table,0,11,,,Operational
-33,Quality information,033112,Faraday rotation angle (one way),Deg,2,-18000,16,Deg,2,6,,,Operational
-33,Quality information,033113,IASI-NG general quality flags,Flag Table,0,0,16,Flag Table,0,6,,,Operational
-33,Quality information,033114,Out of bounds check,Flag Table,0,0,17,Flag Table,0,6,,,Operational
+33,Quality information,033095,MWI temperatures flag,Flag table,0,0,8,Flag table,0,3,,,Operational
+33,Quality information,033096,MWI calibration flag,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033097,MWI scan quality flag,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033098,MWI data quality flag,Flag table,0,0,9,Flag table,0,3,,,Operational
+33,Quality information,033099,MWI navigation status flag,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033100,ICI temperatures flag,Flag table,0,0,8,Flag table,0,3,,,Operational
+33,Quality information,033101,ICI calibration flag,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033102,ICI scan quality flag,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033103,ICI data quality flag,Flag table,0,0,9,Flag table,0,3,,,Operational
+33,Quality information,033104,ICI navigation status flag,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033105,ICI processing flags,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033106,MWI processing flags,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033107,MWS scan line processing flags,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033108,MWS navigation status flags,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033109,MWS overall quality flags,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033110,MWS channel processing flags,Flag table,0,0,9,Flag table,0,3,,,Operational
+33,Quality information,033111,SCA quality flags,Flag table,0,0,32,Flag table,0,11,,,Operational
+33,Quality information,033112,Faraday rotation angle (one way),deg,2,-18000,16,deg,2,6,,,Operational
+33,Quality information,033113,IASI-NG general quality flags,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033114,Out of bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
 35,Data monitoring information,035000,FM and regional code number,Code table,0,0,10,Code table,0,3,,,Operational
 35,Data monitoring information,035001,Time frame for monitoring,Code table,0,0,3,Code table,0,1,,,Operational
 35,Data monitoring information,035011,Number of reports actually received,Numeric,0,0,14,Numeric,0,4,,,Operational
