@@ -586,9 +586,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033095,MWI temperatures flag,1,PRTs or THMs temperatures are missing or with anomalous readings,,,,,Operational
 033095,MWI temperatures flag,2,PRT temperatures of OBCT used in the radiometric calibrations is missing or with anomalous readings,,,,,Operational
 033095,MWI temperatures flag,3,THMs temperatures of SVR used in the radiometric calibrations are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,4,THMs temperatures of main reflector are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,5,THMs temperatures of the racetrack are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,6,THMs temperatures of the receivers are missing or with anomalous readings,,,,,Operational
+033095,MWI temperatures flag,4,THMs temperatures of Main Reflector are missing or with anomalous readings,,,,,Operational
+033095,MWI temperatures flag,5,THMs temperatures of the Racetrack are missing or with anomalous readings,,,,,Operational
+033095,MWI temperatures flag,6,THMs temperatures of the Receivers are missing or with anomalous readings,,,,,Operational
 033095,MWI temperatures flag,7,Reserved,,,,,Operational
 033095,MWI temperatures flag,All 8,Missing,,,,,Operational
 033096,MWI calibration flag,1,Radiometric calibration failed or is degraded,,,,,Operational
@@ -605,18 +605,18 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033096,MWI calibration flag,12,PRTs or THMs temperatures of current scan are missing or with anomalous readings,,,,,Operational
 033096,MWI calibration flag,13,Moon intrusion in cold space degraded calibration (less than Nvalid_c valid samples are not affected by Moon for the considered channel and scan),,,,,Operational
 033096,MWI calibration flag,14,Back-up calibration with noise diodes performed (meaningful only for MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,15,Degraded receiver temperatures lead to degraded calibration,,,,,Operational
+033096,MWI calibration flag,15,Degraded Receiver temperatures lead to degraded calibration,,,,,Operational
 033096,MWI calibration flag,All 16,Missing,,,,,Operational
-033097,MWI scan quality flag,1,Scan is degraded in raw data record,,,,,Operational
+033097,MWI scan quality flag,1,scan is degraded in raw data record,,,,,Operational
 033097,MWI scan quality flag,2,Time sequence error,,,,,Operational
 033097,MWI scan quality flag,3,Current scan is acquired after a gap,,,,,Operational
-033097,MWI scan quality flag,4,"Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 packets or data gaps).",,,,,Operational
+033097,MWI scan quality flag,4,"Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 Packets or data gaps).",,,,,Operational
 033097,MWI scan quality flag,5,Moon intrusion angle in space view below threshold for at least one channel,,,,,Operational
 033097,MWI scan quality flag,6,Moon correction is applied but is degraded for at least one channel,,,,,Operational
 033097,MWI scan quality flag,7,Sun glint angle below threshold for at least one channel,,,,,Operational
-033097,MWI scan quality flag,8,RFI contamination in the Earth view or RFI packet missing for the considered scan (only for MWI-1V and MWI-1H),,,,,Operational
+033097,MWI scan quality flag,8,RFI contamination in the Earth view or RFI Packet missing for the considered scan (only for MWI-1V and MWI-1H),,,,,Operational
 033097,MWI scan quality flag,9,Satellite manoeuvre occurs in current scan,,,,,Operational
-033097,MWI scan quality flag,10,Missing warm or cold L0 packets for the considered scan,,,,,Operational
+033097,MWI scan quality flag,10,Missing warm or cold L0 Packets for the considered scan,,,,,Operational
 033097,MWI scan quality flag,11-15,Reserved,,,,,Operational
 033097,MWI scan quality flag,All 16,Missing,,,,,Operational
 033098,MWI data quality flag,1,MWI spectral radiance data of channel is missing or degraded,,,,,Operational
@@ -628,11 +628,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033098,MWI data quality flag,7,MR sidelobe correction failed or degraded,,,,,Operational
 033098,MWI data quality flag,8,Channel is defective,,,,,Operational
 033098,MWI data quality flag,All 9,Missing,,,,,Operational
-033099,MWI navigation status flag,1,Geolocation of channel is erroneous or degraded,,,,,Operational
+033099,MWI navigation status flag,1,geolocation of channel is erroneous or degraded,,,,,Operational
 033099,MWI navigation status flag,2,Time sequence error,,,,,Operational
 033099,MWI navigation status flag,3,Missing or corrupted NAVATT file lead to the use of predicted orbit files,,,,,Operational
-033099,MWI navigation status flag,4,NAVATT attitude data is degraded,,,,,Operational
-033099,MWI navigation status flag,5,Time correlation error (missing IERS bulletin),,,,,Operational
+033099,MWI navigation status flag,4,NAVATT Attitude data is degraded,,,,,Operational
+033099,MWI navigation status flag,5,Time correlation error (Missing IERS Bulletin),,,,,Operational
 033099,MWI navigation status flag,6,Invalid ephemeris or attitude data,,,,,Operational
 033099,MWI navigation status flag,7,Satellite manoeuvre occurs in current scan,,,,,Operational
 033099,MWI navigation status flag,8,"Non-nominal attitude with yaw, pitch, roll error above threshold Delta_YPR (nominally these angles are 0.0 deg for YSM)",,,,,Operational
@@ -641,16 +641,16 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033099,MWI navigation status flag,11,Bad pointing (sensor LOS does not intersect ellipsoid or not compliant with observation azimuth/elevation limits),,,,,Operational
 033099,MWI navigation status flag,12,Invalid solar azimuth/zenith angles computed,,,,,Operational
 033099,MWI navigation status flag,13,DEM geolocation not performed (with use_DEM_flag = 1),,,,,Operational
-033099,MWI navigation status flag,14,Error in land fraction computation,,,,,Operational
-033099,MWI navigation status flag,15,Predicted orbit file not available,,,,,Operational
+033099,MWI navigation status flag,14,Error in Land fraction computation,,,,,Operational
+033099,MWI navigation status flag,15,Predicted Orbit File not available,,,,,Operational
 033099,MWI navigation status flag,All 16,Missing,,,,,Operational
 033100,ICI temperatures flag,1,PRTs or THMs temperatures are missing or with anomalous readings,,,,,Operational
 033100,ICI temperatures flag,2,PRT temperatures of OBCT used in the radiometric calibrations is missing or with anomalous readings,,,,,Operational
 033100,ICI temperatures flag,3,PRT temperatures of SVR used in the radiometric calibrations are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,4,PRT temperatures of IRP and sun shield are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,5,THMs temperature of back-end are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,6,THMs temperature of front-end are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,7,PRT temperatures of main reflector are missing or with anomalous readings,,,,,Operational
+033100,ICI temperatures flag,4,PRT temperatures of IRP and Sun Shield are missing or with anomalous readings,,,,,Operational
+033100,ICI temperatures flag,5,THMs temperature of Back-end are missing or with anomalous readings,,,,,Operational
+033100,ICI temperatures flag,6,THMs temperature of Front-end are missing or with anomalous readings,,,,,Operational
+033100,ICI temperatures flag,7,PRT temperatures of Main Reflector are missing or with anomalous readings,,,,,Operational
 033100,ICI temperatures flag,All 8,Missing,,,,,Operational
 033101,ICI calibration flag,1,Radiometric calibration failed or is degraded,,,,,Operational
 033101,ICI calibration flag,2,OBCT view counts averaged value over scans is missing,,,,,Operational
@@ -666,15 +666,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033101,ICI calibration flag,12,Degraded or missing Back-end Temperatures lead to degraded calibration,,,,,Operational
 033101,ICI calibration flag,13-15,Reserved,,,,,Operational
 033101,ICI calibration flag,All 16,Missing,,,,,Operational
-033102,ICI navigation status flag,1,Scan is degraded in raw data records,,,,,Operational
+033102,ICI navigation status flag,1,scan is degraded in raw data records,,,,,Operational
 033102,ICI navigation status flag,2,Time sequence error,,,,,Operational
 033102,ICI navigation status flag,3,Current scan is acquired after a gap,,,,,Operational
-033102,ICI navigation status flag,4,"Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 packets or data gaps)",,,,,Operational
+033102,ICI navigation status flag,4,"Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 Packets or data gaps).",,,,,Operational
 033102,ICI navigation status flag,5,Moon intrusion angle in space view below threshold for at least one channel,,,,,Operational
 033102,ICI navigation status flag,6,Moon correction is applied but is degraded for at least one channel,,,,,Operational
 033102,ICI navigation status flag,7,Sun glint angle below threshold for at least one channel,,,,,Operational
 033102,ICI navigation status flag,8,Satellite manoeuvre occurs in current scan,,,,,Operational
-033102,ICI navigation status flag,9,Missing warm or cold L0 packets for the considered scan,,,,,Operational
+033102,ICI navigation status flag,9,Missing warm or cold L0 Packets for the considered scan,,,,,Operational
 033102,ICI navigation status flag,10-15,Reserved,,,,,Operational
 033102,ICI navigation status flag,All 16,Missing,,,,,Operational
 033103,ICI scan quality flag,1,ICI spectral radiance data of channel is missing or degraded,,,,,Operational
@@ -686,11 +686,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033103,ICI scan quality flag,7,MR sidelobe correction failed or degraded,,,,,Operational
 033103,ICI scan quality flag,8,Channel is defective,,,,,Operational
 033103,ICI scan quality flag,All 9,Missing,,,,,Operational
-033104,ICI navigation status flag,1,Geolocation of channels is erroneous or degraded,,,,,Operational
+033104,ICI navigation status flag,1,geolocation of channels is erroneous or degraded,,,,,Operational
 033104,ICI navigation status flag,2,Time sequence error,,,,,Operational
 033104,ICI navigation status flag,3,Missing or corrupted NAVATT file lead to the use of predicted orbit files,,,,,Operational
-033104,ICI navigation status flag,4,NAVATT attitude data is degraded,,,,,Operational
-033104,ICI navigation status flag,5,Time correlation error (missing IERS bulletin),,,,,Operational
+033104,ICI navigation status flag,4,NAVATT Attitude data is degraded,,,,,Operational
+033104,ICI navigation status flag,5,Time correlation error (Missing IERS Bulletin),,,,,Operational
 033104,ICI navigation status flag,6,Invalid ephemeris or attitude data,,,,,Operational
 033104,ICI navigation status flag,7,Satellite manoeuvre occurs in current scan,,,,,Operational
 033104,ICI navigation status flag,8,"Non-nominal attitude with yaw, pitch, roll error above threshold Delta_YPR (nominally these angles are 0.0 deg for YSM)",,,,,Operational
@@ -699,8 +699,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033104,ICI navigation status flag,11,Bad pointing (sensor LOS does not intersect ellipsoid or not compliant with observation azimuth/elevation limits),,,,,Operational
 033104,ICI navigation status flag,12,Invalid solar azimuth/zenith angles computed,,,,,Operational
 033104,ICI navigation status flag,13,DEM geolocation not performed (with use_DEM_flag = 1),,,,,Operational
-033104,ICI navigation status flag,14,Error in land fraction computation,,,,,Operational
-033104,ICI navigation status flag,15,Predicted orbit file not available,,,,,Operational
+033104,ICI navigation status flag,14,Error in Land fraction computation,,,,,Operational
+033104,ICI navigation status flag,15,Predicted Orbit File not available,,,,,Operational
 033104,ICI navigation status flag,All 16,Missing,,,,,Operational
 033105,ICI processing flags,1,Moon contamination correction on cold space view counts is not applied,,,,,Operational
 033105,ICI processing flags,2,MR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
@@ -746,12 +746,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033108,MWS navigation status flag,1,Non-nominal condition,,,,,Operational
 033108,MWS navigation status flag,2,Scan not processed,,,,,Operational
 033108,MWS navigation status flag,3,Geolocation not successful,,,,,Operational
-033108,MWS navigation status flag,4,Orbit not initialized with NAVATT,,,,,Operational
-033108,MWS navigation status flag,5,Attitude not initialized with NAVATT,,,,,Operational
-033108,MWS navigation status flag,6,Predicted orbit file ingest error,,,,,Operational
+033108,MWS navigation status flag,4,Orbit not initialised with NAVATT,,,,,Operational
+033108,MWS navigation status flag,5,Attitude not initialised with NAVATT,,,,,Operational
+033108,MWS navigation status flag,6,Predicted Orbit File ingest error,,,,,Operational
 033108,MWS navigation status flag,7,Manoeuvre,,,,,Operational
-033108,MWS navigation status flag,8,IERS bulletin A ingest error,,,,,Operational
-033108,MWS navigation status flag,9,Time correlation and EOP initialized with predicted orbit file,,,,,Operational
+033108,MWS navigation status flag,8,IERS Bulletin A ingest error,,,,,Operational
+033108,MWS navigation status flag,9,Time correlation and EOP initialised with Predicted Orbit File,,,,,Operational
 033108,MWS navigation status flag,10,Full accuracy of NAVATT initialized attitude not reached,,,,,Operational
 033108,MWS navigation status flag,11,Pointing mode not YSM,,,,,Operational
 033108,MWS navigation status flag,12,NAVATT ingest error,,,,,Operational
@@ -820,7 +820,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033113,IASI-NG general quality flags,12-15,Reserved,,,,,Operational
 033113,IASI-NG general quality flags,All 16,Missing,,,,,Operational
 033114,Out of bounds check,1,Temperature profile,,,,,Operational
-033114,Out of bounds check,2,Water vapour profile,,,,,Operational
+033114,Out of bounds check,2,Water-vapour profile,,,,,Operational
 033114,Out of bounds check,3,Ozone profile,,,,,Operational
 033114,Out of bounds check,4,Surface skin temperature,,,,,Operational
 033114,Out of bounds check,5,Surface air temperature,,,,,Operational
