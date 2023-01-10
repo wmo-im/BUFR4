@@ -37,8 +37,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 05,Location (horizontal - 1),005073,Number of spectra in azimuthal direction,Numeric,0,0,8,Numeric,0,3,,,Operational
 05,Location (horizontal - 1),005074,Index in range direction,Numeric,0,0,8,Numeric,0,3,,,Operational
 05,Location (horizontal - 1),005075,Index in azimuthal direction,Numeric,0,0,8,Numeric,0,3,,,Operational
-05,Location (horizontal - 1),005076,Solar azimuth in instrument reference frame,Degrees,2,0,16,Degrees,2,6,,,Operational
-05,Location (horizontal - 1),005077,Sub-satellite point latitude,Degrees,4,-900000,21,Degrees,4,7,,,Operational
+05,Location (horizontal - 1),005076,Solar azimuth in instrument reference frame,deg,2,0,16,deg,2,6,,,Operational
+05,Location (horizontal - 1),005077,Sub-satellite point latitude,deg,4,-900000,21,deg,4,7,,,Operational
 05,Location (horizontal - 1),005078,Horn number,Numeric,0,0,4,Numeric,0,2,,,Operational
 05,Location (horizontal - 1),005079,Band number,Numeric,0,0,6,Numeric,0,2,,,Operational
 05,Location (horizontal - 1),005080,Resolution radius,m,-3,0,6,m,-3,2,,,Operational
