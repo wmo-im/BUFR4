@@ -6402,6 +6402,64 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,004025,Time period or displacement,,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014017,Instantaneous long-wave radiation,,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014018,Instantaneous short-wave radiation,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301150,WIGOS identifier,,,79,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,201129,Change data width,Add one bit to width of following descriptor,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001087,WMO marine observing platform extended identifier,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,201000,Change data width,Cancel change width,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001019,Long station or site name,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001036,Agency in charge of operating the observing platform,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,002148,Data collection and/or location system,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001085,Observing platform manufacturer's model,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001086,Observing platform manufacturer's serial number,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008021,Time significance,"Set to 25, nominal reporting time",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301011,"Year, month, day",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301013,"Hour, minute, second",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301021,Latitude/longitude (high accuracy),,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,011104,"True heading of aircraft, ship or other mobile platform",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,002169,Anemometer type,"Set to 2, wind observation through ambient noise (WOTAN)",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,011002,Wind speed,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,011001,Wind direction,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,002169,Anemometer type,Set to missing / cancel previous value,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022032,Speed of sea-surface current,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022005,Direction of sea-surface current,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301011,"Year, month, day",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301013,"Hour, minute, second",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008021,Time significance,"Set to 2, time averaged",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,004025,Time period or displacement,"Duration of dive, e.g. -10 (minutes)",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301021,Latitude/longitude (high accuracy),,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022031,Speed of current,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022004,Direction of current,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008021,Time significance,Set to missing / cancel previous value,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,005068,Profile number,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001079,Unique identifier for the profile,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,126000,Delayed replication of 26 descriptors,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,031001,Delayed descriptor replication factor,"Number of profile sections (e.g. descending, horizontal, ascending)",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022056,Direction of profile,"0 (ascending / upwards profile), 1 (descending / downwards profile), or 2 (horizontal)",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,123000,Delayed replication of 23 descriptors,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,031002,Extended delayed descriptor replication factor,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301011,"Year, month, day",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301013,"Hour, minute, second",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301021,Latitude/longitude (high accuracy),,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"20, position",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,007062,Depth below sea/water surface,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"13, water depth at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022065,Water pressure,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"10, water pressure at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022045,Sea/water temperature,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"11, water temperature at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022066,Water conductivity,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"25, water conductivity at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022064,Salinity,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"12, salinity at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,042016,Sea water potential density referenced to sea surface,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"26, sea water potential density at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,(see Note 4),79,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier,WMO number where assigned,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5,change width to 32 characters,,,Operational

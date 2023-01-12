@@ -1655,6 +1655,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008002,Vertical significance (surface observations),23,Third instrument detected cloud layer,,,,,Operational
 008002,Vertical significance (surface observations),24,Fourth instrument detected cloud layer,,,,,Operational
 008002,Vertical significance (surface observations),25-61,Reserved,,,,,Operational
+008002,Vertical significance (surface observations),25-61,Reserved,,,,,Operational
 008002,Vertical significance (surface observations),62,Value not applicable,,,,,Operational
 008002,Vertical significance (surface observations),63,Missing value,,,,,Operational
 008003,Vertical significance (satellite observations),0,Surface,,,,,Operational
@@ -2221,7 +2222,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008080,Qualifier for GTSPP quality flag,16,Dissolved oxygen at a level,,,,,Operational
 008080,Qualifier for GTSPP quality flag,17-19,Reserved,,,,,Operational
 008080,Qualifier for GTSPP quality flag,20,Position,,,,,Operational
-008080,Qualifier for GTSPP quality flag,21-62,Reserved,,,,,Operational
+008080,Qualifier for GTSPP quality flag,21-24,Reserved,,,,,Operational
+008080,Qualifier for GTSPP quality flag,25,Water conductivity at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,26,Sea water potential density referenced to sea surface at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,27-62,Reserved,,,,,Operational
 008080,Qualifier for GTSPP quality flag,63,Missing value,,,,,Operational
 008081,Type of equipment,0,Sensor,,,,,Operational
 008081,Type of equipment,1,Transmitter,,,,,Operational
