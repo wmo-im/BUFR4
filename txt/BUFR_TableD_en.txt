@@ -5125,6 +5125,45 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 10,Vertical sounding sequences (satellite data),310077,(Satellite-derived winds),Cloud data and microphysics (refers to the nominal image used for height assignment),014050,Emissivity,,,,Operational
 10,Vertical sounding sequences (satellite data),310077,(Satellite-derived winds),Cloud data and microphysics (refers to the nominal image used for height assignment),008011,Meteorological feature,Set to missing (cancel),,,Operational
 10,Vertical sounding sequences (satellite data),310077,(Satellite-derived winds),Cloud data and microphysics (refers to the nominal image used for height assignment),008023,First order statistics,Set to missing (cancel),,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,001007,Satellite identifier,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,001016,Satellite sub-identifier,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,002019,Satellite instruments,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,002020,Satellite classification,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,001033,Identification of originating/generating centre,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,001034,Identification of originating/generating sub-centre,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,301011,"Year, month, day",,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,301013,"Hour, minute, second ",,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005040,Orbit number,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,201132,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005041,Scan line number,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,201000,Change data width,Cancel,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005043,Field of view number,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,033079,Granule level quality flags,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,033080,Scan level quality flags,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,033078,Geolocation quality,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,007002,Height or altitude,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,102003,Replicate 2 descriptors 3 times,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,008097,Method used to calculate the average instrument temperature,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,012164,Instrument temperature,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,117000,Delayed replication of 17 descriptors,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,031001,Delayed descriptor replication factor,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005001,Latitude (high accuracy),,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,006001,Longitude (high accuracy),,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,007024,Satellite zenith angle,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005021,Bearing or azimuth,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,007025,Solar zenith angle,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005022,Solar azimuth,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,109000,Delayed replication of 9 descriptors,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,031001,Delayed descriptor replication factor,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,005042,Channel number,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,002153,Satellite channel centre frequency,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,002154,Satellite channel band width,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,002104,Antenna polarization,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,012066,Antenna temperature,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,012163,Brightness temperature,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,012158,Noise-equivalent delta temperature while viewing cold target,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,012159,Noise-equivalent delta temperature while viewing warm target,,,,Operational
+10,Vertical sounding sequences (satellite data),310078,(Satellite sounding data),,033094,Calibration quality control flags,,,,Operational
 10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,001007,Satellite identifier,,,,Operational
 10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,001033,Identification of originating/generating centre,,,,Operational
 10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,001034,Identification of originating/generating sub-centre,,,,Operational
@@ -6450,6 +6489,64 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,004025,Time period or displacement,,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014017,Instantaneous long-wave radiation,,,,Operational
 15,Oceanographic report sequences,315011,(Met-ocean observations from autonomous surface vehicles),,014018,Instantaneous short-wave radiation,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301150,WIGOS identifier,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,201129,Change data width,Add one bit to width of following descriptor,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001087,WMO marine observing platform extended identifier,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,201000,Change data width,Cancel change width,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001019,Long station or site name,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001036,Agency in charge of operating the observing platform,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,002148,Data collection and/or location system,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001085,Observing platform manufacturer's model,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001086,Observing platform manufacturer's serial number,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008021,Time significance,"Set to 25, nominal reporting time",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301011,"Year, month, day",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301013,"Hour, minute, second",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301021,Latitude/longitude (high accuracy),,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,011104,"True heading of aircraft, ship or other mobile platform",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,002169,Anemometer type,"Set to 2, wind observation through ambient noise (WOTAN)",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,011002,Wind speed,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,011001,Wind direction,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,002169,Anemometer type,Set to missing / cancel previous value,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022032,Speed of sea-surface current,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022005,Direction of sea-surface current,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301011,"Year, month, day",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301013,"Hour, minute, second",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008021,Time significance,"Set to 2, time averaged",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,004025,Time period or displacement,"Duration of dive, e.g. -10 (minutes)",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301021,Latitude/longitude (high accuracy),,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022031,Speed of current,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022004,Direction of current,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008021,Time significance,Set to missing / cancel previous value,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,005068,Profile number,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,001079,Unique identifier for the profile,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,126000,Delayed replication of 26 descriptors,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,031001,Delayed descriptor replication factor,"Number of profile sections (e.g. descending, horizontal, ascending)",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022056,Direction of profile,"0 (ascending / upwards profile), 1 (descending / downwards profile), or 2 (horizontal)",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,123000,Delayed replication of 23 descriptors,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,031002,Extended delayed descriptor replication factor,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301011,"Year, month, day",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301013,"Hour, minute, second",,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,301021,Latitude/longitude (high accuracy),,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"20, position",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,007062,Depth below sea/water surface,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"13, water depth at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022065,Water pressure,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"10, water pressure at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022045,Sea/water temperature,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"11, water temperature at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022066,Water conductivity,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"25, water conductivity at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,022064,Salinity,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"12, salinity at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,042016,Sea water potential density referenced to sea surface,,,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,008080,Qualifier for GTSPP quality flag,"26, sea water potential density at a level",,,Operational
+15,Oceanographic report sequences,315012,(Sequence for reporting observations from a single glider trajectory profile),,033050,Global GTSPP quality flag,,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,301150,WIGOS identifier,,(see Note 4),79,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,001087,WMO marine observing platform extended identifier,WMO number where assigned,,,Operational
 15,Oceanographic report sequences,315013,(Sequence for reporting trajectory profile data from marine animal tags),,208032,Change width of CCITT IA5,change width to 32 characters,,,Operational
@@ -7227,6 +7324,43 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 21,Radar report sequences,321031,(Satellite radar observations),,021009,Vertical Doppler velocity,,,,Operational
 21,Radar report sequences,321031,(Satellite radar observations),,021010,Uncertainty in vertical Doppler velocity,,,,Operational
 21,Radar report sequences,321031,(Satellite radar observations),,033003,Quality information,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,310022,"Satellite identifier, instrument and product type",,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,301011,"Year, month, day",,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,301013,"Hour, minute, second",,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,301021,"Latitude/longitude (high accuracy)",,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,005041,Scan line number,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,005043,Field of view number,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,027080,Viewing azimuth angle,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,005022,Solar azimuth,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,013040,Surface flag,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,020010,Cloud cover (total),,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,033085,Aerosol optical thickness quality flags,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,033095,Aerosol optical depth quality information,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,105002,Replicate 5 descriptors 2 times,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,008098,Sensing direction,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,007024,Satellite zenith angle,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,007025,Solar zenith angle,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,007073,Scattering angle,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,007074,Relative azimuth angle,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,106000,Delayed replication of 6 descriptors,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,031001,Delayed descriptor replication factor,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,002071,Spectrographic wavelength,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,008043,Atmospheric chemical or physical constituent type,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,015024,Optical depth,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,008043,Atmospheric chemical or physical constituent type,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,015024,Optical depth,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,015042,Reflectance,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,224000,First-order statistical values follow,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,236000,Define data present bit-map,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,101000,Delayed replication of 1 descriptors,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,031002,Extended delayed descriptor replication factor,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,031031,Data present indicator,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,001033,Identification of originating/generating centre,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,001032,Generating application,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,008023,First-order statistics,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,101000,Delayed replication of 1 descriptors,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,031002,Extended delayed descriptor replication factor,,,,Operational
+22,Chemical and aerosol sequences,322001,(Aerosol optical depth),,224255,First-order statistical values marker operator,,,,Operational
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,001007,Satellite identifier,,,,Operational
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,002019,Satellite instruments,,,,Operational
 22,Chemical and aerosol sequences,322028,(METOP GOME-2),,004001,Year,,,,Operational
