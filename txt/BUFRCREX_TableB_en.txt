@@ -1447,6 +1447,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 25,Processing information,025053,Observation quality,Flag table,0,0,12,Flag table,0,4,,,Operational
 25,Processing information,025054,SSMIS subframe ID number,Numeric,0,0,5,Numeric,0,2,,,Operational
 25,Processing information,025055,Multiplexer housekeeping,K,2,0,16,K,2,5,,,Operational
+25,Processing information,025056,Normalized error estimate in backscatter measurement (Kp),Numeric,4,0,14,Numeric,4,5,,,Operational
 25,Processing information,025060,Software identification,Numeric,0,0,14,Numeric,0,5,(see Note 2),131,Operational
 25,Processing information,025061,Software identification and version number,CCITT IA5,0,0,96,Character,0,12,,,Operational
 25,Processing information,025062,Database identification,Numeric,0,0,14,Numeric,0,5,,,Operational
@@ -1544,7 +1545,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 25,Processing information,025189,Range cut-off wavelength,m,0,1,9,m,0,3,,,Operational
 25,Processing information,025190,Altimeter echo processing mode,Code table,0,0,8,Code table,0,3,,,Operational
 25,Processing information,025191,Altimeter tracking mode,Code table,0,0,8,Code table,0,3,,,Operational
-25,Processing information,025056,Normalized error estimate in backscatter measurement (Kp),Numeric,4,0,14,Numeric,4,5,,,Operational
 26,Non-coordinate location (time),026001,Principal time of daily reading in UTC of maximum temperature,h,1,0,12,h,1,3,,,Operational
 26,Non-coordinate location (time),026002,Principal time of daily reading in UTC of minimum temperature,h,1,0,12,h,1,3,,,Operational
 26,Non-coordinate location (time),026003,Time difference,min,0,-1440,12,min,0,4,(see Note),58,Operational
