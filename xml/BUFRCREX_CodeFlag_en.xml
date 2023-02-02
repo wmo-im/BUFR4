@@ -16834,35 +16834,7 @@
     <FXY>008097</FXY>
     <ElementName_en>Method used to calculate the average instrument temperature</ElementName_en>
     <CodeFigure>127</CodeFigure>
-    <EntryName_en>Missing value</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>008099</FXY>
-    <ElementName_en>Sensing direction</ElementName_en>
-    <CodeFigure>0</CodeFigure>
-    <EntryName_en>Nadir</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>008099</FXY>
-    <ElementName_en>Sensing direction</ElementName_en>
-    <CodeFigure>1</CodeFigure>
-    <EntryName_en>Oblique</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>008099</FXY>
-    <ElementName_en>Sensing direction</ElementName_en>
-    <CodeFigure>2-14</CodeFigure>
-    <EntryName_en>Reserved</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>008099</FXY>
-    <ElementName_en>Sensing direction</ElementName_en>
-    <CodeFigure>15</CodeFigure>
-    <EntryName_en>Missing value</EntryName_en>
+    <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -16919,6 +16891,34 @@
     <ElementName_en>Source of temperature measurement</ElementName_en>
     <CodeFigure>15</CodeFigure>
     <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008099</FXY>
+    <ElementName_en>Sensing direction</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Nadir</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008099</FXY>
+    <ElementName_en>Sensing direction</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Oblique</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008099</FXY>
+    <ElementName_en>Sensing direction</ElementName_en>
+    <CodeFigure>2-14</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008099</FXY>
+    <ElementName_en>Sensing direction</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -38028,44 +38028,6 @@
     <FXY>033111</FXY>
     <ElementName_en>SCA quality flags</ElementName_en>
     <CodeFigure>27</CodeFigure>
-    <FXY>033115</FXY>
-    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
-    <CodeFigure>0</CodeFigure>
-    <EntryName_en>Good</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>033115</FXY>
-    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
-    <CodeFigure>1</CodeFigure>
-    <EntryName_en>Cloudy nadir</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>033115</FXY>
-    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
-    <CodeFigure>2</CodeFigure>
-    <EntryName_en>Cloudy oblique</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>033115</FXY>
-    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
-    <CodeFigure>3</CodeFigure>
-    <EntryName_en>Glint nadir</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>033115</FXY>
-    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
-    <CodeFigure>4</CodeFigure>
-    <EntryName_en>Glint oblique</EntryName_en>
-    <Status>Operational</Status>
-  </BUFRCREX_CodeFlag_en>
-  <BUFRCREX_CodeFlag_en>
-    <FXY>033115</FXY>
-    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
-    <CodeFigure>5-30</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -38312,6 +38274,51 @@
     <ElementName_en>Out of bounds check</ElementName_en>
     <CodeFigure>All 17</CodeFigure>
     <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033115</FXY>
+    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Good</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033115</FXY>
+    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Cloudy nadir</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033115</FXY>
+    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Cloudy oblique</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033115</FXY>
+    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Glint nadir</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033115</FXY>
+    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Glint oblique</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033115</FXY>
+    <ElementName_en>Aerosol optical depth quality information</ElementName_en>
+    <CodeFigure>5-30</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>033115</FXY>
     <ElementName_en>Aerosol optical depth quality information</ElementName_en>
     <CodeFigure>31</CodeFigure>
