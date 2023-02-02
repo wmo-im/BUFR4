@@ -446,6 +446,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 07,Location (vertical),007072,Scan angle,deg,2,-9000,15,deg,2,6,,,Operational
 07,Location (vertical),007073,Angle between moon and space view,deg,2,0,15,deg,2,5,,,Operational
 07,Location (vertical),007074,Solar elevation angle in instrument reference frame,deg,2,-9000,15,deg,2,5,,,Operational
+
+
+07,Location (vertical),007075,Scattering angle,deg,0,0,8,deg,0,3,,,Operational
+07,Location (vertical),007076,Relative azimuth angle,deg,0,0,8,deg,0,3,,,Operational
 08,Significance qualifiers,008001,Vertical sounding significance,Flag table,0,0,7,Flag table,0,3,,,Operational
 08,Significance qualifiers,008002,Vertical significance (surface observations),Code table,0,0,6,Code table,0,2,,,Operational
 08,Significance qualifiers,008003,Vertical significance (satellite observations),Code table,0,0,6,Code table,0,2,,,Operational
@@ -522,6 +526,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008096,Siting and measurement quality classification for precipitation,Code table,0,0,8,Code table,0,3,,,Operational
 08,Significance qualifiers,008097,Method used to calculate the average instrument temperature,Code table,0,0,7,Code table,0,3,,,Operational
 08,Significance qualifiers,008098,Source of temperature measurement,Code table,0,0,4,Code table,0,2,,,Operational
+
+08,Significance qualifiers,008099,Sensing direction,Code table,0,0,4,Code table,0,2,,,Operational
 10,Non-coordinate location (vertical),010001,Height of land surface,m,0,-400,15,m,0,5,,,Operational
 10,Non-coordinate location (vertical),010002,Height,m,-1,-40,16,m,-1,5,,,Operational
 10,Non-coordinate location (vertical),010003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
@@ -1676,6 +1682,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033112,Faraday rotation angle (one way),deg,2,-18000,16,deg,2,6,,,Operational
 33,Quality information,033113,IASI-NG general quality flags,Flag table,0,0,16,Flag table,0,6,,,Operational
 33,Quality information,033114,Out of bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
+33,Quality information,033115,Aerosol optical depth quality information,Code table,0,0,5,Code table,0,2,,,Operational
 35,Data monitoring information,035000,FM and regional code number,Code table,0,0,10,Code table,0,3,,,Operational
 35,Data monitoring information,035001,Time frame for monitoring,Code table,0,0,3,Code table,0,1,,,Operational
 35,Data monitoring information,035011,Number of reports actually received,Numeric,0,0,14,Numeric,0,4,,,Operational
@@ -1782,3 +1789,4 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 42,Oceanographic elements,042013,a2 coefficient of the directional Fourier series,Numeric,4,-20000,15,Numeric,4,6,,,Operational
 42,Oceanographic elements,042014,b2 coefficient of the directional Fourier series,Numeric,4,-20000,15,Numeric,4,6,,,Operational
 42,Oceanographic elements,042015,Check factor K,Numeric,2,0,12,Numeric,2,4,,,Operational
+42,Oceanographic elements,042016,Sea water potential density referenced to sea surface,kg m-3,5,-10000000,24,kg m-3,5,9,,,Operational

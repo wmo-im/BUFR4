@@ -338,7 +338,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001101,State identifier,644,Switzerland,,,,,Operational
 001101,State identifier,645,Syrian Arab Republic,,,,,Operational
 001101,State identifier,646,The former Yugoslav Republic of Macedonia,,,,,Operational
-001101,State identifier,647,Turkey,,,,,Operational
+001101,State identifier,647,Republic of Turkiye,,,,,Operational
 001101,State identifier,648,Ukraine,,,,,Operational
 001101,State identifier,649,United Kingdom of Great Britain and Northern Ireland (RA VI),,,,,Operational
 001101,State identifier,650-699,Reserved for Region VI (Europe),,,,,Operational
@@ -2229,7 +2229,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008080,Qualifier for GTSPP quality flag,16,Dissolved oxygen at a level,,,,,Operational
 008080,Qualifier for GTSPP quality flag,17-19,Reserved,,,,,Operational
 008080,Qualifier for GTSPP quality flag,20,Position,,,,,Operational
-008080,Qualifier for GTSPP quality flag,21-62,Reserved,,,,,Operational
+008080,Qualifier for GTSPP quality flag,21-24,Reserved,,,,,Operational
+008080,Qualifier for GTSPP quality flag,25,Water conductivity at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,26,Sea water potential density referenced to sea surface at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,27-62,Reserved,,,,,Operational
 008080,Qualifier for GTSPP quality flag,63,Missing value,,,,,Operational
 008081,Type of equipment,0,Sensor,,,,,Operational
 008081,Type of equipment,1,Transmitter,,,,,Operational
@@ -2397,6 +2400,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008098,Source of temperature measurement,5,Rotating reflector,,,,,Operational
 008098,Source of temperature measurement,6-14,Reserved,,,,,Operational
 008098,Source of temperature measurement,15,Missing,,,,,Operational
+008097,Method used to calculate the average instrument temperature,127,Missing value,,,,,Operational
+008099,Sensing direction,0,Nadir,,,,,Operational
+008099,Sensing direction,1,Oblique,,,,,Operational
+008099,Sensing direction,2-14,Reserved,,,,,Operational
+008099,Sensing direction,15,Missing value,,,,,Operational
 010063,Characteristic of pressure tendency,0,"Increasing, then decreasing; atmospheric pressure the same or higher than three hours ago",,,,,Operational
 010063,Characteristic of pressure tendency,1,"Increasing, then steady; or increasing, then increasing more slowly",Atmospheric pressure now higher than three hours ago,,,,Operational
 010063,Characteristic of pressure tendency,2,Increasing (steadily or unsteadily),Atmospheric pressure now higher than three hours ago,,,,Operational
@@ -5411,6 +5419,13 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033114,Out of bounds check,15,CH4 profile,,,,,Operational
 033114,Out of bounds check,16,N2O profile,,,,,Operational
 033114,Out of bounds check,All 17,Missing,,,,,Operational
+033115,Aerosol optical depth quality information,0,Good,,,,,Operational
+033115,Aerosol optical depth quality information,1,Cloudy nadir,,,,,Operational
+033115,Aerosol optical depth quality information,2,Cloudy oblique,,,,,Operational
+033115,Aerosol optical depth quality information,3,Glint nadir,,,,,Operational
+033115,Aerosol optical depth quality information,4,Glint oblique,,,,,Operational
+033115,Aerosol optical depth quality information,5-30,Reserved,,,,,Operational
+033115,Aerosol optical depth quality information,31,Missing value,,,,,Operational
 035000,FM and regional code number,000-099,International FM Codes,,,,,Operational
 035000,FM and regional code number,100-199,RA I Codes,,,,,Operational
 035000,FM and regional code number,200-299,RA II Codes,,,,,Operational
