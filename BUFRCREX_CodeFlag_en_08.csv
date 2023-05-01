@@ -591,7 +591,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008080,Qualifier for GTSPP quality flag,16,Dissolved oxygen at a level,,,,,Operational
 008080,Qualifier for GTSPP quality flag,17-19,Reserved,,,,,Operational
 008080,Qualifier for GTSPP quality flag,20,Position,,,,,Operational
-008080,Qualifier for GTSPP quality flag,21-62,Reserved,,,,,Operational
+008080,Qualifier for GTSPP quality flag,21-24,Reserved,,,,,Operational
+008080,Qualifier for GTSPP quality flag,25,Water conductivity at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,26,Sea water potential density referenced to sea surface at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,27-62,Reserved,,,,,Operational
 008080,Qualifier for GTSPP quality flag,63,Missing value,,,,,Operational
 008081,Type of equipment,0,Sensor,,,,,Operational
 008081,Type of equipment,1,Transmitter,,,,,Operational
@@ -751,3 +754,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008097,Method used to calculate the average instrument temperature,2,Average of G-band RFE sensor for channels 9 to 12,,,,,Operational
 008097,Method used to calculate the average instrument temperature,3-126,Reserved,,,,,Operational
 008097,Method used to calculate the average instrument temperature,127,Missing,,,,,Operational
+008098,Source of temperature measurement,0,On-board calibration target,,,,,Operational
+008098,Source of temperature measurement,1,Space view reflector,,,,,Operational
+008098,Source of temperature measurement,2,Main reflector,,,,,Operational
+008098,Source of temperature measurement,3,Racetrack,,,,,Operational
+008098,Source of temperature measurement,4,Sun shield,,,,,Operational
+008098,Source of temperature measurement,5,Rotating reflector,,,,,Operational
+008098,Source of temperature measurement,6-14,Reserved,,,,,Operational
+008098,Source of temperature measurement,15,Missing,,,,,Operational
+008099,Sensing direction,0,Nadir,,,,,Operational
+008099,Sensing direction,1,Oblique,,,,,Operational
+008099,Sensing direction,2-14,Reserved,,,,,Operational
+008099,Sensing direction,15,Missing value,,,,,Operational
