@@ -429,6 +429,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002008,Type of offshore platform,5,Light vessel,,,,,Operational
 002008,Type of offshore platform,6-14,Reserved,,,,,Operational
 002008,Type of offshore platform,15,Missing value,,,,,Operational
+002009,MODIS aerosol algorithm,0,Land corrected reflectances,,,,,Operational
+002009,MODIS aerosol algorithm,1,Ocean best solution,,,,,Operational
+002009,MODIS aerosol algorithm,2,Ocean average solution,,,,,Operational
+002009,MODIS aerosol algorithm,3-14,Reserved,,,,,Operational
+002009,MODIS aerosol algorithm,15,Missing value,,,,,Operational
 002011,Radiosonde type,,,,,,,Operational
 002012,Radiosonde computational method,,,,,,,Operational
 002013,Solar and infrared radiation correction,0,No correction,,,,,Operational
@@ -2092,6 +2097,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008043,Atmospheric chemical or physical constituent type,34-200,Reserved,,,,,Operational
 008043,Atmospheric chemical or physical constituent type,201-254,Reserved for local use,,,,,Operational
 008043,Atmospheric chemical or physical constituent type,255,Missing value,,,,,Operational
+008045,Particulate matter characterization,0,Aerosols all types,,,,,Operational
+008045,Particulate matter characterization,1,Desert dust,,,,,Operational
+008045,Particulate matter characterization,2,Black carbon,,,,,Operational
+008045,Particulate matter characterization,3,Sea salt,,,,,Operational
+008045,Particulate matter characterization,4-254,Reserved,,,,,Operational
+008045,Particulate matter characterization,255,Missing value,,,,,Operational
 008046,Atmospheric chemical or physical constituent type,,,,,(See Common Code table C–14 in Part C/c.),,Operational
 008050,Qualifier for number of missing values in calculation of statistic,0,Reserved,,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,,Operational
@@ -3579,6 +3590,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020071,Accuracy of fix and rate of atmospherics,9,More than 200 km,Rate so rapid number cannot be counted,,,,Operational
 020071,Accuracy of fix and rate of atmospherics,10-14,Reserved,,,,,Operational
 020071,Accuracy of fix and rate of atmospherics,15,Missing value,,,,,Operational
+020079,Snow or ice crystals indicator,0,No snow or ice,,,,,Operational
+020079,Snow or ice crystals indicator,1,Snow present,,,,,Operational
+020079,Snow or ice crystals indicator,2-3,Reserved,,,,,Operational
+020079,Snow or ice crystals indicator,4,Missing value,,,,,Operational
 020085,General condition of runway,0,Cleared (CLRD//),,,,,Operational
 020085,General condition of runway,1,All runways closed (SNOCLO),,,,,Operational
 020085,General condition of runway,2-14,Reserved,,,,,Operational
@@ -4891,6 +4906,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033052,S band ocean retracking quality,All 21,Missing value,,,,,Operational
 033053,Ku band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1=invalid). Bit 1 applies to the 20th data block",,,,,Operational
 033053,Ku band ocean retracking quality,All 21,Missing value,,,,,Operational
+033054,Overall quality of retrieved atmospheric profile,0,Profile values good,,,,,Operational
+033054,Overall quality of retrieved atmospheric profile,1,Profile values suspected,,,,,Operational
+033054,Overall quality of retrieved atmospheric profile,2,Reserved,,,,,Operational
+033054,Overall quality of retrieved atmospheric profile,3,Profile values not good,,,,,Operational
+033054,Overall quality of retrieved atmospheric profile,4-6,Reserved,,,,,Operational
+033054,Overall quality of retrieved atmospheric profile,7,Missing value,,,,,Operational
 033055,Wind vector quality flag,1-10,Reserved,,,,,Operational
 033055,Wind vector quality flag,11,Ocean sigma-0 is not available for wind retrievals,,,,,Operational
 033055,Wind vector quality flag,12,Background wind is not available,,,,,Operational
