@@ -317,6 +317,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 03,Instrumentation,003028,Method of snow water equivalent measurement,Code table,0,0,6,Code table,0,2,,,Operational
 03,Instrumentation,003029,Swath,Code table,0,0,3,Code table,0,1,,,Operational
 03,Instrumentation,003030,Antenna status,Code table,0,0,3,Code table,0,1,,,Operational
+03,Instrumentation,003031,"Channel bandwidth, full width half maximum (FWHM)",m,11,0,16,m,11,13,,,Operational
+03,Instrumentation,003032,Channel centre frequency,Hz,-6,0,26,Hz,-6,10,,,Operational
+03,Instrumentation,003033,Channel band width,Hz,-6,0,26,Hz,-6,10,,,Operational
+03,Instrumentation,003034,Channel wavelength,m,9,0,16,m,9,5,,,Operational
 04,Location (time),004001,Year,a,0,0,12,a,0,4,,,Operational
 04,Location (time),004002,Month,mon,0,0,4,mon,0,2,,,Operational
 04,Location (time),004003,Day,d,0,0,6,d,0,2,,,Operational

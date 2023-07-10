@@ -4505,6 +4505,62 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>03</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>003031</FXY>
+    <ElementName_en>Channel bandwidth, full width half maximum (FWHM)</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>11</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>11</CREX_Scale>
+    <CREX_DataWidth_Char>13</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>03</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>003032</FXY>
+    <ElementName_en>Channel centre frequency</ElementName_en>
+    <BUFR_Unit>Hz</BUFR_Unit>
+    <BUFR_Scale>-6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>26</BUFR_DataWidth_Bits>
+    <CREX_Unit>Hz</CREX_Unit>
+    <CREX_Scale>-6</CREX_Scale>
+    <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>03</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>003033</FXY>
+    <ElementName_en>Channel band width</ElementName_en>
+    <BUFR_Unit>Hz</BUFR_Unit>
+    <BUFR_Scale>-6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>26</BUFR_DataWidth_Bits>
+    <CREX_Unit>Hz</CREX_Unit>
+    <CREX_Scale>-6</CREX_Scale>
+    <CREX_DataWidth_Char>10</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>03</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>003034</FXY>
+    <ElementName_en>Channel wavelength</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>9</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>m</CREX_Unit>
+    <CREX_Scale>9</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>04</ClassNo>
     <ClassName_en>Location (time)</ClassName_en>
     <FXY>004001</FXY>
