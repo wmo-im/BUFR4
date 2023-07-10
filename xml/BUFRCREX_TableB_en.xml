@@ -11673,6 +11673,110 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013165</FXY>
+    <ElementName_en>CAPE (convective available potential energy)</ElementName_en>
+    <BUFR_Unit>Jkg-1</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <CREX_Unit>Jkg-1</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Note_en>(see Note 11)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013166</FXY>
+    <ElementName_en>Total totals index</ElementName_en>
+    <BUFR_Unit>K</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>10</BUFR_DataWidth_Bits>
+    <CREX_Unit>°C</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Note_en>(see Note 12)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013167</FXY>
+    <ElementName_en>S index (STT)</ElementName_en>
+    <BUFR_Unit>K</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>-1000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>11</BUFR_DataWidth_Bits>
+    <CREX_Unit>°C</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Note_en>(see Note 13)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013168</FXY>
+    <ElementName_en>Fog threat index</ElementName_en>
+    <BUFR_Unit>K</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>-100</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>°C</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>5|(see Note 14)</CREX_DataWidth_Char>
+    <noteIDs>Operational</noteIDs>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013169</FXY>
+    <ElementName_en>MDPI (microburst day potential index)</ElementName_en>
+    <BUFR_Unit>K/K</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>-100</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <CREX_Unit>K/K</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Note_en>(see Note 15)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013170</FXY>
+    <ElementName_en>TQ index</ElementName_en>
+    <BUFR_Unit>K</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>-1000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>11</BUFR_DataWidth_Bits>
+    <CREX_Unit>°C</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Note_en>(see Note 16)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013171</FXY>
+    <ElementName_en>CIN (convective inhibition)</ElementName_en>
+    <BUFR_Unit>Jkg-1</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>-1000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>10</BUFR_DataWidth_Bits>
+    <CREX_Unit>Jkg-1</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Note_en>(see Note 17)</Note_en>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>14</ClassNo>
     <ClassName_en>Radiation and radiance</ClassName_en>
     <FXY>014001</FXY>
