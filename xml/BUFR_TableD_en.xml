@@ -55085,7 +55085,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>031021</FXY2>
     <ElementName_en>Associated field significance</ElementName_en>
-    <ElementDescription_en>9 for specifying for each of the incoming variable the status of the data retrieved.</ElementDescription_en>
+    <ElementDescription_en>9 for specifying for each of the incoming variable the status of the data retrieved</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55555,7 +55555,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>020056</FXY2>
     <ElementName_en>Cloud phase</ElementName_en>
-    <ElementDescription_en>Set to 1 for liquid</ElementDescription_en>
+    <ElementDescription_en>Set to 1 (Water) for liquid</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55575,7 +55575,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>020056</FXY2>
     <ElementName_en>Cloud phase</ElementName_en>
-    <ElementDescription_en>Set to 2 for ice</ElementDescription_en>
+    <ElementDescription_en>Set to 2 (Ice)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55595,7 +55595,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Set vertical significance to 2 (Cloud top)</ElementDescription_en>
+    <ElementDescription_en>Set to 2 (Cloud top)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55653,7 +55653,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>020016</FXY2>
     <ElementName_en>Pressure at top of cloud</ElementName_en>
-    <ElementDescription_en>Pressure at cloud top</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56146,7 +56145,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
     <FXY2>005040</FXY2>
     <ElementName_en>Orbit number</ElementName_en>
-    <ElementDescription_en>Orbit number</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56165,7 +56163,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
     <FXY2>005041</FXY2>
     <ElementName_en>Scan line number</ElementName_en>
-    <ElementDescription_en>Scan line number</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56261,7 +56258,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040059</FXY2>
     <ElementName_en>Number of layers actually retrieved</ElementName_en>
-    <ElementDescription_en>Number of layers actually retrieved</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56379,7 +56375,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>040056</FXY2>
     <ElementName_en>General retrieval quality flag</ElementName_en>
-    <ElementDescription_en>General retrieval quality flag</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56437,7 +56432,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>040061</FXY2>
     <ElementName_en>Air partial columns on each retrieved layer</ElementName_en>
-    <ElementDescription_en>Air partial columns on each retrieved layer molecules / cm2</ElementDescription_en>
+    <ElementDescription_en>Molecules/cm2</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
