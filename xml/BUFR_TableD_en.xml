@@ -45450,7 +45450,7 @@
     <FXY1>310066</FXY1>
     <Title_en>(OMPS (Ozone mapping and profiler suite) total column data)</Title_en>
     <FXY2>033082</FXY2>
-    <ElementName_en>Geolocation quality flags                          </ElementName_en>
+    <ElementName_en>Geolocation quality flags</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -45588,7 +45588,7 @@
     <FXY1>310066</FXY1>
     <Title_en>(OMPS (Ozone mapping and profiler suite) total column data)</Title_en>
     <FXY2>015041</FXY2>
-    <ElementName_en>Sulphur dioxide index  </ElementName_en>
+    <ElementName_en>Sulphur dioxide index</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55892,7 +55892,7 @@
     <FXY1>310091</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
     <FXY2>104003</FXY2>
-    <ElementName_en>Replicate 4 descriptors 3 times </ElementName_en>
+    <ElementName_en>Replicate 4 descriptors 3 times</ElementName_en>
     <ElementDescription_en>Loop other the 3 different chemical constituent type</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -56758,7 +56758,7 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Mask, Cloud Detection (CLD))</Title_en>
     <FXY2>008011</FXY2>
     <ElementName_en>Meteorological feature</ElementName_en>
-    <ElementDescription_en>Set to 11 to specify we are speaking about cloud clear</ElementDescription_en>
+    <ElementDescription_en>Set to 11 (Cloud clear)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56817,7 +56817,7 @@
     <FXY1>310098</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
     <FXY2>013094</FXY2>
-    <ElementName_en>Log 10 of Cloud optical thickness</ElementName_en>
+    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
     <ElementDescription_en>Cloud optical thickness in Log10</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -56828,7 +56828,6 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
     <FXY2>020016</FXY2>
     <ElementName_en>Pressure at top of cloud</ElementName_en>
-    <ElementDescription_en>Pressure at cloud top</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56838,7 +56837,6 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
     <FXY2>020014</FXY2>
     <ElementName_en>Height of top of cloud</ElementName_en>
-    <ElementDescription_en>Height at cloud top</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56847,7 +56845,7 @@
     <FXY1>310098</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
     <FXY2>008093</FXY2>
-    <ElementName_en>Measurement uncertainty significance </ElementName_en>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <ElementDescription_en>Total uncertainty</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -56857,7 +56855,7 @@
     <FXY1>310098</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
     <FXY2>013094</FXY2>
-    <ElementName_en>Log 10 of Cloud optical thickness</ElementName_en>
+    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
     <ElementDescription_en>Error on Cloud optical thickness in Log10</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -56878,7 +56876,7 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
     <FXY2>020014</FXY2>
     <ElementName_en>Height of top of cloud</ElementName_en>
-    <ElementDescription_en>Error on Height at cloud top</ElementDescription_en>
+    <ElementDescription_en>Error on height at cloud top</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56887,7 +56885,7 @@
     <FXY1>310098</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
     <FXY2>008093</FXY2>
-    <ElementName_en>Measurement uncertainty significance </ElementName_en>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <ElementDescription_en>Cancel total uncertainty</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -56928,7 +56926,7 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
     <FXY2>020139</FXY2>
     <ElementName_en>Final cloud model assumption</ElementName_en>
-    <ElementDescription_en>Final cloud model assumption: 0=clear ,1=single layer water,2=single layer ice,3=2-layers (water/ice),4=single layer ash,5=2-layers ash</ElementDescription_en>
+    <ElementDescription_en>0=clear, 1=single layer water, 2=single layer ice, 3=2-layers (water/ice), 4=single layer ash, 5=2-layers ash</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56967,7 +56965,7 @@
     <FXY1>310099</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
     <FXY2>013094</FXY2>
-    <ElementName_en>Log 10 of Cloud optical thickness</ElementName_en>
+    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
     <ElementDescription_en>Cloud optical thickness of single or top layer in Log10</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -56978,7 +56976,6 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
     <FXY2>020016</FXY2>
     <ElementName_en>Pressure at top of cloud</ElementName_en>
-    <ElementDescription_en>Pressure at cloud top</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57044,7 +57041,6 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
     <FXY2>020014</FXY2>
     <ElementName_en>Height of top of cloud</ElementName_en>
-    <ElementDescription_en>Height at cloud top</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57053,7 +57049,7 @@
     <FXY1>310099</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
     <FXY2>008093</FXY2>
-    <ElementName_en>Measurement uncertainty significance </ElementName_en>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <ElementDescription_en>Total uncertainty</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -57063,7 +57059,7 @@
     <FXY1>310099</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
     <FXY2>013094</FXY2>
-    <ElementName_en>Log 10 of Cloud optical thickness</ElementName_en>
+    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
     <ElementDescription_en>Error on cloud optical thickness in log 10</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -57139,7 +57135,7 @@
     <FXY1>310099</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
     <FXY2>008093</FXY2>
-    <ElementName_en>Measurement uncertainty significance </ElementName_en>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <ElementDescription_en>Cancel total uncertainty</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
