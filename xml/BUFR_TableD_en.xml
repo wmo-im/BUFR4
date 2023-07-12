@@ -55191,7 +55191,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Set to 0=surface</ElementDescription_en>
+    <ElementDescription_en>Set to 0 (Surface)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55595,7 +55595,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Set vertical significance to cloud top</ElementDescription_en>
+    <ElementDescription_en>Set vertical significance to 2 (Cloud top)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55711,7 +55711,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Set Vertical significance to surface</ElementDescription_en>
+    <ElementDescription_en>Set vertical significance to 0 (Surface)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55738,7 +55738,7 @@
     <FXY1>310090</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>102012</FXY2>
-    <ElementName_en>Replication of 02 descriptors 12 times</ElementName_en>
+    <ElementName_en>Replication of 2 descriptors 12 times</ElementName_en>
     <ElementDescription_en>12 channels</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -55825,7 +55825,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Cancel Vertical Significance</ElementDescription_en>
+    <ElementDescription_en>Cancel vertical significance</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55854,7 +55854,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>008043</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>Set Atmospheric chemical to Dust</ElementDescription_en>
+    <ElementDescription_en>Set atmospheric chemical to Dust</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55902,8 +55902,8 @@
     <FXY1>310091</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
     <FXY2>008043</FXY2>
-    <ElementName_en>Atmospheric chemical or physical constituent type </ElementName_en>
-    <ElementDescription_en> N20,CH4 and CO2</ElementDescription_en>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>N2O, CH4 and CO2</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55921,7 +55921,7 @@
     <FXY1>310091</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
     <FXY2>007004</FXY2>
-    <ElementName_en>Pressure </ElementName_en>
+    <ElementName_en>Pressure</ElementName_en>
     <ElementDescription_en>At a given pressure</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -56222,7 +56222,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>008046</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>4 Carbon monoxide CO</ElementDescription_en>
+    <ElementDescription_en>Set to 4 (Carbon monoxide, CO)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56232,7 +56232,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>015021</FXY2>
     <ElementName_en>Integrated mass density</ElementName_en>
-    <ElementDescription_en>Mass content of Carbon monoxide</ElementDescription_en>
+    <ElementDescription_en>Mass content of carbon monoxide</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56251,8 +56251,7 @@
     <FXY1>310093</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040058</FXY2>
-    <ElementName_en>Number of vectors describing the char. matrices</ElementName_en>
-    <ElementDescription_en>Number of vectors describing the characterization matrices</ElementDescription_en>
+    <ElementName_en>Number of vectors describing the characterization matrices</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56272,7 +56271,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040060</FXY2>
     <ElementName_en>Number of profiles retrieved in scanline</ElementName_en>
-    <ElementDescription_en>Number of for carbon monoxide profiles retrieved in scanline</ElementDescription_en>
+    <ElementDescription_en>Number of carbon monoxide profiles retrieved in scanline</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56302,7 +56301,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040061</FXY2>
     <ElementName_en>Air partial columns on each retrieved layer</ElementName_en>
-    <ElementDescription_en>molecules/cm</ElementDescription_en>
+    <ElementDescription_en>Molecules/cm</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56321,8 +56320,8 @@
     <FXY1>310093</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040063</FXY2>
-    <ElementName_en>Scaling vector multiplying the a priori CO vector in order to define the retrieved CO vector</ElementName_en>
-    <ElementDescription_en>Scaling vector multiplying the a priori vector in order to define the retrieved vector</ElementDescription_en>
+    <ElementName_en>Scaling vector multiplying the a priori vector in order to define the retrieved vector</ElementName_en>
+    <ElementDescription_en>Scaling vector multiplying the a priori CO vector in order to define the retrieved CO vector</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56331,7 +56330,7 @@
     <FXY1>310093</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>101190</FXY2>
-    <ElementName_en>Repeat1 descriptor 190 times</ElementName_en>
+    <ElementName_en>Repeat 1 descriptor 190 times</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56341,7 +56340,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040065</FXY2>
     <ElementName_en>Main eigenvectors of the sensitivity matrix</ElementName_en>
-    <ElementDescription_en>Main eigenvectors of the sensitivity matrix</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56361,7 +56359,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>008046</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>Here code for ozone(O3) or nitric acid (HNO3)</ElementDescription_en>
+    <ElementDescription_en>Set to 0 (Ozone, O3) or 17 (Nitric acid, HNO3)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56390,8 +56388,7 @@
     <FXY1>310094</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>040058</FXY2>
-    <ElementName_en>Number of vectors describing the char. matrices</ElementName_en>
-    <ElementDescription_en>Number of vectors describing the characterization matrices</ElementDescription_en>
+    <ElementName_en>Number of vectors describing the characterization matrices</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56401,7 +56398,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>040059</FXY2>
     <ElementName_en>Number of layers actually retrieved</ElementName_en>
-    <ElementDescription_en>Number of layers actually retrieved</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56500,7 +56496,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
     <FXY2>310092</FXY2>
     <ElementName_en>IASI NG L2 common information part</ElementName_en>
-    <ElementDescription_en>The common information shared for CO, NAC, O3 and SO2.</ElementDescription_en>
+    <ElementDescription_en>The common information shared for CO, NAC, O3 and SO2</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56509,8 +56505,8 @@
     <FXY1>310095</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
     <FXY2>008046</FXY2>
-    <ElementName_en>Atmospheric chemical or physical constituent type </ElementName_en>
-    <ElementDescription_en>8=SO2</ElementDescription_en>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>Set to 8 (SO2)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56520,7 +56516,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
     <FXY2>040068</FXY2>
     <ElementName_en>General retrieval quality flag for SO2</ElementName_en>
-    <ElementDescription_en>General retrieval quality flag for SO2</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
