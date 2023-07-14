@@ -17068,8 +17068,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>022188</FXY2>
-    <ElementName_en>Change oxygen reference value to -5000</ElementName_en>
-    <ElementDescription_en>Given by 11001110001000</ElementDescription_en>
+    <ElementName_en>Dissolved oxygen</ElementName_en>
+    <ElementDescription_en>Change reference value to -5000 (given by 11001110001000)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17116,7 +17116,7 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag</ElementName_en>
+    <ElementName_en>Qualifier for GTSPP quality flag</ElementName_en>
     <ElementDescription_en>=10 Pressure at a level</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -17126,7 +17126,7 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17165,7 +17165,7 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag</ElementName_en>
+    <ElementName_en>Qualifier for GTSPP quality flag</ElementName_en>
     <ElementDescription_en>=16 Dissolved oxygen at a level</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -17175,7 +17175,7 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17204,8 +17204,8 @@
     <FXY1>306045</FXY1>
     <Title_en>(Chlorophyll-A profile from floats)</Title_en>
     <FXY2>041004</FXY2>
-    <ElementName_en>Chlorophyll-A reference value of -1000</ElementName_en>
-    <ElementDescription_en>Given by 11111101000</ElementDescription_en>
+    <ElementName_en>Chlorophyll-A</ElementName_en>
+    <ElementDescription_en>Change reference value to -1000 (given by 11111101000)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17252,7 +17252,7 @@
     <FXY1>306045</FXY1>
     <Title_en>(Chlorophyll-A profile from floats)</Title_en>
     <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag</ElementName_en>
+    <ElementName_en>Qualifier for GTSPP quality flag</ElementName_en>
     <ElementDescription_en>=10 Pressure at a level</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -17262,7 +17262,7 @@
     <FXY1>306045</FXY1>
     <Title_en>(Chlorophyll-A profile from floats)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17291,7 +17291,7 @@
     <FXY1>306045</FXY1>
     <Title_en>(Chlorophyll-A profile from floats)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17320,8 +17320,8 @@
     <FXY1>306046</FXY1>
     <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
     <FXY2>041003</FXY2>
-    <ElementName_en>Nitrate reference value of -15000</ElementName_en>
-    <ElementDescription_en>Given by 111101010011000</ElementDescription_en>
+    <ElementName_en>Dissolved nitrates</ElementName_en>
+    <ElementDescription_en>Change reference value to -15000 (given by 111101010011000)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17378,7 +17378,7 @@
     <FXY1>306046</FXY1>
     <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17387,7 +17387,7 @@
     <FXY1>306046</FXY1>
     <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
     <FXY2>041003</FXY2>
-    <ElementName_en>Dissolved nitrate</ElementName_en>
+    <ElementName_en>Dissolved nitrates</ElementName_en>
     <ElementDescription_en>μmol kg-1</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -17398,7 +17398,7 @@
     <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
     <FXY2>008080</FXY2>
     <ElementName_en>Qualifier for quality flag</ElementName_en>
-    <ElementDescription_en>=22 Nitrate at a level</ElementDescription_en>
+    <ElementDescription_en>=22 Nitrates at a level</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17407,7 +17407,7 @@
     <FXY1>306046</FXY1>
     <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17464,7 +17464,7 @@
     <FXY1>306047</FXY1>
     <Title_en>(Sea water pH profile data from floats)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17493,7 +17493,7 @@
     <FXY1>306047</FXY1>
     <Title_en>(Sea water pH profile data from floats)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17512,8 +17512,8 @@
     <FXY1>306048</FXY1>
     <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>041007</FXY2>
-    <ElementName_en>bbp reference value of -250</ElementName_en>
-    <ElementDescription_en>Given by 111111010</ElementDescription_en>
+    <ElementName_en>bbp700</ElementName_en>
+    <ElementDescription_en>Change reference value to -250 (given by 111111010)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17570,7 +17570,7 @@
     <FXY1>306048</FXY1>
     <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17579,7 +17579,8 @@
     <FXY1>306048</FXY1>
     <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>041007</FXY2>
-    <ElementName_en>bbp In parts per billion</ElementName_en>
+    <ElementName_en>bbp700</ElementName_en>
+    <ElementDescription_en>In parts per billion</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17598,7 +17599,7 @@
     <FXY1>306048</FXY1>
     <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
+    <ElementName_en>Global GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
