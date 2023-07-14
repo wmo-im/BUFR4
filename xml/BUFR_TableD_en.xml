@@ -17058,7 +17058,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>203014</FXY2>
-    <ElementName_en>Change reference value (New reference value in 14 bits)</ElementName_en>
+    <ElementName_en>Change reference value</ElementName_en>
+    <ElementDescription_en>New reference value in 14 bits</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17067,7 +17068,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>022188</FXY2>
-    <ElementName_en>Change oxygen reference value to -5000 (given by 11001110001000)</ElementName_en>
+    <ElementName_en>Change oxygen reference value to -5000</ElementName_en>
+    <ElementDescription_en>Given by 11001110001000</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17076,7 +17078,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>203255</FXY2>
-    <ElementName_en>Change reference value (Terminate reference value change)</ElementName_en>
+    <ElementName_en>Change reference value</ElementName_en>
+    <ElementDescription_en>Terminate reference value change</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17094,7 +17097,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>031002</FXY2>
-    <ElementName_en>Extended delayed descriptor replication factor (Gives number of depths)</ElementName_en>
+    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
+    <ElementDescription_en>Gives number of depths</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17112,7 +17116,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 10, indicates pressure at a level)</ElementName_en>
+    <ElementName_en>Qualifier for quality flag</ElementName_en>
+    <ElementDescription_en>= 10 Pressure at a level&quot;</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17130,7 +17135,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>201129</FXY2>
-    <ElementName_en>Change data width (Add 1 bit to oxygen data width)</ElementName_en>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Add 1 bit to oxygen data width</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17139,7 +17145,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>022188</FXY2>
-    <ElementName_en>Dissolved oxygen (μmol kg-1)</ElementName_en>
+    <ElementName_en>Dissolved oxygen</ElementName_en>
+    <ElementDescription_en>μmol kg-1</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17148,7 +17155,8 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>201000</FXY2>
-    <ElementName_en>Change data width (Cancel change in oxygen data width)</ElementName_en>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en> Cancel change in oxygen data width</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17157,88 +17165,17 @@
     <FXY1>306044</FXY1>
     <Title_en>(Dissolved oxygen profile from floats)</Title_en>
     <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 16, indicates dissolved oxygen at a level)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306044</FXY1>
-    <Title_en>(Dissolved oxygen profile from floats)</Title_en>
-    <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306044</FXY1>
-    <Title_en>(Dissolved oxygen profile from floats)</Title_en>
-    <FXY2>203000</FXY2>
-    <ElementName_en>Change reference value (Reset oxygen reference value to Table B value)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>203011</FXY2>
-    <ElementName_en>Change reference value (New reference value in 11 bits)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>041004</FXY2>
-    <ElementName_en>Chlorophyll-A reference value of -1000 (given by 11111101000)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>203255</FXY2>
-    <ElementName_en>Change reference value (Terminate reference value change)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>106000</FXY2>
-    <ElementName_en>Delayed replication of 6 descriptors</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>031002</FXY2>
-    <ElementName_en>Extended delayed descriptor replication factor (Gives number of depths)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>007065</FXY2>
-    <ElementName_en>Water pressure</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 10, indicates pressure at a level)</ElementName_en>
+    <ElementName_en>Qualifier for quality flag,=16 Dissolved oxygen at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,033050,GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,203000,Change reference value,Reset oxygen reference value to Table B value,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,203011,Change reference value,New reference value in 11 bits,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,041004,Chlorophyll-A reference value of -1000,Given by 11111101000,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,203255,Change reference value,Terminate reference value change,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,106000,Delayed replication of 6 descriptors,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,031002,Extended delayed descriptor replication factor,Gives number of depths,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,007065,Water pressure,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,008080,Qualifier for quality flag</ElementName_en>
+    <ElementDescription_en>=10 Pressure at a level</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17256,7 +17193,8 @@
     <FXY1>306045</FXY1>
     <Title_en>(Chlorophyll-A profile from floats)</Title_en>
     <FXY2>041004</FXY2>
-    <ElementName_en>Chlorophyll-A (mg m-3)</ElementName_en>
+    <ElementName_en>Chlorophyll-A</ElementName_en>
+    <ElementDescription_en>mg m-3</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17265,88 +17203,17 @@
     <FXY1>306045</FXY1>
     <Title_en>(Chlorophyll-A profile from floats)</Title_en>
     <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 21, indicates chlorophyll-A at a level)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306045</FXY1>
-    <Title_en>(Chlorophyll-A profile from floats)</Title_en>
-    <FXY2>203000</FXY2>
-    <ElementName_en>Change reference value (Reset chlorophyll-A reference value to Table B default)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>203015</FXY2>
-    <ElementName_en>Change reference value (New reference value in 15 bits)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>041003</FXY2>
-    <ElementName_en>Nitrate reference value of -15000 (given by 111101010011000)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>203255</FXY2>
-    <ElementName_en>Change reference value (Terminate reference value change)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>106000</FXY2>
-    <ElementName_en>Delayed replication of 6 descriptors</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>031002</FXY2>
-    <ElementName_en>Extended delayed descriptor replication factor (Gives number of depths)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>007065</FXY2>
-    <ElementName_en>Water pressure</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 10, indicates pressure at a level)</ElementName_en>
+    <ElementName_en>Qualifier for quality flag,= 21 Chlorophyll-A at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,033050,GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,203000,Change reference value,Reset chlorophyll-A reference value to Table B default,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,203015,Change reference valuex,New reference value in 15 bits,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,041003,Nitrate reference value of -15000,Given by 111101010011000,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,203255,Change reference value,Terminate reference value change,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,106000,Delayed replication of 6 descriptors,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,031002,Extended delayed descriptor replication factor,Gives number of depths,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,007065,Water pressure,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,008080,Qualifier for quality flag</ElementName_en>
+    <ElementDescription_en>=10 Pressure at a level</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17364,7 +17231,8 @@
     <FXY1>306046</FXY1>
     <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
     <FXY2>041003</FXY2>
-    <ElementName_en>Dissolved nitrate (in μmol kg-1)</ElementName_en>
+    <ElementName_en>Dissolved nitrate</ElementName_en>
+    <ElementDescription_en>μmol kg-1</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17373,88 +17241,17 @@
     <FXY1>306046</FXY1>
     <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
     <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 22, indicates nitrate at a level)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306046</FXY1>
-    <Title_en>(Dissolved nitrate profile data from floats)</Title_en>
-    <FXY2>203000</FXY2>
-    <ElementName_en>Change reference value (Reset nitrate reference value to Table B default)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306047</FXY1>
-    <Title_en>(Sea water pH profile data from floats)</Title_en>
-    <FXY2>106000</FXY2>
-    <ElementName_en>Delayed replication of 6 descriptors</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306047</FXY1>
-    <Title_en>(Sea water pH profile data from floats)</Title_en>
-    <FXY2>031002</FXY2>
-    <ElementName_en>Extended delayed descriptor replication factor (Gives number of depths)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306047</FXY1>
-    <Title_en>(Sea water pH profile data from floats)</Title_en>
-    <FXY2>007065</FXY2>
-    <ElementName_en>Water pressure</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306047</FXY1>
-    <Title_en>(Sea water pH profile data from floats)</Title_en>
-    <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 10, indicates pressure at a level)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306047</FXY1>
-    <Title_en>(Sea water pH profile data from floats)</Title_en>
-    <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306047</FXY1>
-    <Title_en>(Sea water pH profile data from floats)</Title_en>
-    <FXY2>041006</FXY2>
-    <ElementName_en>Sea water pH (dimensionless)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306047</FXY1>
-    <Title_en>(Sea water pH profile data from floats)</Title_en>
-    <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 23, indicates pH at a level)</ElementName_en>
+    <ElementName_en>Qualifier for quality flag,=22 Nitrate at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,033050,GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,203000,Change reference value,Reset nitrate reference value to Table B default,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,106000,Delayed replication of 6 descriptors,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,031002,Extended delayed descriptor replication factor,Gives number of depths,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,007065,Water pressure,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,008080,Qualifier for quality flag,=10 Pressure at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,033050,GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,041006,Sea water pH,dimensionless,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,008080,Qualifier for quality flag</ElementName_en>
+    <ElementDescription_en>=23 pH at a level</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -17470,34 +17267,37 @@
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>203009</FXY2>
-    <ElementName_en>Change reference value (New reference value in 9 bits)</ElementName_en>
+    <ElementName_en>Change reference value</ElementName_en>
+    <ElementDescription_en>New reference value in 9 bits</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>041007</FXY2>
-    <ElementName_en>BBP reference value of -250 (given by 111111010)</ElementName_en>
+    <ElementName_en>bbp reference value of -250</ElementName_en>
+    <ElementDescription_en>Given by 111111010</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>203255</FXY2>
-    <ElementName_en>Change reference value (Terminate reference value change)</ElementName_en>
+    <ElementName_en>Change reference value</ElementName_en>
+    <ElementDescription_en>Terminate reference value change</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>106000</FXY2>
     <ElementName_en>Delayed replication of 6 descriptors</ElementName_en>
     <Status>Operational</Status>
@@ -17506,16 +17306,17 @@
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>031002</FXY2>
-    <ElementName_en>Extended delayed descriptor replication factor (Gives number of depths)</ElementName_en>
+    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
+    <ElementDescription_en>Gives number of depths</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>007065</FXY2>
     <ElementName_en>Water pressure</ElementName_en>
     <Status>Operational</Status>
@@ -17524,16 +17325,20 @@
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 10, indicates pressure at a level)</ElementName_en>
+    <ElementName_en>Qualifier for quality flag,=10 Pressure at a level,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(bbp700 profile data),,033050,GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(bbp700 profile data),,041007,bbp In parts per billion,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(bbp700 profile data),,008080,Qualifier for quality flag</ElementName_en>
+    <ElementDescription_en>=24 bbp at a level</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>033050</FXY2>
     <ElementName_en>GTSPP quality flag</ElementName_en>
     <Status>Operational</Status>
@@ -17542,36 +17347,10 @@
     <Category>06</Category>
     <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
     <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
-    <FXY2>041007</FXY2>
-    <ElementName_en>BBP In parts per billion</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
-    <FXY2>008080</FXY2>
-    <ElementName_en>Qualifier for quality flag (= 24, indicates BBP at a level)</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
-    <FXY2>033050</FXY2>
-    <ElementName_en>GTSPP quality flag</ElementName_en>
-    <Status>Operational</Status>
-  </BUFR_TableD_en>
-  <BUFR_TableD_en>
-    <Category>06</Category>
-    <CategoryOfSequences_en>Meteorological or oceanographic sequences common to oceanographic observations</CategoryOfSequences_en>
-    <FXY1>306048</FXY1>
-    <Title_en>(BBP700 profile data)</Title_en>
+    <Title_en>(bbp700 profile data)</Title_en>
     <FXY2>203000</FXY2>
-    <ElementName_en>Change reference value (Reset BBP reference value to Table B default)</ElementName_en>
+    <ElementName_en>Change reference value</ElementName_en>
+    <ElementDescription_en>Reset bbp reference value to Table B default</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
