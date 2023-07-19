@@ -54814,7 +54814,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>002019</FXY2>
     <ElementName_en>Satellite instruments</ElementName_en>
-    <ElementDescription_en>=231 IASI-NG</ElementDescription_en>
+    <ElementDescription_en>= 231 IASI-NG</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55086,7 +55086,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>031021</FXY2>
     <ElementName_en>Associated field significance</ElementName_en>
-    <ElementDescription_en>=9 (Adding quality information)</ElementDescription_en>
+    <ElementDescription_en>= 9 (for quality information)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55096,7 +55096,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>002019</FXY2>
     <ElementName_en>Satellite instruments</ElementName_en>
-    <ElementDescription_en>=232 METimage</ElementDescription_en>
+    <ElementDescription_en>= 232 METimage</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55106,7 +55106,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>002019</FXY2>
     <ElementName_en>Satellite instruments</ElementName_en>
-    <ElementDescription_en>=233 MWS</ElementDescription_en>
+    <ElementDescription_en>= 233 MWS</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55135,7 +55135,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>002019</FXY2>
     <ElementName_en>Satellite instruments</ElementName_en>
-    <ElementDescription_en>=231 IASI-NG</ElementDescription_en>
+    <ElementDescription_en>= 231 IASI-NG</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55192,7 +55192,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Set to 0 (Surface)</ElementDescription_en>
+    <ElementDescription_en>= 0 Surface</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55248,7 +55248,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>008023</FXY2>
     <ElementName_en>First-order statistics</ElementName_en>
-    <ElementDescription_en>Cancel the first-order-statistics</ElementDescription_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55412,7 +55412,8 @@
     <FXY1>310088</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
     <FXY2>013098</FXY2>
-    <ElementName_en>Integrated water vapour (column)</ElementName_en>
+    <ElementName_en>Integrated water vapour density</ElementName_en>
+    <ElementDescription_en>column</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55517,7 +55518,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>012083</FXY2>
     <ElementName_en>Temperature difference between observed and computed</ElementName_en>
-    <ElementDescription_en>Temperature difference in Kelvin between the observed temperature and the computed temperature</ElementDescription_en>
+    <ElementDescription_en>In Kelvin</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55527,7 +55528,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>008043</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>=30 Crustal material (Dust)</ElementDescription_en>
+    <ElementDescription_en>= 30 Crustal material (generic dust)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55546,7 +55547,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>008043</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>=255 Cancel</ElementDescription_en>
+    <ElementDescription_en>= 255 Missing value</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55556,7 +55557,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>020056</FXY2>
     <ElementName_en>Cloud phase</ElementName_en>
-    <ElementDescription_en>Set to 1 (Water) for liquid</ElementDescription_en>
+    <ElementDescription_en>= 1 Water</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55576,7 +55577,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>020056</FXY2>
     <ElementName_en>Cloud phase</ElementName_en>
-    <ElementDescription_en>Set to 2 (Ice)</ElementDescription_en>
+    <ElementDescription_en>= 2 Ice</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55596,7 +55597,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Set to 2 (Cloud top)</ElementDescription_en>
+    <ElementDescription_en>= 2 Cloud top</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55616,7 +55617,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>020056</FXY2>
     <ElementName_en>Cloud phase</ElementName_en>
-    <ElementDescription_en>Describe the physical state of the cloud</ElementDescription_en>
+    <ElementDescription_en>Physical state of the cloud</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55681,7 +55682,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>012101</FXY2>
     <ElementName_en>Air temperature</ElementName_en>
-    <ElementDescription_en>Air temperature at cloud top</ElementDescription_en>
+    <ElementDescription_en>At cloud top</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55711,7 +55712,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Set vertical significance to 0 (Surface)</ElementDescription_en>
+    <ElementDescription_en>= 0 Surface</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55759,7 +55760,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>014050</FXY2>
     <ElementName_en>Emissivity</ElementName_en>
-    <ElementDescription_en>Emissivity at surface</ElementDescription_en>
+    <ElementDescription_en>At surface</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55768,7 +55769,7 @@
     <FXY1>310090</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>012001</FXY2>
-    <ElementName_en>Temperature / air temperature</ElementName_en>
+    <ElementName_en>Temperature/air temperature</ElementName_en>
     <ElementDescription_en>Air temperature at surface</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -55797,7 +55798,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>010004</FXY2>
     <ElementName_en>Pressure</ElementName_en>
-    <ElementDescription_en>Pressure at surface</ElementDescription_en>
+    <ElementDescription_en>At surface</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55825,7 +55826,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Cancel vertical significance</ElementDescription_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55835,7 +55836,6 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>012083</FXY2>
     <ElementName_en>Temperature difference between observed and computed</ElementName_en>
-    <ElementDescription_en>Difference between the observed temperature and the computed temperature</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55854,7 +55854,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>008043</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>=30 Crustal material (Dust)</ElementDescription_en>
+    <ElementDescription_en>= 30 Crustal material (generic dust)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55873,7 +55873,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>008043</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>=255 Cancel</ElementDescription_en>
+    <ElementDescription_en>= 255 Missing value</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55968,7 +55968,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
     <FXY2>002019</FXY2>
     <ElementName_en>Satellite instruments</ElementName_en>
-    <ElementDescription_en>=231 IASI-NG</ElementDescription_en>
+    <ElementDescription_en>= 231 IASI-NG</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56214,7 +56214,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>008046</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>Set to 4 (Carbon monoxide, CO)</ElementDescription_en>
+    <ElementDescription_en>= 4 Carbon monoxide, CO</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56234,7 +56234,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040056</FXY2>
     <ElementName_en>General retrieval quality</ElementName_en>
-    <ElementDescription_en>General retrieval quality flag</ElementDescription_en>
+    <ElementDescription_en>Quality flag</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56272,7 +56272,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040057</FXY2>
     <ElementName_en>IASI level 2 retrieval flags</ElementName_en>
-    <ElementDescription_en>IASI2 retrieval flag containing the 040054 and 04055 flag</ElementDescription_en>
+    <ElementDescription_en>Containing the 040054 and 040055 flag</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56312,7 +56312,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>040063</FXY2>
     <ElementName_en>Scaling vector multiplying the a priori vector in order to define the retrieved vector</ElementName_en>
-    <ElementDescription_en>Scaling vector multiplying the a priori CO vector in order to define the retrieved CO vector</ElementDescription_en>
+    <ElementDescription_en>CO vector</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56350,7 +56350,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>008046</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>Set to 0 (Ozone, O3) or 17 (Nitric acid, HNO3)</ElementDescription_en>
+    <ElementDescription_en>= 0 Ozone, O3 or = 17 Nitric acid, HNO3</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56483,7 +56483,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>310092</FXY2>
     <ElementName_en>IASI NG L2 common information part</ElementName_en>
     <ElementDescription_en>The common information shared for CO, NAC, O3 and SO2</ElementDescription_en>
@@ -56493,17 +56493,17 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>008046</FXY2>
     <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
-    <ElementDescription_en>Set to 8 (SO2)</ElementDescription_en>
+    <ElementDescription_en>= 8 Sulphur dioxide, SO2</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>040068</FXY2>
     <ElementName_en>General retrieval quality flag for SO2</ElementName_en>
     <Status>Operational</Status>
@@ -56512,7 +56512,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>010073</FXY2>
     <ElementName_en>Height of plume</ElementName_en>
     <ElementDescription_en>Altitude of the plume</ElementDescription_en>
@@ -56522,7 +56522,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>015007</FXY2>
     <ElementName_en>Estimated amount of chemical constituent</ElementName_en>
     <ElementDescription_en>SO2 amount at the retrieved plume altitude</ElementDescription_en>
@@ -56532,7 +56532,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>012169</FXY2>
     <ElementName_en>Brightness temperature difference</ElementName_en>
     <ElementDescription_en>Indicative brightness temperature difference in K</ElementDescription_en>
@@ -56542,7 +56542,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>102005</FXY2>
     <ElementName_en>Repeat 2 descriptor 5 times</ElementName_en>
     <ElementDescription_en>5 different altitude / pressure</ElementDescription_en>
@@ -56552,7 +56552,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>007004</FXY2>
     <ElementName_en>Pressure</ElementName_en>
     <ElementDescription_en>Static pressure at different altitude</ElementDescription_en>
@@ -56562,7 +56562,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310095</FXY1>
-    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 SO2 total column (SO2))</Title_en>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>015007</FXY2>
     <ElementName_en>Estimated amount of chemical constituent</ElementName_en>
     <ElementDescription_en>Amount of chemical constituent (DU)</ElementDescription_en>
@@ -56728,14 +56728,14 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
     <FXY2>033028</FXY2>
     <ElementName_en>Snapshot overall quality</ElementName_en>
-    <ElementDescription_en>=1 Nominal or =5 General Degradation</ElementDescription_en>
+    <ElementDescription_en>= 1 Nominal or = 5 General degradation</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310097</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Mask, Cloud Detection (CLD))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
     <FXY2>310096</FXY2>
     <ElementName_en>VII L2 common information part</ElementName_en>
     <ElementDescription_en>The common information shared for CLD, CTP, OCA, WVV and WVI</ElementDescription_en>
@@ -56745,17 +56745,17 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310097</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Mask, Cloud Detection (CLD))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
     <FXY2>008011</FXY2>
     <ElementName_en>Meteorological feature</ElementName_en>
-    <ElementDescription_en>=11 Cloud clear</ElementDescription_en>
+    <ElementDescription_en>= 11 Cloud clear</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310097</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Mask, Cloud Detection (CLD))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
     <FXY2>033007</FXY2>
     <ElementName_en>Per cent confidence</ElementName_en>
     <ElementDescription_en>Pixel clear-sky confidence</ElementDescription_en>
@@ -56765,27 +56765,27 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310097</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Mask, Cloud Detection (CLD))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
     <FXY2>008011</FXY2>
     <ElementName_en>Meteorological feature</ElementName_en>
-    <ElementDescription_en>=63 Cancel</ElementDescription_en>
+    <ElementDescription_en>= 63 Missing value</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310097</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Mask, Cloud Detection (CLD))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type</ElementName_en>
-    <ElementDescription_en>Cloudy flag</ElementDescription_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
+    <ElementDescription_en>= 2 Cloudy</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310097</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Mask, Cloud Detection (CLD))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
     <FXY2>008029</FXY2>
     <ElementName_en>Pixel surface type</ElementName_en>
     <ElementDescription_en>Surface type</ElementDescription_en>
@@ -56795,7 +56795,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>310096</FXY2>
     <ElementName_en>VII L2 common information part</ElementName_en>
     <ElementDescription_en>The common information shared for CLD, CTP, OCA, WVV and WVI</ElementDescription_en>
@@ -56805,7 +56805,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>013094</FXY2>
     <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
     <ElementDescription_en>Cloud optical thickness in Log10</ElementDescription_en>
@@ -56815,7 +56815,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>020016</FXY2>
     <ElementName_en>Pressure at top of cloud</ElementName_en>
     <Status>Operational</Status>
@@ -56824,7 +56824,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>020014</FXY2>
     <ElementName_en>Height of top of cloud</ElementName_en>
     <Status>Operational</Status>
@@ -56833,7 +56833,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>008093</FXY2>
     <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <ElementDescription_en>Total uncertainty</ElementDescription_en>
@@ -56843,7 +56843,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>013094</FXY2>
     <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
     <ElementDescription_en>Error on Cloud optical thickness in Log10</ElementDescription_en>
@@ -56853,7 +56853,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>020016</FXY2>
     <ElementName_en>Pressure at top of cloud</ElementName_en>
     <ElementDescription_en>Error on pressure at cloud top</ElementDescription_en>
@@ -56863,7 +56863,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>020014</FXY2>
     <ElementName_en>Height of top of cloud</ElementName_en>
     <ElementDescription_en>Error on height at cloud top</ElementDescription_en>
@@ -56873,7 +56873,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310098</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Cloud Top Temperature (CTP))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>008093</FXY2>
     <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <ElementDescription_en>Cancel total uncertainty</ElementDescription_en>
@@ -56883,7 +56883,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>310096</FXY2>
     <ElementName_en>VII L2 common information part</ElementName_en>
     <ElementDescription_en>The common information shared for CLD, CTP, OCA, WVV and WVI</ElementDescription_en>
@@ -56893,7 +56893,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>025144</FXY2>
     <ElementName_en>Number of visual channels used in processing</ElementName_en>
     <ElementDescription_en>From 0 to 11</ElementDescription_en>
@@ -56903,7 +56903,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>025145</FXY2>
     <ElementName_en>Number of infrared channels used in processing</ElementName_en>
     <ElementDescription_en>From 5 to 9</ElementDescription_en>
@@ -56913,7 +56913,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>020139</FXY2>
     <ElementName_en>Final cloud model assumption</ElementName_en>
     <Status>Operational</Status>
@@ -56922,7 +56922,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>008029</FXY2>
     <ElementName_en>Pixel surface type</ElementName_en>
     <ElementDescription_en>Surface type</ElementDescription_en>
@@ -56932,7 +56932,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>120002</FXY2>
     <ElementName_en>Repeat 20 descriptors 2 times</ElementName_en>
     <ElementDescription_en>Repeat for the 2 layers</ElementDescription_en>
@@ -56942,7 +56942,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>008002</FXY2>
     <ElementName_en>Vertical significance (surface observations)</ElementName_en>
     <ElementDescription_en>On first iteration : 21 First instrument detected cloud layer, for second iteration : 22 Second instrument detected cloud layer</ElementDescription_en>
@@ -56952,7 +56952,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>013094</FXY2>
     <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
     <ElementDescription_en>Cloud optical thickness of single or top layer in Log10</ElementDescription_en>
@@ -56962,7 +56962,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>020016</FXY2>
     <ElementName_en>Pressure at top of cloud</ElementName_en>
     <Status>Operational</Status>
@@ -56971,7 +56971,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>012001</FXY2>
     <ElementName_en>Temperature</ElementName_en>
     <ElementDescription_en>Temperature at cloud top</ElementDescription_en>
@@ -56981,7 +56981,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>202131</FXY2>
     <ElementName_en>Add 3 to scale</ElementName_en>
     <Status>Operational</Status>
@@ -56990,7 +56990,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>201139</FXY2>
     <ElementName_en>Add 11 to width</ElementName_en>
     <Status>Operational</Status>
@@ -56999,7 +56999,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>020131</FXY2>
     <ElementName_en>Effective radius of cloud hydrometeors</ElementName_en>
     <ElementDescription_en>Cloud particle effective radius</ElementDescription_en>
@@ -57009,7 +57009,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>201000</FXY2>
     <ElementName_en>Cancel</ElementName_en>
     <Status>Operational</Status>
@@ -57018,7 +57018,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>202000</FXY2>
     <ElementName_en>Cancel</ElementName_en>
     <Status>Operational</Status>
@@ -57027,7 +57027,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>020014</FXY2>
     <ElementName_en>Height of top of cloud</ElementName_en>
     <Status>Operational</Status>
@@ -57036,7 +57036,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>008093</FXY2>
     <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <ElementDescription_en>Total uncertainty</ElementDescription_en>
@@ -57046,7 +57046,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>013094</FXY2>
     <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
     <ElementDescription_en>Error on cloud optical thickness in log 10</ElementDescription_en>
@@ -57056,7 +57056,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>020016</FXY2>
     <ElementName_en>Pressure at top of cloud</ElementName_en>
     <ElementDescription_en>Error on Pressure at top cloud</ElementDescription_en>
@@ -57066,7 +57066,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>202131</FXY2>
     <ElementName_en>Add 3 to scale</ElementName_en>
     <Status>Operational</Status>
@@ -57075,7 +57075,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>201139</FXY2>
     <ElementName_en>Add 11 to width</ElementName_en>
     <Status>Operational</Status>
@@ -57084,7 +57084,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>020131</FXY2>
     <ElementName_en>Effective radius of cloud hydrometeors</ElementName_en>
     <ElementDescription_en>Error on cloud particle effective radius</ElementDescription_en>
@@ -57094,7 +57094,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>201000</FXY2>
     <ElementName_en>Cancel</ElementName_en>
     <Status>Operational</Status>
@@ -57103,7 +57103,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>202000</FXY2>
     <ElementName_en>Cancel</ElementName_en>
     <Status>Operational</Status>
@@ -57112,7 +57112,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>020014</FXY2>
     <ElementName_en>Height of top of cloud</ElementName_en>
     <ElementDescription_en>Error on height at cloud top</ElementDescription_en>
@@ -57122,7 +57122,7 @@
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310099</FXY1>
-    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Optimal Cloud Analysis (OCA))</Title_en>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>008093</FXY2>
     <ElementName_en>Measurement uncertainty significance</ElementName_en>
     <ElementDescription_en>Cancel total uncertainty</ElementDescription_en>
@@ -57190,7 +57190,7 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
     <FXY2>033118</FXY2>
     <ElementName_en>Relative error percentage</ElementName_en>
-    <ElementDescription_en>Relative error on total accumulated precipitation water</ElementDescription_en>
+    <ElementDescription_en>On total accumulated precipitation water</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57516,7 +57516,7 @@
     <Title_en>(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS))</Title_en>
     <FXY2>006029</FXY2>
     <ElementName_en>Wave number</ElementName_en>
-    <ElementDescription_en> start of range</ElementDescription_en>
+    <ElementDescription_en> Start of range</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57526,7 +57526,7 @@
     <Title_en>(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS))</Title_en>
     <FXY2>006029</FXY2>
     <ElementName_en>Wave number</ElementName_en>
-    <ElementDescription_en> end of range</ElementDescription_en>
+    <ElementDescription_en> End of range</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
