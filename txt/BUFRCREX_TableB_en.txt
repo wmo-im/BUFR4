@@ -501,6 +501,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008065,Sun-glint indicator,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008066,Semi-transparency indicator,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008070,Vertical sounding product qualifier,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008071,Type of cost estimation,Code table,0,0,3,Code table,0,1,,,Operational
 08,Significance qualifiers,008072,Pixel(s) type,Code table,0,0,3,Code table,0,1,,,Operational
 08,Significance qualifiers,008074,Altimeter echo type,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008075,Ascending/descending orbit qualifier,Code table,0,0,2,Code table,0,1,,,Operational
@@ -554,6 +555,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 10,Non-coordinate location (vertical),010064,SIGMET cruising level,Code table,0,0,3,Code table,0,1,,,Operational
 10,Non-coordinate location (vertical),010070,Indicated aircraft altitude,m,0,-400,16,m,0,5,,,Operational
 10,Non-coordinate location (vertical),010071,Vertical resolution,m,0,0,14,m,0,5,,,Operational
+10,Non-coordinate location (vertical),010073,Height of plume,m,2,0,21,m,2,7,,,Operational
 10,Non-coordinate location (vertical),010079,Off-nadir angle of the satellite from platform data,deg,4,0,16,deg,4,5,,,Operational
 10,Non-coordinate location (vertical),010080,Viewing zenith angle,deg,2,-9000,15,deg,2,5,,,Operational
 10,Non-coordinate location (vertical),010081,Altitude of COG above reference ellipsoid,m,3,0,31,m,3,10,,,Operational
@@ -695,6 +697,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 12,Temperature,012080,Brightness temperature real part,K,2,-10000,16,K,2,5,,,Operational
 12,Temperature,012081,Brightness temperature imaginary part,K,2,-10000,16,K,2,5,,,Operational
 12,Temperature,012082,Pixel radiometric accuracy,K,2,0,12,K,2,4,,,Operational
+12,Temperature,012083,Temperature difference between observed and computed,K,2,-10000,16,K,2,6,,,Operational
 12,Temperature,012101,Temperature/air temperature,K,2,0,16,C,2,4,,,Operational
 12,Temperature,012102,Wet-bulb temperature,K,2,0,16,C,2,4,,,Operational
 12,Temperature,012103,Dewpoint temperature,K,2,0,16,C,2,4,,,Operational
@@ -732,6 +735,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 12,Temperature,012166,Snapshot accuracy,K,1,-4000,13,K,1,4,,,Operational
 12,Temperature,012167,Radiometric accuracy (pure polarization),K,1,0,9,K,1,3,,,Operational
 12,Temperature,012168,Radiometric accuracy (cross polarization),K,1,0,9,K,1,3,,,Operational
+12,Temperature,012169,Brightness temperature difference,K,3,-100000,18,K,3,6,,,Operational
 12,Temperature,012171,Coldest cluster temperature,K,2,0,16,K,2,5,,,Operational
 12,Temperature,012180,Averaged 12 micron BT for all clear pixels at nadir,K,2,0,16,K,2,5,,,Operational
 12,Temperature,012181,Averaged 11 micron BT for all clear pixels at nadir,K,2,0,16,K,2,5,,,Operational
@@ -798,6 +802,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 13,Hydrographic and hydrological elements,013090,Radiometer water vapour content,kg m-2,1,0,10,kg m-2,1,4,,,Operational
 13,Hydrographic and hydrological elements,013091,Radiometer liquid content,kg m-2,2,0,8,kg m-2,2,3,,,Operational
 13,Hydrographic and hydrological elements,013093,Cloud optical thickness,Numeric,0,0,8,Numeric,0,3,,,Operational
+13,Hydrographic and hydrological elements,013094,Log 10 of cloud optical thickness,Numeric,3,-2000,14,Numeric,3,5,,,Operational
 13,Hydrographic and hydrological elements,013095,Total column water vapour,kg m-2,4,0,19,kg m-2,4,6,,,Operational
 13,Hydrographic and hydrological elements,013096,MWR water vapour content,kg m-2,2,0,14,kg m-2,2,5,,,Operational
 13,Hydrographic and hydrological elements,013097,MWR liquid water content,kg m-2,2,0,14,kg m-2,2,5,,,Operational
@@ -872,6 +877,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 15,Physical/chemical constituents,015004,Ozone sounding correction factor (CF),Numeric,3,0,11,Numeric,3,4,(see Note 2),2,Operational
 15,Physical/chemical constituents,015005,Ozone p,DU,0,0,10,DU,0,3,(see Note 3),3,Operational
 15,Physical/chemical constituents,015006,Log10 of number density of atmosphere,log(m-3),5,1800000,20,log(m-3),5,7,,,Operational
+15,Physical/chemical constituents,015007,Estimated amount of chemical constituent,DU,2,0,16,DU,2,6,,,Operational
 15,Physical/chemical constituents,015008,Significand of volumetric mixing ratio,Numeric,0,0,10,Numeric,0,4,,,Operational
 15,Physical/chemical constituents,015009,Log10 of number density of ozone,log(m-3),5,1200000,20,log(m-3),5,7,,,Operational
 15,Physical/chemical constituents,015011,Log10 of integrated electron density,log (m-2),3,14000,13,log (m-2),3,4,,,Operational
@@ -1075,9 +1081,13 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 20,Observed phenomena,020136,Supplementary cloud type,Code table,0,0,9,Code table,0,3,,,Operational
 20,Observed phenomena,020137,Evolution of clouds,Code table,0,0,4,Code table,0,2,,,Operational
 20,Observed phenomena,020138,Road surface condition,Code table,0,0,4,Code table,0,2,,,Operational
+<<<<<<< HEAD
 20,Observed phenomena,020139,Lightning area,m2,0,0,30,m2,0,0,,,Operational
 20,Observed phenomena,020140,Lightning energy,J,19,0,30,m2,0,0,,,Operational
 20,Observed phenomena,020141,Lightning detection efficiency,%,0,0,7,m2,0,0,,,Operational
+=======
+20,Observed phenomena,020139,Final cloud model assumption,Code table,0,0,4,Code table,0,2,,,Operational
+>>>>>>> FT2023-2
 21,Radar data,021001,Horizontal reflectivity,dB,0,-64,7,dB,0,3,,,Operational
 21,Radar data,021002,Vertical reflectivity,dB,0,-64,7,dB,0,3,,,Operational
 21,Radar data,021003,Differential reflectivity,dB,1,-5,7,dB,1,3,,,Operational
@@ -1520,6 +1530,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 25,Processing information,025141,End channel,Numeric,0,0,14,Numeric,0,5,,,Operational
 25,Processing information,025142,Channel scale factor,Numeric,0,0,6,Numeric,0,2,,,Operational
 25,Processing information,025143,Linear coefficient,Numeric,6,-5000000,24,Numeric,6,8,(see Note 4),57,Operational
+25,Processing information,025144,Number of visual channels used in processing,Numeric,0,0,6,Numeric,0,2,,,Operational
+25,Processing information,025145,Number of infrared channels used in processing,Numeric,0,0,6,Numeric,0,2,,,Operational
 25,Processing information,025148,Coefficient of variation,Numeric,2,-10000,15,Numeric,2,5,,,Operational
 25,Processing information,025149,Optimal estimation cost,Numeric,0,0,8,Numeric,0,3,,,Operational
 25,Processing information,025150,Method of tropical cyclone intensity analysis using satellite data,Code table,0,0,4,Code table,0,2,,,Operational
@@ -1683,6 +1695,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033113,IASI-NG general quality flags,Flag table,0,0,16,Flag table,0,6,,,Operational
 33,Quality information,033114,Out of bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
 33,Quality information,033115,Aerosol optical depth quality information,Code table,0,0,5,Code table,0,2,,,Operational
+33,Quality information,033116,First guess in bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
+33,Quality information,033117,In bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
+33,Quality information,033118,Relative error percentage,%,2,-10000,15,Percentage,2,5,,,Operational
+33,Quality information,033119,Forecast error percentage,%,0,-100,8,Percentage,0,3,,,Operational
 35,Data monitoring information,035000,FM and regional code number,Code table,0,0,10,Code table,0,3,,,Operational
 35,Data monitoring information,035001,Time frame for monitoring,Code table,0,0,3,Code table,0,1,,,Operational
 35,Data monitoring information,035011,Number of reports actually received,Numeric,0,0,14,Numeric,0,4,,,Operational
@@ -1770,6 +1786,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 40,Satellite data,040072,PWLR estimated retrieval quality indicator of atmospheric ozone,Numeric,1,0,8,Numeric,1,3,,,Operational
 40,Satellite data,040073,PWLR estimated retrieval error of surface skin temperature,K,1,0,8,K,1,3,,,Operational
 40,Satellite data,040074,General interferometry quality flags,Flag table,0,0,16,,,,,,Operational
+40,Satellite data,040075,Retrieval error covariance matrix for humidity in principal component domain,Numeric,0,0,21,Numeric,0,7,,,Operational
+40,Satellite data,040076,Retrieval error covariance matrix for temperature in principal component domain,Numeric,0,0,21,Numeric,0,7,,,Operational
+40,Satellite data,040080,Cloud test results for IASI-NG level 2,Flag table,0,0,5,Flag table,0,2,,,Operational
 41,Oceanographic/biogeochemical parameters,041001,pCO2,Pa,3,0,18,Pa,3,6,,,Operational
 41,Oceanographic/biogeochemical parameters,041002,Fluorescence,kg l-1,12,0,16,kg l-1,12,5,,,Operational
 41,Oceanographic/biogeochemical parameters,041003,Dissolved nitrates,umol kg-1,3,0,17,umol kg-1,3,5,,,Operational
@@ -1790,3 +1809,4 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 42,Oceanographic elements,042014,b2 coefficient of the directional Fourier series,Numeric,4,-20000,15,Numeric,4,6,,,Operational
 42,Oceanographic elements,042015,Check factor K,Numeric,2,0,12,Numeric,2,4,,,Operational
 42,Oceanographic elements,042016,Sea water potential density referenced to sea surface,kg m-3,5,-10000000,24,kg m-3,5,9,,,Operational
+42,Oceanographic elements,042017,Quality flag of swell wave spectra,Code table,0,0,4,Code table,0,2,,,Operational

@@ -122,6 +122,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 25,Processing information,025141,End channel,Numeric,0,0,14,Numeric,0,5,,,Operational
 25,Processing information,025142,Channel scale factor,Numeric,0,0,6,Numeric,0,2,,,Operational
 25,Processing information,025143,Linear coefficient,Numeric,6,-5000000,24,Numeric,6,8,(see Note 4),57,Operational
+25,Processing information,025144,Number of visual channels used in processing,Numeric,0,0,6,Numeric,0,2,,,Operational
+25,Processing information,025145,Number of infrared channels used in processing,Numeric,0,0,6,Numeric,0,2,,,Operational
 25,Processing information,025148,Coefficient of variation,Numeric,2,-10000,15,Numeric,2,5,,,Operational
 25,Processing information,025149,Optimal estimation cost,Numeric,0,0,8,Numeric,0,3,,,Operational
 25,Processing information,025150,Method of tropical cyclone intensity analysis using satellite data,Code table,0,0,4,Code table,0,2,,,Operational
