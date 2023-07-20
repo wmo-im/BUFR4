@@ -1923,7 +1923,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008029,Surface type,16,Rural land,,,,,Operational
 008029,Surface type,17,Suburban land,,,,,Operational
 008029,Surface type,18,Sea ice,,,,,Operational
-008029,Surface type,19-254,Reserved,,,,,Operational
+008029,Surface type,19,Forest,,,,,Operational
+008029,Surface type,20,Shrublands,,,,,Operational
+008029,Surface type,21,Savanna,,,,,Operational
+008029,Surface type,22,Desert,,,,,Operational
+008029,Surface type,23,Grasslands,,,,,Operational
+008029,Surface type,24,Wetlands,,,,,Operational
+008029,Surface type,25,Snow/Ice,,,,,Operational
+008029,Surface type,26,Coast,,,,,Operational
+008029,Surface type,27-254,Reserved,,,,,Operational
 008029,Surface type,255,Missing value,,,,,Operational
 008032,Status of operation,0,Routine operation,,,,,Operational
 008032,Status of operation,1,Event triggered by storm surge,,,,,Operational
@@ -2171,12 +2179,18 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008070,Vertical sounding product qualifier,4,"Mapped to a common footprint, Earth located calibrated radiances (level 1d)",,,,,Operational
 008070,Vertical sounding product qualifier,5-14,Reserved,,,,,Operational
 008070,Vertical sounding product qualifier,15,Missing value,,,,,Operational
+008071,Type of cost estimation,0,First guess,,,,,Operational
+008071,Type of cost estimation,1,Y vector,,,,,Operational
+008071,Type of cost estimation,2,X vector,,,,,Operational
+008071,Type of cost estimation,3-6,Reserved,,,,,Operational
+008071,Type of cost estimation,7,Missing,,,,,Operational
 008072,Pixel(s) type,0,Mixed,,,,,Operational
 008072,Pixel(s) type,1,Clear,,,,,Operational
 008072,Pixel(s) type,2,Cloudy,,,,,Operational
 008072,Pixel(s) type,3,Probably clear,,,,,Operational
 008072,Pixel(s) type,4,Probably cloudy,,,,,Operational
-008072,Pixel(s) type,5-6,Reserved,,,,,Operational
+008072,Pixel(s) type,5,Ash,,,,,Operational
+008072,Pixel(s) type,6,Reserved,,,,,Operational
 008072,Pixel(s) type,7,Missing value,,,,,Operational
 008074,Altimeter echo type,0,Open ocean or semi-enclosed sea,,,,,Operational
 008074,Altimeter echo type,1,Non-ocean like,,,,,Operational
@@ -3813,6 +3827,14 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020138,Road surface condition,7, Not dry,,,,,Operational
 020138,Road surface condition,8-14, Reserved,,,,,Operational
 020138,Road surface condition,15, Missing value,,,,,Operational
+020139,Final cloud model assumption,0,Clear,,,,,Operational
+020139,Final cloud model assumption,1,Single layer water,,,,,Operational
+020139,Final cloud model assumption,2,Single layer ice,,,,,Operational
+020139,Final cloud model assumption,3,2-layers (water/ice),,,,,Operational
+020139,Final cloud model assumption,4,Single layer ash,,,,,Operational
+020139,Final cloud model assumption,5,2-layers ash,,,,,Operational
+020139,Final cloud model assumption,6-14,Reserved,,,,,Operational
+020139,Final cloud model assumption,15,Missing,,,,,Operational
 021026,ASCAT sigma-0 usability,0,Nominal,,,,,Operational
 021026,ASCAT sigma-0 usability,1,Close to nominal,,,,,Operational
 021026,ASCAT sigma-0 usability,2,Far from nominal,,,,,Operational
@@ -4705,7 +4727,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033028,Snapshot overall quality,2,Degraded by SW error; any error reported by the algorithms,,,,,Operational
 033028,Snapshot overall quality,3,Degraded by instrument error,,,,,Operational
 033028,Snapshot overall quality,4,Degraded by corrupted /missing ADF,,,,,Operational
-033028,Snapshot overall quality,5-6,Reserved,,,,,Operational
+033028,Snapshot overall quality,5,General degradation,,,,,Operational
+033028,Snapshot overall quality,6,Reserved,,,,,Operational
 033028,Snapshot overall quality,7,Missing value,,,,,Operational
 033030,Scan line status flags for ATOVS,1,Do not use scan for product generation,,,,,Operational
 033030,Scan line status flags for ATOVS,2,Time sequence error detected with this scan,,,,,Operational
@@ -5425,6 +5448,40 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033115,Aerosol optical depth quality information,4,Glint oblique,,,,,Operational
 033115,Aerosol optical depth quality information,5-30,Reserved,,,,,Operational
 033115,Aerosol optical depth quality information,31,Missing value,,,,,Operational
+033116,First guess in bounds check,1,Temperature profile,,,,,Operational
+033116,First guess in bounds check,2,Water vapour profile,,,,,Operational
+033116,First guess in bounds check,3,Ozone profile,,,,,Operational
+033116,First guess in bounds check,4,Surface skin temperature,,,,,Operational
+033116,First guess in bounds check,5,Surface air temperature,,,,,Operational
+033116,First guess in bounds check,6,Surface air dew point temperature,,,,,Operational
+033116,First guess in bounds check,7,Surface pressure,,,,,Operational
+033116,First guess in bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
+033116,First guess in bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
+033116,First guess in bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
+033116,First guess in bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
+033116,First guess in bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
+033116,First guess in bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
+033116,First guess in bounds check,14,CO2 profile,,,,,Operational
+033116,First guess in bounds check,15,CH4 profile,,,,,Operational
+033116,First guess in bounds check,16,N2O profile,,,,,Operational
+033116,First guess in bounds check,All 17,Missing,,,,,Operational
+033117,In bounds check,1,Temperature profile,,,,,Operational
+033117,In bounds check,2,Water vapour profile,,,,,Operational
+033117,In bounds check,3,Ozone profile,,,,,Operational
+033117,In bounds check,4,Surface skin temperature,,,,,Operational
+033117,In bounds check,5,Surface air temperature,,,,,Operational
+033117,In bounds check,6,Surface air dew point temperature,,,,,Operational
+033117,In bounds check,7,Surface pressure,,,,,Operational
+033117,In bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
+033117,In bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
+033117,In bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
+033117,In bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
+033117,In bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
+033117,In bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
+033117,In bounds check,14,CO2 profile,,,,,Operational
+033117,In bounds check,15,CH4 profile,,,,,Operational
+033117,In bounds check,16,N2O profile,,,,,Operational
+033117,In bounds check,All 17,Missing,,,,,Operational
 035000,FM and regional code number,000-099,International FM Codes,,,,,Operational
 035000,FM and regional code number,100-199,RA I Codes,,,,,Operational
 035000,FM and regional code number,200-299,RA II Codes,,,,,Operational
@@ -5759,6 +5816,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040074,General interferometry quality flags,10,Telemetry package flag,,,,,Operational
 040074,General interferometry quality flags,11-15,Reserved,,,,,Operational
 040074,General interferometry quality flags,All 16,Missing value,,,,,Operational
+040080,Cloud test results for IASI-NG level 2,1,Thin cirrus detection executed,,,,,Operational
+040080,Cloud test results for IASI-NG level 2,2,Thin cirrus detection indicates a cloud,,,,,Operational
+040080,Cloud test results for IASI-NG level 2,3,Aerosol dust detection executed,,,,,Operational
+040080,Cloud test results for IASI-NG level 2,4,Aerosol dust detected,,,,,Operational
+040080,Cloud test results for IASI-NG level 2,All 5,Missing,,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,0,Wave direction resolved,,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,1,180-degree ambiguity not resolved,,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,2-14,Reserved,,,,,Operational

@@ -123,7 +123,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033028,Snapshot overall quality,2,Degraded by SW error; any error reported by the algorithms,,,,,Operational
 033028,Snapshot overall quality,3,Degraded by instrument error,,,,,Operational
 033028,Snapshot overall quality,4,Degraded by corrupted /missing ADF,,,,,Operational
-033028,Snapshot overall quality,5-6,Reserved,,,,,Operational
+033028,Snapshot overall quality,5,General degradation,,,,,Operational
+033028,Snapshot overall quality,6,Reserved,,,,,Operational
 033028,Snapshot overall quality,7,Missing value,,,,,Operational
 033030,Scan line status flags for ATOVS,1,Do not use scan for product generation,,,,,Operational
 033030,Scan line status flags for ATOVS,2,Time sequence error detected with this scan,,,,,Operational
@@ -843,3 +844,37 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033115,Aerosol optical depth quality information,4,Glint oblique,,,,,Operational
 033115,Aerosol optical depth quality information,5-30,Reserved,,,,,Operational
 033115,Aerosol optical depth quality information,31,Missing value,,,,,Operational
+033116,First guess in bounds check,1,Temperature profile,,,,,Operational
+033116,First guess in bounds check,2,Water vapour profile,,,,,Operational
+033116,First guess in bounds check,3,Ozone profile,,,,,Operational
+033116,First guess in bounds check,4,Surface skin temperature,,,,,Operational
+033116,First guess in bounds check,5,Surface air temperature,,,,,Operational
+033116,First guess in bounds check,6,Surface air dew point temperature,,,,,Operational
+033116,First guess in bounds check,7,Surface pressure,,,,,Operational
+033116,First guess in bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
+033116,First guess in bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
+033116,First guess in bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
+033116,First guess in bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
+033116,First guess in bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
+033116,First guess in bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
+033116,First guess in bounds check,14,CO2 profile,,,,,Operational
+033116,First guess in bounds check,15,CH4 profile,,,,,Operational
+033116,First guess in bounds check,16,N2O profile,,,,,Operational
+033116,First guess in bounds check,All 17,Missing,,,,,Operational
+033117,In bounds check,1,Temperature profile,,,,,Operational
+033117,In bounds check,2,Water vapour profile,,,,,Operational
+033117,In bounds check,3,Ozone profile,,,,,Operational
+033117,In bounds check,4,Surface skin temperature,,,,,Operational
+033117,In bounds check,5,Surface air temperature,,,,,Operational
+033117,In bounds check,6,Surface air dew point temperature,,,,,Operational
+033117,In bounds check,7,Surface pressure,,,,,Operational
+033117,In bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
+033117,In bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
+033117,In bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
+033117,In bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
+033117,In bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
+033117,In bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
+033117,In bounds check,14,CO2 profile,,,,,Operational
+033117,In bounds check,15,CH4 profile,,,,,Operational
+033117,In bounds check,16,N2O profile,,,,,Operational
+033117,In bounds check,All 17,Missing,,,,,Operational

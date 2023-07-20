@@ -89,3 +89,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033113,IASI-NG general quality flags,Flag table,0,0,16,Flag table,0,6,,,Operational
 33,Quality information,033114,Out of bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
 33,Quality information,033115,Aerosol optical depth quality information,Code table,0,0,5,Code table,0,2,,,Operational
+33,Quality information,033116,First guess in bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
+33,Quality information,033117,In bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
+33,Quality information,033118,Relative error percentage,%,2,-10000,15,Percentage,2,5,,,Operational
+33,Quality information,033119,Forecast error percentage,%,0,-100,8,Percentage,0,3,,,Operational
