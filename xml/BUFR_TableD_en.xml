@@ -21001,6 +21001,89 @@
   <BUFR_TableD_en>
     <Category>07</Category>
     <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>004025</FXY2>
+    <ElementName_en>Time period or displacement</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>106000</FXY2>
+    <ElementName_en>Delayed replication of 6 descriptors</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>031001</FXY2>
+    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>007061</FXY2>
+    <ElementName_en>Depth below land surface</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>201131</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>202129</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>012130</FXY2>
+    <ElementName_en>Soil temperature </ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307064</FXY1>
+    <Title_en>(Soil temperature profile including permafrost)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
     <FXY1>307071</FXY1>
     <Title_en>(Monthly values of a land station)</Title_en>
     <FXY2>301090</FXY2>
@@ -42091,7 +42174,7 @@
     <Title_en>(Satellite radio occultation data)</Title_en>
     <FXY2>008021</FXY2>
     <ElementName_en>Time significance</ElementName_en>
-    <ElementDescription_en>= 17 Start of phenomenon</ElementDescription_en>
+    <ElementDescription_en>= 17 Start of phenomenon or 25 Nominal reporting time</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -46221,7 +46304,7 @@
     <FXY1>310066</FXY1>
     <Title_en>(OMPS (Ozone mapping and profiler suite) total column data)</Title_en>
     <FXY2>033082</FXY2>
-    <ElementName_en>Geolocation quality flags                          </ElementName_en>
+    <ElementName_en>Geolocation quality flags</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -46359,7 +46442,7 @@
     <FXY1>310066</FXY1>
     <Title_en>(OMPS (Ozone mapping and profiler suite) total column data)</Title_en>
     <FXY2>015041</FXY2>
-    <ElementName_en>Sulphur dioxide index  </ElementName_en>
+    <ElementName_en>Sulphur dioxide index</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55563,6 +55646,2420 @@
   <BUFR_TableD_en>
     <Category>10</Category>
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>001007</FXY2>
+    <ElementName_en>Satellite identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>001031</FXY2>
+    <ElementName_en>Identification of originating/generating centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite instruments</ElementName_en>
+    <ElementDescription_en>= 231 IASI-NG</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>002020</FXY2>
+    <ElementName_en>Satellite classification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>004001</FXY2>
+    <ElementName_en>Year</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>004002</FXY2>
+    <ElementName_en>Month</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>004003</FXY2>
+    <ElementName_en>Day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>004004</FXY2>
+    <ElementName_en>Hour</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>004005</FXY2>
+    <ElementName_en>Minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>202131</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>201138</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>004006</FXY2>
+    <ElementName_en>Second</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>005001</FXY2>
+    <ElementName_en>Latitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>006001</FXY2>
+    <ElementName_en>Longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>007024</FXY2>
+    <ElementName_en>Satellite zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>005021</FXY2>
+    <ElementName_en>Bearing or azimuth</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>007025</FXY2>
+    <ElementName_en>Solar zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>005022</FXY2>
+    <ElementName_en>Solar azimuth</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>005043</FXY2>
+    <ElementName_en>Field of view number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>005040</FXY2>
+    <ElementName_en>Orbit number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>201133</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>005041</FXY2>
+    <ElementName_en>Scan line number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>202126</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>007001</FXY2>
+    <ElementName_en>Height of station</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>040052</FXY2>
+    <ElementName_en>Indication of super-adiabatic and super-saturation in final retrieval</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>040047</FXY2>
+    <ElementName_en>Validation flag for IASI or IASI-NG level 1 product</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>008065</FXY2>
+    <ElementName_en>Sun-glint indicator</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>204004</FXY2>
+    <ElementName_en>Add associated field with 4 bits</ElementName_en>
+    <ElementDescription_en>Give quality information on the next descriptors</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>031021</FXY2>
+    <ElementName_en>Associated field significance</ElementName_en>
+    <ElementDescription_en>= 9 (for quality information)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite instruments</ElementName_en>
+    <ElementDescription_en>= 232 METimage</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite instruments</ElementName_en>
+    <ElementDescription_en>= 233 MWS</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>001030</FXY2>
+    <ElementName_en>Numerical model identifier</ElementName_en>
+    <ElementDescription_en>For the numerical model ECMWF</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>204000</FXY2>
+    <ElementName_en>Cancel associated field</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite instruments</ElementName_en>
+    <ElementDescription_en>= 231 IASI-NG</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>040046</FXY2>
+    <ElementName_en>Cloudiness summary</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>033116</FXY2>
+    <ElementName_en>First guess in bounds check</ElementName_en>
+    <ElementDescription_en>First guess means retrieved with PWLR method and It checks that the values are within the expected range for the correspondent geophysical parameter</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>033117</FXY2>
+    <ElementName_en>In bounds check</ElementName_en>
+    <ElementDescription_en>In bounds check means retrieved with OEM. It checks that the values are within the expected range for the correspondent geophysical parameter</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>040080</FXY2>
+    <ElementName_en>Cloud test results for IASI-NG level 2</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>040051</FXY2>
+    <ElementName_en>Convergence of the iterative retrieval</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>008003</FXY2>
+    <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
+    <ElementDescription_en>= 0 Surface</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>021166</FXY2>
+    <ElementName_en>Land fraction</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>022046</FXY2>
+    <ElementName_en>Sea ice fraction</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>010001</FXY2>
+    <ElementName_en>Height</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>Standard deviation</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>010001</FXY2>
+    <ElementName_en>Height</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310087</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
+    <FXY2>008003</FXY2>
+    <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
+    <ElementDescription_en>Cancel the vertical significance</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>310087</FXY2>
+    <ElementName_en>IASI NG L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for TWV, CLD, SFC and GHG</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>040053</FXY2>
+    <ElementName_en>Number of iterations used for retrieval</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>102003</FXY2>
+    <ElementName_en>Replication of 2 elements 3 times</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>008071</FXY2>
+    <ElementName_en>Type of cost estimation</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>025149</FXY2>
+    <ElementName_en>Optimal estimation cost</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>106000</FXY2>
+    <ElementName_en>Delayed replication of 6 descriptor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>031000</FXY2>
+    <ElementName_en>Short delayed replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>101000</FXY2>
+    <ElementName_en>Delayed replication of 1 descriptor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>031002</FXY2>
+    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>040076</FXY2>
+    <ElementName_en>Retrieval error covariance matrix for temperature in principal component domain</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>101000</FXY2>
+    <ElementName_en>Delayed replication of 1 descriptor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>031002</FXY2>
+    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>040075</FXY2>
+    <ElementName_en>Retrieval error covariance matrix for humidity in principal component domain</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>040067</FXY2>
+    <ElementName_en>Quality indicator for atmospheric temperature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>040066</FXY2>
+    <ElementName_en>Quality indicator for atmospheric water vapour</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>202126</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>013098</FXY2>
+    <ElementName_en>Integrated water vapour density</ElementName_en>
+    <ElementDescription_en>column</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>107101</FXY2>
+    <ElementName_en>Replication of 7 elements 101 times</ElementName_en>
+    <ElementDescription_en>For 101 pressure layer</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>202131</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>201138</FXY2>
+    <ElementName_en>Change width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>007004</FXY2>
+    <ElementName_en>Pressure</ElementName_en>
+    <ElementDescription_en>At a given pressure</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>012101</FXY2>
+    <ElementName_en>Air temperature</ElementName_en>
+    <ElementDescription_en>Air temperature at given pressure</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310088</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
+    <FXY2>013001</FXY2>
+    <ElementName_en>Specific humidity</ElementName_en>
+    <ElementDescription_en>Humidity at given pressure</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>310087</FXY2>
+    <ElementName_en>IASI NG L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for TWV, CLD, SFC and GHG</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>012083</FXY2>
+    <ElementName_en>Temperature difference between observed and computed</ElementName_en>
+    <ElementDescription_en>In Kelvin</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>008043</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>= 30 Crustal material (generic dust)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>040044</FXY2>
+    <ElementName_en>Dust index</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>008043</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>= 255 Missing value</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>020056</FXY2>
+    <ElementName_en>Cloud phase</ElementName_en>
+    <ElementDescription_en>= 1 Water</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>013109</FXY2>
+    <ElementName_en>Ice/liquid water path</ElementName_en>
+    <ElementDescription_en>Liquid mass</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>020056</FXY2>
+    <ElementName_en>Cloud phase</ElementName_en>
+    <ElementDescription_en>= 2 Ice</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>013109</FXY2>
+    <ElementName_en>Ice/liquid water path</ElementName_en>
+    <ElementDescription_en>Ice mass</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>008003</FXY2>
+    <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
+    <ElementDescription_en>= 2 Cloud top</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>109002</FXY2>
+    <ElementName_en>Replication of 9 descriptors 2 times</ElementName_en>
+    <ElementDescription_en>Repeat for two layers of clouds (one at a first specific pressure and a second one at a second specific pressure)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>020056</FXY2>
+    <ElementName_en>Cloud phase</ElementName_en>
+    <ElementDescription_en>Physical state of the cloud</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>020081</FXY2>
+    <ElementName_en>Cloud amount in segment</ElementName_en>
+    <ElementDescription_en>Fractional cloud cover in percentage</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>202131</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>201138</FXY2>
+    <ElementName_en>Change width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>020016</FXY2>
+    <ElementName_en>Pressure at top of cloud</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>012101</FXY2>
+    <ElementName_en>Air temperature</ElementName_en>
+    <ElementDescription_en>At cloud top</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310089</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
+    <FXY2>020131</FXY2>
+    <ElementName_en>Effective radius of cloud hydrometeors</ElementName_en>
+    <ElementDescription_en>Cloud drop effective radius at cloud top</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>310087</FXY2>
+    <ElementName_en>IASI NG L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for TWV, CLD, SFC and GHG</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>008003</FXY2>
+    <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
+    <ElementDescription_en>= 0 Surface</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>040067</FXY2>
+    <ElementName_en>Quality indicator for atmospheric temperature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>040066</FXY2>
+    <ElementName_en>Quality indicator for atmospheric water vapour</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>102012</FXY2>
+    <ElementName_en>Replication of 2 descriptors 12 times</ElementName_en>
+    <ElementDescription_en>12 channels</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>005042</FXY2>
+    <ElementName_en>Channel number</ElementName_en>
+    <ElementDescription_en>Number of channels</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>014050</FXY2>
+    <ElementName_en>Emissivity</ElementName_en>
+    <ElementDescription_en>At surface</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>012001</FXY2>
+    <ElementName_en>Temperature/air temperature</ElementName_en>
+    <ElementDescription_en>Air temperature at surface</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>202131</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>201138</FXY2>
+    <ElementName_en>Change width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>010004</FXY2>
+    <ElementName_en>Pressure</ElementName_en>
+    <ElementDescription_en>At surface</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>008003</FXY2>
+    <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>012083</FXY2>
+    <ElementName_en>Temperature difference between observed and computed</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>011012</FXY2>
+    <ElementName_en>Wind speed at 10m</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>008043</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>= 30 Crustal material (generic dust)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>040044</FXY2>
+    <ElementName_en>Dust index</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310090</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
+    <FXY2>008043</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>= 255 Missing value</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310091</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
+    <FXY2>310087</FXY2>
+    <ElementName_en>IASI NG L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for TWV, CLD, SFC and GHG</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310091</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
+    <FXY2>104003</FXY2>
+    <ElementName_en>Replicate 4 descriptors 3 times</ElementName_en>
+    <ElementDescription_en>Repeat for the 3 different chemical constituent types</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310091</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
+    <FXY2>008043</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>N2O, CH4 and CO2</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310091</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
+    <FXY2>102007</FXY2>
+    <ElementName_en>Replicate 2 descriptors 7 times</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310091</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
+    <FXY2>007004</FXY2>
+    <ElementName_en>Pressure</ElementName_en>
+    <ElementDescription_en>At a given pressure</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310091</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 total columns of nitrous oxide, methane and carbon dioxide (GHG))</Title_en>
+    <FXY2>015021</FXY2>
+    <ElementName_en>Integrated mass density</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>001007</FXY2>
+    <ElementName_en>Satellite identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>025060</FXY2>
+    <ElementName_en>Software identification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>001031</FXY2>
+    <ElementName_en>Identification of originating/generating centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite instruments</ElementName_en>
+    <ElementDescription_en>= 231 IASI-NG</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>002020</FXY2>
+    <ElementName_en>Satellite classification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>004001</FXY2>
+    <ElementName_en>Year</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>004002</FXY2>
+    <ElementName_en>Month</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>004003</FXY2>
+    <ElementName_en>Day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>004004</FXY2>
+    <ElementName_en>Hour</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>004005</FXY2>
+    <ElementName_en>Minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>202131</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>201138</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>004006</FXY2>
+    <ElementName_en>Second</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>005001</FXY2>
+    <ElementName_en>Latitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>006001</FXY2>
+    <ElementName_en>Longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>007024</FXY2>
+    <ElementName_en>Satellite zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>005021</FXY2>
+    <ElementName_en>Bearing or azimuth</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>007025</FXY2>
+    <ElementName_en>Solar zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>005022</FXY2>
+    <ElementName_en>Solar azimuth</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>005043</FXY2>
+    <ElementName_en>Field of view number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>005040</FXY2>
+    <ElementName_en>Orbit number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>201133</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>005041</FXY2>
+    <ElementName_en>Scan line number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>202126</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>010007</FXY2>
+    <ElementName_en>Height</ElementName_en>
+    <ElementDescription_en>Altitude of surface</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310092</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (IASI NG L2 CO)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>310092</FXY2>
+    <ElementName_en>IASI NG L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for CO, NAC, O3 and SO2.</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>008046</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>= 4 Carbon monoxide, CO</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>015021</FXY2>
+    <ElementName_en>Integrated mass density</ElementName_en>
+    <ElementDescription_en>Mass content of carbon monoxide</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040056</FXY2>
+    <ElementName_en>General retrieval quality</ElementName_en>
+    <ElementDescription_en>Quality flag</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040058</FXY2>
+    <ElementName_en>Number of vectors describing the characterization matrices</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040059</FXY2>
+    <ElementName_en>Number of layers actually retrieved</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040060</FXY2>
+    <ElementName_en>Number of profiles retrieved in scanline</ElementName_en>
+    <ElementDescription_en>Number of carbon monoxide profiles retrieved in scanline</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040057</FXY2>
+    <ElementName_en>IASI level 2 retrieval flags</ElementName_en>
+    <ElementDescription_en>Containing the 040054 and 040055 flag</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>103019</FXY2>
+    <ElementName_en>Repeat 3 descriptors 19 times</ElementName_en>
+    <ElementDescription_en>Repeat for 19 columns</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040061</FXY2>
+    <ElementName_en>Air partial columns on each retrieved layer</ElementName_en>
+    <ElementDescription_en>Molecules/cm</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040062</FXY2>
+    <ElementName_en>A-priori partial columns on each retrieved layer</ElementName_en>
+    <ElementDescription_en>Molecules/cm</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040063</FXY2>
+    <ElementName_en>Scaling vector multiplying the a priori vector in order to define the retrieved vector</ElementName_en>
+    <ElementDescription_en>CO vector</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>101190</FXY2>
+    <ElementName_en>Repeat 1 descriptor 190 times</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310093</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
+    <FXY2>040065</FXY2>
+    <ElementName_en>Main eigenvectors of the sensitivity matrix</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>310092</FXY2>
+    <ElementName_en>IASI NG L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for CO, NAC, O3 and SO2.</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>008046</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>= 0 Ozone, O3 or = 17 Nitric acid, HNO3</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>015021</FXY2>
+    <ElementName_en>Integrated mass density</ElementName_en>
+    <ElementDescription_en>Mass content of nitric acid or of ozone</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040056</FXY2>
+    <ElementName_en>General retrieval quality flag</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040058</FXY2>
+    <ElementName_en>Number of vectors describing the characterization matrices</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040059</FXY2>
+    <ElementName_en>Number of layers actually retrieved</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040060</FXY2>
+    <ElementName_en>Number of profiles retrieved in scanline</ElementName_en>
+    <ElementDescription_en>Number of HNO3 or O3 profiles retrieved in scanline</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040057</FXY2>
+    <ElementName_en>IASI level 2 retrieval flags</ElementName_en>
+    <ElementDescription_en>IASI 2 retrieval flag containing the 040054 and 04055 flag</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>103041</FXY2>
+    <ElementName_en>Repeat 3 descriptor 41 times</ElementName_en>
+    <ElementDescription_en>Repeat 41 times for each layer</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040061</FXY2>
+    <ElementName_en>Air partial columns on each retrieved layer</ElementName_en>
+    <ElementDescription_en>Molecules/cm2</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040062</FXY2>
+    <ElementName_en>A-priori partial columns for each retrieved layer</ElementName_en>
+    <ElementDescription_en>A-priori partial columns for HNO3 or O3 in each retrieved layer</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040063</FXY2>
+    <ElementName_en>Scaling vector multiplying the a priori vector in order to define the retrieved vector</ElementName_en>
+    <ElementDescription_en>Scaling vector multiplying the a priori HNO3 or O3 vector in order to define the retrieved HNO3 or O3 vector.</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>102021</FXY2>
+    <ElementName_en>Repeat 2 descriptor 21 times</ElementName_en>
+    <ElementDescription_en>Repeat 861 times the Main eigenvectors of the sensitivity matrix</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>101041</FXY2>
+    <ElementName_en>Repeat 1 descriptor 41 times</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310094</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
+    <FXY2>040065</FXY2>
+    <ElementName_en>Main eigenvectors of the sensitivity matrix</ElementName_en>
+    <ElementDescription_en>Main eigenvectors of the sensitivity matrix</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>310092</FXY2>
+    <ElementName_en>IASI NG L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for CO, NAC, O3 and SO2</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>008046</FXY2>
+    <ElementName_en>Atmospheric chemical or physical constituent type</ElementName_en>
+    <ElementDescription_en>= 8 Sulphur dioxide, SO2</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>040068</FXY2>
+    <ElementName_en>General retrieval quality flag for SO2</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>010073</FXY2>
+    <ElementName_en>Height of plume</ElementName_en>
+    <ElementDescription_en>Altitude of the plume</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>015007</FXY2>
+    <ElementName_en>Estimated amount of chemical constituent</ElementName_en>
+    <ElementDescription_en>SO2 amount at the retrieved plume altitude</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>012169</FXY2>
+    <ElementName_en>Brightness temperature difference</ElementName_en>
+    <ElementDescription_en>Indicative brightness temperature difference in K</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>102005</FXY2>
+    <ElementName_en>Repeat 2 descriptor 5 times</ElementName_en>
+    <ElementDescription_en>5 different altitude / pressure</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>007004</FXY2>
+    <ElementName_en>Pressure</ElementName_en>
+    <ElementDescription_en>Static pressure at different altitude</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310095</FXY1>
+    <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
+    <FXY2>015007</FXY2>
+    <ElementName_en>Estimated amount of chemical constituent</ElementName_en>
+    <ElementDescription_en>Amount of chemical constituent (DU)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>301005</FXY2>
+    <ElementName_en>Originating centre/sub-centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>001007</FXY2>
+    <ElementName_en>Satellite identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite Instruments</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>002020</FXY2>
+    <ElementName_en>Satellite classification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>025060</FXY2>
+    <ElementName_en>Software identification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>301013</FXY2>
+    <ElementName_en>Hour, minute, second</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>005040</FXY2>
+    <ElementName_en>Orbit number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>005001</FXY2>
+    <ElementName_en>Latitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>006001</FXY2>
+    <ElementName_en>Longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>202126</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>007001</FXY2>
+    <ElementName_en>Height of Station</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>007024</FXY2>
+    <ElementName_en>Satellite zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>005021</FXY2>
+    <ElementName_en>Bearing or azimuth (degree true)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>007025</FXY2>
+    <ElementName_en>Solar zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>005022</FXY2>
+    <ElementName_en>Solar azimuth (degree true)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310096</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 common part for VII L2 CLD, CTP, OCA, WVI, WVV)</Title_en>
+    <FXY2>033028</FXY2>
+    <ElementName_en>Snapshot overall quality</ElementName_en>
+    <ElementDescription_en>= 1 Nominal or = 5 General degradation</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310097</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
+    <FXY2>310096</FXY2>
+    <ElementName_en>VII L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for CLD, CTP, OCA, WVV and WVI</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310097</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
+    <FXY2>008011</FXY2>
+    <ElementName_en>Meteorological feature</ElementName_en>
+    <ElementDescription_en>= 11 Cloud clear</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310097</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
+    <FXY2>033007</FXY2>
+    <ElementName_en>Per cent confidence</ElementName_en>
+    <ElementDescription_en>Pixel clear-sky confidence</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310097</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
+    <FXY2>008011</FXY2>
+    <ElementName_en>Meteorological feature</ElementName_en>
+    <ElementDescription_en>= 63 Missing value</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310097</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
+    <FXY2>008072</FXY2>
+    <ElementName_en>Pixel(s) type</ElementName_en>
+    <ElementDescription_en>= 2 Cloudy</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310097</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud mask, cloud detection (CLD))</Title_en>
+    <FXY2>008029</FXY2>
+    <ElementName_en>Pixel surface type</ElementName_en>
+    <ElementDescription_en>Surface type</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>310096</FXY2>
+    <ElementName_en>VII L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for CLD, CTP, OCA, WVV and WVI</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>013094</FXY2>
+    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
+    <ElementDescription_en>Cloud optical thickness in Log10</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>020016</FXY2>
+    <ElementName_en>Pressure at top of cloud</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>020014</FXY2>
+    <ElementName_en>Height of top of cloud</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>008093</FXY2>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
+    <ElementDescription_en>Total uncertainty</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>013094</FXY2>
+    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
+    <ElementDescription_en>Error on Cloud optical thickness in Log10</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>020016</FXY2>
+    <ElementName_en>Pressure at top of cloud</ElementName_en>
+    <ElementDescription_en>Error on pressure at cloud top</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>020014</FXY2>
+    <ElementName_en>Height of top of cloud</ElementName_en>
+    <ElementDescription_en>Error on height at cloud top</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310098</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
+    <FXY2>008093</FXY2>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
+    <ElementDescription_en>Cancel total uncertainty</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>310096</FXY2>
+    <ElementName_en>VII L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for CLD, CTP, OCA, WVV and WVI</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>025144</FXY2>
+    <ElementName_en>Number of visual channels used in processing</ElementName_en>
+    <ElementDescription_en>From 0 to 11</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>025145</FXY2>
+    <ElementName_en>Number of infrared channels used in processing</ElementName_en>
+    <ElementDescription_en>From 5 to 9</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>020139</FXY2>
+    <ElementName_en>Final cloud model assumption</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>008029</FXY2>
+    <ElementName_en>Pixel surface type</ElementName_en>
+    <ElementDescription_en>Surface type</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>120002</FXY2>
+    <ElementName_en>Repeat 20 descriptors 2 times</ElementName_en>
+    <ElementDescription_en>Repeat for the 2 layers</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>008002</FXY2>
+    <ElementName_en>Vertical significance (surface observations)</ElementName_en>
+    <ElementDescription_en>On first iteration : 21 First instrument detected cloud layer, for second iteration : 22 Second instrument detected cloud layer</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>013094</FXY2>
+    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
+    <ElementDescription_en>Cloud optical thickness of single or top layer in Log10</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>020016</FXY2>
+    <ElementName_en>Pressure at top of cloud</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>012001</FXY2>
+    <ElementName_en>Temperature</ElementName_en>
+    <ElementDescription_en>Temperature at cloud top</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>202131</FXY2>
+    <ElementName_en>Add 3 to scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>201139</FXY2>
+    <ElementName_en>Add 11 to width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>020131</FXY2>
+    <ElementName_en>Effective radius of cloud hydrometeors</ElementName_en>
+    <ElementDescription_en>Cloud particle effective radius</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>020014</FXY2>
+    <ElementName_en>Height of top of cloud</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>008093</FXY2>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
+    <ElementDescription_en>Total uncertainty</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>013094</FXY2>
+    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
+    <ElementDescription_en>Error on cloud optical thickness in log 10</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>020016</FXY2>
+    <ElementName_en>Pressure at top of cloud</ElementName_en>
+    <ElementDescription_en>Error on Pressure at top cloud</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>202131</FXY2>
+    <ElementName_en>Add 3 to scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>201139</FXY2>
+    <ElementName_en>Add 11 to width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>020131</FXY2>
+    <ElementName_en>Effective radius of cloud hydrometeors</ElementName_en>
+    <ElementDescription_en>Error on cloud particle effective radius</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>020014</FXY2>
+    <ElementName_en>Height of top of cloud</ElementName_en>
+    <ElementDescription_en>Error on height at cloud top</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310099</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
+    <FXY2>008093</FXY2>
+    <ElementName_en>Measurement uncertainty significance</ElementName_en>
+    <ElementDescription_en>Cancel total uncertainty</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310100</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
+    <FXY2>310096</FXY2>
+    <ElementName_en>VII L2 common information part</ElementName_en>
+    <ElementDescription_en>The common information shared for CLD, CTP, OCA, WVV and WVI</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310100</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
+    <FXY2>202129</FXY2>
+    <ElementName_en>Add 1 to scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310100</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
+    <FXY2>201132</FXY2>
+    <ElementName_en>Add 4 to width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310100</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
+    <FXY2>013060</FXY2>
+    <ElementName_en>Total accumulated precipitation</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310100</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310100</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Cancel</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310100</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
+    <FXY2>033118</FXY2>
+    <ElementName_en>Relative error percentage</ElementName_en>
+    <ElementDescription_en>On total accumulated precipitation water</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310100</FXY1>
+    <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 Total precipitable water IR and VIS (WVI and WVV))</Title_en>
+    <FXY2>033119</FXY2>
+    <ElementName_en>Forecast error percentage</ElementName_en>
+    <ElementDescription_en>Relative difference between retrieved TPW and forecast TPW</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310191</FXY1>
     <Title_en>(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS))</Title_en>
     <FXY2>001007</FXY2>
@@ -55873,7 +58370,7 @@
     <Title_en>(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS))</Title_en>
     <FXY2>006029</FXY2>
     <ElementName_en>Wave number</ElementName_en>
-    <ElementDescription_en> start of range</ElementDescription_en>
+    <ElementDescription_en> Start of range</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -55883,7 +58380,7 @@
     <Title_en>(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS))</Title_en>
     <FXY2>006029</FXY2>
     <ElementName_en>Wave number</ElementName_en>
-    <ElementDescription_en> end of range</ElementDescription_en>
+    <ElementDescription_en> End of range</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -58012,6 +60509,244 @@
     <FXY2>033026</FXY2>
     <ElementName_en>Moisture quality</ElementName_en>
     <ElementDescription_en>Code table </ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>301150</FXY2>
+    <ElementName_en>WIGOS identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>001008</FXY2>
+    <ElementName_en>Aircraft registration number or other identification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>001095</FXY2>
+    <ElementName_en>Observer identification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>301013</FXY2>
+    <ElementName_en>Hour, minute, second</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>301021</FXY2>
+    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>001013</FXY2>
+    <ElementName_en>Speed of motion of moving observing platform</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>008009</FXY2>
+    <ElementName_en>Detailed phase of flight</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>007010</FXY2>
+    <ElementName_en>Flight level</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>033003</FXY2>
+    <ElementName_en>Quality information</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>011001</FXY2>
+    <ElementName_en>Wind direction</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>011002</FXY2>
+    <ElementName_en>Wind speed</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>012101</FXY2>
+    <ElementName_en>Temperature/air temperature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>002170</FXY2>
+    <ElementName_en>Aircraft humidity sensor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>201144</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>202133</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>013002</FXY2>
+    <ElementName_en>Mixing ratio</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>201135</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>202130</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>013003</FXY2>
+    <ElementName_en>Relative humidity</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>011073</FXY2>
+    <ElementName_en>Turbulent kinetic energy</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>11</Category>
+    <CategoryOfSequences_en>Single level report sequences (conventional data)</CategoryOfSequences_en>
+    <FXY1>311013</FXY1>
+    <Title_en>(Uncrewed Aircraft Systems)</Title_en>
+    <FXY2>011075</FXY2>
+    <ElementName_en>Mean turbulence intensity (eddy dissipation rate)</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -85597,6 +88332,442 @@
     <FXY2>201000</FXY2>
     <ElementName_en>Change data width</ElementName_en>
     <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>001007</FXY2>
+    <ElementName_en>Satellite identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite instruments</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>002020</FXY2>
+    <ElementName_en>Satellite classification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>005077</FXY2>
+    <ElementName_en>Sub satellite Latitude</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>006043</FXY2>
+    <ElementName_en>Sub satellite longitude</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>001033</FXY2>
+    <ElementName_en>Identification of originating/generating centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>001034</FXY2>
+    <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>301012</FXY2>
+    <ElementName_en>Hour, minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>004007</FXY2>
+    <ElementName_en>Second</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>301021</FXY2>
+    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>033003</FXY2>
+    <ElementName_en>Quality information</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>008090</FXY2>
+    <ElementName_en>Decimal scale of following significands</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>020140</FXY2>
+    <ElementName_en>Lightning area</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>008090</FXY2>
+    <ElementName_en>Decimal scale of following significands</ElementName_en>
+    <ElementDescription_en>Set to missing (cancel)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340027</FXY1>
+    <Title_en>(Lightning observations from satellite)</Title_en>
+    <FXY2>020141</FXY2>
+    <ElementName_en>Lightning energy</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>008070</FXY2>
+    <ElementName_en>Vertical sounding product qualifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>001033</FXY2>
+    <ElementName_en>Identification of originating/generating centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>001034</FXY2>
+    <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>001007</FXY2>
+    <ElementName_en>Satellite identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite instruments</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>005040</FXY2>
+    <ElementName_en>Orbit number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>025075</FXY2>
+    <ElementName_en>Satellite antenna corrections version number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>005041</FXY2>
+    <ElementName_en>Scan line number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>005043</FXY2>
+    <ElementName_en>Field of view number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>301013</FXY2>
+    <ElementName_en>Hour, minute, second</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>005001</FXY2>
+    <ElementName_en>Latitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>006001</FXY2>
+    <ElementName_en>Longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>201133</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>007071</FXY2>
+    <ElementName_en>Height</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>007024</FXY2>
+    <ElementName_en>Satellite zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>005021</FXY2>
+    <ElementName_en>Bearing or azimuth</ElementName_en>
+    <ElementDescription_en>Satellite azimuth</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>007025</FXY2>
+    <ElementName_en>Solar zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>005022</FXY2>
+    <ElementName_en>Solar azimuth</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>110000</FXY2>
+    <ElementName_en>Delayed replication of 10 descriptors</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>031001</FXY2>
+    <ElementName_en>Delayed replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>005042</FXY2>
+    <ElementName_en>Channel number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>033002</FXY2>
+    <ElementName_en>Quality information</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>025076</FXY2>
+    <ElementName_en>Log10 of (temperature-radiance central wave number) for ATOVS</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>025077</FXY2>
+    <ElementName_en>Bandwidth correction coefficient 1</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>025078</FXY2>
+    <ElementName_en>Bandwidth correction coefficient 2</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>201143</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>012163</FXY2>
+    <ElementName_en>Brightness temperature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>012158</FXY2>
+    <ElementName_en>Noise-equivalent delta temperature while viewing cold target</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>40</Category>
+    <CategoryOfSequences_en>Additional satellite report sequences</CategoryOfSequences_en>
+    <FXY1>340028</FXY1>
+    <Title_en>(Satellite sounding data)</Title_en>
+    <FXY2>012159</FXY2>
+    <ElementName_en>Noise-equivalent delta temperature while viewing warm target</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
 </dataroot>
