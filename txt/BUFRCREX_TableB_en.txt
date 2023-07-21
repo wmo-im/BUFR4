@@ -125,6 +125,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 02,Instrumentation,002006,Upper air remote sensing instrument type,Code table,0,0,6,Code table,0,0,,,Operational
 02,Instrumentation,002007,Type of sensor for water level measuring instrument,Code table,0,0,6,Code table,0,2,,,Operational
 02,Instrumentation,002008,Type of offshore platform,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002009,MODIS aerosol algorithm,Code table,0,0,4,Code table,0,2,,,Operational
 02,Instrumentation,002011,Radiosonde type,Code table,0,0,8,Code table,0,3,,,Operational
 02,Instrumentation,002012,Radiosonde computational method,Code table,0,0,4,Code table,0,2,,,Operational
 02,Instrumentation,002013,Solar and infrared radiation correction,Code table,0,0,4,Code table,0,2,,,Operational
@@ -494,6 +495,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008042,Extended vertical sounding significance,Flag table,0,0,18,Flag table,0,6,,,Operational
 08,Significance qualifiers,008043,Atmospheric chemical or physical constituent type,Code table,0,0,8,Code table,0,3,(see Note 7),169,Operational
 08,Significance qualifiers,008044,CAS registry number,CCITT IA5,0,0,88,Character,0,11,,,Operational
+08,Significance qualifiers,008045,Character of particulate matter,Code table,0,0,8,Character,0,2,,,Operational
 08,Significance qualifiers,008046,Atmospheric chemical or physical constituent type,Common Code table C-14,0,0,16,Common Code table C-14,0,5,,,Operational
 08,Significance qualifiers,008049,Number of observations,Numeric,0,0,8,Numeric,0,3,,,Operational
 08,Significance qualifiers,008050,Qualifier for number of missing values in calculation of statistic,Code table,0,0,4,Code table,0,2,,,Operational
@@ -916,6 +918,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 15,Physical/chemical constituents,015039,Estimated error in neutral atmosphere path delay,m,4,0,14,m,4,9,,,Operational
 15,Physical/chemical constituents,015041,Sulphur dioxide index,Numeric,2,-1200,14,Numeric,2,4,(see Note 7),78,Operational
 15,Physical/chemical constituents,015042,Reflectance,%,2,0,14,%,2,5,,,Operational
+15,Physical/chemical constituents,015043,Number of averaging kernel layers,Numeric,0,0,10,Numeric,0,0,,,Operational
+15,Physical/chemical constituents,015044,Averaging kernel value,Numeric,6,- 5000000,31,Numeric,0,0,,,Operational
 15,Physical/chemical constituents,015045,Sulphur dioxide,DU,2,-2000,15,DU,2,5,(see Note 8),77,Operational
 15,Physical/chemical constituents,015046,Volcano contamination index,Numeric,2,-1000,11,Numeric,2,4,(see Note 9),80,Operational
 15,Physical/chemical constituents,015049,Aerosol Angstrom wavelength exponent,Numeric,3,-2000,14,Numeric,3,5,,,Operational
@@ -1046,6 +1050,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 20,Observed phenomena,020067,Diameter of deposit,m,3,0,9,m,3,3,,,Operational
 20,Observed phenomena,020070,Minimum number of atmospherics,Numeric,0,0,7,Numeric,0,3,,,Operational
 20,Observed phenomena,020071,Accuracy of fix and rate of atmospherics,Code table,0,0,4,Code table,0,2,,,Operational
+20,Observed phenomena,020079,Snow or ice crystals indicator,Code table,0,0,2,Code table,0,1,,,Operational
 20,Observed phenomena,020081,Cloud amount in segment,%,0,0,7,%,0,3,,,Operational
 20,Observed phenomena,020082,Amount segment cloud free,%,0,0,7,%,0,3,,,Operational
 20,Observed phenomena,020083,Amount of segment covered by scene,%,0,0,7,%,0,3,,,Operational
@@ -1652,6 +1657,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033050,Global GTSPP quality flag,Code table,0,0,4,Code table,0,2,,,Operational
 33,Quality information,033052,S band ocean retracking quality,Flag table,0,0,21,Flag table,0,7,,,Operational
 33,Quality information,033053,Ku band ocean retracking quality,Flag table,0,0,21,Flag table,0,7,,,Operational
+33,Quality information,033054,Overall quality of retrieved atmospheric profile,Code table,0,0,3,Code table,0,1,,,Operational
 33,Quality information,033055,Wind vector quality flag,Flag table,0,0,24,Flag table,0,8,,,Operational
 33,Quality information,033056,Sigma-0 quality flag,Flag table,0,0,24,Flag table,0,8,,,Operational
 33,Quality information,033060,GqisFlagQual - individual IASI-System quality flag,Code table,0,0,2,Code table,0,1,,,Operational
