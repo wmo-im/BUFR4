@@ -809,7 +809,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 13,Hydrographic and hydrological elements,013090,Radiometer water vapour content,kg m-2,1,0,10,kg m-2,1,4,,,Operational
 13,Hydrographic and hydrological elements,013091,Radiometer liquid content,kg m-2,2,0,8,kg m-2,2,3,,,Operational
 13,Hydrographic and hydrological elements,013093,Cloud optical thickness,Numeric,0,0,8,Numeric,0,3,,,Operational
-13,Hydrographic and hydrological elements,013094,Log 10 of cloud optical thickness,Numeric,3,-2000,14,Numeric,3,5,,,Operational
+13,Hydrographic and hydrological elements,013094,Log10 of cloud optical thickness,Numeric,3,-2000,14,Numeric,3,5,,,Operational
 13,Hydrographic and hydrological elements,013095,Total column water vapour,kg m-2,4,0,19,kg m-2,4,6,,,Operational
 13,Hydrographic and hydrological elements,013096,MWR water vapour content,kg m-2,2,0,14,kg m-2,2,5,,,Operational
 13,Hydrographic and hydrological elements,013097,MWR liquid water content,kg m-2,2,0,14,kg m-2,2,5,,,Operational
@@ -919,7 +919,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 15,Physical/chemical constituents,015041,Sulphur dioxide index,Numeric,2,-1200,14,Numeric,2,4,(see Note 7),78,Operational
 15,Physical/chemical constituents,015042,Reflectance,%,2,0,14,%,2,5,,,Operational
 15,Physical/chemical constituents,015043,Number of averaging kernel layers,Numeric,0,0,10,Numeric,0,0,,,Operational
-15,Physical/chemical constituents,015044,Averaging kernel value,Numeric,6,- 5000000,31,Numeric,0,0,,,Operational
+15,Physical/chemical constituents,015044,Averaging kernel value,Numeric,6,-5000000,31,Numeric,0,0,,,Operational
 15,Physical/chemical constituents,015045,Sulphur dioxide,DU,2,-2000,15,DU,2,5,(see Note 8),77,Operational
 15,Physical/chemical constituents,015046,Volcano contamination index,Numeric,2,-1000,11,Numeric,2,4,(see Note 9),80,Operational
 15,Physical/chemical constituents,015049,Aerosol Angstrom wavelength exponent,Numeric,3,-2000,14,Numeric,3,5,,,Operational
@@ -1713,8 +1713,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033115,Aerosol optical depth quality information,Code table,0,0,5,Code table,0,2,,,Operational
 33,Quality information,033116,First guess in bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
 33,Quality information,033117,In bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
-33,Quality information,033118,Relative error percentage,%,2,-10000,15,Percentage,2,5,,,Operational
-33,Quality information,033119,Forecast error percentage,%,0,-100,8,Percentage,0,3,,,Operational
+33,Quality information,033118,Relative error percentage,%,2,-10000,15,%,2,5,,,Operational
+33,Quality information,033119,Forecast error percentage,%,0,-100,8,%,0,3,,,Operational
 35,Data monitoring information,035000,FM and regional code number,Code table,0,0,10,Code table,0,3,,,Operational
 35,Data monitoring information,035001,Time frame for monitoring,Code table,0,0,3,Code table,0,1,,,Operational
 35,Data monitoring information,035011,Number of reports actually received,Numeric,0,0,14,Numeric,0,4,,,Operational
