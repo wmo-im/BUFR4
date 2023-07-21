@@ -407,7 +407,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002006,Upper Air Remote Sensing Instrument Type,5,Sodar wind profiler,,,,,Operational
 002006,Upper Air Remote Sensing Instrument Type,6,Wind profiler,,,,,Operational
 002006,Upper Air Remote Sensing Instrument Type,7,Lidar,,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,8-62,Reserved,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,8,Ground-based microwave radiometer,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,9,Differential absorption lidar,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,10-62,Reserved,,,,,Operational
 002006,Upper Air Remote Sensing Instrument Type,63,Missing value,,,,,Operational
 002007,Type of sensor for water level measuring instrument,0,Reserved,,,,,Operational
 002007,Type of sensor for water level measuring instrument,1,Shaft encoder float system,,,,,Operational
@@ -3835,6 +3837,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 020139,Final cloud model assumption,5,2-layers ash,,,,,Operational
 020139,Final cloud model assumption,6-14,Reserved,,,,,Operational
 020139,Final cloud model assumption,15,Missing,,,,,Operational
+020143,Liquid cloud,0,No liquid cloud,,,,,Operational
+020143,Liquid cloud,1,Liquid cloud present,,,,,Operational
+020143,Liquid cloud,2,Reserved,,,,,Operational
+020143,Liquid cloud,3,Missing value,,,,,Operational
 021026,ASCAT sigma-0 usability,0,Nominal,,,,,Operational
 021026,ASCAT sigma-0 usability,1,Close to nominal,,,,,Operational
 021026,ASCAT sigma-0 usability,2,Far from nominal,,,,,Operational
