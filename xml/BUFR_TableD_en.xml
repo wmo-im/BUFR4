@@ -38131,7 +38131,7 @@
     <FXY1>309073</FXY1>
     <Title_en>(Ground based microwave radiometer retrieval products (Lv2))</Title_en>
     <FXY2>303100</FXY2>
-    <ElementName_en>Forecast Indexes</ElementName_en>
+    <ElementName_en>Forecast indices</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -42174,7 +42174,7 @@
     <Title_en>(Satellite radio occultation data)</Title_en>
     <FXY2>008021</FXY2>
     <ElementName_en>Time significance</ElementName_en>
-    <ElementDescription_en>= 17 Start of phenomenon or 25 Nominal reporting time</ElementDescription_en>
+    <ElementDescription_en>= 17 Start of phenomenon or = 25 Nominal reporting time</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56112,7 +56112,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 common information part (TWV, CLD, SFC, GHG))</Title_en>
     <FXY2>008003</FXY2>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <ElementDescription_en>Cancel the vertical significance</ElementDescription_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56140,7 +56140,7 @@
     <FXY1>310088</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
     <FXY2>102003</FXY2>
-    <ElementName_en>Replication of 2 elements 3 times</ElementName_en>
+    <ElementName_en>Replicate 2 descriptors 3 times</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56267,7 +56267,7 @@
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
     <FXY2>013098</FXY2>
     <ElementName_en>Integrated water vapour density</ElementName_en>
-    <ElementDescription_en>column</ElementDescription_en>
+    <ElementDescription_en>Column</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56285,8 +56285,8 @@
     <FXY1>310088</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 temperature and water vapour profiles (TWV))</Title_en>
     <FXY2>107101</FXY2>
-    <ElementName_en>Replication of 7 elements 101 times</ElementName_en>
-    <ElementDescription_en>For 101 pressure layer</ElementDescription_en>
+    <ElementName_en>Replicate 7 descriptors 101 times</ElementName_en>
+    <ElementDescription_en>For 101 pressure layers</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56460,7 +56460,7 @@
     <FXY1>310089</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 cloud detection (CLD))</Title_en>
     <FXY2>109002</FXY2>
-    <ElementName_en>Replication of 9 descriptors 2 times</ElementName_en>
+    <ElementName_en>Replicate 9 descriptors 2 times</ElementName_en>
     <ElementDescription_en>Repeat for two layers of clouds (one at a first specific pressure and a second one at a second specific pressure)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -56593,7 +56593,7 @@
     <FXY1>310090</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 surface parameters (SFC))</Title_en>
     <FXY2>102012</FXY2>
-    <ElementName_en>Replication of 2 descriptors 12 times</ElementName_en>
+    <ElementName_en>Replicate 2 descriptors 12 times</ElementName_en>
     <ElementDescription_en>12 channels</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -57135,7 +57135,7 @@
     <FXY1>310093</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>103019</FXY2>
-    <ElementName_en>Repeat 3 descriptors 19 times</ElementName_en>
+    <ElementName_en>Replicate 3 descriptors 19 times</ElementName_en>
     <ElementDescription_en>Repeat for 19 columns</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -57175,7 +57175,7 @@
     <FXY1>310093</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 carbon monoxide total column, carbon monoxide profile (CO)</Title_en>
     <FXY2>101190</FXY2>
-    <ElementName_en>Repeat 1 descriptor 190 times</ElementName_en>
+    <ElementName_en>Replicate 1 descriptor 190 times</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57270,7 +57270,7 @@
     <FXY1>310094</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>103041</FXY2>
-    <ElementName_en>Repeat 3 descriptor 41 times</ElementName_en>
+    <ElementName_en>Replicate 3 descriptor 41 times</ElementName_en>
     <ElementDescription_en>Repeat 41 times for each layer</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -57310,7 +57310,7 @@
     <FXY1>310094</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>102021</FXY2>
-    <ElementName_en>Repeat 2 descriptor 21 times</ElementName_en>
+    <ElementName_en>Replicate 2 descriptor 21 times</ElementName_en>
     <ElementDescription_en>Repeat 861 times the Main eigenvectors of the sensitivity matrix</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -57320,7 +57320,7 @@
     <FXY1>310094</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 nitric acid total column, nitric acid profile (NAC) and level 2 ozone total column, ozone profile (O3)</Title_en>
     <FXY2>101041</FXY2>
-    <ElementName_en>Repeat 1 descriptor 41 times</ElementName_en>
+    <ElementName_en>Replicate 1 descriptor 41 times</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57398,7 +57398,7 @@
     <FXY1>310095</FXY1>
     <Title_en>(Metop-SG Infrared Atmospheric Sounder Interferometer - New Generation (IASI-NG), level 2 sulphur dioxide total column (SO2))</Title_en>
     <FXY2>102005</FXY2>
-    <ElementName_en>Repeat 2 descriptor 5 times</ElementName_en>
+    <ElementName_en>Replicate 2 descriptor 5 times</ElementName_en>
     <ElementDescription_en>5 different altitude / pressure</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -57661,8 +57661,8 @@
     <FXY1>310098</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>013094</FXY2>
-    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
-    <ElementDescription_en>Cloud optical thickness in Log10</ElementDescription_en>
+    <ElementName_en>Log10 of cloud optical thickness</ElementName_en>
+    <ElementDescription_en>Cloud optical thickness in log10</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57699,8 +57699,8 @@
     <FXY1>310098</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 cloud top temperature (CTP))</Title_en>
     <FXY2>013094</FXY2>
-    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
-    <ElementDescription_en>Error on Cloud optical thickness in Log10</ElementDescription_en>
+    <ElementName_en>Log10 of cloud optical thickness</ElementName_en>
+    <ElementDescription_en>Error on cloud optical thickness in log10</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57788,7 +57788,7 @@
     <FXY1>310099</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>120002</FXY2>
-    <ElementName_en>Repeat 20 descriptors 2 times</ElementName_en>
+    <ElementName_en>Replicate 20 descriptors 2 times</ElementName_en>
     <ElementDescription_en>Repeat for the 2 layers</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -57808,8 +57808,8 @@
     <FXY1>310099</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>013094</FXY2>
-    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
-    <ElementDescription_en>Cloud optical thickness of single or top layer in Log10</ElementDescription_en>
+    <ElementName_en>Log10 of cloud optical thickness</ElementName_en>
+    <ElementDescription_en>Cloud optical thickness of single or top layer in log10</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57902,8 +57902,8 @@
     <FXY1>310099</FXY1>
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>013094</FXY2>
-    <ElementName_en>Log 10 of cloud optical thickness</ElementName_en>
-    <ElementDescription_en>Error on cloud optical thickness in log 10</ElementDescription_en>
+    <ElementName_en>Log10 of cloud optical thickness</ElementName_en>
+    <ElementDescription_en>Error on cloud optical thickness in log10</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -57913,7 +57913,7 @@
     <Title_en>(Metop-SG Visible Infrared Imager (VII), level 2 optimal cloud analysis (OCA))</Title_en>
     <FXY2>020016</FXY2>
     <ElementName_en>Pressure at top of cloud</ElementName_en>
-    <ElementDescription_en>Error on Pressure at top cloud</ElementDescription_en>
+    <ElementDescription_en>Error on pressure at top cloud</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
