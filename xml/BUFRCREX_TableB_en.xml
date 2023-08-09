@@ -25645,6 +25645,20 @@
   <BUFRCREX_TableB_en>
     <ClassNo>41</ClassNo>
     <ClassName_en>Oceanographic/biogeochemical parameters</ClassName_en>
+    <FXY>041004</FXY>
+    <ElementName_en>Chlorophyll-A</ElementName_en>
+    <BUFR_Unit>mg m-3</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>19</BUFR_DataWidth_Bits>
+    <CREX_Unit>mg m-3</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>41</ClassNo>
+    <ClassName_en>Oceanographic/biogeochemical parameters</ClassName_en>
     <FXY>041005</FXY>
     <ElementName_en>Turbidity</ElementName_en>
     <BUFR_Unit>NTU</BUFR_Unit>
@@ -25654,6 +25668,34 @@
     <CREX_Unit>NTU</CREX_Unit>
     <CREX_Scale>2</CREX_Scale>
     <CREX_DataWidth_Char>4</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>41</ClassNo>
+    <ClassName_en>Oceanographic/biogeochemical parameters</ClassName_en>
+    <FXY>041006</FXY>
+    <ElementName_en>Sea water pH</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>70000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>4</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>41</ClassNo>
+    <ClassName_en>Oceanographic/biogeochemical parameters</ClassName_en>
+    <FXY>041007</FXY>
+    <ElementName_en>BBP700</ElementName_en>
+    <BUFR_Unit>m-1</BUFR_Unit>
+    <BUFR_Scale>7</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>20</BUFR_DataWidth_Bits>
+    <CREX_Unit>m-1</CREX_Unit>
+    <CREX_Scale>7</CREX_Scale>
+    <CREX_DataWidth_Char>7</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>

@@ -1582,7 +1582,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 06,Meteorological or oceanographic sequences common to oceanographic observations,306013,(Sequence for representation of water level and residual in the time series),,022038,Tidal elevation with respect to local chart datum,,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306013,(Sequence for representation of water level and residual in the time series),,022040,Meteorological residual tidal elevation (surge or offset),,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306014,"(Sequence for representation of water level in the time series, similar to 3 06 013 but with no residual)",,306012,"Sequence for representation of sensor type, significant qualifier for sensor and status of operation",,,,Operational
-06,Meteorological or oceanographic sequences common to oceanographic observations,306014,"(Sequence for representation of water level in the time series, similar to 3 06 013 but with no residual)",,301011,"Year, month, day ",Reference date for the time series,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306014,"(Sequence for representation of water level in the time series, similar to 3 06 013 but with no residual)",,301011,"Year, month, day",Reference date for the time series,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306014,"(Sequence for representation of water level in the time series, similar to 3 06 013 but with no residual)",,301013,"Hour, minute, second",Reference time for the time series,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306014,"(Sequence for representation of water level in the time series, similar to 3 06 013 but with no residual)",,022120,Tide station automated water level check,,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306014,"(Sequence for representation of water level in the time series, similar to 3 06 013 but with no residual)",,022121,Tide station manual water level check,,,,Operational
@@ -1829,6 +1829,64 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 06,Meteorological or oceanographic sequences common to oceanographic observations,306043,(Marine biogeochemical and radiation observations),,014012,"Net long-wave radiation, integrated over period specified",,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306043,(Marine biogeochemical and radiation observations),,014004,"Short-wave radiation, integrated over period specified",,,,Operational
 06,Meteorological or oceanographic sequences common to oceanographic observations,306043,(Marine biogeochemical and radiation observations),,004024,Time period or displacement (hours),Cancel,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,203014,Change reference value,New reference value in 14 bits,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,022188,Dissolved oxygen,Change reference value to -5000 (given by 11001110001000),,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,203255,Change reference value,Cancel reference value change,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,108000,Delayed replication of 8 descriptors,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,031002,Extended delayed descriptor replication factor,Gives number of depths,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,007065,Water pressure,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,008080,Qualifier for GTSPP quality flag,=10 Pressure at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,201129,Change data width,Add 1 bit to oxygen data width,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,022188,Dissolved oxygen,μmol kg-1,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,201000,Change data width, Cancel change in oxygen data width,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,008080,Qualifier for GTSPP quality flag,=16 Dissolved oxygen at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306044,(Dissolved oxygen profile from floats),,203000,Change reference value,Reset oxygen reference value to default,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,203011,Change reference value,New reference value in 11 bits,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,041004,Chlorophyll-A,Change reference value to -1000 (given by 11111101000),,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,203255,Change reference value,Cancel reference value change,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,106000,Delayed replication of 6 descriptors,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,031002,Extended delayed descriptor replication factor,Gives number of depths,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,007065,Water pressure,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,008080,Qualifier for GTSPP quality flag,=10 Pressure at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,041004,Chlorophyll-A,mg m-3,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,008080,Qualifier for quality flag,=21 Chlorophyll-A at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306045,(Chlorophyll-A profile from floats),,203000,Change reference value,Reset chlorophyll-A reference value to default,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,203015,Change reference value,New reference value in 15 bits,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,041003,Dissolved nitrates,Change reference value to -15000 (given by 111101010011000),,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,203255,Change reference value,Cancel reference value change,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,106000,Delayed replication of 6 descriptors,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,031002,Extended delayed descriptor replication factor,Gives number of depths,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,007065,Water pressure,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,008080,Qualifier for quality flag,=10 Pressure at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,041003,Dissolved nitrates,μmol kg-1,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,008080,Qualifier for quality flag,=22 Nitrates at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306046,(Dissolved nitrate profile data from floats),,203000,Change reference value,Reset nitrate reference value to default,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,106000,Delayed replication of 6 descriptors,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,031002,Extended delayed descriptor replication factor,Gives number of depths,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,007065,Water pressure,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,008080,Qualifier for quality flag,=10 Pressure at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,041006,Sea water pH,dimensionless,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,008080,Qualifier for quality flag,=23 pH at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306047,(Sea water pH profile data from floats),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,203009,Change reference value,New reference value in 9 bits,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,041007,BBP700,Change reference value to -250 (given by 111111010),,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,203255,Change reference value,Cancel reference value change,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,106000,Delayed replication of 6 descriptors,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,031002,Extended delayed descriptor replication factor,Gives number of depths,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,007065,Water pressure,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,008080,Qualifier for quality flag,=10 Pressure at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,041007,BBP700,In parts per billion,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,008080,Qualifier for quality flag,=24 BBP at a level,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,033050,Global GTSPP quality flag,,,,Operational
+06,Meteorological or oceanographic sequences common to oceanographic observations,306048,(BBP700 profile data),,203000,Change reference value,Reset BBP reference value to default,,,Operational
 07,Surface report sequences (land),307001,(Low altitude station),,301031,"Identification and type of station, date/time, location (high accuracy), height of station",,,,Operational
 07,Surface report sequences (land),307001,(Low altitude station),,302011,Low altitude station,Basic surface report,,,Operational
 07,Surface report sequences (land),307002,(Low altitude station),,301032,"Identification and type of station, date/time, location (coarse accuracy), height of station",,,,Operational
