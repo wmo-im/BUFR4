@@ -5,6 +5,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 15,Physical/chemical constituents,015004,Ozone sounding correction factor (CF),Numeric,3,0,11,Numeric,3,4,(see Note 2),2,Operational
 15,Physical/chemical constituents,015005,Ozone p,DU,0,0,10,DU,0,3,(see Note 3),3,Operational
 15,Physical/chemical constituents,015006,Log10 of number density of atmosphere,log(m-3),5,1800000,20,log(m-3),5,7,,,Operational
+15,Physical/chemical constituents,015007,Estimated amount of chemical constituent,DU,2,0,16,DU,2,6,,,Operational
 15,Physical/chemical constituents,015008,Significand of volumetric mixing ratio,Numeric,0,0,10,Numeric,0,4,,,Operational
 15,Physical/chemical constituents,015009,Log10 of number density of ozone,log(m-3),5,1200000,20,log(m-3),5,7,,,Operational
 15,Physical/chemical constituents,015011,Log10 of integrated electron density,log (m-2),3,14000,13,log (m-2),3,4,,,Operational
@@ -31,6 +32,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 15,Physical/chemical constituents,015039,Estimated error in neutral atmosphere path delay,m,4,0,14,m,4,9,,,Operational
 15,Physical/chemical constituents,015041,Sulphur dioxide index,Numeric,2,-1200,14,Numeric,2,4,(see Note 7),78,Operational
 15,Physical/chemical constituents,015042,Reflectance,%,2,0,14,%,2,5,,,Operational
+15,Physical/chemical constituents,015043,Number of averaging kernel layers,Numeric,0,0,10,Numeric,0,0,,,Operational
+15,Physical/chemical constituents,015044,Averaging kernel value,Numeric,6,-5000000,31,Numeric,0,0,,,Operational
 15,Physical/chemical constituents,015045,Sulphur dioxide,DU,2,-2000,15,DU,2,5,(see Note 8),77,Operational
 15,Physical/chemical constituents,015046,Volcano contamination index,Numeric,2,-1000,11,Numeric,2,4,(see Note 9),80,Operational
 15,Physical/chemical constituents,015049,Aerosol Angstrom wavelength exponent,Numeric,3,-2000,14,Numeric,3,5,,,Operational

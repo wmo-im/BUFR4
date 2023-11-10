@@ -285,7 +285,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008029,Surface type,16,Rural land,,,,,Operational
 008029,Surface type,17,Suburban land,,,,,Operational
 008029,Surface type,18,Sea ice,,,,,Operational
-008029,Surface type,19-254,Reserved,,,,,Operational
+008029,Surface type,19,Forest,,,,,Operational
+008029,Surface type,20,Shrublands,,,,,Operational
+008029,Surface type,21,Savanna,,,,,Operational
+008029,Surface type,22,Desert,,,,,Operational
+008029,Surface type,23,Grasslands,,,,,Operational
+008029,Surface type,24,Wetlands,,,,,Operational
+008029,Surface type,25,Snow/ice,,,,,Operational
+008029,Surface type,26,Coast,,,,,Operational
+008029,Surface type,27-254,Reserved,,,,,Operational
 008029,Surface type,255,Missing value,,,,,Operational
 008032,Status of operation,0,Routine operation,,,,,Operational
 008032,Status of operation,1,Event triggered by storm surge,,,,,Operational
@@ -454,6 +462,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008043,Atmospheric chemical or physical constituent type,34-200,Reserved,,,,,Operational
 008043,Atmospheric chemical or physical constituent type,201-254,Reserved for local use,,,,,Operational
 008043,Atmospheric chemical or physical constituent type,255,Missing value,,,,,Operational
+008045,Character of particulate matter,0,Aerosols all types,,,,,Operational
+008045,Character of particulate matter,1,Desert dust,,,,,Operational
+008045,Character of particulate matter,2,Black carbon,,,,,Operational
+008045,Character of particulate matter,3,Sea salt,,,,,Operational
+008045,Character of particulate matter,4-254,Reserved,,,,,Operational
+008045,Character of particulate matter,255,Missing value,,,,,Operational
 008046,Atmospheric chemical or physical constituent type,,,,,(See Common Code table C–14 in Part C/c.),,Operational
 008050,Qualifier for number of missing values in calculation of statistic,0,Reserved,,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,,Operational
@@ -533,12 +547,18 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008070,Vertical sounding product qualifier,4,"Mapped to a common footprint, Earth located calibrated radiances (level 1d)",,,,,Operational
 008070,Vertical sounding product qualifier,5-14,Reserved,,,,,Operational
 008070,Vertical sounding product qualifier,15,Missing value,,,,,Operational
+008071,Type of cost estimation,0,First guess,,,,,Operational
+008071,Type of cost estimation,1,Y vector,,,,,Operational
+008071,Type of cost estimation,2,X vector,,,,,Operational
+008071,Type of cost estimation,3-6,Reserved,,,,,Operational
+008071,Type of cost estimation,7,Missing,,,,,Operational
 008072,Pixel(s) type,0,Mixed,,,,,Operational
 008072,Pixel(s) type,1,Clear,,,,,Operational
 008072,Pixel(s) type,2,Cloudy,,,,,Operational
 008072,Pixel(s) type,3,Probably clear,,,,,Operational
 008072,Pixel(s) type,4,Probably cloudy,,,,,Operational
-008072,Pixel(s) type,5-6,Reserved,,,,,Operational
+008072,Pixel(s) type,5,Ash,,,,,Operational
+008072,Pixel(s) type,6,Reserved,,,,,Operational
 008072,Pixel(s) type,7,Missing value,,,,,Operational
 008074,Altimeter echo type,0,Open ocean or semi-enclosed sea,,,,,Operational
 008074,Altimeter echo type,1,Non-ocean like,,,,,Operational
@@ -591,7 +611,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008080,Qualifier for GTSPP quality flag,16,Dissolved oxygen at a level,,,,,Operational
 008080,Qualifier for GTSPP quality flag,17-19,Reserved,,,,,Operational
 008080,Qualifier for GTSPP quality flag,20,Position,,,,,Operational
-008080,Qualifier for GTSPP quality flag,21-24,Reserved,,,,,Operational
+008080,Qualifier for GTSPP quality flag,21,Chlorophyll-A at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,22,Nitrate at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,23,pH at a level,,,,,Operational
+008080,Qualifier for GTSPP quality flag,24,BBP700 at a level,,,,,Operational
 008080,Qualifier for GTSPP quality flag,25,Water conductivity at a level,,,,,Operational
 008080,Qualifier for GTSPP quality flag,26,Sea water potential density referenced to sea surface at a level,,,,,Operational
 008080,Qualifier for GTSPP quality flag,27-62,Reserved,,,,,Operational

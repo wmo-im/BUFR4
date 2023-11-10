@@ -41,6 +41,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008042,Extended vertical sounding significance,Flag table,0,0,18,Flag table,0,6,,,Operational
 08,Significance qualifiers,008043,Atmospheric chemical or physical constituent type,Code table,0,0,8,Code table,0,3,(see Note 7),169,Operational
 08,Significance qualifiers,008044,CAS registry number,CCITT IA5,0,0,88,Character,0,11,,,Operational
+08,Significance qualifiers,008045,Character of particulate matter,Code table,0,0,8,Character,0,2,,,Operational
 08,Significance qualifiers,008046,Atmospheric chemical or physical constituent type,Common Code table C-14,0,0,16,Common Code table C-14,0,5,,,Operational
 08,Significance qualifiers,008049,Number of observations,Numeric,0,0,8,Numeric,0,3,,,Operational
 08,Significance qualifiers,008050,Qualifier for number of missing values in calculation of statistic,Code table,0,0,4,Code table,0,2,,,Operational
@@ -52,6 +53,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008065,Sun-glint indicator,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008066,Semi-transparency indicator,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008070,Vertical sounding product qualifier,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008071,Type of cost estimation,Code table,0,0,3,Code table,0,1,,,Operational
 08,Significance qualifiers,008072,Pixel(s) type,Code table,0,0,3,Code table,0,1,,,Operational
 08,Significance qualifiers,008074,Altimeter echo type,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008075,Ascending/descending orbit qualifier,Code table,0,0,2,Code table,0,1,,,Operational

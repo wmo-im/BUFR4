@@ -41,7 +41,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002006,Upper Air Remote Sensing Instrument Type,5,Sodar wind profiler,,,,,Operational
 002006,Upper Air Remote Sensing Instrument Type,6,Wind profiler,,,,,Operational
 002006,Upper Air Remote Sensing Instrument Type,7,Lidar,,,,,Operational
-002006,Upper Air Remote Sensing Instrument Type,8-62,Reserved,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,8,Ground-based microwave radiometer,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,9,Differential absorption lidar,,,,,Operational
+002006,Upper Air Remote Sensing Instrument Type,10-62,Reserved,,,,,Operational
 002006,Upper Air Remote Sensing Instrument Type,63,Missing value,,,,,Operational
 002007,Type of sensor for water level measuring instrument,0,Reserved,,,,,Operational
 002007,Type of sensor for water level measuring instrument,1,Shaft encoder float system,,,,,Operational
@@ -63,6 +65,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002008,Type of offshore platform,5,Light vessel,,,,,Operational
 002008,Type of offshore platform,6-14,Reserved,,,,,Operational
 002008,Type of offshore platform,15,Missing value,,,,,Operational
+002009,MODIS aerosol algorithm,0,Land corrected reflectances,,,,,Operational
+002009,MODIS aerosol algorithm,1,Ocean best solution,,,,,Operational
+002009,MODIS aerosol algorithm,2,Ocean average solution,,,,,Operational
+002009,MODIS aerosol algorithm,3-14,Reserved,,,,,Operational
+002009,MODIS aerosol algorithm,15,Missing value,,,,,Operational
 002011,Radiosonde type,,,,,,,Operational
 002012,Radiosonde computational method,,,,,,,Operational
 002013,Solar and infrared radiation correction,0,No correction,,,,,Operational
