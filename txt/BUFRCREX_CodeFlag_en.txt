@@ -5698,7 +5698,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040028,GMI quality flag,15,Missing value (no quality information available),,,,,Operational
 040036,Lidar L2b classification type,0,Clear,,,,,Operational
 040036,Lidar L2b classification type,1,Cloud,,,,,Operational
-040036,Lidar L2b classification type,2-14,Reserved,,,,,Operational
+040036,Lidar L2b classification type,2,Aerosol,,,,,Operational
+040036,Lidar L2b classification type,3,Attenuated,,,,,Operational
+040036,Lidar L2b classification type,4,Surface,,,,,Operational
+040036,Lidar L2b classification type,5-14,Reserved,,,,,Operational
 040036,Lidar L2b classification type,15,Missing value,,,,,Operational
 040043,Satellite manoeuvre indicator,0,The platform is not undergoing a manoeuvre,,,,,Operational
 040043,Satellite manoeuvre indicator,1,"The platform is undergoing a manoeuvre, nominal processing",,,,,Operational
