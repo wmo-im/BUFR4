@@ -43,7 +43,6 @@ noteID,note,tableAssociation
 43,Separation of single level satellite data into sets of BUFR messages helps compression and results inefficient data transmission and storage.,12
 44,Sequence 3 09 030 is deprecated because of incorrect usage of descriptor 0 04 015; sequence 3 09 031 should be used instead.,
 45,"Some types of stations do not have the ability to identify the surface condition accurately. They can only report conditions such as ""not dry"" or ""glazed"". The code table for road surface conditions has been adjusted accordingly.",
-46,The encryption keys will be managed by the Joint WMO/IOC Technical Commission for Oceanography and Marine Meteorology Focal Point on Ship Masking.,
 47,The Height descriptor 0 07 007 and the Latitude/longitude descriptor 3 01 021 indicate the altitude above sea level and the horizontal position of each vertical bin of the profile measurement and not the location of the instrument itself (which is encoded in the preceding Common header sequence 3 01 132).,
 48,The latitude and longitude descriptors 0 05 001 and 0 06 001 indicate the position of the instrument and not the measurement itself (which is separately encoded in the associated data sequence).,
 49,The majority of stations has only one position on the road and one subsurface temperature sensor. Delayed Replications have been introduced to increase flexibility and volume efficiency.,
