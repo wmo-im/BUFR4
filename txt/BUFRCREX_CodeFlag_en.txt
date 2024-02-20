@@ -5847,6 +5847,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040074,General interferometry quality flags,10,Telemetry package flag,,,,,Operational
 040074,General interferometry quality flags,11-15,Reserved,,,,,Operational
 040074,General interferometry quality flags,All 16,Missing value,,,,,Operational
+040077,Ocean product quality flag,1,Sea surface temperature not OK,,,,,Operational
+040077,Ocean product quality flag,2,Sea surface wind speed not OK,,,,,Operational
+040077,Ocean product quality flag,3,Atmospheric water vapour content not OK,,,,,Operational
+040077,Ocean product quality flag,4,Cloud liquid water content not OK,,,,,Operational
+040077,Ocean product quality flag,5-7,Reserved,,,,,Operational
+040077,Ocean product quality flag,All 8,Missing value,,,,,Operational
 040080,Cloud test results for IASI-NG level 2,1,Thin cirrus detection executed,,,,,Operational
 040080,Cloud test results for IASI-NG level 2,2,Thin cirrus detection indicates a cloud,,,,,Operational
 040080,Cloud test results for IASI-NG level 2,3,Aerosol dust detection executed,,,,,Operational
