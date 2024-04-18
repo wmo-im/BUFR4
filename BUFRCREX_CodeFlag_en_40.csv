@@ -83,7 +83,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040028,GMI quality flag,15,Missing value (no quality information available),,,,,Operational
 040036,Lidar L2b classification type,0,Clear,,,,,Operational
 040036,Lidar L2b classification type,1,Cloud,,,,,Operational
-040036,Lidar L2b classification type,2-14,Reserved,,,,,Operational
+040036,Lidar L2b classification type,2,Aerosol,,,,,Operational
+040036,Lidar L2b classification type,3,Attenuated,,,,,Operational
+040036,Lidar L2b classification type,4,Surface,,,,,Operational
+040036,Lidar L2b classification type,5-14,Reserved,,,,,Operational
 040036,Lidar L2b classification type,15,Missing value,,,,,Operational
 040043,Satellite manoeuvre indicator,0,The platform is not undergoing a manoeuvre,,,,,Operational
 040043,Satellite manoeuvre indicator,1,"The platform is undergoing a manoeuvre, nominal processing",,,,,Operational
@@ -231,6 +234,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040074,General interferometry quality flags,10,Telemetry package flag,,,,,Operational
 040074,General interferometry quality flags,11-15,Reserved,,,,,Operational
 040074,General interferometry quality flags,All 16,Missing value,,,,,Operational
+040077,Ocean product quality flag,1,Sea surface temperature not OK,,,,,Operational
+040077,Ocean product quality flag,2,Sea surface wind speed not OK,,,,,Operational
+040077,Ocean product quality flag,3,Atmospheric water vapour content not OK,,,,,Operational
+040077,Ocean product quality flag,4,Cloud liquid water content not OK,,,,,Operational
+040077,Ocean product quality flag,5-7,Reserved,,,,,Operational
+040077,Ocean product quality flag,All 8,Missing value,,,,,Operational
 040080,Cloud test results for IASI-NG level 2,1,Thin cirrus detection executed,,,,,Operational
 040080,Cloud test results for IASI-NG level 2,2,Thin cirrus detection indicates a cloud,,,,,Operational
 040080,Cloud test results for IASI-NG level 2,3,Aerosol dust detection executed,,,,,Operational
