@@ -21,7 +21,14 @@ jobs:
         ls xml
         git config --global user.email "efucile@wmo.int"
         git config --global user.name "Enrico Fucile"
-        git branch 
-        git add .
-        git commit -m "xml,txt files" -a
-        git push
+        git branch
+        # Use of status --pocelain to check if files have been changed or not
+        # If changes commit and push
+        if [[ `git status --porcelain` ]]; then
+          git add .
+          git commit -m "xml,txt files" -a
+          git push
+        # if not, only print a message saying not commit
+        else
+          echo "No changes to commit"
+        fi
