@@ -85,6 +85,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001126,WIGOS issuer of identifier,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001127,WIGOS issue number,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
+01,Identification,001130,Storm identifier (long),CCITT IA5,0,0,32,Character,0,16,,,Operational
 01,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
 01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,(see Note 19),185,Operational
 01,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
