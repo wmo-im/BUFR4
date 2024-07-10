@@ -2169,6 +2169,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008054,Qualifier for wind speed or wind gusts,1,Wind speed is greater than that reported (P in METAR/TAF/SPECI),,,,,Operational
 008054,Qualifier for wind speed or wind gusts,2-6,Reserved,,,,,Operational
 008054,Qualifier for wind speed or wind gusts,7,Missing value,,,,,Operational
+008055,Method used to calculate the average wind components after removing vortex,0,Calculate the area average of the u and v components at pressure levels from 0 to 500km centred on the surface vortex position,,,,,Operational
+008055,Method used to calculate the average wind components after removing vortex,1,Calculate the area average of the u and v components at pressure levels from 0 to radius greater than 500km centred on the surface vortex position,,,,,Operational
+008055,Method used to calculate the average wind components after removing vortex,2-14,Reserved,,,,,Operational
+008055,Method used to calculate the average wind components after removing vortex,15,Missing value,,,,,Operational
 008060,Sample scanning mode significance,0,Reserved,,,,,Operational
 008060,Sample scanning mode significance,1,Range,,,,,Operational
 008060,Sample scanning mode significance,2,Azimuth,,,,,Operational
