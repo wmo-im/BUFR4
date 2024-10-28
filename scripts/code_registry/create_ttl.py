@@ -334,12 +334,23 @@ for XX in BUFR_B_CLASSES:
                     note = notes["CodeFlag"][nid]
                     applicable_notes.append(note)
 
+            label = f"{row.get('EntryName_en')}"
+            description = f"{row.get('EntryName_en')}"
+            # check if additional names
+            if row.get('EntryName_sub1_en','') != '':
+                description += f'; {row.get("EntryName_sub1_en")}'
+                label = cf # if additional sub names the element name is not always unique, fall back to code figure
+                assert description != label
+            if row.get('EntryName_sub2_en','') != '':
+                description += f'; {row.get("EntryName_sub2_en")}'
+
             item = {
                         'code_figure': cf,
-                        'label': row.get('EntryName_en'),
-                        'description': row.get('EntryName_en'),
+                        'label': label,
+                        'description': description,
                         'notes': applicable_notes
                     }
+
             if fxy in code_tables:
                 code_tables[fxy]['items'].append(item)
             else:
@@ -382,7 +393,7 @@ for XX in BUFR_B_CLASSES:
                         'attribute': SKOS.note,
                         'value': Literal(note, lang="en")
                     })
-                create_object(register, _id, item['label'], item['label'], cf, properties)
+                create_object(register, _id, item['label'], item['description'], cf, properties)
                 turtle_file = BASEPATH / "ttl" / "code_tables" / "0" / f"{xx}" / f"{yyy}" / f"{cf}.ttl"
                 turtle_file.parent.mkdir(parents=True, exist_ok=True)
                 register.serialize(destination=turtle_file)
