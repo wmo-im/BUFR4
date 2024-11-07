@@ -109,6 +109,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001126,WIGOS issuer of identifier,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001127,WIGOS issue number,Numeric,0,0,16,Numeric,0,5,,,Operational
 01,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
+01,Identification,001130,Storm identifier (long),CCITT IA5,0,0,32,,,,,,Operational
 01,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
 01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,(see Note 19),185,Operational
 01,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
@@ -503,6 +504,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008052,Condition for which number of days of occurrence follows,Code table,0,0,5,Code table,0,2,,,Operational
 08,Significance qualifiers,008053,Day of occurrence qualifier,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008054,Qualifier for wind speed or wind gusts,Code table,0,0,3,Code table,0,1,,,Operational
+08,Significance qualifiers,008055,Method used to calculate the average wind components after removing vortex,Code table,0,0,4,,,,,,Operational
 08,Significance qualifiers,008060,Sample scanning mode significance,Code table,0,0,4,Code table,0,2,,,Operational
 08,Significance qualifiers,008065,Sun-glint indicator,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008066,Semi-transparency indicator,Code table,0,0,2,Code table,0,1,,,Operational
@@ -605,6 +607,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 11,Wind and turbulence,011021,Relative vorticity,/s,9,-65536,17,/s,9,6,,,Operational
 11,Wind and turbulence,011022,Divergence,/s,9,-65536,17,/s,9,6,,,Operational
 11,Wind and turbulence,011023,Velocity potential,m2/s,-2,-65536,17,m2/s,-2,6,,,Operational
+11,Wind and turbulence,011024,Average u-component after the vortex removal,m/s,1,-4096,13,m/s,0,0,,,Operational
+11,Wind and turbulence,011025,Average v-component after the vortex removal,m/s,1,-4096,13,m/s,0,0,,,Operational
 11,Wind and turbulence,011030,Extended degree of turbulence,Code table,0,0,6,Code table,0,2,,,Operational
 11,Wind and turbulence,011031,Degree of turbulence,Code table,0,0,4,Code table,0,2,,,Operational
 11,Wind and turbulence,011032,Height of base of turbulence,m,-1,-40,16,m,-1,5,,,Operational

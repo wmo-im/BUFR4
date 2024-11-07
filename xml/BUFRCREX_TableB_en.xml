@@ -1581,6 +1581,17 @@
   <BUFRCREX_TableB_en>
     <ClassNo>01</ClassNo>
     <ClassName_en>Identification</ClassName_en>
+    <FXY>001130</FXY>
+    <ElementName_en>Storm identifier (long)</ElementName_en>
+    <BUFR_Unit>CCITT IA5</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>32</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>01</ClassNo>
+    <ClassName_en>Identification</ClassName_en>
     <FXY>001144</FXY>
     <ElementName_en>Snapshot identifier</ElementName_en>
     <BUFR_Unit>Numeric</BUFR_Unit>
@@ -7143,6 +7154,17 @@
   <BUFRCREX_TableB_en>
     <ClassNo>08</ClassNo>
     <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008055</FXY>
+    <ElementName_en>Method used to calculate the average wind components after removing vortex</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008060</FXY>
     <ElementName_en>Sample scanning mode significance</ElementName_en>
     <BUFR_Unit>Code table</BUFR_Unit>
@@ -8574,6 +8596,34 @@
     <CREX_Unit>m2/s</CREX_Unit>
     <CREX_Scale>-2</CREX_Scale>
     <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>11</ClassNo>
+    <ClassName_en>Wind and turbulence</ClassName_en>
+    <FXY>011024</FXY>
+    <ElementName_en>Average u-component after the vortex removal</ElementName_en>
+    <BUFR_Unit>m/s</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>-4096</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>13</BUFR_DataWidth_Bits>
+    <CREX_Unit>m/s</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>0</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>11</ClassNo>
+    <ClassName_en>Wind and turbulence</ClassName_en>
+    <FXY>011025</FXY>
+    <ElementName_en>Average v-component after the vortex removal</ElementName_en>
+    <BUFR_Unit>m/s</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>-4096</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>13</BUFR_DataWidth_Bits>
+    <CREX_Unit>m/s</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>0</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
