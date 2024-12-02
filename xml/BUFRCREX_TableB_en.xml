@@ -6230,6 +6230,19 @@
   <BUFRCREX_TableB_en>
     <ClassNo>07</ClassNo>
     <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007034</FXY>
+    <ElementName_en>Vertical distance of sensor</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-65000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>17</BUFR_DataWidth_Bits>
+    <Note_en>(see Note 198)</Note_en>
+    <noteIDs>198</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
     <FXY>007035</FXY>
     <ElementName_en>Maximum size of z-dimension</ElementName_en>
     <BUFR_Unit>Numeric</BUFR_Unit>
@@ -10361,6 +10374,17 @@
   <BUFRCREX_TableB_en>
     <ClassNo>12</ClassNo>
     <ClassName_en>Temperature</ClassName_en>
+    <FXY>012133</FXY>
+    <ElementName_en>Ice temperature</ElementName_en>
+    <BUFR_Unit>K</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>12</ClassNo>
+    <ClassName_en>Temperature</ClassName_en>
     <FXY>012151</FXY>
     <ElementName_en>Standard deviation of daily mean temperature</ElementName_en>
     <BUFR_Unit>K</BUFR_Unit>
@@ -11746,6 +11770,19 @@
     <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
     <Note_en>(see Note 10)</Note_en>
     <noteIDs>41</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013119</FXY>
+    <ElementName_en>Snow depth</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>-10000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <Note_en>(see Note 198)</Note_en>
+    <noteIDs>198</noteIDs>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
