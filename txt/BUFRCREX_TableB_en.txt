@@ -480,6 +480,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008024,Difference statistics,Code table,0,0,6,Code table,0,2,(see Note 4),61,Operational
 08,Significance qualifiers,008025,Time difference qualifier,Code table,0,0,4,Code table,0,2,(see Note 5),49,Operational
 08,Significance qualifiers,008026,Matrix significance,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008027,Type of sea surface height anomaly measurement,Code table,0,0,8,,,,,,Operational
 08,Significance qualifiers,008029,Surface type,Code table,0,0,8,Code table,0,3,,,Operational
 08,Significance qualifiers,008030,"Manual on Codes (Volume I.1, Section C) Code table from which data are derived",Numeric,0,0,13,Numeric,0,4,,,Operational
 08,Significance qualifiers,008031,Data category - CREX table A,Numeric,0,0,8,Numeric,0,3,,,Operational
@@ -1124,6 +1125,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021017,Doppler velocity spectral width,m/s,1,0,8,m/s,1,3,,,Operational
 21,Radar data,021018,Extended NYQUIST velocity,m/s,1,0,10,m/s,1,4,,,Operational
 21,Radar data,021019,High NYQUIST velocity,m/s,1,0,10,m/s,1,3,,,Operational
+21,Radar data,021020,Dynamic atmospheric correction,Numeric,-65536,3,17,,,,,,Operational
 21,Radar data,021021,Echo tops,m,-3,0,4,m,-3,2,,,Operational
 21,Radar data,021022,Range bin offset,m,1,0,14,m,1,5,,,Operational
 21,Radar data,021023,Range bin size,m,0,0,14,m,0,5,,,Operational
