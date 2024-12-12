@@ -4,12 +4,12 @@ title: "[Enter table name, number and a very brief description of change]"
 body:
   - type: markdown
     attributes:
-      value: The content in this issue, excluding the initial request, will be kept up to date during the drafting of the proposal. Please pay attention to accuracy, spelling and grammar as it may be referenced in an official document for WMO adoption. 
+      value: The content in this issue, excluding the introduction section, will be kept up to date during the drafting of the proposal. Please pay attention to accuracy, spelling and grammar as it may be referenced in an official document for WMO adoption. 
   - type: textarea
-    id: initial-request
+    id: introduction
     attributes:
-      label: Initial request
-      description: Overview description of the amendment(s) requested. Include as much relevant information possible, such as rationale, purpose, and implementation plans. *This field should only be edited by the requestor.*
+      label: Introduction
+      description: Brief overview description of the amendment(s) requested. Include as much relevant information possible, such as rationale, purpose, and implementation plans. *This field should only be edited by the requestor.*
       placeholder: Enter summary of request for amendment(s).
     validations:
       required: true
@@ -70,10 +70,4 @@ body:
     attributes:
       label: References
       description: Other publications, websites or resources that were reviewed during the drafting of the proposal.
-      placeholder: Enter references reviewed. 
-  - type: textarea
-    id: validation
-    attributes:
-      label: Validation
-      description: Details of validation, if applicable.  
-      placeholder: Enter if validation was performed.
+      placeholder: Enter references reviewed.
