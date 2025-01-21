@@ -6814,6 +6814,17 @@
   <BUFRCREX_TableB_en>
     <ClassNo>08</ClassNo>
     <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008027</FXY>
+    <ElementName_en>Type of sea-surface height anomaly measurement</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008029</FXY>
     <ElementName_en>Surface type</ElementName_en>
     <BUFR_Unit>Code table</BUFR_Unit>
@@ -15978,6 +15989,17 @@
     <CREX_Unit>m/s</CREX_Unit>
     <CREX_Scale>1</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021020</FXY>
+    <ElementName_en>Dynamic atmospheric correction</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>-65536</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>17</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
