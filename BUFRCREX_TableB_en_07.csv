@@ -19,6 +19,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 07,Location (vertical),007031,Height of barometer above mean sea level,m,1,-4000,17,m,1,5,(see Note 4),84,Operational
 07,Location (vertical),007032,Height of sensor above local ground (or deck of marine platform),m,2,0,16,m,2,5,(see Note 5),85,Operational
 07,Location (vertical),007033,Height of sensor above water surface,m,1,0,12,m,1,4,(see Note 6),86,Operational
+07,Location (vertical),007034,Vertical distance of sensor,m,2,-65000,17,,,,(see Note 9),198a,Operational
 07,Location (vertical),007035,Maximum size of z-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
 07,Location (vertical),007036,Level index of z,Numeric,0,0,12,Numeric,0,4,,,Operational
 07,Location (vertical),007040,Impact parameter,m,1,62000000,22,m,1,8,(see Note 7),74,Operational

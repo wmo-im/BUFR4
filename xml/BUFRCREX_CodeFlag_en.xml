@@ -13477,6 +13477,34 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>008027</FXY>
+    <ElementName_en>Type of sea-surface height anomaly measurement</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Unfiltered raw measurement including noises</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008027</FXY>
+    <ElementName_en>Type of sea-surface height anomaly measurement</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Low pass filtered sea-surface height for noise reduction</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008027</FXY>
+    <ElementName_en>Type of sea-surface height anomaly measurement</ElementName_en>
+    <CodeFigure>2-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008027</FXY>
+    <ElementName_en>Type of sea-surface height anomaly measurement</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>008029</FXY>
     <ElementName_en>Surface type</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -41416,6 +41444,111 @@
     <FXY>040080</FXY>
     <ElementName_en>Cloud test results for IASI-NG level 2</ElementName_en>
     <CodeFigure>All 5</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>1-17</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>Land</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>Coastline</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Fresh inland water</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>Tidal regions</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>Preliminary cloud</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>Stray light risk</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>Invalid</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Cosmetic</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>Duplicated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>Sun glint risk</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>Dubious</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>Saturated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>Partly saturated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <CodeFigure>All 31</CodeFigure>
     <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>

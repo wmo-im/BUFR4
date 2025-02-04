@@ -1916,6 +1916,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008026,Matrix significance,4-42,Reserved,,,,,Operational
 008026,Matrix significance,43-62,Reserved for local use,,,,,Operational
 008026,Matrix significance,63,Missing or undefined significance,,,,,Operational
+008027,Type of sea-surface height anomaly measurement,0,Unfiltered raw measurement including noises,,,,,Operational
+008027,Type of sea-surface height anomaly measurement,1,Low pass filtered sea-surface height for noise reduction,,,,,Operational
+008027,Type of sea-surface height anomaly measurement,2-254,Reserved,,,,,Operational
+008027,Type of sea-surface height anomaly measurement,255,Missing value,,,,,Operational
 008029,Surface type,0,Open ocean or semi-enclosed sea,,,,,Operational
 008029,Surface type,1,Enclosed sea or lake,,,,,Operational
 008029,Surface type,2,Continental ice,,,,,Operational
@@ -5867,6 +5871,21 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 040080,Cloud test results for IASI-NG level 2,3,Aerosol dust detection executed,,,,,Operational
 040080,Cloud test results for IASI-NG level 2,4,Aerosol dust detected,,,,,Operational
 040080,Cloud test results for IASI-NG level 2,All 5,Missing,,,,,Operational
+040081,OLCI Level 1 classification and quality,1-17,Reserved,,,,,Operational
+040081,OLCI Level 1 classification and quality,18,Land,,,,,Operational
+040081,OLCI Level 1 classification and quality,19,Coastline,,,,,Operational
+040081,OLCI Level 1 classification and quality,20,Fresh inland water,,,,,Operational
+040081,OLCI Level 1 classification and quality,21,Tidal regions,,,,,Operational
+040081,OLCI Level 1 classification and quality,22,Preliminary cloud,,,,,Operational
+040081,OLCI Level 1 classification and quality,23,Stray light risk,,,,,Operational
+040081,OLCI Level 1 classification and quality,24,Invalid,,,,,Operational
+040081,OLCI Level 1 classification and quality,25,Cosmetic,,,,,Operational
+040081,OLCI Level 1 classification and quality,26,Duplicated,,,,,Operational
+040081,OLCI Level 1 classification and quality,27,Sun glint risk,,,,,Operational
+040081,OLCI Level 1 classification and quality,28,Dubious,,,,,Operational
+040081,OLCI Level 1 classification and quality,29,Saturated,,,,,Operational
+040081,OLCI Level 1 classification and quality,30,Partly saturated,,,,,Operational
+040081,OLCI Level 1 classification and quality,All 31,Missing,,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,0,Wave direction resolved,,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,1,180-degree ambiguity not resolved,,,,,Operational
 042004,Confidence of inversion for each partition of swell wave spectra,2-14,Reserved,,,,,Operational

@@ -439,6 +439,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 07,Location (vertical),007031,Height of barometer above mean sea level,m,1,-4000,17,m,1,5,(see Note 4),84,Operational
 07,Location (vertical),007032,Height of sensor above local ground (or deck of marine platform),m,2,0,16,m,2,5,(see Note 5),85,Operational
 07,Location (vertical),007033,Height of sensor above water surface,m,1,0,12,m,1,4,(see Note 6),86,Operational
+07,Location (vertical),007034,Vertical distance of sensor,m,2,-65000,17,,,,(see Note 9),198a,Operational
 07,Location (vertical),007035,Maximum size of z-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
 07,Location (vertical),007036,Level index of z,Numeric,0,0,12,Numeric,0,4,,,Operational
 07,Location (vertical),007040,Impact parameter,m,1,62000000,22,m,1,8,(see Note 7),74,Operational
@@ -480,6 +481,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008024,Difference statistics,Code table,0,0,6,Code table,0,2,(see Note 4),61,Operational
 08,Significance qualifiers,008025,Time difference qualifier,Code table,0,0,4,Code table,0,2,(see Note 5),49,Operational
 08,Significance qualifiers,008026,Matrix significance,Code table,0,0,6,Code table,0,2,,,Operational
+08,Significance qualifiers,008027,Type of sea-surface height anomaly measurement,Code table,0,0,8,,,,,,Operational
 08,Significance qualifiers,008029,Surface type,Code table,0,0,8,Code table,0,3,,,Operational
 08,Significance qualifiers,008030,"Manual on Codes (Volume I.1, Section C) Code table from which data are derived",Numeric,0,0,13,Numeric,0,4,,,Operational
 08,Significance qualifiers,008031,Data category - CREX table A,Numeric,0,0,8,Numeric,0,3,,,Operational
@@ -732,6 +734,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 12,Temperature,012130,Soil temperature,K,2,0,16,C,2,4,,,Operational
 12,Temperature,012131,Snow temperature,K,2,0,16,C,2,4,,,Operational
 12,Temperature,012132,Ice surface temperature,K,2,0,16,C,2,4,,,Operational
+12,Temperature,012133,Ice temperature,K,2,0,16,,,,,,Operational
 12,Temperature,012151,Standard deviation of daily mean temperature,K,2,0,12,C,2,4,,,Operational
 12,Temperature,012152,Highest daily mean temperature,K,2,0,16,C,2,4,,,Operational
 12,Temperature,012153,Lowest daily mean temperature,K,2,0,16,C,2,4,,,Operational
@@ -830,8 +833,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 13,Hydrographic and hydrological elements,013116,Water film thickness,m,4,0,10,m,3,2,,,Operational
 13,Hydrographic and hydrological elements,013117,Snow density (liquid water content),kg m-3,0,0,10,kg m-3,0,3,,,Operational
 13,Hydrographic and hydrological elements,013118,Depth of fresh snow (high accuracy),m,3,-2,14,m,3,5,(see Note 10),41,Operational
+13,Hydrographic and hydrological elements,013119,Snow depth,m,3,-10000,15,,,,(see Note 18),198b,Operational
 13,Hydrographic and hydrological elements,013155,Intensity of precipitation (high accuracy),kg m-2 s-1,5,-1,16,mm/h,2,5,(see Note 8),28,Operational
 13,Hydrographic and hydrological elements,013160,Radiometer liquid content,kg m-2,2,-350,10,kg m-2,2,3,,,Operational
+13,Hydrographic and hydrological elements,013161,Most unstable CAPE (convective available potential energy),J/kg,0,0,14,,,,,,Operational
 13,Hydrographic and hydrological elements,013162,Cloud liquid water,kg m-2,2,0,8,kg m-2,2,3,,,Operational
 13,Hydrographic and hydrological elements,013163,Snow water equivalent,kg m-2,0,0,16,kg m-2,0,5,,,Operational
 13,Hydrographic and hydrological elements,013164,Sea ice freeboard,m,3,-131072,18,m,3,6,,,Operational
@@ -1124,6 +1129,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021017,Doppler velocity spectral width,m/s,1,0,8,m/s,1,3,,,Operational
 21,Radar data,021018,Extended NYQUIST velocity,m/s,1,0,10,m/s,1,4,,,Operational
 21,Radar data,021019,High NYQUIST velocity,m/s,1,0,10,m/s,1,3,,,Operational
+21,Radar data,021020,Dynamic atmospheric correction,Numeric,3,-65536,17,,,,,,Operational
 21,Radar data,021021,Echo tops,m,-3,0,4,m,-3,2,,,Operational
 21,Radar data,021022,Range bin offset,m,1,0,14,m,1,5,,,Operational
 21,Radar data,021023,Range bin size,m,0,0,14,m,0,5,,,Operational
@@ -1811,6 +1817,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 40,Satellite data,040076,Retrieval error covariance matrix for temperature in principal component domain,Numeric,0,0,21,Numeric,0,7,,,Operational
 40,Satellite data,040077,Ocean product quality flag,Flag table,0,0,8,Flag table,0,3,,,Operational
 40,Satellite data,040080,Cloud test results for IASI-NG level 2,Flag table,0,0,5,Flag table,0,2,,,Operational
+40,Satellite data,040081,OLCI Level 1 classification and quality,Flag table,0,0,31,,,,,,Operational
 41,Oceanographic/biogeochemical parameters,041001,pCO2,Pa,3,0,18,Pa,3,6,,,Operational
 41,Oceanographic/biogeochemical parameters,041002,Fluorescence,kg l-1,12,0,16,kg l-1,12,5,,,Operational
 41,Oceanographic/biogeochemical parameters,041003,Dissolved nitrates,umol kg-1,3,0,17,umol kg-1,3,5,,,Operational

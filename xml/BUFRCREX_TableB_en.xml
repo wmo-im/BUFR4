@@ -6230,6 +6230,19 @@
   <BUFRCREX_TableB_en>
     <ClassNo>07</ClassNo>
     <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007034</FXY>
+    <ElementName_en>Vertical distance of sensor</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>-65000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>17</BUFR_DataWidth_Bits>
+    <Note_en>(see Note 9)</Note_en>
+    <noteIDs>198a</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
     <FXY>007035</FXY>
     <ElementName_en>Maximum size of z-dimension</ElementName_en>
     <BUFR_Unit>Numeric</BUFR_Unit>
@@ -6809,6 +6822,17 @@
     <CREX_Unit>Code table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008027</FXY>
+    <ElementName_en>Type of sea-surface height anomaly measurement</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -10361,6 +10385,17 @@
   <BUFRCREX_TableB_en>
     <ClassNo>12</ClassNo>
     <ClassName_en>Temperature</ClassName_en>
+    <FXY>012133</FXY>
+    <ElementName_en>Ice temperature</ElementName_en>
+    <BUFR_Unit>K</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>12</ClassNo>
+    <ClassName_en>Temperature</ClassName_en>
     <FXY>012151</FXY>
     <ElementName_en>Standard deviation of daily mean temperature</ElementName_en>
     <BUFR_Unit>K</BUFR_Unit>
@@ -11751,6 +11786,19 @@
   <BUFRCREX_TableB_en>
     <ClassNo>13</ClassNo>
     <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013119</FXY>
+    <ElementName_en>Snow depth</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>-10000</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>15</BUFR_DataWidth_Bits>
+    <Note_en>(see Note 18)</Note_en>
+    <noteIDs>198b</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
     <FXY>013155</FXY>
     <ElementName_en>Intensity of precipitation (high accuracy)</ElementName_en>
     <BUFR_Unit>kg m-2 s-1</BUFR_Unit>
@@ -11776,6 +11824,17 @@
     <CREX_Unit>kg m-2</CREX_Unit>
     <CREX_Scale>2</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>13</ClassNo>
+    <ClassName_en>Hydrographic and hydrological elements</ClassName_en>
+    <FXY>013161</FXY>
+    <ElementName_en>Most unstable CAPE (convective available potential energy)</ElementName_en>
+    <BUFR_Unit>J/kg</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -15978,6 +16037,17 @@
     <CREX_Unit>m/s</CREX_Unit>
     <CREX_Scale>1</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021020</FXY>
+    <ElementName_en>Dynamic atmospheric correction</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>-65536</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>17</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -25676,6 +25746,17 @@
     <CREX_Unit>Flag table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>40</ClassNo>
+    <ClassName_en>Satellite data</ClassName_en>
+    <FXY>040081</FXY>
+    <ElementName_en>OLCI Level 1 classification and quality</ElementName_en>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>31</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
