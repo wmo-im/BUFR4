@@ -269,6 +269,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008026,Matrix significance,4-42,Reserved,,,,,Operational
 008026,Matrix significance,43-62,Reserved for local use,,,,,Operational
 008026,Matrix significance,63,Missing or undefined significance,,,,,Operational
+008027,Type of sea-surface height anomaly measurement,0,Unfiltered raw measurement including noises,,,,,Operational
+008027,Type of sea-surface height anomaly measurement,1,Low pass filtered sea-surface height for noise reduction,,,,,Operational
+008027,Type of sea-surface height anomaly measurement,2-254,Reserved,,,,,Operational
+008027,Type of sea-surface height anomaly measurement,255,Missing value,,,,,Operational
 008029,Surface type,0,Open ocean or semi-enclosed sea,,,,,Operational
 008029,Surface type,1,Enclosed sea or lake,,,,,Operational
 008029,Surface type,2,Continental ice,,,,,Operational
