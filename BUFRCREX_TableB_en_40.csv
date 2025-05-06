@@ -60,7 +60,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 40,Satellite data,040059,Number of layers actually retrieved,Numeric,0,0,8,Numeric,0,3,,,Operational
 40,Satellite data,040060,Number of profiles retrieved in scanline,Numeric,0,0,8,Numeric,0,3,,,Operational
 40,Satellite data,040061,Air partial columns on each retrieved layer,mol cm-2,3,0,16,mol cm-2,3,5,,,Operational
-40,Satellite data,040062,A-priori partial columns on each retrieved layer,mol cm-2,10,0,16,mol cm-2,10,5,,,Operational
+40,Satellite data,040062,A priori partial columns on each retrieved layer,mol cm-2,10,0,16,mol cm-2,10,5,,,Operational
 40,Satellite data,040063,Scaling vector multiplying the a priori vector in order to define the retrieved vector,Numeric,5,0,26,Numeric,5,8,,,Operational
 40,Satellite data,040064,Main eigenvalues of the sensitivity matrix,Numeric,6,0,31,Numeric,6,10,,,Operational
 40,Satellite data,040065,Main eigenvectors of the sensitivity matrix,Numeric,6,-1000000000,31,Numeric,6,10,,,Operational
@@ -77,3 +77,4 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 40,Satellite data,040076,Retrieval error covariance matrix for temperature in principal component domain,Numeric,0,0,21,Numeric,0,7,,,Operational
 40,Satellite data,040077,Ocean product quality flag,Flag table,0,0,8,Flag table,0,3,,,Operational
 40,Satellite data,040080,Cloud test results for IASI-NG level 2,Flag table,0,0,5,Flag table,0,2,,,Operational
+40,Satellite data,040081,OLCI Level 1 classification and quality,Flag table,0,0,31,,,,,,Operational
