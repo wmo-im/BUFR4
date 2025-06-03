@@ -119,9 +119,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001154,Sensor identifier,Numeric,0,0,12,Numeric,0,4,,,Operational
 01,Identification,001155,Retrieval identifier,Code table,0,0,8,Code table,0,3,,,Operational
 01,Identification,001156,Balloon flight number,CCITT IA5,0,0,64,Character,0,8,,,Operational
-01,Identification,001157,Balloon Registration number or other identification,CCITT IA5,0,0,80,0,10,,,Operational
-01,Identification,001158,Type of balloon envelope,Code table,0,0,4,Code table,0,2,,,Operational
-01,Identification,001159,Typical size of balloon envelope,m,1,0,12,m,1,4,,,Operational
+01,Identification,001157,Balloon registration number or other identification,CCITT IA5,0,0,80,,,,,,Operational
+01,Identification,001158,Type of balloon envelope,Code table,0,0,4,,,,,,Operational
+01,Identification,001159,Typical size of balloon envelope,m,1,0,12,,,,,,Operational
 02,Instrumentation,002001,Type of station,Code table,0,0,2,Code table,0,1,,,Operational
 02,Instrumentation,002002,Type of instrumentation for wind measurement,Flag table,0,0,4,Flag table,0,2,,,Operational
 02,Instrumentation,002003,Type of measuring equipment used,Code table,0,0,4,Code table,0,2,,,Operational
@@ -297,8 +297,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 02,Instrumentation,002189,Capability to discriminate lightning strikes,Flag table,0,0,12,Flag table,0,4,,,Operational
 02,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),%,0,0,7,%,0,3,,,Operational
 02,Instrumentation,002191,Geopotential height calculation,Code table,0,0,4,Code table,0,2,,,Operational
-02,Instrumentation,002192,Precision of pressure observation,Pa,2,0,14,Pa,2,5,,,Operational
-02,Instrumentation,002193,Precision of mixing ratio observation,kg/kg,6,0,14,6,6,,,Operational
+02,Instrumentation,002192,Precision of pressure observation,Pa,2,0,14,,,,,,Operational
+02,Instrumentation,002193,Precision of mixing ratio observation,kg/kg,6,0,14,,,,,,Operational
 03,Instrumentation,003001,Surface station type,Code table,0,0,5,Code table,0,2,,,Operational
 03,Instrumentation,003003,Thermometer/hygrometer housing,Code table,0,0,4,Code table,0,2,,,Operational
 03,Instrumentation,003004,Type of screen/shelter/radiation shield,Code table,0,0,4,Code table,0,2,,,Operational
@@ -461,7 +461,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 07,Location (vertical),007074,Solar elevation angle in instrument reference frame,deg,2,-9000,15,deg,2,5,,,Operational
 07,Location (vertical),007075,Scattering angle,deg,0,0,8,deg,0,3,,,Operational
 07,Location (vertical),007076,Relative azimuth angle,deg,0,0,8,deg,0,3,,,Operational
-07,Location (vertical),007077,Height of sensor with respect to station,m,0,-400,12,m,0,4,,,Operational
+07,Location (vertical),007077,Height of sensor with respect to station,m,0,-400,12,,,,,,Operational
 08,Significance qualifiers,008001,Vertical sounding significance,Flag table,0,0,7,Flag table,0,3,,,Operational
 08,Significance qualifiers,008002,Vertical significance (surface observations),Code table,0,0,6,Code table,0,2,,,Operational
 08,Significance qualifiers,008003,Vertical significance (satellite observations),Code table,0,0,6,Code table,0,2,,,Operational
@@ -543,7 +543,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008097,Method used to calculate the average instrument temperature,Code table,0,0,7,Code table,0,3,,,Operational
 08,Significance qualifiers,008098,Source of temperature measurement,Code table,0,0,4,Code table,0,2,,,Operational
 08,Significance qualifiers,008099,Sensing direction,Code table,0,0,4,Code table,0,2,,,Operational
-08,Significance qualifiers,008100,Phase of balloon flight,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008100,Phase of balloon flight,Code table,0,0,4,,,,,,Operational
 10,Non-coordinate location (vertical),010001,Height of land surface,m,0,-400,15,m,0,5,,,Operational
 10,Non-coordinate location (vertical),010002,Height,m,-1,-40,16,m,-1,5,,,Operational
 10,Non-coordinate location (vertical),010003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
