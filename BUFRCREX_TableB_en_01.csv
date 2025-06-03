@@ -95,6 +95,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001154,Sensor identifier,Numeric,0,0,12,Numeric,0,4,,,Operational
 01,Identification,001155,Retrieval identifier,Code table,0,0,8,Code table,0,3,,,Operational
 01,Identification,001156,Balloon flight number,CCITT IA5,0,0,64,Character,0,8,,,Operational
-01,Identification,001157,Balloon Registration number or other identification,CCITT IA5,0,0,80,0,10,,,Operational
-01,Identification,001158,Type of balloon envelope,Code table,0,0,4,Code table,0,2,,,Operational
-01,Identification,001159,Typical size of balloon envelope,m,1,0,12,m,1,4,,,Operational
+01,Identification,001157,Balloon registration number or other identification,CCITT IA5,0,0,80,,,,,,Operational
+01,Identification,001158,Type of balloon envelope,Code table,0,0,4,,,,,,Operational
+01,Identification,001159,Typical size of balloon envelope,m,1,0,12,,,,,,Operational
