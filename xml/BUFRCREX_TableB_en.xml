@@ -1704,6 +1704,53 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>01</ClassNo>
+    <ClassName_en>Identification</ClassName_en>
+    <FXY>001156</FXY>
+    <ElementName_en>Balloon flight number</ElementName_en>
+    <BUFR_Unit>CCITT IA5</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>64</BUFR_DataWidth_Bits>
+    <CREX_Unit>Character</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>8</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>01</ClassNo>
+    <ClassName_en>Identification</ClassName_en>
+    <FXY>001157</FXY>
+    <ElementName_en>Balloon registration number or other identification</ElementName_en>
+    <BUFR_Unit>CCITT IA5</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>80</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>01</ClassNo>
+    <ClassName_en>Identification</ClassName_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>01</ClassNo>
+    <ClassName_en>Identification</ClassName_en>
+    <FXY>001159</FXY>
+    <ElementName_en>Typical size of balloon envelope</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>1</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>12</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>02</ClassNo>
     <ClassName_en>Instrumentation</ClassName_en>
     <FXY>002001</FXY>
@@ -4166,6 +4213,28 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>02</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>002192</FXY>
+    <ElementName_en>Precision of pressure observation</ElementName_en>
+    <BUFR_Unit>Pa</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>02</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>002193</FXY>
+    <ElementName_en>Precision of mixing ratio observation</ElementName_en>
+    <BUFR_Unit>kg/kg</BUFR_Unit>
+    <BUFR_Scale>6</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>03</ClassNo>
     <ClassName_en>Instrumentation</ClassName_en>
     <FXY>003001</FXY>
@@ -6455,6 +6524,17 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>07</ClassNo>
+    <ClassName_en>Location (vertical)</ClassName_en>
+    <FXY>007077</FXY>
+    <ElementName_en>Height of sensor with respect to station</ElementName_en>
+    <BUFR_Unit>m</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>-400</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>12</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>08</ClassNo>
     <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008001</FXY>
@@ -7592,6 +7672,17 @@
     <CREX_Unit>Code table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008101</FXY>
+    <ElementName_en>Phase of balloon flight</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>

@@ -366,6 +366,14 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001155,Retrieval identifier,6,Maximum Likelihood Estimation – High horizontal resolution (MLEsub),,,,,Operational
 001155,Retrieval identifier,7-254,Reserved,,,,,Operational
 001155,Retrieval identifier,255,Missing value,,,,,Operational
+001158,Type of balloon envelope,0,Reserved,,,,,Operational
+001158,Type of balloon envelope,1,Super-Pressurized Balloon (SPB) without altitude control,,,,,Operational
+001158,Type of balloon envelope,2,SPB with altitude control,,,,,Operational
+001158,Type of balloon envelope,3,Zero-Pressure Balloon (ZPB),,,,,Operational
+001158,Type of balloon envelope,4,Infra-Red Montgolfier (IRM),,,,,Operational
+001158,Type of balloon envelope,5,Airship (Airship-shaped Balloon),,,,,Operational
+001158,Type of balloon envelope,6,Tetroon (NOAA tetraedric Balloon),,,,,Operational
+001158,Type of balloon envelope,15,Missing value,,,,,Operational
 002001,Type of station,0,Automatic,,,,,Operational
 002001,Type of station,1,Manned,,,,,Operational
 002001,Type of station,2,Hybrid: both manned and automatic,,,,,Operational
@@ -2447,6 +2455,14 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008099,Sensing direction,1,Oblique,,,,,Operational
 008099,Sensing direction,2-14,Reserved,,,,,Operational
 008099,Sensing direction,15,Missing value,,,,,Operational
+008101,Phase of balloon flight,0,Reserved,,,,,Operational
+008101,Phase of balloon flight,1,Ascent,,,,,Operational
+008101,Phase of balloon flight,2,Ceiling,,,,,Operational
+008101,Phase of balloon flight,3,Descent,,,,,Operational
+008101,Phase of balloon flight,4,Drop (falling station),,,,,Operational
+008101,Phase of balloon flight,5,Unsteady (during maneuvers),,,,,Operational
+008101,Phase of balloon flight,15,Missing,,,,,Operational
+
 010063,Characteristic of pressure tendency,0,"Increasing, then decreasing; atmospheric pressure the same or higher than three hours ago",,,,,Operational
 010063,Characteristic of pressure tendency,1,"Increasing, then steady; or increasing, then increasing more slowly",Atmospheric pressure now higher than three hours ago,,,,Operational
 010063,Characteristic of pressure tendency,2,Increasing (steadily or unsteadily),Atmospheric pressure now higher than three hours ago,,,,Operational
