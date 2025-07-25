@@ -2363,7 +2363,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008094,Method used to calculate the average daily temperature,4,Weighted average of 3 observations and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn),,,(see Note),97,Operational
 008094,Method used to calculate the average daily temperature,5,Automatic weather station complete integration from minute data,,,,,Operational
 008094,Method used to calculate the average daily temperature,6,Average of the 4 observations taken every six hours,,,,,Operational
-008094,Method used to calculate the average daily temperature,7-254,Reserved,,,,,Operational
+008094,Method used to calculate the average daily temperature,7,Average of the 144 observations taken every 10 minutes,,,,,Operational
+008094,Method used to calculate the average daily temperature,8-254,Reserved,,,,,Operational
 008094,Method used to calculate the average daily temperature,255,Missing value,,,,,Operational
 008095,Siting and measurement quality classification for temperature,0,Reserved,,,,,Operational
 008095,Siting and measurement quality classification for temperature,1,1A,,,,,Operational
