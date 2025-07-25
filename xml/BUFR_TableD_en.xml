@@ -55923,7 +55923,7 @@
     <FXY1>310085</FXY1>
     <Title_en>(IASI-NG L1C (Radiances))</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type</ElementName_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -56419,7 +56419,7 @@
     <FXY1>310086</FXY1>
     <Title_en>(IASI-NG L1D (Principal component scores))</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type</ElementName_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -58878,7 +58878,7 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>001035</FXY2>
-    <ElementName_en>Centre</ElementName_en>
+    <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59148,7 +59148,7 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>111000</FXY2>
-    <ElementName_en>Replication of 10 descriptor</ElementName_en>
+    <ElementName_en>Delayed replication of 11 descriptors</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59157,7 +59157,7 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>031002</FXY2>
-    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
+    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59202,7 +59202,7 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>031002</FXY2>
-    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
+    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59220,7 +59220,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008023</FXY2>
-    <ElementName_en>First-order statistics (4 – mean)</ElementName_en>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>= 4 Mean value</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59238,7 +59239,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008023</FXY2>
-    <ElementName_en>First-order statistics (10 – Standard deviation (N))</ElementName_en>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>= 10 Standard deviation (N)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59256,7 +59258,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008023</FXY2>
-    <ElementName_en>First-order statistics (63 – Missing value)</ElementName_en>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>= 63 Missing value</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59265,7 +59268,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type (1 – Clear)</ElementName_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
+    <ElementDescription_en>= 1 Clear</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59283,7 +59287,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type (3 – prob_clear)</ElementName_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
+    <ElementDescription_en>= 3 Probably clear</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59301,7 +59306,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type (4 – prob_cloudy)</ElementName_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
+    <ElementDescription_en>= 4 Probably cloudy</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59319,7 +59325,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type (2 – Cloudy)</ElementName_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
+    <ElementDescription_en>= 2 Cloudy</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59337,7 +59344,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type (5 – Ash)</ElementName_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
+    <ElementDescription_en>= 5 Ash</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -59355,7 +59363,8 @@
     <FXY1>310101</FXY1>
     <Title_en>(EPS-SG Common part for IAS-1D and IAS-1C New Generation)</Title_en>
     <FXY2>008072</FXY2>
-    <ElementName_en>Pixel type (7 – MISSING)</ElementName_en>
+    <ElementName_en>Pixel(s) type</ElementName_en>
+    <ElementDescription_en>= 7 Missing value</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
