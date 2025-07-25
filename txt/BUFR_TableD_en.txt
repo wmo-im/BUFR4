@@ -490,6 +490,20 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 01,Location and identification sequences,301132,(Common header sequence),,002006,Upper air remote sensing instrument type,,,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,001079,Unique identifier for the profile,,,,Operational
 01,Location and identification sequences,301132,(Common header sequence),,001085,Observing platform manufacturer's mode,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001156,Balloon flight number,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001157,Balloon registration number or other identification,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001158,Type of balloon envelope,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001159,Typical size of balloon envelope,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,008101,Phase of balloon flight,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002001,Type of station,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002003,Type of measuring equipment used,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002014,Tracking technique/status of system used,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002005,Precision of temperature observation,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002192,Precision of pressure observation,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002193,Precision of specific humidity observation,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002095,Type of pressure sensor,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002096,Type of temperature sensor,,,,Operational
+01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002097,Type of humidity sensor,,,,Operational
 01,Location and identification sequences,301150,(WIGOS identifier),,001125,WIGOS identifier series,,,,Operational
 01,Location and identification sequences,301150,(WIGOS identifier),,001126,WIGOS issuer of identifier,,,,Operational
 01,Location and identification sequences,301150,(WIGOS identifier),,001127,WIGOS issue number,,,,Operational
@@ -6477,6 +6491,63 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 11,Single level report sequences (conventional data),311013,(Uncrewed aircraft systems (UAS)),,201000,Change data width,Cancel,,,Operational
 11,Single level report sequences (conventional data),311013,(Uncrewed aircraft systems (UAS)),,011073,Turbulent kinetic energy,,,,Operational
 11,Single level report sequences (conventional data),311013,(Uncrewed aircraft systems (UAS)),,011075,Mean turbulence intensity (eddy dissipation rate),,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,301150,WIGOS identifier,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,301005,Originating centre/sub-centre,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,301134,Balloon and instrumentation information,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,301011,"Year, month, day",,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,301013,"Hour, minute, second",,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,301021,Latitude/longitude (high accuracy),,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,007007,Height,"Is derived from GNSS measurements",,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,033024,Station elevation quality mark (for mobile stations),,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,008021,Time significance,= 2 Time averaged,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,025170,Sampling interval (time),Seconds,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,004026,Time period or displacement,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,007077,Height of sensor with respect to station,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,007004,Pressure,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,010009,Geopotential height,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,008021,Time significance,= 2 Time averaged,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,025170,Sampling interval (time),Seconds,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,004026,Time period or displacement,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,007077,Height of sensor with respect to station,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,012001,Temperature/air temperature,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,008021,Time significance,= 2 Time averaged,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,025170,Sampling interval (time),Seconds,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,004026,Time period or displacement,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,007077,Height of sensor with respect to station,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,012003,Dewpoint temperature,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,201135,Change data width,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202130,Change scale,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,013003,Relative humidity,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202000,Change scale,Cancel,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,201000,Change data width,Cancel,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,201144,Change data width,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202133,Change scale,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,013002,Mixing ratio,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202000,Change scale,Cancel,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,201000,Change data width,Cancel,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,008021,Time significance,= 2 Time averaged,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,025170,Sampling interval (time),Seconds,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,004026,Time period or displacement,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,007077,Height of sensor with respect to station,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,011001,Wind direction,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,011002,Wind speed,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,008023,First-order statistics,=10 means standard-deviation (N),,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202130,Change scale,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,007004,Pressure,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202000,Change scale,Cancel,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202129,Change scale,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,012001,Temperature/air temperature,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,012003,Dewpoint temperature,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,013003,Relative humidity,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202000,Change scale,Cancel,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202132,Change scale,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,013002,Mixing ratio,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202000,Change scale,Cancel,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202129,Change scale,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,011001,Wind direction,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,011002,Wind speed,,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,202000,Change scale,Cancel,,,Operational
+11,Single level report sequences (conventional data),311014,(Template for drifting balloon systems),,008023,First-order statistics,Cancel,,,Operational
 12,Single level report sequences (satellite data),312001,,,301043,"Satellite identifier, wind computation method, date/time, location",,,,Operational
 12,Single level report sequences (satellite data),312001,,,304001,"Cloud top pressure, temperature, wind",,,,Operational
 12,Single level report sequences (satellite data),312002,,,301043,"Satellite identifier, wind computation method, date/time, location",,,,Operational
