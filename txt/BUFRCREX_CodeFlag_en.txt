@@ -958,7 +958,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002099,Polarization,1,VV polarization,,,,,Operational
 002099,Polarization,2,HV polarization real valued component,,,,,Operational
 002099,Polarization,3,HV polarization imaginary valued component,,,,,Operational
-002099,Polarization,4-6,Reserved,,,,,Operational
+002099,Polarization,4,HV polarization,,,,,Operational
+002099,Polarization,5,VH polarization,,,,,Operational
+002099,Polarization,6,Reserved,,,,,Operational
 002099,Polarization,7,Missing value,,,,,Operational
 002101,Type of antenna,0,Centre front-fed paraboloid,,,,,Operational
 002101,Type of antenna,1,Offset front-fed paraboloid,,,,,Operational
@@ -2082,7 +2084,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008041,Data significance,11,Freezing level,,,,,Operational
 008041,Data significance,12,Multiple freezing level,,,,,Operational
 008041,Data significance,13,Instrument manufacture date,,,,,Operational
-008041,Data significance,14-30,Reserved,,,,,Operational
+008041,Data significance,14,Derived from polarization,,,,,Operational
+008041,Data significance,15-30,Reserved,,,,,Operational
 008041,Data significance,31,Missing value,,,,,Operational
 008042,Extended vertical sounding significance,1,Surface,,,,,Operational
 008042,Extended vertical sounding significance,2,Standard level,,,,,Operational
