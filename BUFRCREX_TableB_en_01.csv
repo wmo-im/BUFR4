@@ -87,10 +87,14 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
 01,Identification,001130,Storm identifier (long),CCITT IA5,0,0,32,,,,,,Operational
 01,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
-01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,(see Note 19),185,Operational
+01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,(see Note 17),185,Operational
 01,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
 01,Identification,001151,Fixed mean sea-level reference datum,Code table,0,0,12,Code table,0,4,,,Operational
 01,Identification,001152,Semi-major axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
 01,Identification,001153,Semi-minor axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
 01,Identification,001154,Sensor identifier,Numeric,0,0,12,Numeric,0,4,,,Operational
 01,Identification,001155,Retrieval identifier,Code table,0,0,8,Code table,0,3,,,Operational
+01,Identification,001156,Balloon flight number,CCITT IA5,0,0,64,,,,,,Operational
+01,Identification,001157,Balloon registration number or other identification,CCITT IA5,0,0,80,,,,,,Operational
+01,Identification,001158,Type of balloon envelope,Code table,0,0,4,,,,,,Operational
+01,Identification,001159,Typical size of balloon envelope,m,1,0,12,,,,(see Note 18),195,Operational

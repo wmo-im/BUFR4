@@ -111,6 +111,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002020,Satellite classification,1,VTPR,,,,,Operational
 002020,Satellite classification,2,"Tiros 1 (Tiros, NOAA-6 to NOAA-13)",,,,,Operational
 002020,Satellite classification,3,Tiros 2 (NOAA-14 onwards),,,,,Operational
+002020,Satellite classification,4,NEON,,,,,Operational
 002020,Satellite classification,10,EOS,,,,,Operational
 002020,Satellite classification,20,GPM-core,,,,,Operational
 002020,Satellite classification,31,DMSP,,,,,Operational
@@ -582,7 +583,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002099,Polarization,1,VV polarization,,,,,Operational
 002099,Polarization,2,HV polarization real valued component,,,,,Operational
 002099,Polarization,3,HV polarization imaginary valued component,,,,,Operational
-002099,Polarization,4-6,Reserved,,,,,Operational
+002099,Polarization,4,HV polarization,,,,,Operational
+002099,Polarization,5,VH polarization,,,,,Operational
+002099,Polarization,6,Reserved,,,,,Operational
 002099,Polarization,7,Missing value,,,,,Operational
 002101,Type of antenna,0,Centre front-fed paraboloid,,,,,Operational
 002101,Type of antenna,1,Offset front-fed paraboloid,,,,,Operational

@@ -366,6 +366,14 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001155,Retrieval identifier,6,Maximum Likelihood Estimation – High horizontal resolution (MLEsub),,,,,Operational
 001155,Retrieval identifier,7-254,Reserved,,,,,Operational
 001155,Retrieval identifier,255,Missing value,,,,,Operational
+001158,Type of balloon envelope,0,Reserved,,,,,Operational
+001158,Type of balloon envelope,1,Super-pressure balloon (SPB) without altitude control,,,,,Operational
+001158,Type of balloon envelope,2,SPB with altitude control,,,,,Operational
+001158,Type of balloon envelope,3,Zero-pressure balloon (ZPB),,,,,Operational
+001158,Type of balloon envelope,4,Infra-Red Montgolfier (MIR),,,,,Operational
+001158,Type of balloon envelope,5,Airship (airship-shaped balloon),,,,,Operational
+001158,Type of balloon envelope,6,Tetroon (NOAA tetraedric balloon),,,,,Operational
+001158,Type of balloon envelope,15,Missing value,,,,,Operational
 002001,Type of station,0,Automatic,,,,,Operational
 002001,Type of station,1,Manned,,,,,Operational
 002001,Type of station,2,Hybrid: both manned and automatic,,,,,Operational
@@ -478,6 +486,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002020,Satellite classification,1,VTPR,,,,,Operational
 002020,Satellite classification,2,"Tiros 1 (Tiros, NOAA-6 to NOAA-13)",,,,,Operational
 002020,Satellite classification,3,Tiros 2 (NOAA-14 onwards),,,,,Operational
+002020,Satellite classification,4,NEON,,,,,Operational
 002020,Satellite classification,10,EOS,,,,,Operational
 002020,Satellite classification,20,GPM-core,,,,,Operational
 002020,Satellite classification,31,DMSP,,,,,Operational
@@ -949,7 +958,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 002099,Polarization,1,VV polarization,,,,,Operational
 002099,Polarization,2,HV polarization real valued component,,,,,Operational
 002099,Polarization,3,HV polarization imaginary valued component,,,,,Operational
-002099,Polarization,4-6,Reserved,,,,,Operational
+002099,Polarization,4,HV polarization,,,,,Operational
+002099,Polarization,5,VH polarization,,,,,Operational
+002099,Polarization,6,Reserved,,,,,Operational
 002099,Polarization,7,Missing value,,,,,Operational
 002101,Type of antenna,0,Centre front-fed paraboloid,,,,,Operational
 002101,Type of antenna,1,Offset front-fed paraboloid,,,,,Operational
@@ -1941,7 +1952,7 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008029,Surface type,18,Sea ice,,,,,Operational
 008029,Surface type,19,Forest,,,,,Operational
 008029,Surface type,20,Shrublands,,,,,Operational
-008029,Surface type,21,Savanna,,,,,Operational
+008029,Surface type,21,Savannah,,,,,Operational
 008029,Surface type,22,Desert,,,,,Operational
 008029,Surface type,23,Grasslands,,,,,Operational
 008029,Surface type,24,Wetlands,,,,,Operational
@@ -2073,7 +2084,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008041,Data significance,11,Freezing level,,,,,Operational
 008041,Data significance,12,Multiple freezing level,,,,,Operational
 008041,Data significance,13,Instrument manufacture date,,,,,Operational
-008041,Data significance,14-30,Reserved,,,,,Operational
+008041,Data significance,14,Derived from polarization,,,,,Operational
+008041,Data significance,15-30,Reserved,,,,,Operational
 008041,Data significance,31,Missing value,,,,,Operational
 008042,Extended vertical sounding significance,1,Surface,,,,,Operational
 008042,Extended vertical sounding significance,2,Standard level,,,,,Operational
@@ -2301,7 +2313,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008085,Beam identifier,0,Fore beam,,,,,Operational
 008085,Beam identifier,1,Mid beam,,,,,Operational
 008085,Beam identifier,2,Aft beam,,,,,Operational
-008085,Beam identifier,3-6,Reserved,,,,,Operational
+008085,Beam identifier,3,Combined average,,,,,Operational
+008085,Beam identifier,4-6,Reserved,,,,,Operational
 008085,Beam identifier,7,Missing value,,,,,Operational
 008086,Vertical significance for NWP,1,"Model ""ground"" surface",,,,,Operational
 008086,Vertical significance for NWP,2,Standard level,,,,,Operational
@@ -2354,7 +2367,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008094,Method used to calculate the average daily temperature,4,Weighted average of 3 observations and also maximum and minimum values: Tm= (aT1 +bT2 + cT3 +dTx + eTn),,,(see Note),97,Operational
 008094,Method used to calculate the average daily temperature,5,Automatic weather station complete integration from minute data,,,,,Operational
 008094,Method used to calculate the average daily temperature,6,Average of the 4 observations taken every six hours,,,,,Operational
-008094,Method used to calculate the average daily temperature,7-254,Reserved,,,,,Operational
+008094,Method used to calculate the average daily temperature,7,Average of the 144 observations taken every 10 minutes,,,,,Operational
+008094,Method used to calculate the average daily temperature,8-254,Reserved,,,,,Operational
 008094,Method used to calculate the average daily temperature,255,Missing value,,,,,Operational
 008095,Siting and measurement quality classification for temperature,0,Reserved,,,,,Operational
 008095,Siting and measurement quality classification for temperature,1,1A,,,,,Operational
@@ -2447,6 +2461,18 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008099,Sensing direction,1,Oblique,,,,,Operational
 008099,Sensing direction,2-14,Reserved,,,,,Operational
 008099,Sensing direction,15,Missing value,,,,,Operational
+008100,Type of following observation value,0,Original measurement,,,,,Operational
+008100,Type of following observation value,1,Corrected,,,,,Operational
+008100,Type of following observation value,2,Corrected with correction factor for a shading ring of a pyranometer,,,,,Operational
+008100,Type of following observation value,3-254,Reserved,,,,,Operational
+008100,Type of following observation value,255,Missing,,,,,Operational
+008101,Phase of balloon flight,0,Reserved,,,,,Operational
+008101,Phase of balloon flight,1,Ascent,,,,,Operational
+008101,Phase of balloon flight,2,Ceiling,,,,,Operational
+008101,Phase of balloon flight,3,Descent,,,,,Operational
+008101,Phase of balloon flight,4,Drop (falling station),,,,,Operational
+008101,Phase of balloon flight,5,Unsteady (during maneuvers),,,,,Operational
+008101,Phase of balloon flight,15,Missing,,,,,Operational
 010063,Characteristic of pressure tendency,0,"Increasing, then decreasing; atmospheric pressure the same or higher than three hours ago",,,,,Operational
 010063,Characteristic of pressure tendency,1,"Increasing, then steady; or increasing, then increasing more slowly",Atmospheric pressure now higher than three hours ago,,,,Operational
 010063,Characteristic of pressure tendency,2,Increasing (steadily or unsteadily),Atmospheric pressure now higher than three hours ago,,,,Operational

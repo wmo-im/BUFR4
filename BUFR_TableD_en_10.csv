@@ -29,7 +29,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 10,Vertical sounding sequences (satellite data),310006,,,303031,"Significance data, land/sea, skin temperature",,,,Operational
 10,Vertical sounding sequences (satellite data),310006,,,303033,Cloud,,,,Operational
 10,Vertical sounding sequences (satellite data),310006,,,101000,Delayed replication of 1 descriptor,,,,Operational
-10,Vertical sounding sequences (satellite data),310006,,,031001,Delayed descriptor replication factor,,,,Operational
+10,Vertical sounding sequences (satellite data),310006,,,031001,Delayed descriptor replicat310102ion factor,,,,Operational
 10,Vertical sounding sequences (satellite data),310006,,,303023,Layer mean temperature,,,,Operational
 10,Vertical sounding sequences (satellite data),310007,,,301042,"Satellite identifier, instrument, data-processing technique, date/time, location",,,,Operational
 10,Vertical sounding sequences (satellite data),310007,,,303031,"Significance data, land/sea, skin temperature",,,,Operational
@@ -1795,7 +1795,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 10,Vertical sounding sequences (satellite data),310085,(IASI-NG L1C (Radiances)),,008023,First-order statistics,,,,Operational
 10,Vertical sounding sequences (satellite data),310085,(IASI-NG L1C (Radiances)),,014044,Channel radiance,,,,Operational
 10,Vertical sounding sequences (satellite data),310085,(IASI-NG L1C (Radiances)),,008023,First-order statistics,,,,Operational
-10,Vertical sounding sequences (satellite data),310085,(IASI-NG L1C (Radiances)),,008072,Pixel type,,,,Operational
+10,Vertical sounding sequences (satellite data),310085,(IASI-NG L1C (Radiances)),,008072,Pixel(s) type,,,,Operational
 10,Vertical sounding sequences (satellite data),310085,(IASI-NG L1C (Radiances)),,020083,Amount of segment covered by scene,,,,Operational
 10,Vertical sounding sequences (satellite data),310085,(IASI-NG L1C (Radiances)),,008029,Surface type,,,,Operational
 10,Vertical sounding sequences (satellite data),310085,(IASI-NG L1C (Radiances)),,020083,Amount of segment covered by scene,,,,Operational
@@ -1850,7 +1850,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 10,Vertical sounding sequences (satellite data),310086,(IASI-NG L1D (Principal component scores)),,008023,First-order statistics,,,,Operational
 10,Vertical sounding sequences (satellite data),310086,(IASI-NG L1D (Principal component scores)),,014044,Channel radiance,,,,Operational
 10,Vertical sounding sequences (satellite data),310086,(IASI-NG L1D (Principal component scores)),,008023,First-order statistics,,,,Operational
-10,Vertical sounding sequences (satellite data),310086,(IASI-NG L1D (Principal component scores)),,008072,Pixel type,,,,Operational
+10,Vertical sounding sequences (satellite data),310086,(IASI-NG L1D (Principal component scores)),,008072,Pixel(s) type,,,,Operational
 10,Vertical sounding sequences (satellite data),310086,(IASI-NG L1D (Principal component scores)),,020083,Amount of segment covered by scene,,,,Operational
 10,Vertical sounding sequences (satellite data),310086,(IASI-NG L1D (Principal component scores)),,008029,Surface type,,,,Operational
 10,Vertical sounding sequences (satellite data),310086,(IASI-NG L1D (Principal component scores)),,020083,Amount of segment covered by scene,,,,Operational
@@ -2110,6 +2110,104 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 10,Vertical sounding sequences (satellite data),310100,"(Metop-SG Visible Infrared Imager (VII), level 2 total precipitable water IR and VIS (WVI and WVV))",,202000,Cancel,,,,Operational
 10,Vertical sounding sequences (satellite data),310100,"(Metop-SG Visible Infrared Imager (VII), level 2 total precipitable water IR and VIS (WVI and WVV))",,033118,Relative error percentage,On total accumulated precipitation water,,,Operational
 10,Vertical sounding sequences (satellite data),310100,"(Metop-SG Visible Infrared Imager (VII), level 2 total precipitable water IR and VIS (WVI and WVV))",,033119,Forecast error percentage,Relative difference between retrieved TPW and forecast TPW,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,001007,Satellite identifier,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,001035,Identification of originating/generating sub-centre,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,001034,Sub centre,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,002019,Satellite instruments,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,002020,Satellite classification,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,004001,Year,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,004002,Month,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,004003,Day,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,004004,Hour,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,004005,Minute,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,202131,Change scale,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,201138,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,004006,Second,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,201000,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,202000,Change scale,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005001,Latitude (high accuracy),,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,006001,Longitude (high accuracy),,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,007024,Satellite zenith angle,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005021,Bearing or azimuth,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,007025,Solar zenith angle,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005022,Solar azimuth,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005043,Field of view number,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005040,Orbit number,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,201133,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005041,Scan line number,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,201000,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,202126,Change scale,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,007001,Height of station,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,202000,Change scale,Cancel,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,033113,IASI-NG general quality flags,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,002019,Satellite instruments,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,111000,Delayed replication of 11 descriptors,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,031002,Extended delayed descriptor replication factor,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005060,Y angular position from centre of gravity,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005061,Z angular position from centre of gravity,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,106000,Replication of 6 descriptor,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,031002,Extended delayed descriptor replication factor,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,005042,Channel number,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008023,First-order statistics,= 4 Mean value,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,014044,Channel radiance,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008023,First-order statistics,= 10 Standard deviation (N),,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,014044,Channel radiance,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008023,First-order statistics,= 63 Missing value,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008072,Pixel(s) type,= 1 Clear,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008072,Pixel(s) type,= 3 Probably clear,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008072,Pixel(s) type,= 4 Probably cloudy,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008072,Pixel(s) type,= 2 Cloudy,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008072,Pixel(s) type,= 5 Ash,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008072,Pixel(s) type,= 7 Missing value,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 13 Sea,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 19 Forest,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 20 Shrublands,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 21 Savanna,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 22 Desert,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 23 Grasslands,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 24 Wetlands,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 15 urban land,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 16 Rural land,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 25 Snow/ice,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 26 Coast,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,020083,Amount of segment covered by scene,,,,Operational
+10,Vertical sounding sequences (satellite data),310101,(EPS-SG Common part for IAS-1D and IAS-1C New Generation),,008029,Surface type,= 25 Missing value,,,Operational
+10,Vertical sounding sequences (satellite data),310102,(EPS-SG IAS-1C New Generation Radiance sequence),,310101,EPS-SG Common part for IAS-1D and IAS-1C New Generation,,,,Operational
+10,Vertical sounding sequences (satellite data),310102,(EPS-SG IAS-1C New Generation Radiance sequence),,002019,Satellite instruments,,,,Operational
+10,Vertical sounding sequences (satellite data),310102,(EPS-SG IAS-1C New Generation Radiance sequence),,105170,Repeat 5 descriptors 170 times,,,,Operational
+10,Vertical sounding sequences (satellite data),310102,(EPS-SG IAS-1C New Generation Radiance sequence),,104100,Repeat 4 descriptors 100 times,,,,Operational
+10,Vertical sounding sequences (satellite data),310102,(EPS-SG IAS-1C New Generation Radiance sequence),,201137,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310102,(EPS-SG IAS-1C New Generation Radiance sequence),,005042,Channel number,,,,Operational
+10,Vertical sounding sequences (satellite data),310102,(EPS-SG IAS-1C New Generation Radiance sequence),,201000,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310102,(EPS-SG IAS-1C New Generation Radiance sequence),,014044,Channel radiance,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,310101,EPS-SG Common part for IAS-1D and IAS-1C New Generation,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,002019,Satellite instruments,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,109004,Replicate 9 descriptors 4 times,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,201129,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,025140,Start channel,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,025141,End channel,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,201000,Change data width,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,040026,Score quantization factor,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,040016,Residual RMS in band,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,101000,Delayed replication of 1 descriptor,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,031002,Extended delayed descriptor replication factor,,,,Operational
+10,Vertical sounding sequences (satellite data),310103,(EPS-SG IAS-1D New Generation Principal Component Scores sequence),,040017,Non-normalized principal component score,,,,Operational
 10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,001007,Satellite identifier,,,,Operational
 10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,001033,Identification of originating/generating centre,,,,Operational
 10,Vertical sounding sequences (satellite data),310191,(FY-4 Geostationary Interferometric Infrared Sounder (GIIRS)),,001034,Identification of originating/generating sub-centre,,,,Operational

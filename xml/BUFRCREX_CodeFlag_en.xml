@@ -2562,6 +2562,62 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Super-pressure balloon (SPB) without altitude control</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>SPB with altitude control</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Zero-pressure balloon (ZPB)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Infra-Red Montgolfier (MIR)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Airship (airship-shaped balloon)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Tetroon (NOAA tetraedric balloon)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001158</FXY>
+    <ElementName_en>Type of balloon envelope</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>002001</FXY>
     <ElementName_en>Type of station</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -3345,6 +3401,13 @@
     <ElementName_en>Satellite classification</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Tiros 2 (NOAA-14 onwards)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002020</FXY>
+    <ElementName_en>Satellite classification</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>NEON</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -6698,7 +6761,21 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002099</FXY>
     <ElementName_en>Polarization</ElementName_en>
-    <CodeFigure>4-6</CodeFigure>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>HV polarization</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002099</FXY>
+    <ElementName_en>Polarization</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>VH polarization</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002099</FXY>
+    <ElementName_en>Polarization</ElementName_en>
+    <CodeFigure>6</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -13655,7 +13732,7 @@
     <FXY>008029</FXY>
     <ElementName_en>Surface type</ElementName_en>
     <CodeFigure>21</CodeFigure>
-    <EntryName_en>Savanna</EntryName_en>
+    <EntryName_en>Savannah</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -14578,7 +14655,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008041</FXY>
     <ElementName_en>Data significance</ElementName_en>
-    <CodeFigure>14-30</CodeFigure>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Derived from polarization</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008041</FXY>
+    <ElementName_en>Data significance</ElementName_en>
+    <CodeFigure>15-30</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -16195,7 +16279,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008085</FXY>
     <ElementName_en>Beam identifier</ElementName_en>
-    <CodeFigure>3-6</CodeFigure>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Combined average</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008085</FXY>
+    <ElementName_en>Beam identifier</ElementName_en>
+    <CodeFigure>4-6</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -16574,7 +16665,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008094</FXY>
     <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
-    <CodeFigure>7-254</CodeFigure>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>Average of the 144 observations taken every 10 minutes</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008094</FXY>
+    <ElementName_en>Method used to calculate the average daily temperature</ElementName_en>
+    <CodeFigure>8-254</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -17220,6 +17318,90 @@
     <ElementName_en>Sensing direction</ElementName_en>
     <CodeFigure>15</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008100</FXY>
+    <ElementName_en>Type of following observation value</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Original measurement</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008100</FXY>
+    <ElementName_en>Type of following observation value</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Corrected</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008100</FXY>
+    <ElementName_en>Type of following observation value</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Corrected with correction factor for a shading ring of a pyranometer</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008100</FXY>
+    <ElementName_en>Type of following observation value</ElementName_en>
+    <CodeFigure>3-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008100</FXY>
+    <ElementName_en>Type of following observation value</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008101</FXY>
+    <ElementName_en>Phase of balloon flight</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008101</FXY>
+    <ElementName_en>Phase of balloon flight</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Ascent</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008101</FXY>
+    <ElementName_en>Phase of balloon flight</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Ceiling</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008101</FXY>
+    <ElementName_en>Phase of balloon flight</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Descent</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008101</FXY>
+    <ElementName_en>Phase of balloon flight</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Drop (falling station)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008101</FXY>
+    <ElementName_en>Phase of balloon flight</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Unsteady (during maneuvers)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008101</FXY>
+    <ElementName_en>Phase of balloon flight</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>

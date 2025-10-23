@@ -111,13 +111,17 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001128,WIGOS local identifier (character),CCITT IA5,0,0,128,Character,0,16,,,Operational
 01,Identification,001130,Storm identifier (long),CCITT IA5,0,0,32,,,,,,Operational
 01,Identification,001144,Snapshot identifier,Numeric,0,0,31,Numeric,0,10,,,Operational
-01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,(see Note 19),185,Operational
+01,Identification,001145,Light source identifier,Numeric,0,-8,20,Numeric,0,7,(see Note 17),185,Operational
 01,Identification,001150,Coordinate reference system,Code table,0,0,16,Code table,0,5,,,Operational
 01,Identification,001151,Fixed mean sea-level reference datum,Code table,0,0,12,Code table,0,4,,,Operational
 01,Identification,001152,Semi-major axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
 01,Identification,001153,Semi-minor axis of rotation ellipsoid,m,2,0,31,m,2,11,,,Operational
 01,Identification,001154,Sensor identifier,Numeric,0,0,12,Numeric,0,4,,,Operational
 01,Identification,001155,Retrieval identifier,Code table,0,0,8,Code table,0,3,,,Operational
+01,Identification,001156,Balloon flight number,CCITT IA5,0,0,64,,,,,,Operational
+01,Identification,001157,Balloon registration number or other identification,CCITT IA5,0,0,80,,,,,,Operational
+01,Identification,001158,Type of balloon envelope,Code table,0,0,4,,,,,,Operational
+01,Identification,001159,Typical size of balloon envelope,m,1,0,12,,,,(see Note 18),195,Operational
 02,Instrumentation,002001,Type of station,Code table,0,0,2,Code table,0,1,,,Operational
 02,Instrumentation,002002,Type of instrumentation for wind measurement,Flag table,0,0,4,Flag table,0,2,,,Operational
 02,Instrumentation,002003,Type of measuring equipment used,Code table,0,0,4,Code table,0,2,,,Operational
@@ -293,6 +297,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 02,Instrumentation,002189,Capability to discriminate lightning strikes,Flag table,0,0,12,Flag table,0,4,,,Operational
 02,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),%,0,0,7,%,0,3,,,Operational
 02,Instrumentation,002191,Geopotential height calculation,Code table,0,0,4,Code table,0,2,,,Operational
+02,Instrumentation,002192,Precision of pressure observation,Pa,2,0,14,,,,,,Operational
+02,Instrumentation,002193,Precision of mixing ratio observation,kg/kg,6,0,14,,,,,,Operational
 03,Instrumentation,003001,Surface station type,Code table,0,0,5,Code table,0,2,,,Operational
 03,Instrumentation,003003,Thermometer/hygrometer housing,Code table,0,0,4,Code table,0,2,,,Operational
 03,Instrumentation,003004,Type of screen/shelter/radiation shield,Code table,0,0,4,Code table,0,2,,,Operational
@@ -401,6 +407,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 05,Location (horizontal - 1),005078,Horn number,Numeric,0,0,4,Numeric,0,2,,,Operational
 05,Location (horizontal - 1),005079,Band number,Numeric,0,0,6,Numeric,0,2,,,Operational
 05,Location (horizontal - 1),005080,Resolution radius,m,-3,0,6,m,-3,2,,,Operational
+05,Location (horizontal - 1),005092,Side track index or along lateral track row number,Numeric,0,-1,3,,,,,,Operational
 06,Location (horizontal - 2),006001,Longitude (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
 06,Location (horizontal - 2),006002,Longitude (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
 06,Location (horizontal - 2),006011,Longitude increment (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
@@ -455,6 +462,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 07,Location (vertical),007074,Solar elevation angle in instrument reference frame,deg,2,-9000,15,deg,2,5,,,Operational
 07,Location (vertical),007075,Scattering angle,deg,0,0,8,deg,0,3,,,Operational
 07,Location (vertical),007076,Relative azimuth angle,deg,0,0,8,deg,0,3,,,Operational
+07,Location (vertical),007077,Height of sensor with respect to station,m,0,-400,12,,,,,,Operational
 08,Significance qualifiers,008001,Vertical sounding significance,Flag table,0,0,7,Flag table,0,3,,,Operational
 08,Significance qualifiers,008002,Vertical significance (surface observations),Code table,0,0,6,Code table,0,2,,,Operational
 08,Significance qualifiers,008003,Vertical significance (satellite observations),Code table,0,0,6,Code table,0,2,,,Operational
@@ -536,6 +544,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008097,Method used to calculate the average instrument temperature,Code table,0,0,7,Code table,0,3,,,Operational
 08,Significance qualifiers,008098,Source of temperature measurement,Code table,0,0,4,Code table,0,2,,,Operational
 08,Significance qualifiers,008099,Sensing direction,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008100,Type of following observation value,Code table,0,0,8,,,,,,Operational
+08,Significance qualifiers,008101,Phase of balloon flight,Code table,0,0,4,,,,,,Operational
 10,Non-coordinate location (vertical),010001,Height of land surface,m,0,-400,15,m,0,5,,,Operational
 10,Non-coordinate location (vertical),010002,Height,m,-1,-40,16,m,-1,5,,,Operational
 10,Non-coordinate location (vertical),010003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
@@ -646,6 +656,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 11,Wind and turbulence,011075,Mean turbulence intensity (eddy dissipation rate),m2/3 s-1,2,0,8,m2/3 s-1,2,3,,,Operational
 11,Wind and turbulence,011076,Peak turbulence intensity (eddy dissipation rate),m2/3 s-1,2,0,8,m2/3 s-1,2,3,,,Operational
 11,Wind and turbulence,011077,Reporting interval or averaging time for eddy dissipation rate,s,0,0,12,s,0,4,,,Operational
+11,Wind and turbulence,011080,Number of views used for wind retrieval,Numeric,0,0,3,,,,,,Operational
 11,Wind and turbulence,011081,Model wind direction at 10 m,degree true,2,0,16,degree true,2,5,,,Operational
 11,Wind and turbulence,011082,Model wind speed at 10 m,m/s,2,0,14,m/s,2,4,,,Operational
 11,Wind and turbulence,011083,Wind speed,km/h,0,0,9,km/h,0,3,,,Operational
