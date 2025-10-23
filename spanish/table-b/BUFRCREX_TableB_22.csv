@@ -1,0 +1,138 @@
+﻿ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+22,Elementos oceanográficos,022001,Dirección de las olas,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+22,Elementos oceanográficos,022002,Dirección de las olas de viento,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+22,Elementos oceanográficos,022003,Dirección de las olas de mar de fondo,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+22,Elementos oceanográficos,022004,Dirección de la corriente,grado verdadero,0,0,9,grado verdadero,0,3,(véase la nota 7),,Operational
+22,Elementos oceanográficos,022005,Dirección de la corriente en la superficie del mar,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+22,Elementos oceanográficos,022011,Período de las olas,s,0,0,6,s,0,2,,,Operational
+22,Elementos oceanográficos,022012,Período de las olas de viento,s,0,0,6,s,0,2,,,Operational
+22,Elementos oceanográficos,022013,Período de las olas de mar de fondo,s,0,0,6,s,0,2,,,Operational
+22,Elementos oceanográficos,022021,Altura de las olas,m,1,0,10,m,1,4,,,Operational
+22,Elementos oceanográficos,022022,Altura de las olas de viento,m,1,0,10,m,1,4,,,Operational
+22,Elementos oceanográficos,022023,Altura de las olas de mar de fondo,m,1,0,10,m,1,4,,,Operational
+22,Elementos oceanográficos,022025,Desviación estándar de la altura de las olas,m,2,0,10,m,2,4,,,Operational
+22,Elementos oceanográficos,022026,Desviación estándar de la altura significativa de las olas,m,2,0,10,m,2,4,,,Operational
+22,Elementos oceanográficos,022031,Velocidad de la corriente,m s-1,2,0,13,m s-1,2,4,,,Operational
+22,Elementos oceanográficos,022032,Velocidad de la corriente en la superficie del mar,m s-1,2,0,13,m s-1,2,4,,,Operational
+22,Elementos oceanográficos,022035,Altura de las mareas con relación al cero hidrográfico local,m,2,0,14,m,2,4,,,Operational
+22,Elementos oceanográficos,022036,Altura residual meteorológica de las mareas (positiva o negativa),m,2,0,14,m,2,4,,,Operational
+22,Elementos oceanográficos,022037,Altura de las mareas con relación al plan de referencia nacional,m,3,-10000,15,m,3,5,,,Operational
+22,Elementos oceanográficos,022038,Altura de las mareas con relación al cero hidrográfico local,m,3,-10000,15,m,3,5,,,Operational
+22,Elementos oceanográficos,022039,Altura residual meteorológica de las mareas (positiva o negativa),m,3,-5000,13,m,3,4,(véase la nota 4),,Operational
+22,Elementos oceanográficos,022040,Altura residual meteorológica de las mareas (positiva o negativa),m,3,-5000,14,m,3,5,(véase la nota 4),,Operational
+22,Elementos oceanográficos,022041,Temperatura de la superficie del mar (media móvil en 15 días),K,1,0,12,K,1,4,,,Operational
+22,Elementos oceanográficos,022042,Temperatura del agua/mar,K,1,0,12,K,1,4,,,Operational
+22,Elementos oceanográficos,022043,Temperatura del agua/mar,K,2,0,15,K,2,5,,,Operational
+22,Elementos oceanográficos,022044,Velocidad del sonido,m s-1,1,0,14,m s-1,1,5,,,Operational
+22,Elementos oceanográficos,022045,Temperatura del agua/mar,K,3,0,19,K,3,6,,,Operational
+22,Elementos oceanográficos,022046,Fracción de hielo marino,Numérica,2,0,7,Numérica,2,3,,,Operational
+22,Elementos oceanográficos,022049,Temperatura en la superficie del mar,K,2,0,15,K,2,5,,,Operational
+22,Elementos oceanográficos,022050,Desviación estándar de la temperatura de la superficie del mar,K,2,0,8,K,2,3,,,Operational
+22,Elementos oceanográficos,022055,Número de ciclo del flotador,Numérica,0,0,10,Numérica,0,3,,,Operational
+22,Elementos oceanográficos,022056,Dirección del perfil,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+22,Elementos oceanográficos,022059,Salinidad en la superficie del mar,‰,2,0,14,‰,2,5,,,Operational
+22,Elementos oceanográficos,022060,Estado del ancla flotante de la boya lagrangiana a la deriva,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+22,Elementos oceanográficos,022061,Estado del mar,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+22,Elementos oceanográficos,022062,Salinidad,‰,2,0,14,‰,2,5,,,Operational
+22,Elementos oceanográficos,022063,Profundidad total del agua,m,0,0,14,m,0,5,,,Operational
+22,Elementos oceanográficos,022064,Salinidad,‰,3,0,17,‰,3,6,,,Operational
+22,Elementos oceanográficos,022065,Presión del agua,Pa,-3,0,17,Pa,-3,6,,,Operational
+22,Elementos oceanográficos,022066,Conductividad del agua,S m-1,6,0,26,S m-1,6,8,,,Operational
+22,Elementos oceanográficos,022067,Tipo de instrumento para la medición del perfil de la temperatura/salinidad del agua,Tabla de cifrado,0,0,10,Tabla de cifrado,0,4,,,Operational
+22,Elementos oceanográficos,022068,Tipos de registrador del perfil de la temperatura del agua,Tabla de cifrado,0,0,7,Tabla de cifrado,0,3,,,Operational
+22,Elementos oceanográficos,022069,Densidad espectral de las olas,m² Hz-1,3,0,22,m² Hz-1,3,7,,,Operational
+22,Elementos oceanográficos,022070,Altura significativa de las olas,m,2,0,13,m,2,4,,,Operational
+22,Elementos oceanográficos,022071,Período espectral máximo de las olas,s,1,0,9,s,1,3,,,Operational
+22,Elementos oceanográficos,022072,Longitud espectral máxima de las olas,m,0,0,13,m,0,4,,,Operational
+22,Elementos oceanográficos,022073,Altura máxima de las olas,m,2,0,13,m,2,4,,,Operational
+22,Elementos oceanográficos,022074,Período medio de las olas,s,1,0,9,s,1,3,,,Operational
+22,Elementos oceanográficos,022075,Longitud media de las olas,m,0,0,13,m,0,4,,,Operational
+22,Elementos oceanográficos,022076,Dirección de la cual provienen las olas dominantes,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+22,Elementos oceanográficos,022077,Dispersión direccional de la ola dominante,°,0,0,9,°,0,3,,,Operational
+22,Elementos oceanográficos,022078,Duración del registro de las olas,s,0,0,12,s,0,4,,,Operational
+22,Elementos oceanográficos,022079,Longitud del registro de las olas,m,0,0,16,m,0,5,,,Operational
+22,Elementos oceanográficos,022080,Frecuencia central de las bandas de ondas,Hz,3,0,10,Hz,3,4,,,Operational
+22,Elementos oceanográficos,022081,Número de onda central de las bandas de ondas,m-1,5,0,13,m-1,5,4,,,Operational
+22,Elementos oceanográficos,022082,Densidad espectral máxima no direccional de las olas,m² s,2,0,20,m² s,2,7,,,Operational
+22,Elementos oceanográficos,022083,Número de onda espectral máximo no direccional,m3,2,0,20,m3,2,7,,,Operational
+22,Elementos oceanográficos,022084,Banda que contiene la densidad espectral máxima no direccional de las olas,Numérica,0,0,7,Numérica,0,3,,,Operational
+22,Elementos oceanográficos,022085,Relación de densidad espectral de las olas,Numérica,0,0,7,Numérica,0,3,,,Operational
+22,Elementos oceanográficos,022086,Dirección media de donde provienen las olas,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+22,Elementos oceanográficos,022087,Dirección principal de donde provienen las olas,grado verdadero,0,,9,grado verdadero,0,3,,,Operational
+22,Elementos oceanográficos,022088,Primera coordenada polar normalizada obtenida con los coeficientes de Fourier,Numérica,2,0,7,Numérica,2,3,,,Operational
+22,Elementos oceanográficos,022089,Segunda coordenada polar normalizada obtenida con los coeficientes de Fourier,Numérica,2,0,7,Numérica,2,3,,,Operational
+22,Elementos oceanográficos,022090,Estimación espectral no direccional atendiendo la frecuencia de las olas,m² s,2,0,20,m² s,2,7,,,Operational
+22,Elementos oceanográficos,022091,Estimación espectral no direccional atendiendo al número de onda,m3,2,0,20,m3,2,7,,,Operational
+22,Elementos oceanográficos,022092,Estimación espectral direccional atendiendo a la frecuencia de las olas,m² rad-1 s,2,0,20,m² rad-1 s,2,7,,,Operational
+22,Elementos oceanográficos,022093,Estimación espectral direccional atendiendo al número de onda,m4,2,0,20,m4,2,7,,,Operational
+22,Elementos oceanográficos,022094,Número total de bandas de ondas,Numérica,0,0,7,Numérica,0,3,,,Operational
+22,Elementos oceanográficos,022095,Dispersión direccional de cada ola,°,0,0,8,°,0,3,,,Operational
+22,Elementos oceanográficos,022096,Anchura espectral de la banda,s-1,3,0,4,s-1,3,2,,,Operational
+22,Elementos oceanográficos,022097,Longitud de onda (> 731 m) media del espectro de la imagen con números de onda bajos,m,0,0,14,m,0,5,,,Operational
+22,Elementos oceanográficos,022098,Dispersión de la longitud de onda (> 731 m) con números de onda bajos,m,0,0,14,m,0,5,,,Operational
+22,Elementos oceanográficos,022099,Dirección media con números de onda bajos (longitud de onda > 731 m),grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+22,Elementos oceanográficos,022100,Dispersión de la dirección con números de onda bajos (longitud de onda > 731 m),°,0,0,9,°,0,3,,,Operational
+22,Elementos oceanográficos,022101,Energía total con números de onda bajos (longitud de onda > 731 m),Numérica,0,0,31,Numérica,0,10,,,Operational
+22,Elementos oceanográficos,022102,Densidad espectral máxima ajustada no direccional de las olas según la frecuencia,m² s,0,0,14,m² s,0,5,(véase la nota 10),,Operational
+22,Elementos oceanográficos,022103,Densidad espectral máxima ajustada no direccional de las olas según el número de onda,m3,0,0,14,m3,0,5,(véase la nota 10),,Operational
+22,Elementos oceanográficos,022104,Densidad espectral ajustada no direccional de las olas según la frecuencia,m² s,0,0,14,m² s,0,5,(véase la nota 10),,Operational
+22,Elementos oceanográficos,022105,Densidad espectral ajustada no direccional de las olas según el número de onda,m3,0,0,14,m3,0,5,(véase la nota 10),,Operational
+22,Elementos oceanográficos,022106,Densidad espectral ajustada direccional de las olas según la frecuencia,m² s rad-1,0,0,14,m² s rad-1,0,5,(véase la nota 10),,Operational
+22,Elementos oceanográficos,022107,Densidad espectral ajustada direccional de las olas según el número de onda,m4,0,0,14,m4,0,5,(véase la nota 10),,Operational
+22,Elementos oceanográficos,022108,Relación de densidad espectral de las olas,%,0,0,7,%,0,3,,,Operational
+22,Elementos oceanográficos,022120,Verificación automática del nivel del agua en una estación de mareas,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+22,Elementos oceanográficos,022121,Verificación manual del nivel del agua en una estación de mareas,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+22,Elementos oceanográficos,022122,Verificación automática de los datos meteorológicos en una estación de mareas,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+22,Elementos oceanográficos,022123,Verificación manual de los datos meteorológicos en una estación de mareas,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+22,Elementos oceanográficos,022130,Número de puntos válidos para banda específica,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022131,Media cuadrática de la altura de ola significativa en banda específica,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022132,Número de puntos válidos para la altura de ola significativa en banda específica,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022133,Corrección instrumental neta de la altura de ola significativa en banda específica,m,3,-1000,11,m,3,4,,,Operational
+22,Elementos oceanográficos,022134,Número de puntos válidos para retrodispersión en banda específica,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022141,Temperatura de la superficie del mar (media móvil en 15 días),K,2,0,15,K,2,5,,,Operational
+22,Elementos oceanográficos,022142,Cuadrado de la altura de onda significativa,m2,3,-33554432,26,m2,3,8,,,Operational
+22,Elementos oceanográficos,022143,Cuadrado de la desviación estándar de la altura de ola significativa a 20 Hz,m²,3,-8388608,24,m²,3,8,,,Operational
+22,Elementos oceanográficos,022144,Cuadrado del número de puntos válidos a 20 Hz respecto de la altura de ola significativa,Numérica,0,0,9,Numérica,0,3,,,Operational
+22,Elementos oceanográficos,022145,Desviación típica del intervalo oceánico a 20 Hz,m,3,-33554432,31,m,3,10,,,Operational
+22,Elementos oceanográficos,022146,Intervalo de desplazamiento del centro de gravedad,m,3,0,31,m,3,10,,,Operational
+22,Elementos oceanográficos,022147,Desviación típica del intervalo de desplazamiento del centro de gravedad a 20 Hz,m,3,-8388608,31,m,3,10,,,Operational
+22,Elementos oceanográficos,022148,Número de puntos válidos respecto del intervalo oceánico a 20 Hz,Numérica,0,0,9,Numérica,0,3,,,Operational
+22,Elementos oceanográficos,022149,Cuadrado de la altura de ola significativa a 20 Hz,m2,3,-33554432,26,m2,3,8,,,Operational
+22,Elementos oceanográficos,022150,Número de puntos válidos a 18 Hz para banda Ku,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022151,Alcance oceánico en banda Ku,m,3,0,31,m,3,10,,,Operational
+22,Elementos oceanográficos,022152,Alcance oceánico estándar a 18Hz en banda Ku,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022153,Número de puntos válidos a 18 Hz para banda S,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022154,Alcance oceánico en banda S,m,3,0,31,m,3,10,,,Operational
+22,Elementos oceanográficos,022155,Alcance oceánico estándar a 18 Hz en banda S,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022156,Altura significativa de las olas en banda Ku,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022157,Altura significativa estándar de las olas a18 Hz en banda Ku,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022158,Altura significativa de las olas en banda S,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022159,Altura significativa estándar de las olas a18 Hz en banda S,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022160,Edad de ola inversa normalizada,Numérica,6,0,21,Numérica,6,7,,,Operational
+22,Elementos oceanográficos,022161,Espectros de las olas,m4,4,0,27,m4,4,9,,,Operational
+22,Elementos oceanográficos,022162,Media cuadrática del alcance oceánico en banda Ku a 20 Hz,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022163,Número de puntos válidos a 20 Hz para banda Ku,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022164,Media cuadrática de la altura de ola significativa a 20 Hz en banda Ku,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022165,Número de puntos válidos a 20 Hz para altura de ola significativa en banda Ku,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022166,Corrección instrumental neta de la altura de ola significativa en banda Ku,m,3,-1000,11,m,3,4,,,Operational
+22,Elementos oceanográficos,022167,Número de puntos válidos de retrodispersión en banda Ku,Numérica,0,0,10,Numérica,3,4,,,Operational
+22,Elementos oceanográficos,022168,Alcance oceánico en banda C,m,3,0,31,m,3,10,,,Operational
+22,Elementos oceanográficos,022169,Media cuadrática del alcance oceánico en banda C,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022170,Número de puntos válidos a 20 Hz en banda C,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022171,Altura de ola significativa en banda C,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022172,Media cuadrática de la altura de ola significativa a 20 Hz en banda C,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022173,Número de puntos válidos a 20 Hz respecto de la altura de ola significativa en banda C,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022174,Corrección instrumental neta respecto de la altura de ola significativa en banda C,m,3,-1000,11,m,3,4,,,Operational
+22,Elementos oceanográficos,022175,Número de puntos válidos respecto de la retrodispersión en banda C,Numérica,0,0,10,Numérica,0,4,,,Operational
+22,Elementos oceanográficos,022177,Altura del dispositivo de lanzamiento de XBT/XCTD,m,0,0,6,m,0,3,,,Operational
+22,Elementos oceanográficos,022178,Tipo de dispositivo de lanzamiento de XBT/XCTD,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
+22,Elementos oceanográficos,022179,Altura de ola significativa en banda específica (referencia negativa),m,3,-500,16,m,3,6,(véase la nota 13),,Operational
+22,Elementos oceanográficos,022182,Altura de la columna de agua,m,3,0,23,m,3,7,(véase la nota 9),,Operational
+22,Elementos oceanográficos,022184,Desviación de la altura de la columna de agua respecto del valor de referencia,m,3,-2000,12,m,3,4,,,Operational
+22,Elementos oceanográficos,022185,Recuento de transmisiones del BPR,Numérica,0,0,10,Numérica,0,3,,,Operational
+22,Elementos oceanográficos,022186,Dirección de donde provienen las olas,grado verdadero,0,0,9,grado verdadero,0,3,(véase la nota 11),,Operational
+22,Elementos oceanográficos,022187,Dispersión direccional de la ola,°,0,0,9,°,0,3,(véase la nota 12),,Operational
+22,Elementos oceanográficos,022188,Oxígeno disuelto,µmol kg-1,3,0,19,µmol kg-1,3,6,,,Operational
+22,Elementos oceanográficos,022189,Alcance oceánico en banda específica,m,3,0,31,m,3,10,,,Operational
+22,Elementos oceanográficos,022190,Altura de ola significativa en banda específica,m,3,0,16,m,3,5,,,Operational
+22,Elementos oceanográficos,022191,Media cuadrática del alcance oceánico en banda específica,m,4,0,16,m,4,5,,,Operational

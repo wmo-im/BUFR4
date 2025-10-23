@@ -1,0 +1,32 @@
+ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+19,Características sinópticas,019001,Tipo de característica sinóptica,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019002,Radio efectivo de la característica (véase la nota 1),m,-2,0,12,m,-2,4,,,Operational
+19,Características sinópticas,019003,Umbral de la velocidad del viento (véase la nota 2),m s⁻¹,0,0,8,m s⁻¹,0,3,,,Operational
+19,Características sinópticas,019004,Radio efectivo de las velocidades del viento por encima del umbral (véase la nota 2),m,-2,0,12,m,-2,4,,,Operational
+19,Características sinópticas,019005,Dirección del desplazamiento de la característica (véase la nota 3),grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+19,Características sinópticas,019006,Velocidad del desplazamiento de la característica (véase la nota 3),m s⁻¹,2,0,14,m s⁻¹,2,5,,,Operational
+19,Características sinópticas,019007,Radio efectivo de la característica,m,-3,0,12,m,-3,4,,,Operational
+19,Características sinópticas,019008,Extensión vertical de la circulación,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+19,Características sinópticas,019009,Radio efectivo con respecto a velocidad del viento por encima del umbral (tormentas importantes),m,-3,0,12,m,-3,4,,,Operational
+19,Características sinópticas,019010,Método de seguimiento del centro de la característica sinóptica,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019100,Intervalo de tiempo para calcular el desplazamiento del ciclón tropical,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019101,Precisión de la posición del centro del ciclón tropical,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019102,Forma y definición del ojo del ciclón tropical,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+19,Características sinópticas,019103,Diámetro del eje principal del ojo del ciclón tropical,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019104,Cambio de naturaleza del ojo durante los 30 minutos,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019105,Distancia entre el extremo de la banda en espiral y el centro,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019106,Número de identificación del ciclón tropical,Numérica,0,0,7,Numérica,0,3,,,Operational
+19,Características sinópticas,019107,Intervalo de tiempo sobre el que se ha calculado el movimiento del ciclón tropical,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019108,Precisión de la posición geográfica del ciclón tropical,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+19,Características sinópticas,019109,Diámetro medio de la cobertura nubosa del ciclón tropical,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019110,Cambio aparente en 24 horas de la intensidad del ciclón tropical,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019111,Número intensidad actual (CI) del ciclón tropical,Numérica,1,0,7,Numérica,1,3,,,Operational
+19,Características sinópticas,019112,"Número ""tropical-datos"" (DT) del ciclón tropical",Numérica,1,0,7,Numérica,1,3,,,Operational
+19,Características sinópticas,019113,Tipo de configuración nubosa del número de DT,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+19,Características sinópticas,019114,"Número ""tropical-predicción de modelo"" (MET) del ciclón tropical",Numérica,1,0,7,Numérica,1,3,,,Operational
+19,Características sinópticas,019115,"Cambio de tendencia en las 24 horas anteriores (+: Desarrollado,-: Debilitado)",Numérica,1,-30,6,Numérica,1,2,,,Operational
+19,Características sinópticas,019116,"Número ""tropical-patrón"" (PT) del ciclón tropical",Numérica,1,0,7,Numérica,1,3,,,Operational
+19,Características sinópticas,019117,Tipo de imagen de la nube del número de PT,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+19,Características sinópticas,019118,Número tropical final (T) del ciclón tropical,Numérica,1,0,7,Numérica,1,3,,,Operational
+19,Características sinópticas,019119,Tipo del número T final,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+19,Características sinópticas,019150,Número Internacional Común del Tifón (Comité de Tifones),CCITTIA5,0,0,32,Carácter,0,4,,,Operational

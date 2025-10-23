@@ -1,0 +1,75 @@
+ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+40,Datos satelitales,040001,Humedad del suelo en superficie (ms),%,1,0,10,%,1,4,,,Operational
+40,Datos satelitales,040002,Error estimado en la humedad del suelo en superficie,%,1,0,10,%,1,4,,,Operational
+40,Datos satelitales,040003,Humedad media del suelo en superficie,Numérica,3,0,10,Numérica,3,4,,,Operational
+40,Datos satelitales,040004,Detección de la precipitación de lluvia,Numérica,3,0,10,Numérica,3,4,,,Operational
+40,Datos satelitales,040005,Banderín de corrección de la humedad del suelo,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational
+40,Datos satelitales,040006,Banderín de procesamiento de la humedad del suelo,Tabla de banderines,0,0,16,Tabla de banderines,0,6,,,Operational
+40,Datos satelitales,040007,Calidad de la humedad del suelo,%,1,0,10,%,1,4,,,Operational
+40,Datos satelitales,040008,Fracción de la superficie terrestre congelada,%,1,0,10,%,1,4,,,Operational
+40,Datos satelitales,040009,Fracción de la inundación y los humedales,%,1,0,10,%,1,4,,,Operational
+40,Datos satelitales,040010,Complejidad topográfica,%,1,0,10,%,1,4,,,Operational
+40,Datos satelitales,040011,Banderín de interpolación,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational
+40,Datos satelitales,040012,Banderín de calidad de datos radiométricos,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational
+40,Datos satelitales,040013,Banderín de interpretación de la temperatura de brillo radiométrica,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+40,Datos satelitales,040014,Fluctuaciones de alta frecuencia de la corrección de la topografía,m,4,-3000,13,m,4,4,,,Operational
+40,Datos satelitales,040015,Índice de vegetación diferencial normalizado (IVDN),Numérica,2,-100,8,Numérica,2,3,,,Operational
+40,Datos satelitales,040016,Media cuadrátrica residual en la franja,Numérica,3,0,14,Numérica,3,5,,,Operational
+40,Datos satelitales,040017,Índice del componente principal no normalizado,Numérica,0,-1073741824,31,Numérica,0,10,,,Operational
+40,Datos satelitales,040018,GIacAvgImagIIS – Promedio de las mediciones del reproductor de imág,W m² sr⁻¹ m,6,0,24,W m² sr⁻¹ m,6,8,,,Operational
+40,Datos satelitales,040019,GIacVarImagIIS – Variancia de las mediciones del reproductor de imá,W m² sr⁻¹ m,6,0,24,W m² sr⁻¹ m,6,8,,,Operational
+40,Datos satelitales,040020,GqisFlagQualDetailed - Banderín de calidad del sistema,Tabla de banderines,0,0,17,Tabla de banderines,0,6,,,Operational
+40,Datos satelitales,040021,Fracción de píxel AVHRR ponderado en un campo de visión de IASI cub,%,0,0,7,%,0,3,,,Operational
+40,Datos satelitales,040022,"Número de píxeles AVHRR faltantes, defectuosos o ausentes",Numérica,0,0,7,Numérica,0,3,,,Operational
+40,Datos satelitales,040023,Banderines de estado del altímetro auxiliar,Tabla de banderines,0,0,5,Tabla de banderines,0,2,,,Operational
+40,Datos satelitales,040024,Disponibilidad de mapa meteorológico,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+40,Datos satelitales,040025,Banderín de interpolación para la marea diurna media,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+40,Datos satelitales,040026,Factor de cuantificación del índice,Numérica,2,0,16,Numérica,2,5,,,Operational
+40,Datos satelitales,040027,Ángulo del destello solar,°,2,-18000,16,°,2,5,,,Operational
+40,Datos satelitales,040028,Banderín de calidad GMI,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+40,Datos satelitales,040029,Longitud horizontal de integración de las observaciones,m,0,0,26,m,0,8,,,Operational
+40,Datos satelitales,040030,Línea horizontal de viento a la vista,m s⁻¹,2,-32767,16,m s⁻¹,2,5,,,Operational
+40,Datos satelitales,040031,Estimación del error de la línea horizontal de viento a la vista,m s⁻¹,2,0,15,m s⁻¹,2,5,,,Operational
+40,Datos satelitales,040032,Viento derivado de la presión,m s⁻¹ Pa⁻¹,3,-100000,18,m s⁻¹ Pa⁻¹,3,6,,,Operational
+40,Datos satelitales,040033,Viento derivado de la temperatura,m s⁻¹ K⁻¹,3,-100000,18,m s⁻¹ K⁻¹,3,6,,,Operational
+40,Datos satelitales,040034,Viento derivado de la tasa de retrodispersión,m s⁻¹,3,-200000,19,m s⁻¹,3,6,,,Operational
+40,Datos satelitales,040035,Distancia del satélite,m,0,380000,18,m,0,6,,,Operational
+40,Datos satelitales,040036,Tipo de clasificación de productos Lidar L2b,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+40,Datos satelitales,040037,Tasa de retrodispersión,Numérica,3,500,20,Numérica,3,7,,,Operational
+40,Datos satelitales,040038,Tamaño de las partículas de la nube,m,7,0,28,m,7,6,,,Operational
+40,Datos satelitales,040039,Intensidad de las imágenes complejas de observación única,Numérica,2,-25,5,Numérica,0,3,,,Operational
+40,Datos satelitales,040040,Asimetría de las imágenes complejas de observación única,Numérica,2,1,13,Numérica,0,4,,,Operational
+40,Datos satelitales,040041,Curtosis de las imágenes complejas de observación única,Numérica,2,1,13,Numérica,0,4,,,Operational
+40,Datos satelitales,040042,Varianza de las imágenes complejas de observación única,Numérica,2,1,13,Numérica,0,4,,,Operational
+40,Datos satelitales,040043,Indicador de maniobras del satélite,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+40,Datos satelitales,040044,Índice de polvo,Numérica,1,0,8,Numérica,1,,,,Operational
+40,Datos satelitales,040045,Formación de nubes y determinación de la altura,Tabla de banderines,0,0,5,Tabla de banderines,0,2,,,Operational
+40,Datos satelitales,040046,Resumen de nubosidad,Tabla de cifrado,0,0,3,Tabla de cifrado,0,,,,Operational
+40,Datos satelitales,040047,Banderín de validación para productos IASI o IASI-NG de nivel 1,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+40,Datos satelitales,040048,Banderín de validación del flujo de datos de nivel 1 de la sonda AM,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+40,Datos satelitales,040049,Pruebas de nubes ejecutadas y resultados,Tabla de banderines,0,0,16,Tabla de banderines,0,5,,,Operational
+40,Datos satelitales,040050,Inicialización de la recuperación,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational
+40,Datos satelitales,040051,Convergencia de la recuperación iterativa,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+40,Datos satelitales,040052,Indicación de superadiabático y supersaturación en la recuperación,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational
+40,Datos satelitales,040053,Número de iteraciones utilizadas para la recuperación,Numérica,0,0,8,Numérica,0,3,,,Operational
+40,Datos satelitales,040054,Errores potenciales de cálculo y en las entradas,Tabla de banderines,0,0,13,Tabla de banderines,0,4,,,Operational
+40,Datos satelitales,040055,Diagnóstico sobre la recuperación,Tabla de banderines,0,0,21,Tabla de banderines,0,7,,,Operational
+40,Datos satelitales,040056,Calidad general de la recuperación,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+40,Datos satelitales,040057,Banderines de recuperación de IASI de nivel 2,Tabla de banderines,0,0,31,Tabla de banderines,0,10,,,Operational
+40,Datos satelitales,040058,Número de vectores que describen las matrices de caracterización,Numérica,0,0,8,Numérica,0,3,,,Operational
+40,Datos satelitales,040059,Número de capas efectivamente recuperadas,Numérica,0,0,8,Numérica,0,3,,,Operational
+40,Datos satelitales,040060,Número de perfiles recuperados en la línea de exploración,Numérica,0,0,8,Numérica,0,3,,,Operational
+40,Datos satelitales,040061,Columnas parciales de aire en cada capa recuperada,mol/cm⁻²,3,0,16,mol/cm⁻²,3,5,,,Operational
+40,Datos satelitales,040062,Columnas parciales apriorísticas en cada capa recuperada,mol/cm⁻²,10,0,16,mol/cm⁻²,10,5,,,Operational
+40,Datos satelitales,040063,Vector de ajuste que multiplica el vector apriorístico para definir,Numérica,5,0,26,Numérica,5,8,,,Operational
+40,Datos satelitales,040064,Principales valores propios de la matriz de sensibilidad,Numérica,6,0,31,Numérica,6,10,,,Operational
+40,Datos satelitales,040065,Principales vectores propios de la matriz de sensibilidad,Numérica,6,-1000000000,31,Numérica,6,10,,,Operational
+40,Datos satelitales,040066,Indicador de calidad del vapor de agua atmosférico,Numérica,1,0,8,Numérica,1,3,,,Operational
+40,Datos satelitales,040067,Indicador de calidad de la temperatura atmosférica,Numérica,1,0,8,Numérica,1,3,,,Operational
+40,Datos satelitales,040068,Banderín de calidad de la recuperación general del SO2,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+40,Datos satelitales,040069,Error de recuperación estimado mediante PWLR* para la temperatura d,K,4,-1000000,21,K,4,7,,,Operational
+40,Datos satelitales,040070,Error de recuperación estimado mediante PWLR* para el punto de rocí,K,4,-1000000,21,K,4,7,,,Operational
+40,Datos satelitales,040071,Matriz de covarianza del error de recuperación para el ozono en el,Numérica,4,-1000000,2,Numérica,4,7,,,Operational
+40,Datos satelitales,040072,Indicador de calidad de la recuperación estimado mediante PWLR para,Numérica,1,0,8,Numérica,1,3,,,Operational
+40,Datos satelitales,040073,Error de recuperación estimado mediante PWLR para la temperatura de,K,1,0,8,K,1,3,,,Operational
+40,Datos satelitales,040074,Banderines de calidad de interferometría general,Tabla de banderines,0,0,16,,,,,,Operational

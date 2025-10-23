@@ -1,0 +1,14 @@
+ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+35,Información sobre el control de datos,035000,Número de clave FM y regional,Tabla de cifrado,0,0,10,Tabla de cifrado,0,3,,,Operational
+35,Información sobre el control de datos,035001,Plazo de tiempo para el control,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+35,Información sobre el control de datos,035011,Número de informes efectivamente recibidos,Numérica,0,0,14,Numérica,0,4,,,Operational
+35,Información sobre el control de datos,035021,Boletín sometido a control (TTAAii),CCITT IA5,0,0,48,Carácter,0,6,,,Operational
+35,Información sobre el control de datos,035022,Boletín sometido a control (YYGGgg),CCITT IA5,0,0,48,Carácter,0,6,,,Operational
+35,Información sobre el control de datos,035023,Boletín sometido a control (CCCC),CCITT IA5,0,0,32,Carácter,0,4,,,Operational
+35,Información sobre el control de datos,035024,Boletín sometido a control (BBB),CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+35,Información sobre el control de datos,035030,Discrepancias en cuanto a la disponibilidad de datos esperados,Tabla de cifrado,0,0,4,Tabla de cifrado,0,1,,,Operational
+35,Información sobre el control de datos,035031,Calificador de los resultados del control,Tabla de cifrado,0,0,7,Tabla de cifrado,0,2,,,Operational
+35,Información sobre el control de datos,035032,Causa de los datos faltantes,Tabla de cifrado,0,0,4,Tabla de cifrado,0,1,,,Operational
+35,Información sobre el control de datos,035033,Deficiencias de observación y recopilación,Tabla de cifrado,0,0,7,Tabla de cifrado,0,2,,,Operational
+35,Información sobre el control de datos,035034,Tendencias estadísticas de la disponibilidad de datos (durante el (los) período(s) examinado(s),Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+35,Información sobre el control de datos,035035,Motivo de la terminación,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational

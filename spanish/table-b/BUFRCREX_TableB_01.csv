@@ -1,0 +1,92 @@
+ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+01,Identificación,001001,Número de bloque de la OMM,Numérica,0,0,7,Numérica,0,2,,,Operational
+01,Identificación,001002,Número de la estación de la OMM,Numérica,0,0,10,Numérica,0,3,,,Operational
+01,Identificación,001003,Número de Región de la OMM/zona geográfica,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+01,Identificación,001004,Subzona de la Región de la OMM,Numérica,0,0,3,Numérica,0,1,(véase la nota 9),,Operational
+01,Identificación,001005,Identificador de boya/plataforma,Numérica,0,0,17,Numérica,0,5,,,Operational
+01,Identificación,001006,Número de vuelo de aeronave,CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+01,Identificación,001007,Identificador del satélite,Tabla de cifrado,0,0,10,Tabla de cifrado,0,4,,,Operational
+01,Identificación,001008,Número de matrícula de aeronave u otra identificación,CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+01,Identificación,001009,Tipo de avión comercial,CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+01,Identificación,001010,"Identificador de boya/plataforma estacionaria; por ejemplo, boyas C-MAN",CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+01,Identificación,001011,Identificación del buque o de la estación terrestre móvil,CCITT IA5,0,0,72,Carácter,0,9,,,Operational
+01,Identificación,001012,Dirección del movimiento de la plataforma de observación*,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+01,Identificación,001013,Velocidad del movimiento de la plataforma de observación*,m s-1,0,0,10,m s-1,0,3,,,Operational
+01,Identificación,001014,Velocidad de deriva de la plataforma (alta precisión),m s-1,2,0,10,m s-1,2,4,,,Operational
+01,Identificación,001015,Nombre de la estación o emplazamiento,CCITT IA5,0,0,160,Carácter,0,20,,,Operational
+01,Identificación,001018,Nombre abreviado de la estación o emplazamiento,CCITT IA5,0,0,40,Carácter,0,5,,,Operational
+01,Identificación,001019,Nombre completo de la estación o emplazamiento,CCITT IA5,0,0,256,Carácter,0,32,,,Operational
+01,Identificación,001020,Subzona de la Región de la OMM,Numérica,0,0,4,Numérica,0,2,,,Operational
+01,Identificación,001021,Identificador de la característica sinóptica,Numérica,0,0,14,Numérica,0,4,,,Operational
+01,Identificación,001022,Nombre de la característica,CCITT IA5,0,0,224,Carácter,0,28,(véase la nota 11),72,Operational
+01,Identificación,001023,Número de secuencia de observación,Numérica,0,0,9,Numérica,0,3,,,Operational
+01,Identificación,001024,Fuente de la velocidad del viento,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+01,Identificación,001025,Identificador de tormenta,CCITT IA5,0,0,24,Carácter,0,3,(véase la nota 1),,Operational
+01,Identificación,001026,Nombre OMM de la tormenta+,CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+01,Identificación,001027,Nombre OMM completo de la tormenta,CCITT IA5,0,0,80,Carácter,0,10,,,Operational
+01,Identificación,001028,Fuente del espesor óptico de los aerosoles (EOA),Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+01,Identificación,001029,Fuente de la ISS*,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+01,Identificación,001030,Identificación del modelo numérico,CCITT IA5,0,0,128,Tabla de cifrado,0,16,(véase la nota 13),,Operational
+01,Identificación,001031,Identificación del centro de origen/ generación,Tabla de cifrado,0,0,16,Tabla de cifrado,0,5,(véase la nota 10),,Operational
+01,Identificación,001032,"Aplicación de producción definida por el centro de origen/generación (véase las notas 3, 4 y 5)",Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
+01,Identificación,001033,Identificación del centro de origen/ generación,Tabla de cifrado común C-1,0,0,8,Tabla de cifrado común C-1,0,3,,,Operational
+01,Identificación,001034,Identificación del centro secundario de origen/generación,Tabla de cifrado común C-12,0,0,8,Tabla de cifrado común C-12,0,3,,,Operational
+01,Identificación,001035,Centro de origen/producción,Tabla de cifrado común C-11,0,0,16,Tabla de cifrado común C-11,0,5,,,Operational
+01,Identificación,001036,Organismo encargado de operar la plataforma de observación,Tabla de cifrado,0,0,20,Tabla de cifrado,0,7,,,Operational
+01,Identificación,001037,Identificador de la secuencia SIGMET,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+01,Identificación,001038,Fuente de la fracción de hielo marino,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+01,Identificación,001039,Identificador de secuencia de predicción gráfica de área (GFA),CCITT IA5,0,0,40,Carácter,0,5,,,Operational
+01,Identificación,001040,Código de identificación del centro de procesamiento,CCITT IA5,0,0,48,Carácter,0,6,,,Operational
+01,Identificación,001041,Velocidad absoluta de la plataforma – primer componente,m s-1,5,-1073741824,31,m s-1,5,10,(véase la nota 6),,Operational
+01,Identificación,001042,Velocidad absoluta de la plataforma– segundo componente,m s-1,5,-1073741824,31,m s-1,5,10,(véase la nota 6),,Operational
+01,Identificación,001043,Velocidad absoluta de la plataforma – tercer componente,m s-1,5,-1073741824,31,m s-1,5,10,(véase la nota 6),,Operational
+01,Identificación,001044,Aplicación de producción estándar,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
+01,Identificación,001050,Número de identificación del transmisor de la plataforma,Numérica,0,0,17,Numérica,0,6,,,Operational
+01,Identificación,001051,Número de identificación del transmisor de la plataforma,CCITT IA5,0,0,96,Carácter,0,12,,,Operational
+01,Identificación,001052,Identificación del transmisor de la plataforma,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+01,Identificación,001053,Número de secuencia del informe de tsunámetro desencadenado por un suceso de tsunami,Numérica,0,0,7,Numérica,0,2,,,Operational
+01,Identificación,001060,Punto de notificación de la aeronave (identificador Beacon),CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+01,Identificación,001062,Indicador de ubicación abreviado de la OACI,CCITT IA5,0,0,32,Carácter,0,4,,,Operational
+01,Identificación,001063,Indicador de ubicación de la OACI,CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+01,Identificación,001064,Denominador de la pista,CCITT IA5,0,0,32,Carácter,0,4,,,Operational
+01,Identificación,001065,Identificador de región OACI,CCITT IA5,0,0,256,Carácter,0,32,,,Operational
+01,Identificación,001075,Identificación de la estación de observación de mareas,CCITT IA5,0,0,40,Carácter,0,5,,,Operational
+01,Identificación,001079,Identificador único del perfil,CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+01,Identificación,001080,Número del buque de línea según el SOOP,CCITT IA5,0,0,32,Carácter,0,4,,,Operational
+01,Identificación,001081,Número de serie de la radiosonda,CCITT IA5,0,0,160,Carácter,0,20,,,Operational
+01,Identificación,001082,Número de ascenso de la radiosonda,Numérica,0,0,14,Numérica,0,4,(véase la nota 12),,Operational
+01,Identificación,001083,Número de liberación de la radiosonda,Numérica,0,0,3,Numérica,0,1,(véase la nota 12),,Operational
+01,Identificación,001085,Modelo del fabricante de la plataforma de observación,CCITT IA5,0,0,160,Carácter,0,20,,,Operational
+01,Identificación,001086,Número de serie del fabricante de la plataforma de observación,CCITT IA5,0,0,256,Carácter,0,32,,,Operational
+01,Identificación,001087,Indicador ampliado de la plataforma OMM de observación marina,Numérica,0,0,23,Numérica,0,7,,,Operational
+01,Identificación,001090,Técnica para la composición de perturbaciones iniciales,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
+01,Identificación,001091,Número de miembros del conjunto,Numérica,0,0,10,Numérica,0,4,,,Operational
+01,Identificación,001092,Tipo de predicción por conjuntos,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
+01,Identificación,001093,Número de lote del globo,CCITT IA5,0,0,96,Carácter,0,12,,,Operational
+01,Identificación,001094,Número de WBAN,Numérica,0,0,17,Numérica,0,5,,,Operational
+01,Identificación,001095,Identificación del observador,CCITT IA5,0,0,32,Carácter,0,4,,,Operational
+01,Identificación,001096,Adquisición de estación,CCITT IA5,0,0,160,Carácter,0,20,,,Operational
+01,Identificación,001099,Definición única del producto,CCITT IA5,0,0,248,Carácter,0,31,,,Operational
+01,Identificación,001101,Identificador de Estado,Tabla de cifrado,0,0,10,Tabla de cifrado,0,3,,,Operational
+01,Identificación,001102,Número nacional de estación,Numérica,0,0,30,Numérica,0,9,,,Operational
+01,Identificación,001103,Número OMI. Registro Lloyd único,Numérica,0,0,24,Numérica,0,7,,,Operational
+01,Identificación,001104,Identificador de Estado/Estado federal,CCITT IA5,0,0,32,Carácter,0,4,,,Operational
+01,Identificación,001105,Denominador de la ruta principal,CCITT IA5,0,0,40,Carácter,0,5,,,Operational
+01,Identificación,001106,Lugar a lo largo de la ruta principal indicado por marcadores de posición,m,-2,0,14,m,-2,5,,,Operational
+01,Identificación,001110,Número de cola de la aeronave,CCITT IA5,0,0,48,Carácter,0,6,,,Operational
+01,Identificación,001111,Aeropuerto de origen,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+01,Identificación,001112,Aeropuerto de destino,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+01,Identificación,001113,Número de versión del modelo definido por el centro de origen,Numérica,1,0,9,Numérica,1,3,,,Operational
+01,Identificación,001114,Identificación encriptada del buque o de la estación terrestre móvil (encriptación base64),CCITT IA5,0,0,352,Carácter,0,44,,,Operational
+01,Identificación,001115,Identificador del crucero o de la misión en que se recopilaron los datos,CCITT IA5,0,0,160,Carácter,0,20,,,Operational
+01,Identificación,001124,Identificador de punto de retícula,Numérica,0,0,24,Numérica,0,8,,,Operational
+01,Identificación,001125,Serie de identificadores del WIGOS,Numérica,0,0,4,Numérica,0,2,,,Operational
+01,Identificación,001126,Emisor del identificador del WIGOS,Numérica,0,0,16,Numérica,0,5,,,Operational
+01,Identificación,001127,Numero de emisión del WIGOS,Numérica,0,0,16,Numérica,0,5,,,Operational
+01,Identificación,001128,Identificador local del WIGOS (carácter),CCITT IA5,0,0,128,Carácter,0,16,,,Operational
+01,Identificación,001144,Identificador de instantánea,Numérica,0,0,31,Numérica,0,10,,,Operational
+01,Identificación,001150,Sistema de coordenadas de referencia,Tabla de cifrado,0,0,16,Tabla de cifrado,0,5,,,Operational
+01,Identificación,001151,Dato de referencia del nivel medio del mar obtenido respecto a una referencia fija,Tabla de cifrado,0,0,12,Tabla de cifrado,0,4,,,Operational
+01,Identificación,001152,Semieje mayor del elipsoide de rotación,m,2,0,31,m,2,11,,,Operational
+01,Identificación,001153,Semieje menor del elipsoide de rotación,m,2,0,31,m,2,11,,,Operational
+01,Identificación,001154,Identificador del sensor,Numérica,0,0,12,Numérica,0,4,,,Operational

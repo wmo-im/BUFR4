@@ -1,0 +1,69 @@
+ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+15,Componentes físicos/químicos,015001,Ozono total,DU,0,0,10,DU,0,,,,Operational
+15,Componentes físicos/químicos,015002,Masa de aire (correspondiente a una trayectoria oblicua a una altura de 22 km),Numérica,2,0,10,Numérica,2,,,,Operational
+15,Componentes físicos/químicos,015003,Presión parcial del ozono medido,Pa,4,0,9,nbar,0,,(sondeo) (véase la nota 1),,Operational
+15,Componentes físicos/químicos,015004,Factor de corrección de sondeo del ozono,Numérica,3,0,11,Numérica,3,,(CF) (véase la nota 2),,Operational
+15,Componentes físicos/químicos,015005,p del ozono,DU,0,0,10,DU,0,,(véase la nota 3),,Operational
+15,Componentes físicos/químicos,015006,Log10 de la densidad numérica de la atmósfera,log (m-³),5,1800000,7,log (m-³),5,,,,Operational
+15,Componentes físicos/químicos,015008,Significando del cociente de mezclado volumétrico,Numérica,0,0,10,Numérica,0,,,,Operational
+15,Componentes físicos/químicos,015009,Log10 de la densidad numérica de ozono,log (m-3),5,1200000,7,log (m-3),5,,,,Operational
+15,Componentes físicos/químicos,015011,Logaritmo10 de la densidad de electrones integrada,log (m-2),3,14000,13,log (m-2),3,,,,Operational
+15,Componentes físicos/químicos,015012,Recuento total de electrones por m²,m²,-16,0,6,m²,-16,,,,Operational
+15,Componentes físicos/químicos,015015,Componente espectral máximo de la imagen antes de la normalización,Numérica,0,0,31,Numérica,0,,,,Operational
+15,Componentes físicos/químicos,015020,Densidad del ozono integrada,kg m-2,8,0,21,kg m-2,8,,,,Operational
+15,Componentes físicos/químicos,015021,Densidad de masa integrada,kg m-2,11,0,31,kg m-2,11,,,,Operational
+15,Componentes físicos/químicos,015024,Espesor óptico,Numérica,4,0,24,Numérica,4,,,,Operational
+15,Componentes físicos/químicos,015025,Tipo de contamite,Tabla de cifrado,0,0,4,Tabla de cifrado,0,,,,Operational
+15,Componentes físicos/químicos,015026,Concentración del contamite (mol mol-1),mol mol-1,9,0,9,mol mol-1,9,,,,Operational
+15,Componentes físicos/químicos,015027,Concentración del contamite (Kg m-3),kg m-3,9,0,10,kg m-3,9,,,,Operational
+15,Componentes físicos/químicos,015028,Fracción molar del componente/contamite atmosférico en el aire seco,%%,5,0,16,%%,5,,,,Operational
+15,Componentes físicos/químicos,015029,Coeficiente de extinción,m-1,9,0,30,m-1,9,,,,Operational
+15,Componentes físicos/químicos,015030,Índice de contaminación por aerosoles,Numérica,2,-1000,12,Numérica,2,,(véase la nota 6),,Operational
+15,Componentes físicos/químicos,015031,Retraso del trayecto atmosférico en la señal del satélite,m,4,10000,15,m,4,,,,Operational
+15,Componentes físicos/químicos,015032,Error estimado en un retraso de trayecto atmosférico,m,4,0,10,m,4,,,,Operational
+15,Componentes físicos/químicos,015033,Diferencia en retrasos de trayecto para visiones del limbo en extremos de la exploración,m,5,-10000,15,m,5,,,,Operational
+15,Componentes físicos/químicos,015034,Error estimado en la diferencia de retraso de trayecto,m,5,0,14,m,5,,,,Operational
+15,Componentes físicos/químicos,015035,Componente del retraso del trayecto cenital debido al vapor de agua,m,4,0,14,m,4,,,,Operational
+15,Componentes físicos/químicos,015036,Refractividad atmosférica,Unidades N,3,0,19,Unidades N,3,,(véase la nota 5),,Operational
+15,Componentes físicos/químicos,015037,Ángulo de curvatura,rad,8,-100000,23,rad,8,,,,Operational
+15,Componentes físicos/químicos,015038,Retraso del trayecto debido a una atmósfera neutra,m,4,0,20,m,4,,,,Operational
+15,Componentes físicos/químicos,015039,Error estimado en el retraso del trayecto atmosférico en una atmósfera neutra,m,4,0,14,m,4,,,,Operational
+15,Componentes físicos/químicos,015041,Índice de dióxido de azufre,Numérica,2,-1200,14,Numérica,2,,(véase la nota 7),,Operational
+15,Componentes físicos/químicos,015042,Reflectancia,%,2,0,14,%,2,,,,Operational
+15,Componentes físicos/químicos,015045,Dióxido de azufre,DU,2,-2000,15,DU,2,,(véase la nota 8),,Operational
+15,Componentes físicos/químicos,015046,Índice de contaminación por volcanes,Numérica,2,-1000,11,Numérica,2,,(véase la nota 9),,Operational
+15,Componentes físicos/químicos,015049,Exponente de Angstrom de longitud de onda para aerosoles,Numérica,3,-2000,14,Numérica,3,,,,Operational
+15,Componentes físicos/químicos,015051,Alcance óptico meteorológico,m,0,0,18,m,0,,,,Operational
+15,Componentes físicos/químicos,015052,Log10 de la densidad numérica de partículas de aerosol con un diámetro superior a 5 nm,log(m-³),1,60,6,log(m-³),1,,,,Operational
+15,Componentes físicos/químicos,015053,Log10 de la densidad numérica de partículas de aerosol con un diámetro superior a 14 nm,log(m-³),2,600,9,log(m-³),2,,,,Operational
+15,Componentes físicos/químicos,015054,"Log10 de la densidad numérica de partículas de aerosol con un diámetro comprendido entre 0,25 y 2,5 μm",log(m-³),2,550,9,log(m-³),2,,,,Operational
+15,Componentes físicos/químicos,015055,Proporción de aerosoles no volátiles,Numérica,2,0,7,Numérica,2,,,,Operational
+15,Componentes físicos/químicos,015062,Espesor óptico de los aerosoles,Numérica,3,-1000,14,Numérica,3,,,,Operational
+15,Componentes físicos/químicos,015063,Retrodispersión atenuada,m-1 sr-1,8,0,20,m-1 sr-1,8,,,,Operational
+15,Componentes físicos/químicos,015064,Incertidumbre en la retrodispersión atenuada,m-1 sr-1,8,0,20,m-1 sr-1,8,,,,Operational
+15,Componentes físicos/químicos,015065,Coeficiente de retrodispersión de las partículas,m-1 sr-1,8,0,20,m-1 sr-1,8,,,,Operational
+15,Componentes físicos/químicos,015066,Incertidumbre en el coeficiente de retrodispersión de las partículas,m-1 sr-1,8,0,20,m-1 sr-1,8,,,,Operational
+15,Componentes físicos/químicos,015067,Coeficiente de extinción de las partículas,m-1,8,0,20,m-1,8,,,,Operational
+15,Componentes físicos/químicos,015068,Incertidumbre en el coeficiente de extinción de las partículas,m-1,8,0,20,m-1,8,,,,Operational
+15,Componentes físicos/químicos,015069,Ratio lidar partículas,sr,2,0,14,sr,2,,,,Operational
+15,Componentes físicos/químicos,015070,Incertidumbre en el ratio lidar,sr,2,0,14,sr,2,,,,Operational
+15,Componentes físicos/químicos,015071,Ratio de despolarización de las partículas,%,2,0,14,%,2,,,,Operational
+15,Componentes físicos/químicos,015072,Incertidumbre en el ratio de despolarización de las partículas,%,2,0,14,%,2,,,,Operational
+15,Componentes físicos/químicos,015073,Retrodispersión atenuada,m-1 sr-1,8,-524288,20,m-1 sr-1,8,,,,Operational
+15,Componentes físicos/químicos,015074,Coeficiente de retrodispersión de las partículas,m-1 sr-1,8,-524288,20,m-1 sr-1,8,,,,Operational
+15,Componentes físicos/químicos,015075,Coeficiente de extinción de las partículas,m-1,8,-524288,20,m-1,8,,,,Operational
+15,Componentes físicos/químicos,015076,Ratio partículas lidar,sr,1,-2048,13,sr,1,,,,Operational
+15,Componentes físicos/químicos,015077,Incertidumbre en el ratio lidar,sr,1,0,12,sr,1,,,,Operational
+15,Componentes físicos/químicos,015078,Ratio de despolarización de las partículas,%,2,-8192,15,%,2,,,,Operational
+15,Componentes físicos/químicos,015079,Retraso del trayecto cenital debido a una atmósfera neutra,m,4,0,15,m,4,,(véase la nota 11),,Operational
+15,Componentes físicos/químicos,015080,Error estimado en el retraso del trayecto cenital debido a una atmósfera neutra,m,4,0,12,m,4,,,,Operational
+15,Componentes físicos/químicos,015081,Retraso del trayecto húmedo debido a una atmósfera neutra,m,4,0,18,m,4,,(véase la nota 12),,Operational
+15,Componentes físicos/químicos,015082,Vapor de agua integrado en el trayecto,kg m-2,1,0,16,kg m-2,1,,(véase la nota 16),,Operational
+15,Componentes físicos/químicos,015083,Gradiente en atmósfera neutra estimado a través del GNSS,m,5,0,14,m,5,,(véase la nota 17),,Operational
+15,Componentes físicos/químicos,015084,Residuos de mínimos cuadrados en el GNSS,m,4,0,14,m,4,,(véase la nota 18),,Operational
+15,Componentes físicos/químicos,015085,Retraso por efectos multitrayecto en el GNSS,m,4,0,14,m,4,,(véase la nota 15),,Operational
+15,Componentes físicos/químicos,015086,Función de mapeo hidrostático del GNSS,Numérica,3,0,16,Numérica,3,,(véase la nota 19),,Operational
+15,Componentes físicos/químicos,015087,Función de mapeo húmedo del GNSS,m,3,0,16,Numérica,3,,(véase la nota 19),,Operational
+15,Componentes físicos/químicos,015088,Función de mapeo de gradiente del GNSS,m,3,0,16,Numérica,3,,(véase la nota 19),,Operational
+15,Componentes físicos/químicos,015089,Retraso del trayecto cenital debido a una atmósfera hidrostática neutra,m,4,0,15,m,4,,(véase la nota 13),,Operational
+15,Componentes físicos/químicos,015090,Retraso del trayecto debido a una atmósfera hidrostática neutra,m,4,0,20,m,4,,(véase la nota 14),,Operational

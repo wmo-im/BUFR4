@@ -1,0 +1,14 @@
+ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+24,Elementos radiológicos,024001,Estimación de la cantidad de radiactividad emitida hasta una hora dada,Bq,-11,0,28,Bq,-11,9,,,Operational
+24,Elementos radiológicos,024002,Emisión potencial máxima estimada de sustancias,Bq,-11,0,28,Bq,-11,9,,,Operational
+24,Elementos radiológicos,024003,Composición de la emisión de sustancias,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+24,Elementos radiológicos,024004,Nombre del elemento,CCITT IA5,0,0,16,Carácter,0,2,,,Operational
+24,Elementos radiológicos,024005,Masa del isótopo,Numérica,0,0,9,Numérica,0,3,,,Operational
+24,Elementos radiológicos,024011,Dosis,mSv*,2,0,32,mSv*,2,10,,,Operational
+24,Elementos radiológicos,024012,Trayectoria de la dosis (para un lugar y una hora de llegada dados),mSv,2,0,32,mSv,2,10,,,Operational
+24,Elementos radiológicos,024013,Dosis de rayos gamma en el aire a lo largo de la ruta del transporte principal (en un lugar preciso y por un período determinado),mSv,2,0,32,mSv,2,10,,,Operational
+24,Elementos radiológicos,024014,Tasa de dosis de radiación gamma,nSv h-1,1,0,14,nSv h-1,1,4,(véase la nota 2),,Operational
+24,Elementos radiológicos,024021,Concentración en el aire (del tipo de isótopo designado incluyendo la dosis beta bruta),Bq m-3,2,0,32,Bq m-3,2,10,,,Operational
+24,Elementos radiológicos,024022,Concentración en las precipitaciones (del tipo de isótopo designado),Bq l-1,2,0,32,Bq l-1,2,10,,,Operational
+24,Elementos radiológicos,024023,Pulsación de la radiación beta,s-1,1,0,14,s-1,1,4,,,Operational
+24,Elementos radiológicos,024024,Pulsación de la radiación gamma,s-1,1,0,14,s-1,1,4,,,Operational

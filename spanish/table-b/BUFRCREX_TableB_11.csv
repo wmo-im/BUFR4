@@ -1,0 +1,79 @@
+﻿ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+11,Viento y turbulencia,011001,Dirección del viento,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011002,Velocidad del viento,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011003,Componente u,m s-1,1,-4096,13,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011004,Componente v,m s-1,1,-4096,13,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011005,Componente w,Pa s-1,1,-512,10,Pa s-1,1,4,,,Operational
+11,Viento y turbulencia,011006,Componente w,m s-1,2,-4096,13,m s-1,2,4,,,Operational
+11,Viento y turbulencia,011007,Dirección relativa del viento (en grados de desviación respecto a la proa),°,0,0,9,°,0,3,,,Operational
+11,Viento y turbulencia,011008,Velocidad relativa del viento,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011010,Dirección del viento asociada a la velocidad del viento que sigue,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011011,Dirección del viento a 10 m,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011012,Velocidad del viento a 10 m,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011013,Dirección del viento a 5 m,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011014,Velocidad del viento a 5 m,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011016,Dirección sinistrorsa extrema de un viento variable,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011017,Dirección dextrorsa extrema de un viento variable,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011019,Persistencia del viento,%,0,0,7,%,0,3,(véase la nota 6),,Operational
+11,Viento y turbulencia,011021,Vorticidad relativa,m s-1,9,-65536,17,m s-1,9,6,,,Operational
+11,Viento y turbulencia,011022,Divergencia,s-1,9,-65536,17,s-1,9,6,,,Operational
+11,Viento y turbulencia,011023,Potencial de velocidad,m² s-1,-2,-65536,17,m² s-1,-2,6,,,Operational
+11,Viento y turbulencia,011030,Grado de turbulencia ampliado,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational
+11,Viento y turbulencia,011031,Grado de turbulencia,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+11,Viento y turbulencia,011032,Altura de la base de la turbulencia,m,-1,-40,16,m,-1,5,,,Operational
+11,Viento y turbulencia,011033,Altura de la cima de la turbulencia,m,-1,-40,16,m,-1,5,,,Operational
+11,Viento y turbulencia,011034,Velocidad de las ráfagas verticales,m s-1,1,-1024,11,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011035,Aceleración de las ráfagas verticales,m s-2,2,-8192,14,m s-2,2,5,,,Operational
+11,Viento y turbulencia,011036,Equivalente máximo derivado de la velocidad de las ráfagas verticales,m s-1,1,0,10,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011037,Índice de turbulencia,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational
+11,Viento y turbulencia,011038,Hora a la que se produce la máxima tasa de disipación de los remolinos,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+11,Viento y turbulencia,011039,Hora ampliada a la que se produce la máxima tasa de disipación de los remolinos,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational
+11,Viento y turbulencia,011040,Velocidad máxima del viento (viento medio),m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011041,Velocidad máxima del viento (ráfagas),m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011042,Velocidad máxima del viento (viento medio de 10 minutos),m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011043,Dirección máxima del viento (ráfagas),grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011044,Dirección media del viento en la superficie – 1500 m (5000 pies),grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011045,Velocidad media del viento en la superficie – 1500 m (5000 pies),m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011046,Velocidad instantánea máxima del viento,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011047,Velocidad instantánea máxima del viento en 10 minutos,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011049,Desviación típica de la dirección del viento,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011050,Desviación típica de la velocidad del viento horizontal,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011051,Desviación típica de la velocidad del viento vertical,m s-1,1,0,8,m s-1,1,3,,,Operational
+11,Viento y turbulencia,011052,Incertidumbre formal de la velocidad del viento,m s-1,2,0,13,m s-1,2,5,,,Operational
+11,Viento y turbulencia,011053,Incertidumbre formal de la dirección del viento,grado verdadero,2,0,15,grado verdadero,2,5,,,Operational
+11,Viento y turbulencia,011054,Dirección media del viento para 1 500 m - 3 000 m,grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011055,Velocidad media del viento para 1 500 m - 3 000 m,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011061,Cizalladura absoluta del viento en una capa inferior de 1 km,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011062,Cizalladura absoluta del viento en una capa superior de 1 km,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011070,Designador de la pista afectada por la cizalladura del viento (incluyendo ALL),CCITT IA5,0,0,32,Carácter,0,4,,,Operational
+11,Viento y turbulencia,011071,Flujo del momento vertical de la turbulencia,m² s-2,3,-128,14,m² s-2,3,5,,,Operational
+11,Viento y turbulencia,011072,Flujo de la fuerza ascensional vertical de la turbulencia,K m s-1,3,-128,11,K m s-1,3,4,,,Operational
+11,Viento y turbulencia,011073,Energía cinética de la turbulencia,m² s-2,2,-1024,13,m² s-2,2,4,,,Operational
+11,Viento y turbulencia,011074,Energía de disipación,m² s-2,2,-1024,10,m² s-2,2,4,,,Operational
+11,Viento y turbulencia,011075,Intensidad media de la turbulencia (tasa de disipación de los remolinos),m2/3 s-1,2,0,8,m2/3 s-1,2,3,,,Operational
+11,Viento y turbulencia,011076,Intensidad máxima de la turbulencia (tasa de disipación de los remolinos),m2/3 s-1,2,0,8,m2/3 s-1,2,3,,,Operational
+11,Viento y turbulencia,011077,Intervalo de información a tiempo medio para la tasa de disipación de los remolinos,s,0,0,12,s,0,4,,,Operational
+11,Viento y turbulencia,011081,Dirección modélica del viento a 10 m,grado verdadero,2,0,16,grado verdadero,2,5,,,Operational
+11,Viento y turbulencia,011082,Velocidad modélica del viento a 10 m,m s-1,2,0,14,m s-1,2,4,,,Operational
+11,Viento y turbulencia,011083,Velocidad del viento,km h-1,0,0,9,km h-1,0,3,,,Operational
+11,Viento y turbulencia,011084,Velocidad del viento,kt,0,0,8,kt,0,3,,,Operational
+11,Viento y turbulencia,011085,Velocidad máxima del viento en ráfagas,km h-1,0,0,9,km h-1,0,3,,,Operational
+11,Viento y turbulencia,011086,Velocidad máxima del viento en ráfagas,kt,0,0,8,kt,0,3,,,Operational
+11,Viento y turbulencia,011095,Componente u del vector de viento del modelo,m s-1,1,-4096,13,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011096,Componente v del vector de viento del modelo,m s-1,1,-4096,13,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011097,Velocidad de viento altimétrica,m/s,2,0,12,m s-1,2,4,,,Operational
+11,Viento y turbulencia,011098,Velocidad de viento radiométrica,m/s,2,0,12,m s-1,2,4,,,Operational
+11,Viento y turbulencia,011100,Velocidad verdadera de la aeronave,m s-1,1,0,12,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011101,Componente u de la velocidad terrestre de la aeronave,m s-1,1,-4096,13,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011102,Componente v de la velocidad terrestre de la aeronave,m s-1,1,-4096,13,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011103,Componente w de la velocidad terrestre de la aeronave,m s-1,1,-512,10,m s-1,1,3,,,Operational
+11,Viento y turbulencia,011104,"Rumbo verdadero de la aeronave, buque u otra plataforma móvil",grado verdadero,0,0,9,grado verdadero,0,3,,,Operational
+11,Viento y turbulencia,011105,Versión del algoritmo EDR*,Numérica,0,0,6,Numérica,0,2,,,Operational
+11,Viento y turbulencia,011106,Confianza mínima móvil,Numérica,1,0,4,Numérica,1,2,,,Operational
+11,Viento y turbulencia,011107,Número máximo de entradas incorrectas,Numérica,0,0,5,Numérica,0,2,,,Operational
+11,Viento y turbulencia,011108,Ubicación de las cúspides,Numérica,1,0,4,Numérica,1,2,,,Operational
+11,Viento y turbulencia,011109,Número de EDR correcto*,Numérica,0,0,4,Numérica,0,2,,,Operational
+11,Viento y turbulencia,011110,Incertidumbre en el componente u,m s-1,1,-4096,13,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011111,Incertidumbre en el componente v,m s-1,1,-4096,13,m s-1,1,4,,,Operational
+11,Viento y turbulencia,011112,Incertidumbre en el componente w,m s-1,2,-4096,13,m s-1,2,4,,,Operational
+11,Viento y turbulencia,011113,Seguimiento de la correlación del vector,Numérica,3,-1000,12,Numérica,3,4,,,Operational

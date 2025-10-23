@@ -1,0 +1,150 @@
+ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+25,Información sobre el proceso de datos,025001,Distancia de la puerta de integración,m,-1,0,6,m,-1,2,,,Operational
+25,Información sobre el proceso de datos,025002,Número medio de puertas,Numérica,0,0,4,Numérica,0,2,,,Operational
+25,Información sobre el proceso de datos,025003,Número de impulsos integrados,Numérica,0,0,8,Numérica,0,3,,,Operational
+25,Información sobre el proceso de datos,025004,Proceso de datos sobre ecos,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025005,Integración de los ecos,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025006,Conversión Z - R,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025007,Factor de conversión Z - R,Numérica,0,0,12,Numérica,0,4,,,Operational
+25,Información sobre el proceso de datos,025008,Exponente de conversión Z -R,Numérica,2,0,9,Numérica,2,3,,,Operational
+25,Información sobre el proceso de datos,025009,Método de calibración,Tabla de banderines,0,0,4,Tabla de banderines,0,2,(véase la nota 3),,Operational
+25,Información sobre el proceso de datos,025010,Tratamiento de los ecos parásitos,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+25,Información sobre el proceso de datos,025011,Corrección de los ecos de suelo (filtrado),Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025012,Corrección de la atenuación del alcance,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025013,Corrección de la banda brillante,Tabla de banderines,0,0,2,Tabla de banderines,0,1,,,Operational
+25,Información sobre el proceso de datos,025014,Corte azimutal de ecos parásitos,Numérica,0,0,12,Numérica,0,4,(véase la nota 1),,Operational
+25,Información sobre el proceso de datos,025015,Corrección de la atenuación por el radomo,Tabla de banderines,0,0,2,Tabla de banderines,0,1,,,Operational
+25,Información sobre el proceso de datos,025016,Corrección de la atenuación en cielo despejado,dB m-1,5,0,6,dB m-1,5,2,,,Operational
+25,Información sobre el proceso de datos,025017,Corrección de la atenuación por las precipitaciones,Tabla de banderines,0,0,2,Tabla de banderines,0,1,,,Operational
+25,Información sobre el proceso de datos,025018,Ley de A a Z para el factor de atenuación,Numérica,7,0,6,Numérica,7,2,,,Operational
+25,Información sobre el proceso de datos,025019,Ley de A a Z para el exponente de atenuación,Numérica,2,0,7,Numérica,2,3,,,Operational
+25,Información sobre el proceso de datos,025020,Estimación de la velocidad media,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025021,Refuerzo del cálculo del viento,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025022,Banderín de rechazo GHRSST*,Tabla de banderines,0,0,9,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025023,Banderín de confianza GHRSST,Tabla de banderines,0,0,9,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025024,Calidad de datos GHRSST,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+25,Información sobre el proceso de datos,025025,Voltaje de la batería,V,1,0,9,V,1,3,,,Operational
+25,Información sobre el proceso de datos,025026,Voltaje de la batería (intervalo amplio),V,1,0,12,V,1,4,,,Operational
+25,Información sobre el proceso de datos,025028,Parámetro definido por el operador o fabricante,Numérica,1,-16384,15,Numérica,1,5,,,Operational
+25,Información sobre el proceso de datos,025029,Método de calibración,Tabla de banderines,0,0,6,Tabla de banderines,0,2,(véase la nota 3),,Operational
+25,Información sobre el proceso de datos,025030,Media móvil de la temperatura en la superficie del mar,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025031,Método de adelgazamiento del perfil vertical generado por predicción numérica del tiempo,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025032,Información sobre el modo del perfilador del viento,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,(véase la nota 2),,Operational
+25,Información sobre el proceso de datos,025033,Información sobre el submodo del perfilador del viento,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,(véase la nota 2),,Operational
+25,Información sobre el proceso de datos,025034,Resultados de las pruebas de control de calidad del perfilador del viento,Tabla de banderines,0,0,4,Tabla de banderines,0,2,(véase la nota 2),,Operational
+25,Información sobre el proceso de datos,025035,Método de decisión para la polaridad,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,(véase la nota 5),,Operational
+25,Información sobre el proceso de datos,025036,Método de ubicación de parásitos atmosféricos,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+25,Información sobre el proceso de datos,025037,Error sistemático de TSM,K,2,-127,8,K,2,3,,,Operational
+25,Información sobre el proceso de datos,025038,Diferencia entre TSM y análisis,K,1,-127,8,K,1,3,,,Operational
+25,Información sobre el proceso de datos,025040,Producto de viento obtenido por el trazador de CO2,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+25,Información sobre el proceso de datos,025041,Método de información sobre la dirección de la plataforma móvil,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025042,Método de información sobre la velocidad de la plataforma móvil,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025043,Intervalo de muestreo de las olas (tiempo),s,4,0,15,s,4,5,,,Operational
+25,Información sobre el proceso de datos,025044,Intervalo de muestreo de las olas (espacio),m,2,0,14,m,2,5,,,Operational
+25,Información sobre el proceso de datos,025045,Combinación de canales de la sonda HIRS,Tabla de banderines,0,0,21,Tabla de banderines,0,7,,,Operational
+25,Información sobre el proceso de datos,025046,Combinación de canales de la sonda MSU,Tabla de banderines,0,0,5,Tabla de banderines,0,2,,,Operational
+25,Información sobre el proceso de datos,025047,Combinación de canales de la sonda SSU,Tabla de banderines,0,0,4,Tabla de banderines,0,2,,,Operational
+25,Información sobre el proceso de datos,025048,Combinación de canales de la sonda AMSU-A,Tabla de banderines,0,0,16,Tabla de banderines,0,6,,,Operational
+25,Información sobre el proceso de datos,025049,Combinación de canales de la sonda AMSU-B,Tabla de banderines,0,0,6,Tabla de banderines,0,2,,,Operational
+25,Información sobre el proceso de datos,025050,Índice del componente principal,Numérica,4,-131072,18,Numérica,4,6,,,Operational
+25,Información sobre el proceso de datos,025051,Combinación de los canales del radiómetro AVHRR,Tabla de banderines,0,0,7,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025052,Log-10 del ajuste a los datos normalizado de los principales componentes,Numérica,4,0,15,Numérica,4,5,,,Operational
+25,Información sobre el proceso de datos,025053,Calidad de la observación,Tabla de banderines,0,0,12,Tabla de banderines,0,4,,,Operational
+25,Información sobre el proceso de datos,025054,Número de identificación de subtrama SSMIS,Numérica,0,0,5,Numérica,0,2,,,Operational
+25,Información sobre el proceso de datos,025055,Mantenimiento de multiplexor,K,2,0,16,K,2,5,,,Operational
+25,Información sobre el proceso de datos,025060,Identificación del software,Numérica,0,0,14,Numérica,0,5,(véase la nota 2),,Operational
+25,Información sobre el proceso de datos,025061,Identificación y número de versión del software,CCITT IA5,0,0,96,Carácter,0,12,,,Operational
+25,Información sobre el proceso de datos,025062,Identificación de la base de datos,Numérica,0,0,14,Numérica,0,5,,,Operational
+25,Información sobre el proceso de datos,025063,Procesador central o identificador del sistema,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,(véase la nota 6),,Operational
+25,Información sobre el proceso de datos,025065,Corrección de la orientación (azimut),°,2,-1000,11,°,2,4,,,Operational
+25,Información sobre el proceso de datos,025066,Corrección de la orientación (elevación),°,2,-1000,11,°,2,4,,,Operational
+25,Información sobre el proceso de datos,025067,Corrección de la presión del punto de lanzamiento de la radiosonda,Pa,0,-8000,14,Pa,0,4,,,Operational
+25,Información sobre el proceso de datos,025068,Número de recálculos de archivo,Numérica,0,0,7,Numérica,0,3,,,Operational
+25,Información sobre el proceso de datos,025069,Correcciones de la presión del nivel de vuelo,Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025070,Número de tramas principales,Numérica,0,0,4,Numérica,0,2,,,Operational
+25,Información sobre el proceso de datos,025071,Número de tramas,Numérica,0,0,5,Numérica,0,2,,,Operational
+25,Información sobre el proceso de datos,025075,Número de la versión de las correcciones a la antena del satélite,Numérica,0,0,5,Numérica,0,2,,,Operational
+25,Información sobre el proceso de datos,025076,Log-10 (del número de onda central de temperatura-radiancia) para ATOVS,log (m-1),8,0,30,log (m-1),8,10,,,Operational
+25,Información sobre el proceso de datos,025077,Coeficiente 1 de corrección del ancho de banda,Numérica,5,-100000,18,Numérica,5,7,,,Operational
+25,Información sobre el proceso de datos,025078,Coeficiente 2 de corrección del ancho de banda,Numérica,5,0,17,Numérica,5,6,,,Operational
+25,Información sobre el proceso de datos,025079,Irradiancia solar filtrada de la radiancia del albedo para ATOVS,W m-2,4,0,24,W m-2,4,8,,,Operational
+25,Información sobre el proceso de datos,025080,Anchura equivalente del filtro de la radiancia del albedo para ATOVS,m,10,0,14,m,10,5,,,Operational
+25,Información sobre el proceso de datos,025081,Ángulo de incidencia,°,3,0,17,°,3,6,,,Operational
+25,Información sobre el proceso de datos,025082,Ángulo azimutal,°,3,0,19,°,3,6,,,Operational
+25,Información sobre el proceso de datos,025083,Ángulo rotacional de Faraday,°,3,0,19,°,3,6,,,Operational
+25,Información sobre el proceso de datos,025084,Ángulo rotacional geométrico,°,5,0,26,°,5,8,,,Operational
+25,Información sobre el proceso de datos,025085,Fracción de píxeles claros en el campo de visión (FOV) de HIRS,Numérica,0,0,7,Numérica,0,3,,,Operational
+25,Información sobre el proceso de datos,025086,Indicador de la corrección de la profundidad,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025090,Banderín de estado orbital,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+25,Información sobre el proceso de datos,025091,Constante estructural del índice de refracción (Cn²),dB,3,-18192,13,dB,3,5,,,Operational
+25,Información sobre el proceso de datos,025092,Velocidad de propagación acústica,m s-1,2,28000,14,m s-1,2,5,,,Operational
+25,Información sobre el proceso de datos,025093,Corrección del cálculo RASS (sistema de sondeo radioacústico),Tabla de banderines,0,0,8,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025095,Banderín de estado del altímetro,Tabla de banderines,0,0,2,Tabla de banderines,0,1,,,Operational
+25,Información sobre el proceso de datos,025096,Banderín de estado del radiómetro,Tabla de banderines,0,0,5,Tabla de banderines,0,2,,,Operational
+25,Información sobre el proceso de datos,025097,Estimación del error tridimensional de la órbita del navegador,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+25,Información sobre el proceso de datos,025098,Banderín de calidad de los datos altimétricos,Tabla de banderines,0,0,9,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025099,Banderín de calidad de la corrección altimétrica,Tabla de banderines,0,0,9,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025100,Coeficiente a de la ecuación del índice de caída de los XBT/XCTD,Numérica,5,0,20,Numérica,5,6,,,Operational
+25,Información sobre el proceso de datos,025101,Coeficiente b de la ecuación del índice de caída de los XBT/XCTD,Numérica,5,-500000,21,Numérica,5,6,,,Operational
+25,Información sobre el proceso de datos,025102,Número de líneas faltantes excluidas las lagunas de datos,Numérica,0,0,8,Numérica,0,3,,,Operational
+25,Información sobre el proceso de datos,025103,Número de células direccionales,Numérica,0,0,8,Numérica,0,3,,,Operational
+25,Información sobre el proceso de datos,025104,Número de células de longitud de onda,Numérica,0,0,8,Numérica,0,3,,,Operational
+25,Información sobre el proceso de datos,025105,Primera célula direccional,°,3,0,19,°,3,6,,,Operational
+25,Información sobre el proceso de datos,025106,Tramo de célula direccional,°,3,0,19,°,3,6,,,Operational
+25,Información sobre el proceso de datos,025107,Primera célula de longitud de onda,m,3,0,29,m,3,9,,,Operational
+25,Información sobre el proceso de datos,025108,Última célula de longitud de onda,m,3,0,29,m,3,9,,,Operational
+25,Información sobre el proceso de datos,025110,Resumen de proceso de imagen,Tabla de banderines,0,0,10,Tabla de banderines,0,4,,,Operational
+25,Información sobre el proceso de datos,025111,Número de lagunas de datos entrantes,Numérica,0,0,8,Numérica,0,3,,,Operational
+25,Información sobre el proceso de datos,025112,Banderín de calidad de los datos altimétricos en banda específica,Tabla de banderines,0,0,9,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025113,Banderín de calidad de la corrección altimétrica en banda específica,Tabla de banderines,0,0,9,Tabla de banderines,0,3,,,Operational
+25,Información sobre el proceso de datos,025120,Banderín de proceso de nivel 2 - RA-2,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025121,Calidad de proceso de nivel 2 - RA-2,%,0,0,7,%,0,3,,,Operational
+25,Información sobre el proceso de datos,025122,Configuración del equipo informático para radiofrecuencia,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025123,Configuración del equipo informático para amplificador de gran potencia,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025124,Banderín de proceso de nivel 2 - MWR,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025125,Calidad de proceso de nivel 2 – MWR,%,0,0,7,%,0,3,,,Operational
+25,Información sobre el proceso de datos,025126,Corrección troposférica seca según modelo,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025127,Corrección de barómetro invertido,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025128,Corrección troposférica húmeda según modelo,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025129,Corrección troposférica húmeda obtenida de MWR,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025130,Corrección ionosférica obtenida de RA-2 en banda Ku,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025131,Corrección ionosférica obtenida de Doris en banda Ku,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025132,Corrección ionosférica en banda Ku según modelo,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025133,Corrección del error sistemático sobre el estado del mar en banda Ku,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025134,Corrección ionosférica obtenida de RA-2 en banda S,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025135,Corrección ionosférica obtenida de Doris en banda S,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025136,Corrección ionosférica en banda S según modelo,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025137,Corrección del error sistemático sobre el estado del mar en banda S,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025138,"Relación señal-ruido, promedio",Numérica,0,-2048,12,Numérica,0,4,,,Operational
+25,Información sobre el proceso de datos,025140,Canal de comienzo,Numérica,0,0,14,Numérica,0,5,,,Operational
+25,Información sobre el proceso de datos,025141,Canal de terminación,Numérica,0,0,14,Numérica,0,5,,,Operational
+25,Información sobre el proceso de datos,025142,Factor de escala del canal,Numérica,0,0,6,Numérica,0,2,,,Operational
+25,Información sobre el proceso de datos,025143,Coeficiente lineal,Numérica,6,-5000000,24,Numérica,6,,,,Operational
+25,Información sobre el proceso de datos,025148,Coeficiente de variación,Numérica,2,-10000,15,Numérica,2,5,,,Operational
+25,Información sobre el proceso de datos,025149,Estimación óptima de costo,Numérica,0,0,8,Numérica,0,3,,,Operational
+25,Información sobre el proceso de datos,025150,Método de análisis de la intensidad de los ciclones tropicales a partir de datos obtenidos por satélites,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+25,Información sobre el proceso de datos,025160,Corrección instrumental neta en banda Ku,m,4,-120000,18,m,4,6,,,Operational
+25,Información sobre el proceso de datos,025161,Corrección instrumental neta en banda C,m,4,-120000,18,m,4,6,,,Operational
+25,Información sobre el proceso de datos,025162,Corrección del error sistemático sobre el estado del mar en banda C,m,4,-6000,13,m,4,4,,,Operational
+25,Información sobre el proceso de datos,025163,Corrección ionosférica altimétrica en banda Ku,m,3,-32768,16,m,3,5,,,Operational
+25,Información sobre el proceso de datos,025164,Corrección troposférica húmeda del radiómetro,m,4,-5000,13,m,4,5,,,Operational
+25,Información sobre el proceso de datos,025165,Corrección ionosférica según modelo en banda específica,m,4,-32768,16,m,4,5,,,Operational
+25,Información sobre el proceso de datos,025166,Corrección del error sistemático sobre el estado del mar en banda específica,m,4,-32768,16,m,4,5,,,Operational
+25,Información sobre el proceso de datos,025167,Corrección instrumental neta en banda específica,m,4,-120000,18,m,4,6,,,Operational
+25,Información sobre el proceso de datos,025170,Intervalo de muestreo (tiempo),s,0,0,10,s,0,4,,,Operational
+25,Información sobre el proceso de datos,025171,Período de promediación de las muestras,s,0,0,10,s,0,4,,,Operational
+25,Información sobre el proceso de datos,025172,Número de muestras,Numérica,0,0,10,Numérica,0,4,,,Operational
+25,Información sobre el proceso de datos,025174,Banderín de información de SMOS,Tabla de banderines,0,0,14,Tabla de banderines,0,5,,,Operational
+25,Información sobre el proceso de datos,025175,Residuo modificado,Numérica,2,0,13,Numérica,2,4,(véase la nota 7),,Operational
+25,Información sobre el proceso de datos,025180,Porcentaje LRM*,%,2,0,16,%,2,5,,,Operational
+25,Información sobre el proceso de datos,025181,Banderín de procesamiento de nivel 2,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025182,Banderín de procesamiento de nivel 1,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025183,Calidad de procesamiento de nivel 1,%,2,0,14,%,2,5,,,Operational
+25,Información sobre el proceso de datos,025184,Estado del producto de nivel 2,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+25,Información sobre el proceso de datos,025185,Método de encriptación,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
+25,Información sobre el proceso de datos,025186,Versión de la clave de encriptación,CCITT IA5,0,0,96,Carácter,0,12,,,Operational
+25,Información sobre el proceso de datos,025187,Banderín de confianza,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+25,Información sobre el proceso de datos,025188,Método para reducir la presión al nivel del mar,Tabla de cifrado,0,0,5,Tabla de cifrado,0,24,,,Operational
+25,Información sobre el proceso de datos,025189,Rango de longitudes de onda permitidas,m,0,1,9,m,0,,,,Operational
+25,Información sobre el proceso de datos,025190,Modo de cálculo del eco del altímetro,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
+25,Información sobre el proceso de datos,025191,Modo de seguimiento del altímetro,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
