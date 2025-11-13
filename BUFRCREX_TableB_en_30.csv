@@ -1,11 +1,11 @@
-ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-30,Image,030001,Pixel value (4 bits),Numeric,0,0,4,Numeric,0,2,,,Operational
-30,Image,030002,Pixel value (8 bits),Numeric,0,0,8,Numeric,0,3,,,Operational
-30,Image,030004,Pixel value (16 bits),Numeric,0,0,16,Numeric,0,5,,,Operational
-30,Image,030010,Number of grid points,Numeric,0,0,13,Numeric,0,4,,,Operational
-30,Image,030021,Number of pixels per row,Numeric,0,0,12,Numeric,0,4,,,Operational
-30,Image,030022,Number of pixels per column,Numeric,0,0,12,Numeric,0,4,,,Operational
-30,Image,030031,Picture type,Code table,0,0,4,Code table,0,2,,,Operational
-30,Image,030032,Combination with other data,Flag table,0,0,16,Flag table,0,6,,,Operational
-30,Image,030033,Number of bins along the radial,Numeric,0,0,12,Numeric,0,4,,,Operational
-30,Image,030034,Number of azimuths,Numeric,0,0,12,Numeric,0,4,,,Operational
+Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+bufr4/0/30/001,30,Image,030001,Pixel value (4 bits),Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/30/002,30,Image,030002,Pixel value (8 bits),Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/30/004,30,Image,030004,Pixel value (16 bits),Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/30/010,30,Image,030010,Number of grid points,Numeric,0,0,13,Numeric,0,4,,,Operational
+bufr4/0/30/021,30,Image,030021,Number of pixels per row,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/022,30,Image,030022,Number of pixels per column,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/031,30,Image,030031,Picture type,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/30/032,30,Image,030032,Combination with other data,Flag table,0,0,16,Flag table,0,6,,,Operational
+bufr4/0/30/033,30,Image,030033,Number of bins along the radial,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/034,30,Image,030034,Number of azimuths,Numeric,0,0,12,Numeric,0,4,,,Operational

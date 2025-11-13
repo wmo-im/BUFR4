@@ -1,116 +1,116 @@
-ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-20,Observed phenomena,020001,Horizontal visibility,m,-1,0,13,m,-1,4,,,Operational
-20,Observed phenomena,020002,Vertical visibility,m,-1,0,7,m,-1,3,,,Operational
-20,Observed phenomena,020003,Present weather,Code table,0,0,9,Code table,0,3,(see Note 1),172,Operational
-20,Observed phenomena,020004,Past weather (1),Code table,0,0,5,Code table,0,2,(see Note 2),171,Operational
-20,Observed phenomena,020005,Past weather (2),Code table,0,0,5,Code table,0,2,(see Note 2),171,Operational
-20,Observed phenomena,020006,Flight rules,Code table,0,0,3,Code table,0,1,,,Operational
-20,Observed phenomena,020008,Cloud distribution for aviation,Code table,0,0,5,Code table,0,2,,,Operational
-20,Observed phenomena,020009,General weather indicator (TAF/METAR),Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020010,Cloud cover (total),%,0,0,7,%,0,3,(see Note 5),20,Operational
-20,Observed phenomena,020011,Cloud amount,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020012,Cloud type,Code table,0,0,6,Code table,0,2,,,Operational
-20,Observed phenomena,020013,Height of base of cloud,m,-1,-40,11,m,-1,4,(see Note 6),170,Operational
-20,Observed phenomena,020014,Height of top of cloud,m,-1,-40,11,m,-1,4,,,Operational
-20,Observed phenomena,020015,Pressure at base of cloud,Pa,-1,0,14,Pa,-1,5,,,Operational
-20,Observed phenomena,020016,Pressure at top of cloud,Pa,-1,0,14,Pa,-1,5,,,Operational
-20,Observed phenomena,020017,Cloud top description,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020018,Tendency of runway visual range,Code table,0,0,2,Code table,0,1,,,Operational
-20,Observed phenomena,020019,Significant present or forecast weather,CCITT IA5,0,0,72,Character,0,9,(see Note 15),118,Operational
-20,Observed phenomena,020020,Significant recent weather phenomena,CCITT IA5,0,0,32,Character,0,4,(see Note 15),118,Operational
-20,Observed phenomena,020021,Type of precipitation,Flag table,0,0,30,Flag table,0,10,,,Operational
-20,Observed phenomena,020022,Character of precipitation,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020023,Other weather phenomena,Flag table,0,0,18,Flag table,0,6,,,Operational
-20,Observed phenomena,020024,Intensity of phenomena,Code table,0,0,3,Code table,0,1,,,Operational
-20,Observed phenomena,020025,Obscuration,Flag table,0,0,21,Flag table,0,7,,,Operational
-20,Observed phenomena,020026,Character of obscuration,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020027,Phenomena occurrence,Flag table,0,0,9,Flag table,0,3,,,Operational
-20,Observed phenomena,020028,Expected change in intensity,Code table,0,0,3,Code table,0,1,,,Operational
-20,Observed phenomena,020029,Rain flag,Code table,0,0,2,Code table,0,1,,,Operational
-20,Observed phenomena,020031,Ice deposit (thickness),m,2,0,7,m,2,3,,,Operational
-20,Observed phenomena,020032,Rate of ice accretion (estimated),Code table,0,0,3,Code table,0,1,,,Operational
-20,Observed phenomena,020033,Cause of ice accretion,Flag table,0,0,4,Flag table,0,2,,,Operational
-20,Observed phenomena,020034,Sea ice concentration,Code table,0,0,5,Code table,0,2,,,Operational
-20,Observed phenomena,020035,Amount and type of ice,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020036,Ice situation,Code table,0,0,5,Code table,0,2,,,Operational
-20,Observed phenomena,020037,Ice development,Code table,0,0,5,Code table,0,2,,,Operational
-20,Observed phenomena,020038,Bearing of ice edge,degree true,0,0,12,degree true,0,3,(see Note 3),135,Operational
-20,Observed phenomena,020039,Ice distance,m,-1,0,13,m,-1,4,,,Operational
-20,Observed phenomena,020040,Evolution of drift snow,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020041,Airframe icing,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020042,Airframe icing present,Code table,0,0,2,Code table,0,1,,,Operational
-20,Observed phenomena,020043,Peak liquid water content,kg m-3,4,0,7,kg m-3,4,2,,,Operational
-20,Observed phenomena,020044,Average liquid water content,kg m-3,4,0,7,kg m-3,4,2,,,Operational
-20,Observed phenomena,020045,Supercooled large droplet (SLD) conditions,Code table,0,0,2,Code table,0,1,,,Operational
-20,Observed phenomena,020048,Evolution of feature,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020050,Cloud index,Code table,0,0,8,Code table,0,3,,,Operational
-20,Observed phenomena,020051,Amount of low clouds,%,0,0,7,%,0,3,,,Operational
-20,Observed phenomena,020052,Amount of middle clouds,%,0,0,7,%,0,3,,,Operational
-20,Observed phenomena,020053,Amount of high clouds,%,0,0,7,%,0,3,,,Operational
-20,Observed phenomena,020054,True direction from which a phenomenon or clouds are moving or in which they are observed,degree true,0,0,9,degree true,0,3,(see Note 17),159,Operational
-20,Observed phenomena,020055,State of sky in the tropics,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020056,Cloud phase,Code table,0,0,3,Code table,0,1,,,Operational
-20,Observed phenomena,020058,Visibility seawards from a coastal station,m,-1,0,13,m,-1,4,,,Operational
-20,Observed phenomena,020059,Minimum horizontal visibility,m,-1,0,9,m,-1,3,,,Operational
-20,Observed phenomena,020060,Prevailing horizontal visibility,m,-1,0,10,m,-1,4,(see Note 7),24,Operational
-20,Observed phenomena,020061,Runway visual range (RVR),m,0,0,12,m,0,4,,,Operational
-20,Observed phenomena,020062,State of the ground (with or without snow),Code table,0,0,5,Code table,0,2,,,Operational
-20,Observed phenomena,020063,Special phenomena,Code table,0,0,10,Code table,0,4,,,Operational
-20,Observed phenomena,020065,Snow cover,%,0,0,7,%,0,3,(see Note 4),120,Operational
-20,Observed phenomena,020066,Maximum diameter of hailstones,m,3,0,8,m,3,3,,,Operational
-20,Observed phenomena,020067,Diameter of deposit,m,3,0,9,m,3,3,,,Operational
-20,Observed phenomena,020070,Minimum number of atmospherics,Numeric,0,0,7,Numeric,0,3,,,Operational
-20,Observed phenomena,020071,Accuracy of fix and rate of atmospherics,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020079,Snow or ice crystals indicator,Code table,0,0,2,Code table,0,1,,,Operational
-20,Observed phenomena,020081,Cloud amount in segment,%,0,0,7,%,0,3,,,Operational
-20,Observed phenomena,020082,Amount segment cloud free,%,0,0,7,%,0,3,,,Operational
-20,Observed phenomena,020083,Amount of segment covered by scene,%,0,0,7,%,0,3,,,Operational
-20,Observed phenomena,020085,General condition of runway,Code table,0,0,4,Code table,0,1,,,Operational
-20,Observed phenomena,020086,Runway deposits,Code table,0,0,4,Code table,0,1,,,Operational
-20,Observed phenomena,020087,Runway contamination,Code table,0,0,4,Code table,0,1,,,Operational
-20,Observed phenomena,020088,Depth of runway deposits,m,3,0,12,m,0,4,,,Operational
-20,Observed phenomena,020089,Runway friction coefficient,Code table,0,0,7,Code table,0,2,,,Operational
-20,Observed phenomena,020090,Special clouds,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020091,Vertical visibility,ft,-2,0,10,ft,-2,3,,,Operational
-20,Observed phenomena,020092,Height of base of cloud,ft,-2,0,10,ft,-2,3,,,Operational
-20,Observed phenomena,020093,Height of inversion,m,-1,0,8,m,-1,3,,,Operational
-20,Observed phenomena,020095,Ice probability,Numeric,3,0,10,Numeric,3,4,,,Operational
-20,Observed phenomena,020096,"Ice age (""A"" parameter)",dB,2,-4096,13,dB,2,4,,,Operational
-20,Observed phenomena,020101,Locust (acridian) name,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020102,Locust (maturity) colour,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020103,Stage of development of locusts,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020104,Organization state of swarm or band of locusts,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020105,Size of swarm or band of locusts and duration of passage of swarm,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020106,Locust population density,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020107,Direction of movements of locust swarm,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020108,Extent of vegetation,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020111,x-axis error ellipse major component,m,-1,0,17,m,-1,6,(see Notes 8 and 9),"89,90",Operational
-20,Observed phenomena,020112,y-axis error ellipse minor component,m,-1,0,17,m,-1,6,(see Notes 8 and 9),"89,90",Operational
-20,Observed phenomena,020113,z-axis error ellipse component,m,-1,0,17,m,-1,6,(see Note 9),89,Operational
-20,Observed phenomena,020114,Angle of x-axis in error ellipse,deg,2,-18000,16,deg,2,5,(see Note 10),31,Operational
-20,Observed phenomena,020115,Angle of z-axis in error ellipse,deg,2,-18000,16,deg,2,5,(see Note 11),30,Operational
-20,Observed phenomena,020116,Emission height of cloud stroke,m,0,0,16,m,0,5,,,Operational
-20,Observed phenomena,020117,Amplitude of lightning strike,A,-1,-32000,16,A,-1,5,,,Operational
-20,Observed phenomena,020118,Lightning detection error,m,0,0,19,m,0,6,,,Operational
-20,Observed phenomena,020119,Lightning discharge polarity,Code table,0,0,2,Code table,0,1,,,Operational
-20,Observed phenomena,020121,Threshold value for polarity decision,V,3,0,16,V,3,5,(see Note 12),9,Operational
-20,Observed phenomena,020122,Threshold value for polarity decision,A,0,0,16,A,0,5,(see Note 13),10,Operational
-20,Observed phenomena,020123,Minimum threshold for detection,V/m,3,0,16,V/m,3,5,(see Note 14),102,Operational
-20,Observed phenomena,020124,Lightning stroke or flash,Code table,0,0,2,Code table,0,1,,,Operational
-20,Observed phenomena,020126,Lightning rate of discharge,/h,0,0,23,/h,0,7,,,Operational
-20,Observed phenomena,020127,Lightning - distance from station,m,-3,0,8,m,-3,3,,,Operational
-20,Observed phenomena,020128,Lightning - direction from station,degree true,1,0,12,degree true,1,4,,,Operational
-20,Observed phenomena,020129,"Lightning density (stroke, flash or event)",m-2,6,0,10,m-2,6,4,,,Operational
-20,Observed phenomena,020130,Cloud hydrometeor concentration,Numeric,0,0,10,Numeric,0,3,(see Note 16),37,Operational
-20,Observed phenomena,020131,Effective radius of cloud hydrometeors,m,5,0,6,m,5,2,,,Operational
-20,Observed phenomena,020132,Cloud liquid water content,kg m-3,5,0,11,kg m-3,5,4,,,Operational
-20,Observed phenomena,020133,Hydrometeor radius,m,5,0,6,m,5,2,,,Operational
-20,Observed phenomena,020135,Ice mass (on a rod),kg/m,1,0,10,kg/m,1,3,,,Operational
-20,Observed phenomena,020136,Supplementary cloud type,Code table,0,0,9,Code table,0,3,,,Operational
-20,Observed phenomena,020137,Evolution of clouds,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020138,Road surface condition,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020139,Final cloud model assumption,Code table,0,0,4,Code table,0,2,,,Operational
-20,Observed phenomena,020140,Lightning area,m2,0,0,30,m2,0,0,,,Operational
-20,Observed phenomena,020141,Lightning energy,J,19,0,30,J,0,0,,,Operational
-20,Observed phenomena,020142,Lightning detection efficiency,%,0,0,7,%,0,0,,,Operational
-20,Observed phenomena,020143,Liquid cloud,Code table,0,0,2,Code table,0,1,,,Operational
+Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+bufr4/0/20/001,20,Observed phenomena,020001,Horizontal visibility,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/002,20,Observed phenomena,020002,Vertical visibility,m,-1,0,7,m,-1,3,,,Operational
+bufr4/0/20/003,20,Observed phenomena,020003,Present weather,Code table,0,0,9,Code table,0,3,(see Note 1),172,Operational
+bufr4/0/20/004,20,Observed phenomena,020004,Past weather (1),Code table,0,0,5,Code table,0,2,(see Note 2),171,Operational
+bufr4/0/20/005,20,Observed phenomena,020005,Past weather (2),Code table,0,0,5,Code table,0,2,(see Note 2),171,Operational
+bufr4/0/20/006,20,Observed phenomena,020006,Flight rules,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/008,20,Observed phenomena,020008,Cloud distribution for aviation,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/009,20,Observed phenomena,020009,General weather indicator (TAF/METAR),Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/010,20,Observed phenomena,020010,Cloud cover (total),%,0,0,7,%,0,3,(see Note 5),20,Operational
+bufr4/0/20/011,20,Observed phenomena,020011,Cloud amount,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/012,20,Observed phenomena,020012,Cloud type,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/20/013,20,Observed phenomena,020013,Height of base of cloud,m,-1,-40,11,m,-1,4,(see Note 6),170,Operational
+bufr4/0/20/014,20,Observed phenomena,020014,Height of top of cloud,m,-1,-40,11,m,-1,4,,,Operational
+bufr4/0/20/015,20,Observed phenomena,020015,Pressure at base of cloud,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/016,20,Observed phenomena,020016,Pressure at top of cloud,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/017,20,Observed phenomena,020017,Cloud top description,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/018,20,Observed phenomena,020018,Tendency of runway visual range,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/019,20,Observed phenomena,020019,Significant present or forecast weather,CCITT IA5,0,0,72,Character,0,9,(see Note 15),118,Operational
+bufr4/0/20/020,20,Observed phenomena,020020,Significant recent weather phenomena,CCITT IA5,0,0,32,Character,0,4,(see Note 15),118,Operational
+bufr4/0/20/021,20,Observed phenomena,020021,Type of precipitation,Flag table,0,0,30,Flag table,0,10,,,Operational
+bufr4/0/20/022,20,Observed phenomena,020022,Character of precipitation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/023,20,Observed phenomena,020023,Other weather phenomena,Flag table,0,0,18,Flag table,0,6,,,Operational
+bufr4/0/20/024,20,Observed phenomena,020024,Intensity of phenomena,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/025,20,Observed phenomena,020025,Obscuration,Flag table,0,0,21,Flag table,0,7,,,Operational
+bufr4/0/20/026,20,Observed phenomena,020026,Character of obscuration,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/027,20,Observed phenomena,020027,Phenomena occurrence,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/20/028,20,Observed phenomena,020028,Expected change in intensity,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/029,20,Observed phenomena,020029,Rain flag,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/031,20,Observed phenomena,020031,Ice deposit (thickness),m,2,0,7,m,2,3,,,Operational
+bufr4/0/20/032,20,Observed phenomena,020032,Rate of ice accretion (estimated),Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/033,20,Observed phenomena,020033,Cause of ice accretion,Flag table,0,0,4,Flag table,0,2,,,Operational
+bufr4/0/20/034,20,Observed phenomena,020034,Sea ice concentration,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/035,20,Observed phenomena,020035,Amount and type of ice,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/036,20,Observed phenomena,020036,Ice situation,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/037,20,Observed phenomena,020037,Ice development,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/038,20,Observed phenomena,020038,Bearing of ice edge,degree true,0,0,12,degree true,0,3,(see Note 3),135,Operational
+bufr4/0/20/039,20,Observed phenomena,020039,Ice distance,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/040,20,Observed phenomena,020040,Evolution of drift snow,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/041,20,Observed phenomena,020041,Airframe icing,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/042,20,Observed phenomena,020042,Airframe icing present,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/043,20,Observed phenomena,020043,Peak liquid water content,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/044,20,Observed phenomena,020044,Average liquid water content,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/045,20,Observed phenomena,020045,Supercooled large droplet (SLD) conditions,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/048,20,Observed phenomena,020048,Evolution of feature,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/050,20,Observed phenomena,020050,Cloud index,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/20/051,20,Observed phenomena,020051,Amount of low clouds,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/052,20,Observed phenomena,020052,Amount of middle clouds,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/053,20,Observed phenomena,020053,Amount of high clouds,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/054,20,Observed phenomena,020054,True direction from which a phenomenon or clouds are moving or in which they are observed,degree true,0,0,9,degree true,0,3,(see Note 17),159,Operational
+bufr4/0/20/055,20,Observed phenomena,020055,State of sky in the tropics,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/056,20,Observed phenomena,020056,Cloud phase,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/058,20,Observed phenomena,020058,Visibility seawards from a coastal station,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/059,20,Observed phenomena,020059,Minimum horizontal visibility,m,-1,0,9,m,-1,3,,,Operational
+bufr4/0/20/060,20,Observed phenomena,020060,Prevailing horizontal visibility,m,-1,0,10,m,-1,4,(see Note 7),24,Operational
+bufr4/0/20/061,20,Observed phenomena,020061,Runway visual range (RVR),m,0,0,12,m,0,4,,,Operational
+bufr4/0/20/062,20,Observed phenomena,020062,State of the ground (with or without snow),Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/063,20,Observed phenomena,020063,Special phenomena,Code table,0,0,10,Code table,0,4,,,Operational
+bufr4/0/20/065,20,Observed phenomena,020065,Snow cover,%,0,0,7,%,0,3,(see Note 4),120,Operational
+bufr4/0/20/066,20,Observed phenomena,020066,Maximum diameter of hailstones,m,3,0,8,m,3,3,,,Operational
+bufr4/0/20/067,20,Observed phenomena,020067,Diameter of deposit,m,3,0,9,m,3,3,,,Operational
+bufr4/0/20/070,20,Observed phenomena,020070,Minimum number of atmospherics,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/20/071,20,Observed phenomena,020071,Accuracy of fix and rate of atmospherics,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/079,20,Observed phenomena,020079,Snow or ice crystals indicator,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/081,20,Observed phenomena,020081,Cloud amount in segment,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/082,20,Observed phenomena,020082,Amount segment cloud free,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/083,20,Observed phenomena,020083,Amount of segment covered by scene,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/085,20,Observed phenomena,020085,General condition of runway,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/086,20,Observed phenomena,020086,Runway deposits,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/087,20,Observed phenomena,020087,Runway contamination,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/088,20,Observed phenomena,020088,Depth of runway deposits,m,3,0,12,m,0,4,,,Operational
+bufr4/0/20/089,20,Observed phenomena,020089,Runway friction coefficient,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/20/090,20,Observed phenomena,020090,Special clouds,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/091,20,Observed phenomena,020091,Vertical visibility,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/092,20,Observed phenomena,020092,Height of base of cloud,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/093,20,Observed phenomena,020093,Height of inversion,m,-1,0,8,m,-1,3,,,Operational
+bufr4/0/20/095,20,Observed phenomena,020095,Ice probability,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/20/096,20,Observed phenomena,020096,"Ice age (""A"" parameter)",dB,2,-4096,13,dB,2,4,,,Operational
+bufr4/0/20/101,20,Observed phenomena,020101,Locust (acridian) name,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/102,20,Observed phenomena,020102,Locust (maturity) colour,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/103,20,Observed phenomena,020103,Stage of development of locusts,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/104,20,Observed phenomena,020104,Organization state of swarm or band of locusts,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/105,20,Observed phenomena,020105,Size of swarm or band of locusts and duration of passage of swarm,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/106,20,Observed phenomena,020106,Locust population density,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/107,20,Observed phenomena,020107,Direction of movements of locust swarm,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/108,20,Observed phenomena,020108,Extent of vegetation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/111,20,Observed phenomena,020111,x-axis error ellipse major component,m,-1,0,17,m,-1,6,(see Notes 8 and 9),"89,90",Operational
+bufr4/0/20/112,20,Observed phenomena,020112,y-axis error ellipse minor component,m,-1,0,17,m,-1,6,(see Notes 8 and 9),"89,90",Operational
+bufr4/0/20/113,20,Observed phenomena,020113,z-axis error ellipse component,m,-1,0,17,m,-1,6,(see Note 9),89,Operational
+bufr4/0/20/114,20,Observed phenomena,020114,Angle of x-axis in error ellipse,deg,2,-18000,16,deg,2,5,(see Note 10),31,Operational
+bufr4/0/20/115,20,Observed phenomena,020115,Angle of z-axis in error ellipse,deg,2,-18000,16,deg,2,5,(see Note 11),30,Operational
+bufr4/0/20/116,20,Observed phenomena,020116,Emission height of cloud stroke,m,0,0,16,m,0,5,,,Operational
+bufr4/0/20/117,20,Observed phenomena,020117,Amplitude of lightning strike,A,-1,-32000,16,A,-1,5,,,Operational
+bufr4/0/20/118,20,Observed phenomena,020118,Lightning detection error,m,0,0,19,m,0,6,,,Operational
+bufr4/0/20/119,20,Observed phenomena,020119,Lightning discharge polarity,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/121,20,Observed phenomena,020121,Threshold value for polarity decision,V,3,0,16,V,3,5,(see Note 12),9,Operational
+bufr4/0/20/122,20,Observed phenomena,020122,Threshold value for polarity decision,A,0,0,16,A,0,5,(see Note 13),10,Operational
+bufr4/0/20/123,20,Observed phenomena,020123,Minimum threshold for detection,V/m,3,0,16,V/m,3,5,(see Note 14),102,Operational
+bufr4/0/20/124,20,Observed phenomena,020124,Lightning stroke or flash,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/126,20,Observed phenomena,020126,Lightning rate of discharge,/h,0,0,23,/h,0,7,,,Operational
+bufr4/0/20/127,20,Observed phenomena,020127,Lightning - distance from station,m,-3,0,8,m,-3,3,,,Operational
+bufr4/0/20/128,20,Observed phenomena,020128,Lightning - direction from station,degree true,1,0,12,degree true,1,4,,,Operational
+bufr4/0/20/129,20,Observed phenomena,020129,"Lightning density (stroke, flash or event)",m-2,6,0,10,m-2,6,4,,,Operational
+bufr4/0/20/130,20,Observed phenomena,020130,Cloud hydrometeor concentration,Numeric,0,0,10,Numeric,0,3,(see Note 16),37,Operational
+bufr4/0/20/131,20,Observed phenomena,020131,Effective radius of cloud hydrometeors,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/132,20,Observed phenomena,020132,Cloud liquid water content,kg m-3,5,0,11,kg m-3,5,4,,,Operational
+bufr4/0/20/133,20,Observed phenomena,020133,Hydrometeor radius,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/135,20,Observed phenomena,020135,Ice mass (on a rod),kg/m,1,0,10,kg/m,1,3,,,Operational
+bufr4/0/20/136,20,Observed phenomena,020136,Supplementary cloud type,Code table,0,0,9,Code table,0,3,,,Operational
+bufr4/0/20/137,20,Observed phenomena,020137,Evolution of clouds,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/138,20,Observed phenomena,020138,Road surface condition,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/139,20,Observed phenomena,020139,Final cloud model assumption,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/140,20,Observed phenomena,020140,Lightning area,m2,0,0,30,m2,0,0,,,Operational
+bufr4/0/20/141,20,Observed phenomena,020141,Lightning energy,J,19,0,30,J,0,0,,,Operational
+bufr4/0/20/142,20,Observed phenomena,020142,Lightning detection efficiency,%,0,0,7,%,0,0,,,Operational
+bufr4/0/20/143,20,Observed phenomena,020143,Liquid cloud,Code table,0,0,2,Code table,0,1,,,Operational

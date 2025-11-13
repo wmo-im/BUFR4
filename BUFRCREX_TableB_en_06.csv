@@ -1,19 +1,19 @@
-ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-06,Location (horizontal - 2),006001,Longitude (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
-06,Location (horizontal - 2),006002,Longitude (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
-06,Location (horizontal - 2),006011,Longitude increment (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
-06,Location (horizontal - 2),006012,Longitude increment (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
-06,Location (horizontal - 2),006015,Longitude displacement (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
-06,Location (horizontal - 2),006016,Longitude displacement (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
-06,Location (horizontal - 2),006021,Distance,m,-1,0,13,m,-1,4,,,Operational
-06,Location (horizontal - 2),006029,Wave number,/m,1,0,22,/m,1,7,,,Operational
-06,Location (horizontal - 2),006030,Wave number (spectral),rad/m,5,0,13,rad/m,5,4,,,Operational
-06,Location (horizontal - 2),006031,Column number,Numeric,0,0,12,Numeric,0,4,,,Operational
-06,Location (horizontal - 2),006032,X offset,m,2,-1073741824,31,m,2,11,(see Note 6),183,Operational
-06,Location (horizontal - 2),006033,Pixel size on horizontal - 2,m,-1,0,16,m,-1,5,,,Operational
-06,Location (horizontal - 2),006034,Cross-track cell number,Numeric,0,0,7,Numeric,0,3,,,Operational
-06,Location (horizontal - 2),006035,Maximum size of y-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
-06,Location (horizontal - 2),006040,Radius of confidence,m,0,0,13,m,0,4,,,Operational
-06,Location (horizontal - 2),006041,Earth scan sample number,Numeric,0,0,11,Numeric,0,4,,,Operational
-06,Location (horizontal - 2),006042,Space/moon scan sample number,Numeric,0,0,6,Numeric,0,2,,,Operational
-06,Location (horizontal - 2),006043,Sub-satellite point longitude,deg,4,-1800000,22,deg,4,8,,,Operational
+Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+bufr4/0/06/001,06,Location (horizontal - 2),006001,Longitude (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
+bufr4/0/06/002,06,Location (horizontal - 2),006002,Longitude (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
+bufr4/0/06/011,06,Location (horizontal - 2),006011,Longitude increment (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
+bufr4/0/06/012,06,Location (horizontal - 2),006012,Longitude increment (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
+bufr4/0/06/015,06,Location (horizontal - 2),006015,Longitude displacement (high accuracy),deg,5,-18000000,26,deg,5,8,,,Operational
+bufr4/0/06/016,06,Location (horizontal - 2),006016,Longitude displacement (coarse accuracy),deg,2,-18000,16,deg,2,5,,,Operational
+bufr4/0/06/021,06,Location (horizontal - 2),006021,Distance,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/06/029,06,Location (horizontal - 2),006029,Wave number,/m,1,0,22,/m,1,7,,,Operational
+bufr4/0/06/030,06,Location (horizontal - 2),006030,Wave number (spectral),rad/m,5,0,13,rad/m,5,4,,,Operational
+bufr4/0/06/031,06,Location (horizontal - 2),006031,Column number,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/06/032,06,Location (horizontal - 2),006032,X offset,m,2,-1073741824,31,m,2,11,(see Note 6),183,Operational
+bufr4/0/06/033,06,Location (horizontal - 2),006033,Pixel size on horizontal - 2,m,-1,0,16,m,-1,5,,,Operational
+bufr4/0/06/034,06,Location (horizontal - 2),006034,Cross-track cell number,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/06/035,06,Location (horizontal - 2),006035,Maximum size of y-dimension,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/06/040,06,Location (horizontal - 2),006040,Radius of confidence,m,0,0,13,m,0,4,,,Operational
+bufr4/0/06/041,06,Location (horizontal - 2),006041,Earth scan sample number,Numeric,0,0,11,Numeric,0,4,,,Operational
+bufr4/0/06/042,06,Location (horizontal - 2),006042,Space/moon scan sample number,Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/06/043,06,Location (horizontal - 2),006043,Sub-satellite point longitude,deg,4,-1800000,22,deg,4,8,,,Operational

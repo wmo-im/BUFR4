@@ -1,482 +1,482 @@
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
-01,Location and identification sequences,301001,(WMO block and station numbers),,001001,WMO block number,,,,Operational
-01,Location and identification sequences,301001,(WMO block and station numbers),,001002,WMO station number,,,,Operational
-01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,(see Note 1),11,Operational
-01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,(see Note 1),11,Operational
-01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,(see Note 1),11,Operational
-01,Location and identification sequences,301003,(Ship's call sign and motion),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational
-01,Location and identification sequences,301003,(Ship's call sign and motion),,001012,Direction of motion of moving observing platform,,,,Operational
-01,Location and identification sequences,301003,(Ship's call sign and motion),,001013,Speed of motion of moving observing platform,,,,Operational
-01,Location and identification sequences,301004,(Surface station identification),,001001,WMO block number,,,,Operational
-01,Location and identification sequences,301004,(Surface station identification),,001002,WMO station number,,,,Operational
-01,Location and identification sequences,301004,(Surface station identification),,001015,Station or site name,,,,Operational
-01,Location and identification sequences,301004,(Surface station identification),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301005,(Originating centre/sub-centre),,001035,Originating centre,,,,Operational
-01,Location and identification sequences,301005,(Originating centre/sub-centre),,001034,Identification of originating/generating sub-centre,,,,Operational
-01,Location and identification sequences,301011,"(Year, month, day)",,004001,Year,,,,Operational
-01,Location and identification sequences,301011,"(Year, month, day)",,004002,Month,,,,Operational
-01,Location and identification sequences,301011,"(Year, month, day)",,004003,Day,,,,Operational
-01,Location and identification sequences,301012,"(Hour, minute)",,004004,Hour,,,,Operational
-01,Location and identification sequences,301012,"(Hour, minute)",,004005,Minute,,,,Operational
-01,Location and identification sequences,301013,"(Hour, minute, second)",,004004,Hour,,,,Operational
-01,Location and identification sequences,301013,"(Hour, minute, second)",,004005,Minute,,,,Operational
-01,Location and identification sequences,301013,"(Hour, minute, second)",,004006,Second,,,,Operational
-01,Location and identification sequences,301014,(Time period),,102002,Replicate 2 descriptors 2 times,,,,Operational
-01,Location and identification sequences,301014,(Time period),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301014,(Time period),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,001114,Encrypted ship or mobile land station identifier (base64 encoding),,"(see Notes 2 and 3)","57,23",Operational
-01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,025185,Encryption method,,,,Operational
-01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,025186,Encryption key version,,,,Operational
-01,Location and identification sequences,301021,(Latitude/longitude (high accuracy)),,005001,Latitude (high accuracy),,,,Operational
-01,Location and identification sequences,301021,(Latitude/longitude (high accuracy)),,006001,Longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301022,"(Latitude/longitude (high accuracy), height of station)",,005001,Latitude (high accuracy),,,,Operational
-01,Location and identification sequences,301022,"(Latitude/longitude (high accuracy), height of station)",,006001,Longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301022,"(Latitude/longitude (high accuracy), height of station)",,007001,Height of station,,,,Operational
-01,Location and identification sequences,301023,(Latitude/longitude (coarse accuracy)),,005002,Latitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301023,(Latitude/longitude (coarse accuracy)),,006002,Longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301024,"(Latitude/longitude (coarse accuracy), height of station)",,005002,Latitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301024,"(Latitude/longitude (coarse accuracy), height of station)",,006002,Longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301024,"(Latitude/longitude (coarse accuracy), height of station)",,007001,Height of station,,,,Operational
-01,Location and identification sequences,301025,"(Latitude/longitude (coarse accuracy), day/time)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301025,"(Latitude/longitude (coarse accuracy), day/time)",,004003,Day,,,,Operational
-01,Location and identification sequences,301025,"(Latitude/longitude (coarse accuracy), day/time)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004003,Day,Time period in days,,,Operational
-01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004003,Day,,,,Operational
-01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004004,Hour,Time period in hours,,,Operational
-01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004004,Hour,,,,Operational
-01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004005,Minute,Time period in minutes,,,Operational
-01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004005,Minute,,,,Operational
-01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,008007,Dimensional significance,"= 0 Point, = 1 Line, = 2 Area, = 3 Volume",,,Operational
-01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,101000,Delayed replication of 1 descriptor,,,,Operational
-01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,031001,Delayed descriptor replication factor,,(see Note 4),65,Operational
-01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,301028,"Horizontal section of a feature described as a polygon, circle, line or point",,,,Operational
-01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,008007,Dimensional significance,Set to missing (cancel),,,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,008040,Flight level significance,,,,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,033042,Type of limit represented by following value,,,,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,007010,Flight level,,,,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,101000,Delayed replication of 1 descriptor,,,,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,031002,Extended delayed descriptor replication factor,,(see Note 5),66,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,019007,Effective radius of feature,,(see Note 6),61,Operational
-01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,008040,Flight level significance,Set to missing (cancel),,,Operational
-01,Location and identification sequences,301029,(Identification),,001018,Short station or site name,,,,Operational
-01,Location and identification sequences,301029,(Identification),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301029,(Identification),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301030,(Identification - with physical location),,001018,Short station or site name,,,,Operational
-01,Location and identification sequences,301030,(Identification - with physical location),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301030,(Identification - with physical location),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301030,(Identification - with physical location),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
-01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,002001,Type of station,,,,Operational
-01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,301022,"Latitude/longitude (high accuracy), height of station",,,,Operational
-01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,002001,Type of station,,,,Operational
-01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
-01,Location and identification sequences,301033,(Buoy/platform - fixed),,001005,Buoy/platform identifier,,,,Operational
-01,Location and identification sequences,301033,(Buoy/platform - fixed),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301033,(Buoy/platform - fixed),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301033,(Buoy/platform - fixed),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301033,(Buoy/platform - fixed),,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301034,(Buoy/platform - fixed),,001005,Buoy/platform identifier,,,,Operational
-01,Location and identification sequences,301034,(Buoy/platform - fixed),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301034,(Buoy/platform - fixed),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301034,(Buoy/platform - fixed),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301034,(Buoy/platform - fixed),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,001005,Buoy/platform identifier,,(see Note 7),12,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,001012,Direction of motion of moving observing platform,,(see Note 7),12,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,001013,Speed of motion of moving observing platform,,(see Note 7,12,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,002001,Type of station,,(see Note 7),12,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,301011,"Year, month, day",,(see Note 7),12,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,301012,"Hour, minute",,(see Note 7),12,Operational
-01,Location and identification sequences,301035,(Buoy/platform - moving),,301023,Latitude/longitude (coarse accuracy),,(see Note 7),12,Operational
-01,Location and identification sequences,301036,(Ship),,301003,Ship's call sign and motion,,,,Operational
-01,Location and identification sequences,301036,(Ship),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301036,(Ship),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301036,(Ship),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301036,(Ship),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301037,(Land station for vertical soundings),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301037,(Land station for vertical soundings),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301037,(Land station for vertical soundings),,002012,Radiosonde computational method,,,,Operational
-01,Location and identification sequences,301037,(Land station for vertical soundings),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301037,(Land station for vertical soundings),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301037,(Land station for vertical soundings),,301022,"Latitude/longitude (high accuracy), height of station",,,,Operational
-01,Location and identification sequences,301038,(Land station for vertical soundings),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301038,(Land station for vertical soundings),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301038,(Land station for vertical soundings),,002012,Radiosonde computational method,,,,Operational
-01,Location and identification sequences,301038,(Land station for vertical soundings),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301038,(Land station for vertical soundings),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301038,(Land station for vertical soundings),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
-01,Location and identification sequences,301039,(Ship for vertical soundings),,301003,Ship's call sign and motion,,,,Operational
-01,Location and identification sequences,301039,(Ship for vertical soundings),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301039,(Ship for vertical soundings),,002012,Radiosonde computational method,,,,Operational
-01,Location and identification sequences,301039,(Ship for vertical soundings),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301039,(Ship for vertical soundings),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301039,(Ship for vertical soundings),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301040,(Ship for vertical soundings),,301003,Ship's call sign and motion,,,,Operational
-01,Location and identification sequences,301040,(Ship for vertical soundings),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301040,(Ship for vertical soundings),,002012,Radiosonde computational method,,,,Operational
-01,Location and identification sequences,301040,(Ship for vertical soundings),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301040,(Ship for vertical soundings),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301040,(Ship for vertical soundings),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
-01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,002021,Satellite instrument data used in processing,,,,Operational
-01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,002022,Satellite data-processing technique used,,,,Operational
-01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301041,"Satellite identifier, instrument, data-processing technique, date/time",,,,Operational
-01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,002023,Satellite-derived wind computation method,,,,Operational
-01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301013,"Hour, minute, second",,,,Operational
-01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,002024,Integrated mean humidity computational method,,,,Operational
-01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301013,"Hour, minute, second",,,,Operational
-01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,201138,Change data width,16 bits long,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,202131,Change scale,Scale: 3,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,004006,Second,,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,201000,Change data width,Cancel,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,202000,Change scale,Cancel,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,304030,Location of platform,Relative to the Earth’s centre,,,Operational
-01,Location and identification sequences,301045,(Satellite location and velocity),,304031,Speed of platform,Relative to the Earth’s centre,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001012,Direction of motion of moving observing platform,,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002048,Satellite sensor indicator,,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,021119,Wind scatterometer geophysical model function,,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,025060,Software identification,,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,202124,Change scale,,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002026,Cross-track resolution,,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002027,Along-track resolution,,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,202000,Change scale,Cancel,,,Operational
-01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,005040,Orbit number,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,025060,Software identification,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,001033,Identification of originating/generating centre,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,001034,Identification of originating/generating sub-centre,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,001012,Direction of motion of moving observing platform,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,301045,Satellite location and velocity,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,002021,Satellite instrument data used in processing,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,201138,Change data width,16 bits long,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,202131,Change scale,Scale: 3,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,004006,Second,,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,201000,Change data width,Cancel,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,202000,Change scale,Cancel,,,Operational
-01,Location and identification sequences,301047,(ERS product header),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002104,Antenna polarization,,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002121,Mean frequency,,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002113,Number of azimuth looks,,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002026,Cross-track resolution,,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002027,Along-track resolution,,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002111,Radar incidence angle,,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,002140,Satellite radar beam azimuth angle,,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,202127,Change scale,Scale: -1,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,001013,Speed of motion of moving observing platform,Radar platform velocity,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,202126,Change scale,Scale: -2,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,007001,Height of station,Radar platform altitude,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,202000,Change scale,Cancel,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,025010,Clutter treatment,,,,Operational
-01,Location and identification sequences,301048,(Radar parameters),,021064,Clutter noise estimate,,,,Operational
-01,Location and identification sequences,301049,(Radar beam data),,002111,Radar incidence angle,,,,Operational
-01,Location and identification sequences,301049,(Radar beam data),,002112,Radar look angle,,,,Operational
-01,Location and identification sequences,301049,(Radar beam data),,021062,Backscatter,,,,Operational
-01,Location and identification sequences,301049,(Radar beam data),,021063,Radiometric resolution (noise value),,,,Operational
-01,Location and identification sequences,301049,(Radar beam data),,021065,Missing packet counter,,,,Operational
-01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,001006,Aircraft flight number,,,,Operational
-01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,002061,Aircraft navigational system,,,,Operational
-01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,008004,Phase of aircraft flight,,,,Operational
-01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001005,Buoy/platform identifier,,,,Operational
-01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,002001,Type of station,,,,Operational
-01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001012,Direction of motion of moving observing platform,,,,Operational
-01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001014,Platform drift speed (high precision),,,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001087,WMO marine observing platform extended identifier,WMO number (extended 7 digit identifier),,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001011,Ship or mobile land station identifier,Call sign (where allocated),,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001015,Station or site name,Platform name,,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,002008,Type of offshore platform,,,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,002001,Type of station,,,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,007030,Height of station ground above mean sea level,Height of station platform above mean sea level,,,Operational
-01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,007031,Height of barometer above mean sea level,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,201152,Change data width,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,202135,Change scale,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,004006,Second,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,202000,Change scale,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,201000,Change data width,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020111,x-axis error ellipse major component,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020112,y-axis error ellipse minor component,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020113,z-axis error ellipse component,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020114,Angle of x-axis in error ellipse,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020115,Angle of z-axis in error ellipse,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020116,Emission height of cloud stroke,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,020117,Amplitude of lightning strike,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,020118,Lightning detection error,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,020119,Lightning discharge polarity,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,025035,Decision method for polarity,V or A,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,020121,Threshold value for polarity decision,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,020122,Threshold value for polarity decision,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,020123,Minimum threshold for detection,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,020124,Lightning stroke or flash,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,025175,Modified residual,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Emission information,020023,Other weather phenomena,Cloud to ground or cloud to cloud identification,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,025063,Central processor or system identifier,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,202136,Change scale,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,201136,Change data width,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,002121,Mean frequency,"Define centre frequency, if used",,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,201000,Change data width,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,202000,Change scale,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,025061,Software identification and version number,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,002184,Type of lightning detection sensor,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,002189,Capability to discriminate lightning strikes,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,025036,Atmospherics location method,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,101000,Delayed replication of 1 descriptor,,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,031002,Extended delayed descriptor replication factor,Number of sensors contributing,,,Operational
-01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,301059,Identification of sensor site and instrumentation,,,,Operational
-01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,301021,Latitude/longitude (high accuracy),Sensor,,,Operational
-01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,007030,Height of station ground above mean sea level,,,,Operational
-01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,007032,Height of sensor above local ground (or deck of marine platform),Sensor for lightning,,,Operational
-01,Location and identification sequences,301062,(Radar location(s)),,101000,Delayed replication of 1 descriptor,,,,Operational
-01,Location and identification sequences,301062,(Radar location(s)),,031001,Delayed descriptor replication factor,,,,Operational
-01,Location and identification sequences,301062,(Radar location(s)),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301065,(ACARS identification),,001006,Aircraft flight number,,(see Note 9),5,Operational
-01,Location and identification sequences,301065,(ACARS identification),,001008,Aircraft registration number or other identification,,(see Note 9),5,Operational
-01,Location and identification sequences,301065,(ACARS identification),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301065,(ACARS identification),,002002,Type of instrumentation for wind measurement,,,,Operational
-01,Location and identification sequences,301065,(ACARS identification),,002005,Precision of temperature observation,,,,Operational
-01,Location and identification sequences,301065,(ACARS identification),,002062,Type of aircraft data relay system,,,,Operational
-01,Location and identification sequences,301065,(ACARS identification),,002070,Original specification of latitude/longitude,,,,Operational
-01,Location and identification sequences,301065,(ACARS identification),,002065,ACARS ground-receiving station,,,,Operational
-01,Location and identification sequences,301066,(ACARS location),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301066,(ACARS location),,301013,"Hour, minute, second",,,,Operational
-01,Location and identification sequences,301066,(ACARS location),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-01,Location and identification sequences,301066,(ACARS location),,007004,Pressure,,,,Operational
-01,Location and identification sequences,301066,(ACARS location),,002064,Aircraft roll angle quality,,,,Operational
-01,Location and identification sequences,301066,(ACARS location),,008004,Phase of aircraft flight,,,,Operational
-01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002143,Ozone instrument type,,,,Operational
-01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002142,Ozone instrument serial number/identification,,,,Operational
-01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002144,Light source type for Brewer spectrophotometer,,,,Operational
-01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001031,Identification of originating/generating centre,,,,Operational
-01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002020,Satellite classification,,,,Operational
-01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002028,Segment size at nadir in x-direction,,,,Operational
-01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002029,Segment size at nadir in y-direction,,,,Operational
-01,Location and identification sequences,301072,(Satellite identification),,301071,Satellite identifier/Generating resolution,,,,Operational
-01,Location and identification sequences,301072,(Satellite identification),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301072,(Satellite identification),,301013,"Hour, minute, second",,,,Operational
-01,Location and identification sequences,301072,(Satellite identification),,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301074,(Ozone instrumentation - Dobson spectrophotometer),,002143,Ozone instrument type,,,,Operational
-01,Location and identification sequences,301074,(Ozone instrumentation - Dobson spectrophotometer),,002142,Ozone instrument serial number/identification,,,,Operational
-01,Location and identification sequences,301074,(Ozone instrumentation - Dobson spectrophotometer),,002145,Wavelength setting for Dobson instruments,,,,Operational
-01,Location and identification sequences,301074,(Ozone instrumentation - Dobson spectrophotometer),,002146,Source conditions for Dobson instruments,,,,Operational
-01,Location and identification sequences,301075,(Sounding identification),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301075,(Sounding identification),,001015,Station or site name,,,,Operational
-01,Location and identification sequences,301075,(Sounding identification),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
-01,Location and identification sequences,301075,(Sounding identification),,008021,Time significance,= 18 Launch time,,,Operational
-01,Location and identification sequences,301075,(Sounding identification),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301075,(Sounding identification),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301076,(Ozone sounding instrumentation),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301076,(Ozone sounding instrumentation),,002143,Ozone instrument type,,,,Operational
-01,Location and identification sequences,301076,(Ozone sounding instrumentation),,002142,Ozone instrument serial number/identification,,,,Operational
-01,Location and identification sequences,301089,(National station identification),,001101,State identifier,,,,Operational
-01,Location and identification sequences,301089,(National station identification),,001102,National station number,,,,Operational
-01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,301004,Surface station identification,,,,Operational
-01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,007030,Height of station ground above mean sea level,,,,Operational
-01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,007031,Height of barometer above mean sea level,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002180,Main present weather detecting system,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002181,Supplementary present weather sensor,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002182,Visibility measurement system,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002183,Cloud detection system,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002184,Type of lightning detection sensor,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002179,Type of sky condition algorithm,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002186,Capability to detect precipitation phenomena,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002187,Capability to detect other weather phenomena,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002188,Capability to detect obscuration,,,,Operational
-01,Location and identification sequences,301091,(Surface station instrumentation),,002189,Capability to discriminate lightning strikes,,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001011,Ship or mobile land station identifier,,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001003,WMO Region number/geographical area,,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,002001,Type of station,,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,007030,Height of station ground above mean sea level,,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,007031,Height of barometer above mean sea level,,,,Operational
-01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,033024,Station elevation quality mark (for mobile stations),,,,Operational
-01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,301036,Ship,Ship identification,,,Operational
-01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,007030,Height of station ground above mean sea level,,,,Operational
-01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,007031,Height of barometer above mean sea level,,,,Operational
-01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,001011,Ship or mobile land station identifier,,,,Operational
-01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002014,Tracking technique/status of system used,,,,Operational
-01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002003,Type of measuring equipment used,,,,Operational
-01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,001011,Ship or mobile land station identifier,,,,Operational
-01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002013,Solar and infrared radiation correction,,,,Operational
-01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002014,Tracking technique/status of system used,,,,Operational
-01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002003,Type of measuring equipment used,,,,Operational
-01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,001006,Aircraft flight number,,,,Operational
-01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002013,Solar and infrared radiation correction,,,,Operational
-01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002014,Tracking technique/status of system used,,,,Operational
-01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002003,Type of measuring equipment used,,,,Operational
-01,Location and identification sequences,301113,(Date/time of launch),,008021,Time significance,= 18 Launch time,(see Note 10),72,Operational
-01,Location and identification sequences,301113,(Date/time of launch),,301011,"Year, month, day",Launch time,,,Operational
-01,Location and identification sequences,301113,(Date/time of launch),,301013,"Hour, minute, second",Launch time,,,Operational
-01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,007030,Height of station ground above mean sea level,,,,Operational
-01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,007031,Height of barometer above mean sea level,,,,Operational
-01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,007007,Height,Release of sonde above mean sea level,,,Operational
-01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,033024,Station elevation quality mark (for mobile stations),,,,Operational
-01,Location and identification sequences,301120,(Radiosonde abbreviated header and launch information),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301120,(Radiosonde abbreviated header and launch information),,001094,WBAN number,,,,Operational
-01,Location and identification sequences,301120,(Radiosonde abbreviated header and launch information),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301120,(Radiosonde abbreviated header and launch information),,301121,Radiosonde launch point location,,,,Operational
-01,Location and identification sequences,301121,(Radiosonde launch point location),,008041,Data significance,= 3 Balloon launch point,,,Operational
-01,Location and identification sequences,301121,(Radiosonde launch point location),,301122,Date/time (to hundredths of second),,,,Operational
-01,Location and identification sequences,301121,(Radiosonde launch point location),,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301121,(Radiosonde launch point location),,007031,Height of barometer above mean sea level,,,,Operational
-01,Location and identification sequences,301121,(Radiosonde launch point location),,007007,Height,Release of radiosonde above mean sea level,,,Operational
-01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301011,"Year, month, day",,(see Note 10),72,Operational
-01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,201135,Change data width,,,,Operational
-01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,202130,Change scale,,,,Operational
-01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,004006,Second,,,,Operational
-01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,202000,Change scale,Cancel,,,Operational
-01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,201000,Change data width,Cancel,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,102002,Replicate 2 descriptors 2 times,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,008041,Data significance,"= 0 Parent site, = 1 Observation site",,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,001062,Short ICAO location indicator,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,001094,WBAN number,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002011,Radiosonde type,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,001018,Short station or site name,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,001095,Observer identification,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,025061,Software identification and version number,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,025068,Number of archive recomputes,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,001082,Radiosonde ascension number,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,001083,Radiosonde release number,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,001081,Radiosonde serial number,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002067,Radiosonde operating frequency,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002066,Radiosonde ground receiving system,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002014,Tracking technique/status of system used,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,025067,Radiosonde release point pressure correction,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,025065,Orientation correction (azimuth),,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,025066,Orientation correction (elevation),,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002095,Type of pressure sensor,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002096,Type of temperature sensor,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002097,Type of humidity sensor,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002016,Radiosonde configuration,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002083,Type of balloon shelter,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002080,Balloon manufacturer,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002081,Type of balloon,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,001093,Balloon lot number,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002084,Type of gas used in balloon,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002085,Amount of gas used in balloon,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002086,Balloon flight train length,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,002082,Weight of balloon,,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,008041,Data significance,= 2 Balloon manufacture date,,,Operational
-01,Location and identification sequences,301123,(Radiosonde full header information),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301125,(ASCAT header information),,001033,Identification of originating/generating centre,,,,Operational
-01,Location and identification sequences,301125,(ASCAT header information),,001034,Identification of originating/generating sub-centre,,,,Operational
-01,Location and identification sequences,301125,(ASCAT header information),,025060,Software identification,,,,Operational
-01,Location and identification sequences,301125,(ASCAT header information),,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301125,(ASCAT header information),,002019,Satellite instruments,,,,Operational
-01,Location and identification sequences,301125,(ASCAT header information),,001012,Direction of motion of moving observing platform,,,,Operational
-01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,001087,WMO marine observing platform extended identifier,,,,Operational
-01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,001015,Station or site name,,,,Operational
-01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,002149,Type of data buoy,,,,Operational
-01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,001081,Radiosonde serial number,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,001082,Radiosonde ascension number,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,001083,Radiosonde release number,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,001095,Observer identification,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002015,Radiosonde completeness,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002016,Radiosonde configuration,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002017,Correction algorithms for humidity measurements,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002066,Radiosonde ground receiving system,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002067,Radiosonde operating frequency,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002080,Balloon manufacturer,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002081,Type of balloon,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002082,Weight of balloon,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002083,Type of balloon shelter,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002084,Type of gas used in balloon,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002085,Amount of gas used in balloon,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002086,Balloon flight train length,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002095,Type of pressure sensor,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002096,Type of temperature sensor,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002097,Type of humidity sensor,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002103,Radome,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002191,Geopotential height calculation,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,025061,Software identification and version number,,,,Operational
-01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,035035,Reason for termination,Reason for ascent termination,,,Operational
-01,Location and identification sequences,301129,(Observing satellite and instruments),,001007,Satellite identifier,,,,Operational
-01,Location and identification sequences,301129,(Observing satellite and instruments),,001031,Identification of originating/generating centre,,,,Operational
-01,Location and identification sequences,301129,(Observing satellite and instruments),,002019,Satellite instruments,,,,Operational
-01,Location and identification sequences,301129,(Observing satellite and instruments),,002020,Satellite classification,,,,Operational
-01,Location and identification sequences,301130,(High precision timestamp),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301130,(High precision timestamp),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301130,(High precision timestamp),,202131,Change scale,Add 3 to scale,,,Operational
-01,Location and identification sequences,301130,(High precision timestamp),,201138,Change data width,Add 10 to width,,,Operational
-01,Location and identification sequences,301130,(High precision timestamp),,004006,Second,,,,Operational
-01,Location and identification sequences,301130,(High precision timestamp),,201000,Change scale,Cancel,,,Operational
-01,Location and identification sequences,301130,(High precision timestamp),,202000,Change data width,Cancel,,,Operational
-01,Location and identification sequences,301131,(Pixel geolocation),,301021,Latitude/longitude (high accuracy),,,,Operational
-01,Location and identification sequences,301131,(Pixel geolocation),,007024,Satellite zenith angle,,,,Operational
-01,Location and identification sequences,301131,(Pixel geolocation),,005021,Bearing or azimuth,,,,Operational
-01,Location and identification sequences,301131,(Pixel geolocation),,007025,Solar zenith angle,,,,Operational
-01,Location and identification sequences,301131,(Pixel geolocation),,005022,Solar azimuth,,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,301150,WIGOS identifiers,,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,301001,WMO block and station numbers,,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy),Sensor,(see Note 11),48,Operational
-01,Location and identification sequences,301132,(Common header sequence),,007030,Height of station ground above mean sea level,,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,008021,Time significance,= 29 End of scan or time of ending,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,301011,"Year, month, day",,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,301012,"Hour, minute",,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,002006,Upper air remote sensing instrument type,,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,001079,Unique identifier for the profile,,,,Operational
-01,Location and identification sequences,301132,(Common header sequence),,001085,Observing platform manufacturer's mode,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001156,Balloon flight number,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001157,Balloon registration number or other identification,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001158,Type of balloon envelope,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001159,Typical size of balloon envelope,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,008101,Phase of balloon flight,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002001,Type of station,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002003,Type of measuring equipment used,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002014,Tracking technique/status of system used,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002005,Precision of temperature observation,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002192,Precision of pressure observation,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002193,Precision of specific humidity observation,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002095,Type of pressure sensor,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002096,Type of temperature sensor,,,,Operational
-01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002097,Type of humidity sensor,,,,Operational
-01,Location and identification sequences,301150,(WIGOS identifier),,001125,WIGOS identifier series,,,,Operational
-01,Location and identification sequences,301150,(WIGOS identifier),,001126,WIGOS issuer of identifier,,,,Operational
-01,Location and identification sequences,301150,(WIGOS identifier),,001127,WIGOS issue number,,,,Operational
-01,Location and identification sequences,301150,(WIGOS identifier),,001128,WIGOS local identifier (character),,,,Operational
+Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
+bufr4/3/01/001/1/0/01/001,01,Location and identification sequences,301001,(WMO block and station numbers),,001001,WMO block number,,,,Operational
+bufr4/3/01/001/2/0/01/002,01,Location and identification sequences,301001,(WMO block and station numbers),,001002,WMO station number,,,,Operational
+bufr4/3/01/002/1/0/01/003,01,Location and identification sequences,301002,,,001003,WMO Region number/geographical area,,(see Note 1),11,Operational
+bufr4/3/01/002/2/0/01/004,01,Location and identification sequences,301002,,,001004,WMO Region sub-area,,(see Note 1),11,Operational
+bufr4/3/01/002/3/0/01/005,01,Location and identification sequences,301002,,,001005,Buoy/platform identifier,,(see Note 1),11,Operational
+bufr4/3/01/003/1/0/01/011,01,Location and identification sequences,301003,(Ship's call sign and motion),,001011,Ship or mobile land station identifier,Ship's call sign,,,Operational
+bufr4/3/01/003/2/0/01/012,01,Location and identification sequences,301003,(Ship's call sign and motion),,001012,Direction of motion of moving observing platform,,,,Operational
+bufr4/3/01/003/3/0/01/013,01,Location and identification sequences,301003,(Ship's call sign and motion),,001013,Speed of motion of moving observing platform,,,,Operational
+bufr4/3/01/004/1/0/01/001,01,Location and identification sequences,301004,(Surface station identification),,001001,WMO block number,,,,Operational
+bufr4/3/01/004/2/0/01/002,01,Location and identification sequences,301004,(Surface station identification),,001002,WMO station number,,,,Operational
+bufr4/3/01/004/3/0/01/015,01,Location and identification sequences,301004,(Surface station identification),,001015,Station or site name,,,,Operational
+bufr4/3/01/004/4/0/02/001,01,Location and identification sequences,301004,(Surface station identification),,002001,Type of station,,,,Operational
+bufr4/3/01/005/1/0/01/035,01,Location and identification sequences,301005,(Originating centre/sub-centre),,001035,Originating centre,,,,Operational
+bufr4/3/01/005/2/0/01/034,01,Location and identification sequences,301005,(Originating centre/sub-centre),,001034,Identification of originating/generating sub-centre,,,,Operational
+bufr4/3/01/011/1/0/04/001,01,Location and identification sequences,301011,"(Year, month, day)",,004001,Year,,,,Operational
+bufr4/3/01/011/2/0/04/002,01,Location and identification sequences,301011,"(Year, month, day)",,004002,Month,,,,Operational
+bufr4/3/01/011/3/0/04/003,01,Location and identification sequences,301011,"(Year, month, day)",,004003,Day,,,,Operational
+bufr4/3/01/012/1/0/04/004,01,Location and identification sequences,301012,"(Hour, minute)",,004004,Hour,,,,Operational
+bufr4/3/01/012/2/0/04/005,01,Location and identification sequences,301012,"(Hour, minute)",,004005,Minute,,,,Operational
+bufr4/3/01/013/1/0/04/004,01,Location and identification sequences,301013,"(Hour, minute, second)",,004004,Hour,,,,Operational
+bufr4/3/01/013/2/0/04/005,01,Location and identification sequences,301013,"(Hour, minute, second)",,004005,Minute,,,,Operational
+bufr4/3/01/013/3/0/04/006,01,Location and identification sequences,301013,"(Hour, minute, second)",,004006,Second,,,,Operational
+bufr4/3/01/014/1/1/02/002,01,Location and identification sequences,301014,(Time period),,102002,Replicate 2 descriptors 2 times,,,,Operational
+bufr4/3/01/014/2/3/01/011,01,Location and identification sequences,301014,(Time period),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/014/3/3/01/012,01,Location and identification sequences,301014,(Time period),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/018/1/0/01/114,01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,001114,Encrypted ship or mobile land station identifier (base64 encoding),,(see Notes 2 and 3),"57,23",Operational
+bufr4/3/01/018/2/0/25/185,01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,025185,Encryption method,,,,Operational
+bufr4/3/01/018/3/0/25/186,01,Location and identification sequences,301018,(Encrypted ship's call sign and encryption method),,025186,Encryption key version,,,,Operational
+bufr4/3/01/021/1/0/05/001,01,Location and identification sequences,301021,(Latitude/longitude (high accuracy)),,005001,Latitude (high accuracy),,,,Operational
+bufr4/3/01/021/2/0/06/001,01,Location and identification sequences,301021,(Latitude/longitude (high accuracy)),,006001,Longitude (high accuracy),,,,Operational
+bufr4/3/01/022/1/0/05/001,01,Location and identification sequences,301022,"(Latitude/longitude (high accuracy), height of station)",,005001,Latitude (high accuracy),,,,Operational
+bufr4/3/01/022/2/0/06/001,01,Location and identification sequences,301022,"(Latitude/longitude (high accuracy), height of station)",,006001,Longitude (high accuracy),,,,Operational
+bufr4/3/01/022/3/0/07/001,01,Location and identification sequences,301022,"(Latitude/longitude (high accuracy), height of station)",,007001,Height of station,,,,Operational
+bufr4/3/01/023/1/0/05/002,01,Location and identification sequences,301023,(Latitude/longitude (coarse accuracy)),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/01/023/2/0/06/002,01,Location and identification sequences,301023,(Latitude/longitude (coarse accuracy)),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/01/024/1/0/05/002,01,Location and identification sequences,301024,"(Latitude/longitude (coarse accuracy), height of station)",,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/01/024/2/0/06/002,01,Location and identification sequences,301024,"(Latitude/longitude (coarse accuracy), height of station)",,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/01/024/3/0/07/001,01,Location and identification sequences,301024,"(Latitude/longitude (coarse accuracy), height of station)",,007001,Height of station,,,,Operational
+bufr4/3/01/025/1/3/01/023,01,Location and identification sequences,301025,"(Latitude/longitude (coarse accuracy), day/time)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/01/025/2/0/04/003,01,Location and identification sequences,301025,"(Latitude/longitude (coarse accuracy), day/time)",,004003,Day,,,,Operational
+bufr4/3/01/025/3/3/01/012,01,Location and identification sequences,301025,"(Latitude/longitude (coarse accuracy), day/time)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/026/1/3/01/021,01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/026/2/0/04/003,01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004003,Day,Time period in days,,,Operational
+bufr4/3/01/026/3/0/04/003,01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004003,Day,,,,Operational
+bufr4/3/01/026/4/0/04/004,01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004004,Hour,Time period in hours,,,Operational
+bufr4/3/01/026/5/0/04/004,01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004004,Hour,,,,Operational
+bufr4/3/01/026/6/0/04/005,01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004005,Minute,Time period in minutes,,,Operational
+bufr4/3/01/026/7/0/04/005,01,Location and identification sequences,301026,"(Latitude/longitude (high accuracy), time period (day, hour, minute))",,004005,Minute,,,,Operational
+bufr4/3/01/027/1/0/08/007,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,008007,Dimensional significance,"= 0 Point, = 1 Line, = 2 Area, = 3 Volume",,,Operational
+bufr4/3/01/027/2/1/01/000,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/01/027/3/0/31/001,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,031001,Delayed descriptor replication factor,,(see Note 4),65,Operational
+bufr4/3/01/027/4/3/01/028,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,301028,"Horizontal section of a feature described as a polygon, circle, line or point",,,,Operational
+bufr4/3/01/027/5/0/08/007,01,Location and identification sequences,301027,(Description of a feature in 3-D or 2-D),,008007,Dimensional significance,Set to missing (cancel),,,Operational
+bufr4/3/01/028/1/0/08/040,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,008040,Flight level significance,,,,Operational
+bufr4/3/01/028/2/0/33/042,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,033042,Type of limit represented by following value,,,,Operational
+bufr4/3/01/028/3/0/07/010,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,007010,Flight level,,,,Operational
+bufr4/3/01/028/4/1/01/000,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/01/028/5/0/31/002,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,031002,Extended delayed descriptor replication factor,,(see Note 5),66,Operational
+bufr4/3/01/028/6/3/01/023,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/01/028/7/0/19/007,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,019007,Effective radius of feature,,(see Note 6),61,Operational
+bufr4/3/01/028/8/0/08/040,01,Location and identification sequences,301028,"(Horizontal section of a feature described as a polygon, circle, line or point)",,008040,Flight level significance,Set to missing (cancel),,,Operational
+bufr4/3/01/029/1/0/01/018,01,Location and identification sequences,301029,(Identification),,001018,Short station or site name,,,,Operational
+bufr4/3/01/029/2/0/02/001,01,Location and identification sequences,301029,(Identification),,002001,Type of station,,,,Operational
+bufr4/3/01/029/3/3/01/011,01,Location and identification sequences,301029,(Identification),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/030/1/0/01/018,01,Location and identification sequences,301030,(Identification - with physical location),,001018,Short station or site name,,,,Operational
+bufr4/3/01/030/2/0/02/001,01,Location and identification sequences,301030,(Identification - with physical location),,002001,Type of station,,,,Operational
+bufr4/3/01/030/3/3/01/011,01,Location and identification sequences,301030,(Identification - with physical location),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/030/4/3/01/024,01,Location and identification sequences,301030,(Identification - with physical location),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
+bufr4/3/01/031/1/3/01/001,01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/031/2/0/02/001,01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,002001,Type of station,,,,Operational
+bufr4/3/01/031/3/3/01/011,01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/031/4/3/01/012,01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/031/5/3/01/022,01,Location and identification sequences,301031,"(Identification and type of station, date/time, location (high accuracy), height of station)",,301022,"Latitude/longitude (high accuracy), height of station",,,,Operational
+bufr4/3/01/032/1/3/01/001,01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/032/2/0/02/001,01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,002001,Type of station,,,,Operational
+bufr4/3/01/032/3/3/01/011,01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/032/4/3/01/012,01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/032/5/3/01/024,01,Location and identification sequences,301032,"(Identification and type of station, date/time, location (coarse accuracy), height of station)",,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
+bufr4/3/01/033/1/0/01/005,01,Location and identification sequences,301033,(Buoy/platform - fixed),,001005,Buoy/platform identifier,,,,Operational
+bufr4/3/01/033/2/0/02/001,01,Location and identification sequences,301033,(Buoy/platform - fixed),,002001,Type of station,,,,Operational
+bufr4/3/01/033/3/3/01/011,01,Location and identification sequences,301033,(Buoy/platform - fixed),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/033/4/3/01/012,01,Location and identification sequences,301033,(Buoy/platform - fixed),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/033/5/3/01/021,01,Location and identification sequences,301033,(Buoy/platform - fixed),,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/034/1/0/01/005,01,Location and identification sequences,301034,(Buoy/platform - fixed),,001005,Buoy/platform identifier,,,,Operational
+bufr4/3/01/034/2/0/02/001,01,Location and identification sequences,301034,(Buoy/platform - fixed),,002001,Type of station,,,,Operational
+bufr4/3/01/034/3/3/01/011,01,Location and identification sequences,301034,(Buoy/platform - fixed),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/034/4/3/01/012,01,Location and identification sequences,301034,(Buoy/platform - fixed),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/034/5/3/01/023,01,Location and identification sequences,301034,(Buoy/platform - fixed),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/01/035/1/0/01/005,01,Location and identification sequences,301035,(Buoy/platform - moving),,001005,Buoy/platform identifier,,(see Note 7),12,Operational
+bufr4/3/01/035/2/0/01/012,01,Location and identification sequences,301035,(Buoy/platform - moving),,001012,Direction of motion of moving observing platform,,(see Note 7),12,Operational
+bufr4/3/01/035/3/0/01/013,01,Location and identification sequences,301035,(Buoy/platform - moving),,001013,Speed of motion of moving observing platform,,(see Note 7,12,Operational
+bufr4/3/01/035/4/0/02/001,01,Location and identification sequences,301035,(Buoy/platform - moving),,002001,Type of station,,(see Note 7),12,Operational
+bufr4/3/01/035/5/3/01/011,01,Location and identification sequences,301035,(Buoy/platform - moving),,301011,"Year, month, day",,(see Note 7),12,Operational
+bufr4/3/01/035/6/3/01/012,01,Location and identification sequences,301035,(Buoy/platform - moving),,301012,"Hour, minute",,(see Note 7),12,Operational
+bufr4/3/01/035/7/3/01/023,01,Location and identification sequences,301035,(Buoy/platform - moving),,301023,Latitude/longitude (coarse accuracy),,(see Note 7),12,Operational
+bufr4/3/01/036/1/3/01/003,01,Location and identification sequences,301036,(Ship),,301003,Ship's call sign and motion,,,,Operational
+bufr4/3/01/036/2/0/02/001,01,Location and identification sequences,301036,(Ship),,002001,Type of station,,,,Operational
+bufr4/3/01/036/3/3/01/011,01,Location and identification sequences,301036,(Ship),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/036/4/3/01/012,01,Location and identification sequences,301036,(Ship),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/036/5/3/01/023,01,Location and identification sequences,301036,(Ship),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/01/037/1/3/01/001,01,Location and identification sequences,301037,(Land station for vertical soundings),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/037/2/0/02/011,01,Location and identification sequences,301037,(Land station for vertical soundings),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/037/3/0/02/012,01,Location and identification sequences,301037,(Land station for vertical soundings),,002012,Radiosonde computational method,,,,Operational
+bufr4/3/01/037/4/3/01/011,01,Location and identification sequences,301037,(Land station for vertical soundings),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/037/5/3/01/012,01,Location and identification sequences,301037,(Land station for vertical soundings),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/037/6/3/01/022,01,Location and identification sequences,301037,(Land station for vertical soundings),,301022,"Latitude/longitude (high accuracy), height of station",,,,Operational
+bufr4/3/01/038/1/3/01/001,01,Location and identification sequences,301038,(Land station for vertical soundings),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/038/2/0/02/011,01,Location and identification sequences,301038,(Land station for vertical soundings),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/038/3/0/02/012,01,Location and identification sequences,301038,(Land station for vertical soundings),,002012,Radiosonde computational method,,,,Operational
+bufr4/3/01/038/4/3/01/011,01,Location and identification sequences,301038,(Land station for vertical soundings),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/038/5/3/01/012,01,Location and identification sequences,301038,(Land station for vertical soundings),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/038/6/3/01/024,01,Location and identification sequences,301038,(Land station for vertical soundings),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
+bufr4/3/01/039/1/3/01/003,01,Location and identification sequences,301039,(Ship for vertical soundings),,301003,Ship's call sign and motion,,,,Operational
+bufr4/3/01/039/2/0/02/011,01,Location and identification sequences,301039,(Ship for vertical soundings),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/039/3/0/02/012,01,Location and identification sequences,301039,(Ship for vertical soundings),,002012,Radiosonde computational method,,,,Operational
+bufr4/3/01/039/4/3/01/011,01,Location and identification sequences,301039,(Ship for vertical soundings),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/039/5/3/01/012,01,Location and identification sequences,301039,(Ship for vertical soundings),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/039/6/3/01/023,01,Location and identification sequences,301039,(Ship for vertical soundings),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/01/040/1/3/01/003,01,Location and identification sequences,301040,(Ship for vertical soundings),,301003,Ship's call sign and motion,,,,Operational
+bufr4/3/01/040/2/0/02/011,01,Location and identification sequences,301040,(Ship for vertical soundings),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/040/3/0/02/012,01,Location and identification sequences,301040,(Ship for vertical soundings),,002012,Radiosonde computational method,,,,Operational
+bufr4/3/01/040/4/3/01/011,01,Location and identification sequences,301040,(Ship for vertical soundings),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/040/5/3/01/012,01,Location and identification sequences,301040,(Ship for vertical soundings),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/040/6/3/01/024,01,Location and identification sequences,301040,(Ship for vertical soundings),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
+bufr4/3/01/041/1/0/01/007,01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,001007,Satellite identifier,,,,Operational
+bufr4/3/01/041/2/0/02/021,01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,002021,Satellite instrument data used in processing,,,,Operational
+bufr4/3/01/041/3/0/02/022,01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,002022,Satellite data-processing technique used,,,,Operational
+bufr4/3/01/041/4/3/01/011,01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/041/5/3/01/012,01,Location and identification sequences,301041,"(Satellite identifier, instrument, data-processing technique, date/time)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/042/1/3/01/041,01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301041,"Satellite identifier, instrument, data-processing technique, date/time",,,,Operational
+bufr4/3/01/042/2/3/01/021,01,Location and identification sequences,301042,"(Satellite identifier, instrument, data-processing technique, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/043/1/0/01/007,01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,001007,Satellite identifier,,,,Operational
+bufr4/3/01/043/2/0/02/023,01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,002023,Satellite-derived wind computation method,,,,Operational
+bufr4/3/01/043/3/3/01/011,01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/043/4/3/01/013,01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301013,"Hour, minute, second",,,,Operational
+bufr4/3/01/043/5/3/01/021,01,Location and identification sequences,301043,"(Satellite identifier, wind computation method, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/044/1/0/01/007,01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,001007,Satellite identifier,,,,Operational
+bufr4/3/01/044/2/0/02/024,01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,002024,Integrated mean humidity computational method,,,,Operational
+bufr4/3/01/044/3/3/01/011,01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/044/4/3/01/013,01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301013,"Hour, minute, second",,,,Operational
+bufr4/3/01/044/5/3/01/021,01,Location and identification sequences,301044,"(Satellite identifier, humidity computation method, date/time, location)",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/045/1/3/01/011,01,Location and identification sequences,301045,(Satellite location and velocity),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/045/2/3/01/012,01,Location and identification sequences,301045,(Satellite location and velocity),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/045/3/2/01/138,01,Location and identification sequences,301045,(Satellite location and velocity),,201138,Change data width,16 bits long,,,Operational
+bufr4/3/01/045/4/2/02/131,01,Location and identification sequences,301045,(Satellite location and velocity),,202131,Change scale,Scale: 3,,,Operational
+bufr4/3/01/045/5/0/04/006,01,Location and identification sequences,301045,(Satellite location and velocity),,004006,Second,,,,Operational
+bufr4/3/01/045/6/2/01/000,01,Location and identification sequences,301045,(Satellite location and velocity),,201000,Change data width,Cancel,,,Operational
+bufr4/3/01/045/7/2/02/000,01,Location and identification sequences,301045,(Satellite location and velocity),,202000,Change scale,Cancel,,,Operational
+bufr4/3/01/045/8/3/04/030,01,Location and identification sequences,301045,(Satellite location and velocity),,304030,Location of platform,Relative to the Earth’s centre,,,Operational
+bufr4/3/01/045/9/3/04/031,01,Location and identification sequences,301045,(Satellite location and velocity),,304031,Speed of platform,Relative to the Earth’s centre,,,Operational
+bufr4/3/01/046/1/0/01/007,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001007,Satellite identifier,,,,Operational
+bufr4/3/01/046/2/0/01/012,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,001012,Direction of motion of moving observing platform,,,,Operational
+bufr4/3/01/046/3/0/02/048,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002048,Satellite sensor indicator,,,,Operational
+bufr4/3/01/046/4/0/21/119,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,021119,Wind scatterometer geophysical model function,,,,Operational
+bufr4/3/01/046/5/0/25/060,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,025060,Software identification,,,,Operational
+bufr4/3/01/046/6/2/02/124,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,202124,Change scale,,,,Operational
+bufr4/3/01/046/7/0/02/026,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002026,Cross-track resolution,,,,Operational
+bufr4/3/01/046/8/0/02/027,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,002027,Along-track resolution,,,,Operational
+bufr4/3/01/046/9/2/02/000,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,202000,Change scale,Cancel,,,Operational
+bufr4/3/01/046/10/0/05/040,01,Location and identification sequences,301046,"(Satellite identifier, direction of motion, sensor, model function, software, resolution)",,005040,Orbit number,,,,Operational
+bufr4/3/01/047/1/0/01/007,01,Location and identification sequences,301047,(ERS product header),,001007,Satellite identifier,,,,Operational
+bufr4/3/01/047/2/0/25/060,01,Location and identification sequences,301047,(ERS product header),,025060,Software identification,,,,Operational
+bufr4/3/01/047/3/0/01/033,01,Location and identification sequences,301047,(ERS product header),,001033,Identification of originating/generating centre,,,,Operational
+bufr4/3/01/047/4/0/01/034,01,Location and identification sequences,301047,(ERS product header),,001034,Identification of originating/generating sub-centre,,,,Operational
+bufr4/3/01/047/5/0/01/012,01,Location and identification sequences,301047,(ERS product header),,001012,Direction of motion of moving observing platform,,,,Operational
+bufr4/3/01/047/6/3/01/045,01,Location and identification sequences,301047,(ERS product header),,301045,Satellite location and velocity,,,,Operational
+bufr4/3/01/047/7/0/02/021,01,Location and identification sequences,301047,(ERS product header),,002021,Satellite instrument data used in processing,,,,Operational
+bufr4/3/01/047/8/3/01/011,01,Location and identification sequences,301047,(ERS product header),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/047/9/3/01/012,01,Location and identification sequences,301047,(ERS product header),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/047/10/2/01/138,01,Location and identification sequences,301047,(ERS product header),,201138,Change data width,16 bits long,,,Operational
+bufr4/3/01/047/11/2/02/131,01,Location and identification sequences,301047,(ERS product header),,202131,Change scale,Scale: 3,,,Operational
+bufr4/3/01/047/12/0/04/006,01,Location and identification sequences,301047,(ERS product header),,004006,Second,,,,Operational
+bufr4/3/01/047/13/2/01/000,01,Location and identification sequences,301047,(ERS product header),,201000,Change data width,Cancel,,,Operational
+bufr4/3/01/047/14/2/02/000,01,Location and identification sequences,301047,(ERS product header),,202000,Change scale,Cancel,,,Operational
+bufr4/3/01/047/15/3/01/023,01,Location and identification sequences,301047,(ERS product header),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/01/048/1/0/02/104,01,Location and identification sequences,301048,(Radar parameters),,002104,Antenna polarization,,,,Operational
+bufr4/3/01/048/2/0/02/121,01,Location and identification sequences,301048,(Radar parameters),,002121,Mean frequency,,,,Operational
+bufr4/3/01/048/3/0/02/113,01,Location and identification sequences,301048,(Radar parameters),,002113,Number of azimuth looks,,,,Operational
+bufr4/3/01/048/4/0/02/026,01,Location and identification sequences,301048,(Radar parameters),,002026,Cross-track resolution,,,,Operational
+bufr4/3/01/048/5/0/02/027,01,Location and identification sequences,301048,(Radar parameters),,002027,Along-track resolution,,,,Operational
+bufr4/3/01/048/6/0/02/111,01,Location and identification sequences,301048,(Radar parameters),,002111,Radar incidence angle,,,,Operational
+bufr4/3/01/048/7/0/02/140,01,Location and identification sequences,301048,(Radar parameters),,002140,Satellite radar beam azimuth angle,,,,Operational
+bufr4/3/01/048/8/2/02/127,01,Location and identification sequences,301048,(Radar parameters),,202127,Change scale,Scale: -1,,,Operational
+bufr4/3/01/048/9/0/01/013,01,Location and identification sequences,301048,(Radar parameters),,001013,Speed of motion of moving observing platform,Radar platform velocity,,,Operational
+bufr4/3/01/048/10/2/02/126,01,Location and identification sequences,301048,(Radar parameters),,202126,Change scale,Scale: -2,,,Operational
+bufr4/3/01/048/11/0/07/001,01,Location and identification sequences,301048,(Radar parameters),,007001,Height of station,Radar platform altitude,,,Operational
+bufr4/3/01/048/12/2/02/000,01,Location and identification sequences,301048,(Radar parameters),,202000,Change scale,Cancel,,,Operational
+bufr4/3/01/048/13/0/25/010,01,Location and identification sequences,301048,(Radar parameters),,025010,Clutter treatment,,,,Operational
+bufr4/3/01/048/14/0/21/064,01,Location and identification sequences,301048,(Radar parameters),,021064,Clutter noise estimate,,,,Operational
+bufr4/3/01/049/1/0/02/111,01,Location and identification sequences,301049,(Radar beam data),,002111,Radar incidence angle,,,,Operational
+bufr4/3/01/049/2/0/02/112,01,Location and identification sequences,301049,(Radar beam data),,002112,Radar look angle,,,,Operational
+bufr4/3/01/049/3/0/21/062,01,Location and identification sequences,301049,(Radar beam data),,021062,Backscatter,,,,Operational
+bufr4/3/01/049/4/0/21/063,01,Location and identification sequences,301049,(Radar beam data),,021063,Radiometric resolution (noise value),,,,Operational
+bufr4/3/01/049/5/0/21/065,01,Location and identification sequences,301049,(Radar beam data),,021065,Missing packet counter,,,,Operational
+bufr4/3/01/051/1/0/01/006,01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,001006,Aircraft flight number,,,,Operational
+bufr4/3/01/051/2/0/02/061,01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,002061,Aircraft navigational system,,,,Operational
+bufr4/3/01/051/3/3/01/011,01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/051/4/3/01/012,01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/051/5/3/01/021,01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/051/6/0/08/004,01,Location and identification sequences,301051,"(Flight number, navigational system, date/time, location, phase of flight)",,008004,Phase of aircraft flight,,,,Operational
+bufr4/3/01/055/1/0/01/005,01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001005,Buoy/platform identifier,,,,Operational
+bufr4/3/01/055/2/0/02/001,01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,002001,Type of station,,,,Operational
+bufr4/3/01/055/3/3/01/011,01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/055/4/3/01/012,01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/055/5/3/01/021,01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/055/6/0/01/012,01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001012,Direction of motion of moving observing platform,,,,Operational
+bufr4/3/01/055/7/0/01/014,01,Location and identification sequences,301055,"(Identification and type of station, date/time, location (high accuracy), movement)",,001014,Platform drift speed (high precision),,,,Operational
+bufr4/3/01/056/1/0/01/087,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001087,WMO marine observing platform extended identifier,WMO number (extended 7 digit identifier),,,Operational
+bufr4/3/01/056/2/0/01/011,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001011,Ship or mobile land station identifier,Call sign (where allocated),,,Operational
+bufr4/3/01/056/3/0/01/015,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,001015,Station or site name,Platform name,,,Operational
+bufr4/3/01/056/4/0/02/008,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,002008,Type of offshore platform,,,,Operational
+bufr4/3/01/056/5/0/02/001,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,002001,Type of station,,,,Operational
+bufr4/3/01/056/6/3/01/011,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/056/7/3/01/012,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/056/8/3/01/021,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/056/9/0/07/030,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,007030,Height of station ground above mean sea level,Height of station platform above mean sea level,,,Operational
+bufr4/3/01/056/10/0/07/031,01,Location and identification sequences,301056,"(Sequence for platform identification, type, time and location of the observation report)",,007031,Height of barometer above mean sea level,,,,Operational
+bufr4/3/01/058/1/3/01/011,01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,301011,"Year, month, day",,,,Operational
+bufr4/3/01/058/2/3/01/012,01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,301012,"Hour, minute",,,,Operational
+bufr4/3/01/058/3/2/01/152,01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,201152,Change data width,,,,Operational
+bufr4/3/01/058/4/2/02/135,01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,202135,Change scale,,,,Operational
+bufr4/3/01/058/5/0/04/006,01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,004006,Second,,,,Operational
+bufr4/3/01/058/6/2/02/000,01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,202000,Change scale,,,,Operational
+bufr4/3/01/058/7/2/01/000,01,Location and identification sequences,301058,(Universal lightning event),Date/time of lightning event,201000,Change data width,,,,Operational
+bufr4/3/01/058/8/3/01/021,01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/058/9/0/20/111,01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020111,x-axis error ellipse major component,,,,Operational
+bufr4/3/01/058/10/0/20/112,01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020112,y-axis error ellipse minor component,,,,Operational
+bufr4/3/01/058/11/0/20/113,01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020113,z-axis error ellipse component,,,,Operational
+bufr4/3/01/058/12/0/20/114,01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020114,Angle of x-axis in error ellipse,,,,Operational
+bufr4/3/01/058/13/0/20/115,01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020115,Angle of z-axis in error ellipse,,,,Operational
+bufr4/3/01/058/14/0/20/116,01,Location and identification sequences,301058,(Universal lightning event),Horizontal and vertical coordinates of lightning event,020116,Emission height of cloud stroke,,,,Operational
+bufr4/3/01/058/15/0/20/117,01,Location and identification sequences,301058,(Universal lightning event),Emission information,020117,Amplitude of lightning strike,,,,Operational
+bufr4/3/01/058/16/0/20/118,01,Location and identification sequences,301058,(Universal lightning event),Emission information,020118,Lightning detection error,,,,Operational
+bufr4/3/01/058/17/0/20/119,01,Location and identification sequences,301058,(Universal lightning event),Emission information,020119,Lightning discharge polarity,,,,Operational
+bufr4/3/01/058/18/0/25/035,01,Location and identification sequences,301058,(Universal lightning event),Emission information,025035,Decision method for polarity,V or A,,,Operational
+bufr4/3/01/058/19/0/20/121,01,Location and identification sequences,301058,(Universal lightning event),Emission information,020121,Threshold value for polarity decision,,,,Operational
+bufr4/3/01/058/20/0/20/122,01,Location and identification sequences,301058,(Universal lightning event),Emission information,020122,Threshold value for polarity decision,,,,Operational
+bufr4/3/01/058/21/0/20/123,01,Location and identification sequences,301058,(Universal lightning event),Emission information,020123,Minimum threshold for detection,,,,Operational
+bufr4/3/01/058/22/0/20/124,01,Location and identification sequences,301058,(Universal lightning event),Emission information,020124,Lightning stroke or flash,,,,Operational
+bufr4/3/01/058/23/0/25/175,01,Location and identification sequences,301058,(Universal lightning event),Emission information,025175,Modified residual,,,,Operational
+bufr4/3/01/058/24/0/20/023,01,Location and identification sequences,301058,(Universal lightning event),Emission information,020023,Other weather phenomena,Cloud to ground or cloud to cloud identification,,,Operational
+bufr4/3/01/058/25/0/25/063,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,025063,Central processor or system identifier,,,,Operational
+bufr4/3/01/058/26/2/02/136,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,202136,Change scale,,,,Operational
+bufr4/3/01/058/27/2/01/136,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,201136,Change data width,,,,Operational
+bufr4/3/01/058/28/0/02/121,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,002121,Mean frequency,"Define centre frequency, if used",,,Operational
+bufr4/3/01/058/29/2/01/000,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,201000,Change data width,,,,Operational
+bufr4/3/01/058/30/2/02/000,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,202000,Change scale,,,,Operational
+bufr4/3/01/058/31/0/25/061,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,025061,Software identification and version number,,,,Operational
+bufr4/3/01/058/32/0/02/184,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,002184,Type of lightning detection sensor,,,,Operational
+bufr4/3/01/058/33/0/02/189,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,002189,Capability to discriminate lightning strikes,,,,Operational
+bufr4/3/01/058/34/0/25/036,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,025036,Atmospherics location method,,,,Operational
+bufr4/3/01/058/35/1/01/000,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/01/058/36/0/31/002,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,031002,Extended delayed descriptor replication factor,Number of sensors contributing,,,Operational
+bufr4/3/01/058/37/3/01/059,01,Location and identification sequences,301058,(Universal lightning event),Sensor processing,301059,Identification of sensor site and instrumentation,,,,Operational
+bufr4/3/01/059/1/3/01/021,01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,301021,Latitude/longitude (high accuracy),Sensor,,,Operational
+bufr4/3/01/059/2/0/07/030,01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,007030,Height of station ground above mean sea level,,,,Operational
+bufr4/3/01/059/3/0/07/032,01,Location and identification sequences,301059,(Identification of sensor site and instrumentation),,007032,Height of sensor above local ground (or deck of marine platform),Sensor for lightning,,,Operational
+bufr4/3/01/062/1/1/01/000,01,Location and identification sequences,301062,(Radar location(s)),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/01/062/2/0/31/001,01,Location and identification sequences,301062,(Radar location(s)),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/01/062/3/3/01/001,01,Location and identification sequences,301062,(Radar location(s)),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/065/1/0/01/006,01,Location and identification sequences,301065,(ACARS identification),,001006,Aircraft flight number,,(see Note 9),5,Operational
+bufr4/3/01/065/2/0/01/008,01,Location and identification sequences,301065,(ACARS identification),,001008,Aircraft registration number or other identification,,(see Note 9),5,Operational
+bufr4/3/01/065/3/0/02/001,01,Location and identification sequences,301065,(ACARS identification),,002001,Type of station,,,,Operational
+bufr4/3/01/065/4/0/02/002,01,Location and identification sequences,301065,(ACARS identification),,002002,Type of instrumentation for wind measurement,,,,Operational
+bufr4/3/01/065/5/0/02/005,01,Location and identification sequences,301065,(ACARS identification),,002005,Precision of temperature observation,,,,Operational
+bufr4/3/01/065/6/0/02/062,01,Location and identification sequences,301065,(ACARS identification),,002062,Type of aircraft data relay system,,,,Operational
+bufr4/3/01/065/7/0/02/070,01,Location and identification sequences,301065,(ACARS identification),,002070,Original specification of latitude/longitude,,,,Operational
+bufr4/3/01/065/8/0/02/065,01,Location and identification sequences,301065,(ACARS identification),,002065,ACARS ground-receiving station,,,,Operational
+bufr4/3/01/066/1/3/01/011,01,Location and identification sequences,301066,(ACARS location),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/066/2/3/01/013,01,Location and identification sequences,301066,(ACARS location),,301013,"Hour, minute, second",,,,Operational
+bufr4/3/01/066/3/3/01/023,01,Location and identification sequences,301066,(ACARS location),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/01/066/4/0/07/004,01,Location and identification sequences,301066,(ACARS location),,007004,Pressure,,,,Operational
+bufr4/3/01/066/5/0/02/064,01,Location and identification sequences,301066,(ACARS location),,002064,Aircraft roll angle quality,,,,Operational
+bufr4/3/01/066/6/0/08/004,01,Location and identification sequences,301066,(ACARS location),,008004,Phase of aircraft flight,,,,Operational
+bufr4/3/01/070/1/0/02/143,01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002143,Ozone instrument type,,,,Operational
+bufr4/3/01/070/2/0/02/142,01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002142,Ozone instrument serial number/identification,,,,Operational
+bufr4/3/01/070/3/0/02/144,01,Location and identification sequences,301070,(Ozone instrumentation - Brewer spectrophotometer),,002144,Light source type for Brewer spectrophotometer,,,,Operational
+bufr4/3/01/071/1/0/01/007,01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001007,Satellite identifier,,,,Operational
+bufr4/3/01/071/2/0/01/031,01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,001031,Identification of originating/generating centre,,,,Operational
+bufr4/3/01/071/3/0/02/020,01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002020,Satellite classification,,,,Operational
+bufr4/3/01/071/4/0/02/028,01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002028,Segment size at nadir in x-direction,,,,Operational
+bufr4/3/01/071/5/0/02/029,01,Location and identification sequences,301071,(Satellite identifier/Generating resolution),,002029,Segment size at nadir in y-direction,,,,Operational
+bufr4/3/01/072/1/3/01/071,01,Location and identification sequences,301072,(Satellite identification),,301071,Satellite identifier/Generating resolution,,,,Operational
+bufr4/3/01/072/2/3/01/011,01,Location and identification sequences,301072,(Satellite identification),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/072/3/3/01/013,01,Location and identification sequences,301072,(Satellite identification),,301013,"Hour, minute, second",,,,Operational
+bufr4/3/01/072/4/3/01/021,01,Location and identification sequences,301072,(Satellite identification),,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/074/1/0/02/143,01,Location and identification sequences,301074,(Ozone instrumentation - Dobson spectrophotometer),,002143,Ozone instrument type,,,,Operational
+bufr4/3/01/074/2/0/02/142,01,Location and identification sequences,301074,(Ozone instrumentation - Dobson spectrophotometer),,002142,Ozone instrument serial number/identification,,,,Operational
+bufr4/3/01/074/3/0/02/145,01,Location and identification sequences,301074,(Ozone instrumentation - Dobson spectrophotometer),,002145,Wavelength setting for Dobson instruments,,,,Operational
+bufr4/3/01/074/4/0/02/146,01,Location and identification sequences,301074,(Ozone instrumentation - Dobson spectrophotometer),,002146,Source conditions for Dobson instruments,,,,Operational
+bufr4/3/01/075/1/3/01/001,01,Location and identification sequences,301075,(Sounding identification),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/075/2/0/01/015,01,Location and identification sequences,301075,(Sounding identification),,001015,Station or site name,,,,Operational
+bufr4/3/01/075/3/3/01/024,01,Location and identification sequences,301075,(Sounding identification),,301024,"Latitude/longitude (coarse accuracy), height of station",,,,Operational
+bufr4/3/01/075/4/0/08/021,01,Location and identification sequences,301075,(Sounding identification),,008021,Time significance,= 18 Launch time,,,Operational
+bufr4/3/01/075/5/3/01/011,01,Location and identification sequences,301075,(Sounding identification),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/075/6/3/01/012,01,Location and identification sequences,301075,(Sounding identification),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/076/1/0/02/011,01,Location and identification sequences,301076,(Ozone sounding instrumentation),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/076/2/0/02/143,01,Location and identification sequences,301076,(Ozone sounding instrumentation),,002143,Ozone instrument type,,,,Operational
+bufr4/3/01/076/3/0/02/142,01,Location and identification sequences,301076,(Ozone sounding instrumentation),,002142,Ozone instrument serial number/identification,,,,Operational
+bufr4/3/01/089/1/0/01/101,01,Location and identification sequences,301089,(National station identification),,001101,State identifier,,,,Operational
+bufr4/3/01/089/2/0/01/102,01,Location and identification sequences,301089,(National station identification),,001102,National station number,,,,Operational
+bufr4/3/01/090/1/3/01/004,01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,301004,Surface station identification,,,,Operational
+bufr4/3/01/090/2/3/01/011,01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/090/3/3/01/012,01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/090/4/3/01/021,01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/090/5/0/07/030,01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,007030,Height of station ground above mean sea level,,,,Operational
+bufr4/3/01/090/6/0/07/031,01,Location and identification sequences,301090,"(Surface station identification; time, horizontal and vertical coordinates)",,007031,Height of barometer above mean sea level,,,,Operational
+bufr4/3/01/091/1/0/02/180,01,Location and identification sequences,301091,(Surface station instrumentation),,002180,Main present weather detecting system,,,,Operational
+bufr4/3/01/091/2/0/02/181,01,Location and identification sequences,301091,(Surface station instrumentation),,002181,Supplementary present weather sensor,,,,Operational
+bufr4/3/01/091/3/0/02/182,01,Location and identification sequences,301091,(Surface station instrumentation),,002182,Visibility measurement system,,,,Operational
+bufr4/3/01/091/4/0/02/183,01,Location and identification sequences,301091,(Surface station instrumentation),,002183,Cloud detection system,,,,Operational
+bufr4/3/01/091/5/0/02/184,01,Location and identification sequences,301091,(Surface station instrumentation),,002184,Type of lightning detection sensor,,,,Operational
+bufr4/3/01/091/6/0/02/179,01,Location and identification sequences,301091,(Surface station instrumentation),,002179,Type of sky condition algorithm,,,,Operational
+bufr4/3/01/091/7/0/02/186,01,Location and identification sequences,301091,(Surface station instrumentation),,002186,Capability to detect precipitation phenomena,,,,Operational
+bufr4/3/01/091/8/0/02/187,01,Location and identification sequences,301091,(Surface station instrumentation),,002187,Capability to detect other weather phenomena,,,,Operational
+bufr4/3/01/091/9/0/02/188,01,Location and identification sequences,301091,(Surface station instrumentation),,002188,Capability to detect obscuration,,,,Operational
+bufr4/3/01/091/10/0/02/189,01,Location and identification sequences,301091,(Surface station instrumentation),,002189,Capability to discriminate lightning strikes,,,,Operational
+bufr4/3/01/092/1/0/01/011,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001011,Ship or mobile land station identifier,,,,Operational
+bufr4/3/01/092/2/0/01/003,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,001003,WMO Region number/geographical area,,,,Operational
+bufr4/3/01/092/3/0/02/001,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,002001,Type of station,,,,Operational
+bufr4/3/01/092/4/3/01/011,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,301011,"Year, month, day",,,,Operational
+bufr4/3/01/092/5/3/01/012,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,301012,"Hour, minute",,,,Operational
+bufr4/3/01/092/6/3/01/021,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/092/7/0/07/030,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,007030,Height of station ground above mean sea level,,,,Operational
+bufr4/3/01/092/8/0/07/031,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,007031,Height of barometer above mean sea level,,,,Operational
+bufr4/3/01/092/9/0/33/024,01,Location and identification sequences,301092,"(Mobile surface station identification, date/time, horizontal and vertical coordinates)",,033024,Station elevation quality mark (for mobile stations),,,,Operational
+bufr4/3/01/093/1/3/01/036,01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,301036,Ship,Ship identification,,,Operational
+bufr4/3/01/093/2/0/07/030,01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,007030,Height of station ground above mean sea level,,,,Operational
+bufr4/3/01/093/3/0/07/031,01,Location and identification sequences,301093,"(Ship identification, movement, date/time, horizontal and vertical coordinates)",,007031,Height of barometer above mean sea level,,,,Operational
+bufr4/3/01/110/1/3/01/001,01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/110/2/0/01/011,01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,001011,Ship or mobile land station identifier,,,,Operational
+bufr4/3/01/110/3/0/02/011,01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/110/4/0/02/014,01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002014,Tracking technique/status of system used,,,,Operational
+bufr4/3/01/110/5/0/02/003,01,Location and identification sequences,301110,(Identification of launch site and instrumentation for wind measurements),,002003,Type of measuring equipment used,,,,Operational
+bufr4/3/01/111/1/3/01/001,01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/111/2/0/01/011,01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,001011,Ship or mobile land station identifier,,,,Operational
+bufr4/3/01/111/3/0/02/011,01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002011,Radiosonde type,,,,Operational
+bufr4/3/01/111/4/0/02/013,01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002013,Solar and infrared radiation correction,,,,Operational
+bufr4/3/01/111/5/0/02/014,01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002014,Tracking technique/status of system used,,,,Operational
+bufr4/3/01/111/6/0/02/003,01,Location and identification sequences,301111,"(Identification of launch site and instrumentation for P, T, U and wind measurements)",,002003,Type of measuring equipment used,,,,Operational
+bufr4/3/01/112/1/0/01/006,01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,001006,Aircraft flight number,,,,Operational
+bufr4/3/01/112/2/0/02/011,01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/112/3/0/02/013,01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002013,Solar and infrared radiation correction,,,,Operational
+bufr4/3/01/112/4/0/02/014,01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002014,Tracking technique/status of system used,,,,Operational
+bufr4/3/01/112/5/0/02/003,01,Location and identification sequences,301112,(Identification of launch point and instrumentation of dropsonde),,002003,Type of measuring equipment used,,,,Operational
+bufr4/3/01/113/1/0/08/021,01,Location and identification sequences,301113,(Date/time of launch),,008021,Time significance,= 18 Launch time,(see Note 10),72,Operational
+bufr4/3/01/113/2/3/01/011,01,Location and identification sequences,301113,(Date/time of launch),,301011,"Year, month, day",Launch time,,,Operational
+bufr4/3/01/113/3/3/01/013,01,Location and identification sequences,301113,(Date/time of launch),,301013,"Hour, minute, second",Launch time,,,Operational
+bufr4/3/01/114/1/3/01/021,01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/114/2/0/07/030,01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,007030,Height of station ground above mean sea level,,,,Operational
+bufr4/3/01/114/3/0/07/031,01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,007031,Height of barometer above mean sea level,,,,Operational
+bufr4/3/01/114/4/0/07/007,01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,007007,Height,Release of sonde above mean sea level,,,Operational
+bufr4/3/01/114/5/0/33/024,01,Location and identification sequences,301114,(Horizontal and vertical coordinates of launch site),,033024,Station elevation quality mark (for mobile stations),,,,Operational
+bufr4/3/01/120/1/3/01/001,01,Location and identification sequences,301120,(Radiosonde abbreviated header and launch information),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/120/2/0/01/094,01,Location and identification sequences,301120,(Radiosonde abbreviated header and launch information),,001094,WBAN number,,,,Operational
+bufr4/3/01/120/3/0/02/011,01,Location and identification sequences,301120,(Radiosonde abbreviated header and launch information),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/120/4/3/01/121,01,Location and identification sequences,301120,(Radiosonde abbreviated header and launch information),,301121,Radiosonde launch point location,,,,Operational
+bufr4/3/01/121/1/0/08/041,01,Location and identification sequences,301121,(Radiosonde launch point location),,008041,Data significance,= 3 Balloon launch point,,,Operational
+bufr4/3/01/121/2/3/01/122,01,Location and identification sequences,301121,(Radiosonde launch point location),,301122,Date/time (to hundredths of second),,,,Operational
+bufr4/3/01/121/3/3/01/021,01,Location and identification sequences,301121,(Radiosonde launch point location),,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/121/4/0/07/031,01,Location and identification sequences,301121,(Radiosonde launch point location),,007031,Height of barometer above mean sea level,,,,Operational
+bufr4/3/01/121/5/0/07/007,01,Location and identification sequences,301121,(Radiosonde launch point location),,007007,Height,Release of radiosonde above mean sea level,,,Operational
+bufr4/3/01/122/1/3/01/011,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301011,"Year, month, day",,(see Note 10),72,Operational
+bufr4/3/01/122/2/3/01/012,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/122/3/2/01/135,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,201135,Change data width,,,,Operational
+bufr4/3/01/122/4/2/02/130,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,202130,Change scale,,,,Operational
+bufr4/3/01/122/5/0/04/006,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,004006,Second,,,,Operational
+bufr4/3/01/122/6/2/02/000,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,202000,Change scale,Cancel,,,Operational
+bufr4/3/01/122/7/2/01/000,01,Location and identification sequences,301122,(Date/time (to hundredths of second)),,201000,Change data width,Cancel,,,Operational
+bufr4/3/01/123/1/1/02/002,01,Location and identification sequences,301123,(Radiosonde full header information),,102002,Replicate 2 descriptors 2 times,,,,Operational
+bufr4/3/01/123/2/0/08/041,01,Location and identification sequences,301123,(Radiosonde full header information),,008041,Data significance,"= 0 Parent site, = 1 Observation site",,,Operational
+bufr4/3/01/123/3/0/01/062,01,Location and identification sequences,301123,(Radiosonde full header information),,001062,Short ICAO location indicator,,,,Operational
+bufr4/3/01/123/4/3/01/001,01,Location and identification sequences,301123,(Radiosonde full header information),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/123/5/0/01/094,01,Location and identification sequences,301123,(Radiosonde full header information),,001094,WBAN number,,,,Operational
+bufr4/3/01/123/6/0/02/011,01,Location and identification sequences,301123,(Radiosonde full header information),,002011,Radiosonde type,,,,Operational
+bufr4/3/01/123/7/0/01/018,01,Location and identification sequences,301123,(Radiosonde full header information),,001018,Short station or site name,,,,Operational
+bufr4/3/01/123/8/0/01/095,01,Location and identification sequences,301123,(Radiosonde full header information),,001095,Observer identification,,,,Operational
+bufr4/3/01/123/9/0/25/061,01,Location and identification sequences,301123,(Radiosonde full header information),,025061,Software identification and version number,,,,Operational
+bufr4/3/01/123/10/0/25/068,01,Location and identification sequences,301123,(Radiosonde full header information),,025068,Number of archive recomputes,,,,Operational
+bufr4/3/01/123/11/0/01/082,01,Location and identification sequences,301123,(Radiosonde full header information),,001082,Radiosonde ascension number,,,,Operational
+bufr4/3/01/123/12/0/01/083,01,Location and identification sequences,301123,(Radiosonde full header information),,001083,Radiosonde release number,,,,Operational
+bufr4/3/01/123/13/0/01/081,01,Location and identification sequences,301123,(Radiosonde full header information),,001081,Radiosonde serial number,,,,Operational
+bufr4/3/01/123/14/0/02/067,01,Location and identification sequences,301123,(Radiosonde full header information),,002067,Radiosonde operating frequency,,,,Operational
+bufr4/3/01/123/15/0/02/066,01,Location and identification sequences,301123,(Radiosonde full header information),,002066,Radiosonde ground receiving system,,,,Operational
+bufr4/3/01/123/16/0/02/014,01,Location and identification sequences,301123,(Radiosonde full header information),,002014,Tracking technique/status of system used,,,,Operational
+bufr4/3/01/123/17/0/25/067,01,Location and identification sequences,301123,(Radiosonde full header information),,025067,Radiosonde release point pressure correction,,,,Operational
+bufr4/3/01/123/18/0/25/065,01,Location and identification sequences,301123,(Radiosonde full header information),,025065,Orientation correction (azimuth),,,,Operational
+bufr4/3/01/123/19/0/25/066,01,Location and identification sequences,301123,(Radiosonde full header information),,025066,Orientation correction (elevation),,,,Operational
+bufr4/3/01/123/20/0/02/095,01,Location and identification sequences,301123,(Radiosonde full header information),,002095,Type of pressure sensor,,,,Operational
+bufr4/3/01/123/21/0/02/096,01,Location and identification sequences,301123,(Radiosonde full header information),,002096,Type of temperature sensor,,,,Operational
+bufr4/3/01/123/22/0/02/097,01,Location and identification sequences,301123,(Radiosonde full header information),,002097,Type of humidity sensor,,,,Operational
+bufr4/3/01/123/23/0/02/016,01,Location and identification sequences,301123,(Radiosonde full header information),,002016,Radiosonde configuration,,,,Operational
+bufr4/3/01/123/24/0/02/083,01,Location and identification sequences,301123,(Radiosonde full header information),,002083,Type of balloon shelter,,,,Operational
+bufr4/3/01/123/25/0/02/080,01,Location and identification sequences,301123,(Radiosonde full header information),,002080,Balloon manufacturer,,,,Operational
+bufr4/3/01/123/26/0/02/081,01,Location and identification sequences,301123,(Radiosonde full header information),,002081,Type of balloon,,,,Operational
+bufr4/3/01/123/27/0/01/093,01,Location and identification sequences,301123,(Radiosonde full header information),,001093,Balloon lot number,,,,Operational
+bufr4/3/01/123/28/0/02/084,01,Location and identification sequences,301123,(Radiosonde full header information),,002084,Type of gas used in balloon,,,,Operational
+bufr4/3/01/123/29/0/02/085,01,Location and identification sequences,301123,(Radiosonde full header information),,002085,Amount of gas used in balloon,,,,Operational
+bufr4/3/01/123/30/0/02/086,01,Location and identification sequences,301123,(Radiosonde full header information),,002086,Balloon flight train length,,,,Operational
+bufr4/3/01/123/31/0/02/082,01,Location and identification sequences,301123,(Radiosonde full header information),,002082,Weight of balloon,,,,Operational
+bufr4/3/01/123/32/0/08/041,01,Location and identification sequences,301123,(Radiosonde full header information),,008041,Data significance,= 2 Balloon manufacture date,,,Operational
+bufr4/3/01/123/33/3/01/011,01,Location and identification sequences,301123,(Radiosonde full header information),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/125/1/0/01/033,01,Location and identification sequences,301125,(ASCAT header information),,001033,Identification of originating/generating centre,,,,Operational
+bufr4/3/01/125/2/0/01/034,01,Location and identification sequences,301125,(ASCAT header information),,001034,Identification of originating/generating sub-centre,,,,Operational
+bufr4/3/01/125/3/0/25/060,01,Location and identification sequences,301125,(ASCAT header information),,025060,Software identification,,,,Operational
+bufr4/3/01/125/4/0/01/007,01,Location and identification sequences,301125,(ASCAT header information),,001007,Satellite identifier,,,,Operational
+bufr4/3/01/125/5/0/02/019,01,Location and identification sequences,301125,(ASCAT header information),,002019,Satellite instruments,,,,Operational
+bufr4/3/01/125/6/0/01/012,01,Location and identification sequences,301125,(ASCAT header information),,001012,Direction of motion of moving observing platform,,,,Operational
+bufr4/3/01/126/1/0/01/087,01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,001087,WMO marine observing platform extended identifier,,,,Operational
+bufr4/3/01/126/2/0/01/015,01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,001015,Station or site name,,,,Operational
+bufr4/3/01/126/3/0/02/149,01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,002149,Type of data buoy,,,,Operational
+bufr4/3/01/126/4/3/01/011,01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/126/5/3/01/012,01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/126/6/3/01/021,01,Location and identification sequences,301126,(Sequence for representation of moored buoy identification),,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/128/1/0/01/081,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,001081,Radiosonde serial number,,,,Operational
+bufr4/3/01/128/2/0/01/082,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,001082,Radiosonde ascension number,,,,Operational
+bufr4/3/01/128/3/0/01/083,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,001083,Radiosonde release number,,,,Operational
+bufr4/3/01/128/4/0/01/095,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,001095,Observer identification,,,,Operational
+bufr4/3/01/128/5/0/02/015,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002015,Radiosonde completeness,,,,Operational
+bufr4/3/01/128/6/0/02/016,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002016,Radiosonde configuration,,,,Operational
+bufr4/3/01/128/7/0/02/017,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002017,Correction algorithms for humidity measurements,,,,Operational
+bufr4/3/01/128/8/0/02/066,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002066,Radiosonde ground receiving system,,,,Operational
+bufr4/3/01/128/9/0/02/067,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002067,Radiosonde operating frequency,,,,Operational
+bufr4/3/01/128/10/0/02/080,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002080,Balloon manufacturer,,,,Operational
+bufr4/3/01/128/11/0/02/081,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002081,Type of balloon,,,,Operational
+bufr4/3/01/128/12/0/02/082,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002082,Weight of balloon,,,,Operational
+bufr4/3/01/128/13/0/02/083,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002083,Type of balloon shelter,,,,Operational
+bufr4/3/01/128/14/0/02/084,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002084,Type of gas used in balloon,,,,Operational
+bufr4/3/01/128/15/0/02/085,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002085,Amount of gas used in balloon,,,,Operational
+bufr4/3/01/128/16/0/02/086,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002086,Balloon flight train length,,,,Operational
+bufr4/3/01/128/17/0/02/095,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002095,Type of pressure sensor,,,,Operational
+bufr4/3/01/128/18/0/02/096,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002096,Type of temperature sensor,,,,Operational
+bufr4/3/01/128/19/0/02/097,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002097,Type of humidity sensor,,,,Operational
+bufr4/3/01/128/20/0/02/103,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002103,Radome,,,,Operational
+bufr4/3/01/128/21/0/02/191,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,002191,Geopotential height calculation,,,,Operational
+bufr4/3/01/128/22/0/25/061,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,025061,Software identification and version number,,,,Operational
+bufr4/3/01/128/23/0/35/035,01,Location and identification sequences,301128,(Additional information on radiosonde ascent),,035035,Reason for termination,Reason for ascent termination,,,Operational
+bufr4/3/01/129/1/0/01/007,01,Location and identification sequences,301129,(Observing satellite and instruments),,001007,Satellite identifier,,,,Operational
+bufr4/3/01/129/2/0/01/031,01,Location and identification sequences,301129,(Observing satellite and instruments),,001031,Identification of originating/generating centre,,,,Operational
+bufr4/3/01/129/3/0/02/019,01,Location and identification sequences,301129,(Observing satellite and instruments),,002019,Satellite instruments,,,,Operational
+bufr4/3/01/129/4/0/02/020,01,Location and identification sequences,301129,(Observing satellite and instruments),,002020,Satellite classification,,,,Operational
+bufr4/3/01/130/1/3/01/011,01,Location and identification sequences,301130,(High precision timestamp),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/130/2/3/01/012,01,Location and identification sequences,301130,(High precision timestamp),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/130/3/2/02/131,01,Location and identification sequences,301130,(High precision timestamp),,202131,Change scale,Add 3 to scale,,,Operational
+bufr4/3/01/130/4/2/01/138,01,Location and identification sequences,301130,(High precision timestamp),,201138,Change data width,Add 10 to width,,,Operational
+bufr4/3/01/130/5/0/04/006,01,Location and identification sequences,301130,(High precision timestamp),,004006,Second,,,,Operational
+bufr4/3/01/130/6/2/01/000,01,Location and identification sequences,301130,(High precision timestamp),,201000,Change scale,Cancel,,,Operational
+bufr4/3/01/130/7/2/02/000,01,Location and identification sequences,301130,(High precision timestamp),,202000,Change data width,Cancel,,,Operational
+bufr4/3/01/131/1/3/01/021,01,Location and identification sequences,301131,(Pixel geolocation),,301021,Latitude/longitude (high accuracy),,,,Operational
+bufr4/3/01/131/2/0/07/024,01,Location and identification sequences,301131,(Pixel geolocation),,007024,Satellite zenith angle,,,,Operational
+bufr4/3/01/131/3/0/05/021,01,Location and identification sequences,301131,(Pixel geolocation),,005021,Bearing or azimuth,,,,Operational
+bufr4/3/01/131/4/0/07/025,01,Location and identification sequences,301131,(Pixel geolocation),,007025,Solar zenith angle,,,,Operational
+bufr4/3/01/131/5/0/05/022,01,Location and identification sequences,301131,(Pixel geolocation),,005022,Solar azimuth,,,,Operational
+bufr4/3/01/132/1/3/01/150,01,Location and identification sequences,301132,(Common header sequence),,301150,WIGOS identifiers,,,,Operational
+bufr4/3/01/132/2/3/01/001,01,Location and identification sequences,301132,(Common header sequence),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/01/132/3/3/01/021,01,Location and identification sequences,301132,(Common header sequence),,301021,Latitude/longitude (high accuracy),Sensor,(see Note 11),48,Operational
+bufr4/3/01/132/4/0/07/030,01,Location and identification sequences,301132,(Common header sequence),,007030,Height of station ground above mean sea level,,,,Operational
+bufr4/3/01/132/5/0/08/021,01,Location and identification sequences,301132,(Common header sequence),,008021,Time significance,= 29 End of scan or time of ending,,,Operational
+bufr4/3/01/132/6/3/01/011,01,Location and identification sequences,301132,(Common header sequence),,301011,"Year, month, day",,,,Operational
+bufr4/3/01/132/7/3/01/012,01,Location and identification sequences,301132,(Common header sequence),,301012,"Hour, minute",,,,Operational
+bufr4/3/01/132/8/0/02/006,01,Location and identification sequences,301132,(Common header sequence),,002006,Upper air remote sensing instrument type,,,,Operational
+bufr4/3/01/132/9/0/01/079,01,Location and identification sequences,301132,(Common header sequence),,001079,Unique identifier for the profile,,,,Operational
+bufr4/3/01/132/10/0/01/085,01,Location and identification sequences,301132,(Common header sequence),,001085,Observing platform manufacturer's mode,,,,Operational
+bufr4/3/01/134/1/0/01/156,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001156,Balloon flight number,,,,Operational
+bufr4/3/01/134/2/0/01/157,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001157,Balloon registration number or other identification,,,,Operational
+bufr4/3/01/134/3/0/01/158,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001158,Type of balloon envelope,,,,Operational
+bufr4/3/01/134/4/0/01/159,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,001159,Typical size of balloon envelope,,,,Operational
+bufr4/3/01/134/5/0/08/101,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,008101,Phase of balloon flight,,,,Operational
+bufr4/3/01/134/6/0/02/001,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002001,Type of station,,,,Operational
+bufr4/3/01/134/7/0/02/003,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002003,Type of measuring equipment used,,,,Operational
+bufr4/3/01/134/8/0/02/014,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002014,Tracking technique/status of system used,,,,Operational
+bufr4/3/01/134/9/0/02/005,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002005,Precision of temperature observation,,,,Operational
+bufr4/3/01/134/10/0/02/192,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002192,Precision of pressure observation,,,,Operational
+bufr4/3/01/134/11/0/02/193,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002193,Precision of specific humidity observation,,,,Operational
+bufr4/3/01/134/12/0/02/095,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002095,Type of pressure sensor,,,,Operational
+bufr4/3/01/134/13/0/02/096,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002096,Type of temperature sensor,,,,Operational
+bufr4/3/01/134/14/0/02/097,01,Location and identification sequences,301134,(Balloon and instrumentation identification),,002097,Type of humidity sensor,,,,Operational
+bufr4/3/01/150/1/0/01/125,01,Location and identification sequences,301150,(WIGOS identifier),,001125,WIGOS identifier series,,,,Operational
+bufr4/3/01/150/2/0/01/126,01,Location and identification sequences,301150,(WIGOS identifier),,001126,WIGOS issuer of identifier,,,,Operational
+bufr4/3/01/150/3/0/01/127,01,Location and identification sequences,301150,(WIGOS identifier),,001127,WIGOS issue number,,,,Operational
+bufr4/3/01/150/4/0/01/128,01,Location and identification sequences,301150,(WIGOS identifier),,001128,WIGOS local identifier (character),,,,Operational

@@ -1,10 +1,10 @@
-ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-26,Non-coordinate location (time),026001,Principal time of daily reading in UTC of maximum temperature,h,1,0,12,h,1,3,,,Operational
-26,Non-coordinate location (time),026002,Principal time of daily reading in UTC of minimum temperature,h,1,0,12,h,1,3,,,Operational
-26,Non-coordinate location (time),026003,Time difference,min,0,-1440,12,min,0,4,(see Note),58,Operational
-26,Non-coordinate location (time),026010,Hours included,Flag table,0,0,26,Flag table,0,9,,,Operational
-26,Non-coordinate location (time),026020,Duration of precipitation,min,0,0,11,min,0,4,,,Operational
-26,Non-coordinate location (time),026021,Year,a,0,0,12,a,0,4,,,Operational
-26,Non-coordinate location (time),026022,Month,mon,0,0,4,mon,0,2,,,Operational
-26,Non-coordinate location (time),026023,Day,d,0,0,6,d,0,2,,,Operational
-26,Non-coordinate location (time),026030,Measurement integration time,s,2,0,8,s,2,3,,,Operational
+Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+bufr4/0/26/001,26,Non-coordinate location (time),026001,Principal time of daily reading in UTC of maximum temperature,h,1,0,12,h,1,3,,,Operational
+bufr4/0/26/002,26,Non-coordinate location (time),026002,Principal time of daily reading in UTC of minimum temperature,h,1,0,12,h,1,3,,,Operational
+bufr4/0/26/003,26,Non-coordinate location (time),026003,Time difference,min,0,-1440,12,min,0,4,(see Note),58,Operational
+bufr4/0/26/010,26,Non-coordinate location (time),026010,Hours included,Flag table,0,0,26,Flag table,0,9,,,Operational
+bufr4/0/26/020,26,Non-coordinate location (time),026020,Duration of precipitation,min,0,0,11,min,0,4,,,Operational
+bufr4/0/26/021,26,Non-coordinate location (time),026021,Year,a,0,0,12,a,0,4,,,Operational
+bufr4/0/26/022,26,Non-coordinate location (time),026022,Month,mon,0,0,4,mon,0,2,,,Operational
+bufr4/0/26/023,26,Non-coordinate location (time),026023,Day,d,0,0,6,d,0,2,,,Operational
+bufr4/0/26/030,26,Non-coordinate location (time),026030,Measurement integration time,s,2,0,8,s,2,3,,,Operational

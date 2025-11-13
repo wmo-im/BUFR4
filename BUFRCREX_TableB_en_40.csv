@@ -1,80 +1,80 @@
-ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-40,Satellite data,040001,Surface soil moisture (ms),%,1,0,10,%,1,4,,,Operational
-40,Satellite data,040002,Estimated error in surface soil moisture,%,1,0,10,%,1,4,,,Operational
-40,Satellite data,040003,Mean surface soil moisture,Numeric,3,0,10,Numeric,3,4,,,Operational
-40,Satellite data,040004,Rain fall detection,Numeric,3,0,10,Numeric,3,4,,,Operational
-40,Satellite data,040005,Soil moisture correction flag,Flag table,0,0,8,Flag table,0,3,,,Operational
-40,Satellite data,040006,Soil moisture processing flag,Flag table,0,0,16,Flag table,0,6,,,Operational
-40,Satellite data,040007,Soil moisture quality,%,1,0,10,%,1,4,,,Operational
-40,Satellite data,040008,Frozen land surface fraction,%,1,0,10,%,1,4,,,Operational
-40,Satellite data,040009,Inundation and wetland fraction,%,1,0,10,%,1,4,,,Operational
-40,Satellite data,040010,Topographic complexity,%,1,0,10,%,1,4,,,Operational
-40,Satellite data,040011,Interpolation flag,Flag table,0,0,8,Flag table,0,3,,,Operational
-40,Satellite data,040012,Radiometer data quality flag,Flag table,0,0,8,Flag table,0,3,,,Operational
-40,Satellite data,040013,Radiometer brightness temperature interpretation flag,Code table,0,0,3,Code table,0,1,,,Operational
-40,Satellite data,040014,High-frequency fluctuations of the sea-surface topography correction,m,4,-3000,13,m,4,4,,,Operational
-40,Satellite data,040015,Normalized differential vegetation index (NDVI),Numeric,2,-100,8,Numeric,2,3,,,Operational
-40,Satellite data,040016,Residual RMS in band,Numeric,3,0,14,Numeric,3,5,,,Operational
-40,Satellite data,040017,Non-normalized principal component score,Numeric,0,-1073741824,31,Numeric,0,10,,,Operational
-40,Satellite data,040018,GIacAvgImagIIS - average of imager measurements,W m-2 sr-1 m,6,0,24,W m-2 sr-1 m,6,8,,,Operational
-40,Satellite data,040019,GIacVarImagIIS - variance of imager measurements,W m-2 sr-1 m,6,0,24,W m-2 sr-1 m,6,8,,,Operational
-40,Satellite data,040020,GqisFlagQualDetailed - quality flag for the system,Flag table,0,0,17,Flag table,0,6,,,Operational
-40,Satellite data,040021,Fraction of weighted AVHRR pixel in IASI FOV covered with snow/ice,%,0,0,7,%,0,3,,,Operational
-40,Satellite data,040022,"Number of missing, bad or failed AVHRR pixels",Numeric,0,0,7,Numeric,0,3,,,Operational
-40,Satellite data,040023,Auxiliary altimeter state flags,Flag table,0,0,5,Flag table,0,2,,,Operational
-40,Satellite data,040024,Meteorological map availability,Code table,0,0,3,Code table,0,1,,,Operational
-40,Satellite data,040025,Interpolation flag for mean diurnal tide,Code table,0,0,2,Code table,0,1,,,Operational
-40,Satellite data,040026,Score quantization factor,Numeric,2,0,16,Numeric,2,5,,,Operational
-40,Satellite data,040027,Sun glint angle,deg,2,-18000,16,deg,2,5,,,Operational
-40,Satellite data,040028,GMI quality flag,Code table,0,0,4,Code table,0,2,,,Operational
-40,Satellite data,040029,Horizontal observation integration length,m,0,0,26,m,0,8,,,Operational
-40,Satellite data,040030,Horizontal line of sight wind,m/s,2,-32767,16,m/s,2,5,,,Operational
-40,Satellite data,040031,Error estimate of horizontal line of sight wind,m/s,2,0,15,m/s,2,5,,,Operational
-40,Satellite data,040032,Derivative wind to pressure,m s-1 Pa-1,3,-100000,18,m s-1 Pa-1,3,6,,,Operational
-40,Satellite data,040033,Derivative wind to temperature,m s-1 K-1,3,-100000,18,m s-1 K-1,3,6,,,Operational
-40,Satellite data,040034,Derivative wind to backscatter ratio,m/s,3,-200000,19,m/s,3,6,,,Operational
-40,Satellite data,040035,Satellite range,m,0,380000,18,m,0,6,,,Operational
-40,Satellite data,040036,Lidar L2b classification type,Code table,0,0,4,Code table,0,2,,,Operational
-40,Satellite data,040037,Backscatter ratio,Numeric,3,500,20,Numeric,3,7,,,Operational
-40,Satellite data,040038,Cloud particle size,m,7,0,28,m,7,6,,,Operational
-40,Satellite data,040039,Single look complex image intensity,Numeric,0,-25,5,Numeric,0,3,,,Operational
-40,Satellite data,040040,Single look complex image skewness,Numeric,2,1,13,Numeric,0,4,,,Operational
-40,Satellite data,040041,Single look complex image kurtosis,Numeric,2,1,13,Numeric,0,4,,,Operational
-40,Satellite data,040042,Single look complex image variance,Numeric,2,1,13,Numeric,0,4,,,Operational
-40,Satellite data,040043,Satellite manoeuvre indicator,Code table,0,0,3,Code table,0,1,,,Operational
-40,Satellite data,040044,Dust index,Numeric,1,0,8,Numeric,1,3,,,Operational
-40,Satellite data,040045,Cloud formation and height assignment,Flag table,0,0,5,Flag table,0,2,,,Operational
-40,Satellite data,040046,Cloudiness summary,Code table,0,0,3,Code table,0,1,,,Operational
-40,Satellite data,040047,Validation flag for IASI or IASI-NG level 1 product,Code table,0,0,3,Code table,0,1,,,Operational
-40,Satellite data,040048,Validation flag of AMSU-A level 1 data flow,Code table,0,0,3,Code table,0,1,,,Operational
-40,Satellite data,040049,Cloud tests executed and results,Flag table,0,0,16,Flag table,0,5,,,Operational
-40,Satellite data,040050,Retrieval initialisation,Flag table,0,0,8,Flag table,0,3,,,Operational
-40,Satellite data,040051,Convergence of the iterative retrieval,Code table,0,0,3,Code table,0,1,,,Operational
-40,Satellite data,040052,Indication of super-adiabatic and super-saturation in final retrieval,Flag table,0,0,8,Flag table,0,3,,,Operational
-40,Satellite data,040053,Number of iterations used for retrieval,Numeric,0,0,8,Numeric,0,3,,,Operational
-40,Satellite data,040054,Potential processing and inputs errors,Flag table,0,0,13,Flag table,0,4,,,Operational
-40,Satellite data,040055,Diagnostics on the retrieval,Flag table,0,0,21,Flag table,0,7,,,Operational
-40,Satellite data,040056,General retrieval quality,Code table ,0,0,3,Code table,0,1,,,Operational
-40,Satellite data,040057,IASI level 2 retrieval flags,Flag table,0,0,31,Flag table,0,10,,,Operational
-40,Satellite data,040058,Number of vectors describing the characterization matrices,Numeric,0,0,8,Numeric,0,3,,,Operational
-40,Satellite data,040059,Number of layers actually retrieved,Numeric,0,0,8,Numeric,0,3,,,Operational
-40,Satellite data,040060,Number of profiles retrieved in scanline,Numeric,0,0,8,Numeric,0,3,,,Operational
-40,Satellite data,040061,Air partial columns on each retrieved layer,mol cm-2,3,0,16,mol cm-2,3,5,,,Operational
-40,Satellite data,040062,A priori partial columns on each retrieved layer,mol cm-2,10,0,16,mol cm-2,10,5,,,Operational
-40,Satellite data,040063,Scaling vector multiplying the a priori vector in order to define the retrieved vector,Numeric,5,0,26,Numeric,5,8,,,Operational
-40,Satellite data,040064,Main eigenvalues of the sensitivity matrix,Numeric,6,0,31,Numeric,6,10,,,Operational
-40,Satellite data,040065,Main eigenvectors of the sensitivity matrix,Numeric,6,-1000000000,31,Numeric,6,10,,,Operational
-40,Satellite data,040066,Quality indicator for atmospheric water vapour,Numeric,1,0,8,Numeric,1,3,,,Operational
-40,Satellite data,040067,Quality indicator for atmospheric temperature,Numeric,1,0,8,Numeric,1,3,,,Operational
-40,Satellite data,040068,General retrieval quality flag for SO2,Code table,0,0,4,Code table,0,2,,,Operational
-40,Satellite data,040069,PWLR estimated retrieval error for surface air temperature,K,4,-1000000,21,K,4,7,(see Note),114,Operational
-40,Satellite data,040070,PWLR estimated retrieval error of surface dewpoint,K,4,-1000000,21,K,4,7,,,Operational
-40,Satellite data,040071,Retrieval error covariance matrix for ozone in principal component domain,Numeric,4,-1000000,21,Numeric,4,7,,,Operational
-40,Satellite data,040072,PWLR estimated retrieval quality indicator of atmospheric ozone,Numeric,1,0,8,Numeric,1,3,,,Operational
-40,Satellite data,040073,PWLR estimated retrieval error of surface skin temperature,K,1,0,8,K,1,3,,,Operational
-40,Satellite data,040074,General interferometry quality flags,Flag table,0,0,16,,,,,,Operational
-40,Satellite data,040075,Retrieval error covariance matrix for humidity in principal component domain,Numeric,0,0,21,Numeric,0,7,,,Operational
-40,Satellite data,040076,Retrieval error covariance matrix for temperature in principal component domain,Numeric,0,0,21,Numeric,0,7,,,Operational
-40,Satellite data,040077,Ocean product quality flag,Flag table,0,0,8,Flag table,0,3,,,Operational
-40,Satellite data,040080,Cloud test results for IASI-NG level 2,Flag table,0,0,5,Flag table,0,2,,,Operational
-40,Satellite data,040081,OLCI Level 1 classification and quality,Flag table,0,0,31,,,,,,Operational
+Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+bufr4/0/40/001,40,Satellite data,040001,Surface soil moisture (ms),%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/002,40,Satellite data,040002,Estimated error in surface soil moisture,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/003,40,Satellite data,040003,Mean surface soil moisture,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/40/004,40,Satellite data,040004,Rain fall detection,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/40/005,40,Satellite data,040005,Soil moisture correction flag,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/006,40,Satellite data,040006,Soil moisture processing flag,Flag table,0,0,16,Flag table,0,6,,,Operational
+bufr4/0/40/007,40,Satellite data,040007,Soil moisture quality,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/008,40,Satellite data,040008,Frozen land surface fraction,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/009,40,Satellite data,040009,Inundation and wetland fraction,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/010,40,Satellite data,040010,Topographic complexity,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/011,40,Satellite data,040011,Interpolation flag,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/012,40,Satellite data,040012,Radiometer data quality flag,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/013,40,Satellite data,040013,Radiometer brightness temperature interpretation flag,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/014,40,Satellite data,040014,High-frequency fluctuations of the sea-surface topography correction,m,4,-3000,13,m,4,4,,,Operational
+bufr4/0/40/015,40,Satellite data,040015,Normalized differential vegetation index (NDVI),Numeric,2,-100,8,Numeric,2,3,,,Operational
+bufr4/0/40/016,40,Satellite data,040016,Residual RMS in band,Numeric,3,0,14,Numeric,3,5,,,Operational
+bufr4/0/40/017,40,Satellite data,040017,Non-normalized principal component score,Numeric,0,-1073741824,31,Numeric,0,10,,,Operational
+bufr4/0/40/018,40,Satellite data,040018,GIacAvgImagIIS - average of imager measurements,W m-2 sr-1 m,6,0,24,W m-2 sr-1 m,6,8,,,Operational
+bufr4/0/40/019,40,Satellite data,040019,GIacVarImagIIS - variance of imager measurements,W m-2 sr-1 m,6,0,24,W m-2 sr-1 m,6,8,,,Operational
+bufr4/0/40/020,40,Satellite data,040020,GqisFlagQualDetailed - quality flag for the system,Flag table,0,0,17,Flag table,0,6,,,Operational
+bufr4/0/40/021,40,Satellite data,040021,Fraction of weighted AVHRR pixel in IASI FOV covered with snow/ice,%,0,0,7,%,0,3,,,Operational
+bufr4/0/40/022,40,Satellite data,040022,"Number of missing, bad or failed AVHRR pixels",Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/40/023,40,Satellite data,040023,Auxiliary altimeter state flags,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/40/024,40,Satellite data,040024,Meteorological map availability,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/025,40,Satellite data,040025,Interpolation flag for mean diurnal tide,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/40/026,40,Satellite data,040026,Score quantization factor,Numeric,2,0,16,Numeric,2,5,,,Operational
+bufr4/0/40/027,40,Satellite data,040027,Sun glint angle,deg,2,-18000,16,deg,2,5,,,Operational
+bufr4/0/40/028,40,Satellite data,040028,GMI quality flag,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/40/029,40,Satellite data,040029,Horizontal observation integration length,m,0,0,26,m,0,8,,,Operational
+bufr4/0/40/030,40,Satellite data,040030,Horizontal line of sight wind,m/s,2,-32767,16,m/s,2,5,,,Operational
+bufr4/0/40/031,40,Satellite data,040031,Error estimate of horizontal line of sight wind,m/s,2,0,15,m/s,2,5,,,Operational
+bufr4/0/40/032,40,Satellite data,040032,Derivative wind to pressure,m s-1 Pa-1,3,-100000,18,m s-1 Pa-1,3,6,,,Operational
+bufr4/0/40/033,40,Satellite data,040033,Derivative wind to temperature,m s-1 K-1,3,-100000,18,m s-1 K-1,3,6,,,Operational
+bufr4/0/40/034,40,Satellite data,040034,Derivative wind to backscatter ratio,m/s,3,-200000,19,m/s,3,6,,,Operational
+bufr4/0/40/035,40,Satellite data,040035,Satellite range,m,0,380000,18,m,0,6,,,Operational
+bufr4/0/40/036,40,Satellite data,040036,Lidar L2b classification type,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/40/037,40,Satellite data,040037,Backscatter ratio,Numeric,3,500,20,Numeric,3,7,,,Operational
+bufr4/0/40/038,40,Satellite data,040038,Cloud particle size,m,7,0,28,m,7,6,,,Operational
+bufr4/0/40/039,40,Satellite data,040039,Single look complex image intensity,Numeric,0,-25,5,Numeric,0,3,,,Operational
+bufr4/0/40/040,40,Satellite data,040040,Single look complex image skewness,Numeric,2,1,13,Numeric,0,4,,,Operational
+bufr4/0/40/041,40,Satellite data,040041,Single look complex image kurtosis,Numeric,2,1,13,Numeric,0,4,,,Operational
+bufr4/0/40/042,40,Satellite data,040042,Single look complex image variance,Numeric,2,1,13,Numeric,0,4,,,Operational
+bufr4/0/40/043,40,Satellite data,040043,Satellite manoeuvre indicator,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/044,40,Satellite data,040044,Dust index,Numeric,1,0,8,Numeric,1,3,,,Operational
+bufr4/0/40/045,40,Satellite data,040045,Cloud formation and height assignment,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/40/046,40,Satellite data,040046,Cloudiness summary,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/047,40,Satellite data,040047,Validation flag for IASI or IASI-NG level 1 product,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/048,40,Satellite data,040048,Validation flag of AMSU-A level 1 data flow,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/049,40,Satellite data,040049,Cloud tests executed and results,Flag table,0,0,16,Flag table,0,5,,,Operational
+bufr4/0/40/050,40,Satellite data,040050,Retrieval initialisation,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/051,40,Satellite data,040051,Convergence of the iterative retrieval,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/052,40,Satellite data,040052,Indication of super-adiabatic and super-saturation in final retrieval,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/053,40,Satellite data,040053,Number of iterations used for retrieval,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/40/054,40,Satellite data,040054,Potential processing and inputs errors,Flag table,0,0,13,Flag table,0,4,,,Operational
+bufr4/0/40/055,40,Satellite data,040055,Diagnostics on the retrieval,Flag table,0,0,21,Flag table,0,7,,,Operational
+bufr4/0/40/056,40,Satellite data,040056,General retrieval quality,Code table ,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/057,40,Satellite data,040057,IASI level 2 retrieval flags,Flag table,0,0,31,Flag table,0,10,,,Operational
+bufr4/0/40/058,40,Satellite data,040058,Number of vectors describing the characterization matrices,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/40/059,40,Satellite data,040059,Number of layers actually retrieved,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/40/060,40,Satellite data,040060,Number of profiles retrieved in scanline,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/40/061,40,Satellite data,040061,Air partial columns on each retrieved layer,mol cm-2,3,0,16,mol cm-2,3,5,,,Operational
+bufr4/0/40/062,40,Satellite data,040062,A priori partial columns on each retrieved layer,mol cm-2,10,0,16,mol cm-2,10,5,,,Operational
+bufr4/0/40/063,40,Satellite data,040063,Scaling vector multiplying the a priori vector in order to define the retrieved vector,Numeric,5,0,26,Numeric,5,8,,,Operational
+bufr4/0/40/064,40,Satellite data,040064,Main eigenvalues of the sensitivity matrix,Numeric,6,0,31,Numeric,6,10,,,Operational
+bufr4/0/40/065,40,Satellite data,040065,Main eigenvectors of the sensitivity matrix,Numeric,6,-1000000000,31,Numeric,6,10,,,Operational
+bufr4/0/40/066,40,Satellite data,040066,Quality indicator for atmospheric water vapour,Numeric,1,0,8,Numeric,1,3,,,Operational
+bufr4/0/40/067,40,Satellite data,040067,Quality indicator for atmospheric temperature,Numeric,1,0,8,Numeric,1,3,,,Operational
+bufr4/0/40/068,40,Satellite data,040068,General retrieval quality flag for SO2,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/40/069,40,Satellite data,040069,PWLR estimated retrieval error for surface air temperature,K,4,-1000000,21,K,4,7,(see Note),114,Operational
+bufr4/0/40/070,40,Satellite data,040070,PWLR estimated retrieval error of surface dewpoint,K,4,-1000000,21,K,4,7,,,Operational
+bufr4/0/40/071,40,Satellite data,040071,Retrieval error covariance matrix for ozone in principal component domain,Numeric,4,-1000000,21,Numeric,4,7,,,Operational
+bufr4/0/40/072,40,Satellite data,040072,PWLR estimated retrieval quality indicator of atmospheric ozone,Numeric,1,0,8,Numeric,1,3,,,Operational
+bufr4/0/40/073,40,Satellite data,040073,PWLR estimated retrieval error of surface skin temperature,K,1,0,8,K,1,3,,,Operational
+bufr4/0/40/074,40,Satellite data,040074,General interferometry quality flags,Flag table,0,0,16,,,,,,Operational
+bufr4/0/40/075,40,Satellite data,040075,Retrieval error covariance matrix for humidity in principal component domain,Numeric,0,0,21,Numeric,0,7,,,Operational
+bufr4/0/40/076,40,Satellite data,040076,Retrieval error covariance matrix for temperature in principal component domain,Numeric,0,0,21,Numeric,0,7,,,Operational
+bufr4/0/40/077,40,Satellite data,040077,Ocean product quality flag,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/080,40,Satellite data,040080,Cloud test results for IASI-NG level 2,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/40/081,40,Satellite data,040081,OLCI Level 1 classification and quality,Flag table,0,0,31,,,,,,Operational
