@@ -78,6 +78,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 02,Instrumentation,002090,Instrument wavelength,m,9,0,16,m,9,5,,,Operational
 02,Instrumentation,002091,Entry sensor 4/20 mA,A,4,0,10,A,4,3,,,Operational
 02,Instrumentation,002092,Ozone profile computation method,Code table,0,0,3,Code table,0,1,,,Operational
+02,Instrumentation,002093,Precision of pressure observation,Pa,2,0,14,,,,,,Operational
+02,Instrumentation,002094,Precision of mixing ratio observation,kg/kg,6,0,14,,,,,,Operational
 02,Instrumentation,002095,Type of pressure sensor,Code table,0,0,5,Code table,0,2,,,Operational
 02,Instrumentation,002096,Type of temperature sensor,Code table,0,0,5,Code table,0,2,,,Operational
 02,Instrumentation,002097,Type of humidity sensor,Code table,0,0,5,Code table,0,2,,,Operational
@@ -174,5 +176,3 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 02,Instrumentation,002189,Capability to discriminate lightning strikes,Flag table,0,0,12,Flag table,0,4,,,Operational
 02,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),%,0,0,7,%,0,3,,,Operational
 02,Instrumentation,002191,Geopotential height calculation,Code table,0,0,4,Code table,0,2,,,Operational
-02,Instrumentation,002192,Precision of pressure observation,Pa,2,0,14,,,,,,Operational
-02,Instrumentation,002193,Precision of mixing ratio observation,kg/kg,6,0,14,,,,,,Operational
