@@ -6,7 +6,7 @@ bufr4/0/02/001/3,002001,Type of station,3,Missing value,,,,,Operational
 bufr4/0/02/002/1,002002,Type of instrumentation for wind measurement,1,Certified instruments,,,,,Operational
 bufr4/0/02/002/2,002002,Type of instrumentation for wind measurement,2,Originally measured in knots,,,,,Operational
 bufr4/0/02/002/3,002002,Type of instrumentation for wind measurement,3,Originally measured in km h-1,,,,,Operational
-bufr4/0/02/002/All 4,002002,Type of instrumentation for wind measurement,All 4,Missing value,,,,,Operational
+bufr4/0/02/002/All-4,002002,Type of instrumentation for wind measurement,All 4,Missing value,,,,,Operational
 bufr4/0/02/003/0,002003,Type of measuring equipment used,0,Pressure instrument associated with wind measuring equipment,,,,,Operational
 bufr4/0/02/003/1,002003,Type of measuring equipment used,1,Optical theodolite,,,,,Operational
 bufr4/0/02/003/2,002003,Type of measuring equipment used,2,Radio theodolite,,,,,Operational
@@ -97,7 +97,7 @@ bufr4/0/02/016/1,002016,Radiosonde configuration,1,Train regulator,,,,,Operation
 bufr4/0/02/016/2,002016,Radiosonde configuration,2,Light unit,,,,,Operational
 bufr4/0/02/016/3,002016,Radiosonde configuration,3,Parachute,,,,,Operational
 bufr4/0/02/016/4,002016,Radiosonde configuration,4,Rooftop release,,,,,Operational
-bufr4/0/02/016/All 5,002016,Radiosonde configuration,All 5,Missing value,,,,,Operational
+bufr4/0/02/016/All-5,002016,Radiosonde configuration,All 5,Missing value,,,,,Operational
 bufr4/0/02/017/0,002017,Correction algorithms for humidity measurements,0,No corrections,,,,,Operational
 bufr4/0/02/017/1,002017,Correction algorithms for humidity measurements,1,Time lag correction provided by the manufacturer,,,,,Operational
 bufr4/0/02/017/2,002017,Correction algorithms for humidity measurements,2,Solar radiation correction provided by the manufacturer,,,,,Operational
@@ -155,14 +155,14 @@ bufr4/0/02/021/5,002021,Satellite instrument data used in processing,5,AMI (adva
 bufr4/0/02/021/6,002021,Satellite instrument data used in processing,6,AMI (advanced microwave instrument) image mode,,,,,Operational
 bufr4/0/02/021/7,002021,Satellite instrument data used in processing,7,Radar altimeter,,,,,Operational
 bufr4/0/02/021/8,002021,Satellite instrument data used in processing,8,ATSR (along-track scanning radiometer),,,,,Operational
-bufr4/0/02/021/All 9,002021,Satellite instrument data used in processing,All 9,Missing value,,,,,Operational
+bufr4/0/02/021/All-9,002021,Satellite instrument data used in processing,All 9,Missing value,,,,,Operational
 bufr4/0/02/022/1,002022,Satellite data-processing technique used,1,Processing technique not defined,,,,,Operational
 bufr4/0/02/022/2,002022,Satellite data-processing technique used,2,Automated statistical regression,,,,,Operational
 bufr4/0/02/022/3,002022,Satellite data-processing technique used,3,Clear path,,,(see Note 2),28,Operational
 bufr4/0/02/022/4,002022,Satellite data-processing technique used,4,Partly cloudy path,,,(see Note 3),62,Operational
 bufr4/0/02/022/5,002022,Satellite data-processing technique used,5,Cloudy path,,,(see Note 4),30,Operational
 bufr4/0/02/022/6-7,002022,Satellite data-processing technique used,6-7,Reserved,,,,,Operational
-bufr4/0/02/022/All 8,002022,Satellite data-processing technique used,All 8,Missing value,,,,,Operational
+bufr4/0/02/022/All-8,002022,Satellite data-processing technique used,All 8,Missing value,,,,,Operational
 bufr4/0/02/023/0,002023,Satellite-derived wind computation method,0,Reserved,,,,,Operational
 bufr4/0/02/023/1,002023,Satellite-derived wind computation method,1,Wind derived from cloud motion observed in the infrared channel,,,,,Operational
 bufr4/0/02/023/2,002023,Satellite-derived wind computation method,2,Wind derived from cloud motion observed in the visible channel,,,,,Operational
@@ -205,7 +205,7 @@ bufr4/0/02/025/21,002025,Satellite channel(s) used in computation,21,HIRS,,,(see
 bufr4/0/02/025/22,002025,Satellite channel(s) used in computation,22,SSU,,,,,Operational
 bufr4/0/02/025/23,002025,Satellite channel(s) used in computation,23,"MSU (3, 4)",,,,,Operational
 bufr4/0/02/025/24,002025,Satellite channel(s) used in computation,24,Reserved,,,,,Operational
-bufr4/0/02/025/All 25,002025,Satellite channel(s) used in computation,All 25,Missing value,,,,,Operational
+bufr4/0/02/025/All-25,002025,Satellite channel(s) used in computation,All 25,Missing value,,,,,Operational
 bufr4/0/02/030/0,002030,Method of current measurement,0,Reserved,,,,,Operational
 bufr4/0/02/030/1,002030,Method of current measurement,1,ADCP (Acoustic Doppler Current Profiler),,,(see Note),91,Operational
 bufr4/0/02/030/2,002030,Method of current measurement,2,GEK (Geomagnetic ElectroKinetograph),,,,,Operational
@@ -359,7 +359,7 @@ bufr4/0/02/049/2,002049,Geostationary satellite data-processing technique used,2
 bufr4/0/02/049/3,002049,Geostationary satellite data-processing technique used,3,Clear sounding,,,(see Note 1),29,Operational
 bufr4/0/02/049/4,002049,Geostationary satellite data-processing technique used,4,Cloudy sounding,,,(see Note 2),31,Operational
 bufr4/0/02/049/5-7,002049,Geostationary satellite data-processing technique used,5-7,Reserved for future use,,,,,Operational
-bufr4/0/02/049/All 8,002049,Geostationary satellite data-processing technique used,All 8,Missing value,,,,,Operational
+bufr4/0/02/049/All-8,002049,Geostationary satellite data-processing technique used,All 8,Missing value,,,,,Operational
 bufr4/0/02/050/1,002050,Geostationary sounder satellite channels used,1,1,14.71,,,,Operational
 bufr4/0/02/050/2,002050,Geostationary sounder satellite channels used,2,2,14.37,,,,Operational
 bufr4/0/02/050/3,002050,Geostationary sounder satellite channels used,3,3,14.06,,,,Operational
@@ -379,7 +379,7 @@ bufr4/0/02/050/16,002050,Geostationary sounder satellite channels used,16,16,4.1
 bufr4/0/02/050/17,002050,Geostationary sounder satellite channels used,17,17,3.98,,,,Operational
 bufr4/0/02/050/18,002050,Geostationary sounder satellite channels used,18,18,3.74,,,,Operational
 bufr4/0/02/050/19,002050,Geostationary sounder satellite channels used,19,19,0.969,,,,Operational
-bufr4/0/02/050/All 20,002050,Geostationary sounder satellite channels used,All 20,Missing value,,,,,Operational
+bufr4/0/02/050/All-20,002050,Geostationary sounder satellite channels used,All 20,Missing value,,,,,Operational
 bufr4/0/02/051/0,002051,Indicator to specify observing method for extreme temperatures,0,Reserved,,,,,Operational
 bufr4/0/02/051/1,002051,Indicator to specify observing method for extreme temperatures,1,Maximum/minimum thermometers,,,,,Operational
 bufr4/0/02/051/2,002051,Indicator to specify observing method for extreme temperatures,2,Automated instruments,,,,,Operational
@@ -391,7 +391,7 @@ bufr4/0/02/052/2,002052,Geostationary imager satellite channels used,2,2,3.9,,,,
 bufr4/0/02/052/3,002052,Geostationary imager satellite channels used,3,3,6.7,,,,Operational
 bufr4/0/02/052/4,002052,Geostationary imager satellite channels used,4,4,10.7,,,,Operational
 bufr4/0/02/052/5,002052,Geostationary imager satellite channels used,5,5,12.0,,,,Operational
-bufr4/0/02/052/All 6,002052,Geostationary imager satellite channels used,All 6,Missing value,,,,,Operational
+bufr4/0/02/052/All-6,002052,Geostationary imager satellite channels used,All 6,Missing value,,,,,Operational
 bufr4/0/02/053/0,002053,GOES-I/M brightness temperature characteristics,0,Observed brightness temperature,,,,,Operational
 bufr4/0/02/053/1,002053,GOES-I/M brightness temperature characteristics,1,Brightness temperature with bias correction applied,,,,,Operational
 bufr4/0/02/053/2,002053,GOES-I/M brightness temperature characteristics,2,Brightness temperature calculated from first guess,,,,,Operational
@@ -599,7 +599,7 @@ bufr4/0/02/101/8-13,002101,Type of antenna,8-13,Reserved,,,,,Operational
 bufr4/0/02/101/14,002101,Type of antenna,14,Other,,,,,Operational
 bufr4/0/02/101/15,002101,Type of antenna,15,Missing value,,,,,Operational
 bufr4/0/02/103/1,002103,Radome,1,Radar antenna is protected by a radome,,,,,Operational
-bufr4/0/02/103/All 2,002103,Radome,All 2,Missing value,,,,,Operational
+bufr4/0/02/103/All-2,002103,Radome,All 2,Missing value,,,,,Operational
 bufr4/0/02/104/0,002104,Antenna polarization,0,Horizontal polarization,,,,,Operational
 bufr4/0/02/104/1,002104,Antenna polarization,1,Vertical polarization,,,,,Operational
 bufr4/0/02/104/2,002104,Antenna polarization,2,Right circular polarization,,,,,Operational
@@ -627,7 +627,7 @@ bufr4/0/02/119/5,002119,RA-2 instrument operations,5,ACQUISITION,,,,,Operational
 bufr4/0/02/119/6,002119,RA-2 instrument operations,6,TRACKING,,,,,Operational
 bufr4/0/02/119/7,002119,RA-2 instrument operations,7,Missing value,,,,,Operational
 bufr4/0/02/131/1,002131,Sensitivity time control (STC),1,STC operational,,,,,Operational
-bufr4/0/02/131/All 2,002131,Sensitivity time control (STC),All 2,Missing values,,,,,Operational
+bufr4/0/02/131/All-2,002131,Sensitivity time control (STC),All 2,Missing values,,,,,Operational
 bufr4/0/02/137/1,002137,Radar dual PRF ratio,1,3:2,,,,,Operational
 bufr4/0/02/137/2,002137,Radar dual PRF ratio,2,4:3,,,,,Operational
 bufr4/0/02/137/3,002137,Radar dual PRF ratio,3,5:4,,,,,Operational
@@ -839,7 +839,7 @@ bufr4/0/02/152/11,002152,Satellite instrument used in data processing,11,Geostat
 bufr4/0/02/152/12,002152,Satellite instrument used in data processing,12,Multi-channel scanning radiometer,,,,,Operational
 bufr4/0/02/152/13,002152,Satellite instrument used in data processing,13,Polar-orbiting imager,,,,,Operational
 bufr4/0/02/152/14-30,002152,Satellite instrument used in data processing,14-30,Reserved,,,,,Operational
-bufr4/0/02/152/All 31,002152,Satellite instrument used in data processing,All 31,Missing value,,,,,Operational
+bufr4/0/02/152/All-31,002152,Satellite instrument used in data processing,All 31,Missing value,,,,,Operational
 bufr4/0/02/158/1,002158,RA-2 instrument,1,Mismatch in RED VEC HPA,,,,,Operational
 bufr4/0/02/158/2,002158,RA-2 instrument,2,Mismatch in RED VEC RFSS,,,,,Operational
 bufr4/0/02/158/3,002158,RA-2 instrument,3,PTR calibration band 320 MHz (Ku),,,,,Operational
@@ -848,7 +848,7 @@ bufr4/0/02/158/5,002158,RA-2 instrument,5,PTR calibration band 20 MHz (Ku),,,,,O
 bufr4/0/02/158/6,002158,RA-2 instrument,6,PTR calibration band 160 MHz (S),,,,,Operational
 bufr4/0/02/158/7,002158,RA-2 instrument,7,Ku flight calibration parameters available,,,,,Operational
 bufr4/0/02/158/8,002158,RA-2 instrument,8,S flight calibration parameters available,,,,,Operational
-bufr4/0/02/158/All 9,002158,RA-2 instrument,All 9,Missing value,,,,,Operational
+bufr4/0/02/158/All-9,002158,RA-2 instrument,All 9,Missing value,,,,,Operational
 bufr4/0/02/159/1,002159,MWR instrument,1,Temperature inconsistency,,,,,Operational
 bufr4/0/02/159/2,002159,MWR instrument,2,Data is missing,,,,,Operational
 bufr4/0/02/159/3,002159,MWR instrument,3,Redundancy channel,,,,,Operational
@@ -856,7 +856,7 @@ bufr4/0/02/159/4,002159,MWR instrument,4,Power bus protection,,,,,Operational
 bufr4/0/02/159/5,002159,MWR instrument,5,Overvoltage/Overload protection,,,,,Operational
 bufr4/0/02/159/6,002159,MWR instrument,6,Reserved,,,,,Operational
 bufr4/0/02/159/7,002159,MWR instrument,7,Reserved,,,,,Operational
-bufr4/0/02/159/All 8,002159,MWR instrument,All 8,Missing value,,,,,Operational
+bufr4/0/02/159/All-8,002159,MWR instrument,All 8,Missing value,,,,,Operational
 bufr4/0/02/160/0,002160,Wavelength of the radar,0,Reserved,,,,,Operational
 bufr4/0/02/160/1,002160,Wavelength of the radar,1,10 to less than 20 mm,,,,,Operational
 bufr4/0/02/160/2,002160,Wavelength of the radar,2,Reserved,,,,,Operational
@@ -875,7 +875,7 @@ bufr4/0/02/161/12,002161,Wind processing method,12,Target is cloudy,,,,,Operatio
 bufr4/0/02/161/13,002161,Wind processing method,13,Low-level inversion,,,,,Operational
 bufr4/0/02/161/14,002161,Wind processing method,14,Cross correlation contribution (CCC) method,,,,,Operational
 bufr4/0/02/161/15,002161,Wind processing method,15,Nested tracking,,,,,Operational
-bufr4/0/02/161/All 16,002161,Wind processing method,All 16,Missing value,,,,,Operational
+bufr4/0/02/161/All-16,002161,Wind processing method,All 16,Missing value,,,,,Operational
 bufr4/0/02/162/0,002162,Extended height assignment method,0,Auto editor,,,,,Operational
 bufr4/0/02/162/1,002162,Extended height assignment method,1,IRW height assignment,,,,,Operational
 bufr4/0/02/162/2,002162,Extended height assignment method,2,WV height assignment,,,,,Operational
@@ -926,7 +926,7 @@ bufr4/0/02/165/5,002165,Radiance type flags,5,Unapodized,,,,,Operational
 bufr4/0/02/165/6,002165,Radiance type flags,6,Reconstructed,,,,,Operational
 bufr4/0/02/165/7,002165,Radiance type flags,7,Cloud cleared,,,,,Operational
 bufr4/0/02/165/8-14,002165,Radiance type flags,8-14,Reserved,,,,,Operational
-bufr4/0/02/165/All 15,002165,Radiance type flags,All 15,Missing value,,,,,Operational
+bufr4/0/02/165/All-15,002165,Radiance type flags,All 15,Missing value,,,,,Operational
 bufr4/0/02/166/0,002166,Radiance type,0,Type not defined,,,,,Operational
 bufr4/0/02/166/1,002166,Radiance type,1,Automated statistical regression,,,,,Operational
 bufr4/0/02/166/2,002166,Radiance type,2,Clear path,,,,,Operational
@@ -1009,7 +1009,7 @@ bufr4/0/02/181/3,002181,Supplementary present weather sensor,3,Ice detection sen
 bufr4/0/02/181/4,002181,Supplementary present weather sensor,4,Hail and ice pellet sensor,,,,,Operational
 bufr4/0/02/181/5-19,002181,Supplementary present weather sensor,5-19,Reserved,,,,,Operational
 bufr4/0/02/181/20,002181,Supplementary present weather sensor,20,Others,,,,,Operational
-bufr4/0/02/181/All 21,002181,Supplementary present weather sensor,All 21,Missing value,,,,,Operational
+bufr4/0/02/181/All-21,002181,Supplementary present weather sensor,All 21,Missing value,,,,,Operational
 bufr4/0/02/182/0,002182,Visibility measurement system,0,Manual measurement,,,,,Operational
 bufr4/0/02/182/1,002182,Visibility measurement system,1,Transmissometer system (base > 25 m),,,,,Operational
 bufr4/0/02/182/2,002182,Visibility measurement system,2,Transmissometer system (base < 25 m),,,,,Operational
@@ -1071,7 +1071,7 @@ bufr4/0/02/186/22,002186,Capability to detect precipitation phenomena,22,Dew,,,,
 bufr4/0/02/186/23,002186,Capability to detect precipitation phenomena,23,White dew,,,,,Operational
 bufr4/0/02/186/24,002186,Capability to detect precipitation phenomena,24,Convective precipitation,,,,,Operational
 bufr4/0/02/186/25-29,002186,Capability to detect precipitation phenomena,25-29,Reserved,,,,,Operational
-bufr4/0/02/186/All 30,002186,Capability to detect precipitation phenomena,All 30,Missing value,,,,,Operational
+bufr4/0/02/186/All-30,002186,Capability to detect precipitation phenomena,All 30,Missing value,,,,,Operational
 bufr4/0/02/187/1,002187,Capability to detect other weather phenomena,1,Dust/sand whirl,,,,,Operational
 bufr4/0/02/187/2,002187,Capability to detect other weather phenomena,2,Squalls,,,,,Operational
 bufr4/0/02/187/3,002187,Capability to detect other weather phenomena,3,Sand storm,,,,,Operational
@@ -1084,7 +1084,7 @@ bufr4/0/02/187/9,002187,Capability to detect other weather phenomena,9,Funnel cl
 bufr4/0/02/187/10,002187,Capability to detect other weather phenomena,10,Funnel cloud touching surface,,,,,Operational
 bufr4/0/02/187/11,002187,Capability to detect other weather phenomena,11,Spray,,,,,Operational
 bufr4/0/02/187/12-17,002187,Capability to detect other weather phenomena,12-17,Reserved,,,,,Operational
-bufr4/0/02/187/All 18,002187,Capability to detect other weather phenomena,All 18,Missing value,,,,,Operational
+bufr4/0/02/187/All-18,002187,Capability to detect other weather phenomena,All 18,Missing value,,,,,Operational
 bufr4/0/02/188/1,002188,Capability to detect obscuration,1,Fog,,,,,Operational
 bufr4/0/02/188/2,002188,Capability to detect obscuration,2,Ice fog,,,,,Operational
 bufr4/0/02/188/3,002188,Capability to detect obscuration,3,Steam fog,,,,,Operational
@@ -1097,13 +1097,13 @@ bufr4/0/02/188/11,002188,Capability to detect obscuration,11,Dust,,,,,Operationa
 bufr4/0/02/188/12,002188,Capability to detect obscuration,12,Sand,,,,,Operational
 bufr4/0/02/188/13,002188,Capability to detect obscuration,13,Snow,,,,,Operational
 bufr4/0/02/188/14-20,002188,Capability to detect obscuration,14-20,Reserved,,,,,Operational
-bufr4/0/02/188/All 21,002188,Capability to detect obscuration,All 21,Missing value,,,,,Operational
+bufr4/0/02/188/All-21,002188,Capability to detect obscuration,All 21,Missing value,,,,,Operational
 bufr4/0/02/189/1,002189,Capability to discriminate lightning strikes,1,Manual observation,,,,,Operational
 bufr4/0/02/189/2,002189,Capability to discriminate lightning strikes,2,All lightning strikes without discrimination,,,,,Operational
 bufr4/0/02/189/3,002189,Capability to discriminate lightning strikes,3,Lightning strikes cloud to ground only,,,,,Operational
 bufr4/0/02/189/4,002189,Capability to discriminate lightning strikes,4,All lightning strikes with discrimination between cloud to ground and cloud to cloud,,,,,Operational
 bufr4/0/02/189/5-11,002189,Capability to discriminate lightning strikes,5-11,Reserved,,,,,Operational
-bufr4/0/02/189/All 12,002189,Capability to discriminate lightning strikes,All 12,Missing value,,,,,Operational
+bufr4/0/02/189/All-12,002189,Capability to discriminate lightning strikes,All 12,Missing value,,,,,Operational
 bufr4/0/02/191/0,002191,Geopotential height calculation,0,Geopotential height calculated from pressure,,,,,Operational
 bufr4/0/02/191/1,002191,Geopotential height calculation,1,Geopotential height calculated from GPS height,,,,,Operational
 bufr4/0/02/191/2,002191,Geopotential height calculation,2,Geopotential height calculated from radar height,,,,,Operational

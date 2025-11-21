@@ -5,7 +5,7 @@ bufr4/0/40/005/3,040005,Soil moisture correction flag,3,Correction of wet backsc
 bufr4/0/40/005/4,040005,Soil moisture correction flag,4,Correction of dry backscatter reference,,,,,Operational
 bufr4/0/40/005/5,040005,Soil moisture correction flag,5,Correction of volume scattering in sand,,,,,Operational
 bufr4/0/40/005/6-7,040005,Soil moisture correction flag,6-7,Reserved,,,,,Operational
-bufr4/0/40/005/All 8,040005,Soil moisture correction flag,All 8,Missing value,,,,,Operational
+bufr4/0/40/005/All-8,040005,Soil moisture correction flag,All 8,Missing value,,,,,Operational
 bufr4/0/40/006/1,040006,Soil moisture processing flag,1,Not soil,,,,,Operational
 bufr4/0/40/006/2,040006,Soil moisture processing flag,2,Sensitivity to soil moisture below limit,,,,,Operational
 bufr4/0/40/006/3,040006,Soil moisture processing flag,3,Azimuthal noise above limit,,,,,Operational
@@ -15,18 +15,18 @@ bufr4/0/40/006/6,040006,Soil moisture processing flag,6,Slope Mid-Aft beam out o
 bufr4/0/40/006/7,040006,Soil moisture processing flag,7,Soil moisture below -20%,,,,,Operational
 bufr4/0/40/006/8,040006,Soil moisture processing flag,8,Soil moisture above 120%,,,,,Operational
 bufr4/0/40/006/9-15,040006,Soil moisture processing flag,9-15,Reserved,,,,,Operational
-bufr4/0/40/006/All 16,040006,Soil moisture processing flag,All 16,Missing value,,,,,Operational
+bufr4/0/40/006/All-16,040006,Soil moisture processing flag,All 16,Missing value,,,,,Operational
 bufr4/0/40/011/1,040011,Interpolation flag,1,Mean sea-surface (MSS) interpolation flag,,,,,Operational
 bufr4/0/40/011/2,040011,Interpolation flag,2,"Ocean tide solution 1 interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,,Operational
 bufr4/0/40/011/3,040011,Interpolation flag,3,"Ocean tide solution 2 interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,,Operational
 bufr4/0/40/011/4,040011,Interpolation flag,4,"Meteorological data interpolation flag (0 = 4 points over ocean, 1 = less than 4 points)",,,,,Operational
 bufr4/0/40/011/5-7,040011,Interpolation flag,5-7,Reserved,,,,,Operational
-bufr4/0/40/011/All 8,040011,Interpolation flag,All 8,Missing value,,,,,Operational
+bufr4/0/40/011/All-8,040011,Interpolation flag,All 8,Missing value,,,,,Operational
 bufr4/0/40/012/1,040012,Radiometer data quality flag,1,18.7 GHz brightness temperature,,,,,Operational
 bufr4/0/40/012/2,040012,Radiometer data quality flag,2,23.8 GHz brightness temperature,,,,,Operational
 bufr4/0/40/012/3,040012,Radiometer data quality flag,3,34 GHz brightness temperature,,,,,Operational
 bufr4/0/40/012/4-7,040012,Radiometer data quality flag,4-7,Reserved,,,,,Operational
-bufr4/0/40/012/All 8,040012,Radiometer data quality flag,All 8,Missing value,,,,,Operational
+bufr4/0/40/012/All-8,040012,Radiometer data quality flag,All 8,Missing value,,,,,Operational
 bufr4/0/40/013/0,040013,Radiometer brightness temperature interpretation flag,0,Interpolation with no gap between JMR data,,,,,Operational
 bufr4/0/40/013/1,040013,Radiometer brightness temperature interpretation flag,1,Interpolation with gaps between JMR data,,,,,Operational
 bufr4/0/40/013/2,040013,Radiometer brightness temperature interpretation flag,2,Extrapolation of JMR data,,,,,Operational
@@ -49,12 +49,12 @@ bufr4/0/40/020/13,040020,GqisFlagQualDetailed - quality flag for the system,13,G
 bufr4/0/40/020/14,040020,GqisFlagQualDetailed - quality flag for the system,14,On-ground processing error,,,,,Operational
 bufr4/0/40/020/15,040020,GqisFlagQualDetailed - quality flag for the system,15,Inter-calibration error IASI/AVHRR,,,,,Operational
 bufr4/0/40/020/16,040020,GqisFlagQualDetailed - quality flag for the system,16,Spare,,,,,Operational
-bufr4/0/40/020/All 17,040020,GqisFlagQualDetailed - quality flag for the system,All 17,Missing value,,,,,Operational
+bufr4/0/40/020/All-17,040020,GqisFlagQualDetailed - quality flag for the system,All 17,Missing value,,,,,Operational
 bufr4/0/40/023/1,040023,Auxiliary altimeter state flags,1,"Band sequence (0 = 3Ku_1C_3Ku, 1 = 2Ku_1C_2Ku)",,,,,Operational
 bufr4/0/40/023/2,040023,Auxiliary altimeter state flags,2,"C band frequency (0 = 320 MHz, 1 = 100 MHz)",,,,,Operational
 bufr4/0/40/023/3,040023,Auxiliary altimeter state flags,3,"C band status (0 = On, 1 = Off)",,,,,Operational
 bufr4/0/40/023/4,040023,Auxiliary altimeter state flags,4,"Ku band status (0 = On, 1 = Off)",,,,,Operational
-bufr4/0/40/023/All 5,040023,Auxiliary altimeter state flags,All 5,Missing value,,,,,Operational
+bufr4/0/40/023/All-5,040023,Auxiliary altimeter state flags,All 5,Missing value,,,,,Operational
 bufr4/0/40/024/0,040024,Meteorological map availability,0,2 maps available (6 hours apart),,,,,Operational
 bufr4/0/40/024/1,040024,Meteorological map availability,1,2 maps available (> 6 hours apart),,,,,Operational
 bufr4/0/40/024/2,040024,Meteorological map availability,2,1 map available; data extrapolated,,,,,Operational
@@ -97,7 +97,7 @@ bufr4/0/40/045/1,040045,Cloud formation and height assignment,1,Cloud products r
 bufr4/0/40/045/2,040045,Cloud formation and height assignment,2,Cloud products retrieved with the CO2-slicing,,,,,Operational
 bufr4/0/40/045/3,040045,Cloud formation and height assignment,3,Height assignment performed with statistical first guess retrieval,,,,,Operational
 bufr4/0/40/045/4,040045,Cloud formation and height assignment,4,Height assignment performed with NWP forecasts,,,,,Operational
-bufr4/0/40/045/All 5,040045,Cloud formation and height assignment,All 5,Missing value,,,,,Operational
+bufr4/0/40/045/All-5,040045,Cloud formation and height assignment,All 5,Missing value,,,,,Operational
 bufr4/0/40/046/0,040046,Cloudiness summary,0,The IASI IFOV is clear,,,,,Operational
 bufr4/0/40/046/1,040046,Cloudiness summary,1,Small cloud contamination possible,,,,,Operational
 bufr4/0/40/046/2,040046,Cloudiness summary,2,The IASI IFOV is partially covered by clouds,,,,,Operational
@@ -127,12 +127,12 @@ bufr4/0/40/049/12,040049,Cloud tests executed and results,12,AMSU cloud test ind
 bufr4/0/40/049/13,040049,Cloud tests executed and results,13,AMSU cloud test executed,,,,,Operational
 bufr4/0/40/049/14,040049,Cloud tests executed and results,14,IASI Window cloud test indicates a cloud,,,,,Operational
 bufr4/0/40/049/15,040049,Cloud tests executed and results,15,IASI Window cloud test executed,,,,,Operational
-bufr4/0/40/049/All 16,040049,Cloud tests executed and results,All 16,Missing value,,,,,Operational
+bufr4/0/40/049/All-16,040049,Cloud tests executed and results,All 16,Missing value,,,,,Operational
 bufr4/0/40/050/1-4,040050,Retrieval initialisation,1-4,Reserved,,,,,Operational
 bufr4/0/40/050/5,040050,Retrieval initialisation,5,MHS included ,,,,,Operational
 bufr4/0/40/050/6,040050,Retrieval initialisation,6,AMSU included,,,,,Operational
 bufr4/0/40/050/7,040050,Retrieval initialisation,7,IASI included,,,,,Operational
-bufr4/0/40/050/All 8,040050,Retrieval initialisation,All 8,Missing value,,,,,Operational
+bufr4/0/40/050/All-8,040050,Retrieval initialisation,All 8,Missing value,,,,,Operational
 bufr4/0/40/051/0,040051,Convergence of the iterative retrieval,0,Optimal estimation methods (OEM) not attempted,,,,,Operational
 bufr4/0/40/051/1,040051,Convergence of the iterative retrieval,1,OEM aborted because first guess residuals too high,,,,,Operational
 bufr4/0/40/051/2,040051,Convergence of the iterative retrieval,2,"The minimization did not converge, sounding rejected",,,,,Operational
@@ -146,7 +146,7 @@ bufr4/0/40/052/4,040052,Indication of super-adiabatic and super-saturation in fi
 bufr4/0/40/052/5,040052,Indication of super-adiabatic and super-saturation in final retrieval,5,Superadiabatic conditions in the OEM retrieval,,,,,Operational
 bufr4/0/40/052/6,040052,Indication of super-adiabatic and super-saturation in final retrieval,6,Supersaturation conditions in the first guess,,,,,Operational
 bufr4/0/40/052/7,040052,Indication of super-adiabatic and super-saturation in final retrieval,7,Superadiabatic conditions in the first guess,,,,,Operational
-bufr4/0/40/052/All 8,040052,Indication of super-adiabatic and super-saturation in final retrieval,All 8,Missing value,,,,,Operational
+bufr4/0/40/052/All-8,040052,Indication of super-adiabatic and super-saturation in final retrieval,All 8,Missing value,,,,,Operational
 bufr4/0/40/054/1,040054,Potential processing and inputs errors,1,An error has been detected,,,,,Operational
 bufr4/0/40/054/2,040054,Potential processing and inputs errors,2,Message from L1,,,,,Operational
 bufr4/0/40/054/3,040054,Potential processing and inputs errors,3,Message from L2,,,,,Operational
@@ -159,7 +159,7 @@ bufr4/0/40/054/9,040054,Potential processing and inputs errors,9,"Level 2 ""from
 bufr4/0/40/054/10,040054,Potential processing and inputs errors,10,Empty field or data,,,,,Operational
 bufr4/0/40/054/11,040054,Potential processing and inputs errors,11,Missing surface pressure value,,,,,Operational
 bufr4/0/40/054/12,040054,Potential processing and inputs errors,12,Radiance filtering,,,,,Operational
-bufr4/0/40/054/All 13,040054,Potential processing and inputs errors,All 13,Missing value,,,,,Operational
+bufr4/0/40/054/All-13,040054,Potential processing and inputs errors,All 13,Missing value,,,,,Operational
 bufr4/0/40/055/1,040055,Diagnostics on the retrieval,1,Radiance filtering,,,,,Operational
 bufr4/0/40/055/2,040055,Diagnostics on the retrieval,2,Polar regions,,,,,Operational
 bufr4/0/40/055/3,040055,Diagnostics on the retrieval,3,Location in the night,,,,,Operational
@@ -180,7 +180,7 @@ bufr4/0/40/055/17,040055,Diagnostics on the retrieval,17,"Residuals ""sloped""",
 bufr4/0/40/055/18,040055,Diagnostics on the retrieval,18,Residuals root mean square (RMS) error is large,,,,,Operational
 bufr4/0/40/055/19,040055,Diagnostics on the retrieval,19,Weird averaging kernels,,,,,Operational
 bufr4/0/40/055/20,040055,Diagnostics on the retrieval,20,Ice presence detected,,,,,Operational
-bufr4/0/40/055/All 21,040055,Diagnostics on the retrieval,All 21,Missing value,,,,,Operational
+bufr4/0/40/055/All-21,040055,Diagnostics on the retrieval,All 21,Missing value,,,,,Operational
 bufr4/0/40/056/0,040056,General retrieval quality,0,Use not recommended,,,,,Operational
 bufr4/0/40/056/1,040056,General retrieval quality,1,Use with caution,,,,,Operational
 bufr4/0/40/056/2,040056,General retrieval quality,2,Best quality,,,,,Operational
@@ -216,7 +216,7 @@ bufr4/0/40/057/27,040057,IASI level 2 retrieval flags,27,Residuals sloped,,,,,Op
 bufr4/0/40/057/28,040057,IASI level 2 retrieval flags,28,Residuals RMS error is large,,,,,Operational
 bufr4/0/40/057/29,040057,IASI level 2 retrieval flags,29,Weird averaging kernels,,,,,Operational
 bufr4/0/40/057/30,040057,IASI level 2 retrieval flags,30,Ice presence detected,,,,,Operational
-bufr4/0/40/057/All 31,040057,IASI level 2 retrieval flags,All 31,Missing value,,,,,Operational
+bufr4/0/40/057/All-31,040057,IASI level 2 retrieval flags,All 31,Missing value,,,,,Operational
 bufr4/0/40/068/0,040068,General retrieval quality flag for SO2,0,Values calculated with IASI L2,,,,,Operational
 bufr4/0/40/068/1,040068,General retrieval quality flag for SO2,1,Pressure and temperature profiles missing in IASI L2 data; model/forecast data used instead,,,,,Operational
 bufr4/0/40/068/2,040068,General retrieval quality flag for SO2,2,Best quality,,,,,Operational
@@ -233,18 +233,18 @@ bufr4/0/40/074/8,040074,General interferometry quality flags,8,Outgassing of the
 bufr4/0/40/074/9,040074,General interferometry quality flags,9,Flag preceding the first 24 hours/day mark (set to on as a rule),,,,,Operational
 bufr4/0/40/074/10,040074,General interferometry quality flags,10,Telemetry package flag,,,,,Operational
 bufr4/0/40/074/11-15,040074,General interferometry quality flags,11-15,Reserved,,,,,Operational
-bufr4/0/40/074/All 16,040074,General interferometry quality flags,All 16,Missing value,,,,,Operational
+bufr4/0/40/074/All-16,040074,General interferometry quality flags,All 16,Missing value,,,,,Operational
 bufr4/0/40/077/1,040077,Ocean product quality flag,1,Sea surface temperature not OK,,,,,Operational
 bufr4/0/40/077/2,040077,Ocean product quality flag,2,Sea surface wind speed not OK,,,,,Operational
 bufr4/0/40/077/3,040077,Ocean product quality flag,3,Atmospheric water vapour content not OK,,,,,Operational
 bufr4/0/40/077/4,040077,Ocean product quality flag,4,Cloud liquid water content not OK,,,,,Operational
 bufr4/0/40/077/5-7,040077,Ocean product quality flag,5-7,Reserved,,,,,Operational
-bufr4/0/40/077/All 8,040077,Ocean product quality flag,All 8,Missing value,,,,,Operational
+bufr4/0/40/077/All-8,040077,Ocean product quality flag,All 8,Missing value,,,,,Operational
 bufr4/0/40/080/1,040080,Cloud test results for IASI-NG level 2,1,Thin cirrus detection executed,,,,,Operational
 bufr4/0/40/080/2,040080,Cloud test results for IASI-NG level 2,2,Thin cirrus detection indicates a cloud,,,,,Operational
 bufr4/0/40/080/3,040080,Cloud test results for IASI-NG level 2,3,Aerosol dust detection executed,,,,,Operational
 bufr4/0/40/080/4,040080,Cloud test results for IASI-NG level 2,4,Aerosol dust detected,,,,,Operational
-bufr4/0/40/080/All 5,040080,Cloud test results for IASI-NG level 2,All 5,Missing,,,,,Operational
+bufr4/0/40/080/All-5,040080,Cloud test results for IASI-NG level 2,All 5,Missing,,,,,Operational
 bufr4/0/40/081/1-17,040081,OLCI Level 1 classification and quality,1-17,Reserved,,,,,Operational
 bufr4/0/40/081/18,040081,OLCI Level 1 classification and quality,18,Land,,,,,Operational
 bufr4/0/40/081/19,040081,OLCI Level 1 classification and quality,19,Coastline,,,,,Operational
@@ -259,4 +259,4 @@ bufr4/0/40/081/27,040081,OLCI Level 1 classification and quality,27,Sun glint ri
 bufr4/0/40/081/28,040081,OLCI Level 1 classification and quality,28,Dubious,,,,,Operational
 bufr4/0/40/081/29,040081,OLCI Level 1 classification and quality,29,Saturated,,,,,Operational
 bufr4/0/40/081/30,040081,OLCI Level 1 classification and quality,30,Partly saturated,,,,,Operational
-bufr4/0/40/081/All 31,040081,OLCI Level 1 classification and quality,All 31,Missing,,,,,Operational
+bufr4/0/40/081/All-31,040081,OLCI Level 1 classification and quality,All 31,Missing,,,,,Operational
