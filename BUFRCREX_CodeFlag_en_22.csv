@@ -1,85 +1,85 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
-022056,Direction of profile,0,Upwards profile,,,,,Operational
-022056,Direction of profile,1,Downwards profile,,,,,Operational
-022056,Direction of profile,2,Horizontal,,,,,Operational
-022056,Direction of profile,3,Missing value,,,,,Operational
-022060,Lagrangian drifter drogue status,0,Drogue is detached,,,,,Operational
-022060,Lagrangian drifter drogue status,1,Drogue is attached,,,,,Operational
-022060,Lagrangian drifter drogue status,2,Drogue status unknown,,,,,Operational
-022060,Lagrangian drifter drogue status,3-6,Reserved,,,,,Operational
-022060,Lagrangian drifter drogue status,7,Missing value,,,,,Operational
-022061,State of the sea,0,Calm (glassy),0,,,,Operational
-022061,State of the sea,1,Calm (rippled),0 - 0.1,,,,Operational
-022061,State of the sea,2,Smooth (wavelets),0.1 - 0.5,,,,Operational
-022061,State of the sea,3,Slight,0.5 - 1.25,,,,Operational
-022061,State of the sea,4,Moderate,1.25 - 2.5,,,,Operational
-022061,State of the sea,5,Rough,2.5 - 4,,,,Operational
-022061,State of the sea,6,Very rough,4 - 6,,,,Operational
-022061,State of the sea,7,High,6 - 9,,,,Operational
-022061,State of the sea,8,Very high,9 - 14,,,,Operational
-022061,State of the sea,9,Phenomenal,Over 14,,,,Operational
-022061,State of the sea,10-14,Reserved,,,,,Operational
-022061,State of the sea,15,Missing value,,,,,Operational
-022067,Instrument type for water temperature/salinity profile measurement,,,,,,,Operational
-022068,Water temperature profile recorder types,,,,,,,Operational
-022120,Tide station automated water level check,0,Good data,,,,,Operational
-022120,Tide station automated water level check,1,Maximum (high) water level limit exceeded,,,,,Operational
-022120,Tide station automated water level check,2,Minimum (low) water level limit exceeded,,,,,Operational
-022120,Tide station automated water level check,3,Rate of change limit for water level exceeded,,,,,Operational
-022120,Tide station automated water level check,4,Flat limit for water level exceeded,,,,,Operational
-022120,Tide station automated water level check,5,Observed minus predicted water level value limit exceeded,,,,,Operational
-022120,Tide station automated water level check,6,Observed value from primary water level sensor minus backup water level sensor,,,,,Operational
-022120,Tide station automated water level check,7,Value exceeded specified tolerance from expected value,,,,,Operational
-022120,Tide station automated water level check,8,Water level QA parameter (sigmas and/or outliers) limits exceeded,,,,,Operational
-022120,Tide station automated water level check,9,Sea temperature outside of expected range,,,,,Operational
-022120,Tide station automated water level check,10,Multiple QC checks (above) failed,,,,,Operational
-022120,Tide station automated water level check,11,No automated water level checks performed,,,,,Operational
-022120,Tide station automated water level check,12-30,Reserved,,,,,Operational
-022120,Tide station automated water level check,31,Missing value,,,,,Operational
-022121,Tide station manual water level check,0,Operational,,,,,Operational
-022121,Tide station manual water level check,1,Possible clogging problem or otherwise degraded water level data,,,,,Operational
-022121,Tide station manual water level check,2,Possible datum shift,,,,,Operational
-022121,Tide station manual water level check,3,Unknown status of water level sensor,,,,,Operational
-022121,Tide station manual water level check,4,Suspected or known sea temperature sensor problem,,,,,Operational
-022121,Tide station manual water level check,5,Multiple possible problems (above),,,,,Operational
-022121,Tide station manual water level check,6,Bad data - DO NOT DISSEMINATE!,,,,,Operational
-022121,Tide station manual water level check,7,No manual water level checks performed,,,,,Operational
-022121,Tide station manual water level check,8-30,Reserved,,,,,Operational
-022121,Tide station manual water level check,31,Missing value,,,,,Operational
-022122,Tide station automated meteorological data check,0,Good data from all sensors,,,,,Operational
-022122,Tide station automated meteorological data check,1,Wind direction outside of allowable range,,,,,Operational
-022122,Tide station automated meteorological data check,2,Wind speed outside of expected range,,,,,Operational
-022122,Tide station automated meteorological data check,3,Barometric pressure outside of expected range,,,,,Operational
-022122,Tide station automated meteorological data check,4,Air temperature outside of expected range,,,,,Operational
-022122,Tide station automated meteorological data check,5,Multiple sensors failed QC checks,,,,,Operational
-022122,Tide station automated meteorological data check,6,No automated meteorological data checks performed,,,,,Operational
-022122,Tide station automated meteorological data check,7-30,Reserved,,,,,Operational
-022122,Tide station automated meteorological data check,31,Missing value,,,,,Operational
-022123,Tide station manual meteorological data check,0,Operational,,,,,Operational
-022123,Tide station manual meteorological data check,1,Suspected or known problem with wind sensor,,,,,Operational
-022123,Tide station manual meteorological data check,2,Suspected or known problem with barometric pressure sensor,,,,,Operational
-022123,Tide station manual meteorological data check,3,Suspected or known problem with air temperature sensor,,,,,Operational
-022123,Tide station manual meteorological data check,4,Unknown status of all sensors,,,,,Operational
-022123,Tide station manual meteorological data check,5,Suspected or known problems with multiple sensors,,,,,Operational
-022123,Tide station manual meteorological data check,6,Bad data - DO NOT DISSEMINATE!,,,,,Operational
-022123,Tide station manual meteorological data check,7,No manual meteorological data checks performed,,,,,Operational
-022123,Tide station manual meteorological data check,8-30,Reserved,,,,,Operational
-022123,Tide station manual meteorological data check,31,Missing value,,,,,Operational
-022178,XBT/XCTD launcher type,0,Unknown,,,,,Operational
-022178,XBT/XCTD launcher type,1,LM-2A Deck-mounted,,,,,Operational
-022178,XBT/XCTD launcher type,2,LM-3A Hand-Held,,,,,Operational
-022178,XBT/XCTD launcher type,3,LM-4A Thru-Hull,,,,,Operational
-022178,XBT/XCTD launcher type,4-9,Reserved,,,,,Operational
-022178,XBT/XCTD launcher type,10,AL-12 TSK Autolauncher (up to 12 probes),,,,,Operational
-022178,XBT/XCTD launcher type,11-19,Reserved,,,,,Operational
-022178,XBT/XCTD launcher type,20,SIO XBT Autolauncher (up to 6 probes),,,,,Operational
-022178,XBT/XCTD launcher type,21-29,Reserved,,,,,Operational
-022178,XBT/XCTD launcher type,30,AOML XBT V6 Autolauncher (up to 6 Deep Blue probes),,,,,Operational
-022178,XBT/XCTD launcher type,31,AOML XBT V8.0 Autolauncher (up to 8 Deep Blue probes),,,,,Operational
-022178,XBT/XCTD launcher type,32,AOML XBT V8.1 Autolauncher (up to 8 Deep Blue and Fast Deep probes),,,,,Operational
-022178,XBT/XCTD launcher type,33-89,Reserved,,,,,Operational
-022178,XBT/XCTD launcher type,90,CSIRO Devil Autolauncher,,,,,Operational
-022178,XBT/XCTD launcher type,91-99,Reserved,,,,,Operational
-022178,XBT/XCTD launcher type,100,MFSTEP Autolauncher (Mediterranean),,,,,Operational
-022178,XBT/XCTD launcher type,101-254,Reserved,,,,,Operational
-022178,XBT/XCTD launcher type,255,Missing value,,,,,Operational
+Id,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+bufr4/0/22/056/0,022056,Direction of profile,0,Upwards profile,,,,,Operational
+bufr4/0/22/056/1,022056,Direction of profile,1,Downwards profile,,,,,Operational
+bufr4/0/22/056/2,022056,Direction of profile,2,Horizontal,,,,,Operational
+bufr4/0/22/056/3,022056,Direction of profile,3,Missing value,,,,,Operational
+bufr4/0/22/060/0,022060,Lagrangian drifter drogue status,0,Drogue is detached,,,,,Operational
+bufr4/0/22/060/1,022060,Lagrangian drifter drogue status,1,Drogue is attached,,,,,Operational
+bufr4/0/22/060/2,022060,Lagrangian drifter drogue status,2,Drogue status unknown,,,,,Operational
+bufr4/0/22/060/3-6,022060,Lagrangian drifter drogue status,3-6,Reserved,,,,,Operational
+bufr4/0/22/060/7,022060,Lagrangian drifter drogue status,7,Missing value,,,,,Operational
+bufr4/0/22/061/0,022061,State of the sea,0,Calm (glassy),0,,,,Operational
+bufr4/0/22/061/1,022061,State of the sea,1,Calm (rippled),0 - 0.1,,,,Operational
+bufr4/0/22/061/2,022061,State of the sea,2,Smooth (wavelets),0.1 - 0.5,,,,Operational
+bufr4/0/22/061/3,022061,State of the sea,3,Slight,0.5 - 1.25,,,,Operational
+bufr4/0/22/061/4,022061,State of the sea,4,Moderate,1.25 - 2.5,,,,Operational
+bufr4/0/22/061/5,022061,State of the sea,5,Rough,2.5 - 4,,,,Operational
+bufr4/0/22/061/6,022061,State of the sea,6,Very rough,4 - 6,,,,Operational
+bufr4/0/22/061/7,022061,State of the sea,7,High,6 - 9,,,,Operational
+bufr4/0/22/061/8,022061,State of the sea,8,Very high,9 - 14,,,,Operational
+bufr4/0/22/061/9,022061,State of the sea,9,Phenomenal,Over 14,,,,Operational
+bufr4/0/22/061/10-14,022061,State of the sea,10-14,Reserved,,,,,Operational
+bufr4/0/22/061/15,022061,State of the sea,15,Missing value,,,,,Operational
+bufr4/0/22/067,022067,Instrument type for water temperature/salinity profile measurement,,,,,,,Operational
+bufr4/0/22/068,022068,Water temperature profile recorder types,,,,,,,Operational
+bufr4/0/22/120/0,022120,Tide station automated water level check,0,Good data,,,,,Operational
+bufr4/0/22/120/1,022120,Tide station automated water level check,1,Maximum (high) water level limit exceeded,,,,,Operational
+bufr4/0/22/120/2,022120,Tide station automated water level check,2,Minimum (low) water level limit exceeded,,,,,Operational
+bufr4/0/22/120/3,022120,Tide station automated water level check,3,Rate of change limit for water level exceeded,,,,,Operational
+bufr4/0/22/120/4,022120,Tide station automated water level check,4,Flat limit for water level exceeded,,,,,Operational
+bufr4/0/22/120/5,022120,Tide station automated water level check,5,Observed minus predicted water level value limit exceeded,,,,,Operational
+bufr4/0/22/120/6,022120,Tide station automated water level check,6,Observed value from primary water level sensor minus backup water level sensor,,,,,Operational
+bufr4/0/22/120/7,022120,Tide station automated water level check,7,Value exceeded specified tolerance from expected value,,,,,Operational
+bufr4/0/22/120/8,022120,Tide station automated water level check,8,Water level QA parameter (sigmas and/or outliers) limits exceeded,,,,,Operational
+bufr4/0/22/120/9,022120,Tide station automated water level check,9,Sea temperature outside of expected range,,,,,Operational
+bufr4/0/22/120/10,022120,Tide station automated water level check,10,Multiple QC checks (above) failed,,,,,Operational
+bufr4/0/22/120/11,022120,Tide station automated water level check,11,No automated water level checks performed,,,,,Operational
+bufr4/0/22/120/12-30,022120,Tide station automated water level check,12-30,Reserved,,,,,Operational
+bufr4/0/22/120/31,022120,Tide station automated water level check,31,Missing value,,,,,Operational
+bufr4/0/22/121/0,022121,Tide station manual water level check,0,Operational,,,,,Operational
+bufr4/0/22/121/1,022121,Tide station manual water level check,1,Possible clogging problem or otherwise degraded water level data,,,,,Operational
+bufr4/0/22/121/2,022121,Tide station manual water level check,2,Possible datum shift,,,,,Operational
+bufr4/0/22/121/3,022121,Tide station manual water level check,3,Unknown status of water level sensor,,,,,Operational
+bufr4/0/22/121/4,022121,Tide station manual water level check,4,Suspected or known sea temperature sensor problem,,,,,Operational
+bufr4/0/22/121/5,022121,Tide station manual water level check,5,Multiple possible problems (above),,,,,Operational
+bufr4/0/22/121/6,022121,Tide station manual water level check,6,Bad data - DO NOT DISSEMINATE!,,,,,Operational
+bufr4/0/22/121/7,022121,Tide station manual water level check,7,No manual water level checks performed,,,,,Operational
+bufr4/0/22/121/8-30,022121,Tide station manual water level check,8-30,Reserved,,,,,Operational
+bufr4/0/22/121/31,022121,Tide station manual water level check,31,Missing value,,,,,Operational
+bufr4/0/22/122/0,022122,Tide station automated meteorological data check,0,Good data from all sensors,,,,,Operational
+bufr4/0/22/122/1,022122,Tide station automated meteorological data check,1,Wind direction outside of allowable range,,,,,Operational
+bufr4/0/22/122/2,022122,Tide station automated meteorological data check,2,Wind speed outside of expected range,,,,,Operational
+bufr4/0/22/122/3,022122,Tide station automated meteorological data check,3,Barometric pressure outside of expected range,,,,,Operational
+bufr4/0/22/122/4,022122,Tide station automated meteorological data check,4,Air temperature outside of expected range,,,,,Operational
+bufr4/0/22/122/5,022122,Tide station automated meteorological data check,5,Multiple sensors failed QC checks,,,,,Operational
+bufr4/0/22/122/6,022122,Tide station automated meteorological data check,6,No automated meteorological data checks performed,,,,,Operational
+bufr4/0/22/122/7-30,022122,Tide station automated meteorological data check,7-30,Reserved,,,,,Operational
+bufr4/0/22/122/31,022122,Tide station automated meteorological data check,31,Missing value,,,,,Operational
+bufr4/0/22/123/0,022123,Tide station manual meteorological data check,0,Operational,,,,,Operational
+bufr4/0/22/123/1,022123,Tide station manual meteorological data check,1,Suspected or known problem with wind sensor,,,,,Operational
+bufr4/0/22/123/2,022123,Tide station manual meteorological data check,2,Suspected or known problem with barometric pressure sensor,,,,,Operational
+bufr4/0/22/123/3,022123,Tide station manual meteorological data check,3,Suspected or known problem with air temperature sensor,,,,,Operational
+bufr4/0/22/123/4,022123,Tide station manual meteorological data check,4,Unknown status of all sensors,,,,,Operational
+bufr4/0/22/123/5,022123,Tide station manual meteorological data check,5,Suspected or known problems with multiple sensors,,,,,Operational
+bufr4/0/22/123/6,022123,Tide station manual meteorological data check,6,Bad data - DO NOT DISSEMINATE!,,,,,Operational
+bufr4/0/22/123/7,022123,Tide station manual meteorological data check,7,No manual meteorological data checks performed,,,,,Operational
+bufr4/0/22/123/8-30,022123,Tide station manual meteorological data check,8-30,Reserved,,,,,Operational
+bufr4/0/22/123/31,022123,Tide station manual meteorological data check,31,Missing value,,,,,Operational
+bufr4/0/22/178/0,022178,XBT/XCTD launcher type,0,Unknown,,,,,Operational
+bufr4/0/22/178/1,022178,XBT/XCTD launcher type,1,LM-2A Deck-mounted,,,,,Operational
+bufr4/0/22/178/2,022178,XBT/XCTD launcher type,2,LM-3A Hand-Held,,,,,Operational
+bufr4/0/22/178/3,022178,XBT/XCTD launcher type,3,LM-4A Thru-Hull,,,,,Operational
+bufr4/0/22/178/4-9,022178,XBT/XCTD launcher type,4-9,Reserved,,,,,Operational
+bufr4/0/22/178/10,022178,XBT/XCTD launcher type,10,AL-12 TSK Autolauncher (up to 12 probes),,,,,Operational
+bufr4/0/22/178/11-19,022178,XBT/XCTD launcher type,11-19,Reserved,,,,,Operational
+bufr4/0/22/178/20,022178,XBT/XCTD launcher type,20,SIO XBT Autolauncher (up to 6 probes),,,,,Operational
+bufr4/0/22/178/21-29,022178,XBT/XCTD launcher type,21-29,Reserved,,,,,Operational
+bufr4/0/22/178/30,022178,XBT/XCTD launcher type,30,AOML XBT V6 Autolauncher (up to 6 Deep Blue probes),,,,,Operational
+bufr4/0/22/178/31,022178,XBT/XCTD launcher type,31,AOML XBT V8.0 Autolauncher (up to 8 Deep Blue probes),,,,,Operational
+bufr4/0/22/178/32,022178,XBT/XCTD launcher type,32,AOML XBT V8.1 Autolauncher (up to 8 Deep Blue and Fast Deep probes),,,,,Operational
+bufr4/0/22/178/33-89,022178,XBT/XCTD launcher type,33-89,Reserved,,,,,Operational
+bufr4/0/22/178/90,022178,XBT/XCTD launcher type,90,CSIRO Devil Autolauncher,,,,,Operational
+bufr4/0/22/178/91-99,022178,XBT/XCTD launcher type,91-99,Reserved,,,,,Operational
+bufr4/0/22/178/100,022178,XBT/XCTD launcher type,100,MFSTEP Autolauncher (Mediterranean),,,,,Operational
+bufr4/0/22/178/101-254,022178,XBT/XCTD launcher type,101-254,Reserved,,,,,Operational
+bufr4/0/22/178/255,022178,XBT/XCTD launcher type,255,Missing value,,,,,Operational

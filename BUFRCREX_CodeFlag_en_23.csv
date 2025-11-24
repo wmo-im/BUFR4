@@ -1,84 +1,84 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
-023001,Accident early notification - article applicable,0,Reserved,,,,,Operational
-023001,Accident early notification - article applicable,1,Articles 1 and 2,,,,,Operational
-023001,Accident early notification - article applicable,2,Article 3,,,,,Operational
-023001,Accident early notification - article applicable,3,Article 5.2,,,,,Operational
-023001,Accident early notification - article applicable,4-6,Reserved,,,,,Operational
-023001,Accident early notification - article applicable,7,Missing value,,,,,Operational
-023002,Activity or facility involved in incident,0,Reserved,,,,,Operational
-023002,Activity or facility involved in incident,1,Nuclear reactor on ground,,,,,Operational
-023002,Activity or facility involved in incident,2,Nuclear reactor at sea,,,,,Operational
-023002,Activity or facility involved in incident,3,Nuclear reactor in space,,,,,Operational
-023002,Activity or facility involved in incident,4,Nuclear fuel facility,,,,,Operational
-023002,Activity or facility involved in incident,5,Radioactive waste management facility,,,,,Operational
-023002,Activity or facility involved in incident,6,Transport of nuclear fuel or radioactive waste,,,,,Operational
-023002,Activity or facility involved in incident,7,Storage of nuclear fuel or radioactive waste,,,,,Operational
-023002,Activity or facility involved in incident,8,Manufacture of radio-isotopes,,,,,Operational
-023002,Activity or facility involved in incident,9,Use of radio-isotopes,,,,,Operational
-023002,Activity or facility involved in incident,10,Storage of radio-isotopes,,,,,Operational
-023002,Activity or facility involved in incident,11,Disposal of radio-isotopes,,,,,Operational
-023002,Activity or facility involved in incident,12,Transport of radio-isotopes,,,,,Operational
-023002,Activity or facility involved in incident,13,Use of radio-isotopes for power generation,,,,,Operational
-023002,Activity or facility involved in incident,14-29,Reserved,,,,,Operational
-023002,Activity or facility involved in incident,30,Other,,,,,Operational
-023002,Activity or facility involved in incident,31,Missing value,,,,,Operational
-023003,Type of release,0,No release,,,,,Operational
-023003,Type of release,1,Release to atmosphere,,,,,Operational
-023003,Type of release,2,Release to water,,,,,Operational
-023003,Type of release,3,Release to both atmosphere and water,,,,,Operational
-023003,Type of release,4,Expected release to atmosphere,,,,,Operational
-023003,Type of release,5,Expected release to water,,,,,Operational
-023003,Type of release,6,Expected release to both atmosphere and water,,,,,Operational
-023003,Type of release,7,Missing value,,,,,Operational
-023004,Countermeasures taken near border,0,No countermeasures,,,,,Operational
-023004,Countermeasures taken near border,1,Evacuation,,,,,Operational
-023004,Countermeasures taken near border,2,Sheltering,,,,,Operational
-023004,Countermeasures taken near border,3,Prophylaxis,,,,,Operational
-023004,Countermeasures taken near border,4,Water,,,,,Operational
-023004,Countermeasures taken near border,5-6,Reserved,,,,,Operational
-023004,Countermeasures taken near border,7,Missing value,,,,,Operational
-023005,Cause of incident,0,Incident State does not understand what happened,,,,,Operational
-023005,Cause of incident,1,Incident State knows the cause of the incident,,,,,Operational
-023005,Cause of incident,2,Reserved,,,,,Operational
-023005,Cause of incident,3,Missing value,,,,,Operational
-023006,Incident situation,0,No improvement,,,,,Operational
-023006,Incident situation,1,Unstable,,,,,Operational
-023006,Incident situation,2,No deterioration,,,,,Operational
-023006,Incident situation,3,Improving,,,,,Operational
-023006,Incident situation,4,Stable,,,,,Operational
-023006,Incident situation,5,Deteriorating,,,,,Operational
-023006,Incident situation,6,Reserved,,,,,Operational
-023006,Incident situation,7,Missing value,,,,,Operational
-023007,Characteristics of release,0,No release,,,,,Operational
-023007,Characteristics of release,1,Release has stopped,,,,,Operational
-023007,Characteristics of release,2,Release,,,,,Operational
-023007,Characteristics of release,3,Release is continuing,,,,,Operational
-023007,Characteristics of release,4-6,Reserved,,,,,Operational
-023007,Characteristics of release,7,Missing value,,,,,Operational
-023008,State of current release,0,Gaseous,,,,,Operational
-023008,State of current release,1,Particulate,,,,,Operational
-023008,State of current release,2,Mixture of gaseous and particulate,,,,,Operational
-023008,State of current release,3,Missing value,,,,,Operational
-023009,State of expected release,0,Gaseous,,,,,Operational
-023009,State of expected release,1,Particulate,,,,,Operational
-023009,State of expected release,2,Mixture of gaseous and particulate,,,,,Operational
-023009,State of expected release,3,Missing value,,,,,Operational
-023016,Possibility of significant chemical toxic health effect,0,No significant chemical toxic health effect,,,,,Operational
-023016,Possibility of significant chemical toxic health effect,1,Significant chemical toxic health effect possible,,,,,Operational
-023016,Possibility of significant chemical toxic health effect,2,Reserved,,,,,Operational
-023016,Possibility of significant chemical toxic health effect,3,Missing value,,,,,Operational
-023018,Release behaviour over time,0,Release no longer occurring,,,,,Operational
-023018,Release behaviour over time,1,Release still occurring,,,,,Operational
-023018,Release behaviour over time,2,Release expected to increase in next six hours,,,,,Operational
-023018,Release behaviour over time,3,Release expected to remain constant in next six hours,,,,,Operational
-023018,Release behaviour over time,4,Release expected to decrease in next six hours,,,,,Operational
-023018,Release behaviour over time,5-6,Reserved,,,,,Operational
-023018,Release behaviour over time,7,Missing value,,,,,Operational
-023031,Possibility that plume will encounter precipitation in State in which incident occurred,0,Plume will not encounter rain in incident State,,,,,Operational
-023031,Possibility that plume will encounter precipitation in State in which incident occurred,1,Plume will encounter rain in incident State,,,,,Operational
-023031,Possibility that plume will encounter precipitation in State in which incident occurred,2,Reserved,,,,,Operational
-023031,Possibility that plume will encounter precipitation in State in which incident occurred,3,Missing value,,,,,Operational
-023032,Plume will encounter change in wind direction and/or speed flag,0,No significant change expected within the next six hours,,,,,Operational
-023032,Plume will encounter change in wind direction and/or speed flag,1,Anticipated significant change expected within the next six hours,,,,,Operational
-023032,Plume will encounter change in wind direction and/or speed flag,2,Reserved,,,,,Operational
-023032,Plume will encounter change in wind direction and/or speed flag,3,Missing value,,,,,Operational
+Id,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+bufr4/0/23/001/0,023001,Accident early notification - article applicable,0,Reserved,,,,,Operational
+bufr4/0/23/001/1,023001,Accident early notification - article applicable,1,Articles 1 and 2,,,,,Operational
+bufr4/0/23/001/2,023001,Accident early notification - article applicable,2,Article 3,,,,,Operational
+bufr4/0/23/001/3,023001,Accident early notification - article applicable,3,Article 5.2,,,,,Operational
+bufr4/0/23/001/4-6,023001,Accident early notification - article applicable,4-6,Reserved,,,,,Operational
+bufr4/0/23/001/7,023001,Accident early notification - article applicable,7,Missing value,,,,,Operational
+bufr4/0/23/002/0,023002,Activity or facility involved in incident,0,Reserved,,,,,Operational
+bufr4/0/23/002/1,023002,Activity or facility involved in incident,1,Nuclear reactor on ground,,,,,Operational
+bufr4/0/23/002/2,023002,Activity or facility involved in incident,2,Nuclear reactor at sea,,,,,Operational
+bufr4/0/23/002/3,023002,Activity or facility involved in incident,3,Nuclear reactor in space,,,,,Operational
+bufr4/0/23/002/4,023002,Activity or facility involved in incident,4,Nuclear fuel facility,,,,,Operational
+bufr4/0/23/002/5,023002,Activity or facility involved in incident,5,Radioactive waste management facility,,,,,Operational
+bufr4/0/23/002/6,023002,Activity or facility involved in incident,6,Transport of nuclear fuel or radioactive waste,,,,,Operational
+bufr4/0/23/002/7,023002,Activity or facility involved in incident,7,Storage of nuclear fuel or radioactive waste,,,,,Operational
+bufr4/0/23/002/8,023002,Activity or facility involved in incident,8,Manufacture of radio-isotopes,,,,,Operational
+bufr4/0/23/002/9,023002,Activity or facility involved in incident,9,Use of radio-isotopes,,,,,Operational
+bufr4/0/23/002/10,023002,Activity or facility involved in incident,10,Storage of radio-isotopes,,,,,Operational
+bufr4/0/23/002/11,023002,Activity or facility involved in incident,11,Disposal of radio-isotopes,,,,,Operational
+bufr4/0/23/002/12,023002,Activity or facility involved in incident,12,Transport of radio-isotopes,,,,,Operational
+bufr4/0/23/002/13,023002,Activity or facility involved in incident,13,Use of radio-isotopes for power generation,,,,,Operational
+bufr4/0/23/002/14-29,023002,Activity or facility involved in incident,14-29,Reserved,,,,,Operational
+bufr4/0/23/002/30,023002,Activity or facility involved in incident,30,Other,,,,,Operational
+bufr4/0/23/002/31,023002,Activity or facility involved in incident,31,Missing value,,,,,Operational
+bufr4/0/23/003/0,023003,Type of release,0,No release,,,,,Operational
+bufr4/0/23/003/1,023003,Type of release,1,Release to atmosphere,,,,,Operational
+bufr4/0/23/003/2,023003,Type of release,2,Release to water,,,,,Operational
+bufr4/0/23/003/3,023003,Type of release,3,Release to both atmosphere and water,,,,,Operational
+bufr4/0/23/003/4,023003,Type of release,4,Expected release to atmosphere,,,,,Operational
+bufr4/0/23/003/5,023003,Type of release,5,Expected release to water,,,,,Operational
+bufr4/0/23/003/6,023003,Type of release,6,Expected release to both atmosphere and water,,,,,Operational
+bufr4/0/23/003/7,023003,Type of release,7,Missing value,,,,,Operational
+bufr4/0/23/004/0,023004,Countermeasures taken near border,0,No countermeasures,,,,,Operational
+bufr4/0/23/004/1,023004,Countermeasures taken near border,1,Evacuation,,,,,Operational
+bufr4/0/23/004/2,023004,Countermeasures taken near border,2,Sheltering,,,,,Operational
+bufr4/0/23/004/3,023004,Countermeasures taken near border,3,Prophylaxis,,,,,Operational
+bufr4/0/23/004/4,023004,Countermeasures taken near border,4,Water,,,,,Operational
+bufr4/0/23/004/5-6,023004,Countermeasures taken near border,5-6,Reserved,,,,,Operational
+bufr4/0/23/004/7,023004,Countermeasures taken near border,7,Missing value,,,,,Operational
+bufr4/0/23/005/0,023005,Cause of incident,0,Incident State does not understand what happened,,,,,Operational
+bufr4/0/23/005/1,023005,Cause of incident,1,Incident State knows the cause of the incident,,,,,Operational
+bufr4/0/23/005/2,023005,Cause of incident,2,Reserved,,,,,Operational
+bufr4/0/23/005/3,023005,Cause of incident,3,Missing value,,,,,Operational
+bufr4/0/23/006/0,023006,Incident situation,0,No improvement,,,,,Operational
+bufr4/0/23/006/1,023006,Incident situation,1,Unstable,,,,,Operational
+bufr4/0/23/006/2,023006,Incident situation,2,No deterioration,,,,,Operational
+bufr4/0/23/006/3,023006,Incident situation,3,Improving,,,,,Operational
+bufr4/0/23/006/4,023006,Incident situation,4,Stable,,,,,Operational
+bufr4/0/23/006/5,023006,Incident situation,5,Deteriorating,,,,,Operational
+bufr4/0/23/006/6,023006,Incident situation,6,Reserved,,,,,Operational
+bufr4/0/23/006/7,023006,Incident situation,7,Missing value,,,,,Operational
+bufr4/0/23/007/0,023007,Characteristics of release,0,No release,,,,,Operational
+bufr4/0/23/007/1,023007,Characteristics of release,1,Release has stopped,,,,,Operational
+bufr4/0/23/007/2,023007,Characteristics of release,2,Release,,,,,Operational
+bufr4/0/23/007/3,023007,Characteristics of release,3,Release is continuing,,,,,Operational
+bufr4/0/23/007/4-6,023007,Characteristics of release,4-6,Reserved,,,,,Operational
+bufr4/0/23/007/7,023007,Characteristics of release,7,Missing value,,,,,Operational
+bufr4/0/23/008/0,023008,State of current release,0,Gaseous,,,,,Operational
+bufr4/0/23/008/1,023008,State of current release,1,Particulate,,,,,Operational
+bufr4/0/23/008/2,023008,State of current release,2,Mixture of gaseous and particulate,,,,,Operational
+bufr4/0/23/008/3,023008,State of current release,3,Missing value,,,,,Operational
+bufr4/0/23/009/0,023009,State of expected release,0,Gaseous,,,,,Operational
+bufr4/0/23/009/1,023009,State of expected release,1,Particulate,,,,,Operational
+bufr4/0/23/009/2,023009,State of expected release,2,Mixture of gaseous and particulate,,,,,Operational
+bufr4/0/23/009/3,023009,State of expected release,3,Missing value,,,,,Operational
+bufr4/0/23/016/0,023016,Possibility of significant chemical toxic health effect,0,No significant chemical toxic health effect,,,,,Operational
+bufr4/0/23/016/1,023016,Possibility of significant chemical toxic health effect,1,Significant chemical toxic health effect possible,,,,,Operational
+bufr4/0/23/016/2,023016,Possibility of significant chemical toxic health effect,2,Reserved,,,,,Operational
+bufr4/0/23/016/3,023016,Possibility of significant chemical toxic health effect,3,Missing value,,,,,Operational
+bufr4/0/23/018/0,023018,Release behaviour over time,0,Release no longer occurring,,,,,Operational
+bufr4/0/23/018/1,023018,Release behaviour over time,1,Release still occurring,,,,,Operational
+bufr4/0/23/018/2,023018,Release behaviour over time,2,Release expected to increase in next six hours,,,,,Operational
+bufr4/0/23/018/3,023018,Release behaviour over time,3,Release expected to remain constant in next six hours,,,,,Operational
+bufr4/0/23/018/4,023018,Release behaviour over time,4,Release expected to decrease in next six hours,,,,,Operational
+bufr4/0/23/018/5-6,023018,Release behaviour over time,5-6,Reserved,,,,,Operational
+bufr4/0/23/018/7,023018,Release behaviour over time,7,Missing value,,,,,Operational
+bufr4/0/23/031/0,023031,Possibility that plume will encounter precipitation in State in which incident occurred,0,Plume will not encounter rain in incident State,,,,,Operational
+bufr4/0/23/031/1,023031,Possibility that plume will encounter precipitation in State in which incident occurred,1,Plume will encounter rain in incident State,,,,,Operational
+bufr4/0/23/031/2,023031,Possibility that plume will encounter precipitation in State in which incident occurred,2,Reserved,,,,,Operational
+bufr4/0/23/031/3,023031,Possibility that plume will encounter precipitation in State in which incident occurred,3,Missing value,,,,,Operational
+bufr4/0/23/032/0,023032,Plume will encounter change in wind direction and/or speed flag,0,No significant change expected within the next six hours,,,,,Operational
+bufr4/0/23/032/1,023032,Plume will encounter change in wind direction and/or speed flag,1,Anticipated significant change expected within the next six hours,,,,,Operational
+bufr4/0/23/032/2,023032,Plume will encounter change in wind direction and/or speed flag,2,Reserved,,,,,Operational
+bufr4/0/23/032/3,023032,Plume will encounter change in wind direction and/or speed flag,3,Missing value,,,,,Operational

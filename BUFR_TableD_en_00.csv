@@ -1,29 +1,29 @@
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
-00,BUFR table entries sequences,300002,,,000002,"Table A: data category description, line 1",,,,Operational
-00,BUFR table entries sequences,300002,,,000003,"Table A: data category description, line 2",,,,Operational
-00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000010,F descriptor to be added or defined,,,,Operational
-00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000011,X descriptor to be added or defined,,,,Operational
-00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000012,Y descriptor to be added or defined,,,,Operational
-00,BUFR table entries sequences,300004,,,300003,"F, X, Y of descriptor to be added or defined",,,,Operational
-00,BUFR table entries sequences,300004,,,000013,"Element name, line 1",,,,Operational
-00,BUFR table entries sequences,300004,,,000014,"Element name, line 2",,,,Operational
-00,BUFR table entries sequences,300004,,,000015,Units name,,,,Operational
-00,BUFR table entries sequences,300004,,,000016,Units scale sign,,,,Operational
-00,BUFR table entries sequences,300004,,,000017,Units scale,,,,Operational
-00,BUFR table entries sequences,300004,,,000018,Units reference sign,,,,Operational
-00,BUFR table entries sequences,300004,,,000019,Units reference value,,,,Operational
-00,BUFR table entries sequences,300004,,,000020,Element data width,,,,Operational
-00,BUFR table entries sequences,300010,,,300003,"F, X, Y of descriptor to be added or defined",,,,Operational
-00,BUFR table entries sequences,300010,,,101000,Delayed replication of 1 descriptor,,,,Operational
-00,BUFR table entries sequences,300010,,,031001,Delayed descriptor replication factor,,,,Operational
-00,BUFR table entries sequences,300010,,,000030,Descriptor defining sequence,,,,Operational
-00,BUFR table entries sequences,300015,(Code table definition),,000030,Descriptor defining sequence,,,,Operational
-00,BUFR table entries sequences,300015,(Code table definition),,102000,Delayed replication of 2 descriptors,,,,Operational
-00,BUFR table entries sequences,300015,(Code table definition),,031002,Extended delayed descriptor replication factor,,,,Operational
-00,BUFR table entries sequences,300015,(Code table definition),,000024,Code figure,,,,Operational
-00,BUFR table entries sequences,300015,(Code table definition),,000025,Code figure meaning,,,,Operational
-00,BUFR table entries sequences,300016,(Flag table definition),,000030,Descriptor defining sequence,,,,Operational
-00,BUFR table entries sequences,300016,(Flag table definition),,102000,Delayed replication of 2 descriptors,,,,Operational
-00,BUFR table entries sequences,300016,(Flag table definition),,031001,Delayed descriptor replication factor,,,,Operational
-00,BUFR table entries sequences,300016,(Flag table definition),,000026,Bit number,,,,Operational
-00,BUFR table entries sequences,300016,(Flag table definition),,000027,Bit number meaning,,,,Operational
+Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
+bufr4/3/00/002/1/000002,00,BUFR table entries sequences,300002,,,000002,"Table A: data category description, line 1",,,,Operational
+bufr4/3/00/002/2/000003,00,BUFR table entries sequences,300002,,,000003,"Table A: data category description, line 2",,,,Operational
+bufr4/3/00/003/1/000010,00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000010,F descriptor to be added or defined,,,,Operational
+bufr4/3/00/003/2/000011,00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000011,X descriptor to be added or defined,,,,Operational
+bufr4/3/00/003/3/000012,00,BUFR table entries sequences,300003,"(F, X, Y of descriptor to be added or defined)",,000012,Y descriptor to be added or defined,,,,Operational
+bufr4/3/00/004/1/300003,00,BUFR table entries sequences,300004,,,300003,"F, X, Y of descriptor to be added or defined",,,,Operational
+bufr4/3/00/004/2/000013,00,BUFR table entries sequences,300004,,,000013,"Element name, line 1",,,,Operational
+bufr4/3/00/004/3/000014,00,BUFR table entries sequences,300004,,,000014,"Element name, line 2",,,,Operational
+bufr4/3/00/004/4/000015,00,BUFR table entries sequences,300004,,,000015,Units name,,,,Operational
+bufr4/3/00/004/5/000016,00,BUFR table entries sequences,300004,,,000016,Units scale sign,,,,Operational
+bufr4/3/00/004/6/000017,00,BUFR table entries sequences,300004,,,000017,Units scale,,,,Operational
+bufr4/3/00/004/7/000018,00,BUFR table entries sequences,300004,,,000018,Units reference sign,,,,Operational
+bufr4/3/00/004/8/000019,00,BUFR table entries sequences,300004,,,000019,Units reference value,,,,Operational
+bufr4/3/00/004/9/000020,00,BUFR table entries sequences,300004,,,000020,Element data width,,,,Operational
+bufr4/3/00/010/1/300003,00,BUFR table entries sequences,300010,,,300003,"F, X, Y of descriptor to be added or defined",,,,Operational
+bufr4/3/00/010/2/101000,00,BUFR table entries sequences,300010,,,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/00/010/3/031001,00,BUFR table entries sequences,300010,,,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/00/010/4/000030,00,BUFR table entries sequences,300010,,,000030,Descriptor defining sequence,,,,Operational
+bufr4/3/00/015/1/000030,00,BUFR table entries sequences,300015,(Code table definition),,000030,Descriptor defining sequence,,,,Operational
+bufr4/3/00/015/2/102000,00,BUFR table entries sequences,300015,(Code table definition),,102000,Delayed replication of 2 descriptors,,,,Operational
+bufr4/3/00/015/3/031002,00,BUFR table entries sequences,300015,(Code table definition),,031002,Extended delayed descriptor replication factor,,,,Operational
+bufr4/3/00/015/4/000024,00,BUFR table entries sequences,300015,(Code table definition),,000024,Code figure,,,,Operational
+bufr4/3/00/015/5/000025,00,BUFR table entries sequences,300015,(Code table definition),,000025,Code figure meaning,,,,Operational
+bufr4/3/00/016/1/000030,00,BUFR table entries sequences,300016,(Flag table definition),,000030,Descriptor defining sequence,,,,Operational
+bufr4/3/00/016/2/102000,00,BUFR table entries sequences,300016,(Flag table definition),,102000,Delayed replication of 2 descriptors,,,,Operational
+bufr4/3/00/016/3/031001,00,BUFR table entries sequences,300016,(Flag table definition),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/00/016/4/000026,00,BUFR table entries sequences,300016,(Flag table definition),,000026,Bit number,,,,Operational
+bufr4/3/00/016/5/000027,00,BUFR table entries sequences,300016,(Flag table definition),,000027,Bit number meaning,,,,Operational

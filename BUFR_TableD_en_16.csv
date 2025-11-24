@@ -1,546 +1,546 @@
-Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
-16,Synoptic feature sequences,316001,,,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316001,,,004004,Hour,,,,Operational
-16,Synoptic feature sequences,316001,,,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316001,,,001021,Synoptic feature identifier,,,,Operational
-16,Synoptic feature sequences,316001,,,002041,Method for estimating reports related to synoptic features,,,,Operational
-16,Synoptic feature sequences,316001,,,019001,Type of synoptic feature,,,,Operational
-16,Synoptic feature sequences,316001,,,010051,Pressure reduced to mean sea level,,,,Operational
-16,Synoptic feature sequences,316001,,,019002,Effective radius of feature,,,,Operational
-16,Synoptic feature sequences,316001,,,019003,Wind speed threshold,15 m s-1 typically,,,Operational
-16,Synoptic feature sequences,316001,,,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,008021,Time significance,Data time (analysis),,,Operational
-16,Synoptic feature sequences,316002,(Header),,004001,Year,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,004002,Month,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,004003,Day,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,004004,Hour,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,004005,Minute,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,001033,Identification of originating/generating centre,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,008021,Time significance,Validity time (forecast),,,Operational
-16,Synoptic feature sequences,316002,(Header),,004001,Year,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,004002,Month,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,004003,Day,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,004004,Hour,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,004005,Minute,,,,Operational
-16,Synoptic feature sequences,316002,(Header),,007002,Height or altitude,Flight level (base of chart layer),,,Operational
-16,Synoptic feature sequences,316002,(Header),,007002,Height or altitude,Flight level (top of chart layer),,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,110000,Delayed replication of 10 descriptors,,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,008011,Meteorological feature,Jet stream value,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,008007,Dimensional significance,Value for line,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,104000,Delayed replication of 4 descriptors,,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,010002,Height,Flight level,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,011002,Wind speed,,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316003,(Jet stream),,008011,Meteorological feature,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,111000,Delayed replication of 11 descriptors,,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,008011,Meteorological feature,Value for turbulence,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,008007,Dimensional significance,Value for area,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,007002,Height or altitude,Flight level (base of layer),,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,007002,Height or altitude,Flight level (top of layer),,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,102000,Delayed replication of 2 descriptors,,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,011031,Degree of turbulence,,(see Note 1),20,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316004,(Turbulence),,008011,Meteorological feature,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,108000,Delayed replication of 8 descriptors,,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,008005,Meteorological attribute significance,Storm centre,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,008007,Dimensional significance,Value for point,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,001026,WMO storm name,"Use ""UNKNOWN"" for a sandstorm",,,Operational
-16,Synoptic feature sequences,316005,(Storm),,019001,Type of synoptic feature,Value for type of storm,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316005,(Storm),,008005,Meteorological attribute significance,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,112000,Delayed replication of 12 descriptors,,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,008011,Meteorological feature,Value for cloud,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,008007,Dimensional significance,Value for area,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,007002,Height or altitude,Flight level (base of layer),,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,007002,Height or altitude,Flight level (top of layer),,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,102000,Delayed replication of 2 descriptors,,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,020011,Cloud amount,,(see Note 2),6,Operational
-16,Synoptic feature sequences,316006,(Cloud),,020012,Cloud type,,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316006,(Cloud),,008011,Meteorological feature,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316007,(Front),,110000,Delayed replication of 10 descriptors,,,,Operational
-16,Synoptic feature sequences,316007,(Front),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316007,(Front),,008011,Meteorological feature,Value for type of front,(see Note 3),21,Operational
-16,Synoptic feature sequences,316007,(Front),,008007,Dimensional significance,Value for line,,,Operational
-16,Synoptic feature sequences,316007,(Front),,104000,Delayed replication of 4 descriptors,,,,Operational
-16,Synoptic feature sequences,316007,(Front),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316007,(Front),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316007,(Front),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316007,(Front),,019005,Direction of motion of feature,,,,Operational
-16,Synoptic feature sequences,316007,(Front),,019006,Speed of motion of feature,,,,Operational
-16,Synoptic feature sequences,316007,(Front),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316007,(Front),,008011,Meteorological feature,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,111000,Delayed replication of 11 descriptors,,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,008001,Vertical sounding significance,Bit 3 set for tropopause,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,008007,Dimensional significance,Value for point,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,008023,First-order statistics,Type of tropopause value,(see Note 4),58,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,103000,Delayed replication of 3 descriptors,,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,010002,Height,,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,008023,First-order statistics,Cancel,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316008,(Tropopause),,008001,Vertical sounding significance,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,111000,Delayed replication of 11 descriptors,,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,008011,Meteorological feature,Value for airframe icing,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,008007,Dimensional significance,Value for area,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,007002,Height or altitude,Flight level (base of layer),,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,007002,Height or altitude,Flight level (top of layer),,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,102000,Delayed replication of 2 descriptors,,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,020041,Airframe icing,Type of airframe icing,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316009,(Airframe icing area),,008011,Meteorological feature,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,107000,Delayed replication of 7 descriptors,,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,008011,Meteorological feature,,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,008007,Dimensional significance,Value for point,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,001022,Name of feature,,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316010,(Name of feature),,008011,Meteorological feature,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,117000,Delayed replication of 17 descriptors,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,008011,Meteorological feature,Value for special clouds,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,001022,Name of feature,Volcano name,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,008007,Dimensional significance,Value for point,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,102000,Delayed replication of 2 descriptors,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,008021,Time significance,Eruption starting time,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,004001,Year,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,004002,Month,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,004003,Day,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,004004,Hour,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,004005,Minute,,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,020090,Special clouds,Clouds from volcanic eruptions,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,008021,Time significance,Cancel,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,008007,Dimensional significance,Cancel,,,Operational
-16,Synoptic feature sequences,316011,(Volcano erupting),,008011,Meteorological feature,Cancel | End of object,,,Operational
-16,Synoptic feature sequences,316020,(Tropical storm identification),,001033,Identification of originating/generating centre,,,,Operational
-16,Synoptic feature sequences,316020,(Tropical storm identification),,001025,Storm identifier,,,,Operational
-16,Synoptic feature sequences,316020,(Tropical storm identification),,001027,WMO long storm name,,,,Operational
-16,Synoptic feature sequences,316020,(Tropical storm identification),,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316020,(Tropical storm identification),,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,002041,Method for estimating reports related to synoptic features,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019001,Type of synoptic feature,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019007,Effective radius of feature,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019005,Direction of motion of feature,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019006,Speed of motion of feature,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019008,Vertical extent of circulation,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,008005,Meteorological attribute significance,= 1 Storm centre,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,010004,Pressure,Storm centre by virtue of preceding significance qualifier,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,008005,Meteorological attribute significance,= 2 Outer limit or edge of feature,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,010004,Pressure,Outer limit,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019007,Effective radius of feature,Outer limit,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,008005,Meteorological attribute significance,= 3 Location of maximum wind,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,008021,Time significance,Time averaged,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,004075,Short time period or displacement,Minutes,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,011040,Maximum wind speed (mean wind),,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019007,Effective radius of feature,Maximum wind,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,105004,Replicate 5 descriptors 4 times,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,005021,Bearing or azimuth,Starting,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,005021,Bearing or azimuth,Ending,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,102002,Replicate 2 descriptors 2 times,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019003,Wind speed threshold,,,,Operational
-16,Synoptic feature sequences,316021,(Analysis data),,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,001032,Generating application,"NWP model name, etc. code table defined by originating/generating centre",,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,002041,Method for estimating reports related to synoptic features,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,019001,Type of synoptic feature,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,019010,Method for tracking the centre of synoptic feature,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,118000,Delayed replication of 18 descriptors,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,008021,Time significance,Forecast,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,004014,Time increment,Hours,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,008005,Meteorological attribute significance,Surface synoptic feature,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,019005,Direction of motion of feature,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,019006,Speed of motion of feature,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,010004,Pressure,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,011041,Maximum wind gust speed,"For example, used in the United States",,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,008021,Time significance,Forecast time averaged,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,004075,Short time period or displacement,Minutes,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,011040,Maximum wind speed (mean wind),,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,019008,Vertical extent of circulation,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,105004,Replicate 5 descriptors 4 times,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,005021,Bearing or azimuth,Starting,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,005021,Bearing or azimuth,Ending,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,102002,Replicate 2 descriptors 2 times,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,019003,Wind speed threshold,,,,Operational
-16,Synoptic feature sequences,316022,(Forecast data),,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
-16,Synoptic feature sequences,316026,(Tropical storm analysis information),,316020,Tropical storm identification,,,,Operational
-16,Synoptic feature sequences,316026,(Tropical storm analysis information),,316021,Analysis data,,,,Operational
-16,Synoptic feature sequences,316027,(Tropical storm forecast information),,316020,Tropical storm identification,,,,Operational
-16,Synoptic feature sequences,316027,(Tropical storm forecast information),,316022,Forecast data,,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,301014,Time period,For which SIGMET is valid,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,001037,SIGMET sequence identifier,,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,010064,SIGMET cruising level,,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,008019,Qualifier for following centre identifier,= 1 ATS unit serving FIR,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,001062,Short ICAO location indicator,,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,008019,Qualifier for following centre identifier,"= 2 FIR, = 3 UIR, = 4 CTA",,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,001065,ICAO region identifier,,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,008019,Qualifier for following centre identifier,= 6 MWO,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,001062,Short ICAO location indicator,,,,Operational
-16,Synoptic feature sequences,316030,(SIGMET header),,008019,Qualifier for following centre identifier,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,008021,Time significance,"= 16 Analysis, = 4 Forecast",,,Operational
-16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,301027,Description of a feature in 3-D or 2-D,,,,Operational
-16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,019005,Direction of motion of feature,,,,Operational
-16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,019006,Speed of motion of feature,,,,Operational
-16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,020028,Expected change in intensity,,,,Operational
-16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,008021,Time significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,008021,Time significance,= 4 Forecast,,,Operational
-16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,301027,Description of a feature in 3-D or 2-D,,,,Operational
-16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,008021,Time significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,008021,Time significance,= 4 Forecast,,,Operational
-16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,301027,Description of a feature in 3-D or 2-D,,,,Operational
-16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,008021,Time significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,316030,SIGMET header,,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008011,Meteorological feature,= 17 Volcano,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,001022,Name of feature,,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008007,Dimensional significance,= 0 Point,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008007,Dimensional significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,020090,Special clouds,= 5 Clouds from volcanic eruptions,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,031000,Short delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,316032,"SIGMET, Forecast position",,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,316033,"SIGMET, Outlook",,,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,316030,SIGMET header,,,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,008011,Meteorological feature,= 21 Thunderstorm,,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,020023,Other weather phenomena,Bit 2 = Squalls or all 18 bits = Missing,,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,020021,Type of precipitation,Bit 14 = Hail or all 30 bits = Missing,,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,020008,Cloud distribution for aviation,"= 15 OBSC, = 16 EMBD, = 12 FRQ, = 31 Missing",,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,316030,SIGMET header,,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,008011,Meteorological feature,= 22 Tropical cyclone,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,001027,WMO long storm name,,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,031000,Short delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,316032,"SIGMET, Forecast position",,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,316033,"SIGMET, Outlook",,,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316037,(Turbulence SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
-16,Synoptic feature sequences,316037,(Turbulence SIGMET),,316030,SIGMET header,,,,Operational
-16,Synoptic feature sequences,316037,(Turbulence SIGMET),,008011,Meteorological feature,= 13 Turbulence,,,Operational
-16,Synoptic feature sequences,316037,(Turbulence SIGMET),,011031,Degree of turbulence,"= 10 Moderate, = 11 Severe",,,Operational
-16,Synoptic feature sequences,316037,(Turbulence SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
-16,Synoptic feature sequences,316037,(Turbulence SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316037,(Turbulence SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316038,(Icing SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
-16,Synoptic feature sequences,316038,(Icing SIGMET),,316030,SIGMET header,,,,Operational
-16,Synoptic feature sequences,316038,(Icing SIGMET),,008011,Meteorological feature,= 15 Airframe icing,,,Operational
-16,Synoptic feature sequences,316038,(Icing SIGMET),,020041,Airframe icing,= 7 Severe,,,Operational
-16,Synoptic feature sequences,316038,(Icing SIGMET),,020021,Type of precipitation,Bit 3 = Liquid freezing or all 30 bits = Missing,,,Operational
-16,Synoptic feature sequences,316038,(Icing SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
-16,Synoptic feature sequences,316038,(Icing SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316038,(Icing SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
-16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,316030,SIGMET header,,,,Operational
-16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,008011,Meteorological feature,"= 23 Mountain wave, = 24 Duststorm, = 25 Sandstorm",,,Operational
-16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,020024,Intensity of phenomena,"= 3 Heavy, = 5 Severe",,,Operational
-16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
-16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,316030,SIGMET header,,,,Operational
-16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,008079,Product status,= 4 Cancellation,,,Operational
-16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,301014,Time period,Of the SIGMET to be cancelled,,,Operational
-16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,001037,SIGMET sequence identifier,Of the SIGMET to be cancelled,,,Operational
-16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,010064,SIGMET cruising level,Of the SIGMET to be cancelled,,,Operational
-16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,301001,WMO block and station numbers,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,002160,Wavelength of the radar,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,008005,Meteorological attribute significance,= 1,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,008005,Meteorological attribute significance,Cancel,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019100,Time interval to calculate the movement of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019005,Direction of motion of feature,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019006,Speed of motion of feature,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019101,Accuracy of the position of the centre of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019102,Shape and definition of the eye of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019103,Diameter of major axis of the eye of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019104,Change in character of the eye during the 30 minutes,,,,Operational
-16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019105,Distance between the end of spiral band and the centre,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,301005,Originating centre/sub-centre,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,001007,Satellite identifier,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,025150,Method of tropical cyclone intensity analysis using satellite data,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,122000,Delayed replication of 22 descriptors,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,001027,WMO long storm name,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019150,Typhoon International Common Number (Typhoon Committee),,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019106,Identification number of tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,008005,Meteorological attribute significance,= 1,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,008005,Meteorological attribute significance,Cancel,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019107,Time interval over which the movement of the tropical cyclone has been calculated,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019005,Direction of motion of feature,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019006,Speed of motion of feature,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019108,Accuracy of geographical position of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019109,Mean diameter of the overcast cloud of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019110,Apparent 24-hour change in intensity of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019111,Current Intensity (CI) number of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019112,Data Tropical (DT) number of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019113,Cloud pattern type of the DT-number,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019114,Model Expected Tropical (MET) number of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019115,"Trend of the past 24-hour change (+: Developed, -: Weakened)",,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019116,Pattern Tropical (PT) number of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019117,Cloud picture type of the PT-number,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019118,Final Tropical (T) number of the tropical cyclone,,,,Operational
-16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019119,Type of the final T-number,,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Position of squall line centre,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Position of squall line centre,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Position of squall line centre,019005,Direction of motion of feature,,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Position of squall line centre,019006,Speed of motion of feature,,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - North point,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - North point,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - South point,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - South point,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - Evolution,004074,Short time period or displacement,Period of validity,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - Evolution,020048,Evolution of feature,,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - Evolution,011041,Maximum wind gust speed,Maximum burst expected,,,Operational
-16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - Evolution,013055,Intensity of precipitation,Intensity of rain expected,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Position of squall line centre,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Position of squall line centre,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Position of squall line centre,019005,Direction of motion of feature,,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Position of squall line centre,019006,Speed of motion of feature,,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - North points,102000,Delayed replication of 2 descriptors,,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - North points,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - North points,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - North points,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - South points,102000,Delayed replication of 2 descriptors,,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - South points,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - South points,005002,Latitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - South points,006002,Longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - Evolution,004074,Short time period or displacement,Period of validity,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - Evolution,020048,Evolution of feature,,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - Evolution,011041,Maximum wind gust speed,Maximum burst expected,,,Operational
-16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - Evolution,013055,Intensity of precipitation,Intensity of rain expected,,,Operational
-16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,301014,Time period,For which AIRMET is valid,,,Operational
-16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,031002,Extended delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,316075,GFA IFR ceiling and visibility,,,,Operational
-16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,031002,Extended delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,316076,GFA mountain obscuration,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,301014,Time period,For which AIRMET is valid,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,031002,Extended delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,316077,GFA turbulence,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,031002,Extended delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,316078,GFA strong surface wind,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,031002,Extended delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,316079,GFA low-level wind shear,,,,Operational
-16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,301014,Time period,For which AIRMET is valid,,,Operational
-16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,031002,Extended delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,316080,GFA icing,,,,Operational
-16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,101000,Delayed replication of 1 descriptor,,,,Operational
-16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,031002,Extended delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,316081,GFA freezing level,,,,Operational
-16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,001039,Graphical Area Forecast (GFA) sequence identifier,,,,Operational
-16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,008021,Time significance,"= 4 Forecast, = 16 Analysis",,,Operational
-16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,301014,Time period,For which hazard is being observed/forecast,,,Operational
-16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,301027,Description of a feature in 3-D or 2-D,,,,Operational
-16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,008021,Time significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,008041,Data significance,= 8 IFR ceiling and visibility,,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,316074,GFA identifier and observed/forecast location,,,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020006,Flight rules,= 1 IFR,,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,033042,Type of limit represented by following value,"= 2 Exclusive upper limit, = 7 Missing",,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020013,Height of base of cloud,,,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,033042,Type of limit represented by following value,"= 2 Exclusive upper limit, = 7 Missing",,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020001,Horizontal visibility,,,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020025,Obscuration,,,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020026,Character of obscuration,"= 6 Blowing, = 15 Missing",,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,008041,Data significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316076,(GFA mountain obscuration),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
-16,Synoptic feature sequences,316076,(GFA mountain obscuration),,008041,Data significance,= 9 Mountain obscuration,,,Operational
-16,Synoptic feature sequences,316076,(GFA mountain obscuration),,316074,GFA identifier and observed/forecast location,,,,Operational
-16,Synoptic feature sequences,316076,(GFA mountain obscuration),,020006,Flight rules,= 1 IFR,,,Operational
-16,Synoptic feature sequences,316076,(GFA mountain obscuration),,020025,Obscuration,,,,Operational
-16,Synoptic feature sequences,316076,(GFA mountain obscuration),,020026,Character of obscuration,"= 6 Blowing, = 15 Missing",,,Operational
-16,Synoptic feature sequences,316076,(GFA mountain obscuration),,008041,Data significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316076,(GFA mountain obscuration),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316077,(GFA turbulence),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
-16,Synoptic feature sequences,316077,(GFA turbulence),,008011,Meteorological feature,= 13 Turbulence,,,Operational
-16,Synoptic feature sequences,316077,(GFA turbulence),,316074,GFA identifier and observed/forecast location,,,,Operational
-16,Synoptic feature sequences,316077,(GFA turbulence),,011031,Degree of turbulence,= 6 Moderate,,,Operational
-16,Synoptic feature sequences,316077,(GFA turbulence),,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316077,(GFA turbulence),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316078,(GFA strong surface wind),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
-16,Synoptic feature sequences,316078,(GFA strong surface wind),,008041,Data significance,= 10 Strong surface wind,,,Operational
-16,Synoptic feature sequences,316078,(GFA strong surface wind),,316074,GFA identifier and observed/forecast location,,,,Operational
-16,Synoptic feature sequences,316078,(GFA strong surface wind),,033042,Type of limit represented by following value,= 0 Exclusive lower limit,,,Operational
-16,Synoptic feature sequences,316078,(GFA strong surface wind),,011012,Wind speed at 10 m,,,,Operational
-16,Synoptic feature sequences,316078,(GFA strong surface wind),,008041,Data significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316078,(GFA strong surface wind),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316079,(GFA low-level wind shear),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
-16,Synoptic feature sequences,316079,(GFA low-level wind shear),,008011,Meteorological feature,= 16 Phenomenon,,,Operational
-16,Synoptic feature sequences,316079,(GFA low-level wind shear),,316074,GFA identifier and observed/forecast location,,,,Operational
-16,Synoptic feature sequences,316079,(GFA low-level wind shear),,020023,Other weather phenomena,Bit 12 = Wind shear,,,Operational
-16,Synoptic feature sequences,316079,(GFA low-level wind shear),,020024,Intensity of phenomena,,,,Operational
-16,Synoptic feature sequences,316079,(GFA low-level wind shear),,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316079,(GFA low-level wind shear),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316080,(GFA icing),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
-16,Synoptic feature sequences,316080,(GFA icing),,008011,Meteorological feature,= 15 Airframe icing,,,Operational
-16,Synoptic feature sequences,316080,(GFA icing),,316074,GFA identifier and observed/forecast location,,,,Operational
-16,Synoptic feature sequences,316080,(GFA icing),,020041,Airframe icing,= 4 Moderate icing,,,Operational
-16,Synoptic feature sequences,316080,(GFA icing),,008011,Meteorological feature,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316080,(GFA icing),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316081,(GFA freezing level),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
-16,Synoptic feature sequences,316081,(GFA freezing level),,008041,Data significance,"= 11 Freezing level, = 12 Multiple freezing level",,,Operational
-16,Synoptic feature sequences,316081,(GFA freezing level),,316074,GFA identifier and observed/forecast location,,,,Operational
-16,Synoptic feature sequences,316081,(GFA freezing level),,008041,Data significance,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316081,(GFA freezing level),,008079,Product status,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001033,Identification of originating/generating centre,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001034,Identification of originating/generating sub-centre,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001032,Generating application,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001025,Storm identifier,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001027,WMO long storm name,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001090,Technique for making up initial perturbations,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001091,Ensemble member number,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001092,Type of ensemble forecast,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,010051,Pressure reduced to mean sea level,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,011012,Wind speed at 10 m,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,107003,Delayed replication of 7 descriptors,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019003,Wind speed threshold,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,105004,Delayed replication of 5 descriptors,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201131,Change data width,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,116000,Delayed replication of 16 descriptors,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008021,Time significance,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,004024,Time period or displacement,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,010051,Pressure reduced to mean sea level,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,011012,Wind speed at 10 m,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,107003,Delayed replication of 7 descriptors,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019003,Wind speed threshold,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,105004,Delayed replication of 5 descriptors,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201131,Change data width,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
-16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001033,Identification of originating/generating centre,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001034,Identification of originating/generating sub-centre,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001032,Generating application,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001130,Storm identifier (long),,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001027,WMO long storm name,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001030,Numerical model identifier,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001090,Technique for making up initial perturbations,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001091,Ensemble member number,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001092,Type of ensemble forecast,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301011,"Year, month, day",,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301012,"Hour, minute",,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,010051,Pressure reduced to mean sea level,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,011012,Wind speed at 10 m,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,107004,Replicate 7 descriptors 4 times,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,019003,Wind speed threshold,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,105004,Replicate 5 descriptors 4 times,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,005021,Bearing or azimuth,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,005021,Bearing or azimuth,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,201131,Change data width,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,201000,Change data width,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,116000,Delayed replication of 16 descriptors,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008021,Time significance,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,004024,Time period or displacement,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,010051,Pressure reduced to mean sea level,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,011012,Wind speed at 10 m,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,107004,Replicate 7 descriptors 4 times,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,019003,Wind speed threshold,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,105004,Replicate 5 descriptors 4 times,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,005021,Bearing or azimuth,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,005021,Bearing or azimuth,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,201131,Change data width,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,201000,Change data width,Set to missing (cancel),,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,104000,Delayed replication of 4 descriptors,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,031001,Delayed descriptor replication factor,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008055,Method used to calculate the average wind components after removing vortex,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,007004,Pressure,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,011024,Average u-component after the vortex removal,,,,Operational
-16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,011025,Average v-component after the vortex removal,,,,Operational
+Id,Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,ElementDescription_en,Note_en,noteIDs,Status
+bufr4/3/16/001/1/301011,16,Synoptic feature sequences,316001,,,301011,"Year, month, day",,,,Operational
+bufr4/3/16/001/2/004004,16,Synoptic feature sequences,316001,,,004004,Hour,,,,Operational
+bufr4/3/16/001/3/301023,16,Synoptic feature sequences,316001,,,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/001/4/001021,16,Synoptic feature sequences,316001,,,001021,Synoptic feature identifier,,,,Operational
+bufr4/3/16/001/5/002041,16,Synoptic feature sequences,316001,,,002041,Method for estimating reports related to synoptic features,,,,Operational
+bufr4/3/16/001/6/019001,16,Synoptic feature sequences,316001,,,019001,Type of synoptic feature,,,,Operational
+bufr4/3/16/001/7/010051,16,Synoptic feature sequences,316001,,,010051,Pressure reduced to mean sea level,,,,Operational
+bufr4/3/16/001/8/019002,16,Synoptic feature sequences,316001,,,019002,Effective radius of feature,,,,Operational
+bufr4/3/16/001/9/019003,16,Synoptic feature sequences,316001,,,019003,Wind speed threshold,15 m s-1 typically,,,Operational
+bufr4/3/16/001/10/019004,16,Synoptic feature sequences,316001,,,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
+bufr4/3/16/002/1/008021,16,Synoptic feature sequences,316002,(Header),,008021,Time significance,Data time (analysis),,,Operational
+bufr4/3/16/002/2/004001,16,Synoptic feature sequences,316002,(Header),,004001,Year,,,,Operational
+bufr4/3/16/002/3/004002,16,Synoptic feature sequences,316002,(Header),,004002,Month,,,,Operational
+bufr4/3/16/002/4/004003,16,Synoptic feature sequences,316002,(Header),,004003,Day,,,,Operational
+bufr4/3/16/002/5/004004,16,Synoptic feature sequences,316002,(Header),,004004,Hour,,,,Operational
+bufr4/3/16/002/6/004005,16,Synoptic feature sequences,316002,(Header),,004005,Minute,,,,Operational
+bufr4/3/16/002/7/001033,16,Synoptic feature sequences,316002,(Header),,001033,Identification of originating/generating centre,,,,Operational
+bufr4/3/16/002/8/008021,16,Synoptic feature sequences,316002,(Header),,008021,Time significance,Validity time (forecast),,,Operational
+bufr4/3/16/002/9/004001,16,Synoptic feature sequences,316002,(Header),,004001,Year,,,,Operational
+bufr4/3/16/002/10/004002,16,Synoptic feature sequences,316002,(Header),,004002,Month,,,,Operational
+bufr4/3/16/002/11/004003,16,Synoptic feature sequences,316002,(Header),,004003,Day,,,,Operational
+bufr4/3/16/002/12/004004,16,Synoptic feature sequences,316002,(Header),,004004,Hour,,,,Operational
+bufr4/3/16/002/13/004005,16,Synoptic feature sequences,316002,(Header),,004005,Minute,,,,Operational
+bufr4/3/16/002/14/007002,16,Synoptic feature sequences,316002,(Header),,007002,Height or altitude,Flight level (base of chart layer),,,Operational
+bufr4/3/16/002/15/007002,16,Synoptic feature sequences,316002,(Header),,007002,Height or altitude,Flight level (top of chart layer),,,Operational
+bufr4/3/16/003/1/110000,16,Synoptic feature sequences,316003,(Jet stream),,110000,Delayed replication of 10 descriptors,,,,Operational
+bufr4/3/16/003/2/031001,16,Synoptic feature sequences,316003,(Jet stream),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/003/3/008011,16,Synoptic feature sequences,316003,(Jet stream),,008011,Meteorological feature,Jet stream value,,,Operational
+bufr4/3/16/003/4/008007,16,Synoptic feature sequences,316003,(Jet stream),,008007,Dimensional significance,Value for line,,,Operational
+bufr4/3/16/003/5/104000,16,Synoptic feature sequences,316003,(Jet stream),,104000,Delayed replication of 4 descriptors,,,,Operational
+bufr4/3/16/003/6/031001,16,Synoptic feature sequences,316003,(Jet stream),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/003/7/005002,16,Synoptic feature sequences,316003,(Jet stream),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/003/8/006002,16,Synoptic feature sequences,316003,(Jet stream),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/003/9/010002,16,Synoptic feature sequences,316003,(Jet stream),,010002,Height,Flight level,,,Operational
+bufr4/3/16/003/10/011002,16,Synoptic feature sequences,316003,(Jet stream),,011002,Wind speed,,,,Operational
+bufr4/3/16/003/11/008007,16,Synoptic feature sequences,316003,(Jet stream),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/003/12/008011,16,Synoptic feature sequences,316003,(Jet stream),,008011,Meteorological feature,Cancel | End of object,,,Operational
+bufr4/3/16/004/1/111000,16,Synoptic feature sequences,316004,(Turbulence),,111000,Delayed replication of 11 descriptors,,,,Operational
+bufr4/3/16/004/2/031001,16,Synoptic feature sequences,316004,(Turbulence),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/004/3/008011,16,Synoptic feature sequences,316004,(Turbulence),,008011,Meteorological feature,Value for turbulence,,,Operational
+bufr4/3/16/004/4/008007,16,Synoptic feature sequences,316004,(Turbulence),,008007,Dimensional significance,Value for area,,,Operational
+bufr4/3/16/004/5/007002,16,Synoptic feature sequences,316004,(Turbulence),,007002,Height or altitude,Flight level (base of layer),,,Operational
+bufr4/3/16/004/6/007002,16,Synoptic feature sequences,316004,(Turbulence),,007002,Height or altitude,Flight level (top of layer),,,Operational
+bufr4/3/16/004/7/102000,16,Synoptic feature sequences,316004,(Turbulence),,102000,Delayed replication of 2 descriptors,,,,Operational
+bufr4/3/16/004/8/031001,16,Synoptic feature sequences,316004,(Turbulence),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/004/9/005002,16,Synoptic feature sequences,316004,(Turbulence),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/004/10/006002,16,Synoptic feature sequences,316004,(Turbulence),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/004/11/011031,16,Synoptic feature sequences,316004,(Turbulence),,011031,Degree of turbulence,,(see Note 1),20,Operational
+bufr4/3/16/004/12/008007,16,Synoptic feature sequences,316004,(Turbulence),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/004/13/008011,16,Synoptic feature sequences,316004,(Turbulence),,008011,Meteorological feature,Cancel | End of object,,,Operational
+bufr4/3/16/005/1/108000,16,Synoptic feature sequences,316005,(Storm),,108000,Delayed replication of 8 descriptors,,,,Operational
+bufr4/3/16/005/2/031001,16,Synoptic feature sequences,316005,(Storm),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/005/3/008005,16,Synoptic feature sequences,316005,(Storm),,008005,Meteorological attribute significance,Storm centre,,,Operational
+bufr4/3/16/005/4/008007,16,Synoptic feature sequences,316005,(Storm),,008007,Dimensional significance,Value for point,,,Operational
+bufr4/3/16/005/5/005002,16,Synoptic feature sequences,316005,(Storm),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/005/6/006002,16,Synoptic feature sequences,316005,(Storm),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/005/7/001026,16,Synoptic feature sequences,316005,(Storm),,001026,WMO storm name,"Use ""UNKNOWN"" for a sandstorm",,,Operational
+bufr4/3/16/005/8/019001,16,Synoptic feature sequences,316005,(Storm),,019001,Type of synoptic feature,Value for type of storm,,,Operational
+bufr4/3/16/005/9/008007,16,Synoptic feature sequences,316005,(Storm),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/005/10/008005,16,Synoptic feature sequences,316005,(Storm),,008005,Meteorological attribute significance,Cancel | End of object,,,Operational
+bufr4/3/16/006/1/112000,16,Synoptic feature sequences,316006,(Cloud),,112000,Delayed replication of 12 descriptors,,,,Operational
+bufr4/3/16/006/2/031001,16,Synoptic feature sequences,316006,(Cloud),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/006/3/008011,16,Synoptic feature sequences,316006,(Cloud),,008011,Meteorological feature,Value for cloud,,,Operational
+bufr4/3/16/006/4/008007,16,Synoptic feature sequences,316006,(Cloud),,008007,Dimensional significance,Value for area,,,Operational
+bufr4/3/16/006/5/007002,16,Synoptic feature sequences,316006,(Cloud),,007002,Height or altitude,Flight level (base of layer),,,Operational
+bufr4/3/16/006/6/007002,16,Synoptic feature sequences,316006,(Cloud),,007002,Height or altitude,Flight level (top of layer),,,Operational
+bufr4/3/16/006/7/102000,16,Synoptic feature sequences,316006,(Cloud),,102000,Delayed replication of 2 descriptors,,,,Operational
+bufr4/3/16/006/8/031001,16,Synoptic feature sequences,316006,(Cloud),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/006/9/005002,16,Synoptic feature sequences,316006,(Cloud),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/006/10/006002,16,Synoptic feature sequences,316006,(Cloud),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/006/11/020011,16,Synoptic feature sequences,316006,(Cloud),,020011,Cloud amount,,(see Note 2),6,Operational
+bufr4/3/16/006/12/020012,16,Synoptic feature sequences,316006,(Cloud),,020012,Cloud type,,,,Operational
+bufr4/3/16/006/13/008007,16,Synoptic feature sequences,316006,(Cloud),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/006/14/008011,16,Synoptic feature sequences,316006,(Cloud),,008011,Meteorological feature,Cancel | End of object,,,Operational
+bufr4/3/16/007/1/110000,16,Synoptic feature sequences,316007,(Front),,110000,Delayed replication of 10 descriptors,,,,Operational
+bufr4/3/16/007/2/031001,16,Synoptic feature sequences,316007,(Front),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/007/3/008011,16,Synoptic feature sequences,316007,(Front),,008011,Meteorological feature,Value for type of front,(see Note 3),21,Operational
+bufr4/3/16/007/4/008007,16,Synoptic feature sequences,316007,(Front),,008007,Dimensional significance,Value for line,,,Operational
+bufr4/3/16/007/5/104000,16,Synoptic feature sequences,316007,(Front),,104000,Delayed replication of 4 descriptors,,,,Operational
+bufr4/3/16/007/6/031001,16,Synoptic feature sequences,316007,(Front),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/007/7/005002,16,Synoptic feature sequences,316007,(Front),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/007/8/006002,16,Synoptic feature sequences,316007,(Front),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/007/9/019005,16,Synoptic feature sequences,316007,(Front),,019005,Direction of motion of feature,,,,Operational
+bufr4/3/16/007/10/019006,16,Synoptic feature sequences,316007,(Front),,019006,Speed of motion of feature,,,,Operational
+bufr4/3/16/007/11/008007,16,Synoptic feature sequences,316007,(Front),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/007/12/008011,16,Synoptic feature sequences,316007,(Front),,008011,Meteorological feature,Cancel | End of object,,,Operational
+bufr4/3/16/008/1/111000,16,Synoptic feature sequences,316008,(Tropopause),,111000,Delayed replication of 11 descriptors,,,,Operational
+bufr4/3/16/008/2/031001,16,Synoptic feature sequences,316008,(Tropopause),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/008/3/008001,16,Synoptic feature sequences,316008,(Tropopause),,008001,Vertical sounding significance,Bit 3 set for tropopause,,,Operational
+bufr4/3/16/008/4/008007,16,Synoptic feature sequences,316008,(Tropopause),,008007,Dimensional significance,Value for point,,,Operational
+bufr4/3/16/008/5/008023,16,Synoptic feature sequences,316008,(Tropopause),,008023,First-order statistics,Type of tropopause value,(see Note 4),58,Operational
+bufr4/3/16/008/6/103000,16,Synoptic feature sequences,316008,(Tropopause),,103000,Delayed replication of 3 descriptors,,,,Operational
+bufr4/3/16/008/7/031001,16,Synoptic feature sequences,316008,(Tropopause),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/008/8/005002,16,Synoptic feature sequences,316008,(Tropopause),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/008/9/006002,16,Synoptic feature sequences,316008,(Tropopause),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/008/10/010002,16,Synoptic feature sequences,316008,(Tropopause),,010002,Height,,,,Operational
+bufr4/3/16/008/11/008023,16,Synoptic feature sequences,316008,(Tropopause),,008023,First-order statistics,Cancel,,,Operational
+bufr4/3/16/008/12/008007,16,Synoptic feature sequences,316008,(Tropopause),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/008/13/008001,16,Synoptic feature sequences,316008,(Tropopause),,008001,Vertical sounding significance,Cancel | End of object,,,Operational
+bufr4/3/16/009/1/111000,16,Synoptic feature sequences,316009,(Airframe icing area),,111000,Delayed replication of 11 descriptors,,,,Operational
+bufr4/3/16/009/2/031001,16,Synoptic feature sequences,316009,(Airframe icing area),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/009/3/008011,16,Synoptic feature sequences,316009,(Airframe icing area),,008011,Meteorological feature,Value for airframe icing,,,Operational
+bufr4/3/16/009/4/008007,16,Synoptic feature sequences,316009,(Airframe icing area),,008007,Dimensional significance,Value for area,,,Operational
+bufr4/3/16/009/5/007002,16,Synoptic feature sequences,316009,(Airframe icing area),,007002,Height or altitude,Flight level (base of layer),,,Operational
+bufr4/3/16/009/6/007002,16,Synoptic feature sequences,316009,(Airframe icing area),,007002,Height or altitude,Flight level (top of layer),,,Operational
+bufr4/3/16/009/7/102000,16,Synoptic feature sequences,316009,(Airframe icing area),,102000,Delayed replication of 2 descriptors,,,,Operational
+bufr4/3/16/009/8/031001,16,Synoptic feature sequences,316009,(Airframe icing area),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/009/9/005002,16,Synoptic feature sequences,316009,(Airframe icing area),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/009/10/006002,16,Synoptic feature sequences,316009,(Airframe icing area),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/009/11/020041,16,Synoptic feature sequences,316009,(Airframe icing area),,020041,Airframe icing,Type of airframe icing,,,Operational
+bufr4/3/16/009/12/008007,16,Synoptic feature sequences,316009,(Airframe icing area),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/009/13/008011,16,Synoptic feature sequences,316009,(Airframe icing area),,008011,Meteorological feature,Cancel | End of object,,,Operational
+bufr4/3/16/010/1/107000,16,Synoptic feature sequences,316010,(Name of feature),,107000,Delayed replication of 7 descriptors,,,,Operational
+bufr4/3/16/010/2/031001,16,Synoptic feature sequences,316010,(Name of feature),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/010/3/008011,16,Synoptic feature sequences,316010,(Name of feature),,008011,Meteorological feature,,,,Operational
+bufr4/3/16/010/4/008007,16,Synoptic feature sequences,316010,(Name of feature),,008007,Dimensional significance,Value for point,,,Operational
+bufr4/3/16/010/5/001022,16,Synoptic feature sequences,316010,(Name of feature),,001022,Name of feature,,,,Operational
+bufr4/3/16/010/6/005002,16,Synoptic feature sequences,316010,(Name of feature),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/010/7/006002,16,Synoptic feature sequences,316010,(Name of feature),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/010/8/008007,16,Synoptic feature sequences,316010,(Name of feature),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/010/9/008011,16,Synoptic feature sequences,316010,(Name of feature),,008011,Meteorological feature,Cancel | End of object,,,Operational
+bufr4/3/16/011/1/117000,16,Synoptic feature sequences,316011,(Volcano erupting),,117000,Delayed replication of 17 descriptors,,,,Operational
+bufr4/3/16/011/2/031001,16,Synoptic feature sequences,316011,(Volcano erupting),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/011/3/008011,16,Synoptic feature sequences,316011,(Volcano erupting),,008011,Meteorological feature,Value for special clouds,,,Operational
+bufr4/3/16/011/4/001022,16,Synoptic feature sequences,316011,(Volcano erupting),,001022,Name of feature,Volcano name,,,Operational
+bufr4/3/16/011/5/008007,16,Synoptic feature sequences,316011,(Volcano erupting),,008007,Dimensional significance,Value for point,,,Operational
+bufr4/3/16/011/6/102000,16,Synoptic feature sequences,316011,(Volcano erupting),,102000,Delayed replication of 2 descriptors,,,,Operational
+bufr4/3/16/011/7/031001,16,Synoptic feature sequences,316011,(Volcano erupting),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/011/8/005002,16,Synoptic feature sequences,316011,(Volcano erupting),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/011/9/006002,16,Synoptic feature sequences,316011,(Volcano erupting),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/011/10/008021,16,Synoptic feature sequences,316011,(Volcano erupting),,008021,Time significance,Eruption starting time,,,Operational
+bufr4/3/16/011/11/004001,16,Synoptic feature sequences,316011,(Volcano erupting),,004001,Year,,,,Operational
+bufr4/3/16/011/12/004002,16,Synoptic feature sequences,316011,(Volcano erupting),,004002,Month,,,,Operational
+bufr4/3/16/011/13/004003,16,Synoptic feature sequences,316011,(Volcano erupting),,004003,Day,,,,Operational
+bufr4/3/16/011/14/004004,16,Synoptic feature sequences,316011,(Volcano erupting),,004004,Hour,,,,Operational
+bufr4/3/16/011/15/004005,16,Synoptic feature sequences,316011,(Volcano erupting),,004005,Minute,,,,Operational
+bufr4/3/16/011/16/020090,16,Synoptic feature sequences,316011,(Volcano erupting),,020090,Special clouds,Clouds from volcanic eruptions,,,Operational
+bufr4/3/16/011/17/008021,16,Synoptic feature sequences,316011,(Volcano erupting),,008021,Time significance,Cancel,,,Operational
+bufr4/3/16/011/18/008007,16,Synoptic feature sequences,316011,(Volcano erupting),,008007,Dimensional significance,Cancel,,,Operational
+bufr4/3/16/011/19/008011,16,Synoptic feature sequences,316011,(Volcano erupting),,008011,Meteorological feature,Cancel | End of object,,,Operational
+bufr4/3/16/020/1/001033,16,Synoptic feature sequences,316020,(Tropical storm identification),,001033,Identification of originating/generating centre,,,,Operational
+bufr4/3/16/020/2/001025,16,Synoptic feature sequences,316020,(Tropical storm identification),,001025,Storm identifier,,,,Operational
+bufr4/3/16/020/3/001027,16,Synoptic feature sequences,316020,(Tropical storm identification),,001027,WMO long storm name,,,,Operational
+bufr4/3/16/020/4/301011,16,Synoptic feature sequences,316020,(Tropical storm identification),,301011,"Year, month, day",,,,Operational
+bufr4/3/16/020/5/301012,16,Synoptic feature sequences,316020,(Tropical storm identification),,301012,"Hour, minute",,,,Operational
+bufr4/3/16/021/1/301023,16,Synoptic feature sequences,316021,(Analysis data),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/021/2/002041,16,Synoptic feature sequences,316021,(Analysis data),,002041,Method for estimating reports related to synoptic features,,,,Operational
+bufr4/3/16/021/3/019001,16,Synoptic feature sequences,316021,(Analysis data),,019001,Type of synoptic feature,,,,Operational
+bufr4/3/16/021/4/019007,16,Synoptic feature sequences,316021,(Analysis data),,019007,Effective radius of feature,,,,Operational
+bufr4/3/16/021/5/019005,16,Synoptic feature sequences,316021,(Analysis data),,019005,Direction of motion of feature,,,,Operational
+bufr4/3/16/021/6/019006,16,Synoptic feature sequences,316021,(Analysis data),,019006,Speed of motion of feature,,,,Operational
+bufr4/3/16/021/7/019008,16,Synoptic feature sequences,316021,(Analysis data),,019008,Vertical extent of circulation,,,,Operational
+bufr4/3/16/021/8/008005,16,Synoptic feature sequences,316021,(Analysis data),,008005,Meteorological attribute significance,= 1 Storm centre,,,Operational
+bufr4/3/16/021/9/010004,16,Synoptic feature sequences,316021,(Analysis data),,010004,Pressure,Storm centre by virtue of preceding significance qualifier,,,Operational
+bufr4/3/16/021/10/008005,16,Synoptic feature sequences,316021,(Analysis data),,008005,Meteorological attribute significance,= 2 Outer limit or edge of feature,,,Operational
+bufr4/3/16/021/11/010004,16,Synoptic feature sequences,316021,(Analysis data),,010004,Pressure,Outer limit,,,Operational
+bufr4/3/16/021/12/019007,16,Synoptic feature sequences,316021,(Analysis data),,019007,Effective radius of feature,Outer limit,,,Operational
+bufr4/3/16/021/13/008005,16,Synoptic feature sequences,316021,(Analysis data),,008005,Meteorological attribute significance,= 3 Location of maximum wind,,,Operational
+bufr4/3/16/021/14/008021,16,Synoptic feature sequences,316021,(Analysis data),,008021,Time significance,Time averaged,,,Operational
+bufr4/3/16/021/15/004075,16,Synoptic feature sequences,316021,(Analysis data),,004075,Short time period or displacement,Minutes,,,Operational
+bufr4/3/16/021/16/011040,16,Synoptic feature sequences,316021,(Analysis data),,011040,Maximum wind speed (mean wind),,,,Operational
+bufr4/3/16/021/17/019007,16,Synoptic feature sequences,316021,(Analysis data),,019007,Effective radius of feature,Maximum wind,,,Operational
+bufr4/3/16/021/18/105004,16,Synoptic feature sequences,316021,(Analysis data),,105004,Replicate 5 descriptors 4 times,,,,Operational
+bufr4/3/16/021/19/005021,16,Synoptic feature sequences,316021,(Analysis data),,005021,Bearing or azimuth,Starting,,,Operational
+bufr4/3/16/021/20/005021,16,Synoptic feature sequences,316021,(Analysis data),,005021,Bearing or azimuth,Ending,,,Operational
+bufr4/3/16/021/21/102002,16,Synoptic feature sequences,316021,(Analysis data),,102002,Replicate 2 descriptors 2 times,,,,Operational
+bufr4/3/16/021/22/019003,16,Synoptic feature sequences,316021,(Analysis data),,019003,Wind speed threshold,,,,Operational
+bufr4/3/16/021/23/019004,16,Synoptic feature sequences,316021,(Analysis data),,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
+bufr4/3/16/022/1/001032,16,Synoptic feature sequences,316022,(Forecast data),,001032,Generating application,"NWP model name, etc. code table defined by originating/generating centre",,,Operational
+bufr4/3/16/022/2/002041,16,Synoptic feature sequences,316022,(Forecast data),,002041,Method for estimating reports related to synoptic features,,,,Operational
+bufr4/3/16/022/3/019001,16,Synoptic feature sequences,316022,(Forecast data),,019001,Type of synoptic feature,,,,Operational
+bufr4/3/16/022/4/019010,16,Synoptic feature sequences,316022,(Forecast data),,019010,Method for tracking the centre of synoptic feature,,,,Operational
+bufr4/3/16/022/5/118000,16,Synoptic feature sequences,316022,(Forecast data),,118000,Delayed replication of 18 descriptors,,,,Operational
+bufr4/3/16/022/6/031001,16,Synoptic feature sequences,316022,(Forecast data),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/022/7/008021,16,Synoptic feature sequences,316022,(Forecast data),,008021,Time significance,Forecast,,,Operational
+bufr4/3/16/022/8/004014,16,Synoptic feature sequences,316022,(Forecast data),,004014,Time increment,Hours,,,Operational
+bufr4/3/16/022/9/008005,16,Synoptic feature sequences,316022,(Forecast data),,008005,Meteorological attribute significance,Surface synoptic feature,,,Operational
+bufr4/3/16/022/10/301023,16,Synoptic feature sequences,316022,(Forecast data),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/022/11/019005,16,Synoptic feature sequences,316022,(Forecast data),,019005,Direction of motion of feature,,,,Operational
+bufr4/3/16/022/12/019006,16,Synoptic feature sequences,316022,(Forecast data),,019006,Speed of motion of feature,,,,Operational
+bufr4/3/16/022/13/010004,16,Synoptic feature sequences,316022,(Forecast data),,010004,Pressure,,,,Operational
+bufr4/3/16/022/14/011041,16,Synoptic feature sequences,316022,(Forecast data),,011041,Maximum wind gust speed,"For example, used in the United States",,,Operational
+bufr4/3/16/022/15/008021,16,Synoptic feature sequences,316022,(Forecast data),,008021,Time significance,Forecast time averaged,,,Operational
+bufr4/3/16/022/16/004075,16,Synoptic feature sequences,316022,(Forecast data),,004075,Short time period or displacement,Minutes,,,Operational
+bufr4/3/16/022/17/011040,16,Synoptic feature sequences,316022,(Forecast data),,011040,Maximum wind speed (mean wind),,,,Operational
+bufr4/3/16/022/18/019008,16,Synoptic feature sequences,316022,(Forecast data),,019008,Vertical extent of circulation,,,,Operational
+bufr4/3/16/022/19/105004,16,Synoptic feature sequences,316022,(Forecast data),,105004,Replicate 5 descriptors 4 times,,,,Operational
+bufr4/3/16/022/20/005021,16,Synoptic feature sequences,316022,(Forecast data),,005021,Bearing or azimuth,Starting,,,Operational
+bufr4/3/16/022/21/005021,16,Synoptic feature sequences,316022,(Forecast data),,005021,Bearing or azimuth,Ending,,,Operational
+bufr4/3/16/022/22/102002,16,Synoptic feature sequences,316022,(Forecast data),,102002,Replicate 2 descriptors 2 times,,,,Operational
+bufr4/3/16/022/23/019003,16,Synoptic feature sequences,316022,(Forecast data),,019003,Wind speed threshold,,,,Operational
+bufr4/3/16/022/24/019004,16,Synoptic feature sequences,316022,(Forecast data),,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
+bufr4/3/16/026/1/316020,16,Synoptic feature sequences,316026,(Tropical storm analysis information),,316020,Tropical storm identification,,,,Operational
+bufr4/3/16/026/2/316021,16,Synoptic feature sequences,316026,(Tropical storm analysis information),,316021,Analysis data,,,,Operational
+bufr4/3/16/027/1/316020,16,Synoptic feature sequences,316027,(Tropical storm forecast information),,316020,Tropical storm identification,,,,Operational
+bufr4/3/16/027/2/316022,16,Synoptic feature sequences,316027,(Tropical storm forecast information),,316022,Forecast data,,,,Operational
+bufr4/3/16/030/1/301014,16,Synoptic feature sequences,316030,(SIGMET header),,301014,Time period,For which SIGMET is valid,,,Operational
+bufr4/3/16/030/2/001037,16,Synoptic feature sequences,316030,(SIGMET header),,001037,SIGMET sequence identifier,,,,Operational
+bufr4/3/16/030/3/010064,16,Synoptic feature sequences,316030,(SIGMET header),,010064,SIGMET cruising level,,,,Operational
+bufr4/3/16/030/4/008019,16,Synoptic feature sequences,316030,(SIGMET header),,008019,Qualifier for following centre identifier,= 1 ATS unit serving FIR,,,Operational
+bufr4/3/16/030/5/001062,16,Synoptic feature sequences,316030,(SIGMET header),,001062,Short ICAO location indicator,,,,Operational
+bufr4/3/16/030/6/008019,16,Synoptic feature sequences,316030,(SIGMET header),,008019,Qualifier for following centre identifier,"= 2 FIR, = 3 UIR, = 4 CTA",,,Operational
+bufr4/3/16/030/7/001065,16,Synoptic feature sequences,316030,(SIGMET header),,001065,ICAO region identifier,,,,Operational
+bufr4/3/16/030/8/008019,16,Synoptic feature sequences,316030,(SIGMET header),,008019,Qualifier for following centre identifier,= 6 MWO,,,Operational
+bufr4/3/16/030/9/001062,16,Synoptic feature sequences,316030,(SIGMET header),,001062,Short ICAO location indicator,,,,Operational
+bufr4/3/16/030/10/008019,16,Synoptic feature sequences,316030,(SIGMET header),,008019,Qualifier for following centre identifier,Set to missing (cancel),,,Operational
+bufr4/3/16/031/1/008021,16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,008021,Time significance,"= 16 Analysis, = 4 Forecast",,,Operational
+bufr4/3/16/031/2/301011,16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,301011,"Year, month, day",,,,Operational
+bufr4/3/16/031/3/301012,16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,301012,"Hour, minute",,,,Operational
+bufr4/3/16/031/4/301027,16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,301027,Description of a feature in 3-D or 2-D,,,,Operational
+bufr4/3/16/031/5/019005,16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,019005,Direction of motion of feature,,,,Operational
+bufr4/3/16/031/6/019006,16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,019006,Speed of motion of feature,,,,Operational
+bufr4/3/16/031/7/020028,16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,020028,Expected change in intensity,,,,Operational
+bufr4/3/16/031/8/008021,16,Synoptic feature sequences,316031,"(SIGMET, Observed or forecast location and motion)",,008021,Time significance,Set to missing (cancel),,,Operational
+bufr4/3/16/032/1/008021,16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,008021,Time significance,= 4 Forecast,,,Operational
+bufr4/3/16/032/2/301011,16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,301011,"Year, month, day",,,,Operational
+bufr4/3/16/032/3/301012,16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,301012,"Hour, minute",,,,Operational
+bufr4/3/16/032/4/301027,16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,301027,Description of a feature in 3-D or 2-D,,,,Operational
+bufr4/3/16/032/5/008021,16,Synoptic feature sequences,316032,"(SIGMET, Forecast position)",,008021,Time significance,Set to missing (cancel),,,Operational
+bufr4/3/16/033/1/008021,16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,008021,Time significance,= 4 Forecast,,,Operational
+bufr4/3/16/033/2/301011,16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,301011,"Year, month, day",,,,Operational
+bufr4/3/16/033/3/301012,16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,301012,"Hour, minute",,,,Operational
+bufr4/3/16/033/4/101000,16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/033/5/031001,16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/033/6/301027,16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,301027,Description of a feature in 3-D or 2-D,,,,Operational
+bufr4/3/16/033/7/008021,16,Synoptic feature sequences,316033,"(SIGMET, Outlook)",,008021,Time significance,Set to missing (cancel),,,Operational
+bufr4/3/16/034/1/008079,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
+bufr4/3/16/034/2/316030,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,316030,SIGMET header,,,,Operational
+bufr4/3/16/034/3/008011,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008011,Meteorological feature,= 17 Volcano,,,Operational
+bufr4/3/16/034/4/001022,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,001022,Name of feature,,,,Operational
+bufr4/3/16/034/5/008007,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008007,Dimensional significance,= 0 Point,,,Operational
+bufr4/3/16/034/6/301023,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/034/7/008007,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008007,Dimensional significance,Set to missing (cancel),,,Operational
+bufr4/3/16/034/8/020090,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,020090,Special clouds,= 5 Clouds from volcanic eruptions,,,Operational
+bufr4/3/16/034/9/316031,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
+bufr4/3/16/034/10/101000,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/034/11/031000,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,031000,Short delayed descriptor replication factor,,,,Operational
+bufr4/3/16/034/12/316032,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,316032,"SIGMET, Forecast position",,,,Operational
+bufr4/3/16/034/13/101000,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/034/14/031001,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/034/15/316033,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,316033,"SIGMET, Outlook",,,,Operational
+bufr4/3/16/034/16/008011,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/034/17/008079,16,Synoptic feature sequences,316034,(Volcanic Ash SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/035/1/008079,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
+bufr4/3/16/035/2/316030,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,316030,SIGMET header,,,,Operational
+bufr4/3/16/035/3/008011,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,008011,Meteorological feature,= 21 Thunderstorm,,,Operational
+bufr4/3/16/035/4/020023,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,020023,Other weather phenomena,Bit 2 = Squalls or all 18 bits = Missing,,,Operational
+bufr4/3/16/035/5/020021,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,020021,Type of precipitation,Bit 14 = Hail or all 30 bits = Missing,,,Operational
+bufr4/3/16/035/6/020008,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,020008,Cloud distribution for aviation,"= 15 OBSC, = 16 EMBD, = 12 FRQ, = 31 Missing",,,Operational
+bufr4/3/16/035/7/316031,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
+bufr4/3/16/035/8/008011,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/035/9/008079,16,Synoptic feature sequences,316035,(Thunderstorm SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/036/1/008079,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
+bufr4/3/16/036/2/316030,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,316030,SIGMET header,,,,Operational
+bufr4/3/16/036/3/008011,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,008011,Meteorological feature,= 22 Tropical cyclone,,,Operational
+bufr4/3/16/036/4/001027,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,001027,WMO long storm name,,,,Operational
+bufr4/3/16/036/5/316031,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
+bufr4/3/16/036/6/101000,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/036/7/031000,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,031000,Short delayed descriptor replication factor,,,,Operational
+bufr4/3/16/036/8/316032,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,316032,"SIGMET, Forecast position",,,,Operational
+bufr4/3/16/036/9/101000,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/036/10/031001,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/036/11/316033,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,316033,"SIGMET, Outlook",,,,Operational
+bufr4/3/16/036/12/008011,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/036/13/008079,16,Synoptic feature sequences,316036,(Tropical cyclone SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/037/1/008079,16,Synoptic feature sequences,316037,(Turbulence SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
+bufr4/3/16/037/2/316030,16,Synoptic feature sequences,316037,(Turbulence SIGMET),,316030,SIGMET header,,,,Operational
+bufr4/3/16/037/3/008011,16,Synoptic feature sequences,316037,(Turbulence SIGMET),,008011,Meteorological feature,= 13 Turbulence,,,Operational
+bufr4/3/16/037/4/011031,16,Synoptic feature sequences,316037,(Turbulence SIGMET),,011031,Degree of turbulence,"= 10 Moderate, = 11 Severe",,,Operational
+bufr4/3/16/037/5/316031,16,Synoptic feature sequences,316037,(Turbulence SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
+bufr4/3/16/037/6/008011,16,Synoptic feature sequences,316037,(Turbulence SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/037/7/008079,16,Synoptic feature sequences,316037,(Turbulence SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/038/1/008079,16,Synoptic feature sequences,316038,(Icing SIGMET),,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
+bufr4/3/16/038/2/316030,16,Synoptic feature sequences,316038,(Icing SIGMET),,316030,SIGMET header,,,,Operational
+bufr4/3/16/038/3/008011,16,Synoptic feature sequences,316038,(Icing SIGMET),,008011,Meteorological feature,= 15 Airframe icing,,,Operational
+bufr4/3/16/038/4/020041,16,Synoptic feature sequences,316038,(Icing SIGMET),,020041,Airframe icing,= 7 Severe,,,Operational
+bufr4/3/16/038/5/020021,16,Synoptic feature sequences,316038,(Icing SIGMET),,020021,Type of precipitation,Bit 3 = Liquid freezing or all 30 bits = Missing,,,Operational
+bufr4/3/16/038/6/316031,16,Synoptic feature sequences,316038,(Icing SIGMET),,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
+bufr4/3/16/038/7/008011,16,Synoptic feature sequences,316038,(Icing SIGMET),,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/038/8/008079,16,Synoptic feature sequences,316038,(Icing SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/039/1/008079,16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,008079,Product status,"= 0 Normal issue, = 1 Correction",,,Operational
+bufr4/3/16/039/2/316030,16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,316030,SIGMET header,,,,Operational
+bufr4/3/16/039/3/008011,16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,008011,Meteorological feature,"= 23 Mountain wave, = 24 Duststorm, = 25 Sandstorm",,,Operational
+bufr4/3/16/039/4/020024,16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,020024,Intensity of phenomena,"= 3 Heavy, = 5 Severe",,,Operational
+bufr4/3/16/039/5/316031,16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,316031,"SIGMET, Observed or forecast location and motion",,,,Operational
+bufr4/3/16/039/6/008011,16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/039/7/008079,16,Synoptic feature sequences,316039,"(Mountain wave, duststorm or sandstorm SIGMET)",,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/040/1/316030,16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,316030,SIGMET header,,,,Operational
+bufr4/3/16/040/2/008079,16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,008079,Product status,= 4 Cancellation,,,Operational
+bufr4/3/16/040/3/301014,16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,301014,Time period,Of the SIGMET to be cancelled,,,Operational
+bufr4/3/16/040/4/001037,16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,001037,SIGMET sequence identifier,Of the SIGMET to be cancelled,,,Operational
+bufr4/3/16/040/5/010064,16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,010064,SIGMET cruising level,Of the SIGMET to be cancelled,,,Operational
+bufr4/3/16/040/6/008079,16,Synoptic feature sequences,316040,(Cancellation of SIGMET),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/050/1/301001,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,301001,WMO block and station numbers,,,,Operational
+bufr4/3/16/050/2/301011,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,301011,"Year, month, day",,,,Operational
+bufr4/3/16/050/3/301012,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,301012,"Hour, minute",,,,Operational
+bufr4/3/16/050/4/002160,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,002160,Wavelength of the radar,,,,Operational
+bufr4/3/16/050/5/008005,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,008005,Meteorological attribute significance,= 1,,,Operational
+bufr4/3/16/050/6/005002,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/050/7/006002,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/050/8/008005,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,008005,Meteorological attribute significance,Cancel,,,Operational
+bufr4/3/16/050/9/019100,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019100,Time interval to calculate the movement of the tropical cyclone,,,,Operational
+bufr4/3/16/050/10/019005,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019005,Direction of motion of feature,,,,Operational
+bufr4/3/16/050/11/019006,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019006,Speed of motion of feature,,,,Operational
+bufr4/3/16/050/12/019101,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019101,Accuracy of the position of the centre of the tropical cyclone,,,,Operational
+bufr4/3/16/050/13/019102,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019102,Shape and definition of the eye of the tropical cyclone,,,,Operational
+bufr4/3/16/050/14/019103,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019103,Diameter of major axis of the eye of the tropical cyclone,,,,Operational
+bufr4/3/16/050/15/019104,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019104,Change in character of the eye during the 30 minutes,,,,Operational
+bufr4/3/16/050/16/019105,16,Synoptic feature sequences,316050,(RADOB template - Part A: Information on tropical cyclone),,019105,Distance between the end of spiral band and the centre,,,,Operational
+bufr4/3/16/052/1/301005,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,301005,Originating centre/sub-centre,,,,Operational
+bufr4/3/16/052/2/301011,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,301011,"Year, month, day",,,,Operational
+bufr4/3/16/052/3/301012,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,301012,"Hour, minute",,,,Operational
+bufr4/3/16/052/4/001007,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,001007,Satellite identifier,,,,Operational
+bufr4/3/16/052/5/025150,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,025150,Method of tropical cyclone intensity analysis using satellite data,,,,Operational
+bufr4/3/16/052/6/122000,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,122000,Delayed replication of 22 descriptors,,,,Operational
+bufr4/3/16/052/7/031001,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/052/8/001027,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,001027,WMO long storm name,,,,Operational
+bufr4/3/16/052/9/019150,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019150,Typhoon International Common Number (Typhoon Committee),,,,Operational
+bufr4/3/16/052/10/019106,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019106,Identification number of tropical cyclone,,,,Operational
+bufr4/3/16/052/11/008005,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,008005,Meteorological attribute significance,= 1,,,Operational
+bufr4/3/16/052/12/005002,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/052/13/006002,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/052/14/008005,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,008005,Meteorological attribute significance,Cancel,,,Operational
+bufr4/3/16/052/15/019107,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019107,Time interval over which the movement of the tropical cyclone has been calculated,,,,Operational
+bufr4/3/16/052/16/019005,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019005,Direction of motion of feature,,,,Operational
+bufr4/3/16/052/17/019006,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019006,Speed of motion of feature,,,,Operational
+bufr4/3/16/052/18/019108,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019108,Accuracy of geographical position of the tropical cyclone,,,,Operational
+bufr4/3/16/052/19/019109,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019109,Mean diameter of the overcast cloud of the tropical cyclone,,,,Operational
+bufr4/3/16/052/20/019110,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019110,Apparent 24-hour change in intensity of the tropical cyclone,,,,Operational
+bufr4/3/16/052/21/019111,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019111,Current Intensity (CI) number of the tropical cyclone,,,,Operational
+bufr4/3/16/052/22/019112,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019112,Data Tropical (DT) number of the tropical cyclone,,,,Operational
+bufr4/3/16/052/23/019113,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019113,Cloud pattern type of the DT-number,,,,Operational
+bufr4/3/16/052/24/019114,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019114,Model Expected Tropical (MET) number of the tropical cyclone,,,,Operational
+bufr4/3/16/052/25/019115,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019115,"Trend of the past 24-hour change (+: Developed, -: Weakened)",,,,Operational
+bufr4/3/16/052/26/019116,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019116,Pattern Tropical (PT) number of the tropical cyclone,,,,Operational
+bufr4/3/16/052/27/019117,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019117,Cloud picture type of the PT-number,,,,Operational
+bufr4/3/16/052/28/019118,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019118,Final Tropical (T) number of the tropical cyclone,,,,Operational
+bufr4/3/16/052/29/019119,16,Synoptic feature sequences,316052,(SAREP template - Part A: Information on tropical cyclone),,019119,Type of the final T-number,,,,Operational
+bufr4/3/16/060/1/301011,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",,301011,"Year, month, day",,,,Operational
+bufr4/3/16/060/2/301012,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",,301012,"Hour, minute",,,,Operational
+bufr4/3/16/060/3/005002,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Position of squall line centre,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/060/4/006002,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Position of squall line centre,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/060/5/019005,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Position of squall line centre,019005,Direction of motion of feature,,,,Operational
+bufr4/3/16/060/6/019006,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Position of squall line centre,019006,Speed of motion of feature,,,,Operational
+bufr4/3/16/060/7/005002,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - North point,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/060/8/006002,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - North point,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/060/9/005002,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - South point,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/060/10/006002,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - South point,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/060/11/004074,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - Evolution,004074,Short time period or displacement,Period of validity,,,Operational
+bufr4/3/16/060/12/020048,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - Evolution,020048,Evolution of feature,,,,Operational
+bufr4/3/16/060/13/011041,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - Evolution,011041,Maximum wind gust speed,Maximum burst expected,,,Operational
+bufr4/3/16/060/14/013055,16,Synoptic feature sequences,316060,"(Definition of squall line (by 3 points: Centre, North, South) and forecasted trajectory and evolution)",Amplitude of feature from most external points to centre point - Evolution,013055,Intensity of precipitation,Intensity of rain expected,,,Operational
+bufr4/3/16/061/1/301011,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),,301011,"Year, month, day",,,,Operational
+bufr4/3/16/061/2/301012,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),,301012,"Hour, minute",,,,Operational
+bufr4/3/16/061/3/005002,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Position of squall line centre,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/061/4/006002,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Position of squall line centre,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/061/5/019005,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Position of squall line centre,019005,Direction of motion of feature,,,,Operational
+bufr4/3/16/061/6/019006,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Position of squall line centre,019006,Speed of motion of feature,,,,Operational
+bufr4/3/16/061/7/102000,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - North points,102000,Delayed replication of 2 descriptors,,,,Operational
+bufr4/3/16/061/8/031001,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - North points,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/061/9/005002,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - North points,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/061/10/006002,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - North points,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/061/11/102000,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - South points,102000,Delayed replication of 2 descriptors,,,,Operational
+bufr4/3/16/061/12/031001,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - South points,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/061/13/005002,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - South points,005002,Latitude (coarse accuracy),,,,Operational
+bufr4/3/16/061/14/006002,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - South points,006002,Longitude (coarse accuracy),,,,Operational
+bufr4/3/16/061/15/004074,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - Evolution,004074,Short time period or displacement,Period of validity,,,Operational
+bufr4/3/16/061/16/020048,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - Evolution,020048,Evolution of feature,,,,Operational
+bufr4/3/16/061/17/011041,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - Evolution,011041,Maximum wind gust speed,Maximum burst expected,,,Operational
+bufr4/3/16/061/18/013055,16,Synoptic feature sequences,316061,(Definition of squall line (by centre and several points: North points and South points) and forecasted trajectory and evolution),Amplitude of feature from most external points to centre point - Evolution,013055,Intensity of precipitation,Intensity of rain expected,,,Operational
+bufr4/3/16/071/1/301014,16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,301014,Time period,For which AIRMET is valid,,,Operational
+bufr4/3/16/071/2/101000,16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/071/3/031002,16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,031002,Extended delayed descriptor replication factor,,,,Operational
+bufr4/3/16/071/4/316075,16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,316075,GFA IFR ceiling and visibility,,,,Operational
+bufr4/3/16/071/5/101000,16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/071/6/031002,16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,031002,Extended delayed descriptor replication factor,,,,Operational
+bufr4/3/16/071/7/316076,16,Synoptic feature sequences,316071,(Graphical AIRMET Sierra),,316076,GFA mountain obscuration,,,,Operational
+bufr4/3/16/072/1/301014,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,301014,Time period,For which AIRMET is valid,,,Operational
+bufr4/3/16/072/2/101000,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/072/3/031002,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,031002,Extended delayed descriptor replication factor,,,,Operational
+bufr4/3/16/072/4/316077,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,316077,GFA turbulence,,,,Operational
+bufr4/3/16/072/5/101000,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/072/6/031002,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,031002,Extended delayed descriptor replication factor,,,,Operational
+bufr4/3/16/072/7/316078,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,316078,GFA strong surface wind,,,,Operational
+bufr4/3/16/072/8/101000,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/072/9/031002,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,031002,Extended delayed descriptor replication factor,,,,Operational
+bufr4/3/16/072/10/316079,16,Synoptic feature sequences,316072,(Graphical AIRMET Tango),,316079,GFA low-level wind shear,,,,Operational
+bufr4/3/16/073/1/301014,16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,301014,Time period,For which AIRMET is valid,,,Operational
+bufr4/3/16/073/2/101000,16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/073/3/031002,16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,031002,Extended delayed descriptor replication factor,,,,Operational
+bufr4/3/16/073/4/316080,16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,316080,GFA icing,,,,Operational
+bufr4/3/16/073/5/101000,16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,101000,Delayed replication of 1 descriptor,,,,Operational
+bufr4/3/16/073/6/031002,16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,031002,Extended delayed descriptor replication factor,,,,Operational
+bufr4/3/16/073/7/316081,16,Synoptic feature sequences,316073,(Graphical AIRMET Zulu),,316081,GFA freezing level,,,,Operational
+bufr4/3/16/074/1/001039,16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,001039,Graphical Area Forecast (GFA) sequence identifier,,,,Operational
+bufr4/3/16/074/2/008021,16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,008021,Time significance,"= 4 Forecast, = 16 Analysis",,,Operational
+bufr4/3/16/074/3/301014,16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,301014,Time period,For which hazard is being observed/forecast,,,Operational
+bufr4/3/16/074/4/301027,16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,301027,Description of a feature in 3-D or 2-D,,,,Operational
+bufr4/3/16/074/5/008021,16,Synoptic feature sequences,316074,(GFA identifier and observed/forecast location),,008021,Time significance,Set to missing (cancel),,,Operational
+bufr4/3/16/075/1/008079,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/075/2/008041,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,008041,Data significance,= 8 IFR ceiling and visibility,,,Operational
+bufr4/3/16/075/3/316074,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,316074,GFA identifier and observed/forecast location,,,,Operational
+bufr4/3/16/075/4/020006,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020006,Flight rules,= 1 IFR,,,Operational
+bufr4/3/16/075/5/033042,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,033042,Type of limit represented by following value,"= 2 Exclusive upper limit, = 7 Missing",,,Operational
+bufr4/3/16/075/6/020013,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020013,Height of base of cloud,,,,Operational
+bufr4/3/16/075/7/033042,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,033042,Type of limit represented by following value,"= 2 Exclusive upper limit, = 7 Missing",,,Operational
+bufr4/3/16/075/8/020001,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020001,Horizontal visibility,,,,Operational
+bufr4/3/16/075/9/020025,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020025,Obscuration,,,,Operational
+bufr4/3/16/075/10/020026,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,020026,Character of obscuration,"= 6 Blowing, = 15 Missing",,,Operational
+bufr4/3/16/075/11/008041,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,008041,Data significance,Set to missing (cancel),,,Operational
+bufr4/3/16/075/12/008079,16,Synoptic feature sequences,316075,(GFA IFR ceiling and visibility),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/076/1/008079,16,Synoptic feature sequences,316076,(GFA mountain obscuration),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/076/2/008041,16,Synoptic feature sequences,316076,(GFA mountain obscuration),,008041,Data significance,= 9 Mountain obscuration,,,Operational
+bufr4/3/16/076/3/316074,16,Synoptic feature sequences,316076,(GFA mountain obscuration),,316074,GFA identifier and observed/forecast location,,,,Operational
+bufr4/3/16/076/4/020006,16,Synoptic feature sequences,316076,(GFA mountain obscuration),,020006,Flight rules,= 1 IFR,,,Operational
+bufr4/3/16/076/5/020025,16,Synoptic feature sequences,316076,(GFA mountain obscuration),,020025,Obscuration,,,,Operational
+bufr4/3/16/076/6/020026,16,Synoptic feature sequences,316076,(GFA mountain obscuration),,020026,Character of obscuration,"= 6 Blowing, = 15 Missing",,,Operational
+bufr4/3/16/076/7/008041,16,Synoptic feature sequences,316076,(GFA mountain obscuration),,008041,Data significance,Set to missing (cancel),,,Operational
+bufr4/3/16/076/8/008079,16,Synoptic feature sequences,316076,(GFA mountain obscuration),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/077/1/008079,16,Synoptic feature sequences,316077,(GFA turbulence),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/077/2/008011,16,Synoptic feature sequences,316077,(GFA turbulence),,008011,Meteorological feature,= 13 Turbulence,,,Operational
+bufr4/3/16/077/3/316074,16,Synoptic feature sequences,316077,(GFA turbulence),,316074,GFA identifier and observed/forecast location,,,,Operational
+bufr4/3/16/077/4/011031,16,Synoptic feature sequences,316077,(GFA turbulence),,011031,Degree of turbulence,= 6 Moderate,,,Operational
+bufr4/3/16/077/5/008011,16,Synoptic feature sequences,316077,(GFA turbulence),,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/077/6/008079,16,Synoptic feature sequences,316077,(GFA turbulence),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/078/1/008079,16,Synoptic feature sequences,316078,(GFA strong surface wind),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/078/2/008041,16,Synoptic feature sequences,316078,(GFA strong surface wind),,008041,Data significance,= 10 Strong surface wind,,,Operational
+bufr4/3/16/078/3/316074,16,Synoptic feature sequences,316078,(GFA strong surface wind),,316074,GFA identifier and observed/forecast location,,,,Operational
+bufr4/3/16/078/4/033042,16,Synoptic feature sequences,316078,(GFA strong surface wind),,033042,Type of limit represented by following value,= 0 Exclusive lower limit,,,Operational
+bufr4/3/16/078/5/011012,16,Synoptic feature sequences,316078,(GFA strong surface wind),,011012,Wind speed at 10 m,,,,Operational
+bufr4/3/16/078/6/008041,16,Synoptic feature sequences,316078,(GFA strong surface wind),,008041,Data significance,Set to missing (cancel),,,Operational
+bufr4/3/16/078/7/008079,16,Synoptic feature sequences,316078,(GFA strong surface wind),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/079/1/008079,16,Synoptic feature sequences,316079,(GFA low-level wind shear),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/079/2/008011,16,Synoptic feature sequences,316079,(GFA low-level wind shear),,008011,Meteorological feature,= 16 Phenomenon,,,Operational
+bufr4/3/16/079/3/316074,16,Synoptic feature sequences,316079,(GFA low-level wind shear),,316074,GFA identifier and observed/forecast location,,,,Operational
+bufr4/3/16/079/4/020023,16,Synoptic feature sequences,316079,(GFA low-level wind shear),,020023,Other weather phenomena,Bit 12 = Wind shear,,,Operational
+bufr4/3/16/079/5/020024,16,Synoptic feature sequences,316079,(GFA low-level wind shear),,020024,Intensity of phenomena,,,,Operational
+bufr4/3/16/079/6/008011,16,Synoptic feature sequences,316079,(GFA low-level wind shear),,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/079/7/008079,16,Synoptic feature sequences,316079,(GFA low-level wind shear),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/080/1/008079,16,Synoptic feature sequences,316080,(GFA icing),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/080/2/008011,16,Synoptic feature sequences,316080,(GFA icing),,008011,Meteorological feature,= 15 Airframe icing,,,Operational
+bufr4/3/16/080/3/316074,16,Synoptic feature sequences,316080,(GFA icing),,316074,GFA identifier and observed/forecast location,,,,Operational
+bufr4/3/16/080/4/020041,16,Synoptic feature sequences,316080,(GFA icing),,020041,Airframe icing,= 4 Moderate icing,,,Operational
+bufr4/3/16/080/5/008011,16,Synoptic feature sequences,316080,(GFA icing),,008011,Meteorological feature,Set to missing (cancel),,,Operational
+bufr4/3/16/080/6/008079,16,Synoptic feature sequences,316080,(GFA icing),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/081/1/008079,16,Synoptic feature sequences,316081,(GFA freezing level),,008079,Product status,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/081/2/008041,16,Synoptic feature sequences,316081,(GFA freezing level),,008041,Data significance,"= 11 Freezing level, = 12 Multiple freezing level",,,Operational
+bufr4/3/16/081/3/316074,16,Synoptic feature sequences,316081,(GFA freezing level),,316074,GFA identifier and observed/forecast location,,,,Operational
+bufr4/3/16/081/4/008041,16,Synoptic feature sequences,316081,(GFA freezing level),,008041,Data significance,Set to missing (cancel),,,Operational
+bufr4/3/16/081/5/008079,16,Synoptic feature sequences,316081,(GFA freezing level),,008079,Product status,Set to missing (cancel),,,Operational
+bufr4/3/16/082/1/001033,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001033,Identification of originating/generating centre,,,,Operational
+bufr4/3/16/082/2/001034,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001034,Identification of originating/generating sub-centre,,,,Operational
+bufr4/3/16/082/3/001032,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001032,Generating application,,,,Operational
+bufr4/3/16/082/4/001025,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001025,Storm identifier,,,,Operational
+bufr4/3/16/082/5/001027,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001027,WMO long storm name,,,,Operational
+bufr4/3/16/082/6/001090,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001090,Technique for making up initial perturbations,,,,Operational
+bufr4/3/16/082/7/001091,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001091,Ensemble member number,,,,Operational
+bufr4/3/16/082/8/001092,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,001092,Type of ensemble forecast,,,,Operational
+bufr4/3/16/082/9/301011,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301011,"Year, month, day",,,,Operational
+bufr4/3/16/082/10/301012,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301012,"Hour, minute",,,,Operational
+bufr4/3/16/082/11/008005,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/082/12/301023,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/082/13/008005,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/082/14/301023,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/082/15/010051,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,010051,Pressure reduced to mean sea level,,,,Operational
+bufr4/3/16/082/16/008005,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/082/17/301023,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/082/18/011012,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,011012,Wind speed at 10 m,,,,Operational
+bufr4/3/16/082/19/107003,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,107003,Delayed replication of 7 descriptors,,,,Operational
+bufr4/3/16/082/20/019003,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019003,Wind speed threshold,,,,Operational
+bufr4/3/16/082/21/105004,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,105004,Delayed replication of 5 descriptors,,,,Operational
+bufr4/3/16/082/22/005021,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,,Operational
+bufr4/3/16/082/23/005021,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,,Operational
+bufr4/3/16/082/24/201131,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201131,Change data width,,,,Operational
+bufr4/3/16/082/25/019004,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
+bufr4/3/16/082/26/201000,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width,Set to missing (cancel),,,Operational
+bufr4/3/16/082/27/116000,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,116000,Delayed replication of 16 descriptors,,,,Operational
+bufr4/3/16/082/28/031001,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/082/29/008021,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008021,Time significance,,,,Operational
+bufr4/3/16/082/30/004024,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,004024,Time period or displacement,,,,Operational
+bufr4/3/16/082/31/008005,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/082/32/301023,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/082/33/010051,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,010051,Pressure reduced to mean sea level,,,,Operational
+bufr4/3/16/082/34/008005,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/082/35/301023,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/082/36/011012,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,011012,Wind speed at 10 m,,,,Operational
+bufr4/3/16/082/37/107003,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,107003,Delayed replication of 7 descriptors,,,,Operational
+bufr4/3/16/082/38/019003,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019003,Wind speed threshold,,,,Operational
+bufr4/3/16/082/39/105004,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,105004,Delayed replication of 5 descriptors,,,,Operational
+bufr4/3/16/082/40/005021,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,,Operational
+bufr4/3/16/082/41/005021,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,005021,Bearing or azimuth,,,,Operational
+bufr4/3/16/082/42/201131,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201131,Change data width,,,,Operational
+bufr4/3/16/082/43/019004,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
+bufr4/3/16/082/44/201000,16,Synoptic feature sequences,316082,(Tropical cyclone track and wind radii),,201000,Change data width,Set to missing (cancel),,,Operational
+bufr4/3/16/083/1/001033,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001033,Identification of originating/generating centre,,,,Operational
+bufr4/3/16/083/2/001034,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001034,Identification of originating/generating sub-centre,,,,Operational
+bufr4/3/16/083/3/001032,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001032,Generating application,,,,Operational
+bufr4/3/16/083/4/001130,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001130,Storm identifier (long),,,,Operational
+bufr4/3/16/083/5/001027,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001027,WMO long storm name,,,,Operational
+bufr4/3/16/083/6/001030,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001030,Numerical model identifier,,,,Operational
+bufr4/3/16/083/7/001090,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001090,Technique for making up initial perturbations,,,,Operational
+bufr4/3/16/083/8/001091,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001091,Ensemble member number,,,,Operational
+bufr4/3/16/083/9/001092,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,001092,Type of ensemble forecast,,,,Operational
+bufr4/3/16/083/10/301011,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301011,"Year, month, day",,,,Operational
+bufr4/3/16/083/11/301012,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301012,"Hour, minute",,,,Operational
+bufr4/3/16/083/12/008005,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/083/13/301023,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/083/14/008005,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/083/15/301023,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/083/16/010051,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,010051,Pressure reduced to mean sea level,,,,Operational
+bufr4/3/16/083/17/008005,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/083/18/301023,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/083/19/011012,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,011012,Wind speed at 10 m,,,,Operational
+bufr4/3/16/083/20/107004,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,107004,Replicate 7 descriptors 4 times,,,,Operational
+bufr4/3/16/083/21/019003,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,019003,Wind speed threshold,,,,Operational
+bufr4/3/16/083/22/105004,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,105004,Replicate 5 descriptors 4 times,,,,Operational
+bufr4/3/16/083/23/005021,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,005021,Bearing or azimuth,,,,Operational
+bufr4/3/16/083/24/005021,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,005021,Bearing or azimuth,,,,Operational
+bufr4/3/16/083/25/201131,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,201131,Change data width,,,,Operational
+bufr4/3/16/083/26/019004,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
+bufr4/3/16/083/27/201000,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,201000,Change data width,Set to missing (cancel),,,Operational
+bufr4/3/16/083/28/116000,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,116000,Delayed replication of 16 descriptors,,,,Operational
+bufr4/3/16/083/29/031001,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/083/30/008021,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008021,Time significance,,,,Operational
+bufr4/3/16/083/31/004024,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,004024,Time period or displacement,,,,Operational
+bufr4/3/16/083/32/008005,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/083/33/301023,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/083/34/010051,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,010051,Pressure reduced to mean sea level,,,,Operational
+bufr4/3/16/083/35/008005,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008005,Meteorological attribute significance,,,,Operational
+bufr4/3/16/083/36/301023,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,301023,Latitude/longitude (coarse accuracy),,,,Operational
+bufr4/3/16/083/37/011012,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,011012,Wind speed at 10 m,,,,Operational
+bufr4/3/16/083/38/107004,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,107004,Replicate 7 descriptors 4 times,,,,Operational
+bufr4/3/16/083/39/019003,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,019003,Wind speed threshold,,,,Operational
+bufr4/3/16/083/40/105004,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,105004,Replicate 5 descriptors 4 times,,,,Operational
+bufr4/3/16/083/41/005021,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,005021,Bearing or azimuth,,,,Operational
+bufr4/3/16/083/42/005021,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,005021,Bearing or azimuth,,,,Operational
+bufr4/3/16/083/43/201131,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,201131,Change data width,,,,Operational
+bufr4/3/16/083/44/019004,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,019004,Effective radius with respect to wind speeds above threshold,,,,Operational
+bufr4/3/16/083/45/201000,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,201000,Change data width,Set to missing (cancel),,,Operational
+bufr4/3/16/083/46/104000,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,104000,Delayed replication of 4 descriptors,,,,Operational
+bufr4/3/16/083/47/031001,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,031001,Delayed descriptor replication factor,,,,Operational
+bufr4/3/16/083/48/008055,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,008055,Method used to calculate the average wind components after removing vortex,,,,Operational
+bufr4/3/16/083/49/007004,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,007004,Pressure,,,,Operational
+bufr4/3/16/083/50/011024,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,011024,Average u-component after the vortex removal,,,,Operational
+bufr4/3/16/083/51/011025,16,Synoptic feature sequences,316083,"(Tropical cyclone track, wind radii and vortex)",,011025,Average v-component after the vortex removal,,,,Operational

@@ -1,187 +1,187 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
-021026,ASCAT sigma-0 usability,0,Nominal,,,,,Operational
-021026,ASCAT sigma-0 usability,1,Close to nominal,,,,,Operational
-021026,ASCAT sigma-0 usability,2,Far from nominal,,,,,Operational
-021026,ASCAT sigma-0 usability,3-6,Reserved,,,,,Operational
-021026,ASCAT sigma-0 usability,7,Missing,,,,,Operational
-021066,Wave scatterometer product confidence data,1,Processing equipment not working,,,,,Operational
-021066,Wave scatterometer product confidence data,2,Equipment failed,,,,,Operational
-021066,Wave scatterometer product confidence data,3,PRF code changed during image generation,,,,,Operational
-021066,Wave scatterometer product confidence data,4,Sampling window changed during image generation,,,,,Operational
-021066,Wave scatterometer product confidence data,5,Gain changed during image generation,,,,,Operational
-021066,Wave scatterometer product confidence data,6,Chirp replica exceeds specified value,,,,,Operational
-021066,Wave scatterometer product confidence data,7,Input data mean and standard deviation of in-phase and quadrature out of range,,,,,Operational
-021066,Wave scatterometer product confidence data,8,Doppler centroid confidence > MMCC value,,,,,Operational
-021066,Wave scatterometer product confidence data,9,Doppler centroid absolute value > PRF/2,,,,,Operational
-021066,Wave scatterometer product confidence data,10,Doppler ambiguity confidence < MMCC value,,,,,Operational
-021066,Wave scatterometer product confidence data,11,Output data mean and standard deviation =< MMCC value,,,,,Operational
-021066,Wave scatterometer product confidence data,All 12,Missing value,,,,,Operational
-021067,Wind product confidence data,1,No forebeam calculation,,,,,Operational
-021067,Wind product confidence data,2,No midbeam calculation,,,,,Operational
-021067,Wind product confidence data,3,No aftbeam calculation,,,,,Operational
-021067,Wind product confidence data,4,Forebeam arcing detected,,,,,Operational
-021067,Wind product confidence data,5,Midbeam arcing detected,,,,,Operational
-021067,Wind product confidence data,6,Aftbeam arcing detected,,,,,Operational
-021067,Wind product confidence data,7,Any beam noise content above or equal to threshold,,,,,Operational
-021067,Wind product confidence data,8,Land (any land in cell footprint),,,,,Operational
-021067,Wind product confidence data,9,Autonomous ambiguity removal not used,,,,,Operational
-021067,Wind product confidence data,10,Meteorological background not used,,,,,Operational
-021067,Wind product confidence data,11,Minimum residual exceeded threshold,,,,,Operational
-021067,Wind product confidence data,12,Frame checksum error detected,,,,,Operational
-021067,Wind product confidence data,All 13,Missing value,,,,,Operational
-021068,Radar altimeter product confidence data,1,Standard deviation of wind speed outside MMCC limit,,,,,Operational
-021068,Radar altimeter product confidence data,2,Standard deviation of significant wave height outside MMCC limit,,,,,Operational
-021068,Radar altimeter product confidence data,3,Standard deviation of altitude outside MMCC limit,,,,,Operational
-021068,Radar altimeter product confidence data,4,Mean peakiness outside MMCC limit,,,,,Operational
-021068,Radar altimeter product confidence data,5,Frame checksum error detected,,,,,Operational
-021068,Radar altimeter product confidence data,6,Height-time loop time constant correction not performed,,,,,Operational
-021068,Radar altimeter product confidence data,7,Not enough measurements (N < 10),,,,,Operational
-021068,Radar altimeter product confidence data,All 8,Missing value,,,,,Operational
-021069,SST product confidence data,1,12.0 micron channel present in source data,,,,,Operational
-021069,SST product confidence data,2,11.0 micron channel present in source data,,,,,Operational
-021069,SST product confidence data,3,3.7 micron channel present in source data,,,,,Operational
-021069,SST product confidence data,4,1.6 micron channel present in source data,,,,,Operational
-021069,SST product confidence data,5,Cloud identification used 1.6 micron histogram reflectance cloud test,,,,,Operational
-021069,SST product confidence data,6,1.6 micron histogram reflectance cloud test used dynamic threshold,,,,,Operational
-021069,SST product confidence data,7,Sun glint detected by 1.6 micron reflectance cloud test,,,,,Operational
-021069,SST product confidence data,8,3.7 micron channel used in sea-surface temperature retrieval,,,,,Operational
-021069,SST product confidence data,9,Sea-surface temperature derivation used daytime data (night-time if zero),,,,,Operational
-021069,SST product confidence data,All 10,Missing value,,,,,Operational
-021070,SST product confidence data (SADIST-2),,1-9   Nadir-only view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,,Operational
-021070,SST product confidence data (SADIST-2),1,Cell 1: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),2,Cell 2: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),3,Cell 3: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),4,Cell 4: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),5,Cell 5: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),6,Cell 6: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),7,Cell 7: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),8,Cell 8: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),9,Cell 9: nadir-only view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),,10-18   Dual view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,,Operational
-021070,SST product confidence data (SADIST-2),10,Cell 1: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),11,Cell 2: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),12,Cell 3: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),13,Cell 4: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),14,Cell 5: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),15,Cell 6: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),16,Cell 7: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),17,Cell 8: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),18,Cell 9: dual view SST used 3.7 micron channel,,,,,Operational
-021070,SST product confidence data (SADIST-2),19,Nadir view contains day-time data (night if zero),,,,,Operational
-021070,SST product confidence data (SADIST-2),20,Forward view contains day-time data (night if zero),,,,,Operational
-021070,SST product confidence data (SADIST-2),21,Record contains contributions from instrument scans acquired when ERS platform not in yaw-steering mode,,,,,Operational
-021070,SST product confidence data (SADIST-2),22,Record contains contributions from instrument scans for which product confidence data show quality is poor or unknown,,,,,Operational
-021070,SST product confidence data (SADIST-2),All 23,Missing value,,,,,Operational
-021072,Satellite altimeter calibration status,1,Height error correction applied instead of open loop calibration,,,,,Operational
-021072,Satellite altimeter calibration status,2,Microwave sounder used for troposphere correction,,,,,Operational
-021072,Satellite altimeter calibration status,3,AGC output correction applied instead of open loop calibration,,,,,Operational
-021072,Satellite altimeter calibration status,All 4,Missing value,,,,,Operational
-021073,Satellite altimeter instrument mode,1,Blank data record,,,,,Operational
-021073,Satellite altimeter instrument mode,2,Test,,,,,Operational
-021073,Satellite altimeter instrument mode,3,Calibration (closed loop),,,,,Operational
-021073,Satellite altimeter instrument mode,4,BITE,,,,,Operational
-021073,Satellite altimeter instrument mode,5,Acquisition on ice,,,,,Operational
-021073,Satellite altimeter instrument mode,6,Acquisition on ocean,,,,,Operational
-021073,Satellite altimeter instrument mode,7,Tracking on ice,,,,,Operational
-021073,Satellite altimeter instrument mode,8,Tracking on ocean,,,,,Operational
-021073,Satellite altimeter instrument mode,All 9,Missing value,,,,,Operational
-021076,Representation of intensities,0,Linear,,,,,Operational
-021076,Representation of intensities,1,Logarithmic (base e),,,,,Operational
-021076,Representation of intensities,2,Logarithmic (base 10),,,,,Operational
-021076,Representation of intensities,3-6,Reserved,,,,,Operational
-021076,Representation of intensities,7,Missing value,,,,,Operational
-021109,SEAWINDS wind vector cell quality,1,Not enough good sigma-0 available for wind retrieval,,,,,Operational
-021109,SEAWINDS wind vector cell quality,2,Poor azimuth diversity among sigma-0 for wind retrieval,,,,,Operational
-021109,SEAWINDS wind vector cell quality,3-7,Reserved,,,,,Operational
-021109,SEAWINDS wind vector cell quality,8,Some portion of wind vector cell is over land,,,,,Operational
-021109,SEAWINDS wind vector cell quality,9,Some portion of wind vector cell is over ice,,,,,Operational
-021109,SEAWINDS wind vector cell quality,10,Wind retrieval not performed for wind vector cell,,,,,Operational
-021109,SEAWINDS wind vector cell quality,11,Reported wind speed is greater than 30 m s-1,,,,,Operational
-021109,SEAWINDS wind vector cell quality,12,Reported wind speed is less than or equal to 3 m s-1,,,,,Operational
-021109,SEAWINDS wind vector cell quality,13-16,Reserved,,,,,Operational
-021109,SEAWINDS wind vector cell quality,All 17,Missing value,,,,,Operational
-021115,SEAWINDS sigma-0 quality,1,Sigma-0 measurement is not usable,,,,,Operational
-021115,SEAWINDS sigma-0 quality,2,Signal to noise ratio is low,,,,,Operational
-021115,SEAWINDS sigma-0 quality,3,Sigma-0 is negative,,,,,Operational
-021115,SEAWINDS sigma-0 quality,4,Sigma-0 is outside of acceptable range,,,,,Operational
-021115,SEAWINDS sigma-0 quality,5,Scatterometer pulse quality is not acceptable,,,,,Operational
-021115,SEAWINDS sigma-0 quality,6,Sigma-0 cell location algorithm does not converge,,,,,Operational
-021115,SEAWINDS sigma-0 quality,7,Frequency shift lies beyond the range of the x factor table,,,,,Operational
-021115,SEAWINDS sigma-0 quality,8,Spacecraft temperature is beyond calibration coefficient range,,,,,Operational
-021115,SEAWINDS sigma-0 quality,9,No applicable altitude records were found for this sigma-0,,,,,Operational
-021115,SEAWINDS sigma-0 quality,10,Interpolated ephemeris data are not acceptable for this sigma-0,,,,,Operational
-021115,SEAWINDS sigma-0 quality,11-16,Reserved,,,,,Operational
-021115,SEAWINDS sigma-0 quality,All 17,Missing value,,,,,Operational
-021116,SEAWINDS sigma-0 mode,1,Calibration/measurement pulse flag (1),,,,,Operational
-021116,SEAWINDS sigma-0 mode,2,Calibration/measurement pulse flag (2),,,,,Operational
-021116,SEAWINDS sigma-0 mode,3,Outer antenna beam,,,,,Operational
-021116,SEAWINDS sigma-0 mode,4,Sigma-0 cell is aft of spacecraft,,,,,Operational
-021116,SEAWINDS sigma-0 mode,5,Current mode (1),,,,,Operational
-021116,SEAWINDS sigma-0 mode,6,Current mode (2),,,,,Operational
-021116,SEAWINDS sigma-0 mode,7,Effective gate width - slice resolution (1),,,,,Operational
-021116,SEAWINDS sigma-0 mode,8,Effective gate width - slice resolution (2),,,,,Operational
-021116,SEAWINDS sigma-0 mode,9,Effective gate width - slice resolution (3),,,,,Operational
-021116,SEAWINDS sigma-0 mode,10,Low-resolution mode - whole pulse data,,,,,Operational
-021116,SEAWINDS sigma-0 mode,11,Scatterometer electronic subsystem B,,,,,Operational
-021116,SEAWINDS sigma-0 mode,12,Alternate spin rate - 19.8 rpm,,,,,Operational
-021116,SEAWINDS sigma-0 mode,13,Receiver protection on,,,,,Operational
-021116,SEAWINDS sigma-0 mode,14,Slices per composite flag (1),,,,,Operational
-021116,SEAWINDS sigma-0 mode,15,Slices per composite flag (2),,,,,Operational
-021116,SEAWINDS sigma-0 mode,16,Slices per composite flag (3),,,,,Operational
-021116,SEAWINDS sigma-0 mode,All 17,Missing value,,,,,Operational
-021119,Wind scatterometer geophysical model function,0,Reserved,,,,,Operational
-021119,Wind scatterometer geophysical model function,1,SASS,,,,,Operational
-021119,Wind scatterometer geophysical model function,2,SASS2,,,,,Operational
-021119,Wind scatterometer geophysical model function,3,NSCAT0,,,,,Operational
-021119,Wind scatterometer geophysical model function,4,NSCAT1,,,,,Operational
-021119,Wind scatterometer geophysical model function,5,NSCAT2,,,,,Operational
-021119,Wind scatterometer geophysical model function,6,QSCAT0,,,,,Operational
-021119,Wind scatterometer geophysical model function,7,QSCAT1,,,,,Operational
-021119,Wind scatterometer geophysical model function,8-30,Reserved,,,,,Operational
-021119,Wind scatterometer geophysical model function,31,CMOD1,,,,,Operational
-021119,Wind scatterometer geophysical model function,32,CMOD2,,,,,Operational
-021119,Wind scatterometer geophysical model function,33,CMOD3,,,,,Operational
-021119,Wind scatterometer geophysical model function,34,CMOD4,,,,,Operational
-021119,Wind scatterometer geophysical model function,35,CMOD5,,,,,Operational
-021119,Wind scatterometer geophysical model function,36-62,Reserved,,,,,Operational
-021119,Wind scatterometer geophysical model function,63,Missing value,,,,,Operational
-021144,Altimeter rain flag,1,Rain,,,,,Operational
-021144,Altimeter rain flag,All 2,Missing value,,,,,Operational
-021148,Trailing edge variation flag,1,Non short scale variation,,,,,Operational
-021148,Trailing edge variation flag,2,Short scale variation,,,,,Operational
-021148,Trailing edge variation flag,3-8,Reserved,,,,,Operational
-021148,Trailing edge variation flag,All 9,Missing value,,,,,Operational
-021150,Beam co-location,0,Data from single ground station (no co-location),,,,,Operational
-021150,Beam co-location,1,Data from multiple ground station (co-located data),,,,,Operational
-021150,Beam co-location,2,Reserved,,,,,Operational
-021150,Beam co-location,3,Missing value,,,,,Operational
-021155,Wind vector cell quality,1,Not enough good sigma-0 available for wind retrieval,,,,,Operational
-021155,Wind vector cell quality,2,Poor azimuth diversity among sigma-0 for wind retrieval,,,,,Operational
-021155,Wind vector cell quality,3,Any beam noise content above threshold,,,,,Operational
-021155,Wind vector cell quality,4,Product monitoring not used,,,,,Operational
-021155,Wind vector cell quality,5,Product monitoring flag,,,,,Operational
-021155,Wind vector cell quality,6,KNMI quality control fails,,,,,Operational
-021155,Wind vector cell quality,7,Variational quality control fails,,,,,Operational
-021155,Wind vector cell quality,8,Some portion of wind vector cell is over land,,,,,Operational
-021155,Wind vector cell quality,9,Some portion of wind vector cell is over ice,,,,,Operational
-021155,Wind vector cell quality,10,Wind retrieval not performed for wind vector cell,,,,,Operational
-021155,Wind vector cell quality,11,Reported wind speed is greater than 30 m/s,,,,,Operational
-021155,Wind vector cell quality,12,Reported wind speed is less than or equal to 3 m/s,,,,,Operational
-021155,Wind vector cell quality,13,Rain flag for the wind vector cell is not usable,,,,,Operational
-021155,Wind vector cell quality,14,Rain flag algorithm detects rain,,,,,Operational
-021155,Wind vector cell quality,15,No meteorological background used,,,,,Operational
-021155,Wind vector cell quality,16,Data are redundant,,,,,Operational
-021155,Wind vector cell quality,17-23,Reserved,,,,,Operational
-021155,Wind vector cell quality,All 24,Missing value,,,,,Operational
-021158,ASCAT Kp estimate quality,0,Acceptable,,,,,Operational
-021158,ASCAT Kp estimate quality,1,Not acceptable,,,,,Operational
-021158,ASCAT Kp estimate quality,2,Reserved,,,,,Operational
-021158,ASCAT Kp estimate quality,3,Missing value,,,,,Operational
-021159,ASCAT sigma-0 usability,0,Good,,,,,Operational
-021159,ASCAT sigma-0 usability,1,Usable,,,,,Operational
-021159,ASCAT sigma-0 usability,2,Bad,,,,,Operational
-021159,ASCAT sigma-0 usability,3,Missing value,,,,,Operational
-021169,Ice presence indicator,0,No ice present,,,,,Operational
-021169,Ice presence indicator,1,Ice present,,,,,Operational
-021169,Ice presence indicator,2,Reserved,,,,,Operational
-021169,Ice presence indicator,3,Missing value,,,,,Operational
+Id,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+bufr4/0/21/026/0,021026,ASCAT sigma-0 usability,0,Nominal,,,,,Operational
+bufr4/0/21/026/1,021026,ASCAT sigma-0 usability,1,Close to nominal,,,,,Operational
+bufr4/0/21/026/2,021026,ASCAT sigma-0 usability,2,Far from nominal,,,,,Operational
+bufr4/0/21/026/3-6,021026,ASCAT sigma-0 usability,3-6,Reserved,,,,,Operational
+bufr4/0/21/026/7,021026,ASCAT sigma-0 usability,7,Missing,,,,,Operational
+bufr4/0/21/066/1,021066,Wave scatterometer product confidence data,1,Processing equipment not working,,,,,Operational
+bufr4/0/21/066/2,021066,Wave scatterometer product confidence data,2,Equipment failed,,,,,Operational
+bufr4/0/21/066/3,021066,Wave scatterometer product confidence data,3,PRF code changed during image generation,,,,,Operational
+bufr4/0/21/066/4,021066,Wave scatterometer product confidence data,4,Sampling window changed during image generation,,,,,Operational
+bufr4/0/21/066/5,021066,Wave scatterometer product confidence data,5,Gain changed during image generation,,,,,Operational
+bufr4/0/21/066/6,021066,Wave scatterometer product confidence data,6,Chirp replica exceeds specified value,,,,,Operational
+bufr4/0/21/066/7,021066,Wave scatterometer product confidence data,7,Input data mean and standard deviation of in-phase and quadrature out of range,,,,,Operational
+bufr4/0/21/066/8,021066,Wave scatterometer product confidence data,8,Doppler centroid confidence > MMCC value,,,,,Operational
+bufr4/0/21/066/9,021066,Wave scatterometer product confidence data,9,Doppler centroid absolute value > PRF/2,,,,,Operational
+bufr4/0/21/066/10,021066,Wave scatterometer product confidence data,10,Doppler ambiguity confidence < MMCC value,,,,,Operational
+bufr4/0/21/066/11,021066,Wave scatterometer product confidence data,11,Output data mean and standard deviation =< MMCC value,,,,,Operational
+bufr4/0/21/066/All-12,021066,Wave scatterometer product confidence data,All 12,Missing value,,,,,Operational
+bufr4/0/21/067/1,021067,Wind product confidence data,1,No forebeam calculation,,,,,Operational
+bufr4/0/21/067/2,021067,Wind product confidence data,2,No midbeam calculation,,,,,Operational
+bufr4/0/21/067/3,021067,Wind product confidence data,3,No aftbeam calculation,,,,,Operational
+bufr4/0/21/067/4,021067,Wind product confidence data,4,Forebeam arcing detected,,,,,Operational
+bufr4/0/21/067/5,021067,Wind product confidence data,5,Midbeam arcing detected,,,,,Operational
+bufr4/0/21/067/6,021067,Wind product confidence data,6,Aftbeam arcing detected,,,,,Operational
+bufr4/0/21/067/7,021067,Wind product confidence data,7,Any beam noise content above or equal to threshold,,,,,Operational
+bufr4/0/21/067/8,021067,Wind product confidence data,8,Land (any land in cell footprint),,,,,Operational
+bufr4/0/21/067/9,021067,Wind product confidence data,9,Autonomous ambiguity removal not used,,,,,Operational
+bufr4/0/21/067/10,021067,Wind product confidence data,10,Meteorological background not used,,,,,Operational
+bufr4/0/21/067/11,021067,Wind product confidence data,11,Minimum residual exceeded threshold,,,,,Operational
+bufr4/0/21/067/12,021067,Wind product confidence data,12,Frame checksum error detected,,,,,Operational
+bufr4/0/21/067/All-13,021067,Wind product confidence data,All 13,Missing value,,,,,Operational
+bufr4/0/21/068/1,021068,Radar altimeter product confidence data,1,Standard deviation of wind speed outside MMCC limit,,,,,Operational
+bufr4/0/21/068/2,021068,Radar altimeter product confidence data,2,Standard deviation of significant wave height outside MMCC limit,,,,,Operational
+bufr4/0/21/068/3,021068,Radar altimeter product confidence data,3,Standard deviation of altitude outside MMCC limit,,,,,Operational
+bufr4/0/21/068/4,021068,Radar altimeter product confidence data,4,Mean peakiness outside MMCC limit,,,,,Operational
+bufr4/0/21/068/5,021068,Radar altimeter product confidence data,5,Frame checksum error detected,,,,,Operational
+bufr4/0/21/068/6,021068,Radar altimeter product confidence data,6,Height-time loop time constant correction not performed,,,,,Operational
+bufr4/0/21/068/7,021068,Radar altimeter product confidence data,7,Not enough measurements (N < 10),,,,,Operational
+bufr4/0/21/068/All-8,021068,Radar altimeter product confidence data,All 8,Missing value,,,,,Operational
+bufr4/0/21/069/1,021069,SST product confidence data,1,12.0 micron channel present in source data,,,,,Operational
+bufr4/0/21/069/2,021069,SST product confidence data,2,11.0 micron channel present in source data,,,,,Operational
+bufr4/0/21/069/3,021069,SST product confidence data,3,3.7 micron channel present in source data,,,,,Operational
+bufr4/0/21/069/4,021069,SST product confidence data,4,1.6 micron channel present in source data,,,,,Operational
+bufr4/0/21/069/5,021069,SST product confidence data,5,Cloud identification used 1.6 micron histogram reflectance cloud test,,,,,Operational
+bufr4/0/21/069/6,021069,SST product confidence data,6,1.6 micron histogram reflectance cloud test used dynamic threshold,,,,,Operational
+bufr4/0/21/069/7,021069,SST product confidence data,7,Sun glint detected by 1.6 micron reflectance cloud test,,,,,Operational
+bufr4/0/21/069/8,021069,SST product confidence data,8,3.7 micron channel used in sea-surface temperature retrieval,,,,,Operational
+bufr4/0/21/069/9,021069,SST product confidence data,9,Sea-surface temperature derivation used daytime data (night-time if zero),,,,,Operational
+bufr4/0/21/069/All-10,021069,SST product confidence data,All 10,Missing value,,,,,Operational
+bufr4/0/21/070,021070,SST product confidence data (SADIST-2),,1-9   Nadir-only view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,,Operational
+bufr4/0/21/070/1,021070,SST product confidence data (SADIST-2),1,Cell 1: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/2,021070,SST product confidence data (SADIST-2),2,Cell 2: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/3,021070,SST product confidence data (SADIST-2),3,Cell 3: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/4,021070,SST product confidence data (SADIST-2),4,Cell 4: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/5,021070,SST product confidence data (SADIST-2),5,Cell 5: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/6,021070,SST product confidence data (SADIST-2),6,Cell 6: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/7,021070,SST product confidence data (SADIST-2),7,Cell 7: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/8,021070,SST product confidence data (SADIST-2),8,Cell 8: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/9,021070,SST product confidence data (SADIST-2),9,Cell 9: nadir-only view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070,021070,SST product confidence data (SADIST-2),,10-18   Dual view SST retrieval used 3.7 micron channel (one bit per 10-arcmin cell),,,,,Operational
+bufr4/0/21/070/10,021070,SST product confidence data (SADIST-2),10,Cell 1: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/11,021070,SST product confidence data (SADIST-2),11,Cell 2: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/12,021070,SST product confidence data (SADIST-2),12,Cell 3: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/13,021070,SST product confidence data (SADIST-2),13,Cell 4: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/14,021070,SST product confidence data (SADIST-2),14,Cell 5: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/15,021070,SST product confidence data (SADIST-2),15,Cell 6: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/16,021070,SST product confidence data (SADIST-2),16,Cell 7: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/17,021070,SST product confidence data (SADIST-2),17,Cell 8: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/18,021070,SST product confidence data (SADIST-2),18,Cell 9: dual view SST used 3.7 micron channel,,,,,Operational
+bufr4/0/21/070/19,021070,SST product confidence data (SADIST-2),19,Nadir view contains day-time data (night if zero),,,,,Operational
+bufr4/0/21/070/20,021070,SST product confidence data (SADIST-2),20,Forward view contains day-time data (night if zero),,,,,Operational
+bufr4/0/21/070/21,021070,SST product confidence data (SADIST-2),21,Record contains contributions from instrument scans acquired when ERS platform not in yaw-steering mode,,,,,Operational
+bufr4/0/21/070/22,021070,SST product confidence data (SADIST-2),22,Record contains contributions from instrument scans for which product confidence data show quality is poor or unknown,,,,,Operational
+bufr4/0/21/070/All-23,021070,SST product confidence data (SADIST-2),All 23,Missing value,,,,,Operational
+bufr4/0/21/072/1,021072,Satellite altimeter calibration status,1,Height error correction applied instead of open loop calibration,,,,,Operational
+bufr4/0/21/072/2,021072,Satellite altimeter calibration status,2,Microwave sounder used for troposphere correction,,,,,Operational
+bufr4/0/21/072/3,021072,Satellite altimeter calibration status,3,AGC output correction applied instead of open loop calibration,,,,,Operational
+bufr4/0/21/072/All-4,021072,Satellite altimeter calibration status,All 4,Missing value,,,,,Operational
+bufr4/0/21/073/1,021073,Satellite altimeter instrument mode,1,Blank data record,,,,,Operational
+bufr4/0/21/073/2,021073,Satellite altimeter instrument mode,2,Test,,,,,Operational
+bufr4/0/21/073/3,021073,Satellite altimeter instrument mode,3,Calibration (closed loop),,,,,Operational
+bufr4/0/21/073/4,021073,Satellite altimeter instrument mode,4,BITE,,,,,Operational
+bufr4/0/21/073/5,021073,Satellite altimeter instrument mode,5,Acquisition on ice,,,,,Operational
+bufr4/0/21/073/6,021073,Satellite altimeter instrument mode,6,Acquisition on ocean,,,,,Operational
+bufr4/0/21/073/7,021073,Satellite altimeter instrument mode,7,Tracking on ice,,,,,Operational
+bufr4/0/21/073/8,021073,Satellite altimeter instrument mode,8,Tracking on ocean,,,,,Operational
+bufr4/0/21/073/All-9,021073,Satellite altimeter instrument mode,All 9,Missing value,,,,,Operational
+bufr4/0/21/076/0,021076,Representation of intensities,0,Linear,,,,,Operational
+bufr4/0/21/076/1,021076,Representation of intensities,1,Logarithmic (base e),,,,,Operational
+bufr4/0/21/076/2,021076,Representation of intensities,2,Logarithmic (base 10),,,,,Operational
+bufr4/0/21/076/3-6,021076,Representation of intensities,3-6,Reserved,,,,,Operational
+bufr4/0/21/076/7,021076,Representation of intensities,7,Missing value,,,,,Operational
+bufr4/0/21/109/1,021109,SEAWINDS wind vector cell quality,1,Not enough good sigma-0 available for wind retrieval,,,,,Operational
+bufr4/0/21/109/2,021109,SEAWINDS wind vector cell quality,2,Poor azimuth diversity among sigma-0 for wind retrieval,,,,,Operational
+bufr4/0/21/109/3-7,021109,SEAWINDS wind vector cell quality,3-7,Reserved,,,,,Operational
+bufr4/0/21/109/8,021109,SEAWINDS wind vector cell quality,8,Some portion of wind vector cell is over land,,,,,Operational
+bufr4/0/21/109/9,021109,SEAWINDS wind vector cell quality,9,Some portion of wind vector cell is over ice,,,,,Operational
+bufr4/0/21/109/10,021109,SEAWINDS wind vector cell quality,10,Wind retrieval not performed for wind vector cell,,,,,Operational
+bufr4/0/21/109/11,021109,SEAWINDS wind vector cell quality,11,Reported wind speed is greater than 30 m s-1,,,,,Operational
+bufr4/0/21/109/12,021109,SEAWINDS wind vector cell quality,12,Reported wind speed is less than or equal to 3 m s-1,,,,,Operational
+bufr4/0/21/109/13-16,021109,SEAWINDS wind vector cell quality,13-16,Reserved,,,,,Operational
+bufr4/0/21/109/All-17,021109,SEAWINDS wind vector cell quality,All 17,Missing value,,,,,Operational
+bufr4/0/21/115/1,021115,SEAWINDS sigma-0 quality,1,Sigma-0 measurement is not usable,,,,,Operational
+bufr4/0/21/115/2,021115,SEAWINDS sigma-0 quality,2,Signal to noise ratio is low,,,,,Operational
+bufr4/0/21/115/3,021115,SEAWINDS sigma-0 quality,3,Sigma-0 is negative,,,,,Operational
+bufr4/0/21/115/4,021115,SEAWINDS sigma-0 quality,4,Sigma-0 is outside of acceptable range,,,,,Operational
+bufr4/0/21/115/5,021115,SEAWINDS sigma-0 quality,5,Scatterometer pulse quality is not acceptable,,,,,Operational
+bufr4/0/21/115/6,021115,SEAWINDS sigma-0 quality,6,Sigma-0 cell location algorithm does not converge,,,,,Operational
+bufr4/0/21/115/7,021115,SEAWINDS sigma-0 quality,7,Frequency shift lies beyond the range of the x factor table,,,,,Operational
+bufr4/0/21/115/8,021115,SEAWINDS sigma-0 quality,8,Spacecraft temperature is beyond calibration coefficient range,,,,,Operational
+bufr4/0/21/115/9,021115,SEAWINDS sigma-0 quality,9,No applicable altitude records were found for this sigma-0,,,,,Operational
+bufr4/0/21/115/10,021115,SEAWINDS sigma-0 quality,10,Interpolated ephemeris data are not acceptable for this sigma-0,,,,,Operational
+bufr4/0/21/115/11-16,021115,SEAWINDS sigma-0 quality,11-16,Reserved,,,,,Operational
+bufr4/0/21/115/All-17,021115,SEAWINDS sigma-0 quality,All 17,Missing value,,,,,Operational
+bufr4/0/21/116/1,021116,SEAWINDS sigma-0 mode,1,Calibration/measurement pulse flag (1),,,,,Operational
+bufr4/0/21/116/2,021116,SEAWINDS sigma-0 mode,2,Calibration/measurement pulse flag (2),,,,,Operational
+bufr4/0/21/116/3,021116,SEAWINDS sigma-0 mode,3,Outer antenna beam,,,,,Operational
+bufr4/0/21/116/4,021116,SEAWINDS sigma-0 mode,4,Sigma-0 cell is aft of spacecraft,,,,,Operational
+bufr4/0/21/116/5,021116,SEAWINDS sigma-0 mode,5,Current mode (1),,,,,Operational
+bufr4/0/21/116/6,021116,SEAWINDS sigma-0 mode,6,Current mode (2),,,,,Operational
+bufr4/0/21/116/7,021116,SEAWINDS sigma-0 mode,7,Effective gate width - slice resolution (1),,,,,Operational
+bufr4/0/21/116/8,021116,SEAWINDS sigma-0 mode,8,Effective gate width - slice resolution (2),,,,,Operational
+bufr4/0/21/116/9,021116,SEAWINDS sigma-0 mode,9,Effective gate width - slice resolution (3),,,,,Operational
+bufr4/0/21/116/10,021116,SEAWINDS sigma-0 mode,10,Low-resolution mode - whole pulse data,,,,,Operational
+bufr4/0/21/116/11,021116,SEAWINDS sigma-0 mode,11,Scatterometer electronic subsystem B,,,,,Operational
+bufr4/0/21/116/12,021116,SEAWINDS sigma-0 mode,12,Alternate spin rate - 19.8 rpm,,,,,Operational
+bufr4/0/21/116/13,021116,SEAWINDS sigma-0 mode,13,Receiver protection on,,,,,Operational
+bufr4/0/21/116/14,021116,SEAWINDS sigma-0 mode,14,Slices per composite flag (1),,,,,Operational
+bufr4/0/21/116/15,021116,SEAWINDS sigma-0 mode,15,Slices per composite flag (2),,,,,Operational
+bufr4/0/21/116/16,021116,SEAWINDS sigma-0 mode,16,Slices per composite flag (3),,,,,Operational
+bufr4/0/21/116/All-17,021116,SEAWINDS sigma-0 mode,All 17,Missing value,,,,,Operational
+bufr4/0/21/119/0,021119,Wind scatterometer geophysical model function,0,Reserved,,,,,Operational
+bufr4/0/21/119/1,021119,Wind scatterometer geophysical model function,1,SASS,,,,,Operational
+bufr4/0/21/119/2,021119,Wind scatterometer geophysical model function,2,SASS2,,,,,Operational
+bufr4/0/21/119/3,021119,Wind scatterometer geophysical model function,3,NSCAT0,,,,,Operational
+bufr4/0/21/119/4,021119,Wind scatterometer geophysical model function,4,NSCAT1,,,,,Operational
+bufr4/0/21/119/5,021119,Wind scatterometer geophysical model function,5,NSCAT2,,,,,Operational
+bufr4/0/21/119/6,021119,Wind scatterometer geophysical model function,6,QSCAT0,,,,,Operational
+bufr4/0/21/119/7,021119,Wind scatterometer geophysical model function,7,QSCAT1,,,,,Operational
+bufr4/0/21/119/8-30,021119,Wind scatterometer geophysical model function,8-30,Reserved,,,,,Operational
+bufr4/0/21/119/31,021119,Wind scatterometer geophysical model function,31,CMOD1,,,,,Operational
+bufr4/0/21/119/32,021119,Wind scatterometer geophysical model function,32,CMOD2,,,,,Operational
+bufr4/0/21/119/33,021119,Wind scatterometer geophysical model function,33,CMOD3,,,,,Operational
+bufr4/0/21/119/34,021119,Wind scatterometer geophysical model function,34,CMOD4,,,,,Operational
+bufr4/0/21/119/35,021119,Wind scatterometer geophysical model function,35,CMOD5,,,,,Operational
+bufr4/0/21/119/36-62,021119,Wind scatterometer geophysical model function,36-62,Reserved,,,,,Operational
+bufr4/0/21/119/63,021119,Wind scatterometer geophysical model function,63,Missing value,,,,,Operational
+bufr4/0/21/144/1,021144,Altimeter rain flag,1,Rain,,,,,Operational
+bufr4/0/21/144/All-2,021144,Altimeter rain flag,All 2,Missing value,,,,,Operational
+bufr4/0/21/148/1,021148,Trailing edge variation flag,1,Non short scale variation,,,,,Operational
+bufr4/0/21/148/2,021148,Trailing edge variation flag,2,Short scale variation,,,,,Operational
+bufr4/0/21/148/3-8,021148,Trailing edge variation flag,3-8,Reserved,,,,,Operational
+bufr4/0/21/148/All-9,021148,Trailing edge variation flag,All 9,Missing value,,,,,Operational
+bufr4/0/21/150/0,021150,Beam co-location,0,Data from single ground station (no co-location),,,,,Operational
+bufr4/0/21/150/1,021150,Beam co-location,1,Data from multiple ground station (co-located data),,,,,Operational
+bufr4/0/21/150/2,021150,Beam co-location,2,Reserved,,,,,Operational
+bufr4/0/21/150/3,021150,Beam co-location,3,Missing value,,,,,Operational
+bufr4/0/21/155/1,021155,Wind vector cell quality,1,Not enough good sigma-0 available for wind retrieval,,,,,Operational
+bufr4/0/21/155/2,021155,Wind vector cell quality,2,Poor azimuth diversity among sigma-0 for wind retrieval,,,,,Operational
+bufr4/0/21/155/3,021155,Wind vector cell quality,3,Any beam noise content above threshold,,,,,Operational
+bufr4/0/21/155/4,021155,Wind vector cell quality,4,Product monitoring not used,,,,,Operational
+bufr4/0/21/155/5,021155,Wind vector cell quality,5,Product monitoring flag,,,,,Operational
+bufr4/0/21/155/6,021155,Wind vector cell quality,6,KNMI quality control fails,,,,,Operational
+bufr4/0/21/155/7,021155,Wind vector cell quality,7,Variational quality control fails,,,,,Operational
+bufr4/0/21/155/8,021155,Wind vector cell quality,8,Some portion of wind vector cell is over land,,,,,Operational
+bufr4/0/21/155/9,021155,Wind vector cell quality,9,Some portion of wind vector cell is over ice,,,,,Operational
+bufr4/0/21/155/10,021155,Wind vector cell quality,10,Wind retrieval not performed for wind vector cell,,,,,Operational
+bufr4/0/21/155/11,021155,Wind vector cell quality,11,Reported wind speed is greater than 30 m/s,,,,,Operational
+bufr4/0/21/155/12,021155,Wind vector cell quality,12,Reported wind speed is less than or equal to 3 m/s,,,,,Operational
+bufr4/0/21/155/13,021155,Wind vector cell quality,13,Rain flag for the wind vector cell is not usable,,,,,Operational
+bufr4/0/21/155/14,021155,Wind vector cell quality,14,Rain flag algorithm detects rain,,,,,Operational
+bufr4/0/21/155/15,021155,Wind vector cell quality,15,No meteorological background used,,,,,Operational
+bufr4/0/21/155/16,021155,Wind vector cell quality,16,Data are redundant,,,,,Operational
+bufr4/0/21/155/17-23,021155,Wind vector cell quality,17-23,Reserved,,,,,Operational
+bufr4/0/21/155/All-24,021155,Wind vector cell quality,All 24,Missing value,,,,,Operational
+bufr4/0/21/158/0,021158,ASCAT Kp estimate quality,0,Acceptable,,,,,Operational
+bufr4/0/21/158/1,021158,ASCAT Kp estimate quality,1,Not acceptable,,,,,Operational
+bufr4/0/21/158/2,021158,ASCAT Kp estimate quality,2,Reserved,,,,,Operational
+bufr4/0/21/158/3,021158,ASCAT Kp estimate quality,3,Missing value,,,,,Operational
+bufr4/0/21/159/0,021159,ASCAT sigma-0 usability,0,Good,,,,,Operational
+bufr4/0/21/159/1,021159,ASCAT sigma-0 usability,1,Usable,,,,,Operational
+bufr4/0/21/159/2,021159,ASCAT sigma-0 usability,2,Bad,,,,,Operational
+bufr4/0/21/159/3,021159,ASCAT sigma-0 usability,3,Missing value,,,,,Operational
+bufr4/0/21/169/0,021169,Ice presence indicator,0,No ice present,,,,,Operational
+bufr4/0/21/169/1,021169,Ice presence indicator,1,Ice present,,,,,Operational
+bufr4/0/21/169/2,021169,Ice presence indicator,2,Reserved,,,,,Operational
+bufr4/0/21/169/3,021169,Ice presence indicator,3,Missing value,,,,,Operational

@@ -1,31 +1,31 @@
-ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-03,Instrumentation,003001,Surface station type,Code table,0,0,5,Code table,0,2,,,Operational
-03,Instrumentation,003003,Thermometer/hygrometer housing,Code table,0,0,4,Code table,0,2,,,Operational
-03,Instrumentation,003004,Type of screen/shelter/radiation shield,Code table,0,0,4,Code table,0,2,,,Operational
-03,Instrumentation,003005,Horizontal width of screen or shield (x),m,3,0,16,m,3,5,,,Operational
-03,Instrumentation,003006,Horizontal depth of screen or shield (y),m,3,0,16,m,3,5,,,Operational
-03,Instrumentation,003007,Vertical height of screen or shield (z),m,3,0,16,m,3,5,,,Operational
-03,Instrumentation,003008,Artificially ventilated screen or shield,Code table,0,0,3,Code table,0,1,,,Operational
-03,Instrumentation,003009,Amount of forced ventilation at time of reading,m/s,1,0,9,m/s,1,3,,,Operational
-03,Instrumentation,003010,Method of sea/water current measurement,Code table,0,0,4,Code table,0,2,,,Operational
-03,Instrumentation,003011,Method of depth calculation,Code table,0,0,2,Code table,0,1,,,Operational
-03,Instrumentation,003012,Instrument type/sensor for dissolved oxygen measurement,Code table,0,0,4,Code table,0,2,,,Operational
-03,Instrumentation,003016,Position of road sensors,Code table,0,0,4,Code table,0,2,,,Operational
-03,Instrumentation,003017,Extended type of station,Flag table,0,0,6,Flag table,0,2,,,Operational
-03,Instrumentation,003018,Type of road,Code table,0,0,5,Code table,0,2,,,Operational
-03,Instrumentation,003019,Type of construction,Code table,0,0,4,Code table,0,2,,,Operational
-03,Instrumentation,003020,Material for thermometer/hygrometer housing,Code table,0,0,3,Code table,0,1,,,Operational
-03,Instrumentation,003021,Hygrometer heating,Code table,0,0,2,Code table,0,1,,,Operational
-03,Instrumentation,003022,Instrument owner,Code table,0,0,3,Code table,0,1,,,Operational
-03,Instrumentation,003023,Configuration of louvers for thermometer/hygrometer screen,Code table,0,0,3,Code table,0,1,,,Operational
-03,Instrumentation,003024,Psychrometric coefficient,K-1,6,0,10,K-1,6,3,,,Operational
-03,Instrumentation,003025,Cross-track estimation area size,m,0,5000,16,m,0,5,,,Operational
-03,Instrumentation,003026,Along-track estimation area size,m,0,5000,16,m,0,5,,,Operational
-03,Instrumentation,003027,Type of flight rig,Code table,0,0,4,Code table,0,2,,,Operational
-03,Instrumentation,003028,Method of snow water equivalent measurement,Code table,0,0,6,Code table,0,2,,,Operational
-03,Instrumentation,003029,Swath,Code table,0,0,3,Code table,0,1,,,Operational
-03,Instrumentation,003030,Antenna status,Code table,0,0,3,Code table,0,1,,,Operational
-03,Instrumentation,003031,"Channel bandwidth, full width half maximum (FWHM)",m,11,0,16,m,11,13,,,Operational
-03,Instrumentation,003032,Channel centre frequency,Hz,-6,0,26,Hz,-6,10,,,Operational
-03,Instrumentation,003033,Channel bandwidth,Hz,-6,0,26,Hz,-6,10,,,Operational
-03,Instrumentation,003034,Channel wavelength,m,9,0,16,m,9,5,,,Operational
+Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+bufr4/0/03/001,03,Instrumentation,003001,Surface station type,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/03/003,03,Instrumentation,003003,Thermometer/hygrometer housing,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/004,03,Instrumentation,003004,Type of screen/shelter/radiation shield,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/005,03,Instrumentation,003005,Horizontal width of screen or shield (x),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/006,03,Instrumentation,003006,Horizontal depth of screen or shield (y),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/007,03,Instrumentation,003007,Vertical height of screen or shield (z),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/008,03,Instrumentation,003008,Artificially ventilated screen or shield,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/009,03,Instrumentation,003009,Amount of forced ventilation at time of reading,m/s,1,0,9,m/s,1,3,,,Operational
+bufr4/0/03/010,03,Instrumentation,003010,Method of sea/water current measurement,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/011,03,Instrumentation,003011,Method of depth calculation,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/03/012,03,Instrumentation,003012,Instrument type/sensor for dissolved oxygen measurement,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/016,03,Instrumentation,003016,Position of road sensors,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/017,03,Instrumentation,003017,Extended type of station,Flag table,0,0,6,Flag table,0,2,,,Operational
+bufr4/0/03/018,03,Instrumentation,003018,Type of road,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/03/019,03,Instrumentation,003019,Type of construction,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/020,03,Instrumentation,003020,Material for thermometer/hygrometer housing,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/021,03,Instrumentation,003021,Hygrometer heating,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/03/022,03,Instrumentation,003022,Instrument owner,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/023,03,Instrumentation,003023,Configuration of louvers for thermometer/hygrometer screen,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/024,03,Instrumentation,003024,Psychrometric coefficient,K-1,6,0,10,K-1,6,3,,,Operational
+bufr4/0/03/025,03,Instrumentation,003025,Cross-track estimation area size,m,0,5000,16,m,0,5,,,Operational
+bufr4/0/03/026,03,Instrumentation,003026,Along-track estimation area size,m,0,5000,16,m,0,5,,,Operational
+bufr4/0/03/027,03,Instrumentation,003027,Type of flight rig,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/028,03,Instrumentation,003028,Method of snow water equivalent measurement,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/03/029,03,Instrumentation,003029,Swath,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/030,03,Instrumentation,003030,Antenna status,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/031,03,Instrumentation,003031,"Channel bandwidth, full width half maximum (FWHM)",m,11,0,16,m,11,13,,,Operational
+bufr4/0/03/032,03,Instrumentation,003032,Channel centre frequency,Hz,-6,0,26,Hz,-6,10,,,Operational
+bufr4/0/03/033,03,Instrumentation,003033,Channel bandwidth,Hz,-6,0,26,Hz,-6,10,,,Operational
+bufr4/0/03/034,03,Instrumentation,003034,Channel wavelength,m,9,0,16,m,9,5,,,Operational

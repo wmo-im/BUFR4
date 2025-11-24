@@ -1,886 +1,886 @@
-FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
-033002,Quality information,0,Data not suspect,,,,,Operational
-033002,Quality information,1,Data suspect,,,,,Operational
-033002,Quality information,2,Reserved,,,,,Operational
-033002,Quality information,3,Quality information not given,,,,,Operational
-033003,Quality information,0,Data not suspect,,,,,Operational
-033003,Quality information,1,Data slightly suspect,,,,,Operational
-033003,Quality information,2,Data highly suspect,,,,,Operational
-033003,Quality information,3,Data considered unfit for use,,,,,Operational
-033003,Quality information,4-6,Reserved,,,,,Operational
-033003,Quality information,7,Quality information not given,,,,,Operational
-033005,Quality information (AWS data),1,No automated meteorological data checks performed,,,,,Operational
-033005,Quality information (AWS data),2,Pressure data suspect,,,,,Operational
-033005,Quality information (AWS data),3,Wind data suspect,,,,,Operational
-033005,Quality information (AWS data),4,Air temperature data suspect,,,,,Operational
-033005,Quality information (AWS data),5,Wet-bulb temperature data suspect,,,,,Operational
-033005,Quality information (AWS data),6,Humidity data suspect,,,,,Operational
-033005,Quality information (AWS data),7,Ground temperature data suspect,,,,,Operational
-033005,Quality information (AWS data),8,Soil temperature (depth 1) data suspect,,,,,Operational
-033005,Quality information (AWS data),9,Soil temperature (depth 2) data suspect,,,,,Operational
-033005,Quality information (AWS data),10,Soil temperature (depth 3) data suspect,,,,,Operational
-033005,Quality information (AWS data),11,Soil temperature (depth 4) data suspect,,,,,Operational
-033005,Quality information (AWS data),12,Soil temperature (depth 5) data suspect,,,,,Operational
-033005,Quality information (AWS data),13,Cloud data suspect,,,,,Operational
-033005,Quality information (AWS data),14,Visibility data suspect,,,,,Operational
-033005,Quality information (AWS data),15,Present weather data suspect,,,,,Operational
-033005,Quality information (AWS data),16,Lightning data suspect,,,,,Operational
-033005,Quality information (AWS data),17,Ice deposit data suspect,,,,,Operational
-033005,Quality information (AWS data),18,Precipitation data suspect,,,,,Operational
-033005,Quality information (AWS data),19,State of ground data suspect,,,,,Operational
-033005,Quality information (AWS data),20,Snow data suspect,,,,,Operational
-033005,Quality information (AWS data),21,Water content data suspect,,,,,Operational
-033005,Quality information (AWS data),22,Evaporation/evapotranspiration data suspect,,,,,Operational
-033005,Quality information (AWS data),23,Sunshine data suspect,,,,,Operational
-033005,Quality information (AWS data),24-29,Reserved,,,,,Operational
-033005,Quality information (AWS data),All 30,Missing value,,,,,Operational
-033006,Internal measurement status information (AWS),0,Self-check OK,,,,,Operational
-033006,Internal measurement status information (AWS),1,"At least one warning active, no alarms",,,,,Operational
-033006,Internal measurement status information (AWS),2,At least one alarm active,,,,,Operational
-033006,Internal measurement status information (AWS),3,Sensor failure,,,,,Operational
-033006,Internal measurement status information (AWS),4-6,Reserved,,,,,Operational
-033006,Internal measurement status information (AWS),7,Missing value,,,,,Operational
-033015,Data quality-check indicator,0,Passed all checks,,,,,Operational
-033015,Data quality-check indicator,1,Missing data check,,,,,Operational
-033015,Data quality-check indicator,2,Descending/reascending balloon check,,,,,Operational
-033015,Data quality-check indicator,3,Data plausibility check (above limits),,,,,Operational
-033015,Data quality-check indicator,4,Data plausibility check (below limits),,,,,Operational
-033015,Data quality-check indicator,5,Superadiabatic lapse rate check,,,,,Operational
-033015,Data quality-check indicator,6,Limiting angles check,,,,,Operational
-033015,Data quality-check indicator,7,Ascension rate check,,,,,Operational
-033015,Data quality-check indicator,8,Excessive change from previous flight,,,,,Operational
-033015,Data quality-check indicator,9,Balloon overhead check,,,,,Operational
-033015,Data quality-check indicator,10,Wind speed check,,,,,Operational
-033015,Data quality-check indicator,11,Wind direction check,,,,,Operational
-033015,Data quality-check indicator,12,Dependency check,,,,,Operational
-033015,Data quality-check indicator,13,Data valid but modified,,,,,Operational
-033015,Data quality-check indicator,14,Data outlier check,,,,,Operational
-033015,Data quality-check indicator,15-62,Reserved,,,,,Operational
-033015,Data quality-check indicator,63,Missing value,,,,,Operational
-033020,Quality control indication of following value,0,Good,,,,,Operational
-033020,Quality control indication of following value,1,Inconsistent,,,,,Operational
-033020,Quality control indication of following value,2,Doubtful,,,,,Operational
-033020,Quality control indication of following value,3,Wrong,,,,,Operational
-033020,Quality control indication of following value,4,Not checked,,,,,Operational
-033020,Quality control indication of following value,5,Has been changed,,,,,Operational
-033020,Quality control indication of following value,6,Estimated,,,,,Operational
-033020,Quality control indication of following value,7,Missing value,,,,,Operational
-033021,Quality of following value,0,Within limits,,,,,Operational
-033021,Quality of following value,1,Outside limits,,,,,Operational
-033021,Quality of following value,2,Reserved,,,,,Operational
-033021,Quality of following value,3,Missing value,,,,,Operational
-033022,Quality of buoy satellite transmission,0,Good (several identical reports have been received),,,,,Operational
-033022,Quality of buoy satellite transmission,1,Dubious (no identical reports have been received),,,,,Operational
-033022,Quality of buoy satellite transmission,2,Reserved,,,,,Operational
-033022,Quality of buoy satellite transmission,3,Missing value,,,,,Operational
-033023,Quality of buoy location,0,Reliable (location was made over two satellite passes),,,,,Operational
-033023,Quality of buoy location,1,Latest known (no location over the corresponding pass),,,,,Operational
-033023,Quality of buoy location,2,Dubious (location made over one pass only; a second solution is possible in 5 per cent of the cases),,,,,Operational
-033023,Quality of buoy location,3,Missing value,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),0,Reserved,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),1,Excellent - within 3 metres,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),2,Good - within 10 metres,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),3,Fair - within 20 metres,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),4,Poor - more than 20 metres,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),5,Excellent - within 10 feet,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),6,Good - within 30 feet,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),7,Fair - within 60 feet,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),8,Poor - more than 60 feet,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),9-14,Reserved,,,,,Operational
-033024,Station elevation quality mark (for mobile stations),15,Missing value,,,,,Operational
-033025,ACARS interpolated values indicator,0,"Time interpolated, latitude and longitude reported",,,,,Operational
-033025,ACARS interpolated values indicator,1,"Time reported, latitude and longitude interpolated",,,,,Operational
-033025,ACARS interpolated values indicator,2,"Time, latitude, and longitude interpolated",,,,,Operational
-033025,ACARS interpolated values indicator,3,"Time, latitude, and longitude reported",,,,,Operational
-033025,ACARS interpolated values indicator,4-6,Reserved,,,,,Operational
-033025,ACARS interpolated values indicator,7,Missing value,,,,,Operational
-033026,Moisture quality,0,Normal operations - measurement mode,,,,,Operational
-033026,Moisture quality,1,Normal operations - non-measurement mode,,,,,Operational
-033026,Moisture quality,2,Small RH,,,,,Operational
-033026,Moisture quality,3,Humidity element is wet,,,,,Operational
-033026,Moisture quality,4,Humidity element contaminated,,,,,Operational
-033026,Moisture quality,5,Heater fail,,,,,Operational
-033026,Moisture quality,6,Heater fail and wet/contaminated humidity element,,,,,Operational
-033026,Moisture quality,7,At least one of the input parameters used in the calculation of mixing ratio is invalid,,,,,Operational
-033026,Moisture quality,8,Numeric error,,,,,Operational
-033026,Moisture quality,9,Sensor not installed,,,,,Operational
-033026,Moisture quality,10,Calculated RH > 100%,,,,,Operational
-033026,Moisture quality,11,Input laser power too low,,,,,Operational
-033026,Moisture quality,12,Probe WV temperature out of range,,,,,Operational
-033026,Moisture quality,13,Probe WV pressure out of range,,,,,Operational
-033026,Moisture quality,14,Spectral line out of range,,,,,Operational
-033026,Moisture quality,15,No laser output,,,,,Operational
-033026,Moisture quality,16-62,Reserved,,,,,Operational
-033026,Moisture quality,63,Missing value,,,,,Operational
-033027,Location quality class (range of radius of 66 % confidence),0,Radius >= 1500 m,,,,,Operational
-033027,Location quality class (range of radius of 66 % confidence),1,500 m =< Radius <1500 m,,,,,Operational
-033027,Location quality class (range of radius of 66 % confidence),2,250 m =< Radius < 500 m,,,,,Operational
-033027,Location quality class (range of radius of 66 % confidence),3,Radius < 250 m,,,,,Operational
-033027,Location quality class (range of radius of 66 % confidence),4,=< 100 m,,,,,Operational
-033027,Location quality class (range of radius of 66 % confidence),5-6,Reserved,,,,,Operational
-033027,Location quality class (range of radius of 66 % confidence),7,Missing value,,,,,Operational
-033028,Snapshot overall quality,1,Nominal,,,,,Operational
-033028,Snapshot overall quality,2,Degraded by SW error; any error reported by the algorithms,,,,,Operational
-033028,Snapshot overall quality,3,Degraded by instrument error,,,,,Operational
-033028,Snapshot overall quality,4,Degraded by corrupted /missing ADF,,,,,Operational
-033028,Snapshot overall quality,5,General degradation,,,,,Operational
-033028,Snapshot overall quality,6,Reserved,,,,,Operational
-033028,Snapshot overall quality,7,Missing value,,,,,Operational
-033030,Scan line status flags for ATOVS,1,Do not use scan for product generation,,,,,Operational
-033030,Scan line status flags for ATOVS,2,Time sequence error detected with this scan,,,,,Operational
-033030,Scan line status flags for ATOVS,3,Data gap precedes this scan,,,,,Operational
-033030,Scan line status flags for ATOVS,4,No calibration,,,,,Operational
-033030,Scan line status flags for ATOVS,5,No Earth location,,,,,Operational
-033030,Scan line status flags for ATOVS,6,First good time following a clock update,,,,,Operational
-033030,Scan line status flags for ATOVS,7,Instrument status changed with this scan,,,,,Operational
-033030,Scan line status flags for ATOVS,8-23,Reserved,,,,,Operational
-033030,Scan line status flags for ATOVS,All 24,Missing value,,,,,Operational
-033031,Scan line quality flags for ATOVS,1,Time field is bad but can probably be inferred from the previous good time,,,,,Operational
-033031,Scan line quality flags for ATOVS,2,Time field is bad and cannot be inferred from the previous good time,,,,,Operational
-033031,Scan line quality flags for ATOVS,3,This record starts a sequence that is inconsistent with previous times (i.e. there is a time discontinuity). This may or may not be associated with a spacecraft clock update (see scan line status flags for ATOVS),,,,,Operational
-033031,Scan line quality flags for ATOVS,4,Start of a sequence that apparently repeats scan times that have been previously accepted,,,,,Operational
-033031,Scan line quality flags for ATOVS,5,Scan line was not calibrated because of bad time,,,,,Operational
-033031,Scan line quality flags for ATOVS,6,Scan line was calibrated using fewer than the preferred number of scan lines because of proximity to start or end of data or to a data gap,,,,,Operational
-033031,Scan line quality flags for ATOVS,7,Scan line was not calibrated because of bad or insufficient PRT data,,,,,Operational
-033031,Scan line quality flags for ATOVS,8,Scan line was calibrated but with marginal PRT data,,,,,Operational
-033031,Scan line quality flags for ATOVS,9,Some uncalibrated channels on this scan,,,,,Operational
-033031,Scan line quality flags for ATOVS,10,Uncalibrated due to instrument mode,,,,,Operational
-033031,Scan line quality flags for ATOVS,11,Questionable calibration because of antenna position error of space view,,,,,Operational
-033031,Scan line quality flags for ATOVS,12,Questionable calibration because of antenna position error of black body,,,,,Operational
-033031,Scan line quality flags for ATOVS,13,Not Earth located because of bad time,,,,,Operational
-033031,Scan line quality flags for ATOVS,14,Earth location questionable because of questionable time code (see time problem code bits),,,,,Operational
-033031,Scan line quality flags for ATOVS,15,Earth location questionable - only marginal agreement with reasonableness check,,,,,Operational
-033031,Scan line quality flags for ATOVS,16,Earth location questionable - fails reasonableness check,,,,,Operational
-033031,Scan line quality flags for ATOVS,17,Earth location questionable because of antenna position check,,,,,Operational
-033031,Scan line quality flags for ATOVS,18,Scan line calibration cold black body,,,,,Operational
-033031,Scan line quality flags for ATOVS,19,Scan line calibration warm black body,,,,,Operational
-033031,Scan line quality flags for ATOVS,20,Scan line calibration space view,,,,,Operational
-033031,Scan line quality flags for ATOVS,21,Earth view,,,,,Operational
-033031,Scan line quality flags for ATOVS,22-23,Reserved,,,,,Operational
-033031,Scan line quality flags for ATOVS,All 24,Missing value,,,,,Operational
-033032,Channel quality flags for ATOVS,1,No good blackbody counts for scan line,,,,,Operational
-033032,Channel quality flags for ATOVS,2,No good space view counts for this line,,,,,Operational
-033032,Channel quality flags for ATOVS,3,No good PRTs for this line,,,,,Operational
-033032,Channel quality flags for ATOVS,4,Some bad blackbody view counts for this line,,,,,Operational
-033032,Channel quality flags for ATOVS,5,Some bad space view counts for this line,,,,,Operational
-033032,Channel quality flags for ATOVS,6,Some bad PRT temps on this line,,,,,Operational
-033032,Channel quality flags for ATOVS,7,Quality for this scan is reduced,,,,,Operational
-033032,Channel quality flags for ATOVS,8-23,Reserved (bits set to zero),,,,,Operational
-033032,Channel quality flags for ATOVS,All 24,Missing value,,,,,Operational
-033033,Field of view quality flags for ATOVS,1,Set if secondary calibration used,,,,,Operational
-033033,Field of view quality flags for ATOVS,2-21,Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems,,,(see Note 2),26,Operational
-033033,Field of view quality flags for ATOVS,22,Set if all the channels are missing,,,,,Operational
-033033,Field of view quality flags for ATOVS,23,Suspect,,,,,Operational
-033033,Field of view quality flags for ATOVS,All 24,Missing value,,,,,Operational
-033035,Manual/automatic quality control,0,Automatic quality control passed and not manually checked,,,,,Operational
-033035,Manual/automatic quality control,1,Automatic quality control passed and manually checked and passed,,,,,Operational
-033035,Manual/automatic quality control,2,Automatic quality control passed and manually checked and deleted,,,,,Operational
-033035,Manual/automatic quality control,3,Automatic quality control failed and manually not checked,,,,,Operational
-033035,Manual/automatic quality control,4,Automatic quality control failed and manually checked and failed,,,,,Operational
-033035,Manual/automatic quality control,5,Automatic quality control failed and manually checked and re-inserted,,,,,Operational
-033035,Manual/automatic quality control,6,Automatic quality control flagged data as questionable and not manually checked,,,,,Operational
-033035,Manual/automatic quality control,7,Automatic quality control flagged data as questionable and manually checked and failed,,,,,Operational
-033035,Manual/automatic quality control,8,Manually checked and failed,,,,,Operational
-033035,Manual/automatic quality control,9-14,Reserved,,,,,Operational
-033035,Manual/automatic quality control,15,Missing value,,,,,Operational
-033037,Wind correlation error,1,u departure from guess,,,,,Operational
-033037,Wind correlation error,2,v departure from guess,,,,,Operational
-033037,Wind correlation error,3,u and v departure from guess,,,,,Operational
-033037,Wind correlation error,4,u acceleration,,,,,Operational
-033037,Wind correlation error,5,v acceleration,,,,,Operational
-033037,Wind correlation error,6,u and v acceleration,,,,,Operational
-033037,Wind correlation error,7,Possible land feature,,,,,Operational
-033037,Wind correlation error,8,u acceleration and possible land feature,,,,,Operational
-033037,Wind correlation error,9,v acceleration and possible land feature,,,,,Operational
-033037,Wind correlation error,10,u and v acceleration and possible land feature,,,,,Operational
-033037,Wind correlation error,11,Bad wind guess,,,,,Operational
-033037,Wind correlation error,12,Correlation failure,,,,,Operational
-033037,Wind correlation error,13,Search box off edge of area,,,,,Operational
-033037,Wind correlation error,14,Target box off edge of area,,,,,Operational
-033037,Wind correlation error,15,Pixel brightness out of bounds (noisy line),,,,,Operational
-033037,Wind correlation error,16,Target outside of latitude/longitude box,,,,,Operational
-033037,Wind correlation error,17,Target outside of pressure minimum/maximum,,,,,Operational
-033037,Wind correlation error,18,Autoeditor flagged slow vector,,,,,Operational
-033037,Wind correlation error,19,Autoeditor flagged vectors,,,,,Operational
-033037,Wind correlation error,All 20,Missing value,,,,,Operational
-033038,Quality flags for ground-based GNSS data,1,Total zenith delay quality is considered poor,,,,,Operational
-033038,Quality flags for ground-based GNSS data,2,GALILEO satellites used,,,,,Operational
-033038,Quality flags for ground-based GNSS data,3,GLONASS satellites used,,,,,Operational
-033038,Quality flags for ground-based GNSS data,4,GPS satellites used,,,,,Operational
-033038,Quality flags for ground-based GNSS data,5,Meteorological data applied,,,,,Operational
-033038,Quality flags for ground-based GNSS data,6,Atmospheric loading correction applied,,,,,Operational
-033038,Quality flags for ground-based GNSS data,7,Ocean tide loading applied,,,,,Operational
-033038,Quality flags for ground-based GNSS data,8,Climate quality data processing,,,,,Operational
-033038,Quality flags for ground-based GNSS data,9,Near-real time data processing,,,,,Operational
-033038,Quality flags for ground-based GNSS data,All 10,Missing value,,,,,Operational
-033039,Quality flags for radio occultation data,1,Non-nominal quality,,,,,Operational
-033039,Quality flags for radio occultation data,2,Offline product,,,,,Operational
-033039,Quality flags for radio occultation data,3,Ascending occultation flag,,,,,Operational
-033039,Quality flags for radio occultation data,4,Excess phase processing non-nominal,,,,,Operational
-033039,Quality flags for radio occultation data,5,Bending angle processing non-nominal,,,,,Operational
-033039,Quality flags for radio occultation data,6,Refractivity processing non-nominal,,,,,Operational
-033039,Quality flags for radio occultation data,7,Meteorological processing non-nominal,,,,,Operational
-033039,Quality flags for radio occultation data,8,Open loop data included,,,,,Operational
-033039,Quality flags for radio occultation data,9,Surface reflections detected,,,,,Operational
-033039,Quality flags for radio occultation data,10,L2C GNSS signals used,,,,,Operational
-033039,Quality flags for radio occultation data,11-13,Reserved,,,,,Operational
-033039,Quality flags for radio occultation data,14,Background profile non-nominal,,,,,Operational
-033039,Quality flags for radio occultation data,15,Background (i.e. not retrieved) profile present,,,,,Operational
-033039,Quality flags for radio occultation data,All 16,Missing value,,,,,Operational
-033041,Attribute of following value,0,The following value is the true value,,,,,Operational
-033041,Attribute of following value,1,The following value is higher than the true value (the measurement hit the lower limit of the instrument),,,,,Operational
-033041,Attribute of following value,2,The following value is lower than the true value (the measurement hit the higher limit of the instrument),,,,,Operational
-033041,Attribute of following value,3,Missing value,,,,,Operational
-033042,Type of limit represented by following value,0,Exclusive lower limit (>),,,,,Operational
-033042,Type of limit represented by following value,1,Inclusive lower limit (>=),,,,,Operational
-033042,Type of limit represented by following value,2,Exclusive upper limit (<),,,,,Operational
-033042,Type of limit represented by following value,3,Inclusive upper limit (=<),,,,,Operational
-033042,Type of limit represented by following value,4-6,Reserved,,,,,Operational
-033042,Type of limit represented by following value,7,Missing value,,,,,Operational
-033043,AST confidence,1,Sea MDS.  Nadir only SST retrieval used 3.7 micron channel.  Land MDS reserved,,,,,Operational
-033043,AST confidence,2,Sea MDS.  Dual view SST retrieval used 3.7 micron channel.  Land MDS reserved,,,,,Operational
-033043,AST confidence,3,Nadir view contains day time data,,,,,Operational
-033043,AST confidence,4,Forward view contains day time data,,,,,Operational
-033043,AST confidence,5-7,Reserved,,,,,Operational
-033043,AST confidence,All 8,Missing value,,,,,Operational
-033044,ASAR quality information,1,Input data mean outside nominal range flag,,,,,Operational
-033044,ASAR quality information,2,Input data standard deviation outside nominal range flag,,,,,Operational
-033044,ASAR quality information,3,Number of input data gaps > threshold value,,,,,Operational
-033044,ASAR quality information,4,Percentage of missing lines > threshold value,,,,,Operational
-033044,ASAR quality information,5,Doppler centroid uncertain. Confidence measure < specific value,,,,,Operational
-033044,ASAR quality information,6,Doppler ambiguity estimate uncertain. Confidence measure < specific value,,,,,Operational
-033044,ASAR quality information,7,Output data mean outside nominal range flag,,,,,Operational
-033044,ASAR quality information,8,Output data standard deviation outside nominal range flag,,,,,Operational
-033044,ASAR quality information,9,Chirp reconstruction failed or is of low quality flag,,,,,Operational
-033044,ASAR quality information,10,Data set missing,,,,,Operational
-033044,ASAR quality information,11,Invalid downlink parameters,,,,,Operational
-033044,ASAR quality information,12,Azimuth cut-off iteration count. The azimuth cut-off fit did not converge within a minimum number of iterations,,,,,Operational
-033044,ASAR quality information,13,Azimuth cut-off fit did not converge within a minimum number of iterations,,,,,Operational
-033044,ASAR quality information,14,"Phase information confidence measure. The imaginary spectral peak is less than a minimum threshold, or the zero lag shift is greater than a minimum threshold",,,,,Operational
-033044,ASAR quality information,All 15,Missing value,,,,,Operational
-033047,Measurement confidence data,1,Error detected and attempts to recover made,,,,,Operational
-033047,Measurement confidence data,2,Anomaly in on-board data handling (OBDH) value detected,,,,,Operational
-033047,Measurement confidence data,3,Anomaly in ultra stable oscillator processing (USOP) value detected,,,,,Operational
-033047,Measurement confidence data,4,Errors detected by on-board computer,,,,,Operational
-033047,Measurement confidence data,5,Automatic gain control (AGC) out of range,,,,,Operational
-033047,Measurement confidence data,6,Reception (Rx) delay fault.  Rx distance out of range,,,,,Operational
-033047,Measurement confidence data,7,Wave form samples fault identifier. Error,,,,,Operational
-033047,Measurement confidence data,8,S band anomaly/error detected,,,,,Operational
-033047,Measurement confidence data,9-11,Reserved,,,,,Operational
-033047,Measurement confidence data,12,Brightness temperature (channel 1) out of range,,,,,Operational
-033047,Measurement confidence data,13,Brightness temperature (channel 2) out of range,,,,,Operational
-033047,Measurement confidence data,14,Reserved,,,,,Operational
-033047,Measurement confidence data,15,Ku band ocean retracking error,,,,,Operational
-033047,Measurement confidence data,16,S band ocean retracking error,,,,,Operational
-033047,Measurement confidence data,17,Ku band ice 1 retracking error,,,,,Operational
-033047,Measurement confidence data,18,S band ice 1 retracking error,,,,,Operational
-033047,Measurement confidence data,19,Ku band ice 2 retracking error,,,,,Operational
-033047,Measurement confidence data,20,S band ice 2 retracking error,,,,,Operational
-033047,Measurement confidence data,21,Ku band sea ice retracking error,,,,,Operational
-033047,Measurement confidence data,22,Arithmetic fault error,,,,,Operational
-033047,Measurement confidence data,23,Meteo data state. No map,,,,,Operational
-033047,Measurement confidence data,24,Meteo data state. 1 map,,,,,Operational
-033047,Measurement confidence data,25,Meteo data state. 2 maps degraded,,,,,Operational
-033047,Measurement confidence data,26,Meteo data state. 2 maps nominal,,,,,Operational
-033047,Measurement confidence data,27,"Orbit propagator status for propagation mode, several errors",,,,,Operational
-033047,Measurement confidence data,28,"Orbit propagator status for propagation mode, warning detected",,,,,Operational
-033047,Measurement confidence data,29,"Orbit propagator status for initialization mode, several errors",,,,,Operational
-033047,Measurement confidence data,30,"Orbit propagator status for initialization mode, warning detected",,,,,Operational
-033047,Measurement confidence data,All 31,Missing value,,,,,Operational
-033048,Confidence measure of SAR inversion,0,Inversion successful,,,,,Operational
-033048,Confidence measure of SAR inversion,1,Inversion not successful,,,,,Operational
-033048,Confidence measure of SAR inversion,2,Reserved,,,,,Operational
-033048,Confidence measure of SAR inversion,3,Missing value,,,,,Operational
-033049,Confidence measure of wind retrieval,0,External wind direction used during inversion,,,,,Operational
-033049,Confidence measure of wind retrieval,1,External wind direction not used during inversion,,,,,Operational
-033049,Confidence measure of wind retrieval,2,Reserved,,,,,Operational
-033049,Confidence measure of wind retrieval,3,Missing value,,,,,Operational
-033050,Global GTSPP quality flag,0,Unqualified,,,,,Operational
-033050,Global GTSPP quality flag,1,Correct value (all checks passed),,,,,Operational
-033050,Global GTSPP quality flag,2,Probably good but value inconsistent with statistics (differ from climatology),,,,,Operational
-033050,Global GTSPP quality flag,3,"Probably bad (spike, gradient, etc., if other tests passed)",,,,,Operational
-033050,Global GTSPP quality flag,4,"Bad value, impossible value (out of scale, vertical instability, constant profile)",,,,,Operational
-033050,Global GTSPP quality flag,5,Value modified during quality control,,,,,Operational
-033050,Global GTSPP quality flag,6-7,Reserved,,,,,Operational
-033050,Global GTSPP quality flag,8,Interpolated value,,,,,Operational
-033050,Global GTSPP quality flag,9,Good for operational use; Caution; check literature for other uses,,,,,Operational
-033050,Global GTSPP quality flag,10-14,Reserved,,,,,Operational
-033050,Global GTSPP quality flag,15,Missing value,,,,,Operational
-033052,S band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1 = invalid).  Bit 1 applies to the 20th data block",,,,,Operational
-033052,S band ocean retracking quality,All 21,Missing value,,,,,Operational
-033053,Ku band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1=invalid). Bit 1 applies to the 20th data block",,,,,Operational
-033053,Ku band ocean retracking quality,All 21,Missing value,,,,,Operational
-033054,Overall quality of retrieved atmospheric profile,0,Profile values good,,,,,Operational
-033054,Overall quality of retrieved atmospheric profile,1,Profile values suspected,,,,,Operational
-033054,Overall quality of retrieved atmospheric profile,2,Reserved,,,,,Operational
-033054,Overall quality of retrieved atmospheric profile,3,Profile values not good,,,,,Operational
-033054,Overall quality of retrieved atmospheric profile,4-6,Reserved,,,,,Operational
-033054,Overall quality of retrieved atmospheric profile,7,Missing value,,,,,Operational
-033055,Wind vector quality flag,1-10,Reserved,,,,,Operational
-033055,Wind vector quality flag,11,Ocean sigma-0 is not available for wind retrievals,,,,,Operational
-033055,Wind vector quality flag,12,Background wind is not available,,,,,Operational
-033055,Wind vector quality flag,13,Background model detect land,,,,,Operational
-033055,Wind vector quality flag,14,Background model detect ice,,,,,Operational
-033055,Wind vector quality flag,15,Sigma-0 is not land/ice free,,,,,Operational
-033055,Wind vector quality flag,16,Sigma-0 land contamination,,,,,Operational
-033055,Wind vector quality flag,17,Sigma-0 ice contamination,,,,,Operational
-033055,Wind vector quality flag,18,Not enough azimuthal diversity,,,,,Operational
-033055,Wind vector quality flag,19,Inversion is not done,,,,,Operational
-033055,Wind vector quality flag,20,Overall WVC flag,,,,,Operational
-033055,Wind vector quality flag,21,Inversion is attempted (flag is set),,,,,Operational
-033055,Wind vector quality flag,22,Rainflag is attempted (flag is set),,,,,Operational
-033055,Wind vector quality flag,23,Rain is detected,,,,,Operational
-033055,Wind vector quality flag,All 24,Missing value,,,,,Operational
-033056,Sigma-0 quality flag,1-7,Reserved,,,,,Operational
-033056,Sigma-0 quality flag,8,Ascending,,,,,Operational
-033056,Sigma-0 quality flag,9,VV polarisation,,,,,Operational
-033056,Sigma-0 quality flag,10,Fore of spacecraft,,,,,Operational
-033056,Sigma-0 quality flag,11,Land,,,,,Operational
-033056,Sigma-0 quality flag,12,Poor sigma-0 (summary),,,,,Operational
-033056,Sigma-0 quality flag,13,Invalid sigma-0 (summary),,,,,Operational
-033056,Sigma-0 quality flag,14,Poor BT,,,,,Operational
-033056,Sigma-0 quality flag,15,Invalid BT,,,,,Operational
-033056,Sigma-0 quality flag,16,Land-sea boundary,,,,,Operational
-033056,Sigma-0 quality flag,17,Negative sigma-0,,,,,Operational
-033056,Sigma-0 quality flag,18-20,Reserved,,,,,Operational
-033056,Sigma-0 quality flag,21,Ice,,,,,Operational
-033056,Sigma-0 quality flag,22,Missing data at a given latitude-longitude for sea-ice flagging process for 2 or more days,,,,,Operational
-033056,Sigma-0 quality flag,23,Ice-ocean contamination,,,,,Operational
-033056,Sigma-0 quality flag,All 24,Missing value,,,,,Operational
-033060,GqisFlagQual - individual IASI-System quality flag,0,Good,,,,,Operational
-033060,GqisFlagQual - individual IASI-System quality flag,1,Bad,,,,,Operational
-033060,GqisFlagQual - individual IASI-System quality flag,2,Reserved,,,,,Operational
-033060,GqisFlagQual - individual IASI-System quality flag,3,Missing value,,,,,Operational
-033066,AMV quality flag,1-19,Reserved,,,,,Operational
-033066,AMV quality flag,20,"Good wind, but an alternative channel used for feature tracking",,,,,Operational
-033066,AMV quality flag,21,"Good wind, but an alternative set of channels used for the determination of cloud-top height/AMV height assignment",,,,,Operational
-033066,AMV quality flag,22,Correlation surface constraint fails,,,,,Operational
-033066,AMV quality flag,23,Reserved,,,,,Operational
-033066,AMV quality flag,All 24,Missing value,,,,,Operational
-033070,Total ozone quality,0,Good retrieval,,,,,Operational
-033070,Total ozone quality,1,Bad aerosol information flag or NOAA-16 radiance anomaly,,,,,Operational
-033070,Total ozone quality,2,Solar zenith angle greater than 84 degrees,,,,,Operational
-033070,Total ozone quality,3,380 nm residue greater than limit,,,,,Operational
-033070,Total ozone quality,4,Ozone inconsistency,,,,,Operational
-033070,Total ozone quality,5,Difference between profile ozone and step 3 total ozone exceeds threshold (set to 25 DU),,,,,Operational
-033070,Total ozone quality,6,Step 1 ozone iteration did not converge,,,,,Operational
-033070,Total ozone quality,7,Any channel residue greater than 16 or bad radiance,,,,,Operational
-033070,Total ozone quality,8,Insufficient pixels - not processed,,,,,Operational
-033070,Total ozone quality,9,First guess good - ozone forecast data used,,,,,Operational
-033070,Total ozone quality,10,High cloud in pixel - not processed,,,,,Operational
-033070,Total ozone quality,11,Successful ozone retrieval,,,,,Operational
-033070,Total ozone quality,12,Unsuccessful ozone retrieval,,,,,Operational
-033070,Total ozone quality,13-14,Reserved,,,,,Operational
-033070,Total ozone quality,15,Missing value,,,,,Operational
-033071,Profile ozone quality,0,Good retrieval,,,,,Operational
-033071,Profile ozone quality,1,Solar zenith angle greater than 84 degrees,,,,,Operational
-033071,Profile ozone quality,2,Difference between step 3 and profile total ozone greater than limit (25 DU),,,,,Operational
-033071,Profile ozone quality,3,Average final residue for wavelengths used in retrieval greater than threshold,,,,,Operational
-033071,Profile ozone quality,4,Final residue greater than 3 times a priori error,,,,,Operational
-033071,Profile ozone quality,5,Difference between retrieved and a priori greater than 3 times a priori error,,,,,Operational
-033071,Profile ozone quality,6,Non-convergent solution,,,,,Operational
-033071,Profile ozone quality,7,Upper level profile anomaly or stray light anomaly,,,,,Operational
-033071,Profile ozone quality,8,Initial residue greater than 18.0 N-value units,,,,,Operational
-033071,Profile ozone quality,9-14,Reserved,,,,,Operational
-033071,Profile ozone quality,15,Missing value,,,,,Operational
-033072,Ozone error,0,Good retrieval,,,,,Operational
-033072,Ozone error,1,Reflectivity out of range,,,,,Operational
-033072,Ozone error,2,Larger pixels (Number of cross-track pixels less than 32) or backward scans error,,,,,Operational
-033072,Ozone error,3,Solar zenith angle greater than 88 degrees,,,,,Operational
-033072,Ozone error,4,Latitude/longitude out of range,,,,,Operational
-033072,Ozone error,5,Viewing zenith angle or solar zenith angle out of range,,,,,Operational
-033072,Ozone error,6,Step-one process failed in general,,,,,Operational
-033072,Ozone error,7,First guess ozone out of range,,,,,Operational
-033072,Ozone error,8,Too many iterations (exceed 8),,,,,Operational
-033072,Ozone error,9,Step-one residue calculation failed,,,,,Operational
-033072,Ozone error,10,Step-two process failed in general,,,,,Operational
-033072,Ozone error,11,First guess ozone profile out of range,,,,,Operational
-033072,Ozone error,12,Step-two ozone value out of range,,,,,Operational
-033072,Ozone error,13,Step-two residue calculation failed,,,,,Operational
-033072,Ozone error,14,Step-three process failed in general,,,,,Operational
-033072,Ozone error,15,Polarization correction accuracy alert,,,,,Operational
-033072,Ozone error,16,Radiance or irradiance less or equal to zero,,,,,Operational
-033072,Ozone error,17-30,Reserved,,,,,Operational
-033072,Ozone error,31,Missing value,,,,,Operational
-033075,Scan-level quality flags,1,"Gap in raw data record (RDR) data detected (i.e., missing scan(s) preceding the current scan)",,,,,Operational
-033075,Scan-level quality flags,2,"Recorded time is not in sequence (i.e., the scan start time is out of sequence)",,,,,Operational
-033075,Scan-level quality flags,3,Lambda monitored calculation cannot be updated,,,(see Note 1),72,Operational
-033075,Scan-level quality flags,4,"The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges",,,(see Note 2),83,Operational
-033075,Scan-level quality flags,5,At least one of the monitored instrument temperatures has drifted more than a specified tolerance value,,,,,Operational
-033075,Scan-level quality flags,6-12,Reserved,,,,,Operational
-033075,Scan-level quality flags,All 13,Missing value,,,,,Operational
-033076,Calibration quality flags,1,Lunar intrusion on first deep space view,,,(see Note),71,Operational
-033076,Calibration quality flags,2,Lunar intrusion on second deep space view,,,(see Note),71,Operational
-033076,Calibration quality flags,3-8,Reserved,,,,,Operational
-033076,Calibration quality flags,All 9,Missing value,,,,,Operational
-033077,Field-of-view quality flags,1,Degraded SDR quality,,,,,Operational
-033077,Field-of-view quality flags,2,Invalid SDR quality,,,(see Note 1),68,Operational
-033077,Field-of-view quality flags,3,Invalid SDR geolocation information,,,,,Operational
-033077,Field-of-view quality flags,4,Degraded radiometric calibration,,,,,Operational
-033077,Field-of-view quality flags,5,Invalid radiometric calibration,,,(see Note 2),67,Operational
-033077,Field-of-view quality flags,6,Degraded spectral calibration,,,,,Operational
-033077,Field-of-view quality flags,7,Invalid spectral calibration,,,(see Note 3),73,Operational
-033077,Field-of-view quality flags,8,Fringe count error detected and corrected,,,(see Note 4),70,Operational
-033077,Field-of-view quality flags,9,Day/night indicator,,,(see Note 5),69,Operational
-033077,Field-of-view quality flags,10,Invalid RDR data,,,(see Note 6),87,Operational
-033077,Field-of-view quality flags,11,Significant fringe count error detected,,,(see Note 7),86,Operational
-033077,Field-of-view quality flags,12,Bit trim failed,,,,,Operational
-033077,Field-of-view quality flags,13-18,Reserved,,,,,Operational
-033077,Field-of-view quality flags,All 19,Missing value,,,,,Operational
-033078,Geolocation quality,0,Nominal - altitude and ephemeris data available,,,,,Operational
-033078,Geolocation quality,1,Missing at most a small gap of altitude and ephemeris data,,,,,Operational
-033078,Geolocation quality,2,"Missing more than a small gap of altitude and ephemeris data, but no more than a granule boundary",,,,,Operational
-033078,Geolocation quality,3,Missing more than a granule boundary of altitude and ephemeris data,,,,,Operational
-033078,Geolocation quality,4-14,Reserved,,,,,Operational
-033078,Geolocation quality,15,Missing value,,,,,Operational
-033079,Granule level quality flags,1-5,Reserved,,,,,Operational
-033079,Granule level quality flags,6,The No. 1-No. 7 health checks failed,,,,,Operational
-033079,Granule level quality flags,7,The No. 8-No. 15 health checks failed,,,,,Operational
-033079,Granule level quality flags,8,The No. 16-No. 23 health checks failed,,,,,Operational
-033079,Granule level quality flags,9,The No. 24-No. 31 health checks failed,,,,,Operational
-033079,Granule level quality flags,10,The No. 32-No. 39 health checks failed,,,,,Operational
-033079,Granule level quality flags,11,The No. 40-No. 47 health checks failed,,,,,Operational
-033079,Granule level quality flags,12,The No. 48-No. 55 health checks failed,,,,,Operational
-033079,Granule level quality flags,13,The No. 56-No. 63 health checks failed,,,,,Operational
-033079,Granule level quality flags,14,The No. 64-No. 70 health checks failed,,,,,Operational
-033079,Granule level quality flags,15,Quadratic correction applied to the radiometric transfer function for non-linearity correction,,,,,Operational
-033079,Granule level quality flags,All 16,Missing value,,,,,Operational
-033080,Scan level quality flags,1-6,Reserved,,,,,Operational
-033080,Scan level quality flags,7,Divide-by-zero condition or computation loop failed to converge in the K/Ka and V (KAV) band PRT,,,,,Operational
-033080,Scan level quality flags,8,Divide-by-zero condition or computation loop failed to converge in the WG band PRT,,,,,Operational
-033080,Scan level quality flags,9,"Divide-by-zero condition or computation loop failed to converge in the K/Ka, V, W, G band receiver shelf PRT K temperature computation",,,,,Operational
-033080,Scan level quality flags,10,Out of range condition for the K/Ka and V band PRT,,,,,Operational
-033080,Scan level quality flags,11,Out of range condition for the WG band PRT,,,,,Operational
-033080,Scan level quality flags,12,KAV PRT temperature inconsistency,,,,,Operational
-033080,Scan level quality flags,13,"WG PRT temperature inconsistency",,,,,Operational
-033080,Scan level quality flags,14,Time sequence error,,,,,Operational
-033080,Scan level quality flags,15,Data gap - missing scan(s) preceding the current scan,,,,,Operational
-033080,Scan level quality flags,16,KAV PRT sufficiency - insufficient KAV PRT data are available,,,,,Operational
-033080,Scan level quality flags,17,WG PRT sufficiency - insufficient WG PRT data are available,,,,,Operational
-033080,Scan level quality flags,18,Space view antenna position error,,,,,Operational
-033080,Scan level quality flags,19,Blackbody antenna position error,,,,,Operational
-033080,Scan level quality flags,All 20,Missing value,,,,,Operational
-033081,Channel data quality flags,1-2,Reserved,,,,,Operational
-033081,Channel data quality flags,3,Moon in space view,,,,,Operational
-033081,Channel data quality flags,4,Gain error - the lowest blackbody count is smaller than or equal to the highest space view count in a scan,,,,,Operational
-033081,Channel data quality flags,5,Calibration with fewer than preferred samples,,,,,Operational
-033081,Channel data quality flags,6,Space view data sufficiency check - insufficient space view samples are available,,,,,Operational
-033081,Channel data quality flags,7,Blackbody view data sufficiency check - insufficient blackbody view samples are available,,,,,Operational
-033081,Channel data quality flags,8,"Out of range condition for the space view",,,,,Operational
-033081,Channel data quality flags,9,Out of range condition for the blackbody view,,,,,Operational
-033081,Channel data quality flags,10,Space view inconsistency,,,,,Operational
-033081,Channel data quality flags,11,Blackbody view inconsistency,,,,,Operational
-033081,Channel data quality flags,All 12,Missing value,,,,,Operational
-033082,Geolocation quality flags,1-5,Reserved,,,,,Operational
-033082,Geolocation quality flags,6,Within South Atlantic anomaly,,,,,Operational
-033082,Geolocation quality flags,7,Invalid input data (indicates that any of the spacecraft ephemeris or attitude data are invalid),,,,,Operational
-033082,Geolocation quality flags,8,"Bad pointing (indicates that the sensor LOS does not intersect the geoid, is near the limb, has invalid sensor angles or other similar condition)",,,,,Operational
-033082,Geolocation quality flags,9,Bad terrain (indicates that the algorithm could not obtain a valid terrain value),,,,,Operational
-033082,Geolocation quality flags,10,Invalid solar angles,,,,,Operational
-033082,Geolocation quality flags,11,Missing at most a small gap of altitude and ephemeris data,,,,,Operational
-033082,Geolocation quality flags,12,"Missing more than a small gap of altitude and ephemeris data, but no more than a granule boundary",,,,,Operational
-033082,Geolocation quality flags,13,Missing more than a granule boundary of altitude and ephemeris data,,,,,Operational
-033082,Geolocation quality flags,14,The number of encoder pulse values per delta time is not as expected,,,,,Operational
-033082,Geolocation quality flags,15,Solar eclipse during Earth view scan,,,,,Operational
-033082,Geolocation quality flags,All 16,Missing value,,,,,Operational
-033083,Radiance data quality flags,1-5,Reserved,,,,,Operational
-033083,Radiance data quality flags,6,Pixel is affected by radio-frequency interference,,,,,Operational
-033083,Radiance data quality flags,7,"Poor calibration quality due to bad space view offsets, OBC view offsets, etc. or use of a previous calibration view",,,,,Operational
-033083,Radiance data quality flags,8,Saturated pixel,,,,,Operational
-033083,Radiance data quality flags,9,Missing data -data required for calibration processing are not available for processing,,,,,Operational
-033083,Radiance data quality flags,10,Calibrated pixel radiance out of range,,,,,Operational
-033083,Radiance data quality flags,11,Calibrated pixel reflectance or EBBT out of range,,,,,Operational
-033083,Radiance data quality flags,12,The moon has corrupted the space view,,,,,Operational
-033083,Radiance data quality flags,13,Scan data is not present (no valid data),,,,,Operational
-033083,Radiance data quality flags,14,Quality for this scan-line is reduced. The value is determined by the combined number of steps required to find a replacement for thermistor or calibration source data,,,,,Operational
-033083,Radiance data quality flags,15,Bad detector,,,,,Operational
-033083,Radiance data quality flags,All 16,Missing value,,,,,Operational
-033084,Pixel level quality flags,1-5,Reserved,,,,,Operational
-033084,Pixel level quality flags,6,Bulk SST outside of validation range,,,,,Operational
-033084,Pixel level quality flags,7,Skin SST outside of validation range,,,,,Operational
-033084,Pixel level quality flags,8,Sensor zenith angle > 40 degrees (pixel is not within 40 degrees of nadir and therefore is not of high quality),,,,,Operational
-033084,Pixel level quality flags,9,"Degradation - horizontal cell size (HCS) > 1.3 km (HCS > 1.3 km, swath width > 1 700 km, sensor zenith angle > 50.3 degrees)",,,,,Operational
-033084,Pixel level quality flags,10,Exclusion: no ocean in pixel,,,,,Operational
-033084,Pixel level quality flags,11,Degradation: aerosol optical thickness (AOT) > 0.6 (AOT in horizontal cell > 0.6 on the slant path (AOT @550 nm)),,,,,Operational
-033084,Pixel level quality flags,12,Exclusion: AOT > 1.0 (AOT in horizontal cell > 1.0 on the slant path (AOT @550 nm)),,,,,Operational
-033084,Pixel level quality flags,13,Sun glint present in pixel,,,,,Operational
-033084,Pixel level quality flags,14,Ice concentration threshold exceeded (SST not retrieved due to ice concentration exceeding threshold in system spec),,,,,Operational
-033084,Pixel level quality flags,15,Thin cirrus detected in pixel,,,,,Operational
-033084,Pixel level quality flags,All 16,Missing value,,,,,Operational
-033085,Aerosol optical thickness quality flags,1-3,Reserved,,,,,Operational
-033085,Aerosol optical thickness quality flags,4,Angstrom exponent is outside of the system specification range,,,,,Operational
-033085,Aerosol optical thickness quality flags,5,"Excluded, Angstrom exponent for AOT at 550 nm < 0.15",,,,,Operational
-033085,Aerosol optical thickness quality flags,6,"Bright surface in cell (if over land), or shallow or turbid water in cell (if over ocean)",,,,,Operational
-033085,Aerosol optical thickness quality flags,7,"Low sun, excluded, Solar Zenith Angle > 80 degrees",,,,,Operational
-033085,Aerosol optical thickness quality flags,8,"Low sun, degraded, 65 degrees < Solar Zenith Angle =< 80 degrees",,,,,Operational
-033085,Aerosol optical thickness quality flags,9,Fire detected in cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,10,Snow/Ice in cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,11,Cloud shadow in cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,12,Sun glint in cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,13,Bad SDR data present in horizontal cell (quality of AOT/APSP degraded or AOT/APSP not retrieved due to bad SDR data in horizontal cell),,,,,Operational
-033085,Aerosol optical thickness quality flags,14,Cirrus contamination in cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,15,Cloud adjacent to cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,16,Cloud contamination in cell,,,,,Operational
-033085,Aerosol optical thickness quality flags,17,AOT is outside of the system specification range,,,,,Operational
-033085,Aerosol optical thickness quality flags,All 18,Missing value,,,,,Operational
-033086,Quality of pixel level retrieval,0,Not retrieved,,,,,Operational
-033086,Quality of pixel level retrieval,1,Excluded,,,,,Operational
-033086,Quality of pixel level retrieval,2,Degraded,,,,,Operational
-033086,Quality of pixel level retrieval,3,High quality,,,,,Operational
-033086,Quality of pixel level retrieval,4-6,Reserved,,,,,Operational
-033086,Quality of pixel level retrieval,7,Missing value,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),0,Less than or equal to 10%,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),1,Greater than 10% but less than or equal to 20%,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),2,Greater than 20% but less than or equal to 30%,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),3,Greater than 30% but less than or equal to 40%,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),4,Greater than 40% but less than or equal to 50%,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),5,Greater than 50% but less than or equal to 60%,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),6,Greater than 60% but less than or equal to 70%,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),7,Greater than 70% but less than or equal to 80%,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),8,"Greater than 80%",,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),9-14,Reserved,,,,,Operational
-033087,Extent of satellite within South Atlantic anomaly (based on climatological data),15,Missing value,,,,,Operational
-033088,Ozone total column quality flag,1-5,Reserved,,,,,Operational
-033088,Ozone total column quality flag,6,Surface reflectivity out of range,,,,,Operational
-033088,Ozone total column quality flag,7,Residual too large,,,,,Operational
-033088,Ozone total column quality flag,8,Aerosol index limit exceeded,,,,,Operational
-033088,Ozone total column quality flag,9,"Solar eclipse present (all or part of the IFOV is affected by a solar eclipse, umbra or penumbra viewing)",,,,,Operational
-033088,Ozone total column quality flag,10,Sun glint present within IFOV,,,,,Operational
-033088,Ozone total column quality flag,11,Snow or ice surface is within the IFOV,,,,,Operational
-033088,Ozone total column quality flag,12,Solar zenith angle in excluded (night) condition (solar zenith angle >= 88 degrees),,,,,Operational
-033088,Ozone total column quality flag,13,Solar zenith angle in degraded condition (80 degrees =< solar zenith angle < 88 degrees),,,,,Operational
-033088,Ozone total column quality flag,14,SO2 index > 6 DU (degraded condition),,,,,Operational
-033088,Ozone total column quality flag,15,Residues are not consistent (indicates whether the residues from the 22 wavelengths are consistent),,,,,Operational
-033088,Ozone total column quality flag,16,O3 triplet selection is not consistent within retrieval (ozone triplet consistency),,,,,Operational
-033088,Ozone total column quality flag,17,Input data quality is not good,,,,,Operational
-033088,Ozone total column quality flag,All 18,Missing value,,,,,Operational
-033092,Band specific ocean quality flag,1,Altimeter operating,,,,,Operational
-033092,Band specific ocean quality flag,2,Microwave radiometer (MWR) operating,,,,,Operational
-033092,Band specific ocean quality flag,3-8,Reserved,,,,,Operational
-033092,Band specific ocean quality flag,All 9,Missing value,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,1,Path delay quality is considered poor,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,2,GALILEO satellites used,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,3,GLONASS satellites used,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,4,GPS satellites used,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,5,BeiDou satellites used,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,6-8,Reserved for new GNSS,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,9,Meteorological data applied,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,10,Atmospheric loading correction applied,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,11,Ocean tide loading applied,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,12,Second order ionosphere corrections applied,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,13,Third order ionosphere corrections applied,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,14,PPP solution,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,15,Gradients applied to path delay,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,16,Multipath corrections applied to path delay,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,17,Residual applied to path delay,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,18,Climate quality data processing,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,19,Re-processing,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,20,Post-processing,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,21,Near-real time data processing,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,22,Real time data processing,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,23-30,Reserved,,,,,Operational
-033093,Extended quality flags for ground-based GNSS data,All 31,Missing value,,,,,Operational
-033094,Calibration quality control flags,1-15,Reserved,,,,,Operational
-033094,Calibration quality control flags,16,Non-ocean,,,,,Operational
-033094,Calibration quality control flags,17,Lunar or solar intrusion,,,,,Operational
-033094,Calibration quality control flags,18,Spacecraft manoeuvre,,,,,Operational
-033094,Calibration quality control flags,19,Cold calibration consistency,,,,,Operational
-033094,Calibration quality control flags,20,Warm calibration consistency,,,,,Operational
-033094,Calibration quality control flags,21,Descending,,,,,Operational
-033094,Calibration quality control flags,22,Night,,,,,Operational
-033094,Calibration quality control flags,23,Payload rear orientation,,,,,Operational
-033094,Calibration quality control flags,All 24,Missing value,,,,,Operational
-033095,MWI temperatures flag,1,PRT or THM temperatures are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,2,PRT temperatures of OBCT used in the radiometric calibrations are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,3,THM temperatures of SVR used in the radiometric calibrations are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,4,THM temperatures of main reflector are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,5,THM temperatures of the racetrack are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,6,THM temperatures of the receivers are missing or with anomalous readings,,,,,Operational
-033095,MWI temperatures flag,7,Reserved,,,,,Operational
-033095,MWI temperatures flag,All 8,Missing,,,,,Operational
-033096,MWI calibration flag,1,Radiometric calibration failed or is degraded,,,,,Operational
-033096,MWI calibration flag,2,OBCT view counts averaged value over scans is missing (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,3,Cold space view counts averaged value over scans is missing (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,4,OBCT view counts averaged value over scans is degraded due to missing or anomalous counts values (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,5,Cold space view counts averaged value over scans is degraded due to missing or anomalous counts values (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,6,OBCT view radiance averaged value over scans is missing (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,7,Cold space view radiance averaged value over scans is missing (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,8,OBCT view radiance averaged value over scans is degraded due to missing or anomalous values (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,9,Cold space view radiance averaged value over scans is degraded due to missing or anomalous values (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,10,Non-linearity parameter computed using noise diodes is missing (meaningful only for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,11,Non-linearity parameter computed using noise diodes is degraded (meaningful only for channels MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,12,PRT or THM temperatures of current scan are missing or with anomalous readings,,,,,Operational
-033096,MWI calibration flag,13,Moon intrusion in cold space degraded calibration (less than Nvalid_c valid samples are not affected by Moon for the considered channel and scan),,,,,Operational
-033096,MWI calibration flag,14,Back-up calibration with noise diodes performed (meaningful only for MWI-1 to MWI-3),,,,,Operational
-033096,MWI calibration flag,15,Degraded receiver temperatures lead to degraded calibration,,,,,Operational
-033096,MWI calibration flag,All 16,Missing,,,,,Operational
-033097,MWI scan quality flag,1,Scan is degraded in raw data record,,,,,Operational
-033097,MWI scan quality flag,2,Time sequence error,,,,,Operational
-033097,MWI scan quality flag,3,Current scan is acquired after a gap,,,,,Operational
-033097,MWI scan quality flag,4,"Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 packets or data gaps).",,,,,Operational
-033097,MWI scan quality flag,5,Moon intrusion angle in space view below threshold for at least one channel,,,,,Operational
-033097,MWI scan quality flag,6,Moon correction is applied but is degraded for at least one channel,,,,,Operational
-033097,MWI scan quality flag,7,Sun glint angle below threshold for at least one channel,,,,,Operational
-033097,MWI scan quality flag,8,RFI contamination in the Earth view or RFI packet missing for the considered scan (only for MWI-1V and MWI-1H),,,,,Operational
-033097,MWI scan quality flag,9,Satellite manoeuvre occurs in current scan,,,,,Operational
-033097,MWI scan quality flag,10,Missing warm or cold L0 packets for the considered scan,,,,,Operational
-033097,MWI scan quality flag,11-15,Reserved,,,,,Operational
-033097,MWI scan quality flag,All 16,Missing,,,,,Operational
-033098,MWI data quality flag,1,MWI spectral radiance data of channel is missing or degraded,,,,,Operational
-033098,MWI data quality flag,2,Earth view counts of channel within scan are missing or out of bounds,,,,,Operational
-033098,MWI data quality flag,3,Radiometric calibration failed or is degraded,,,,,Operational
-033098,MWI data quality flag,4,Geolocation of channel is erroneous or degraded,,,,,Operational
-033098,MWI data quality flag,5,NEΔT of this data granule is above threshold,,,,,Operational
-033098,MWI data quality flag,6,MR emissivity and spillover correction failed or degraded,,,,,Operational
-033098,MWI data quality flag,7,MR sidelobe correction failed or degraded,,,,,Operational
-033098,MWI data quality flag,8,Channel is defective,,,,,Operational
-033098,MWI data quality flag,All 9,Missing,,,,,Operational
-033099,MWI navigation status flag,1,Geolocation of channel is erroneous or degraded,,,,,Operational
-033099,MWI navigation status flag,2,Time sequence error,,,,,Operational
-033099,MWI navigation status flag,3,Missing or corrupted NAVATT file led to the use of predicted orbit files,,,,,Operational
-033099,MWI navigation status flag,4,NAVATT attitude data is degraded,,,,,Operational
-033099,MWI navigation status flag,5,Time correlation error (missing IERS bulletin),,,,,Operational
-033099,MWI navigation status flag,6,Invalid ephemeris or attitude data,,,,,Operational
-033099,MWI navigation status flag,7,Satellite manoeuvre occurs in current scan,,,,,Operational
-033099,MWI navigation status flag,8,"Non-nominal attitude with yaw, pitch, roll error above threshold Delta_YPR (nominally these angles are 0.0 deg for YSM)",,,,,Operational
-033099,MWI navigation status flag,9,Sampling time not within prescribed limits,,,,,Operational
-033099,MWI navigation status flag,10,Scan velocity not within prescribed limits,,,,,Operational
-033099,MWI navigation status flag,11,Bad pointing (sensor LOS does not intersect ellipsoid or not compliant with observation azimuth/elevation limits),,,,,Operational
-033099,MWI navigation status flag,12,Invalid solar azimuth/zenith angles computed,,,,,Operational
-033099,MWI navigation status flag,13,DEM geolocation not performed (with use_DEM_flag = 1),,,,,Operational
-033099,MWI navigation status flag,14,Error in land fraction computation,,,,,Operational
-033099,MWI navigation status flag,15,Predicted orbit file not available,,,,,Operational
-033099,MWI navigation status flag,All 16,Missing,,,,,Operational
-033100,ICI temperatures flag,1,PRT or THM temperatures are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,2,PRT temperatures of OBCT used in the radiometric calibrations is missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,3,PRT temperatures of SVR used in the radiometric calibrations are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,4,PRT temperatures of IRP and sun shield are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,5,THM temperature of back-end are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,6,THM temperature of front-end are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,7,PRT temperatures of main reflector are missing or with anomalous readings,,,,,Operational
-033100,ICI temperatures flag,All 8,Missing,,,,,Operational
-033101,ICI calibration flag,1,Radiometric calibration failed or is degraded,,,,,Operational
-033101,ICI calibration flag,2,OBCT view counts averaged value over scans is missing,,,,,Operational
-033101,ICI calibration flag,3,Cold space view counts averaged value over scans is missing,,,,,Operational
-033101,ICI calibration flag,4,OBCT view counts averaged value over scans is degraded due to missing or anomalous counts values,,,,,Operational
-033101,ICI calibration flag,5,Cold space view counts averaged value over scans is degraded due to missing or anomalous counts values,,,,,Operational
-033101,ICI calibration flag,6,OBCT view radiance averaged value over scans is missing,,,,,Operational
-033101,ICI calibration flag,7,Cold space view radiance averaged value over scans is missing,,,,,Operational
-033101,ICI calibration flag,8,OBCT view radiance averaged value over scans is degraded due to missing or anomalous values,,,,,Operational
-033101,ICI calibration flag,9,Cold space view radiance averaged value over scans is degraded due to missing or anomalous values,,,,,Operational
-033101,ICI calibration flag,10,PRT or THM temperatures of current scan are missing or with anomalous readings,,,,,Operational
-033101,ICI calibration flag,11,Moon intrusion in cold space degraded calibration (less than Nvalid_c valid samples are not affected by Moon for the considered channel and scan),,,,,Operational
-033101,ICI calibration flag,12,Degraded or missing back-end temperatures lead to degraded calibration,,,,,Operational
-033101,ICI calibration flag,13-15,Reserved,,,,,Operational
-033101,ICI calibration flag,All 16,Missing,,,,,Operational
-033102,ICI navigation status flag,1,Scan is degraded in raw data records,,,,,Operational
-033102,ICI navigation status flag,2,Time sequence error,,,,,Operational
-033102,ICI navigation status flag,3,Current scan is acquired after a gap,,,,,Operational
-033102,ICI navigation status flag,4,"Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 packets or data gaps)",,,,,Operational
-033102,ICI navigation status flag,5,Moon intrusion angle in space view below threshold for at least one channel,,,,,Operational
-033102,ICI navigation status flag,6,Moon correction is applied but is degraded for at least one channel,,,,,Operational
-033102,ICI navigation status flag,7,Sun glint angle below threshold for at least one channel,,,,,Operational
-033102,ICI navigation status flag,8,Satellite manoeuvre occurs in current scan,,,,,Operational
-033102,ICI navigation status flag,9,Missing warm or cold L0 packets for the considered scan,,,,,Operational
-033102,ICI navigation status flag,10-15,Reserved,,,,,Operational
-033102,ICI navigation status flag,All 16,Missing,,,,,Operational
-033103,ICI scan quality flag,1,ICI spectral radiance data of channel is missing or degraded,,,,,Operational
-033103,ICI scan quality flag,2,Earth view counts of channel within scan are missing or out of bounds,,,,,Operational
-033103,ICI scan quality flag,3,Radiometric calibration failed or is degraded,,,,,Operational
-033103,ICI scan quality flag,4,Geolocation of channel is erroneous or degraded,,,,,Operational
-033103,ICI scan quality flag,5,NEΔT of this data granule is above threshold,,,,,Operational
-033103,ICI scan quality flag,6,MR emissivity and spillover correction failed or degraded,,,,,Operational
-033103,ICI scan quality flag,7,MR sidelobe correction failed or degraded,,,,,Operational
-033103,ICI scan quality flag,8,Channel is defective,,,,,Operational
-033103,ICI scan quality flag,All 9,Missing,,,,,Operational
-033104,ICI navigation status flag,1,Geolocation of channels is erroneous or degraded,,,,,Operational
-033104,ICI navigation status flag,2,Time sequence error,,,,,Operational
-033104,ICI navigation status flag,3,Missing or corrupted NAVATT file led to the use of predicted orbit files,,,,,Operational
-033104,ICI navigation status flag,4,NAVATT attitude data is degraded,,,,,Operational
-033104,ICI navigation status flag,5,Time correlation error (missing IERS bulletin),,,,,Operational
-033104,ICI navigation status flag,6,Invalid ephemeris or attitude data,,,,,Operational
-033104,ICI navigation status flag,7,Satellite manoeuvre occurs in current scan,,,,,Operational
-033104,ICI navigation status flag,8,"Non-nominal attitude with yaw, pitch, roll error above threshold Delta_YPR (nominally these angles are 0.0 deg for YSM)",,,,,Operational
-033104,ICI navigation status flag,9,Sampling time not within prescribed limits,,,,,Operational
-033104,ICI navigation status flag,10,Scan velocity not within prescribed limits,,,,,Operational
-033104,ICI navigation status flag,11,Bad pointing (sensor LOS does not intersect ellipsoid or not compliant with observation azimuth/elevation limits),,,,,Operational
-033104,ICI navigation status flag,12,Invalid solar azimuth/zenith angles computed,,,,,Operational
-033104,ICI navigation status flag,13,DEM geolocation not performed (with use_DEM_flag = 1),,,,,Operational
-033104,ICI navigation status flag,14,Error in land fraction computation,,,,,Operational
-033104,ICI navigation status flag,15,Predicted orbit file not available,,,,,Operational
-033104,ICI navigation status flag,All 16,Missing,,,,,Operational
-033105,ICI processing flags,1,Moon contamination correction on cold space view counts is not applied,,,,,Operational
-033105,ICI processing flags,2,MR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
-033105,ICI processing flags,3,SVR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
-033105,ICI processing flags,4,SVR sidelobe correction is not applied,,,,,Operational
-033105,ICI processing flags,5,Full cross-polarization correction including small angle correction is applied,,,,,Operational
-033105,ICI processing flags,6,Dynamic sidelobe correction is not applied for ICI-1,,,,,Operational
-033105,ICI processing flags,7,Dynamic sidelobe correction is not applied for ICI-2,,,,,Operational
-033105,ICI processing flags,8,Dynamic sidelobe correction is not applied for ICI-3,,,,,Operational
-033105,ICI processing flags,9,Dynamic sidelobe correction is not applied for ICI-4 V and ICI-4 H,,,,,Operational
-033105,ICI processing flags,10-15,Reserved,,,,,Operational
-033105,ICI processing flags,All 16,Missing,,,,,Operational
-033106,MWI processing flags,1,Moon contamination correction on cold space view counts is not applied,,,,,Operational
-033106,MWI processing flags,2,Calibration with noise diodes is not applied for at least one channel among MWI-1 to MWI-3,,,,,Operational
-033106,MWI processing flags,3,MR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
-033106,MWI processing flags,4,SVR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
-033106,MWI processing flags,5,SVR sidelobe correction is not applied,,,,,Operational
-033106,MWI processing flags,6,Full cross-polarization correction including small angle correction is applied,,,,,Operational
-033106,MWI processing flags,7,RFI correction in the Earth view is not applied,,,,,Operational
-033106,MWI processing flags,8,Dynamic sidelobe correction is not applied for MWI-1,,,,,Operational
-033106,MWI processing flags,9,Dynamic sidelobe correction is not applied for MWI-2,,,,,Operational
-033106,MWI processing flags,10,Dynamic sidelobe correction is not applied for MWI-3,,,,,Operational
-033106,MWI processing flags,11,Dynamic sidelobe correction is not applied for MWI-4,,,,,Operational
-033106,MWI processing flags,12,Dynamic sidelobe correction is not applied for MWI-8,,,,,Operational
-033106,MWI processing flags,13-15,Reserved,,,,,Operational
-033106,MWI processing flags,All 16,Missing,,,,,Operational
-033107,MWS scan line processing flag,1,Non-nominal scan due to gap,,,,,Operational
-033107,MWS scan line processing flag,2,Non-nominal warm target temperature,,,,,Operational
-033107,MWS scan line processing flag,3,Non-nominal along-track averaging of warm target temperatures,,,,,Operational
-033107,MWS scan line processing flag,4,Non-nominal instrument temperature,,,,,Operational
-033107,MWS scan line processing flag,5,Non-nominal along-track averaging of instrument temperatures,,,,,Operational
-033107,MWS scan line processing flag,6,Non-nominal rotating reflector temperature,,,,,Operational
-033107,MWS scan line processing flag,7,Non-nominal along-track averaging of rotating reflector temperatures,,,,,Operational
-033107,MWS scan line processing flag,8,Non-nominal antenna scan angle Earth view,,,,,Operational
-033107,MWS scan line processing flag,9,Non-nominal antenna scan angle cold view,,,,,Operational
-033107,MWS scan line processing flag,10,Non-nominal antenna scan angle warm view,,,,,Operational
-033107,MWS scan line processing flag,11,Non-nominal geolocation,,,,,Operational
-033107,MWS scan line processing flag,12,Non-nominal LSM and DEM assignment,,,,,Operational
-033107,MWS scan line processing flag,13,Ongoing satellite manoeuvre,,,,,Operational
-033107,MWS scan line processing flag,14,Redundant 50GHz rec and PRT set in use,,,,,Operational
-033107,MWS scan line processing flag,15,Reserved,,,,,Operational
-033107,MWS scan line processing flag,All 16,Missing,,,,,Operational
-033108,MWS navigation status flag,1,Non-nominal condition,,,,,Operational
-033108,MWS navigation status flag,2,Scan not processed,,,,,Operational
-033108,MWS navigation status flag,3,Geolocation not successful,,,,,Operational
-033108,MWS navigation status flag,4,Orbit not initialized with NAVATT,,,,,Operational
-033108,MWS navigation status flag,5,Attitude not initialized with NAVATT,,,,,Operational
-033108,MWS navigation status flag,6,Predicted orbit file ingest error,,,,,Operational
-033108,MWS navigation status flag,7,Manoeuvre,,,,,Operational
-033108,MWS navigation status flag,8,IERS bulletin A ingest error,,,,,Operational
-033108,MWS navigation status flag,9,Time correlation and EOP initialized with predicted orbit file,,,,,Operational
-033108,MWS navigation status flag,10,Full accuracy of NAVATT initialized attitude not reached,,,,,Operational
-033108,MWS navigation status flag,11,Pointing mode not YSM,,,,,Operational
-033108,MWS navigation status flag,12,NAVATT ingest error,,,,,Operational
-033108,MWS navigation status flag,13-15,Reserved,,,,,Operational
-033108,MWS navigation status flag,All 16,Missing,,,,,Operational
-033109,MWS overall quality flags,1,Missing input product(s),,,,,Operational
-033109,MWS overall quality flags,2,Data gap(s),,,,,Operational
-033109,MWS overall quality flags,3,Corrupted input product(s),,,,,Operational
-033109,MWS overall quality flags,4,Instrument anomaly,,,,,Operational
-033109,MWS overall quality flags,5,Missing or degraded auxiliary data,,,,,Operational
-033109,MWS overall quality flags,6,Degraded due to manoeuvre,,,,,Operational
-033109,MWS overall quality flags,7-15,Reserved,,,,,Operational
-033109,MWS overall quality flags,All 16,Missing,,,,,Operational
-033110,MWS channel processing flags,1,Channel is off,,,,,Operational
-033110,MWS channel processing flags,2,Non-nominal mean warm view count,,,,,Operational
-033110,MWS channel processing flags,3,Non-nominal along-track averaging of warm view counts,,,,,Operational
-033110,MWS channel processing flags,4,Non-nominal mean cold view count,,,,,Operational
-033110,MWS channel processing flags,5,Non-nominal along-track averaging of cold view counts,,,,,Operational
-033110,MWS channel processing flags,6,Non-nominal calibration coefficients,,,,,Operational
-033110,MWS channel processing flags,7,Moon intrusion in some of the cold view FOVS,,,,,Operational
-033110,MWS channel processing flags,8,Non-nominal processing or excessive value for NEDT (cold or warm),,,,,Operational
-033110,MWS channel processing flags,All 9,Missing,,,,,Operational
-033111,SCA quality flags,1,Predicted orbit file used,,,,,Operational
-033111,SCA quality flags,2,Manoeuvre taking place,,,,,Operational
-033111,SCA quality flags,3,Reserved,,,,,Operational
-033111,SCA quality flags,4,Satellite is not in yaw steering mode,,,,,Operational
-033111,SCA quality flags,5,Transponder signal is present,,,,,Operational
-033111,SCA quality flags,6,Noise estimate is poor,,,,,Operational
-033111,SCA quality flags,7,Noise estimate is very poor,,,,,Operational
-033111,SCA quality flags,8,Noise outlier is present,,,,,Operational
-033111,SCA quality flags,9,Ancillary data is poor,,,,,Operational
-033111,SCA quality flags,10,Ancillary data is very poor,,,,,Operational
-033111,SCA quality flags,11,Characterization table limits exceeded,,,,,Operational
-033111,SCA quality flags,12,Power-gain estimate is poor,,,,,Operational
-033111,SCA quality flags,13,Power-gain estimate is very poor,,,,,Operational
-033111,SCA quality flags,14,Power-gain out of limits,,,,,Operational
-033111,SCA quality flags,15,Waveguide loss estimate is poor,,,,,Operational
-033111,SCA quality flags,16,Waveguide loss estimate is very poor,,,,,Operational
-033111,SCA quality flags,17,Waveguide table limits exceeded,,,,,Operational
-033111,SCA quality flags,18,Echo is out of ADC range,,,,,Operational
-033111,SCA quality flags,19,Reserved,,,,,Operational
-033111,SCA quality flags,20,Missing normalization tables,,,,,Operational
-033111,SCA quality flags,21,Number of samples in window is low,,,,,Operational
-033111,SCA quality flags,22,Number of samples in window is very low,,,,,Operational
-033111,SCA quality flags,23,Negative backscatter in resampled data,,,,,Operational
-033111,SCA quality flags,24,Possible interference from solar array,,,,,Operational
-033111,SCA quality flags,25,Reserved,,,,,Operational
-033111,SCA quality flags,26,Reserved,,,,,Operational
-033111,SCA quality flags,27,Reserved,,,,,Operational
-033111,SCA quality flags,28,Land,,,,,Operational
-033111,SCA quality flags,29,Water,,,,,Operational
-033111,SCA quality flags,30,Ascending pass,,,,,Operational
-033111,SCA quality flags,31,Descending pass,,,,,Operational
-033111,SCA quality flags,All 32,Missing,,,,,Operational
-033113,IASI-NG general quality flags,1,"General quality (0 if bits 2 to 11 are all 0, 1 otherwise)",,,,,Operational
-033113,IASI-NG general quality flags,2,Sounder radiometric,,,,,Operational
-033113,IASI-NG general quality flags,3,Sounder spectral,,,,,Operational
-033113,IASI-NG general quality flags,4,Imager geometric,,,,,Operational
-033113,IASI-NG general quality flags,5,Imager classification,,,,,Operational
-033113,IASI-NG general quality flags,6,Imager radiometric,,,,,Operational
-033113,IASI-NG general quality flags,7,General sounder,,,,,Operational
-033113,IASI-NG general quality flags,8,Presence of mathematical errors,,,,,Operational
-033113,IASI-NG general quality flags,9,TM data missing,,,,,Operational
-033113,IASI-NG general quality flags,10,TM data corrupt,,,,,Operational
-033113,IASI-NG general quality flags,11,TM integrity instrument,,,,,Operational
-033113,IASI-NG general quality flags,12-15,Reserved,,,,,Operational
-033113,IASI-NG general quality flags,All 16,Missing,,,,,Operational
-033114,Out of bounds check,1,Temperature profile,,,,,Operational
-033114,Out of bounds check,2,Water vapour profile,,,,,Operational
-033114,Out of bounds check,3,Ozone profile,,,,,Operational
-033114,Out of bounds check,4,Surface skin temperature,,,,,Operational
-033114,Out of bounds check,5,Surface air temperature,,,,,Operational
-033114,Out of bounds check,6,Surface air dew point temperature,,,,,Operational
-033114,Out of bounds check,7,Surface pressure,,,,,Operational
-033114,Out of bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
-033114,Out of bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
-033114,Out of bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
-033114,Out of bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
-033114,Out of bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
-033114,Out of bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
-033114,Out of bounds check,14,CO2 profile,,,,,Operational
-033114,Out of bounds check,15,CH4 profile,,,,,Operational
-033114,Out of bounds check,16,N2O profile,,,,,Operational
-033114,Out of bounds check,All 17,Missing,,,,,Operational
-033115,Aerosol optical depth quality information,0,Good,,,,,Operational
-033115,Aerosol optical depth quality information,1,Cloudy nadir,,,,,Operational
-033115,Aerosol optical depth quality information,2,Cloudy oblique,,,,,Operational
-033115,Aerosol optical depth quality information,3,Glint nadir,,,,,Operational
-033115,Aerosol optical depth quality information,4,Glint oblique,,,,,Operational
-033115,Aerosol optical depth quality information,5-30,Reserved,,,,,Operational
-033115,Aerosol optical depth quality information,31,Missing value,,,,,Operational
-033116,First guess in bounds check,1,Temperature profile,,,,,Operational
-033116,First guess in bounds check,2,Water vapour profile,,,,,Operational
-033116,First guess in bounds check,3,Ozone profile,,,,,Operational
-033116,First guess in bounds check,4,Surface skin temperature,,,,,Operational
-033116,First guess in bounds check,5,Surface air temperature,,,,,Operational
-033116,First guess in bounds check,6,Surface air dew point temperature,,,,,Operational
-033116,First guess in bounds check,7,Surface pressure,,,,,Operational
-033116,First guess in bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
-033116,First guess in bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
-033116,First guess in bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
-033116,First guess in bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
-033116,First guess in bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
-033116,First guess in bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
-033116,First guess in bounds check,14,CO2 profile,,,,,Operational
-033116,First guess in bounds check,15,CH4 profile,,,,,Operational
-033116,First guess in bounds check,16,N2O profile,,,,,Operational
-033116,First guess in bounds check,All 17,Missing,,,,,Operational
-033117,In bounds check,1,Temperature profile,,,,,Operational
-033117,In bounds check,2,Water vapour profile,,,,,Operational
-033117,In bounds check,3,Ozone profile,,,,,Operational
-033117,In bounds check,4,Surface skin temperature,,,,,Operational
-033117,In bounds check,5,Surface air temperature,,,,,Operational
-033117,In bounds check,6,Surface air dew point temperature,,,,,Operational
-033117,In bounds check,7,Surface pressure,,,,,Operational
-033117,In bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
-033117,In bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
-033117,In bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
-033117,In bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
-033117,In bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
-033117,In bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
-033117,In bounds check,14,CO2 profile,,,,,Operational
-033117,In bounds check,15,CH4 profile,,,,,Operational
-033117,In bounds check,16,N2O profile,,,,,Operational
-033117,In bounds check,All 17,Missing,,,,,Operational
+Id,FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,Note_en,noteIDs,Status
+bufr4/0/33/002/0,033002,Quality information,0,Data not suspect,,,,,Operational
+bufr4/0/33/002/1,033002,Quality information,1,Data suspect,,,,,Operational
+bufr4/0/33/002/2,033002,Quality information,2,Reserved,,,,,Operational
+bufr4/0/33/002/3,033002,Quality information,3,Quality information not given,,,,,Operational
+bufr4/0/33/003/0,033003,Quality information,0,Data not suspect,,,,,Operational
+bufr4/0/33/003/1,033003,Quality information,1,Data slightly suspect,,,,,Operational
+bufr4/0/33/003/2,033003,Quality information,2,Data highly suspect,,,,,Operational
+bufr4/0/33/003/3,033003,Quality information,3,Data considered unfit for use,,,,,Operational
+bufr4/0/33/003/4-6,033003,Quality information,4-6,Reserved,,,,,Operational
+bufr4/0/33/003/7,033003,Quality information,7,Quality information not given,,,,,Operational
+bufr4/0/33/005/1,033005,Quality information (AWS data),1,No automated meteorological data checks performed,,,,,Operational
+bufr4/0/33/005/2,033005,Quality information (AWS data),2,Pressure data suspect,,,,,Operational
+bufr4/0/33/005/3,033005,Quality information (AWS data),3,Wind data suspect,,,,,Operational
+bufr4/0/33/005/4,033005,Quality information (AWS data),4,Air temperature data suspect,,,,,Operational
+bufr4/0/33/005/5,033005,Quality information (AWS data),5,Wet-bulb temperature data suspect,,,,,Operational
+bufr4/0/33/005/6,033005,Quality information (AWS data),6,Humidity data suspect,,,,,Operational
+bufr4/0/33/005/7,033005,Quality information (AWS data),7,Ground temperature data suspect,,,,,Operational
+bufr4/0/33/005/8,033005,Quality information (AWS data),8,Soil temperature (depth 1) data suspect,,,,,Operational
+bufr4/0/33/005/9,033005,Quality information (AWS data),9,Soil temperature (depth 2) data suspect,,,,,Operational
+bufr4/0/33/005/10,033005,Quality information (AWS data),10,Soil temperature (depth 3) data suspect,,,,,Operational
+bufr4/0/33/005/11,033005,Quality information (AWS data),11,Soil temperature (depth 4) data suspect,,,,,Operational
+bufr4/0/33/005/12,033005,Quality information (AWS data),12,Soil temperature (depth 5) data suspect,,,,,Operational
+bufr4/0/33/005/13,033005,Quality information (AWS data),13,Cloud data suspect,,,,,Operational
+bufr4/0/33/005/14,033005,Quality information (AWS data),14,Visibility data suspect,,,,,Operational
+bufr4/0/33/005/15,033005,Quality information (AWS data),15,Present weather data suspect,,,,,Operational
+bufr4/0/33/005/16,033005,Quality information (AWS data),16,Lightning data suspect,,,,,Operational
+bufr4/0/33/005/17,033005,Quality information (AWS data),17,Ice deposit data suspect,,,,,Operational
+bufr4/0/33/005/18,033005,Quality information (AWS data),18,Precipitation data suspect,,,,,Operational
+bufr4/0/33/005/19,033005,Quality information (AWS data),19,State of ground data suspect,,,,,Operational
+bufr4/0/33/005/20,033005,Quality information (AWS data),20,Snow data suspect,,,,,Operational
+bufr4/0/33/005/21,033005,Quality information (AWS data),21,Water content data suspect,,,,,Operational
+bufr4/0/33/005/22,033005,Quality information (AWS data),22,Evaporation/evapotranspiration data suspect,,,,,Operational
+bufr4/0/33/005/23,033005,Quality information (AWS data),23,Sunshine data suspect,,,,,Operational
+bufr4/0/33/005/24-29,033005,Quality information (AWS data),24-29,Reserved,,,,,Operational
+bufr4/0/33/005/All-30,033005,Quality information (AWS data),All 30,Missing value,,,,,Operational
+bufr4/0/33/006/0,033006,Internal measurement status information (AWS),0,Self-check OK,,,,,Operational
+bufr4/0/33/006/1,033006,Internal measurement status information (AWS),1,"At least one warning active, no alarms",,,,,Operational
+bufr4/0/33/006/2,033006,Internal measurement status information (AWS),2,At least one alarm active,,,,,Operational
+bufr4/0/33/006/3,033006,Internal measurement status information (AWS),3,Sensor failure,,,,,Operational
+bufr4/0/33/006/4-6,033006,Internal measurement status information (AWS),4-6,Reserved,,,,,Operational
+bufr4/0/33/006/7,033006,Internal measurement status information (AWS),7,Missing value,,,,,Operational
+bufr4/0/33/015/0,033015,Data quality-check indicator,0,Passed all checks,,,,,Operational
+bufr4/0/33/015/1,033015,Data quality-check indicator,1,Missing data check,,,,,Operational
+bufr4/0/33/015/2,033015,Data quality-check indicator,2,Descending/reascending balloon check,,,,,Operational
+bufr4/0/33/015/3,033015,Data quality-check indicator,3,Data plausibility check (above limits),,,,,Operational
+bufr4/0/33/015/4,033015,Data quality-check indicator,4,Data plausibility check (below limits),,,,,Operational
+bufr4/0/33/015/5,033015,Data quality-check indicator,5,Superadiabatic lapse rate check,,,,,Operational
+bufr4/0/33/015/6,033015,Data quality-check indicator,6,Limiting angles check,,,,,Operational
+bufr4/0/33/015/7,033015,Data quality-check indicator,7,Ascension rate check,,,,,Operational
+bufr4/0/33/015/8,033015,Data quality-check indicator,8,Excessive change from previous flight,,,,,Operational
+bufr4/0/33/015/9,033015,Data quality-check indicator,9,Balloon overhead check,,,,,Operational
+bufr4/0/33/015/10,033015,Data quality-check indicator,10,Wind speed check,,,,,Operational
+bufr4/0/33/015/11,033015,Data quality-check indicator,11,Wind direction check,,,,,Operational
+bufr4/0/33/015/12,033015,Data quality-check indicator,12,Dependency check,,,,,Operational
+bufr4/0/33/015/13,033015,Data quality-check indicator,13,Data valid but modified,,,,,Operational
+bufr4/0/33/015/14,033015,Data quality-check indicator,14,Data outlier check,,,,,Operational
+bufr4/0/33/015/15-62,033015,Data quality-check indicator,15-62,Reserved,,,,,Operational
+bufr4/0/33/015/63,033015,Data quality-check indicator,63,Missing value,,,,,Operational
+bufr4/0/33/020/0,033020,Quality control indication of following value,0,Good,,,,,Operational
+bufr4/0/33/020/1,033020,Quality control indication of following value,1,Inconsistent,,,,,Operational
+bufr4/0/33/020/2,033020,Quality control indication of following value,2,Doubtful,,,,,Operational
+bufr4/0/33/020/3,033020,Quality control indication of following value,3,Wrong,,,,,Operational
+bufr4/0/33/020/4,033020,Quality control indication of following value,4,Not checked,,,,,Operational
+bufr4/0/33/020/5,033020,Quality control indication of following value,5,Has been changed,,,,,Operational
+bufr4/0/33/020/6,033020,Quality control indication of following value,6,Estimated,,,,,Operational
+bufr4/0/33/020/7,033020,Quality control indication of following value,7,Missing value,,,,,Operational
+bufr4/0/33/021/0,033021,Quality of following value,0,Within limits,,,,,Operational
+bufr4/0/33/021/1,033021,Quality of following value,1,Outside limits,,,,,Operational
+bufr4/0/33/021/2,033021,Quality of following value,2,Reserved,,,,,Operational
+bufr4/0/33/021/3,033021,Quality of following value,3,Missing value,,,,,Operational
+bufr4/0/33/022/0,033022,Quality of buoy satellite transmission,0,Good (several identical reports have been received),,,,,Operational
+bufr4/0/33/022/1,033022,Quality of buoy satellite transmission,1,Dubious (no identical reports have been received),,,,,Operational
+bufr4/0/33/022/2,033022,Quality of buoy satellite transmission,2,Reserved,,,,,Operational
+bufr4/0/33/022/3,033022,Quality of buoy satellite transmission,3,Missing value,,,,,Operational
+bufr4/0/33/023/0,033023,Quality of buoy location,0,Reliable (location was made over two satellite passes),,,,,Operational
+bufr4/0/33/023/1,033023,Quality of buoy location,1,Latest known (no location over the corresponding pass),,,,,Operational
+bufr4/0/33/023/2,033023,Quality of buoy location,2,Dubious (location made over one pass only; a second solution is possible in 5 per cent of the cases),,,,,Operational
+bufr4/0/33/023/3,033023,Quality of buoy location,3,Missing value,,,,,Operational
+bufr4/0/33/024/0,033024,Station elevation quality mark (for mobile stations),0,Reserved,,,,,Operational
+bufr4/0/33/024/1,033024,Station elevation quality mark (for mobile stations),1,Excellent - within 3 metres,,,,,Operational
+bufr4/0/33/024/2,033024,Station elevation quality mark (for mobile stations),2,Good - within 10 metres,,,,,Operational
+bufr4/0/33/024/3,033024,Station elevation quality mark (for mobile stations),3,Fair - within 20 metres,,,,,Operational
+bufr4/0/33/024/4,033024,Station elevation quality mark (for mobile stations),4,Poor - more than 20 metres,,,,,Operational
+bufr4/0/33/024/5,033024,Station elevation quality mark (for mobile stations),5,Excellent - within 10 feet,,,,,Operational
+bufr4/0/33/024/6,033024,Station elevation quality mark (for mobile stations),6,Good - within 30 feet,,,,,Operational
+bufr4/0/33/024/7,033024,Station elevation quality mark (for mobile stations),7,Fair - within 60 feet,,,,,Operational
+bufr4/0/33/024/8,033024,Station elevation quality mark (for mobile stations),8,Poor - more than 60 feet,,,,,Operational
+bufr4/0/33/024/9-14,033024,Station elevation quality mark (for mobile stations),9-14,Reserved,,,,,Operational
+bufr4/0/33/024/15,033024,Station elevation quality mark (for mobile stations),15,Missing value,,,,,Operational
+bufr4/0/33/025/0,033025,ACARS interpolated values indicator,0,"Time interpolated, latitude and longitude reported",,,,,Operational
+bufr4/0/33/025/1,033025,ACARS interpolated values indicator,1,"Time reported, latitude and longitude interpolated",,,,,Operational
+bufr4/0/33/025/2,033025,ACARS interpolated values indicator,2,"Time, latitude, and longitude interpolated",,,,,Operational
+bufr4/0/33/025/3,033025,ACARS interpolated values indicator,3,"Time, latitude, and longitude reported",,,,,Operational
+bufr4/0/33/025/4-6,033025,ACARS interpolated values indicator,4-6,Reserved,,,,,Operational
+bufr4/0/33/025/7,033025,ACARS interpolated values indicator,7,Missing value,,,,,Operational
+bufr4/0/33/026/0,033026,Moisture quality,0,Normal operations - measurement mode,,,,,Operational
+bufr4/0/33/026/1,033026,Moisture quality,1,Normal operations - non-measurement mode,,,,,Operational
+bufr4/0/33/026/2,033026,Moisture quality,2,Small RH,,,,,Operational
+bufr4/0/33/026/3,033026,Moisture quality,3,Humidity element is wet,,,,,Operational
+bufr4/0/33/026/4,033026,Moisture quality,4,Humidity element contaminated,,,,,Operational
+bufr4/0/33/026/5,033026,Moisture quality,5,Heater fail,,,,,Operational
+bufr4/0/33/026/6,033026,Moisture quality,6,Heater fail and wet/contaminated humidity element,,,,,Operational
+bufr4/0/33/026/7,033026,Moisture quality,7,At least one of the input parameters used in the calculation of mixing ratio is invalid,,,,,Operational
+bufr4/0/33/026/8,033026,Moisture quality,8,Numeric error,,,,,Operational
+bufr4/0/33/026/9,033026,Moisture quality,9,Sensor not installed,,,,,Operational
+bufr4/0/33/026/10,033026,Moisture quality,10,Calculated RH > 100%,,,,,Operational
+bufr4/0/33/026/11,033026,Moisture quality,11,Input laser power too low,,,,,Operational
+bufr4/0/33/026/12,033026,Moisture quality,12,Probe WV temperature out of range,,,,,Operational
+bufr4/0/33/026/13,033026,Moisture quality,13,Probe WV pressure out of range,,,,,Operational
+bufr4/0/33/026/14,033026,Moisture quality,14,Spectral line out of range,,,,,Operational
+bufr4/0/33/026/15,033026,Moisture quality,15,No laser output,,,,,Operational
+bufr4/0/33/026/16-62,033026,Moisture quality,16-62,Reserved,,,,,Operational
+bufr4/0/33/026/63,033026,Moisture quality,63,Missing value,,,,,Operational
+bufr4/0/33/027/0,033027,Location quality class (range of radius of 66 % confidence),0,Radius >= 1500 m,,,,,Operational
+bufr4/0/33/027/1,033027,Location quality class (range of radius of 66 % confidence),1,500 m =< Radius <1500 m,,,,,Operational
+bufr4/0/33/027/2,033027,Location quality class (range of radius of 66 % confidence),2,250 m =< Radius < 500 m,,,,,Operational
+bufr4/0/33/027/3,033027,Location quality class (range of radius of 66 % confidence),3,Radius < 250 m,,,,,Operational
+bufr4/0/33/027/4,033027,Location quality class (range of radius of 66 % confidence),4,=< 100 m,,,,,Operational
+bufr4/0/33/027/5-6,033027,Location quality class (range of radius of 66 % confidence),5-6,Reserved,,,,,Operational
+bufr4/0/33/027/7,033027,Location quality class (range of radius of 66 % confidence),7,Missing value,,,,,Operational
+bufr4/0/33/028/1,033028,Snapshot overall quality,1,Nominal,,,,,Operational
+bufr4/0/33/028/2,033028,Snapshot overall quality,2,Degraded by SW error; any error reported by the algorithms,,,,,Operational
+bufr4/0/33/028/3,033028,Snapshot overall quality,3,Degraded by instrument error,,,,,Operational
+bufr4/0/33/028/4,033028,Snapshot overall quality,4,Degraded by corrupted /missing ADF,,,,,Operational
+bufr4/0/33/028/5,033028,Snapshot overall quality,5,General degradation,,,,,Operational
+bufr4/0/33/028/6,033028,Snapshot overall quality,6,Reserved,,,,,Operational
+bufr4/0/33/028/7,033028,Snapshot overall quality,7,Missing value,,,,,Operational
+bufr4/0/33/030/1,033030,Scan line status flags for ATOVS,1,Do not use scan for product generation,,,,,Operational
+bufr4/0/33/030/2,033030,Scan line status flags for ATOVS,2,Time sequence error detected with this scan,,,,,Operational
+bufr4/0/33/030/3,033030,Scan line status flags for ATOVS,3,Data gap precedes this scan,,,,,Operational
+bufr4/0/33/030/4,033030,Scan line status flags for ATOVS,4,No calibration,,,,,Operational
+bufr4/0/33/030/5,033030,Scan line status flags for ATOVS,5,No Earth location,,,,,Operational
+bufr4/0/33/030/6,033030,Scan line status flags for ATOVS,6,First good time following a clock update,,,,,Operational
+bufr4/0/33/030/7,033030,Scan line status flags for ATOVS,7,Instrument status changed with this scan,,,,,Operational
+bufr4/0/33/030/8-23,033030,Scan line status flags for ATOVS,8-23,Reserved,,,,,Operational
+bufr4/0/33/030/All-24,033030,Scan line status flags for ATOVS,All 24,Missing value,,,,,Operational
+bufr4/0/33/031/1,033031,Scan line quality flags for ATOVS,1,Time field is bad but can probably be inferred from the previous good time,,,,,Operational
+bufr4/0/33/031/2,033031,Scan line quality flags for ATOVS,2,Time field is bad and cannot be inferred from the previous good time,,,,,Operational
+bufr4/0/33/031/3,033031,Scan line quality flags for ATOVS,3,This record starts a sequence that is inconsistent with previous times (i.e. there is a time discontinuity). This may or may not be associated with a spacecraft clock update (see scan line status flags for ATOVS),,,,,Operational
+bufr4/0/33/031/4,033031,Scan line quality flags for ATOVS,4,Start of a sequence that apparently repeats scan times that have been previously accepted,,,,,Operational
+bufr4/0/33/031/5,033031,Scan line quality flags for ATOVS,5,Scan line was not calibrated because of bad time,,,,,Operational
+bufr4/0/33/031/6,033031,Scan line quality flags for ATOVS,6,Scan line was calibrated using fewer than the preferred number of scan lines because of proximity to start or end of data or to a data gap,,,,,Operational
+bufr4/0/33/031/7,033031,Scan line quality flags for ATOVS,7,Scan line was not calibrated because of bad or insufficient PRT data,,,,,Operational
+bufr4/0/33/031/8,033031,Scan line quality flags for ATOVS,8,Scan line was calibrated but with marginal PRT data,,,,,Operational
+bufr4/0/33/031/9,033031,Scan line quality flags for ATOVS,9,Some uncalibrated channels on this scan,,,,,Operational
+bufr4/0/33/031/10,033031,Scan line quality flags for ATOVS,10,Uncalibrated due to instrument mode,,,,,Operational
+bufr4/0/33/031/11,033031,Scan line quality flags for ATOVS,11,Questionable calibration because of antenna position error of space view,,,,,Operational
+bufr4/0/33/031/12,033031,Scan line quality flags for ATOVS,12,Questionable calibration because of antenna position error of black body,,,,,Operational
+bufr4/0/33/031/13,033031,Scan line quality flags for ATOVS,13,Not Earth located because of bad time,,,,,Operational
+bufr4/0/33/031/14,033031,Scan line quality flags for ATOVS,14,Earth location questionable because of questionable time code (see time problem code bits),,,,,Operational
+bufr4/0/33/031/15,033031,Scan line quality flags for ATOVS,15,Earth location questionable - only marginal agreement with reasonableness check,,,,,Operational
+bufr4/0/33/031/16,033031,Scan line quality flags for ATOVS,16,Earth location questionable - fails reasonableness check,,,,,Operational
+bufr4/0/33/031/17,033031,Scan line quality flags for ATOVS,17,Earth location questionable because of antenna position check,,,,,Operational
+bufr4/0/33/031/18,033031,Scan line quality flags for ATOVS,18,Scan line calibration cold black body,,,,,Operational
+bufr4/0/33/031/19,033031,Scan line quality flags for ATOVS,19,Scan line calibration warm black body,,,,,Operational
+bufr4/0/33/031/20,033031,Scan line quality flags for ATOVS,20,Scan line calibration space view,,,,,Operational
+bufr4/0/33/031/21,033031,Scan line quality flags for ATOVS,21,Earth view,,,,,Operational
+bufr4/0/33/031/22-23,033031,Scan line quality flags for ATOVS,22-23,Reserved,,,,,Operational
+bufr4/0/33/031/All-24,033031,Scan line quality flags for ATOVS,All 24,Missing value,,,,,Operational
+bufr4/0/33/032/1,033032,Channel quality flags for ATOVS,1,No good blackbody counts for scan line,,,,,Operational
+bufr4/0/33/032/2,033032,Channel quality flags for ATOVS,2,No good space view counts for this line,,,,,Operational
+bufr4/0/33/032/3,033032,Channel quality flags for ATOVS,3,No good PRTs for this line,,,,,Operational
+bufr4/0/33/032/4,033032,Channel quality flags for ATOVS,4,Some bad blackbody view counts for this line,,,,,Operational
+bufr4/0/33/032/5,033032,Channel quality flags for ATOVS,5,Some bad space view counts for this line,,,,,Operational
+bufr4/0/33/032/6,033032,Channel quality flags for ATOVS,6,Some bad PRT temps on this line,,,,,Operational
+bufr4/0/33/032/7,033032,Channel quality flags for ATOVS,7,Quality for this scan is reduced,,,,,Operational
+bufr4/0/33/032/8-23,033032,Channel quality flags for ATOVS,8-23,Reserved (bits set to zero),,,,,Operational
+bufr4/0/33/032/All-24,033032,Channel quality flags for ATOVS,All 24,Missing value,,,,,Operational
+bufr4/0/33/033/1,033033,Field of view quality flags for ATOVS,1,Set if secondary calibration used,,,,,Operational
+bufr4/0/33/033/2-21,033033,Field of view quality flags for ATOVS,2-21,Bit n set to 1 if brightness temperature in channel n-1 is physically unreasonable or has not been calculated due to calibration problems,,,(see Note 2),26,Operational
+bufr4/0/33/033/22,033033,Field of view quality flags for ATOVS,22,Set if all the channels are missing,,,,,Operational
+bufr4/0/33/033/23,033033,Field of view quality flags for ATOVS,23,Suspect,,,,,Operational
+bufr4/0/33/033/All-24,033033,Field of view quality flags for ATOVS,All 24,Missing value,,,,,Operational
+bufr4/0/33/035/0,033035,Manual/automatic quality control,0,Automatic quality control passed and not manually checked,,,,,Operational
+bufr4/0/33/035/1,033035,Manual/automatic quality control,1,Automatic quality control passed and manually checked and passed,,,,,Operational
+bufr4/0/33/035/2,033035,Manual/automatic quality control,2,Automatic quality control passed and manually checked and deleted,,,,,Operational
+bufr4/0/33/035/3,033035,Manual/automatic quality control,3,Automatic quality control failed and manually not checked,,,,,Operational
+bufr4/0/33/035/4,033035,Manual/automatic quality control,4,Automatic quality control failed and manually checked and failed,,,,,Operational
+bufr4/0/33/035/5,033035,Manual/automatic quality control,5,Automatic quality control failed and manually checked and re-inserted,,,,,Operational
+bufr4/0/33/035/6,033035,Manual/automatic quality control,6,Automatic quality control flagged data as questionable and not manually checked,,,,,Operational
+bufr4/0/33/035/7,033035,Manual/automatic quality control,7,Automatic quality control flagged data as questionable and manually checked and failed,,,,,Operational
+bufr4/0/33/035/8,033035,Manual/automatic quality control,8,Manually checked and failed,,,,,Operational
+bufr4/0/33/035/9-14,033035,Manual/automatic quality control,9-14,Reserved,,,,,Operational
+bufr4/0/33/035/15,033035,Manual/automatic quality control,15,Missing value,,,,,Operational
+bufr4/0/33/037/1,033037,Wind correlation error,1,u departure from guess,,,,,Operational
+bufr4/0/33/037/2,033037,Wind correlation error,2,v departure from guess,,,,,Operational
+bufr4/0/33/037/3,033037,Wind correlation error,3,u and v departure from guess,,,,,Operational
+bufr4/0/33/037/4,033037,Wind correlation error,4,u acceleration,,,,,Operational
+bufr4/0/33/037/5,033037,Wind correlation error,5,v acceleration,,,,,Operational
+bufr4/0/33/037/6,033037,Wind correlation error,6,u and v acceleration,,,,,Operational
+bufr4/0/33/037/7,033037,Wind correlation error,7,Possible land feature,,,,,Operational
+bufr4/0/33/037/8,033037,Wind correlation error,8,u acceleration and possible land feature,,,,,Operational
+bufr4/0/33/037/9,033037,Wind correlation error,9,v acceleration and possible land feature,,,,,Operational
+bufr4/0/33/037/10,033037,Wind correlation error,10,u and v acceleration and possible land feature,,,,,Operational
+bufr4/0/33/037/11,033037,Wind correlation error,11,Bad wind guess,,,,,Operational
+bufr4/0/33/037/12,033037,Wind correlation error,12,Correlation failure,,,,,Operational
+bufr4/0/33/037/13,033037,Wind correlation error,13,Search box off edge of area,,,,,Operational
+bufr4/0/33/037/14,033037,Wind correlation error,14,Target box off edge of area,,,,,Operational
+bufr4/0/33/037/15,033037,Wind correlation error,15,Pixel brightness out of bounds (noisy line),,,,,Operational
+bufr4/0/33/037/16,033037,Wind correlation error,16,Target outside of latitude/longitude box,,,,,Operational
+bufr4/0/33/037/17,033037,Wind correlation error,17,Target outside of pressure minimum/maximum,,,,,Operational
+bufr4/0/33/037/18,033037,Wind correlation error,18,Autoeditor flagged slow vector,,,,,Operational
+bufr4/0/33/037/19,033037,Wind correlation error,19,Autoeditor flagged vectors,,,,,Operational
+bufr4/0/33/037/All-20,033037,Wind correlation error,All 20,Missing value,,,,,Operational
+bufr4/0/33/038/1,033038,Quality flags for ground-based GNSS data,1,Total zenith delay quality is considered poor,,,,,Operational
+bufr4/0/33/038/2,033038,Quality flags for ground-based GNSS data,2,GALILEO satellites used,,,,,Operational
+bufr4/0/33/038/3,033038,Quality flags for ground-based GNSS data,3,GLONASS satellites used,,,,,Operational
+bufr4/0/33/038/4,033038,Quality flags for ground-based GNSS data,4,GPS satellites used,,,,,Operational
+bufr4/0/33/038/5,033038,Quality flags for ground-based GNSS data,5,Meteorological data applied,,,,,Operational
+bufr4/0/33/038/6,033038,Quality flags for ground-based GNSS data,6,Atmospheric loading correction applied,,,,,Operational
+bufr4/0/33/038/7,033038,Quality flags for ground-based GNSS data,7,Ocean tide loading applied,,,,,Operational
+bufr4/0/33/038/8,033038,Quality flags for ground-based GNSS data,8,Climate quality data processing,,,,,Operational
+bufr4/0/33/038/9,033038,Quality flags for ground-based GNSS data,9,Near-real time data processing,,,,,Operational
+bufr4/0/33/038/All-10,033038,Quality flags for ground-based GNSS data,All 10,Missing value,,,,,Operational
+bufr4/0/33/039/1,033039,Quality flags for radio occultation data,1,Non-nominal quality,,,,,Operational
+bufr4/0/33/039/2,033039,Quality flags for radio occultation data,2,Offline product,,,,,Operational
+bufr4/0/33/039/3,033039,Quality flags for radio occultation data,3,Ascending occultation flag,,,,,Operational
+bufr4/0/33/039/4,033039,Quality flags for radio occultation data,4,Excess phase processing non-nominal,,,,,Operational
+bufr4/0/33/039/5,033039,Quality flags for radio occultation data,5,Bending angle processing non-nominal,,,,,Operational
+bufr4/0/33/039/6,033039,Quality flags for radio occultation data,6,Refractivity processing non-nominal,,,,,Operational
+bufr4/0/33/039/7,033039,Quality flags for radio occultation data,7,Meteorological processing non-nominal,,,,,Operational
+bufr4/0/33/039/8,033039,Quality flags for radio occultation data,8,Open loop data included,,,,,Operational
+bufr4/0/33/039/9,033039,Quality flags for radio occultation data,9,Surface reflections detected,,,,,Operational
+bufr4/0/33/039/10,033039,Quality flags for radio occultation data,10,L2C GNSS signals used,,,,,Operational
+bufr4/0/33/039/11-13,033039,Quality flags for radio occultation data,11-13,Reserved,,,,,Operational
+bufr4/0/33/039/14,033039,Quality flags for radio occultation data,14,Background profile non-nominal,,,,,Operational
+bufr4/0/33/039/15,033039,Quality flags for radio occultation data,15,Background (i.e. not retrieved) profile present,,,,,Operational
+bufr4/0/33/039/All-16,033039,Quality flags for radio occultation data,All 16,Missing value,,,,,Operational
+bufr4/0/33/041/0,033041,Attribute of following value,0,The following value is the true value,,,,,Operational
+bufr4/0/33/041/1,033041,Attribute of following value,1,The following value is higher than the true value (the measurement hit the lower limit of the instrument),,,,,Operational
+bufr4/0/33/041/2,033041,Attribute of following value,2,The following value is lower than the true value (the measurement hit the higher limit of the instrument),,,,,Operational
+bufr4/0/33/041/3,033041,Attribute of following value,3,Missing value,,,,,Operational
+bufr4/0/33/042/0,033042,Type of limit represented by following value,0,Exclusive lower limit (>),,,,,Operational
+bufr4/0/33/042/1,033042,Type of limit represented by following value,1,Inclusive lower limit (>=),,,,,Operational
+bufr4/0/33/042/2,033042,Type of limit represented by following value,2,Exclusive upper limit (<),,,,,Operational
+bufr4/0/33/042/3,033042,Type of limit represented by following value,3,Inclusive upper limit (=<),,,,,Operational
+bufr4/0/33/042/4-6,033042,Type of limit represented by following value,4-6,Reserved,,,,,Operational
+bufr4/0/33/042/7,033042,Type of limit represented by following value,7,Missing value,,,,,Operational
+bufr4/0/33/043/1,033043,AST confidence,1,Sea MDS.  Nadir only SST retrieval used 3.7 micron channel.  Land MDS reserved,,,,,Operational
+bufr4/0/33/043/2,033043,AST confidence,2,Sea MDS.  Dual view SST retrieval used 3.7 micron channel.  Land MDS reserved,,,,,Operational
+bufr4/0/33/043/3,033043,AST confidence,3,Nadir view contains day time data,,,,,Operational
+bufr4/0/33/043/4,033043,AST confidence,4,Forward view contains day time data,,,,,Operational
+bufr4/0/33/043/5-7,033043,AST confidence,5-7,Reserved,,,,,Operational
+bufr4/0/33/043/All-8,033043,AST confidence,All 8,Missing value,,,,,Operational
+bufr4/0/33/044/1,033044,ASAR quality information,1,Input data mean outside nominal range flag,,,,,Operational
+bufr4/0/33/044/2,033044,ASAR quality information,2,Input data standard deviation outside nominal range flag,,,,,Operational
+bufr4/0/33/044/3,033044,ASAR quality information,3,Number of input data gaps > threshold value,,,,,Operational
+bufr4/0/33/044/4,033044,ASAR quality information,4,Percentage of missing lines > threshold value,,,,,Operational
+bufr4/0/33/044/5,033044,ASAR quality information,5,Doppler centroid uncertain. Confidence measure < specific value,,,,,Operational
+bufr4/0/33/044/6,033044,ASAR quality information,6,Doppler ambiguity estimate uncertain. Confidence measure < specific value,,,,,Operational
+bufr4/0/33/044/7,033044,ASAR quality information,7,Output data mean outside nominal range flag,,,,,Operational
+bufr4/0/33/044/8,033044,ASAR quality information,8,Output data standard deviation outside nominal range flag,,,,,Operational
+bufr4/0/33/044/9,033044,ASAR quality information,9,Chirp reconstruction failed or is of low quality flag,,,,,Operational
+bufr4/0/33/044/10,033044,ASAR quality information,10,Data set missing,,,,,Operational
+bufr4/0/33/044/11,033044,ASAR quality information,11,Invalid downlink parameters,,,,,Operational
+bufr4/0/33/044/12,033044,ASAR quality information,12,Azimuth cut-off iteration count. The azimuth cut-off fit did not converge within a minimum number of iterations,,,,,Operational
+bufr4/0/33/044/13,033044,ASAR quality information,13,Azimuth cut-off fit did not converge within a minimum number of iterations,,,,,Operational
+bufr4/0/33/044/14,033044,ASAR quality information,14,"Phase information confidence measure. The imaginary spectral peak is less than a minimum threshold, or the zero lag shift is greater than a minimum threshold",,,,,Operational
+bufr4/0/33/044/All-15,033044,ASAR quality information,All 15,Missing value,,,,,Operational
+bufr4/0/33/047/1,033047,Measurement confidence data,1,Error detected and attempts to recover made,,,,,Operational
+bufr4/0/33/047/2,033047,Measurement confidence data,2,Anomaly in on-board data handling (OBDH) value detected,,,,,Operational
+bufr4/0/33/047/3,033047,Measurement confidence data,3,Anomaly in ultra stable oscillator processing (USOP) value detected,,,,,Operational
+bufr4/0/33/047/4,033047,Measurement confidence data,4,Errors detected by on-board computer,,,,,Operational
+bufr4/0/33/047/5,033047,Measurement confidence data,5,Automatic gain control (AGC) out of range,,,,,Operational
+bufr4/0/33/047/6,033047,Measurement confidence data,6,Reception (Rx) delay fault.  Rx distance out of range,,,,,Operational
+bufr4/0/33/047/7,033047,Measurement confidence data,7,Wave form samples fault identifier. Error,,,,,Operational
+bufr4/0/33/047/8,033047,Measurement confidence data,8,S band anomaly/error detected,,,,,Operational
+bufr4/0/33/047/9-11,033047,Measurement confidence data,9-11,Reserved,,,,,Operational
+bufr4/0/33/047/12,033047,Measurement confidence data,12,Brightness temperature (channel 1) out of range,,,,,Operational
+bufr4/0/33/047/13,033047,Measurement confidence data,13,Brightness temperature (channel 2) out of range,,,,,Operational
+bufr4/0/33/047/14,033047,Measurement confidence data,14,Reserved,,,,,Operational
+bufr4/0/33/047/15,033047,Measurement confidence data,15,Ku band ocean retracking error,,,,,Operational
+bufr4/0/33/047/16,033047,Measurement confidence data,16,S band ocean retracking error,,,,,Operational
+bufr4/0/33/047/17,033047,Measurement confidence data,17,Ku band ice 1 retracking error,,,,,Operational
+bufr4/0/33/047/18,033047,Measurement confidence data,18,S band ice 1 retracking error,,,,,Operational
+bufr4/0/33/047/19,033047,Measurement confidence data,19,Ku band ice 2 retracking error,,,,,Operational
+bufr4/0/33/047/20,033047,Measurement confidence data,20,S band ice 2 retracking error,,,,,Operational
+bufr4/0/33/047/21,033047,Measurement confidence data,21,Ku band sea ice retracking error,,,,,Operational
+bufr4/0/33/047/22,033047,Measurement confidence data,22,Arithmetic fault error,,,,,Operational
+bufr4/0/33/047/23,033047,Measurement confidence data,23,Meteo data state. No map,,,,,Operational
+bufr4/0/33/047/24,033047,Measurement confidence data,24,Meteo data state. 1 map,,,,,Operational
+bufr4/0/33/047/25,033047,Measurement confidence data,25,Meteo data state. 2 maps degraded,,,,,Operational
+bufr4/0/33/047/26,033047,Measurement confidence data,26,Meteo data state. 2 maps nominal,,,,,Operational
+bufr4/0/33/047/27,033047,Measurement confidence data,27,"Orbit propagator status for propagation mode, several errors",,,,,Operational
+bufr4/0/33/047/28,033047,Measurement confidence data,28,"Orbit propagator status for propagation mode, warning detected",,,,,Operational
+bufr4/0/33/047/29,033047,Measurement confidence data,29,"Orbit propagator status for initialization mode, several errors",,,,,Operational
+bufr4/0/33/047/30,033047,Measurement confidence data,30,"Orbit propagator status for initialization mode, warning detected",,,,,Operational
+bufr4/0/33/047/All-31,033047,Measurement confidence data,All 31,Missing value,,,,,Operational
+bufr4/0/33/048/0,033048,Confidence measure of SAR inversion,0,Inversion successful,,,,,Operational
+bufr4/0/33/048/1,033048,Confidence measure of SAR inversion,1,Inversion not successful,,,,,Operational
+bufr4/0/33/048/2,033048,Confidence measure of SAR inversion,2,Reserved,,,,,Operational
+bufr4/0/33/048/3,033048,Confidence measure of SAR inversion,3,Missing value,,,,,Operational
+bufr4/0/33/049/0,033049,Confidence measure of wind retrieval,0,External wind direction used during inversion,,,,,Operational
+bufr4/0/33/049/1,033049,Confidence measure of wind retrieval,1,External wind direction not used during inversion,,,,,Operational
+bufr4/0/33/049/2,033049,Confidence measure of wind retrieval,2,Reserved,,,,,Operational
+bufr4/0/33/049/3,033049,Confidence measure of wind retrieval,3,Missing value,,,,,Operational
+bufr4/0/33/050/0,033050,Global GTSPP quality flag,0,Unqualified,,,,,Operational
+bufr4/0/33/050/1,033050,Global GTSPP quality flag,1,Correct value (all checks passed),,,,,Operational
+bufr4/0/33/050/2,033050,Global GTSPP quality flag,2,Probably good but value inconsistent with statistics (differ from climatology),,,,,Operational
+bufr4/0/33/050/3,033050,Global GTSPP quality flag,3,"Probably bad (spike, gradient, etc., if other tests passed)",,,,,Operational
+bufr4/0/33/050/4,033050,Global GTSPP quality flag,4,"Bad value, impossible value (out of scale, vertical instability, constant profile)",,,,,Operational
+bufr4/0/33/050/5,033050,Global GTSPP quality flag,5,Value modified during quality control,,,,,Operational
+bufr4/0/33/050/6-7,033050,Global GTSPP quality flag,6-7,Reserved,,,,,Operational
+bufr4/0/33/050/8,033050,Global GTSPP quality flag,8,Interpolated value,,,,,Operational
+bufr4/0/33/050/9,033050,Global GTSPP quality flag,9,Good for operational use; Caution; check literature for other uses,,,,,Operational
+bufr4/0/33/050/10-14,033050,Global GTSPP quality flag,10-14,Reserved,,,,,Operational
+bufr4/0/33/050/15,033050,Global GTSPP quality flag,15,Missing value,,,,,Operational
+bufr4/0/33/052/1-20,033052,S band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1 = invalid).  Bit 1 applies to the 20th data block",,,,,Operational
+bufr4/0/33/052/All-21,033052,S band ocean retracking quality,All 21,Missing value,,,,,Operational
+bufr4/0/33/053/1-20,033053,Ku band ocean retracking quality,1-20,"First 20 least significant bits correspond to the 20 values (one per data block containing: 0 = valid measurement, 1=invalid). Bit 1 applies to the 20th data block",,,,,Operational
+bufr4/0/33/053/All-21,033053,Ku band ocean retracking quality,All 21,Missing value,,,,,Operational
+bufr4/0/33/054/0,033054,Overall quality of retrieved atmospheric profile,0,Profile values good,,,,,Operational
+bufr4/0/33/054/1,033054,Overall quality of retrieved atmospheric profile,1,Profile values suspected,,,,,Operational
+bufr4/0/33/054/2,033054,Overall quality of retrieved atmospheric profile,2,Reserved,,,,,Operational
+bufr4/0/33/054/3,033054,Overall quality of retrieved atmospheric profile,3,Profile values not good,,,,,Operational
+bufr4/0/33/054/4-6,033054,Overall quality of retrieved atmospheric profile,4-6,Reserved,,,,,Operational
+bufr4/0/33/054/7,033054,Overall quality of retrieved atmospheric profile,7,Missing value,,,,,Operational
+bufr4/0/33/055/1-10,033055,Wind vector quality flag,1-10,Reserved,,,,,Operational
+bufr4/0/33/055/11,033055,Wind vector quality flag,11,Ocean sigma-0 is not available for wind retrievals,,,,,Operational
+bufr4/0/33/055/12,033055,Wind vector quality flag,12,Background wind is not available,,,,,Operational
+bufr4/0/33/055/13,033055,Wind vector quality flag,13,Background model detect land,,,,,Operational
+bufr4/0/33/055/14,033055,Wind vector quality flag,14,Background model detect ice,,,,,Operational
+bufr4/0/33/055/15,033055,Wind vector quality flag,15,Sigma-0 is not land/ice free,,,,,Operational
+bufr4/0/33/055/16,033055,Wind vector quality flag,16,Sigma-0 land contamination,,,,,Operational
+bufr4/0/33/055/17,033055,Wind vector quality flag,17,Sigma-0 ice contamination,,,,,Operational
+bufr4/0/33/055/18,033055,Wind vector quality flag,18,Not enough azimuthal diversity,,,,,Operational
+bufr4/0/33/055/19,033055,Wind vector quality flag,19,Inversion is not done,,,,,Operational
+bufr4/0/33/055/20,033055,Wind vector quality flag,20,Overall WVC flag,,,,,Operational
+bufr4/0/33/055/21,033055,Wind vector quality flag,21,Inversion is attempted (flag is set),,,,,Operational
+bufr4/0/33/055/22,033055,Wind vector quality flag,22,Rainflag is attempted (flag is set),,,,,Operational
+bufr4/0/33/055/23,033055,Wind vector quality flag,23,Rain is detected,,,,,Operational
+bufr4/0/33/055/All-24,033055,Wind vector quality flag,All 24,Missing value,,,,,Operational
+bufr4/0/33/056/1-7,033056,Sigma-0 quality flag,1-7,Reserved,,,,,Operational
+bufr4/0/33/056/8,033056,Sigma-0 quality flag,8,Ascending,,,,,Operational
+bufr4/0/33/056/9,033056,Sigma-0 quality flag,9,VV polarisation,,,,,Operational
+bufr4/0/33/056/10,033056,Sigma-0 quality flag,10,Fore of spacecraft,,,,,Operational
+bufr4/0/33/056/11,033056,Sigma-0 quality flag,11,Land,,,,,Operational
+bufr4/0/33/056/12,033056,Sigma-0 quality flag,12,Poor sigma-0 (summary),,,,,Operational
+bufr4/0/33/056/13,033056,Sigma-0 quality flag,13,Invalid sigma-0 (summary),,,,,Operational
+bufr4/0/33/056/14,033056,Sigma-0 quality flag,14,Poor BT,,,,,Operational
+bufr4/0/33/056/15,033056,Sigma-0 quality flag,15,Invalid BT,,,,,Operational
+bufr4/0/33/056/16,033056,Sigma-0 quality flag,16,Land-sea boundary,,,,,Operational
+bufr4/0/33/056/17,033056,Sigma-0 quality flag,17,Negative sigma-0,,,,,Operational
+bufr4/0/33/056/18-20,033056,Sigma-0 quality flag,18-20,Reserved,,,,,Operational
+bufr4/0/33/056/21,033056,Sigma-0 quality flag,21,Ice,,,,,Operational
+bufr4/0/33/056/22,033056,Sigma-0 quality flag,22,Missing data at a given latitude-longitude for sea-ice flagging process for 2 or more days,,,,,Operational
+bufr4/0/33/056/23,033056,Sigma-0 quality flag,23,Ice-ocean contamination,,,,,Operational
+bufr4/0/33/056/All-24,033056,Sigma-0 quality flag,All 24,Missing value,,,,,Operational
+bufr4/0/33/060/0,033060,GqisFlagQual - individual IASI-System quality flag,0,Good,,,,,Operational
+bufr4/0/33/060/1,033060,GqisFlagQual - individual IASI-System quality flag,1,Bad,,,,,Operational
+bufr4/0/33/060/2,033060,GqisFlagQual - individual IASI-System quality flag,2,Reserved,,,,,Operational
+bufr4/0/33/060/3,033060,GqisFlagQual - individual IASI-System quality flag,3,Missing value,,,,,Operational
+bufr4/0/33/066/1-19,033066,AMV quality flag,1-19,Reserved,,,,,Operational
+bufr4/0/33/066/20,033066,AMV quality flag,20,"Good wind, but an alternative channel used for feature tracking",,,,,Operational
+bufr4/0/33/066/21,033066,AMV quality flag,21,"Good wind, but an alternative set of channels used for the determination of cloud-top height/AMV height assignment",,,,,Operational
+bufr4/0/33/066/22,033066,AMV quality flag,22,Correlation surface constraint fails,,,,,Operational
+bufr4/0/33/066/23,033066,AMV quality flag,23,Reserved,,,,,Operational
+bufr4/0/33/066/All-24,033066,AMV quality flag,All 24,Missing value,,,,,Operational
+bufr4/0/33/070/0,033070,Total ozone quality,0,Good retrieval,,,,,Operational
+bufr4/0/33/070/1,033070,Total ozone quality,1,Bad aerosol information flag or NOAA-16 radiance anomaly,,,,,Operational
+bufr4/0/33/070/2,033070,Total ozone quality,2,Solar zenith angle greater than 84 degrees,,,,,Operational
+bufr4/0/33/070/3,033070,Total ozone quality,3,380 nm residue greater than limit,,,,,Operational
+bufr4/0/33/070/4,033070,Total ozone quality,4,Ozone inconsistency,,,,,Operational
+bufr4/0/33/070/5,033070,Total ozone quality,5,Difference between profile ozone and step 3 total ozone exceeds threshold (set to 25 DU),,,,,Operational
+bufr4/0/33/070/6,033070,Total ozone quality,6,Step 1 ozone iteration did not converge,,,,,Operational
+bufr4/0/33/070/7,033070,Total ozone quality,7,Any channel residue greater than 16 or bad radiance,,,,,Operational
+bufr4/0/33/070/8,033070,Total ozone quality,8,Insufficient pixels - not processed,,,,,Operational
+bufr4/0/33/070/9,033070,Total ozone quality,9,First guess good - ozone forecast data used,,,,,Operational
+bufr4/0/33/070/10,033070,Total ozone quality,10,High cloud in pixel - not processed,,,,,Operational
+bufr4/0/33/070/11,033070,Total ozone quality,11,Successful ozone retrieval,,,,,Operational
+bufr4/0/33/070/12,033070,Total ozone quality,12,Unsuccessful ozone retrieval,,,,,Operational
+bufr4/0/33/070/13-14,033070,Total ozone quality,13-14,Reserved,,,,,Operational
+bufr4/0/33/070/15,033070,Total ozone quality,15,Missing value,,,,,Operational
+bufr4/0/33/071/0,033071,Profile ozone quality,0,Good retrieval,,,,,Operational
+bufr4/0/33/071/1,033071,Profile ozone quality,1,Solar zenith angle greater than 84 degrees,,,,,Operational
+bufr4/0/33/071/2,033071,Profile ozone quality,2,Difference between step 3 and profile total ozone greater than limit (25 DU),,,,,Operational
+bufr4/0/33/071/3,033071,Profile ozone quality,3,Average final residue for wavelengths used in retrieval greater than threshold,,,,,Operational
+bufr4/0/33/071/4,033071,Profile ozone quality,4,Final residue greater than 3 times a priori error,,,,,Operational
+bufr4/0/33/071/5,033071,Profile ozone quality,5,Difference between retrieved and a priori greater than 3 times a priori error,,,,,Operational
+bufr4/0/33/071/6,033071,Profile ozone quality,6,Non-convergent solution,,,,,Operational
+bufr4/0/33/071/7,033071,Profile ozone quality,7,Upper level profile anomaly or stray light anomaly,,,,,Operational
+bufr4/0/33/071/8,033071,Profile ozone quality,8,Initial residue greater than 18.0 N-value units,,,,,Operational
+bufr4/0/33/071/9-14,033071,Profile ozone quality,9-14,Reserved,,,,,Operational
+bufr4/0/33/071/15,033071,Profile ozone quality,15,Missing value,,,,,Operational
+bufr4/0/33/072/0,033072,Ozone error,0,Good retrieval,,,,,Operational
+bufr4/0/33/072/1,033072,Ozone error,1,Reflectivity out of range,,,,,Operational
+bufr4/0/33/072/2,033072,Ozone error,2,Larger pixels (Number of cross-track pixels less than 32) or backward scans error,,,,,Operational
+bufr4/0/33/072/3,033072,Ozone error,3,Solar zenith angle greater than 88 degrees,,,,,Operational
+bufr4/0/33/072/4,033072,Ozone error,4,Latitude/longitude out of range,,,,,Operational
+bufr4/0/33/072/5,033072,Ozone error,5,Viewing zenith angle or solar zenith angle out of range,,,,,Operational
+bufr4/0/33/072/6,033072,Ozone error,6,Step-one process failed in general,,,,,Operational
+bufr4/0/33/072/7,033072,Ozone error,7,First guess ozone out of range,,,,,Operational
+bufr4/0/33/072/8,033072,Ozone error,8,Too many iterations (exceed 8),,,,,Operational
+bufr4/0/33/072/9,033072,Ozone error,9,Step-one residue calculation failed,,,,,Operational
+bufr4/0/33/072/10,033072,Ozone error,10,Step-two process failed in general,,,,,Operational
+bufr4/0/33/072/11,033072,Ozone error,11,First guess ozone profile out of range,,,,,Operational
+bufr4/0/33/072/12,033072,Ozone error,12,Step-two ozone value out of range,,,,,Operational
+bufr4/0/33/072/13,033072,Ozone error,13,Step-two residue calculation failed,,,,,Operational
+bufr4/0/33/072/14,033072,Ozone error,14,Step-three process failed in general,,,,,Operational
+bufr4/0/33/072/15,033072,Ozone error,15,Polarization correction accuracy alert,,,,,Operational
+bufr4/0/33/072/16,033072,Ozone error,16,Radiance or irradiance less or equal to zero,,,,,Operational
+bufr4/0/33/072/17-30,033072,Ozone error,17-30,Reserved,,,,,Operational
+bufr4/0/33/072/31,033072,Ozone error,31,Missing value,,,,,Operational
+bufr4/0/33/075/1,033075,Scan-level quality flags,1,"Gap in raw data record (RDR) data detected (i.e., missing scan(s) preceding the current scan)",,,,,Operational
+bufr4/0/33/075/2,033075,Scan-level quality flags,2,"Recorded time is not in sequence (i.e., the scan start time is out of sequence)",,,,,Operational
+bufr4/0/33/075/3,033075,Scan-level quality flags,3,Lambda monitored calculation cannot be updated,,,(see Note 1),72,Operational
+bufr4/0/33/075/4,033075,Scan-level quality flags,4,"The measured temperatures of any instrument components (e.g., beam-splitter, scan mirror, scan baffle) are outside the allowable ranges",,,(see Note 2),83,Operational
+bufr4/0/33/075/5,033075,Scan-level quality flags,5,At least one of the monitored instrument temperatures has drifted more than a specified tolerance value,,,,,Operational
+bufr4/0/33/075/6-12,033075,Scan-level quality flags,6-12,Reserved,,,,,Operational
+bufr4/0/33/075/All-13,033075,Scan-level quality flags,All 13,Missing value,,,,,Operational
+bufr4/0/33/076/1,033076,Calibration quality flags,1,Lunar intrusion on first deep space view,,,(see Note),71,Operational
+bufr4/0/33/076/2,033076,Calibration quality flags,2,Lunar intrusion on second deep space view,,,(see Note),71,Operational
+bufr4/0/33/076/3-8,033076,Calibration quality flags,3-8,Reserved,,,,,Operational
+bufr4/0/33/076/All-9,033076,Calibration quality flags,All 9,Missing value,,,,,Operational
+bufr4/0/33/077/1,033077,Field-of-view quality flags,1,Degraded SDR quality,,,,,Operational
+bufr4/0/33/077/2,033077,Field-of-view quality flags,2,Invalid SDR quality,,,(see Note 1),68,Operational
+bufr4/0/33/077/3,033077,Field-of-view quality flags,3,Invalid SDR geolocation information,,,,,Operational
+bufr4/0/33/077/4,033077,Field-of-view quality flags,4,Degraded radiometric calibration,,,,,Operational
+bufr4/0/33/077/5,033077,Field-of-view quality flags,5,Invalid radiometric calibration,,,(see Note 2),67,Operational
+bufr4/0/33/077/6,033077,Field-of-view quality flags,6,Degraded spectral calibration,,,,,Operational
+bufr4/0/33/077/7,033077,Field-of-view quality flags,7,Invalid spectral calibration,,,(see Note 3),73,Operational
+bufr4/0/33/077/8,033077,Field-of-view quality flags,8,Fringe count error detected and corrected,,,(see Note 4),70,Operational
+bufr4/0/33/077/9,033077,Field-of-view quality flags,9,Day/night indicator,,,(see Note 5),69,Operational
+bufr4/0/33/077/10,033077,Field-of-view quality flags,10,Invalid RDR data,,,(see Note 6),87,Operational
+bufr4/0/33/077/11,033077,Field-of-view quality flags,11,Significant fringe count error detected,,,(see Note 7),86,Operational
+bufr4/0/33/077/12,033077,Field-of-view quality flags,12,Bit trim failed,,,,,Operational
+bufr4/0/33/077/13-18,033077,Field-of-view quality flags,13-18,Reserved,,,,,Operational
+bufr4/0/33/077/All-19,033077,Field-of-view quality flags,All 19,Missing value,,,,,Operational
+bufr4/0/33/078/0,033078,Geolocation quality,0,Nominal - altitude and ephemeris data available,,,,,Operational
+bufr4/0/33/078/1,033078,Geolocation quality,1,Missing at most a small gap of altitude and ephemeris data,,,,,Operational
+bufr4/0/33/078/2,033078,Geolocation quality,2,"Missing more than a small gap of altitude and ephemeris data, but no more than a granule boundary",,,,,Operational
+bufr4/0/33/078/3,033078,Geolocation quality,3,Missing more than a granule boundary of altitude and ephemeris data,,,,,Operational
+bufr4/0/33/078/4-14,033078,Geolocation quality,4-14,Reserved,,,,,Operational
+bufr4/0/33/078/15,033078,Geolocation quality,15,Missing value,,,,,Operational
+bufr4/0/33/079/1-5,033079,Granule level quality flags,1-5,Reserved,,,,,Operational
+bufr4/0/33/079/6,033079,Granule level quality flags,6,The No. 1-No. 7 health checks failed,,,,,Operational
+bufr4/0/33/079/7,033079,Granule level quality flags,7,The No. 8-No. 15 health checks failed,,,,,Operational
+bufr4/0/33/079/8,033079,Granule level quality flags,8,The No. 16-No. 23 health checks failed,,,,,Operational
+bufr4/0/33/079/9,033079,Granule level quality flags,9,The No. 24-No. 31 health checks failed,,,,,Operational
+bufr4/0/33/079/10,033079,Granule level quality flags,10,The No. 32-No. 39 health checks failed,,,,,Operational
+bufr4/0/33/079/11,033079,Granule level quality flags,11,The No. 40-No. 47 health checks failed,,,,,Operational
+bufr4/0/33/079/12,033079,Granule level quality flags,12,The No. 48-No. 55 health checks failed,,,,,Operational
+bufr4/0/33/079/13,033079,Granule level quality flags,13,The No. 56-No. 63 health checks failed,,,,,Operational
+bufr4/0/33/079/14,033079,Granule level quality flags,14,The No. 64-No. 70 health checks failed,,,,,Operational
+bufr4/0/33/079/15,033079,Granule level quality flags,15,Quadratic correction applied to the radiometric transfer function for non-linearity correction,,,,,Operational
+bufr4/0/33/079/All-16,033079,Granule level quality flags,All 16,Missing value,,,,,Operational
+bufr4/0/33/080/1-6,033080,Scan level quality flags,1-6,Reserved,,,,,Operational
+bufr4/0/33/080/7,033080,Scan level quality flags,7,Divide-by-zero condition or computation loop failed to converge in the K/Ka and V (KAV) band PRT,,,,,Operational
+bufr4/0/33/080/8,033080,Scan level quality flags,8,Divide-by-zero condition or computation loop failed to converge in the WG band PRT,,,,,Operational
+bufr4/0/33/080/9,033080,Scan level quality flags,9,"Divide-by-zero condition or computation loop failed to converge in the K/Ka, V, W, G band receiver shelf PRT K temperature computation",,,,,Operational
+bufr4/0/33/080/10,033080,Scan level quality flags,10,Out of range condition for the K/Ka and V band PRT,,,,,Operational
+bufr4/0/33/080/11,033080,Scan level quality flags,11,Out of range condition for the WG band PRT,,,,,Operational
+bufr4/0/33/080/12,033080,Scan level quality flags,12,KAV PRT temperature inconsistency,,,,,Operational
+bufr4/0/33/080/13,033080,Scan level quality flags,13,WG PRT temperature inconsistency,,,,,Operational
+bufr4/0/33/080/14,033080,Scan level quality flags,14,Time sequence error,,,,,Operational
+bufr4/0/33/080/15,033080,Scan level quality flags,15,Data gap - missing scan(s) preceding the current scan,,,,,Operational
+bufr4/0/33/080/16,033080,Scan level quality flags,16,KAV PRT sufficiency - insufficient KAV PRT data are available,,,,,Operational
+bufr4/0/33/080/17,033080,Scan level quality flags,17,WG PRT sufficiency - insufficient WG PRT data are available,,,,,Operational
+bufr4/0/33/080/18,033080,Scan level quality flags,18,Space view antenna position error,,,,,Operational
+bufr4/0/33/080/19,033080,Scan level quality flags,19,Blackbody antenna position error,,,,,Operational
+bufr4/0/33/080/All-20,033080,Scan level quality flags,All 20,Missing value,,,,,Operational
+bufr4/0/33/081/1-2,033081,Channel data quality flags,1-2,Reserved,,,,,Operational
+bufr4/0/33/081/3,033081,Channel data quality flags,3,Moon in space view,,,,,Operational
+bufr4/0/33/081/4,033081,Channel data quality flags,4,Gain error - the lowest blackbody count is smaller than or equal to the highest space view count in a scan,,,,,Operational
+bufr4/0/33/081/5,033081,Channel data quality flags,5,Calibration with fewer than preferred samples,,,,,Operational
+bufr4/0/33/081/6,033081,Channel data quality flags,6,Space view data sufficiency check - insufficient space view samples are available,,,,,Operational
+bufr4/0/33/081/7,033081,Channel data quality flags,7,Blackbody view data sufficiency check - insufficient blackbody view samples are available,,,,,Operational
+bufr4/0/33/081/8,033081,Channel data quality flags,8,Out of range condition for the space view,,,,,Operational
+bufr4/0/33/081/9,033081,Channel data quality flags,9,Out of range condition for the blackbody view,,,,,Operational
+bufr4/0/33/081/10,033081,Channel data quality flags,10,Space view inconsistency,,,,,Operational
+bufr4/0/33/081/11,033081,Channel data quality flags,11,Blackbody view inconsistency,,,,,Operational
+bufr4/0/33/081/All-12,033081,Channel data quality flags,All 12,Missing value,,,,,Operational
+bufr4/0/33/082/1-5,033082,Geolocation quality flags,1-5,Reserved,,,,,Operational
+bufr4/0/33/082/6,033082,Geolocation quality flags,6,Within South Atlantic anomaly,,,,,Operational
+bufr4/0/33/082/7,033082,Geolocation quality flags,7,Invalid input data (indicates that any of the spacecraft ephemeris or attitude data are invalid),,,,,Operational
+bufr4/0/33/082/8,033082,Geolocation quality flags,8,"Bad pointing (indicates that the sensor LOS does not intersect the geoid, is near the limb, has invalid sensor angles or other similar condition)",,,,,Operational
+bufr4/0/33/082/9,033082,Geolocation quality flags,9,Bad terrain (indicates that the algorithm could not obtain a valid terrain value),,,,,Operational
+bufr4/0/33/082/10,033082,Geolocation quality flags,10,Invalid solar angles,,,,,Operational
+bufr4/0/33/082/11,033082,Geolocation quality flags,11,Missing at most a small gap of altitude and ephemeris data,,,,,Operational
+bufr4/0/33/082/12,033082,Geolocation quality flags,12,"Missing more than a small gap of altitude and ephemeris data, but no more than a granule boundary",,,,,Operational
+bufr4/0/33/082/13,033082,Geolocation quality flags,13,Missing more than a granule boundary of altitude and ephemeris data,,,,,Operational
+bufr4/0/33/082/14,033082,Geolocation quality flags,14,The number of encoder pulse values per delta time is not as expected,,,,,Operational
+bufr4/0/33/082/15,033082,Geolocation quality flags,15,Solar eclipse during Earth view scan,,,,,Operational
+bufr4/0/33/082/All-16,033082,Geolocation quality flags,All 16,Missing value,,,,,Operational
+bufr4/0/33/083/1-5,033083,Radiance data quality flags,1-5,Reserved,,,,,Operational
+bufr4/0/33/083/6,033083,Radiance data quality flags,6,Pixel is affected by radio-frequency interference,,,,,Operational
+bufr4/0/33/083/7,033083,Radiance data quality flags,7,"Poor calibration quality due to bad space view offsets, OBC view offsets, etc. or use of a previous calibration view",,,,,Operational
+bufr4/0/33/083/8,033083,Radiance data quality flags,8,Saturated pixel,,,,,Operational
+bufr4/0/33/083/9,033083,Radiance data quality flags,9,Missing data -data required for calibration processing are not available for processing,,,,,Operational
+bufr4/0/33/083/10,033083,Radiance data quality flags,10,Calibrated pixel radiance out of range,,,,,Operational
+bufr4/0/33/083/11,033083,Radiance data quality flags,11,Calibrated pixel reflectance or EBBT out of range,,,,,Operational
+bufr4/0/33/083/12,033083,Radiance data quality flags,12,The moon has corrupted the space view,,,,,Operational
+bufr4/0/33/083/13,033083,Radiance data quality flags,13,Scan data is not present (no valid data),,,,,Operational
+bufr4/0/33/083/14,033083,Radiance data quality flags,14,Quality for this scan-line is reduced. The value is determined by the combined number of steps required to find a replacement for thermistor or calibration source data,,,,,Operational
+bufr4/0/33/083/15,033083,Radiance data quality flags,15,Bad detector,,,,,Operational
+bufr4/0/33/083/All-16,033083,Radiance data quality flags,All 16,Missing value,,,,,Operational
+bufr4/0/33/084/1-5,033084,Pixel level quality flags,1-5,Reserved,,,,,Operational
+bufr4/0/33/084/6,033084,Pixel level quality flags,6,Bulk SST outside of validation range,,,,,Operational
+bufr4/0/33/084/7,033084,Pixel level quality flags,7,Skin SST outside of validation range,,,,,Operational
+bufr4/0/33/084/8,033084,Pixel level quality flags,8,Sensor zenith angle > 40 degrees (pixel is not within 40 degrees of nadir and therefore is not of high quality),,,,,Operational
+bufr4/0/33/084/9,033084,Pixel level quality flags,9,"Degradation - horizontal cell size (HCS) > 1.3 km (HCS > 1.3 km, swath width > 1 700 km, sensor zenith angle > 50.3 degrees)",,,,,Operational
+bufr4/0/33/084/10,033084,Pixel level quality flags,10,Exclusion: no ocean in pixel,,,,,Operational
+bufr4/0/33/084/11,033084,Pixel level quality flags,11,Degradation: aerosol optical thickness (AOT) > 0.6 (AOT in horizontal cell > 0.6 on the slant path (AOT @550 nm)),,,,,Operational
+bufr4/0/33/084/12,033084,Pixel level quality flags,12,Exclusion: AOT > 1.0 (AOT in horizontal cell > 1.0 on the slant path (AOT @550 nm)),,,,,Operational
+bufr4/0/33/084/13,033084,Pixel level quality flags,13,Sun glint present in pixel,,,,,Operational
+bufr4/0/33/084/14,033084,Pixel level quality flags,14,Ice concentration threshold exceeded (SST not retrieved due to ice concentration exceeding threshold in system spec),,,,,Operational
+bufr4/0/33/084/15,033084,Pixel level quality flags,15,Thin cirrus detected in pixel,,,,,Operational
+bufr4/0/33/084/All-16,033084,Pixel level quality flags,All 16,Missing value,,,,,Operational
+bufr4/0/33/085/1-3,033085,Aerosol optical thickness quality flags,1-3,Reserved,,,,,Operational
+bufr4/0/33/085/4,033085,Aerosol optical thickness quality flags,4,Angstrom exponent is outside of the system specification range,,,,,Operational
+bufr4/0/33/085/5,033085,Aerosol optical thickness quality flags,5,"Excluded, Angstrom exponent for AOT at 550 nm < 0.15",,,,,Operational
+bufr4/0/33/085/6,033085,Aerosol optical thickness quality flags,6,"Bright surface in cell (if over land), or shallow or turbid water in cell (if over ocean)",,,,,Operational
+bufr4/0/33/085/7,033085,Aerosol optical thickness quality flags,7,"Low sun, excluded, Solar Zenith Angle > 80 degrees",,,,,Operational
+bufr4/0/33/085/8,033085,Aerosol optical thickness quality flags,8,"Low sun, degraded, 65 degrees < Solar Zenith Angle =< 80 degrees",,,,,Operational
+bufr4/0/33/085/9,033085,Aerosol optical thickness quality flags,9,Fire detected in cell,,,,,Operational
+bufr4/0/33/085/10,033085,Aerosol optical thickness quality flags,10,Snow/Ice in cell,,,,,Operational
+bufr4/0/33/085/11,033085,Aerosol optical thickness quality flags,11,Cloud shadow in cell,,,,,Operational
+bufr4/0/33/085/12,033085,Aerosol optical thickness quality flags,12,Sun glint in cell,,,,,Operational
+bufr4/0/33/085/13,033085,Aerosol optical thickness quality flags,13,Bad SDR data present in horizontal cell (quality of AOT/APSP degraded or AOT/APSP not retrieved due to bad SDR data in horizontal cell),,,,,Operational
+bufr4/0/33/085/14,033085,Aerosol optical thickness quality flags,14,Cirrus contamination in cell,,,,,Operational
+bufr4/0/33/085/15,033085,Aerosol optical thickness quality flags,15,Cloud adjacent to cell,,,,,Operational
+bufr4/0/33/085/16,033085,Aerosol optical thickness quality flags,16,Cloud contamination in cell,,,,,Operational
+bufr4/0/33/085/17,033085,Aerosol optical thickness quality flags,17,AOT is outside of the system specification range,,,,,Operational
+bufr4/0/33/085/All-18,033085,Aerosol optical thickness quality flags,All 18,Missing value,,,,,Operational
+bufr4/0/33/086/0,033086,Quality of pixel level retrieval,0,Not retrieved,,,,,Operational
+bufr4/0/33/086/1,033086,Quality of pixel level retrieval,1,Excluded,,,,,Operational
+bufr4/0/33/086/2,033086,Quality of pixel level retrieval,2,Degraded,,,,,Operational
+bufr4/0/33/086/3,033086,Quality of pixel level retrieval,3,High quality,,,,,Operational
+bufr4/0/33/086/4-6,033086,Quality of pixel level retrieval,4-6,Reserved,,,,,Operational
+bufr4/0/33/086/7,033086,Quality of pixel level retrieval,7,Missing value,,,,,Operational
+bufr4/0/33/087/0,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),0,Less than or equal to 10%,,,,,Operational
+bufr4/0/33/087/1,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),1,Greater than 10% but less than or equal to 20%,,,,,Operational
+bufr4/0/33/087/2,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),2,Greater than 20% but less than or equal to 30%,,,,,Operational
+bufr4/0/33/087/3,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),3,Greater than 30% but less than or equal to 40%,,,,,Operational
+bufr4/0/33/087/4,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),4,Greater than 40% but less than or equal to 50%,,,,,Operational
+bufr4/0/33/087/5,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),5,Greater than 50% but less than or equal to 60%,,,,,Operational
+bufr4/0/33/087/6,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),6,Greater than 60% but less than or equal to 70%,,,,,Operational
+bufr4/0/33/087/7,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),7,Greater than 70% but less than or equal to 80%,,,,,Operational
+bufr4/0/33/087/8,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),8,Greater than 80%,,,,,Operational
+bufr4/0/33/087/9-14,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),9-14,Reserved,,,,,Operational
+bufr4/0/33/087/15,033087,Extent of satellite within South Atlantic anomaly (based on climatological data),15,Missing value,,,,,Operational
+bufr4/0/33/088/1-5,033088,Ozone total column quality flag,1-5,Reserved,,,,,Operational
+bufr4/0/33/088/6,033088,Ozone total column quality flag,6,Surface reflectivity out of range,,,,,Operational
+bufr4/0/33/088/7,033088,Ozone total column quality flag,7,Residual too large,,,,,Operational
+bufr4/0/33/088/8,033088,Ozone total column quality flag,8,Aerosol index limit exceeded,,,,,Operational
+bufr4/0/33/088/9,033088,Ozone total column quality flag,9,"Solar eclipse present (all or part of the IFOV is affected by a solar eclipse, umbra or penumbra viewing)",,,,,Operational
+bufr4/0/33/088/10,033088,Ozone total column quality flag,10,Sun glint present within IFOV,,,,,Operational
+bufr4/0/33/088/11,033088,Ozone total column quality flag,11,Snow or ice surface is within the IFOV,,,,,Operational
+bufr4/0/33/088/12,033088,Ozone total column quality flag,12,Solar zenith angle in excluded (night) condition (solar zenith angle >= 88 degrees),,,,,Operational
+bufr4/0/33/088/13,033088,Ozone total column quality flag,13,Solar zenith angle in degraded condition (80 degrees =< solar zenith angle < 88 degrees),,,,,Operational
+bufr4/0/33/088/14,033088,Ozone total column quality flag,14,SO2 index > 6 DU (degraded condition),,,,,Operational
+bufr4/0/33/088/15,033088,Ozone total column quality flag,15,Residues are not consistent (indicates whether the residues from the 22 wavelengths are consistent),,,,,Operational
+bufr4/0/33/088/16,033088,Ozone total column quality flag,16,O3 triplet selection is not consistent within retrieval (ozone triplet consistency),,,,,Operational
+bufr4/0/33/088/17,033088,Ozone total column quality flag,17,Input data quality is not good,,,,,Operational
+bufr4/0/33/088/All-18,033088,Ozone total column quality flag,All 18,Missing value,,,,,Operational
+bufr4/0/33/092/1,033092,Band specific ocean quality flag,1,Altimeter operating,,,,,Operational
+bufr4/0/33/092/2,033092,Band specific ocean quality flag,2,Microwave radiometer (MWR) operating,,,,,Operational
+bufr4/0/33/092/3-8,033092,Band specific ocean quality flag,3-8,Reserved,,,,,Operational
+bufr4/0/33/092/All-9,033092,Band specific ocean quality flag,All 9,Missing value,,,,,Operational
+bufr4/0/33/093/1,033093,Extended quality flags for ground-based GNSS data,1,Path delay quality is considered poor,,,,,Operational
+bufr4/0/33/093/2,033093,Extended quality flags for ground-based GNSS data,2,GALILEO satellites used,,,,,Operational
+bufr4/0/33/093/3,033093,Extended quality flags for ground-based GNSS data,3,GLONASS satellites used,,,,,Operational
+bufr4/0/33/093/4,033093,Extended quality flags for ground-based GNSS data,4,GPS satellites used,,,,,Operational
+bufr4/0/33/093/5,033093,Extended quality flags for ground-based GNSS data,5,BeiDou satellites used,,,,,Operational
+bufr4/0/33/093/6-8,033093,Extended quality flags for ground-based GNSS data,6-8,Reserved for new GNSS,,,,,Operational
+bufr4/0/33/093/9,033093,Extended quality flags for ground-based GNSS data,9,Meteorological data applied,,,,,Operational
+bufr4/0/33/093/10,033093,Extended quality flags for ground-based GNSS data,10,Atmospheric loading correction applied,,,,,Operational
+bufr4/0/33/093/11,033093,Extended quality flags for ground-based GNSS data,11,Ocean tide loading applied,,,,,Operational
+bufr4/0/33/093/12,033093,Extended quality flags for ground-based GNSS data,12,Second order ionosphere corrections applied,,,,,Operational
+bufr4/0/33/093/13,033093,Extended quality flags for ground-based GNSS data,13,Third order ionosphere corrections applied,,,,,Operational
+bufr4/0/33/093/14,033093,Extended quality flags for ground-based GNSS data,14,PPP solution,,,,,Operational
+bufr4/0/33/093/15,033093,Extended quality flags for ground-based GNSS data,15,Gradients applied to path delay,,,,,Operational
+bufr4/0/33/093/16,033093,Extended quality flags for ground-based GNSS data,16,Multipath corrections applied to path delay,,,,,Operational
+bufr4/0/33/093/17,033093,Extended quality flags for ground-based GNSS data,17,Residual applied to path delay,,,,,Operational
+bufr4/0/33/093/18,033093,Extended quality flags for ground-based GNSS data,18,Climate quality data processing,,,,,Operational
+bufr4/0/33/093/19,033093,Extended quality flags for ground-based GNSS data,19,Re-processing,,,,,Operational
+bufr4/0/33/093/20,033093,Extended quality flags for ground-based GNSS data,20,Post-processing,,,,,Operational
+bufr4/0/33/093/21,033093,Extended quality flags for ground-based GNSS data,21,Near-real time data processing,,,,,Operational
+bufr4/0/33/093/22,033093,Extended quality flags for ground-based GNSS data,22,Real time data processing,,,,,Operational
+bufr4/0/33/093/23-30,033093,Extended quality flags for ground-based GNSS data,23-30,Reserved,,,,,Operational
+bufr4/0/33/093/All-31,033093,Extended quality flags for ground-based GNSS data,All 31,Missing value,,,,,Operational
+bufr4/0/33/094/1-15,033094,Calibration quality control flags,1-15,Reserved,,,,,Operational
+bufr4/0/33/094/16,033094,Calibration quality control flags,16,Non-ocean,,,,,Operational
+bufr4/0/33/094/17,033094,Calibration quality control flags,17,Lunar or solar intrusion,,,,,Operational
+bufr4/0/33/094/18,033094,Calibration quality control flags,18,Spacecraft manoeuvre,,,,,Operational
+bufr4/0/33/094/19,033094,Calibration quality control flags,19,Cold calibration consistency,,,,,Operational
+bufr4/0/33/094/20,033094,Calibration quality control flags,20,Warm calibration consistency,,,,,Operational
+bufr4/0/33/094/21,033094,Calibration quality control flags,21,Descending,,,,,Operational
+bufr4/0/33/094/22,033094,Calibration quality control flags,22,Night,,,,,Operational
+bufr4/0/33/094/23,033094,Calibration quality control flags,23,Payload rear orientation,,,,,Operational
+bufr4/0/33/094/All-24,033094,Calibration quality control flags,All 24,Missing value,,,,,Operational
+bufr4/0/33/095/1,033095,MWI temperatures flag,1,PRT or THM temperatures are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/095/2,033095,MWI temperatures flag,2,PRT temperatures of OBCT used in the radiometric calibrations are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/095/3,033095,MWI temperatures flag,3,THM temperatures of SVR used in the radiometric calibrations are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/095/4,033095,MWI temperatures flag,4,THM temperatures of main reflector are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/095/5,033095,MWI temperatures flag,5,THM temperatures of the racetrack are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/095/6,033095,MWI temperatures flag,6,THM temperatures of the receivers are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/095/7,033095,MWI temperatures flag,7,Reserved,,,,,Operational
+bufr4/0/33/095/All-8,033095,MWI temperatures flag,All 8,Missing,,,,,Operational
+bufr4/0/33/096/1,033096,MWI calibration flag,1,Radiometric calibration failed or is degraded,,,,,Operational
+bufr4/0/33/096/2,033096,MWI calibration flag,2,OBCT view counts averaged value over scans is missing (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/3,033096,MWI calibration flag,3,Cold space view counts averaged value over scans is missing (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/4,033096,MWI calibration flag,4,OBCT view counts averaged value over scans is degraded due to missing or anomalous counts values (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/5,033096,MWI calibration flag,5,Cold space view counts averaged value over scans is degraded due to missing or anomalous counts values (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/6,033096,MWI calibration flag,6,OBCT view radiance averaged value over scans is missing (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/7,033096,MWI calibration flag,7,Cold space view radiance averaged value over scans is missing (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/8,033096,MWI calibration flag,8,OBCT view radiance averaged value over scans is degraded due to missing or anomalous values (this is valid for the high-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/9,033096,MWI calibration flag,9,Cold space view radiance averaged value over scans is degraded due to missing or anomalous values (this is valid for the low-reference calibration load when the back-up calibration is applied for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/10,033096,MWI calibration flag,10,Non-linearity parameter computed using noise diodes is missing (meaningful only for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/11,033096,MWI calibration flag,11,Non-linearity parameter computed using noise diodes is degraded (meaningful only for channels MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/12,033096,MWI calibration flag,12,PRT or THM temperatures of current scan are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/096/13,033096,MWI calibration flag,13,Moon intrusion in cold space degraded calibration (less than Nvalid_c valid samples are not affected by Moon for the considered channel and scan),,,,,Operational
+bufr4/0/33/096/14,033096,MWI calibration flag,14,Back-up calibration with noise diodes performed (meaningful only for MWI-1 to MWI-3),,,,,Operational
+bufr4/0/33/096/15,033096,MWI calibration flag,15,Degraded receiver temperatures lead to degraded calibration,,,,,Operational
+bufr4/0/33/096/All-16,033096,MWI calibration flag,All 16,Missing,,,,,Operational
+bufr4/0/33/097/1,033097,MWI scan quality flag,1,Scan is degraded in raw data record,,,,,Operational
+bufr4/0/33/097/2,033097,MWI scan quality flag,2,Time sequence error,,,,,Operational
+bufr4/0/33/097/3,033097,MWI scan quality flag,3,Current scan is acquired after a gap,,,,,Operational
+bufr4/0/33/097/4,033097,MWI scan quality flag,4,"Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 packets or data gaps).",,,,,Operational
+bufr4/0/33/097/5,033097,MWI scan quality flag,5,Moon intrusion angle in space view below threshold for at least one channel,,,,,Operational
+bufr4/0/33/097/6,033097,MWI scan quality flag,6,Moon correction is applied but is degraded for at least one channel,,,,,Operational
+bufr4/0/33/097/7,033097,MWI scan quality flag,7,Sun glint angle below threshold for at least one channel,,,,,Operational
+bufr4/0/33/097/8,033097,MWI scan quality flag,8,RFI contamination in the Earth view or RFI packet missing for the considered scan (only for MWI-1V and MWI-1H),,,,,Operational
+bufr4/0/33/097/9,033097,MWI scan quality flag,9,Satellite manoeuvre occurs in current scan,,,,,Operational
+bufr4/0/33/097/10,033097,MWI scan quality flag,10,Missing warm or cold L0 packets for the considered scan,,,,,Operational
+bufr4/0/33/097/11-15,033097,MWI scan quality flag,11-15,Reserved,,,,,Operational
+bufr4/0/33/097/All-16,033097,MWI scan quality flag,All 16,Missing,,,,,Operational
+bufr4/0/33/098/1,033098,MWI data quality flag,1,MWI spectral radiance data of channel is missing or degraded,,,,,Operational
+bufr4/0/33/098/2,033098,MWI data quality flag,2,Earth view counts of channel within scan are missing or out of bounds,,,,,Operational
+bufr4/0/33/098/3,033098,MWI data quality flag,3,Radiometric calibration failed or is degraded,,,,,Operational
+bufr4/0/33/098/4,033098,MWI data quality flag,4,Geolocation of channel is erroneous or degraded,,,,,Operational
+bufr4/0/33/098/5,033098,MWI data quality flag,5,NEΔT of this data granule is above threshold,,,,,Operational
+bufr4/0/33/098/6,033098,MWI data quality flag,6,MR emissivity and spillover correction failed or degraded,,,,,Operational
+bufr4/0/33/098/7,033098,MWI data quality flag,7,MR sidelobe correction failed or degraded,,,,,Operational
+bufr4/0/33/098/8,033098,MWI data quality flag,8,Channel is defective,,,,,Operational
+bufr4/0/33/098/All-9,033098,MWI data quality flag,All 9,Missing,,,,,Operational
+bufr4/0/33/099/1,033099,MWI navigation status flag,1,Geolocation of channel is erroneous or degraded,,,,,Operational
+bufr4/0/33/099/2,033099,MWI navigation status flag,2,Time sequence error,,,,,Operational
+bufr4/0/33/099/3,033099,MWI navigation status flag,3,Missing or corrupted NAVATT file led to the use of predicted orbit files,,,,,Operational
+bufr4/0/33/099/4,033099,MWI navigation status flag,4,NAVATT attitude data is degraded,,,,,Operational
+bufr4/0/33/099/5,033099,MWI navigation status flag,5,Time correlation error (missing IERS bulletin),,,,,Operational
+bufr4/0/33/099/6,033099,MWI navigation status flag,6,Invalid ephemeris or attitude data,,,,,Operational
+bufr4/0/33/099/7,033099,MWI navigation status flag,7,Satellite manoeuvre occurs in current scan,,,,,Operational
+bufr4/0/33/099/8,033099,MWI navigation status flag,8,"Non-nominal attitude with yaw, pitch, roll error above threshold Delta_YPR (nominally these angles are 0.0 deg for YSM)",,,,,Operational
+bufr4/0/33/099/9,033099,MWI navigation status flag,9,Sampling time not within prescribed limits,,,,,Operational
+bufr4/0/33/099/10,033099,MWI navigation status flag,10,Scan velocity not within prescribed limits,,,,,Operational
+bufr4/0/33/099/11,033099,MWI navigation status flag,11,Bad pointing (sensor LOS does not intersect ellipsoid or not compliant with observation azimuth/elevation limits),,,,,Operational
+bufr4/0/33/099/12,033099,MWI navigation status flag,12,Invalid solar azimuth/zenith angles computed,,,,,Operational
+bufr4/0/33/099/13,033099,MWI navigation status flag,13,DEM geolocation not performed (with use_DEM_flag = 1),,,,,Operational
+bufr4/0/33/099/14,033099,MWI navigation status flag,14,Error in land fraction computation,,,,,Operational
+bufr4/0/33/099/15,033099,MWI navigation status flag,15,Predicted orbit file not available,,,,,Operational
+bufr4/0/33/099/All-16,033099,MWI navigation status flag,All 16,Missing,,,,,Operational
+bufr4/0/33/100/1,033100,ICI temperatures flag,1,PRT or THM temperatures are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/100/2,033100,ICI temperatures flag,2,PRT temperatures of OBCT used in the radiometric calibrations is missing or with anomalous readings,,,,,Operational
+bufr4/0/33/100/3,033100,ICI temperatures flag,3,PRT temperatures of SVR used in the radiometric calibrations are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/100/4,033100,ICI temperatures flag,4,PRT temperatures of IRP and sun shield are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/100/5,033100,ICI temperatures flag,5,THM temperature of back-end are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/100/6,033100,ICI temperatures flag,6,THM temperature of front-end are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/100/7,033100,ICI temperatures flag,7,PRT temperatures of main reflector are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/100/All-8,033100,ICI temperatures flag,All 8,Missing,,,,,Operational
+bufr4/0/33/101/1,033101,ICI calibration flag,1,Radiometric calibration failed or is degraded,,,,,Operational
+bufr4/0/33/101/2,033101,ICI calibration flag,2,OBCT view counts averaged value over scans is missing,,,,,Operational
+bufr4/0/33/101/3,033101,ICI calibration flag,3,Cold space view counts averaged value over scans is missing,,,,,Operational
+bufr4/0/33/101/4,033101,ICI calibration flag,4,OBCT view counts averaged value over scans is degraded due to missing or anomalous counts values,,,,,Operational
+bufr4/0/33/101/5,033101,ICI calibration flag,5,Cold space view counts averaged value over scans is degraded due to missing or anomalous counts values,,,,,Operational
+bufr4/0/33/101/6,033101,ICI calibration flag,6,OBCT view radiance averaged value over scans is missing,,,,,Operational
+bufr4/0/33/101/7,033101,ICI calibration flag,7,Cold space view radiance averaged value over scans is missing,,,,,Operational
+bufr4/0/33/101/8,033101,ICI calibration flag,8,OBCT view radiance averaged value over scans is degraded due to missing or anomalous values,,,,,Operational
+bufr4/0/33/101/9,033101,ICI calibration flag,9,Cold space view radiance averaged value over scans is degraded due to missing or anomalous values,,,,,Operational
+bufr4/0/33/101/10,033101,ICI calibration flag,10,PRT or THM temperatures of current scan are missing or with anomalous readings,,,,,Operational
+bufr4/0/33/101/11,033101,ICI calibration flag,11,Moon intrusion in cold space degraded calibration (less than Nvalid_c valid samples are not affected by Moon for the considered channel and scan),,,,,Operational
+bufr4/0/33/101/12,033101,ICI calibration flag,12,Degraded or missing back-end temperatures lead to degraded calibration,,,,,Operational
+bufr4/0/33/101/13-15,033101,ICI calibration flag,13-15,Reserved,,,,,Operational
+bufr4/0/33/101/All-16,033101,ICI calibration flag,All 16,Missing,,,,,Operational
+bufr4/0/33/102/1,033102,ICI navigation status flag,1,Scan is degraded in raw data records,,,,,Operational
+bufr4/0/33/102/2,033102,ICI navigation status flag,2,Time sequence error,,,,,Operational
+bufr4/0/33/102/3,033102,ICI navigation status flag,3,Current scan is acquired after a gap,,,,,Operational
+bufr4/0/33/102/4,033102,ICI navigation status flag,4,"Scan is in period of initialization of calibration of data averages over scans (because of cold start/cold end, missing warm/cold L0 packets or data gaps)",,,,,Operational
+bufr4/0/33/102/5,033102,ICI navigation status flag,5,Moon intrusion angle in space view below threshold for at least one channel,,,,,Operational
+bufr4/0/33/102/6,033102,ICI navigation status flag,6,Moon correction is applied but is degraded for at least one channel,,,,,Operational
+bufr4/0/33/102/7,033102,ICI navigation status flag,7,Sun glint angle below threshold for at least one channel,,,,,Operational
+bufr4/0/33/102/8,033102,ICI navigation status flag,8,Satellite manoeuvre occurs in current scan,,,,,Operational
+bufr4/0/33/102/9,033102,ICI navigation status flag,9,Missing warm or cold L0 packets for the considered scan,,,,,Operational
+bufr4/0/33/102/10-15,033102,ICI navigation status flag,10-15,Reserved,,,,,Operational
+bufr4/0/33/102/All-16,033102,ICI navigation status flag,All 16,Missing,,,,,Operational
+bufr4/0/33/103/1,033103,ICI scan quality flag,1,ICI spectral radiance data of channel is missing or degraded,,,,,Operational
+bufr4/0/33/103/2,033103,ICI scan quality flag,2,Earth view counts of channel within scan are missing or out of bounds,,,,,Operational
+bufr4/0/33/103/3,033103,ICI scan quality flag,3,Radiometric calibration failed or is degraded,,,,,Operational
+bufr4/0/33/103/4,033103,ICI scan quality flag,4,Geolocation of channel is erroneous or degraded,,,,,Operational
+bufr4/0/33/103/5,033103,ICI scan quality flag,5,NEΔT of this data granule is above threshold,,,,,Operational
+bufr4/0/33/103/6,033103,ICI scan quality flag,6,MR emissivity and spillover correction failed or degraded,,,,,Operational
+bufr4/0/33/103/7,033103,ICI scan quality flag,7,MR sidelobe correction failed or degraded,,,,,Operational
+bufr4/0/33/103/8,033103,ICI scan quality flag,8,Channel is defective,,,,,Operational
+bufr4/0/33/103/All-9,033103,ICI scan quality flag,All 9,Missing,,,,,Operational
+bufr4/0/33/104/1,033104,ICI navigation status flag,1,Geolocation of channels is erroneous or degraded,,,,,Operational
+bufr4/0/33/104/2,033104,ICI navigation status flag,2,Time sequence error,,,,,Operational
+bufr4/0/33/104/3,033104,ICI navigation status flag,3,Missing or corrupted NAVATT file led to the use of predicted orbit files,,,,,Operational
+bufr4/0/33/104/4,033104,ICI navigation status flag,4,NAVATT attitude data is degraded,,,,,Operational
+bufr4/0/33/104/5,033104,ICI navigation status flag,5,Time correlation error (missing IERS bulletin),,,,,Operational
+bufr4/0/33/104/6,033104,ICI navigation status flag,6,Invalid ephemeris or attitude data,,,,,Operational
+bufr4/0/33/104/7,033104,ICI navigation status flag,7,Satellite manoeuvre occurs in current scan,,,,,Operational
+bufr4/0/33/104/8,033104,ICI navigation status flag,8,"Non-nominal attitude with yaw, pitch, roll error above threshold Delta_YPR (nominally these angles are 0.0 deg for YSM)",,,,,Operational
+bufr4/0/33/104/9,033104,ICI navigation status flag,9,Sampling time not within prescribed limits,,,,,Operational
+bufr4/0/33/104/10,033104,ICI navigation status flag,10,Scan velocity not within prescribed limits,,,,,Operational
+bufr4/0/33/104/11,033104,ICI navigation status flag,11,Bad pointing (sensor LOS does not intersect ellipsoid or not compliant with observation azimuth/elevation limits),,,,,Operational
+bufr4/0/33/104/12,033104,ICI navigation status flag,12,Invalid solar azimuth/zenith angles computed,,,,,Operational
+bufr4/0/33/104/13,033104,ICI navigation status flag,13,DEM geolocation not performed (with use_DEM_flag = 1),,,,,Operational
+bufr4/0/33/104/14,033104,ICI navigation status flag,14,Error in land fraction computation,,,,,Operational
+bufr4/0/33/104/15,033104,ICI navigation status flag,15,Predicted orbit file not available,,,,,Operational
+bufr4/0/33/104/All-16,033104,ICI navigation status flag,All 16,Missing,,,,,Operational
+bufr4/0/33/105/1,033105,ICI processing flags,1,Moon contamination correction on cold space view counts is not applied,,,,,Operational
+bufr4/0/33/105/2,033105,ICI processing flags,2,MR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
+bufr4/0/33/105/3,033105,ICI processing flags,3,SVR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
+bufr4/0/33/105/4,033105,ICI processing flags,4,SVR sidelobe correction is not applied,,,,,Operational
+bufr4/0/33/105/5,033105,ICI processing flags,5,Full cross-polarization correction including small angle correction is applied,,,,,Operational
+bufr4/0/33/105/6,033105,ICI processing flags,6,Dynamic sidelobe correction is not applied for ICI-1,,,,,Operational
+bufr4/0/33/105/7,033105,ICI processing flags,7,Dynamic sidelobe correction is not applied for ICI-2,,,,,Operational
+bufr4/0/33/105/8,033105,ICI processing flags,8,Dynamic sidelobe correction is not applied for ICI-3,,,,,Operational
+bufr4/0/33/105/9,033105,ICI processing flags,9,Dynamic sidelobe correction is not applied for ICI-4 V and ICI-4 H,,,,,Operational
+bufr4/0/33/105/10-15,033105,ICI processing flags,10-15,Reserved,,,,,Operational
+bufr4/0/33/105/All-16,033105,ICI processing flags,All 16,Missing,,,,,Operational
+bufr4/0/33/106/1,033106,MWI processing flags,1,Moon contamination correction on cold space view counts is not applied,,,,,Operational
+bufr4/0/33/106/2,033106,MWI processing flags,2,Calibration with noise diodes is not applied for at least one channel among MWI-1 to MWI-3,,,,,Operational
+bufr4/0/33/106/3,033106,MWI processing flags,3,MR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
+bufr4/0/33/106/4,033106,MWI processing flags,4,SVR spillover correction relative to emission by instrument platform is not applied,,,,,Operational
+bufr4/0/33/106/5,033106,MWI processing flags,5,SVR sidelobe correction is not applied,,,,,Operational
+bufr4/0/33/106/6,033106,MWI processing flags,6,Full cross-polarization correction including small angle correction is applied,,,,,Operational
+bufr4/0/33/106/7,033106,MWI processing flags,7,RFI correction in the Earth view is not applied,,,,,Operational
+bufr4/0/33/106/8,033106,MWI processing flags,8,Dynamic sidelobe correction is not applied for MWI-1,,,,,Operational
+bufr4/0/33/106/9,033106,MWI processing flags,9,Dynamic sidelobe correction is not applied for MWI-2,,,,,Operational
+bufr4/0/33/106/10,033106,MWI processing flags,10,Dynamic sidelobe correction is not applied for MWI-3,,,,,Operational
+bufr4/0/33/106/11,033106,MWI processing flags,11,Dynamic sidelobe correction is not applied for MWI-4,,,,,Operational
+bufr4/0/33/106/12,033106,MWI processing flags,12,Dynamic sidelobe correction is not applied for MWI-8,,,,,Operational
+bufr4/0/33/106/13-15,033106,MWI processing flags,13-15,Reserved,,,,,Operational
+bufr4/0/33/106/All-16,033106,MWI processing flags,All 16,Missing,,,,,Operational
+bufr4/0/33/107/1,033107,MWS scan line processing flag,1,Non-nominal scan due to gap,,,,,Operational
+bufr4/0/33/107/2,033107,MWS scan line processing flag,2,Non-nominal warm target temperature,,,,,Operational
+bufr4/0/33/107/3,033107,MWS scan line processing flag,3,Non-nominal along-track averaging of warm target temperatures,,,,,Operational
+bufr4/0/33/107/4,033107,MWS scan line processing flag,4,Non-nominal instrument temperature,,,,,Operational
+bufr4/0/33/107/5,033107,MWS scan line processing flag,5,Non-nominal along-track averaging of instrument temperatures,,,,,Operational
+bufr4/0/33/107/6,033107,MWS scan line processing flag,6,Non-nominal rotating reflector temperature,,,,,Operational
+bufr4/0/33/107/7,033107,MWS scan line processing flag,7,Non-nominal along-track averaging of rotating reflector temperatures,,,,,Operational
+bufr4/0/33/107/8,033107,MWS scan line processing flag,8,Non-nominal antenna scan angle Earth view,,,,,Operational
+bufr4/0/33/107/9,033107,MWS scan line processing flag,9,Non-nominal antenna scan angle cold view,,,,,Operational
+bufr4/0/33/107/10,033107,MWS scan line processing flag,10,Non-nominal antenna scan angle warm view,,,,,Operational
+bufr4/0/33/107/11,033107,MWS scan line processing flag,11,Non-nominal geolocation,,,,,Operational
+bufr4/0/33/107/12,033107,MWS scan line processing flag,12,Non-nominal LSM and DEM assignment,,,,,Operational
+bufr4/0/33/107/13,033107,MWS scan line processing flag,13,Ongoing satellite manoeuvre,,,,,Operational
+bufr4/0/33/107/14,033107,MWS scan line processing flag,14,Redundant 50GHz rec and PRT set in use,,,,,Operational
+bufr4/0/33/107/15,033107,MWS scan line processing flag,15,Reserved,,,,,Operational
+bufr4/0/33/107/All-16,033107,MWS scan line processing flag,All 16,Missing,,,,,Operational
+bufr4/0/33/108/1,033108,MWS navigation status flag,1,Non-nominal condition,,,,,Operational
+bufr4/0/33/108/2,033108,MWS navigation status flag,2,Scan not processed,,,,,Operational
+bufr4/0/33/108/3,033108,MWS navigation status flag,3,Geolocation not successful,,,,,Operational
+bufr4/0/33/108/4,033108,MWS navigation status flag,4,Orbit not initialized with NAVATT,,,,,Operational
+bufr4/0/33/108/5,033108,MWS navigation status flag,5,Attitude not initialized with NAVATT,,,,,Operational
+bufr4/0/33/108/6,033108,MWS navigation status flag,6,Predicted orbit file ingest error,,,,,Operational
+bufr4/0/33/108/7,033108,MWS navigation status flag,7,Manoeuvre,,,,,Operational
+bufr4/0/33/108/8,033108,MWS navigation status flag,8,IERS bulletin A ingest error,,,,,Operational
+bufr4/0/33/108/9,033108,MWS navigation status flag,9,Time correlation and EOP initialized with predicted orbit file,,,,,Operational
+bufr4/0/33/108/10,033108,MWS navigation status flag,10,Full accuracy of NAVATT initialized attitude not reached,,,,,Operational
+bufr4/0/33/108/11,033108,MWS navigation status flag,11,Pointing mode not YSM,,,,,Operational
+bufr4/0/33/108/12,033108,MWS navigation status flag,12,NAVATT ingest error,,,,,Operational
+bufr4/0/33/108/13-15,033108,MWS navigation status flag,13-15,Reserved,,,,,Operational
+bufr4/0/33/108/All-16,033108,MWS navigation status flag,All 16,Missing,,,,,Operational
+bufr4/0/33/109/1,033109,MWS overall quality flags,1,Missing input product(s),,,,,Operational
+bufr4/0/33/109/2,033109,MWS overall quality flags,2,Data gap(s),,,,,Operational
+bufr4/0/33/109/3,033109,MWS overall quality flags,3,Corrupted input product(s),,,,,Operational
+bufr4/0/33/109/4,033109,MWS overall quality flags,4,Instrument anomaly,,,,,Operational
+bufr4/0/33/109/5,033109,MWS overall quality flags,5,Missing or degraded auxiliary data,,,,,Operational
+bufr4/0/33/109/6,033109,MWS overall quality flags,6,Degraded due to manoeuvre,,,,,Operational
+bufr4/0/33/109/7-15,033109,MWS overall quality flags,7-15,Reserved,,,,,Operational
+bufr4/0/33/109/All-16,033109,MWS overall quality flags,All 16,Missing,,,,,Operational
+bufr4/0/33/110/1,033110,MWS channel processing flags,1,Channel is off,,,,,Operational
+bufr4/0/33/110/2,033110,MWS channel processing flags,2,Non-nominal mean warm view count,,,,,Operational
+bufr4/0/33/110/3,033110,MWS channel processing flags,3,Non-nominal along-track averaging of warm view counts,,,,,Operational
+bufr4/0/33/110/4,033110,MWS channel processing flags,4,Non-nominal mean cold view count,,,,,Operational
+bufr4/0/33/110/5,033110,MWS channel processing flags,5,Non-nominal along-track averaging of cold view counts,,,,,Operational
+bufr4/0/33/110/6,033110,MWS channel processing flags,6,Non-nominal calibration coefficients,,,,,Operational
+bufr4/0/33/110/7,033110,MWS channel processing flags,7,Moon intrusion in some of the cold view FOVS,,,,,Operational
+bufr4/0/33/110/8,033110,MWS channel processing flags,8,Non-nominal processing or excessive value for NEDT (cold or warm),,,,,Operational
+bufr4/0/33/110/All-9,033110,MWS channel processing flags,All 9,Missing,,,,,Operational
+bufr4/0/33/111/1,033111,SCA quality flags,1,Predicted orbit file used,,,,,Operational
+bufr4/0/33/111/2,033111,SCA quality flags,2,Manoeuvre taking place,,,,,Operational
+bufr4/0/33/111/3,033111,SCA quality flags,3,Reserved,,,,,Operational
+bufr4/0/33/111/4,033111,SCA quality flags,4,Satellite is not in yaw steering mode,,,,,Operational
+bufr4/0/33/111/5,033111,SCA quality flags,5,Transponder signal is present,,,,,Operational
+bufr4/0/33/111/6,033111,SCA quality flags,6,Noise estimate is poor,,,,,Operational
+bufr4/0/33/111/7,033111,SCA quality flags,7,Noise estimate is very poor,,,,,Operational
+bufr4/0/33/111/8,033111,SCA quality flags,8,Noise outlier is present,,,,,Operational
+bufr4/0/33/111/9,033111,SCA quality flags,9,Ancillary data is poor,,,,,Operational
+bufr4/0/33/111/10,033111,SCA quality flags,10,Ancillary data is very poor,,,,,Operational
+bufr4/0/33/111/11,033111,SCA quality flags,11,Characterization table limits exceeded,,,,,Operational
+bufr4/0/33/111/12,033111,SCA quality flags,12,Power-gain estimate is poor,,,,,Operational
+bufr4/0/33/111/13,033111,SCA quality flags,13,Power-gain estimate is very poor,,,,,Operational
+bufr4/0/33/111/14,033111,SCA quality flags,14,Power-gain out of limits,,,,,Operational
+bufr4/0/33/111/15,033111,SCA quality flags,15,Waveguide loss estimate is poor,,,,,Operational
+bufr4/0/33/111/16,033111,SCA quality flags,16,Waveguide loss estimate is very poor,,,,,Operational
+bufr4/0/33/111/17,033111,SCA quality flags,17,Waveguide table limits exceeded,,,,,Operational
+bufr4/0/33/111/18,033111,SCA quality flags,18,Echo is out of ADC range,,,,,Operational
+bufr4/0/33/111/19,033111,SCA quality flags,19,Reserved,,,,,Operational
+bufr4/0/33/111/20,033111,SCA quality flags,20,Missing normalization tables,,,,,Operational
+bufr4/0/33/111/21,033111,SCA quality flags,21,Number of samples in window is low,,,,,Operational
+bufr4/0/33/111/22,033111,SCA quality flags,22,Number of samples in window is very low,,,,,Operational
+bufr4/0/33/111/23,033111,SCA quality flags,23,Negative backscatter in resampled data,,,,,Operational
+bufr4/0/33/111/24,033111,SCA quality flags,24,Possible interference from solar array,,,,,Operational
+bufr4/0/33/111/25,033111,SCA quality flags,25,Reserved,,,,,Operational
+bufr4/0/33/111/26,033111,SCA quality flags,26,Reserved,,,,,Operational
+bufr4/0/33/111/27,033111,SCA quality flags,27,Reserved,,,,,Operational
+bufr4/0/33/111/28,033111,SCA quality flags,28,Land,,,,,Operational
+bufr4/0/33/111/29,033111,SCA quality flags,29,Water,,,,,Operational
+bufr4/0/33/111/30,033111,SCA quality flags,30,Ascending pass,,,,,Operational
+bufr4/0/33/111/31,033111,SCA quality flags,31,Descending pass,,,,,Operational
+bufr4/0/33/111/All-32,033111,SCA quality flags,All 32,Missing,,,,,Operational
+bufr4/0/33/113/1,033113,IASI-NG general quality flags,1,"General quality (0 if bits 2 to 11 are all 0, 1 otherwise)",,,,,Operational
+bufr4/0/33/113/2,033113,IASI-NG general quality flags,2,Sounder radiometric,,,,,Operational
+bufr4/0/33/113/3,033113,IASI-NG general quality flags,3,Sounder spectral,,,,,Operational
+bufr4/0/33/113/4,033113,IASI-NG general quality flags,4,Imager geometric,,,,,Operational
+bufr4/0/33/113/5,033113,IASI-NG general quality flags,5,Imager classification,,,,,Operational
+bufr4/0/33/113/6,033113,IASI-NG general quality flags,6,Imager radiometric,,,,,Operational
+bufr4/0/33/113/7,033113,IASI-NG general quality flags,7,General sounder,,,,,Operational
+bufr4/0/33/113/8,033113,IASI-NG general quality flags,8,Presence of mathematical errors,,,,,Operational
+bufr4/0/33/113/9,033113,IASI-NG general quality flags,9,TM data missing,,,,,Operational
+bufr4/0/33/113/10,033113,IASI-NG general quality flags,10,TM data corrupt,,,,,Operational
+bufr4/0/33/113/11,033113,IASI-NG general quality flags,11,TM integrity instrument,,,,,Operational
+bufr4/0/33/113/12-15,033113,IASI-NG general quality flags,12-15,Reserved,,,,,Operational
+bufr4/0/33/113/All-16,033113,IASI-NG general quality flags,All 16,Missing,,,,,Operational
+bufr4/0/33/114/1,033114,Out of bounds check,1,Temperature profile,,,,,Operational
+bufr4/0/33/114/2,033114,Out of bounds check,2,Water vapour profile,,,,,Operational
+bufr4/0/33/114/3,033114,Out of bounds check,3,Ozone profile,,,,,Operational
+bufr4/0/33/114/4,033114,Out of bounds check,4,Surface skin temperature,,,,,Operational
+bufr4/0/33/114/5,033114,Out of bounds check,5,Surface air temperature,,,,,Operational
+bufr4/0/33/114/6,033114,Out of bounds check,6,Surface air dew point temperature,,,,,Operational
+bufr4/0/33/114/7,033114,Out of bounds check,7,Surface pressure,,,,,Operational
+bufr4/0/33/114/8,033114,Out of bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/114/9,033114,Out of bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/114/10,033114,Out of bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/114/11,033114,Out of bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
+bufr4/0/33/114/12,033114,Out of bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
+bufr4/0/33/114/13,033114,Out of bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
+bufr4/0/33/114/14,033114,Out of bounds check,14,CO2 profile,,,,,Operational
+bufr4/0/33/114/15,033114,Out of bounds check,15,CH4 profile,,,,,Operational
+bufr4/0/33/114/16,033114,Out of bounds check,16,N2O profile,,,,,Operational
+bufr4/0/33/114/All-17,033114,Out of bounds check,All 17,Missing,,,,,Operational
+bufr4/0/33/115/0,033115,Aerosol optical depth quality information,0,Good,,,,,Operational
+bufr4/0/33/115/1,033115,Aerosol optical depth quality information,1,Cloudy nadir,,,,,Operational
+bufr4/0/33/115/2,033115,Aerosol optical depth quality information,2,Cloudy oblique,,,,,Operational
+bufr4/0/33/115/3,033115,Aerosol optical depth quality information,3,Glint nadir,,,,,Operational
+bufr4/0/33/115/4,033115,Aerosol optical depth quality information,4,Glint oblique,,,,,Operational
+bufr4/0/33/115/5-30,033115,Aerosol optical depth quality information,5-30,Reserved,,,,,Operational
+bufr4/0/33/115/31,033115,Aerosol optical depth quality information,31,Missing value,,,,,Operational
+bufr4/0/33/116/1,033116,First guess in bounds check,1,Temperature profile,,,,,Operational
+bufr4/0/33/116/2,033116,First guess in bounds check,2,Water vapour profile,,,,,Operational
+bufr4/0/33/116/3,033116,First guess in bounds check,3,Ozone profile,,,,,Operational
+bufr4/0/33/116/4,033116,First guess in bounds check,4,Surface skin temperature,,,,,Operational
+bufr4/0/33/116/5,033116,First guess in bounds check,5,Surface air temperature,,,,,Operational
+bufr4/0/33/116/6,033116,First guess in bounds check,6,Surface air dew point temperature,,,,,Operational
+bufr4/0/33/116/7,033116,First guess in bounds check,7,Surface pressure,,,,,Operational
+bufr4/0/33/116/8,033116,First guess in bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/116/9,033116,First guess in bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/116/10,033116,First guess in bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/116/11,033116,First guess in bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
+bufr4/0/33/116/12,033116,First guess in bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
+bufr4/0/33/116/13,033116,First guess in bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
+bufr4/0/33/116/14,033116,First guess in bounds check,14,CO2 profile,,,,,Operational
+bufr4/0/33/116/15,033116,First guess in bounds check,15,CH4 profile,,,,,Operational
+bufr4/0/33/116/16,033116,First guess in bounds check,16,N2O profile,,,,,Operational
+bufr4/0/33/116/All-17,033116,First guess in bounds check,All 17,Missing,,,,,Operational
+bufr4/0/33/117/1,033117,In bounds check,1,Temperature profile,,,,,Operational
+bufr4/0/33/117/2,033117,In bounds check,2,Water vapour profile,,,,,Operational
+bufr4/0/33/117/3,033117,In bounds check,3,Ozone profile,,,,,Operational
+bufr4/0/33/117/4,033117,In bounds check,4,Surface skin temperature,,,,,Operational
+bufr4/0/33/117/5,033117,In bounds check,5,Surface air temperature,,,,,Operational
+bufr4/0/33/117/6,033117,In bounds check,6,Surface air dew point temperature,,,,,Operational
+bufr4/0/33/117/7,033117,In bounds check,7,Surface pressure,,,,,Operational
+bufr4/0/33/117/8,033117,In bounds check,8,Surface skin temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/117/9,033117,In bounds check,9,Surface air temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/117/10,033117,In bounds check,10,Surface air dew point temperature error estimate (quality indicator),,,,,Operational
+bufr4/0/33/117/11,033117,In bounds check,11,Surface pressure error estimate (quality indicator),,,,,Operational
+bufr4/0/33/117/12,033117,In bounds check,12,Surface emissivity coarse infrared spectrum,,,,,Operational
+bufr4/0/33/117/13,033117,In bounds check,13,Surface emissivity microwave spectrum,,,,,Operational
+bufr4/0/33/117/14,033117,In bounds check,14,CO2 profile,,,,,Operational
+bufr4/0/33/117/15,033117,In bounds check,15,CH4 profile,,,,,Operational
+bufr4/0/33/117/16,033117,In bounds check,16,N2O profile,,,,,Operational
+bufr4/0/33/117/All-17,033117,In bounds check,All 17,Missing,,,,,Operational

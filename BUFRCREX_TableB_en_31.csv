@@ -1,8 +1,8 @@
-ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
-31,Data description operator qualifiers,031000,Short delayed descriptor replication factor,Numeric,0,0,1,,,,,,Operational
-31,Data description operator qualifiers,031001,Delayed descriptor replication factor,Numeric,0,0,8,,,,,,Operational
-31,Data description operator qualifiers,031002,Extended delayed descriptor replication factor,Numeric,0,0,16,,,,,,Operational
-31,Data description operator qualifiers,031011,Delayed descriptor and data repetition factor,Numeric,0,0,8,,,,(see Note 1),127,Operational
-31,Data description operator qualifiers,031012,Extended delayed descriptor and data repetition factor,Numeric,0,0,16,,,,,,Operational
-31,Data description operator qualifiers,031021,Associated field significance,Code table,0,0,6,,,,,,Operational
-31,Data description operator qualifiers,031031,Data present indicator,Flag table,0,0,1,,,,(see Notes 2 and 3) ,"59,113",Operational
+Id,ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_en,noteIDs,Status
+bufr4/0/31/000,31,Data description operator qualifiers,031000,Short delayed descriptor replication factor,Numeric,0,0,1,,,,,,Operational
+bufr4/0/31/001,31,Data description operator qualifiers,031001,Delayed descriptor replication factor,Numeric,0,0,8,,,,,,Operational
+bufr4/0/31/002,31,Data description operator qualifiers,031002,Extended delayed descriptor replication factor,Numeric,0,0,16,,,,,,Operational
+bufr4/0/31/011,31,Data description operator qualifiers,031011,Delayed descriptor and data repetition factor,Numeric,0,0,8,,,,(see Note 1),127,Operational
+bufr4/0/31/012,31,Data description operator qualifiers,031012,Extended delayed descriptor and data repetition factor,Numeric,0,0,16,,,,,,Operational
+bufr4/0/31/021,31,Data description operator qualifiers,031021,Associated field significance,Code table,0,0,6,,,,,,Operational
+bufr4/0/31/031,31,Data description operator qualifiers,031031,Data present indicator,Flag table,0,0,1,,,,(see Notes 2 and 3) ,"59,113",Operational
