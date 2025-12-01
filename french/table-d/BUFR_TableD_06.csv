@@ -1,0 +1,306 @@
+Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status
+06,Table D/06 BUFR,306001,"(Profondeur, température)",,002032,Indicateur de numérisation,,,,Operational
+06,Table D/06 BUFR,306001,"(Profondeur, température)",,102000,Répétition différée de 2 descripteurs,,,,Operational
+06,Table D/06 BUFR,306001,"(Profondeur, température)",,031001,Facteur de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306001,"(Profondeur, température)",,007062,Profondeur sous la surface de la mer/de l'eau,,,,Operational
+06,Table D/06 BUFR,306001,"(Profondeur, température)",,022042,Température de la mer/de l'eau,,,,Operational
+06,Table D/06 BUFR,306002,(Courant),,002031,Durée et heure de la mesure du courant,,,,Operational
+06,Table D/06 BUFR,306002,(Courant),,022004,Direction du courant,,,,Operational
+06,Table D/06 BUFR,306002,(Courant),,022031,Vitesse du courant,,,,Operational
+06,Table D/06 BUFR,306003,(Vent et température en surface),,002002,Type d'instruments pour la mesure du vent,,,,Operational
+06,Table D/06 BUFR,306003,(Vent et température en surface),,011011,Direction du vent à 10 m,,,,Operational
+06,Table D/06 BUFR,306003,(Vent et température en surface),,011012,Vitesse du vent à 10 m,,,,Operational
+06,Table D/06 BUFR,306003,(Vent et température en surface),,012004,Température de l'air à 2 m,,,,Operational
+06,Table D/06 BUFR,306004,"(Profondeur, température, salinité)",,002032,Indicateur de numérisation,,,,Operational
+06,Table D/06 BUFR,306004,"(Profondeur, température, salinité)",,002033,Méthode de mesure de la salinité en fonction de la profondeur,,,,Operational
+06,Table D/06 BUFR,306004,"(Profondeur, température, salinité)",,103000,Répétition différée de 3 descripteurs,,,,Operational
+06,Table D/06 BUFR,306004,"(Profondeur, température, salinité)",,031001,Facteur de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306004,"(Profondeur, température, salinité)",,007062,Profondeur sous la surface de la mer/de l'eau,,,,Operational
+06,Table D/06 BUFR,306004,"(Profondeur, température, salinité)",,022043,Température de la mer/de l'eau,,,,Operational
+06,Table D/06 BUFR,306004,"(Profondeur, température, salinité)",,022062,Salinité,,,,Operational
+06,Table D/06 BUFR,306005,,,002031,Durée et heure de la mesure du courant,,,,Operational
+06,Table D/06 BUFR,306005,,,103000,Répétition différée de 3 descripteurs,,,,Operational
+06,Table D/06 BUFR,306005,,,031001,Facteur de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306005,,,007062,Profondeur sous la surface de la mer/de l'eau,,,,Operational
+06,Table D/06 BUFR,306005,,,022004,Direction du courant,,,,Operational
+06,Table D/06 BUFR,306005,,,022031,Vitesse du courant,,,,Operational
+06,Table D/06 BUFR,306006,(Paramètres (facultatifs),,306003,de mesure par sonde immergée) Vent et température en surface,,,,Operational
+06,Table D/06 BUFR,306006,(Paramètres (facultatifs),,306002,Courant,,,,Operational
+06,Table D/06 BUFR,306006,(Paramètres (facultatifs),,022063,Profondeur totale de l'eau,,,,Operational
+06,Table D/06 BUFR,306007,(Blocs réservés pour les paramètres de bouées),,001012,Direction de déplacement de la plate-forme d'observation mobile,,,,Operational
+06,Table D/06 BUFR,306007,(précision élevée),,001014,Vitesse de dérive de la plate-forme,,,,Operational
+06,Table D/06 BUFR,306007,(précision élevée),,306008,Paramètres des instruments pour bouées,,,,Operational
+06,Table D/06 BUFR,306007,(précision élevée),,004024,Période ou décalage dans le temps,,,,Operational
+06,Table D/06 BUFR,306007,(faible précision),,027003,Autre latitude possible,,,,Operational
+06,Table D/06 BUFR,306007,(faible précision),,028003,Autre longitude possible,,,,Operational
+06,Table D/06 BUFR,306008,(Paramètres des instruments pour bouées),,002034,Type de lest (stabilisateur),,,,Operational
+06,Table D/06 BUFR,306008,(Paramètres des instruments pour bouées),,002035,Longueur du câble,,,,Operational
+06,Table D/06 BUFR,306008,(Paramètres des instruments pour bouées),,002036,Type de bouée,,,,Operational
+06,Table D/06 BUFR,306011,"(Séquence pour la représentation de l'identification de la station d'observation des marées, du mode de transmission, de l'heure de transmission du message et de l'heure de référence à consigner dans les séries chronologiques)",,301021,Latitude/longitude (précision élevée),,,,Operational
+06,Table D/06 BUFR,306011,"(Séquence pour la représentation de l'identification de la station d'observation des marées, du mode de transmission, de l'heure de transmission du message et de l'heure de référence à consigner dans les séries chronologiques)",,001075,Identification de la station d'observation des marées,Identification alphanumérique (5 caractères),,,Operational
+06,Table D/06 BUFR,306011,"(Séquence pour la représentation de l'identification de la station d'observation des marées, du mode de transmission, de l'heure de transmission du message et de l'heure de référence à consigner dans les séries chronologiques)",,002147,Mode de transmission au centre de collecte des données,,,,Operational
+06,Table D/06 BUFR,306011,"(Séquence pour la représentation de l'identification de la station d'observation des marées, du mode de transmission, de l'heure de transmission du message et de l'heure de référence à consigner dans les séries chronologiques)",,301011,"Année, mois, jour",,,,Operational
+06,Table D/06 BUFR,306011,"(Séquence pour la représentation de l'identification de la station d'observation des marées, du mode de transmission, de l'heure de transmission du message et de l'heure de référence à consigner dans les séries chronologiques)",,301013,"Heure, minute, seconde",,,,Operational
+06,Table D/06 BUFR,306012,"(Séquence pour la représentation du type de capteur, de la caractéristique du capteur et du mode de fonctionnement)",,002007,Type de capteur pour les instruments de mesure de la hauteur d'eau,,,,Operational
+06,Table D/06 BUFR,306012,"(Séquence pour la représentation du type de capteur, de la caractéristique du capteur et du mode de fonctionnement)",,008015,Caractéristique du capteur,,,,Operational
+06,Table D/06 BUFR,306012,"(Séquence pour la représentation du type de capteur, de la caractéristique du capteur et du mode de fonctionnement)",,008032,Mode de fonctionnement,,,,Operational
+06,Table D/06 BUFR,306012,"(Séquence pour la représentation du type de capteur, de la caractéristique du capteur et du mode de fonctionnement)",,306029,Séquence pour la représentation des informations d'échantillonnage provenant du tsunamimètre relatives aux hauteurs de la colonne d'eau dans les séries chronologiques,,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,306012,"Séquence pour la représentation du type de capteur, de la caractéristique du capteur et du mode de fonctionnement",,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,301011,"Année, mois, jour",Date de référence pour les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,301013,"Heure, minute, seconde",Heure de référence pour les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,004015,Incrément temporel,Ajouté pour réinitialiser l'heure de référence,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,004065,Incrément de courte durée,Ajouté à chaque valeur dans les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,102000,Répétition différée de 2 descripteurs,,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,031001,Facteur de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306013,(Séquence pour la représentation du niveau et de la hauteur résiduelle de la mer dans les séries chronologiques),,022038,Hauteur des marées par rapport au zéro local des cartes,,,,Operational
+06,Table D/06 BUFR,306013,(montée ou retrait des eaux),,022040,Hauteur résiduelle météorologique des marées,,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,306012,"Séquence pour la représentation du type de capteur, de la caractéristique du capteur et du mode de fonctionnement",,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,301011,"Année, mois, jour",Date de référence pour les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,301013,"Heure, minute, seconde",Heure de référence pour les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,004015,Incrément temporel,Ajouté pour réinitialiser l'heure de référence,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,004065,Incrément de courte durée,Ajouté à chaque valeur dans les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,101000,Répétition différée de 1 descripteur,,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,031001,Facteur de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306014,"(Séquence pour la représentation de la hauteur d'eau dans les séries chronologiques, similaire à 3 06 013 mais sans la hauteur résiduelle)",,022038,Hauteur des marées par rapport au zéro local des cartes,,,,Operational
+06,Table D/06 BUFR,306016,(Séquence pour la représentation des données météorologiques auxiliaires en relation avec les données du niveau d'eau),,301011,"Année, mois, jour",Date de référence pour les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306016,(Séquence pour la représentation des données météorologiques auxiliaires en relation avec les données du niveau d'eau),,301013,"Heure, minute, seconde",Heure de référence pour les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306016,(Séquence pour la représentation des données météorologiques auxiliaires en relation avec les données du niveau d'eau),,010004,Pression,Au niveau de la station,,,Operational
+06,Table D/06 BUFR,306016,(Séquence pour la représentation des données météorologiques auxiliaires en relation avec les données du niveau d'eau),,010051,Pression ramenée au niveau moyen de la mer,,,,Operational
+06,Table D/06 BUFR,306016,(Séquence pour la représentation des données météorologiques auxiliaires en relation avec les données du niveau d'eau),,302032,Données sur la température et l'humidité,,,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,007032,Hauteur du capteur au-dessus du sol,,,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,002002,Type d'instrument pour la mesure du vent,,,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,008021,Caractéristique temporelle,= 2 Moyenne sur une certaine période,,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,004025,Période ou décalage dans le temps,"Ex. = 1 pour 1 minute, = 10 pour 10 minutes",,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,011001,Direction du vent,,,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,011002,Vitesse du vent,,,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,004025,Période ou décalage dans le temps,En minutes,,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,011043,Direction de la rafale maximale,,,,Operational
+06,Table D/06 BUFR,306016,(ou du pont sur une plate-forme marine),,011041,Vitesse de la rafale maximale,,,,Operational
+06,Table D/06 BUFR,306016,(grande portée),,025026,Tension de la batterie,Tension de la batterie de la station météorologique automatique,,,Operational
+06,Table D/06 BUFR,306016,(grande portée),,012060,Température à l'intérieur de la station météorologique automatique,,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,002032,avec indicateurs de qualité) Indicateur de numérisation,= 0 Profondeurs des capteurs à poste fixe,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,008034,Indicateur de la mesure de la température ou de la salinité,,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,106000,Répétition différée de 6 descripteurs,,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,031002,Facteur élargi de répétition différée du descripteur,Nombre de profondeurs,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,007065,Pression hydrostatique,En Pa,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,022045,Température de la mer/de l'eau,En K à 3 décimales près,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306017,(Profil de la température sous la surface (exactitude/précision élevée),,008034,Indicateur de la mesure de la température ou de la salinité,Mis à valeur manquante (annuler),,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,002032,avec indicateurs de qualité) Indicateur de numérisation,= 0 Profondeurs des capteurs à poste fixe,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,008034,Indicateur de la mesure de la température ou de la salinité,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,109000,Répétition différée de 9 descripteurs,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,031002,Facteur élargi de répétition différée du descripteur,Nombre de profondeurs,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,007065,Pression hydrostatique,En Pa,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,022045,Température de la mer/de l'eau,En K à 3 décimales près,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,022064,Salinité,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306018,(Profil de la température sous la surface (exactitude/précision élevée),,008034,Indicateur de la mesure de la température ou de la salinité,Mis à valeur manquante (annuler),,,Operational
+06,Table D/06 BUFR,306019,"(Identification du message sur les marées, vérification du niveau d'eau, incrément temporel)",,001075,Identification de la station d'observation des marées,Alphanumérique,,,Operational
+06,Table D/06 BUFR,306019,"(Identification du message sur les marées, vérification du niveau d'eau, incrément temporel)",,301011,"Année, mois, jour",,,,Operational
+06,Table D/06 BUFR,306019,"(Identification du message sur les marées, vérification du niveau d'eau, incrément temporel)",,301012,"Heure, minute",,,,Operational
+06,Table D/06 BUFR,306019,"(Identification du message sur les marées, vérification du niveau d'eau, incrément temporel)",,022042,Température de la mer/de l'eau,,,,Operational
+06,Table D/06 BUFR,306019,"(Identification du message sur les marées, vérification du niveau d'eau, incrément temporel)",,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306019,"(Identification du message sur les marées, vérification du niveau d'eau, incrément temporel)",,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306019,(voir note 1),,004015,Incrément temporel,Minutes,,,Operational
+06,Table D/06 BUFR,306019,(voir note 1),,004065,Incrément de courte durée,,,,Operational
+06,Table D/06 BUFR,306020,"(Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel)",,001075,Identification de la station d'observation des marées,Alphanumérique,(voir note 2),,Operational
+06,Table D/06 BUFR,306020,"(Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel)",,301011,"Année, mois, jour",,,,Operational
+06,Table D/06 BUFR,306020,"(Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel)",,301012,"Heure, minute",,,,Operational
+06,Table D/06 BUFR,306020,"(Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel)",,022042,Température de la mer/de l'eau,,,,Operational
+06,Table D/06 BUFR,306020,"(Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel)",,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306020,"(Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel)",,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306020,"(Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel)",,004075,Période ou décalage dans le temps de courte durée,,,,Operational
+06,Table D/06 BUFR,306020,"(Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel)",,004065,Incrément de courte durée,,,,Operational
+06,Table D/06 BUFR,306021,(Paramètres météorologiques de la station d'observation des marées),,001075,Identification de la station d'observation des marées,Alphanumérique,,,Operational
+06,Table D/06 BUFR,306021,(Paramètres météorologiques de la station d'observation des marées),,301011,"Année, mois, jour",,,,Operational
+06,Table D/06 BUFR,306021,(Paramètres météorologiques de la station d'observation des marées),,301012,"Heure, minute",,,,Operational
+06,Table D/06 BUFR,306021,(Paramètres météorologiques de la station d'observation des marées),,022122,Vérification automatique des données météorologiques à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306021,(Paramètres météorologiques de la station d'observation des marées),,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306021,(Paramètres météorologiques de la station d'observation des marées),,012001,Température/température de l'air,,,,Operational
+06,Table D/06 BUFR,306021,(Paramètres météorologiques de la station d'observation des marées),,303002,Vent au niveau de pression,,,,Operational
+06,Table D/06 BUFR,306022,(Hauteur des marées),,001075,Identification de la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306022,(Hauteur des marées),,301011,"Année, mois, jour",,,,Operational
+06,Table D/06 BUFR,306022,(Hauteur des marées),,301012,"Heure, minute",,,,Operational
+06,Table D/06 BUFR,306022,(Hauteur des marées),,022038,Hauteur de marée par rapport aux zéros hydrographiques locaux,,,,Operational
+06,Table D/06 BUFR,306022,(montée ou retrait des eaux),,022039,Hauteur de marée résiduelle météorologique,,,,Operational
+06,Table D/06 BUFR,306023,,,001015,Nom de la station ou du site,,,,Operational
+06,Table D/06 BUFR,306023,(faible précision),,301023,Latitude/longitude,,,,Operational
+06,Table D/06 BUFR,306023,(faible précision),,301011,"Année, mois, jour",,,,Operational
+06,Table D/06 BUFR,306023,(faible précision),,301012,"Heure, minute",,,,Operational
+06,Table D/06 BUFR,306023,(faible précision),,022038,Hauteur de marée par rapport aux zéros hydrographiques locaux,,,,Operational
+06,Table D/06 BUFR,306023,(montée ou retrait des eaux),,022039,Hauteur de marée résiduelle météorologique,,,,Operational
+06,Table D/06 BUFR,306023,(montée ou retrait des eaux),,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306023,(montée ou retrait des eaux),,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,,,,Operational
+06,Table D/06 BUFR,306024,(Série sur la hauteur des marées),,306020,"Identification du message sur les marées, vérification du niveau d'eau, période ou décalage dans le temps, incrément temporel",,(voir note 3),,Operational
+06,Table D/06 BUFR,306024,(Série sur la hauteur des marées),,102006,Répéter 2 descripteurs 6 fois,,,,Operational
+06,Table D/06 BUFR,306024,(Série sur la hauteur des marées),,022038,Hauteur de marée par rapport aux zéros hydrographiques locaux,,,,Operational
+06,Table D/06 BUFR,306024,(montée ou retrait des eaux),,022039,Hauteur de marée résiduelle météorologique,,,,Operational
+06,Table D/06 BUFR,306025,(Série sur la hauteur des marées),,306019,"Identification du message sur les marées, vérification du niveau d'eau, incrément temporel",,,,Operational
+06,Table D/06 BUFR,306025,(Série sur la hauteur des marées),,102006,Répéter 2 descripteurs 6 fois,,,,Operational
+06,Table D/06 BUFR,306025,(Série sur la hauteur des marées),,022038,Hauteur de marée par rapport aux zéros hydrographiques locaux,,,,Operational
+06,Table D/06 BUFR,306025,(montée ou retrait des eaux),,022039,Hauteur de marée résiduelle météorologique,,,,Operational
+06,Table D/06 BUFR,306027,"(Séquence pour la représentation de l'identification de la bouée DART, de l'identification de l'émetteur, du type de tsunamimètre et de l'heure de la transmission du message au système au sol)",,001005,Indicateur d'identification de la bouée ou de la plate-forme,,,,Operational
+06,Table D/06 BUFR,306027,"(Séquence pour la représentation de l'identification de la bouée DART, de l'identification de l'émetteur, du type de tsunamimètre et de l'heure de la transmission du message au système au sol)",,001052,Indicateur d'identification de l'émetteur de la plate-forme,,,,Operational
+06,Table D/06 BUFR,306027,"(Séquence pour la représentation de l'identification de la bouée DART, de l'identification de l'émetteur, du type de tsunamimètre et de l'heure de la transmission du message au système au sol)",,002047,Type du tsunamimètre installé à grande profondeur,,,,Operational
+06,Table D/06 BUFR,306027,"(Séquence pour la représentation de l'identification de la bouée DART, de l'identification de l'émetteur, du type de tsunamimètre et de l'heure de la transmission du message au système au sol)",,301011,"Année, mois, jour",Date de la transmission du message au système au sol,,,Operational
+06,Table D/06 BUFR,306027,"(Séquence pour la représentation de l'identification de la bouée DART, de l'identification de l'émetteur, du type de tsunamimètre et de l'heure de la transmission du message au système au sol)",,301013,"Heure, minute, seconde",,,,Operational
+06,Table D/06 BUFR,306028,(Séquence pour la représentation de l'heure de l'observation et du message journalier sur la position de la bouée DART),,306027,"Séquence pour la représentation de l'identification de la bouée DART, de l'identification de l'émetteur, du type de tsunamimètre et de l'heure de la transmission du message au système au sol",,,,Operational
+06,Table D/06 BUFR,306028,(Séquence pour la représentation de l'heure de l'observation et du message journalier sur la position de la bouée DART),,301011,"Année, mois, jour",Date de l'observation,,,Operational
+06,Table D/06 BUFR,306028,(Séquence pour la représentation de l'heure de l'observation et du message journalier sur la position de la bouée DART),,301013,"Heure, minute, seconde",,,,Operational
+06,Table D/06 BUFR,306028,(précision élevée),,301021,Latitude/longitude,,,,Operational
+06,Table D/06 BUFR,306029,(Séquence pour la représentation des informations d'échantillonnage provenant du tsunamimètre relatives aux hauteurs de la colonne d'eau dans les séries chronologiques),,025170,Intervalle d'échantillonnage (temps),Secondes,,,Operational
+06,Table D/06 BUFR,306029,(Séquence pour la représentation des informations d'échantillonnage provenant du tsunamimètre relatives aux hauteurs de la colonne d'eau dans les séries chronologiques),,025171,Période à laquelle correspond la valeur moyenne de l'échantillon,Secondes,,,Operational
+06,Table D/06 BUFR,306029,(Séquence pour la représentation des informations d'échantillonnage provenant du tsunamimètre relatives aux hauteurs de la colonne d'eau dans les séries chronologiques),,025172,Nombre d'échantillons,,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,306027,"Séquence pour la représentation de l'identification de la bouée DART, de l'identification de l'émetteur, du type de tsunamimètre et de l'heure de la transmission du message au système au sol",,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,306029,Séquence pour la representation des informations d'échantillonnage provenant du tsunamimètre relatives aux hauteurs de la colonne d'eau dans les séries chronologiques,,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,111000,Répétition différée de 11 descripteurs,,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,031001,Facteur de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,033002,Informations sur la qualité,État du message,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,301011,"Année, mois, jour",Date et heure de référence pour les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,301013,"Heure, minute, seconde",,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,025025,Voltage de la batterie,Unité centrale du BPR,,,Operational
+06,Table D/06 BUFR,306030,(Séquence pour la représentation du message horaire standard provenant de la bouée DART),,025025,Voltage de la batterie,DSP du modem acoustique,,,Operational
+06,Table D/06 BUFR,306030,(grande portée),,025026,Voltage de la batterie,Modem acoustique,,,Operational
+06,Table D/06 BUFR,306030,(grande portée),,022185,Nombre de transmissions du BPR,,,,Operational
+06,Table D/06 BUFR,306030,(grande portée),,004015,Incrément temporel,Ajouté pour réinitialiser l'heure de référence,,,Operational
+06,Table D/06 BUFR,306030,(grande portée),,004065,Incrément de courte durée,Ajouté à chaque valeur dans les séries chonologiques,,,Operational
+06,Table D/06 BUFR,306030,(grande portée),,101004,Répéter 1 descripteur 4 fois,,,,Operational
+06,Table D/06 BUFR,306030,(grande portée),,022182,Hauteur de la colonne d'eau,,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,306027,"Séquence pour la représentation de l'identification de la bouée DART, de l'identification de l'émetteur, du type de tsunamimètre et de l'heure de la transmission du message au système au sol",,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,306029,Séquence pour la représentation des informations d'échantillonnage provenant du tsunamimètre relatives aux hauteurs de la colonne d'eau dans les séries chronologiques,,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,001053,Numéro de séquence pour les messages provenant du tsunamimètre déclenchés par un tsunami,,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,033002,Informations sur la qualité,État du message,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,301011,"Année, mois, jour",Date à laquelle le tsunami a été détecté,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,301013,"Heure, minute, seconde",,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,301011,"Année, mois, jour",Date et heure de référence pour les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,301013,"Heure, minute, seconde",,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,022185,Nombre de transmissions du BPR,Détermination de la valeur réelle transmise dans les séries chronologiques,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,022182,Hauteur de la colonne d'eau,,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,004016,Incrément temporel,Ajouté pour réinitialiser l'heure de référence,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,004066,Incrément temporel de courte durée,Ajouté à chaque valeur dans les séries chonologiques,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,101000,Répétition différée de 1 descripteur,,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,031001,Facteur de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306031,(Séquence pour la représentation des messages relatifs à des tsunamis provenant de la bouée DART et des messages étendus relatifs à des tsunamis),,022184,Écart de la hauteur de la colonne d'eau par rapport à la valeur de référence,,,,Operational
+06,Table D/06 BUFR,306033,(Salinité de surface),,002033,Méthode de mesure de la salinité en fonction de la profondeur,,,,Operational
+06,Table D/06 BUFR,306033,(cm),,007063,Profondeur sous la surface de la mer/ de l'eau,,,,Operational
+06,Table D/06 BUFR,306033,(cm),,022064,Salinité,,,,Operational
+06,Table D/06 BUFR,306034,(Courant de surface),,002031,Durée et heure de la mesure du courant,,,,Operational
+06,Table D/06 BUFR,306034,(Courant de surface),,003010,Méthode de mesure du courant en mer ou dans une autre masse d'eau,,,,Operational
+06,Table D/06 BUFR,306034,(Courant de surface),,002040,Méthode d'élimination des effets de la vitesse et du mouvement de la plate-forme dans les mesures de courant,,,,Operational
+06,Table D/06 BUFR,306034,(Courant de surface),,022005,Direction du courant marin de surface,,,,Operational
+06,Table D/06 BUFR,306034,(Courant de surface),,022032,Vitesse du courant marin de surface,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,112000,Répétition différée de 12 descripteurs,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,031002,Facteur élargi de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,007062,Profondeur sous la surface de la mer/ de l'eau,En mètres,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,= 13 Profondeur à un niveau donné,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,007065,Pression hydrostatique,= 10 Pression à un niveau donné,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,022043,Température de la mer/de l'eau,= 11 Température à un niveau donné,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,022064,Salinité,= 12 Salinité à un niveau donné,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306035,(Profil de la température et de la salinité),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,112000,Répétition différée de 12 descripteurs,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,031002,Facteur élargi de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,007062,Profondeur sous la surface de la mer/ de l'eau,En mètres,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,= 13 Profondeur à un niveau donné,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,007065,Pression hydrostatique,= 10 Pression à un niveau donné,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,022031,Vitesse du courant,= 14 Vitesse du courant à un niveau donné,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,022004,Direction du courant,= 15 Direction du courant à un niveau donné,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306036,(Profil du courant),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,109000,Répétition différée de 9 descripteurs,,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,031002,Facteur élargi de répétition différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,007062,Profondeur sous la surface de la mer/ de l'eau,= 13 Profondeur à un niveau donné,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,007065,Pression hydrostatique,= 10 Pression à un niveau donné,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,022188,Oxygène dissous,= 16 Oxygène dissous à un niveau donné,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,008080,Identificateur de l'indicateur de qualité pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306037,(Données du profil de l'oxygène dissous),,033050,Indicateur de qualité global pour le GTSPP,,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,010004,Pression,,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,010051,Pression ramenée au niveau moyen de la mer,,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,007033,Hauteur du capteur au-dessus de la surface de l'eau,Hauteur du capteur de température/ d'humidité atmosphérique,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,012101,Température/température de l'air,À la hauteur du capteur,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,012103,Point de rosée,À la hauteur du capteur,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,013003,Humidité relative,Quelle que soit la température de l'eau,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,007033,Hauteur du capteur au-dessus de la surface de l'eau,Hauteur du capteur de vitesse du vent,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,008021,Caractéristique temporelle,=2 Moyenne sur une certaine période,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,004025,Période ou décalage dans le temps,Période pendant laquelle est établie la moyenne des vents,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,011001,Direction du vent,À la hauteur du capteur,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,011002,Vitesse du vent,À la hauteur du capteur,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,008021,Caractéristique temporelle,Mis à valeur manquante (annuler),,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,004025,Période ou décalage dans le temps,Période pendant laquelle la rafale maximale a été observée,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,011041,Vitesse de la rafale maximale,,,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,004025,Période ou décalage dans le temps,Mis à valeur manquante (annuler),,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,007033,Hauteur du capteur au-dessus de la surface de l'eau,Mis à valeur manquante (annuler),,,Operational
+06,Table D/06 BUFR,306038,(Séquence pour la représentation des observations standard de météorologie maritime de surface au moyen de bouées ancrées),,002005,Précision des observations de la température,,,,Operational
+06,Table D/06 BUFR,306038,(cm),,007063,Profondeur sous la surface de la mer/ de l'eau,,,,Operational
+06,Table D/06 BUFR,306038,(cm),,022049,Température de surface de la mer,,,,Operational
+06,Table D/06 BUFR,306039,(Séquence pour la représentation des mesures de base des vagues),,022078,Durée de l'enregistrement des vagues,,,,Operational
+06,Table D/06 BUFR,306039,(Séquence pour la représentation des mesures de base des vagues),,022070,Hauteur significative des vagues,,,,Operational
+06,Table D/06 BUFR,306039,(Séquence pour la représentation des mesures de base des vagues),,022073,Hauteur maximale des vagues,,,,Operational
+06,Table D/06 BUFR,306039,(Séquence pour la représentation des mesures de base des vagues),,022074,Période moyenne des vagues,,,,Operational
+06,Table D/06 BUFR,306039,(Séquence pour la représentation des mesures de base des vagues),,022071,Période spectrale maximale des vagues,,,,Operational
+06,Table D/06 BUFR,306039,(Séquence pour la représentation des mesures de base des vagues),,022076,Direction d'où viennent les vagues dominantes,,,,Operational
+06,Table D/06 BUFR,306039,(Séquence pour la représentation des mesures de base des vagues),,022077,Dispersion directionnelle de la vague dominante,,,,Operational
+06,Table D/06 BUFR,306040,(Séquence pour la représentation des mesures détaillées du spectre des vagues),,022078,Durée de l'enregistrement des vagues,,,,Operational
+06,Table D/06 BUFR,306040,(Séquence pour la représentation des mesures détaillées du spectre des vagues),,022082,Densité maximale d'ondes à spectres non directionnels,,,,Operational
+06,Table D/06 BUFR,306040,(Séquence pour la représentation des mesures détaillées du spectre des vagues),,106000,Répétition différée de 6 descripteurs,,,,Operational
+06,Table D/06 BUFR,306040,(Séquence pour la représentation des mesures détaillées du spectre des vagues),,031001,Facteur de répétition différée du descripteur,Nombre de groupes de fréquence,,,Operational
+06,Table D/06 BUFR,306040,(Séquence pour la représentation des mesures détaillées du spectre des vagues),,022080,Fréquence centrale des bandes d'ondes,,,,Operational
+06,Table D/06 BUFR,306040,(Séquence pour la représentation des mesures détaillées du spectre des vagues),,022069,Densité spectrale des vagues,,,,Operational
+06,Table D/06 BUFR,306040,(valeur moyenne),,022086,Direction d'où viennent les vagues,,,,Operational
+06,Table D/06 BUFR,306040,(valeur moyenne),,022087,Direction principale d'où viennent les vagues,,,,Operational
+06,Table D/06 BUFR,306040,(valeur moyenne),,022088,Première coordonnée polaire normalisée dérivée des coefficients de Fourier,,,,Operational
+06,Table D/06 BUFR,306040,(valeur moyenne),,022089,Deuxième coordonnée polaire normalisée dérivée des coefficients de Fourier,,,,Operational
+06,Table D/06 BUFR,306041,(Profil de la profondeur et de la température (exactitude/précision élevée),,002032,) Indicateur de numérisation,= 0 Profondeurs des capteurs à poste fixe,,,Operational
+06,Table D/06 BUFR,306041,(Profil de la profondeur et de la température (exactitude/précision élevée),,102000,Répétition différée de 2 descripteurs,,,,Operational
+06,Table D/06 BUFR,306041,(Profil de la profondeur et de la température (exactitude/précision élevée),,031001,Facteur de répétition différée du descripteur,Nombre de profondeurs,,,Operational
+06,Table D/06 BUFR,306041,(Profil de la profondeur et de la température (exactitude/précision élevée),,007062,Profondeur sous la surface de la mer/ de l'eau,,,,Operational
+06,Table D/06 BUFR,306041,(Profil de la profondeur et de la température (exactitude/précision élevée),,022043,Température de la mer/de l'eau,,,,Operational
+06,Table D/06 BUFR,306042,(Mesure du vent au moyen de bouées dérivantes),,002169,Type d'anémomètre,"Ex. = 2 WOTAN, = 3 Anémomètre sonique",,,Operational
+06,Table D/06 BUFR,306042,(Mesure du vent au moyen de bouées dérivantes),,007033,Hauteur du capteur au-dessus de la surface de l'eau,Hauteur de l'anémomètre au-dessus de la surface de l'eau ou hauteur réelle pour WOTAN,,,Operational
+06,Table D/06 BUFR,306042,(Mesure du vent au moyen de bouées dérivantes),,008021,Caractéristique temporelle,= 2 Moyenne sur une certaine période,,,Operational
+06,Table D/06 BUFR,306042,(Mesure du vent au moyen de bouées dérivantes),,004025,Période ou décalage dans le temps,Période à laquelle correspond la valeur moyenne en minutes,,,Operational
+06,Table D/06 BUFR,306042,(Mesure du vent au moyen de bouées dérivantes),,011001,Direction du vent,À la hauteur du capteur,,,Operational
+06,Table D/06 BUFR,306042,(Mesure du vent au moyen de bouées dérivantes),,011002,Vitesse du vent,À la hauteur du capteur,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,041001,pCO2,,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,008043,Type de constituants chimiques ou physiques de l'atmosphère,Chiffré 3 (dioxyde de carbone),,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,015028,Fraction molaire du constituant/polluant atmosphérique en air sec,,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,008043,Type de constituants chimiques ou physiques de l'atmosphère,Annuler,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,013080,pH de l'eau,,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,041005,Turbidité,,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,041003,Nitrates dissous,,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,022188,Oxygène dissous,,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,041002,Fluorescence,,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,106000,Répétition différée de 6 descripteurs,,,,Operational
+06,Table D/06 BUFR,306043,(Observations sur la biogéochimie et le rayonnement en milieu marin),,031000,Facteur de répétition légèrement différée du descripteur,,,,Operational
+06,Table D/06 BUFR,306043,(en heures),,004024,Période ou décalage dans le temps,Chiffré -1 (heure précédente),,,Operational
+06,Table D/06 BUFR,306043,(en heures),,014002,"Rayonnement de grande longueur d'onde, intégré sur une période déterminée",Rayonnement de grande longueur d'onde descendant,,,Operational
+06,Table D/06 BUFR,306043,(en heures),,014002,"Rayonnement de grande longueur d'onde, intégré sur une période déterminée",Rayonnement de grande longueur d'onde ascendant,,,Operational
+06,Table D/06 BUFR,306043,(en heures),,014012,"Bilan du rayonnement de grande longueur d'onde, intégré sur une période déterminée",,,,Operational
+06,Table D/06 BUFR,306043,(en heures),,014004,"Rayonnement de courte longueur d'onde, intégré sur une période déterminée",,,,Operational
+06,Table D/06 BUFR,306043,(en heures),,004024,Période ou décalage dans le temps,Annuler,,,Operational
