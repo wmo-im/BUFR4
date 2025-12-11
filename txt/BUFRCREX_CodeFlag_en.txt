@@ -1919,7 +1919,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008025,Time difference qualifier,0,Universal Time Coordinated (UTC) minus Local Standard Time (LST),,,,,Operational
 008025,Time difference qualifier,1,Local Standard Time,,,,,Operational
 008025,Time difference qualifier,2,Universal Time Coordinated (UTC) minus Satellite clock,,,,,Operational
-008025,Time difference qualifier,3-4,Reserved,,,,,Operational
+008025,Time difference qualifier,3,Local Meteorological Time Zone minus Universal Time Coordinated (LMTZ-UTC),,,,,Operational
+008025,Time difference qualifier,4,Reserved,,,,,Operational
 008025,Time difference qualifier,5,Time difference from edge of processing segment,,,,,Operational
 008025,Time difference qualifier,6-14,Reserved,,,,,Operational
 008025,Time difference qualifier,15,Missing value,,,,,Operational
@@ -1934,6 +1935,43 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008027,Type of sea-surface height anomaly measurement,1,Low pass filtered sea-surface height for noise reduction,,,,,Operational
 008027,Type of sea-surface height anomaly measurement,2-254,Reserved,,,,,Operational
 008027,Type of sea-surface height anomaly measurement,255,Missing value,,,,,Operational
+008028,Extended time significance,0,Reserved,,,,,Operational
+008028,Extended time significance,1,Time series,,,,,Operational
+008028,Extended time significance,2,Time averaged,,,(see Note 1),4,Operational
+008028,Extended time significance,3,Accumulated,,,,,Operational
+008028,Extended time significance,4,Forecast,,,,,Operational
+008028,Extended time significance,5,Forecast time series,,,,,Operational
+008028,Extended time significance,6,Forecast time averaged,,,,,Operational
+008028,Extended time significance,7,Forecast accumulated,,,,,Operational
+008028,Extended time significance,8,Ensemble mean,,,(see Note 2),3,Operational
+008028,Extended time significance,9,Ensemble mean time series,,,,,Operational
+008028,Extended time significance,10,Ensemble mean time averaged,,,,,Operational
+008028,Extended time significance,11,Ensemble mean accumulated,,,,,Operational
+008028,Extended time significance,12,Ensemble mean forecast,,,,,Operational
+008028,Extended time significance,13,Ensemble mean forecast time series,,,,,Operational
+008028,Extended time significance,14,Ensemble mean forecast time averaged,,,,,Operational
+008028,Extended time significance,15,Ensemble mean forecast accumulated,,,,,Operational
+008028,Extended time significance,16,Analysis,,,,,Operational
+008028,Extended time significance,17,Start of phenomenon,,,,,Operational
+008028,Extended time significance,18,Radiosonde launch time,,,,,Operational
+008028,Extended time significance,19,Start of orbit,,,,,Operational
+008028,Extended time significance,20,End of orbit,,,,,Operational
+008028,Extended time significance,21,Time of ascending node,,,,,Operational
+008028,Extended time significance,22,Time of occurrence of wind shift,,,,,Operational
+008028,Extended time significance,23,Monitoring period,,,,,Operational
+008028,Extended time significance,24,Agreed time limit for report reception,,,,,Operational
+008028,Extended time significance,25,Nominal reporting time,,,,,Operational
+008028,Extended time significance,26,Time of last known position,,,,,Operational
+008028,Extended time significance,27,First guess,,,,,Operational
+008028,Extended time significance,28,Start of scan,,,,,Operational
+008028,Extended time significance,29,End of scan or time of ending,,,,,Operational
+008028,Extended time significance,30,Time of occurrence,,,,,Operational
+008028,Extended time significance,31-39,Reserved,,,,,Operational
+008028,Extended time significance,40,Attribution Day In Local Meteorological Time Zone (LMTZ),,,(see Note 4),103,Operational
+008028,Extended time significance,41,Period over which the daily measurement is made (LMTZ),,,,,Operational
+008028,Extended time significance,42,Time at which the daily and instantaneous measurement is made (LMTZ),,,,,Operational
+008028,Extended time significance,43-1022,Reserved,,,,,Operational
+008028,Extended time significance,43-1023,Missing value,,,,,Operational
 008029,Surface type,0,Open ocean or semi-enclosed sea,,,,,Operational
 008029,Surface type,1,Enclosed sea or lake,,,,,Operational
 008029,Surface type,2,Continental ice,,,,,Operational
