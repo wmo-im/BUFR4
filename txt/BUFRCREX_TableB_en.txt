@@ -1737,6 +1737,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033117,In bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
 33,Quality information,033118,Relative error percentage,%,2,-10000,15,%,2,5,,,Operational
 33,Quality information,033119,Forecast error percentage,%,0,-100,8,%,0,3,,,Operational
+33,Quality information,033120,IRS spatial quality ,Flag table,0,0,14,,,,,,Operational
+33,Quality information,033121,IRS detector quality ,Flag table,0,0,5,,,,,,Operational
+
 35,Data monitoring information,035000,FM and regional code number,Code table,0,0,10,Code table,0,3,,,Operational
 35,Data monitoring information,035001,Time frame for monitoring,Code table,0,0,3,Code table,0,1,,,Operational
 35,Data monitoring information,035011,Number of reports actually received,Numeric,0,0,14,Numeric,0,4,,,Operational
