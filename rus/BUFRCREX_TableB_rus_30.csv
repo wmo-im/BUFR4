@@ -1,0 +1,11 @@
+Id,ClassNo,ClassName_rus,FXY,ElementName_rus,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_rus,noteIDs,Status
+bufr4/0/30/001,30,Изображение,030001,(Нестрочно-кодированная строка для значения пикселя (4 бита)),Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/30/002,30,Изображение,030002,Значение пикселя (8 бит),Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/30/004,30,Изображение,030004,Значение пикселя (8 бит),Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/30/010,30,Изображение,030010,Количество точек сетки,Numeric,0,0,13,Numeric,0,4,,,Operational
+bufr4/0/30/021,30,Изображение,030021,Количество пикселей в строке,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/022,30,Изображение,030022,Количество пикселей в строке,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/031,30,Изображение,030031,Тип изображения,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/30/032,30,Изображение,030032,Сочетание с другими данными,Flag table,0,0,16,Flag table,0,6,,,Operational
+bufr4/0/30/033,30,Изображение,030033,Количество бинов вдоль радиуса,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/034,30,Изображение,030034,Количество азимутальных обзоров,Numeric,0,0,12,Numeric,0,4,,,Operational

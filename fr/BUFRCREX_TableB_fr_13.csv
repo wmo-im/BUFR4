@@ -1,0 +1,87 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/13/001,13,Éléments hydrographiques et hydrologiques,013001,Humidité relative,kg/kg,5,0,14,kg/kg,5,5,,,Operational
+bufr4/0/13/002,13,Éléments hydrographiques et hydrologiques,013002,Rapport de mélange,kg/kg,5,0,14,kg/kg,5,5,,,Operational
+bufr4/0/13/003,13,Éléments hydrographiques et hydrologiques,013003,Humidité relative,%,0,0,7,%,0,3,,,Operational
+bufr4/0/13/004,13,Éléments hydrographiques et hydrologiques,013004,Pression de vapeur,Pa,-1,0,10,Pa,-1,4,,,Operational
+bufr4/0/13/005,13,Éléments hydrographiques et hydrologiques,013005,Pression de vapeur,kg m-3,3,0,7,kg m-3,3,3,,,Operational
+bufr4/0/13/006,13,Éléments hydrographiques et hydrologiques,013006,Hauteurs de mélange,m,-1,-40,16,m,-1,5,,,Operational
+bufr4/0/13/007,13,Éléments hydrographiques et hydrologiques,013007,Humidité relative,%,0,0,7,%,0,3,,,Operational
+bufr4/0/13/008,13,Éléments hydrographiques et hydrologiques,013008,Humidité relative,%,0,0,7,%,0,3,,,Operational
+bufr4/0/13/009,13,Éléments hydrographiques et hydrologiques,013009,Humidité relative,%,1,-1000,12,%,1,4,(voir la Note 3),39,Operational
+bufr4/0/13/011,13,Éléments hydrographiques et hydrologiques,013011,Précipitation totale/équivalent en eau total,kg m-2,1,-1,14,kg m-2,1,5,,,Operational
+bufr4/0/13/012,13,Éléments hydrographiques et hydrologiques,013012,"Profondeur de neige supérieure à 0,00 m",m,2,-2,12,m,2,4,(voir la Note 3),26,Operational
+bufr4/0/13/013,13,Éléments hydrographiques et hydrologiques,013013,"Profondeur de neige supérieure à 0,00 m",m,2,-2,16,m,2,5,(voir la Note 3),26,Operational
+bufr4/0/13/014,13,Éléments hydrographiques et hydrologiques,013014,Équivalent en eau de pluie/neige (taux moyen),kg m-2 s-1,4,0,12,kg m-2 s-1,4,4,,,Operational
+bufr4/0/13/015,13,Éléments hydrographiques et hydrologiques,013015,Équivalent en eau de pluie/neige (taux moyen),m/s,7,0,12,m/s,7,4,,,Operational
+bufr4/0/13/016,13,Éléments hydrographiques et hydrologiques,013016,Eau précipitable,kg m-2,0,0,7,kg m-2,0,3,,,Operational
+bufr4/0/13/019,13,Éléments hydrographiques et hydrologiques,013019,Précipitation totale des 1 dernières heures,kg m-2,1,-1,14,kg m-2,1,4,,,Operational
+bufr4/0/13/020,13,Éléments hydrographiques et hydrologiques,013020,Précipitation totale des 1 dernières heures,kg m-2,1,-1,14,kg m-2,1,5,,,Operational
+bufr4/0/13/021,13,Éléments hydrographiques et hydrologiques,013021,Précipitation totale des 1 dernières heures,kg m-2,1,-1,14,kg m-2,1,5,,,Operational
+bufr4/0/13/022,13,Éléments hydrographiques et hydrologiques,013022,Précipitation totale des 1 dernières heures,kg m-2,1,-1,14,kg m-2,1,5,,,Operational
+bufr4/0/13/023,13,Éléments hydrographiques et hydrologiques,013023,Précipitation totale des 1 dernières heures,kg m-2,1,-1,14,kg m-2,1,5,,,Operational
+bufr4/0/13/031,13,Éléments hydrographiques et hydrologiques,013031,Évaporation/évapotranspiration,kg m-2,0,0,7,kg m-2,0,3,,,Operational
+bufr4/0/13/032,13,Éléments hydrographiques et hydrologiques,013032,Évaporation/évapotranspiration,kg m-2,1,0,8,kg m-2,1,3,(voir la Note 3),53,Operational
+bufr4/0/13/033,13,Éléments hydrographiques et hydrologiques,013033,Évaporation/évapotranspiration,kg m-2,1,0,10,kg m-2,1,4,,,Operational
+bufr4/0/13/038,13,Éléments hydrographiques et hydrologiques,013038,Indicateur superadiabatique,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/13/039,13,Éléments hydrographiques et hydrologiques,013039,Type de terrain (glace/neige),Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/13/040,13,Éléments hydrographiques et hydrologiques,013040,Drapeau de surface,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/13/041,13,Éléments hydrographiques et hydrologiques,013041,Catégorie de stabilité de Pasquill-Gifford,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/13/042,13,Éléments hydrographiques et hydrologiques,013042,Indice de soulèvement de parcelle (jusqu'à 500 hPa),K,0,-20,6,K,0,2,(voir les Notes 3 et 4),"119,130",Operational
+bufr4/0/13/043,13,Éléments hydrographiques et hydrologiques,013043,Indice de soulèvement maximal (jusqu'à 500 hPa),K,0,-20,6,K,0,2,(voir les Notes 3 et 4),"119,130",Operational
+bufr4/0/13/044,13,Éléments hydrographiques et hydrologiques,013044,Indice K,K,0,-30,8,K,0,3,,,Operational
+bufr4/0/13/045,13,Éléments hydrographiques et hydrologiques,013045,Indice KO,K,0,-30,8,K,0,3,,,Operational
+bufr4/0/13/046,13,Éléments hydrographiques et hydrologiques,013046,Flottabilité maximale,K,0,-30,8,K,0,3,,,Operational
+bufr4/0/13/047,13,Éléments hydrographiques et hydrologiques,013047,Indice de stabilité Showalter modifié,K,0,-60,6,C,0,2,(voir la Note 3),129,Operational
+bufr4/0/13/048,13,Éléments hydrographiques et hydrologiques,013048,Fraction d'eau,%,1,0,10,%,1,4,,,Operational
+bufr4/0/13/051,13,Éléments hydrographiques et hydrologiques,013051,"Groupe de fréquence, précipitation",Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/13/052,13,Éléments hydrographiques et hydrologiques,013052,Quantité quotidienne maximale de précipitations,kg m-2,1,-1,14,kg m-2,1,5,,,Operational
+bufr4/0/13/055,13,Éléments hydrographiques et hydrologiques,013055,"Intensité de précipitation, taille de l'élément de précipitation",kg m-2 s-1,4,0,8,mm/h,1,4,,,Operational
+bufr4/0/13/056,13,Éléments hydrographiques et hydrologiques,013056,Caractère de précipitation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/13/057,13,Éléments hydrographiques et hydrologiques,013057,Heure de début ou de fin de précipitation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/13/058,13,Éléments hydrographiques et hydrologiques,013058,Taille de l'élément précipitant,m,4,0,7,mm,1,3,,,Operational
+bufr4/0/13/059,13,Éléments hydrographiques et hydrologiques,013059,Nombre d'éclairs (orage),Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/13/060,13,Éléments hydrographiques et hydrologiques,013060,Précipitation totale accumulée,kg m-2,1,-1,17,kg m-2,1,5,,,Operational
+bufr4/0/13/071,13,Éléments hydrographiques et hydrologiques,013071,Niveau d'eau amont,m,2,0,14,m,2,4,,,Operational
+bufr4/0/13/072,13,Éléments hydrographiques et hydrologiques,013072,Niveau d'eau amont,m,2,0,14,m,2,4,,,Operational
+bufr4/0/13/073,13,Éléments hydrographiques et hydrologiques,013073,Niveau d'eau maximum,m,2,0,14,m,2,4,,,Operational
+bufr4/0/13/074,13,Éléments hydrographiques et hydrologiques,013074,Niveau d'eau souterraine,m,2,0,18,m,2,6,,,Operational
+bufr4/0/13/080,13,Éléments hydrographiques et hydrologiques,013080,pH de l'eau,pH unit,1,0,10,pH unit,1,3,,,Operational
+bufr4/0/13/081,13,Éléments hydrographiques et hydrologiques,013081,Conductivité de l'eau,S/m,3,0,14,S/m,3,4,,,Operational
+bufr4/0/13/082,13,Éléments hydrographiques et hydrologiques,013082,Température de l'eau,K,1,0,12,K,1,4,,,Operational
+bufr4/0/13/083,13,Éléments hydrographiques et hydrologiques,013083,Oxygène dissous,kg m-3,6,0,15,kg m-3,6,5,,,Operational
+bufr4/0/13/084,13,Éléments hydrographiques et hydrologiques,013084,Turbidité,lm,0,0,14,lm,0,4,,,Operational
+bufr4/0/13/085,13,Éléments hydrographiques et hydrologiques,013085,Potentiel d'oxydoréduction (ORP),V,3,0,14,V,3,4,,,Operational
+bufr4/0/13/090,13,Éléments hydrographiques et hydrologiques,013090,Contenu en vapeur d'eau du radiomètre,kg m-2,1,0,10,kg m-2,1,4,,,Operational
+bufr4/0/13/091,13,Éléments hydrographiques et hydrologiques,013091,Contenu en liquide du radiomètre,kg m-2,2,0,8,kg m-2,2,3,,,Operational
+bufr4/0/13/093,13,Éléments hydrographiques et hydrologiques,013093,Épaisseur optique des nuages,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/13/094,13,Éléments hydrographiques et hydrologiques,013094,Épaisseur optique des nuages,Numeric,3,-2000,14,Numeric,3,5,,,Operational
+bufr4/0/13/095,13,Éléments hydrographiques et hydrologiques,013095,Vapeur d'eau totale dans la colonne,kg m-2,4,0,19,kg m-2,4,6,,,Operational
+bufr4/0/13/096,13,Éléments hydrographiques et hydrologiques,013096,MWR water vapour content,kg m-2,2,0,14,kg m-2,2,5,,,Operational
+bufr4/0/13/097,13,Éléments hydrographiques et hydrologiques,013097,Teneur en eau liquide MWR,kg m-2,2,0,14,kg m-2,2,5,,,Operational
+bufr4/0/13/098,13,Éléments hydrographiques et hydrologiques,013098,Densité de vapeur d'eau intégrée,kg m-2,8,0,30,kg m-2,8,10,,,Operational
+bufr4/0/13/099,13,Éléments hydrographiques et hydrologiques,013099,Log10 de la densité intégrée des particules nuageuses,log(m-2),1,0,7,log(m-2),1,3,,,Operational
+bufr4/0/13/100,13,Éléments hydrographiques et hydrologiques,013100,Log10 de la densité intégrée des particules nuageuses,log(m2 m-2),1,-70,7,log(m2 m-2),1,2,,,Operational
+bufr4/0/13/101,13,Éléments hydrographiques et hydrologiques,013101,Log10 de la densité intégrée des particules nuageuses,log(m3 m-2),1,-140,7,log(m3 m-2),1,3,,,Operational
+bufr4/0/13/109,13,Éléments hydrographiques et hydrologiques,013109,Chemin de glace/eau liquide,kg m-2,3,0,10,kg m-2,3,4,,,Operational
+bufr4/0/13/110,13,Éléments hydrographiques et hydrologiques,013110,Rapport de mélange,%,0,0,7,%,0,3,,,Operational
+bufr4/0/13/111,13,Éléments hydrographiques et hydrologiques,013111,Humidité du sol,g/kg,0,0,10,g/kg,0,4,,,Operational
+bufr4/0/13/112,13,Éléments hydrographiques et hydrologiques,013112,Durée d'humidité de l'objet,s,0,0,17,s,0,5,,,Operational
+bufr4/0/13/114,13,Éléments hydrographiques et hydrologiques,013114,Taux d'accumulation de glace (estimé),kg m-2 h-1,1,0,11,kg m-2 h-1,1,4,,,Operational
+bufr4/0/13/115,13,Éléments hydrographiques et hydrologiques,013115,Dépôt de glace (épaisseur),m,2,0,19,m,2,6,(voir la Note 3),88,Operational
+bufr4/0/13/116,13,Éléments hydrographiques et hydrologiques,013116,Épaisseur du film d'eau,m,4,0,10,m,3,2,,,Operational
+bufr4/0/13/117,13,Éléments hydrographiques et hydrologiques,013117,"(Observation de neige, densité de neige, équivalent en eau de neige)",kg m-3,0,0,10,kg m-3,0,3,,,Operational
+bufr4/0/13/118,13,Éléments hydrographiques et hydrologiques,013118,Méthode de mesure de la profondeur de neige,m,3,-2,14,m,3,5,(voir la Note 3),41,Operational
+bufr4/0/13/119,13,Éléments hydrographiques et hydrologiques,013119,"Profondeur de neige supérieure à 0,00 m",m,3,-10000,15,,,,(voir la Note 3),194,Operational
+bufr4/0/13/155,13,Éléments hydrographiques et hydrologiques,013155,Intensité de précipitation (haute précision),kg m-2 s-1,5,-1,16,mm/h,2,5,(voir la Note 3),28,Operational
+bufr4/0/13/160,13,Éléments hydrographiques et hydrologiques,013160,Contenu en liquide du radiomètre,kg m-2,2,-350,10,kg m-2,2,3,,,Operational
+bufr4/0/13/161,13,Éléments hydrographiques et hydrologiques,013161,CAPE (énergie potentielle convective disponible),J/kg,0,0,14,,,,,,Operational
+bufr4/0/13/162,13,Éléments hydrographiques et hydrologiques,013162,Nuage liquide,kg m-2,2,0,8,kg m-2,2,3,,,Operational
+bufr4/0/13/163,13,Éléments hydrographiques et hydrologiques,013163,Équivalent en eau de neige,kg m-2,0,0,16,kg m-2,0,5,,,Operational
+bufr4/0/13/164,13,Éléments hydrographiques et hydrologiques,013164,Franc-bord de glace de mer,m,3,-131072,18,m,3,6,,,Operational
+bufr4/0/13/165,13,Éléments hydrographiques et hydrologiques,013165,CAPE (énergie potentielle convective disponible),J/kg,0,0,14,J/kg,0,5,(voir la Note 3),186,Operational
+bufr4/0/13/166,13,Éléments hydrographiques et hydrologiques,013166,Indice total des totaux,K,1,0,10,C,0,5,(voir la Note 3),187,Operational
+bufr4/0/13/167,13,Éléments hydrographiques et hydrologiques,013167,Indice S (STT),K,1,-1000,11,C,0,6,(voir la Note 3),188,Operational
+bufr4/0/13/168,13,Éléments hydrographiques et hydrologiques,013168,Indice de menace de brouillard,K,1,-100,8,C,0,5,(voir la Note 3),190,Operational
+bufr4/0/13/169,13,Éléments hydrographiques et hydrologiques,013169,MDPI (indice potentiel de journée de micro-rafales),K/K,1,-100,8,K/K,0,5,(voir la Note 3),191,Operational
+bufr4/0/13/170,13,Éléments hydrographiques et hydrologiques,013170,Indice TQ,K,1,-1000,11,C,0,6,(voir la Note 3),190,Operational
+bufr4/0/13/171,13,Éléments hydrographiques et hydrologiques,013171,CIN (inhibition convective),J/kg,0,-1000,10,J/kg,0,5,(voir la Note 3),192,Operational

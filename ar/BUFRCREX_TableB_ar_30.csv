@@ -1,0 +1,11 @@
+Id,ClassNo,ClassName_ar,FXY,ElementName_ar,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_ar,noteIDs,Status
+bufr4/0/30/001,30,صورة,030001,قيمة البكسل (4 بتات),Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/30/002,30,صورة,030002,قيمة البكسل (8 بت),Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/30/004,30,صورة,030004,قيمة البكسل (16 بت),Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/30/010,30,صورة,030010,عدد نقاط الشبكة,Numeric,0,0,13,Numeric,0,4,,,Operational
+bufr4/0/30/021,30,صورة,030021,عدد البكسلات لكل صف,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/022,30,صورة,030022,عدد البكسلات لكل عمود,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/031,30,صورة,030031,نوع الصورة,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/30/032,30,صورة,030032,دمج مع البيانات الأخرى,Flag table,0,0,16,Flag table,0,6,,,Operational
+bufr4/0/30/033,30,صورة,030033,عدد الصناديق على طول نصف القطر,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/30/034,30,صورة,030034,عدد الاتجاهات الزاوية,Numeric,0,0,12,Numeric,0,4,,,Operational

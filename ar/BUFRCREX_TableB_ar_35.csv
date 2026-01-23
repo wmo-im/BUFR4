@@ -1,0 +1,14 @@
+Id,ClassNo,ClassName_ar,FXY,ElementName_ar,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_ar,noteIDs,Status
+bufr4/0/35/000,35,معلومات مراقبة البيانات,035000,رمز FM ورقم الكود الإقليمي,Code table,0,0,10,Code table,0,3,,,Operational
+bufr4/0/35/001,35,معلومات مراقبة البيانات,035001,الإطار الزمني للمراقبة,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/35/011,35,معلومات مراقبة البيانات,035011,عدد التقارير المستلمة فعليًا,Numeric,0,0,14,Numeric,0,4,,,Operational
+bufr4/0/35/021,35,معلومات مراقبة البيانات,035021,النشرة قيد المراقبة (TTAAii),CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/35/022,35,معلومات مراقبة البيانات,035022,النشرة قيد المراقبة (YYGGgg),CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/35/023,35,معلومات مراقبة البيانات,035023,النشرة قيد المراقبة (CCCC),CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/35/024,35,معلومات مراقبة البيانات,035024,النشرة قيد المراقبة (BBB),CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/35/030,35,معلومات مراقبة البيانات,035030,الفروقات في توفر البيانات المتوقعة,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/35/031,35,معلومات مراقبة البيانات,035031,مؤهل على نتائج المراقبة,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/35/032,35,معلومات مراقبة البيانات,035032,سبب البيانات المفقودة,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/35/033,35,معلومات مراقبة البيانات,035033,نواقص المراقبة والجمع,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/35/034,35,معلومات مراقبة البيانات,035034,الاتجاهات الإحصائية لتوفر البيانات (خلال فترة/فترات المسح),Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/35/035,35,معلومات مراقبة البيانات,035035,سبب الإنهاء,Code table,0,0,5,Code table,0,2,,,Operational

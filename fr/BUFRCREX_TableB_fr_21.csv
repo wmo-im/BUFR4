@@ -1,0 +1,147 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/21/001,21,(Données du faisceau radar),021001,Réflectivité horizontale,dB,0,-64,7,dB,0,3,,,Operational
+bufr4/0/21/002,21,(Données du faisceau radar),021002,Réflectivité horizontale,dB,0,-64,7,dB,0,3,,,Operational
+bufr4/0/21/003,21,(Données du faisceau radar),021003,Réflectivité différentielle,dB,1,-5,7,dB,1,3,,,Operational
+bufr4/0/21/004,21,(Données du faisceau radar),021004,Réflectivité différentielle,dB,2,-800,11,dB,2,4,,,Operational
+bufr4/0/21/005,21,(Données du faisceau radar),021005,Rapport de dépolarisation linéaire,dB,0,-65,6,dB,0,2,,,Operational
+bufr4/0/21/006,21,(Données du faisceau radar),021006,Rapport de dépolarisation circulaire,dB,0,-65,6,dB,0,2,,,Operational
+bufr4/0/21/007,21,(Données du faisceau radar),021007,Facteur de réflectivité radar,dB,2,-9000,15,dB,0,0,,,Operational
+bufr4/0/21/008,21,(Données du faisceau radar),021008,Facteur de réflectivité radar,dB,2,0,13,dB,0,0,,,Operational
+bufr4/0/21/009,21,(Données du faisceau radar),021009,Vitesse Doppler verticale,m/s,2,-10000,15,m/s,0,0,,,Operational
+bufr4/0/21/010,21,(Données du faisceau radar),021010,Vitesse Doppler verticale,m/s,2,-10000,15,m/s,0,0,,,Operational
+bufr4/0/21/011,21,(Données du faisceau radar),021011,Vitesse Doppler moyenne dans la direction x,m/s,0,-128,8,m/s,0,3,,,Operational
+bufr4/0/21/012,21,(Données du faisceau radar),021012,Vitesse Doppler moyenne dans la direction x,m/s,0,-128,8,m/s,0,3,,,Operational
+bufr4/0/21/013,21,(Données du faisceau radar),021013,Vitesse Doppler moyenne dans la direction z,m/s,0,-128,8,m/s,0,3,,,Operational
+bufr4/0/21/014,21,(Données du faisceau radar),021014,Vitesse Doppler moyenne dans la direction x,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/21/017,21,(Données du faisceau radar),021017,Largeur spectrale de la vitesse Doppler,m/s,1,0,8,m/s,1,3,,,Operational
+bufr4/0/21/018,21,(Données du faisceau radar),021018,Vitesse NYQUIST étendue,m/s,1,0,10,m/s,1,4,,,Operational
+bufr4/0/21/019,21,(Données du faisceau radar),021019,Vitesse NYQUIST étendue,m/s,1,0,10,m/s,1,3,,,Operational
+bufr4/0/21/020,21,(Données du faisceau radar),021020,Correction atmosphérique dynamique,Numeric,3,-65536,17,,,,,,Operational
+bufr4/0/21/021,21,(Données du faisceau radar),021021,Sommet des échos,m,-3,0,4,m,-3,2,,,Operational
+bufr4/0/21/022,21,(Données du faisceau radar),021022,Décalage de cellule de distance,m,1,0,14,m,1,5,,,Operational
+bufr4/0/21/023,21,(Données du faisceau radar),021023,Taille de cellule de distance,m,0,0,14,m,0,5,,,Operational
+bufr4/0/21/024,21,(Données du faisceau radar),021024,Angle d'azimut,deg,1,0,12,deg,1,4,,,Operational
+bufr4/0/21/025,21,(Données du faisceau radar),021025,Résolution azimutale,deg,1,0,8,deg,1,3,,,Operational
+bufr4/0/21/026,21,(Données du faisceau radar),021026,Utilisabilité du sigma-0 ASCAT,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/21/027,21,(Données du faisceau radar),021027,Ratio de contribution foncière,Numeric,4,0,14,Numeric,4,5,,,Operational
+bufr4/0/21/028,21,(Données du faisceau radar),021028,Phase différentielle,deg,1,0,12,deg,1,4,,,Operational
+bufr4/0/21/029,21,(Données du faisceau radar),021029,Coefficient de corrélation de polarisation croisée,Numeric,2,-100,8,Numeric,2,3,,,Operational
+bufr4/0/21/030,21,(Données du faisceau radar),021030,Rapport signal-bruit moyen,dB,0,-32,8,dB,0,3,,,Operational
+bufr4/0/21/031,21,(Données du faisceau radar),021031,Contenu en eau liquide intégré verticalement,kg m-2,0,0,7,kg m-2,0,3,,,Operational
+bufr4/0/21/036,21,(Données du faisceau radar),021036,Intensité des précipitations radar,m/s,7,0,12,m/s,7,4,,,Operational
+bufr4/0/21/041,21,(Données du faisceau radar),021041,Hauteur de la bande brillante,m,-2,0,8,m,-2,3,,,Operational
+bufr4/0/21/051,21,(Données du faisceau radar),021051,Puissance du signal supérieure à 1 mW,dB,0,-256,8,dB,0,3,,,Operational
+bufr4/0/21/062,21,(Données du faisceau radar),021062,Rétrodiffusion,dB,2,-5000,13,dB,2,4,,,Operational
+bufr4/0/21/063,21,(Données du faisceau radar),021063,Résolution radiométrique (valeur de bruit),%,1,0,10,%,1,4,,,Operational
+bufr4/0/21/064,21,(Données du faisceau radar),021064,Estimation du bruit de désordre,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/21/065,21,(Données du faisceau radar),021065,Compteur de paquets manquants,Numeric,0,-127,8,Numeric,0,3,,,Operational
+bufr4/0/21/066,21,(Données du faisceau radar),021066,Données de confiance des produits du scatteromètre à ondes,Flag table,0,0,12,Flag table,0,4,,,Operational
+bufr4/0/21/067,21,(Données du faisceau radar),021067,Données de confiance du produit vent,Flag table,0,0,13,Flag table,0,5,,,Operational
+bufr4/0/21/068,21,(Données du faisceau radar),021068,Données de confiance du produit altimètre radar,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/21/069,21,(Données du faisceau radar),021069,Données de confiance des produits SST,Flag table,0,0,10,Flag table,0,4,,,Operational
+bufr4/0/21/070,21,(Données du faisceau radar),021070,Données de confiance des produits SST,Flag table,0,0,23,Flag table,0,6,,,Operational
+bufr4/0/21/071,21,(Données du faisceau radar),021071,Caractère de pic,Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/21/072,21,(Données du faisceau radar),021072,Statut de calibration de l'altimètre satellite,Flag table,0,0,4,Flag table,0,2,,,Operational
+bufr4/0/21/073,21,(Données du faisceau radar),021073,Mode de l'instrument altimètre satellite,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/21/075,21,(Données du faisceau radar),021075,Intensité du spectre d'image,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/21/076,21,(Données du faisceau radar),021076,Représentation des intensités,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/21/077,21,(Données du faisceau radar),021077,Correction d'altitude (ionosphère),m,3,0,14,m,3,5,,,Operational
+bufr4/0/21/078,21,(Données du faisceau radar),021078,Correction d'altitude (troposphère sèche),m,3,0,9,m,3,3,,,Operational
+bufr4/0/21/079,21,(Données du faisceau radar),021079,Correction d'altitude (troposphère sèche),m,3,2000,10,m,3,4,,,Operational
+bufr4/0/21/080,21,(Données du faisceau radar),021080,Correction d'altitude (constante de calibration),m,3,0,11,m,3,4,,,Operational
+bufr4/0/21/081,21,(Données du faisceau radar),021081,Correction en boucle ouverte (boucle hauteur-temps),m,3,0,10,m,3,4,,,Operational
+bufr4/0/21/082,21,(Données du faisceau radar),021082,Correction en boucle ouverte (contrôle automatique du gain),dB,3,-3000,14,dB,3,5,,,Operational
+bufr4/0/21/083,21,(Données du faisceau radar),021083,Étalonnage de cible chaude,Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/21/084,21,(Données du faisceau radar),021084,Étalonnage de cible chaude,Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/21/085,21,(Données du faisceau radar),021085,Numéro de bande transversale de température de surface de la mer ATSR,Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/21/086,21,(Données du faisceau radar),021086,"Nombre de pixels uniquement au nadir, moyenne",Numeric,0,0,9,Numeric,0,3,,,Operational
+bufr4/0/21/087,21,(Données du faisceau radar),021087,"Nombre de pixels en double vue, moyenne",Numeric,0,0,9,Numeric,0,3,,,Operational
+bufr4/0/21/088,21,(Données du faisceau radar),021088,Rétrodiffusion humide,dB,2,-5000,13,dB,2,4,,,Operational
+bufr4/0/21/091,21,(Données du faisceau radar),021091,Moment d'ordre 0 du spectre Doppler du signal radar,dB,0,-100,8,dB,0,3,,,Operational
+bufr4/0/21/092,21,(Données du faisceau radar),021092,"Moment d'ordre 0 du spectre Doppler du signal RASS, se référant au signal RASS",dB,0,-100,8,dB,0,3,,,Operational
+bufr4/0/21/093,21,(Données du faisceau radar),021093,Pointe de bande Ku,Numeric,3,0,16,Numeric,3,5,,,Operational
+bufr4/0/21/094,21,(Données du faisceau radar),021094,Pointe de bande S,Numeric,3,0,16,Numeric,3,5,,,Operational
+bufr4/0/21/095,21,(Données du faisceau radar),021095,Coefficient Kp A,Numeric,6,0,20,Numeric,6,7,,,Operational
+bufr4/0/21/096,21,(Données du faisceau radar),021096,Coefficient Kp A,Numeric,6,0,20,Numeric,6,7,,,Operational
+bufr4/0/21/097,21,(Données du faisceau radar),021097,Coefficient Kp A,Numeric,6,0,20,Numeric,6,7,,,Operational
+bufr4/0/21/101,21,(Données du faisceau radar),021101,Nombre d'ambiguïtés vectorielles,Numeric,0,0,3,Numeric,0,1,,,Operational
+bufr4/0/21/102,21,(Données du faisceau radar),021102,Indice du vecteur de vent sélectionné,Numeric,0,0,3,Numeric,0,1,,,Operational
+bufr4/0/21/103,21,(Données du faisceau radar),021103,Nombre total de mesures sigma-0,Numeric,0,0,5,Numeric,0,2,,,Operational
+bufr4/0/21/104,21,(Données du faisceau radar),021104,Vraisemblance calculée pour la solution,Numeric,3,-30000,15,Numeric,3,5,,,Operational
+bufr4/0/21/105,21,(Données du faisceau radar),021105,Section efficace radar normalisée,dB,2,-10000,14,dB,2,5,,,Operational
+bufr4/0/21/106,21,(Données du faisceau radar),021106,Coefficient de variance Kp (alpha),Numeric,3,0,14,Numeric,3,5,,,Operational
+bufr4/0/21/107,21,(Données du faisceau radar),021107,Coefficient de variance Kp (alpha),Numeric,8,0,16,Numeric,8,5,,,Operational
+bufr4/0/21/109,21,(Données du faisceau radar),021109,Qualité de la cellule vectorielle de vent SEAWINDS,Flag table,0,0,17,Flag table,0,6,,,Operational
+bufr4/0/21/110,21,(Données du faisceau radar),021110,Nombre de sigma-0 du faisceau interne (avant du satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/21/111,21,(Données du faisceau radar),021111,Nombre de sigma-0 du faisceau interne (avant du satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/21/112,21,(Données du faisceau radar),021112,Nombre de sigma-0 du faisceau interne (avant du satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/21/113,21,(Données du faisceau radar),021113,Nombre de sigma-0 du faisceau interne (avant du satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/21/114,21,(Données du faisceau radar),021114,Coefficient de variance Kp (gamma),dB,3,-140000,18,dB,3,6,,,Operational
+bufr4/0/21/115,21,(Données du faisceau radar),021115,Qualité sigma-0 SEAWINDS,Flag table,0,0,17,Flag table,0,6,,,Operational
+bufr4/0/21/116,21,(Données du faisceau radar),021116,Qualité sigma-0 SEAWINDS,Flag table,0,0,17,Flag table,0,6,,,Operational
+bufr4/0/21/117,21,(Données du faisceau radar),021117,Contrôle de qualité de la variance Sigma-0,Numeric,2,0,16,Numeric,2,5,,,Operational
+bufr4/0/21/118,21,(Données du faisceau radar),021118,Correction d'atténuation sur sigma-0,dB,2,-10000,14,dB,2,5,,,Operational
+bufr4/0/21/119,21,(Données du faisceau radar),021119,Fonction du modèle géophysique du scatteromètre à vent,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/21/120,21,(Données du faisceau radar),021120,Probabilité de pluie,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/21/121,21,(Données du faisceau radar),021121,Indice de pluie SEAWINDS NOF,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/21/122,21,(Données du faisceau radar),021122,Correction d'atténuation sur sigma-0,dB,2,-10000,14,dB,2,5,,,Operational
+bufr4/0/21/123,21,(Données du faisceau radar),021123,Section efficace radar normalisée,dB,2,-30000,15,dB,2,5,,,Operational
+bufr4/0/21/128,21,(Données du faisceau radar),021128,Nombre de points valides par seconde utilisés pour dériver les paramètres précédents,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/21/130,21,(Données du faisceau radar),021130,Énergie totale du spectre,Numeric,6,0,28,Numeric,6,9,,,Operational
+bufr4/0/21/131,21,(Données du faisceau radar),021131,Énergie totale du spectre,Numeric,6,0,28,Numeric,6,9,,,Operational
+bufr4/0/21/132,21,(Données du faisceau radar),021132,Direction du maximum du spectre sur une grille à résolution plus élevée,deg,3,0,19,deg,3,6,,,Operational
+bufr4/0/21/133,21,(Données du faisceau radar),021133,Direction du maximum du spectre sur une grille à résolution plus élevée,m,3,0,29,m,3,9,,,Operational
+bufr4/0/21/134,21,(Données du faisceau radar),021134,Résolution de portée du spectre de covariance de cress.,rad/m,3,0,19,rad/m,3,6,,,Operational
+bufr4/0/21/135,21,(Données du faisceau radar),021135,Partie réelle du spectre croisé grille polaire nombre de compartiments,Numeric,3,-524288,20,Numeric,3,7,,,Operational
+bufr4/0/21/136,21,(Données du faisceau radar),021136,Partie réelle du spectre croisé grille polaire nombre de compartiments,Numeric,3,-524288,20,Numeric,3,7,,,Operational
+bufr4/0/21/137,21,(Données du faisceau radar),021137,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,dB,2,-32768,16,dB,2,5,,,Operational
+bufr4/0/21/138,21,(Données du faisceau radar),021138,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,dB,2,-32768,16,dB,2,5,,,Operational
+bufr4/0/21/139,21,(Données du faisceau radar),021139,Correction instrumentale du réseau en bande Ku,dB,2,-2048,12,dB,2,4,,,Operational
+bufr4/0/21/140,21,(Données du faisceau radar),021140,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,dB,2,-32768,16,dB,2,5,,,Operational
+bufr4/0/21/141,21,(Données du faisceau radar),021141,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,dB,2,-32768,16,dB,2,5,,,Operational
+bufr4/0/21/142,21,(Données du faisceau radar),021142,Correction instrumentale du réseau en bande S pour AGC,dB,2,-1024,11,dB,2,4,,,Operational
+bufr4/0/21/143,21,(Données du faisceau radar),021143,Atténuation de pluie en bande Ku,dB,2,-1073741824,31,dB,2,10,,,Operational
+bufr4/0/21/144,21,(Données du faisceau radar),021144,Drapeau de pluie de l'altimètre,Flag table,0,0,2,Flag table,0,1,,,Operational
+bufr4/0/21/145,21,(Données du faisceau radar),021145,Contrôle automatique de gain Ku band,dB,2,0,13,dB,2,4,,,Operational
+bufr4/0/21/146,21,(Données du faisceau radar),021146,Contrôle automatique de gain Ku band,dB,2,0,8,dB,2,3,,,Operational
+bufr4/0/21/147,21,(Données du faisceau radar),021147,Nombre de points valides pour le contrôle automatique de gain Ku band,Numeric,0,0,5,Numeric,0,2,,,Operational
+bufr4/0/21/148,21,(Données du faisceau radar),021148,Drapeau de variation du bord de fuite,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/21/150,21,(Données du faisceau radar),021150,Co-implantation de faisceaux,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/21/151,21,(Données du faisceau radar),021151,Erreur estimée dans sigma-0 à un angle d'incidence de 40 degrés,dB,2,0,9,dB,2,3,,,Operational
+bufr4/0/21/152,21,(Données du faisceau radar),021152,Pente à un angle d'incidence de 40 degrés,dB/deg,2,-80,7,dB/deg,2,2,,,Operational
+bufr4/0/21/153,21,(Données du faisceau radar),021153,Pente à un angle d'incidence de 40 degrés,dB/deg,2,-40,6,dB/deg,2,2,,,Operational
+bufr4/0/21/154,21,(Données du faisceau radar),021154,Humidité du sol,dB,2,0,12,dB,2,4,,,Operational
+bufr4/0/21/155,21,(Données du faisceau radar),021155,Qualité de la cellule vectorielle de vent SEAWINDS,Flag table,0,0,24,Flag table,0,8,,,Operational
+bufr4/0/21/156,21,(Données du faisceau radar),021156,Distance de rétrodiffusion,Numeric,1,-4096,13,Numeric,1,4,,,Operational
+bufr4/0/21/157,21,(Données du faisceau radar),021157,Perte par unité de longueur d'atmosphère utilisée,dB/m,10,0,22,dB/m,10,7,,,Operational
+bufr4/0/21/158,21,(Données du faisceau radar),021158,Qualité de l'estimation Kp d'ASCAT,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/21/159,21,(Données du faisceau radar),021159,Utilisabilité du sigma-0 ASCAT,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/21/160,21,(Données du faisceau radar),021160,Utilisation de données synthétiques par ASCAT,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/21/161,21,(Données du faisceau radar),021161,Utilisation de données synthétiques par ASCAT,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/21/162,21,(Données du faisceau radar),021162,Qualité de l'orbite et de l'attitude du satellite ASCAT,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/21/163,21,(Données du faisceau radar),021163,Contamination par réflexion de l'ensemble solaire ASCAT,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/21/164,21,(Données du faisceau radar),021164,Présence et qualité de la télémétrie ASCAT,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/21/165,21,(Données du faisceau radar),021165,Présence de la fonction de référence extrapolée ASCAT,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/21/166,21,(Données du faisceau radar),021166,Erreur dans le calcul de la fraction de terre,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/21/167,21,(Données du faisceau radar),021167,Probabilité de diffusion sous-surface,%,0,0,7,%,0,3,,,Operational
+bufr4/0/21/169,21,(Données du faisceau radar),021169,Indicateur de présence de glace,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/21/170,21,(Données du faisceau radar),021170,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,dB,2,-32768,16,dB,2,5,,,Operational
+bufr4/0/21/171,21,(Données du faisceau radar),021171,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,dB,2,-32768,16,dB,2,5,,,Operational
+bufr4/0/21/172,21,(Données du faisceau radar),021172,Correction instrumentale du réseau en bande S pour AGC,dB,2,-2048,12,dB,2,4,,,Operational
+bufr4/0/21/173,21,(Données du faisceau radar),021173,Contrôle automatique de gain Ku band,dB,2,0,13,dB,2,4,,,Operational
+bufr4/0/21/174,21,(Données du faisceau radar),021174,Contrôle automatique de gain C band RMS,dB,2,0,9,dB,2,3,,,Operational
+bufr4/0/21/175,21,(Données du faisceau radar),021175,Nombre de points valides pour le contrôle automatique de gain Ku band,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/21/176,21,(Données du faisceau radar),021176,Correction de la variabilité haute fréquence,m,3,0,16,m,3,5,,,Operational
+bufr4/0/21/177,21,(Données du faisceau radar),021177,Coefficient de rétrodiffusion OCOG corrigé,dB,2,0,16,dB,2,5,,,Operational
+bufr4/0/21/178,21,(Données du faisceau radar),021178,Écart-type du coefficient de rétrodiffusion OCOG à 20 Hz,dB,2,0,16,dB,2,5,,,Operational
+bufr4/0/21/179,21,(Données du faisceau radar),021179,Écart-type du coefficient de rétrodiffusion OCOG à 20 Hz,Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/21/180,21,(Données du faisceau radar),021180,Nombre de points valides à 20 Hz pour le coefficient de rétrodiffusion océanique,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/21/181,21,(Données du faisceau radar),021181,Nombre de points valides à 20 Hz pour le coefficient de rétrodiffusion océanique,dB,2,0,16,dB,2,5,,,Operational
+bufr4/0/21/182,21,(Données du faisceau radar),021182,Pointe de bande Ku,Numeric,3,0,16,Numeric,3,5,,,Operational
+bufr4/0/21/183,21,(Données du faisceau radar),021183,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,dB,2,-32768,16,dB,2,5,,,Operational
+bufr4/0/21/184,21,(Données du faisceau radar),021184,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,dB,2,-32768,16,dB,2,5,,,Operational
+bufr4/0/21/185,21,(Données du faisceau radar),021185,Correction instrumentale du réseau en bande S pour AGC,dB,2,-2048,12,dB,2,4,,,Operational
+bufr4/0/21/186,21,(Données du faisceau radar),021186,Contrôle automatique de gain Ku band,dB,2,0,13,dB,2,4,,,Operational
+bufr4/0/21/187,21,(Données du faisceau radar),021187,Contrôle automatique de gain C band RMS,dB,2,0,8,dB,2,3,,,Operational
+bufr4/0/21/188,21,(Données du faisceau radar),021188,Nombre de points valides pour le contrôle automatique de gain Ku band,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/21/189,21,(Données du faisceau radar),021189,Coefficient de rétrodiffusion OCOG corrigé,dB,2,-32768,16,dB,2,6,(voir la Note),11,Operational

@@ -1,0 +1,25 @@
+Id,ClassNo,ClassName_rus,FXY,ElementName_rus,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_rus,noteIDs,Status
+bufr4/0/00/001,00,Элементы таблицы BUFR/CREX,000001,Таблица А: запись,CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/00/002,00,Элементы таблицы BUFR/CREX,000002,"Таблица A: описание категории данных, строка 1",CCITT IA5,0,0,256,Character,0,32,,,Operational
+bufr4/0/00/003,00,Элементы таблицы BUFR/CREX,000003,"Таблица A: описание категории данных, строка 1",CCITT IA5,0,0,256,Character,0,32,,,Operational
+bufr4/0/00/004,00,Элементы таблицы BUFR/CREX,000004,Элементы таблицы BUFR/CREX,CCITT IA5,0,0,16,Character,0,2,(см. Примечание 3),98,Operational
+bufr4/0/00/005,00,Элементы таблицы BUFR/CREX,000005,Номер издания BUFR/CREX,CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/00/006,00,Элементы таблицы BUFR/CREX,000006,Номер версии основной таблицы BUFR,CCITT IA5,0,0,16,Character,0,2,(см. Примечание 3),33,Operational
+bufr4/0/00/007,00,Элементы таблицы BUFR/CREX,000007,Версия основной таблицы CREX,CCITT IA5,0,0,16,Character,0,2,(см. Примечание 3),40,Operational
+bufr4/0/00/008,00,Элементы таблицы BUFR/CREX,000008,Номер версии основной таблицы BUFR,CCITT IA5,0,0,16,Character,0,2,(см. Примечание 3),76,Operational
+bufr4/0/00/010,00,Элементы таблицы BUFR/CREX,000010,"(Добавить или определить F, X, Y дескриптора)",CCITT IA5,0,0,8,Character,0,1,,,Operational
+bufr4/0/00/011,00,Элементы таблицы BUFR/CREX,000011,Добавить или определить X дескриптор,CCITT IA5,0,0,16,Character,0,2,,,Operational
+bufr4/0/00/012,00,Элементы таблицы BUFR/CREX,000012,"(Добавить или определить F, X, Y дескриптора)",CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/00/013,00,Элементы таблицы BUFR/CREX,000013,Название элемента,CCITT IA5,0,0,256,Character,0,32,,,Operational
+bufr4/0/00/014,00,Элементы таблицы BUFR/CREX,000014,Название элемента,CCITT IA5,0,0,256,Character,0,32,,,Operational
+bufr4/0/00/015,00,Элементы таблицы BUFR/CREX,000015,Название единиц,CCITT IA5,0,0,192,Character,0,24,,,Operational
+bufr4/0/00/016,00,Элементы таблицы BUFR/CREX,000016,Знак масштаба единиц,CCITT IA5,0,0,8,Character,0,1,,,Operational
+bufr4/0/00/017,00,Элементы таблицы BUFR/CREX,000017,Знак масштаба единиц,CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/00/018,00,Элементы таблицы BUFR/CREX,000018,Справочное значение единиц,CCITT IA5,0,0,8,Character,0,1,,,Operational
+bufr4/0/00/019,00,Элементы таблицы BUFR/CREX,000019,Справочное значение единиц,CCITT IA5,0,0,80,Character,0,10,,,Operational
+bufr4/0/00/020,00,Элементы таблицы BUFR/CREX,000020,Ширина данных элемента,CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/00/024,00,Элементы таблицы BUFR/CREX,000024,Кодовая цифра,CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/00/025,00,Элементы таблицы BUFR/CREX,000025,Кодовая цифра,CCITT IA5,0,0,496,Character,0,62,,,Operational
+bufr4/0/00/026,00,Элементы таблицы BUFR/CREX,000026,Номер бита,CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/00/027,00,Элементы таблицы BUFR/CREX,000027,Номер бита,CCITT IA5,0,0,496,Character,0,62,,,Operational
+bufr4/0/00/030,00,Элементы таблицы BUFR/CREX,000030,"Дескриптор, определяющий последовательность",CCITT IA5,0,0,48,Character,0,6,,,Operational

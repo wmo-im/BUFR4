@@ -1,0 +1,14 @@
+Id,ClassNo,ClassName_ar,FXY,ElementName_ar,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_ar,noteIDs,Status
+bufr4/0/24/001,24,العناصر الإشعاعية,024001,تقدير كمية النشاط الإشعاعي المنبعث حتى الوقت المحدد,Bq,-11,0,28,Bq,-11,9,,,Operational
+bufr4/0/24/002,24,العناصر الإشعاعية,024002,الإصدار المحتمل الأقصى المقدّر,Bq,-11,0,28,Bq,-11,9,,,Operational
+bufr4/0/24/003,24,العناصر الإشعاعية,024003,تكوين الإصدار,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/24/004,24,العناصر الإشعاعية,024004,اسم العنصر,CCITT IA5,0,0,16,Character,0,2,,,Operational
+bufr4/0/24/005,24,العناصر الإشعاعية,024005,كتلة النظير,Numeric,0,0,9,Numeric,0,3,,,Operational
+bufr4/0/24/011,24,العناصر الإشعاعية,024011,جرعة,mSv,2,0,32,mSv,2,10,,,Operational
+bufr4/0/24/012,24,العناصر الإشعاعية,024012,جرعة المسار (الموقع المحدد ووقت الوصول المتوقع),mSv,2,0,32,mSv,2,10,,,Operational
+bufr4/0/24/013,24,العناصر الإشعاعية,024013,جرعة جاما في الهواء على طول مسار النقل الرئيسي (الموقع والمدة الزمنية المحددان),mSv,2,0,32,mSv,2,10,,,Operational
+bufr4/0/24/014,24,العناصر الإشعاعية,024014,معدل جرعة إشعاع جاما,nSv/h,1,0,14,nSv/h,1,4,Could you please provide the text you would like me to translate? I’ll ensure to follow your instructions carefully.,81,Operational
+bufr4/0/24/021,24,العناصر الإشعاعية,024021,تركيز الهواء (لنوع النظير المحدد بما في ذلك بيتا الإجمالي),Bq m-3,2,0,32,Bq m-3,2,10,,,Operational
+bufr4/0/24/022,24,العناصر الإشعاعية,024022,تركيز في الترسيب (لنوع النظير المذكور),Bq/l,2,0,32,Bq/l,2,10,,,Operational
+bufr4/0/24/023,24,العناصر الإشعاعية,024023,معدل النبض للإشعاع بيتا,/s,1,0,14,/s,1,4,,,Operational
+bufr4/0/24/024,24,العناصر الإشعاعية,024024,معدل نبض إشعاع غاما,/s,1,0,14,/s,1,4,,,Operational

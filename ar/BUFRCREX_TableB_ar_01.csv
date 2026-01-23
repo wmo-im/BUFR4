@@ -1,0 +1,100 @@
+Id,ClassNo,ClassName_ar,FXY,ElementName_ar,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_ar,noteIDs,Status
+bufr4/0/01/001,01,التعرف,001001,رقم كتلة WMO,Numeric,0,0,7,Numeric,0,2,,,Operational
+bufr4/0/01/002,01,التعرف,001002,رقم محطة WMO,Numeric,0,0,10,Numeric,0,3,,,Operational
+bufr4/0/01/003,01,التعرف,001003,رقم منطقة WMO / المنطقة الجغرافية,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/01/004,01,التعرف,001004,منطقة فرعية في إقليم المنظمة العالمية للأرصاد الجوية,Numeric,0,0,3,Numeric,0,1,(انظر الملاحظة 9),42,Operational
+bufr4/0/01/005,01,التعرف,001005,معرّف العوامة/المنصة,Numeric,0,0,17,Numeric,0,5,,,Operational
+bufr4/0/01/006,01,التعرف,001006,رقم رحلة الطائرة,CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/01/007,01,التعرف,001007,معرّف القمر الصناعي,Code table,0,0,10,Code table,0,4,,,Operational
+bufr4/0/01/008,01,التعرف,001008,رقم تسجيل الطائرة أو أي تعريف آخر,CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/01/009,01,التعرف,001009,نوع الطائرة التجارية,CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/01/010,01,التعرف,001010,معرّف منصة العوامة الثابتة؛ على سبيل المثال، عوامات C-MAN,CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/01/011,01,التعرف,001011,معرّف محطة السفينة أو المحطة البرية المتنقلة,CCITT IA5,0,0,72,Character,0,9,,,Operational
+bufr4/0/01/012,01,التعرف,001012,اتجاه حركة منصة المراقبة المتحركة,degree true,0,0,9,degree true,0,3,(راجع الملاحظتين 14 و15),"125,60",Operational
+bufr4/0/01/013,01,التعرف,001013,سرعة حركة منصة المراقبة المتحركة,m/s,0,0,10,m/s,0,3,(راجع الملاحظتين 14 و15),"60,125",Operational
+bufr4/0/01/014,01,التعرف,001014,سرعة انحراف المنصة (دقة عالية),m/s,2,0,10,m/s,2,4,,,Operational
+bufr4/0/01/015,01,التعرف,001015,اسم المحطة أو الموقع,CCITT IA5,0,0,160,Character,0,20,,,Operational
+bufr4/0/01/016,01,التعرف,001016,معرّف فرعي للقمر الصناعي,Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/01/018,01,التعرف,001018,اسم المحطة أو الموقع القصير,CCITT IA5,0,0,40,Character,0,5,,,Operational
+bufr4/0/01/019,01,التعرف,001019,اسم محطة أو موقع طويل,CCITT IA5,0,0,256,Character,0,32,,,Operational
+bufr4/0/01/020,01,التعرف,001020,منطقة فرعية في إقليم المنظمة العالمية للأرصاد الجوية,Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/01/021,01,التعرف,001021,معرّف ميزة مختصرة,Numeric,0,0,14,Numeric,0,4,,,Operational
+bufr4/0/01/022,01,التعرف,001022,اسم الميزة,CCITT IA5,0,0,224,Character,0,28,(راجع الملاحظة 11),72,Operational
+bufr4/0/01/023,01,التعرف,001023,رقم تسلسل الملاحظة,Numeric,0,0,9,Numeric,0,3,,,Operational
+bufr4/0/01/024,01,التعرف,001024,مصدر سرعة الرياح,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/01/025,01,التعرف,001025,معرّف العاصفة,CCITT IA5,0,0,24,Character,0,3,Sure! Please provide the text you'd like me to translate along with any glossary terms or translation memory examples you'd like me to follow.,148,Operational
+bufr4/0/01/026,01,التعرف,001026,اسم العاصفة وفق المنظمة العالمية للأرصاد الجوية,CCITT IA5,0,0,64,Character,0,8,(انظر الملاحظة 16),43,Operational
+bufr4/0/01/027,01,التعرف,001027,اسم العاصفة الطويل وفقًا لـ WMO,CCITT IA5,0,0,80,Character,0,10,"Of course! Please provide the text you would like me to translate, along with any glossary terms or translation memory examples you'd like me to follow.",182,Operational
+bufr4/0/01/028,01,التعرف,001028,مصدر عمق البصري للرذاذ الجوي (AOD),Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/01/029,01,التعرف,001029,مصدر SSI,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/01/030,01,التعرف,001030,معرّف النموذج الرقمي,CCITT IA5,0,0,128,Character,0,16,(انظر الملاحظة 13),153,Operational
+bufr4/0/01/031,01,التعرف,001031,تحديد المركز المُنشئ/المُصدر,Code table,0,0,16,Code table,0,5,(انظر الملاحظة 10),44,Operational
+bufr4/0/01/032,01,التعرف,001032,توليد التطبيق,Code table defined by originating/generating centre,0,0,8,Code table,0,3,ملاحظات 3، 4 و5,"175,21,38",Operational
+bufr4/0/01/033,01,التعرف,001033,تحديد المركز المُنشئ/المصدر,Common Code table C-1,0,0,8,Common Code table C-1,0,3,,,Operational
+bufr4/0/01/034,01,التعرف,001034,تحديد المركز الفرعي المُنشئ/المصدر,Common Code table C-12,0,0,8,Common Code table C-12,0,3,,,Operational
+bufr4/0/01/035,01,التعرف,001035,المركز المنشأ,Common Code table C-11,0,0,16,Common Code table C-11,0,5,,,Operational
+bufr4/0/01/036,01,التعرف,001036,الوكالة المسؤولة عن تشغيل منصة المراقبة,Code table,0,0,20,Code table,0,7,,,Operational
+bufr4/0/01/037,01,التعرف,001037,معرّف تسلسل SIGMET,CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/01/038,01,التعرف,001038,مصدر نسبة الجليد البحري,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/01/039,01,التعرف,001039,معرّف تسلسل توقعات المنطقة الرسومية (GFA),CCITT IA5,0,0,40,Character,0,5,,,Operational
+bufr4/0/01/040,01,التعرف,001040,رمز تعريف مركز المعالجة,CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/01/041,01,التعرف,001041,السرعة المطلقة للمنصة - المكون الأول,m/s,5,-1073741824,31,m/s,5,10,(راجع الملاحظات 6، 7 و8),"134,154,95",Operational
+bufr4/0/01/042,01,التعرف,001042,السرعة المطلقة للمنصة - المكون الثاني,m/s,5,-1073741824,31,m/s,5,10,(راجع الملاحظات 6، 7 و8),"134,154,95",Operational
+bufr4/0/01/043,01,التعرف,001043,السرعة المطلقة للمنصة - المكون الثالث,m/s,5,-1073741824,31,m/s,5,10,(راجع الملاحظات 6، 7 و8),"134,154,95",Operational
+bufr4/0/01/044,01,التعرف,001044,التطبيق القياسي لتوليد,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/01/050,01,التعرف,001050,رقم تعريف جهاز إرسال المنصة,Numeric,0,0,17,Numeric,0,6,,,Operational
+bufr4/0/01/051,01,التعرف,001051,رقم تعريف جهاز إرسال المنصة,CCITT IA5,0,0,96,Character,0,12,,,Operational
+bufr4/0/01/052,01,التعرف,001052,معرّف جهاز الإرسال الخاص بالمنصة,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/01/053,01,التعرف,001053,رقم تسلسل تقرير مقياس التسونامي الناتج عن حدث تسونامي,Numeric,0,0,7,Numeric,0,2,,,Operational
+bufr4/0/01/060,01,التعرف,001060,نقطة الإبلاغ للطائرة (معرّف المنارة),CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/01/062,01,التعرف,001062,مؤشر موقع ICAO قصير,CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/01/063,01,التعرف,001063,مؤشر موقع ICAO,CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/01/064,01,التعريف,001064,مُحدد المدرج,CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/01/065,01,التعرف,001065,معرّف منطقة الإيكاو,CCITT IA5,0,0,256,Character,0,32,,,Operational
+bufr4/0/01/075,01,التعرف,001075,تحديد محطة المد والجزر,CCITT IA5,0,0,40,Character,0,5,,,Operational
+bufr4/0/01/079,01,التعرف,001079,معرّف فريد للملف الشخصي,CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/01/080,01,التعرف,001080,رقم خط الشحن وفقًا لـ SOOP,CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/01/081,01,التعرف,001081,رقم تسلسلي لراديوسوندي,CCITT IA5,0,0,160,Character,0,20,,,Operational
+bufr4/0/01/082,01,التعرف,001082,رقم صعود الراديوسوندي,Numeric,0,0,14,Numeric,0,4,(انظر الملاحظة 12),45,Operational
+bufr4/0/01/083,01,التعرف,001083,رقم إطلاق الراديوسوندي,Numeric,0,0,3,Numeric,0,1,(انظر الملاحظة 12),45,Operational
+bufr4/0/01/085,01,التعرف,001085,نموذج الشركة المصنعة لمنصة المراقبة,CCITT IA5,0,0,160,Character,0,20,,,Operational
+bufr4/0/01/086,01,التعرف,001086,رقم التسلسل الخاص بمصنّع منصة المراقبة,CCITT IA5,0,0,256,Character,0,32,,,Operational
+bufr4/0/01/087,01,التعرف,001087,معرّف موسّع لمنصة المراقبة البحرية التابعة لـ WMO,Numeric,0,0,23,Numeric,0,7,,,Operational
+bufr4/0/01/090,01,التعرف,001090,تقنية لتكوين الاضطرابات الأولية,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/01/091,01,التعرف,001091,رقم عضو المجموعة,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/01/092,01,التعرف,001092,نوع التنبؤ الجماعي,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/01/093,01,التعرف,001093,رقم دفعة البالون,CCITT IA5,0,0,96,Character,0,12,,,Operational
+bufr4/0/01/094,01,التعرف,001094,رقم WBAN,Numeric,0,0,17,Numeric,0,5,,,Operational
+bufr4/0/01/095,01,التعرف,001095,تحديد المراقب,CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/01/096,01,التعرف,001096,الاستحواذ على المحطة,CCITT IA5,0,0,160,Character,0,20,,,Operational
+bufr4/0/01/099,01,التعرف,001099,تعريف المنتج الفريد,CCITT IA5,0,0,248,Character,0,31,,,Operational
+bufr4/0/01/101,01,التعرف,001101,معرّف الدولة,Code table,0,0,10,Code table,0,3,,,Operational
+bufr4/0/01/102,01,التعرف,001102,رقم المحطة الوطنية,Numeric,0,0,30,Numeric,0,9,,,Operational
+bufr4/0/01/103,01,التعرف,001103,رقم IMO. سجل Lloyd الفريد,Numeric,0,0,24,Numeric,0,7,,,Operational
+bufr4/0/01/104,01,التعرف,001104,معرّف الولاية/الدولة الفيدرالية,CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/01/105,01,التعرف,001105,المُعرِّف الطُرُقي,CCITT IA5,0,0,40,Character,0,5,,,Operational
+bufr4/0/01/106,01,التعرف,001106,الموقع على طول الطريق السريع كما هو محدد بواسطة علامات الموقع.,m,-2,0,14,m,-2,5,,,Operational
+bufr4/0/01/110,01,التعرف,001110,رقم ذيل الطائرة,CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/01/111,01,التعرف,001111,مطار المنشأ,CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/01/112,01,التعرف,001112,وجهة المطار,CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/01/113,01,التعرف,001113,رقم إصدار النموذج المحدد من قبل المركز المصدر,Numeric,1,0,9,Numeric,1,3,,,Operational
+bufr4/0/01/114,01,التعرف,001114,معرّف السفينة المشفرة أو محطة الأرض المتنقلة (ترميز base64),CCITT IA5,0,0,352,Character,0,44,,,Operational
+bufr4/0/01/115,01,التعرف,001115,معرّف الرحلة البحرية أو المهمة التي تم جمع البيانات في إطارها.,CCITT IA5,0,0,160,Character,0,20,,,Operational
+bufr4/0/01/124,01,التعرف,001124,معرّف نقطة الشبكة,Numeric,0,0,24,Numeric,0,8,,,Operational
+bufr4/0/01/125,01,التعرف,001125,سلسلة معرف WIGOS,Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/01/126,01,التعرف,001126,مُصدر معرف WIGOS,Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/01/127,01,التعرف,001127,رقم قضية WIGOS,Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/01/128,01,التعريف,001128,معرّف WIGOS المحلي (حرف),CCITT IA5,0,0,128,Character,0,16,,,Operational
+bufr4/0/01/130,01,التعرف,001130,معرّف العاصفة (طويل),CCITT IA5,0,0,32,,,,,,Operational
+bufr4/0/01/144,01,التعرف,001144,معرّف اللقطة,Numeric,0,0,31,Numeric,0,10,,,Operational
+bufr4/0/01/145,01,التعرف,001145,معرّف مصدر الضوء,Numeric,0,-8,20,Numeric,0,7,(راجع الملاحظة 17),185,Operational
+bufr4/0/01/150,01,التعرف,001150,نظام الإسناد المرجعي,Code table,0,0,16,Code table,0,5,,,Operational
+bufr4/0/01/151,01,التعرف,001151,المرجع الثابت لمتوسط مستوى سطح البحر,Code table,0,0,12,Code table,0,4,,,Operational
+bufr4/0/01/152,01,التعرف,001152,المحور شبه الرئيسي للإهليلج الدوراني,m,2,0,31,m,2,11,,,Operational
+bufr4/0/01/153,01,التعرف,001153,محور شبه الصغير للإهليلج الدوراني,m,2,0,31,m,2,11,,,Operational
+bufr4/0/01/154,01,التعرف,001154,معرّف المستشعر,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/01/155,01,التعرف,001155,معرّف الاسترجاع,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/01/156,01,التعرف,001156,رقم رحلة المنطاد,CCITT IA5,0,0,64,,,,,,Operational
+bufr4/0/01/157,01,التعرف,001157,رقم تسجيل البالون أو أي تعريف آخر,CCITT IA5,0,0,80,,,,,,Operational
+bufr4/0/01/158,01,التعرف,001158,نوع غلاف البالون,Code table,0,0,4,,,,,,Operational
+bufr4/0/01/159,01,التعرف,001159,الحجم النموذجي لغلاف البالون,m,1,0,12,,,,(انظر الملاحظة 18),195,Operational

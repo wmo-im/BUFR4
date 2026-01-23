@@ -1,0 +1,332 @@
+Id,FXY,ElementName_fr,CodeFigure,EntryName_fr,EntryName_sub1_fr,EntryName_sub2_fr,Note_fr,noteIDs,Status
+bufr4/0/25/004/0,025004,Traitement d'écho,0,Incohérent,,,,,Operational
+bufr4/0/25/004/1,025004,Traitement d'écho,1,Cohérent (Doppler),,,,,Operational
+bufr4/0/25/004/2,025004,Traitement d'écho,2,Réservé,,,,,Operational
+bufr4/0/25/004/3,025004,Traitement d'écho,3,Valeur manquante,,,,,Operational
+bufr4/0/25/005/0,025005,Intégration d'écho,0,"Logarithme - 2,5 dB",,,,,Operational
+bufr4/0/25/005/1,025005,Intégration d'écho,1,Linéaire,,,,,Operational
+bufr4/0/25/005/2,025005,Intégration d'écho,2,Spécial,,,,,Operational
+bufr4/0/25/005/3,025005,Intégration d'écho,3,Valeur manquante,,,,,Operational
+bufr4/0/25/006/0,025006,Conversion de Z en R,0,Conversion de Z en R,,,,,Operational
+bufr4/0/25/006/1,025006,Conversion de Z en R,1,"(ZH, ZDR) à (NO, DO) à R",,,,,Operational
+bufr4/0/25/006/2,025006,Conversion de Z en R,2,"(Z (F1), Z (F2)) à atténuation à R",,,,,Operational
+bufr4/0/25/006/3-5,025006,Conversion de Z en R,3-5,Réservé,,,,,Operational
+bufr4/0/25/006/6,025006,Conversion de Z en R,6,Autre,,,,,Operational
+bufr4/0/25/006/7,025006,Conversion de Z en R,7,Valeur manquante,,,,,Operational
+bufr4/0/25/009/1,025009,Méthode d'étalonnage,1,Aucun,,,,,Deprecated
+bufr4/0/25/009/2,025009,Méthode d'étalonnage,2,Cible ou signal d'étalonnage,,,,,Deprecated
+bufr4/0/25/009/3,025009,Méthode d'étalonnage,3,Contre les pluviomètres,,,,,Deprecated
+bufr4/0/25/009/4,025009,Méthode d'étalonnage,4,Contre d'autres instruments (disdromètre - atténuation),,,,,Deprecated
+bufr4/0/25/009/All-4,025009,Méthode d'étalonnage,All 4,Valeur manquante,,,,,Deprecated
+bufr4/0/25/010/0,025010,Traitement du désordre,0,Aucun,,,,,Operational
+bufr4/0/25/010/1,025010,Traitement du désordre,1,Carte,,,,,Operational
+bufr4/0/25/010/2,025010,Traitement du désordre,2,Insertion de données d'altitude supérieure et de carte,,,,,Operational
+bufr4/0/25/010/3,025010,Traitement du désordre,3,Analyse du signal logarithmique fluctuant (détection de fouillis),,,,,Operational
+bufr4/0/25/010/4,025010,Traitement du désordre,4,Extraction de la partie fluctuante du signal linéaire (suppression de fouillis),,,,,Operational
+bufr4/0/25/010/5,025010,Traitement du désordre,5,Suppression du fouillis - Doppler,,,,,Operational
+bufr4/0/25/010/6,025010,Traitement du désordre,6,Analyse multiparamétrique,,,,,Operational
+bufr4/0/25/010/7-14,025010,Traitement du désordre,7-14,Réservé,,,,,Operational
+bufr4/0/25/010/15,025010,Traitement du désordre,15,Valeur manquante,,,,,Operational
+bufr4/0/25/011/0,025011,Correction d'occultation au sol (filtrage),0,Aucun,,,,,Operational
+bufr4/0/25/011/1,025011,Correction d'occultation au sol (filtrage),1,Carte des facteurs de correction,,,,,Operational
+bufr4/0/25/011/2,025011,Correction d'occultation au sol (filtrage),2,Interpolation (azimut ou élévation),,,,,Operational
+bufr4/0/25/011/3,025011,Correction d'occultation au sol (filtrage),3,Valeur manquante,,,,,Operational
+bufr4/0/25/012/0,025012,Correction d'atténuation de portée,0,Matériel,,,,,Operational
+bufr4/0/25/012/1,025012,Correction d'atténuation de portée,1,Logiciel,,,,,Operational
+bufr4/0/25/012/2,025012,Correction d'atténuation de portée,2,Matériel,,,,,Operational
+bufr4/0/25/012/3,025012,Correction d'atténuation de portée,3,Valeur manquante,,,,,Operational
+bufr4/0/25/013/1,025013,Correction de la bande brillante,1,Correction de la bande brillante,,,,,Operational
+bufr4/0/25/013/All-2,025013,Correction de la bande brillante,All 2,Valeur manquante,,,,,Operational
+bufr4/0/25/015/1,025015,Correction de l'atténuation du radôme,1,Correction de l'atténuation du radôme,,,,,Operational
+bufr4/0/25/015/All-2,025015,Correction de l'atténuation du radôme,All 2,Valeur manquante,,,,,Operational
+bufr4/0/25/017/1,025017,Correction d'atténuation des précipitations,1,Correction d'atténuation des précipitations,,,,,Operational
+bufr4/0/25/017/All-2,025017,Correction d'atténuation des précipitations,All 2,Valeur manquante,,,,,Operational
+bufr4/0/25/020/0,025020,Estimation de la vitesse moyenne,0,TFR (transformée de Fourier rapide),,,,,Operational
+bufr4/0/25/020/1,025020,Estimation de la vitesse moyenne,1,PPP (traitement par paires d'impulsions),,,,,Operational
+bufr4/0/25/020/2,025020,Estimation de la vitesse moyenne,2,Changement de phase vectoriel (VPC),,,,,Operational
+bufr4/0/25/020/3,025020,Estimation de la vitesse moyenne,3,Valeur manquante,,,,,Operational
+bufr4/0/25/021/1,025021,Amélioration du calcul du vent,1,Moyenne simple,,,,,Operational
+bufr4/0/25/021/2,025021,Amélioration du calcul du vent,2,Moyenne consensuelle,,,,,Operational
+bufr4/0/25/021/3,025021,Amélioration du calcul du vent,3,Vérification médiane,,,,,Operational
+bufr4/0/25/021/4,025021,Amélioration du calcul du vent,4,Vérification de cohérence verticale,,,,,Operational
+bufr4/0/25/021/5,025021,Amélioration du calcul du vent,5,Autre,,,,,Operational
+bufr4/0/25/021/6-7,025021,Amélioration du calcul du vent,6-7,Réservé,,,,,Operational
+bufr4/0/25/021/All-8,025021,Amélioration du calcul du vent,All 8,Valeur manquante,,,,,Operational
+bufr4/0/25/022/1,025022,Drapeau de rejet GHRSST,1,Non traité,,,,,Operational
+bufr4/0/25/022/2,025022,Drapeau de rejet GHRSST,2,Terre suspectée,,,,,Operational
+bufr4/0/25/022/3,025022,Drapeau de rejet GHRSST,3,Vitesse du vent trop élevée,,,,,Operational
+bufr4/0/25/022/4,025022,Drapeau de rejet GHRSST,4,Glace détectée,,,,,Operational
+bufr4/0/25/022/5,025022,Drapeau de rejet GHRSST,5,Pluie détectée (uniquement par récupérations micro-ondes),,,,,Operational
+bufr4/0/25/022/6,025022,Drapeau de rejet GHRSST,6,Nuageux détecté (retrouvailles infrarouges uniquement),,,,,Operational
+bufr4/0/25/022/7,025022,Drapeau de rejet GHRSST,7,Valeur cosmétique,,,,,Operational
+bufr4/0/25/022/8,025022,Drapeau de rejet GHRSST,8,SST hors plage,,,,,Operational
+bufr4/0/25/022/All-9,025022,Drapeau de rejet GHRSST,All 9,Valeur manquante,,,,,Operational
+bufr4/0/25/023/1,025023,Drapeau de confiance GHRSST,1,La valeur de confiance par défaut a été utilisée,,,,,Operational
+bufr4/0/25/023/2,025023,Drapeau de confiance GHRSST,2,Biais par défaut et écart type ont été utilisés,,,,,Operational
+bufr4/0/25/023/3,025023,Drapeau de confiance GHRSST,3,Pas de reflet solaire,,,,,Operational
+bufr4/0/25/023/4,025023,Drapeau de confiance GHRSST,4,Récupération de la glace de mer pour les données micro-ondes,,,,,Operational
+bufr4/0/25/023/5,025023,Drapeau de confiance GHRSST,5,Récupération de la vitesse élevée du vent,,,,,Operational
+bufr4/0/25/023/6,025023,Drapeau de confiance GHRSST,6,SST inexactes en raison de SST basses (< 285K) (s'applique uniquement à l'instrument TMI),,,,,Operational
+bufr4/0/25/023/7,025023,Drapeau de confiance GHRSST,7,Contamination relâchée par la pluie suspectée,,,,,Operational
+bufr4/0/25/023/8,025023,Drapeau de confiance GHRSST,8,Contamination potentielle des lobes secondaires,,,,,Operational
+bufr4/0/25/023/All-9,025023,Drapeau de confiance GHRSST,All 9,Valeur manquante,,,,,Operational
+bufr4/0/25/024/0,025024,Qualité des données GHRSST,0,Récupération infrarouge non traitée,,,,,Operational
+bufr4/0/25/024/1,025024,Qualité des données GHRSST,1,Retrouvailles nuageuses,,,,,Operational
+bufr4/0/25/024/2,025024,Qualité des données GHRSST,2,Mauvais : Données probablement contaminées par des nuages,,,,,Operational
+bufr4/0/25/024/3,025024,Qualité des données GHRSST,3,Données non suspectes,,,,,Operational
+bufr4/0/25/024/4,025024,Qualité des données GHRSST,4,Données acceptables,,,,,Operational
+bufr4/0/25/024/5,025024,Qualité des données GHRSST,5,Bonnes données,,,,,Operational
+bufr4/0/25/024/6,025024,Qualité des données GHRSST,6,Peau froide suspectée,,,,,Operational
+bufr4/0/25/024/7-9,025024,Qualité des données GHRSST,7-9,Réservé,,,,,Operational
+bufr4/0/25/024/10,025024,Qualité des données GHRSST,10,Récupération micro-ondes non traitée,,,,,Operational
+bufr4/0/25/024/11,025024,Qualité des données GHRSST,11,Récupération micro-ondes douteuse qui pourrait être contaminée,,,,,Operational
+bufr4/0/25/024/12,025024,Qualité des données GHRSST,12,Récupération micro-ondes non traitée,,,,,Operational
+bufr4/0/25/024/13,025024,Qualité des données GHRSST,13,Forte probabilité de variabilité diurne,,,,,Operational
+bufr4/0/25/024/14,025024,Qualité des données GHRSST,14,Réservé,,,,,Operational
+bufr4/0/25/024/15,025024,Qualité des données GHRSST,15,Valeur manquante,,,,,Operational
+bufr4/0/25/029/1,025029,Méthode d'étalonnage,1,Réservé,,,,,Operational
+bufr4/0/25/029/2,025029,Méthode d'étalonnage,2,Cible ou signal d'étalonnage,,,,,Operational
+bufr4/0/25/029/3,025029,Méthode d'étalonnage,3,Contre les pluviomètres,,,,,Operational
+bufr4/0/25/029/4,025029,Méthode d'étalonnage,4,Contre d'autres instruments (disdromètre - atténuation),,,,,Operational
+bufr4/0/25/029/5,025029,Méthode d'étalonnage,5,Réservé,,,,,Operational
+bufr4/0/25/029/All-6,025029,Méthode d'étalonnage,All 6,Valeur manquante,,,,,Operational
+bufr4/0/25/030/0,025030,Utilisation de la température moyenne mobile de la surface de la mer,0,Utilisation de la température moyenne mobile de la surface de la mer,,,,,Operational
+bufr4/0/25/030/1,025030,Utilisation de la température moyenne mobile de la surface de la mer,1,Utilisation de la température moyenne mobile de la surface de la mer,,,,,Operational
+bufr4/0/25/030/2,025030,Utilisation de la température moyenne mobile de la surface de la mer,2,Utilisation de la température moyenne mobile de la surface de la mer,,,,,Operational
+bufr4/0/25/030/3,025030,Utilisation de la température moyenne mobile de la surface de la mer,3,Valeur manquante,,,,,Operational
+bufr4/0/25/031/0,025031,Méthode d'amincissement du profil vertical généré par NWP,0,Réservé,,,,,Operational
+bufr4/0/25/031/1,025031,Méthode d'amincissement du profil vertical généré par NWP,1,Aucun amincissement appliqué (tous les niveaux natifs du modèle sont inclus de la base au sommet du pseudo-sondage),,,,,Operational
+bufr4/0/25/031/2,025031,Méthode d'amincissement du profil vertical généré par NWP,2,Les niveaux du modèle natif sont présents uniquement s'ils sont des niveaux significatifs conformément aux réglementations B/C 25 pour les sondages TEMP conventionnels.,,,,,Operational
+bufr4/0/25/031/3,025031,Méthode d'amincissement du profil vertical généré par NWP,3,Un sous-ensemble prédéfini de niveaux natifs du modèle est présent,,,,,Operational
+bufr4/0/25/031/4,025031,Méthode d'amincissement du profil vertical généré par NWP,4,Aucun niveau de modèle natif n'est présent. Tous les niveaux de profil sont interpolés à un ensemble prédéfini de niveaux de coordonnées de pression.,,,,,Operational
+bufr4/0/25/031/5-6,025031,Méthode d'amincissement du profil vertical généré par NWP,5-6,Réservé,,,,,Operational
+bufr4/0/25/031/7,025031,Méthode d'amincissement du profil vertical généré par NWP,7,Valeur manquante,,,,,Operational
+bufr4/0/25/032/0,025032,Informations sur le mode du profileur de vent,0,Réservé,,,,,Operational
+bufr4/0/25/032/1,025032,Informations sur le mode du profileur de vent,1,Données du mode bas,,,,,Operational
+bufr4/0/25/032/2,025032,Informations sur le mode du profileur de vent,2,Données du mode bas,,,,,Operational
+bufr4/0/25/032/3,025032,Informations sur le mode du profileur de vent,3,Valeur manquante,,,,,Operational
+bufr4/0/25/033/0,025033,Informations sur le mode du profileur de vent,0,Profileur de vent fonctionnant en sous-mode A,,,,,Operational
+bufr4/0/25/033/1,025033,Informations sur le mode du profileur de vent,1,Profileur de vent fonctionnant en sous-mode A,,,,,Operational
+bufr4/0/25/033/2,025033,Informations sur le mode du profileur de vent,2,Réservé,,,,,Operational
+bufr4/0/25/033/3,025033,Informations sur le mode du profileur de vent,3,Valeur manquante,,,,,Operational
+bufr4/0/25/034/1,025034,Résultats des tests de contrôle qualité du profileur de vent,1,Test A effectué et échoué,,,,,Operational
+bufr4/0/25/034/2,025034,Résultats des tests de contrôle qualité du profileur de vent,2,Test A effectué et échoué,,,,,Operational
+bufr4/0/25/034/3,025034,Résultats des tests de contrôle qualité du profileur de vent,3,Résultats des tests non concluants,,,,,Operational
+bufr4/0/25/034/All-4,025034,Résultats des tests de contrôle qualité du profileur de vent,All 4,Valeur manquante,,,,,Operational
+bufr4/0/25/035/0,025035,Méthode de décision pour la polarité,0,Non défini,,,,,Operational
+bufr4/0/25/035/1,025035,Méthode de décision pour la polarité,1,Déviation individuelle de tension,,,,,Operational
+bufr4/0/25/035/2,025035,Méthode de décision pour la polarité,2,"Basé sur le courant, au-dessus d’un seuil",,,,,Operational
+bufr4/0/25/035/3,025035,Méthode de décision pour la polarité,3,"Basé sur la tension, au-dessus d’un seuil",,,,,Operational
+bufr4/0/25/035/4,025035,Méthode de décision pour la polarité,4,"Consensus des capteurs, courant au-dessus d’un seuil",,,,,Operational
+bufr4/0/25/035/5,025035,Méthode de décision pour la polarité,5,"Consensus des capteurs, courant au-dessus d’un seuil",,,,,Operational
+bufr4/0/25/035/6,025035,Méthode de décision pour la polarité,6,Réservé,,,,,Operational
+bufr4/0/25/035/7,025035,Méthode de décision pour la polarité,7,Valeur manquante,,,,,Operational
+bufr4/0/25/036/0,025036,Méthode de localisation atmosphérique,0,Réseau de plusieurs radiogoniomètres fonctionnant sur les mêmes atmosphériques individuels,,,,,Operational
+bufr4/0/25/036/1,025036,Méthode de localisation atmosphérique,1,Réseau de plusieurs stations de temps d'arrivée fonctionnant sur les mêmes atmosphériques individuels,,,,,Operational
+bufr4/0/25/036/2-5,025036,Méthode de localisation atmosphérique,2-5,Réservé,,,,,Operational
+bufr4/0/25/036/6,025036,Méthode de localisation atmosphérique,6,Technique de portée et de relèvement à station unique,,,,,Operational
+bufr4/0/25/036/7-14,025036,Méthode de localisation atmosphérique,7-14,Réservé,,,,,Operational
+bufr4/0/25/036/15,025036,Méthode de localisation atmosphérique,15,Valeur manquante,,,,,Operational
+bufr4/0/25/040/0,025040,Dérivation du produit éolien de CO2,0,Mode non spécifique,,,,,Operational
+bufr4/0/25/040/1,025040,Dérivation du produit éolien de CO2,1,Première estimation des données,,,,,Operational
+bufr4/0/25/040/2,025040,Dérivation du produit éolien de CO2,2,Données cloud,,,,,Operational
+bufr4/0/25/040/3,025040,Dérivation du produit éolien de CO2,3,Données moyennes vectorielles,,,,,Operational
+bufr4/0/25/040/4,025040,Dérivation du produit éolien de CO2,4,Données primaires,,,,,Operational
+bufr4/0/25/040/5,025040,Dérivation du produit éolien de CO2,5,Première estimation des données,,,,,Operational
+bufr4/0/25/040/6,025040,Dérivation du produit éolien de CO2,6,Données vectorielles,,,,,Operational
+bufr4/0/25/040/7,025040,Dérivation du produit éolien de CO2,7,Données de traçage ; cette image,,,,,Operational
+bufr4/0/25/040/8,025040,Dérivation du produit éolien de CO2,8,Données de traçage vers l'image suivante,,,,,Operational
+bufr4/0/25/040/9-14,025040,Dérivation du produit éolien de CO2,9-14,Réservé,,,,,Operational
+bufr4/0/25/040/15,025040,Dérivation du produit éolien de CO2,15,Valeur manquante,,,,,Operational
+bufr4/0/25/041/0,025041,Méthode de rapport de direction de plateforme mobile,0,Direction initialement signalée en degrés vrais,,,,,Operational
+bufr4/0/25/041/1,025041,Méthode de rapport de direction de plateforme mobile,1,"Direction initialement signalée en utilisant la table de codes 0700, FM 13",,,,,Operational
+bufr4/0/25/041/2,025041,Méthode de rapport de direction de plateforme mobile,2,Réservé,,,,,Operational
+bufr4/0/25/041/3,025041,Méthode de rapport de direction de plateforme mobile,3,Valeur manquante,,,,,Operational
+bufr4/0/25/042/0,025042,Méthode de rapport de vitesse de plateforme mobile,0,Vitesse initialement signalée en mètres par seconde,,,,,Operational
+bufr4/0/25/042/1,025042,Méthode de rapport de vitesse de plateforme mobile,1,"La vitesse initialement signalée en utilisant la table de codes 4451, FM 13",,,,,Operational
+bufr4/0/25/042/2,025042,Méthode de rapport de vitesse de plateforme mobile,2,Réservé,,,,,Operational
+bufr4/0/25/042/3,025042,Méthode de rapport de vitesse de plateforme mobile,3,Valeur manquante,,,,,Operational
+bufr4/0/25/045/1-20,025045,Combinaison de canaux HIRS,1-20,"En commençant par la première position de bit (bit de poids fort), si la position de bit est réglée sur 1, alors le canal est présent, si la position de bit est réglée sur 0, alors le canal n'est pas présent.",,,,,Operational
+bufr4/0/25/045/All-21,025045,Combinaison de canaux HIRS,All 21,Valeur manquante,,,,,Operational
+bufr4/0/25/046/1-4,025046,Combinaison de canaux MSU,1-4,"En commençant par la première position de bit (bit de poids fort), si la position de bit est réglée sur 1, alors le canal est présent, si la position de bit est réglée sur 0, alors le canal n'est pas présent.",,,,,Operational
+bufr4/0/25/046/All-5,025046,Combinaison de canaux MSU,All 5,Valeur manquante,,,,,Operational
+bufr4/0/25/047/1-3,025047,Combinaison de canaux SSU,1-3,"En commençant par la première position de bit (bit de poids fort), si la position de bit est réglée sur 1, alors le canal est présent, si la position de bit est réglée sur 0, alors le canal n'est pas présent.",,,,,Operational
+bufr4/0/25/047/All-4,025047,Combinaison de canaux SSU,All 4,Valeur manquante,,,,,Operational
+bufr4/0/25/048/1-15,025048,Combinaison de canaux AMSU-A,1-15,"En commençant par la première position de bit (bit de poids fort), si la position de bit est réglée sur 1, alors le canal est présent, si la position de bit est réglée sur 0, alors le canal n'est pas présent.",,,,,Operational
+bufr4/0/25/048/All-16,025048,Combinaison de canaux AMSU-A,All 16,Valeur manquante,,,,,Operational
+bufr4/0/25/049/1-5,025049,Combinaison de canaux AMSU-A,1-5,"En commençant par la première position de bit (bit de poids fort), si la position de bit est réglée sur 1, alors le canal est présent, si la position de bit est réglée sur 0, alors le canal n'est pas présent.",,,,,Operational
+bufr4/0/25/049/All-6,025049,Combinaison de canaux AMSU-A,All 6,Valeur manquante,,,,,Operational
+bufr4/0/25/051/1-6,025051,Combinaison de canaux AVHRR,1-6,"En commençant par la première position de bit (bit de poids fort), si la position de bit est réglée sur 1, alors le canal est présent, si la position de bit est réglée sur 0, alors le canal n'est pas présent.",,,,,Operational
+bufr4/0/25/051/All-7,025051,Combinaison de canaux AVHRR,All 7,Valeur manquante,,,,,Operational
+bufr4/0/25/053/1,025053,Qualité d'observation,1,Bien,,,,,Operational
+bufr4/0/25/053/2,025053,Qualité d'observation,2,Redondant,,,,,Operational
+bufr4/0/25/053/3,025053,Qualité d'observation,3,Douteux,,,,,Operational
+bufr4/0/25/053/4,025053,Qualité d'observation,4,Mauvais,,,,,Operational
+bufr4/0/25/053/5,025053,Qualité d'observation,5,Expérimental,,,,,Operational
+bufr4/0/25/053/6,025053,Qualité d'observation,6,Précipitant,,,,,Operational
+bufr4/0/25/053/7-11,025053,Qualité d'observation,7-11,Réservé,,,,,Operational
+bufr4/0/25/053/All-12,025053,Qualité d'observation,All 12,Valeur manquante,,,,,Operational
+bufr4/0/25/063/0,025063,Processeur central ou identifiant du système,0,Non défini,,,,,Operational
+bufr4/0/25/063/1,025063,Processeur central ou identifiant du système,1,Processeur principal,,,,,Operational
+bufr4/0/25/063/2,025063,Processeur central ou identifiant du système,2,Processeur de secours,,,,,Operational
+bufr4/0/25/063/3-254,025063,Processeur central ou identifiant du système,3-254,Réservé,,,,,Operational
+bufr4/0/25/063/255,025063,Processeur central ou identifiant du système,255,Valeur manquante,,,,,Operational
+bufr4/0/25/069/1,025069,Corrections de pression au niveau de vol,1,Lissé,,,,,Operational
+bufr4/0/25/069/2,025069,Corrections de pression au niveau de vol,2,Ligne de base ajustée,,,,,Operational
+bufr4/0/25/069/3,025069,Corrections de pression au niveau de vol,3,Intervalle de temps normalisé,,,,,Operational
+bufr4/0/25/069/4,025069,Corrections de pression au niveau de vol,4,Valeur aberrante vérifiée,,,,,Operational
+bufr4/0/25/069/5,025069,Corrections de pression au niveau de vol,5,Plausibilité vérifiée,,,,,Operational
+bufr4/0/25/069/6,025069,Corrections de pression au niveau de vol,6,Cohérence vérifiée,,,,,Operational
+bufr4/0/25/069/7,025069,Corrections de pression au niveau de vol,7,Valeur interpolée,,,,,Operational
+bufr4/0/25/069/All-8,025069,Corrections de pression au niveau de vol,All 8,Valeur manquante,,,,,Operational
+bufr4/0/25/086/0,025086,Indicateur de correction de profondeur,0,Les profondeurs ne sont pas corrigées,,,,,Operational
+bufr4/0/25/086/1,025086,Indicateur de correction de profondeur,1,Les profondeurs ne sont pas corrigées,,,,,Operational
+bufr4/0/25/086/2,025086,Indicateur de correction de profondeur,2,Réservé,,,,,Operational
+bufr4/0/25/086/3,025086,Indicateur de correction de profondeur,3,Valeur manquante,,,,,Operational
+bufr4/0/25/090/0,025090,Drapeau d'état d'orbite,0,Orbite calculée pendant une manœuvre,,,,,Operational
+bufr4/0/25/090/1,025090,Drapeau d'état d'orbite,1,Orbite des opérations de mission ajustée,,,,,Operational
+bufr4/0/25/090/2,025090,Drapeau d'état d'orbite,2,Orbite des opérations de mission extrapolée,,,,,Operational
+bufr4/0/25/090/3,025090,Drapeau d'état d'orbite,3,Orbite (préliminaire/précise) ajustée,,,,,Operational
+bufr4/0/25/090/4,025090,Drapeau d'état d'orbite,4,Orbite calculée pendant une manœuvre,,,,,Operational
+bufr4/0/25/090/5,025090,Drapeau d'état d'orbite,5,L'orbite (préliminaire/précise) est interpolée sur une lacune des données de suivi.,,,,,Operational
+bufr4/0/25/090/6,025090,Drapeau d'état d'orbite,6,L'orbite (préliminaire/précise) est extrapolée pour une durée inférieure à 1 jour.,,,,,Operational
+bufr4/0/25/090/7,025090,Drapeau d'état d'orbite,7,L'orbite (préliminaire/précise) est extrapolée pour une durée inférieure à 1 jour.,,,,,Operational
+bufr4/0/25/090/8,025090,Drapeau d'état d'orbite,8,L'orbite (préliminaire/précise) est extrapolée pour une durée inférieure à 1 jour.,,,,,Operational
+bufr4/0/25/090/9,025090,Drapeau d'état d'orbite,9,Navigateur d'orbite DORIS DIODE,,,(voir la Note),37,Operational
+bufr4/0/25/090/10-14,025090,Drapeau d'état d'orbite,10-14,Réservé,,,,,Operational
+bufr4/0/25/090/15,025090,Drapeau d'état d'orbite,15,Valeur manquante,,,,,Operational
+bufr4/0/25/093/1,025093,Correction du calcul RASS,1,Aucune correction,,,,,Operational
+bufr4/0/25/093/2,025093,Correction du calcul RASS,2,Correction de la vitesse verticale,,,,,Operational
+bufr4/0/25/093/3-6,025093,Correction du calcul RASS,3-6,Réservé,,,,,Operational
+bufr4/0/25/093/7,025093,Correction du calcul RASS,7,Toutes les corrections,,,,,Operational
+bufr4/0/25/093/All-8,025093,Correction du calcul RASS,All 8,Valeur manquante,,,,,Operational
+bufr4/0/25/095/1,025095,Drapeau d'état de l'altimètre,1,"Fonctionnement de l'altimètre (0 si nominal, 1 si secours)",,,,,Operational
+bufr4/0/25/095/All-2,025095,Drapeau d'état de l'altimètre,All 2,Valeur manquante,,,,,Operational
+bufr4/0/25/096/1,025096,Drapeau d'état du radiomètre,1,"Indicateur de mode (0 si mode 2, 1 si mode 1)",,,,,Operational
+bufr4/0/25/096/2,025096,Drapeau d'état du radiomètre,2,"Indicateur de séquence d'étalonnage Mode 1 (0 si acquisition de données normale en mode 1 ou 2, 1 si séquence d'étalonnage Mode 1)  Les bits 3 et 4 indiquent le(s) canal(aux) actif(s) à 23,8 GHz :",,,,,Operational
+bufr4/0/25/096/3,025096,Drapeau d'état du radiomètre,3,"Canal 2 (0 si activé, 1 si désactivé)",,,,,Operational
+bufr4/0/25/096/4,025096,Drapeau d'état du radiomètre,4,"Canal 2 (0 si activé, 1 si désactivé)",,,,,Operational
+bufr4/0/25/096/All-5,025096,Drapeau d'état du radiomètre,All 5,Valeur manquante,,,,,Operational
+bufr4/0/25/097/0,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,0,Plages entre 0 et 30 cm,,,,,Operational
+bufr4/0/25/097/1,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,1,Plages entre 0 et 30 cm,,,,,Operational
+bufr4/0/25/097/2,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,2,Plages entre 0 et 30 cm,,,,,Operational
+bufr4/0/25/097/3,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,3,Plages entre 90 et 120 cm,,,,,Operational
+bufr4/0/25/097/4,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,4,Plages entre 90 et 120 cm,,,,,Operational
+bufr4/0/25/097/5,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,5,Plages entre 90 et 120 cm,,,,,Operational
+bufr4/0/25/097/6,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,6,Plages entre 90 et 120 cm,,,,,Operational
+bufr4/0/25/097/7,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,7,Plages entre 90 et 120 cm,,,,,Operational
+bufr4/0/25/097/8,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,8,Plages entre 240 et 270 cm,,,,,Operational
+bufr4/0/25/097/9,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,9,Plages entre 240 et 270 cm,,,,,Operational
+bufr4/0/25/097/10-14,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,10-14,Réservé,,,,,Operational
+bufr4/0/25/097/15,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,15,Valeur manquante,,,,,Operational
+bufr4/0/25/098/1,025098,Indicateur de qualité des données de l'altimètre,1,Plage de bande Ku,,,,,Operational
+bufr4/0/25/098/2,025098,Indicateur de qualité des données de l'altimètre,2,Gamme de bande C,,,,,Operational
+bufr4/0/25/098/3,025098,Indicateur de qualité des données de l'altimètre,3,Bande Ku SWH,,,,,Operational
+bufr4/0/25/098/4,025098,Indicateur de qualité des données de l'altimètre,4,C band SWH,,,,,Operational
+bufr4/0/25/098/5,025098,Indicateur de qualité des données de l'altimètre,5,Coefficient de rétrodiffusion océanique corrigé sur la bande Ku,,,,,Operational
+bufr4/0/25/098/6,025098,Indicateur de qualité des données de l'altimètre,6,Coefficient de rétrodiffusion en bande C,,,,,Operational
+bufr4/0/25/098/7,025098,Indicateur de qualité des données de l'altimètre,7,Angle hors nadir à partir des paramètres d'onde Ku.,,,,,Operational
+bufr4/0/25/098/8,025098,Indicateur de qualité des données de l'altimètre,8,Angle hors-nadir depuis la plateforme,,,,,Operational
+bufr4/0/25/098/All-9,025098,Indicateur de qualité des données de l'altimètre,All 9,Valeur manquante,,,,,Operational
+bufr4/0/25/099/1,025099,Indicateur de qualité des données de l'altimètre,1,Correction instrumentale du réseau en bande Ku,,,,,Operational
+bufr4/0/25/099/2,025099,Indicateur de qualité des données de l'altimètre,2,Correction instrumentale de portée en bande C,,,,,Operational
+bufr4/0/25/099/3,025099,Indicateur de qualité des données de l'altimètre,3,Correction instrumentale du réseau en bande Ku,,,,,Operational
+bufr4/0/25/099/4,025099,Indicateur de qualité des données de l'altimètre,4,Correction instrumentale de SWH en bande C,,,,,Operational
+bufr4/0/25/099/5,025099,Indicateur de qualité des données de l'altimètre,5,Correction instrumentale du réseau en bande Ku,,,,,Operational
+bufr4/0/25/099/6,025099,Indicateur de qualité des données de l'altimètre,6,Coefficient de rétrodiffusion en bande C,,,,,Operational
+bufr4/0/25/099/7-8,025099,Indicateur de qualité des données de l'altimètre,7-8,Réservé,,,,,Operational
+bufr4/0/25/099/All-9,025099,Indicateur de qualité des données de l'altimètre,All 9,Valeur manquante,,,,,Operational
+bufr4/0/25/110/1,025110,Résumé du traitement d'image,1,Analyse des données brutes utilisée pour la correction des données brutes. Correction effectuée en utilisant les paramètres par défaut.,,,,,Operational
+bufr4/0/25/110/2,025110,Résumé du traitement d'image,2,Analyse des données brutes utilisée pour la correction des données brutes. Correction effectuée en utilisant les paramètres par défaut.,,,,,Operational
+bufr4/0/25/110/3,025110,Résumé du traitement d'image,3,Correction du diagramme d'élévation de l'antenne appliquée,,,,,Operational
+bufr4/0/25/110/4,025110,Résumé du traitement d'image,4,Réplique nominale de chirp utilisée,,,,,Operational
+bufr4/0/25/110/5,025110,Résumé du traitement d'image,5,Gazouillis reconstruit utilisé,,,,,Operational
+bufr4/0/25/110/6,025110,Résumé du traitement d'image,6,Conversion de la distance oblique à la distance au sol appliquée,,,,,Operational
+bufr4/0/25/110/7-9,025110,Résumé du traitement d'image,7-9,Réservé,,,,,Operational
+bufr4/0/25/110/All-10,025110,Résumé du traitement d'image,All 10,Valeur manquante,,,,,Operational
+bufr4/0/25/112/1,025112,Indicateur de qualité des données de l'altimètre,1,Gamme de bande C,,,,,Operational
+bufr4/0/25/112/2,025112,Indicateur de qualité des données de l'altimètre,2,Hauteur significative des vagues,,,,,Operational
+bufr4/0/25/112/3,025112,Indicateur de qualité des données de l'altimètre,3,Coefficient de rétrodiffusion en bande C,,,,,Operational
+bufr4/0/25/112/4,025112,Indicateur de qualité des données de l'altimètre,4,Angle hors nadir à partir des paramètres d'onde Ku.,,,,,Operational
+bufr4/0/25/112/5,025112,Indicateur de qualité des données de l'altimètre,5,Angle hors-nadir depuis la plateforme,,,,,Operational
+bufr4/0/25/112/6-8,025112,Indicateur de qualité des données de l'altimètre,6-8,Réservé,,,,,Operational
+bufr4/0/25/112/All-9,025112,Indicateur de qualité des données de l'altimètre,All 9,Valeur manquante,,,,,Operational
+bufr4/0/25/113/1,025113,Indicateur de qualité des données de l'altimètre,1,Correction instrumentale de portée en bande C,,,,,Operational
+bufr4/0/25/113/2,025113,Indicateur de qualité des données de l'altimètre,2,Correction instrumentale de hauteur de vague significative spécifique à la bande,,,,,Operational
+bufr4/0/25/113/3,025113,Indicateur de qualité des données de l'altimètre,3,Correction instrumentale du coefficient de rétrodiffusion spécifique à la bande,,,,,Operational
+bufr4/0/25/113/4-8,025113,Indicateur de qualité des données de l'altimètre,4-8,Réservé,,,,,Operational
+bufr4/0/25/113/All-9,025113,Indicateur de qualité des données de l'altimètre,All 9,Valeur manquante,,,,,Operational
+bufr4/0/25/120/0,025120,Drapeau de traitement RA2-L2,0,Pourcentage de DSRs exempts d'erreurs de traitement lors du traitement de Niveau 2 est supérieur au seuil acceptable,,,,,Operational
+bufr4/0/25/120/1,025120,Drapeau de traitement RA2-L2,1,Pourcentage de DSRs exempts d'erreurs de traitement lors du traitement de Niveau 2 est supérieur au seuil acceptable,,,,,Operational
+bufr4/0/25/120/2,025120,Drapeau de traitement RA2-L2,2,Réservé,,,,,Operational
+bufr4/0/25/120/3,025120,Drapeau de traitement RA2-L2,3,Valeur manquante,,,,,Operational
+bufr4/0/25/122/0,025122,Configuration matérielle pour RF,0,Configuration matérielle pour RF,,,,,Operational
+bufr4/0/25/122/1,025122,Configuration matérielle pour RF,1,Configuration matérielle pour RF,,,,,Operational
+bufr4/0/25/122/2,025122,Configuration matérielle pour RF,2,Réservé,,,,,Operational
+bufr4/0/25/122/3,025122,Configuration matérielle pour RF,3,Valeur manquante,,,,,Operational
+bufr4/0/25/123/0,025123,Configuration matérielle pour HPA,0,Configuration matérielle pour HPA,,,,,Operational
+bufr4/0/25/123/1,025123,Configuration matérielle pour HPA,1,Configuration matérielle pour HPA,,,,,Operational
+bufr4/0/25/123/2,025123,Configuration matérielle pour HPA,2,Réservé,,,,,Operational
+bufr4/0/25/123/3,025123,Configuration matérielle pour HPA,3,Valeur manquante,,,,,Operational
+bufr4/0/25/124/0,025124,Drapeau de traitement MWR-L2,0,Pourcentage de DSRs exempts d'erreurs de traitement lors du traitement de Niveau 2 est supérieur au seuil acceptable,,,,,Operational
+bufr4/0/25/124/1,025124,Drapeau de traitement MWR-L2,1,Pourcentage de DSRs exempts d'erreurs de traitement lors du traitement de Niveau 2 est supérieur au seuil acceptable,,,,,Operational
+bufr4/0/25/124/2,025124,Drapeau de traitement MWR-L2,2,Réservé,,,,,Operational
+bufr4/0/25/124/3,025124,Drapeau de traitement MWR-L2,3,Valeur manquante,,,,,Operational
+bufr4/0/25/139/0,025139,Niveau de traitement,0,L1B,,,,,Operational
+bufr4/0/25/139/1,025139,Niveau de traitement,1,L2A,,,,,Operational
+bufr4/0/25/139/2-30,025139,Niveau de traitement,2-30,Réservé,,,,,Operational
+bufr4/0/25/139/31,025139,Niveau de traitement,31,Valeur manquante,,,,,Operational
+bufr4/0/25/150/1,025150,Méthode d'analyse de l'intensité des cyclones tropicaux à l'aide de données satellitaires,1,L'analyse d'intensité VIS (VISual imagery) de Dvorak,,,,,Operational
+bufr4/0/25/150/2,025150,Méthode d'analyse de l'intensité des cyclones tropicaux à l'aide de données satellitaires,2,L'analyse d'intensité EIR (Enhanced InfraRed imagery) de Dvorak,,,,,Operational
+bufr4/0/25/150/3-14,025150,Méthode d'analyse de l'intensité des cyclones tropicaux à l'aide de données satellitaires,3-14,Réservé,,,,,Operational
+bufr4/0/25/150/15,025150,Méthode d'analyse de l'intensité des cyclones tropicaux à l'aide de données satellitaires,15,Valeur manquante,,,,,Operational
+bufr4/0/25/174/1,025174,Drapeau d'information SMOS,1,Pixel est affecté par des effets RFI,,,,,Operational
+bufr4/0/25/174/2,025174,Drapeau d'information SMOS,2,Pixel est situé dans la direction de l'alias hexagonal centré sur l'alias Soleil.,,,,,Operational
+bufr4/0/25/174/3,025174,Drapeau d'information SMOS,3,Pixel est proche de la frontière délimitant la zone étendue sans alias.,,,,,Operational
+bufr4/0/25/174/4,025174,Drapeau d'information SMOS,4,Pixel est proche de la frontière délimitant la zone étendue sans alias.,,,,,Operational
+bufr4/0/25/174/5,025174,Drapeau d'information SMOS,5,Pixel est proche de la frontière délimitant la zone étendue sans alias.,,,,,Operational
+bufr4/0/25/174/6,025174,Drapeau d'information SMOS,6,Pixel est situé dans une zone où un alias lunaire a été reconstruit.,,,,,Operational
+bufr4/0/25/174/7,025174,Drapeau d'information SMOS,7,Pixel est situé dans une zone où une réflexion solaire a été détectée.,,,,,Operational
+bufr4/0/25/174/8,025174,Drapeau d'information SMOS,8,Pixel est situé dans une zone où une réflexion solaire a été détectée.,,,,,Operational
+bufr4/0/25/174/9,025174,Drapeau d'information SMOS,9,La transformation de cible plate a été effectuée lors de la reconstruction d'image de ce pixel.,,,,,Operational
+bufr4/0/25/174/10,025174,Drapeau d'information SMOS,10,La scène a été combinée avec une scène d'ajustement en polarisation opposée lors de la reconstruction de l'image pour tenir compte de la fuite de polarisation croisée.,,,,,Operational
+bufr4/0/25/174/11,025174,Drapeau d'information SMOS,11,Une correction lunaire directe a été effectuée lors de la reconstruction de l'image de ce pixel.,,,,,Operational
+bufr4/0/25/174/12,025174,Drapeau d'information SMOS,12,Une correction de réflexion solaire a été effectuée lors de la reconstruction de l'image de ce pixel.,,,,,Operational
+bufr4/0/25/174/13,025174,Drapeau d'information SMOS,13,Une correction de réflexion solaire a été effectuée lors de la reconstruction de l'image de ce pixel.,,,,,Operational
+bufr4/0/25/174/All-14,025174,Drapeau d'information SMOS,All 14,Valeur manquante,,,,,Operational
+bufr4/0/25/181/0,025181,Drapeau de traitement L1,0,D'accord,,,,,Operational
+bufr4/0/25/181/1,025181,Drapeau de traitement L1,1,Le pourcentage des enregistrements L2b exempts d'erreurs de traitement est inférieur au seuil acceptable.,,,,,Operational
+bufr4/0/25/181/2,025181,Drapeau de traitement L1,2,Valeur manquante,,,,,Operational
+bufr4/0/25/182/0,025182,Drapeau de traitement L1,0,D'accord,,,,,Operational
+bufr4/0/25/182/1,025182,Drapeau de traitement L1,1,Le pourcentage des enregistrements L2b exempts d'erreurs de traitement est inférieur au seuil acceptable.,,,,,Operational
+bufr4/0/25/182/2,025182,Drapeau de traitement L1,2,Valeur manquante,,,,,Operational
+bufr4/0/25/184/0,025184,Statut du produit L2,0,D'accord,,,,,Operational
+bufr4/0/25/184/1,025184,Statut du produit L2,1,Produit avec une durée inférieure à celle du produit d'entrée,,,,,Operational
+bufr4/0/25/184/2,025184,Statut du produit L2,2,Valeur manquante,,,,,Operational
+bufr4/0/25/185/0,025185,Méthode de chiffrement,0,AES 256,,,,,Operational
+bufr4/0/25/185/1-254,025185,Méthode de chiffrement,1-254,Réservé,,,,,Operational
+bufr4/0/25/185/255,025185,Méthode de chiffrement,255,Valeur manquante,,,,,Operational
+bufr4/0/25/187/0,025187,Drapeau de confiance GHRSST,0,Valide,,,,,Operational
+bufr4/0/25/187/1,025187,Drapeau de confiance GHRSST,1,Invalide,,,,,Operational
+bufr4/0/25/187/2-14,025187,Drapeau de confiance GHRSST,2-14,Réservé,,,,,Operational
+bufr4/0/25/187/15,025187,Drapeau de confiance GHRSST,15,Valeur manquante,,,,,Operational
+bufr4/0/25/188/0,025188,Méthode pour réduire la pression au niveau de la mer,0,Pression ajustée au niveau moyen de la mer conformément à la WMO-No. 8 pour les stations de basse altitude (< 50 m).,,,(voir la Note),44,Operational
+bufr4/0/25/188/1,025188,Méthode pour réduire la pression au niveau de la mer,1,Pression ajustée au niveau moyen de la mer conformément à la WMO-No. 8 pour les stations de basse altitude (< 50 m).,,,,,Operational
+bufr4/0/25/188/2,025188,Méthode pour réduire la pression au niveau de la mer,2,Pression ajustée au niveau de la mer selon la pratique nationale,,,,,Operational
+bufr4/0/25/188/3,025188,Méthode pour réduire la pression au niveau de la mer,3,Pression ajustée au niveau de la mer selon la pratique nationale,,,,,Operational
+bufr4/0/25/188/4,025188,Méthode pour réduire la pression au niveau de la mer,4,Pression non corrigée pour l'altitude,,,,,Operational
+bufr4/0/25/188/5-14,025188,Méthode pour réduire la pression au niveau de la mer,5-14,Réservé,,,,,Operational
+bufr4/0/25/188/15,025188,Méthode pour réduire la pression au niveau de la mer,15,Valeur manquante,,,,,Operational
+bufr4/0/25/190/0,025190,Mode de traitement d'écho de l'altimètre,0,Mode basse résolution (LRM),,,,,Operational
+bufr4/0/25/190/1,025190,Mode de traitement d'écho de l'altimètre,1,Radar à synthèse d'ouverture (SAR),,,,,Operational
+bufr4/0/25/190/2,025190,Mode de traitement d'écho de l'altimètre,2,LRM et SAR (entrelacés),,,,,Operational
+bufr4/0/25/190/3,025190,Mode de traitement d'écho de l'altimètre,3,Réservé,,,,,Operational
+bufr4/0/25/190/4,025190,Mode de traitement d'écho de l'altimètre,4,Pseudo-LRM (PLRM),,,,,Operational
+bufr4/0/25/190/5,025190,Mode de traitement d'écho de l'altimètre,5,Mode interférométrique SAR (SARIN),,,,,Operational
+bufr4/0/25/190/6-254,025190,Mode de traitement d'écho de l'altimètre,6-254,Réservé,,,,,Operational
+bufr4/0/25/190/255,025190,Mode de traitement d'écho de l'altimètre,255,Valeur manquante,,,,,Operational
+bufr4/0/25/191/0,025191,Mode de suivi de l'altimètre,0,Boucle ouverte,,,,,Operational
+bufr4/0/25/191/1,025191,Mode de suivi de l'altimètre,1,Boucle fermée,,,,,Operational
+bufr4/0/25/191/2,025191,Mode de suivi de l'altimètre,2,Gain fixe en boucle ouverte,,,,,Operational
+bufr4/0/25/191/3-254,025191,Mode de suivi de l'altimètre,3-254,Réservé,,,,,Operational
+bufr4/0/25/191/255,025191,Mode de suivi de l'altimètre,255,Valeur manquante,,,,,Operational

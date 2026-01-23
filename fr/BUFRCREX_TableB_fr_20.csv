@@ -1,0 +1,116 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/20/001,20,Phénomènes observés,020001,(Visibilité horizontale),m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/002,20,Phénomènes observés,020002,Visibilité verticale,m,-1,0,7,m,-1,3,,,Operational
+bufr4/0/20/003,20,Phénomènes observés,020003,Temps présent,Code table,0,0,9,Code table,0,3,(voir la Note 3),172,Operational
+bufr4/0/20/004,20,Phénomènes observés,020004,Temps passé (1),Code table,0,0,5,Code table,0,2,(voir la Note 3),171,Operational
+bufr4/0/20/005,20,Phénomènes observés,020005,Temps passé (1),Code table,0,0,5,Code table,0,2,(voir la Note 3),171,Operational
+bufr4/0/20/006,20,Phénomènes observés,020006,Règles de vol,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/008,20,Phénomènes observés,020008,Distribution cloud pour l'aviation,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/009,20,Phénomènes observés,020009,Indicateur météorologique général (TAF/METAR),Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/010,20,Phénomènes observés,020010,Couverture nuageuse (totale),%,0,0,7,%,0,3,(voir la Note 3),20,Operational
+bufr4/0/20/011,20,Phénomènes observés,020011,Quantité de nuages,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/012,20,Phénomènes observés,020012,Type de nuage,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/20/013,20,Phénomènes observés,020013,Hauteur du sommet du nuage,m,-1,-40,11,m,-1,4,(voir la Note 3),170,Operational
+bufr4/0/20/014,20,Phénomènes observés,020014,Hauteur du sommet du nuage,m,-1,-40,11,m,-1,4,,,Operational
+bufr4/0/20/015,20,Phénomènes observés,020015,Pression au sommet du nuage,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/016,20,Phénomènes observés,020016,Pression au sommet du nuage,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/017,20,Phénomènes observés,020017,Description du sommet des nuages,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/018,20,Phénomènes observés,020018,Tendance de la portée visuelle de piste,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/019,20,Phénomènes observés,020019,(Temps significatif présent ou prévu),CCITT IA5,0,0,72,Character,0,9,(voir la Note 3),118,Operational
+bufr4/0/20/020,20,Phénomènes observés,020020,Autres phénomènes météorologiques,CCITT IA5,0,0,32,Character,0,4,(voir la Note 3),118,Operational
+bufr4/0/20/021,20,Phénomènes observés,020021,Précipitation - type inconnu,Flag table,0,0,30,Flag table,0,10,,,Operational
+bufr4/0/20/022,20,Phénomènes observés,020022,Caractère de précipitation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/023,20,Phénomènes observés,020023,Autres phénomènes météorologiques,Flag table,0,0,18,Flag table,0,6,,,Operational
+bufr4/0/20/024,20,Phénomènes observés,020024,Intensité des phénomènes,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/025,20,Phénomènes observés,020025,Obscuration,Flag table,0,0,21,Flag table,0,7,,,Operational
+bufr4/0/20/026,20,Phénomènes observés,020026,Obscuration,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/027,20,Phénomènes observés,020027,Occurrence de phénomènes,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/20/028,20,Phénomènes observés,020028,Changement prévu d'intensité,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/029,20,Phénomènes observés,020029,Drapeau de pluie,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/031,20,Phénomènes observés,020031,Dépôt de glace (épaisseur),m,2,0,7,m,2,3,,,Operational
+bufr4/0/20/032,20,Phénomènes observés,020032,Taux d'accumulation de glace (estimé),Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/033,20,Phénomènes observés,020033,Cause de l'accumulation de glace,Flag table,0,0,4,Flag table,0,2,,,Operational
+bufr4/0/20/034,20,Phénomènes observés,020034,Concentration de glace de mer,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/035,20,Phénomènes observés,020035,Quantité et type de glace,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/036,20,Phénomènes observés,020036,Situation de glace,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/037,20,Phénomènes observés,020037,Développement de glace,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/038,20,Phénomènes observés,020038,Portée de la lisière de glace,degree true,0,0,12,degree true,0,3,(voir la Note 3),135,Operational
+bufr4/0/20/039,20,Phénomènes observés,020039,Distance de glace,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/040,20,Phénomènes observés,020040,Évolution de la neige dérivante,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/041,20,Phénomènes observés,020041,Givrage de la cellule,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/042,20,Phénomènes observés,020042,Givrage de la cellule,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/043,20,Phénomènes observés,020043,Contenu maximal en eau liquide,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/044,20,Phénomènes observés,020044,Contenu moyen en eau liquide,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/045,20,Phénomènes observés,020045,Conditions de grosses gouttelettes en surfusion (SLD),Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/048,20,Phénomènes observés,020048,Évolution de la fonctionnalité,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/050,20,Phénomènes observés,020050,Indice de nuage,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/20/051,20,Phénomènes observés,020051,Quantité de nuages bas,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/052,20,Phénomènes observés,020052,Quantité de nuages moyens,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/053,20,Phénomènes observés,020053,Quantité de nuages bas,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/054,20,Phénomènes observés,020054,Direction réelle d'où un phénomène ou des nuages se déplacent ou dans laquelle ils sont observés.,degree true,0,0,9,degree true,0,3,(voir la Note 3),159,Operational
+bufr4/0/20/055,20,Phénomènes observés,020055,État du ciel dans les tropiques,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/056,20,Phénomènes observés,020056,Phase du nuage,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/058,20,Phénomènes observés,020058,Visibilité vers le large depuis une station côtière,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/059,20,Phénomènes observés,020059,Visibilité horizontale minimale,m,-1,0,9,m,-1,3,,,Operational
+bufr4/0/20/060,20,Phénomènes observés,020060,(Visibilité horizontale),m,-1,0,10,m,-1,4,(voir la Note 3),24,Operational
+bufr4/0/20/061,20,Phénomènes observés,020061,Portée visuelle de piste (RVR),m,0,0,12,m,0,4,,,Operational
+bufr4/0/20/062,20,Phénomènes observés,020062,État du sol (avec ou sans neige),Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/063,20,Phénomènes observés,020063,Phénomènes spéciaux,Code table,0,0,10,Code table,0,4,,,Operational
+bufr4/0/20/065,20,Phénomènes observés,020065,Couverture de neige,%,0,0,7,%,0,3,(voir la Note 3),120,Operational
+bufr4/0/20/066,20,Phénomènes observés,020066,Diamètre maximal des grêlons,m,3,0,8,m,3,3,,,Operational
+bufr4/0/20/067,20,Phénomènes observés,020067,Diamètre du dépôt,m,3,0,9,m,3,3,,,Operational
+bufr4/0/20/070,20,Phénomènes observés,020070,Nombre minimum d'atmosphériques,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/20/071,20,Phénomènes observés,020071,Précision de la position et taux d'atmosphériques,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/079,20,Phénomènes observés,020079,Indicateur de cristaux de neige ou de glace,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/081,20,Phénomènes observés,020081,Quantité de nuages dans le segment,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/082,20,Phénomènes observés,020082,Quantité de nuages dans le segment,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/083,20,Phénomènes observés,020083,Quantité de segment couverte par la scène,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/085,20,Phénomènes observés,020085,État général de la piste,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/086,20,Phénomènes observés,020086,Dépôts sur la piste,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/087,20,Phénomènes observés,020087,Contamination de piste,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/088,20,Phénomènes observés,020088,Dépôts sur la piste,m,3,0,12,m,0,4,,,Operational
+bufr4/0/20/089,20,Phénomènes observés,020089,Coefficient de frottement de piste,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/20/090,20,Phénomènes observés,020090,Nuages spéciaux,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/091,20,Phénomènes observés,020091,Visibilité verticale,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/092,20,Phénomènes observés,020092,Hauteur du sommet du nuage,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/093,20,Phénomènes observés,020093,Hauteur d'inversion,m,-1,0,8,m,-1,3,,,Operational
+bufr4/0/20/095,20,Phénomènes observés,020095,Probabilité de glace,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/20/096,20,Phénomènes observés,020096,"Âge de glace (""paramètre A"")",dB,2,-4096,13,dB,2,4,,,Operational
+bufr4/0/20/101,20,Phénomènes observés,020101,Nom de criquet (acridian),Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/102,20,Phénomènes observés,020102,Couleur (maturité) du criquet,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/103,20,Phénomènes observés,020103,Stade de développement des criquets,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/104,20,Phénomènes observés,020104,État d'organisation d'un essaim ou d'une bande de criquets,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/105,20,Phénomènes observés,020105,État d'organisation d'un essaim ou d'une bande de criquets,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/106,20,Phénomènes observés,020106,Densité de population de criquets,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/107,20,Phénomènes observés,020107,Direction des mouvements de l'essaim de criquets,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/108,20,Phénomènes observés,020108,Étendue de la végétation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/111,20,Phénomènes observés,020111,Composante majeure de l'ellipse d'erreur de l'axe des abscisses,m,-1,0,17,m,-1,6,(voir les Notes 3 et 4),"89,90",Operational
+bufr4/0/20/112,20,Phénomènes observés,020112,Composante majeure de l'ellipse d'erreur de l'axe des abscisses,m,-1,0,17,m,-1,6,(voir les Notes 3 et 4),"89,90",Operational
+bufr4/0/20/113,20,Phénomènes observés,020113,Composante majeure de l'ellipse d'erreur de l'axe des abscisses,m,-1,0,17,m,-1,6,(voir la Note 3),89,Operational
+bufr4/0/20/114,20,Phénomènes observés,020114,Angle de l'axe des abscisses dans l'ellipse d'erreur,deg,2,-18000,16,deg,2,5,(voir la Note 3),31,Operational
+bufr4/0/20/115,20,Phénomènes observés,020115,Angle de l'axe des abscisses dans l'ellipse d'erreur,deg,2,-18000,16,deg,2,5,(voir la Note 3),30,Operational
+bufr4/0/20/116,20,Phénomènes observés,020116,Hauteur d'émission de l'impact de nuage,m,0,0,16,m,0,5,,,Operational
+bufr4/0/20/117,20,Phénomènes observés,020117,Amplitude de la frappe de foudre,A,-1,-32000,16,A,-1,5,,,Operational
+bufr4/0/20/118,20,Phénomènes observés,020118,Erreur de détection de la foudre,m,0,0,19,m,0,6,,,Operational
+bufr4/0/20/119,20,Phénomènes observés,020119,Polarité de la décharge de foudre,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/121,20,Phénomènes observés,020121,Valeur seuil pour la décision de polarité,V,3,0,16,V,3,5,(voir la Note 3),9,Operational
+bufr4/0/20/122,20,Phénomènes observés,020122,Valeur seuil pour la décision de polarité,A,0,0,16,A,0,5,(voir la Note 3),10,Operational
+bufr4/0/20/123,20,Phénomènes observés,020123,Seuil minimum pour la détection,V/m,3,0,16,V/m,3,5,(voir la Note 3),102,Operational
+bufr4/0/20/124,20,Phénomènes observés,020124,Coup de foudre ou éclair,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/126,20,Phénomènes observés,020126,Taux de décharge de foudre,/h,0,0,23,/h,0,7,,,Operational
+bufr4/0/20/127,20,Phénomènes observés,020127,Éclair - distance de la station,m,-3,0,8,m,-3,3,,,Operational
+bufr4/0/20/128,20,Phénomènes observés,020128,Éclair - distance de la station,degree true,1,0,12,degree true,1,4,,,Operational
+bufr4/0/20/129,20,Phénomènes observés,020129,"Densité de foudre (coup, éclair ou événement)",m-2,6,0,10,m-2,6,4,,,Operational
+bufr4/0/20/130,20,Phénomènes observés,020130,Concentration des hydrométéores dans les nuages,Numeric,0,0,10,Numeric,0,3,(voir la Note 3),37,Operational
+bufr4/0/20/131,20,Phénomènes observés,020131,Rayon effectif des hydrométéores dans les nuages,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/132,20,Phénomènes observés,020132,Teneur en eau liquide des nuages,kg m-3,5,0,11,kg m-3,5,4,,,Operational
+bufr4/0/20/133,20,Phénomènes observés,020133,Rayon d'hydrométéore,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/135,20,Phénomènes observés,020135,Masse de glace (sur une tige),kg/m,1,0,10,kg/m,1,3,,,Operational
+bufr4/0/20/136,20,Phénomènes observés,020136,Type de nuage supplémentaire,Code table,0,0,9,Code table,0,3,,,Operational
+bufr4/0/20/137,20,Phénomènes observés,020137,Évolution des nuages,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/138,20,Phénomènes observés,020138,Condition de la surface de la route,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/139,20,Phénomènes observés,020139,Hypothèse finale du modèle cloud,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/140,20,Phénomènes observés,020140,Zone de foudre,m2,0,0,30,m2,0,0,,,Operational
+bufr4/0/20/141,20,Phénomènes observés,020141,Énergie de l'éclair,J,19,0,30,J,0,0,,,Operational
+bufr4/0/20/142,20,Phénomènes observés,020142,Efficacité de détection des éclairs,%,0,0,7,%,0,0,,,Operational
+bufr4/0/20/143,20,Phénomènes observés,020143,Nuage liquide,Code table,0,0,2,Code table,0,1,,,Operational

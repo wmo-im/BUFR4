@@ -1,0 +1,116 @@
+Id,ClassNo,ClassName_ar,FXY,ElementName_ar,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_ar,noteIDs,Status
+bufr4/0/20/001,20,الظواهر المُلاحظة,020001,الرؤية الأفقية,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/002,20,الظواهر المُلاحظة,020002,الرؤية العمودية,m,-1,0,7,m,-1,3,,,Operational
+bufr4/0/20/003,20,الظواهر المُلاحظة,020003,الطقس الحالي,Code table,0,0,9,Code table,0,3,"Of course! Please provide the text you would like me to translate, along with any glossary terms or translation memory examples you'd like me to follow.",172,Operational
+bufr4/0/20/004,20,الظواهر المرصودة,020004,الطقس السابق (1),Code table,0,0,5,Code table,0,2,"Certainly! Please provide the text you would like me to translate, along with the glossary terms and translation memory examples if applicable.",171,Operational
+bufr4/0/20/005,20,الظواهر المُلاحظة,020005,الطقس السابق (2),Code table,0,0,5,Code table,0,2,"Of course! Please provide the text you would like me to translate, along with any glossary terms or translation memory examples you'd like me to follow.",171,Operational
+bufr4/0/20/006,20,الظواهر المُلاحظة,020006,قواعد الطيران,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/008,20,الظواهر المرصودة,020008,توزيع السحابة لصناعة الطيران,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/009,20,الظواهر المُلاحظة,020009,مؤشر الطقس العام (TAF/METAR),Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/010,20,الظواهر المُلاحظة,020010,الغطاء السحابي (الإجمالي),%,0,0,7,%,0,3,(راجع الملاحظة 5),20,Operational
+bufr4/0/20/011,20,الظواهر الملاحظة,020011,كمية السحب,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/012,20,الظواهر المُلاحظة,020012,نوع السحابة,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/20/013,20,الظواهر المُلاحظة,020013,ارتفاع قاعدة السحابة,m,-1,-40,11,m,-1,4,(انظر الملاحظة 6),170,Operational
+bufr4/0/20/014,20,الظواهر المُلاحظة,020014,ارتفاع قمة السحابة,m,-1,-40,11,m,-1,4,,,Operational
+bufr4/0/20/015,20,الظواهر المُلاحظة,020015,الضغط عند قاعدة السحابة,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/016,20,الظواهر المُلاحَظة,020016,الضغط عند قمة السحابة,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/017,20,الظواهر المُلاحظة,020017,وصف قمة السحابة,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/018,20,الظواهر المُلاحظة,020018,ميل مدى الرؤية على المدرج,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/019,20,الظواهر المُلاحظة,020019,الطقس الحالي أو المتوقع الهام,CCITT IA5,0,0,72,Character,0,9,(راجع الملاحظة 15),118,Operational
+bufr4/0/20/020,20,الظواهر المُلاحظة,020020,الظواهر الجوية الهامة الأخيرة,CCITT IA5,0,0,32,Character,0,4,(انظر الملاحظة 15),118,Operational
+bufr4/0/20/021,20,الظواهر الملحوظة,020021,نوع الهطول,Flag table,0,0,30,Flag table,0,10,,,Operational
+bufr4/0/20/022,20,الظواهر المرصودة,020022,طبيعة الهطول,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/023,20,الظواهر المُلاحظة,020023,ظواهر الطقس الأخرى,Flag table,0,0,18,Flag table,0,6,,,Operational
+bufr4/0/20/024,20,الظواهر الملاحظة,020024,شدة الظواهر,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/025,20,الظواهر المرصودة,020025,"The translation of the term ""Obscuration"" depends on the context in which it is used. Could you please provide more details or specify the glossary terms and translation memory examples you mentioned? This will help ensure the translation aligns with your requirements.",Flag table,0,0,21,Flag table,0,7,,,Operational
+bufr4/0/20/026,20,الظواهر المُلاحظة,020026,طابع التعتيم,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/027,20,الظواهر المُلاحظة,020027,ظهور الظواهر,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/20/028,20,الظواهر المُلاحظة,020028,التغير المتوقع في الشدة,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/029,20,الظواهر الملاحظة,020029,علم المطر,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/031,20,الظواهر المُلاحظة,020031,ترسب الجليد (السُمك),m,2,0,7,m,2,3,,,Operational
+bufr4/0/20/032,20,الظواهر المُلاحظة,020032,معدل تراكم الجليد (تقديري),Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/033,20,الظواهر المرصودة,020033,سبب تكون الجليد,Flag table,0,0,4,Flag table,0,2,,,Operational
+bufr4/0/20/034,20,الظواهر المُلاحظة,020034,تركيز الجليد البحري,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/035,20,الظواهر المُلاحظة,020035,كمية ونوع الثلج,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/036,20,الظواهر الملاحظة,020036,وضع الجليد,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/037,20,الظواهر المُلاحظة,020037,تطوير الجليد,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/038,20,الظواهر المُلاحظة,020038,حافة الجليد,degree true,0,0,12,degree true,0,3,Could you please provide the text you would like me to translate?,135,Operational
+bufr4/0/20/039,20,الظواهر الملاحظة,020039,المسافة الجليدية,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/040,20,الظواهر المُلاحظة,020040,تطور الثلج المنجرف,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/041,20,الظواهر المُلاحظة,020041,تكوّن الجليد على هيكل الطائرة,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/042,20,الظواهر المُلاحظة,020042,تجمّد الهيكل الخارجي موجود.,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/043,20,الظواهر المُلاحظة,020043,ذروة محتوى الماء السائل,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/044,20,الظواهر المُلاحظة,020044,متوسط محتوى الماء السائل,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/045,20,الظواهر المُلاحظة,020045,ظروف قطرات كبيرة فائقة التبريد (SLD),Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/048,20,الظواهر المُلاحظة,020048,تطور الميزة,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/050,20,الظواهر المُلاحظة,020050,مؤشر السحابة,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/20/051,20,الظواهر المُلاحظة,020051,كمية السحب المنخفضة,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/052,20,الظواهر المُلاحظة,020052,كمية السحب المتوسطة,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/053,20,الظواهر المُلاحظة,020053,كمية السحب العالية,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/054,20,الظواهر المرصودة,020054,الاتجاه الحقيقي الذي تتحرك منه الظاهرة أو السحب أو يتم ملاحظتها فيه.,degree true,0,0,9,degree true,0,3,(راجع الملاحظة 17),159,Operational
+bufr4/0/20/055,20,الظواهر المُلاحظة,020055,حالة السماء في المناطق المدارية,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/056,20,الظواهر المُلاحظة,020056,مرحلة السحابة,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/20/058,20,الظواهر المُلاحظة,020058,الرؤية نحو البحر من محطة ساحلية,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/059,20,الظواهر المُلاحظة,020059,الرؤية الأفقية الدنيا,m,-1,0,9,m,-1,3,,,Operational
+bufr4/0/20/060,20,الظواهر المُلاحظة,020060,الرؤية الأفقية السائدة,m,-1,0,10,m,-1,4,(راجع الملاحظة 7),24,Operational
+bufr4/0/20/061,20,الظواهر المُلاحظة,020061,مدى الرؤية على المدرج (RVR),m,0,0,12,m,0,4,,,Operational
+bufr4/0/20/062,20,الظواهر المُلاحظة,020062,حالة الأرض (مع أو بدون ثلج),Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/20/063,20,الظواهر المُلاحظة,020063,الظواهر الخاصة,Code table,0,0,10,Code table,0,4,,,Operational
+bufr4/0/20/065,20,الظواهر المُلاحظة,020065,الغطاء الثلجي,%,0,0,7,%,0,3,"To provide an accurate translation, I would need the glossary terms and the translation memory examples mentioned in your instructions. Could you please share those details so I can proceed with the translation?",120,Operational
+bufr4/0/20/066,20,الظواهر المرصودة,020066,القطر الأقصى لحبات البَرَد,m,3,0,8,m,3,3,,,Operational
+bufr4/0/20/067,20,الظواهر المُلاحظة,020067,قطر الإيداع,m,3,0,9,m,3,3,,,Operational
+bufr4/0/20/070,20,الظواهر المُلاحظة,020070,الحد الأدنى لعدد العوامل الجوية,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/20/071,20,الظواهر المُلاحظة,020071,دقة التثبيت ومعدل الظواهر الجوية,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/079,20,الظواهر المرصودة,020079,مؤشر الثلج أو بلورات الجليد,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/081,20,الظواهر المُلاحظة,020081,كمية السحب في القطاع,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/082,20,الظواهر المُلاحظة,020082,قطاع المبلغ خالٍ من السحابة,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/083,20,الظواهر المُلاحظة,020083,كمية الجزء المغطى بالمشهد,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/085,20,الظواهر المُلاحَظة,020085,الحالة العامة للمدرج,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/086,20,الظواهر المُلاحظة,020086,الترسبات على المدرج,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/087,20,الظواهر المُلاحظة,020087,تلوث المدرج,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/20/088,20,الظواهر المُلاحظة,020088,عمق الرواسب على المدرج,m,3,0,12,m,0,4,,,Operational
+bufr4/0/20/089,20,الظواهر المرصودة,020089,معامل احتكاك المدرج,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/20/090,20,الظواهر المُلاحَظة,020090,السحب الخاصة,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/091,20,الظواهر المُلاحظة,020091,الرؤية العمودية,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/092,20,الظواهر الملاحظة,020092,ارتفاع قاعدة السحاب,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/093,20,الظواهر الملاحظة,020093,ارتفاع الانقلاب,m,-1,0,8,m,-1,3,,,Operational
+bufr4/0/20/095,20,الظواهر المُلاحظة,020095,احتمالية الجليد,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/20/096,20,الظواهر المُلاحظة,020096,"العصر الجليدي (""المعامل A"")",dB,2,-4096,13,dB,2,4,,,Operational
+bufr4/0/20/101,20,الظواهر المُلاحظة,020101,اسم الجراد (الأكريد),Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/102,20,الظواهر المُلاحظة,020102,لون الجراد (النضج),Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/103,20,الظواهر المُلاحظة,020103,مرحلة تطور الجراد,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/104,20,الظواهر المُلاحظة,020104,حالة التنظيم لسرب أو مجموعة الجراد,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/105,20,الظواهر المُلاحظة,020105,حجم السرب أو مجموعة الجراد ومدة مرور السرب,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/106,20,الظواهر المرصودة,020106,كثافة تجمعات الجراد,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/107,20,الظواهر المُلاحظة,020107,اتجاه تحركات أسراب الجراد,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/108,20,الظواهر المُلاحَظة,020108,مدى الغطاء النباتي,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/111,20,الظواهر المرصودة,020111,المكون الرئيسي لمحور الخطأ الإهليلجي على المحور السيني,m,-1,0,17,m,-1,6,(راجع الملاحظتين 8 و9),"89,90",Operational
+bufr4/0/20/112,20,الظواهر المُلاحظة,020112,مكون المحور الصغير لقطع الخطأ البيضاوي لمحور y,m,-1,0,17,m,-1,6,(راجع الملاحظتين 8 و9),"89,90",Operational
+bufr4/0/20/113,20,الظواهر المُلاحظة,020113,مكون إهليلجي خطأ المحور Z,m,-1,0,17,m,-1,6,(انظر الملاحظة 9),89,Operational
+bufr4/0/20/114,20,الظواهر المُلاحظة,020114,زاوية المحور السيني في الإهليلج الخطأ,deg,2,-18000,16,deg,2,5,(انظر الملاحظة 10),31,Operational
+bufr4/0/20/115,20,الظواهر المُلاحظة,020115,زاوية المحور z في القطع الناقص للخطأ,deg,2,-18000,16,deg,2,5,(انظر الملاحظة 11),30,Operational
+bufr4/0/20/116,20,الظواهر المُلاحظة,020116,ارتفاع انبعاث ضربة السحابة,m,0,0,16,m,0,5,,,Operational
+bufr4/0/20/117,20,الظواهر الملاحظة,020117,شدة ضربة البرق,A,-1,-32000,16,A,-1,5,,,Operational
+bufr4/0/20/118,20,الظواهر المُلاحظة,020118,خطأ في كشف البرق,m,0,0,19,m,0,6,,,Operational
+bufr4/0/20/119,20,الظواهر المُلاحظة,020119,قطبية تفريغ البرق,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/121,20,الظواهر الملاحظة,020121,قيمة العتبة لاتخاذ قرار القطبية,V,3,0,16,V,3,5,(انظر الملاحظة 12),9,Operational
+bufr4/0/20/122,20,الظواهر المُلاحظة,020122,قيمة العتبة لاتخاذ قرار القطبية,A,0,0,16,A,0,5,(راجع الملاحظة 13),10,Operational
+bufr4/0/20/123,20,الظواهر المُلاحظة,020123,الحد الأدنى للكشف,V/m,3,0,16,V/m,3,5,(راجع الملاحظة 14),102,Operational
+bufr4/0/20/124,20,الظواهر الملاحظة,020124,ضربة البرق أو الوميض,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/20/126,20,الظواهر المُلاحظة,020126,معدل التفريغ السريع,/h,0,0,23,/h,0,7,,,Operational
+bufr4/0/20/127,20,الظواهر الملاحظة,020127,البرق - المسافة من المحطة,m,-3,0,8,m,-3,3,,,Operational
+bufr4/0/20/128,20,الظواهر المُلاحظة,020128,البرق - الاتجاه من المحطة,degree true,1,0,12,degree true,1,4,,,Operational
+bufr4/0/20/129,20,الظواهر المُلاحظة,020129,كثافة البرق (ضربة، وميض أو حدث),m-2,6,0,10,m-2,6,4,,,Operational
+bufr4/0/20/130,20,الظواهر المُلاحظة,020130,تركيز الهيدروميتيور السحابي,Numeric,0,0,10,Numeric,0,3,(انظر الملاحظة 16),37,Operational
+bufr4/0/20/131,20,الظواهر المُلاحظة,020131,نصف القطر الفعّال لقطرات السحب المائية,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/132,20,الظواهر المُلاحظة,020132,محتوى الماء السائل في السحب,kg m-3,5,0,11,kg m-3,5,4,,,Operational
+bufr4/0/20/133,20,الظواهر المُلاحظة,020133,نصف قطر الهيدروميتيور,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/135,20,الظواهر الملاحظة,020135,كتلة الجليد (على قضيب),kg/m,1,0,10,kg/m,1,3,,,Operational
+bufr4/0/20/136,20,الظواهر الملاحظة,020136,نوع السحابة التكميلي,Code table,0,0,9,Code table,0,3,,,Operational
+bufr4/0/20/137,20,الظواهر المُلاحظة,020137,تطور السحب,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/138,20,الظواهر الملاحظة,020138,حالة سطح الطريق,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/139,20,الظواهر المُلاحظة,020139,الافتراض النهائي لنموذج السحابة,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/20/140,20,الظواهر المُلاحظة,020140,منطقة البرق,m2,0,0,30,m2,0,0,,,Operational
+bufr4/0/20/141,20,الظواهر المُلاحظة,020141,طاقة البرق,J,19,0,30,J,0,0,,,Operational
+bufr4/0/20/142,20,الظواهر المُلاحظة,020142,كفاءة اكتشاف البرق,%,0,0,7,%,0,0,,,Operational
+bufr4/0/20/143,20,الظواهر المُلاحظة,020143,السحابة السائلة,Code table,0,0,2,Code table,0,1,,,Operational

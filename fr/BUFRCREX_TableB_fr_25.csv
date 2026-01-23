@@ -1,0 +1,154 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/25/001,25,Traitement des informations,025001,Longueur de porte de distance,m,-1,0,6,m,-1,2,,,Operational
+bufr4/0/25/002,25,Traitement des informations,025002,Nombre moyen de portes,Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/25/003,25,Traitement des informations,025003,Nombre d'impulsions intégrées,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/25/004,25,Traitement des informations,025004,Traitement d'écho,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/005,25,Traitement des informations,025005,Intégration d'écho,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/006,25,Traitement des informations,025006,Conversion de Z en R,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/25/007,25,Traitement des informations,025007,Conversion de Z en R,Numeric,0,0,12,Numeric,0,4,,,Operational
+bufr4/0/25/008,25,Traitement des informations,025008,Conversion de Z en R,Numeric,2,0,9,Numeric,2,3,,,Operational
+bufr4/0/25/009,25,Traitement des informations,025009,Méthode d'étalonnage,Flag table,0,0,4,Flag table,0,2,(voir la Note 3),56,Operational
+bufr4/0/25/010,25,Traitement des informations,025010,Traitement du désordre,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/25/011,25,Traitement des informations,025011,Correction d'occultation au sol (filtrage),Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/012,25,Traitement des informations,025012,Correction d'atténuation de portée,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/013,25,Traitement des informations,025013,Correction de la bande brillante,Flag table,0,0,2,Flag table,0,1,,,Operational
+bufr4/0/25/014,25,Traitement des informations,025014,Seuil de coupure du fouillis d'azimut,Numeric,0,0,12,Numeric,0,4,(voir la Note 3),15,Operational
+bufr4/0/25/015,25,Traitement des informations,025015,Correction de l'atténuation du radôme,Flag table,0,0,2,Flag table,0,1,,,Operational
+bufr4/0/25/016,25,Traitement des informations,025016,Correction d'atténuation en air clair,dB/m,5,0,6,dB/m,5,2,,,Operational
+bufr4/0/25/017,25,Traitement des informations,025017,Correction d'atténuation des précipitations,Flag table,0,0,2,Flag table,0,1,,,Operational
+bufr4/0/25/018,25,Traitement des informations,025018,Loi de A à Z pour le facteur d'atténuation,Numeric,7,0,6,Numeric,7,2,,,Operational
+bufr4/0/25/019,25,Traitement des informations,025019,Loi de A à Z pour le facteur d'atténuation,Numeric,2,0,7,Numeric,2,3,,,Operational
+bufr4/0/25/020,25,Traitement des informations,025020,Estimation de la vitesse moyenne,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/021,25,Traitement des informations,025021,Amélioration du calcul du vent,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/25/022,25,Traitement des informations,025022,Drapeau de rejet GHRSST,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/25/023,25,Traitement des informations,025023,Drapeau de confiance GHRSST,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/25/024,25,Traitement des informations,025024,Qualité des données GHRSST,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/25/025,25,Traitement des informations,025025,Tension de la batterie,V,1,0,9,V,1,3,,,Operational
+bufr4/0/25/026,25,Traitement des informations,025026,Tension de la batterie (large plage),V,1,0,12,V,1,4,,,Operational
+bufr4/0/25/028,25,Traitement des informations,025028,Paramètre défini par l'opérateur ou le fabricant,Numeric,1,-16384,15,Numeric,1,5,,,Operational
+bufr4/0/25/029,25,Traitement des informations,025029,Méthode d'étalonnage,Flag table,0,0,6,Flag table,0,2,(voir la Note 3),56,Operational
+bufr4/0/25/030,25,Traitement des informations,025030,Utilisation de la température moyenne mobile de la surface de la mer,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/031,25,Traitement des informations,025031,Méthode d'amincissement du profil vertical généré par NWP,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/25/032,25,Traitement des informations,025032,Informations sur le mode du profileur de vent,Code table,0,0,2,Code table,0,1,(voir la Note 3),131,Operational
+bufr4/0/25/033,25,Traitement des informations,025033,Informations sur le mode du profileur de vent,Code table,0,0,2,Code table,0,1,(voir la Note 3),131,Operational
+bufr4/0/25/034,25,Traitement des informations,025034,Résultats des tests de contrôle qualité du profileur de vent,Flag table,0,0,4,Flag table,0,2,(voir la Note 3),131,Operational
+bufr4/0/25/035,25,Traitement des informations,025035,Méthode de décision pour la polarité,Code table,0,0,3,Code table,0,1,(voir la Note 3),34,Operational
+bufr4/0/25/036,25,Traitement des informations,025036,Méthode de localisation atmosphérique,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/25/037,25,Traitement des informations,025037,Biais SST,K,2,-127,8,K,2,3,,,Operational
+bufr4/0/25/038,25,Traitement des informations,025038,Différence entre SST et analyse,K,1,-127,8,K,1,3,,,Operational
+bufr4/0/25/040,25,Traitement des informations,025040,Dérivation du produit éolien de CO2,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/25/041,25,Traitement des informations,025041,Méthode de rapport de direction de plateforme mobile,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/042,25,Traitement des informations,025042,Méthode de rapport de vitesse de plateforme mobile,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/043,25,Traitement des informations,025043,Intervalle d'échantillonnage des ondes (temps),s,4,0,15,s,4,5,,,Operational
+bufr4/0/25/044,25,Traitement des informations,025044,Intervalle d'échantillonnage des ondes (temps),m,2,0,14,m,2,5,,,Operational
+bufr4/0/25/045,25,Traitement des informations,025045,Combinaison de canaux HIRS,Flag table,0,0,21,Flag table,0,7,,,Operational
+bufr4/0/25/046,25,Traitement des informations,025046,Combinaison de canaux MSU,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/25/047,25,Traitement des informations,025047,Combinaison de canaux SSU,Flag table,0,0,4,Flag table,0,2,,,Operational
+bufr4/0/25/048,25,Traitement des informations,025048,Combinaison de canaux AMSU-A,Flag table,0,0,16,Flag table,0,6,,,Operational
+bufr4/0/25/049,25,Traitement des informations,025049,Combinaison de canaux AMSU-A,Flag table,0,0,6,Flag table,0,2,,,Operational
+bufr4/0/25/050,25,Traitement des informations,025050,Score de composante principale,Numeric,4,-131072,18,Numeric,4,6,,,Operational
+bufr4/0/25/051,25,Traitement des informations,025051,Combinaison de canaux AVHRR,Flag table,0,0,7,Flag table,0,3,,,Operational
+bufr4/0/25/052,25,Traitement des informations,025052,Log10 des composantes principales ajustées et normalisées aux données,Numeric,4,0,15,Numeric,4,5,,,Operational
+bufr4/0/25/053,25,Traitement des informations,025053,Qualité d'observation,Flag table,0,0,12,Flag table,0,4,,,Operational
+bufr4/0/25/054,25,Traitement des informations,025054,Numéro d'identification de sous-trame SSMIS,Numeric,0,0,5,Numeric,0,2,,,Operational
+bufr4/0/25/055,25,Traitement des informations,025055,Entretien du multiplexeur,K,2,0,16,K,2,5,,,Operational
+bufr4/0/25/056,25,Traitement des informations,025056,Estimation d'erreur normalisée dans la mesure de rétrodiffusion (Kp),Numeric,4,0,14,Numeric,4,5,,,Operational
+bufr4/0/25/060,25,Traitement des informations,025060,Identification du logiciel,Numeric,0,0,14,Numeric,0,5,(voir la Note 3),131,Operational
+bufr4/0/25/061,25,Traitement des informations,025061,Identification du logiciel et numéro de version,CCITT IA5,0,0,96,Character,0,12,,,Operational
+bufr4/0/25/062,25,Traitement des informations,025062,Identification de la base de données,Numeric,0,0,14,Numeric,0,5,,,Operational
+bufr4/0/25/063,25,Traitement des informations,025063,Processeur central ou identifiant du système,Code table,0,0,8,Code table,0,3,(voir la Note 3),71,Operational
+bufr4/0/25/065,25,Traitement des informations,025065,Correction d'orientation (azimut),deg,2,-1000,11,deg,2,4,,,Operational
+bufr4/0/25/066,25,Traitement des informations,025066,Correction d'orientation (élévation),deg,2,-1000,11,deg,2,4,,,Operational
+bufr4/0/25/067,25,Traitement des informations,025067,Correction de la pression au point de lâcher du radiosonde,Pa,0,-8000,14,Pa,0,4,,,Operational
+bufr4/0/25/068,25,Traitement des informations,025068,Nombre de recomptages d'archives,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/25/069,25,Traitement des informations,025069,Corrections de pression au niveau de vol,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/25/070,25,Traitement des informations,025070,Nombre total de cadres,Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/25/071,25,Traitement des informations,025071,Nombre total de cadres,Numeric,0,0,5,Numeric,0,2,,,Operational
+bufr4/0/25/075,25,Traitement des informations,025075,Numéro de version des corrections de l'antenne satellite,Numeric,0,0,5,Numeric,0,2,,,Operational
+bufr4/0/25/076,25,Traitement des informations,025076,Log10 du (nombre d'onde central température-radiance) pour ATOVS,log (m-1),8,0,30,log (m-1),8,10,,,Operational
+bufr4/0/25/077,25,Traitement des informations,025077,Coefficient de correction de bande passante 1,Numeric,5,-100000,18,Numeric,5,7,,,Operational
+bufr4/0/25/078,25,Traitement des informations,025078,Coefficient de correction de bande passante 1,Numeric,5,0,17,Numeric,5,6,,,Operational
+bufr4/0/25/079,25,Traitement des informations,025079,Irradiance solaire filtrée par radiance-albédo pour ATOVS,W m-2,4,0,24,W m-2,4,8,,,Operational
+bufr4/0/25/080,25,Traitement des informations,025080,Irradiance solaire filtrée par radiance-albédo pour ATOVS,m,10,0,14,m,10,5,,,Operational
+bufr4/0/25/081,25,Traitement des informations,025081,Angle d'incidence,deg,3,0,17,deg,3,6,,,Operational
+bufr4/0/25/082,25,Traitement des informations,025082,Angle d'azimut,deg,3,0,19,deg,3,6,,,Operational
+bufr4/0/25/083,25,Traitement des informations,025083,Angle de rotation de Faraday,deg,3,0,19,deg,3,6,,,Operational
+bufr4/0/25/084,25,Traitement des informations,025084,Angle de rotation géométrique,deg,5,0,26,deg,5,8,,,Operational
+bufr4/0/25/085,25,Traitement des informations,025085,Fraction de pixels clairs dans le FOV HIRS,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/25/086,25,Traitement des informations,025086,Indicateur de correction de profondeur,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/090,25,Traitement des informations,025090,Drapeau d'état d'orbite,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/25/091,25,Traitement des informations,025091,Constante de structure de l'indice de réfraction (Cn2),dB,3,-18192,13,dB,3,5,,,Operational
+bufr4/0/25/092,25,Traitement des informations,025092,Vitesse de propagation acoustique,m/s,2,28000,14,m/s,2,5,,,Operational
+bufr4/0/25/093,25,Traitement des informations,025093,Correction du calcul RASS,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/25/095,25,Traitement des informations,025095,Drapeau d'état de l'altimètre,Flag table,0,0,2,Flag table,0,1,,,Operational
+bufr4/0/25/096,25,Traitement des informations,025096,Drapeau d'état du radiomètre,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/25/097,25,Traitement des informations,025097,Estimation d'erreur tridimensionnelle de l'orbite du navigateur,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/25/098,25,Traitement des informations,025098,Indicateur de qualité des données de l'altimètre,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/25/099,25,Traitement des informations,025099,Indicateur de qualité des données de l'altimètre,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/25/100,25,Traitement des informations,025100,Coefficient a de l'équation de taux de chute XBT/XCTD,Numeric,5,0,20,Numeric,5,6,,,Operational
+bufr4/0/25/101,25,Traitement des informations,025101,Coefficient a de l'équation de taux de chute XBT/XCTD,Numeric,5,-500000,21,Numeric,5,6,,,Operational
+bufr4/0/25/102,25,Traitement des informations,025102,Nombre de lignes manquantes excluant les lacunes de données,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/25/103,25,Traitement des informations,025103,Nombre de compartiments directionnels,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/25/104,25,Traitement des informations,025104,Nombre de bandes de longueur d'onde,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/25/105,25,Traitement des informations,025105,Premier compartiment directionnel,deg,3,0,19,deg,3,6,,,Operational
+bufr4/0/25/106,25,Traitement des informations,025106,Premier compartiment directionnel,deg,3,0,19,deg,3,6,,,Operational
+bufr4/0/25/107,25,Traitement des informations,025107,Première bande de longueur d'onde,m,3,0,29,m,3,9,,,Operational
+bufr4/0/25/108,25,Traitement des informations,025108,Première bande de longueur d'onde,m,3,0,29,m,3,9,,,Operational
+bufr4/0/25/110,25,Traitement des informations,025110,Résumé du traitement d'image,Flag table,0,0,10,Flag table,0,4,,,Operational
+bufr4/0/25/111,25,Traitement des informations,025111,Nombre de lacunes dans les données d'entrée,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/25/112,25,Traitement des informations,025112,Indicateur de qualité des données de l'altimètre,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/25/113,25,Traitement des informations,025113,Indicateur de qualité des données de l'altimètre,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/25/120,25,Traitement des informations,025120,Drapeau de traitement RA2-L2,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/121,25,Traitement des informations,025121,Qualité de traitement RA2-L2,%,0,0,7,%,0,3,,,Operational
+bufr4/0/25/122,25,Traitement des informations,025122,Configuration matérielle pour RF,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/123,25,Traitement des informations,025123,Configuration matérielle pour HPA,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/124,25,Traitement des informations,025124,Drapeau de traitement MWR-L2,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/125,25,Traitement des informations,025125,Qualité de traitement MWR-L2,%,0,0,7,%,0,3,,,Operational
+bufr4/0/25/126,25,Traitement des informations,025126,Correction sèche troposphérique du modèle,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/127,25,Traitement des informations,025127,Correction du baromètre inversé,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/128,25,Traitement des informations,025128,Correction sèche troposphérique du modèle,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/129,25,Traitement des informations,025129,Correction humide troposphérique dérivée de MWR,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/130,25,Traitement des informations,025130,Correction ionosphérique RA2 sur la bande Ku,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/131,25,Traitement des informations,025131,Correction ionosphérique de Doris sur la bande Ku,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/132,25,Traitement des informations,025132,Correction ionosphérique RA2 sur la bande Ku,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/133,25,Traitement des informations,025133,Correction du biais d'état de la mer sur la bande Ku,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/134,25,Traitement des informations,025134,Correction ionosphérique RA2 sur la bande Ku,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/135,25,Traitement des informations,025135,Correction ionosphérique de Doris sur la bande Ku,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/136,25,Traitement des informations,025136,Correction ionosphérique du modèle sur la bande S,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/137,25,Traitement des informations,025137,Correction du biais d'état de la mer sur la bande Ku,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/138,25,Traitement des informations,025138,Rapport signal-bruit moyen,Numeric,0,-2048,12,Numeric,0,4,,,Operational
+bufr4/0/25/139,25,Traitement des informations,025139,Niveau de traitement,Numeric,0,0,5,Numeric,0,4,,,Operational
+bufr4/0/25/140,25,Traitement des informations,025140,Démarrer le canal,Numeric,0,0,14,Numeric,0,5,,,Operational
+bufr4/0/25/141,25,Traitement des informations,025141,Canal de fin,Numeric,0,0,14,Numeric,0,5,,,Operational
+bufr4/0/25/142,25,Traitement des informations,025142,Facteur d'échelle du canal,Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/25/143,25,Traitement des informations,025143,Coefficient linéaire,Numeric,6,-5000000,24,Numeric,6,8,(voir la Note 3),57,Operational
+bufr4/0/25/144,25,Traitement des informations,025144,Nombre de canaux visuels utilisés dans le traitement,Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/25/145,25,Traitement des informations,025145,Nombre de canaux infrarouges utilisés dans le traitement,Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/25/148,25,Traitement des informations,025148,Coefficient de variation,Numeric,2,-10000,15,Numeric,2,5,,,Operational
+bufr4/0/25/149,25,Traitement des informations,025149,Coût d'estimation optimal,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/25/150,25,Traitement des informations,025150,Méthode d'analyse de l'intensité des cyclones tropicaux à l'aide de données satellitaires,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/25/160,25,Traitement des informations,025160,Correction instrumentale du réseau en bande Ku,m,4,-120000,18,m,4,6,,,Operational
+bufr4/0/25/161,25,Traitement des informations,025161,Correction instrumentale du réseau en bande Ku,m,4,-120000,18,m,4,6,,,Operational
+bufr4/0/25/162,25,Traitement des informations,025162,Correction du biais d'état de la mer sur la bande Ku,m,4,-6000,13,m,4,4,,,Operational
+bufr4/0/25/163,25,Traitement des informations,025163,Correction ionosphérique RA2 sur la bande Ku,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/25/164,25,Traitement des informations,025164,Correction humide troposphérique dérivée de MWR,m,4,-5000,13,m,4,4,,,Operational
+bufr4/0/25/165,25,Traitement des informations,025165,Correction ionosphérique du modèle sur la bande S,m,4,-32768,16,m,4,5,,,Operational
+bufr4/0/25/166,25,Traitement des informations,025166,Correction du biais d'état de la mer sur la bande Ku,m,4,-32768,16,m,4,5,,,Operational
+bufr4/0/25/167,25,Traitement des informations,025167,Correction instrumentale du réseau en bande Ku,m,4,-120000,18,m,4,6,,,Operational
+bufr4/0/25/170,25,Traitement des informations,025170,Intervalle d'échantillonnage des ondes (temps),s,0,0,10,s,0,4,,,Operational
+bufr4/0/25/171,25,Traitement des informations,025171,Période moyenne d'échantillonnage,s,0,0,10,s,0,4,,,Operational
+bufr4/0/25/172,25,Traitement des informations,025172,Nombre d'échantillons,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/25/174,25,Traitement des informations,025174,Drapeau d'information SMOS,Flag table,0,0,14,Flag table,0,5,,,Operational
+bufr4/0/25/175,25,Traitement des informations,025175,Résidu modifié,Numeric,2,0,13,Numeric,2,4,(voir la Note 3),103,Operational
+bufr4/0/25/180,25,Traitement des informations,025180,Pourcentage LRM,%,2,0,16,%,2,5,,,Operational
+bufr4/0/25/181,25,Traitement des informations,025181,Drapeau de traitement RA2-L2,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/182,25,Traitement des informations,025182,Drapeau de traitement L1,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/183,25,Traitement des informations,025183,Qualité de traitement L1,%,2,0,14,%,2,5,,,Operational
+bufr4/0/25/184,25,Traitement des informations,025184,Statut du produit L2,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/25/185,25,Traitement des informations,025185,Méthode de chiffrement,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/25/186,25,Traitement des informations,025186,Version de la clé de chiffrement,CCITT IA5,0,0,96,Character,0,12,,,Operational
+bufr4/0/25/187,25,Traitement des informations,025187,Drapeau de confiance GHRSST,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/25/188,25,Traitement des informations,025188,Méthode pour réduire la pression au niveau de la mer,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/25/189,25,Traitement des informations,025189,Longueur d'onde de coupure de gamme,m,0,1,9,m,0,3,,,Operational
+bufr4/0/25/190,25,Traitement des informations,025190,Mode de traitement d'écho de l'altimètre,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/25/191,25,Traitement des informations,025191,Mode de suivi de l'altimètre,Code table,0,0,8,Code table,0,3,,,Operational

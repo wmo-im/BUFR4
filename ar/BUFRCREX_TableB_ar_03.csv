@@ -1,0 +1,31 @@
+Id,ClassNo,ClassName_ar,FXY,ElementName_ar,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_ar,noteIDs,Status
+bufr4/0/03/001,03,الأجهزة الدقيقة,003001,نوع محطة السطح,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/03/003,03,الأجهزة الدقيقة,003003,غلاف مقياس الحرارة/مقياس الرطوبة,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/004,03,الأجهزة الدقيقة,003004,نوع الشاشة/المأوى/الدرع الإشعاعي,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/005,03,الأجهزة الدقيقة,003005,العرض الأفقي للشاشة أو الدرع (x),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/006,03,الأجهزة الدقيقة,003006,العمق الأفقي للشاشة أو الدرع (y),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/007,03,أجهزة القياس والتحكم,003007,الارتفاع العمودي للشاشة أو الدرع (z),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/008,03,الأجهزة الدقيقة,003008,شاشة أو درع مهوى اصطناعيًا,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/009,03,أجهزة القياس والتحكم,003009,كمية التهوية القسرية وقت القراءة,m/s,1,0,9,m/s,1,3,,,Operational
+bufr4/0/03/010,03,الأجهزة الدقيقة,003010,طريقة قياس تيار البحر/المياه,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/011,03,الأجهزة الدقيقة,003011,طريقة حساب العمق,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/03/012,03,أجهزة القياس والتحكم,003012,نوع الجهاز/المستشعر لقياس الأكسجين المذاب,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/016,03,الأجهزة الدقيقة,003016,موضع أجهزة استشعار الطرق,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/017,03,الأجهزة الدقيقة,003017,نوع موسع من المحطة,Flag table,0,0,6,Flag table,0,2,,,Operational
+bufr4/0/03/018,03,الأجهزة الدقيقة,003018,نوع الطريق,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/03/019,03,الأجهزة الدقيقة,003019,نوع البناء,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/020,03,أجهزة القياس والتحكم,003020,المادة المستخدمة في غلاف مقياس الحرارة/مقياس الرطوبة,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/021,03,الأجهزة الدقيقة,003021,تدفئة مقياس الرطوبة,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/03/022,03,الأجهزة الدقيقة,003022,مالك الجهاز,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/023,03,الأجهزة الدقيقة,003023,تهيئة الشفرات لشاشة مقياس الحرارة/مقياس الرطوبة,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/024,03,الأجهزة الدقيقة,003024,معامل السيكرومتري,K-1,6,0,10,K-1,6,3,,,Operational
+bufr4/0/03/025,03,الأجهزة الدقيقة,003025,حجم منطقة تقدير المسار العرضي,m,0,5000,16,m,0,5,,,Operational
+bufr4/0/03/026,03,أجهزة القياس والتحكم,003026,حجم منطقة تقدير المسار الطولي,m,0,5000,16,m,0,5,,,Operational
+bufr4/0/03/027,03,أجهزة القياس والتحكم,003027,نوع جهاز الطيران,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/028,03,الأجهزة الدقيقة,003028,طريقة قياس مكافئ الماء للثلج,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/03/029,03,الأجهزة الدقيقة,003029,"The term ""Swath"" can be translated into Arabic as ""شريط"" depending on the context. However, without additional context or a glossary provided, I recommend confirming the intended meaning or usage to ensure accuracy. Could you provide more details or the glossary terms?",Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/030,03,الأجهزة الدقيقة,003030,حالة الهوائي,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/031,03,الأجهزة الدقيقة,003031,عرض القناة، العرض الكامل عند نصف القيمة العظمى (FWHM),m,11,0,16,m,11,13,,,Operational
+bufr4/0/03/032,03,أجهزة القياس والتحكم,003032,تردد مركز القناة,Hz,-6,0,26,Hz,-6,10,,,Operational
+bufr4/0/03/033,03,أجهزة القياس والتحكم,003033,عرض نطاق القناة,Hz,-6,0,26,Hz,-6,10,,,Operational
+bufr4/0/03/034,03,الأجهزة الدقيقة,003034,طول موجة القناة,m,9,0,16,m,9,5,,,Operational

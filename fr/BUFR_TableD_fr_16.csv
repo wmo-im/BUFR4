@@ -1,0 +1,546 @@
+Id,Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,noteIDs,Status
+bufr4/3/16/001/1/301011,16,Caractéristiques synoptiques,316001,,,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/001/2/004004,16,Caractéristiques synoptiques,316001,,,004004,Heure,,,,Operational
+bufr4/3/16/001/3/301023,16,Caractéristiques synoptiques,316001,,,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/001/4/001021,16,Caractéristiques synoptiques,316001,,,001021,Identifiant de caractéristique synoptique,,,,Operational
+bufr4/3/16/001/5/002041,16,Caractéristiques synoptiques,316001,,,002041,Méthode pour estimer les rapports liés aux caractéristiques synoptiques,,,,Operational
+bufr4/3/16/001/6/019001,16,Caractéristiques synoptiques,316001,,,019001,Caractéristiques synoptiques,,,,Operational
+bufr4/3/16/001/7/010051,16,Caractéristiques synoptiques,316001,,,010051,Pression réduite au niveau moyen de la mer,,,,Operational
+bufr4/3/16/001/8/019002,16,Caractéristiques synoptiques,316001,,,019002,Rayon effectif de la caractéristique,,,,Operational
+bufr4/3/16/001/9/019003,16,Caractéristiques synoptiques,316001,,,019003,Seuil de vitesse du vent,15 m s-1 typiquement,,,Operational
+bufr4/3/16/001/10/019004,16,Caractéristiques synoptiques,316001,,,019004,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,,,,Operational
+bufr4/3/16/002/1/008021,16,Caractéristiques synoptiques,316002,(En-tête),,008021,Signification du temps,Temps des données (analyse),,,Operational
+bufr4/3/16/002/2/004001,16,Caractéristiques synoptiques,316002,(En-tête),,004001,Année,,,,Operational
+bufr4/3/16/002/3/004002,16,Caractéristiques synoptiques,316002,(En-tête),,004002,Mois,,,,Operational
+bufr4/3/16/002/4/004003,16,Caractéristiques synoptiques,316002,(En-tête),,004003,Jour,,,,Operational
+bufr4/3/16/002/5/004004,16,Caractéristiques synoptiques,316002,(En-tête),,004004,Heure,,,,Operational
+bufr4/3/16/002/6/004005,16,Caractéristiques synoptiques,316002,(En-tête),,004005,Minute,,,,Operational
+bufr4/3/16/002/7/001033,16,Caractéristiques synoptiques,316002,(En-tête),,001033,Identification du centre d'origine/génération,,,,Operational
+bufr4/3/16/002/8/008021,16,Caractéristiques synoptiques,316002,(En-tête),,008021,Signification du temps,Durée de validité (prévision),,,Operational
+bufr4/3/16/002/9/004001,16,Caractéristiques synoptiques,316002,(En-tête),,004001,Année,,,,Operational
+bufr4/3/16/002/10/004002,16,Caractéristiques synoptiques,316002,(En-tête),,004002,Mois,,,,Operational
+bufr4/3/16/002/11/004003,16,Caractéristiques synoptiques,316002,(En-tête),,004003,Jour,,,,Operational
+bufr4/3/16/002/12/004004,16,Caractéristiques synoptiques,316002,(En-tête),,004004,Heure,,,,Operational
+bufr4/3/16/002/13/004005,16,Caractéristiques synoptiques,316002,(En-tête),,004005,Minute,,,,Operational
+bufr4/3/16/002/14/007002,16,Caractéristiques synoptiques,316002,(En-tête),,007002,Hauteur ou altitude,Niveau de vol (base de la couche du graphique),,,Operational
+bufr4/3/16/002/15/007002,16,Caractéristiques synoptiques,316002,(En-tête),,007002,Hauteur ou altitude,Niveau de vol (base de la couche du graphique),,,Operational
+bufr4/3/16/003/1/110000,16,Caractéristiques synoptiques,316003,Courant-jet,,110000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/003/2/031001,16,Caractéristiques synoptiques,316003,Courant-jet,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/003/3/008011,16,Caractéristiques synoptiques,316003,Courant-jet,,008011,Caractéristique météorologique,Valeur du courant-jet,,,Operational
+bufr4/3/16/003/4/008007,16,Caractéristiques synoptiques,316003,Courant-jet,,008007,Signification dimensionnelle,Valeur pour la ligne,,,Operational
+bufr4/3/16/003/5/104000,16,Caractéristiques synoptiques,316003,Courant-jet,,104000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/003/6/031001,16,Caractéristiques synoptiques,316003,Courant-jet,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/003/7/005002,16,Caractéristiques synoptiques,316003,Courant-jet,,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/003/8/006002,16,Caractéristiques synoptiques,316003,Courant-jet,,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/003/9/010002,16,Caractéristiques synoptiques,316003,Courant-jet,,010002,Hauteur,Signification du niveau de vol,,,Operational
+bufr4/3/16/003/10/011002,16,Caractéristiques synoptiques,316003,Courant-jet,,011002,Vitesse du vent,,,,Operational
+bufr4/3/16/003/11/008007,16,Caractéristiques synoptiques,316003,Courant-jet,,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/003/12/008011,16,Caractéristiques synoptiques,316003,Courant-jet,,008011,Caractéristique météorologique,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/004/1/111000,16,Caractéristiques synoptiques,316004,Turbulence,,111000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/004/2/031001,16,Caractéristiques synoptiques,316004,Turbulence,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/004/3/008011,16,Caractéristiques synoptiques,316004,Turbulence,,008011,Caractéristique météorologique,Valeur pour la turbulence,,,Operational
+bufr4/3/16/004/4/008007,16,Caractéristiques synoptiques,316004,Turbulence,,008007,Signification dimensionnelle,Valeur pour la zone,,,Operational
+bufr4/3/16/004/5/007002,16,Caractéristiques synoptiques,316004,Turbulence,,007002,Hauteur ou altitude,Niveau de vol (sommet de la couche),,,Operational
+bufr4/3/16/004/6/007002,16,Caractéristiques synoptiques,316004,Turbulence,,007002,Hauteur ou altitude,Niveau de vol (sommet de la couche),,,Operational
+bufr4/3/16/004/7/102000,16,Caractéristiques synoptiques,316004,Turbulence,,102000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/004/8/031001,16,Caractéristiques synoptiques,316004,Turbulence,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/004/9/005002,16,Caractéristiques synoptiques,316004,Turbulence,,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/004/10/006002,16,Caractéristiques synoptiques,316004,Turbulence,,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/004/11/011031,16,Caractéristiques synoptiques,316004,Turbulence,,011031,Degré étendu de turbulence,,(voir la Note 3),20,Operational
+bufr4/3/16/004/12/008007,16,Caractéristiques synoptiques,316004,Turbulence,,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/004/13/008011,16,Caractéristiques synoptiques,316004,Turbulence,,008011,Caractéristique météorologique,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/005/1/108000,16,Caractéristiques synoptiques,316005,Tempête,,108000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/005/2/031001,16,Caractéristiques synoptiques,316005,Tempête,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/005/3/008005,16,Caractéristiques synoptiques,316005,Tempête,,008005,Signification de l'attribut météorologique,Centre de la tempête,,,Operational
+bufr4/3/16/005/4/008007,16,Caractéristiques synoptiques,316005,Tempête,,008007,Signification dimensionnelle,Valeur par point,,,Operational
+bufr4/3/16/005/5/005002,16,Caractéristiques synoptiques,316005,Tempête,,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/005/6/006002,16,Caractéristiques synoptiques,316005,Tempête,,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/005/7/001026,16,Caractéristiques synoptiques,316005,Tempête,,001026,Nom de tempête de l'OMM,"Utilisez ""UNKNOWN"" pour une tempête de sable",,,Operational
+bufr4/3/16/005/8/019001,16,Caractéristiques synoptiques,316005,Tempête,,019001,Caractéristiques synoptiques,Valeur pour le type de tempête,,,Operational
+bufr4/3/16/005/9/008007,16,Caractéristiques synoptiques,316005,Tempête,,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/005/10/008005,16,Caractéristiques synoptiques,316005,Tempête,,008005,Signification de l'attribut météorologique,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/006/1/112000,16,Caractéristiques synoptiques,316006,Nuage,,112000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/006/2/031001,16,Caractéristiques synoptiques,316006,Nuage,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/006/3/008011,16,Caractéristiques synoptiques,316006,Nuage,,008011,Caractéristique météorologique,Valeur pour nuage,,,Operational
+bufr4/3/16/006/4/008007,16,Caractéristiques synoptiques,316006,Nuage,,008007,Signification dimensionnelle,Valeur pour la zone,,,Operational
+bufr4/3/16/006/5/007002,16,Caractéristiques synoptiques,316006,Nuage,,007002,Hauteur ou altitude,Niveau de vol (sommet de la couche),,,Operational
+bufr4/3/16/006/6/007002,16,Caractéristiques synoptiques,316006,Nuage,,007002,Hauteur ou altitude,Niveau de vol (sommet de la couche),,,Operational
+bufr4/3/16/006/7/102000,16,Caractéristiques synoptiques,316006,Nuage,,102000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/006/8/031001,16,Caractéristiques synoptiques,316006,Nuage,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/006/9/005002,16,Caractéristiques synoptiques,316006,Nuage,,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/006/10/006002,16,Caractéristiques synoptiques,316006,Nuage,,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/006/11/020011,16,Caractéristiques synoptiques,316006,Nuage,,020011,Quantité de nuages,,(voir la Note 3),6,Operational
+bufr4/3/16/006/12/020012,16,Caractéristiques synoptiques,316006,Nuage,,020012,Type de nuage,,,,Operational
+bufr4/3/16/006/13/008007,16,Caractéristiques synoptiques,316006,Nuage,,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/006/14/008011,16,Caractéristiques synoptiques,316006,Nuage,,008011,Caractéristique météorologique,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/007/1/110000,16,Caractéristiques synoptiques,316007,(Avant),,110000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/007/2/031001,16,Caractéristiques synoptiques,316007,(Avant),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/007/3/008011,16,Caractéristiques synoptiques,316007,(Avant),,008011,Caractéristique météorologique,Valeur pour type de front,(voir la Note 3),21,Operational
+bufr4/3/16/007/4/008007,16,Caractéristiques synoptiques,316007,(Avant),,008007,Signification dimensionnelle,Valeur pour la ligne,,,Operational
+bufr4/3/16/007/5/104000,16,Caractéristiques synoptiques,316007,(Avant),,104000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/007/6/031001,16,Caractéristiques synoptiques,316007,(Avant),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/007/7/005002,16,Caractéristiques synoptiques,316007,(Avant),,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/007/8/006002,16,Caractéristiques synoptiques,316007,(Avant),,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/007/9/019005,16,Caractéristiques synoptiques,316007,(Avant),,019005,Direction du mouvement de la caractéristique,,,,Operational
+bufr4/3/16/007/10/019006,16,Caractéristiques synoptiques,316007,(Avant),,019006,Vitesse de mouvement de la caractéristique,,,,Operational
+bufr4/3/16/007/11/008007,16,Caractéristiques synoptiques,316007,(Avant),,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/007/12/008011,16,Caractéristiques synoptiques,316007,(Avant),,008011,Caractéristique météorologique,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/008/1/111000,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,111000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/008/2/031001,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/008/3/008001,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,008001,Signification de sondage vertical,Bit 3 défini pour la tropopause,,,Operational
+bufr4/3/16/008/4/008007,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,008007,Signification dimensionnelle,Valeur par point,,,Operational
+bufr4/3/16/008/5/008023,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,008023,Les valeurs statistiques de premier ordre suivent,Niveau de la tropopause,(voir la Note 3),58,Operational
+bufr4/3/16/008/6/103000,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,103000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/008/7/031001,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/008/8/005002,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/008/9/006002,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/008/10/010002,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,010002,Hauteur,,,,Operational
+bufr4/3/16/008/11/008023,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,008023,Les valeurs statistiques de premier ordre suivent,Annuler,,,Operational
+bufr4/3/16/008/12/008007,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/008/13/008001,16,Caractéristiques synoptiques,316008,Niveau de la tropopause,,008001,Signification de sondage vertical,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/009/1/111000,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,111000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/009/2/031001,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/009/3/008011,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,008011,Caractéristique météorologique,Givrage de la cellule,,,Operational
+bufr4/3/16/009/4/008007,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,008007,Signification dimensionnelle,Valeur pour la zone,,,Operational
+bufr4/3/16/009/5/007002,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,007002,Hauteur ou altitude,Niveau de vol (sommet de la couche),,,Operational
+bufr4/3/16/009/6/007002,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,007002,Hauteur ou altitude,Niveau de vol (sommet de la couche),,,Operational
+bufr4/3/16/009/7/102000,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,102000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/009/8/031001,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/009/9/005002,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/009/10/006002,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/009/11/020041,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,020041,Givrage de la cellule,Givrage de la cellule,,,Operational
+bufr4/3/16/009/12/008007,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/009/13/008011,16,Caractéristiques synoptiques,316009,Givrage de la cellule,,008011,Caractéristique météorologique,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/010/1/107000,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,107000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/010/2/031001,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/010/3/008011,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,008011,Caractéristique météorologique,,,,Operational
+bufr4/3/16/010/4/008007,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,008007,Signification dimensionnelle,Valeur par point,,,Operational
+bufr4/3/16/010/5/001022,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,001022,(Nom de la fonctionnalité),,,,Operational
+bufr4/3/16/010/6/005002,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/010/7/006002,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/010/8/008007,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/010/9/008011,16,Caractéristiques synoptiques,316010,(Nom de la fonctionnalité),,008011,Caractéristique météorologique,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/011/1/117000,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,117000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/011/2/031001,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/011/3/008011,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,008011,Caractéristique météorologique,Valeur pour nuage,,,Operational
+bufr4/3/16/011/4/001022,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,001022,(Nom de la fonctionnalité),Volcan,,,Operational
+bufr4/3/16/011/5/008007,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,008007,Signification dimensionnelle,Valeur par point,,,Operational
+bufr4/3/16/011/6/102000,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,102000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/011/7/031001,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/011/8/005002,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/011/9/006002,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/011/10/008021,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,008021,Signification du temps,Heure de début de l'éruption,,,Operational
+bufr4/3/16/011/11/004001,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,004001,Année,,,,Operational
+bufr4/3/16/011/12/004002,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,004002,Mois,,,,Operational
+bufr4/3/16/011/13/004003,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,004003,Jour,,,,Operational
+bufr4/3/16/011/14/004004,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,004004,Heure,,,,Operational
+bufr4/3/16/011/15/004005,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,004005,Minute,,,,Operational
+bufr4/3/16/011/16/020090,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,020090,Nuages spéciaux,Nuages provenant des éruptions volcaniques,,,Operational
+bufr4/3/16/011/17/008021,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,008021,Signification du temps,Annuler,,,Operational
+bufr4/3/16/011/18/008007,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,008007,Signification dimensionnelle,Annuler,,,Operational
+bufr4/3/16/011/19/008011,16,Caractéristiques synoptiques,316011,(Volcan en éruption),,008011,Caractéristique météorologique,Annuler | Fin de l'objet,,,Operational
+bufr4/3/16/020/1/001033,16,Caractéristiques synoptiques,316020,(Informations d'analyse des tempêtes tropicales),,001033,Identification du centre d'origine/génération,,,,Operational
+bufr4/3/16/020/2/001025,16,Caractéristiques synoptiques,316020,(Informations d'analyse des tempêtes tropicales),,001025,Identifiant de tempête,,,,Operational
+bufr4/3/16/020/3/001027,16,Caractéristiques synoptiques,316020,(Informations d'analyse des tempêtes tropicales),,001027,Nom de tempête de l'OMM,,,,Operational
+bufr4/3/16/020/4/301011,16,Caractéristiques synoptiques,316020,(Informations d'analyse des tempêtes tropicales),,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/020/5/301012,16,Caractéristiques synoptiques,316020,(Informations d'analyse des tempêtes tropicales),,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/021/1/301023,16,Caractéristiques synoptiques,316021,(Données d'analyse),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/021/2/002041,16,Caractéristiques synoptiques,316021,(Données d'analyse),,002041,Méthode pour estimer les rapports liés aux caractéristiques synoptiques,,,,Operational
+bufr4/3/16/021/3/019001,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019001,Caractéristiques synoptiques,,,,Operational
+bufr4/3/16/021/4/019007,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019007,Rayon effectif de la caractéristique,,,,Operational
+bufr4/3/16/021/5/019005,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019005,Direction du mouvement de la caractéristique,,,,Operational
+bufr4/3/16/021/6/019006,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019006,Vitesse de mouvement de la caractéristique,,,,Operational
+bufr4/3/16/021/7/019008,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019008,Étendue verticale de la circulation,,,,Operational
+bufr4/3/16/021/8/008005,16,Caractéristiques synoptiques,316021,(Données d'analyse),,008005,Signification de l'attribut météorologique,= 1 Centre de la tempête,,,Operational
+bufr4/3/16/021/9/010004,16,Caractéristiques synoptiques,316021,(Données d'analyse),,010004,Pression,Centre de la tempête en vertu du qualificatif de signification précédent,,,Operational
+bufr4/3/16/021/10/008005,16,Caractéristiques synoptiques,316021,(Données d'analyse),,008005,Signification de l'attribut météorologique,= 2 Limite extérieure ou bord de la caractéristique,,,Operational
+bufr4/3/16/021/11/010004,16,Caractéristiques synoptiques,316021,(Données d'analyse),,010004,Pression,Limite extérieure,,,Operational
+bufr4/3/16/021/12/019007,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019007,Rayon effectif de la caractéristique,Limite extérieure,,,Operational
+bufr4/3/16/021/13/008005,16,Caractéristiques synoptiques,316021,(Données d'analyse),,008005,Signification de l'attribut météorologique,Emplacement du vent maximum,,,Operational
+bufr4/3/16/021/14/008021,16,Caractéristiques synoptiques,316021,(Données d'analyse),,008021,Signification du temps,Moyenne temporelle,,,Operational
+bufr4/3/16/021/15/004075,16,Caractéristiques synoptiques,316021,(Données d'analyse),,004075,Période de temps ou déplacement,Minute,,,Operational
+bufr4/3/16/021/16/011040,16,Caractéristiques synoptiques,316021,(Données d'analyse),,011040,Vitesse maximale du vent (vent moyen sur 10 minutes),,,,Operational
+bufr4/3/16/021/17/019007,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019007,Rayon effectif de la caractéristique,Vitesse maximale des rafales de vent,,,Operational
+bufr4/3/16/021/18/105004,16,Caractéristiques synoptiques,316021,(Données d'analyse),,105004,Répliquer 5 descripteurs 2 fois,,,,Operational
+bufr4/3/16/021/19/005021,16,Caractéristiques synoptiques,316021,(Données d'analyse),,005021,Relèvement ou angle d'azimut,Démarrage,,,Operational
+bufr4/3/16/021/20/005021,16,Caractéristiques synoptiques,316021,(Données d'analyse),,005021,Relèvement ou angle d'azimut,Fin,,,Operational
+bufr4/3/16/021/21/102002,16,Caractéristiques synoptiques,316021,(Données d'analyse),,102002,Répliquer 5 descripteurs 2 fois,,,,Operational
+bufr4/3/16/021/22/019003,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019003,Seuil de vitesse du vent,,,,Operational
+bufr4/3/16/021/23/019004,16,Caractéristiques synoptiques,316021,(Données d'analyse),,019004,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,,,,Operational
+bufr4/3/16/022/1/001032,16,Caractéristiques synoptiques,316022,Prévision,,001032,Génération d'application,"Nom du modèle NWP, etc. table de codes définie par le centre d'origine/génération",,,Operational
+bufr4/3/16/022/2/002041,16,Caractéristiques synoptiques,316022,Prévision,,002041,Méthode pour estimer les rapports liés aux caractéristiques synoptiques,,,,Operational
+bufr4/3/16/022/3/019001,16,Caractéristiques synoptiques,316022,Prévision,,019001,Caractéristiques synoptiques,,,,Operational
+bufr4/3/16/022/4/019010,16,Caractéristiques synoptiques,316022,Prévision,,019010,Méthode pour suivre le centre de la caractéristique synoptique,,,,Operational
+bufr4/3/16/022/5/118000,16,Caractéristiques synoptiques,316022,Prévision,,118000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/022/6/031001,16,Caractéristiques synoptiques,316022,Prévision,,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/022/7/008021,16,Caractéristiques synoptiques,316022,Prévision,,008021,Signification du temps,Prévision,,,Operational
+bufr4/3/16/022/8/004014,16,Caractéristiques synoptiques,316022,Prévision,,004014,Incrément horaire,Heure,,,Operational
+bufr4/3/16/022/9/008005,16,Caractéristiques synoptiques,316022,Prévision,,008005,Signification de l'attribut météorologique,Caractéristiques synoptiques,,,Operational
+bufr4/3/16/022/10/301023,16,Caractéristiques synoptiques,316022,Prévision,,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/022/11/019005,16,Caractéristiques synoptiques,316022,Prévision,,019005,Direction du mouvement de la caractéristique,,,,Operational
+bufr4/3/16/022/12/019006,16,Caractéristiques synoptiques,316022,Prévision,,019006,Vitesse de mouvement de la caractéristique,,,,Operational
+bufr4/3/16/022/13/010004,16,Caractéristiques synoptiques,316022,Prévision,,010004,Pression,,,,Operational
+bufr4/3/16/022/14/011041,16,Caractéristiques synoptiques,316022,Prévision,,011041,Vitesse maximale des rafales de vent,"Par exemple, utilisé aux États-Unis",,,Operational
+bufr4/3/16/022/15/008021,16,Caractéristiques synoptiques,316022,Prévision,,008021,Signification du temps,Prévision moyenne temporelle,,,Operational
+bufr4/3/16/022/16/004075,16,Caractéristiques synoptiques,316022,Prévision,,004075,Période de temps ou déplacement,Minute,,,Operational
+bufr4/3/16/022/17/011040,16,Caractéristiques synoptiques,316022,Prévision,,011040,Vitesse maximale du vent (vent moyen sur 10 minutes),,,,Operational
+bufr4/3/16/022/18/019008,16,Caractéristiques synoptiques,316022,Prévision,,019008,Étendue verticale de la circulation,,,,Operational
+bufr4/3/16/022/19/105004,16,Caractéristiques synoptiques,316022,Prévision,,105004,Répliquer 5 descripteurs 2 fois,,,,Operational
+bufr4/3/16/022/20/005021,16,Caractéristiques synoptiques,316022,Prévision,,005021,Relèvement ou angle d'azimut,Démarrage,,,Operational
+bufr4/3/16/022/21/005021,16,Caractéristiques synoptiques,316022,Prévision,,005021,Relèvement ou angle d'azimut,Fin,,,Operational
+bufr4/3/16/022/22/102002,16,Caractéristiques synoptiques,316022,Prévision,,102002,Répliquer 5 descripteurs 2 fois,,,,Operational
+bufr4/3/16/022/23/019003,16,Caractéristiques synoptiques,316022,Prévision,,019003,Seuil de vitesse du vent,,,,Operational
+bufr4/3/16/022/24/019004,16,Caractéristiques synoptiques,316022,Prévision,,019004,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,,,,Operational
+bufr4/3/16/026/1/316020,16,Caractéristiques synoptiques,316026,(Informations d'analyse des tempêtes tropicales),,316020,Cyclone tropical,,,,Operational
+bufr4/3/16/026/2/316021,16,Caractéristiques synoptiques,316026,(Informations d'analyse des tempêtes tropicales),,316021,(Données d'analyse),,,,Operational
+bufr4/3/16/027/1/316020,16,Caractéristiques synoptiques,316027,(Informations d'analyse des tempêtes tropicales),,316020,Cyclone tropical,,,,Operational
+bufr4/3/16/027/2/316022,16,Caractéristiques synoptiques,316027,(Informations d'analyse des tempêtes tropicales),,316022,Données de prévision correspondantes,,,,Operational
+bufr4/3/16/030/1/301014,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,301014,Période,Pour quel SIGMET est valide,,,Operational
+bufr4/3/16/030/2/001037,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,001037,Identifiant de séquence SIGMET,,,,Operational
+bufr4/3/16/030/3/010064,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,010064,Niveau de croisière SIGMET,,,,Operational
+bufr4/3/16/030/4/008019,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,008019,Qualificateur pour l'identifiant du centre suivant,= 1 unité ATS desservant la FIR,,,Operational
+bufr4/3/16/030/5/001062,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,001062,Indicatif d’emplacement OACI,,,,Operational
+bufr4/3/16/030/6/008019,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,008019,Qualificateur pour l'identifiant du centre suivant,"= 2 FIR, = 3 UIR, = 4 CTA",,,Operational
+bufr4/3/16/030/7/001065,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,001065,Identifiant de région OACI,,,,Operational
+bufr4/3/16/030/8/008019,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,008019,Qualificateur pour l'identifiant du centre suivant,= 6 MWO,,,Operational
+bufr4/3/16/030/9/001062,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,001062,Indicatif d’emplacement OACI,,,,Operational
+bufr4/3/16/030/10/008019,16,Caractéristiques synoptiques,316030,(En-tête SIGMET),,008019,Qualificateur pour l'identifiant du centre suivant,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/031/1/008021,16,Caractéristiques synoptiques,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,008021,Signification du temps,"= 16 Analyse, = 4 Prévision",,,Operational
+bufr4/3/16/031/2/301011,16,Caractéristiques synoptiques,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/031/3/301012,16,Caractéristiques synoptiques,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/031/4/301027,16,Caractéristiques synoptiques,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,301027,(Description d'une fonctionnalité en 3-D ou 2-D),,,,Operational
+bufr4/3/16/031/5/019005,16,Caractéristiques synoptiques,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,019005,Direction du mouvement de la caractéristique,,,,Operational
+bufr4/3/16/031/6/019006,16,Caractéristiques synoptiques,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,019006,Vitesse de mouvement de la caractéristique,,,,Operational
+bufr4/3/16/031/7/020028,16,Caractéristiques synoptiques,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,020028,Changement prévu d'intensité,,,,Operational
+bufr4/3/16/031/8/008021,16,Caractéristiques synoptiques,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,008021,Signification du temps,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/032/1/008021,16,Caractéristiques synoptiques,316032,"SIGMET, Position prévue",,008021,Signification du temps,"= 16 Analyse, = 4 Prévision",,,Operational
+bufr4/3/16/032/2/301011,16,Caractéristiques synoptiques,316032,"SIGMET, Position prévue",,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/032/3/301012,16,Caractéristiques synoptiques,316032,"SIGMET, Position prévue",,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/032/4/301027,16,Caractéristiques synoptiques,316032,"SIGMET, Position prévue",,301027,(Description d'une fonctionnalité en 3-D ou 2-D),,,,Operational
+bufr4/3/16/032/5/008021,16,Caractéristiques synoptiques,316032,"SIGMET, Position prévue",,008021,Signification du temps,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/033/1/008021,16,Caractéristiques synoptiques,316033,"(SIGMET, Prévision)",,008021,Signification du temps,"= 16 Analyse, = 4 Prévision",,,Operational
+bufr4/3/16/033/2/301011,16,Caractéristiques synoptiques,316033,"(SIGMET, Prévision)",,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/033/3/301012,16,Caractéristiques synoptiques,316033,"(SIGMET, Prévision)",,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/033/4/101000,16,Caractéristiques synoptiques,316033,"(SIGMET, Prévision)",,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/033/5/031001,16,Caractéristiques synoptiques,316033,"(SIGMET, Prévision)",,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/033/6/301027,16,Caractéristiques synoptiques,316033,"(SIGMET, Prévision)",,301027,(Description d'une fonctionnalité en 3-D ou 2-D),,,,Operational
+bufr4/3/16/033/7/008021,16,Caractéristiques synoptiques,316033,"(SIGMET, Prévision)",,008021,Signification du temps,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/034/1/008079,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,008079,Statut du produit,"= 0 Problème normal, = 1 Correction",,,Operational
+bufr4/3/16/034/2/316030,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,316030,(En-tête SIGMET),,,,Operational
+bufr4/3/16/034/3/008011,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,008011,Caractéristique météorologique,= 17 Volcan,,,Operational
+bufr4/3/16/034/4/001022,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,001022,(Nom de la fonctionnalité),,,,Operational
+bufr4/3/16/034/5/008007,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,008007,Signification dimensionnelle,= 0 Point,,,Operational
+bufr4/3/16/034/6/301023,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/034/7/008007,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,008007,Signification dimensionnelle,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/034/8/020090,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,020090,Nuages spéciaux,Nuages provenant des éruptions volcaniques,,,Operational
+bufr4/3/16/034/9/316031,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,,,Operational
+bufr4/3/16/034/10/101000,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/034/11/031000,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,031000,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/034/12/316032,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,316032,"SIGMET, Position prévue",,,,Operational
+bufr4/3/16/034/13/101000,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/034/14/031001,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/034/15/316033,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,316033,"(SIGMET, Prévision)",,,,Operational
+bufr4/3/16/034/16/008011,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/034/17/008079,16,Caractéristiques synoptiques,316034,(SIGMET Cendres Volcaniques),,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/035/1/008079,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,008079,Statut du produit,"= 0 Problème normal, = 1 Correction",,,Operational
+bufr4/3/16/035/2/316030,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,316030,(En-tête SIGMET),,,,Operational
+bufr4/3/16/035/3/008011,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,008011,Caractéristique météorologique,= 21 Orage,,,Operational
+bufr4/3/16/035/4/020023,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,020023,Autres phénomènes météorologiques,Bit 2 = Rafales ou tous les 18 bits = Manquant,,,Operational
+bufr4/3/16/035/5/020021,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,020021,Précipitation - type inconnu,Bit 14 = Grêle ou tous les 30 bits = Manquant,,,Operational
+bufr4/3/16/035/6/020008,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,020008,Distribution cloud pour l'aviation,"= 15 OBSC, = 16 EMBD, = 12 FRQ, = 31 Manquant",,,Operational
+bufr4/3/16/035/7/316031,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,,,Operational
+bufr4/3/16/035/8/008011,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/035/9/008079,16,Caractéristiques synoptiques,316035,(SIGMET ORAGE),,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/036/1/008079,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,008079,Statut du produit,"= 0 Problème normal, = 1 Correction",,,Operational
+bufr4/3/16/036/2/316030,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,316030,(En-tête SIGMET),,,,Operational
+bufr4/3/16/036/3/008011,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,008011,Caractéristique météorologique,= 22 Cyclone tropical,,,Operational
+bufr4/3/16/036/4/001027,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,001027,Nom de tempête de l'OMM,,,,Operational
+bufr4/3/16/036/5/316031,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,,,Operational
+bufr4/3/16/036/6/101000,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/036/7/031000,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,031000,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/036/8/316032,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,316032,"SIGMET, Position prévue",,,,Operational
+bufr4/3/16/036/9/101000,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/036/10/031001,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/036/11/316033,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,316033,"(SIGMET, Prévision)",,,,Operational
+bufr4/3/16/036/12/008011,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/036/13/008079,16,Caractéristiques synoptiques,316036,(SIGMET cyclone tropical),,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/037/1/008079,16,Caractéristiques synoptiques,316037,SIGMET de turbulence,,008079,Statut du produit,"= 0 Problème normal, = 1 Correction",,,Operational
+bufr4/3/16/037/2/316030,16,Caractéristiques synoptiques,316037,SIGMET de turbulence,,316030,(En-tête SIGMET),,,,Operational
+bufr4/3/16/037/3/008011,16,Caractéristiques synoptiques,316037,SIGMET de turbulence,,008011,Caractéristique météorologique,= 13 Turbulence,,,Operational
+bufr4/3/16/037/4/011031,16,Caractéristiques synoptiques,316037,SIGMET de turbulence,,011031,Degré étendu de turbulence,"= 10 Modéré, = 11 Sévère",,,Operational
+bufr4/3/16/037/5/316031,16,Caractéristiques synoptiques,316037,SIGMET de turbulence,,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,,,Operational
+bufr4/3/16/037/6/008011,16,Caractéristiques synoptiques,316037,SIGMET de turbulence,,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/037/7/008079,16,Caractéristiques synoptiques,316037,SIGMET de turbulence,,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/038/1/008079,16,Caractéristiques synoptiques,316038,(SIGMET givrage),,008079,Statut du produit,"= 0 Problème normal, = 1 Correction",,,Operational
+bufr4/3/16/038/2/316030,16,Caractéristiques synoptiques,316038,(SIGMET givrage),,316030,(En-tête SIGMET),,,,Operational
+bufr4/3/16/038/3/008011,16,Caractéristiques synoptiques,316038,(SIGMET givrage),,008011,Caractéristique météorologique,= 15 Givrage de la cellule,,,Operational
+bufr4/3/16/038/4/020041,16,Caractéristiques synoptiques,316038,(SIGMET givrage),,020041,Givrage de la cellule,= 7 Grave,,,Operational
+bufr4/3/16/038/5/020021,16,Caractéristiques synoptiques,316038,(SIGMET givrage),,020021,Précipitation - type inconnu,Bit 3 = Gel de liquide ou tous les 30 bits = Manquant,,,Operational
+bufr4/3/16/038/6/316031,16,Caractéristiques synoptiques,316038,(SIGMET givrage),,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,,,Operational
+bufr4/3/16/038/7/008011,16,Caractéristiques synoptiques,316038,(SIGMET givrage),,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/038/8/008079,16,Caractéristiques synoptiques,316038,(SIGMET givrage),,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/039/1/008079,16,Caractéristiques synoptiques,316039,"(Onde orographique, tempête de poussière ou de sable SIGMET)",,008079,Statut du produit,"= 0 Problème normal, = 1 Correction",,,Operational
+bufr4/3/16/039/2/316030,16,Caractéristiques synoptiques,316039,"(Onde orographique, tempête de poussière ou de sable SIGMET)",,316030,(En-tête SIGMET),,,,Operational
+bufr4/3/16/039/3/008011,16,Caractéristiques synoptiques,316039,"(Onde orographique, tempête de poussière ou de sable SIGMET)",,008011,Caractéristique météorologique,"= 23 Onde orographique, = 24 Tempête de poussière, = 25 Tempête de sable",,,Operational
+bufr4/3/16/039/4/020024,16,Caractéristiques synoptiques,316039,"(Onde orographique, tempête de poussière ou de sable SIGMET)",,020024,Intensité des phénomènes,"= 3 Lourd, = 5 Grave",,,Operational
+bufr4/3/16/039/5/316031,16,Caractéristiques synoptiques,316039,"(Onde orographique, tempête de poussière ou de sable SIGMET)",,316031,"(SIGMET, Emplacement observé ou prévu et mouvement)",,,,Operational
+bufr4/3/16/039/6/008011,16,Caractéristiques synoptiques,316039,"(Onde orographique, tempête de poussière ou de sable SIGMET)",,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/039/7/008079,16,Caractéristiques synoptiques,316039,"(Onde orographique, tempête de poussière ou de sable SIGMET)",,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/040/1/316030,16,Caractéristiques synoptiques,316040,(Annulation de SIGMET),,316030,(En-tête SIGMET),,,,Operational
+bufr4/3/16/040/2/008079,16,Caractéristiques synoptiques,316040,(Annulation de SIGMET),,008079,Statut du produit,= 4 Annulations,,,Operational
+bufr4/3/16/040/3/301014,16,Caractéristiques synoptiques,316040,(Annulation de SIGMET),,301014,Période,Du SIGMET à annuler,,,Operational
+bufr4/3/16/040/4/001037,16,Caractéristiques synoptiques,316040,(Annulation de SIGMET),,001037,Identifiant de séquence SIGMET,Du SIGMET à annuler,,,Operational
+bufr4/3/16/040/5/010064,16,Caractéristiques synoptiques,316040,(Annulation de SIGMET),,010064,Niveau de croisière SIGMET,Du SIGMET à annuler,,,Operational
+bufr4/3/16/040/6/008079,16,Caractéristiques synoptiques,316040,(Annulation de SIGMET),,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/050/1/301001,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,301001,(Numéros de bloc et de station OMM),,,,Operational
+bufr4/3/16/050/2/301011,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/050/3/301012,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/050/4/002160,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,002160,Longueur d'onde du radar,,,,Operational
+bufr4/3/16/050/5/008005,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,008005,Signification de l'attribut météorologique,= 1,,,Operational
+bufr4/3/16/050/6/005002,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/050/7/006002,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/050/8/008005,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,008005,Signification de l'attribut météorologique,Annuler,,,Operational
+bufr4/3/16/050/9/019100,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,019100,Intervalle de temps pour calculer le déplacement du cyclone tropical,,,,Operational
+bufr4/3/16/050/10/019005,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,019005,Direction du mouvement de la caractéristique,,,,Operational
+bufr4/3/16/050/11/019006,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,019006,Vitesse de mouvement de la caractéristique,,,,Operational
+bufr4/3/16/050/12/019101,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,019101,Précision de la position du centre du cyclone tropical,,,,Operational
+bufr4/3/16/050/13/019102,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,019102,Forme et définition de l'œil du cyclone tropical,,,,Operational
+bufr4/3/16/050/14/019103,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,019103,Forme et définition de l'œil du cyclone tropical,,,,Operational
+bufr4/3/16/050/15/019104,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,019104,Changement du caractère de l'œil pendant les 30 minutes.,,,,Operational
+bufr4/3/16/050/16/019105,16,Caractéristiques synoptiques,316050,(Modèle RADOB - Partie A : Informations sur le cyclone tropical),,019105,Distance entre la fin de la bande spirale et le centre,,,,Operational
+bufr4/3/16/052/1/301005,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,301005,(Centre d'origine/sous-centre),,,,Operational
+bufr4/3/16/052/2/301011,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/052/3/301012,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/052/4/001007,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,001007,Sous-identifiant du satellite,,,,Operational
+bufr4/3/16/052/5/025150,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,025150,Méthode d'analyse de l'intensité des cyclones tropicaux à l'aide de données satellitaires,,,,Operational
+bufr4/3/16/052/6/122000,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,122000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/052/7/031001,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/052/8/001027,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,001027,Nom de tempête de l'OMM,,,,Operational
+bufr4/3/16/052/9/019150,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019150,Numéro Commun International des Typhons (Comité des Typhons),,,,Operational
+bufr4/3/16/052/10/019106,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019106,Numéro d'identification du cyclone tropical,,,,Operational
+bufr4/3/16/052/11/008005,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,008005,Signification de l'attribut météorologique,= 1,,,Operational
+bufr4/3/16/052/12/005002,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/052/13/006002,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/052/14/008005,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,008005,Signification de l'attribut météorologique,Annuler,,,Operational
+bufr4/3/16/052/15/019107,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019107,Intervalle de temps pour calculer le déplacement du cyclone tropical,,,,Operational
+bufr4/3/16/052/16/019005,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019005,Direction du mouvement de la caractéristique,,,,Operational
+bufr4/3/16/052/17/019006,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019006,Vitesse de mouvement de la caractéristique,,,,Operational
+bufr4/3/16/052/18/019108,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019108,Précision de la position du centre du cyclone tropical,,,,Operational
+bufr4/3/16/052/19/019109,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019109,Diamètre moyen de la couverture nuageuse du cyclone tropical,,,,Operational
+bufr4/3/16/052/20/019110,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019110,Changement apparent d'intensité du cyclone tropical sur 24 heures,,,,Operational
+bufr4/3/16/052/21/019111,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019111,Numéro d'intensité actuelle (CI) du cyclone tropical,,,,Operational
+bufr4/3/16/052/22/019112,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019112,Numéro d'identification du cyclone tropical,,,,Operational
+bufr4/3/16/052/23/019113,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019113,Type de motif nuageux du numéro DT,,,,Operational
+bufr4/3/16/052/24/019114,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019114,Numéro Modèle Attendu Tropical (MET) du cyclone tropical,,,,Operational
+bufr4/3/16/052/25/019115,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019115,"Tendance du changement des dernières 24 heures (+: Développé, -: Affaibli)",,,,Operational
+bufr4/3/16/052/26/019116,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019116,Numéro d'identification du cyclone tropical,,,,Operational
+bufr4/3/16/052/27/019117,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019117,Type d'image de nuage du numéro PT,,,,Operational
+bufr4/3/16/052/28/019118,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019118,Numéro d'identification du cyclone tropical,,,,Operational
+bufr4/3/16/052/29/019119,16,Caractéristiques synoptiques,316052,(Modèle SAREP - Partie A : Informations sur le cyclone tropical),,019119,Type du numéro T final,,,,Operational
+bufr4/3/16/060/1/301011,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/060/2/301012,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/060/3/005002,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Position du centre de la ligne de grains,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/060/4/006002,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Position du centre de la ligne de grains,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/060/5/019005,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Position du centre de la ligne de grains,019005,Direction du mouvement de la caractéristique,,,,Operational
+bufr4/3/16/060/6/019006,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Position du centre de la ligne de grains,019006,Vitesse de mouvement de la caractéristique,,,,Operational
+bufr4/3/16/060/7/005002,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/060/8/006002,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/060/9/005002,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/060/10/006002,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/060/11/004074,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,004074,Période de temps ou déplacement,Période de validité,,,Operational
+bufr4/3/16/060/12/020048,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,020048,Évolution de la fonctionnalité,,,,Operational
+bufr4/3/16/060/13/011041,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,011041,Vitesse maximale des rafales de vent,Rafale maximal attendu,,,Operational
+bufr4/3/16/060/14/013055,16,Caractéristiques synoptiques,316060,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,013055,"Intensité de précipitation, taille de l'élément de précipitation",Intensité de pluie prévue,,,Operational
+bufr4/3/16/061/1/301011,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/061/2/301012,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/061/3/005002,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Position du centre de la ligne de grains,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/061/4/006002,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Position du centre de la ligne de grains,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/061/5/019005,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Position du centre de la ligne de grains,019005,Direction du mouvement de la caractéristique,,,,Operational
+bufr4/3/16/061/6/019006,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Position du centre de la ligne de grains,019006,Vitesse de mouvement de la caractéristique,,,,Operational
+bufr4/3/16/061/7/102000,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,102000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/061/8/031001,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/061/9/005002,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/061/10/006002,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/061/11/102000,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,102000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/061/12/031001,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/061/13/005002,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,005002,Latitude (haute précision),,,,Operational
+bufr4/3/16/061/14/006002,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,006002,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/061/15/004074,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,004074,Période de temps ou déplacement,Période de validité,,,Operational
+bufr4/3/16/061/16/020048,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,020048,Évolution de la fonctionnalité,,,,Operational
+bufr4/3/16/061/17/011041,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,011041,Vitesse maximale des rafales de vent,Rafale maximal attendu,,,Operational
+bufr4/3/16/061/18/013055,16,Caractéristiques synoptiques,316061,"(Définition de ligne de grain (par 3 points : Centre, Nord, Sud) et trajectoire et évolution prévues)",Amplitude de la caractéristique des points les plus externes au point central - Point Nord,013055,"Intensité de précipitation, taille de l'élément de précipitation",Intensité de pluie prévue,,,Operational
+bufr4/3/16/071/1/301014,16,Caractéristiques synoptiques,316071,(AIRMET Graphique Sierra),,301014,Période,Pour quel AIRMET est valide,,,Operational
+bufr4/3/16/071/2/101000,16,Caractéristiques synoptiques,316071,(AIRMET Graphique Sierra),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/071/3/031002,16,Caractéristiques synoptiques,316071,(AIRMET Graphique Sierra),,031002,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/071/4/316075,16,Caractéristiques synoptiques,316071,(AIRMET Graphique Sierra),,316075,Plafond et visibilité IFR,,,,Operational
+bufr4/3/16/071/5/101000,16,Caractéristiques synoptiques,316071,(AIRMET Graphique Sierra),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/071/6/031002,16,Caractéristiques synoptiques,316071,(AIRMET Graphique Sierra),,031002,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/071/7/316076,16,Caractéristiques synoptiques,316071,(AIRMET Graphique Sierra),,316076,Obstruction de montagne,,,,Operational
+bufr4/3/16/072/1/301014,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,301014,Période,Pour quel AIRMET est valide,,,Operational
+bufr4/3/16/072/2/101000,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/072/3/031002,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,031002,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/072/4/316077,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,316077,Turbulence GFA,,,,Operational
+bufr4/3/16/072/5/101000,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/072/6/031002,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,031002,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/072/7/316078,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,316078,Vent de surface fort GFA,,,,Operational
+bufr4/3/16/072/8/101000,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/072/9/031002,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,031002,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/072/10/316079,16,Caractéristiques synoptiques,316072,(AIRMET Graphique Tango),,316079,(Cisaillement du vent à basse altitude GFA),,,,Operational
+bufr4/3/16/073/1/301014,16,Caractéristiques synoptiques,316073,(AIRMET Graphique Zulu),,301014,Période,Pour quel AIRMET est valide,,,Operational
+bufr4/3/16/073/2/101000,16,Caractéristiques synoptiques,316073,(AIRMET Graphique Zulu),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/073/3/031002,16,Caractéristiques synoptiques,316073,(AIRMET Graphique Zulu),,031002,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/073/4/316080,16,Caractéristiques synoptiques,316073,(AIRMET Graphique Zulu),,316080,(GFA givrage),,,,Operational
+bufr4/3/16/073/5/101000,16,Caractéristiques synoptiques,316073,(AIRMET Graphique Zulu),,101000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/073/6/031002,16,Caractéristiques synoptiques,316073,(AIRMET Graphique Zulu),,031002,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/073/7/316081,16,Caractéristiques synoptiques,316073,(AIRMET Graphique Zulu),,316081,(Niveau de congélation GFA),,,,Operational
+bufr4/3/16/074/1/001039,16,Caractéristiques synoptiques,316074,(Identifiant GFA et emplacement observé/prévu),,001039,Identifiant de séquence de prévision de zone graphique (GFA),,,,Operational
+bufr4/3/16/074/2/008021,16,Caractéristiques synoptiques,316074,(Identifiant GFA et emplacement observé/prévu),,008021,Signification du temps,"= 16 Analyse, = 4 Prévision",,,Operational
+bufr4/3/16/074/3/301014,16,Caractéristiques synoptiques,316074,(Identifiant GFA et emplacement observé/prévu),,301014,Période,Pour quel danger est observé/prévu,,,Operational
+bufr4/3/16/074/4/301027,16,Caractéristiques synoptiques,316074,(Identifiant GFA et emplacement observé/prévu),,301027,(Description d'une fonctionnalité en 3-D ou 2-D),,,,Operational
+bufr4/3/16/074/5/008021,16,Caractéristiques synoptiques,316074,(Identifiant GFA et emplacement observé/prévu),,008021,Signification du temps,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/075/1/008079,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,008079,Statut du produit,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/075/2/008041,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,008041,Signification des données,Plafond et visibilité IFR,,,Operational
+bufr4/3/16/075/3/316074,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,316074,(Identifiant GFA et emplacement observé/prévu),,,,Operational
+bufr4/3/16/075/4/020006,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,020006,Règles de vol,= 1 IFR,,,Operational
+bufr4/3/16/075/5/033042,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,033042,Type de limite représentée par la valeur suivante,"= 2 Limite supérieure exclusive, = 7 Manquant",,,Operational
+bufr4/3/16/075/6/020013,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,020013,Hauteur du sommet du nuage,,,,Operational
+bufr4/3/16/075/7/033042,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,033042,Type de limite représentée par la valeur suivante,"= 2 Limite supérieure exclusive, = 7 Manquant",,,Operational
+bufr4/3/16/075/8/020001,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,020001,(Visibilité horizontale),,,,Operational
+bufr4/3/16/075/9/020025,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,020025,Obscuration,,,,Operational
+bufr4/3/16/075/10/020026,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,020026,Obscuration,"= 6 Soufflant, = 15 Manquant",,,Operational
+bufr4/3/16/075/11/008041,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,008041,Signification des données,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/075/12/008079,16,Caractéristiques synoptiques,316075,Plafond et visibilité IFR,,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/076/1/008079,16,Caractéristiques synoptiques,316076,Obstruction de montagne,,008079,Statut du produit,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/076/2/008041,16,Caractéristiques synoptiques,316076,Obstruction de montagne,,008041,Signification des données,= 9 Obstruction de montagne,,,Operational
+bufr4/3/16/076/3/316074,16,Caractéristiques synoptiques,316076,Obstruction de montagne,,316074,(Identifiant GFA et emplacement observé/prévu),,,,Operational
+bufr4/3/16/076/4/020006,16,Caractéristiques synoptiques,316076,Obstruction de montagne,,020006,Règles de vol,= 1 IFR,,,Operational
+bufr4/3/16/076/5/020025,16,Caractéristiques synoptiques,316076,Obstruction de montagne,,020025,Obscuration,,,,Operational
+bufr4/3/16/076/6/020026,16,Caractéristiques synoptiques,316076,Obstruction de montagne,,020026,Obscuration,"= 6 Soufflant, = 15 Manquant",,,Operational
+bufr4/3/16/076/7/008041,16,Caractéristiques synoptiques,316076,Obstruction de montagne,,008041,Signification des données,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/076/8/008079,16,Caractéristiques synoptiques,316076,Obstruction de montagne,,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/077/1/008079,16,Caractéristiques synoptiques,316077,Turbulence GFA,,008079,Statut du produit,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/077/2/008011,16,Caractéristiques synoptiques,316077,Turbulence GFA,,008011,Caractéristique météorologique,= 13 Turbulence,,,Operational
+bufr4/3/16/077/3/316074,16,Caractéristiques synoptiques,316077,Turbulence GFA,,316074,(Identifiant GFA et emplacement observé/prévu),,,,Operational
+bufr4/3/16/077/4/011031,16,Caractéristiques synoptiques,316077,Turbulence GFA,,011031,Degré étendu de turbulence,= 6 Modéré,,,Operational
+bufr4/3/16/077/5/008011,16,Caractéristiques synoptiques,316077,Turbulence GFA,,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/077/6/008079,16,Caractéristiques synoptiques,316077,Turbulence GFA,,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/078/1/008079,16,Caractéristiques synoptiques,316078,Vent de surface fort GFA,,008079,Statut du produit,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/078/2/008041,16,Caractéristiques synoptiques,316078,Vent de surface fort GFA,,008041,Signification des données,Vent de surface fort,,,Operational
+bufr4/3/16/078/3/316074,16,Caractéristiques synoptiques,316078,Vent de surface fort GFA,,316074,(Identifiant GFA et emplacement observé/prévu),,,,Operational
+bufr4/3/16/078/4/033042,16,Caractéristiques synoptiques,316078,Vent de surface fort GFA,,033042,Type de limite représentée par la valeur suivante,Limite inférieure exclusive (>),,,Operational
+bufr4/3/16/078/5/011012,16,Caractéristiques synoptiques,316078,Vent de surface fort GFA,,011012,Vitesse du vent,,,,Operational
+bufr4/3/16/078/6/008041,16,Caractéristiques synoptiques,316078,Vent de surface fort GFA,,008041,Signification des données,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/078/7/008079,16,Caractéristiques synoptiques,316078,Vent de surface fort GFA,,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/079/1/008079,16,Caractéristiques synoptiques,316079,(Cisaillement du vent à basse altitude GFA),,008079,Statut du produit,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/079/2/008011,16,Caractéristiques synoptiques,316079,(Cisaillement du vent à basse altitude GFA),,008011,Caractéristique météorologique,= 16 Phénomène,,,Operational
+bufr4/3/16/079/3/316074,16,Caractéristiques synoptiques,316079,(Cisaillement du vent à basse altitude GFA),,316074,(Identifiant GFA et emplacement observé/prévu),,,,Operational
+bufr4/3/16/079/4/020023,16,Caractéristiques synoptiques,316079,(Cisaillement du vent à basse altitude GFA),,020023,Autres phénomènes météorologiques,Bit 12 = Cisaillement du vent,,,Operational
+bufr4/3/16/079/5/020024,16,Caractéristiques synoptiques,316079,(Cisaillement du vent à basse altitude GFA),,020024,Intensité des phénomènes,,,,Operational
+bufr4/3/16/079/6/008011,16,Caractéristiques synoptiques,316079,(Cisaillement du vent à basse altitude GFA),,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/079/7/008079,16,Caractéristiques synoptiques,316079,(Cisaillement du vent à basse altitude GFA),,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/080/1/008079,16,Caractéristiques synoptiques,316080,(GFA givrage),,008079,Statut du produit,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/080/2/008011,16,Caractéristiques synoptiques,316080,(GFA givrage),,008011,Caractéristique météorologique,= 15 Givrage de la cellule,,,Operational
+bufr4/3/16/080/3/316074,16,Caractéristiques synoptiques,316080,(GFA givrage),,316074,(Identifiant GFA et emplacement observé/prévu),,,,Operational
+bufr4/3/16/080/4/020041,16,Caractéristiques synoptiques,316080,(GFA givrage),,020041,Givrage de la cellule,Givrage modéré,,,Operational
+bufr4/3/16/080/5/008011,16,Caractéristiques synoptiques,316080,(GFA givrage),,008011,Caractéristique météorologique,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/080/6/008079,16,Caractéristiques synoptiques,316080,(GFA givrage),,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/081/1/008079,16,Caractéristiques synoptiques,316081,(Niveau de congélation GFA),,008079,Statut du produit,"= 0 Normal, = 1 COR, = 2 AMD, = 3 COR AMD, = 4 CNL",,,Operational
+bufr4/3/16/081/2/008041,16,Caractéristiques synoptiques,316081,(Niveau de congélation GFA),,008041,Signification des données,"= 11 Niveau de congélation, = 12 Niveaux multiples de congélation",,,Operational
+bufr4/3/16/081/3/316074,16,Caractéristiques synoptiques,316081,(Niveau de congélation GFA),,316074,(Identifiant GFA et emplacement observé/prévu),,,,Operational
+bufr4/3/16/081/4/008041,16,Caractéristiques synoptiques,316081,(Niveau de congélation GFA),,008041,Signification des données,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/081/5/008079,16,Caractéristiques synoptiques,316081,(Niveau de congélation GFA),,008079,Statut du produit,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/082/1/001033,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,001033,Identification du centre d'origine/génération,,,,Operational
+bufr4/3/16/082/2/001034,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,001034,Identification du centre d'origine/génération,,,,Operational
+bufr4/3/16/082/3/001032,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,001032,Génération d'application,,,,Operational
+bufr4/3/16/082/4/001025,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,001025,Identifiant de tempête,,,,Operational
+bufr4/3/16/082/5/001027,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,001027,Nom de tempête de l'OMM,,,,Operational
+bufr4/3/16/082/6/001090,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,001090,Technique pour créer des perturbations initiales,,,,Operational
+bufr4/3/16/082/7/001091,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,001091,Numéro de membre de l'ensemble,,,,Operational
+bufr4/3/16/082/8/001092,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,001092,Série temporelle de prévisions de la moyenne d'ensemble,,,,Operational
+bufr4/3/16/082/9/301011,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/082/10/301012,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/082/11/008005,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/082/12/301023,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/082/13/008005,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/082/14/301023,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/082/15/010051,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,010051,Pression réduite au niveau moyen de la mer,,,,Operational
+bufr4/3/16/082/16/008005,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/082/17/301023,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/082/18/011012,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,011012,Vitesse du vent,,,,Operational
+bufr4/3/16/082/19/107003,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,107003,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/082/20/019003,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,019003,Seuil de vitesse du vent,,,,Operational
+bufr4/3/16/082/21/105004,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,105004,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/082/22/005021,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,005021,Relèvement ou angle d'azimut,,,,Operational
+bufr4/3/16/082/23/005021,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,005021,Relèvement ou angle d'azimut,,,,Operational
+bufr4/3/16/082/24/201131,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,201131,Remplacement de la largeur des données,,,,Operational
+bufr4/3/16/082/25/019004,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,019004,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,,,,Operational
+bufr4/3/16/082/26/201000,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,201000,Remplacement de la largeur des données,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/082/27/116000,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,116000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/082/28/031001,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/082/29/008021,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,008021,Signification du temps,,,,Operational
+bufr4/3/16/082/30/004024,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,004024,Période de temps ou déplacement,,,,Operational
+bufr4/3/16/082/31/008005,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/082/32/301023,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/082/33/010051,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,010051,Pression réduite au niveau moyen de la mer,,,,Operational
+bufr4/3/16/082/34/008005,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/082/35/301023,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/082/36/011012,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,011012,Vitesse du vent,,,,Operational
+bufr4/3/16/082/37/107003,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,107003,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/082/38/019003,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,019003,Seuil de vitesse du vent,,,,Operational
+bufr4/3/16/082/39/105004,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,105004,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/082/40/005021,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,005021,Relèvement ou angle d'azimut,,,,Operational
+bufr4/3/16/082/41/005021,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,005021,Relèvement ou angle d'azimut,,,,Operational
+bufr4/3/16/082/42/201131,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,201131,Remplacement de la largeur des données,,,,Operational
+bufr4/3/16/082/43/019004,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,019004,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,,,,Operational
+bufr4/3/16/082/44/201000,16,Caractéristiques synoptiques,316082,(Trace de cyclone tropical et rayons de vent),,201000,Remplacement de la largeur des données,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/083/1/001033,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001033,Identification du centre d'origine/génération,,,,Operational
+bufr4/3/16/083/2/001034,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001034,Identification du centre d'origine/génération,,,,Operational
+bufr4/3/16/083/3/001032,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001032,Génération d'application,,,,Operational
+bufr4/3/16/083/4/001130,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001130,Identifiant de tempête,,,,Operational
+bufr4/3/16/083/5/001027,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001027,Nom de tempête de l'OMM,,,,Operational
+bufr4/3/16/083/6/001030,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001030,Identifiant du modèle numérique,,,,Operational
+bufr4/3/16/083/7/001090,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001090,Technique pour créer des perturbations initiales,,,,Operational
+bufr4/3/16/083/8/001091,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001091,Numéro de membre de l'ensemble,,,,Operational
+bufr4/3/16/083/9/001092,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,001092,Série temporelle de prévisions de la moyenne d'ensemble,,,,Operational
+bufr4/3/16/083/10/301011,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,301011,"Année, mois, jour",,,,Operational
+bufr4/3/16/083/11/301012,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,301012,"Heure, minute, seconde",,,,Operational
+bufr4/3/16/083/12/008005,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/083/13/301023,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/083/14/008005,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/083/15/301023,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/083/16/010051,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,010051,Pression réduite au niveau moyen de la mer,,,,Operational
+bufr4/3/16/083/17/008005,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/083/18/301023,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/083/19/011012,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,011012,Vitesse du vent,,,,Operational
+bufr4/3/16/083/20/107004,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,107004,Répliquer 5 descripteurs 2 fois,,,,Operational
+bufr4/3/16/083/21/019003,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,019003,Seuil de vitesse du vent,,,,Operational
+bufr4/3/16/083/22/105004,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,105004,Répliquer 5 descripteurs 2 fois,,,,Operational
+bufr4/3/16/083/23/005021,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,005021,Relèvement ou angle d'azimut,,,,Operational
+bufr4/3/16/083/24/005021,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,005021,Relèvement ou angle d'azimut,,,,Operational
+bufr4/3/16/083/25/201131,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,201131,Remplacement de la largeur des données,,,,Operational
+bufr4/3/16/083/26/019004,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,019004,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,,,,Operational
+bufr4/3/16/083/27/201000,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,201000,Remplacement de la largeur des données,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/083/28/116000,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,116000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/083/29/031001,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/083/30/008021,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,008021,Signification du temps,,,,Operational
+bufr4/3/16/083/31/004024,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,004024,Période de temps ou déplacement,,,,Operational
+bufr4/3/16/083/32/008005,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/083/33/301023,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/083/34/010051,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,010051,Pression réduite au niveau moyen de la mer,,,,Operational
+bufr4/3/16/083/35/008005,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,008005,Signification de l'attribut météorologique,,,,Operational
+bufr4/3/16/083/36/301023,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,301023,Longitude alternative (précision approximative),,,,Operational
+bufr4/3/16/083/37/011012,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,011012,Vitesse du vent,,,,Operational
+bufr4/3/16/083/38/107004,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,107004,Répliquer 5 descripteurs 2 fois,,,,Operational
+bufr4/3/16/083/39/019003,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,019003,Seuil de vitesse du vent,,,,Operational
+bufr4/3/16/083/40/105004,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,105004,Répliquer 5 descripteurs 2 fois,,,,Operational
+bufr4/3/16/083/41/005021,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,005021,Relèvement ou angle d'azimut,,,,Operational
+bufr4/3/16/083/42/005021,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,005021,Relèvement ou angle d'azimut,,,,Operational
+bufr4/3/16/083/43/201131,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,201131,Remplacement de la largeur des données,,,,Operational
+bufr4/3/16/083/44/019004,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,019004,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,,,,Operational
+bufr4/3/16/083/45/201000,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,201000,Remplacement de la largeur des données,Définir sur manquant (annuler),,,Operational
+bufr4/3/16/083/46/104000,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,104000,Réplication différée de 6 descripteurs,,,,Operational
+bufr4/3/16/083/47/031001,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,031001,Facteur de réplication différée des descripteurs,,,,Operational
+bufr4/3/16/083/48/008055,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,008055,Méthode utilisée pour calculer les composantes moyennes du vent après suppression du vortex,,,,Operational
+bufr4/3/16/083/49/007004,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,007004,Pression,,,,Operational
+bufr4/3/16/083/50/011024,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,011024,Composante u moyenne après le retrait du vortex,,,,Operational
+bufr4/3/16/083/51/011025,16,Caractéristiques synoptiques,316083,(Trace de cyclone tropical et rayons de vent),,011025,Composante v moyenne après le retrait du vortex,,,,Operational

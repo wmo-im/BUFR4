@@ -1,0 +1,84 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/08/001,08,Qualificatifs de signification,008001,Signification de sondage vertical,Flag table,0,0,7,Flag table,0,3,,,Operational
+bufr4/0/08/002,08,Qualificatifs de signification,008002,Signification verticale (observations satellitaires),Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/003,08,Qualificatifs de signification,008003,Signification verticale (observations satellitaires),Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/004,08,Qualificatifs de signification,008004,Phase de vol de l'aéronef,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/005,08,Qualificatifs de signification,008005,Signification de l'attribut météorologique,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/006,08,Qualificatifs de signification,008006,Signification du sondage vertical de l'ozone,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/08/007,08,Qualificatifs de signification,008007,Signification dimensionnelle,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/008,08,Qualificatifs de signification,008008,Signification de sondage vertical de radiation,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/08/009,08,Qualificatifs de signification,008009,Phase de vol de l'aéronef,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/010,08,Qualificatifs de signification,008010,Qualificateur de surface (données de température),Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/08/011,08,Qualificatifs de signification,008011,Caractéristique météorologique,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/012,08,Qualificatifs de signification,008012,Qualificatif terre/mer,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/08/013,08,Qualificatifs de signification,008013,Qualificateur jour/nuit,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/08/014,08,Qualificatifs de signification,008014,Tendance de la portée visuelle de piste,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/015,08,Qualificatifs de signification,008015,Qualificateur significatif pour capteur,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/016,08,Qualificatifs de signification,008016,Modifier le qualifiant d'une prévision de type tendance ou d'une prévision d'aérodrome,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/017,08,Qualificatifs de signification,008017,Qualificateur du moment où le changement de prévision est attendu,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/08/018,08,Qualificatifs de signification,008018,Type de surface terre/glace SEAWINDS,Flag table,0,0,17,Flag table,0,6,,,Operational
+bufr4/0/08/019,08,Qualificatifs de signification,008019,Qualificateur pour l'identifiant du centre suivant,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/020,08,Qualificatifs de signification,008020,Nombre total d'entités manquantes (par rapport à l'accumulation ou à la moyenne),Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/08/021,08,Qualificatifs de signification,008021,Signification du temps,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/08/022,08,Qualificatifs de signification,008022,Nombre total (par rapport à l'accumulation ou à la moyenne),Numeric,0,0,16,Numeric,0,5,,,Operational
+bufr4/0/08/023,08,Qualificatifs de signification,008023,Les valeurs statistiques de premier ordre suivent,Code table,0,0,6,Code table,0,2,(voir la Note 3),70,Operational
+bufr4/0/08/024,08,Qualificatifs de signification,008024,Statistiques de différence,Code table,0,0,6,Code table,0,2,(voir la Note 3),61,Operational
+bufr4/0/08/025,08,Qualificatifs de signification,008025,Qualificateur de différence de temps,Code table,0,0,4,Code table,0,2,(voir la Note 3),49,Operational
+bufr4/0/08/026,08,Qualificatifs de signification,008026,Signification de la matrice,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/027,08,Qualificatifs de signification,008027,Type de mesure d'anomalie de la hauteur de la surface de la mer,Code table,0,0,8,,,,,,Operational
+bufr4/0/08/029,08,Qualificatifs de signification,008029,Emplacement et type de surface,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/08/030,08,Qualificatifs de signification,008030,"Manuel sur les codes (Volume I.1, Section C) Table de codes à partir de laquelle les données sont dérivées",Numeric,0,0,13,Numeric,0,4,,,Operational
+bufr4/0/08/031,08,Qualificatifs de signification,008031,Catégorie de données - Table CREX A,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/08/032,08,Qualificatifs de signification,008032,Statut de l'opération,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/033,08,Qualificatifs de signification,008033,Méthode de dérivation du pourcentage de confiance,Code table,0,0,7,Code table,0,3,(voir la Note 3),50,Operational
+bufr4/0/08/034,08,Qualificatifs de signification,008034,Qualificatif de mesure de température/salinité,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/035,08,Qualificatifs de signification,008035,Type d'exercice de surveillance,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/036,08,Qualificatifs de signification,008036,Type de centre ou de station effectuant la surveillance,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/037,08,Qualificatifs de signification,008037,Signification de la vérification de base,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/08/038,08,Qualificatifs de signification,008038,Signification des données d'instrument,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/08/039,08,Qualificatifs de signification,008039,Signification temporelle (Prévision aéronautique),Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/040,08,Qualificatifs de signification,008040,Signification du niveau de vol,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/041,08,Qualificatifs de signification,008041,Signification des données,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/08/042,08,Qualificatifs de signification,008042,Signification de sondage vertical,Flag table,0,0,18,Flag table,0,6,,,Operational
+bufr4/0/08/043,08,Qualificatifs de signification,008043,Type de constituant chimique ou physique atmosphérique,Code table,0,0,8,Code table,0,3,(voir la Note 3),169,Operational
+bufr4/0/08/044,08,Qualificatifs de signification,008044,Numéro d'enregistrement CAS,CCITT IA5,0,0,88,Character,0,11,,,Operational
+bufr4/0/08/045,08,Qualificatifs de signification,008045,Caractère des matières particulaires,Code table,0,0,8,Character,0,2,,,Operational
+bufr4/0/08/046,08,Qualificatifs de signification,008046,Type de constituant chimique ou physique atmosphérique,Common Code table C-14,0,0,16,Common Code table C-14,0,5,,,Operational
+bufr4/0/08/049,08,Qualificatifs de signification,008049,Nombre d'observations,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/08/050,08,Qualificatifs de signification,008050,Qualificatif pour le nombre de valeurs manquantes dans le calcul de la statistique,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/051,08,Qualificatifs de signification,008051,Qualificatif pour le nombre de valeurs manquantes dans le calcul de la statistique,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/052,08,Qualificatifs de signification,008052,Condition pour laquelle le nombre de jours d'occurrence suit,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/08/053,08,Qualificatifs de signification,008053,Qualificatif du jour d'occurrence,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/08/054,08,Qualificatifs de signification,008054,Qualificatif pour la vitesse du vent ou les rafales de vent,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/055,08,Qualificatifs de signification,008055,Méthode utilisée pour calculer les composantes moyennes du vent après suppression du vortex,Code table,0,0,4,,,,,,Operational
+bufr4/0/08/060,08,Qualificatifs de signification,008060,Signification du mode de balayage d'échantillon,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/065,08,Qualificatifs de signification,008065,Indicateur de reflet solaire,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/08/066,08,Qualificatifs de signification,008066,Indicateur de semi-transparence,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/08/070,08,Qualificatifs de signification,008070,Qualificatif du produit de sondage vertical,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/071,08,Qualificatifs de signification,008071,Coût d'estimation optimal,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/072,08,Qualificatifs de signification,008072,Type(s) de pixel(s),Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/074,08,Qualificatifs de signification,008074,Mode de traitement d'écho de l'altimètre,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/08/075,08,Qualificatifs de signification,008075,Qualificatif d'orbite ascendante/descendante,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/08/076,08,Qualificatifs de signification,008076,Type de bande,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/077,08,Qualificatifs de signification,008077,Type de surface détecté par radiomètre,Code table,0,0,7,Code table,0,3,,,Operational
+bufr4/0/08/079,08,Qualificatifs de signification,008079,Statut du produit,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/080,08,Qualificatifs de signification,008080,Qualificatif pour le drapeau de qualité GTSPP,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/081,08,Qualificatifs de signification,008081,Type d'équipement,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/082,08,Qualificatifs de signification,008082,Modification de la hauteur du capteur à une autre valeur,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/083,08,Qualificatifs de signification,008083,Indicateur de valeur nominale,Flag table,0,0,15,Flag table,0,5,,,Operational
+bufr4/0/08/085,08,Qualificatifs de signification,008085,Identifiant de faisceau,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/086,08,Qualificatifs de signification,008086,Signification verticale pour la NWP,Flag table,0,0,12,Flag table,0,4,,,Operational
+bufr4/0/08/087,08,Qualificatifs de signification,008087,Position d'observation d'angle,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/08/088,08,Qualificatifs de signification,008088,Signification de la carte,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/08/090,08,Qualificatifs de signification,008090,Échelle décimale des significatifs suivants,Numeric,0,-127,8,Numeric,0,3,(voir la Note 3),51,Operational
+bufr4/0/08/091,08,Qualificatifs de signification,008091,Signification des coordonnées,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/08/092,08,Qualificatifs de signification,008092,Expression de l'incertitude de mesure,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/08/093,08,Qualificatifs de signification,008093,Expression de l'incertitude de mesure,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/08/094,08,Qualificatifs de signification,008094,Méthode utilisée pour calculer la température moyenne quotidienne,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/08/095,08,Qualificatifs de signification,008095,Classification de l'emplacement et de la qualité des mesures pour la température,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/08/096,08,Qualificatifs de signification,008096,Classification de l'emplacement et de la qualité des mesures pour les précipitations,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/08/097,08,Qualificatifs de signification,008097,Méthode utilisée pour calculer la température moyenne de l'instrument,Code table,0,0,7,Code table,0,3,,,Operational
+bufr4/0/08/098,08,Qualificatifs de signification,008098,Source de mesure de la température,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/099,08,Qualificatifs de signification,008099,Perception de la direction,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/08/100,08,Qualificatifs de signification,008100,Type de valeur d'observation suivante,Code table,0,0,8,,,,,,Operational
+bufr4/0/08/101,08,Qualificatifs de signification,008101,Phase de vol en ballon,Code table,0,0,4,,,,,,Operational

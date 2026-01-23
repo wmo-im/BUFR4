@@ -1,0 +1,82 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/11/001,11,Vent et turbulence,011001,Direction du vent,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/002,11,Vent et turbulence,011002,Vitesse du vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/003,11,Vent et turbulence,011003,composante u,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/11/004,11,Vent et turbulence,011004,composant-v,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/11/005,11,Vent et turbulence,011005,composant-w,Pa/s,1,-512,10,Pa/s,1,4,,,Operational
+bufr4/0/11/006,11,Vent et turbulence,011006,composant-w,m/s,2,-4096,13,m/s,2,4,,,Operational
+bufr4/0/11/007,11,Vent et turbulence,011007,Direction relative du vent (en degrés par rapport à l'étrave),deg,0,0,9,deg,0,3,,,Operational
+bufr4/0/11/008,11,Vent et turbulence,011008,Vitesse du vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/010,11,Vent et turbulence,011010,Direction du vent,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/011,11,Vent et turbulence,011011,Direction du vent,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/012,11,Vent et turbulence,011012,Vitesse du vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/013,11,Vent et turbulence,011013,Direction du vent,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/014,11,Vent et turbulence,011014,Vitesse du vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/016,11,Vent et turbulence,011016,Direction du vent variable extrêmement antihoraire,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/017,11,Vent et turbulence,011017,Direction du vent variable extrêmement antihoraire,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/019,11,Vent et turbulence,011019,Stabilité du vent,%,0,0,7,%,0,3,(voir la Note 3),147,Operational
+bufr4/0/11/021,11,Vent et turbulence,011021,Vorticité relative,/s,9,-65536,17,/s,9,6,,,Operational
+bufr4/0/11/022,11,Vent et turbulence,011022,Divergence,/s,9,-65536,17,/s,9,6,,,Operational
+bufr4/0/11/023,11,Vent et turbulence,011023,Potentiel de vitesse,m2/s,-2,-65536,17,m2/s,-2,6,,,Operational
+bufr4/0/11/024,11,Vent et turbulence,011024,Composante u moyenne après le retrait du vortex,m/s,1,-4096,13,m/s,0,0,,,Operational
+bufr4/0/11/025,11,Vent et turbulence,011025,Composante v moyenne après le retrait du vortex,m/s,1,-4096,13,m/s,0,0,,,Operational
+bufr4/0/11/030,11,Vent et turbulence,011030,Degré étendu de turbulence,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/11/031,11,Vent et turbulence,011031,Degré étendu de turbulence,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/11/032,11,Vent et turbulence,011032,Hauteur de la base de la turbulence,m,-1,-40,16,m,-1,5,,,Operational
+bufr4/0/11/033,11,Vent et turbulence,011033,Hauteur de la base de la turbulence,m,-1,-40,16,m,-1,5,,,Operational
+bufr4/0/11/034,11,Vent et turbulence,011034,Vitesse verticale des rafales,m/s,1,-1024,11,m/s,1,4,,,Operational
+bufr4/0/11/035,11,Vent et turbulence,011035,Vitesse verticale des rafales,m s-2,2,-8192,14,m s-2,2,5,,,Operational
+bufr4/0/11/036,11,Vent et turbulence,011036,Vitesse verticale des rafales,m/s,1,0,10,m/s,1,4,,,Operational
+bufr4/0/11/037,11,Vent et turbulence,011037,Indice de turbulence,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/11/038,11,Vent et turbulence,011038,Moment de survenue du taux maximal de dissipation des tourbillons,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/11/039,11,Vent et turbulence,011039,Moment de survenue du taux maximal de dissipation des tourbillons,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/11/040,11,Vent et turbulence,011040,Vitesse maximale des rafales de vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/041,11,Vent et turbulence,011041,Vitesse maximale des rafales de vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/042,11,Vent et turbulence,011042,Vitesse maximale du vent (vent moyen sur 10 minutes),m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/043,11,Vent et turbulence,011043,Vitesse maximale des rafales de vent,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/044,11,Vent et turbulence,011044,Direction moyenne du vent pour la surface - 1 500 m (5 000 pieds),degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/045,11,Vent et turbulence,011045,Direction moyenne du vent pour la surface - 1 500 m (5 000 pieds),m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/046,11,Vent et turbulence,011046,Vitesse maximale instantanée du vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/047,11,Vent et turbulence,011047,Vitesse maximale instantanée du vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/049,11,Vent et turbulence,011049,Écart type de la direction du vent,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/050,11,Vent et turbulence,011050,Écart type de la direction du vent,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/051,11,Vent et turbulence,011051,Écart type de la direction du vent,m/s,1,0,8,m/s,1,3,,,Operational
+bufr4/0/11/052,11,Vent et turbulence,011052,Incertitude formelle de la vitesse du vent,m/s,2,0,13,m/s,2,5,,,Operational
+bufr4/0/11/053,11,Vent et turbulence,011053,Incertitude formelle de la vitesse du vent,degree true,2,0,15,degree true,2,5,,,Operational
+bufr4/0/11/054,11,Vent et turbulence,011054,Direction moyenne du vent pour la surface - 1 500 m (5 000 pieds),degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/055,11,Vent et turbulence,011055,Vitesse moyenne du vent pour 1 500 - 3 000 m,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/061,11,Vent et turbulence,011061,Cisaillement absolu du vent dans la couche de 1 km en dessous,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/062,11,Vent et turbulence,011062,Cisaillement absolu du vent dans la couche de 1 km en dessous,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/070,11,Vent et turbulence,011070,Désignateur de la piste affectée par le cisaillement du vent (y compris TOUTES).,CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/11/071,11,Vent et turbulence,011071,Flux de quantité de mouvement vertical turbulent,m2 s-2,3,-128,14,m2 s-2,3,5,,,Operational
+bufr4/0/11/072,11,Vent et turbulence,011072,Flux de flottabilité vertical turbulent,K m s-1,3,-128,11,K m s-1,3,4,,,Operational
+bufr4/0/11/073,11,Vent et turbulence,011073,Énergie cinétique turbulente,m2 s-2,2,-1024,13,m2 s-2,2,4,,,Operational
+bufr4/0/11/074,11,Vent et turbulence,011074,Énergie de dissipation,m2 s-2,2,-1024,10,m2 s-2,2,4,,,Operational
+bufr4/0/11/075,11,Vent et turbulence,011075,Intensité moyenne de la turbulence (taux de dissipation des tourbillons),m2/3 s-1,2,0,8,m2/3 s-1,2,3,,,Operational
+bufr4/0/11/076,11,Vent et turbulence,011076,Intensité moyenne de la turbulence (taux de dissipation des tourbillons),m2/3 s-1,2,0,8,m2/3 s-1,2,3,,,Operational
+bufr4/0/11/077,11,Vent et turbulence,011077,Moment de survenue du taux maximal de dissipation des tourbillons,s,0,0,12,s,0,4,,,Operational
+bufr4/0/11/080,11,Vent et turbulence,011080,Nombre de vues utilisées pour la récupération du vent,Numeric,0,0,3,,,,,,Operational
+bufr4/0/11/081,11,Vent et turbulence,011081,Modéliser la direction du vent à 10 m,degree true,2,0,16,degree true,2,5,,,Operational
+bufr4/0/11/082,11,Vent et turbulence,011082,Modéliser la direction du vent à 10 m,m/s,2,0,14,m/s,2,4,,,Operational
+bufr4/0/11/083,11,Vent et turbulence,011083,Vitesse du vent,km/h,0,0,9,km/h,0,3,,,Operational
+bufr4/0/11/084,11,Vent et turbulence,011084,Vitesse du vent,kt,0,0,8,kt,0,3,,,Operational
+bufr4/0/11/085,11,Vent et turbulence,011085,Vitesse maximale des rafales de vent,km/h,0,0,9,km/h,0,3,,,Operational
+bufr4/0/11/086,11,Vent et turbulence,011086,Vitesse maximale des rafales de vent,kt,0,0,8,kt,0,3,,,Operational
+bufr4/0/11/095,11,Vent et turbulence,011095,Composante u du vecteur de vent du modèle,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/11/096,11,Vent et turbulence,011096,Composante v du vecteur de vent du modèle,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/11/097,11,Vent et turbulence,011097,Vitesse du vent de l'altimètre,m/s,2,0,12,m/s,2,4,,,Operational
+bufr4/0/11/098,11,Vent et turbulence,011098,Vitesse du vent du radiomètre,m/s,2,0,12,m/s,2,4,,,Operational
+bufr4/0/11/100,11,Vent et turbulence,011100,Vitesse vraie de l'aéronef,m/s,1,0,12,m/s,1,4,,,Operational
+bufr4/0/11/101,11,Vent et turbulence,011101,Composante u de la vitesse sol de l'aéronef,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/11/102,11,Vent et turbulence,011102,Composante v de la vitesse sol de l'aéronef,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/11/103,11,Vent et turbulence,011103,Composante w de la vitesse sol de l'aéronef,m/s,1,-512,10,m/s,1,3,,,Operational
+bufr4/0/11/104,11,Vent et turbulence,011104,"Cap vrai d'un aéronef, navire ou autre plateforme mobile",degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/11/105,11,Vent et turbulence,011105,Version de l'algorithme EDR,Numeric,0,0,6,Numeric,0,2,,,Operational
+bufr4/0/11/106,11,Vent et turbulence,011106,Exécution de la confiance minimale,Numeric,1,0,4,Numeric,1,2,,,Operational
+bufr4/0/11/107,11,Vent et turbulence,011107,Nombre maximal d'entrées incorrectes,Numeric,0,0,5,Numeric,0,2,,,Operational
+bufr4/0/11/108,11,Vent et turbulence,011108,Emplacement du pic,Numeric,1,0,4,Numeric,1,2,,,Operational
+bufr4/0/11/109,11,Vent et turbulence,011109,Nombre de bons EDR,Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/11/110,11,Vent et turbulence,011110,Incertitude dans la composante u,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/11/111,11,Vent et turbulence,011111,Incertitude dans la composante v,m/s,1,-4096,13,m/s,1,4,,,Operational
+bufr4/0/11/112,11,Vent et turbulence,011112,Incertitude dans la composante w,m/s,2,-4096,13,m/s,2,4,,,Operational
+bufr4/0/11/113,11,Vent et turbulence,011113,Suivi de la corrélation du vecteur,Numeric,3,-1000,12,Numeric,3,4,,,Operational

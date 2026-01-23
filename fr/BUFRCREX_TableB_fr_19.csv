@@ -1,0 +1,32 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/19/001,19,Caractéristiques synoptiques,019001,Caractéristiques synoptiques,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/19/002,19,Caractéristiques synoptiques,019002,Rayon effectif de la caractéristique,m,-2,0,12,m,-2,4,(voir la Note 3),138,Operational
+bufr4/0/19/003,19,Caractéristiques synoptiques,019003,Seuil de vitesse du vent,m/s,0,0,8,m/s,0,3,(voir la Note 3),99,Operational
+bufr4/0/19/004,19,Caractéristiques synoptiques,019004,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,m,-2,0,12,m,-2,4,(voir la Note 3),99,Operational
+bufr4/0/19/005,19,Caractéristiques synoptiques,019005,Direction du mouvement de la caractéristique,degree true,0,0,9,degree true,0,3,(voir la Note 3),73,Operational
+bufr4/0/19/006,19,Caractéristiques synoptiques,019006,Vitesse de mouvement de la caractéristique,m/s,2,0,14,m/s,2,5,(voir la Note 3),73,Operational
+bufr4/0/19/007,19,Caractéristiques synoptiques,019007,Rayon effectif de la caractéristique,m,-3,0,12,m,-3,4,,,Operational
+bufr4/0/19/008,19,Caractéristiques synoptiques,019008,Étendue verticale de la circulation,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/19/009,19,Caractéristiques synoptiques,019009,Rayon effectif par rapport aux vitesses de vent au-dessus du seuil,m,-3,0,12,m,-3,4,,,Operational
+bufr4/0/19/010,19,Caractéristiques synoptiques,019010,Méthode pour suivre le centre de la caractéristique synoptique,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/100,19,Caractéristiques synoptiques,019100,Intervalle de temps pour calculer le déplacement du cyclone tropical,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/101,19,Caractéristiques synoptiques,019101,Précision de la position du centre du cyclone tropical,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/102,19,Caractéristiques synoptiques,019102,Forme et définition de l'œil du cyclone tropical,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/19/103,19,Caractéristiques synoptiques,019103,Forme et définition de l'œil du cyclone tropical,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/104,19,Caractéristiques synoptiques,019104,Changement du caractère de l'œil pendant les 30 minutes.,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/105,19,Caractéristiques synoptiques,019105,Distance entre la fin de la bande spirale et le centre,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/106,19,Caractéristiques synoptiques,019106,Numéro d'identification du cyclone tropical,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/19/107,19,Caractéristiques synoptiques,019107,Intervalle de temps pour calculer le déplacement du cyclone tropical,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/108,19,Caractéristiques synoptiques,019108,Précision de la position du centre du cyclone tropical,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/19/109,19,Caractéristiques synoptiques,019109,Diamètre moyen de la couverture nuageuse du cyclone tropical,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/110,19,Caractéristiques synoptiques,019110,Changement apparent d'intensité du cyclone tropical sur 24 heures,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/111,19,Caractéristiques synoptiques,019111,Numéro d'intensité actuelle (CI) du cyclone tropical,Numeric,1,0,7,Numeric,1,3,,,Operational
+bufr4/0/19/112,19,Caractéristiques synoptiques,019112,Numéro d'identification du cyclone tropical,Numeric,1,0,7,Numeric,1,3,,,Operational
+bufr4/0/19/113,19,Caractéristiques synoptiques,019113,Type de motif nuageux du numéro DT,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/19/114,19,Caractéristiques synoptiques,019114,Numéro Modèle Attendu Tropical (MET) du cyclone tropical,Numeric,1,0,7,Numeric,1,3,,,Operational
+bufr4/0/19/115,19,Caractéristiques synoptiques,019115,"Tendance du changement des dernières 24 heures (+: Développé, -: Affaibli)",Numeric,1,-30,6,Numeric,1,2,,,Operational
+bufr4/0/19/116,19,Caractéristiques synoptiques,019116,Numéro d'identification du cyclone tropical,Numeric,1,0,7,Numeric,1,3,,,Operational
+bufr4/0/19/117,19,Caractéristiques synoptiques,019117,Type d'image de nuage du numéro PT,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/19/118,19,Caractéristiques synoptiques,019118,Numéro d'identification du cyclone tropical,Numeric,1,0,7,Numeric,1,3,,,Operational
+bufr4/0/19/119,19,Caractéristiques synoptiques,019119,Type du numéro T final,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/19/150,19,Caractéristiques synoptiques,019150,Numéro Commun International des Typhons (Comité des Typhons),CCITT IA5,0,0,32,Character,0,4,,,Operational

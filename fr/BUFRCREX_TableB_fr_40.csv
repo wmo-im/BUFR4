@@ -1,0 +1,80 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/40/001,40,(Données de sondage satellitaire),040001,Humidité du sol,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/002,40,(Données de sondage satellitaire),040002,Erreur estimée dans l'humidité de surface du sol,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/003,40,(Données de sondage satellitaire),040003,Humidité du sol,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/40/004,40,(Données de sondage satellitaire),040004,Détection de la chute de pluie,Numeric,3,0,10,Numeric,3,4,,,Operational
+bufr4/0/40/005,40,(Données de sondage satellitaire),040005,Indicateur de correction de l'humidité du sol,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/006,40,(Données de sondage satellitaire),040006,Indicateur de correction de l'humidité du sol,Flag table,0,0,16,Flag table,0,6,,,Operational
+bufr4/0/40/007,40,(Données de sondage satellitaire),040007,Humidité du sol,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/008,40,(Données de sondage satellitaire),040008,Fraction de surface terrestre gelée,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/009,40,(Données de sondage satellitaire),040009,Inondation et fraction de zones humides,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/010,40,(Données de sondage satellitaire),040010,Complexité topographique,%,1,0,10,%,1,4,,,Operational
+bufr4/0/40/011,40,(Données de sondage satellitaire),040011,Drapeau d'interpolation,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/012,40,(Données de sondage satellitaire),040012,Indicateur de qualité des données du radiomètre,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/013,40,(Données de sondage satellitaire),040013,Indicateur d'interprétation de la température de brillance du radiomètre,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/014,40,(Données de sondage satellitaire),040014,Fluctuations à haute fréquence de la correction de la topographie de la surface de la mer,m,4,-3000,13,m,4,4,,,Operational
+bufr4/0/40/015,40,(Données de sondage satellitaire),040015,(Indice de végétation par différence normalisée (NDVI)),Numeric,2,-100,8,Numeric,2,3,,,Operational
+bufr4/0/40/016,40,(Données de sondage satellitaire),040016,RMS résiduel dans la bande,Numeric,3,0,14,Numeric,3,5,,,Operational
+bufr4/0/40/017,40,(Données de sondage satellitaire),040017,Score de composante principale non normalisé,Numeric,0,-1073741824,31,Numeric,0,10,,,Operational
+bufr4/0/40/018,40,(Données de sondage satellitaire),040018,GIacAvgImagIIS - moyenne des mesures de l'imagerie,W m-2 sr-1 m,6,0,24,W m-2 sr-1 m,6,8,,,Operational
+bufr4/0/40/019,40,(Données de sondage satellitaire),040019,GIacAvgImagIIS - moyenne des mesures de l'imagerie,W m-2 sr-1 m,6,0,24,W m-2 sr-1 m,6,8,,,Operational
+bufr4/0/40/020,40,(Données de sondage satellitaire),040020,GqisFlagQual - indicateur individuel de qualité du système IASI,Flag table,0,0,17,Flag table,0,6,,,Operational
+bufr4/0/40/021,40,(Données de sondage satellitaire),040021,Fraction de pixel AVHRR pondéré dans le champ de vision IASI couvert de neige/glace,%,0,0,7,%,0,3,,,Operational
+bufr4/0/40/022,40,(Données de sondage satellitaire),040022,"Nombre de pixels AVHRR manquants, défectueux ou défaillants",Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/40/023,40,(Données de sondage satellitaire),040023,Drapeau d'état de l'altimètre,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/40/024,40,(Données de sondage satellitaire),040024,Disponibilité de la carte météorologique,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/025,40,(Données de sondage satellitaire),040025,Drapeau d'interpolation pour la marée diurne moyenne,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/40/026,40,(Données de sondage satellitaire),040026,Facteur de quantification du score,Numeric,2,0,16,Numeric,2,5,,,Operational
+bufr4/0/40/027,40,(Données de sondage satellitaire),040027,Pas de reflet solaire,deg,2,-18000,16,deg,2,5,,,Operational
+bufr4/0/40/028,40,(Données de sondage satellitaire),040028,Drapeau de qualité GMI,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/40/029,40,(Données de sondage satellitaire),040029,Longueur d'intégration de l'observation horizontale,m,0,0,26,m,0,8,,,Operational
+bufr4/0/40/030,40,(Données de sondage satellitaire),040030,Vent de ligne de visée horizontale,m/s,2,-32767,16,m/s,2,5,,,Operational
+bufr4/0/40/031,40,(Données de sondage satellitaire),040031,Vent de ligne de visée horizontale,m/s,2,0,15,m/s,2,5,,,Operational
+bufr4/0/40/032,40,(Données de sondage satellitaire),040032,Vent dérivé à la pression,m s-1 Pa-1,3,-100000,18,m s-1 Pa-1,3,6,,,Operational
+bufr4/0/40/033,40,(Données de sondage satellitaire),040033,Vent dérivé à la température,m s-1 K-1,3,-100000,18,m s-1 K-1,3,6,,,Operational
+bufr4/0/40/034,40,(Données de sondage satellitaire),040034,Rapport de rétrodiffusion au vent dérivé,m/s,3,-200000,19,m/s,3,6,,,Operational
+bufr4/0/40/035,40,(Données de sondage satellitaire),040035,Portée du satellite,m,0,380000,18,m,0,6,,,Operational
+bufr4/0/40/036,40,(Données de sondage satellitaire),040036,Type de classification Lidar L2b,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/40/037,40,(Données de sondage satellitaire),040037,Distance de rétrodiffusion,Numeric,3,500,20,Numeric,3,7,,,Operational
+bufr4/0/40/038,40,(Données de sondage satellitaire),040038,Taille des particules nuageuses,m,7,0,28,m,7,6,,,Operational
+bufr4/0/40/039,40,(Données de sondage satellitaire),040039,Intensité d'image complexe à regard unique,Numeric,0,-25,5,Numeric,0,3,,,Operational
+bufr4/0/40/040,40,(Données de sondage satellitaire),040040,Skewness complexe d'image à regard unique,Numeric,2,1,13,Numeric,0,4,,,Operational
+bufr4/0/40/041,40,(Données de sondage satellitaire),040041,Kurtosis d'image complexe à vue unique,Numeric,2,1,13,Numeric,0,4,,,Operational
+bufr4/0/40/042,40,(Données de sondage satellitaire),040042,Variance d'image complexe à vue unique,Numeric,2,1,13,Numeric,0,4,,,Operational
+bufr4/0/40/043,40,(Données de sondage satellitaire),040043,Indicateur de manœuvre satellite,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/044,40,(Données de sondage satellitaire),040044,Indice de poussière,Numeric,1,0,8,Numeric,1,3,,,Operational
+bufr4/0/40/045,40,(Données de sondage satellitaire),040045,Formation des nuages et attribution de hauteur,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/40/046,40,(Données de sondage satellitaire),040046,Résumé de la nébulosité,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/047,40,(Données de sondage satellitaire),040047,Drapeau de validation pour le produit de niveau 1 IASI ou IASI-NG,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/048,40,(Données de sondage satellitaire),040048,Drapeau de validation du flux de données de niveau 1 AMSU-A,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/049,40,(Données de sondage satellitaire),040049,Tests cloud exécutés et résultats,Flag table,0,0,16,Flag table,0,5,,,Operational
+bufr4/0/40/050,40,(Données de sondage satellitaire),040050,Initialisation de la récupération,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/051,40,(Données de sondage satellitaire),040051,Convergence de la récupération itérative,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/052,40,(Données de sondage satellitaire),040052,Indication de super-adiabatique et de super-saturation dans la récupération finale,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/053,40,(Données de sondage satellitaire),040053,Nombre d'itérations utilisées pour la récupération,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/40/054,40,(Données de sondage satellitaire),040054,Erreurs potentielles de traitement et d'entrées,Flag table,0,0,13,Flag table,0,4,,,Operational
+bufr4/0/40/055,40,(Données de sondage satellitaire),040055,Diagnostics sur la récupération,Flag table,0,0,21,Flag table,0,7,,,Operational
+bufr4/0/40/056,40,(Données de sondage satellitaire),040056,Qualité générale de récupération,Code table ,0,0,3,Code table,0,1,,,Operational
+bufr4/0/40/057,40,(Données de sondage satellitaire),040057,Drapeaux de récupération de niveau 2 IASI,Flag table,0,0,31,Flag table,0,10,,,Operational
+bufr4/0/40/058,40,(Données de sondage satellitaire),040058,Nombre de vecteurs décrivant les matrices de caractérisation,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/40/059,40,(Données de sondage satellitaire),040059,Nombre de couches récupérées,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/40/060,40,(Données de sondage satellitaire),040060,Nombre de profils récupérés dans la ligne de balayage,Numeric,0,0,8,Numeric,0,3,,,Operational
+bufr4/0/40/061,40,(Données de sondage satellitaire),040061,Colonnes partielles d'air sur chaque couche récupérée,mol cm-2,3,0,16,mol cm-2,3,5,,,Operational
+bufr4/0/40/062,40,(Données de sondage satellitaire),040062,Colonnes partielles a priori pour chaque couche récupérée,mol cm-2,10,0,16,mol cm-2,10,5,,,Operational
+bufr4/0/40/063,40,(Données de sondage satellitaire),040063,Vecteur de mise à l'échelle multipliant le vecteur a priori afin de définir le vecteur récupéré,Numeric,5,0,26,Numeric,5,8,,,Operational
+bufr4/0/40/064,40,(Données de sondage satellitaire),040064,Vecteurs propres principaux de la matrice de sensibilité,Numeric,6,0,31,Numeric,6,10,,,Operational
+bufr4/0/40/065,40,(Données de sondage satellitaire),040065,Vecteurs propres principaux de la matrice de sensibilité,Numeric,6,-1000000000,31,Numeric,6,10,,,Operational
+bufr4/0/40/066,40,(Données de sondage satellitaire),040066,Indicateur de qualité pour la vapeur d'eau atmosphérique,Numeric,1,0,8,Numeric,1,3,,,Operational
+bufr4/0/40/067,40,(Données de sondage satellitaire),040067,Indicateur de qualité pour la température atmosphérique,Numeric,1,0,8,Numeric,1,3,,,Operational
+bufr4/0/40/068,40,(Données de sondage satellitaire),040068,Indicateur de qualité générale de récupération pour SO2,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/40/069,40,(Données de sondage satellitaire),040069,Erreur estimée de récupération PWLR pour la température de l'air en surface,K,4,-1000000,21,K,4,7,(voir la Note),114,Operational
+bufr4/0/40/070,40,(Données de sondage satellitaire),040070,Erreur estimée de récupération PWLR pour le point de rosée en surface,K,4,-1000000,21,K,4,7,,,Operational
+bufr4/0/40/071,40,(Données de sondage satellitaire),040071,Matrice de covariance des erreurs de récupération pour l'ozone dans le domaine des composantes principales,Numeric,4,-1000000,21,Numeric,4,7,,,Operational
+bufr4/0/40/072,40,(Données de sondage satellitaire),040072,Indicateur de qualité estimée de récupération PWLR de l'ozone atmosphérique,Numeric,1,0,8,Numeric,1,3,,,Operational
+bufr4/0/40/073,40,(Données de sondage satellitaire),040073,Erreur estimée de récupération PWLR pour la température de l'air en surface,K,1,0,8,K,1,3,,,Operational
+bufr4/0/40/074,40,(Données de sondage satellitaire),040074,Drapeaux de qualité générale d'interférométrie,Flag table,0,0,16,,,,,,Operational
+bufr4/0/40/075,40,(Données de sondage satellitaire),040075,Matrice de covariance des erreurs de récupération pour la température dans le domaine des composantes principales,Numeric,0,0,21,Numeric,0,7,,,Operational
+bufr4/0/40/076,40,(Données de sondage satellitaire),040076,Matrice de covariance des erreurs de récupération pour la température dans le domaine des composantes principales,Numeric,0,0,21,Numeric,0,7,,,Operational
+bufr4/0/40/077,40,(Données de sondage satellitaire),040077,Drapeau de qualité océanique spécifique à la bande,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/40/080,40,(Données de sondage satellitaire),040080,Résultats des tests de nuages pour IASI-NG niveau 2,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/40/081,40,(Données de sondage satellitaire),040081,Classification et qualité du niveau 1 OLCI,Flag table,0,0,31,,,,,,Operational

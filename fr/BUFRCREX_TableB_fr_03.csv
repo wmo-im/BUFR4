@@ -1,0 +1,31 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/03/001,03,Instrumentation,003001,Type de station de surface,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/03/003,03,Instrumentation,003003,Boîtier de thermomètre/hygromètre,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/004,03,Instrumentation,003004,Type d'écran/abri/protection contre les radiations,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/005,03,Instrumentation,003005,Largeur horizontale de l'écran ou du bouclier (x),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/006,03,Instrumentation,003006,Profondeur horizontale de l'écran ou du bouclier (y),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/007,03,Instrumentation,003007,Hauteur verticale de l'écran ou du bouclier (z),m,3,0,16,m,3,5,,,Operational
+bufr4/0/03/008,03,Instrumentation,003008,Écran ou bouclier ventilé artificiellement,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/009,03,Instrumentation,003009,Quantité de ventilation forcée au moment de la lecture,m/s,1,0,9,m/s,1,3,,,Operational
+bufr4/0/03/010,03,Instrumentation,003010,Méthode de mesure du courant marin/eau,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/011,03,Instrumentation,003011,Méthode de calcul de la profondeur,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/03/012,03,Instrumentation,003012,Type d'instrument/capteur pour la mesure de l'oxygène dissous,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/016,03,Instrumentation,003016,Position des capteurs routiers,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/017,03,Instrumentation,003017,Type de station étendue,Flag table,0,0,6,Flag table,0,2,,,Operational
+bufr4/0/03/018,03,Instrumentation,003018,Type de route,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/03/019,03,Instrumentation,003019,Type de construction,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/020,03,Instrumentation,003020,Boîtier de thermomètre/hygromètre,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/021,03,Instrumentation,003021,Chauffage d'hygromètre,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/03/022,03,Instrumentation,003022,Propriétaire de l'instrument,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/023,03,Instrumentation,003023,Configuration des persiennes pour écran thermomètre/hygromètre,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/024,03,Instrumentation,003024,Coefficient psychrométrique,K-1,6,0,10,K-1,6,3,,,Operational
+bufr4/0/03/025,03,Instrumentation,003025,Taille de la zone d'estimation transversale,m,0,5000,16,m,0,5,,,Operational
+bufr4/0/03/026,03,Instrumentation,003026,Taille de la zone d'estimation transversale,m,0,5000,16,m,0,5,,,Operational
+bufr4/0/03/027,03,Instrumentation,003027,Type de gréement de vol,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/03/028,03,Instrumentation,003028,Mesure manuelle ponctuelle de l'équivalent en eau de neige,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/03/029,03,Instrumentation,003029,Bande,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/030,03,Instrumentation,003030,Statut de l'antenne,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/03/031,03,Instrumentation,003031,"Largeur de bande du canal, largeur à mi-hauteur (FWHM)",m,11,0,16,m,11,13,,,Operational
+bufr4/0/03/032,03,Instrumentation,003032,Fréquence centrale du canal satellite,Hz,-6,0,26,Hz,-6,10,,,Operational
+bufr4/0/03/033,03,Instrumentation,003033,Largeur de bande du canal,Hz,-6,0,26,Hz,-6,10,,,Operational
+bufr4/0/03/034,03,Instrumentation,003034,Longueur d'onde du canal satellite,m,9,0,16,m,9,5,,,Operational

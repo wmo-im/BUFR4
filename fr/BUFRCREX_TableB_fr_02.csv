@@ -1,0 +1,178 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/02/001,02,Instrumentation,002001,Type de station,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/02/002,02,Instrumentation,002002,Type d'instrumentation pour la mesure du vent,Flag table,0,0,4,Flag table,0,2,,,Operational
+bufr4/0/02/003,02,Instrumentation,002003,Type d'équipement de mesure utilisé,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/004,02,Instrumentation,002004,Type d'instrumentation pour la mesure de l'évaporation ou type de culture pour laquelle l'évapotranspiration est rapportée,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/005,02,Instrumentation,002005,Précision de l'observation de la température,K,2,0,7,K,2,3,,,Operational
+bufr4/0/02/006,02,Instrumentation,002006,Type d'instrument de télédétection atmosphérique en altitude,Code table,0,0,6,Code table,0,0,,,Operational
+bufr4/0/02/007,02,Instrumentation,002007,Type de capteur pour instrument de mesure du niveau d'eau,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/008,02,Instrumentation,002008,Type de plateforme offshore,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/009,02,Instrumentation,002009,Algorithme d'aérosol MODIS,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/011,02,Instrumentation,002011,Type radiosonde,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/02/012,02,Instrumentation,002012,Méthode de calcul des radiosondes,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/013,02,Instrumentation,002013,Correction du rayonnement solaire et infrarouge,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/014,02,Instrumentation,002014,Technique de suivi/statut du système utilisé,Code table,0,0,7,Code table,0,3,,,Operational
+bufr4/0/02/015,02,Instrumentation,002015,Exhaustivité des radiosondes,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/016,02,Instrumentation,002016,Configuration de radiosonde,Flag table,0,0,5,Flag table,0,2,,,Operational
+bufr4/0/02/017,02,Instrumentation,002017,Algorithmes de correction pour les mesures d'humidité,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/019,02,Instrumentation,002019,Instruments satellitaires,Code table,0,0,11,Code table,0,4,,,Operational
+bufr4/0/02/020,02,Instrumentation,002020,Classification des satellites,Code table,0,0,9,Code table,0,3,,,Operational
+bufr4/0/02/021,02,Instrumentation,002021,Technique de traitement des données satellitaires utilisée,Flag table,0,0,9,Flag table,0,3,(voir la Note 3),47,Operational
+bufr4/0/02/022,02,Instrumentation,002022,Technique de traitement des données satellitaires utilisée,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/02/023,02,Instrumentation,002023,"(Identifiant du satellite, méthode de calcul du vent, date/heure, localisation)",Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/024,02,Instrumentation,002024,Méthode de calcul de l'humidité moyenne intégrée,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/025,02,Instrumentation,002025,Canal(s) satellite utilisé(s) dans le calcul,Flag table,0,0,25,Flag table,0,9,,,Operational
+bufr4/0/02/026,02,Instrumentation,002026,Résolution transverse,m,2,0,12,m,2,4,,,Operational
+bufr4/0/02/027,02,Instrumentation,002027,Résolution transverse,m,2,0,12,m,2,4,,,Operational
+bufr4/0/02/028,02,Instrumentation,002028,Taille du segment au nadir dans la direction x,m,0,0,18,m,0,6,,,Operational
+bufr4/0/02/029,02,Instrumentation,002029,Taille du segment au nadir dans la direction x,m,0,0,18,m,0,6,,,Operational
+bufr4/0/02/030,02,Instrumentation,002030,Méthode de mesure du courant,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/031,02,Instrumentation,002031,Durée et temps de la mesure actuelle,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/032,02,Instrumentation,002032,Indicateur pour la numérisation,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/02/033,02,Instrumentation,002033,Méthode de mesure de salinité/profondeur,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/034,02,Instrumentation,002034,Type de drogue,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/035,02,Instrumentation,002035,Longueur de câble,m,0,0,9,m,0,3,,,Operational
+bufr4/0/02/036,02,Instrumentation,002036,Type de bouée,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/02/037,02,Instrumentation,002037,Méthode d'observation des marées,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/038,02,Instrumentation,002038,Qualificatif de mesure de température/salinité,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/039,02,Instrumentation,002039,Température au thermomètre mouillé,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/040,02,Instrumentation,002040,Méthode pour éliminer la vitesse et le mouvement de la plateforme du courant,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/041,02,Instrumentation,002041,Méthode pour estimer les rapports liés aux caractéristiques synoptiques,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/042,02,Instrumentation,002042,Indicateur de la vitesse du courant à la surface de la mer,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/02/044,02,Instrumentation,002044,Indicateur pour méthode de calcul des données de vagues spectrales,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/045,02,Instrumentation,002045,Indicateur pour type de plateforme,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/046,02,Instrumentation,002046,Instrumentation de mesure des vagues,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/047,02,Instrumentation,002047,Type de tsunamètre en eau profonde,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/02/048,02,Instrumentation,002048,Indicateur de capteur satellite,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/049,02,Instrumentation,002049,Technique de traitement des données satellitaires utilisée,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/02/050,02,Instrumentation,002050,Canaux de sondeur satellitaire géostationnaire utilisés,Flag table,0,0,20,Flag table,0,7,,,Operational
+bufr4/0/02/051,02,Instrumentation,002051,Indicateur pour spécifier la méthode d'observation des températures extrêmes,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/052,02,Instrumentation,002052,Canaux d'imageur satellitaire géostationnaire utilisés,Flag table,0,0,6,Flag table,0,2,,,Operational
+bufr4/0/02/053,02,Instrumentation,002053,Caractéristiques de température de brillance GOES-I/M,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/054,02,Instrumentation,002054,Caractéristiques des paramètres de sondages GOES-I/M,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/055,02,Instrumentation,002055,Paramètres statistiques des sondages géostationnaires,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/056,02,Instrumentation,002056,Paramètres statistiques des sondages géostationnaires,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/057,02,Instrumentation,002057,Origine des informations initiales pour les sondages GOES-I/M,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/058,02,Instrumentation,002058,Origine des informations initiales pour les sondages GOES-I/M,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/059,02,Instrumentation,002059,Origine des informations d'analyse pour les sondages GOES-I/M,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/060,02,Instrumentation,002060,Origine des informations de surface pour les sondages GOES-I/M,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/061,02,Instrumentation,002061,Système de navigation aéronautique,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/062,02,Instrumentation,002062,Type de système de relais de données d'aéronef,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/063,02,Instrumentation,002063,Qualité de l'angle de roulis de l'aéronef,deg,2,-18000,16,deg,2,5,,,Operational
+bufr4/0/02/064,02,Instrumentation,002064,Qualité de l'angle de roulis de l'aéronef,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/02/065,02,Instrumentation,002065,Station de réception au sol ACARS,CCITT IA5,0,0,40,Character,0,5,,,Operational
+bufr4/0/02/066,02,Instrumentation,002066,Système de réception au sol pour radiosonde,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/067,02,Instrumentation,002067,Fréquence de fonctionnement du radiosonde,Hz,-5,0,15,Hz,-5,5,,,Operational
+bufr4/0/02/070,02,Instrumentation,002070,Spécification originale de latitude/longitude,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/071,02,Instrumentation,002071,Longueur d'onde spectrographique,m,13,0,30,m,13,10,,,Operational
+bufr4/0/02/072,02,Instrumentation,002072,Largeur spectrographique,m,13,0,30,m,13,10,,,Operational
+bufr4/0/02/080,02,Instrumentation,002080,Fabricant de ballon,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/081,02,Instrumentation,002081,Type de ballon,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/082,02,Instrumentation,002082,Poids du ballon,kg,3,0,12,kg,3,4,,,Operational
+bufr4/0/02/083,02,Instrumentation,002083,Type de hangar à ballons,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/084,02,Instrumentation,002084,Type de gaz utilisé dans le ballon,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/085,02,Instrumentation,002085,Type de gaz utilisé dans le ballon,kg,3,0,13,kg,3,4,,,Operational
+bufr4/0/02/086,02,Instrumentation,002086,Longueur du train de vol en ballon,m,1,0,10,m,1,4,,,Operational
+bufr4/0/02/087,02,Instrumentation,002087,Surface de la voile du parachute,m2,4,0,15,m2,4,5,,,Operational
+bufr4/0/02/088,02,Instrumentation,002088,Volume de gaz utilisé dans le ballon,m3,3,0,13,m3,3,4,,,Operational
+bufr4/0/02/090,02,Instrumentation,002090,Longueur d'onde de l'instrument,m,9,0,16,m,9,5,,,Operational
+bufr4/0/02/091,02,Instrumentation,002091,Capteur d'entrée 4/20 mA,A,4,0,10,A,4,3,,,Operational
+bufr4/0/02/092,02,Instrumentation,002092,Méthode de calcul du profil d'ozone,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/095,02,Instrumentation,002095,Type de capteur de pression,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/096,02,Instrumentation,002096,Type de capteur de température,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/097,02,Instrumentation,002097,Type de capteur d'humidité,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/099,02,Instrumentation,002099,Polarisation horizontale,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/100,02,Instrumentation,002100,Constante radar,dB,1,0,12,dB,1,4,(voir la Note 3),157,Operational
+bufr4/0/02/101,02,Instrumentation,002101,Type d'antenne,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/102,02,Instrumentation,002102,Hauteur de l'antenne au-dessus de la base de la tour,m,0,0,8,m,0,3,,,Operational
+bufr4/0/02/103,02,Instrumentation,002103,Radôme,Flag table,0,0,2,Flag table,0,1,,,Operational
+bufr4/0/02/104,02,Instrumentation,002104,Polarisation d'antenne,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/105,02,Instrumentation,002105,Gain d'antenne maximal,dB,0,0,6,dB,0,2,,,Operational
+bufr4/0/02/106,02,Instrumentation,002106,Largeur de faisceau à 3 dB,deg,1,0,6,deg,1,2,,,Operational
+bufr4/0/02/107,02,Instrumentation,002107,Suppression des lobes secondaires,dB,0,0,6,dB,0,2,,,Operational
+bufr4/0/02/108,02,Instrumentation,002108,Discrimination croisée (sur l'axe),dB,0,0,6,dB,0,2,,,Operational
+bufr4/0/02/109,02,Instrumentation,002109,Vitesse de l'antenne (azimut),deg/s,2,0,12,deg/s,2,4,,,Operational
+bufr4/0/02/110,02,Instrumentation,002110,Vitesse de l'antenne (élévation),deg/s,2,0,12,deg/s,2,4,,,Operational
+bufr4/0/02/111,02,Instrumentation,002111,Angle d'incidence radar,deg,1,0,10,deg,1,4,,,Operational
+bufr4/0/02/112,02,Instrumentation,002112,Angle de visée radar,deg,1,0,12,deg,1,4,,,Operational
+bufr4/0/02/113,02,Instrumentation,002113,Nombre de regards d'azimut,Numeric,0,0,4,Numeric,0,2,,,Operational
+bufr4/0/02/114,02,Instrumentation,002114,Surface effective de l'antenne,m2,0,0,15,m2,0,5,,,Operational
+bufr4/0/02/115,02,Instrumentation,002115,Type d'équipement d'observation de surface,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/116,02,Instrumentation,002116,Pourcentage de la bande 320 MHz traitée,%,0,0,7,%,0,3,,,Operational
+bufr4/0/02/117,02,Instrumentation,002117,Pourcentage de la bande 320 MHz traitée,%,0,0,7,%,0,3,,,Operational
+bufr4/0/02/118,02,Instrumentation,002118,Pourcentage de la bande 320 MHz traitée,%,0,0,7,%,0,3,,,Operational
+bufr4/0/02/119,02,Instrumentation,002119,Opérations de l'instrument RA-2,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/120,02,Instrumentation,002120,Fréquence des ondes océaniques,Hz,3,0,10,Hz,3,4,,,Operational
+bufr4/0/02/121,02,Instrumentation,002121,Fréquence moyenne,Hz,-8,0,7,Hz,-8,3,,,Operational
+bufr4/0/02/122,02,Instrumentation,002122,Plage d'agilité de fréquence,Hz,-6,-128,8,Hz,-6,3,,,Operational
+bufr4/0/02/123,02,Instrumentation,002123,Puissance de crête,W,-4,0,7,W,-4,3,,,Operational
+bufr4/0/02/124,02,Instrumentation,002124,Puissance moyenne,W,-1,0,7,W,-1,3,,,Operational
+bufr4/0/02/125,02,Instrumentation,002125,Fréquence de répétition des impulsions,Hz,-1,0,8,Hz,-1,3,,,Operational
+bufr4/0/02/126,02,Instrumentation,002126,Largeur d'impulsion,s,7,0,6,s,7,2,,,Operational
+bufr4/0/02/127,02,Instrumentation,002127,Fréquence intermédiaire du récepteur,Hz,-6,0,7,Hz,-6,3,,,Operational
+bufr4/0/02/128,02,Instrumentation,002128,Largeur de bande de fréquence intermédiaire,Hz,-5,0,6,Hz,-5,2,,,Operational
+bufr4/0/02/129,02,Instrumentation,002129,Signal minimum détectable,dB,0,-150,5,dB,0,3,,,Operational
+bufr4/0/02/130,02,Instrumentation,002130,Plage dynamique,dB,0,0,7,dB,0,3,,,Operational
+bufr4/0/02/131,02,Instrumentation,002131,Commande de durée de sensibilité (STC),Flag table,0,0,2,Flag table,0,1,,,Operational
+bufr4/0/02/132,02,Instrumentation,002132,Précision de pointage d'azimut,deg,2,0,6,deg,2,2,,,Operational
+bufr4/0/02/133,02,Instrumentation,002133,Précision de pointage en élévation,deg,2,0,6,deg,2,2,,,Operational
+bufr4/0/02/134,02,Instrumentation,002134,Azimut du faisceau de l'antenne,deg,2,0,16,deg,2,5,,,Operational
+bufr4/0/02/135,02,Instrumentation,002135,(Élévations de l'antenne),deg,2,-9000,15,deg,2,5,,,Operational
+bufr4/0/02/136,02,Instrumentation,002136,Correction d'atténuation de portée,m,-3,0,16,m,-3,5,,,Operational
+bufr4/0/02/137,02,Instrumentation,002137,Rapport PRF double radar,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/138,02,Instrumentation,002138,Direction de rotation de l'antenne,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/02/139,02,Instrumentation,002139,Configuration de l'instrument SIRAL,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/02/140,02,Instrumentation,002140,Angle d'azimut du faisceau radar du satellite,deg,0,0,9,deg,0,3,(voir la Note 3),111,Operational
+bufr4/0/02/141,02,Instrumentation,002141,Type de mesure,CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/02/142,02,Instrumentation,002142,Type d'instrument à ozone,CCITT IA5,0,0,32,Character,0,4,(voir la Note 3),91,Operational
+bufr4/0/02/143,02,Instrumentation,002143,Type d'instrument à ozone,Code table,0,0,7,Code table,0,3,,,Operational
+bufr4/0/02/144,02,Instrumentation,002144,Type de source lumineuse pour spectrophotomètre Brewer,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/145,02,Instrumentation,002145,Réglage de la longueur d'onde pour les instruments Dobson,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/146,02,Instrumentation,002146,Conditions sources pour les instruments Dobson,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/147,02,Instrumentation,002147,Méthode de transmission au centre de collecte,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/148,02,Instrumentation,002148,Système de collecte de données et/ou de localisation,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/02/149,02,Instrumentation,002149,Type de bouée de données,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/150,02,Instrumentation,002150,Numéro de canal d'instrumentation TOVS/ATOVS/AVHRR,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/151,02,Instrumentation,002151,Identifiant de radiomètre,Code table,0,0,11,Code table,0,4,,,Operational
+bufr4/0/02/152,02,Instrumentation,002152,Technique de traitement des données satellitaires utilisée,Flag table,0,0,31,Flag table,0,10,(voir la Note 3),46,Operational
+bufr4/0/02/153,02,Instrumentation,002153,Fréquence centrale du canal satellite,Hz,-8,0,26,Hz,-8,8,,,Operational
+bufr4/0/02/154,02,Instrumentation,002154,Largeur de bande du canal satellite,Hz,-8,0,26,Hz,-8,8,,,Operational
+bufr4/0/02/155,02,Instrumentation,002155,Longueur d'onde du canal satellite,m,9,0,16,m,9,5,,,Operational
+bufr4/0/02/156,02,Instrumentation,002156,Pourcentage de mesures valides du retracker océan Ku,%,0,0,7,%,0,3,,,Operational
+bufr4/0/02/157,02,Instrumentation,002157,Pourcentage de mesures valides du retracker océan Ku,%,0,0,7,%,0,3,,,Operational
+bufr4/0/02/158,02,Instrumentation,002158,Opérations de l'instrument RA-2,Flag table,0,0,9,Flag table,0,3,,,Operational
+bufr4/0/02/159,02,Instrumentation,002159,Instrument MWR,Flag table,0,0,8,Flag table,0,3,,,Operational
+bufr4/0/02/160,02,Instrumentation,002160,Longueur d'onde du radar,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/161,02,Instrumentation,002161,Méthode de traitement du vent,Flag table,0,0,16,Flag table,0,6,,,Operational
+bufr4/0/02/162,02,Instrumentation,002162,Méthode d'attribution de hauteur étendue,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/163,02,Instrumentation,002163,Méthode d'attribution de hauteur étendue,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/164,02,Instrumentation,002164,Méthode de corrélation des traceurs,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/02/165,02,Instrumentation,002165,Indicatifs de type de radiance,Flag table,0,0,15,Flag table,0,5,,,Operational
+bufr4/0/02/166,02,Instrumentation,002166,Éclat,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/167,02,Instrumentation,002167,Méthode de calcul de l'éclat,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/168,02,Instrumentation,002168,Pression hydrostatique de l'extrémité inférieure du câble (chaîne de thermistances),Pa,-3,0,16,kPa,0,5,,,Operational
+bufr4/0/02/169,02,Instrumentation,002169,Type d'anémomètre,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/170,02,Instrumentation,002170,Capteurs d'humidité pour aéronefs,Code table,0,0,6,Code table,0,2,,,Operational
+bufr4/0/02/171,02,Instrumentation,002171,Numéro de série de l'instrument pour la mesure du profil de température de l'eau,CCITT IA5,0,0,64,Character,0,8,,,Operational
+bufr4/0/02/172,02,Instrumentation,002172,Type de produit pour les gaz atmosphériques récupérés,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/02/173,02,Instrumentation,002173,Carré de l'angle hors-nadir,deg2,4,0,10,deg2,4,4,(voir la Note 3),124,Operational
+bufr4/0/02/174,02,Instrumentation,002174,Moyenne du numéro de pixel transversal,Numeric,0,0,9,Numeric,0,3,,,Operational
+bufr4/0/02/175,02,Instrumentation,002175,Mesure de précipitation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/176,02,Instrumentation,002176,Méthode de mesure de l'état du sol,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/177,02,Instrumentation,002177,Méthode de mesure de la profondeur de neige,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/178,02,Instrumentation,002178,Mesure de précipitation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/179,02,Instrumentation,002179,Type d'algorithme de condition du ciel,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/180,02,Instrumentation,002180,Système principal de détection des conditions météorologiques actuelles,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/181,02,Instrumentation,002181,Capteur météorologique présent supplémentaire,Flag table,0,0,21,Flag table,0,7,,,Operational
+bufr4/0/02/182,02,Instrumentation,002182,Système de mesure de la visibilité,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/183,02,Instrumentation,002183,Système de détection des nuages,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/184,02,Instrumentation,002184,Capteur pour la foudre,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/185,02,Instrumentation,002185,Mesure de l'évaporation,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/186,02,Instrumentation,002186,Capacité à détecter les phénomènes de précipitation,Flag table,0,0,30,Flag table,0,10,,,Operational
+bufr4/0/02/187,02,Instrumentation,002187,Capacité à détecter d'autres phénomènes météorologiques,Flag table,0,0,18,Flag table,0,6,,,Operational
+bufr4/0/02/188,02,Instrumentation,002188,Capacité à détecter l'obscuration,Flag table,0,0,21,Flag table,0,7,,,Operational
+bufr4/0/02/189,02,Instrumentation,002189,Capacité à discriminer les impacts de foudre,Flag table,0,0,12,Flag table,0,4,,,Operational
+bufr4/0/02/190,02,Instrumentation,002190,Submersion du dériveur lagrangien (% du temps immergé),%,0,0,7,%,0,3,,,Operational
+bufr4/0/02/191,02,Instrumentation,002191,Hauteur géopotentielle,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/02/192,02,Instrumentation,002192,Précision de l'observation de la pression,Pa,2,0,14,,,,,,Operational
+bufr4/0/02/193,02,Instrumentation,002193,Précision de l'observation du rapport de mélange,kg/kg,6,0,14,,,,,,Operational

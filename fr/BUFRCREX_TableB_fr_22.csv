@@ -1,0 +1,138 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/22/001,22,Éléments océanographiques,022001,Direction moyenne d'où proviennent les vagues,degree true,0,0,9,degree true,0,3,(voir la Note 3),136,Operational
+bufr4/0/22/002,22,Éléments océanographiques,022002,Direction du vent,degree true,0,0,9,degree true,0,3,(voir la Note 3),136,Operational
+bufr4/0/22/003,22,Éléments océanographiques,022003,Direction des vagues de houle,degree true,0,0,9,degree true,0,3,(voir la Note 3),136,Operational
+bufr4/0/22/004,22,Éléments océanographiques,022004,Direction du courant,degree true,0,0,9,degree true,0,3,(voir la Note 3),54,Operational
+bufr4/0/22/005,22,Éléments océanographiques,022005,Direction du courant marin/eau à un niveau,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/22/011,22,Éléments océanographiques,022011,Période des vagues,s,0,0,6,s,0,2,,,Operational
+bufr4/0/22/012,22,Éléments océanographiques,022012,Période des vagues,s,0,0,6,s,0,2,,,Operational
+bufr4/0/22/013,22,Éléments océanographiques,022013,Période des vagues de houle,s,0,0,6,s,0,2,,,Operational
+bufr4/0/22/021,22,Éléments océanographiques,022021,Hauteur significative des vagues,m,1,0,10,m,1,4,,,Operational
+bufr4/0/22/022,22,Éléments océanographiques,022022,Hauteur des vagues de vent,m,1,0,10,m,1,4,,,Operational
+bufr4/0/22/023,22,Éléments océanographiques,022023,Hauteur des vagues de houle,m,1,0,10,m,1,4,,,Operational
+bufr4/0/22/025,22,Éléments océanographiques,022025,Hauteur d'écart-type des vagues,m,2,0,10,m,2,4,,,Operational
+bufr4/0/22/026,22,Éléments océanographiques,022026,Hauteur d'écart-type des vagues,m,2,0,10,m,2,4,,,Operational
+bufr4/0/22/031,22,Éléments océanographiques,022031,Vitesse du courant,m/s,2,0,13,m/s,2,4,,,Operational
+bufr4/0/22/032,22,Éléments océanographiques,022032,Vitesse du courant marin/eau à un niveau,m/s,2,0,13,m/s,2,4,,,Operational
+bufr4/0/22/035,22,Éléments océanographiques,022035,Élévation de marée par rapport au zéro hydrographique local,m,2,0,14,m,2,4,,,Operational
+bufr4/0/22/036,22,Éléments océanographiques,022036,Élévation résiduelle de marée météorologique (surcote ou décalage),m,2,0,14,m,2,4,,,Operational
+bufr4/0/22/037,22,Éléments océanographiques,022037,Élévation de marée par rapport au zéro hydrographique local,m,3,-10000,15,m,3,5,,,Operational
+bufr4/0/22/038,22,Éléments océanographiques,022038,Élévation de marée par rapport au zéro hydrographique local,m,3,-10000,15,m,3,5,,,Operational
+bufr4/0/22/039,22,Éléments océanographiques,022039,Élévation résiduelle de marée météorologique (surcote ou décalage),m,3,-5000,13,m,3,4,(voir la Note 3),55,Operational
+bufr4/0/22/040,22,Éléments océanographiques,022040,Élévation résiduelle de marée météorologique (surcote ou décalage),m,3,-5000,14,m,3,5,(voir la Note 3),55,Operational
+bufr4/0/22/041,22,Éléments océanographiques,022041,Température de la surface de la mer (moyenne mobile sur 15 jours),K,1,0,12,K,1,4,,,Operational
+bufr4/0/22/042,22,Éléments océanographiques,022042,Température de la surface de la mer,K,1,0,12,K,1,4,,,Operational
+bufr4/0/22/043,22,Éléments océanographiques,022043,Température de la surface de la mer,K,2,0,15,K,2,5,,,Operational
+bufr4/0/22/044,22,Éléments océanographiques,022044,Vitesse du son,m/s,1,0,14,m/s,1,5,,,Operational
+bufr4/0/22/045,22,Éléments océanographiques,022045,Température de la surface de la mer,K,3,0,19,K,3,6,,,Operational
+bufr4/0/22/046,22,Éléments océanographiques,022046,Fraction de glace de mer,Numeric,2,0,7,Numeric,2,3,,,Operational
+bufr4/0/22/049,22,Éléments océanographiques,022049,Température de la surface de la mer,K,2,0,15,K,2,5,,,Operational
+bufr4/0/22/050,22,Éléments océanographiques,022050,Température d'écart-type de la surface de la mer,K,2,0,8,K,2,3,,,Operational
+bufr4/0/22/055,22,Éléments océanographiques,022055,Numéro de cycle de flottement,Numeric,0,0,10,Numeric,0,3,,,Operational
+bufr4/0/22/056,22,Éléments océanographiques,022056,Direction du profil,Code table,0,0,2,Code table,0,1,,,Operational
+bufr4/0/22/059,22,Éléments océanographiques,022059,Salinité à un niveau,0/00,2,0,14,0/00,2,5,,,Operational
+bufr4/0/22/060,22,Éléments océanographiques,022060,Statut de la drogue du dériveur lagrangien,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/22/061,22,Éléments océanographiques,022061,État de la mer,Code table,0,0,4,Code table,0,2,,,Operational
+bufr4/0/22/062,22,Éléments océanographiques,022062,Salinité à un niveau,0/00,2,0,14,0/00,2,5,,,Operational
+bufr4/0/22/063,22,Éléments océanographiques,022063,Profondeur totale de l'eau,m,0,0,14,m,0,5,,,Operational
+bufr4/0/22/064,22,Éléments océanographiques,022064,Salinité à un niveau,0/00,3,0,17,0/00,3,6,,,Operational
+bufr4/0/22/065,22,Éléments océanographiques,022065,Pression d'eau à un niveau,Pa,-3,0,17,Pa,-3,6,,,Operational
+bufr4/0/22/066,22,Éléments océanographiques,022066,Conductivité de l'eau,S/m,6,0,26,S/m,6,8,,,Operational
+bufr4/0/22/067,22,Éléments océanographiques,022067,Qualificatif de mesure de température/salinité,Code table,0,0,10,Code table,0,4,,,Operational
+bufr4/0/22/068,22,Éléments océanographiques,022068,Types d'enregistreurs de profil de température de l'eau,Code table,0,0,7,Code table,0,3,,,Operational
+bufr4/0/22/069,22,Éléments océanographiques,022069,Rapport de densité spectrale des vagues,m2/Hz,3,0,22,m2/Hz,3,7,,,Operational
+bufr4/0/22/070,22,Éléments océanographiques,022070,Hauteur significative des vagues,m,2,0,13,m,2,4,(voir la Note 3),146,Operational
+bufr4/0/22/071,22,Éléments océanographiques,022071,Période de pic spectral des vagues,s,1,0,9,s,1,3,,,Operational
+bufr4/0/22/072,22,Éléments océanographiques,022072,Période de pic spectral des vagues,m,0,0,13,m,0,4,,,Operational
+bufr4/0/22/073,22,Éléments océanographiques,022073,Hauteur significative des vagues,m,2,0,13,m,2,4,,,Operational
+bufr4/0/22/074,22,Éléments océanographiques,022074,Période moyenne des vagues,s,1,0,9,s,1,3,,,Operational
+bufr4/0/22/075,22,Éléments océanographiques,022075,Longueur d'onde moyenne,m,0,0,13,m,0,4,,,Operational
+bufr4/0/22/076,22,Éléments océanographiques,022076,Direction d'où proviennent les vagues dominantes,degree true,0,0,9,degree true,0,3,(voir la Note 3),137,Operational
+bufr4/0/22/077,22,Éléments océanographiques,022077,Répartition directionnelle des vagues,deg,0,0,9,deg,0,3,(voir la Note 3),137,Operational
+bufr4/0/22/078,22,Éléments océanographiques,022078,Durée de l'enregistrement des vagues,s,0,0,12,s,0,4,,,Operational
+bufr4/0/22/079,22,Éléments océanographiques,022079,Durée de l'enregistrement des vagues,m,0,0,16,m,0,5,,,Operational
+bufr4/0/22/080,22,Éléments océanographiques,022080,Fréquence centrale de bande.,Hz,3,0,10,Hz,3,4,,,Operational
+bufr4/0/22/081,22,Éléments océanographiques,022081,Fréquence centrale de bande.,/m,5,0,13,/m,5,4,,,Operational
+bufr4/0/22/082,22,Éléments océanographiques,022082,"Densité spectrale maximale non directionnelle des vagues, mise à l'échelle par fréquence",m2 s,2,0,20,m2 s,2,7,,,Operational
+bufr4/0/22/083,22,Éléments océanographiques,022083,Nombre d'onde spectral maximal non directionnel,m3,2,0,20,m3,2,7,,,Operational
+bufr4/0/22/084,22,Éléments océanographiques,022084,"Densité spectrale maximale non directionnelle des vagues, mise à l'échelle par fréquence",Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/22/085,22,Éléments océanographiques,022085,Rapport de densité spectrale des vagues,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/22/086,22,Éléments océanographiques,022086,Direction moyenne d'où proviennent les vagues,degree true,0,0,9,degree true,0,3,(voir la Note 3),100,Operational
+bufr4/0/22/087,22,Éléments océanographiques,022087,Direction d'où proviennent les vagues dominantes,degree true,0,0,9,degree true,0,3,,,Operational
+bufr4/0/22/088,22,Éléments océanographiques,022088,Première coordonnée polaire normalisée à partir des coefficients de Fourier,Numeric,2,0,7,Numeric,2,3,,,Operational
+bufr4/0/22/089,22,Éléments océanographiques,022089,Première coordonnée polaire normalisée à partir des coefficients de Fourier,Numeric,2,0,7,Numeric,2,3,,,Operational
+bufr4/0/22/090,22,Éléments océanographiques,022090,Estimation spectrale non directionnelle par fréquence des vagues,m2 s,2,0,20,m2 s,2,7,,,Operational
+bufr4/0/22/091,22,Éléments océanographiques,022091,Estimation spectrale non directionnelle par fréquence des vagues,m3,2,0,20,m3,2,7,,,Operational
+bufr4/0/22/092,22,Éléments océanographiques,022092,Estimation spectrale non directionnelle par fréquence des vagues,m2 rad-1 s,2,0,20,m2 rad-1 s,2,7,,,Operational
+bufr4/0/22/093,22,Éléments océanographiques,022093,Estimation spectrale non directionnelle par fréquence des vagues,m4,2,0,20,m4,2,7,,,Operational
+bufr4/0/22/094,22,Éléments océanographiques,022094,Nombre total de bandes d'ondes,Numeric,0,0,7,Numeric,0,3,,,Operational
+bufr4/0/22/095,22,Éléments océanographiques,022095,Répartition directionnelle des vagues,deg,0,0,8,deg,0,3,,,Operational
+bufr4/0/22/096,22,Éléments océanographiques,022096,Largeur de bande spectrale,/s,3,0,4,/s,3,2,,,Operational
+bufr4/0/22/097,22,Éléments océanographiques,022097,Longueur d'onde moyenne > 731 m du spectre de l'image à des nombres d'onde faibles,m,0,0,14,m,0,5,(voir la Note 3),107,Operational
+bufr4/0/22/098,22,Éléments océanographiques,022098,Écart de longueur d'onde (longueur d'onde > 731 m) à des nombres d'onde faibles,m,0,0,14,m,0,5,(voir la Note 3),107,Operational
+bufr4/0/22/099,22,Éléments océanographiques,022099,Direction moyenne à des nombres d'onde faibles (longueur d'onde > 731 m),degree true,0,0,9,degree true,0,3,(voir la Note 3),107,Operational
+bufr4/0/22/100,22,Éléments océanographiques,022100,Écart de longueur d'onde (longueur d'onde > 731 m) à des nombres d'onde faibles,deg,0,0,9,deg,0,3,(voir la Note 3),107,Operational
+bufr4/0/22/101,22,Éléments océanographiques,022101,Énergie totale (longueur d'onde > 731 m) à des nombres d'onde faibles,Numeric,0,0,31,Numeric,0,10,(voir la Note 3),107,Operational
+bufr4/0/22/102,22,Éléments océanographiques,022102,"Densité spectrale maximale non directionnelle des vagues, mise à l'échelle par fréquence",m2 s,0,0,14,m2 s,0,5,(voir la Note 3),104,Operational
+bufr4/0/22/103,22,Éléments océanographiques,022103,"Densité spectrale maximale non directionnelle des vagues, mise à l'échelle par fréquence",m3,0,0,14,m3,0,5,(voir la Note 3),104,Operational
+bufr4/0/22/104,22,Éléments océanographiques,022104,"Densité spectrale maximale non directionnelle des vagues, mise à l'échelle par fréquence",m2 s,0,0,14,m2 s,0,5,(voir la Note 3),104,Operational
+bufr4/0/22/105,22,Éléments océanographiques,022105,"Densité spectrale maximale non directionnelle des vagues, mise à l'échelle par fréquence",m3,0,0,14,m3,0,5,(voir la Note 3),104,Operational
+bufr4/0/22/106,22,Éléments océanographiques,022106,"Densité spectrale maximale non directionnelle des vagues, mise à l'échelle par fréquence",m2 s rad-1,0,0,14,m2 s rad-1,0,5,(voir la Note 3),104,Operational
+bufr4/0/22/107,22,Éléments océanographiques,022107,"Densité spectrale maximale non directionnelle des vagues, mise à l'échelle par fréquence",m4,0,0,14,m4,0,5,(voir la Note 3),104,Operational
+bufr4/0/22/108,22,Éléments océanographiques,022108,Rapport de densité spectrale des vagues,%,0,0,7,%,0,3,,,Operational
+bufr4/0/22/120,22,Éléments océanographiques,022120,Vérification automatisée du niveau d'eau de la station de marée,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/22/121,22,Éléments océanographiques,022121,Vérification automatisée du niveau d'eau de la station de marée,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/22/122,22,Éléments océanographiques,022122,Vérification automatisée des données météorologiques de la station de marée,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/22/123,22,Éléments océanographiques,022123,Vérification automatisée des données météorologiques de la station de marée,Code table,0,0,5,Code table,0,2,,,Operational
+bufr4/0/22/130,22,Éléments océanographiques,022130,Nombre de points valides pour une bande spécifique,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/131,22,Éléments océanographiques,022131,Hauteur significative des vagues spécifique à la bande RMS,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/132,22,Éléments océanographiques,022132,Nombre de points valides pour une bande spécifique de hauteur significative des vagues,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/133,22,Éléments océanographiques,022133,Correction instrumentale de hauteur de vague significative spécifique à la bande,m,3,-1000,11,m,3,4,,,Operational
+bufr4/0/22/134,22,Éléments océanographiques,022134,Nombre de points valides pour une bande spécifique de rétrodiffusion,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/141,22,Éléments océanographiques,022141,Température de la surface de la mer (moyenne mobile sur 15 jours),K,2,0,15,K,2,5,,,Operational
+bufr4/0/22/142,22,Éléments océanographiques,022142,Hauteur significative des vagues,m2,3,-33554432,26,m2,3,8,,,Operational
+bufr4/0/22/143,22,Éléments océanographiques,022143,STD de 20 Hz SWH au carré,m2,3,-8388608,24,m2,3,8,,,Operational
+bufr4/0/22/144,22,Éléments océanographiques,022144,Nombre de points valides à 20 Hz pour SWH au carré,Numeric,0,0,9,Numeric,0,3,,,Operational
+bufr4/0/22/145,22,Éléments océanographiques,022145,STD de portée océanique de 20 Hz,m,3,-33554432,31,m,3,10,,,Operational
+bufr4/0/22/146,22,Éléments océanographiques,022146,Gamme OCOG,m,3,0,31,m,3,10,,,Operational
+bufr4/0/22/147,22,Éléments océanographiques,022147,Écart-type de portée OCOG à 20 Hz,m,3,-8388608,31,m,3,10,,,Operational
+bufr4/0/22/148,22,Éléments océanographiques,022148,Nombre de points valides à 20 Hz pour la portée océanique,Numeric,0,0,9,Numeric,0,3,,,Operational
+bufr4/0/22/149,22,Éléments océanographiques,022149,Hauteur significative des vagues,m2,3,-33554432,26,m2,3,8,,,Operational
+bufr4/0/22/150,22,Éléments océanographiques,022150,Nombre de points valides à 18 Hz pour le Ku band,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/151,22,Éléments océanographiques,022151,Plage de bande Ku,m,3,0,31,m,3,10,,,Operational
+bufr4/0/22/152,22,Éléments océanographiques,022152,STD de portée océanique de 20 Hz,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/153,22,Éléments océanographiques,022153,Nombre de points valides à 18 Hz pour le S band,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/154,22,Éléments océanographiques,022154,Gamme océanique en bande S,m,3,0,31,m,3,10,,,Operational
+bufr4/0/22/155,22,Éléments océanographiques,022155,STD de portée océanique de 20 Hz,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/156,22,Éléments océanographiques,022156,Hauteur significative des vagues de la bande Ku,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/157,22,Éléments océanographiques,022157,STD de portée océanique de 20 Hz,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/158,22,Éléments océanographiques,022158,Hauteur significative des vagues de la bande S,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/159,22,Éléments océanographiques,022159,Écart-type de la hauteur significative des vagues de la bande S à 18 Hz,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/160,22,Éléments océanographiques,022160,Âge d'onde inverse normalisé,Numeric,6,0,21,Numeric,6,7,,,Operational
+bufr4/0/22/161,22,Éléments océanographiques,022161,Spectres d'ondes,m4,4,0,27,m4,4,9,,,Operational
+bufr4/0/22/162,22,Éléments océanographiques,022162,RMS de 20 Hz de la bande Ku pour la portée océanique,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/163,22,Éléments océanographiques,022163,Nombre de points valides à 18 Hz pour le Ku band,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/164,22,Éléments océanographiques,022164,Hauteur significative des vagues de la bande Ku,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/165,22,Éléments océanographiques,022165,Nombre de points valides à 18 Hz pour le Ku band,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/166,22,Éléments océanographiques,022166,Correction instrumentale de hauteur de vague significative spécifique à la bande,m,3,-1000,11,m,3,4,,,Operational
+bufr4/0/22/167,22,Éléments océanographiques,022167,Nombre de points valides pour une bande spécifique de rétrodiffusion,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/168,22,Éléments océanographiques,022168,Gamme océanique en bande S,m,3,0,31,m,3,10,,,Operational
+bufr4/0/22/169,22,Éléments océanographiques,022169,RMS de 20 Hz de la bande Ku pour la portée océanique,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/170,22,Éléments océanographiques,022170,Nombre de points valides à 20 Hz pour le C band,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/171,22,Éléments océanographiques,022171,Hauteur significative des vagues de la bande C,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/172,22,Éléments océanographiques,022172,Hauteur significative des vagues spécifique à la bande RMS,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/173,22,Éléments océanographiques,022173,Nombre de points valides à 20 Hz pour le C band,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/174,22,Éléments océanographiques,022174,Correction instrumentale de hauteur de vague significative spécifique à la bande,m,3,-1000,11,m,3,4,,,Operational
+bufr4/0/22/175,22,Éléments océanographiques,022175,Nombre de points valides pour une bande spécifique de rétrodiffusion,Numeric,0,0,10,Numeric,0,4,,,Operational
+bufr4/0/22/177,22,Éléments océanographiques,022177,Hauteur du lanceur XBT/XCTD,m,0,0,6,m,0,3,,,Operational
+bufr4/0/22/178,22,Éléments océanographiques,022178,Lanceur de type XBT/XCTD,Code table,0,0,8,Code table,0,3,,,Operational
+bufr4/0/22/179,22,Éléments océanographiques,022179,Hauteur significative des vagues de bande spécifique (référence négative),m,3,-500,16,m,3,6,(voir la Note 3),12,Operational
+bufr4/0/22/182,22,Éléments océanographiques,022182,Hauteur de la colonne d'eau,m,3,0,23,m,3,7,(voir la Note 3),139,Operational
+bufr4/0/22/184,22,Éléments océanographiques,022184,Hauteur de la colonne d'eau,m,3,-2000,12,m,3,4,,,Operational
+bufr4/0/22/185,22,Éléments océanographiques,022185,Nombre de transmissions BPR,Numeric,0,0,10,Numeric,0,3,,,Operational
+bufr4/0/22/186,22,Éléments océanographiques,022186,Direction moyenne d'où proviennent les vagues,degree true,0,0,9,degree true,0,3,(voir la Note 3),13,Operational
+bufr4/0/22/187,22,Éléments océanographiques,022187,Répartition directionnelle des vagues,deg,0,0,9,deg,0,3,(voir la Note 3),14,Operational
+bufr4/0/22/188,22,Éléments océanographiques,022188,Oxygène dissous,umol/kg,3,0,19,umol/kg,3,6,,,Operational
+bufr4/0/22/189,22,Éléments océanographiques,022189,Gamme océanique en bande S,m,3,0,31,m,3,10,,,Operational
+bufr4/0/22/190,22,Éléments océanographiques,022190,Hauteur significative des vagues,m,3,0,16,m,3,5,,,Operational
+bufr4/0/22/191,22,Éléments océanographiques,022191,RMS de 20 Hz de la bande Ku pour la portée océanique,m,4,0,16,m,4,5,,,Operational

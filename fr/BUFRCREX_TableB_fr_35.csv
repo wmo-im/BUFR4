@@ -1,0 +1,14 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/35/000,35,Surveillance des informations,035000,FM et numéro de code régional,Code table,0,0,10,Code table,0,3,,,Operational
+bufr4/0/35/001,35,Surveillance des informations,035001,Période de surveillance,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/35/011,35,Surveillance des informations,035011,Nombre de rapports effectivement reçus,Numeric,0,0,14,Numeric,0,4,,,Operational
+bufr4/0/35/021,35,Surveillance des informations,035021,Bulletin en cours de surveillance (TTAAii),CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/35/022,35,Surveillance des informations,035022,Bulletin en cours de surveillance (TTAAii),CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/35/023,35,Surveillance des informations,035023,Bulletin en cours de surveillance (CCCC),CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/35/024,35,Surveillance des informations,035024,Bulletin en cours de surveillance (BBB),CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/35/030,35,Surveillance des informations,035030,Discrepances dans la disponibilité des données attendues,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/35/031,35,Surveillance des informations,035031,Qualificateur sur les résultats de surveillance,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/35/032,35,Surveillance des informations,035032,Cause des données manquantes,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/35/033,35,Surveillance des informations,035033,Déficiences d'observation et de collecte,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/35/034,35,Surveillance des informations,035034,Tendances statistiques concernant la disponibilité des données (pendant la ou les périodes d'enquête),Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/35/035,35,Surveillance des informations,035035,Raison de la résiliation,Code table,0,0,5,Code table,0,2,,,Operational

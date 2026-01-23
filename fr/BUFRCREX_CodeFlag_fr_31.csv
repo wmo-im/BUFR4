@@ -1,0 +1,15 @@
+Id,FXY,ElementName_fr,CodeFigure,EntryName_fr,EntryName_sub1_fr,EntryName_sub2_fr,Note_fr,noteIDs,Status
+bufr4/0/31/021/0,031021,Signification du champ associé,0,Réservé,,,,,Operational
+bufr4/0/31/021/1,031021,Signification du champ associé,1,Indicateur de qualité sur 1 bit,"0 = Bon, 1 = Suspect ou mauvais",,,,Operational
+bufr4/0/31/021/2,031021,Signification du champ associé,2,Indicateur de qualité sur 1 bit,"0 = Bon, 1 = Suspect ou mauvais",,,,Operational
+bufr4/0/31/021/3-4,031021,Signification du champ associé,3-4,Réservé,,,,,Operational
+bufr4/0/31/021/5,031021,Signification du champ associé,5,Indicateur de qualité sur 1 bit,"0 = Données vérifiées et déclarées bonnes ; 1 = Données vérifiées et déclarées suspectes ; 2 = Données vérifiées et déclarées agrégées ; 3 = Données vérifiées et déclarées hors plage de l'instrument ; 4 = Données vérifiées, déclarées agrégées et hors plage de l'instrument ; 5 = Paramètre non mesuré à la station ; 6 = Valeur quotidienne non fournie ; 7 = Données non vérifiées, 8-254 = Réservé ; 255 = Manquant (info QC non disponible)",,,,Operational
+bufr4/0/31/021/6,031021,Signification du champ associé,6,Indicateur de 4 bits de la classe de contrôle qualité selon GTSPP,"0 = Non qualifié, 1 = Valeur correcte (toutes les vérifications réussies), 2 = Probablement bonne mais valeur incohérente avec les statistiques (diffère de la climatologie), 3 = Probablement mauvaise (pic, gradient, ... si d'autres tests réussis), 4 = Valeur mauvaise, valeur impossible (hors échelle, instabilité verticale, profil constant), 5 = Valeur modifiée lors du contrôle qualité, 6-7 = Non utilisé (réservé), 8 = Valeur interpolée, 9 = Valeur manquante",,,,Operational
+bufr4/0/31/021/7,031021,Signification du champ associé,7,Pourcentage de confiance,,,,,Operational
+bufr4/0/31/021/8,031021,Signification du champ associé,8,"0 = Non suspecté, 1 = Suspecté, 2 = Réservé, 3 = Information non requise",,,,,Operational
+bufr4/0/31/021/9,031021,Signification du champ associé,9,"0 = Données présentes, bonnes, colocalisées, 1 = Données disponibles mais de qualité dégradée et non utilisées, 2 = Aucune donnée colocalisée spatiotemporellement disponible, 3-14 = Non utilisé (réservé), 15 = Valeur manquante",,,,,Operational
+bufr4/0/31/021/10-20,031021,Signification du champ associé,10-20,Réservé,,,,,Operational
+bufr4/0/31/021/21,031021,Signification du champ associé,21,Indicateur de correction sur 1 bit,"0 = Valeur originale, 1 = Valeur substituée/corrigée",,(voir la Note 3),74,Operational
+bufr4/0/31/021/22-62,031021,Signification du champ associé,22-62,Réservé à un usage local,,,,,Operational
+bufr4/0/31/021/63,031021,Signification du champ associé,63,Valeur manquante,,,,,Operational
+bufr4/0/31/031/1,031031,Indicateur de présence de données,1,"0 = Données présentes, 1 = Données absentes",,,,,Operational

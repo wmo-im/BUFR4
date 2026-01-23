@@ -1,0 +1,14 @@
+Id,ClassNo,ClassName_rus,FXY,ElementName_rus,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_rus,noteIDs,Status
+bufr4/0/35/000,35,Мониторинг информации,035000,FM и региональный кодовый номер,Code table,0,0,10,Code table,0,3,,,Operational
+bufr4/0/35/001,35,Мониторинг информации,035001,Период мониторинга,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/35/011,35,Мониторинг информации,035011,Количество фактически полученных отчетов,Numeric,0,0,14,Numeric,0,4,,,Operational
+bufr4/0/35/021,35,Мониторинг информации,035021,Бюллетень отслеживается (TTAAii),CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/35/022,35,Мониторинг информации,035022,Бюллетень отслеживается (TTAAii),CCITT IA5,0,0,48,Character,0,6,,,Operational
+bufr4/0/35/023,35,Мониторинг информации,035023,Бюллетень отслеживается (CCCC),CCITT IA5,0,0,32,Character,0,4,,,Operational
+bufr4/0/35/024,35,Мониторинг информации,035024,Бюллетень отслеживается (BBB),CCITT IA5,0,0,24,Character,0,3,,,Operational
+bufr4/0/35/030,35,Мониторинг информации,035030,Несоответствия в доступности ожидаемых данных,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/35/031,35,Мониторинг информации,035031,Квалификатор по результатам мониторинга,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/35/032,35,Мониторинг информации,035032,Причина отсутствия данных,Code table,0,0,4,Code table,0,1,,,Operational
+bufr4/0/35/033,35,Мониторинг информации,035033,Недостатки наблюдения и сбора.,Code table,0,0,7,Code table,0,2,,,Operational
+bufr4/0/35/034,35,Мониторинг информации,035034,Статистические тенденции доступности данных (в течение периода(-ов) проведения опроса).,Code table,0,0,3,Code table,0,1,,,Operational
+bufr4/0/35/035,35,Мониторинг информации,035035,Причина прекращения,Code table,0,0,5,Code table,0,2,,,Operational
