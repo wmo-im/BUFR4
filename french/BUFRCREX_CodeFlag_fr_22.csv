@@ -1,83 +1,83 @@
-FXY,ElementName_fr,CodeFigure,EntryName_fr,EntryName_sub1_fr,EntryName_sub2_fr,Note_fr,noteIDs,Status
-022056,Direction du profil,0,Profil ascendant,,,,,Operational
-022056,Direction du profil,1,Profil descendant,,,,,Operational
-022056,Direction du profil,2,Horizontal,,,,,Operational
-022056,Direction du profil,3,Valeur manquante,,,,,Operational
-022060,État de l'ancre flottante – flotteur lagrangien,0,Le flotteur n'a plus d'ancre flottante,,,,,Operational
-022060,État de l'ancre flottante – flotteur lagrangien,1,L'ancre flottante est en place,,,,,Operational
-022060,État de l'ancre flottante – flotteur lagrangien,2,L'état de l'ancre flottante est inconnu,,,,,Operational
-022060,État de l'ancre flottante – flotteur lagrangien,3-6,En réserve,,,,,Operational
-022060,État de l'ancre flottante – flotteur lagrangien,7,Valeur manquante,,,,,Operational
-022061,État de la mer,0,Calme (sans rides),0,,,,Operational
-022061,État de la mer,1,Calme (ridée),0,"0,1",,,Operational
-022061,État de la mer,2,Belle (vaguelettes),"0,1","0,5",,,Operational
-022061,État de la mer,3,Peu agitée,"0,5","1,25",,,Operational
-022061,État de la mer,4,Agitée,"1,25","2,5",,,Operational
-022061,État de la mer,5,Forte,"2,5",4,,,Operational
-022061,État de la mer,6,Très forte,4,6,,,Operational
-022061,État de la mer,7,Grosse,6,9,,,Operational
-022061,État de la mer,8,Très grosse,9,14,,,Operational
-022061,État de la mer,9,Énorme,Dépassant 14,,,,Operational
-022061,État de la mer,10-14,En réserve,,,,,Operational
-022061,État de la mer,15,Valeur manquante,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,0,Données de bonne qualité,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,1,Limite du niveau maximal de l'eau (supérieur) dépassée,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,2,Limite du niveau minimal de l'eau (inférieur) dépassée,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,3,Limite de la vitesse de variation du niveau d'eau dépassée,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,4,Limite uniforme de niveau d'eau dépassée,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,5,Limite de la valeur du niveau d'eau observé moins la valeur du niveau d'eau prévu dépassée,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,6,Valeur observée par capteur de niveau d'eau primaire moins valeur du capteur de niveau d'eau de réserve,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,7,Tolérance spécifiée de la valeur dépassée par rapport à la valeur prévue,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,8,Limites dépassées (EMQ et/ou valeurs aberrantes) du paramètre d'assurance de la qualité du niveau d'eau,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,9,Température de la mer en dehors d'une gamme prévue,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,10,Echec des multiples contrôles de la qualité (ci-dessus),,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,11,Aucune vérification automatique du niveau d'eau n'a été effectuée,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,12-30,En réserve,,,,,Operational
-022120,Vérification automatique du niveau d'eau à la station d'observation des marées,31,Valeur manquante,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,0,En service,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,1,Problème éventuel de blocage ou alors données du niveau d'eau dégradées,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,2,Décalage éventuel d'une donnée,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,3,État du capteur de niveau d'eau inconnu,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,4,Problème suspecté ou connu sur le capteur de la température d'eau,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,5,Problèmes éventuels multiples (ci-dessus),,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,6,Donnée mauvaise - NE PAS DIFFUSER!,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,7,Aucune vérification manuelle du niveau d'eau n'a été effectuée,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,8-30,En réserve,,,,,Operational
-022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,31,Valeur manquante,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,0,Données de bonne qualité fournies par tous les capteurs,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,1,Direction du vent situé à l'extérieur des limites autorisées,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,2,Vitesse du vent situé à l'extérieur des limites prévues,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,3,Pression barométrique située à l'extérieur des limites prévues,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,4,Température de l'air située à l'extérieur des limites prévues,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,5,De multiples capteurs ont échoué dans les vérifications de contrôle de la qualité,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,6,Aucune vérification automatique des données météorologiques n'a été effectuée,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,7-30,En réserve,,,,,Operational
-022122,Vérification automatique des données météorologiques à la station d'observation des marées,31,Valeur manquante,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,0,En service,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,1,Problème suspecté ou connu du capteur de vent,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,2,Problème suspecté ou connu du capteur de pression barométrique,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,3,Problème suspecté ou connu du capteur de la température d'air,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,4,Etat inconnu de tous les capteurs,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,5,Problèmes suspectés ou connus avec de nombreux capteurs,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,6,Données mauvaises – NE PAS DIFFUSER!,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,7,Aucune vérification manuelle des données météorologiques n'a été effectuée,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,8-30,En réserve,,,,,Operational
-022123,Vérification manuelle des données météorologiques à la station d'observation des marées,31,Valeur manquante,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,0,Inconnu,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,1,Lanceur LM-2A de pontée,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,2,Lanceur LM-3A à main,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,3,Lanceur LM-4A passe-coque,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,4-9,En réserve,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,10,Lanceur automatique AL-12 TSK (12 sondes au maximum),,,,,Operational
-022178,Type de lanceur de XBT/XCTD,11-19,En réserve,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,20,Lanceur automatique SIO XBT (6 sondes au maximum),,,,,Operational
-022178,Type de lanceur de XBT/XCTD,21-29,En réserve,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,30,Lanceur automatique AOML XBT V6 (6 sondes Deep Blue au maximum),,,,,Operational
-022178,Type de lanceur de XBT/XCTD,31,Lanceur automatique AOML XBT V8.0 (8 sondes Deep Blue au maximum),,,,,Operational
-022178,Type de lanceur de XBT/XCTD,32,Lanceur automatique AOML XBT V8.1 (8 sondes Deep Blue et Fast Deep au maximum),,,,,Operational
-022178,Type de lanceur de XBT/XCTD,33-89,En réserve,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,90,Lanceur automatique CSIRO Devil,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,91-99,En réserve,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,100,Lanceur automatique MFSTEP (Méditerranée),,,,,Operational
-022178,Type de lanceur de XBT/XCTD,101-254,En réserve,,,,,Operational
-022178,Type de lanceur de XBT/XCTD,255,Valeur manquante,,,,,Operational
+Id,FXY,ElementName_fr,CodeFigure,EntryName_fr,EntryName_sub1_fr,EntryName_sub2_fr,Note_fr,noteIDs,Status
+bufr4/0/22/056/0,022056,Direction du profil,0,Profil ascendant,,,,,Operational
+bufr4/0/22/056/1,022056,Direction du profil,1,Profil descendant,,,,,Operational
+bufr4/0/22/056/2,022056,Direction du profil,2,Horizontal,,,,,Operational
+bufr4/0/22/056/3,022056,Direction du profil,3,Valeur manquante,,,,,Operational
+bufr4/0/22/060/0,022060,État de l'ancre flottante – flotteur lagrangien,0,Le flotteur n'a plus d'ancre flottante,,,,,Operational
+bufr4/0/22/060/1,022060,État de l'ancre flottante – flotteur lagrangien,1,L'ancre flottante est en place,,,,,Operational
+bufr4/0/22/060/2,022060,État de l'ancre flottante – flotteur lagrangien,2,L'état de l'ancre flottante est inconnu,,,,,Operational
+bufr4/0/22/060/3-6,022060,État de l'ancre flottante – flotteur lagrangien,3-6,En réserve,,,,,Operational
+bufr4/0/22/060/7,022060,État de l'ancre flottante – flotteur lagrangien,7,Valeur manquante,,,,,Operational
+bufr4/0/22/061/0,022061,État de la mer,0,Calme (sans rides),0,,,,Operational
+bufr4/0/22/061/1,022061,État de la mer,1,Calme (ridée),0,"0,1",,,Operational
+bufr4/0/22/061/2,022061,État de la mer,2,Belle (vaguelettes),"0,1","0,5",,,Operational
+bufr4/0/22/061/3,022061,État de la mer,3,Peu agitée,"0,5","1,25",,,Operational
+bufr4/0/22/061/4,022061,État de la mer,4,Agitée,"1,25","2,5",,,Operational
+bufr4/0/22/061/5,022061,État de la mer,5,Forte,"2,5",4,,,Operational
+bufr4/0/22/061/6,022061,État de la mer,6,Très forte,4,6,,,Operational
+bufr4/0/22/061/7,022061,État de la mer,7,Grosse,6,9,,,Operational
+bufr4/0/22/061/8,022061,État de la mer,8,Très grosse,9,14,,,Operational
+bufr4/0/22/061/9,022061,État de la mer,9,Énorme,Dépassant 14,,,,Operational
+bufr4/0/22/061/10-14,022061,État de la mer,10-14,En réserve,,,,,Operational
+bufr4/0/22/061/15,022061,État de la mer,15,Valeur manquante,,,,,Operational
+bufr4/0/22/120/0,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,0,Données de bonne qualité,,,,,Operational
+bufr4/0/22/120/1,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,1,Limite du niveau maximal de l'eau (supérieur) dépassée,,,,,Operational
+bufr4/0/22/120/2,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,2,Limite du niveau minimal de l'eau (inférieur) dépassée,,,,,Operational
+bufr4/0/22/120/3,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,3,Limite de la vitesse de variation du niveau d'eau dépassée,,,,,Operational
+bufr4/0/22/120/4,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,4,Limite uniforme de niveau d'eau dépassée,,,,,Operational
+bufr4/0/22/120/5,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,5,Limite de la valeur du niveau d'eau observé moins la valeur du niveau d'eau prévu dépassée,,,,,Operational
+bufr4/0/22/120/6,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,6,Valeur observée par capteur de niveau d'eau primaire moins valeur du capteur de niveau d'eau de réserve,,,,,Operational
+bufr4/0/22/120/7,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,7,Tolérance spécifiée de la valeur dépassée par rapport à la valeur prévue,,,,,Operational
+bufr4/0/22/120/8,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,8,Limites dépassées (EMQ et/ou valeurs aberrantes) du paramètre d'assurance de la qualité du niveau d'eau,,,,,Operational
+bufr4/0/22/120/9,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,9,Température de la mer en dehors d'une gamme prévue,,,,,Operational
+bufr4/0/22/120/10,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,10,Echec des multiples contrôles de la qualité (ci-dessus),,,,,Operational
+bufr4/0/22/120/11,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,11,Aucune vérification automatique du niveau d'eau n'a été effectuée,,,,,Operational
+bufr4/0/22/120/12-30,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,12-30,En réserve,,,,,Operational
+bufr4/0/22/120/31,022120,Vérification automatique du niveau d'eau à la station d'observation des marées,31,Valeur manquante,,,,,Operational
+bufr4/0/22/121/0,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,0,En service,,,,,Operational
+bufr4/0/22/121/1,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,1,Problème éventuel de blocage ou alors données du niveau d'eau dégradées,,,,,Operational
+bufr4/0/22/121/2,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,2,Décalage éventuel d'une donnée,,,,,Operational
+bufr4/0/22/121/3,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,3,État du capteur de niveau d'eau inconnu,,,,,Operational
+bufr4/0/22/121/4,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,4,Problème suspecté ou connu sur le capteur de la température d'eau,,,,,Operational
+bufr4/0/22/121/5,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,5,Problèmes éventuels multiples (ci-dessus),,,,,Operational
+bufr4/0/22/121/6,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,6,Donnée mauvaise - NE PAS DIFFUSER!,,,,,Operational
+bufr4/0/22/121/7,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,7,Aucune vérification manuelle du niveau d'eau n'a été effectuée,,,,,Operational
+bufr4/0/22/121/8-30,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,8-30,En réserve,,,,,Operational
+bufr4/0/22/121/31,022121,Vérification manuelle du niveau d'eau à la station d'observation des marées,31,Valeur manquante,,,,,Operational
+bufr4/0/22/122/0,022122,Vérification automatique des données météorologiques à la station d'observation des marées,0,Données de bonne qualité fournies par tous les capteurs,,,,,Operational
+bufr4/0/22/122/1,022122,Vérification automatique des données météorologiques à la station d'observation des marées,1,Direction du vent situé à l'extérieur des limites autorisées,,,,,Operational
+bufr4/0/22/122/2,022122,Vérification automatique des données météorologiques à la station d'observation des marées,2,Vitesse du vent situé à l'extérieur des limites prévues,,,,,Operational
+bufr4/0/22/122/3,022122,Vérification automatique des données météorologiques à la station d'observation des marées,3,Pression barométrique située à l'extérieur des limites prévues,,,,,Operational
+bufr4/0/22/122/4,022122,Vérification automatique des données météorologiques à la station d'observation des marées,4,Température de l'air située à l'extérieur des limites prévues,,,,,Operational
+bufr4/0/22/122/5,022122,Vérification automatique des données météorologiques à la station d'observation des marées,5,De multiples capteurs ont échoué dans les vérifications de contrôle de la qualité,,,,,Operational
+bufr4/0/22/122/6,022122,Vérification automatique des données météorologiques à la station d'observation des marées,6,Aucune vérification automatique des données météorologiques n'a été effectuée,,,,,Operational
+bufr4/0/22/122/7-30,022122,Vérification automatique des données météorologiques à la station d'observation des marées,7-30,En réserve,,,,,Operational
+bufr4/0/22/122/31,022122,Vérification automatique des données météorologiques à la station d'observation des marées,31,Valeur manquante,,,,,Operational
+bufr4/0/22/123/0,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,0,En service,,,,,Operational
+bufr4/0/22/123/1,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,1,Problème suspecté ou connu du capteur de vent,,,,,Operational
+bufr4/0/22/123/2,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,2,Problème suspecté ou connu du capteur de pression barométrique,,,,,Operational
+bufr4/0/22/123/3,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,3,Problème suspecté ou connu du capteur de la température d'air,,,,,Operational
+bufr4/0/22/123/4,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,4,Etat inconnu de tous les capteurs,,,,,Operational
+bufr4/0/22/123/5,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,5,Problèmes suspectés ou connus avec de nombreux capteurs,,,,,Operational
+bufr4/0/22/123/6,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,6,Données mauvaises – NE PAS DIFFUSER!,,,,,Operational
+bufr4/0/22/123/7,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,7,Aucune vérification manuelle des données météorologiques n'a été effectuée,,,,,Operational
+bufr4/0/22/123/8-30,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,8-30,En réserve,,,,,Operational
+bufr4/0/22/123/31,022123,Vérification manuelle des données météorologiques à la station d'observation des marées,31,Valeur manquante,,,,,Operational
+bufr4/0/22/178/0,022178,Type de lanceur de XBT/XCTD,0,Inconnu,,,,,Operational
+bufr4/0/22/178/1,022178,Type de lanceur de XBT/XCTD,1,Lanceur LM-2A de pontée,,,,,Operational
+bufr4/0/22/178/2,022178,Type de lanceur de XBT/XCTD,2,Lanceur LM-3A à main,,,,,Operational
+bufr4/0/22/178/3,022178,Type de lanceur de XBT/XCTD,3,Lanceur LM-4A passe-coque,,,,,Operational
+bufr4/0/22/178/4-9,022178,Type de lanceur de XBT/XCTD,4-9,En réserve,,,,,Operational
+bufr4/0/22/178/10,022178,Type de lanceur de XBT/XCTD,10,Lanceur automatique AL-12 TSK (12 sondes au maximum),,,,,Operational
+bufr4/0/22/178/11-19,022178,Type de lanceur de XBT/XCTD,11-19,En réserve,,,,,Operational
+bufr4/0/22/178/20,022178,Type de lanceur de XBT/XCTD,20,Lanceur automatique SIO XBT (6 sondes au maximum),,,,,Operational
+bufr4/0/22/178/21-29,022178,Type de lanceur de XBT/XCTD,21-29,En réserve,,,,,Operational
+bufr4/0/22/178/30,022178,Type de lanceur de XBT/XCTD,30,Lanceur automatique AOML XBT V6 (6 sondes Deep Blue au maximum),,,,,Operational
+bufr4/0/22/178/31,022178,Type de lanceur de XBT/XCTD,31,Lanceur automatique AOML XBT V8.0 (8 sondes Deep Blue au maximum),,,,,Operational
+bufr4/0/22/178/32,022178,Type de lanceur de XBT/XCTD,32,Lanceur automatique AOML XBT V8.1 (8 sondes Deep Blue et Fast Deep au maximum),,,,,Operational
+bufr4/0/22/178/33-89,022178,Type de lanceur de XBT/XCTD,33-89,En réserve,,,,,Operational
+bufr4/0/22/178/90,022178,Type de lanceur de XBT/XCTD,90,Lanceur automatique CSIRO Devil,,,,,Operational
+bufr4/0/22/178/91-99,022178,Type de lanceur de XBT/XCTD,91-99,En réserve,,,,,Operational
+bufr4/0/22/178/100,022178,Type de lanceur de XBT/XCTD,100,Lanceur automatique MFSTEP (Méditerranée),,,,,Operational
+bufr4/0/22/178/101-254,022178,Type de lanceur de XBT/XCTD,101-254,En réserve,,,,,Operational
+bufr4/0/22/178/255,022178,Type de lanceur de XBT/XCTD,255,Valeur manquante,,,,,Operational

@@ -1,39 +1,39 @@
-"ClassNo","ClassName_fr","FXY","ElementName_fr","BUFR_Unit_fr","BUFR_Scale","BUFR_ReferenceValue","BUFR_DataWidth_Bits","CREX_Unit_fr","CREX_Scale","CREX_DataWidth_Char","Note_fr","noteIDs","Status"
-"05","Classe 05 – Position (horizontale – 1)","005001","Latitude (précision élevée)","°","5","-9000000","25","°","5","7","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005002","Latitude (faible précision)","°","2","-9000","15","°","2","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005011","Incrément de latitude (précision élevée)","°","5","-9000000","25","°","5","7","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005012","Incrément de latitude (faible précision)","°","2","-9000","15","°","2","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005015","Décalage en latitude (précision élevée)","°","5","-9000000","25","°","5","7","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005016","Décalage en latitude (faible précision)","°","2","-9000","15","°","2","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005021","Direction ou azimut","degré vrai","2","0","16","degré vrai","2","5","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005022","Azimut du soleil","degré vrai","2","0","16","degré vrai","2","5","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005023","Différence d'azimut entre le soleil et le satellite","°","1","-1800","12","°","1","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005030","Direction (spectrale)","°","0","0","12","°","0","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005031","Numéro de la rangée","Numérique","0","0","12","Numérique","0","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005032","Décalage Y (voir la note 6)","m","2","-1073741824","31","m","2","11","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005033","Taille des pixels sur l'horizontale - 1","m","-1","0","16","m","-1","5","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005034","Numéro de la rangée le long de la trajectoire","Numérique","0","0","11","Numérique","0","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005035","Taille maximale de la dimension x","Numérique","0","0","12","Numérique","0","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005036","Numéro de la coupe exécutée par le navire du SOOP","Numérique","0","","7","Numérique","0","2","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005040","Numéro de l'orbite","Numérique","0","","24","Numérique","0","8","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005041","Numéro de la ligne de balayage","Numérique","0","","8","Numérique","0","3","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005042","Numéro du canal","Numérique","0","","6","Numérique","0","2","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005043","Numéro du champ de vision","Numérique","0","","8","Numérique","0","3","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005044","Numéro de cycle du satellite","Numérique","0","","11","Numérique","0","4","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005045","Numéro du champ balayé","Numérique","0","","8","Numérique","0","3","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005052","Incrément du numéro du canal","Numérique","0","","5","Numérique","0","2","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005053","Incrément du numéro du champ de vision","Numérique","0","","5","Numérique","0","2","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005060","Position angulaire selon y du centre de gravité","°","6","","24","°","6","8","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005061","Position angulaire selon z du centre de gravité","°","6","","24","°","6","8","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005063","Roulis de l'engin spatial","°","2","","16","°","2","5","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005064","Tangage de l'engin spatial","°","2","","16","°","2","5","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005066","Lacet de l'engin spatial","°","2","","16","°","2","5","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005067","Nombre de lignes de balayage","Numérique","0","","8","Numérique","0","3","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005068","Numéro de profil","Numérique","0","","16","Numérique","0","5","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005069","Canal de réception","Table de code","0","","2","Table de code","0","1","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005070","Identifiant de l'observation","Numérique","0","","30","Numérique","0","10","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005071","Indicateur Stripmap","Numérique","0","","16","Numérique","0","5","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005072","Nombre de spectres dans la direction de visée","Numérique","0","","8","Numérique","0","3","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005073","Nombre de spectres dans la direction azimutale","Numérique","0","","8","Numérique","0","3","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005074","Indice dans la direction de visée","Numérique","0","","8","Numérique","0","3","","","Operational"
-"05","Classe 05 – Position (horizontale – 1)","005075","Indice dans la direction azimutale","Numérique","0","","8","Numérique","0","3","","","Operational"
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/05/001,05,Classe 05 – Position (horizontale – 1),005001,Latitude (précision élevée),°,5,-9000000,25,°,5,7,,,Operational
+bufr4/0/05/002,05,Classe 05 – Position (horizontale – 1),005002,Latitude (faible précision),°,2,-9000,15,°,2,4,,,Operational
+bufr4/0/05/011,05,Classe 05 – Position (horizontale – 1),005011,Incrément de latitude (précision élevée),°,5,-9000000,25,°,5,7,,,Operational
+bufr4/0/05/012,05,Classe 05 – Position (horizontale – 1),005012,Incrément de latitude (faible précision),°,2,-9000,15,°,2,4,,,Operational
+bufr4/0/05/015,05,Classe 05 – Position (horizontale – 1),005015,Décalage en latitude (précision élevée),°,5,-9000000,25,°,5,7,,,Operational
+bufr4/0/05/016,05,Classe 05 – Position (horizontale – 1),005016,Décalage en latitude (faible précision),°,2,-9000,15,°,2,4,,,Operational
+bufr4/0/05/021,05,Classe 05 – Position (horizontale – 1),005021,Direction ou azimut,degré vrai,2,0,16,degré vrai,2,5,,,Operational
+bufr4/0/05/022,05,Classe 05 – Position (horizontale – 1),005022,Azimut du soleil,degré vrai,2,0,16,degré vrai,2,5,,,Operational
+bufr4/0/05/023,05,Classe 05 – Position (horizontale – 1),005023,Différence d'azimut entre le soleil et le satellite,°,1,-1800,12,°,1,4,,,Operational
+bufr4/0/05/030,05,Classe 05 – Position (horizontale – 1),005030,Direction (spectrale),°,0,0,12,°,0,4,,,Operational
+bufr4/0/05/031,05,Classe 05 – Position (horizontale – 1),005031,Numéro de la rangée,Numérique,0,0,12,Numérique,0,4,,,Operational
+bufr4/0/05/032,05,Classe 05 – Position (horizontale – 1),005032,Décalage Y (voir la note 6),m,2,-1073741824,31,m,2,11,,,Operational
+bufr4/0/05/033,05,Classe 05 – Position (horizontale – 1),005033,Taille des pixels sur l'horizontale - 1,m,-1,0,16,m,-1,5,,,Operational
+bufr4/0/05/034,05,Classe 05 – Position (horizontale – 1),005034,Numéro de la rangée le long de la trajectoire,Numérique,0,0,11,Numérique,0,4,,,Operational
+bufr4/0/05/035,05,Classe 05 – Position (horizontale – 1),005035,Taille maximale de la dimension x,Numérique,0,0,12,Numérique,0,4,,,Operational
+bufr4/0/05/036,05,Classe 05 – Position (horizontale – 1),005036,Numéro de la coupe exécutée par le navire du SOOP,Numérique,0,,7,Numérique,0,2,,,Operational
+bufr4/0/05/040,05,Classe 05 – Position (horizontale – 1),005040,Numéro de l'orbite,Numérique,0,,24,Numérique,0,8,,,Operational
+bufr4/0/05/041,05,Classe 05 – Position (horizontale – 1),005041,Numéro de la ligne de balayage,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/05/042,05,Classe 05 – Position (horizontale – 1),005042,Numéro du canal,Numérique,0,,6,Numérique,0,2,,,Operational
+bufr4/0/05/043,05,Classe 05 – Position (horizontale – 1),005043,Numéro du champ de vision,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/05/044,05,Classe 05 – Position (horizontale – 1),005044,Numéro de cycle du satellite,Numérique,0,,11,Numérique,0,4,,,Operational
+bufr4/0/05/045,05,Classe 05 – Position (horizontale – 1),005045,Numéro du champ balayé,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/05/052,05,Classe 05 – Position (horizontale – 1),005052,Incrément du numéro du canal,Numérique,0,,5,Numérique,0,2,,,Operational
+bufr4/0/05/053,05,Classe 05 – Position (horizontale – 1),005053,Incrément du numéro du champ de vision,Numérique,0,,5,Numérique,0,2,,,Operational
+bufr4/0/05/060,05,Classe 05 – Position (horizontale – 1),005060,Position angulaire selon y du centre de gravité,°,6,,24,°,6,8,,,Operational
+bufr4/0/05/061,05,Classe 05 – Position (horizontale – 1),005061,Position angulaire selon z du centre de gravité,°,6,,24,°,6,8,,,Operational
+bufr4/0/05/063,05,Classe 05 – Position (horizontale – 1),005063,Roulis de l'engin spatial,°,2,,16,°,2,5,,,Operational
+bufr4/0/05/064,05,Classe 05 – Position (horizontale – 1),005064,Tangage de l'engin spatial,°,2,,16,°,2,5,,,Operational
+bufr4/0/05/066,05,Classe 05 – Position (horizontale – 1),005066,Lacet de l'engin spatial,°,2,,16,°,2,5,,,Operational
+bufr4/0/05/067,05,Classe 05 – Position (horizontale – 1),005067,Nombre de lignes de balayage,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/05/068,05,Classe 05 – Position (horizontale – 1),005068,Numéro de profil,Numérique,0,,16,Numérique,0,5,,,Operational
+bufr4/0/05/069,05,Classe 05 – Position (horizontale – 1),005069,Canal de réception,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/05/070,05,Classe 05 – Position (horizontale – 1),005070,Identifiant de l'observation,Numérique,0,,30,Numérique,0,10,,,Operational
+bufr4/0/05/071,05,Classe 05 – Position (horizontale – 1),005071,Indicateur Stripmap,Numérique,0,,16,Numérique,0,5,,,Operational
+bufr4/0/05/072,05,Classe 05 – Position (horizontale – 1),005072,Nombre de spectres dans la direction de visée,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/05/073,05,Classe 05 – Position (horizontale – 1),005073,Nombre de spectres dans la direction azimutale,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/05/074,05,Classe 05 – Position (horizontale – 1),005074,Indice dans la direction de visée,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/05/075,05,Classe 05 – Position (horizontale – 1),005075,Indice dans la direction azimutale,Numérique,0,,8,Numérique,0,3,,,Operational
