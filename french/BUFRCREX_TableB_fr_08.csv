@@ -1,72 +1,72 @@
 Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
-bufr4/0/08/001,08,Classe 08 – Caractéristiques,008001,Caractéristique correspondant à des données de sondage vertical,Table d'indicateurs,0,,7,Table d'indicateurs,0,3,,,Operational
-bufr4/0/08/002,08,Classe 08 – Caractéristiques,008002,Caractéristique verticale (observations en surface),Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/003,08,Classe 08 – Caractéristiques,008003,Caractéristique verticale (observations par satellite),Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/004,08,Classe 08 – Caractéristiques,008004,Phase de vol de l'aéronef,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/005,08,Classe 08 – Caractéristiques,008005,Signification de la caractéristique météorologique,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/006,08,Classe 08 – Caractéristiques,008006,Caractéristique du sondage vertical de l'ozone,Table d'indicateurs,0,,9,Table d'indicateurs,0,3,,,Operational
-bufr4/0/08/007,08,Classe 08 – Caractéristiques,008007,Caractéristique dimensionnelle,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/008,08,Classe 08 – Caractéristiques,008008,Caractéristique correspondant à des données de sondage vertical du rayonnement,Table d'indicateurs,0,,9,Table d'indicateurs,0,3,,,Operational
-bufr4/0/08/009,08,Classe 08 – Caractéristiques,008009,Phase de vol détaillée de l'aéronef,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/010,08,Classe 08 – Caractéristiques,008010,Caractéristique de la surface (données de température),Table de code,0,,9,Table de code,0,2,,,Operational
-bufr4/0/08/011,08,Classe 08 – Caractéristiques,008011,Caractéristique météorologique,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/012,08,Classe 08 – Caractéristiques,008012,Identificateur terre/mer,Table de code,0,,2,Table de code,0,1,,,Operational
-bufr4/0/08/013,08,Classe 08 – Caractéristiques,008013,Identificateur jour/nuit,Table de code,0,,2,Table de code,0,1,,,Operational
-bufr4/0/08/014,08,Classe 08 – Caractéristiques,008014,Identificateur pour la portée visuelle de piste,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/015,08,Classe 08 – Caractéristiques,008015,Caractéristique du capteur,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/016,08,Classe 08 – Caractéristiques,008016,Identificateur de changement d'une prévision de type «tendance» ou d'une prévision d'aérodrome,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/017,08,Classe 08 – Caractéristiques,008017,Identificateur de l'heure à laquelle le changement de prévision est attendu,Table de code,0,,2,Table de code,0,1,,,Operational
-bufr4/0/08/018,08,Classe 08 – Caractéristiques,008018,Type de surface terre/glace mesurée par SEAWINDS,Table d'indicateurs,0,,17,Table d'indicateurs,0,6,,,Operational
-bufr4/0/08/019,08,Classe 08 – Caractéristiques,008019,Indicateur d'identification du centre suivant,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/020,08,Classe 08 – Caractéristiques,008020,Nombre total de valeurs manquantes (pour le calcul du total ou de la moyenne),Numérique,0,,16,Numérique,0,5,,,Operational
-bufr4/0/08/021,08,Classe 08 – Caractéristiques,008021,Caractéristique temporelle,Table de code,0,,5,Table de code,0,2,,,Operational
-bufr4/0/08/022,08,Classe 08 – Caractéristiques,008022,Nombre total (dans le contexte d'une somme ou d'une moyenne),Numérique,0,,16,Numérique,0,5,,,Operational
-bufr4/0/08/023,08,Classe 08 – Caractéristiques,008023,Statistiques de premier ordre,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/024,08,Classe 08 – Caractéristiques,008024,Statistiques sur les différences,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/025,08,Classe 08 – Caractéristiques,008025,Décalage dans le temps,Table de code,0,,4,Table de code,0,2,(voir note 5),5,Operational
-bufr4/0/08/026,08,Classe 08 – Caractéristiques,008026,Caractéristique matricielle,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/029,08,Classe 08 – Caractéristiques,008029,Type de surface,Table de code,0,,8,Table de code,0,3,,,Operational
-bufr4/0/08/030,08,Classe 08 – Caractéristiques,008030,"Manuel des codes (Volume I.1, Section C), Table de code d'où sont tirées les données",Numérique,0,,13,Numérique,0,4,,,Operational
-bufr4/0/08/031,08,Classe 08 – Caractéristiques,008031,Catégorie de données de la Table A du code CREX,Numérique,0,,8,Numérique,0,3,,,Operational
-bufr4/0/08/032,08,Classe 08 – Caractéristiques,008032,Mode de fonctionnement,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/033,08,Classe 08 – Caractéristiques,008033,Méthode de dérivation du pourcentage de confiance,Table de code,0,,7,Table de code,0,3,(voir note 6),6,Operational
-bufr4/0/08/034,08,Classe 08 – Caractéristiques,008034,Indicateur de la mesure de la température ou de la salinité,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/035,08,Classe 08 – Caractéristiques,008035,Type d'exercice de contrôle,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/036,08,Classe 08 – Caractéristiques,008036,Type de centre ou de station effectuant le contrôle,Table de code,0,,3,Table de code,0,2,,,Operational
-bufr4/0/08/037,08,Classe 08 – Caractéristiques,008037,Caractéristique du calage,Table de code,0,,5,Table de code,0,2,,,Operational
-bufr4/0/08/038,08,Classe 08 – Caractéristiques,008038,Caractéristique des données instrumentales,Table de code,0,,8,Table de code,0,3,,,Operational
-bufr4/0/08/039,08,Classe 08 – Caractéristiques,008039,Caractéristique temporelle (prévision aéronautique),Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/040,08,Classe 08 – Caractéristiques,008040,Caractéristique du niveau de vol,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/041,08,Classe 08 – Caractéristiques,008041,Caractéristique des données,Table de code,0,,5,Table de code,0,2,,,Operational
-bufr4/0/08/042,08,Classe 08 – Caractéristiques,008042,Caractéristique étendue correspondant à des données de sondage vertical,Table d'indicateurs,0,,18,Table d'indicateurs,0,6,,,Operational
-bufr4/0/08/043,08,Classe 08 – Caractéristiques,008043,Type de constituants chimiques ou physiques de l'atmosphère,Table de code,0,,8,Table de code,0,3,,,Operational
-bufr4/0/08/044,08,Classe 08 – Caractéristiques,008044,Numéro d'enregistrement CAS*,CCITT IA5,0,,88,Caractère,0,11,,,Operational
-bufr4/0/08/046,08,Classe 08 – Caractéristiques,008046,Type de constituants chimiques ou physiques de l'atmosphère,Table de code commune C-14,0,,16,Table de code commune C-14,0,5,,,Operational
-bufr4/0/08/049,08,Classe 08 – Caractéristiques,008049,Nombre d'observations,Numérique,0,,8,Numérique,0,3,,,Operational
-bufr4/0/08/050,08,Classe 08 – Caractéristiques,008050,Identificateur pour le nombre de valeurs manquantes dans le calcul des statistiques,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/051,08,Classe 08 – Caractéristiques,008051,Identificateur pour le nombre de valeurs manquantes dans le calcul des statistiques,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/052,08,Classe 08 – Caractéristiques,008052,Condition pour laquelle le nombre de jours d'occurrence est indiqué,Table de code,0,,5,Table de code,0,2,,,Operational
-bufr4/0/08/053,08,Classe 08 – Caractéristiques,008053,Identificateur du jour d'occurrence,Table de code,0,,2,Table de code,0,1,,,Operational
-bufr4/0/08/054,08,Classe 08 – Caractéristiques,008054,Identificateur de la vitesse du vent ou des rafales,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/060,08,Classe 08 – Caractéristiques,008060,Signification du mode de balayage de l'échantillon,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/065,08,Classe 08 – Caractéristiques,008065,Indicateur de reflet solaire,Table de code,0,,2,Table de code,0,1,,,Operational
-bufr4/0/08/066,08,Classe 08 – Caractéristiques,008066,Indicateur de semi-transparence,Table de code,0,,2,Table de code,0,1,,,Operational
-bufr4/0/08/070,08,Classe 08 – Caractéristiques,008070,Identificateur de produits de sondages verticaux,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/072,08,Classe 08 – Caractéristiques,008072,Type de pixel,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/074,08,Classe 08 – Caractéristiques,008074,Type d'écho de l'altimètre,Table de code,0,,2,Table de code,0,1,,,Operational
-bufr4/0/08/075,08,Classe 08 – Caractéristiques,008075,Identificateur d'orbite ascendante ou descendante,Table de code,0,,2,Table de code,0,1,,,Operational
-bufr4/0/08/076,08,Classe 08 – Caractéristiques,008076,Type de bande,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/077,08,Classe 08 – Caractéristiques,008077,Type de surface détecté par radiomètre,Table de code,0,,7,Table de code,0,3,,,Operational
-bufr4/0/08/079,08,Classe 08 – Caractéristiques,008079,Catégorie de produit,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/08/080,08,Classe 08 – Caractéristiques,008080,Identificateur de l'indicateur de qualité pour le GTSPP,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/081,08,Classe 08 – Caractéristiques,008081,Type d'équipement,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/082,08,Classe 08 – Caractéristiques,008082,Correction de la hauteur du capteur,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/083,08,Classe 08 – Caractéristiques,008083,Indicateur de valeur nominale,Table d'indicateurs,0,,15,Table d'indicateurs,0,5,,,Operational
-bufr4/0/08/085,08,Classe 08 – Caractéristiques,008085,Identification du faisceau,Table de code,0,,3,Table de code,0,5,,,Operational
-bufr4/0/08/086,08,Classe 08 – Caractéristiques,008086,Caractéristique verticale pour la prévision numérique du temps,Table d'indicateurs,0,,12,Table d'indicateurs,0,4,,,Operational
-bufr4/0/08/087,08,Classe 08 – Caractéristiques,008087,Position des coins déterminant la colonne observée,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/08/088,08,Classe 08 – Caractéristiques,008088,Caractéristiques cartographiques,Table de code,0,,6,Table de code,0,2,,,Operational
-bufr4/0/08/090,08,Classe 08 – Caractéristiques,008090,Échelle décimale des mantisses suivantes,Numérique,0,,8,Numérique,0,3,,,Operational
-bufr4/0/08/091,08,Classe 08 – Caractéristiques,008091,Caractéristique des coordonnées,Table de code,0,,8,Table de code,0,3,,,Operational
-bufr4/0/08/092,08,Classe 08 – Caractéristiques,008092,Expression de l'incertitude de mesure,Table de code,0,,5,Table de code,0,2,,,Operational
-bufr4/0/08/093,08,Classe 08 – Caractéristiques,008093,Caractéristique de l'incertitude de mesure,Table de code,0,,5,Table de code,0,2,,,Operational
+bufr4/0/08/001,08,Qualificatifs de signification,008001,Signification de sondage vertical,Table d'indicateurs,0,,7,Table d'indicateurs,0,3,,,Operational
+bufr4/0/08/002,08,Qualificatifs de signification,008002,Signification verticale (observations satellitaires),Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/003,08,Qualificatifs de signification,008003,Signification verticale (observations satellitaires),Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/004,08,Qualificatifs de signification,008004,Phase de vol de l'aéronef,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/005,08,Qualificatifs de signification,008005,Signification de l'attribut météorologique,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/006,08,Qualificatifs de signification,008006,Signification du sondage vertical de l'ozone,Table d'indicateurs,0,,9,Table d'indicateurs,0,3,,,Operational
+bufr4/0/08/007,08,Qualificatifs de signification,008007,Signification dimensionnelle,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/008,08,Qualificatifs de signification,008008,Signification de sondage vertical de radiation,Table d'indicateurs,0,,9,Table d'indicateurs,0,3,,,Operational
+bufr4/0/08/009,08,Qualificatifs de signification,008009,Phase de vol de l'aéronef,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/010,08,Qualificatifs de signification,008010,Qualificateur de surface (données de température),Table de code,0,,9,Table de code,0,2,,,Operational
+bufr4/0/08/011,08,Qualificatifs de signification,008011,Caractéristique météorologique,Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/012,08,Qualificatifs de signification,008012,Qualificatif terre/mer,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/08/013,08,Qualificatifs de signification,008013,Qualificateur jour/nuit,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/08/014,08,Qualificatifs de signification,008014,Tendance de la portée visuelle de piste,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/015,08,Qualificatifs de signification,008015,Qualificateur significatif pour capteur,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/016,08,Qualificatifs de signification,008016,Modifier le qualifiant d'une prévision de type tendance ou d'une prévision d'aérodrome,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/017,08,Qualificatifs de signification,008017,Qualificateur du moment où le changement de prévision est attendu,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/08/018,08,Qualificatifs de signification,008018,Type de surface terre/glace SEAWINDS,Table d'indicateurs,0,,17,Table d'indicateurs,0,6,,,Operational
+bufr4/0/08/019,08,Qualificatifs de signification,008019,Qualificateur pour l'identifiant du centre suivant,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/020,08,Qualificatifs de signification,008020,Nombre total d'entités manquantes (par rapport à l'accumulation ou à la moyenne),Numérique,0,,16,Numérique,0,5,,,Operational
+bufr4/0/08/021,08,Qualificatifs de signification,008021,Signification du temps,Table de code,0,,5,Table de code,0,2,,,Operational
+bufr4/0/08/022,08,Qualificatifs de signification,008022,Nombre total (par rapport à l'accumulation ou à la moyenne),Numérique,0,,16,Numérique,0,5,,,Operational
+bufr4/0/08/023,08,Qualificatifs de signification,008023,Les valeurs statistiques de premier ordre suivent,Table de code,0,,6,Table de code,0,2,(voir la Note 3),,Operational
+bufr4/0/08/024,08,Qualificatifs de signification,008024,Statistiques de différence,Table de code,0,,6,Table de code,0,2,(voir la Note 3),,Operational
+bufr4/0/08/025,08,Qualificatifs de signification,008025,Qualificateur de différence de temps,Table de code,0,,4,Table de code,0,2,(voir la Note 3),5,Operational
+bufr4/0/08/026,08,Qualificatifs de signification,008026,Signification de la matrice,Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/029,08,Qualificatifs de signification,008029,Emplacement et type de surface,Table de code,0,,8,Table de code,0,3,,,Operational
+bufr4/0/08/030,08,Qualificatifs de signification,008030,"Manuel sur les codes (Volume I.1, Section C) Table de codes à partir de laquelle les données sont dérivées",Numérique,0,,13,Numérique,0,4,,,Operational
+bufr4/0/08/031,08,Qualificatifs de signification,008031,Catégorie de données - Table CREX A,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/08/032,08,Qualificatifs de signification,008032,Statut de l'opération,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/033,08,Qualificatifs de signification,008033,Méthode de dérivation du pourcentage de confiance,Table de code,0,,7,Table de code,0,3,(voir la Note 3),6,Operational
+bufr4/0/08/034,08,Qualificatifs de signification,008034,Qualificatif de mesure de température/salinité,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/035,08,Qualificatifs de signification,008035,Type d'exercice de surveillance,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/036,08,Qualificatifs de signification,008036,Type de centre ou de station effectuant la surveillance,Table de code,0,,3,Table de code,0,2,,,Operational
+bufr4/0/08/037,08,Qualificatifs de signification,008037,Signification de la vérification de base,Table de code,0,,5,Table de code,0,2,,,Operational
+bufr4/0/08/038,08,Qualificatifs de signification,008038,Signification des données d'instrument,Table de code,0,,8,Table de code,0,3,,,Operational
+bufr4/0/08/039,08,Qualificatifs de signification,008039,Signification temporelle (Prévision aéronautique),Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/040,08,Qualificatifs de signification,008040,Signification du niveau de vol,Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/041,08,Qualificatifs de signification,008041,Signification des données,Table de code,0,,5,Table de code,0,2,,,Operational
+bufr4/0/08/042,08,Qualificatifs de signification,008042,Signification de sondage vertical,Table d'indicateurs,0,,18,Table d'indicateurs,0,6,,,Operational
+bufr4/0/08/043,08,Qualificatifs de signification,008043,Type de constituant chimique ou physique atmosphérique,Table de code,0,,8,Table de code,0,3,(voir la Note 3),,Operational
+bufr4/0/08/044,08,Qualificatifs de signification,008044,Numéro d'enregistrement CAS,CCITT IA5,0,,88,Caractère,0,11,,,Operational
+bufr4/0/08/046,08,Qualificatifs de signification,008046,Type de constituant chimique ou physique atmosphérique,Table de code commune C-14,0,,16,Table de code commune C-14,0,5,,,Operational
+bufr4/0/08/049,08,Qualificatifs de signification,008049,Nombre d'observations,Numérique,0,,8,Numérique,0,3,,,Operational
+bufr4/0/08/050,08,Qualificatifs de signification,008050,Qualificatif pour le nombre de valeurs manquantes dans le calcul de la statistique,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/051,08,Qualificatifs de signification,008051,Qualificatif pour le nombre de valeurs manquantes dans le calcul de la statistique,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/052,08,Qualificatifs de signification,008052,Condition pour laquelle le nombre de jours d'occurrence suit,Table de code,0,,5,Table de code,0,2,,,Operational
+bufr4/0/08/053,08,Qualificatifs de signification,008053,Qualificatif du jour d'occurrence,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/08/054,08,Qualificatifs de signification,008054,Qualificatif pour la vitesse du vent ou les rafales de vent,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/060,08,Qualificatifs de signification,008060,Signification du mode de balayage d'échantillon,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/065,08,Qualificatifs de signification,008065,Indicateur de reflet solaire,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/08/066,08,Qualificatifs de signification,008066,Indicateur de semi-transparence,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/08/070,08,Qualificatifs de signification,008070,Qualificatif du produit de sondage vertical,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/072,08,Qualificatifs de signification,008072,Type(s) de pixel(s),Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/074,08,Qualificatifs de signification,008074,Mode de traitement d'écho de l'altimètre,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/08/075,08,Qualificatifs de signification,008075,Qualificatif d'orbite ascendante/descendante,Table de code,0,,2,Table de code,0,1,,,Operational
+bufr4/0/08/076,08,Qualificatifs de signification,008076,Type de bande,Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/077,08,Qualificatifs de signification,008077,Type de surface détecté par radiomètre,Table de code,0,,7,Table de code,0,3,,,Operational
+bufr4/0/08/079,08,Qualificatifs de signification,008079,Statut du produit,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/08/080,08,Qualificatifs de signification,008080,Qualificatif pour le drapeau de qualité GTSPP,Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/081,08,Qualificatifs de signification,008081,Type d'équipement,Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/082,08,Qualificatifs de signification,008082,Modification de la hauteur du capteur à une autre valeur,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/083,08,Qualificatifs de signification,008083,Indicateur de valeur nominale,Table d'indicateurs,0,,15,Table d'indicateurs,0,5,,,Operational
+bufr4/0/08/085,08,Qualificatifs de signification,008085,Identifiant de faisceau,Table de code,0,,3,Table de code,0,5,,,Operational
+bufr4/0/08/086,08,Qualificatifs de signification,008086,Signification verticale pour la NWP,Table d'indicateurs,0,,12,Table d'indicateurs,0,4,,,Operational
+bufr4/0/08/087,08,Qualificatifs de signification,008087,Position d'observation d'angle,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/08/088,08,Qualificatifs de signification,008088,Signification de la carte,Table de code,0,,6,Table de code,0,2,,,Operational
+bufr4/0/08/090,08,Qualificatifs de signification,008090,Échelle décimale des significatifs suivants,Numérique,0,,8,Numérique,0,3,(voir la Note 3),,Operational
+bufr4/0/08/091,08,Qualificatifs de signification,008091,Signification des coordonnées,Table de code,0,,8,Table de code,0,3,,,Operational
+bufr4/0/08/092,08,Qualificatifs de signification,008092,Expression de l'incertitude de mesure,Table de code,0,,5,Table de code,0,2,,,Operational
+bufr4/0/08/093,08,Qualificatifs de signification,008093,Expression de l'incertitude de mesure,Table de code,0,,5,Table de code,0,2,,,Operational

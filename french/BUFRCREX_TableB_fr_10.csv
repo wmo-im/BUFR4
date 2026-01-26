@@ -1,54 +1,54 @@
 Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
-bufr4/0/10/001,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010001,Hauteur de la surface terrestre,m,0,,15,m,0,5,,,Operational
-bufr4/0/10/002,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010002,Hauteur,m,-1,,16,m,-1,5,,,Operational
-bufr4/0/10/003,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010003,Géopotentiel,m² s-2,-1,,17,m² s-2,-1,6,,,Operational
-bufr4/0/10/004,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010004,Pression,Pa,-1,,14,Pa,-1,5,,,Operational
-bufr4/0/10/007,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010007,Hauteur,m,0,,17,m,0,6,,,Operational
-bufr4/0/10/008,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010008,Géopotentiel,m² s-2,0,,20,m² s-2,-1,6,,,Operational
-bufr4/0/10/009,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010009,Hauteur géopotentielle,gpm,0,,17,gpm,0,5,,,Operational
-bufr4/0/10/010,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010010,Pression minimale réduite au niveau moyen des mers,Pa,-1,,14,Pa,-1,5,,,Operational
-bufr4/0/10/011,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010011,Pression maximale réduite au niveau moyen des mers,Pa,-1,,14,Pa,-1,5,,,Operational
-bufr4/0/10/031,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010031,"En direction du pôle Nord, distance à partir du centre de la Terre (voir notes 2 et 3)",m,2,,31,m,2,10,,,Operational
-bufr4/0/10/032,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010032,Distance du satellite au centre de la Terre,m,1,,27,m,2,9,,,Operational
-bufr4/0/10/033,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010033,Altitude (de la plate-forme par rapport à l'ellipsoïde),m,1,,27,m,2,9,,,Operational
-bufr4/0/10/034,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010034,Rayon de la Terre,m,1,,27,m,2,9,,,Operational
-bufr4/0/10/035,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010035,Rayon de la courbure locale de la Terre,m,1,,22,m,1,8,,,Operational
-bufr4/0/10/036,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010036,Ondulation du géoïde,m,2,,15,m,2,6,(voir note 4),4,Operational
-bufr4/0/10/038,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010038,Hauteur maximale de la pontée au-dessus de la ligne de charge d'été,m,0,,6,m,0,2,,,Operational
-bufr4/0/10/039,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010039,Écart entre le niveau de référence (ligne de charge d'été maximale) et le niveau réel de la mer,m,0,,6,m,0,3,,,Operational
-bufr4/0/10/040,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010040,Données extraites concernant le nombre de couches,Numérique,0,,10,Numérique,0,4,,,Operational
-bufr4/0/10/050,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010050,Écart type de l'altitude,m,2,,16,m,2,5,,,Operational
-bufr4/0/10/051,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010051,Pression ramenée au niveau moyen de la mer,Pa,-1,,14,Pa,-1,5,,,Operational
-bufr4/0/10/052,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010052,Calage de l'altimètre (QNH),Pa,-1,,14,Pa,-1,5,,,Operational
-bufr4/0/10/053,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010053,Altitude GNSS (Système mondial de navigation par satellite),m,0,,17,m,0,5,,,Operational
-bufr4/0/10/060,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010060,Variation de pression,Pa,-1,,11,Pa,-1,4,,,Operational
-bufr4/0/10/061,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010061,Variation de pression en 3 heures,Pa,-1,,10,Pa,-1,4,,,Operational
-bufr4/0/10/062,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010062,Variation de pression en 24 heures,Pa,-1,,11,Pa,-1,4,,,Operational
-bufr4/0/10/063,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010063,Caractéristique de la tendance barométrique,Table de code,0,,4,Table de code,0,2,,,Operational
-bufr4/0/10/064,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010064,Niveau de croisière-SIGMET,Table de code,0,,3,Table de code,0,1,,,Operational
-bufr4/0/10/070,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010070,Altitude de l'aéronef indiquée,m,0,,16,m,0,5,,,Operational
-bufr4/0/10/071,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010071,Résolution verticale,m,0,,14,m,0,5,,,Operational
-bufr4/0/10/079,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010079,"Angle de décalage du satellite par rapport au nadir, calculé à partir de l'assiette de la plate-forme",°,4,,16,°,4,5,,,Operational
-bufr4/0/10/080,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010080,Distance zénithale de la visée,°,2,,15,°,2,5,,,Operational
-bufr4/0/10/081,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010081,Altitude du centre de gravité au-dessus de l'ellipsoïde de référence,m,3,,31,m,3,10,,,Operational
-bufr4/0/10/082,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010082,Taux de variation d'altitude instantané,m s-1,3,,17,m s-1,3,6,,,Operational
-bufr4/0/10/083,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010083,"Carré de l'angle de décalage du satellite par rapport au nadir, calculé à partir de l'assiette de la plate-forme",degré2,2,,16,degré2,2,5,,,Operational
-bufr4/0/10/084,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010084,"Carré de l'angle de décalage du satellite par rapport au nadir, calculé à partir de la forme des ondes",degré2,2,,16,degré2,2,5,,,Operational
-bufr4/0/10/085,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010085,Hauteur moyenne de la surface de la mer,m,3,,18,m,3,6,,,Operational
-bufr4/0/10/086,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010086,Hauteur du géoïde,m,3,,18,m,3,6,,,Operational
-bufr4/0/10/087,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010087,Profondeur de l'océan ou altitude des terres émergées,m,1,,18,m,1,6,,,Operational
-bufr4/0/10/088,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010088,Hauteur géocentrique totale de marée océanique (solution 1),m,3,,16,m,3,5,,,Operational
-bufr4/0/10/089,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010089,Hauteur géocentrique totale de marée océanique (solution 2),m,3,,16,m,3,5,,,Operational
-bufr4/0/10/090,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010090,Hauteur de marée pour une période prolongée,m,3,,16,m,3,5,,,Operational
-bufr4/0/10/091,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010091,Hauteur de marée incluant l'effet de charge,m,3,,16,m,3,5,,,Operational
-bufr4/0/10/092,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010092,Hauteur de marée terrestre,m,3,,16,m,3,5,,,Operational
-bufr4/0/10/093,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010093,Hauteur géocentrique de marée polaire,m,3,,16,m,3,5,,,Operational
-bufr4/0/10/095,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010095,Hauteur utilisée pour l'atmosphère,m,0,,16,m,0,5,,,Operational
-bufr4/0/10/096,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010096,Topographie dynamique moyenne,m,3,,18,m,3,6,,,Operational
-bufr4/0/10/097,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010097,Hauteur moyenne de la surface de la mer fournie par l'altimètre seulement,m,3,,18,m,3,6,,,Operational
-bufr4/0/10/098,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010098,Hauteur de la marée de charge pour le calcul de la marée géocentrique - solution 1,m,4,,12,m,4,4,,,Operational
-bufr4/0/10/099,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010099,Hauteur de la marée de charge pour le calcul de la marée géocentrique - solution 2,m,4,,12,m,4,4,,,Operational
-bufr4/0/10/100,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010100,Hauteur de marée pour une période prolongée hors d'équilibre,m,4,,12,m,4,4,,,Operational
-bufr4/0/10/101,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010101,"Carré de l'angle de décalage du satellite par rapport au nadir, calculé à partir de la forme des ondes",degré 2,2,,16,degré 2,2,5,,,Operational
-bufr4/0/10/102,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010102,Anomalie de hauteur de la surface de la mer,m,3,,16,m,3,5,,,Operational
-bufr4/0/10/103,10,Classe 10 – Position d'éléments autres que des coordonnées (verticale),010103,Précision de la topographie dynamique moyenne,m,3,,18,m,3,6,,,Operational
+bufr4/0/10/001,10,Emplacement non coordonné (vertical),010001,Altitude de la surface terrestre,m,0,,15,m,0,5,,,Operational
+bufr4/0/10/002,10,Emplacement non coordonné (vertical),010002,Hauteur,m,-1,,16,m,-1,5,,,Operational
+bufr4/0/10/003,10,Emplacement non coordonné (vertical),010003,Géopotentiel,m² s-2,-1,,17,m² s-2,-1,6,,,Operational
+bufr4/0/10/004,10,Emplacement non coordonné (vertical),010004,Pression,Pa,-1,,14,Pa,-1,5,,,Operational
+bufr4/0/10/007,10,Emplacement non coordonné (vertical),010007,Hauteur,m,0,,17,m,0,6,,,Operational
+bufr4/0/10/008,10,Emplacement non coordonné (vertical),010008,Géopotentiel,m² s-2,0,,20,m² s-2,-1,6,,,Operational
+bufr4/0/10/009,10,Emplacement non coordonné (vertical),010009,Hauteur géopotentielle,gpm,0,,17,gpm,0,5,,,Operational
+bufr4/0/10/010,10,Emplacement non coordonné (vertical),010010,Pression réduite au niveau moyen de la mer,Pa,-1,,14,Pa,-1,5,,,Operational
+bufr4/0/10/011,10,Emplacement non coordonné (vertical),010011,Pression réduite au niveau moyen de la mer,Pa,-1,,14,Pa,-1,5,,,Operational
+bufr4/0/10/031,10,Emplacement non coordonné (vertical),010031,"En direction du pôle Nord, distance depuis le centre de la Terre",m,2,,31,m,2,10,(voir les Notes 3 et 4),,Operational
+bufr4/0/10/032,10,Emplacement non coordonné (vertical),010032,Distance du satellite au centre de la Terre,m,1,,27,m,2,9,,,Operational
+bufr4/0/10/033,10,Emplacement non coordonné (vertical),010033,Altitude (plateforme à ellipsoïde),m,1,,27,m,2,9,,,Operational
+bufr4/0/10/034,10,Emplacement non coordonné (vertical),010034,Rayon de la Terre,m,1,,27,m,2,9,,,Operational
+bufr4/0/10/035,10,Emplacement non coordonné (vertical),010035,Rayon de courbure local de la Terre,m,1,,22,m,1,8,,,Operational
+bufr4/0/10/036,10,Emplacement non coordonné (vertical),010036,Ondulation du géoïde,m,2,,15,m,2,6,(voir la Note 3),4,Operational
+bufr4/0/10/038,10,Emplacement non coordonné (vertical),010038,Hauteur maximale de la cargaison sur le pont au-dessus de la ligne de charge d'été,m,0,,6,m,0,2,,,Operational
+bufr4/0/10/039,10,Emplacement non coordonné (vertical),010039,Départ du niveau de référence (ligne de charge maximale estivale) par rapport au niveau réel de la mer,m,0,,6,m,0,3,,,Operational
+bufr4/0/10/040,10,Emplacement non coordonné (vertical),010040,Nombre de couches récupérées,Numérique,0,,10,Numérique,0,4,,,Operational
+bufr4/0/10/050,10,Emplacement non coordonné (vertical),010050,Altitude d'écart type,m,2,,16,m,2,5,,,Operational
+bufr4/0/10/051,10,Emplacement non coordonné (vertical),010051,Pression réduite au niveau moyen de la mer,Pa,-1,,14,Pa,-1,5,,,Operational
+bufr4/0/10/052,10,Emplacement non coordonné (vertical),010052,Réglage altimétrique (QNH),Pa,-1,,14,Pa,-1,5,,,Operational
+bufr4/0/10/053,10,Emplacement non coordonné (vertical),010053,Altitude du système mondial de navigation par satellite,m,0,,17,m,0,5,,,Operational
+bufr4/0/10/060,10,Emplacement non coordonné (vertical),010060,Changement de pression sur 3 heures,Pa,-1,,11,Pa,-1,4,,,Operational
+bufr4/0/10/061,10,Emplacement non coordonné (vertical),010061,Changement de pression sur 3 heures,Pa,-1,,10,Pa,-1,4,,,Operational
+bufr4/0/10/062,10,Emplacement non coordonné (vertical),010062,Changement de pression sur 3 heures,Pa,-1,,11,Pa,-1,4,,,Operational
+bufr4/0/10/063,10,Emplacement non coordonné (vertical),010063,Caractéristique de la tendance de pression,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/10/064,10,Emplacement non coordonné (vertical),010064,Niveau de croisière SIGMET,Table de code,0,,3,Table de code,0,1,,,Operational
+bufr4/0/10/070,10,Emplacement non coordonné (vertical),010070,Altitude indiquée de l'aéronef,m,0,,16,m,0,5,,,Operational
+bufr4/0/10/071,10,Emplacement non coordonné (vertical),010071,Résolution verticale,m,0,,14,m,0,5,,,Operational
+bufr4/0/10/079,10,Emplacement non coordonné (vertical),010079,Angle hors-nadir du satellite à partir des données de la plateforme,°,4,,16,°,4,5,,,Operational
+bufr4/0/10/080,10,Emplacement non coordonné (vertical),010080,Angle zénithal de vision ou angle zénithal solaire hors plage,°,2,,15,°,2,5,,,Operational
+bufr4/0/10/081,10,Emplacement non coordonné (vertical),010081,Altitude du COG au-dessus de l'ellipsoïde de référence,m,3,,31,m,3,10,,,Operational
+bufr4/0/10/082,10,Emplacement non coordonné (vertical),010082,Taux instantané d'altitude,m s-1,3,,17,m s-1,3,6,,,Operational
+bufr4/0/10/083,10,Emplacement non coordonné (vertical),010083,Angle hors-nadir du satellite à partir des données de la plateforme,degré2,2,,16,degré2,2,5,,,Operational
+bufr4/0/10/084,10,Emplacement non coordonné (vertical),010084,Angle hors-nadir au carré du satellite à partir des données d'onde,degré2,2,,16,degré2,2,5,,,Operational
+bufr4/0/10/085,10,Emplacement non coordonné (vertical),010085,Hauteur moyenne de la surface de la mer,m,3,,18,m,3,6,,,Operational
+bufr4/0/10/086,10,Emplacement non coordonné (vertical),010086,Hauteur du géoïde,m,3,,18,m,3,6,,,Operational
+bufr4/0/10/087,10,Emplacement non coordonné (vertical),010087,Profondeur de l'océan/élévation terrestre,m,1,,18,m,1,6,,,Operational
+bufr4/0/10/088,10,Emplacement non coordonné (vertical),010088,Hauteur totale de la marée océanique géocentrique (solution 1),m,3,,16,m,3,5,,,Operational
+bufr4/0/10/089,10,Emplacement non coordonné (vertical),010089,Hauteur totale de la marée océanique géocentrique (solution 1),m,3,,16,m,3,5,,,Operational
+bufr4/0/10/090,10,Emplacement non coordonné (vertical),010090,Hauteur de marée à longue période,m,3,,16,m,3,5,,,Operational
+bufr4/0/10/091,10,Emplacement non coordonné (vertical),010091,Hauteur de charge de marée,m,3,,16,m,3,5,,,Operational
+bufr4/0/10/092,10,Emplacement non coordonné (vertical),010092,Hauteur de la marée solide terrestre,m,3,,16,m,3,5,,,Operational
+bufr4/0/10/093,10,Emplacement non coordonné (vertical),010093,Hauteur de la marée polaire géocentrique,m,3,,16,m,3,5,,,Operational
+bufr4/0/10/095,10,Emplacement non coordonné (vertical),010095,Hauteur de l'atmosphère utilisée,m,0,,16,m,0,5,,,Operational
+bufr4/0/10/096,10,Emplacement non coordonné (vertical),010096,Topographie dynamique moyenne,m,3,,18,m,3,6,,,Operational
+bufr4/0/10/097,10,Emplacement non coordonné (vertical),010097,Hauteur moyenne de la surface de la mer à partir de l'altimètre uniquement,m,3,,18,m,3,6,,,Operational
+bufr4/0/10/098,10,Emplacement non coordonné (vertical),010098,Hauteur totale de la marée océanique géocentrique (solution 1),m,4,,12,m,4,4,,,Operational
+bufr4/0/10/099,10,Emplacement non coordonné (vertical),010099,Hauteur totale de la marée océanique géocentrique (solution 1),m,4,,12,m,4,4,,,Operational
+bufr4/0/10/100,10,Emplacement non coordonné (vertical),010100,Hauteur de marée à longue période,m,4,,12,m,4,4,,,Operational
+bufr4/0/10/101,10,Emplacement non coordonné (vertical),010101,Angle hors-nadir au carré du satellite à partir des données d'onde,degré 2,2,,16,degré 2,2,5,,,Operational
+bufr4/0/10/102,10,Emplacement non coordonné (vertical),010102,Type de mesure d'anomalie de la hauteur de la surface de la mer,m,3,,16,m,3,5,,,Operational
+bufr4/0/10/103,10,Emplacement non coordonné (vertical),010103,Topographie dynamique moyenne,m,3,,18,m,3,6,,,Operational

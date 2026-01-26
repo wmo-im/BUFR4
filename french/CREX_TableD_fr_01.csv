@@ -1,0 +1,347 @@
+Category,CategoryOfSequences_fr,FXY1,Title_fr,SubTitle_fr,FXY2,ElementName_fr,ElementDescription_fr,Note_fr,Status
+01,Séquences d'emplacement et d'identification,D01001,(Numéros de bloc et de station OMM),,B01001,Numéro de bloc OMM,,,Operational
+01,Séquences d'emplacement et d'identification,D01001,(Numéros de bloc et de station OMM),,B01002,Numéro de station OMM,,,Operational
+01,Séquences d'emplacement et d'identification,D01002,,,B01003,Numéro de région/zone géographique de l'OMM,,,Operational
+01,Séquences d'emplacement et d'identification,D01002,,,B01004,Numéro de région/zone géographique de l'OMM,,,Operational
+01,Séquences d'emplacement et d'identification,D01002,,,B01005,Identifiant de bouée/plateforme,,,Operational
+01,Séquences d'emplacement et d'identification,D01003,Indicatif d'appel du navire,,B01011,Identifiant de station navire ou terrestre mobile,Indicatif d'appel du navire,,Operational
+01,Séquences d'emplacement et d'identification,D01003,Indicatif d'appel du navire,,B01012,Vitesse de mouvement de la plateforme d'observation mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01003,Indicatif d'appel du navire,,B01013,Vitesse de mouvement de la plateforme d'observation mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01004,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B01001,Numéro de bloc OMM,,,Operational
+01,Séquences d'emplacement et d'identification,D01004,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B01002,Numéro de station OMM,,,Operational
+01,Séquences d'emplacement et d'identification,D01004,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B01015,Nom de station ou de site,,,Operational
+01,Séquences d'emplacement et d'identification,D01004,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01005,(Centre d'origine/sous-centre),,B01035,(Centre d'origine/sous-centre),,,Operational
+01,Séquences d'emplacement et d'identification,D01005,(Centre d'origine/sous-centre),,B01034,Identification du centre d'origine/génération,,,Operational
+01,Séquences d'emplacement et d'identification,D01011,"Année, mois, jour",,B04001,Année,,,Operational
+01,Séquences d'emplacement et d'identification,D01011,"Année, mois, jour",,B04002,Mois,,,Operational
+01,Séquences d'emplacement et d'identification,D01011,"Année, mois, jour",,B04003,Jour,,,Operational
+01,Séquences d'emplacement et d'identification,D01012,"Heure, minute, seconde",,B04004,Heure,,,Operational
+01,Séquences d'emplacement et d'identification,D01012,"Heure, minute, seconde",,B04005,Minute,,,Operational
+01,Séquences d'emplacement et d'identification,D01013,"Heure, minute, seconde",,B04004,Heure,,,Operational
+01,Séquences d'emplacement et d'identification,D01013,"Heure, minute, seconde",,B04005,Minute,,,Operational
+01,Séquences d'emplacement et d'identification,D01013,"Heure, minute, seconde",,B04006,Deuxième,,,Operational
+01,Séquences d'emplacement et d'identification,D01014,(Période),,R02002,Répliquer 5 descripteurs 2 fois,,,Operational
+01,Séquences d'emplacement et d'identification,D01014,(Période),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01014,(Période),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01018,Indicatif d'appel du navire crypté et méthode de cryptage,,B01114,Identifiant crypté de navire ou de station terrestre mobile (encodage base64),Voir Notes 2-4,,Operational
+01,Séquences d'emplacement et d'identification,D01018,Indicatif d'appel du navire crypté et méthode de cryptage,,B25185,Méthode de chiffrement,,,Operational
+01,Séquences d'emplacement et d'identification,D01018,Indicatif d'appel du navire crypté et méthode de cryptage,,B25186,Version de la clé de chiffrement,,,Operational
+01,Séquences d'emplacement et d'identification,D01021,Latitude (haute précision),,B05001,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01021,Latitude (haute précision),,B06001,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01022,"Latitude/longitude (précision approximative), hauteur de la station",,B05001,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01022,"Latitude/longitude (précision approximative), hauteur de la station",,B06001,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01022,"Latitude/longitude (précision approximative), hauteur de la station",,B07001,Hauteur de la station,,,Operational
+01,Séquences d'emplacement et d'identification,D01023,"Latitude/longitude (précision approximative), jour/heure",,B05002,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01023,"Latitude/longitude (précision approximative), jour/heure",,B06002,"Latitude/longitude (précision approximative), jour/heure",,,Operational
+01,Séquences d'emplacement et d'identification,D01024,"Latitude/longitude (précision approximative), hauteur de la station",,B05002,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01024,"Latitude/longitude (précision approximative), hauteur de la station",,B06002,"Latitude/longitude (précision approximative), jour/heure",,,Operational
+01,Séquences d'emplacement et d'identification,D01024,"Latitude/longitude (précision approximative), hauteur de la station",,B07001,Hauteur de la station,,,Operational
+01,Séquences d'emplacement et d'identification,D01025,"Latitude/longitude (précision approximative), jour/heure",,D01023,"Latitude/longitude (précision approximative), jour/heure",,,Operational
+01,Séquences d'emplacement et d'identification,D01025,"Latitude/longitude (précision approximative), jour/heure",,B04003,Jour,,,Operational
+01,Séquences d'emplacement et d'identification,D01025,"Latitude/longitude (précision approximative), jour/heure",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01026,"Latitude/longitude (précision approximative), jour/heure",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01026,"Latitude/longitude (précision approximative), jour/heure",,B04003,Jour,Période en jours,,Operational
+01,Séquences d'emplacement et d'identification,D01026,"Latitude/longitude (précision approximative), jour/heure",,B04003,Jour,,,Operational
+01,Séquences d'emplacement et d'identification,D01026,"Latitude/longitude (précision approximative), jour/heure",,B04004,Heure,Période en jours,,Operational
+01,Séquences d'emplacement et d'identification,D01026,"Latitude/longitude (précision approximative), jour/heure",,B04004,Heure,,,Operational
+01,Séquences d'emplacement et d'identification,D01026,"Latitude/longitude (précision approximative), jour/heure",,B04005,Minute,Période en minutes,,Operational
+01,Séquences d'emplacement et d'identification,D01026,"Latitude/longitude (précision approximative), jour/heure",,B04005,Minute,,,Operational
+01,Séquences d'emplacement et d'identification,D01027,(Description d'une fonctionnalité en 3-D ou 2-D),,B08007,Signification dimensionnelle,"= 0 Point, = 1 Ligne, = 2 Zone, = 3 Volume",,Operational
+01,Séquences d'emplacement et d'identification,D01027,(Description d'une fonctionnalité en 3-D ou 2-D),,R01000,Réplication différée de 6 descripteurs,,(voir la Note 3),Operational
+01,Séquences d'emplacement et d'identification,D01027,(Description d'une fonctionnalité en 3-D ou 2-D),,D01028,"Section horizontale d'une caractéristique décrite comme un polygone, un cercle, une ligne ou un point",,,Operational
+01,Séquences d'emplacement et d'identification,D01027,(Description d'une fonctionnalité en 3-D ou 2-D),,B08007,Signification dimensionnelle,Définir sur manquant (annuler),,Operational
+01,Séquences d'emplacement et d'identification,D01029,(Identification),,B01018,Nom court de station ou de site,,,Operational
+01,Séquences d'emplacement et d'identification,D01029,(Identification),,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01029,(Identification),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01030,Identification - avec emplacement physique,,B01018,Nom court de station ou de site,,,Operational
+01,Séquences d'emplacement et d'identification,D01030,Identification - avec emplacement physique,,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01030,Identification - avec emplacement physique,,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01030,Identification - avec emplacement physique,,D01024,"Latitude/longitude (précision approximative), hauteur de la station",,,Operational
+01,Séquences d'emplacement et d'identification,D01031,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01031,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01031,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01031,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01031,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01022,"Latitude/longitude (précision approximative), hauteur de la station",,,Operational
+01,Séquences d'emplacement et d'identification,D01032,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01032,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01032,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01032,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01032,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01024,"Latitude/longitude (précision approximative), hauteur de la station",,,Operational
+01,Séquences d'emplacement et d'identification,D01033,(Bouée/plateforme - fixe),,B01005,Identifiant de bouée/plateforme,,,Operational
+01,Séquences d'emplacement et d'identification,D01033,(Bouée/plateforme - fixe),,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01033,(Bouée/plateforme - fixe),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01033,(Bouée/plateforme - fixe),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01033,(Bouée/plateforme - fixe),,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01034,(Bouée/plateforme - fixe),,B01005,Identifiant de bouée/plateforme,,,Operational
+01,Séquences d'emplacement et d'identification,D01034,(Bouée/plateforme - fixe),,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01034,(Bouée/plateforme - fixe),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01034,(Bouée/plateforme - fixe),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01034,(Bouée/plateforme - fixe),,D01023,"Latitude/longitude (précision approximative), jour/heure",,,Operational
+01,Séquences d'emplacement et d'identification,D01035,(Bouée/plateforme - mobile) (voir Note 1),,B01005,Identifiant de bouée/plateforme,,,Operational
+01,Séquences d'emplacement et d'identification,D01035,(Bouée/plateforme - mobile) (voir Note 1),,B01012,Vitesse de mouvement de la plateforme d'observation mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01035,(Bouée/plateforme - mobile) (voir Note 1),,B01013,Vitesse de mouvement de la plateforme d'observation mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01035,(Bouée/plateforme - mobile) (voir Note 1),,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01035,(Bouée/plateforme - mobile) (voir Note 1),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01035,(Bouée/plateforme - mobile) (voir Note 1),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01035,(Bouée/plateforme - mobile) (voir Note 1),,D01023,"Latitude/longitude (précision approximative), jour/heure",,,Operational
+01,Séquences d'emplacement et d'identification,D01036,(Navire),,D01003,Indicatif d'appel du navire,,,Operational
+01,Séquences d'emplacement et d'identification,D01036,(Navire),,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01036,(Navire),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01036,(Navire),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01036,(Navire),,D01023,"Latitude/longitude (précision approximative), jour/heure",,,Operational
+01,Séquences d'emplacement et d'identification,D01037,(Station terrestre pour sondages verticaux),,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01037,(Station terrestre pour sondages verticaux),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01037,(Station terrestre pour sondages verticaux),,B02012,Méthode de calcul des radiosondes,,,Operational
+01,Séquences d'emplacement et d'identification,D01037,(Station terrestre pour sondages verticaux),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01037,(Station terrestre pour sondages verticaux),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01037,(Station terrestre pour sondages verticaux),,D01022,"Latitude/longitude (précision approximative), hauteur de la station",,,Operational
+01,Séquences d'emplacement et d'identification,D01038,(Station terrestre pour sondages verticaux),,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01038,(Station terrestre pour sondages verticaux),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01038,(Station terrestre pour sondages verticaux),,B02012,Méthode de calcul des radiosondes,,,Operational
+01,Séquences d'emplacement et d'identification,D01038,(Station terrestre pour sondages verticaux),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01038,(Station terrestre pour sondages verticaux),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01038,(Station terrestre pour sondages verticaux),,D01024,"Latitude/longitude (précision approximative), hauteur de la station",,,Operational
+01,Séquences d'emplacement et d'identification,D01039,(Navire pour sondages verticaux),,D01003,Indicatif d'appel du navire,,,Operational
+01,Séquences d'emplacement et d'identification,D01039,(Navire pour sondages verticaux),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01039,(Navire pour sondages verticaux),,B02012,Méthode de calcul des radiosondes,,,Operational
+01,Séquences d'emplacement et d'identification,D01039,(Navire pour sondages verticaux),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01039,(Navire pour sondages verticaux),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01039,(Navire pour sondages verticaux),,D01023,"Latitude/longitude (précision approximative), jour/heure",,,Operational
+01,Séquences d'emplacement et d'identification,D01040,(Navire pour sondages verticaux),,D01003,Indicatif d'appel du navire,,,Operational
+01,Séquences d'emplacement et d'identification,D01040,(Navire pour sondages verticaux),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01040,(Navire pour sondages verticaux),,B02012,Méthode de calcul des radiosondes,,,Operational
+01,Séquences d'emplacement et d'identification,D01040,(Navire pour sondages verticaux),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01040,(Navire pour sondages verticaux),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01040,(Navire pour sondages verticaux),,D01024,"Latitude/longitude (précision approximative), hauteur de la station",,,Operational
+01,Séquences d'emplacement et d'identification,D01041,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,B01007,"Identifiant du satellite, instrument et type de produit",,,Operational
+01,Séquences d'emplacement et d'identification,D01041,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,B02021,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,,Operational
+01,Séquences d'emplacement et d'identification,D01041,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,B02022,Technique de traitement des données satellitaires utilisée,,,Operational
+01,Séquences d'emplacement et d'identification,D01041,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01041,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01042,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,D01041,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,,Operational
+01,Séquences d'emplacement et d'identification,D01042,"(Identifiant du satellite, instrument, technique de traitement des données, date/heure)",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01043,"(Identifiant du satellite, méthode de calcul du vent, date/heure, localisation)",,B01007,"Identifiant du satellite, instrument et type de produit",,,Operational
+01,Séquences d'emplacement et d'identification,D01043,"(Identifiant du satellite, méthode de calcul du vent, date/heure, localisation)",,B02023,"(Identifiant du satellite, méthode de calcul du vent, date/heure, localisation)",,,Operational
+01,Séquences d'emplacement et d'identification,D01043,"(Identifiant du satellite, méthode de calcul du vent, date/heure, localisation)",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01043,"(Identifiant du satellite, méthode de calcul du vent, date/heure, localisation)",,D01013,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01043,"(Identifiant du satellite, méthode de calcul du vent, date/heure, localisation)",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01044,"(Identifiant du satellite, méthode de calcul de l'humidité, date/heure, localisation)",,B01007,"Identifiant du satellite, instrument et type de produit",,,Operational
+01,Séquences d'emplacement et d'identification,D01044,"(Identifiant du satellite, méthode de calcul de l'humidité, date/heure, localisation)",,B02024,Méthode de calcul de l'humidité moyenne intégrée,,,Operational
+01,Séquences d'emplacement et d'identification,D01044,"(Identifiant du satellite, méthode de calcul de l'humidité, date/heure, localisation)",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01044,"(Identifiant du satellite, méthode de calcul de l'humidité, date/heure, localisation)",,D01013,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01044,"(Identifiant du satellite, méthode de calcul de l'humidité, date/heure, localisation)",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01049,(Données du faisceau radar),,B02111,Angle d'incidence radar,,,Operational
+01,Séquences d'emplacement et d'identification,D01049,(Données du faisceau radar),,B02112,Angle de visée radar,,,Operational
+01,Séquences d'emplacement et d'identification,D01049,(Données du faisceau radar),,B21062,Rétrodiffusion,,,Operational
+01,Séquences d'emplacement et d'identification,D01049,(Données du faisceau radar),,B21063,Résolution radiométrique (valeur de bruit),,,Operational
+01,Séquences d'emplacement et d'identification,D01049,(Données du faisceau radar),,B21065,Compteur de paquets manquants,,,Operational
+01,Séquences d'emplacement et d'identification,D01051,"(Numéro de vol, système de navigation, date/heure, emplacement, phase de vol)",,B01006,Numéro de vol de l'avion,,,Operational
+01,Séquences d'emplacement et d'identification,D01051,"(Numéro de vol, système de navigation, date/heure, emplacement, phase de vol)",,B02061,Système de navigation aéronautique,,,Operational
+01,Séquences d'emplacement et d'identification,D01051,"(Numéro de vol, système de navigation, date/heure, emplacement, phase de vol)",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01051,"(Numéro de vol, système de navigation, date/heure, emplacement, phase de vol)",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01051,"(Numéro de vol, système de navigation, date/heure, emplacement, phase de vol)",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01051,"(Numéro de vol, système de navigation, date/heure, emplacement, phase de vol)",,B08004,Phase de vol de l'aéronef,,,Operational
+01,Séquences d'emplacement et d'identification,D01055,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,B01005,Identifiant de bouée/plateforme,,,Operational
+01,Séquences d'emplacement et d'identification,D01055,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01055,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01055,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01055,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01055,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,B01012,Vitesse de mouvement de la plateforme d'observation mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01055,"Identification et type de station, date/heure, emplacement (haute précision), mouvement",,B01014,Vitesse de dérive de la plateforme (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,B01087,Identifiant étendu de la plateforme d'observation marine de l'OMM,Numéro OMM (identifiant étendu à 7 chiffres),,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,B01011,Identifiant de station navire ou terrestre mobile,Indicatif d'appel (lorsqu'il est attribué),,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,B01015,Nom de station ou de site,Nom de la plateforme,,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,B02008,Type de plateforme offshore,,,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,B07030,Hauteur du sol de la station au-dessus du niveau moyen de la mer,Hauteur du sol de la station au-dessus du niveau moyen de la mer,,Operational
+01,Séquences d'emplacement et d'identification,D01056,"Séquence pour l'identification de la plateforme, le type, l'heure et le lieu du rapport d'observation",,B07031,Hauteur du baromètre au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01059,(Identification du site du capteur et de l'instrumentation),,D01021,Latitude (haute précision),Capteur unique,,Operational
+01,Séquences d'emplacement et d'identification,D01059,(Identification du site du capteur et de l'instrumentation),,B07030,Hauteur du sol de la station au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01059,(Identification du site du capteur et de l'instrumentation),,B07032,Ajusté à ou par rapport à la hauteur représentative du capteur au-dessus du sol local (ou du pont de la plateforme marine),Capteur pour la foudre,,Operational
+01,Séquences d'emplacement et d'identification,D01065,(identification ACARS),,B01006,Numéro de vol de l'avion,,(voir la Note 3),Operational
+01,Séquences d'emplacement et d'identification,D01065,(identification ACARS),,B01008,Numéro d'immatriculation de l'aéronef ou autre identification,,(voir la Note 3),Operational
+01,Séquences d'emplacement et d'identification,D01065,(identification ACARS),,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01065,(identification ACARS),,B02002,Type d'instrumentation pour la mesure du vent,,,Operational
+01,Séquences d'emplacement et d'identification,D01065,(identification ACARS),,B02005,Précision de l'observation de la température,,,Operational
+01,Séquences d'emplacement et d'identification,D01065,(identification ACARS),,B02062,Type de système de relais de données d'aéronef,,,Operational
+01,Séquences d'emplacement et d'identification,D01065,(identification ACARS),,B02070,Spécification originale de latitude/longitude,,,Operational
+01,Séquences d'emplacement et d'identification,D01065,(identification ACARS),,B02065,Station de réception au sol ACARS,,,Operational
+01,Séquences d'emplacement et d'identification,D01066,(emplacement ACARS),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01066,(emplacement ACARS),,D01013,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01066,(emplacement ACARS),,D01023,"Latitude/longitude (précision approximative), jour/heure",,,Operational
+01,Séquences d'emplacement et d'identification,D01066,(emplacement ACARS),,B07004,Pression,,,Operational
+01,Séquences d'emplacement et d'identification,D01066,(emplacement ACARS),,B02064,Qualité de l'angle de roulis de l'aéronef,,,Operational
+01,Séquences d'emplacement et d'identification,D01066,(emplacement ACARS),,B08004,Phase de vol de l'aéronef,,,Operational
+01,Séquences d'emplacement et d'identification,D01070,(Mesure totale d'ozone à partir d'un spectrophotomètre Brewer au sol obtenue à partir d'une seule observation),,B02143,Type d'instrument à ozone,,,Operational
+01,Séquences d'emplacement et d'identification,D01070,(Mesure totale d'ozone à partir d'un spectrophotomètre Brewer au sol obtenue à partir d'une seule observation),,B02142,Type d'instrument à ozone,,,Operational
+01,Séquences d'emplacement et d'identification,D01070,(Mesure totale d'ozone à partir d'un spectrophotomètre Brewer au sol obtenue à partir d'une seule observation),,B02144,Type de source lumineuse pour spectrophotomètre Brewer,,,Operational
+01,Séquences d'emplacement et d'identification,D01071,(Identifiant du satellite/Résolution de génération),,B01007,"Identifiant du satellite, instrument et type de produit",,,Operational
+01,Séquences d'emplacement et d'identification,D01071,(Identifiant du satellite/Résolution de génération),,B01031,Identification du centre d'origine/génération,,,Operational
+01,Séquences d'emplacement et d'identification,D01071,(Identifiant du satellite/Résolution de génération),,B02020,Classification des satellites,,,Operational
+01,Séquences d'emplacement et d'identification,D01071,(Identifiant du satellite/Résolution de génération),,B02028,Taille du segment au nadir dans la direction x,,,Operational
+01,Séquences d'emplacement et d'identification,D01071,(Identifiant du satellite/Résolution de génération),,B02029,Taille du segment au nadir dans la direction x,,,Operational
+01,Séquences d'emplacement et d'identification,D01072,Identification des satellites,,D01071,(Identifiant du satellite/Résolution de génération),,,Operational
+01,Séquences d'emplacement et d'identification,D01072,Identification des satellites,,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01072,Identification des satellites,,D01013,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01072,Identification des satellites,,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01074,Instrumentation d'ozone - Spectrophotomètre Dobson,,B02143,Type d'instrument à ozone,,,Operational
+01,Séquences d'emplacement et d'identification,D01074,Instrumentation d'ozone - Spectrophotomètre Dobson,,B02142,Type d'instrument à ozone,,,Operational
+01,Séquences d'emplacement et d'identification,D01074,Instrumentation d'ozone - Spectrophotomètre Dobson,,B02145,Réglage de la longueur d'onde pour les instruments Dobson,,,Operational
+01,Séquences d'emplacement et d'identification,D01074,Instrumentation d'ozone - Spectrophotomètre Dobson,,B02146,Conditions sources pour les instruments Dobson,,,Operational
+01,Séquences d'emplacement et d'identification,D01075,(Identification sonore),,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01075,(Identification sonore),,B01015,Nom de station ou de site,,,Operational
+01,Séquences d'emplacement et d'identification,D01075,(Identification sonore),,D01024,"Latitude/longitude (précision approximative), hauteur de la station",,,Operational
+01,Séquences d'emplacement et d'identification,D01075,(Identification sonore),,B08021,Signification du temps,= 18 Heure de lancement,,Operational
+01,Séquences d'emplacement et d'identification,D01075,(Identification sonore),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01075,(Identification sonore),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01076,Type d'instrument à ozone,,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01076,Type d'instrument à ozone,,B02143,Type d'instrument à ozone,,,Operational
+01,Séquences d'emplacement et d'identification,D01076,Type d'instrument à ozone,,B02142,Type d'instrument à ozone,,,Operational
+01,Séquences d'emplacement et d'identification,D01089,Identification nationale de station,,B01101,Identifiant d'État/État fédéral,,,Operational
+01,Séquences d'emplacement et d'identification,D01089,Identification nationale de station,,B01102,Identification nationale de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01090,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,D01004,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,,Operational
+01,Séquences d'emplacement et d'identification,D01090,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01090,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01090,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01090,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B07030,Hauteur du sol de la station au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01090,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B07031,Hauteur du baromètre au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02180,Système principal de détection des conditions météorologiques actuelles,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02181,Capteur météorologique présent supplémentaire,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02182,Système de mesure de la visibilité,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02183,Système de détection des nuages,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02184,Capteur pour la foudre,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02179,Type d'algorithme de condition du ciel,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02186,Capacité à détecter les phénomènes de précipitation,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02187,Capacité à détecter d'autres phénomènes météorologiques,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02188,Capacité à détecter l'obscuration,,,Operational
+01,Séquences d'emplacement et d'identification,D01091,Instrumentation de station de surface,,B02189,Capacité à discriminer les impacts de foudre,,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B01011,Identifiant de station navire ou terrestre mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B01003,Numéro de région/zone géographique de l'OMM,,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B02001,Type de station,,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B07030,Hauteur du sol de la station au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B07031,Hauteur du baromètre au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01092,"Identification de la station de surface ; heure, coordonnées horizontales et verticales",,B33024,Marque de qualité d'altitude de station (pour stations mobiles),,,Operational
+01,Séquences d'emplacement et d'identification,D01093,"Identification du navire, mouvement, date/heure, coordonnées horizontales et verticales",,D01036,Navire,Nom du navire,,Operational
+01,Séquences d'emplacement et d'identification,D01093,"Identification du navire, mouvement, date/heure, coordonnées horizontales et verticales",,B07030,Hauteur du sol de la station au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01093,"Identification du navire, mouvement, date/heure, coordonnées horizontales et verticales",,B07031,Hauteur du baromètre au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01110,(Identification du site de lancement et instrumentation pour les mesures de vent),,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01110,(Identification du site de lancement et instrumentation pour les mesures de vent),,B01011,Identifiant de station navire ou terrestre mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01110,(Identification du site de lancement et instrumentation pour les mesures de vent),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01110,(Identification du site de lancement et instrumentation pour les mesures de vent),,B02014,Technique de suivi/statut du système utilisé,,,Operational
+01,Séquences d'emplacement et d'identification,D01110,(Identification du site de lancement et instrumentation pour les mesures de vent),,B02003,Type d'équipement de mesure utilisé,,,Operational
+01,Séquences d'emplacement et d'identification,D01111,(Identification du site de lancement et instrumentation pour les mesures de vent),,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01111,(Identification du site de lancement et instrumentation pour les mesures de vent),,B01011,Identifiant de station navire ou terrestre mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01111,(Identification du site de lancement et instrumentation pour les mesures de vent),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01111,(Identification du site de lancement et instrumentation pour les mesures de vent),,B02013,Correction du rayonnement solaire et infrarouge,,,Operational
+01,Séquences d'emplacement et d'identification,D01111,(Identification du site de lancement et instrumentation pour les mesures de vent),,B02014,Technique de suivi/statut du système utilisé,,,Operational
+01,Séquences d'emplacement et d'identification,D01111,(Identification du site de lancement et instrumentation pour les mesures de vent),,B02003,Type d'équipement de mesure utilisé,,,Operational
+01,Séquences d'emplacement et d'identification,D01112,(Identification du point de lancement et instrumentation du dropsonde),,B01006,Numéro de vol de l'avion,,,Operational
+01,Séquences d'emplacement et d'identification,D01112,(Identification du point de lancement et instrumentation du dropsonde),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01112,(Identification du point de lancement et instrumentation du dropsonde),,B02013,Correction du rayonnement solaire et infrarouge,,,Operational
+01,Séquences d'emplacement et d'identification,D01112,(Identification du point de lancement et instrumentation du dropsonde),,B02014,Technique de suivi/statut du système utilisé,,,Operational
+01,Séquences d'emplacement et d'identification,D01112,(Identification du point de lancement et instrumentation du dropsonde),,B02003,Type d'équipement de mesure utilisé,,,Operational
+01,Séquences d'emplacement et d'identification,D01113,(Date/heure de lancement) (voir Note 11),,B08021,Signification du temps,= 18 Heure de lancement,,Operational
+01,Séquences d'emplacement et d'identification,D01113,(Date/heure de lancement) (voir Note 11),,D01011,"Année, mois, jour",= 18 Heure de lancement,,Operational
+01,Séquences d'emplacement et d'identification,D01113,(Date/heure de lancement) (voir Note 11),,D01013,"Heure, minute, seconde",= 18 Heure de lancement,,Operational
+01,Séquences d'emplacement et d'identification,D01114,(Coordonnées horizontales et verticales du site de lancement),,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01114,(Coordonnées horizontales et verticales du site de lancement),,B07030,Hauteur du sol de la station au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01114,(Coordonnées horizontales et verticales du site de lancement),,B07031,Hauteur du baromètre au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01114,(Coordonnées horizontales et verticales du site de lancement),,B07007,Hauteur,Libération de la sonde au-dessus du niveau moyen de la mer,,Operational
+01,Séquences d'emplacement et d'identification,D01114,(Coordonnées horizontales et verticales du site de lancement),,B33024,Marque de qualité d'altitude de station (pour stations mobiles),,,Operational
+01,Séquences d'emplacement et d'identification,D01120,(En-tête abrégé du radiosonde et informations de lancement),,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01120,(En-tête abrégé du radiosonde et informations de lancement),,B01094,Numéro WBAN,,,Operational
+01,Séquences d'emplacement et d'identification,D01120,(En-tête abrégé du radiosonde et informations de lancement),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01120,(En-tête abrégé du radiosonde et informations de lancement),,D01121,Emplacement du point de lancement du radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01121,Emplacement du point de lancement du radiosonde,,B08041,Signification des données,Point de lancement de ballon,,Operational
+01,Séquences d'emplacement et d'identification,D01121,Emplacement du point de lancement du radiosonde,,D01122,Date/heure (à centièmes de seconde),,,Operational
+01,Séquences d'emplacement et d'identification,D01121,Emplacement du point de lancement du radiosonde,,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01121,Emplacement du point de lancement du radiosonde,,B07031,Hauteur du baromètre au-dessus du niveau moyen de la mer,,,Operational
+01,Séquences d'emplacement et d'identification,D01121,Emplacement du point de lancement du radiosonde,,B07007,Hauteur,Lâcher de radiosonde au-dessus du niveau moyen de la mer,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,R02002,Répliquer 5 descripteurs 2 fois,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B08041,Signification des données,"= 0 Site parent, = 1 Site d'observation",,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B01062,Indicatif d’emplacement OACI,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,D01001,(Numéros de bloc et de station OMM),,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B01094,Numéro WBAN,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02011,Type radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B01018,Nom court de station ou de site,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B01095,Identification de l'observateur,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B25061,Identification du logiciel et numéro de version,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B25068,Nombre de recomptages d'archives,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B01082,Numéro d'ascension de radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B01083,Numéro de lancement de radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B01081,Numéro de lancement de radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02067,Fréquence de fonctionnement du radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02066,Système de réception au sol pour radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02014,Technique de suivi/statut du système utilisé,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B25067,Correction de la pression au point de lâcher du radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B25065,Correction d'orientation (azimut),,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B25066,Correction d'orientation (élévation),,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02095,Type de capteur de pression,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02096,Type de capteur de température,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02097,Type de capteur d'humidité,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02016,Configuration de radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02083,Type de hangar à ballons,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02080,Fabricant de ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02081,Type de ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B01093,Numéro de lot de ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02084,Type de gaz utilisé dans le ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02085,Type de gaz utilisé dans le ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02086,Longueur du train de vol en ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B02082,Poids du ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,B08041,Signification des données,Date de fabrication du ballon,,Operational
+01,Séquences d'emplacement et d'identification,D01123,(En-tête abrégé du radiosonde et informations de lancement),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01125,(informations d'en-tête ASCAT),,B01033,Identification du centre d'origine/génération,,,Operational
+01,Séquences d'emplacement et d'identification,D01125,(informations d'en-tête ASCAT),,B01034,Identification du centre d'origine/génération,,,Operational
+01,Séquences d'emplacement et d'identification,D01125,(informations d'en-tête ASCAT),,B25060,Identification du logiciel,,,Operational
+01,Séquences d'emplacement et d'identification,D01125,(informations d'en-tête ASCAT),,B01007,"Identifiant du satellite, instrument et type de produit",,,Operational
+01,Séquences d'emplacement et d'identification,D01125,(informations d'en-tête ASCAT),,B02019,Instruments satellitaires,,,Operational
+01,Séquences d'emplacement et d'identification,D01125,(informations d'en-tête ASCAT),,B01012,Vitesse de mouvement de la plateforme d'observation mobile,,,Operational
+01,Séquences d'emplacement et d'identification,D01126,(Séquence pour la représentation des données provenant des bouées ancrées),,B01087,Identifiant étendu de la plateforme d'observation marine de l'OMM,,,Operational
+01,Séquences d'emplacement et d'identification,D01126,(Séquence pour la représentation des données provenant des bouées ancrées),,B01015,Nom de station ou de site,,,Operational
+01,Séquences d'emplacement et d'identification,D01126,(Séquence pour la représentation des données provenant des bouées ancrées),,B02149,Type de bouée de données,,,Operational
+01,Séquences d'emplacement et d'identification,D01126,(Séquence pour la représentation des données provenant des bouées ancrées),,D01011,"Année, mois, jour",,,Operational
+01,Séquences d'emplacement et d'identification,D01126,(Séquence pour la représentation des données provenant des bouées ancrées),,D01012,"Heure, minute, seconde",,,Operational
+01,Séquences d'emplacement et d'identification,D01126,(Séquence pour la représentation des données provenant des bouées ancrées),,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B01081,Numéro de lancement de radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B01082,Numéro d'ascension de radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B01083,Numéro de lancement de radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B01095,Identification de l'observateur,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02015,Exhaustivité des radiosondes,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02016,Configuration de radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02017,Algorithmes de correction pour les mesures d'humidité,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02066,Système de réception au sol pour radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02067,Fréquence de fonctionnement du radiosonde,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02080,Fabricant de ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02081,Type de ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02082,Poids du ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02083,Type de hangar à ballons,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02084,Type de gaz utilisé dans le ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02085,Type de gaz utilisé dans le ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02086,Longueur du train de vol en ballon,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02095,Type de capteur de pression,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02096,Type de capteur de température,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02097,Type de capteur d'humidité,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02103,Radôme,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B02191,Hauteur géopotentielle,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B25061,Identification du logiciel et numéro de version,,,Operational
+01,Séquences d'emplacement et d'identification,D01128,(Informations supplémentaires sur l'ascension du radiosonde),,B35035,Raison de la résiliation,Raison de la fin de l'ascension,,Operational
+01,Séquences d'emplacement et d'identification,D01129,Instruments satellitaires,,B01007,"Identifiant du satellite, instrument et type de produit",,,Operational
+01,Séquences d'emplacement et d'identification,D01129,Instruments satellitaires,,B01031,Identification du centre d'origine/génération,,,Operational
+01,Séquences d'emplacement et d'identification,D01129,Instruments satellitaires,,B02019,Instruments satellitaires,,,Operational
+01,Séquences d'emplacement et d'identification,D01129,Instruments satellitaires,,B02020,Classification des satellites,,,Operational
+01,Séquences d'emplacement et d'identification,D01131,(Géolocalisation Pixel),,D01021,Latitude (haute précision),,,Operational
+01,Séquences d'emplacement et d'identification,D01131,(Géolocalisation Pixel),,B07024,Angle zénithal du satellite,,,Operational
+01,Séquences d'emplacement et d'identification,D01131,(Géolocalisation Pixel),,B05021,Relèvement ou angle d'azimut,,,Operational
+01,Séquences d'emplacement et d'identification,D01131,(Géolocalisation Pixel),,B07025,Angle zénithal solaire supérieur à 84 degrés,,,Operational
+01,Séquences d'emplacement et d'identification,D01131,(Géolocalisation Pixel),,B05022,Azimut solaire,,,Operational
+01,Séquences d'emplacement et d'identification,D01150,Identifiant WIGOS,,B01125,Identifiant WIGOS,,,Operational
+01,Séquences d'emplacement et d'identification,D01150,Identifiant WIGOS,,B01126,Identifiant WIGOS,,,Operational
+01,Séquences d'emplacement et d'identification,D01150,Identifiant WIGOS,,B01127,Numéro de problème WIGOS,,,Operational
+01,Séquences d'emplacement et d'identification,D01150,Identifiant WIGOS,,B01128,Identifiant WIGOS,,,Operational

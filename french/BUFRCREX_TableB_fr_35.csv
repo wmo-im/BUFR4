@@ -1,14 +1,14 @@
 Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
-bufr4/0/35/000,35,Classe 35 Informations sur le contrôle des données,035000,FM et numéro régional de code,Table de code,0,0,10,Table de code,0,3,,,Operational
-bufr4/0/35/001,35,Classe 35 Informations sur le contrôle des données,035001,Base de temps pour le contrôle,Table de code,0,0,3,Table de code,0,1,,,Operational
-bufr4/0/35/011,35,Classe 35 Informations sur le contrôle des données,035011,Nombre de messages réellement reçus,Numérique,0,0,14,Numérique,0,4,,,Operational
-bufr4/0/35/021,35,Classe 35 Informations sur le contrôle des données,035021,Bulletin contrôlé (TTAAii),CCITT IA5,0,8,48,Caractère,0,6,,,Operational
-bufr4/0/35/022,35,Classe 35 Informations sur le contrôle des données,035022,Bulletin contrôlé (YYGGgg),CCITT IA5,0,8,48,Caractère,0,6,,,Operational
-bufr4/0/35/023,35,Classe 35 Informations sur le contrôle des données,035023,Bulletin contrôlé (CCCC),CCITT IA5,0,0,32,Caractère,0,4,,,Operational
-bufr4/0/35/024,35,Classe 35 Informations sur le contrôle des données,035024,Bulletin contrôlé (BBB),CCITT IA5,0,0,24,Caractère,0,3,,,Operational
-bufr4/0/35/030,35,Classe 35 Informations sur le contrôle des données,035030,Divergences dans la disponibilité des données attendues,Table de code,0,0,4,Table de code,0,1,,,Operational
-bufr4/0/35/031,35,Classe 35 Informations sur le contrôle des données,035031,Déterminant des résultats du contrôle,Table de code,0,0,7,Table de code,0,2,,,Operational
-bufr4/0/35/032,35,Classe 35 Informations sur le contrôle des données,035032,Cause des données manquantes,Table de code,0,0,4,Table de code,0,1,,,Operational
-bufr4/0/35/033,35,Classe 35 Informations sur le contrôle des données,035033,Défauts d'observation et de collecte,Table de code,0,0,7,Table de code,0,2,,,Operational
-bufr4/0/35/034,35,Classe 35 Informations sur le contrôle des données,035034,Tendances statistiques de la disponibilité des données (pendant la(les) période(s) d'observation),Table de code,0,0,3,Table de code,0,1,,,Operational
-bufr4/0/35/035,35,Classe 35 Informations sur le contrôle des données,035035,Raison de l'abandon,Table de code,0,0,5,Table de code,0,2,,,Operational
+bufr4/0/35/000,35,Surveillance des informations,035000,FM et numéro de code régional,Table de code,0,0,10,Table de code,0,3,,,Operational
+bufr4/0/35/001,35,Surveillance des informations,035001,Période de surveillance,Table de code,0,0,3,Table de code,0,1,,,Operational
+bufr4/0/35/011,35,Surveillance des informations,035011,Nombre de rapports effectivement reçus,Numérique,0,0,14,Numérique,0,4,,,Operational
+bufr4/0/35/021,35,Surveillance des informations,035021,Bulletin en cours de surveillance (TTAAii),CCITT IA5,0,8,48,Caractère,0,6,,,Operational
+bufr4/0/35/022,35,Surveillance des informations,035022,Bulletin en cours de surveillance (TTAAii),CCITT IA5,0,8,48,Caractère,0,6,,,Operational
+bufr4/0/35/023,35,Surveillance des informations,035023,Bulletin en cours de surveillance (CCCC),CCITT IA5,0,0,32,Caractère,0,4,,,Operational
+bufr4/0/35/024,35,Surveillance des informations,035024,Bulletin en cours de surveillance (BBB),CCITT IA5,0,0,24,Caractère,0,3,,,Operational
+bufr4/0/35/030,35,Surveillance des informations,035030,Discrepances dans la disponibilité des données attendues,Table de code,0,0,4,Table de code,0,1,,,Operational
+bufr4/0/35/031,35,Surveillance des informations,035031,Qualificateur sur les résultats de surveillance,Table de code,0,0,7,Table de code,0,2,,,Operational
+bufr4/0/35/032,35,Surveillance des informations,035032,Cause des données manquantes,Table de code,0,0,4,Table de code,0,1,,,Operational
+bufr4/0/35/033,35,Surveillance des informations,035033,Déficiences d'observation et de collecte,Table de code,0,0,7,Table de code,0,2,,,Operational
+bufr4/0/35/034,35,Surveillance des informations,035034,Tendances statistiques concernant la disponibilité des données (pendant la ou les périodes d'enquête),Table de code,0,0,3,Table de code,0,1,,,Operational
+bufr4/0/35/035,35,Surveillance des informations,035035,Raison de la résiliation,Table de code,0,0,5,Table de code,0,2,,,Operational

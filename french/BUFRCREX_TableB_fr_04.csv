@@ -1,36 +1,36 @@
 Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
-bufr4/0/04/001,04,Classe 04 — Situation (dans le temps),004001,Année,a,0,0,12,a,0,4,,,Operational
-bufr4/0/04/002,04,Classe 04 — Situation (dans le temps),004002,Mois,mon,0,0,4,mon,0,2,,,Operational
-bufr4/0/04/003,04,Classe 04 — Situation (dans le temps),004003,Jour,d,0,0,6,d,0,2,,,Operational
-bufr4/0/04/004,04,Classe 04 — Situation (dans le temps),004004,Heure,h,0,0,5,h,0,2,,,Operational
-bufr4/0/04/005,04,Classe 04 — Situation (dans le temps),004005,Minute,min,0,0,6,min,0,2,,,Operational
-bufr4/0/04/006,04,Classe 04 — Situation (dans le temps),004006,Seconde,s,0,0,6,s,0,2,,,Operational
-bufr4/0/04/007,04,Classe 04 — Situation (dans le temps),004007,Secondes par minute (à la microseconde près),s,6,0,26,s,6,8,,,Operational
-bufr4/0/04/011,04,Classe 04 — Situation (dans le temps),004011,Incrément temporel,a,0,–1024,11,a,0,4,,,Operational
-bufr4/0/04/012,04,Classe 04 — Situation (dans le temps),004012,Incrément temporel,mon,0,–1024,11,mon,0,4,,,Operational
-bufr4/0/04/013,04,Classe 04 — Situation (dans le temps),004013,Incrément temporel,d,0,–1024,11,d,0,4,,,Operational
-bufr4/0/04/014,04,Classe 04 — Situation (dans le temps),004014,Incrément temporel,h,0,–1024,11,h,0,4,,,Operational
-bufr4/0/04/015,04,Classe 04 — Situation (dans le temps),004015,Incrément temporel,min,0,–2048,12,min,0,4,,,Operational
-bufr4/0/04/016,04,Classe 04 — Situation (dans le temps),004016,Incrément temporel,s,0,–4096,13,s,0,4,,,Operational
-bufr4/0/04/017,04,Classe 04 — Situation (dans le temps),004017,Période de référence pour les données relatives à des valeurs accumulées ou extrêmes,min,0,–1440,12,min,0,4,,,Operational
-bufr4/0/04/021,04,Classe 04 — Situation (dans le temps),004021,Période ou décalage dans le temps,a,0,–1024,11,a,0,4,,,Operational
-bufr4/0/04/022,04,Classe 04 — Situation (dans le temps),004022,Période ou décalage dans le temps,mon,0,–1024,11,mon,0,4,,,Operational
-bufr4/0/04/023,04,Classe 04 — Situation (dans le temps),004023,Période ou décalage dans le temps,d,0,–1024,11,d,0,4,,,Operational
-bufr4/0/04/024,04,Classe 04 — Situation (dans le temps),004024,Période ou décalage dans le temps,h,0,–2048,12,h,0,4,,,Operational
-bufr4/0/04/025,04,Classe 04 — Situation (dans le temps),004025,Période ou décalage dans le temps,min,0,–2048,12,min,0,4,,,Operational
-bufr4/0/04/026,04,Classe 04 — Situation (dans le temps),004026,Période ou décalage dans le temps,s,0,–4096,13,s,0,4,,,Operational
-bufr4/0/04/031,04,Classe 04 — Situation (dans le temps),004031,Période à laquelle se rapporte la valeur suivante,h,0,0,8,h,0,3,,,Operational
-bufr4/0/04/032,04,Classe 04 — Situation (dans le temps),004032,Période à laquelle se rapporte la valeur suivante,min,0,0,6,min,0,2,,,Operational
-bufr4/0/04/041,04,Classe 04 — Situation (dans le temps),004041,Décalage dans le temps UTC-LMT,min,0,–1440,12,min,0,4,(voir la Note 6),,Operational
-bufr4/0/04/043,04,Classe 04 — Situation (dans le temps),004043,Jour de l’année,d,0,0,9,d,0,3,,,Operational
-bufr4/0/04/051,04,Classe 04 — Situation (dans le temps),004051,Heure principale à laquelle la tempé- rature maximale est relevée quotidiennement,h,0,0,5,h,0,2,,,Operational
-bufr4/0/04/052,04,Classe 04 — Situation (dans le temps),004052,Heure principale à laquelle la tempé- rature minimale est relevée quotidiennement,h,0,0,5,h,0,2,,,Operational
-bufr4/0/04/053,04,Classe 04 — Situation (dans le temps),004053,Nombre de jours avec précipitations égales ou supérieures à 1 mm,Numérique,0,0,6,Numérique,0,2,,,Operational
-bufr4/0/04/059,04,Classe 04 — Situation (dans le temps),004059,Heures des observations servant à calculer les valeurs moyennes transmises,Table d’indicateurs,0,0,6,Table d’indicateurs,0,2,,,Operational
-bufr4/0/04/065,04,Classe 04 — Situation (dans le temps),004065,Incrément de courte durée,min,0,–128,8,min,0,2,,,Operational
-bufr4/0/04/066,04,Classe 04 — Situation (dans le temps),004066,Incrément temporel de courte durée,s,0,–128,8,s,0,2,,,Operational
-bufr4/0/04/073,04,Classe 04 — Situation (dans le temps),004073,Période ou décalage dans le temps de courte durée,d,0,–128,8,d,0,2,,,Operational
-bufr4/0/04/074,04,Classe 04 — Situation (dans le temps),004074,Période ou décalage dans le temps de courte durée,h,0,–128,8,h,0,2,,,Operational
-bufr4/0/04/075,04,Classe 04 — Situation (dans le temps),004075,Période ou décalage dans le temps de courte durée,min,0,–128,8,min,0,2,,,Operational
-bufr4/0/04/080,04,Classe 04 — Situation (dans le temps),004080,Période à laquelle correspond la valeur moyenne qui suit,Table de code,0,0,5,Table de code,0,2,,,Operational
-bufr4/0/04/086,04,Classe 04 — Situation (dans le temps),004086,Période ou décalage dans le temps de longue durée,s,0,–8192,15,s,0,5,,,Operational
+bufr4/0/04/001,04,Emplacement et heure de référence,004001,Année,a,0,0,12,a,0,4,,,Operational
+bufr4/0/04/002,04,Emplacement et heure de référence,004002,Mois,mon,0,0,4,mon,0,2,,,Operational
+bufr4/0/04/003,04,Emplacement et heure de référence,004003,Jour,d,0,0,6,d,0,2,,,Operational
+bufr4/0/04/004,04,Emplacement et heure de référence,004004,Heure,h,0,0,5,h,0,2,,,Operational
+bufr4/0/04/005,04,Emplacement et heure de référence,004005,Minute,min,0,0,6,min,0,2,,,Operational
+bufr4/0/04/006,04,Emplacement et heure de référence,004006,Deuxième,s,0,0,6,s,0,2,,,Operational
+bufr4/0/04/007,04,Emplacement et heure de référence,004007,Secondes dans une minute (précision à la microseconde),s,6,0,26,s,6,8,,,Operational
+bufr4/0/04/011,04,Emplacement et heure de référence,004011,Incrément horaire,a,0,–1024,11,a,0,4,,,Operational
+bufr4/0/04/012,04,Emplacement et heure de référence,004012,Incrément horaire,mon,0,–1024,11,mon,0,4,,,Operational
+bufr4/0/04/013,04,Emplacement et heure de référence,004013,Incrément horaire,d,0,–1024,11,d,0,4,,,Operational
+bufr4/0/04/014,04,Emplacement et heure de référence,004014,Incrément horaire,h,0,–1024,11,h,0,4,,,Operational
+bufr4/0/04/015,04,Emplacement et heure de référence,004015,Incrément horaire,min,0,–2048,12,min,0,4,,,Operational
+bufr4/0/04/016,04,Emplacement et heure de référence,004016,Incrément horaire,s,0,–4096,13,s,0,4,,,Operational
+bufr4/0/04/017,04,Emplacement et heure de référence,004017,Période de référence pour les données accumulées ou extrêmes,min,0,–1440,12,min,0,4,,,Operational
+bufr4/0/04/021,04,Emplacement et heure de référence,004021,Période de temps ou déplacement,a,0,–1024,11,a,0,4,,,Operational
+bufr4/0/04/022,04,Emplacement et heure de référence,004022,Période de temps ou déplacement,mon,0,–1024,11,mon,0,4,,,Operational
+bufr4/0/04/023,04,Emplacement et heure de référence,004023,Période de temps ou déplacement,d,0,–1024,11,d,0,4,,,Operational
+bufr4/0/04/024,04,Emplacement et heure de référence,004024,Période de temps ou déplacement,h,0,–2048,12,h,0,4,,,Operational
+bufr4/0/04/025,04,Emplacement et heure de référence,004025,Période de temps ou déplacement,min,0,–2048,12,min,0,4,,,Operational
+bufr4/0/04/026,04,Emplacement et heure de référence,004026,Période de temps ou déplacement,s,0,–4096,13,s,0,4,,,Operational
+bufr4/0/04/031,04,Emplacement et heure de référence,004031,Durée de temps relative à la valeur suivante,h,0,0,8,h,0,3,,,Operational
+bufr4/0/04/032,04,Emplacement et heure de référence,004032,Durée de temps relative à la valeur suivante,min,0,0,6,min,0,2,,,Operational
+bufr4/0/04/041,04,Emplacement et heure de référence,004041,"Différence de temps, UTC - LMT",min,0,–1440,12,min,0,4,(voir la Note 3),,Operational
+bufr4/0/04/043,04,Emplacement et heure de référence,004043,Jour de l'année,d,0,0,9,d,0,3,,,Operational
+bufr4/0/04/051,04,Emplacement et heure de référence,004051,Heure principale de la lecture quotidienne de la température maximale,h,0,0,5,h,0,2,,,Operational
+bufr4/0/04/052,04,Emplacement et heure de référence,004052,Heure principale de la lecture quotidienne de la température maximale,h,0,0,5,h,0,2,,,Operational
+bufr4/0/04/053,04,Emplacement et heure de référence,004053,Nombre de jours avec des précipitations égales ou supérieures à 1 mm,Numérique,0,0,6,Numérique,0,2,,,Operational
+bufr4/0/04/059,04,Emplacement et heure de référence,004059,Heures d'observation utilisées pour calculer les valeurs moyennes rapportées,Table d’indicateurs,0,0,6,Table d’indicateurs,0,2,,,Operational
+bufr4/0/04/065,04,Emplacement et heure de référence,004065,Court intervalle de temps,min,0,–128,8,min,0,2,,,Operational
+bufr4/0/04/066,04,Emplacement et heure de référence,004066,Court intervalle de temps,s,0,–128,8,s,0,2,,,Operational
+bufr4/0/04/073,04,Emplacement et heure de référence,004073,Période de temps ou déplacement,d,0,–128,8,d,0,2,,,Operational
+bufr4/0/04/074,04,Emplacement et heure de référence,004074,Période de temps ou déplacement,h,0,–128,8,h,0,2,,,Operational
+bufr4/0/04/075,04,Emplacement et heure de référence,004075,Période de temps ou déplacement,min,0,–128,8,min,0,2,,,Operational
+bufr4/0/04/080,04,Emplacement et heure de référence,004080,Période moyenne d'échantillonnage,Table de code,0,0,5,Table de code,0,2,,,Operational
+bufr4/0/04/086,04,Emplacement et heure de référence,004086,Période de temps ou déplacement,s,0,–8192,15,s,0,5,,,Operational
