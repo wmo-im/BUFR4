@@ -1,0 +1,572 @@
+﻿FXY,ElementName_es,CodeFigure,EntryName_es,EntryName_sub1_es,EntryName_sub2_es,Note_es,noteIDs,Status
+033002,Información sobre la calidad,0,Datos no sospechosos,,,,,Operational
+033002,Información sobre la calidad,1,Datos sospechosos,,,,,Operational
+033002,Información sobre la calidad,2,Reservada,,,,,Operational
+033002,Información sobre la calidad,3,Información sobre la calidad no proporcionada,,,,,Operational
+033003,Información sobre la calidad,0,Datos no sospechosos,,,,,Operational
+033003,Información sobre la calidad,1,Datos ligeramente sospechosos,,,,,Operational
+033003,Información sobre la calidad,2,Datos muy sospechosos,,,,,Operational
+033003,Información sobre la calidad,3,Datos considerados inapropiados para utilizarlos,,,,,Operational
+033003,Información sobre la calidad,4-6,Reservadas,,,,,Operational
+033003,Información sobre la calidad,7,Información sobre la calidad no proporcionada,,,,,Operational
+033005,Información sobre la calidad (datos EMA),1,Verificaciones automáticas de datos meteorológicos no realizadas,,,,,Operational
+033005,Información sobre la calidad (datos EMA),2,Datos de presión sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),3,Datos de viento sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),4,Datos de temperatura del aire sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),5,Datos de temperatura de bulbo húmedo sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),6,Datos de humedad sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),7,Datos de temperatura del terreno sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),8,Datos de temperatura del suelo (profundidad 1) sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),9,Datos de temperatura del suelo (profundidad 2) sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),10,Datos de temperatura del suelo (profundidad 3) sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),11,Datos de temperatura del suelo (profundidad 4) sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),12,Datos de temperatura del suelo (profundidad 5) sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),13,Datos de nubes sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),14,Datos de visibilidad sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),15,Datos de tiempo presente sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),16,Datos de rayos sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),17,Datos de depósito de hielo sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),18,Datos de precipitación sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),19,Datos de estado del terreno sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),20,Datos de nieve sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),21,Datos de contenido de agua sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),22,Datos de evaporación/evapotranspiración sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),23,Datos de insolación sospechosos,,,,,Operational
+033005,Información sobre la calidad (datos EMA),24-29,Reservados,,,,,Operational
+033005,Información sobre la calidad (datos EMA),Los 30,Valor faltante,,,,,Operational
+033006,Información interna sobre el estado de la medición (EMA),0,Ningún problema luego de la autoverificación,,,,,Operational
+033006,Información interna sobre el estado de la medición (EMA),1,"Al menos un aviso activo, sin alarmas",,,,,Operational
+033006,Información interna sobre el estado de la medición (EMA),2,Al menos una alarma activa,,,,,Operational
+033006,Información interna sobre el estado de la medición (EMA),3,Desperfecto del sensor,,,,,Operational
+033006,Información interna sobre el estado de la medición (EMA),4-6,Reservadas,,,,,Operational
+033006,Información interna sobre el estado de la medición (EMA),7,Valor faltante,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,0,Todas las verificaciones superadas,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,1,Verificación de datos faltantes,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,2,Verificación de globo descendente/reascendente,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,3,Verificación de la plausibilidad de los datos (por encima de los límites),,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,4,Verificación de la plausibilidad de los datos (por debajo de los límites),,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,5,Verificación del gradiente superadiabático,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,6,Verificación de ángulos limitantes,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,7,Verificación de la tasa de ascenso,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,8,Variación excesiva respecto al vuelo anterior,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,9,Verificación general del globo,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,10,Verificación de la velocidad del viento,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,11,Verificación de la dirección del viento,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,12,Verificación de dependencia,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,13,Datos válidos pero modificados,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,14,Verificación del valor atípico de los datos,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,15-62,Reservadas,,,,,Operational
+033015,Indicador de verificación de la calidad de los datos,63,Valor faltante,,,,,Operational
+033020,Indicación del control de calidad del valor siguiente,0,Buena,,,,,Operational
+033020,Indicación del control de calidad del valor siguiente,1,Inconsistente,,,,,Operational
+033020,Indicación del control de calidad del valor siguiente,2,Dudosa,,,,,Operational
+033020,Indicación del control de calidad del valor siguiente,3,Errada,,,,,Operational
+033020,Indicación del control de calidad del valor siguiente,4,No verificada,,,,,Operational
+033020,Indicación del control de calidad del valor siguiente,5,Fue modificada,,,,,Operational
+033020,Indicación del control de calidad del valor siguiente,6,Estimada,,,,,Operational
+033020,Indicación del control de calidad del valor siguiente,7,Valor faltante,,,,,Operational
+033021,Calidad del valor siguiente,0,Dentro de los límites,,,,,Operational
+033021,Calidad del valor siguiente,1,Fuera de los límites,,,,,Operational
+033021,Calidad del valor siguiente,2,Reservada,,,,,Operational
+033021,Calidad del valor siguiente,3,Valor faltante,,,,,Operational
+033022,Calidad de la transmisión entre el satélite y la boya,0,Buena (se recibieron varios informes idénticos),,,,,Operational
+033022,Calidad de la transmisión entre el satélite y la boya,1,Dudosa (no se recibieron informes idénticos),,,,,Operational
+033022,Calidad de la transmisión entre el satélite y la boya,2,Reservada,,,,,Operational
+033022,Calidad de la transmisión entre el satélite y la boya,3,Valor faltante,,,,,Operational
+033023,Calidad de la ubicación de la boya,0,Confiable (se definió la ubicación después de dos pasos del satélite),,,,,Operational
+033023,Calidad de la ubicación de la boya,1,Última ubicación conocida (no se definió la ubicación en el paso correspondiente),,,,,Operational
+033023,Calidad de la ubicación de la boya,2,Dudosa (ubicación definida con un solo paso; una segunda solución es posible en el 5 por ciento de los casos),,,,,Operational
+033023,Calidad de la ubicación de la boya,3,Valor faltante,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),0,Reservada,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),1,Excelente – con una aproximación de 3 metros,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),2,Buena – con una aproximación de 10 metros,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),3,Aceptable – con una aproximación de 20 metros,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),4,Mala – con una aproximación de más de 20 metros,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),5,Excelente – con una aproximación de 10 pies,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),6,Buena – con una aproximación de 30 pies,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),7,Aceptable – con una aproximación de 60 pies,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),8,Mala – con una aproximación de más de 60 pies,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),9-14,Reservadas,,,,,Operational
+033024,Marca de la calidad de la elevación de la estación (para estaciones móviles),15,Valor faltante,,,,,Operational
+033025,Indicador de valores interpolados ACARS,0,"Tiempo interpolado, latitud y longitud transmitidas",,,,,Operational
+033025,Indicador de valores interpolados ACARS,1,"Tiempo transmitido, latitud y longitud interpoladas",,,,,Operational
+033025,Indicador de valores interpolados ACARS,2,"Tiempo, latitud y longitud interpolados",,,,,Operational
+033025,Indicador de valores interpolados ACARS,3,"Tiempo, latitud y longitud transmitidos",,,,,Operational
+033025,Indicador de valores interpolados ACARS,4-6,Reservadas,,,,,Operational
+033025,Indicador de valores interpolados ACARS,7,Valor faltante,,,,,Operational
+033026,Calidad de la humedad,0,Operaciones normales - modo de medición,,,,,Operational
+033026,Calidad de la humedad,1,Operaciones normales – sin medición,,,,,Operational
+033026,Calidad de la humedad,2,Escasa humedad relativa,,,,,Operational
+033026,Calidad de la humedad,3,Elemento del higrómetro mojado,,,,,Operational
+033026,Calidad de la humedad,4,Elemento del higrómetro contaminado,,,,,Operational
+033026,Calidad de la humedad,5,Falla del calentador,,,,,Operational
+033026,Calidad de la humedad,6,Falla del calentador y elemento del higrómetro contaminado/mojado,,,,,Operational
+033026,Calidad de la humedad,7,Por lo menos uno de los parámetros de entrada utilizados en el cálculo de la relación de mezcla es inválido,,,,,Operational
+033026,Calidad de la humedad,8,Error numérico,,,,,Operational
+033026,Calidad de la humedad,9,Sensor no instalado,,,,,Operational
+033026,Calidad de la humedad,10,Humedad relativa calculada > 100%,,,,,Operational
+033026,Calidad de la humedad,11,Potencia de láser de entrada demasiado baja,,,,,Operational
+033026,Calidad de la humedad,12,Sonda WV - Temperatura fuera de dial,,,,,Operational
+033026,Calidad de la humedad,13,Sonda WV - Presión fuera de dial,,,,,Operational
+033026,Calidad de la humedad,14,Línea espectral fuera de dial,,,,,Operational
+033026,Calidad de la humedad,15,No hay salida de láser,,,,,Operational
+033026,Calidad de la humedad,16-62,Reservadas,,,,,Operational
+033026,Calidad de la humedad,63,Valor faltante,,,,,Operational
+033027,Clase de la calidad de la ubicación (alcance del radio de 66% de confianza),0,Radio ≥1 500 m,,,,,Operational
+033027,Clase de la calidad de la ubicación (alcance del radio de 66% de confianza),1,500 m ≤Radio < 1 500 m,,,,,Operational
+033027,Clase de la calidad de la ubicación (alcance del radio de 66% de confianza),2,250 m ≤ Radio < 500 m,,,,,Operational
+033027,Clase de la calidad de la ubicación (alcance del radio de 66% de confianza),3,Radio < 250 m,,,,,Operational
+033027,Clase de la calidad de la ubicación (alcance del radio de 66% de confianza),4,≤ 100 m,,,,,Operational
+033027,Clase de la calidad de la ubicación (alcance del radio de 66% de confianza),5-6,Reservadas,,,,,Operational
+033027,Clase de la calidad de la ubicación (alcance del radio de 66% de confianza),7,Valor faltante,,,,,Operational
+033028,Calidad general de la instantánea,1,Nominal,,,,,Operational
+033028,Calidad general de la instantánea,2,Degradada por error en el estado del tiempo significativo; cualquier error obtenido de los algoritmos,,,,,Operational
+033028,Calidad general de la instantánea,3,Degradada por error instrumental,,,,,Operational
+033028,Calidad general de la instantánea,4,Degradada por ADF corrompida/faltante,,,,,Operational
+033028,Calidad general de la instantánea,5-6,Reservadas,,,,,Operational
+033028,Calidad general de la instantánea,7,Valor faltante,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,1,No utilizar escáner para generar productos,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,2,Error en la secuencia temporal detectado durante el barrido,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,3,Datos faltantes antes del barrido,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,4,Sin calibración,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,5,Sin localización geográfica,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,6,Primera hora correcta después de la puesta al día del reloj,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,7,El estado de los instrumentos cambió durante el barrido,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,8-23,Reservados,,,,,Operational
+033030,Banderines de estado de la línea de exploración para ATOVS,Los 24,Valor faltante,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,1,"El campo horario es malo, pero puede ser inferido de la hora correcta anterior",,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,2,El campo horario es malo y no puede ser inferido de la hora correcta anterior,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,3,"Este registro inicia una secuencia que no concuerda con las horas anteriores (es decir, discontinuidad en el tiempo). Este hecho puede estar asociado o no a una puesta al día del reloj de la sonda (véanse los banderines de estado de la línea de exploración de la sonda ATOVS)",,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,4,Inicio de una serie que aparentemente repiten las horas de exploración que fueron previamente aceptadas,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,5,La línea de exploración no fue calibrada a causa de una hora incorrecta,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,6,"La línea de exploración se calibró utilizando menos líneas de exploración que las recomendables debido a la proximidad del inicio o fin de los datos, o a su ausencia",,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,7,No se calibró la línea de exploración debido a la mala calidad o ausencia de datos de PRT,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,8,La línea de exploración se calibró utilizando únicamente datos marginales de PRT,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,9,Algunos canales no se calibraron en este barrido,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,10,Sin calibración debida al modo de los instrumentos,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,11,Calibración cuestionable por un error en la orientación de la antena hacia el espacio,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,12,Calibración cuestionable por un error en la orientación de la antena hacia el cuerpo negro,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,13,Sin localización geográfica a causa de una hora incorrecta,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,14,Localización geográfica cuestionable a causa de una clave horaria dudosa (véanse los bits de clave de defectos horarios),,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,15,Localización geográfica cuestionable – control de verosimilitud sólo parcialmente satisfactorio,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,16,Localización geográfica cuestionable - control de verosimilitud no satisfactorio,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,17,Localización geográfica cuestionable a causa de la verificación de la posición de la antena,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,18,Calibración de la línea de exploración hacia el cuerpo negro frío,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,19,Calibración de la línea de exploración hacia el cuerpo negro caliente,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,20,Calibración de la línea de exploración hacia el espacio,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,21,Hacia la Tierra,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,22-23,Reservados,,,,,Operational
+033031,Banderines de calidad de la línea de exploración para ATOVS,Los 24,Valor faltante,,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,1,Ningún cálculo correcto de cuerpo negro para la línea de exploración,,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,2,Ningún cálculo correcto de visión de espacio para esta línea,,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,3,Ningún dato correcto de PRT para esta línea,,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,4,Algunos cálculos del cuerpo negro son incorrectos para esta línea,,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,5,Algunos cálculos de visión de espacio son incorrectos para esta línea,,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,6,Algunos datos del PRT son incorrectos para esta línea,,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,7,La calidad de esta exploración es reducida,,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,8-23,Reservados (bits fijos en cero),,,,,Operational
+033032,Banderines de calidad del canal para ATOVS,Los 24,Valor faltante,,,,,Operational
+033033,Banderines de calidad del campo de visión para ATOVS,1,Se indica 1 si se realizó una calibración secundaria,,,,,Operational
+033033,Banderines de calidad del campo de visión para ATOVS,2-21,El bit n indica 1 si la temperatura de luminancia en el canal n-1 no es físicamente razonable o no ha sido calculada debido a problemas de calibración,,,"Notas: 1) Si todos los bits indican 0, eso significa una buena calibración. 2) Los bits 2 a 21 se utilizan para la sonda HIRS, pero solamente se emplean los bits 2 a 16 para la sonda AMSU-A y los bits 2 a 6 para la sonda AMSU-B.",,Operational
+033033,Banderines de calidad del campo de visión para ATOVS,22,Se indica 1 si faltan todos los canales,,,,,Operational
+033033,Banderines de calidad del campo de visión para ATOVS,23,Sospechoso,,,,,Operational
+033033,Banderines de calidad del campo de visión para ATOVS,Los 24,Valor faltante,,,,,Operational
+033035,Control de calidad manual/automático,0,"Control de calidad automático aceptado, sin control manual",,,,,Operational
+033035,Control de calidad manual/automático,1,"Control de calidad automático aceptado, después del control manual",,,,,Operational
+033035,Control de calidad manual/automático,2,"Control de calidad automático aceptado, pero eliminado después del control manual",,,,,Operational
+033035,Control de calidad manual/automático,3,"Control de calidad automático rechazado, sin control manual",,,,,Operational
+033035,Control de calidad manual/automático,4,Control de calidad automático rechazado después del control manual,,,,,Operational
+033035,Control de calidad manual/automático,5,"Control de calidad automático rechazado, pero reinsertado después del control manual",,,,,Operational
+033035,Control de calidad manual/automático,6,"Control de calidad automático de los datos de la tabla de banderines cuestionable, sin control manual",,,,,Operational
+033035,Control de calidad manual/automático,7,"Control de calidad automático de los datos de la tabla de banderines cuestionable, rechazado después del control manual",,,,,Operational
+033035,Control de calidad manual/automático,8,Rechazado después del control manual,,,,,Operational
+033035,Control de calidad manual/automático,9-14,Reservadas,,,,,Operational
+033035,Control de calidad manual/automático,15,Valor faltante,,,,,Operational
+033037,Error de correlación del viento,1,Diferencia entre u y la primera aproximación,,,,,Operational
+033037,Error de correlación del viento,2,Diferencia entre v y la primera aproximación,,,,,Operational
+033037,Error de correlación del viento,3,Diferencia entre u y v y la primera aproximación,,,,,Operational
+033037,Error de correlación del viento,4,Aceleración de u,,,,,Operational
+033037,Error de correlación del viento,5,Aceleración de v,,,,,Operational
+033037,Error de correlación del viento,6,Aceleración de u y v,,,,,Operational
+033037,Error de correlación del viento,7,Posible accidente del terreno,,,,,Operational
+033037,Error de correlación del viento,8,Aceleración de u y accidente del terreno posible,,,,,Operational
+033037,Error de correlación del viento,9,Aceleración de v y accidente del terreno posible,,,,,Operational
+033037,Error de correlación del viento,10,Aceleración de u y v y accidente del terreno posible,,,,,Operational
+033037,Error de correlación del viento,11,Información incorrecta de primera aproximación sobre el viento,,,,,Operational
+033037,Error de correlación del viento,12,Falla de correlación,,,,,Operational
+033037,Error de correlación del viento,13,La casilla de búsqueda cae fuera de la zona,,,,,Operational
+033037,Error de correlación del viento,14,La casilla del blanco cae fuera de la zona,,,,,Operational
+033037,Error de correlación del viento,15,Brillo de los píxeles fuera de los límites (línea de ruido),,,,,Operational
+033037,Error de correlación del viento,16,Blanco fuera de casilla de latitud/longitud,,,,,Operational
+033037,Error de correlación del viento,17,Blanco fuera del intervalo de máxima/mínima presión,,,,,Operational
+033037,Error de correlación del viento,18,Vector lento marcado por el autoeditor,,,,,Operational
+033037,Error de correlación del viento,19,Vectores marcados por el autoeditor,,,,,Operational
+033037,Error de correlación del viento,Los 20,Valor faltante,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,1,Calidad del retardo cenital total considerada deficiente,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,2,Satélites GALILEO utilizados,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,3,Satélites GLONASS utilizados,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,4,Satélites GPS utilizados,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,5,Datos meteorológicos aplicados,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,6,Corrección de carga atmosférica aplicada,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,7,Carga de marea oceánica aplicada,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,8,Proceso de datos sobre la calidad del clima,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,9,Proceso de datos en tiempo casi real,,,,,Operational
+033038,Banderines de calidad para datos del GNSS* basados en tierra,Los 10,Valor faltante,,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,1,Calidad no nominal,,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,2,Producto no en línea,,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,3,Banderín de ocultación ascendente,,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,4,"Proceso de exceso de fase, no nominal",,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,5,"Proceso de ángulo de curvatura, no nominal",,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,6,"Proceso de refractividad, no nominal",,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,7,"Proceso meteorológico, no nominal",,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,8-13,Reservados,,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,14,"Perfil de fondo, no nominal",,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,15,"Perfil de fondo (es decir, no recobrado) presente",,,,,Operational
+033039,Banderines de calidad para datos de ocultación radio,Los 16,Valor faltante,,,,,Operational
+033041,Atributo del valor siguiente,0,El valor siguiente es el valor verdadero,,,,,Operational
+033041,Atributo del valor siguiente,1,El valor siguiente es mayor que el valor verdadero (la medición alcanza el límite inferior del instrumento),,,,,Operational
+033041,Atributo del valor siguiente,2,El valor siguiente es menor que el valor verdadero (la medición alcanza el límite superior del instrumento),,,,,Operational
+033041,Atributo del valor siguiente,3,Valor faltante,,,,,Operational
+033042,Tipo de límite representado por el valor siguiente,0,Límite inferior exclusivo (>),,,,,Operational
+033042,Tipo de límite representado por el valor siguiente,1,Límite inferior inclusivo (≥),,,,,Operational
+033042,Tipo de límite representado por el valor siguiente,2,Límite superior exclusivo (<),,,,,Operational
+033042,Tipo de límite representado por el valor siguiente,3,Límite superior inclusivo (≤),,,,,Operational
+033042,Tipo de límite representado por el valor siguiente,4-6,Reservadas,,,,,Operational
+033042,Tipo de límite representado por el valor siguiente,7,Valor faltante,,,,,Operational
+033043,Grado de confianza de la temperatura media en superficie,1,"MDS de mar. Recuperación de datos de la temperatura de la superficie del mar sólo en el nadir mediante canal de 3,7 micrones. MDS de tierra reservado",,,,,Operational
+033043,Grado de confianza de la temperatura media en superficie,2,"MDS de mar. Recuperación de datos de la temperatura de la superficie del mar en vista dual mediante canal de 3,7 micrones. MDS de tierra reservado",,,,,Operational
+033043,Grado de confianza de la temperatura media en superficie,3,La vista del nadir contiene datos diurnos,,,,,Operational
+033043,Grado de confianza de la temperatura media en superficie,4,La vista hacia adelante contiene datos diurnos,,,,,Operational
+033043,Grado de confianza de la temperatura media en superficie,5-7,Reservados,,,,,Operational
+033043,Grado de confianza de la temperatura media en superficie,Los 8,Valor faltante,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,1,Media de los datos entrantes fuera del banderín de alcance nominal,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,2,Desviación típica de los datos entrantes fuera del banderín de alcance nominal,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,3,Número de lagunas de datos entrantes > valor del umbral,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,4,Porcentaje de líneas faltantes > valor del umbral,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,5,Punto medio Doppler incierto. Medida de confianza < valor específico,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,6,Estimación de la ambigüedad Doppler incierta. Medida de confianza < valor específico,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,7,Media de los datos salientes fuera del banderín de alcance nominal,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,8,Desviación típica de los datos salientes fuera del banderín de alcance nominal,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,9,"Reconstrucción de la fluctuación del largo de onda (""chirp"") fallida o banderín de baja calidad",,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,10,Conjunto de datos faltante,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,11,Parámetros de enlace descendente inválidos,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,12,Recuento de iteración del corte azimutal. El corte azimutal no convergió con el número mínimo de iteraciones,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,13,El corte azimutal no convergió con el número mínimo de iteraciones,,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,14,"Medida de confianza de información de fase. El máximo espectral imaginario es inferior a un umbral mínimo, o el desplazamiento de retardo nulo es superior a un umbral mínimo",,,,,Operational
+033044,Información sobre la calidad de los datos de ASAR*,Los 15,Valor faltante,,,,,Operational
+033047,Datos de confianza de las mediciones,1,Error detectado y efectuados intentos de recuperación,,,,,Operational
+033047,Datos de confianza de las mediciones,2,Detectada anomalía en tratamiento de datos a bordo,,,,,Operational
+033047,Datos de confianza de las mediciones,3,Detectada anomalía en proceso de oscilador ultraestable,,,,,Operational
+033047,Datos de confianza de las mediciones,4,Errores detectados por computadora de a bordo,,,,,Operational
+033047,Datos de confianza de las mediciones,5,Control automático de ganancia fuera de intervalo,,,,,Operational
+033047,Datos de confianza de las mediciones,6,Fallo de retardo en la recepción (Rx). Distancia Rx fuera de intervalo,,,,,Operational
+033047,Datos de confianza de las mediciones,7,Identificador de fallo en muestras de forma de onda. Error,,,,,Operational
+033047,Datos de confianza de las mediciones,8,Se ha detectado un error de anomalía en la banda S,,,,,Operational
+033047,Datos de confianza de las mediciones,9-11,Reservados,,,,,Operational
+033047,Datos de confianza de las mediciones,12,Temperatura de luminancia (canal 1) fuera de intervalo,,,,,Operational
+033047,Datos de confianza de las mediciones,13,Temperatura de luminancia (canal 2) fuera de intervalo,,,,,Operational
+033047,Datos de confianza de las mediciones,14,Reservado,,,,,Operational
+033047,Datos de confianza de las mediciones,15,Error de reseguimiento de océano en banda Ku,,,,,Operational
+033047,Datos de confianza de las mediciones,16,Error de reseguimiento de océano en banda S,,,,,Operational
+033047,Datos de confianza de las mediciones,17,Error de reseguimiento de hielo 1 en banda Ku,,,,,Operational
+033047,Datos de confianza de las mediciones,18,Error de reseguimiento de hielo 1 en banda S,,,,,Operational
+033047,Datos de confianza de las mediciones,19,Error de reseguimiento de hielo 2 en banda Ku,,,,,Operational
+033047,Datos de confianza de las mediciones,20,Error de reseguimiento de hielo 2 en banda S,,,,,Operational
+033047,Datos de confianza de las mediciones,21,Error de reseguimiento de hielo marino en banda Ku,,,,,Operational
+033047,Datos de confianza de las mediciones,22,Error de fallo aritmético,,,,,Operational
+033047,Datos de confianza de las mediciones,23,Estado de datos meteorológicos. Ningún mapa,,,,,Operational
+033047,Datos de confianza de las mediciones,24,Estado de datos meteorológicos. 1 mapa,,,,,Operational
+033047,Datos de confianza de las mediciones,25,Estado de datos meteorológicos 2 mapas degradados,,,,,Operational
+033047,Datos de confianza de las mediciones,26,Estado de datos meteorológicos 2 mapas nominales,,,,,Operational
+033047,Datos de confianza de las mediciones,27,"Estado de propagador de órbita para modo de propagación, varios errores",,,,,Operational
+033047,Datos de confianza de las mediciones,28,"Estado de propagador de órbita para modo de propagación, aviso detectado",,,,,Operational
+033047,Datos de confianza de las mediciones,29,"Estado de propagador de órbita para modo de inicialización, varios errores",,,,,Operational
+033047,Datos de confianza de las mediciones,30,"Estado de propagador de órbita para modo de inicialización, aviso detectado",,,,,Operational
+033047,Datos de confianza de las mediciones,Los 31,Valor faltante,,,,,Operational
+033048,Medida de confianza de inversión SAR*,0,Inversión lograda,,,,,Operational
+033048,Medida de confianza de inversión SAR*,1,Inversión no lograda,,,,,Operational
+033048,Medida de confianza de inversión SAR*,2,Reservada,,,,,Operational
+033048,Medida de confianza de inversión SAR*,3,Valor faltante,,,,,Operational
+033049,Medida de confianza de recuperación de viento,0,Dirección externa del viento utilizada durante la inversión,,,,,Operational
+033049,Medida de confianza de recuperación de viento,1,Dirección externa del viento no utilizada durante la inversión,,,,,Operational
+033049,Medida de confianza de recuperación de viento,2,Reservada,,,,,Operational
+033049,Medida de confianza de recuperación de viento,3,Valor faltante,,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,0,Sin evaluar,,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,1,Valor correcto (todas las verificaciones superadas),,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,2,"Probablemente buena, pero valor incoherente con las estadísticas (difiere de la climatología)",,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,3,"Probablemente mala (pico, gradiente, si se han superado otras pruebas)",,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,4,"Valor malo, valor imposible (fuera de escala, inestabilidad vertical, perfil constante)",,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,5,Valor modificado durante el control de calidad,,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,6-7,Reservadas,,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,8,Valor interpolado,,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,9,Adecuado para usos operacionales; precaución; consultar publicaciones para otros usos,,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,10-14,Reservadas,,,,,Operational
+033050,Banderín de calidad mundial del GTSPP,15,Valor faltante,,,,,Operational
+033052,Calidad de reseguimiento de datos oceánicos en banda S,1-20,"Los primeros 20 bits menos significativos corresponden a los 20 valores (uno por cada bloque de datos que contenga 0 = medición válida, 1 = inválida). El bit 1 es aplicable al 20° bloque de datos",,,,,Operational
+033052,Calidad de reseguimiento de datos oceánicos en banda S,Los 21,Valor faltante,,,,,Operational
+033053,Calidad de reseguimiento de datos oceánicos en banda Ku,1-20,"Los primeros 20 bits menos significativos corresponden a los 20 valores (uno por cada bloque de datos que contenga 0 = medición válida, 1 = inválida). El bit 1 es aplicable al 20° bloque de datos",,,,,Operational
+033053,Calidad de reseguimiento de datos oceánicos en banda Ku,Los 21,Valor faltante,,,,,Operational
+033055,Banderín de calidad del vector de viento,1-10,Reservadas,,,,,Operational
+033055,Banderín de calidad del vector de viento,11,Sigma-0 oceánico no disponible para la recuperación de datos de viento,,,,,Operational
+033055,Banderín de calidad del vector de viento,12,Viento de primera aproximación no disponible,,,,,Operational
+033055,Banderín de calidad del vector de viento,13,Modelo de referencia detecta tierra,,,,,Operational
+033055,Banderín de calidad del vector de viento,14,Modelo de referencia detecta hielo,,,,,Operational
+033055,Banderín de calidad del vector de viento,15,Sigma-0 incluye tierra/hielo,,,,,Operational
+033055,Banderín de calidad del vector de viento,16,Sigma-0 incluye tierra contaminada,,,,,Operational
+033055,Banderín de calidad del vector de viento,17,Sigma-0 incluye hielo contaminado,,,,,Operational
+033055,Banderín de calidad del vector de viento,18,Diversidad azimutal insuficiente,,,,,Operational
+033055,Banderín de calidad del vector de viento,19,No se produce inversión,,,,,Operational
+033055,Banderín de calidad del vector de viento,20,Banderín WVC general,,,,,Operational
+033055,Banderín de calidad del vector de viento,21,Se intenta la inversión (se fija banderín),,,,,Operational
+033055,Banderín de calidad del vector de viento,22,Se intenta la precipitación (se fija banderín),,,,,Operational
+033055,Banderín de calidad del vector de viento,23,Se detecta precipitación,,,,,Operational
+033055,Banderín de calidad del vector de viento,Los 24,Valor faltante,,,,,Operational
+033056,Banderín de calidad Sigma-0,1-7,Reservadas,,,,,Operational
+033056,Banderín de calidad Sigma-0,8,Ascendente,,,,,Operational
+033056,Banderín de calidad Sigma-0,9,Polarización VV,,,,,Operational
+033056,Banderín de calidad Sigma-0,10,Parte frontal del vehículo espacial,,,,,Operational
+033056,Banderín de calidad Sigma-0,11,Tierra,,,,,Operational
+033056,Banderín de calidad Sigma-0,12,Sigma-0 insuficiente (resumen),,,,,Operational
+033056,Banderín de calidad Sigma-0,13,Sigma-0 inválido (resumen),,,,,Operational
+033056,Banderín de calidad Sigma-0,14,Temperatura de luminancia insuficiente,,,,,Operational
+033056,Banderín de calidad Sigma-0,15,Temperatura de luminancia inválida,,,,,Operational
+033056,Banderín de calidad Sigma-0,16,Límite tierra-mar,,,,,Operational
+033056,Banderín de calidad Sigma-0,17,Sigma-0 negativo,,,,,Operational
+033056,Banderín de calidad Sigma-0,18-20,Reservadas,,,,,Operational
+033056,Banderín de calidad Sigma-0,21,Hielo,,,,,Operational
+033056,Banderín de calidad Sigma-0,22,Dato faltante a una altitud-longitud dadas para el proceso de marcado de hielo marino para 2 o más días,,,,,Operational
+033056,Banderín de calidad Sigma-0,23,Contaminación hielo-océano,,,,,Operational
+033056,Banderín de calidad Sigma-0,Los 24,Valor faltante,,,,,Operational
+033060,GqisFlagQual– banderín de calidad individual del sistema IASI,0,Bueno,,,,,Operational
+033060,GqisFlagQual– banderín de calidad individual del sistema IASI,1,Malo,,,,,Operational
+033060,GqisFlagQual– banderín de calidad individual del sistema IASI,2,Reservado,,,,,Operational
+033060,GqisFlagQual– banderín de calidad individual del sistema IASI,3,Valor faltante,,,,,Operational
+033066,Banderín de calidad de los AMV*,1-19,Reservados,,,,,Operational
+033066,Banderín de calidad de los AMV*,20,"Buen viento, pero se usa un canal alternativo para seguimiento de características",,,,,Operational
+033066,Banderín de calidad de los AMV*,21,"Buen viento, pero se usa un conjunto alternativo de canales para determinar la altura de la cima de las nubes/asignación de la altura de los AMV",,,,,Operational
+033066,Banderín de calidad de los AMV*,22,Fallos de restricción de la superficie de correlación,,,,,Operational
+033066,Banderín de calidad de los AMV*,23,Reservado,,,,,Operational
+033066,Banderín de calidad de los AMV*,Los 24,Valor faltante,,,,,Operational
+033070,Calidad del contenido total de ozono,0,Toma de datos satisfactoria,,,,,Operational
+033070,Calidad del contenido total de ozono,1,Banderín de información sobre aerosoles insatisfactorio o anomalía de radiancia NOAA-16,,,,,Operational
+033070,Calidad del contenido total de ozono,2,Ángulo del cénit solar superior a 84 grados,,,,,Operational
+033070,Calidad del contenido total de ozono,3,Residuo de 380nm superior al límite,,,,,Operational
+033070,Calidad del contenido total de ozono,4,Incoherencia de los datos de ozono,,,,,Operational
+033070,Calidad del contenido total de ozono,5,Diferencia entre el perfil de ozono y el valor de contenido total de ozono en la etapa 3 superior al umbral (fijado en 25 DU),,,,,Operational
+033070,Calidad del contenido total de ozono,6,La iteración de los datos de ozono en la etapa 1 no converge,,,,,Operational
+033070,Calidad del contenido total de ozono,7,Todo residuo de canal superior a 16 o radiancia insatisfactoria,,,,,Operational
+033070,Calidad del contenido total de ozono,8,Pixels insuficientes - no procesado,,,,,Operational
+033070,Calidad del contenido total de ozono,9,Primera aproximación satisfactoria - utilizados datos de predicción de ozono,,,,,Operational
+033070,Calidad del contenido total de ozono,10,Nube alta en píxel - no procesado,,,,,Operational
+033070,Calidad del contenido total de ozono,11,Recuperación satisfactoria de datos de ozono,,,,,Operational
+033070,Calidad del contenido total de ozono,12,Recuperación no satisfactoria de datos de ozono,,,,,Operational
+033070,Calidad del contenido total de ozono,13-14,Reservadas,,,,,Operational
+033070,Calidad del contenido total de ozono,15,Valor faltante,,,,,Operational
+033071,Calidad del perfil de ozono,0,Toma de datos satisfactoria,,,,,Operational
+033071,Calidad del perfil de ozono,1,Ángulo del cénit solar superior a 84 grados,,,,,Operational
+033071,Calidad del perfil de ozono,2,Diferencia entre la etapa 3 y el perfil de contenido total de ozono total superior al límite (25 du),,,,,Operational
+033071,Calidad del perfil de ozono,3,"Residuo final promediado de las longitudes de onda utilizadas en la toma de datos, superior al umbral",,,,,Operational
+033071,Calidad del perfil de ozono,4,Residuo final superior al triple del error apriorístico,,,,,Operational
+033071,Calidad del perfil de ozono,5,"Diferencia entre el valor tomado y el valor apriorístico, superior al triple del error apriorístico",,,,,Operational
+033071,Calidad del perfil de ozono,6,Solución no convergente,,,,,Operational
+033071,Calidad del perfil de ozono,7,Anomalía del perfil en niveles superiores o anomalía de luz ficticia,,,,,Operational
+033071,Calidad del perfil de ozono,8,"Residuo inicial superior a 18,0 unidades de valor N",,,,,Operational
+033071,Calidad del perfil de ozono,9-14,Reservadas,,,,,Operational
+033071,Calidad del perfil de ozono,15,Valor faltante,,,,,Operational
+033072,Error en ozono,0,Toma de datos satisfactoria,,,,,Operational
+033072,Error en ozono,1,Reflectividad fuera de dial,,,,,Operational
+033072,Error en ozono,2,Píxeles más grandes (número de píxel intertrayectorias inferior a 32) o error de retro-barrido,,,,,Operational
+033072,Error en ozono,3,Ángulo del cénit solar superior a 88 grados,,,,,Operational
+033072,Error en ozono,4,Latitud/longitud fuera de dial,,,,,Operational
+033072,Error en ozono,5,Ángulo cenital de visión o ángulo cenital solar fuera de dial,,,,,Operational
+033072,Error en ozono,6,Fallo general de proceso en la etapa 1,,,,,Operational
+033072,Error en ozono,7,Primera conjetura del valor de ozono fuera de dial,,,,,Operational
+033072,Error en ozono,8,Demasiadas iteraciones (más de 8),,,,,Operational
+033072,Error en ozono,9,Fallo del cálculo del residuo en la etapa 1,,,,,Operational
+033072,Error en ozono,10,Fallo general de proceso en la etapa 2,,,,,Operational
+033072,Error en ozono,11,Primera conjetura del valor del perfil de ozono fuera de dial,,,,,Operational
+033072,Error en ozono,12,Valor de ozono en la etapa 2 fuera de dial,,,,,Operational
+033072,Error en ozono,13,Fallo del cálculo del residuo en la etapa 2,,,,,Operational
+033072,Error en ozono,14,Fallo general de proceso en la etapa 3,,,,,Operational
+033072,Error en ozono,15,Alerta sobre la exactitud de la corrección de la polarización,,,,,Operational
+033072,Error en ozono,16,Radiancia o irradiancia inferior o igual a 0,,,,,Operational
+033072,Error en ozono,17-30,Reservadas,,,,,Operational
+033072,Error en ozono,31,Valor faltante,,,,,Operational
+033075,Banderines de calidad del nivel de exploración,1,"Se ha detectado la falta de datos en el registro de datos en bruto (es decir, la falta de exploración (es) antes de la exploración actual)",,,,,Operational
+033075,Banderines de calidad del nivel de exploración,2,"El tiempo registrado no sigue la secuencia (es decir, la hora de inicio de la exploración queda fuera de la secuencia)",,,,,Operational
+033075,Banderines de calidad del nivel de exploración,3,No puede actualizarse el cálculo lamda (véase la Nota 1),,,"Notas: 1) Se fija en 1 si el cálculo de la longitud de onda del láser es inválido debido a un error sistemático del diodo láser y/o a que las mediciones de temperatura del diodo láser no se ajustan a los intervalos permitidos que se han predeterminado. Estos intervalos son ajustables. En este caso, se utilizará 1 bit por barrido para el cálculo lamda. 2) Estas temperaturas se utilizan para calcular la contribución “ambiental"" a las radiancias del blanco de calibración interna. Cuando este bit se fija en 1, las temperaturas inválidas se reemplazan por los valores de temperatura validados del blanco de calibración interna.",,Operational
+033075,Banderines de calidad del nivel de exploración,4,"Las temperaturas medidas de todo componente de un instrumento (por ejemplo, un divisor de haz, un espejo de exploración, un deflector de exploración, etc.) quedan fuera de los intervalos permitidos (véase la Nota 2)",,,"Notas: 1) Se fija en 1 si el cálculo de la longitud de onda del láser es inválido debido a un error sistemático del diodo láser y/o a que las mediciones de temperatura del diodo láser no se ajustan a los intervalos permitidos que se han predeterminado. Estos intervalos son ajustables. En este caso, se utilizará 1 bit por barrido para el cálculo lamda. 2) Estas temperaturas se utilizan para calcular la contribución “ambiental"" a las radiancias del blanco de calibración interna. Cuando este bit se fija en 1, las temperaturas inválidas se reemplazan por los valores de temperatura validados del blanco de calibración interna.",,Operational
+033075,Banderines de calidad del nivel de exploración,5,Al menos una de las temperaturas controladas de los instrumentos ha variado más allá de un valor específico de tolerancia,,,,,Operational
+033075,Banderines de calidad del nivel de exploración,6-12,Reservados,,,,,Operational
+033075,Banderines de calidad del nivel de exploración,Los 13,Valor faltante,,,,,Operational
+033076,Banderines de calidad de la calibración,1,Interferencia lunar en la primera visión del espacio lejano (véase la Nota),,,Nota: Se fija en 1 si al menos un espectro de la media móvil para el espacio lejano se considera no válido debido a una interferencia lunar.,,Operational
+033076,Banderines de calidad de la calibración,2,Interferencia lunar en la segunda visión del espacio lejano (véase la Nota),,,Nota: Se fija en 1 si al menos un espectro de la media móvil para el espacio lejano se considera no válido debido a una interferencia lunar.,,Operational
+033076,Banderines de calidad de la calibración,3-8,Reservados,,,,,Operational
+033076,Banderines de calidad de la calibración,Los 9,Valor faltante,,,,,Operational
+033077,Banderines de calidad del campo de visión,1,Calidad degradada del registro de datos científicos,,,,,Operational
+033077,Banderines de calidad del campo de visión,2,Calidad inválida del registro de datos científicos (véase la nota 1),,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,3,Información inválida sobre el geoposicionamiento del registro de datos científicos,,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,4,Calibración radiométrica degradada,,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,5,Calibración radiométrica inválida (véase la nota 2),,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,6,Calibración espectral degradada,,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,7,Calibración espectral inválida (véase la nota 3),,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,8,Error en el cálculo de franjas detectado y corregido (véase la nota 4),,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,9,Indicador día/noche (véase la nota 5),,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,10,Datos inválidos del registro de datos en bruto (véase la nota 6),,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,11,Error significativo en el cálculo de franjas detectado (véase la nota 7),,,"Notas: 1) La calidad del registro de datos científicos es inválida si falla el reajuste del bit (véase el bit 12) o si se detectan errores en el cálculo de franjas (véase el bit 11), datos inválidos en el registro de datos en bruto (véase el bit 10), calibraciones radiométricas inválidas (véase el bit 5) o calibraciones espectrales inválidas (véase el bit 7). 2) La calibración radiométrica es inválida si no se realiza o si se realiza con datos de calibración inválidos (por ejemplo, cuando el tamaño de la ventana de espacio lejano es igual a 0). 3) La calibración espectral es inválida si se detecta y corrige el error en el cálculo de franjas (véase el bit 8), si la calibración de neón es dudosa y el cálculo lamda no puede actualizarse (véanse los ""Banderines de calidad del nivel de exploración"" (0 33 075) - bit 3). 4) Se fija en 0 si no se detecta ningún error en el cálculo de franjas (véase el bit 11) o si se detecta un error de cálculo pero no se corrige. 5) Se fija en 0 si es de día (ángulo cenital solar < 90°). Se fija en 1 si es de noche (ángulo cenital solar ≥90°). 6) Este banderín indica que el instrumento presenta errores de funcionamiento y que el/los interferograma(s) asociado(s) queda (n) excluido(s) del procesamiento del registro de datos científicos. 7) Este banderín indica que no se ha detectado un número significativo de franjas, desplazando la diferencia de trayecto cero (ZPD) del interferograma fuera de una ventana controlada por el instrumento, y que el interferograma queda excluido del procesamiento del registro de datos científicos.",,Operational
+033077,Banderines de calidad del campo de visión,12,Falla de reajuste del bit,,,,,Operational
+033077,Banderines de calidad del campo de visión,13-18,Reservados,,,,,Operational
+033077,Banderines de calidad del campo de visión,Los 19,Valor faltante,,,,,Operational
+033078,Calidad del geoposicionamiento,0,Nominal - datos de altitud y efemérides disponibles,,,,,Operational
+033078,Calidad del geoposicionamiento,1,"Falta, como máximo, una pequeña laguna de datos de altitud y efemérides",,,,,Operational
+033078,Calidad del geoposicionamiento,2,"Falta más que una pequeña laguna de datos de altitud y efemérides, pero no más que una separación de granulado",,,,,Operational
+033078,Calidad del geoposicionamiento,3,Falta más de una separación de granulado de datos de altitud y efemérides,,,,,Operational
+033078,Calidad del geoposicionamiento,4-14,Reservadas,,,,,Operational
+033078,Calidad del geoposicionamiento,15,Valor faltante,,,,,Operational
+033079,Banderines de calidad del nivel granulado,1-5,Reservados,,,,,Operational
+033079,Banderines de calidad del nivel granulado,6,Los números 1 a 7 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,7,Los números 8 a 15 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,8,Los números 16 a 23 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,9,Los números 24 a 31 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,10,Los números 32 a 39 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,11,Los números 40 a 47 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,12,Los números 48 a 55 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,13,Los números 56 a 63 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,14,Los números 64 a 70 no superaron la prueba de buen funcionamiento,,,,,Operational
+033079,Banderines de calidad del nivel granulado,15,Corrección cuadrática aplicada a la función de transferencia radiométrica para la corrección no lineal,,,,,Operational
+033079,Banderines de calidad del nivel granulado,Todo 16,Valor faltante,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,1-6,Reservados,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,7,La condición dividir por cero o el lazo de cálculo no convergieron en la PRT* de la banda K/Ka y V (KAV),,,,,Operational
+033080,Banderines de calidad del nivel de exploración,8,La condición dividir por cero o el lazo de cálculo no convergieron en la PRT de la banda WG,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,9,"La condición dividir por cero o el lazo de cálculo no convergieron en el estante receptor de la banda K/Ka, V, W, G, respecto del cálculo de la temperatura K PRT",,,,,Operational
+033080,Banderines de calidad del nivel de exploración,10,Condición fuera de la gama de valores para la PRT de la banda K/Ka y V,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,11,Condición fuera de la gama de valores para la PRT de la banda WG,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,12,Discordancia de temperaturas en PRT KAV,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,13,Discordancia de temperaturas en PRT WG,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,14,Error en la secuencia temporal,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,15,Datos faltantes: falta de exploración(es) antes de la exploración actual,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,16,Suficiencia de la PRT KAV: disponibilidad insuficiente de datos de PRT KAV,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,17,Suficiencia de la PRT de WG: disponibilidad insuficiente de datos de PRT WG,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,18,Error en la orientación de la antena hacia el espacio,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,19,Error en la orientación de la antena hacia el cuerpo negro,,,,,Operational
+033080,Banderines de calidad del nivel de exploración,Todo 20,Valor faltante,,,,,Operational
+033081,Banderines de calidad de los datos del canal,1-2,Reservados,,,,,Operational
+033081,Banderines de calidad de los datos del canal,3,Visión de espacio de la luna,,,,,Operational
+033081,Banderines de calidad de los datos del canal,4,Error de ganancia: el cálculo del cuerpo negro es inferior o igual al cálculo de visión de espacio más elevado en una exploración,,,,,Operational
+033081,Banderines de calidad de los datos del canal,5,Calibración con menos de las muestras preferidas,,,,,Operational
+033081,Banderines de calidad de los datos del canal,6,Verificación de la suficiencia de datos de visión de espacio: disponibilidad insuficiente de muestras de visión de espacio,,,,,Operational
+033081,Banderines de calidad de los datos del canal,7,Verificación de la suficiencia de datos de visión del cuerpo negro: disponibilidad insuficiente de muestras de visión del cuerpo negro,,,,,Operational
+033081,Banderines de calidad de los datos del canal,8,Condición fuera de la gama de valores para la visión de espacio,,,,,Operational
+033081,Banderines de calidad de los datos del canal,9,Condición fuera de la gama de valores para la visión del cuerpo negro,,,,,Operational
+033081,Banderines de calidad de los datos del canal,10,Incoherencia de la visión de espacio,,,,,Operational
+033081,Banderines de calidad de los datos del canal,11,Incoherencia de la visión del cuerpo negro,,,,,Operational
+033081,Banderines de calidad de los datos del canal,Todo 12,Valor faltante,,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,1-5,Reservados,,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,6,Dentro de la anomalía del Atlántico sur,,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,7,Datos de entrada no válidos (indica que cualquiera de los datos sobre las efemérides o la posición de las aeronaves no son válidos),,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,8,"Puntería defectuosa (indica que la línea de visión del sensor no cruza el geoide, está cerca del limbo, tiene ángulos sensores no válidos u otra característica similar)",,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,9,Terreno defectuoso (indica que el algoritmo no pudo obtener un valor de terreno válido),,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,10,Ángulos solares no válidos,,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,11,"Falta, como máximo, una pequeña laguna de datos de altitud y efemérides",,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,12,"Falta más de una pequeña laguna de datos de altitud y efemérides, pero no más de una separación de granulado",,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,13,Falta más de una separación de granulado de datos de altitud y efemérides,,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,14,El número de valores de impulso del codificador por tiempo delta no es el previsto,,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,15,Eclipse solar durante exploración hacia la Tierra,,,,,Operational
+033082,Banderines de calidad del geoposicionamiento,Todo 16,Valor faltante,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,1-5,Reservados,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,6,Píxel afectado por interferencia de radiofrecuencia,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,7,"Calidad de calibración deficiente debido a desviaciones de la visión de espacio, desviaciones de visión según calibración a bordo (OBC), etc. o utilización de una visión de calibración anterior",,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,8,Píxel saturado,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,9,Datos faltantes: no se dispone de los datos necesarios para procesar la calibración,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,10,Radiancia de píxel calibrada fuera de la gama de valores,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,11,Reflectancia de píxel calibrada o temperatura efectiva del cuerpo negro fuera de la gama de valores,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,12,La luna ha corrompido la visión de espacio,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,13,Las datos de exploración están ausentes (no hay datos válidos),,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,14,La calidad de esta línea de exploración es reducida. El valor lo determinan el número de pasos combinados necesarios para encontrar un elemento sustitutivo de los datos de origen de termistor o calibración,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,15,Sensor defectuoso,,,,,Operational
+033083,Banderines de calidad de los datos de radiancia,Todo 16,Valor faltante,,,,,Operational
+033084,Banderines de calidad del nivel del pixel,1-5,Reservados,,,,,Operational
+033084,Banderines de calidad del nivel del pixel,6,TSM global fuera del intervalo de validación,,,,,Operational
+033084,Banderines de calidad del nivel del pixel,7,TSM somera fuera del intervalo de validación,,,,,Operational
+033084,Banderines de calidad del nivel del pixel,8,"Ángulo cenital del sensor > 40 grados (el píxel no está situado a menos de 40 grados del nadir, por lo que no es de alta calidad)",,,,,Operational
+033084,Banderines de calidad del nivel del pixel,9,"Degradación: tamaño de la celda horizontal > 1,3 km (tamaño de la celda horizontal > 1,3 km, anchura de la franja >1 700 km, ángulo cenital del sensor > 50,3 grados)",,,,,Operational
+033084,Banderines de calidad del nivel del pixel,10,Exclusión: No hay océano en el pixel,,,,,Operational
+033084,Banderines de calidad del nivel del pixel,11,"Degradación: espesor óptico del aerosol > 0,6 (espesor óptico del aerosol en la celda horizontal > 0,6 a lo largo del trayecto oblicuo (espesor óptico del aerosol @550 nm))",,,,,Operational
+033084,Banderines de calidad del nivel del pixel,12,"Exclusión: Espesor óptico del aerosol > 1,0 (espesor óptico del aerosol en la celda horizontal > 1,0 a lo largo del trayecto oblicuo (espesor óptico del aerosol @550 nm))",,,,,Operational
+033084,Banderines de calidad del nivel del pixel,13,Presencia de reflexión especular del Sol en el píxel,,,,,Operational
+033084,Banderines de calidad del nivel del pixel,14,Rebasado el umbral de concentración de hielo (TSM no recuperada debido a que la concentración de hielo rebasa el umbral en las especificaciones del sistema),,,,,Operational
+033084,Banderines de calidad del nivel del pixel,15,Cirro de escaso grosor detectado en el píxel,,,,,Operational
+033084,Banderines de calidad del nivel del pixel,Los 16,Valor faltante,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,1-3,Reservados,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,4,El exponente de Angstrom está fuera del intervalo de especificación del sistema,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,5,"Excluido, el exponente de Angstrom para el espesor óptico de aerosol a 550 nm < 0,15",,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,6,"Superficie brillante en célula (cuando se produce sobre tierra), o aguas poco profundas o turbias en célula (cuando se produce sobre el océano)",,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,7,"Sol bajo, excluido, ángulo cenital del sol > 80 grados",,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,8,"Sol bajo, degradado, 65 grados < ángulo cenital del sol ≤ 80 grados",,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,9,Incendio detectado en célula,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,10,Nieve/hielo en célula,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,11,Sombra de la nube en célula,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,12,Destello solar en célula,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,13,Mal registro de datos científicos presentes en célula horizontal (calidad del espesor óptico de aerosol/parámetro del tamaño de la partícula de aerosol degradado o espesor óptico de aerosol/parámetro del tamaño de la partícula de aerosol no recuperado debido a un mal registro de datos científicos en célula horizontal),,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,14,Contaminación por cirrus en célula,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,15,Nube adyacente a célula,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,16,Contaminación de la nube en célula,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,17,El espesor óptico de aerosol está fuera del intervalo de especificación del sistema,,,,,Operational
+033085,Banderines de calidad del espesor óptico de aerosol,Todo 18,Valor faltante,,,,,Operational
+033086,Recuperación de la calidad del nivel del pixel,0,No recuperada,,,,,Operational
+033086,Recuperación de la calidad del nivel del pixel,1,Excluida,,,,,Operational
+033086,Recuperación de la calidad del nivel del pixel,2,Degradada,,,,,Operational
+033086,Recuperación de la calidad del nivel del pixel,3,Alta calidad,,,,,Operational
+033086,Recuperación de la calidad del nivel del pixel,4-6,Reservadas,,,,,Operational
+033086,Recuperación de la calidad del nivel del pixel,7,Valor faltante,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),0,Inferior o igual a 10%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),1,Superior a 10% pero inferior o igual a 20%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),2,Superior a 20% pero inferior o igual a 30%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),3,Superior a 30% pero inferior o igual a 40%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),4,Superior a 40% pero inferior o igual a 50%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),5,Superior a 50% pero inferior o igual a 60%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),6,Superior a 60% pero inferior o igual a 70%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),7,Superior a 70% pero inferior o igual a 80%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),8,Superior a 80%,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),9-14,Reservadas,,,,,Operational
+033087,Alcance del satélite en la anomalía del Atlántico sur (basado en datos climatológicos),15,Valor faltante,,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,1-5,Reservados,,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,6,Reflectividad de la superficie fuera del intervalo,,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,7,Umbral residual excedido,,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,8,Límite del índice de aerosoles excedido,,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,9,"Eclipse solar presente (toda o una parte del IFOV se ve afectado por un eclipse solar, la sombra de la Tierra o la penumbra)",,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,10,Destello solar presente en el IFOV,,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,11,Superficie de nieve o de hielo en el IFOV,,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,12,Ángulo cenital del sol en condición excluida (noche) (ángulo cenital del sol ≥ 88 grados),,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,13,Ángulo cenital del sol en condición degradada (80 grados ≤ ángulo cenital del sol < 88 grados),,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,14,Índice SO2 > 6 DU (condición degradada),,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,15,Los residuos no son coherentes (indica si los residuos de las 22 longitudes de onda son coherentes),,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,16,La selección del triplete 03 no es coherente en el triplete de ozono recuperado (coherencia),,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,17,La calidad de los datos entrantes no es buena,,,,,Operational
+033088,Banderines de calidad de la columna total de ozono,Todo 18,Valor faltante,,,,,Operational
+033092,Banderín de calidad oceánica de banda específica,1,Altímetro en funcionamiento,,,,,Operational
+033092,Banderín de calidad oceánica de banda específica,2,Radiómetro de microondas en funcionamiento,,,,,Operational
+033092,Banderín de calidad oceánica de banda específica,3-8,Reservadas,,,,,Operational
+033092,Banderín de calidad oceánica de banda específica,Todos los 9,Valor faltante,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,1,La calidad del retraso del trayecto se considera insuficiente,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,2,Se usan satélites GALILEO,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,3,Se usan satélites GLONASS,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,4,Se usan satélites GPS,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,5,Se usan satélites BeiDou,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,6-8,Reservados para nuevo GNSS,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,9,Se aplican datos meteorológicos,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,10,Se aplica corrección por carga de presión atmosférica,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,11,Se aplica efecto oceánico indirecto,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,12,Se aplican correcciones ionosféricas de segundo orden,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,13,Se aplican correcciones ionosféricas de tercer orden,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,14,Solución PPP,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,15,Gradientes aplicados a retraso de trayecto,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,16,Correcciones multitrayecto aplicadas a retraso de trayecto,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,17,Residuos aplicados a retraso de trayecto,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,18,Proceso de datos de calidad sobre clima,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,19,Reproceso,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,20,Postproceso,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,21,Proceso de datos en tiempo casi real,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,22,Proceso de datos en tiempo real,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,23-30,Reservado,,,,,Operational
+033093,Banderines de calidad ampliados para datos del GNSS terrestres,Los 31,Valor faltante,,,,,Operational
