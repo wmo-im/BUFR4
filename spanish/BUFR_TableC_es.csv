@@ -1,0 +1,29 @@
+﻿FXY,OperatorName_es,OperationDefinition_es,Note_es,noteIDs,Status
+201YYY,Cambio de anchura de datos,"Añádase (YYY-128) bits a la anchura de datos dada para cada elemento en la Tabla B, distinto de las tablas de datos (caracteres) según el AI 5 CCITT, de cifrado o de banderines",,,Operational
+202YYY,Cambio de escala,"Añádase (YYY-128) a la escala que se da para cada elemento de datos de la Tabla B, distinta de las tablas de datos (caracteres), de cifrado o de banderines de CCITT IA5",,,Operational
+203YYY,Cambio de valores de referencia,"Los descriptores subsiguientes de elementos determinan los nuevos valores para las entradas correspondientes de la Tabla B. Cada nuevo valor de referencia se representa por YYY bits en la Sección de datos. Se lleva a término la definición de los nuevos valores de referencia mediante el cifrado de este operador, esto es YYY = 255. Los valores negativos de referencia se representarán mediante un entero positivo y el bit que está situado más a la izquierda (bit 1) fijado en 1.",,,Operational
+204YYY,Adición de campo relacionado,Antepóngase a cada elemento de datos YYY bits de información. De este modo se pone en relación el campo de datos (por ejemplo del control de la calidad) de YYY bits con cada elemento de datos,,,Operational
+205YYY,Significado del carácter,Los caracteres YYY (AI 5 CCITT) se incluyen como campo de datos de YYY x 8 bits de longitud.,,,Operational
+206YYY,Significado de la anchura de datos para el decriptor local que sigue inmediatamenteYYY bits de datos descritos por el descriptor que sigue inmediatamente,,,,Operational
+207YYY,"Aumento de escala, valor de referencia y anchura de datos","Para los elementos de la Tabla B que no son CCITT IA5 (datos en caracteres), tablas de cifrado, o tablas de banderines: 1. Añadir YYY al factor de escala existente 2. Multiplicar el valor de referencia existente por 10YYY 3. Calcular ((10 x YYY) + 2) ÷ 3, ignorar el resto si es una fracción, y sumar el resultado a la anchura de bits existente.",,,Operational
+208YYY,Cambio de anchura del campo CCITT IA5,Los caracteres YYY del Alfabeto Internacional N° 5 del CCITT (que representa YYY x 8 bits de longitud) sustituyen la anchura de datos especificada para cada elemento CCITT IA5 en la Tabla B.,,,Operational
+221YYY,Datos no presentes,"Los valores de datos presentes en la Sección 4 (Sección de datos) correspondientes a los descriptores YYY siguientes se limitarán a los datos de las Clases 01 a 09, y de la Clase 31",,,Operational
+222000,Sigue información sobre la calidad,Los valores de elementos de Clase 33 que siguen se refieren a los datos definidos por el mapa de bits de datos.,,,Operational
+223000,Valores sustituidos,,,,Operational
+223255,Marcador de valores sustituidos,,,,Operational
+224000,Siguen valores estadísticos de primer orden,,,,Operational
+224255,Marcador de valores estadísticos de primer orden,,,,Operational
+225000,Siguen valores estadís- ticos de primer orden,,,,Operational
+225255,Marcador de valores estadísticos de diferencia,,,,Operational
+232000,Siguen valores sustituidos/retenidos,,,,Operational
+232255,Marcador de valor sustituido/retenido,,,,Operational
+235000,"Cancelación de referencia de datos hacia atrás",,,,Operational
+236000,Definición de mapa de bits de datos,Este operador define el mapa de bits de datos que sigue para posible reutilización; solo puede definirse un mapa de bits de datos entre este operador y el operador cancelación de utilización del mapa de bits de datos definido.,,,Operational
+237000,Utilización del mapa de bits de datos definido,Este operador hace que se utilice de nuevo el mapa de bits de datos definido.,,,Operational
+237255,Cancelación de la utilización del mapa de bits de datos definido,Este operador cancela la reutilización del mapa de bits de datos definido.,,,Operational
+241000,Definición de suceso,Este operador indica el comienzo de la definición de un suceso.,(véase la nota 19),,Operational
+241255,Cancelación de la definición de suceso,Este operador indica la conclusión de la definición de un suceso que había comenzado mediante el operador 2 41 000 precedente.,,,Operational
+242000,Definición de suceso condicionante,Este operador indica el comienzo de la definición de un suceso condicionante.,(véase la nota 19),,Operational
+242255,Cancelación de la definición de suceso condicionante,Este operador indica la conclusión de la definición de un suceso condicionante que había comenzado mediante el operador 2 42 000 precedente.,,,Operational
+243000,Siguen valores de predicción categórica,Los valores que siguen son valores de predicción categórica.,(véase la nota 20),,Operational
+243255,Sigue cancelación de valores de predicción categórica,Este operador indica la conclusión de la definición de valores de predicción categórica que había comenzado mediante el operador 2 43 000 precedente.,,,Operational
