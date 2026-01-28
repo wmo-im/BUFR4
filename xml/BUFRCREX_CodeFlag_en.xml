@@ -13521,7 +13521,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008025</FXY>
     <ElementName_en>Time difference qualifier</ElementName_en>
-    <CodeFigure>3-4</CodeFigure>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Local Meteorological Time Zone minus Universal Time Coordinated (LMTZ-UTC)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008025</FXY>
+    <ElementName_en>Time difference qualifier</ElementName_en>
+    <CodeFigure>4</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -13620,6 +13627,271 @@
     <FXY>008027</FXY>
     <ElementName_en>Type of sea-surface height anomaly measurement</ElementName_en>
     <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Time series</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Time averaged</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>4</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Accumulated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Forecast</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Forecast time series</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Forecast time averaged</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>Forecast accumulated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Ensemble mean</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>3</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Ensemble mean time series</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Ensemble mean time averaged</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Ensemble mean accumulated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Ensemble mean forecast</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Ensemble mean forecast time series</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Ensemble mean forecast time averaged</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Ensemble mean forecast accumulated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>Analysis</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>Start of phenomenon</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>Radiosonde launch time</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>Start of orbit</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>End of orbit</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>Time of ascending node</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>Time of occurrence of wind shift</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>Monitoring period</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>Agreed time limit for report reception</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Nominal reporting time</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>Time of last known position</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>First guess</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>Start of scan</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>End of scan or time of ending</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>Time of occurrence</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>31-39</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>40</CodeFigure>
+    <EntryName_en>Attribution Day In Local Meteorological Time Zone (LMTZ)</EntryName_en>
+    <Note_en>(see Note 4)</Note_en>
+    <noteIDs>103</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>41</CodeFigure>
+    <EntryName_en>Period over which the daily measurement is made (LMTZ)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>42</CodeFigure>
+    <EntryName_en>Time at which the daily and instantaneous measurement is made (LMTZ)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>43-1022</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>43-1023</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
