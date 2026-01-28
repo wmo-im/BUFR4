@@ -1,54 +1,54 @@
-ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
-10,Ubicación sin coordenadas (vertical),010001,Altura del terreno,m,0,-400,15,m,0,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010002,Altura,m,-1,-40,16,m,-1,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010003,Geopotencial,m² s-2,-1,-400,17,m² s-2,-1,6,,,Operational
-10,Ubicación sin coordenadas (vertical),010004,Presión,Pa,-1,0,14,Pa,-1,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010007,Altura,m,0,-1000,17,m,0,6,,,Operational
-10,Ubicación sin coordenadas (vertical),010008,Geopotencial,m² s-2,0,-10000,20,m² s-2,0,7,,,Operational
-10,Ubicación sin coordenadas (vertical),010009,Altura geopotencial,gpm,0,-1000,17,gpm,0,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010010,Presión mínima reducida al nivel medio del mar,Pa,-1,0,14,Pa,-1,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010011,Presión máxima reducida al nivel medio del mar,Pa,-1,0,14,Pa,-1,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010031,Distancia desde el centro de la Tierra en dirección al polo Norte (véanse las notas 2 y 3),m,2,-1073741824,31,m,2,10,,,Operational
-10,Ubicación sin coordenadas (vertical),010032,Distancia del satélite al centro de la Tierra,m,1,0,27,m,2,9,,,Operational
-10,Ubicación sin coordenadas (vertical),010033,Altitud (plataforma a elipsoide),m,1,0,27,m,2,9,,,Operational
-10,Ubicación sin coordenadas (vertical),010034,Radio de la Tierra,m,1,0,27,m,2,9,,,Operational
-10,Ubicación sin coordenadas (vertical),010035,Radio local de curvatura de la Tierra,m,1,62000000,22,m,1,8,,,Operational
-10,Ubicación sin coordenadas (vertical),010036,Ondulación del geoide,m,2,-15000,15,m,2,6,(véase la nota 4),,Operational
-10,Ubicación sin coordenadas (vertical),010038,Altura máxima de carga en cubierta sobre la línea de carga máxima de verano,m,0,0,6,m,0,2,,,Operational
-10,Ubicación sin coordenadas (vertical),010039,Desviación del nivel de referencia (línea de carga máxima de verano) a partir del nivel del mar real,m,0,-32,6,m,0,3,,,Operational
-10,Ubicación sin coordenadas (vertical),010040,Recuperación de datos sobre el número de capas,Numérica,0,0,10,Numérica,0,4,,,Operational
-10,Ubicación sin coordenadas (vertical),010050,Desviación típica de la altitud,m,2,0,16,m,2,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010051,Presión reducida al nivel medio del mar,Pa,-1,0,14,Pa,-1,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010052,Ajuste del altímetro (QNH),Pa,-1,0,14,Pa,-1,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010053,Altitud del Sistema mundial de satélites para la navegación,m,0,-1000,17,m,0,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010060,Cambio de presión,Pa,-1,-1024,11,Pa,-1,4,,,Operational
-10,Ubicación sin coordenadas (vertical),010061,Cambio de presión en 3 horas,Pa,-1,-500,10,Pa,-1,4,,,Operational
-10,Ubicación sin coordenadas (vertical),010062,Cambio de presión en 24 horas,Pa,-1,-1000,11,Pa,-1,4,,,Operational
-10,Ubicación sin coordenadas (vertical),010063,Característica de la tendencia barométrica,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
-10,Ubicación sin coordenadas (vertical),010064,Nivel de crucero SIGMET,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
-10,Ubicación sin coordenadas (vertical),010070,Altitud de la aeronave indicada,m,0,-400,16,m,0,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010071,Resolución vertical,m,0,0,14,m,0,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010079,Ángulo desde el nadir del satélite según los datos de la plataforma,°,4,0,16,°,4,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010080,Ángulo de visión cenital,°,2,-9000,15,°,2,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010081,Altitud del centro de gravedad sobre el elipsoide de referencia,m,3,0,31,m,3,10,,,Operational
-10,Ubicación sin coordenadas (vertical),010082,Tasa de altitud instantánea,m s-1,3,-65536,17,m s-1,3,6,,,Operational
-10,Ubicación sin coordenadas (vertical),010083,Ángulo de nadir al cuadrado externo del satélite mediante datos de plataforma,grado2,2,0,16,grado2,2,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010084,Ángulo de nadir al cuadrado externo del satélite mediante datos de forma de onda,grado2,2,0,16,grado2,2,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010085,Altura media de la superficie del mar,m,3,-131072,18,m,3,6,,,Operational
-10,Ubicación sin coordenadas (vertical),010086,Altura del geoide,m,3,-131072,18,m,3,6,,,Operational
-10,Ubicación sin coordenadas (vertical),010087,Profundidad del océano/elevación de la tierra,m,1,-131072,18,m,1,6,,,Operational
-10,Ubicación sin coordenadas (vertical),010088,Altura total de la marea oceánica geocéntrica (solución 1),m,3,-32768,16,m,3,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010089,Altura total de la marea oceánica geocéntrica (solución 2),m,3,-32768,16,m,3,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010090,Altura de la marea de período largo,m,3,-32768,16,m,3,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010091,Altura de la carga de la marea,m,3,-32768,16,m,3,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010092,Altura de la marea en tierra sólida,m,3,-32768,16,m,3,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010093,Altura de la marea en polo geocéntrico,m,3,-32768,16,m,3,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010095,Altura de la atmósfera utilizada,m,3,0,16,m,0,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010096,Topografía dinámica media,m,3,-131072,18,m,3,6,,,Operational
-10,Ubicación sin coordenadas (vertical),010097,Altura media de la superficie del mar mediante altímetro únicamente,m,3,-131072,18,m,3,6,,,Operational
-10,Ubicación sin coordenadas (vertical),010098,Altura de la carga de la marea - marea oceánica geocéntrica (solución 1),m,4,-2000,12,m,4,4,,,Operational
-10,Ubicación sin coordenadas (vertical),010099,Altura de la carga de la marea - marea oceánica geocéntrica (solución 2),m,4,-2000,12,m,4,4,,,Operational
-10,Ubicación sin coordenadas (vertical),010100,Altura de la marea de período largo no en equilibrio,m,4,-2000,12,m,4,4,,,Operational
-10,Ubicación sin coordenadas (vertical),010101,Cuadrado del ángulo del satélite respecto del nadir según datos de la forma de onda,grado2,2,-32768,16,grado2,2,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010102,Anomalía de la altura de la superficie del mar,m,3,-32768,16,m,3,5,,,Operational
-10,Ubicación sin coordenadas (vertical),010103,Exactitud de la topografía dinámica media,m,3,-131072,18,m,3,6,,,Operational
+Id,ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+bufr4/0/10/001,10,Ubicación sin coordenadas (vertical),010001,Altura del terreno,m,0,-400,15,m,0,5,,,Operational
+bufr4/0/10/002,10,Ubicación sin coordenadas (vertical),010002,Altura,m,-1,-40,16,m,-1,5,,,Operational
+bufr4/0/10/003,10,Ubicación sin coordenadas (vertical),010003,Geopotencial,m² s-2,-1,-400,17,m² s-2,-1,6,,,Operational
+bufr4/0/10/004,10,Ubicación sin coordenadas (vertical),010004,Presión,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/10/007,10,Ubicación sin coordenadas (vertical),010007,Altura,m,0,-1000,17,m,0,6,,,Operational
+bufr4/0/10/008,10,Ubicación sin coordenadas (vertical),010008,Geopotencial,m² s-2,0,-10000,20,m² s-2,0,7,,,Operational
+bufr4/0/10/009,10,Ubicación sin coordenadas (vertical),010009,Altura geopotencial,gpm,0,-1000,17,gpm,0,5,,,Operational
+bufr4/0/10/010,10,Ubicación sin coordenadas (vertical),010010,Presión mínima reducida al nivel medio del mar,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/10/011,10,Ubicación sin coordenadas (vertical),010011,Presión máxima reducida al nivel medio del mar,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/10/031,10,Ubicación sin coordenadas (vertical),010031,Distancia desde el centro de la Tierra en dirección al polo Norte (véanse las notas 2 y 3),m,2,-1073741824,31,m,2,10,,,Operational
+bufr4/0/10/032,10,Ubicación sin coordenadas (vertical),010032,Distancia del satélite al centro de la Tierra,m,1,0,27,m,2,9,,,Operational
+bufr4/0/10/033,10,Ubicación sin coordenadas (vertical),010033,Altitud (plataforma a elipsoide),m,1,0,27,m,2,9,,,Operational
+bufr4/0/10/034,10,Ubicación sin coordenadas (vertical),010034,Radio de la Tierra,m,1,0,27,m,2,9,,,Operational
+bufr4/0/10/035,10,Ubicación sin coordenadas (vertical),010035,Radio local de curvatura de la Tierra,m,1,62000000,22,m,1,8,,,Operational
+bufr4/0/10/036,10,Ubicación sin coordenadas (vertical),010036,Ondulación del geoide,m,2,-15000,15,m,2,6,(véase la nota 4),,Operational
+bufr4/0/10/038,10,Ubicación sin coordenadas (vertical),010038,Altura máxima de carga en cubierta sobre la línea de carga máxima de verano,m,0,0,6,m,0,2,,,Operational
+bufr4/0/10/039,10,Ubicación sin coordenadas (vertical),010039,Desviación del nivel de referencia (línea de carga máxima de verano) a partir del nivel del mar real,m,0,-32,6,m,0,3,,,Operational
+bufr4/0/10/040,10,Ubicación sin coordenadas (vertical),010040,Recuperación de datos sobre el número de capas,Numérica,0,0,10,Numérica,0,4,,,Operational
+bufr4/0/10/050,10,Ubicación sin coordenadas (vertical),010050,Desviación típica de la altitud,m,2,0,16,m,2,5,,,Operational
+bufr4/0/10/051,10,Ubicación sin coordenadas (vertical),010051,Presión reducida al nivel medio del mar,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/10/052,10,Ubicación sin coordenadas (vertical),010052,Ajuste del altímetro (QNH),Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/10/053,10,Ubicación sin coordenadas (vertical),010053,Altitud del Sistema mundial de satélites para la navegación,m,0,-1000,17,m,0,5,,,Operational
+bufr4/0/10/060,10,Ubicación sin coordenadas (vertical),010060,Cambio de presión,Pa,-1,-1024,11,Pa,-1,4,,,Operational
+bufr4/0/10/061,10,Ubicación sin coordenadas (vertical),010061,Cambio de presión en 3 horas,Pa,-1,-500,10,Pa,-1,4,,,Operational
+bufr4/0/10/062,10,Ubicación sin coordenadas (vertical),010062,Cambio de presión en 24 horas,Pa,-1,-1000,11,Pa,-1,4,,,Operational
+bufr4/0/10/063,10,Ubicación sin coordenadas (vertical),010063,Característica de la tendencia barométrica,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/10/064,10,Ubicación sin coordenadas (vertical),010064,Nivel de crucero SIGMET,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+bufr4/0/10/070,10,Ubicación sin coordenadas (vertical),010070,Altitud de la aeronave indicada,m,0,-400,16,m,0,5,,,Operational
+bufr4/0/10/071,10,Ubicación sin coordenadas (vertical),010071,Resolución vertical,m,0,0,14,m,0,5,,,Operational
+bufr4/0/10/079,10,Ubicación sin coordenadas (vertical),010079,Ángulo desde el nadir del satélite según los datos de la plataforma,°,4,0,16,°,4,5,,,Operational
+bufr4/0/10/080,10,Ubicación sin coordenadas (vertical),010080,Ángulo de visión cenital,°,2,-9000,15,°,2,5,,,Operational
+bufr4/0/10/081,10,Ubicación sin coordenadas (vertical),010081,Altitud del centro de gravedad sobre el elipsoide de referencia,m,3,0,31,m,3,10,,,Operational
+bufr4/0/10/082,10,Ubicación sin coordenadas (vertical),010082,Tasa de altitud instantánea,m s-1,3,-65536,17,m s-1,3,6,,,Operational
+bufr4/0/10/083,10,Ubicación sin coordenadas (vertical),010083,Ángulo de nadir al cuadrado externo del satélite mediante datos de plataforma,grado2,2,0,16,grado2,2,5,,,Operational
+bufr4/0/10/084,10,Ubicación sin coordenadas (vertical),010084,Ángulo de nadir al cuadrado externo del satélite mediante datos de forma de onda,grado2,2,0,16,grado2,2,5,,,Operational
+bufr4/0/10/085,10,Ubicación sin coordenadas (vertical),010085,Altura media de la superficie del mar,m,3,-131072,18,m,3,6,,,Operational
+bufr4/0/10/086,10,Ubicación sin coordenadas (vertical),010086,Altura del geoide,m,3,-131072,18,m,3,6,,,Operational
+bufr4/0/10/087,10,Ubicación sin coordenadas (vertical),010087,Profundidad del océano/elevación de la tierra,m,1,-131072,18,m,1,6,,,Operational
+bufr4/0/10/088,10,Ubicación sin coordenadas (vertical),010088,Altura total de la marea oceánica geocéntrica (solución 1),m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/10/089,10,Ubicación sin coordenadas (vertical),010089,Altura total de la marea oceánica geocéntrica (solución 2),m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/10/090,10,Ubicación sin coordenadas (vertical),010090,Altura de la marea de período largo,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/10/091,10,Ubicación sin coordenadas (vertical),010091,Altura de la carga de la marea,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/10/092,10,Ubicación sin coordenadas (vertical),010092,Altura de la marea en tierra sólida,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/10/093,10,Ubicación sin coordenadas (vertical),010093,Altura de la marea en polo geocéntrico,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/10/095,10,Ubicación sin coordenadas (vertical),010095,Altura de la atmósfera utilizada,m,3,0,16,m,0,5,,,Operational
+bufr4/0/10/096,10,Ubicación sin coordenadas (vertical),010096,Topografía dinámica media,m,3,-131072,18,m,3,6,,,Operational
+bufr4/0/10/097,10,Ubicación sin coordenadas (vertical),010097,Altura media de la superficie del mar mediante altímetro únicamente,m,3,-131072,18,m,3,6,,,Operational
+bufr4/0/10/098,10,Ubicación sin coordenadas (vertical),010098,Altura de la carga de la marea - marea oceánica geocéntrica (solución 1),m,4,-2000,12,m,4,4,,,Operational
+bufr4/0/10/099,10,Ubicación sin coordenadas (vertical),010099,Altura de la carga de la marea - marea oceánica geocéntrica (solución 2),m,4,-2000,12,m,4,4,,,Operational
+bufr4/0/10/100,10,Ubicación sin coordenadas (vertical),010100,Altura de la marea de período largo no en equilibrio,m,4,-2000,12,m,4,4,,,Operational
+bufr4/0/10/101,10,Ubicación sin coordenadas (vertical),010101,Cuadrado del ángulo del satélite respecto del nadir según datos de la forma de onda,grado2,2,-32768,16,grado2,2,5,,,Operational
+bufr4/0/10/102,10,Ubicación sin coordenadas (vertical),010102,Anomalía de la altura de la superficie del mar,m,3,-32768,16,m,3,5,,,Operational
+bufr4/0/10/103,10,Ubicación sin coordenadas (vertical),010103,Exactitud de la topografía dinámica media,m,3,-131072,18,m,3,6,,,Operational

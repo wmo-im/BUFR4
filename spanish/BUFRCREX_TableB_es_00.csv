@@ -1,25 +1,25 @@
-ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
-00,Entradas de las tablas BUFR/CREX,000001,Tabla A: elemento,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
-00,Entradas de las tablas BUFR/CREX,000002,"Tabla A: descripción de la categoría de datos, línea 1",CCITT IA5,0,0,256,Carácter,0,32,,,Operational
-00,Entradas de las tablas BUFR/CREX,000003,"Tabla A: descripción de la categoría de datos, línea 2",CCITT IA5,0,0,256,Carácter,0,32,,,Operational
-00,Entradas de las tablas BUFR/CREX,000004,Tabla maestra BUFR/CREX,CCITT IA5,0,0,16,Carácter,0,2,(véase la nota 1),,Operational
-00,Entradas de las tablas BUFR/CREX,000005,Número de edición BUFR/CREX,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
-00,Entradas de las tablas BUFR/CREX,000006,Número de versión de la tabla maestra BUFR/CREX,CCITT IA5,0,0,16,Carácter,0,2,(véase la nota 2),,Operational
-00,Entradas de las tablas BUFR/CREX,000007,Número de versión de la tabla maestra BUFR/CREX,CCITT IA5,0,0,16,Carácter,0,2,(véase la nota 3),,Operational
-00,Entradas de las tablas BUFR/CREX,000008,Número de versión de la tabla maestra BUFR/CREX,CCITT IA5,0,0,16,Carácter,0,2,(véase la nota 4),,Operational
-00,Entradas de las tablas BUFR/CREX,000010,Descriptor F que se agregará o definirá,CCITT IA5,0,0,8,Carácter,0,1,,,Operational
-00,Entradas de las tablas BUFR/CREX,000011,Descriptor X que se agregará o definirá,CCITT IA5,0,0,16,Carácter,0,2,,,Operational
-00,Entradas de las tablas BUFR/CREX,000012,Descriptor Y que se agregará o definirá,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
-00,Entradas de las tablas BUFR/CREX,000013,"Nombre del elemento, línea 1",CCITT IA5,0,0,256,Carácter,0,32,,,Operational
-00,Entradas de las tablas BUFR/CREX,000014,"Nombre del elemento, línea 2",CCITT IA5,0,0,256,Carácter,0,32,,,Operational
-00,Entradas de las tablas BUFR/CREX,000015,Nombre de las unidades,CCITT IA5,0,0,192,Carácter,0,24,,,Operational
-00,Entradas de las tablas BUFR/CREX,000016,Signo del factor de escala,CCITT IA5,0,0,8,Carácter,0,1,,,Operational
-00,Entradas de las tablas BUFR/CREX,000017,Factor de escala,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
-00,Entradas de las tablas BUFR/CREX,000018,Signo de referencia de las unidades,CCITT IA5,0,0,8,Carácter,0,1,,,Operational
-00,Entradas de las tablas BUFR/CREX,000019,Valor de referencia de las unidades,CCITT IA5,0,0,80,Carácter,0,10,,,Operational
-00,Entradas de las tablas BUFR/CREX,000020,Anchura de datos del elemento,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
-00,Entradas de las tablas BUFR/CREX,000024,Cifra de clave,CCITT IA5,0,0,64,Carácter,0,8,,,Operational
-00,Entradas de las tablas BUFR/CREX,000025,Significado de la cifra de clave,CCITT IA5,0,0,496,Carácter,0,62,,,Operational
-00,Entradas de las tablas BUFR/CREX,000026,Número de bits,CCITT IA5,0,0,48,Carácter,0,6,,,Operational
-00,Entradas de las tablas BUFR/CREX,000027,Significado del número de bits,CCITT IA5,0,0,496,Carácter,0,62,,,Operational
-00,Entradas de las tablas BUFR/CREX,000030,Secuencia que define al descriptor,CCITT IA5,0,0,48,Carácter,0,6,,,Operational
+Id,ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+bufr4/0/00/001,00,Entradas de las tablas BUFR/CREX,000001,Tabla A: elemento,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+bufr4/0/00/002,00,Entradas de las tablas BUFR/CREX,000002,"Tabla A: descripción de la categoría de datos, línea 1",CCITT IA5,0,0,256,Carácter,0,32,,,Operational
+bufr4/0/00/003,00,Entradas de las tablas BUFR/CREX,000003,"Tabla A: descripción de la categoría de datos, línea 2",CCITT IA5,0,0,256,Carácter,0,32,,,Operational
+bufr4/0/00/004,00,Entradas de las tablas BUFR/CREX,000004,Tabla maestra BUFR/CREX,CCITT IA5,0,0,16,Carácter,0,2,(véase la nota 1),,Operational
+bufr4/0/00/005,00,Entradas de las tablas BUFR/CREX,000005,Número de edición BUFR/CREX,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+bufr4/0/00/006,00,Entradas de las tablas BUFR/CREX,000006,Número de versión de la tabla maestra BUFR/CREX,CCITT IA5,0,0,16,Carácter,0,2,(véase la nota 2),,Operational
+bufr4/0/00/007,00,Entradas de las tablas BUFR/CREX,000007,Número de versión de la tabla maestra BUFR/CREX,CCITT IA5,0,0,16,Carácter,0,2,(véase la nota 3),,Operational
+bufr4/0/00/008,00,Entradas de las tablas BUFR/CREX,000008,Número de versión de la tabla maestra BUFR/CREX,CCITT IA5,0,0,16,Carácter,0,2,(véase la nota 4),,Operational
+bufr4/0/00/010,00,Entradas de las tablas BUFR/CREX,000010,Descriptor F que se agregará o definirá,CCITT IA5,0,0,8,Carácter,0,1,,,Operational
+bufr4/0/00/011,00,Entradas de las tablas BUFR/CREX,000011,Descriptor X que se agregará o definirá,CCITT IA5,0,0,16,Carácter,0,2,,,Operational
+bufr4/0/00/012,00,Entradas de las tablas BUFR/CREX,000012,Descriptor Y que se agregará o definirá,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+bufr4/0/00/013,00,Entradas de las tablas BUFR/CREX,000013,"Nombre del elemento, línea 1",CCITT IA5,0,0,256,Carácter,0,32,,,Operational
+bufr4/0/00/014,00,Entradas de las tablas BUFR/CREX,000014,"Nombre del elemento, línea 2",CCITT IA5,0,0,256,Carácter,0,32,,,Operational
+bufr4/0/00/015,00,Entradas de las tablas BUFR/CREX,000015,Nombre de las unidades,CCITT IA5,0,0,192,Carácter,0,24,,,Operational
+bufr4/0/00/016,00,Entradas de las tablas BUFR/CREX,000016,Signo del factor de escala,CCITT IA5,0,0,8,Carácter,0,1,,,Operational
+bufr4/0/00/017,00,Entradas de las tablas BUFR/CREX,000017,Factor de escala,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+bufr4/0/00/018,00,Entradas de las tablas BUFR/CREX,000018,Signo de referencia de las unidades,CCITT IA5,0,0,8,Carácter,0,1,,,Operational
+bufr4/0/00/019,00,Entradas de las tablas BUFR/CREX,000019,Valor de referencia de las unidades,CCITT IA5,0,0,80,Carácter,0,10,,,Operational
+bufr4/0/00/020,00,Entradas de las tablas BUFR/CREX,000020,Anchura de datos del elemento,CCITT IA5,0,0,24,Carácter,0,3,,,Operational
+bufr4/0/00/024,00,Entradas de las tablas BUFR/CREX,000024,Cifra de clave,CCITT IA5,0,0,64,Carácter,0,8,,,Operational
+bufr4/0/00/025,00,Entradas de las tablas BUFR/CREX,000025,Significado de la cifra de clave,CCITT IA5,0,0,496,Carácter,0,62,,,Operational
+bufr4/0/00/026,00,Entradas de las tablas BUFR/CREX,000026,Número de bits,CCITT IA5,0,0,48,Carácter,0,6,,,Operational
+bufr4/0/00/027,00,Entradas de las tablas BUFR/CREX,000027,Significado del número de bits,CCITT IA5,0,0,496,Carácter,0,62,,,Operational
+bufr4/0/00/030,00,Entradas de las tablas BUFR/CREX,000030,Secuencia que define al descriptor,CCITT IA5,0,0,48,Carácter,0,6,,,Operational

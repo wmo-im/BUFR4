@@ -1,110 +1,110 @@
-"ClassNo","ClassName_es","FXY","ElementName_es","BUFR_Unit_es","BUFR_Scale","BUFR_ReferenceValue","BUFR_DataWidth_Bits","CREX_Unit_es","CREX_Scale","CREX_DataWidth_Char","Note_es","noteIDs","Status"
-"20","Fenómenos observados","020001","Visibilidad horizontal","m","-1","0","13","m","-1","4",,,"Operational"
-"20","Fenómenos observados","020002","Visibilidad vertical","m","-1","0","7","m","-1","3",,,"Operational"
-"20","Fenómenos observados","020003","Tiempo presente","Tabla de cifrado","0","0","9","Tabla de cifrado","0","3","(véase la nota 1)",,"Operational"
-"20","Fenómenos observados","020004","Tiempo pasado 1)","Tabla de cifrado","0","0","5","Tabla de cifrado","0","2","(véase la nota 2)",,"Operational"
-"20","Fenómenos observados","020005","Tiempo pasado 2)","Tabla de cifrado","0","0","5","Tabla de cifrado","0","2","(véase la nota 2)",,"Operational"
-"20","Fenómenos observados","020006","Reglas de vuelo","Tabla de cifrado","0","0","3","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020008","Distribución de las nubes para la aviación","Tabla de cifrado","0","0","5","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020009","Indicador general del tiempo (TAF/METAR)","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020010","Cubierta de nubes (total)","%","0","0","7","%","0","3","(véase la nota 5)",,"Operational"
-"20","Fenómenos observados","020011","Nubosidad","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020012","Tipo de nubes","Tabla de cifrado","0","0","6","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020013","Altura de la base de las nubes","m","-1","-40","11","m","-1","4",,,"Operational"
-"20","Fenómenos observados","020014","Altura de la cima de las nubes","m","-1","-40","11","m","-1","4",,,"Operational"
-"20","Fenómenos observados","020015","Presión en la base de las nubes","Pa","-1","0","14","Pa","-1","5",,,"Operational"
-"20","Fenómenos observados","020016","Presión en la cima de las nubes","Pa","-1","0","14","Pa","-1","5",,,"Operational"
-"20","Fenómenos observados","020017","Descripción de la cima de las nubes","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020018","Tendencia del alcance visual en pista","Tabla de cifrado","0","0","2","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020019","Tiempo significativo presente o previsto","CCITT IA5","0","0","72","Carácter","0","9","(véase la nota 15)",,"Operational"
-"20","Fenómenos observados","020020","Fenómenos meteorológicos recientes","CCITT IA5","0","0","32","Carácter","0","4","(véase la nota 15)",,"Operational"
-"20","Fenómenos observados","020021","Tipo de precipitación","Tabla de banderines","0","0","30","Tabla de banderines","0","10",,,"Operational"
-"20","Fenómenos observados","020022","Naturaleza de la precipitación","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020023","Otros fenómenos meteorológicos","Tabla de banderines","0","0","18","Tabla de banderines","0","6",,,"Operational"
-"20","Fenómenos observados","020024","Intensidad de los fenómenos","Tabla de cifrado","0","0","3","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020025","Oscurecimiento","Tabla de banderines","0","0","21","Tabla de banderines","0","7",,,"Operational"
-"20","Fenómenos observados","020026","Carácter del oscurecimiento","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020027","Ocurrencia de los fenómenos","Tabla de banderines","0","0","9","Tabla de banderines","0","3",,,"Operational"
-"20","Fenómenos observados","020028","Cambio esperado en intensidad","Tabla de cifrado","0","0","3","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020029","Banderín de lluvia","Tabla de cifrado","0","0","2","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020031","Depósito de hielo (espesor)","m","2","0","7","m","2","3",,,"Operational"
-"20","Fenómenos observados","020032","Velocidad de acumulación del hielo (estimada)","Tabla de cifrado","0","0","3","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020033","Causa de la acumulación del hielo","Tabla de banderines","0","0","4","Tabla de banderines","0","2",,,"Operational"
-"20","Fenómenos observados","020034","Concentración del hielo marino","Tabla de cifrado","0","0","5","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020035","Cantidad y tipo de hielo","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020036","Situación en el hielo","Tabla de cifrado","0","0","5","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020037","Formación del hielo","Tabla de cifrado","0","0","5","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020038","Orientación del borde de hielo","grado verdadero","0","0","12","grado verdadero","0","3","(véase la nota 3)",,"Operational"
-"20","Fenómenos observados","020039","Distancia del hielo","m","-1","0","13","m","-1","4",,,"Operational"
-"20","Fenómenos observados","020040","Evolución de la deriva de la nieve","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020041","Engelamiento del fuselaje de la aeronave","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020042","Presencia de engelamiento del fuselaje de la aeronave","Tabla de cifrado","0","0","2","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020043","Contenido máximo de agua líquida","kg m-3","4","0","7","kg m-3","4","2",,,"Operational"
-"20","Fenómenos observados","020044","Contenido medio de agua líquida","kg m-3","4","0","7","kg m-3","4","2",,,"Operational"
-"20","Fenómenos observados","020045","Condiciones de gotitas de agua grandes subfundidas (SLD)","Tabla de cifrado","0","0","2","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020048","Evolución del elemento","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020050","Índice de nubes","Tabla de cifrado","0","0","8","Tabla de cifrado","0","3",,,"Operational"
-"20","Fenómenos observados","020051","Cantidad de nubes bajas","%","0","0","7","%","0","3",,,"Operational"
-"20","Fenómenos observados","020052","Cantidad de nubes a nivel medio","%","0","0","7","%","0","3",,,"Operational"
-"20","Fenómenos observados","020053","Cantidad de nubes altas","%","0","0","7","%","0","3",,,"Operational"
-"20","Fenómenos observados","020054","Dirección verdadera desde donde se desplaza un fenómeno o nubes o en la cual se observan","grado verdadero","0","0","9","grado verdadero","0","3","(véase la nota 17)",,"Operational"
-"20","Fenómenos observados","020055","Estado del cielo en los trópicos","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020056","Fase de las nubes","Tabla de cifrado","0","0","3","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020058","Visibilidad hacia el mar desde una estación costera","m","-1","0","13","m","-1","4",,,"Operational"
-"20","Fenómenos observados","020059","Visibilidad horizontal mínima","m","-1","0","9","m","-1","3",,,"Operational"
-"20","Fenómenos observados","020060","Visibilidad horizontal reinante","m","-1","0","10","m","-1","4","(véase la nota 7)",,"Operational"
-"20","Fenómenos observados","020061","Alcance visual en pista","m","0","0","12","m","0","4",,,"Operational"
-"20","Fenómenos observados","020062","Estado del suelo (con o sin nieve)","Tabla de cifrado","0","0","5","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020063","Fenómenos especiales","Tabla de cifrado","0","0","10","Tabla de cifrado","0","4",,,"Operational"
-"20","Fenómenos observados","020065","Cubierta de nieve","%","0","0","7","%","0","3","(véase la nota 4)",,"Operational"
-"20","Fenómenos observados","020066","Diámetro máximo del granizo","m","3","0","8","m","3","3",,,"Operational"
-"20","Fenómenos observados","020067","Diámetro del depósito","m","3","0","9","m","3","3",,,"Operational"
-"20","Fenómenos observados","020070","Número mínimo de parásitos atmosféricos","Numérica","0","0","7","Numérica","0","3",,,"Operational"
-"20","Fenómenos observados","020071","Exactitud de marcación y tasa de parásitos atmosféricos","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020081","Nubosidad en el segmento","%","0","0","7","%","0","3",,,"Operational"
-"20","Fenómenos observados","020082","Espacio sin nubes del segmento","%","0","0","7","%","0","3",,,"Operational"
-"20","Fenómenos observados","020083","Parte del segmento cubierta por la escena","%","0","0","7","%","0","3",,,"Operational"
-"20","Fenómenos observados","020085","Estado general de la pista","Tabla de cifrado","0",,"4","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020086","Depósitos en la pista","Tabla de cifrado","0","0","4","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020087","Contaminación en la pista","Tabla de cifrado","0","0","4","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020088","Espesor de los depósitos en la pista","m","3","0","12","m","0","4",,,"Operational"
-"20","Fenómenos observados","020089","Coeficiente de rozamiento en la pista","Tabla de cifrado","0","0","7","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020090","Nubes especiales","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020091","Visibilidad vertical","ft","-2","0","10","ft","-2","3",,,"Operational"
-"20","Fenómenos observados","020092","Altura de la base de las nubes","ft","-2","0","10","ft","-2","3",,,"Operational"
-"20","Fenómenos observados","020093","Altura de la inversión","m","-1","0","8","m","-1","3",,,"Operational"
-"20","Fenómenos observados","020095","Probabilidad de hielo","Numérica","3","0","10","Numérica","3","4",,,"Operational"
-"20","Fenómenos observados","020096","Edad de hielo (parámetro ""A"")","dB","2","-4096","13","dB","2","4",,,"Operational"
-"20","Fenómenos observados","020101","Nombre de la langosta (acrídido)","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020102","Color de la langosta (adulta)","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020103","Fase de desarrollo de las langostas","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020104","Estado de organización del enjambre o banda de langostas","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020105","Tamaño del enjambre o banda de langostas y duración del paso del enjambre","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020106","Densidad de la población de langostas","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020107","Dirección de los movimientos del enjambre de langostas","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020108","Extensión de la vegetación","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020111","Componente principal de la elipse de error del eje x","m","-1","0","17","m","-1","6","(véanse las notas 8 y 9)",,"Operational"
-"20","Fenómenos observados","020112","Componente menor de la elipse de error del eje y (véanse las notas 8 y 9)","m","-1","0","17","m","-1","6",,,"Operational"
-"20","Fenómenos observados","020113","Componente de la elipse de error del eje z","m","-1","0","17","m","-1","6","(véase la nota 9)",,"Operational"
-"20","Fenómenos observados","020114","Ángulo del eje x en la elipse de error","°","2","-18000","16","°","2","5","(véase la nota 10)",,"Operational"
-"20","Fenómenos observados","020115","Ángulo del eje z en la elipse de error","°","2","-18000","16","°","2","5","(véase la nota 11)",,"Operational"
-"20","Fenómenos observados","020116","Altura de la base de las nubes a la que se emite la descarga","m","0","0","16","m","0","5",,,"Operational"
-"20","Fenómenos observados","020117","Amplitud de la descarga eléctrica","A","-1","-32000","16","A","-1","5",,,"Operational"
-"20","Fenómenos observados","020118","Error de detección de la descarga eléctrica","m","0","0","19","m","0","6",,,"Operational"
-"20","Fenómenos observados","020119","Polaridad de la descarga eléctrica","Tabla de cifrado","0","0","2","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020121","Valor de umbral para decisión de polaridad","V","3","0","16","V","3","5","(véase la nota 12)",,"Operational"
-"20","Fenómenos observados","020122","Valor de umbral para decisión de polaridad","A","0","0","16","A","0","5","(véase la nota 13)",,"Operational"
-"20","Fenómenos observados","020123","Umbral mínimo para detección","Vm-1","3","0","16","Vm-1","3","5","(véase la nota 14)",,"Operational"
-"20","Fenómenos observados","020124","Rayo o relámpago","Tabla de cifrado","0","0","2","Tabla de cifrado","0","1",,,"Operational"
-"20","Fenómenos observados","020126","Tasa de descargas de rayo","h-1","0","0","23","h-1","0","7",,,"Operational"
-"20","Fenómenos observados","020127","Rayos - distancia desde la estación","m","-3","0","8","m","-3","3",,,"Operational"
-"20","Fenómenos observados","020128","Rayos - dirección desde la estación","grado verdadero","1","0","12","grado verdadero","1","4",,,"Operational"
-"20","Fenómenos observados","020129","Densidad de rayos (descarga, relámpago o fenómeno)","m-2","6","0","10","m-2","6","4",,,"Operational"
-"20","Fenómenos observados","020130","Concentración de hidrometeoros de nube","Numérica","0","0","10","Numérica","0","3","(véase la nota 16)",,"Operational"
-"20","Fenómenos observados","020131","Radio efectivo de los hidrometeoros de nube","m","5","0","6","m","5","2",,,"Operational"
-"20","Fenómenos observados","020132","Contenido de agua líquida en nube","kg m-3","5","0","11","kg m-3","5","4",,,"Operational"
-"20","Fenómenos observados","020133","Radio del hidrometeoro","m","5","0","6","m","5","2",,,"Operational"
-"20","Fenómenos observados","020135","Masa de hielo (en cilindro)","kg m-1","1","0","10","kg m-1","1","3",,,"Operational"
-"20","Fenómenos observados","020136","Tipo de nubes suplementario","Tabla de cifrado","0","0","9","Tabla de cifrado","0","3",,,"Operational"
-"20","Fenómenos observados","020137","Evolución de las nubes","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
-"20","Fenómenos observados","020138","Condición de la superficie de la carretera","Tabla de cifrado","0","0","4","Tabla de cifrado","0","2",,,"Operational"
+Id,ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+bufr4/0/20/001,20,Fenómenos observados,020001,Visibilidad horizontal,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/002,20,Fenómenos observados,020002,Visibilidad vertical,m,-1,0,7,m,-1,3,,,Operational
+bufr4/0/20/003,20,Fenómenos observados,020003,Tiempo presente,Tabla de cifrado,0,0,9,Tabla de cifrado,0,3,(véase la nota 1),,Operational
+bufr4/0/20/004,20,Fenómenos observados,020004,Tiempo pasado 1),Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,(véase la nota 2),,Operational
+bufr4/0/20/005,20,Fenómenos observados,020005,Tiempo pasado 2),Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,(véase la nota 2),,Operational
+bufr4/0/20/006,20,Fenómenos observados,020006,Reglas de vuelo,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/008,20,Fenómenos observados,020008,Distribución de las nubes para la aviación,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/009,20,Fenómenos observados,020009,Indicador general del tiempo (TAF/METAR),Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/010,20,Fenómenos observados,020010,Cubierta de nubes (total),%,0,0,7,%,0,3,(véase la nota 5),,Operational
+bufr4/0/20/011,20,Fenómenos observados,020011,Nubosidad,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/012,20,Fenómenos observados,020012,Tipo de nubes,Tabla de cifrado,0,0,6,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/013,20,Fenómenos observados,020013,Altura de la base de las nubes,m,-1,-40,11,m,-1,4,,,Operational
+bufr4/0/20/014,20,Fenómenos observados,020014,Altura de la cima de las nubes,m,-1,-40,11,m,-1,4,,,Operational
+bufr4/0/20/015,20,Fenómenos observados,020015,Presión en la base de las nubes,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/016,20,Fenómenos observados,020016,Presión en la cima de las nubes,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/017,20,Fenómenos observados,020017,Descripción de la cima de las nubes,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/018,20,Fenómenos observados,020018,Tendencia del alcance visual en pista,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/019,20,Fenómenos observados,020019,Tiempo significativo presente o previsto,CCITT IA5,0,0,72,Carácter,0,9,(véase la nota 15),,Operational
+bufr4/0/20/020,20,Fenómenos observados,020020,Fenómenos meteorológicos recientes,CCITT IA5,0,0,32,Carácter,0,4,(véase la nota 15),,Operational
+bufr4/0/20/021,20,Fenómenos observados,020021,Tipo de precipitación,Tabla de banderines,0,0,30,Tabla de banderines,0,10,,,Operational
+bufr4/0/20/022,20,Fenómenos observados,020022,Naturaleza de la precipitación,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/023,20,Fenómenos observados,020023,Otros fenómenos meteorológicos,Tabla de banderines,0,0,18,Tabla de banderines,0,6,,,Operational
+bufr4/0/20/024,20,Fenómenos observados,020024,Intensidad de los fenómenos,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/025,20,Fenómenos observados,020025,Oscurecimiento,Tabla de banderines,0,0,21,Tabla de banderines,0,7,,,Operational
+bufr4/0/20/026,20,Fenómenos observados,020026,Carácter del oscurecimiento,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/027,20,Fenómenos observados,020027,Ocurrencia de los fenómenos,Tabla de banderines,0,0,9,Tabla de banderines,0,3,,,Operational
+bufr4/0/20/028,20,Fenómenos observados,020028,Cambio esperado en intensidad,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/029,20,Fenómenos observados,020029,Banderín de lluvia,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/031,20,Fenómenos observados,020031,Depósito de hielo (espesor),m,2,0,7,m,2,3,,,Operational
+bufr4/0/20/032,20,Fenómenos observados,020032,Velocidad de acumulación del hielo (estimada),Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/033,20,Fenómenos observados,020033,Causa de la acumulación del hielo,Tabla de banderines,0,0,4,Tabla de banderines,0,2,,,Operational
+bufr4/0/20/034,20,Fenómenos observados,020034,Concentración del hielo marino,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/035,20,Fenómenos observados,020035,Cantidad y tipo de hielo,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/036,20,Fenómenos observados,020036,Situación en el hielo,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/037,20,Fenómenos observados,020037,Formación del hielo,Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/038,20,Fenómenos observados,020038,Orientación del borde de hielo,grado verdadero,0,0,12,grado verdadero,0,3,(véase la nota 3),,Operational
+bufr4/0/20/039,20,Fenómenos observados,020039,Distancia del hielo,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/040,20,Fenómenos observados,020040,Evolución de la deriva de la nieve,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/041,20,Fenómenos observados,020041,Engelamiento del fuselaje de la aeronave,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/042,20,Fenómenos observados,020042,Presencia de engelamiento del fuselaje de la aeronave,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/043,20,Fenómenos observados,020043,Contenido máximo de agua líquida,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/044,20,Fenómenos observados,020044,Contenido medio de agua líquida,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/045,20,Fenómenos observados,020045,Condiciones de gotitas de agua grandes subfundidas (SLD),Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/048,20,Fenómenos observados,020048,Evolución del elemento,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/050,20,Fenómenos observados,020050,Índice de nubes,Tabla de cifrado,0,0,8,Tabla de cifrado,0,3,,,Operational
+bufr4/0/20/051,20,Fenómenos observados,020051,Cantidad de nubes bajas,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/052,20,Fenómenos observados,020052,Cantidad de nubes a nivel medio,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/053,20,Fenómenos observados,020053,Cantidad de nubes altas,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/054,20,Fenómenos observados,020054,Dirección verdadera desde donde se desplaza un fenómeno o nubes o en la cual se observan,grado verdadero,0,0,9,grado verdadero,0,3,(véase la nota 17),,Operational
+bufr4/0/20/055,20,Fenómenos observados,020055,Estado del cielo en los trópicos,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/056,20,Fenómenos observados,020056,Fase de las nubes,Tabla de cifrado,0,0,3,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/058,20,Fenómenos observados,020058,Visibilidad hacia el mar desde una estación costera,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/059,20,Fenómenos observados,020059,Visibilidad horizontal mínima,m,-1,0,9,m,-1,3,,,Operational
+bufr4/0/20/060,20,Fenómenos observados,020060,Visibilidad horizontal reinante,m,-1,0,10,m,-1,4,(véase la nota 7),,Operational
+bufr4/0/20/061,20,Fenómenos observados,020061,Alcance visual en pista,m,0,0,12,m,0,4,,,Operational
+bufr4/0/20/062,20,Fenómenos observados,020062,Estado del suelo (con o sin nieve),Tabla de cifrado,0,0,5,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/063,20,Fenómenos observados,020063,Fenómenos especiales,Tabla de cifrado,0,0,10,Tabla de cifrado,0,4,,,Operational
+bufr4/0/20/065,20,Fenómenos observados,020065,Cubierta de nieve,%,0,0,7,%,0,3,(véase la nota 4),,Operational
+bufr4/0/20/066,20,Fenómenos observados,020066,Diámetro máximo del granizo,m,3,0,8,m,3,3,,,Operational
+bufr4/0/20/067,20,Fenómenos observados,020067,Diámetro del depósito,m,3,0,9,m,3,3,,,Operational
+bufr4/0/20/070,20,Fenómenos observados,020070,Número mínimo de parásitos atmosféricos,Numérica,0,0,7,Numérica,0,3,,,Operational
+bufr4/0/20/071,20,Fenómenos observados,020071,Exactitud de marcación y tasa de parásitos atmosféricos,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/081,20,Fenómenos observados,020081,Nubosidad en el segmento,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/082,20,Fenómenos observados,020082,Espacio sin nubes del segmento,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/083,20,Fenómenos observados,020083,Parte del segmento cubierta por la escena,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/085,20,Fenómenos observados,020085,Estado general de la pista,Tabla de cifrado,0,,4,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/086,20,Fenómenos observados,020086,Depósitos en la pista,Tabla de cifrado,0,0,4,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/087,20,Fenómenos observados,020087,Contaminación en la pista,Tabla de cifrado,0,0,4,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/088,20,Fenómenos observados,020088,Espesor de los depósitos en la pista,m,3,0,12,m,0,4,,,Operational
+bufr4/0/20/089,20,Fenómenos observados,020089,Coeficiente de rozamiento en la pista,Tabla de cifrado,0,0,7,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/090,20,Fenómenos observados,020090,Nubes especiales,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/091,20,Fenómenos observados,020091,Visibilidad vertical,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/092,20,Fenómenos observados,020092,Altura de la base de las nubes,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/093,20,Fenómenos observados,020093,Altura de la inversión,m,-1,0,8,m,-1,3,,,Operational
+bufr4/0/20/095,20,Fenómenos observados,020095,Probabilidad de hielo,Numérica,3,0,10,Numérica,3,4,,,Operational
+bufr4/0/20/096,20,Fenómenos observados,020096,"Edad de hielo (parámetro ""A"")",dB,2,-4096,13,dB,2,4,,,Operational
+bufr4/0/20/101,20,Fenómenos observados,020101,Nombre de la langosta (acrídido),Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/102,20,Fenómenos observados,020102,Color de la langosta (adulta),Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/103,20,Fenómenos observados,020103,Fase de desarrollo de las langostas,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/104,20,Fenómenos observados,020104,Estado de organización del enjambre o banda de langostas,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/105,20,Fenómenos observados,020105,Tamaño del enjambre o banda de langostas y duración del paso del enjambre,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/106,20,Fenómenos observados,020106,Densidad de la población de langostas,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/107,20,Fenómenos observados,020107,Dirección de los movimientos del enjambre de langostas,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/108,20,Fenómenos observados,020108,Extensión de la vegetación,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/111,20,Fenómenos observados,020111,Componente principal de la elipse de error del eje x,m,-1,0,17,m,-1,6,(véanse las notas 8 y 9),,Operational
+bufr4/0/20/112,20,Fenómenos observados,020112,Componente menor de la elipse de error del eje y (véanse las notas 8 y 9),m,-1,0,17,m,-1,6,,,Operational
+bufr4/0/20/113,20,Fenómenos observados,020113,Componente de la elipse de error del eje z,m,-1,0,17,m,-1,6,(véase la nota 9),,Operational
+bufr4/0/20/114,20,Fenómenos observados,020114,Ángulo del eje x en la elipse de error,°,2,-18000,16,°,2,5,(véase la nota 10),,Operational
+bufr4/0/20/115,20,Fenómenos observados,020115,Ángulo del eje z en la elipse de error,°,2,-18000,16,°,2,5,(véase la nota 11),,Operational
+bufr4/0/20/116,20,Fenómenos observados,020116,Altura de la base de las nubes a la que se emite la descarga,m,0,0,16,m,0,5,,,Operational
+bufr4/0/20/117,20,Fenómenos observados,020117,Amplitud de la descarga eléctrica,A,-1,-32000,16,A,-1,5,,,Operational
+bufr4/0/20/118,20,Fenómenos observados,020118,Error de detección de la descarga eléctrica,m,0,0,19,m,0,6,,,Operational
+bufr4/0/20/119,20,Fenómenos observados,020119,Polaridad de la descarga eléctrica,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/121,20,Fenómenos observados,020121,Valor de umbral para decisión de polaridad,V,3,0,16,V,3,5,(véase la nota 12),,Operational
+bufr4/0/20/122,20,Fenómenos observados,020122,Valor de umbral para decisión de polaridad,A,0,0,16,A,0,5,(véase la nota 13),,Operational
+bufr4/0/20/123,20,Fenómenos observados,020123,Umbral mínimo para detección,Vm-1,3,0,16,Vm-1,3,5,(véase la nota 14),,Operational
+bufr4/0/20/124,20,Fenómenos observados,020124,Rayo o relámpago,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+bufr4/0/20/126,20,Fenómenos observados,020126,Tasa de descargas de rayo,h-1,0,0,23,h-1,0,7,,,Operational
+bufr4/0/20/127,20,Fenómenos observados,020127,Rayos - distancia desde la estación,m,-3,0,8,m,-3,3,,,Operational
+bufr4/0/20/128,20,Fenómenos observados,020128,Rayos - dirección desde la estación,grado verdadero,1,0,12,grado verdadero,1,4,,,Operational
+bufr4/0/20/129,20,Fenómenos observados,020129,"Densidad de rayos (descarga, relámpago o fenómeno)",m-2,6,0,10,m-2,6,4,,,Operational
+bufr4/0/20/130,20,Fenómenos observados,020130,Concentración de hidrometeoros de nube,Numérica,0,0,10,Numérica,0,3,(véase la nota 16),,Operational
+bufr4/0/20/131,20,Fenómenos observados,020131,Radio efectivo de los hidrometeoros de nube,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/132,20,Fenómenos observados,020132,Contenido de agua líquida en nube,kg m-3,5,0,11,kg m-3,5,4,,,Operational
+bufr4/0/20/133,20,Fenómenos observados,020133,Radio del hidrometeoro,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/135,20,Fenómenos observados,020135,Masa de hielo (en cilindro),kg m-1,1,0,10,kg m-1,1,3,,,Operational
+bufr4/0/20/136,20,Fenómenos observados,020136,Tipo de nubes suplementario,Tabla de cifrado,0,0,9,Tabla de cifrado,0,3,,,Operational
+bufr4/0/20/137,20,Fenómenos observados,020137,Evolución de las nubes,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
+bufr4/0/20/138,20,Fenómenos observados,020138,Condición de la superficie de la carretera,Tabla de cifrado,0,0,4,Tabla de cifrado,0,2,,,Operational
