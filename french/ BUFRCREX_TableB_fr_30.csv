@@ -1,11 +1,11 @@
-"ClassNo","ClassName_fr","FXY","ElementName_fr","BUFR_Unit_fr","BUFR_Scale","BUFR_ReferenceValue","BUFR_DataWidth_Bits","CREX_Unit_fr","CREX_Scale","CREX_DataWidth_Char","Note_fr","noteIDs","Status"
-"30","Classe 30 Image","030001","Valeur des pixels (4 bits)","Numérique","0","0","4","Numérique","0","2","","","Operational"
-"30","Classe 30 Image","030002","Valeur des pixels (8 bits)","Numérique","0","0","8","Numérique","0","3","","","Operational"
-"30","Classe 30 Image","030004","Valeur des pixels (16 bits)","Numérique","0","","16","Numérique","0","5","","","Operational"
-"30","Classe 30 Image","030010","Nombre de points de grille","Numérique","0","0","13","Numérique","0","4","","","Operational"
-"30","Classe 30 Image","030021","Nombre de pixels par ligne","Numérique","0","0","12","Numérique","0","4","","","Operational"
-"30","Classe 30 Image","030022","Nombre de pixels par colonne","Numérique","0","0","12","Numérique","0","4","","","Operational"
-"30","Classe 30 Image","030031","Type d'image","Table de code","0","0","4","Table de code","0","2","","","Operational"
-"30","Classe 30 Image","030032","Combinaison avec d'autres données","Table d'indicateurs","0","0","16","Table d'indicateurs","0","6","","","Operational"
-"30","Classe 30 Image","030033","Nombre de cellules le long des lignes radiales","Numérique","0","0","12","Numérique","0","4","","","Operational"
-"30","Classe 30 Image","030034","Nombre d'azimuts","Numérique","0","0","12","Numérique","0","4","","","Operational"
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/30/001,30,Classe 30 Image,030001,Valeur des pixels (4 bits),Numérique,0,0,4,Numérique,0,2,,,Operational
+bufr4/0/30/002,30,Classe 30 Image,030002,Valeur des pixels (8 bits),Numérique,0,0,8,Numérique,0,3,,,Operational
+bufr4/0/30/004,30,Classe 30 Image,030004,Valeur des pixels (16 bits),Numérique,0,,16,Numérique,0,5,,,Operational
+bufr4/0/30/010,30,Classe 30 Image,030010,Nombre de points de grille,Numérique,0,0,13,Numérique,0,4,,,Operational
+bufr4/0/30/021,30,Classe 30 Image,030021,Nombre de pixels par ligne,Numérique,0,0,12,Numérique,0,4,,,Operational
+bufr4/0/30/022,30,Classe 30 Image,030022,Nombre de pixels par colonne,Numérique,0,0,12,Numérique,0,4,,,Operational
+bufr4/0/30/031,30,Classe 30 Image,030031,Type d'image,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/30/032,30,Classe 30 Image,030032,Combinaison avec d'autres données,Table d'indicateurs,0,0,16,Table d'indicateurs,0,6,,,Operational
+bufr4/0/30/033,30,Classe 30 Image,030033,Nombre de cellules le long des lignes radiales,Numérique,0,0,12,Numérique,0,4,,,Operational
+bufr4/0/30/034,30,Classe 30 Image,030034,Nombre d'azimuts,Numérique,0,0,12,Numérique,0,4,,,Operational
