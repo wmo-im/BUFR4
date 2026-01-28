@@ -1,39 +1,39 @@
-ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
-05,Ubicación (horizontal – 1),005001,Latitud (gran precisión),°,5,-9000000,25,°,5,7,,,Operational
-05,Ubicación (horizontal – 1),005002,Latitud (precisión aproximada),°,2,-9000,15,°,2,4,,,Operational
-05,Ubicación (horizontal – 1),005011,Incremento de la latitud (gran precisión),°,5,-9000000,25,°,5,7,,,Operational
-05,Ubicación (horizontal – 1),005012,Incremento de la latitud (precisión aproximada),°,2,-9000,15,°,2,4,,,Operational
-05,Ubicación (horizontal – 1),005015,Desplazamiento de latitud (gran precisión),°,5,-9000000,25,°,5,7,,,Operational
-05,Ubicación (horizontal – 1),005016,Desplazamiento de latitud (precisión aproximada),°,2,-9000,15,°,2,4,,,Operational
-05,Ubicación (horizontal – 1),005021,Rumbo o azimut,grado verdadero,2,0,16,grado verdadero,2,5,,,Operational
-05,Ubicación (horizontal – 1),005022,Azimut solar,grado verdadero,2,0,16,grado verdadero,2,5,,,Operational
-05,Ubicación (horizontal – 1),005023,Diferencia entre azimut solar y satelital,°,1,-1800,12,°,1,4,,,Operational
-05,Ubicación (horizontal – 1),005030,Dirección (espectral),°,0,0,12,°,0,4,,,Operational
-05,Ubicación (horizontal – 1),005031,Número de la fila,Numérica,0,0,12,Numérica,0,4,,,Operational
-05,Ubicación (horizontal – 1),005032,Compensación en Y,m,2,-1073741824,31,m,2,11,(véase la nota 6),,Operational
-05,Ubicación (horizontal – 1),005033,Tamaño de los píxeles en la horizontal – 1,m,-1,0,16,m,-1,5,,,Operational
-05,Ubicación (horizontal – 1),005034,Número de la fila a lo largo de la trayectoria,Numérica,0,0,11,Numérica,0,4,,,Operational
-05,Ubicación (horizontal – 1),005035,Tamaño máximo de la dimensión x,Numérica,0,0,12,Numérica,0,4,,,Operational
-05,Ubicación (horizontal – 1),005036,Número de transecta del buque según el SOOP,Numérica,0,0,7,Numérica,0,2,,,Operational
-05,Ubicación (horizontal – 1),005040,Número de la órbita,Numérica,0,0,24,Numérica,0,8,,,Operational
-05,Ubicación (horizontal – 1),005041,Número de la línea de exploración,Numérica,0,0,8,Numérica,0,3,,,Operational
-05,Ubicación (horizontal – 1),005042,Número del canal,Numérica,0,0,6,Numérica,0,2,,,Operational
-05,Ubicación (horizontal – 1),005043,Número del campo de visión,Numérica,0,0,8,Numérica,0,3,,,Operational
-05,Ubicación (horizontal – 1),005044,Número de ciclo del satélite,Numérica,0,0,11,Numérica,0,4,,,Operational
-05,Ubicación (horizontal – 1),005045,Número del campo de referencia,Numérica,0,0,8,Numérica,0,3,,,Operational
-05,Ubicación (horizontal – 1),005052,Incremento del número del canal,Numérica,0,0,5,Numérica,0,2,,,Operational
-05,Ubicación (horizontal – 1),005053,Incremento del número del campo de visión,Numérica,0,0,5,Numérica,0,2,,,Operational
-05,Ubicación (horizontal – 1),005060,Posición angular Y desde el centro de gravedad,°,6,-8000000,24,°,6,8,,,Operational
-05,Ubicación (horizontal – 1),005061,Posición angular Z desde el centro de gravedad,°,6,-8000000,24,°,6,8,,,Operational
-05,Ubicación (horizontal – 1),005063,Eje longitudinal de la aeronave,°,2,0,16,°,2,5,,,Operational
-05,Ubicación (horizontal – 1),005064,Eje horizontal de la aeronave,°,2,0,16,°,2,5,,,Operational
-05,Ubicación (horizontal – 1),005066,Eje transversal de la aeronave,°,2,0,16,°,2,5,,,Operational
-05,Ubicación (horizontal – 1),005067,Número de líneas de exploración,Numérica,0,0,8,Numérica,0,3,,,Operational
-05,Ubicación (horizontal – 1),005068,Número de perfil,Numérica,0,0,16,Numérica,0,5,,,Operational
-05,Ubicación (horizontal – 1),005069,Canal receptor,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
-05,Ubicación (horizontal – 1),005070,Identificador de la observación,Numérica,0,0,30,Numérica,0,10,,,Operational
-05,Ubicación (horizontal – 1),005071,Identificador Stripmap,Numérica,0,0,16,Numérica,0,5,,,Operational
-05,Ubicación (horizontal – 1),005072,Número de espectros en la dirección del alcance,Numérica,0,0,8,Numérica,0,3,,,Operational
-05,Ubicación (horizontal – 1),005073,Número de espectros en dirección azimutal,Numérica,0,0,8,Numérica,0,3,,,Operational
-05,Ubicación (horizontal – 1),005074,Índice en la dirección del alcance,Numérica,0,0,8,Numérica,0,3,,,Operational
-05,Ubicación (horizontal – 1),005075,Índice en dirección azimutal,Numérica,0,0,8,Numérica,0,3,,,Operational
+Id,ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+bufr4/0/05/001,05,Ubicación (horizontal – 1),005001,Latitud (gran precisión),°,5,-9000000,25,°,5,7,,,Operational
+bufr4/0/05/002,05,Ubicación (horizontal – 1),005002,Latitud (precisión aproximada),°,2,-9000,15,°,2,4,,,Operational
+bufr4/0/05/011,05,Ubicación (horizontal – 1),005011,Incremento de la latitud (gran precisión),°,5,-9000000,25,°,5,7,,,Operational
+bufr4/0/05/012,05,Ubicación (horizontal – 1),005012,Incremento de la latitud (precisión aproximada),°,2,-9000,15,°,2,4,,,Operational
+bufr4/0/05/015,05,Ubicación (horizontal – 1),005015,Desplazamiento de latitud (gran precisión),°,5,-9000000,25,°,5,7,,,Operational
+bufr4/0/05/016,05,Ubicación (horizontal – 1),005016,Desplazamiento de latitud (precisión aproximada),°,2,-9000,15,°,2,4,,,Operational
+bufr4/0/05/021,05,Ubicación (horizontal – 1),005021,Rumbo o azimut,grado verdadero,2,0,16,grado verdadero,2,5,,,Operational
+bufr4/0/05/022,05,Ubicación (horizontal – 1),005022,Azimut solar,grado verdadero,2,0,16,grado verdadero,2,5,,,Operational
+bufr4/0/05/023,05,Ubicación (horizontal – 1),005023,Diferencia entre azimut solar y satelital,°,1,-1800,12,°,1,4,,,Operational
+bufr4/0/05/030,05,Ubicación (horizontal – 1),005030,Dirección (espectral),°,0,0,12,°,0,4,,,Operational
+bufr4/0/05/031,05,Ubicación (horizontal – 1),005031,Número de la fila,Numérica,0,0,12,Numérica,0,4,,,Operational
+bufr4/0/05/032,05,Ubicación (horizontal – 1),005032,Compensación en Y,m,2,-1073741824,31,m,2,11,(véase la nota 6),,Operational
+bufr4/0/05/033,05,Ubicación (horizontal – 1),005033,Tamaño de los píxeles en la horizontal – 1,m,-1,0,16,m,-1,5,,,Operational
+bufr4/0/05/034,05,Ubicación (horizontal – 1),005034,Número de la fila a lo largo de la trayectoria,Numérica,0,0,11,Numérica,0,4,,,Operational
+bufr4/0/05/035,05,Ubicación (horizontal – 1),005035,Tamaño máximo de la dimensión x,Numérica,0,0,12,Numérica,0,4,,,Operational
+bufr4/0/05/036,05,Ubicación (horizontal – 1),005036,Número de transecta del buque según el SOOP,Numérica,0,0,7,Numérica,0,2,,,Operational
+bufr4/0/05/040,05,Ubicación (horizontal – 1),005040,Número de la órbita,Numérica,0,0,24,Numérica,0,8,,,Operational
+bufr4/0/05/041,05,Ubicación (horizontal – 1),005041,Número de la línea de exploración,Numérica,0,0,8,Numérica,0,3,,,Operational
+bufr4/0/05/042,05,Ubicación (horizontal – 1),005042,Número del canal,Numérica,0,0,6,Numérica,0,2,,,Operational
+bufr4/0/05/043,05,Ubicación (horizontal – 1),005043,Número del campo de visión,Numérica,0,0,8,Numérica,0,3,,,Operational
+bufr4/0/05/044,05,Ubicación (horizontal – 1),005044,Número de ciclo del satélite,Numérica,0,0,11,Numérica,0,4,,,Operational
+bufr4/0/05/045,05,Ubicación (horizontal – 1),005045,Número del campo de referencia,Numérica,0,0,8,Numérica,0,3,,,Operational
+bufr4/0/05/052,05,Ubicación (horizontal – 1),005052,Incremento del número del canal,Numérica,0,0,5,Numérica,0,2,,,Operational
+bufr4/0/05/053,05,Ubicación (horizontal – 1),005053,Incremento del número del campo de visión,Numérica,0,0,5,Numérica,0,2,,,Operational
+bufr4/0/05/060,05,Ubicación (horizontal – 1),005060,Posición angular Y desde el centro de gravedad,°,6,-8000000,24,°,6,8,,,Operational
+bufr4/0/05/061,05,Ubicación (horizontal – 1),005061,Posición angular Z desde el centro de gravedad,°,6,-8000000,24,°,6,8,,,Operational
+bufr4/0/05/063,05,Ubicación (horizontal – 1),005063,Eje longitudinal de la aeronave,°,2,0,16,°,2,5,,,Operational
+bufr4/0/05/064,05,Ubicación (horizontal – 1),005064,Eje horizontal de la aeronave,°,2,0,16,°,2,5,,,Operational
+bufr4/0/05/066,05,Ubicación (horizontal – 1),005066,Eje transversal de la aeronave,°,2,0,16,°,2,5,,,Operational
+bufr4/0/05/067,05,Ubicación (horizontal – 1),005067,Número de líneas de exploración,Numérica,0,0,8,Numérica,0,3,,,Operational
+bufr4/0/05/068,05,Ubicación (horizontal – 1),005068,Número de perfil,Numérica,0,0,16,Numérica,0,5,,,Operational
+bufr4/0/05/069,05,Ubicación (horizontal – 1),005069,Canal receptor,Tabla de cifrado,0,0,2,Tabla de cifrado,0,1,,,Operational
+bufr4/0/05/070,05,Ubicación (horizontal – 1),005070,Identificador de la observación,Numérica,0,0,30,Numérica,0,10,,,Operational
+bufr4/0/05/071,05,Ubicación (horizontal – 1),005071,Identificador Stripmap,Numérica,0,0,16,Numérica,0,5,,,Operational
+bufr4/0/05/072,05,Ubicación (horizontal – 1),005072,Número de espectros en la dirección del alcance,Numérica,0,0,8,Numérica,0,3,,,Operational
+bufr4/0/05/073,05,Ubicación (horizontal – 1),005073,Número de espectros en dirección azimutal,Numérica,0,0,8,Numérica,0,3,,,Operational
+bufr4/0/05/074,05,Ubicación (horizontal – 1),005074,Índice en la dirección del alcance,Numérica,0,0,8,Numérica,0,3,,,Operational
+bufr4/0/05/075,05,Ubicación (horizontal – 1),005075,Índice en dirección azimutal,Numérica,0,0,8,Numérica,0,3,,,Operational

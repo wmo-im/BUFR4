@@ -1,32 +1,32 @@
-ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
-07,Ubicación (vertical),007001,Altura de la estación,m,0,-400,15,m,0,5,(véase la nota 1),,Operational
-07,Ubicación (vertical),007002,Altura o altitud,m,-1,-40,16,m,-1,5,,,Operational
-07,Ubicación (vertical),007003,Geopotencial,m² s-2,-1,-400,17,m² s-2,-1,6,,,Operational
-07,Ubicación (vertical),007004,Presión,Pa,-1,0,14,Pa,-1,5,,,Operational
-07,Ubicación (vertical),007005,Incremento de la altura,m,0,-400,12,m,0,4,,,Operational
-07,Ubicación (vertical),007006,Altura por encima de la estación,m,0,0,15,m,0,5,,,Operational
-07,Ubicación (vertical),007007,Altura,m,0,-1000,17,m,0,6,,,Operational
-07,Ubicación (vertical),007008,Geopotencial,m² s-2,0,-10000,20,m² s-2,0,7,,,Operational
-07,Ubicación (vertical),007009,Altura geopotencial,gpm,0,-1000,17,gpm,0,5,,,Operational
-07,Ubicación (vertical),007010,Nivel de vuelo,m,0,-1024,16,ft,-1,5,,,Operational
-07,Ubicación (vertical),007012,Altitud del punto de retícula,m,2,-50000,20,m,2,7,,,Operational
-07,Ubicación (vertical),007021,Elevación,°,2,-9000,15,°,2,5,(véase la nota 2),,Operational
-07,Ubicación (vertical),007022,Elevación solar,°,2,-9000,15,°,2,5,,,Operational
-07,Ubicación (vertical),007024,Ángulo cenital del satélite,°,2,-9000,15,°,2,5,,,Operational
-07,Ubicación (vertical),007025,Ángulo cenital del sol,°,2,-9000,15,°,2,5,,,Operational
-07,Ubicación (vertical),007026,Ángulo cenital del satélite,°,4,-900000,21,°,4,7,,,Operational
-07,Ubicación (vertical),007030,Altura del suelo de la estación sobre el nivel medio del mar,m,1,-4000,17,m,1,5,(véase la nota 3),,Operational
-07,Ubicación (vertical),007031,Altura del barómetro sobre el nivel medio del mar,m,1,-4000,17,m,1,5,(véase la nota 4),,Operational
-07,Ubicación (vertical),007032,Altura del sensor sobre el suelo local  (véase la nota 5),m,2,0,16,m,2,5,(o la cubierta de la plataforma marina),,Operational
-07,Ubicación (vertical),007033,Altura del sensor sobre la superficie del agua,m,1,0,12,m,1,4,(véase la nota 6),,Operational
-07,Ubicación (vertical),007035,Tamaño máximo de la dimensión z,Numérica,0,0,12,Numérica,0,4,,,Operational
-07,Ubicación (vertical),007036,Índice del nivel de z,Numérica,0,0,12,Numérica,0,4,,,Operational
-07,Ubicación (vertical),007040,Parámetro de impacto,m,1,62000000,22,m,1,8,(véase la nota 7),,Operational
-07,Ubicación (vertical),007061,Profundidad por debajo de la superficie de la tierra,m,2,0,14,m,2,5,,,Operational
-07,Ubicación (vertical),007062,Profundidad por debajo de la superficie del mar/del agua,m,1,0,17,m,1,6,,,Operational
-07,Ubicación (vertical),007063,Profundidad bajo la superficie del mar/agua,m,2,0,20,m,2,7,,,Operational
-07,Ubicación (vertical),007064,Altura representativa del sensor por encima de la estación,m,0,0,4,m,0,2,(véase la nota 8),,Operational
-07,Ubicación (vertical),007065,Presión del agua,Pa,-3,0,17,Pa,-3,6,,,Operational
-07,Ubicación (vertical),007070,Profundidad del ancla flotante,m,0,0,10,m,0,4,,,Operational
-07,Ubicación (vertical),007071,Altura,m,3,-10000000,26,m,3,8,(alta resolución),,Operational
-07,Ubicación (vertical),007072,Ángulo de exploración,grado,,-9000,15,grados,2,6,,,Operational
+Id,ClassNo,ClassName_es,FXY,ElementName_es,BUFR_Unit_es,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_es,CREX_Scale,CREX_DataWidth_Char,Note_es,noteIDs,Status
+bufr4/0/07/001,07,Ubicación (vertical),007001,Altura de la estación,m,0,-400,15,m,0,5,(véase la nota 1),,Operational
+bufr4/0/07/002,07,Ubicación (vertical),007002,Altura o altitud,m,-1,-40,16,m,-1,5,,,Operational
+bufr4/0/07/003,07,Ubicación (vertical),007003,Geopotencial,m² s-2,-1,-400,17,m² s-2,-1,6,,,Operational
+bufr4/0/07/004,07,Ubicación (vertical),007004,Presión,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/07/005,07,Ubicación (vertical),007005,Incremento de la altura,m,0,-400,12,m,0,4,,,Operational
+bufr4/0/07/006,07,Ubicación (vertical),007006,Altura por encima de la estación,m,0,0,15,m,0,5,,,Operational
+bufr4/0/07/007,07,Ubicación (vertical),007007,Altura,m,0,-1000,17,m,0,6,,,Operational
+bufr4/0/07/008,07,Ubicación (vertical),007008,Geopotencial,m² s-2,0,-10000,20,m² s-2,0,7,,,Operational
+bufr4/0/07/009,07,Ubicación (vertical),007009,Altura geopotencial,gpm,0,-1000,17,gpm,0,5,,,Operational
+bufr4/0/07/010,07,Ubicación (vertical),007010,Nivel de vuelo,m,0,-1024,16,ft,-1,5,,,Operational
+bufr4/0/07/012,07,Ubicación (vertical),007012,Altitud del punto de retícula,m,2,-50000,20,m,2,7,,,Operational
+bufr4/0/07/021,07,Ubicación (vertical),007021,Elevación,°,2,-9000,15,°,2,5,(véase la nota 2),,Operational
+bufr4/0/07/022,07,Ubicación (vertical),007022,Elevación solar,°,2,-9000,15,°,2,5,,,Operational
+bufr4/0/07/024,07,Ubicación (vertical),007024,Ángulo cenital del satélite,°,2,-9000,15,°,2,5,,,Operational
+bufr4/0/07/025,07,Ubicación (vertical),007025,Ángulo cenital del sol,°,2,-9000,15,°,2,5,,,Operational
+bufr4/0/07/026,07,Ubicación (vertical),007026,Ángulo cenital del satélite,°,4,-900000,21,°,4,7,,,Operational
+bufr4/0/07/030,07,Ubicación (vertical),007030,Altura del suelo de la estación sobre el nivel medio del mar,m,1,-4000,17,m,1,5,(véase la nota 3),,Operational
+bufr4/0/07/031,07,Ubicación (vertical),007031,Altura del barómetro sobre el nivel medio del mar,m,1,-4000,17,m,1,5,(véase la nota 4),,Operational
+bufr4/0/07/032,07,Ubicación (vertical),007032,Altura del sensor sobre el suelo local  (véase la nota 5),m,2,0,16,m,2,5,(o la cubierta de la plataforma marina),,Operational
+bufr4/0/07/033,07,Ubicación (vertical),007033,Altura del sensor sobre la superficie del agua,m,1,0,12,m,1,4,(véase la nota 6),,Operational
+bufr4/0/07/035,07,Ubicación (vertical),007035,Tamaño máximo de la dimensión z,Numérica,0,0,12,Numérica,0,4,,,Operational
+bufr4/0/07/036,07,Ubicación (vertical),007036,Índice del nivel de z,Numérica,0,0,12,Numérica,0,4,,,Operational
+bufr4/0/07/040,07,Ubicación (vertical),007040,Parámetro de impacto,m,1,62000000,22,m,1,8,(véase la nota 7),,Operational
+bufr4/0/07/061,07,Ubicación (vertical),007061,Profundidad por debajo de la superficie de la tierra,m,2,0,14,m,2,5,,,Operational
+bufr4/0/07/062,07,Ubicación (vertical),007062,Profundidad por debajo de la superficie del mar/del agua,m,1,0,17,m,1,6,,,Operational
+bufr4/0/07/063,07,Ubicación (vertical),007063,Profundidad bajo la superficie del mar/agua,m,2,0,20,m,2,7,,,Operational
+bufr4/0/07/064,07,Ubicación (vertical),007064,Altura representativa del sensor por encima de la estación,m,0,0,4,m,0,2,(véase la nota 8),,Operational
+bufr4/0/07/065,07,Ubicación (vertical),007065,Presión del agua,Pa,-3,0,17,Pa,-3,6,,,Operational
+bufr4/0/07/070,07,Ubicación (vertical),007070,Profundidad del ancla flotante,m,0,0,10,m,0,4,,,Operational
+bufr4/0/07/071,07,Ubicación (vertical),007071,Altura,m,3,-10000000,26,m,3,8,(alta resolución),,Operational
+bufr4/0/07/072,07,Ubicación (vertical),007072,Ángulo de exploración,grado,,-9000,15,grados,2,6,,,Operational
