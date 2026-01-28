@@ -1,0 +1,110 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/20/001,20,Classe 20 Phénomènes observés,020001,Visibilité horizontale,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/002,20,Classe 20 Phénomènes observés,020002,Visibilité verticale,m,-1,0,7,m,-1,3,,,Operational
+bufr4/0/20/003,20,Classe 20 Phénomènes observés,020003,Temps présent,Table de code,0,0,9,Table de code,0,3,(voir note 1),1,Operational
+bufr4/0/20/004,20,Classe 20 Phénomènes observés,020004,Temps passé (1),Table de code,0,0,5,Table de code,0,2,(voir note 2),2,Operational
+bufr4/0/20/005,20,Classe 20 Phénomènes observés,020005,Temps passé (2),Table de code,0,0,5,Table de code,0,2,(voir note 2),2,Operational
+bufr4/0/20/006,20,Classe 20 Phénomènes observés,020006,Règles de vol,Table de code,0,0,3,Table de code,0,1,,,Operational
+bufr4/0/20/008,20,Classe 20 Phénomènes observés,020008,"Répartition des nuages, pour l'aviation",Table de code,0,0,5,Table de code,0,2,,,Operational
+bufr4/0/20/009,20,Classe 20 Phénomènes observés,020009,Indicateur général du temps (TAF/METAR),Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/010,20,Classe 20 Phénomènes observés,020010,Nébulosité (totale),%,0,0,7,%,0,3,(voir note 5),5,Operational
+bufr4/0/20/011,20,Classe 20 Phénomènes observés,020011,Nébulosité,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/012,20,Classe 20 Phénomènes observés,020012,Type de nuage,Table de code,0,0,6,Table de code,0,2,,,Operational
+bufr4/0/20/013,20,Classe 20 Phénomènes observés,020013,Hauteur de la base des nuages,m,-1,-40,11,m,-1,4,,,Operational
+bufr4/0/20/014,20,Classe 20 Phénomènes observés,020014,Hauteur du sommet des nuages,m,-1,-40,11,m,-1,4,,,Operational
+bufr4/0/20/015,20,Classe 20 Phénomènes observés,020015,Pression à la base des nuages,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/016,20,Classe 20 Phénomènes observés,020016,Pression au sommet des nuages,Pa,-1,0,14,Pa,-1,5,,,Operational
+bufr4/0/20/017,20,Classe 20 Phénomènes observés,020017,Description du sommet des nuages,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/018,20,Classe 20 Phénomènes observés,020018,Tendance de la portée visuelle de piste,Table de code,0,0,2,Table de code,0,1,,,Operational
+bufr4/0/20/019,20,Classe 20 Phénomènes observés,020019,Temps significatif présent ou prévu,CCITT IA5,0,0,72,Caractère,0,9,(voir note 15),15,Operational
+bufr4/0/20/020,20,Classe 20 Phénomènes observés,020020,Phénomènes météorologiques significatifs récents,CCITT IA5,0,0,32,Caractère,0,4,(voir note 15),15,Operational
+bufr4/0/20/021,20,Classe 20 Phénomènes observés,020021,Type de précipitation,Table d'indicateurs,0,0,30,Table d'indicateurs,0,10,,,Operational
+bufr4/0/20/022,20,Classe 20 Phénomènes observés,020022,Caractéristique de la précipitation,Table de code,0,,4,Table de code,0,2,,,Operational
+bufr4/0/20/023,20,Classe 20 Phénomènes observés,020023,Autres phénomènes météorologiques,Table d'indicateurs,0,0,18,Table d'indicateurs,0,1,,,Operational
+bufr4/0/20/024,20,Classe 20 Phénomènes observés,020024,Intensité du phénomène,Table de code,0,0,3,Table de code,0,1,,,Operational
+bufr4/0/20/025,20,Classe 20 Phénomènes observés,020025,Obscurcissement,Table d'indicateurs,0,0,21,Table d'indicateurs,0,7,,,Operational
+bufr4/0/20/026,20,Classe 20 Phénomènes observés,020026,Caractéristique de l'obscurcissement,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/027,20,Classe 20 Phénomènes observés,020027,Apparition du phénomène,Table d'indicateurs,0,0,9,Table d'indicateurs,0,3,,,Operational
+bufr4/0/20/028,20,Classe 20 Phénomènes observés,020028,Changement d'intensité prévu,Table de code,0,0,3,Table de code,0,1,,,Operational
+bufr4/0/20/029,20,Classe 20 Phénomènes observés,020029,Indicateur de pluie,Table de code,0,0,2,Table de code,0,1,,,Operational
+bufr4/0/20/031,20,Classe 20 Phénomènes observés,020031,Dépôt de glace (épaisseur),m,2,0,7,m,2,3,,,Operational
+bufr4/0/20/032,20,Classe 20 Phénomènes observés,020032,Vitesse d'accumulation de la glace (estimation),Table de code,0,0,3,Table de code,0,1,,,Operational
+bufr4/0/20/033,20,Classe 20 Phénomènes observés,020033,Cause de l'accumulation de la glace,Table d'indicateurs,0,0,4,Table d'indicateurs,0,2,,,Operational
+bufr4/0/20/034,20,Classe 20 Phénomènes observés,020034,Concentration des glaces de mer,Table de code,0,0,5,Table de code,0,2,,,Operational
+bufr4/0/20/035,20,Classe 20 Phénomènes observés,020035,Quantité et type de glace,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/036,20,Classe 20 Phénomènes observés,020036,Situation des glaces,Table de code,0,0,5,Table de code,0,2,,,Operational
+bufr4/0/20/037,20,Classe 20 Phénomènes observés,020037,Évolution de la glace,Table de code,0,0,5,Table de code,0,2,,,Operational
+bufr4/0/20/038,20,Classe 20 Phénomènes observés,020038,Direction de la lisière des glaces,degré vrai,0,0,12,degré vrai,0,3,(voir note 3),3,Operational
+bufr4/0/20/039,20,Classe 20 Phénomènes observés,020039,Distance des glaces,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/040,20,Classe 20 Phénomènes observés,020040,Évolution de la chasse-neige,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/041,20,Classe 20 Phénomènes observés,020041,Givrage d'aéronef,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/042,20,Classe 20 Phénomènes observés,020042,Givrage de la cellule,Table de code,0,0,2,Table de code,0,1,,,Operational
+bufr4/0/20/043,20,Classe 20 Phénomènes observés,020043,Teneur maximale en eau à l'état liquide,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/044,20,Classe 20 Phénomènes observés,020044,Teneur moyenne en eau à l'état liquide,kg m-3,4,0,7,kg m-3,4,2,,,Operational
+bufr4/0/20/045,20,Classe 20 Phénomènes observés,020045,Grosses gouttes d'eau surfondues,Table de code,0,0,2,Table de code,0,1,,,Operational
+bufr4/0/20/048,20,Classe 20 Phénomènes observés,020048,Évolution du phénomène,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/050,20,Classe 20 Phénomènes observés,020050,Index des nuages,Table de code,0,0,8,Table de code,0,3,,,Operational
+bufr4/0/20/051,20,Classe 20 Phénomènes observés,020051,Quantité de nuages bas,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/052,20,Classe 20 Phénomènes observés,020052,Quantité de nuages de l'étage moyen,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/053,20,Classe 20 Phénomènes observés,020053,Quantité de nuages élevés,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/054,20,Classe 20 Phénomènes observés,020054,Direction vraie d'où viennent ou dans laquelle sont observés le phénomène indiqué ou les nuages,degré vrai,0,0,9,degré vrai,0,3,(voir note 17),17,Operational
+bufr4/0/20/055,20,Classe 20 Phénomènes observés,020055,État du ciel dans les régions tropicales,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/056,20,Classe 20 Phénomènes observés,020056,Phase des nuages,Table de code,0,0,3,Table de code,0,1,,,Operational
+bufr4/0/20/058,20,Classe 20 Phénomènes observés,020058,Visibilité sur la mer depuis une station côtière,m,-1,0,13,m,-1,4,,,Operational
+bufr4/0/20/059,20,Classe 20 Phénomènes observés,020059,Visibilité horizontale minimale,m,-1,0,9,m,-1,3,,,Operational
+bufr4/0/20/060,20,Classe 20 Phénomènes observés,020060,Visibilité horizontale dominante,m,-1,0,10,m,-1,4,(voir note 7),7,Operational
+bufr4/0/20/061,20,Classe 20 Phénomènes observés,020061,Portée visuelle de piste (PVP),m,0,0,12,m,0,,,,Operational
+bufr4/0/20/062,20,Classe 20 Phénomènes observés,020062,État du sol (recouvert ou non d'une couche de neige),Table de code,0,0,5,Table de code,0,2,,,Operational
+bufr4/0/20/063,20,Classe 20 Phénomènes observés,020063,Phénomènes spéciaux,Table de code,0,0,10,Table de code,0,4,,,Operational
+bufr4/0/20/065,20,Classe 20 Phénomènes observés,020065,Couverture neigeuse,%,0,0,7,%,0,3,(voir note 4),4,Operational
+bufr4/0/20/066,20,Classe 20 Phénomènes observés,020066,Diamètre maximal des grelons,m,3,0,8,m,3,3,,,Operational
+bufr4/0/20/067,20,Classe 20 Phénomènes observés,020067,Diamètre du dépôt,m,3,0,9,m,3,3,,,Operational
+bufr4/0/20/070,20,Classe 20 Phénomènes observés,020070,Nombre minimal d'atmosphériques,Numérique,0,0,7,Numérique,0,3,,,Operational
+bufr4/0/20/071,20,Classe 20 Phénomènes observés,020071,Exactitude et taux des atmosphériques,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/081,20,Classe 20 Phénomènes observés,020081,Étendue de la couche nuageuse dans le secteur,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/082,20,Classe 20 Phénomènes observés,020082,Partie du segment libre de nuages,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/083,20,Classe 20 Phénomènes observés,020083,Partie du segment couverte par la scène,%,0,0,7,%,0,3,,,Operational
+bufr4/0/20/085,20,Classe 20 Phénomènes observés,020085,État général de la piste,Table de code,0,0,4,Table de code,0,1,,,Operational
+bufr4/0/20/086,20,Classe 20 Phénomènes observés,020086,Dépôts sur la piste,Table de code,0,0,4,Table de code,0,1,,,Operational
+bufr4/0/20/087,20,Classe 20 Phénomènes observés,020087,Contamination de la piste,Table de code,0,0,4,Table de code,0,1,,,Operational
+bufr4/0/20/088,20,Classe 20 Phénomènes observés,020088,Épaisseur des dépôts sur la piste,m,3,0,12,m,0,4,,,Operational
+bufr4/0/20/089,20,Classe 20 Phénomènes observés,020089,Coefficient de frottement de la piste,Table de code,0,0,7,Table de code,0,2,,,Operational
+bufr4/0/20/090,20,Classe 20 Phénomènes observés,020090,Nuages spéciaux,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/091,20,Classe 20 Phénomènes observés,020091,Visibilité verticale,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/092,20,Classe 20 Phénomènes observés,020092,Hauteur de la base des nuages,ft,-2,0,10,ft,-2,3,,,Operational
+bufr4/0/20/093,20,Classe 20 Phénomènes observés,020093,Hauteur d'inversion,m,-1,0,8,m,-1,3,,,Operational
+bufr4/0/20/095,20,Classe 20 Phénomènes observés,020095,Probabilité de glace,Numérique,3,0,10,dB,3,4,,,Operational
+bufr4/0/20/096,20,Classe 20 Phénomènes observés,020096,Âge de la glace (paramètre A),dB,2,-4096,13,dB,2,4,,,Operational
+bufr4/0/20/101,20,Classe 20 Phénomènes observés,020101,Nom de l'acridien,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/102,20,Classe 20 Phénomènes observés,020102,Couleur de l'acridien (maturité),Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/103,20,Classe 20 Phénomènes observés,020103,Stade de développement des acridiens,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/104,20,Classe 20 Phénomènes observés,020104,Degré d'organisation de l'essaim ou de la bande d'acridiens,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/105,20,Classe 20 Phénomènes observés,020105,Dimension de l'essaim ou de la bande d'acridiens et durée du passage de l'essaim,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/106,20,Classe 20 Phénomènes observés,020106,Densité de la population d'acridiens,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/107,20,Classe 20 Phénomènes observés,020107,Direction du déplacement de l'essaim d'acridiens,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/108,20,Classe 20 Phénomènes observés,020108,Étendue de la végétation,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/111,20,Classe 20 Phénomènes observés,020111,"Composante principale de l'ellipse d'erreur, axe x (voir notes 8 et 9)",m,-1,0,17,m,-1,6,,,Operational
+bufr4/0/20/112,20,Classe 20 Phénomènes observés,020112,"Composante secondaire de l'ellipse d'erreur, axe y (voir notes 8 et 9)",m,-1,0,17,m,-1,6,,,Operational
+bufr4/0/20/113,20,Classe 20 Phénomènes observés,020113,"Composante de l'ellipse d'erreur, axe z",m,-1,0,17,m,-1,6,(voir note 9),9,Operational
+bufr4/0/20/114,20,Classe 20 Phénomènes observés,020114,Angle de l'axe x dans l'ellipse d'erreur,°,2,-18000,16,°,2,5,(voir note 10),10,Operational
+bufr4/0/20/115,20,Classe 20 Phénomènes observés,020115,Angle de l'axe z dans l'ellipse d'erreur,°,2,-18000,16,°,2,5,(voir note 11),11,Operational
+bufr4/0/20/116,20,Classe 20 Phénomènes observés,020116,Altitude d'émission de la décharge interne,m,0,0,16,m,0,5,,,Operational
+bufr4/0/20/117,20,Classe 20 Phénomènes observés,020117,Amplitude de l'éclair,A,-1,-32000,16,A,-1,5,,,Operational
+bufr4/0/20/118,20,Classe 20 Phénomènes observés,020118,Erreur de détection de l'éclair,m,0,0,19,m,0,6,,,Operational
+bufr4/0/20/119,20,Classe 20 Phénomènes observés,020119,Polarité de décharge des éclairs,Table de code,0,0,2,Table de code,0,1,,,Operational
+bufr4/0/20/121,20,Classe 20 Phénomènes observés,020121,Valeur seuil pour la décision de polarité,V,3,0,16,V,3,5,(voir note 12),12,Operational
+bufr4/0/20/122,20,Classe 20 Phénomènes observés,020122,Valeur seuil pour la décision de polarité,A,0,0,16,A,0,5,(voir note 13),13,Operational
+bufr4/0/20/123,20,Classe 20 Phénomènes observés,020123,Seuil minimum de détection,V m-1,3,0,16,V m-1,3,5,(voir note 14),14,Operational
+bufr4/0/20/124,20,Classe 20 Phénomènes observés,020124,Coup de foudre ou éclair,Table de code,0,0,2,Table de code,0,1,,,Operational
+bufr4/0/20/126,20,Classe 20 Phénomènes observés,020126,Fréquence de décharge des éclairs,h-1,0,0,23,h-1,0,7,,,Operational
+bufr4/0/20/127,20,Classe 20 Phénomènes observés,020127,Éclairs – distance par rapport à la station,m,-3,0,8,m,-3,3,,,Operational
+bufr4/0/20/128,20,Classe 20 Phénomènes observés,020128,Éclairs – direction par rapport à la station,degré vrai,1,0,12,degré vrai,1,4,,,Operational
+bufr4/0/20/129,20,Classe 20 Phénomènes observés,020129,"Densité de la foudre (arc, éclair ou phénomène)",m-2,6,0,10,m-2,6,4,,,Operational
+bufr4/0/20/130,20,Classe 20 Phénomènes observés,020130,Concentration d'hydrométéores nuageux,Numérique,0,0,10,Numérique,0,3,(voir note 16),16,Operational
+bufr4/0/20/131,20,Classe 20 Phénomènes observés,020131,Rayon effectif des hydrométéores nuageux,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/132,20,Classe 20 Phénomènes observés,020132,Teneur en eau liquide des nuages,kg m-3,5,0,11,kg m-3,5,4,,,Operational
+bufr4/0/20/133,20,Classe 20 Phénomènes observés,020133,Rayon de l'hydrométéore,m,5,0,6,m,5,2,,,Operational
+bufr4/0/20/135,20,Classe 20 Phénomènes observés,020135,Masse de glace (sur une perche),kg m-1,1,0,10,kg m-1,1,3,,,Operational
+bufr4/0/20/136,20,Classe 20 Phénomènes observés,020136,Types de nuages supplémentaires,Table de code,0,0,9,Table de code,0,3,,,Operational
+bufr4/0/20/137,20,Classe 20 Phénomènes observés,020137,Évolution des nuages,Table de code,0,0,4,Table de code,0,2,,,Operational
+bufr4/0/20/138,20,Classe 20 Phénomènes observés,020138,État du revêtement,Table de code,0,0,4,Table de code,0,2,,,Operational

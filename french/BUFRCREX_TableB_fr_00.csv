@@ -1,0 +1,25 @@
+Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit_fr,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit_fr,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status
+bufr4/0/00/001,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000001,Table A: entrée,CCITT IA5,0,0,24,Caractère,0,3,,,Operational
+bufr4/0/00/002,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000002,"Table A: description de la catégorie de données, ligne 1",CCITT IA5,0,0,256,Caractère,0,32,,,Operational
+bufr4/0/00/003,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000003,"Table A: description de la catégorie de données, ligne 2",CCITT IA5,0,0,256,Caractère,0,32,,,Operational
+bufr4/0/00/004,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000004,Table principle BUFR/CREX,CCITT IA5,0,0,16,Caractère,0,2,(voir note 1),,Operational
+bufr4/0/00/005,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000005,Numéro d’édition BUFR,CCITT IA5,0,0,24,Caractère,0,3,,,Operational
+bufr4/0/00/006,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000006,Numéro de la version de la table principale BUFR,CCITT IA5,0,0,16,Caractère,0,2,(voir note 2),,Operational
+bufr4/0/00/007,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000007,Numéro de version de la table principale CREX,CCITT IA5,0,0,16,Caractère,0,2,(voir note 3),,Operational
+bufr4/0/00/008,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000008,Numéro de version de la table locale BUFR,CCITT IA5,0,0,16,Caractère,0,2,(voir note 4),,Operational
+bufr4/0/00/010,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000010,Descripteur F à ajouter ou à définir,CCITT IA5,0,0,8,Caractère,0,1,,,Operational
+bufr4/0/00/011,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000011,Descripteur X à ajouter ou à définir,CCITT IA5,0,0,16,Caractère,0,2,,,Operational
+bufr4/0/00/012,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000012,Descripteur Y à ajouter ou à définir,CCITT IA5,0,0,24,Caractère,0,3,,,Operational
+bufr4/0/00/013,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000013,"Nom de l’élément, ligne 1",CCITT IA5,0,0,256,Caractère,0,32,,,Operational
+bufr4/0/00/014,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000014,"Nom de l’élément, ligne 2",CCITT IA5,0,0,256,Caractère,0,32,,,Operational
+bufr4/0/00/015,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000015,Nom des unités,CCITT IA5,0,0,192,Caractère,0,24,,,Operational
+bufr4/0/00/016,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000016,Signe du facteur d’échelle,CCITT IA5,0,0,8,Caractère,0,1,,,Operational
+bufr4/0/00/017,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000017,Facteur d’échelle,CCITT IA5,0,0,24,Caractère,0,3,,,Operational
+bufr4/0/00/018,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000018,Signe de la référence des unités,CCITT IA5,0,0,8,Caractère,0,1,,,Operational
+bufr4/0/00/019,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000019,Valeur de la référence des unités,CCITT IA5,0,0,80,Caractère,0,10,,,Operational
+bufr4/0/00/020,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000020,Champ de données de l’élément,CCITT IA5,0,0,24,Caractère,0,3,,,Operational
+bufr4/0/00/024,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000024,Chiffre de code,CCITT IA5,0,0,64,Caractère,0,8,,,Operational
+bufr4/0/00/025,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000025,Signification du chiffre de code,CCITT IA5,0,0,496,Caractère,0,62,,,Operational
+bufr4/0/00/026,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000026,Numéro de bit,CCITT IA5,0,0,48,Caractère,0,6,,,Operational
+bufr4/0/00/027,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000027,Signification du numéro de bit,CCITT IA5,0,0,496,Caractère,0,62,,,Operational
+bufr4/0/00/030,00,Classe 00 — Entrées des tables de code BUFR/CREX*,000030,Séquence définissant le descripteur,CCITT IA5,0,0,48,Caractère,0,6,,,Operational
