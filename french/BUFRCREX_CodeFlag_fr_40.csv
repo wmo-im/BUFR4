@@ -1,221 +1,221 @@
-FXY,ElementName_fr,CodeFigure,EntryName_fr,EntryName_sub1_fr,EntryName_sub2_fr,Note_fr,noteIDs,Status
-040005,Indicateur de correction de l'humidité du sol,1,Humidité du sol entre -20 % et 0 %,,,,,Operational
-040005,Indicateur de correction de l'humidité du sol,2,Humidité du sol entre 100 % et 120 %,,,,,Operational
-040005,Indicateur de correction de l'humidité du sol,3,Correction de la référence de rétrodiffusion par conditions humides,,,,,Operational
-040005,Indicateur de correction de l'humidité du sol,4,Correction de la référence de rétrodiffusion par conditions sèches,,,,,Operational
-040005,Indicateur de correction de l'humidité du sol,5,Correction de la diffusion du volume dans le sable,,,,,Operational
-040005,Indicateur de correction de l'humidité du sol,6-7,En réserve,,,,,Operational
-040005,Indicateur de correction de l'humidité du sol,8 bits mis à 1,Valeur manquante,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,1,Pas de sol,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,2,Sensibilité à l'humidité du sol inférieure au seuil,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,3,Bruit en azimut supérieur au seuil,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,4,Rétrodiffusion faisceaux avant-arrière hors limites,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,5,Pente faisceaux médian-avant hors limites,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,6,Pente faisceaux médian-arrière hors limites,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,7,Humidité du sol inférieure à -20 %,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,8,Humidité du sol inférieure à 120 %,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,9-15,En réserve,,,,,Operational
-040006,Indicateur de traitement de l'humidité du sol,16 bits mis à 1,Valeur manquante,,,,,Operational
-040011,Indicateur d'interpolation,1,Indicateur d'interpolation de la surface moyenne de la mer,,,,,Operational
-040011,Indicateur d'interpolation,2,"Indicateur d'interpolation de la marée océanique (solution 1) (0 = 4 points au-dessus de l'océan, 1 = moins de 4 points)",,,,,Operational
-040011,Indicateur d'interpolation,3,"Indicateur d'interpolation de la marée océanique (solution 2) (0 = 4 points au-dessus de l'océan, 1 = moins de 4 points)",,,,,Operational
-040011,Indicateur d'interpolation,4,"Indicateur d'interpolation des données météorologiques (0 = 4 points au-dessus de l'océan, 1 = moins de 4 points)",,,,,Operational
-040011,Indicateur d'interpolation,5-7,En réserve,,,,,Operational
-040011,Indicateur d'interpolation,8 bits mis à 1,Valeur manquante,,,,,Operational
-040012,Indicateur de qualité des données du radiomètre,1,"Température de luminance en bande 18,7 GHz",Signification (0 = bonne; 1 = mauvaise),,,,Operational
-040012,Indicateur de qualité des données du radiomètre,2,"Température de luminance en bande 23,8 GHz",Signification (0 = bonne; 1 = mauvaise),,,,Operational
-040012,Indicateur de qualité des données du radiomètre,3,Température de luminance en bande 34 GHz,Signification (0 = bonne; 1 = mauvaise),,,,Operational
-040012,Indicateur de qualité des données du radiomètre,4-7,En réserve,Signification (0 = bonne; 1 = mauvaise),,,,Operational
-040012,Indicateur de qualité des données du radiomètre,8 bits mis à 1,Valeur manquante,Signification (0 = bonne; 1 = mauvaise),,,,Operational
-040013,Indicateur d'interprétation de la température de luminance du radiomètre,0,Interpolation sans interruption dans les données du JMR*,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
-040013,Indicateur d'interprétation de la température de luminance du radiomètre,1,Interpolation avec interruptions dans les données du JMR*,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
-040013,Indicateur d'interprétation de la température de luminance du radiomètre,2,Extrapolation des données du JMR*,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
-040013,Indicateur d'interprétation de la température de luminance du radiomètre,3,Défaillance de l'extrapolation et de l'interpolation,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
-040013,Indicateur d'interprétation de la température de luminance du radiomètre,4-6,En réserve,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
-040013,Indicateur d'interprétation de la température de luminance du radiomètre,7,Valeur manquante,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,1,Erreur d'étalonnage complexe et NZPD,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,2,Bande 3 affectée par une pointe de bruit,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,3,Bande 3 affectée par une saturation,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,4,Bande 2 affectée par une pointe de bruit,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,5,Bande 1 affectée par une pointe de bruit,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,6,Écoulement par-dessus ou par-dessous,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,7,Erreur de traitement à bord,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,8,Erreur d'étalonnage spectral,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,9,Erreur d'étalonnage radiométrique,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,10,Données manquantes du radiomètre AVHRR,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,11,Données manquantes de l'IIS,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,12,Données manquantes du sondeur,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,13,Indicateur récapitulatif GqisFlagQual pour toutes les bandes,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,14,Erreur de traitement au sol,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,15,Erreur d'interétalonnage IASI/AVHRR,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,16,Disponible,,,,,Operational
-040020,GqisFlagQualDetailed – indicateur de qualité du système,17 bits mis à 1,Valeur manquante,,,,,Operational
-040023,Indicateur de l'état de l'altimètre auxiliaire,1,"Séquence dans la bande (0 = 3Ku_1C_3Ku, 1 = 2Ku_1C_2Ku)",,,,,Operational
-040023,Indicateur de l'état de l'altimètre auxiliaire,2,"Fréquence en bande C (0 = 320 MHz, 1 = 100 MHz)",,,,,Operational
-040023,Indicateur de l'état de l'altimètre auxiliaire,3,"État de la bande C (0 = Marche, 1 = Arrêt)",,,,,Operational
-040023,Indicateur de l'état de l'altimètre auxiliaire,4,"État de la bande Ku (0 = Marche, 1 = Arrêt)",,,,,Operational
-040023,Indicateur de l'état de l'altimètre auxiliaire,5 bits mis à 1,Valeur manquante,,,,,Operational
-040024,Existence de cartes météorologiques,0,2 cartes disponibles (à 6 heures d'intervalle),,,,,Operational
-040024,Existence de cartes météorologiques,1,2 cartes disponibles (à plus de 6 heures d'intervalle),,,,,Operational
-040024,Existence de cartes météorologiques,2,1 carte disponible; données extrapolées,,,,,Operational
-040024,Existence de cartes météorologiques,3,Aucune carte utilisée,,,,,Operational
-040024,Existence de cartes météorologiques,4-6,En réserve,,,,,Operational
-040024,Existence de cartes météorologiques,7,Valeur manquante,,,,,Operational
-040025,Indicateur d'interpolation pour la marée diurne moyenne,0,Bonne,,,,,Operational
-040025,Indicateur d'interpolation pour la marée diurne moyenne,1,Mauvaise,,,,,Operational
-040025,Indicateur d'interpolation pour la marée diurne moyenne,2,En réserve,,,,,Operational
-040025,Indicateur d'interpolation pour la marée diurne moyenne,3,Valeur manquante,,,,,Operational
-040028,Indicateur de qualité des données du GMI,0,Données de bonne qualité,,,,,Operational
-040028,Indicateur de qualité des données du GMI,1,Reflet solaire probable,,,,,Operational
-040028,Indicateur de qualité des données du GMI,2,Brouillage radioélectrique probable,,,,,Operational
-040028,Indicateur de qualité des données du GMI,3,Données de localisation géographique dégradées,,,,,Operational
-040028,Indicateur de qualité des données du GMI,4,Données corrigées pour intrusion sur charge chaude,,,,,Operational
-040028,Indicateur de qualité des données du GMI,5,Suppression du balayage,,,,,Operational
-040028,Indicateur de qualité des données du GMI,6,Données manquantes dans le fichier ou données illisibles,,,,,Operational
-040028,Indicateur de qualité des données du GMI,7,Température de luminance physiquement impossible,,,,,Operational
-040028,Indicateur de qualité des données du GMI,8,Erreur dans les données de localisation géographique,,,,,Operational
-040028,Indicateur de qualité des données du GMI,9,Données manquantes dans un canal,,,,,Operational
-040028,Indicateur de qualité des données du GMI,10,Données manquantes dans plusieurs canaux,,,,,Operational
-040028,Indicateur de qualité des données du GMI,11,Latitude/longitude hors limites,,,,,Operational
-040028,Indicateur de qualité des données du GMI,12,Modes d'un statut anormal,,,,,Operational
-040028,Indicateur de qualité des données du GMI,13,Distance au pixel de basse fréquence correspondant > 7 km,,,,,Operational
-040028,Indicateur de qualité des données du GMI,14,En réserve,,,,,Operational
-040028,Indicateur de qualité des données du GMI,15,Valeur manquante (aucune information disponible sur la qualité),,,,,Operational
-040036,Type de classification des produits lidar de niveau L2b,0,Ciel clair,,,,,Operational
-040036,Type de classification des produits lidar de niveau L2b,1,Nuages,,,,,Operational
-040036,Type de classification des produits lidar de niveau L2b,2-14,En réserve,,,,,Operational
-040036,Type de classification des produits lidar de niveau L2b,15,Valeur manquante,,,,,Operational
-040043,Indicateur de manœuvre du satellite,0,La plate-forme ne subit pas de manœuvre,,,,,Operational
-040043,Indicateur de manœuvre du satellite,1,"La plate-forme subit une manœuvre, traitement nominal",,,,,Operational
-040043,Indicateur de manœuvre du satellite,2,"La plate-forme subit une manœuvre, aucun traitement",,,,,Operational
-040043,Indicateur de manœuvre du satellite,3-6,En réserve,,,,,Operational
-040043,Indicateur de manœuvre du satellite,7,Valeur manquante,,,,,Operational
-040045,Formation de nuages et détermination de l'altitude,1,Produits relatifs aux nuages extraits par la méthode du chi-carré,,,,,Operational
-040045,Formation de nuages et détermination de l'altitude,2,Produits relatifs aux nuages extraits par découpage dans le canal du CO2,,,,,Operational
-040045,Formation de nuages et détermination de l'altitude,3,Détermination de l'altitude par extraction statistique en première approximation,,,,,Operational
-040045,Formation de nuages et détermination de l'altitude,4,Détermination de l'altitude par prévision numérique du temps,,,,,Operational
-040045,Formation de nuages et détermination de l'altitude,5 bits mis à 1,Valeur manquante,,,,,Operational
-040046,Résumé de la nébulosité,0,Le champ de vision instantanée IASI est clair,,,,,Operational
-040046,Résumé de la nébulosité,1,Possibilité de contamination de petits nuages,,,,,Operational
-040046,Résumé de la nébulosité,2,Le champ de vision instantanée IASI est partiellement couvert par des nuages,,,,,Operational
-040046,Résumé de la nébulosité,3,Couverture nuageuse dense ou intégrale,,,,,Operational
-040046,Résumé de la nébulosité,4-6,En réserve,,,,,Operational
-040046,Résumé de la nébulosité,7,Valeur manquante,,,,,Operational
-040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,0,Les mesures et les informations connexes sont disponibles et de bonne qualité en vue d'un traitement de niveau 2,,,,,Operational
-040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,1,"Les produits de niveau 1c sont de mauvaise qualité selon les indicateurs du même niveau, aucun traitement de niveau 2",,,,,Operational
-040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,2,"Le contrôle qualité indique que les données de niveau 1c sont de mauvaise qualité (sans indication des indicateurs IASI du même niveau), aucun traitement de niveau 2.",,,,,Operational
-040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,3-6,En réserve,,,,,Operational
-040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,7,Valeur manquante,,,,,Operational
-040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,0,"Les mesures AMSU attendues sont disponibles, de bonne qualité et superposées avec celles de IASI pour le traitement",,,,,Operational
-040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,1,Les données AMSU-A sont disponibles mais de mauvaise qualité (selon les indicateurs AMSU de niveau 1 ou les tests de contrôle de la qualité) et ne sont pas utilisées pour le traitement,,,,,Operational
-040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,2,Pas de mesures AMSU coïncidentes (dans le temps et l'espace) disponibles pour le traitement,,,,,Operational
-040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,3-6,En réserve,,,,,Operational
-040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,7,Valeur manquante,,,,,Operational
-040049,Tests de nuages effectués et résultats,1-3,En réserve,,,,,Operational
-040049,Tests de nuages effectués et résultats,4,L'épaisseur optique IASI des nuages indique un nuage,,,,,Operational
-040049,Tests de nuages effectués et résultats,5,L'épaisseur optique IASI des nuages est calculée,,,,,Operational
-040049,Tests de nuages effectués et résultats,6,Le test d'hétérogénéité AVHRR indique un nuage,,,,,Operational
-040049,Tests de nuages effectués et résultats,7,Le test d'hétérogénéité AVHRR est réalisé,,,,,Operational
-040049,Tests de nuages effectués et résultats,8,Le test de nuages IASI-AVHRR ANN indique un nuage,,,,,Operational
-040049,Tests de nuages effectués et résultats,9,Le test de nuages IASI-AVHRR ANN est réalisé,,,,,Operational
-040049,Tests de nuages effectués et résultats,10,L'élément nuage intégré AVHRR indique un nuage,,,,,Operational
-040049,Tests de nuages effectués et résultats,11,Évaluation de l'élément nuage intégré AVHRR,,,,,Operational
-040049,Tests de nuages effectués et résultats,12,Le test de nuages AMSU indique un nuage,,,,,Operational
-040049,Tests de nuages effectués et résultats,13,Le test de nuages AMSU est réalisé,,,,,Operational
-040049,Tests de nuages effectués et résultats,14,Le test de nuages de la fenêtre IASI Window indique un nuage,,,,,Operational
-040049,Tests de nuages effectués et résultats,15,Le test de nuages de la fenêtre IASI Window est réalisé,,,,,Operational
-040049,Tests de nuages effectués et résultats,16 bits mis à 1,Valeur manquante,,,,,Operational
-040050,Initialisation de l'extraction,1-4,En réserve,,,,,Operational
-040050,Initialisation de l'extraction,5,MHS inclus,,,,,Operational
-040050,Initialisation de l'extraction,6,AMSU inclus,,,,,Operational
-040050,Initialisation de l'extraction,7,IASI inclus,,,,,Operational
-040050,Initialisation de l'extraction,8 bits mis à 1,Valeur manquante,,,,,Operational
-040051,Convergence d'extraction itérative,0,OEM* non appliquées,* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
-040051,Convergence d'extraction itérative,1,OEM interrompues car les résidus de la première approximation sont trop élevés,* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
-040051,Convergence d'extraction itérative,2,"La minimisation n'a pas convergé, le sondage est rejeté",* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
-040051,Convergence d'extraction itérative,3,"La minimisation n'a pas convergé, le sondage est accepté",* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
-040051,Convergence d'extraction itérative,4,"La minimisation a convergé, mais le sondage est rejeté",* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
-040051,Convergence d'extraction itérative,5,"La minimisation a convergé, le sondage est accepté",* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
-040051,Convergence d'extraction itérative,6,En réserve,* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
-040051,Convergence d'extraction itérative,7,Valeur manquante,* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
-040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,1-3,En réserve,,,,,Operational
-040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,4,Indication de sursaturation dans l'extraction avec OEM,,,,,Operational
-040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,5,Indication de gradient superadiabatique dans l'extraction avec OEM,,,,,Operational
-040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,6,Indication de sursaturation dans la première approximation,,,,,Operational
-040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,7,Indication de gradient superadiabatique dans la première approximation,,,,,Operational
-040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,8 bits mis à 1,Valeur manquante,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,1,Une erreur a été détectée,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,2,Message de niveau 1,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,3,Message de niveau 2,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,4,Message issu de données auxiliaires,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,5,Message issu de la procédure d'insertion,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,6,Ouverture de fichier,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,7,Lecture de fichier,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,8,Indicateur de qualité,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,9,"Niveau 2 «à partir d'une régression linéaire» (F_Qual), indication d'un pixel si l'on ne peut pas se fier intégralement au niveau 2",,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,10,Champ vide ou données manquantes,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,11,Absence d'une valeur pour la pression de surface,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,12,Filtrage de la luminance énergétique,,,,,Operational
-040054,Erreurs de traitement et d'entrée potentielles,13 bits mis à 1,Valeur manquante,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,1,Filtrage de la luminance énergétique,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,2,Régions polaires,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,3,Position la nuit,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,4,"Altitude négative, surface au-dessous du niveau moyen de la mer",,,,,Operational
-040055,Diagnostics relatifs à l'extraction,5,Scène couverte de nuages,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,6,Scène au-dessus de la mer,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,7,Scène au-dessus du désert,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,8,Température pelliculaire,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,9,Différence de température pelliculaire,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,10,Contraste du décalage spectral trop faible,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,11,Nombre maximal d'itérations dépassé,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,12,Colonnes partielles négatives,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,13,Matrice mal conditionnée,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,14,Adaptation divergente,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,15,Erreur dans l'utilisation de la GSL (GNU scientific library),,,,,Operational
-040055,Diagnostics relatifs à l'extraction,16,Résidus «biaisés»,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,17,Résidus «inclinés»,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,18,Résidus de l'erreur quadratique moyenne importants,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,19,Noyaux d'intégration étranges,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,20,Présence de glace détectée,,,,,Operational
-040055,Diagnostics relatifs à l'extraction,21 bits mis à 1,Valeur manquante,,,,,Operational
-040056,Qualité générale d'une extraction,0,Usage non recommandé,,,,,Operational
-040056,Qualité générale d'une extraction,1,À utiliser avec prudence,,,,,Operational
-040056,Qualité générale d'une extraction,2,Qualité optimale,,,,,Operational
-040056,Qualité générale d'une extraction,3-6,En réserve,,,,,Operational
-040056,Qualité générale d'une extraction,7,Valeur manquante,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,1,Erreur détectée,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,2,Message de niveau 1,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,3,Message de niveau 2,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,4,Message issu de données auxiliaires,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,5,Message issu de la procédure d'insertion,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,6,En réserve,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,7,Indicateur de niveau 1 ou 2 erroné présenté,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,8,Le niveau 2 n'est pas totalement fiable,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,9,Niveaux de température ou d'humidité manquants dans le profil vertical,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,10,Valeur de la pression en surface manquante,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,11,Filtrage de la luminance énergétique,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,12,Régions polaires,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,13,Position la nuit,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,14,Altitude négative,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,15,Scène couverte de nuages,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,16,Scène au-dessus de la mer,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,17,Scène au-dessus du désert,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,18,Température pelliculaire manquante,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,19,Température pelliculaire extraite trop différente du modèle,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,20,Contraste du décalage spectral trop faible,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,21,Nombre maximal d'itérations dépassé,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,22,Colonnes partielles négatives,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,23,Matrice mal conditionnée,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,24,Adaptation divergente,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,25,Erreur dans l'utilisation de la GSL,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,26,Résidus «biaisés»,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,27,Résidus «inclinés»,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,28,Résidus de l'erreur quadratique moyenne importants,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,29,Noyaux d'intégration étranges,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,30,Présence de glace détectée,,,,,Operational
-040057,Indicateurs d'extraction de données IASI de niveau 2,31 bits mis à 1,Valeur manquante,,,,,Operational
-040068,Indicateur général de la qualité des extractions pour le SO2,0,Valeurs calculées avec IASI de niveau 2,,,,,Operational
-040068,Indicateur général de la qualité des extractions pour le SO2,1,Profils de la pression et de la température manquants dans les données IASI de niveau 2; modèle et/ou données de prévision utilisés en remplacement,,,,,Operational
-040068,Indicateur général de la qualité des extractions pour le SO2,2,Qualité optimale,,,,,Operational
-040068,Indicateur général de la qualité des extractions pour le SO2,3-14,En réserve,,,,,Operational
-040068,Indicateur général de la qualité des extractions pour le SO2,15,Valeur manquante,,,,,Operational
+Id,FXY,ElementName_fr,CodeFigure,EntryName_fr,EntryName_sub1_fr,EntryName_sub2_fr,Note_fr,noteIDs,Status
+bufr4/0/40/005/1,040005,Indicateur de correction de l'humidité du sol,1,Humidité du sol entre -20 % et 0 %,,,,,Operational
+bufr4/0/40/005/2,040005,Indicateur de correction de l'humidité du sol,2,Humidité du sol entre 100 % et 120 %,,,,,Operational
+bufr4/0/40/005/3,040005,Indicateur de correction de l'humidité du sol,3,Correction de la référence de rétrodiffusion par conditions humides,,,,,Operational
+bufr4/0/40/005/4,040005,Indicateur de correction de l'humidité du sol,4,Correction de la référence de rétrodiffusion par conditions sèches,,,,,Operational
+bufr4/0/40/005/5,040005,Indicateur de correction de l'humidité du sol,5,Correction de la diffusion du volume dans le sable,,,,,Operational
+bufr4/0/40/005/6-7,040005,Indicateur de correction de l'humidité du sol,6-7,En réserve,,,,,Operational
+bufr4/0/40/005/8-bits-mis-à-1,040005,Indicateur de correction de l'humidité du sol,8 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/006/1,040006,Indicateur de traitement de l'humidité du sol,1,Pas de sol,,,,,Operational
+bufr4/0/40/006/2,040006,Indicateur de traitement de l'humidité du sol,2,Sensibilité à l'humidité du sol inférieure au seuil,,,,,Operational
+bufr4/0/40/006/3,040006,Indicateur de traitement de l'humidité du sol,3,Bruit en azimut supérieur au seuil,,,,,Operational
+bufr4/0/40/006/4,040006,Indicateur de traitement de l'humidité du sol,4,Rétrodiffusion faisceaux avant-arrière hors limites,,,,,Operational
+bufr4/0/40/006/5,040006,Indicateur de traitement de l'humidité du sol,5,Pente faisceaux médian-avant hors limites,,,,,Operational
+bufr4/0/40/006/6,040006,Indicateur de traitement de l'humidité du sol,6,Pente faisceaux médian-arrière hors limites,,,,,Operational
+bufr4/0/40/006/7,040006,Indicateur de traitement de l'humidité du sol,7,Humidité du sol inférieure à -20 %,,,,,Operational
+bufr4/0/40/006/8,040006,Indicateur de traitement de l'humidité du sol,8,Humidité du sol inférieure à 120 %,,,,,Operational
+bufr4/0/40/006/9-15,040006,Indicateur de traitement de l'humidité du sol,9-15,En réserve,,,,,Operational
+bufr4/0/40/006/16-bits-mis-à-1,040006,Indicateur de traitement de l'humidité du sol,16 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/011/1,040011,Indicateur d'interpolation,1,Indicateur d'interpolation de la surface moyenne de la mer,,,,,Operational
+bufr4/0/40/011/2,040011,Indicateur d'interpolation,2,"Indicateur d'interpolation de la marée océanique (solution 1) (0 = 4 points au-dessus de l'océan, 1 = moins de 4 points)",,,,,Operational
+bufr4/0/40/011/3,040011,Indicateur d'interpolation,3,"Indicateur d'interpolation de la marée océanique (solution 2) (0 = 4 points au-dessus de l'océan, 1 = moins de 4 points)",,,,,Operational
+bufr4/0/40/011/4,040011,Indicateur d'interpolation,4,"Indicateur d'interpolation des données météorologiques (0 = 4 points au-dessus de l'océan, 1 = moins de 4 points)",,,,,Operational
+bufr4/0/40/011/5-7,040011,Indicateur d'interpolation,5-7,En réserve,,,,,Operational
+bufr4/0/40/011/8-bits-mis-à-1,040011,Indicateur d'interpolation,8 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/012/1,040012,Indicateur de qualité des données du radiomètre,1,"Température de luminance en bande 18,7 GHz",Signification (0 = bonne; 1 = mauvaise),,,,Operational
+bufr4/0/40/012/2,040012,Indicateur de qualité des données du radiomètre,2,"Température de luminance en bande 23,8 GHz",Signification (0 = bonne; 1 = mauvaise),,,,Operational
+bufr4/0/40/012/3,040012,Indicateur de qualité des données du radiomètre,3,Température de luminance en bande 34 GHz,Signification (0 = bonne; 1 = mauvaise),,,,Operational
+bufr4/0/40/012/4-7,040012,Indicateur de qualité des données du radiomètre,4-7,En réserve,Signification (0 = bonne; 1 = mauvaise),,,,Operational
+bufr4/0/40/012/8-bits-mis-à-1,040012,Indicateur de qualité des données du radiomètre,8 bits mis à 1,Valeur manquante,Signification (0 = bonne; 1 = mauvaise),,,,Operational
+bufr4/0/40/013/0,040013,Indicateur d'interprétation de la température de luminance du radiomètre,0,Interpolation sans interruption dans les données du JMR*,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
+bufr4/0/40/013/1,040013,Indicateur d'interprétation de la température de luminance du radiomètre,1,Interpolation avec interruptions dans les données du JMR*,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
+bufr4/0/40/013/2,040013,Indicateur d'interprétation de la température de luminance du radiomètre,2,Extrapolation des données du JMR*,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
+bufr4/0/40/013/3,040013,Indicateur d'interprétation de la température de luminance du radiomètre,3,Défaillance de l'extrapolation et de l'interpolation,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
+bufr4/0/40/013/4-6,040013,Indicateur d'interprétation de la température de luminance du radiomètre,4-6,En réserve,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
+bufr4/0/40/013/7,040013,Indicateur d'interprétation de la température de luminance du radiomètre,7,Valeur manquante,* JMR: radiomètre en hyperfréquence de JASON-1,,,,Operational
+bufr4/0/40/020/1,040020,GqisFlagQualDetailed – indicateur de qualité du système,1,Erreur d'étalonnage complexe et NZPD,,,,,Operational
+bufr4/0/40/020/2,040020,GqisFlagQualDetailed – indicateur de qualité du système,2,Bande 3 affectée par une pointe de bruit,,,,,Operational
+bufr4/0/40/020/3,040020,GqisFlagQualDetailed – indicateur de qualité du système,3,Bande 3 affectée par une saturation,,,,,Operational
+bufr4/0/40/020/4,040020,GqisFlagQualDetailed – indicateur de qualité du système,4,Bande 2 affectée par une pointe de bruit,,,,,Operational
+bufr4/0/40/020/5,040020,GqisFlagQualDetailed – indicateur de qualité du système,5,Bande 1 affectée par une pointe de bruit,,,,,Operational
+bufr4/0/40/020/6,040020,GqisFlagQualDetailed – indicateur de qualité du système,6,Écoulement par-dessus ou par-dessous,,,,,Operational
+bufr4/0/40/020/7,040020,GqisFlagQualDetailed – indicateur de qualité du système,7,Erreur de traitement à bord,,,,,Operational
+bufr4/0/40/020/8,040020,GqisFlagQualDetailed – indicateur de qualité du système,8,Erreur d'étalonnage spectral,,,,,Operational
+bufr4/0/40/020/9,040020,GqisFlagQualDetailed – indicateur de qualité du système,9,Erreur d'étalonnage radiométrique,,,,,Operational
+bufr4/0/40/020/10,040020,GqisFlagQualDetailed – indicateur de qualité du système,10,Données manquantes du radiomètre AVHRR,,,,,Operational
+bufr4/0/40/020/11,040020,GqisFlagQualDetailed – indicateur de qualité du système,11,Données manquantes de l'IIS,,,,,Operational
+bufr4/0/40/020/12,040020,GqisFlagQualDetailed – indicateur de qualité du système,12,Données manquantes du sondeur,,,,,Operational
+bufr4/0/40/020/13,040020,GqisFlagQualDetailed – indicateur de qualité du système,13,Indicateur récapitulatif GqisFlagQual pour toutes les bandes,,,,,Operational
+bufr4/0/40/020/14,040020,GqisFlagQualDetailed – indicateur de qualité du système,14,Erreur de traitement au sol,,,,,Operational
+bufr4/0/40/020/15,040020,GqisFlagQualDetailed – indicateur de qualité du système,15,Erreur d'interétalonnage IASI/AVHRR,,,,,Operational
+bufr4/0/40/020/16,040020,GqisFlagQualDetailed – indicateur de qualité du système,16,Disponible,,,,,Operational
+bufr4/0/40/020/17-bits-mis-à-1,040020,GqisFlagQualDetailed – indicateur de qualité du système,17 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/023/1,040023,Indicateur de l'état de l'altimètre auxiliaire,1,"Séquence dans la bande (0 = 3Ku_1C_3Ku, 1 = 2Ku_1C_2Ku)",,,,,Operational
+bufr4/0/40/023/2,040023,Indicateur de l'état de l'altimètre auxiliaire,2,"Fréquence en bande C (0 = 320 MHz, 1 = 100 MHz)",,,,,Operational
+bufr4/0/40/023/3,040023,Indicateur de l'état de l'altimètre auxiliaire,3,"État de la bande C (0 = Marche, 1 = Arrêt)",,,,,Operational
+bufr4/0/40/023/4,040023,Indicateur de l'état de l'altimètre auxiliaire,4,"État de la bande Ku (0 = Marche, 1 = Arrêt)",,,,,Operational
+bufr4/0/40/023/5-bits-mis-à-1,040023,Indicateur de l'état de l'altimètre auxiliaire,5 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/024/0,040024,Existence de cartes météorologiques,0,2 cartes disponibles (à 6 heures d'intervalle),,,,,Operational
+bufr4/0/40/024/1,040024,Existence de cartes météorologiques,1,2 cartes disponibles (à plus de 6 heures d'intervalle),,,,,Operational
+bufr4/0/40/024/2,040024,Existence de cartes météorologiques,2,1 carte disponible; données extrapolées,,,,,Operational
+bufr4/0/40/024/3,040024,Existence de cartes météorologiques,3,Aucune carte utilisée,,,,,Operational
+bufr4/0/40/024/4-6,040024,Existence de cartes météorologiques,4-6,En réserve,,,,,Operational
+bufr4/0/40/024/7,040024,Existence de cartes météorologiques,7,Valeur manquante,,,,,Operational
+bufr4/0/40/025/0,040025,Indicateur d'interpolation pour la marée diurne moyenne,0,Bonne,,,,,Operational
+bufr4/0/40/025/1,040025,Indicateur d'interpolation pour la marée diurne moyenne,1,Mauvaise,,,,,Operational
+bufr4/0/40/025/2,040025,Indicateur d'interpolation pour la marée diurne moyenne,2,En réserve,,,,,Operational
+bufr4/0/40/025/3,040025,Indicateur d'interpolation pour la marée diurne moyenne,3,Valeur manquante,,,,,Operational
+bufr4/0/40/028/0,040028,Indicateur de qualité des données du GMI,0,Données de bonne qualité,,,,,Operational
+bufr4/0/40/028/1,040028,Indicateur de qualité des données du GMI,1,Reflet solaire probable,,,,,Operational
+bufr4/0/40/028/2,040028,Indicateur de qualité des données du GMI,2,Brouillage radioélectrique probable,,,,,Operational
+bufr4/0/40/028/3,040028,Indicateur de qualité des données du GMI,3,Données de localisation géographique dégradées,,,,,Operational
+bufr4/0/40/028/4,040028,Indicateur de qualité des données du GMI,4,Données corrigées pour intrusion sur charge chaude,,,,,Operational
+bufr4/0/40/028/5,040028,Indicateur de qualité des données du GMI,5,Suppression du balayage,,,,,Operational
+bufr4/0/40/028/6,040028,Indicateur de qualité des données du GMI,6,Données manquantes dans le fichier ou données illisibles,,,,,Operational
+bufr4/0/40/028/7,040028,Indicateur de qualité des données du GMI,7,Température de luminance physiquement impossible,,,,,Operational
+bufr4/0/40/028/8,040028,Indicateur de qualité des données du GMI,8,Erreur dans les données de localisation géographique,,,,,Operational
+bufr4/0/40/028/9,040028,Indicateur de qualité des données du GMI,9,Données manquantes dans un canal,,,,,Operational
+bufr4/0/40/028/10,040028,Indicateur de qualité des données du GMI,10,Données manquantes dans plusieurs canaux,,,,,Operational
+bufr4/0/40/028/11,040028,Indicateur de qualité des données du GMI,11,Latitude/longitude hors limites,,,,,Operational
+bufr4/0/40/028/12,040028,Indicateur de qualité des données du GMI,12,Modes d'un statut anormal,,,,,Operational
+bufr4/0/40/028/13,040028,Indicateur de qualité des données du GMI,13,Distance au pixel de basse fréquence correspondant > 7 km,,,,,Operational
+bufr4/0/40/028/14,040028,Indicateur de qualité des données du GMI,14,En réserve,,,,,Operational
+bufr4/0/40/028/15,040028,Indicateur de qualité des données du GMI,15,Valeur manquante (aucune information disponible sur la qualité),,,,,Operational
+bufr4/0/40/036/0,040036,Type de classification des produits lidar de niveau L2b,0,Ciel clair,,,,,Operational
+bufr4/0/40/036/1,040036,Type de classification des produits lidar de niveau L2b,1,Nuages,,,,,Operational
+bufr4/0/40/036/2-14,040036,Type de classification des produits lidar de niveau L2b,2-14,En réserve,,,,,Operational
+bufr4/0/40/036/15,040036,Type de classification des produits lidar de niveau L2b,15,Valeur manquante,,,,,Operational
+bufr4/0/40/043/0,040043,Indicateur de manœuvre du satellite,0,La plate-forme ne subit pas de manœuvre,,,,,Operational
+bufr4/0/40/043/1,040043,Indicateur de manœuvre du satellite,1,"La plate-forme subit une manœuvre, traitement nominal",,,,,Operational
+bufr4/0/40/043/2,040043,Indicateur de manœuvre du satellite,2,"La plate-forme subit une manœuvre, aucun traitement",,,,,Operational
+bufr4/0/40/043/3-6,040043,Indicateur de manœuvre du satellite,3-6,En réserve,,,,,Operational
+bufr4/0/40/043/7,040043,Indicateur de manœuvre du satellite,7,Valeur manquante,,,,,Operational
+bufr4/0/40/045/1,040045,Formation de nuages et détermination de l'altitude,1,Produits relatifs aux nuages extraits par la méthode du chi-carré,,,,,Operational
+bufr4/0/40/045/2,040045,Formation de nuages et détermination de l'altitude,2,Produits relatifs aux nuages extraits par découpage dans le canal du CO2,,,,,Operational
+bufr4/0/40/045/3,040045,Formation de nuages et détermination de l'altitude,3,Détermination de l'altitude par extraction statistique en première approximation,,,,,Operational
+bufr4/0/40/045/4,040045,Formation de nuages et détermination de l'altitude,4,Détermination de l'altitude par prévision numérique du temps,,,,,Operational
+bufr4/0/40/045/5-bits-mis-à-1,040045,Formation de nuages et détermination de l'altitude,5 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/046/0,040046,Résumé de la nébulosité,0,Le champ de vision instantanée IASI est clair,,,,,Operational
+bufr4/0/40/046/1,040046,Résumé de la nébulosité,1,Possibilité de contamination de petits nuages,,,,,Operational
+bufr4/0/40/046/2,040046,Résumé de la nébulosité,2,Le champ de vision instantanée IASI est partiellement couvert par des nuages,,,,,Operational
+bufr4/0/40/046/3,040046,Résumé de la nébulosité,3,Couverture nuageuse dense ou intégrale,,,,,Operational
+bufr4/0/40/046/4-6,040046,Résumé de la nébulosité,4-6,En réserve,,,,,Operational
+bufr4/0/40/046/7,040046,Résumé de la nébulosité,7,Valeur manquante,,,,,Operational
+bufr4/0/40/047/0,040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,0,Les mesures et les informations connexes sont disponibles et de bonne qualité en vue d'un traitement de niveau 2,,,,,Operational
+bufr4/0/40/047/1,040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,1,"Les produits de niveau 1c sont de mauvaise qualité selon les indicateurs du même niveau, aucun traitement de niveau 2",,,,,Operational
+bufr4/0/40/047/2,040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,2,"Le contrôle qualité indique que les données de niveau 1c sont de mauvaise qualité (sans indication des indicateurs IASI du même niveau), aucun traitement de niveau 2.",,,,,Operational
+bufr4/0/40/047/3-6,040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,3-6,En réserve,,,,,Operational
+bufr4/0/40/047/7,040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,7,Valeur manquante,,,,,Operational
+bufr4/0/40/048/0,040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,0,"Les mesures AMSU attendues sont disponibles, de bonne qualité et superposées avec celles de IASI pour le traitement",,,,,Operational
+bufr4/0/40/048/1,040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,1,Les données AMSU-A sont disponibles mais de mauvaise qualité (selon les indicateurs AMSU de niveau 1 ou les tests de contrôle de la qualité) et ne sont pas utilisées pour le traitement,,,,,Operational
+bufr4/0/40/048/2,040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,2,Pas de mesures AMSU coïncidentes (dans le temps et l'espace) disponibles pour le traitement,,,,,Operational
+bufr4/0/40/048/3-6,040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,3-6,En réserve,,,,,Operational
+bufr4/0/40/048/7,040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,7,Valeur manquante,,,,,Operational
+bufr4/0/40/049/1-3,040049,Tests de nuages effectués et résultats,1-3,En réserve,,,,,Operational
+bufr4/0/40/049/4,040049,Tests de nuages effectués et résultats,4,L'épaisseur optique IASI des nuages indique un nuage,,,,,Operational
+bufr4/0/40/049/5,040049,Tests de nuages effectués et résultats,5,L'épaisseur optique IASI des nuages est calculée,,,,,Operational
+bufr4/0/40/049/6,040049,Tests de nuages effectués et résultats,6,Le test d'hétérogénéité AVHRR indique un nuage,,,,,Operational
+bufr4/0/40/049/7,040049,Tests de nuages effectués et résultats,7,Le test d'hétérogénéité AVHRR est réalisé,,,,,Operational
+bufr4/0/40/049/8,040049,Tests de nuages effectués et résultats,8,Le test de nuages IASI-AVHRR ANN indique un nuage,,,,,Operational
+bufr4/0/40/049/9,040049,Tests de nuages effectués et résultats,9,Le test de nuages IASI-AVHRR ANN est réalisé,,,,,Operational
+bufr4/0/40/049/10,040049,Tests de nuages effectués et résultats,10,L'élément nuage intégré AVHRR indique un nuage,,,,,Operational
+bufr4/0/40/049/11,040049,Tests de nuages effectués et résultats,11,Évaluation de l'élément nuage intégré AVHRR,,,,,Operational
+bufr4/0/40/049/12,040049,Tests de nuages effectués et résultats,12,Le test de nuages AMSU indique un nuage,,,,,Operational
+bufr4/0/40/049/13,040049,Tests de nuages effectués et résultats,13,Le test de nuages AMSU est réalisé,,,,,Operational
+bufr4/0/40/049/14,040049,Tests de nuages effectués et résultats,14,Le test de nuages de la fenêtre IASI Window indique un nuage,,,,,Operational
+bufr4/0/40/049/15,040049,Tests de nuages effectués et résultats,15,Le test de nuages de la fenêtre IASI Window est réalisé,,,,,Operational
+bufr4/0/40/049/16-bits-mis-à-1,040049,Tests de nuages effectués et résultats,16 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/050/1-4,040050,Initialisation de l'extraction,1-4,En réserve,,,,,Operational
+bufr4/0/40/050/5,040050,Initialisation de l'extraction,5,MHS inclus,,,,,Operational
+bufr4/0/40/050/6,040050,Initialisation de l'extraction,6,AMSU inclus,,,,,Operational
+bufr4/0/40/050/7,040050,Initialisation de l'extraction,7,IASI inclus,,,,,Operational
+bufr4/0/40/050/8-bits-mis-à-1,040050,Initialisation de l'extraction,8 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/051/0,040051,Convergence d'extraction itérative,0,OEM* non appliquées,* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
+bufr4/0/40/051/1,040051,Convergence d'extraction itérative,1,OEM interrompues car les résidus de la première approximation sont trop élevés,* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
+bufr4/0/40/051/2,040051,Convergence d'extraction itérative,2,"La minimisation n'a pas convergé, le sondage est rejeté",* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
+bufr4/0/40/051/3,040051,Convergence d'extraction itérative,3,"La minimisation n'a pas convergé, le sondage est accepté",* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
+bufr4/0/40/051/4,040051,Convergence d'extraction itérative,4,"La minimisation a convergé, mais le sondage est rejeté",* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
+bufr4/0/40/051/5,040051,Convergence d'extraction itérative,5,"La minimisation a convergé, le sondage est accepté",* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
+bufr4/0/40/051/6,040051,Convergence d'extraction itérative,6,En réserve,* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
+bufr4/0/40/051/7,040051,Convergence d'extraction itérative,7,Valeur manquante,* OEM: Optimal Estimation Methods (Méthodes d'estimation optimale),,,,Operational
+bufr4/0/40/052/1-3,040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,1-3,En réserve,,,,,Operational
+bufr4/0/40/052/4,040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,4,Indication de sursaturation dans l'extraction avec OEM,,,,,Operational
+bufr4/0/40/052/5,040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,5,Indication de gradient superadiabatique dans l'extraction avec OEM,,,,,Operational
+bufr4/0/40/052/6,040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,6,Indication de sursaturation dans la première approximation,,,,,Operational
+bufr4/0/40/052/7,040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,7,Indication de gradient superadiabatique dans la première approximation,,,,,Operational
+bufr4/0/40/052/8-bits-mis-à-1,040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,8 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/054/1,040054,Erreurs de traitement et d'entrée potentielles,1,Une erreur a été détectée,,,,,Operational
+bufr4/0/40/054/2,040054,Erreurs de traitement et d'entrée potentielles,2,Message de niveau 1,,,,,Operational
+bufr4/0/40/054/3,040054,Erreurs de traitement et d'entrée potentielles,3,Message de niveau 2,,,,,Operational
+bufr4/0/40/054/4,040054,Erreurs de traitement et d'entrée potentielles,4,Message issu de données auxiliaires,,,,,Operational
+bufr4/0/40/054/5,040054,Erreurs de traitement et d'entrée potentielles,5,Message issu de la procédure d'insertion,,,,,Operational
+bufr4/0/40/054/6,040054,Erreurs de traitement et d'entrée potentielles,6,Ouverture de fichier,,,,,Operational
+bufr4/0/40/054/7,040054,Erreurs de traitement et d'entrée potentielles,7,Lecture de fichier,,,,,Operational
+bufr4/0/40/054/8,040054,Erreurs de traitement et d'entrée potentielles,8,Indicateur de qualité,,,,,Operational
+bufr4/0/40/054/9,040054,Erreurs de traitement et d'entrée potentielles,9,"Niveau 2 «à partir d'une régression linéaire» (F_Qual), indication d'un pixel si l'on ne peut pas se fier intégralement au niveau 2",,,,,Operational
+bufr4/0/40/054/10,040054,Erreurs de traitement et d'entrée potentielles,10,Champ vide ou données manquantes,,,,,Operational
+bufr4/0/40/054/11,040054,Erreurs de traitement et d'entrée potentielles,11,Absence d'une valeur pour la pression de surface,,,,,Operational
+bufr4/0/40/054/12,040054,Erreurs de traitement et d'entrée potentielles,12,Filtrage de la luminance énergétique,,,,,Operational
+bufr4/0/40/054/13-bits-mis-à-1,040054,Erreurs de traitement et d'entrée potentielles,13 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/055/1,040055,Diagnostics relatifs à l'extraction,1,Filtrage de la luminance énergétique,,,,,Operational
+bufr4/0/40/055/2,040055,Diagnostics relatifs à l'extraction,2,Régions polaires,,,,,Operational
+bufr4/0/40/055/3,040055,Diagnostics relatifs à l'extraction,3,Position la nuit,,,,,Operational
+bufr4/0/40/055/4,040055,Diagnostics relatifs à l'extraction,4,"Altitude négative, surface au-dessous du niveau moyen de la mer",,,,,Operational
+bufr4/0/40/055/5,040055,Diagnostics relatifs à l'extraction,5,Scène couverte de nuages,,,,,Operational
+bufr4/0/40/055/6,040055,Diagnostics relatifs à l'extraction,6,Scène au-dessus de la mer,,,,,Operational
+bufr4/0/40/055/7,040055,Diagnostics relatifs à l'extraction,7,Scène au-dessus du désert,,,,,Operational
+bufr4/0/40/055/8,040055,Diagnostics relatifs à l'extraction,8,Température pelliculaire,,,,,Operational
+bufr4/0/40/055/9,040055,Diagnostics relatifs à l'extraction,9,Différence de température pelliculaire,,,,,Operational
+bufr4/0/40/055/10,040055,Diagnostics relatifs à l'extraction,10,Contraste du décalage spectral trop faible,,,,,Operational
+bufr4/0/40/055/11,040055,Diagnostics relatifs à l'extraction,11,Nombre maximal d'itérations dépassé,,,,,Operational
+bufr4/0/40/055/12,040055,Diagnostics relatifs à l'extraction,12,Colonnes partielles négatives,,,,,Operational
+bufr4/0/40/055/13,040055,Diagnostics relatifs à l'extraction,13,Matrice mal conditionnée,,,,,Operational
+bufr4/0/40/055/14,040055,Diagnostics relatifs à l'extraction,14,Adaptation divergente,,,,,Operational
+bufr4/0/40/055/15,040055,Diagnostics relatifs à l'extraction,15,Erreur dans l'utilisation de la GSL (GNU scientific library),,,,,Operational
+bufr4/0/40/055/16,040055,Diagnostics relatifs à l'extraction,16,Résidus «biaisés»,,,,,Operational
+bufr4/0/40/055/17,040055,Diagnostics relatifs à l'extraction,17,Résidus «inclinés»,,,,,Operational
+bufr4/0/40/055/18,040055,Diagnostics relatifs à l'extraction,18,Résidus de l'erreur quadratique moyenne importants,,,,,Operational
+bufr4/0/40/055/19,040055,Diagnostics relatifs à l'extraction,19,Noyaux d'intégration étranges,,,,,Operational
+bufr4/0/40/055/20,040055,Diagnostics relatifs à l'extraction,20,Présence de glace détectée,,,,,Operational
+bufr4/0/40/055/21-bits-mis-à-1,040055,Diagnostics relatifs à l'extraction,21 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/056/0,040056,Qualité générale d'une extraction,0,Usage non recommandé,,,,,Operational
+bufr4/0/40/056/1,040056,Qualité générale d'une extraction,1,À utiliser avec prudence,,,,,Operational
+bufr4/0/40/056/2,040056,Qualité générale d'une extraction,2,Qualité optimale,,,,,Operational
+bufr4/0/40/056/3-6,040056,Qualité générale d'une extraction,3-6,En réserve,,,,,Operational
+bufr4/0/40/056/7,040056,Qualité générale d'une extraction,7,Valeur manquante,,,,,Operational
+bufr4/0/40/057/1,040057,Indicateurs d'extraction de données IASI de niveau 2,1,Erreur détectée,,,,,Operational
+bufr4/0/40/057/2,040057,Indicateurs d'extraction de données IASI de niveau 2,2,Message de niveau 1,,,,,Operational
+bufr4/0/40/057/3,040057,Indicateurs d'extraction de données IASI de niveau 2,3,Message de niveau 2,,,,,Operational
+bufr4/0/40/057/4,040057,Indicateurs d'extraction de données IASI de niveau 2,4,Message issu de données auxiliaires,,,,,Operational
+bufr4/0/40/057/5,040057,Indicateurs d'extraction de données IASI de niveau 2,5,Message issu de la procédure d'insertion,,,,,Operational
+bufr4/0/40/057/6,040057,Indicateurs d'extraction de données IASI de niveau 2,6,En réserve,,,,,Operational
+bufr4/0/40/057/7,040057,Indicateurs d'extraction de données IASI de niveau 2,7,Indicateur de niveau 1 ou 2 erroné présenté,,,,,Operational
+bufr4/0/40/057/8,040057,Indicateurs d'extraction de données IASI de niveau 2,8,Le niveau 2 n'est pas totalement fiable,,,,,Operational
+bufr4/0/40/057/9,040057,Indicateurs d'extraction de données IASI de niveau 2,9,Niveaux de température ou d'humidité manquants dans le profil vertical,,,,,Operational
+bufr4/0/40/057/10,040057,Indicateurs d'extraction de données IASI de niveau 2,10,Valeur de la pression en surface manquante,,,,,Operational
+bufr4/0/40/057/11,040057,Indicateurs d'extraction de données IASI de niveau 2,11,Filtrage de la luminance énergétique,,,,,Operational
+bufr4/0/40/057/12,040057,Indicateurs d'extraction de données IASI de niveau 2,12,Régions polaires,,,,,Operational
+bufr4/0/40/057/13,040057,Indicateurs d'extraction de données IASI de niveau 2,13,Position la nuit,,,,,Operational
+bufr4/0/40/057/14,040057,Indicateurs d'extraction de données IASI de niveau 2,14,Altitude négative,,,,,Operational
+bufr4/0/40/057/15,040057,Indicateurs d'extraction de données IASI de niveau 2,15,Scène couverte de nuages,,,,,Operational
+bufr4/0/40/057/16,040057,Indicateurs d'extraction de données IASI de niveau 2,16,Scène au-dessus de la mer,,,,,Operational
+bufr4/0/40/057/17,040057,Indicateurs d'extraction de données IASI de niveau 2,17,Scène au-dessus du désert,,,,,Operational
+bufr4/0/40/057/18,040057,Indicateurs d'extraction de données IASI de niveau 2,18,Température pelliculaire manquante,,,,,Operational
+bufr4/0/40/057/19,040057,Indicateurs d'extraction de données IASI de niveau 2,19,Température pelliculaire extraite trop différente du modèle,,,,,Operational
+bufr4/0/40/057/20,040057,Indicateurs d'extraction de données IASI de niveau 2,20,Contraste du décalage spectral trop faible,,,,,Operational
+bufr4/0/40/057/21,040057,Indicateurs d'extraction de données IASI de niveau 2,21,Nombre maximal d'itérations dépassé,,,,,Operational
+bufr4/0/40/057/22,040057,Indicateurs d'extraction de données IASI de niveau 2,22,Colonnes partielles négatives,,,,,Operational
+bufr4/0/40/057/23,040057,Indicateurs d'extraction de données IASI de niveau 2,23,Matrice mal conditionnée,,,,,Operational
+bufr4/0/40/057/24,040057,Indicateurs d'extraction de données IASI de niveau 2,24,Adaptation divergente,,,,,Operational
+bufr4/0/40/057/25,040057,Indicateurs d'extraction de données IASI de niveau 2,25,Erreur dans l'utilisation de la GSL,,,,,Operational
+bufr4/0/40/057/26,040057,Indicateurs d'extraction de données IASI de niveau 2,26,Résidus «biaisés»,,,,,Operational
+bufr4/0/40/057/27,040057,Indicateurs d'extraction de données IASI de niveau 2,27,Résidus «inclinés»,,,,,Operational
+bufr4/0/40/057/28,040057,Indicateurs d'extraction de données IASI de niveau 2,28,Résidus de l'erreur quadratique moyenne importants,,,,,Operational
+bufr4/0/40/057/29,040057,Indicateurs d'extraction de données IASI de niveau 2,29,Noyaux d'intégration étranges,,,,,Operational
+bufr4/0/40/057/30,040057,Indicateurs d'extraction de données IASI de niveau 2,30,Présence de glace détectée,,,,,Operational
+bufr4/0/40/057/31-bits-mis-à-1,040057,Indicateurs d'extraction de données IASI de niveau 2,31 bits mis à 1,Valeur manquante,,,,,Operational
+bufr4/0/40/068/0,040068,Indicateur général de la qualité des extractions pour le SO2,0,Valeurs calculées avec IASI de niveau 2,,,,,Operational
+bufr4/0/40/068/1,040068,Indicateur général de la qualité des extractions pour le SO2,1,Profils de la pression et de la température manquants dans les données IASI de niveau 2; modèle et/ou données de prévision utilisés en remplacement,,,,,Operational
+bufr4/0/40/068/2,040068,Indicateur général de la qualité des extractions pour le SO2,2,Qualité optimale,,,,,Operational
+bufr4/0/40/068/3-14,040068,Indicateur général de la qualité des extractions pour le SO2,3-14,En réserve,,,,,Operational
+bufr4/0/40/068/15,040068,Indicateur général de la qualité des extractions pour le SO2,15,Valeur manquante,,,,,Operational
