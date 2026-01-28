@@ -252,9 +252,9 @@ bufr4/3/01/058/33/025036,01,Secuencias correspondientes a la posición y a la id
 bufr4/3/01/058/34/101000,01,Secuencias correspondientes a la posición y a la identificación,301058,Episodio de relámpago universal,,101000,Repetición diferida de 1 descriptor,,,,Operational
 bufr4/3/01/058/35/031002,01,Secuencias correspondientes a la posición y a la identificación,301058,Episodio de relámpago universal,,031002,Factor ampliado de repetición diferida del descriptor,Número de sensores considerados,,,Operational
 bufr4/3/01/058/36/301059,01,Secuencias correspondientes a la posición y a la identificación,301058,Episodio de relámpago universal,,301059,Identificación de emplazamiento del sensor e instrumentos,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,301 059,Identificación del emplazamiento del sensor e instrumentos,,301021,Latitud/longitud (gran precisión),Sensor,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,301 059,Identificación del emplazamiento del sensor e instrumentos,,007030,Altura del suelo de la estación sobre el nivel medio del mar,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,301 059,Identificación del emplazamiento del sensor e instrumentos,,007032,Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina),Sensor para relámpagos,,,Operational
+bufr4/3/01/059/1/301021,01,Secuencias correspondientes a la posición y a la identificación,301 059,Identificación del emplazamiento del sensor e instrumentos,,301021,Latitud/longitud (gran precisión),Sensor,,,Operational
+bufr4/3/01/059/2/007030,01,Secuencias correspondientes a la posición y a la identificación,301 059,Identificación del emplazamiento del sensor e instrumentos,,007030,Altura del suelo de la estación sobre el nivel medio del mar,,,,Operational
+bufr4/3/01/059/3/007032,01,Secuencias correspondientes a la posición y a la identificación,301 059,Identificación del emplazamiento del sensor e instrumentos,,007032,Altura del sensor sobre el suelo local (o la cubierta de la plataforma marina),Sensor para relámpagos,,,Operational
 bufr4/3/01/062/1/101000,01,Secuencias correspondientes a la posición y a la identificación,301062,Posición(es) del radar,,101000,Repetición diferida de 1 descriptor,,,,Operational
 bufr4/3/01/062/2/031001,01,Secuencias correspondientes a la posición y a la identificación,301062,Posición(es) del radar,,031001,Factor de repetición diferida del descriptor,,,,Operational
 bufr4/3/01/062/3/301001,01,Secuencias correspondientes a la posición y a la identificación,301062,Posición(es) del radar,,301001,Números de bloque y de la estación de la OMM,,,,Operational
@@ -400,18 +400,18 @@ bufr4/3/01/123/30/002086,01,Secuencias correspondientes a la posición y a la id
 bufr4/3/01/123/31/002082,01,Secuencias correspondientes a la posición y a la identificación,301123,Información de encabezamiento completo de radiosonda,,002082,Peso del globo,,,,Operational
 bufr4/3/01/123/32/008041,01,Secuencias correspondientes a la posición y a la identificación,301123,Información de encabezamiento completo de radiosonda,,008041,Significación de datos,= 2 fecha de fabricación del globo,,,Operational
 bufr4/3/01/123/33/301011,01,Secuencias correspondientes a la posición y a la identificación,301123,Información de encabezamiento completo de radiosonda,,301011,"Año, mes, día",,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,301 125,Información de encabezamiento de ASCAT,,001033,Identificación del centro de origen/generación,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,302 125,Información de encabezamiento de ASCAT,,001034,Identificación del centro secundario de origen/,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,303 125,Información de encabezamiento de ASCAT,,025060,Identificación del programa informático,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,304 125,Información de encabezamiento de ASCAT,,001007,Identificador del satélite,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,305 125,Información de encabezamiento de ASCAT,,002019,Instrumentos de satélite,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,306 125,Información de encabezamiento de ASCAT,,001012,Dirección del emplazamiento de la plataforma de observación en movimiento,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,301 126,Secuencia para la representación de identificadores de boyas fondeadas,,001087,Indicador ampliado de la plataforma OMM de,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,302 126,Secuencia para la representación de identificadores de boyas fondeadas,,001015,Nombre de la estación o emplazamiento,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,303 126,Secuencia para la representación de identificadores de boyas fondeadas,,002149,Tipo de boya de datos,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,304 126,Secuencia para la representación de identificadores de boyas fondeadas,,301011,"Año, mes, día",,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,305 126,Secuencia para la representación de identificadores de boyas fondeadas,,301012,"Hora, minuto",,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,306 126,Secuencia para la representación de identificadores de boyas fondeadas,,301021,Latitud/longitud (gran exactitud),,,,Operational
+bufr4/3/01/125/1/001033,01,Secuencias correspondientes a la posición y a la identificación,301 125,Información de encabezamiento de ASCAT,,001033,Identificación del centro de origen/generación,,,,Operational
+bufr4/3/02/125/1/001034,01,Secuencias correspondientes a la posición y a la identificación,302 125,Información de encabezamiento de ASCAT,,001034,Identificación del centro secundario de origen/,,,,Operational
+bufr4/3/03/125/1/025060,01,Secuencias correspondientes a la posición y a la identificación,303 125,Información de encabezamiento de ASCAT,,025060,Identificación del programa informático,,,,Operational
+bufr4/3/04/125/1/001007,01,Secuencias correspondientes a la posición y a la identificación,304 125,Información de encabezamiento de ASCAT,,001007,Identificador del satélite,,,,Operational
+bufr4/3/05/125/1/002019,01,Secuencias correspondientes a la posición y a la identificación,305 125,Información de encabezamiento de ASCAT,,002019,Instrumentos de satélite,,,,Operational
+bufr4/3/06/125/1/001012,01,Secuencias correspondientes a la posición y a la identificación,306 125,Información de encabezamiento de ASCAT,,001012,Dirección del emplazamiento de la plataforma de observación en movimiento,,,,Operational
+bufr4/3/01/126/1/001087,01,Secuencias correspondientes a la posición y a la identificación,301 126,Secuencia para la representación de identificadores de boyas fondeadas,,001087,Indicador ampliado de la plataforma OMM de,,,,Operational
+bufr4/3/02/126/1/001015,01,Secuencias correspondientes a la posición y a la identificación,302 126,Secuencia para la representación de identificadores de boyas fondeadas,,001015,Nombre de la estación o emplazamiento,,,,Operational
+bufr4/3/03/126/1/002149,01,Secuencias correspondientes a la posición y a la identificación,303 126,Secuencia para la representación de identificadores de boyas fondeadas,,002149,Tipo de boya de datos,,,,Operational
+bufr4/3/04/126/1/301011,01,Secuencias correspondientes a la posición y a la identificación,304 126,Secuencia para la representación de identificadores de boyas fondeadas,,301011,"Año, mes, día",,,,Operational
+bufr4/3/05/126/1/301012,01,Secuencias correspondientes a la posición y a la identificación,305 126,Secuencia para la representación de identificadores de boyas fondeadas,,301012,"Hora, minuto",,,,Operational
+bufr4/3/06/126/1/301021,01,Secuencias correspondientes a la posición y a la identificación,306 126,Secuencia para la representación de identificadores de boyas fondeadas,,301021,Latitud/longitud (gran exactitud),,,,Operational
 bufr4/3/01/128/1/001081,01,Secuencias correspondientes a la posición y a la identificación,301128,Información adicional sobre el ascenso de la radiosonda,,001081,Número de serie de la radiosonda,,,,Operational
 bufr4/3/01/128/2/001082,01,Secuencias correspondientes a la posición y a la identificación,301128,Información adicional sobre el ascenso de la radiosonda,,001082,Número de ascenso de la radiosonda,,,,Operational
 bufr4/3/01/128/3/001083,01,Secuencias correspondientes a la posición y a la identificación,301128,Información adicional sobre el ascenso de la radiosonda,,001083,Número de lanzamiento de la radiosonda,,,,Operational
@@ -461,7 +461,7 @@ bufr4/3/01/132/7/301012,01,Secuencias correspondientes a la posición y a la ide
 bufr4/3/01/132/8/002006,01,Secuencias correspondientes a la posición y a la identificación,301132,Secuencia de encabezamiento común,,002006,Tipo de instrumento de teledetección en altitud,,,,Operational
 bufr4/3/01/132/9/001079,01,Secuencias correspondientes a la posición y a la identificación,301132,Secuencia de encabezamiento común,,001079,Identificador único del perfil,,,,Operational
 bufr4/3/01/132/10/001085,01,Secuencias correspondientes a la posición y a la identificación,301132,Secuencia de encabezamiento común,,001085,Modelo del fabricante de la plataforma de observación,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,301 150,Identificador del WIGOS,,001125,Serie de identificadores del WIGOS,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,302 150,Identificador del WIGOS,,001126,Emisor del identificador del WIGOS,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,303 150,Identificador del WIGOS,,001127,Número de emisión del WIGOS,,,,Operational
-,01,Secuencias correspondientes a la posición y a la identificación,304 150,Identificador del WIGOS,,001128,Identificador local del WIGOS (carácter),,,,Operational
+bufr4/3/01/150/1/001125,01,Secuencias correspondientes a la posición y a la identificación,301150,Identificador del WIGOS,,001125,Serie de identificadores del WIGOS,,,,Operational
+bufr4/3/02/150/1/001126,01,Secuencias correspondientes a la posición y a la identificación,302150,Identificador del WIGOS,,001126,Emisor del identificador del WIGOS,,,,Operational
+bufr4/3/03/150/1/001127,01,Secuencias correspondientes a la posición y a la identificación,303150,Identificador del WIGOS,,001127,Número de emisión del WIGOS,,,,Operational
+bufr4/3/04/150/1/001128,01,Secuencias correspondientes a la posición y a la identificación,304150,Identificador del WIGOS,,001128,Identificador local del WIGOS (carácter),,,,Operational
