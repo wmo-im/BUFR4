@@ -541,6 +541,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008060,Sample scanning mode significance,6,East/west,,,,,Operational
 008060,Sample scanning mode significance,7-14,Reserved,,,,,Operational
 008060,Sample scanning mode significance,15,Missing value,,,,,Operational
+008061,Surface flag source,0,Unknown,,,,,Operational
+008061,Surface flag source,1,Forecast (NWP),,,,,Operational
+008061,Surface flag source,2,Real-time observation,,,,,Operational
+008061,Surface flag source,3,Historic probability (climatology),,,,,Operational
+008061,Surface flag source,4-14,Reserved,,,,,Operational
+008061,Surface flag source,15,Missing,,,,,Operational
 008065,Sun-glint indicator,0,No sun-glint,,,,,Operational
 008065,Sun-glint indicator,1,Sun-glint,,,,,Operational
 008065,Sun-glint indicator,2,Reserved,,,,,Operational
