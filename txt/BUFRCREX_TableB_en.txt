@@ -329,6 +329,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 03,Instrumentation,003032,Channel centre frequency,Hz,-6,0,26,Hz,-6,10,,,Operational
 03,Instrumentation,003033,Channel bandwidth,Hz,-6,0,26,Hz,-6,10,,,Operational
 03,Instrumentation,003034,Channel wavelength,m,9,0,16,m,9,5,,,Operational
+03,Instrumentation,003035,Incidence angle,Degree,2,0,14,Degree,2,5,,,Operational
 04,Location (time),004001,Year,a,0,0,12,a,0,4,,,Operational
 04,Location (time),004002,Month,mon,0,0,4,mon,0,2,,,Operational
 04,Location (time),004003,Day,d,0,0,6,d,0,2,,,Operational
@@ -516,6 +517,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008054,Qualifier for wind speed or wind gusts,Code table,0,0,3,Code table,0,1,,,Operational
 08,Significance qualifiers,008055,Method used to calculate the average wind components after removing vortex,Code table,0,0,4,,,,,,Operational
 08,Significance qualifiers,008060,Sample scanning mode significance,Code table,0,0,4,Code table,0,2,,,Operational
+08,Significance qualifiers,008061,Surface flag source,Code table,0,0,4,Code table,0,2,,,Operational
 08,Significance qualifiers,008065,Sun-glint indicator,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008066,Semi-transparency indicator,Code table,0,0,2,Code table,0,1,,,Operational
 08,Significance qualifiers,008070,Vertical sounding product qualifier,Code table,0,0,4,Code table,0,2,,,Operational
@@ -1152,7 +1154,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021029,Cross-polarization correlation coefficient,Numeric,2,-100,8,Numeric,2,3,,,Operational
 21,Radar data,021030,Signal to noise ratio,dB,0,-32,8,dB,0,3,,,Operational
 21,Radar data,021031,Vertically integrated liquid-water content,kg m-2,0,0,7,kg m-2,0,3,,,Operational
+21,Radar data,021034,Backscatter flag,Flag table,0,0,16,Flag table,0,6,,,Operational
 21,Radar data,021036,Radar rainfall intensity,m/s,7,0,12,m/s,7,4,,,Operational
+21,Radar data,021037,Slope,dB/degree,2,-80,7,dB/degree,2,3,,,Operational
+21,Radar data,021038,Curvature,dB/degree²,4,-6000,14,dB/degree²,4,5,,,Operational
 21,Radar data,021041,Bright-band height,m,-2,0,8,m,-2,3,,,Operational
 21,Radar data,021051,Signal power above 1 mW,dB,0,-256,8,dB,0,3,,,Operational
 21,Radar data,021062,Backscatter,dB,2,-5000,13,dB,2,4,,,Operational
@@ -1248,6 +1253,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021165,ASCAT extrapolated reference function presence,Numeric,3,0,10,Numeric,3,4,,,Operational
 21,Radar data,021166,Land fraction,Numeric,3,0,10,Numeric,3,4,,,Operational
 21,Radar data,021167,Subsurface scattering probability,%,0,0,7,%,0,3,,,Operational
+21,Radar data,021168,Scattering mechanism,Code table,0,0,7,Code table,0,3,,,Operational
 21,Radar data,021169,Ice presence indicator,Code table,0,0,2,Code table,0,1,,,Operational
 21,Radar data,021170,C band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
 21,Radar data,021171,RMS C band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
@@ -1475,6 +1481,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 25,Processing information,025030,Running mean sea-surface temperature usage,Code table,0,0,2,Code table,0,1,,,Operational
 25,Processing information,025031,NWP-generated vertical profile thinning method,Code table,0,0,3,Code table,0,1,,,Operational
 25,Processing information,025032,Wind profiler mode information,Code table,0,0,2,Code table,0,1,(see Note 2),131,Operational
+25,Processing information,025032,Noise curvature,dB/degree²,5,0,16,dB/degree²,5,6,,,Operational
 25,Processing information,025033,Wind profiler submode information,Code table,0,0,2,Code table,0,1,(see Note 2),131,Operational
 25,Processing information,025034,Wind profiler quality control test results,Flag table,0,0,4,Flag table,0,2,(see Note 2),131,Operational
 25,Processing information,025035,Decision method for polarity,Code table,0,0,3,Code table,0,1,(see Note 5),34,Operational
@@ -1682,6 +1689,9 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033054,Overall quality of retrieved atmospheric profile,Code table,0,0,3,Code table,0,1,,,Operational
 33,Quality information,033055,Wind vector quality flag,Flag table,0,0,24,Flag table,0,8,,,Operational
 33,Quality information,033056,Sigma-0 quality flag,Flag table,0,0,24,Flag table,0,8,,,Operational
+33,Quality information,033057,SCAT L2 applied correction flag,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033058,SCAT L2 flag cause missing data,Flag table,0,0,16,Flag table,0,6,,,Operational
+33,Quality information,033059,SCAT L2 threshold flag,Flag table,0,0,16,Flag table,0,6,,,Operational
 33,Quality information,033060,GqisFlagQual - individual IASI-System quality flag,Code table,0,0,2,Code table,0,1,,,Operational
 33,Quality information,033061,GqisQualIndex - indicator for instrument noise performance (contributions from spectral and radiometric calibration),%,0,0,7,%,0,3,,,Operational
 33,Quality information,033062,GqisQualIndexLoc - indicator for geometric quality index,%,0,0,7,%,0,3,,,Operational
@@ -1737,6 +1747,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 33,Quality information,033117,In bounds check,Flag table,0,0,17,Flag table,0,6,,,Operational
 33,Quality information,033118,Relative error percentage,%,2,-10000,15,%,2,5,,,Operational
 33,Quality information,033119,Forecast error percentage,%,0,-100,8,%,0,3,,,Operational
+33,Quality information,033120,Estimated error in backscatter,dB,2,0,10,dB,2,4,,,Operational
+33,Quality information,033121,Estimated error in slope,dB/degree,3,-40,6,dB/degree,3,2,,,Operational
 35,Data monitoring information,035000,FM and regional code number,Code table,0,0,10,Code table,0,3,,,Operational
 35,Data monitoring information,035001,Time frame for monitoring,Code table,0,0,3,Code table,0,1,,,Operational
 35,Data monitoring information,035011,Number of reports actually received,Numeric,0,0,14,Numeric,0,4,,,Operational

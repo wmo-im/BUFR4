@@ -15498,6 +15498,48 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Unknown</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Forecast (NWP)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Real-time observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Historic probability (climatology)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>4-14</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>008065</FXY>
     <ElementName_en>Sun-glint indicator</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -27638,6 +27680,41 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>1-12</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>sigma0_noise_out_of_limits (NOOL flag raised)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>sigma0_slightly_degraded (One or more observations degraded)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>sigma0_usable (All observations usable)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>021066</FXY>
     <ElementName_en>Wave scatterometer product confidence data</ElementName_en>
     <CodeFigure>1</CodeFigure>
@@ -28872,6 +28949,41 @@
     <ElementName_en>ASCAT sigma-0 usability</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Unknown</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Surface scattering</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Subsurface (volume) scattering</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>3-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -35430,6 +35542,139 @@
     <FXY>033056</FXY>
     <ElementName_en>Sigma-0 quality flag</ElementName_en>
     <CodeFigure>All 24</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>1-11</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Correction of wet backscatter reference</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Correction of dry backscatter reference</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>SM set to 100% (was between 100% and 125%)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>SM set to 0% (was between -25% and 0%)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>1-10</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>sm_above_125_perc_saturation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>sm_below_-25_perc_saturation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>backscatter40_not_usable</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>model_parameter_not_usable</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>not_soil</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 treshold flag</ElementName_en>
+    <CodeFigure>1-11</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 treshold flag</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Slope Mid-Aft beam out of range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 treshold flag</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Slope Mid-Fore beam out of range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 treshold flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Soil moisture sensitivity below limit</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 treshold flag</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Fore – Aft beam out of range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 treshold flag</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
