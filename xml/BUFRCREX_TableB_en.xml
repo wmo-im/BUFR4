@@ -16358,6 +16358,34 @@
   <BUFRCREX_TableB_en>
     <ClassNo>21</ClassNo>
     <ClassName_en>Radar data</ClassName_en>
+    <FXY>021049</FXY>
+    <ElementName_en>Amplitude of echo (digitizer counts)</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021050</FXY>
+    <ElementName_en>Decay time for echo to fall to half of its peak amplitude</ElementName_en>
+    <BUFR_Unit>s</BUFR_Unit>
+    <BUFR_Scale>3</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <CREX_Unit>s</CREX_Unit>
+    <CREX_Scale>3</CREX_Scale>
+    <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
     <FXY>021051</FXY>
     <ElementName_en>Signal power above 1 mW</ElementName_en>
     <BUFR_Unit>dB</BUFR_Unit>
@@ -17965,6 +17993,20 @@
     <CREX_DataWidth_Char>6</CREX_DataWidth_Char>
     <Note_en>(see Note)</Note_en>
     <noteIDs>11</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>21</ClassNo>
+    <ClassName_en>Radar data</ClassName_en>
+    <FXY>021190</FXY>
+    <ElementName_en>Ambiguity index</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
+    <CREX_Unit>Numeric</CREX_Unit>
+    <CREX_Scale>0</CREX_Scale>
+    <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>

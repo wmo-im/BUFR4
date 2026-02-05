@@ -30,6 +30,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021031,Vertically integrated liquid-water content,kg m-2,0,0,7,kg m-2,0,3,,,Operational
 21,Radar data,021036,Radar rainfall intensity,m/s,7,0,12,m/s,7,4,,,Operational
 21,Radar data,021041,Bright-band height,m,-2,0,8,m,-2,3,,,Operational
+21,Radar data,021049,Amplitude of echo (digitizer counts),Numeric,0,0,16,Numeric,0,5,,,Operational
+21,Radar data,021050,Decay time for echo to fall to half of its peak amplitude,s,3,0,16,s,3,5,,,Operational
 21,Radar data,021051,Signal power above 1 mW,dB,0,-256,8,dB,0,3,,,Operational
 21,Radar data,021062,Backscatter,dB,2,-5000,13,dB,2,4,,,Operational
 21,Radar data,021063,Radiometric resolution (noise value),%,1,0,10,%,1,4,,,Operational
@@ -145,3 +147,4 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021187,RMS specific band automatic gain control,dB,2,0,8,dB,2,3,,,Operational
 21,Radar data,021188,Number of valid points for specific band automatic gain control,Numeric,0,0,7,Numeric,0,3,,,Operational
 21,Radar data,021189,Corrected OCOG backscatter coefficient (negative reference),dB,2,-32768,16,dB,2,6,(see Note),11,Operational
+21,Radar data,021190,Ambiguity index,Numeric,0,0,4,Numeric,0,2,,,Operational
