@@ -1157,7 +1157,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021034,Backscatter flag,Flag table,0,0,16,,,,,,Operational
 21,Radar data,021036,Radar rainfall intensity,m/s,7,0,12,m/s,7,4,,,Operational
 21,Radar data,021037,Slope,dB/degree,2,-80,7,,,,,,Operational
-21,Radar data,021038,Curvature,dB/degree²,4,-6000,14,dB/degree²,4,5,,,Operational
+21,Radar data,021038,Curvature,dB/degree²,4,-6000,14,,,,,,Operational
 21,Radar data,021041,Bright-band height,m,-2,0,8,m,-2,3,,,Operational
 21,Radar data,021051,Signal power above 1 mW,dB,0,-256,8,dB,0,3,,,Operational
 21,Radar data,021062,Backscatter,dB,2,-5000,13,dB,2,4,,,Operational
@@ -1481,7 +1481,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 25,Processing information,025030,Running mean sea-surface temperature usage,Code table,0,0,2,Code table,0,1,,,Operational
 25,Processing information,025031,NWP-generated vertical profile thinning method,Code table,0,0,3,Code table,0,1,,,Operational
 25,Processing information,025032,Wind profiler mode information,Code table,0,0,2,Code table,0,1,(see Note 2),131,Operational
-25,Processing information,025032,Noise curvature,dB/degree²,5,0,16,dB/degree²,5,6,,,Operational
+25,Processing information,025032,Noise curvature,dB/degree²,5,0,16,,,,,,Operational
 25,Processing information,025033,Wind profiler submode information,Code table,0,0,2,Code table,0,1,(see Note 2),131,Operational
 25,Processing information,025034,Wind profiler quality control test results,Flag table,0,0,4,Flag table,0,2,(see Note 2),131,Operational
 25,Processing information,025035,Decision method for polarity,Code table,0,0,3,Code table,0,1,(see Note 5),34,Operational
