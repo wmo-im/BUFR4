@@ -9,8 +9,8 @@ bufr4/0/03/001/6,003001,Type de station d'observation en surface,6,Bouée sur gl
 bufr4/0/03/001/7,003001,Type de station d'observation en surface,7,Station terrestre (réseau local),,,,,Operational,Original
 bufr4/0/03/001/8,003001,Type de station d'observation en surface,8,Véhicule terrestre,,,,,Operational,Original
 bufr4/0/03/001/9,003001,Type de station d'observation en surface,9,Véhicule marin autonome,,,,,Operational,Original
-bufr4/0/03/001/10,003001,Type de station d’observation en surface,10,Étiquette attachée à un animal marin,,,,,Operational,AI Translator: MCP
-bufr4/0/03/001/11-30,003001,Type de station d’observation en surface,11-30,En réserve pour un usage futur,,,,,Operational,AI Translator: MCP
+bufr4/0/03/001/10,003001,Type de station d’observation en surface,10,Étiquette attachée à un animal marin,,,,,Operational,Original
+bufr4/0/03/001/11-30,003001,Type de station d’observation en surface,11-30,En réserve pour un usage futur,,,,,Operational,Original
 bufr4/0/03/001/31,003001,Type de station d'observation en surface,31,Valeur manquante,,,,,Operational,Original
 bufr4/0/03/003/0,003003,Boîtier du thermomètre/de l'hygromètre,0,Abri météo,,,,,Operational,Original
 bufr4/0/03/003/1,003003,Boîtier du thermomètre/de l'hygromètre,1,Fronde/crécelle,,,,,Operational,Original
@@ -39,7 +39,7 @@ bufr4/0/03/008/2,003008,Abri ou protection avec ventilation artificielle,2,Aspir
 bufr4/0/03/008/3-6,003008,Abri ou protection avec ventilation artificielle,3-6,En réserve,,,,,Operational,Original
 bufr4/0/03/008/7,003008,Abri ou protection avec ventilation artificielle,7,Valeur manquante,,,,,Operational,Original
 bufr4/0/03/010/0,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,0,En réserve,* Valeur caduque; le chiffre du code 6 devrait être utilisé.,** Profileur acoustique de courant Doppler,,,Operational,Original
-bufr4/0/03/010/1,003010,Méthode de mesure du courant en mer ou dans une autre masse d’eau,1,ADCP,,,*,91,Operational,AI Translator: MCP
+bufr4/0/03/010/1,003010,Méthode de mesure du courant en mer ou dans une autre masse d’eau,1,ADCP,,,*,91,Operational,Original
 bufr4/0/03/010/2,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,2,GEK (Électrocinétographe géomagnétique),* Valeur caduque; le chiffre du code 6 devrait être utilisé.,** Profileur acoustique de courant Doppler,,,Operational,Original
 bufr4/0/03/010/3,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,3,Direction et dérive du navire déterminées par des relevés effectués à intervalles de 3 à 6 heures,* Valeur caduque; le chiffre du code 6 devrait être utilisé.,** Profileur acoustique de courant Doppler,,,Operational,Original
 bufr4/0/03/010/4,003010,Méthode de mesure du courant en mer et dans d'autres masses d'eau,4,"Direction et dérive du navire déterminées par des relevés effectués à intervalles de plus de 6 heures, mais de moins de 12 heures",* Valeur caduque; le chiffre du code 6 devrait être utilisé.,** Profileur acoustique de courant Doppler,,,Operational,Original
@@ -74,7 +74,7 @@ bufr4/0/03/017/2,003017,Précisions sur le type de station,2,Station dotée de p
 bufr4/0/03/017/3,003017,Précisions sur le type de station,3,Déclenchement événementiel,,,,,Operational,Original
 bufr4/0/03/017/4,003017,Précisions sur le type de station,4,Période plus longue que la période standard,,,,,Operational,Original
 bufr4/0/03/017/5,003017,Précisions sur le type de station,5,En réserve,,,,,Operational,Original
-bufr4/0/03/017/All-6,003017,Précisions sur le type de station,All 6,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/03/017/All-6,003017,Précisions sur le type de station,All 6,Valeur manquante,,,,,Operational,Original
 bufr4/0/03/018/0,003018,Type de route,0,"Voie dégagée, sans plus d'informations",,,,,Operational,Original
 bufr4/0/03/018/1,003018,Type de route,1,"Voie dégagée, talus",,,,,Operational,Original
 bufr4/0/03/018/2,003018,Type de route,2,"Voie dégagée, plane par rapport aux alentours",,,,,Operational,Original
@@ -149,11 +149,11 @@ bufr4/0/03/028/5,003028,Technique de mesure de l'équivalent en eau de la neige,
 bufr4/0/03/028/6,003028,Technique de mesure de l'équivalent en eau de la neige,6,Réflectométrie dans le domaine temporel,,,,,Operational,Original
 bufr4/0/03/028/7-62,003028,Technique de mesure de l'équivalent en eau de la neige,7-62,En réserve,,,,,Operational,Original
 bufr4/0/03/028/63,003028,Technique de mesure de l'équivalent en eau de la neige,63,Valeur manquante,,,,,Operational,Original
-bufr4/0/03/029/0,003029,Swath,0,Côté gauche,,,,,Operational,AI Translator: MCP
-bufr4/0/03/029/1,003029,Swath,1,Côté droit,,,,,Operational,AI Translator: MCP
-bufr4/0/03/029/2-6,003029,Swath,2-6,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/03/029/7,003029,Swath,7,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/03/030/0,003030,Statut de l'antenne,0,Transmission,,,,,Operational,AI Translator: MCP
-bufr4/0/03/030/1,003030,Statut de l'antenne,1,Réception,,,,,Operational,AI Translator: MCP
-bufr4/0/03/030/2-6,003030,Statut de l'antenne,2-6,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/03/030/7,003030,Statut de l'antenne,7,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/03/029/0,003029,Swath,0,Côté gauche,,,,,Operational,Original
+bufr4/0/03/029/1,003029,Swath,1,Côté droit,,,,,Operational,Original
+bufr4/0/03/029/2-6,003029,Swath,2-6,En réserve,,,,,Operational,Original
+bufr4/0/03/029/7,003029,Swath,7,Valeur manquante,,,,,Operational,Original
+bufr4/0/03/030/0,003030,Statut de l'antenne,0,Transmission,,,,,Operational,Original
+bufr4/0/03/030/1,003030,Statut de l'antenne,1,Réception,,,,,Operational,Original
+bufr4/0/03/030/2-6,003030,Statut de l'antenne,2-6,En réserve,,,,,Operational,Original
+bufr4/0/03/030/7,003030,Statut de l'antenne,7,Valeur manquante,,,,,Operational,Original

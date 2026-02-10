@@ -1,80 +1,80 @@
 Id,ClassNo,ClassName_fr,FXY,ElementName_fr,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue,BUFR_DataWidth_Bits,CREX_Unit,CREX_Scale,CREX_DataWidth_Char,Note_fr,noteIDs,Status,translated_by
-bufr4/0/40/001,40,Classe 40 Données satellitaires,040001,Humidité du sol en surface,,1,0,10,,1,4,,,Operational,Original
-bufr4/0/40/002,40,Classe 40 Données satellitaires,040002,Erreur estimative de l'humidité du sol en surface,,1,0,10,,1,4,,,Operational,Original
-bufr4/0/40/003,40,Classe 40 Données satellitaires,040003,Humidité moyenne du sol en surface,,3,0,10,,3,4,,,Operational,Original
-bufr4/0/40/004,40,Classe 40 Données satellitaires,040004,Détection de pluie,,3,0,10,,3,4,,,Operational,Original
-bufr4/0/40/005,40,Classe 40 Données satellitaires,040005,Indicateur de correction de l'humidité du sol,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/006,40,Classe 40 Données satellitaires,040006,Indicateur de traitement de l'humidité du sol,,0,0,16,,0,6,,,Operational,Original
-bufr4/0/40/007,40,Classe 40 Données satellitaires,040007,Qualité de l'humidité du sol,,1,0,10,,1,4,,,Operational,Original
-bufr4/0/40/008,40,Classe 40 Données satellitaires,040008,Fraction gelée de la surface terrestre,,1,0,10,,1,4,,,Operational,Original
-bufr4/0/40/009,40,Classe 40 Données satellitaires,040009,Fraction des zones humides et inondées,,1,0,10,,1,4,,,Operational,Original
-bufr4/0/40/010,40,Classe 40 Données satellitaires,040010,Complexité topographique,,1,0,10,,1,4,,,Operational,Original
-bufr4/0/40/011,40,Classe 40 Données satellitaires,040011,Indicateur d'interpolation,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/012,40,Classe 40 Données satellitaires,040012,Indicateur de qualité des données du radiomètre,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/013,40,Classe 40 Données satellitaires,040013,Indicateur d'interprétation de la température de luminance du radiomètre,,0,0,3,,0,1,,,Operational,Original
-bufr4/0/40/014,40,Classe 40 Données satellitaires,040014,Fluctuations haute fréquence de la correction topographique de la surface de la mer,,4,-3000,13,,4,4,,,Operational,Original
-bufr4/0/40/015,40,Classe 40 Données satellitaires,040015,Indice différentiel normalisé de végétation (NDVI),,2,-100,8,,2,3,,,Operational,Original
-bufr4/0/40/016,40,Classe 40 Données satellitaires,040016,Moyenne quadratique résiduelle en bande,,3,0,14,,3,5,,,Operational,Original
-bufr4/0/40/017,40,Classe 40 Données satellitaires,040017,Score des composantes principales non normalisé,,0,-1073741824,31,,0,10,,,Operational,Original
-bufr4/0/40/018,40,Classe 40 Données satellitaires,040018,GlacAvgImagIIS - moyenne des mesures de l'imageur,,6,0,24,,6,8,,,Operational,Original
-bufr4/0/40/019,40,Classe 40 Données satellitaires,040019,GlacVarlmagIIS - variance des mesures de l'imageur,,6,0,24,,6,8,,,Operational,Original
-bufr4/0/40/020,40,Classe 40 Données satellitaires,040020,GqisFlagQualDetailed – indicateur de qualité du système,,0,0,17,,0,6,,,Operational,Original
-bufr4/0/40/021,40,Classe 40 Données satellitaires,040021,Fraction de pixels AVHRR pondérés dans le champ de vision de l'IASI recouvert d'une couche de neige/glace,,0,0,7,,0,3,,,Operational,Original
-bufr4/0/40/022,40,Classe 40 Données satellitaires,040022,"Nombre de pixels AVHRR manquants, erronés ou défaillants",,0,0,7,,0,3,,,Operational,Original
-bufr4/0/40/023,40,Classe 40 Données satellitaires,040023,Indicateur de l'état de l'altimètre auxiliaire,,0,0,5,,0,2,,,Operational,Original
-bufr4/0/40/024,40,Classe 40 Données satellitaires,040024,Existence de cartes météorologiques,,0,0,3,,0,1,,,Operational,Original
-bufr4/0/40/025,40,Classe 40 Données satellitaires,040025,Indicateur d'interpolation pour la marée diurne moyenne,,0,0,2,,0,1,,,Operational,Original
-bufr4/0/40/026,40,Classe 40 Données satellitaires,040026,Facteur de quantification de l'indice,,2,0,16,,2,5,,,Operational,Original
-bufr4/0/40/027,40,Classe 40 Données satellitaires,040027,Angle du reflet solaire,,2,-18000,16,,2,5,,,Operational,Original
-bufr4/0/40/028,40,Classe 40 Données satellitaires,040028,Indicateur de qualité des données du GMI,,0,0,4,,0,2,,,Operational,Original
-bufr4/0/40/029,40,Classe 40 Données satellitaires,040029,Longueur d'intégration horizontale des observations,,0,0,26,,0,8,,,Operational,Original
-bufr4/0/40/030,40,Classe 40 Données satellitaires,040030,Vent horizontal dans l'axe de visée,,2,-32767,16,,2,5,,,Operational,Original
-bufr4/0/40/031,40,Classe 40 Données satellitaires,040031,Estimation des erreurs relatives au vent horizontal dans l'axe de visée,,2,0,15,,2,5,,,Operational,Original
-bufr4/0/40/032,40,Classe 40 Données satellitaires,040032,Dérivée du vent par rapport à la pression,,3,-100000,18,,3,6,,,Operational,Original
-bufr4/0/40/033,40,Classe 40 Données satellitaires,040033,Dérivée du vent par rapport à la température,,3,-100000,18,,3,6,,,Operational,Original
-bufr4/0/40/034,40,Classe 40 Données satellitaires,040034,Dévirée du vent par rapport au coefficient de rétrodiffusion,,3,-200000,19,,3,6,,,Operational,Original
-bufr4/0/40/035,40,Classe 40 Données satellitaires,040035,Distance du satellite,,0,380000,18,,0,6,,,Operational,Original
-bufr4/0/40/036,40,Classe 40 Données satellitaires,040036,Type de classification des produits lidar de niveau L2b,,0,0,4,,0,2,,,Operational,Original
-bufr4/0/40/037,40,Classe 40 Données satellitaires,040037,Coefficient de rétrodiffusion,,3,500,20,,3,7,,,Operational,Original
-bufr4/0/40/038,40,Classe 40 Données satellitaires,040038,Taille des particules de nuages,,7,0,28,,7,6,,,Operational,Original
-bufr4/0/40/039,40,Classe 40 Données satellitaires,040039,Intensité d'image du produit singulier complexe,,0,-25,5,,0,3,,,Operational,Original
-bufr4/0/40/040,40,Classe 40 Données satellitaires,040040,Asymétrie d'image du produit singulier complexe,,2,1,13,,0,4,,,Operational,Original
-bufr4/0/40/041,40,Classe 40 Données satellitaires,040041,Aplatissement d'image du produit singulier complexe,,2,1,13,,0,4,,,Operational,Original
-bufr4/0/40/042,40,Classe 40 Données satellitaires,040042,Variance d'image du produit singulier complexe,,2,1,13,,0,4,,,Operational,Original
-bufr4/0/40/043,40,Classe 40 Données satellitaires,040043,Indicateur de manœuvre du satellite,,0,0,3,,0,1,,,Operational,Original
-bufr4/0/40/044,40,Classe 40 Données satellitaires,040044,Indice de poussière,,1,0,8,,1,3,,,Operational,Original
-bufr4/0/40/045,40,Classe 40 Données satellitaires,040045,Formation de nuages et détermination de l'altitude,,0,0,5,,0,2,,,Operational,Original
-bufr4/0/40/046,40,Classe 40 Données satellitaires,040046,Résumé de la nébulosité,,0,0,3,,0,1,,,Operational,Original
-bufr4/0/40/047,40,Classe 40 Données satellitaires,040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,,0,0,3,,0,1,,,Operational,Original
-bufr4/0/40/048,40,Classe 40 Données satellitaires,040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,,0,0,3,,0,1,,,Operational,Original
-bufr4/0/40/049,40,Classe 40 Données satellitaires,040049,Tests de nuages effectués et résultats,,0,0,16,,0,5,,,Operational,Original
-bufr4/0/40/050,40,Classe 40 Données satellitaires,040050,Initialisation de l'extraction,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/051,40,Classe 40 Données satellitaires,040051,Convergence d'extraction itérative,,0,0,3,,0,1,,,Operational,Original
-bufr4/0/40/052,40,Classe 40 Données satellitaires,040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/053,40,Classe 40 Données satellitaires,040053,Nombre d'itérations utilisées pour une extraction,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/054,40,Classe 40 Données satellitaires,040054,Erreurs de traitement et d'entrée potentielles,,0,0,13,,0,4,,,Operational,Original
-bufr4/0/40/055,40,Classe 40 Données satellitaires,040055,Diagnostics relatifs à l'extraction,,0,0,21,,0,7,,,Operational,Original
-bufr4/0/40/056,40,Classe 40 Données satellitaires,040056,Qualité générale d'une extraction,,0,0,3,,0,1,,,Operational,Original
-bufr4/0/40/057,40,Classe 40 Données satellitaires,040057,Indicateurs d'extraction de données IASI de niveau 2,,0,0,31,,0,10,,,Operational,Original
-bufr4/0/40/058,40,Classe 40 Données satellitaires,040058,Nombre de vecteurs décrivant les matrices de caractérisation,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/059,40,Classe 40 Données satellitaires,040059,Nombre de couches effectivement extraites,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/060,40,Classe 40 Données satellitaires,040060,Nombre de profils extraits sur une ligne de balayage,,0,0,8,,0,3,,,Operational,Original
-bufr4/0/40/061,40,Classe 40 Données satellitaires,040061,Colonnes partielles d'air dans chaque couche extraite,,3,0,16,,3,5,,,Operational,Original
-bufr4/0/40/062,40,Classe 40 Données satellitaires,040062,Colonnes partielles a priori dans chaque couche extraite,,10,0,16,,10,5,,,Operational,Original
-bufr4/0/40/063,40,Classe 40 Données satellitaires,040063,Vecteur de mise à l'échelle multipliant le vecteur CO a priori afin de définir le vecteur CO extrait,,5,0,26,,5,8,,,Operational,Original
-bufr4/0/40/064,40,Classe 40 Données satellitaires,040064,Principales valeurs propres de la matrice de sensibilité,,6,0,31,,6,10,,,Operational,Original
-bufr4/0/40/065,40,Classe 40 Données satellitaires,040065,Principaux vecteurs propres de la matrice de sensibilité,,6,-1000000000,31,,6,10,,,Operational,Original
-bufr4/0/40/066,40,Classe 40 Données satellitaires,040066,Indicateur de qualité pour la vapeur d'eau atmosphérique,,1,0,8,,1,3,,,Operational,Original
-bufr4/0/40/067,40,Classe 40 Données satellitaires,040067,Indicateur de qualité pour la température atmosphérique,,1,0,8,,1,3,,,Operational,Original
-bufr4/0/40/068,40,Classe 40 Données satellitaires,040068,Indicateur général de la qualité des extractions pour le SO2,,0,0,4,,0,2,,,Operational,Original
-bufr4/0/40/069,40,Classe 40 Données satellitaires,040069,Erreur d'extraction estimative de la température de l'air en surface selon la méthode PWLR*,,4,-1000000,21,,4,7,,,Operational,Original
-bufr4/0/40/070,40,Classe 40 Données satellitaires,040070,Erreur d'extraction estimative du point de rosée en surface selon la méthode PWLR,,4,-1000000,21,,4,7,,,Operational,Original
-bufr4/0/40/071,40,Classe 40 Données satellitaires,040071,Matrice de covariance d'erreur d'extraction de l'ozone dans le domaine principal des composantes,,4,-1000000,21,,4,7,,,Operational,Original
-bufr4/0/40/072,40,Classe 40 Données satellitaires,040072,Indicateur estimatif de qualité d'extraction de l'ozone atmosphérique selon la méthode PWLR,,1,0,8,,1,3,,,Operational,Original
-bufr4/0/40/073,40,Classe 40 Données satellitaires,040073,Erreur d'extraction estimative de la température de la pellicule superficielle selon la méthode PWLR,,1,0,8,,1,3,,,Operational,Original
-bufr4/0/40/074,40,Classe 40 Données satellitaires,040074,Indicateurs de qualité,Flag table,0,0,16,,,,,,Operational,AI Translator: MCP
-bufr4/0/40/075,40,Classe 40 Données satellitaires,040075,Matrice de covariance des erreurs de récupération pour l'humidité dans le domaine des composantes principales,Numeric,0,0,21,Numeric,0,7,,,Operational,AI Translator: MCP
-bufr4/0/40/076,40,Classe 40 Données satellitaires,040076,Matrice de covariance des erreurs de récupération pour la température dans le domaine des composantes principales,Numeric,0,0,21,Numeric,0,7,,,Operational,AI Translator: MCP
-bufr4/0/40/077,40,Classe 40 Données satellitaires,040077,Drapeau de qualité des produits océaniques,Flag table,0,0,8,Flag table,0,3,,,Operational,AI Translator: MCP
-bufr4/0/40/080,40,Classe 40 Données satellitaires,040080,Résultats du test de nuage pour le Niveau 2 IASI-NG,Flag table,0,0,5,Flag table,0,2,,,Operational,AI Translator: MCP
-bufr4/0/40/081,40,Classe 40 Données satellitaires,040081,Classification et qualité de niveau 1 OLCI,Flag table,0,0,31,,,,,,Operational,AI Translator: MCP
+bufr4/0/40/001,40,Classe 40 Données satellitaires,040001,Humidité du sol en surface,%,1,0,10,%,1,4,,,Operational,Original
+bufr4/0/40/002,40,Classe 40 Données satellitaires,040002,Erreur estimative de l'humidité du sol en surface,%,1,0,10,%,1,4,,,Operational,Original
+bufr4/0/40/003,40,Classe 40 Données satellitaires,040003,Humidité moyenne du sol en surface,Numeric,3,0,10,Numeric,3,4,,,Operational,Original
+bufr4/0/40/004,40,Classe 40 Données satellitaires,040004,Détection de pluie,Numeric,3,0,10,Numeric,3,4,,,Operational,Original
+bufr4/0/40/005,40,Classe 40 Données satellitaires,040005,Indicateur de correction de l'humidité du sol,Flag table,0,0,8,Flag table,0,3,,,Operational,Original
+bufr4/0/40/006,40,Classe 40 Données satellitaires,040006,Indicateur de traitement de l'humidité du sol,Flag table,0,0,16,Flag table,0,6,,,Operational,Original
+bufr4/0/40/007,40,Classe 40 Données satellitaires,040007,Qualité de l'humidité du sol,%,1,0,10,%,1,4,,,Operational,Original
+bufr4/0/40/008,40,Classe 40 Données satellitaires,040008,Fraction gelée de la surface terrestre,%,1,0,10,%,1,4,,,Operational,Original
+bufr4/0/40/009,40,Classe 40 Données satellitaires,040009,Fraction des zones humides et inondées,%,1,0,10,%,1,4,,,Operational,Original
+bufr4/0/40/010,40,Classe 40 Données satellitaires,040010,Complexité topographique,%,1,0,10,%,1,4,,,Operational,Original
+bufr4/0/40/011,40,Classe 40 Données satellitaires,040011,Indicateur d'interpolation,Flag table,0,0,8,Flag table,0,3,,,Operational,Original
+bufr4/0/40/012,40,Classe 40 Données satellitaires,040012,Indicateur de qualité des données du radiomètre,Flag table,0,0,8,Flag table,0,3,,,Operational,Original
+bufr4/0/40/013,40,Classe 40 Données satellitaires,040013,Indicateur d'interprétation de la température de luminance du radiomètre,Code table,0,0,3,Code table,0,1,,,Operational,Original
+bufr4/0/40/014,40,Classe 40 Données satellitaires,040014,Fluctuations haute fréquence de la correction topographique de la surface de la mer,m,4,-3000,13,m,4,4,,,Operational,Original
+bufr4/0/40/015,40,Classe 40 Données satellitaires,040015,Indice différentiel normalisé de végétation (NDVI),Numeric,2,-100,8,Numeric,2,3,,,Operational,Original
+bufr4/0/40/016,40,Classe 40 Données satellitaires,040016,Moyenne quadratique résiduelle en bande,Numeric,3,0,14,Numeric,3,5,,,Operational,Original
+bufr4/0/40/017,40,Classe 40 Données satellitaires,040017,Score des composantes principales non normalisé,Numeric,0,-1073741824,31,Numeric,0,10,,,Operational,Original
+bufr4/0/40/018,40,Classe 40 Données satellitaires,040018,GlacAvgImagIIS - moyenne des mesures de l'imageur,W m-2 sr-1 m,6,0,24,W m-2 sr-1 m,6,8,,,Operational,Original
+bufr4/0/40/019,40,Classe 40 Données satellitaires,040019,GlacVarlmagIIS - variance des mesures de l'imageur,W m-2 sr-1 m,6,0,24,W m-2 sr-1 m,6,8,,,Operational,Original
+bufr4/0/40/020,40,Classe 40 Données satellitaires,040020,GqisFlagQualDetailed – indicateur de qualité du système,Flag table,0,0,17,Flag table,0,6,,,Operational,Original
+bufr4/0/40/021,40,Classe 40 Données satellitaires,040021,Fraction de pixels AVHRR pondérés dans le champ de vision de l'IASI recouvert d'une couche de neige/glace,%,0,0,7,%,0,3,,,Operational,Original
+bufr4/0/40/022,40,Classe 40 Données satellitaires,040022,"Nombre de pixels AVHRR manquants, erronés ou défaillants",Numeric,0,0,7,Numeric,0,3,,,Operational,Original
+bufr4/0/40/023,40,Classe 40 Données satellitaires,040023,Indicateur de l'état de l'altimètre auxiliaire,Flag table,0,0,5,Flag table,0,2,,,Operational,Original
+bufr4/0/40/024,40,Classe 40 Données satellitaires,040024,Existence de cartes météorologiques,Code table,0,0,3,Code table,0,1,,,Operational,Original
+bufr4/0/40/025,40,Classe 40 Données satellitaires,040025,Indicateur d'interpolation pour la marée diurne moyenne,Code table,0,0,2,Code table,0,1,,,Operational,Original
+bufr4/0/40/026,40,Classe 40 Données satellitaires,040026,Facteur de quantification de l'indice,Numeric,2,0,16,Numeric,2,5,,,Operational,Original
+bufr4/0/40/027,40,Classe 40 Données satellitaires,040027,Angle du reflet solaire,deg,2,-18000,16,deg,2,5,,,Operational,Original
+bufr4/0/40/028,40,Classe 40 Données satellitaires,040028,Indicateur de qualité des données du GMI,Code table,0,0,4,Code table,0,2,,,Operational,Original
+bufr4/0/40/029,40,Classe 40 Données satellitaires,040029,Longueur d'intégration horizontale des observations,m,0,0,26,m,0,8,,,Operational,Original
+bufr4/0/40/030,40,Classe 40 Données satellitaires,040030,Vent horizontal dans l'axe de visée,m/s,2,-32767,16,m/s,2,5,,,Operational,Original
+bufr4/0/40/031,40,Classe 40 Données satellitaires,040031,Estimation des erreurs relatives au vent horizontal dans l'axe de visée,m/s,2,0,15,m/s,2,5,,,Operational,Original
+bufr4/0/40/032,40,Classe 40 Données satellitaires,040032,Dérivée du vent par rapport à la pression,m s-1 Pa-1,3,-100000,18,m s-1 Pa-1,3,6,,,Operational,Original
+bufr4/0/40/033,40,Classe 40 Données satellitaires,040033,Dérivée du vent par rapport à la température,m s-1 K-1,3,-100000,18,m s-1 K-1,3,6,,,Operational,Original
+bufr4/0/40/034,40,Classe 40 Données satellitaires,040034,Dévirée du vent par rapport au coefficient de rétrodiffusion,m/s,3,-200000,19,m/s,3,6,,,Operational,Original
+bufr4/0/40/035,40,Classe 40 Données satellitaires,040035,Distance du satellite,m,0,380000,18,m,0,6,,,Operational,Original
+bufr4/0/40/036,40,Classe 40 Données satellitaires,040036,Type de classification des produits lidar de niveau L2b,Code table,0,0,4,Code table,0,2,,,Operational,Original
+bufr4/0/40/037,40,Classe 40 Données satellitaires,040037,Coefficient de rétrodiffusion,Numeric,3,500,20,Numeric,3,7,,,Operational,Original
+bufr4/0/40/038,40,Classe 40 Données satellitaires,040038,Taille des particules de nuages,m,7,0,28,m,7,6,,,Operational,Original
+bufr4/0/40/039,40,Classe 40 Données satellitaires,040039,Intensité d'image du produit singulier complexe,Numeric,0,-25,5,Numeric,0,3,,,Operational,Original
+bufr4/0/40/040,40,Classe 40 Données satellitaires,040040,Asymétrie d'image du produit singulier complexe,Numeric,2,1,13,Numeric,0,4,,,Operational,Original
+bufr4/0/40/041,40,Classe 40 Données satellitaires,040041,Aplatissement d'image du produit singulier complexe,Numeric,2,1,13,Numeric,0,4,,,Operational,Original
+bufr4/0/40/042,40,Classe 40 Données satellitaires,040042,Variance d'image du produit singulier complexe,Numeric,2,1,13,Numeric,0,4,,,Operational,Original
+bufr4/0/40/043,40,Classe 40 Données satellitaires,040043,Indicateur de manœuvre du satellite,Code table,0,0,3,Code table,0,1,,,Operational,Original
+bufr4/0/40/044,40,Classe 40 Données satellitaires,040044,Indice de poussière,Numeric,1,0,8,Numeric,1,3,,,Operational,Original
+bufr4/0/40/045,40,Classe 40 Données satellitaires,040045,Formation de nuages et détermination de l'altitude,Flag table,0,0,5,Flag table,0,2,,,Operational,Original
+bufr4/0/40/046,40,Classe 40 Données satellitaires,040046,Résumé de la nébulosité,Code table,0,0,3,Code table,0,1,,,Operational,Original
+bufr4/0/40/047,40,Classe 40 Données satellitaires,040047,Indicateur de validation pour les produits IASI ou IASI-NG de niveau 1,Code table,0,0,3,Code table,0,1,,,Operational,Original
+bufr4/0/40/048,40,Classe 40 Données satellitaires,040048,Indicateur de validation pour les flux de données AMSU-A de niveau 1,Code table,0,0,3,Code table,0,1,,,Operational,Original
+bufr4/0/40/049,40,Classe 40 Données satellitaires,040049,Tests de nuages effectués et résultats,Flag table,0,0,16,Flag table,0,5,,,Operational,Original
+bufr4/0/40/050,40,Classe 40 Données satellitaires,040050,Initialisation de l'extraction,Flag table,0,0,8,Flag table,0,3,,,Operational,Original
+bufr4/0/40/051,40,Classe 40 Données satellitaires,040051,Convergence d'extraction itérative,Code table,0,0,3,Code table,0,1,,,Operational,Original
+bufr4/0/40/052,40,Classe 40 Données satellitaires,040052,Indication de gradient superadiabatique et de sursaturation dans une extraction finale,Flag table,0,0,8,Flag table,0,3,,,Operational,Original
+bufr4/0/40/053,40,Classe 40 Données satellitaires,040053,Nombre d'itérations utilisées pour une extraction,Numeric,0,0,8,Numeric,0,3,,,Operational,Original
+bufr4/0/40/054,40,Classe 40 Données satellitaires,040054,Erreurs de traitement et d'entrée potentielles,Flag table,0,0,13,Flag table,0,4,,,Operational,Original
+bufr4/0/40/055,40,Classe 40 Données satellitaires,040055,Diagnostics relatifs à l'extraction,Flag table,0,0,21,Flag table,0,7,,,Operational,Original
+bufr4/0/40/056,40,Classe 40 Données satellitaires,040056,Qualité générale d'une extraction,Code table ,0,0,3,Code table,0,1,,,Operational,Original
+bufr4/0/40/057,40,Classe 40 Données satellitaires,040057,Indicateurs d'extraction de données IASI de niveau 2,Flag table,0,0,31,Flag table,0,10,,,Operational,Original
+bufr4/0/40/058,40,Classe 40 Données satellitaires,040058,Nombre de vecteurs décrivant les matrices de caractérisation,Numeric,0,0,8,Numeric,0,3,,,Operational,Original
+bufr4/0/40/059,40,Classe 40 Données satellitaires,040059,Nombre de couches effectivement extraites,Numeric,0,0,8,Numeric,0,3,,,Operational,Original
+bufr4/0/40/060,40,Classe 40 Données satellitaires,040060,Nombre de profils extraits sur une ligne de balayage,Numeric,0,0,8,Numeric,0,3,,,Operational,Original
+bufr4/0/40/061,40,Classe 40 Données satellitaires,040061,Colonnes partielles d'air dans chaque couche extraite,mol cm-2,3,0,16,mol cm-2,3,5,,,Operational,Original
+bufr4/0/40/062,40,Classe 40 Données satellitaires,040062,Colonnes partielles a priori dans chaque couche extraite,mol cm-2,10,0,16,mol cm-2,10,5,,,Operational,Original
+bufr4/0/40/063,40,Classe 40 Données satellitaires,040063,Vecteur de mise à l'échelle multipliant le vecteur CO a priori afin de définir le vecteur CO extrait,Numeric,5,0,26,Numeric,5,8,,,Operational,Original
+bufr4/0/40/064,40,Classe 40 Données satellitaires,040064,Principales valeurs propres de la matrice de sensibilité,Numeric,6,0,31,Numeric,6,10,,,Operational,Original
+bufr4/0/40/065,40,Classe 40 Données satellitaires,040065,Principaux vecteurs propres de la matrice de sensibilité,Numeric,6,-1000000000,31,Numeric,6,10,,,Operational,Original
+bufr4/0/40/066,40,Classe 40 Données satellitaires,040066,Indicateur de qualité pour la vapeur d'eau atmosphérique,Numeric,1,0,8,Numeric,1,3,,,Operational,Original
+bufr4/0/40/067,40,Classe 40 Données satellitaires,040067,Indicateur de qualité pour la température atmosphérique,Numeric,1,0,8,Numeric,1,3,,,Operational,Original
+bufr4/0/40/068,40,Classe 40 Données satellitaires,040068,Indicateur général de la qualité des extractions pour le SO2,Code table,0,0,4,Code table,0,2,,,Operational,Original
+bufr4/0/40/069,40,Classe 40 Données satellitaires,040069,Erreur d'extraction estimative de la température de l'air en surface selon la méthode PWLR*,K,4,-1000000,21,K,4,7,,,Operational,Original
+bufr4/0/40/070,40,Classe 40 Données satellitaires,040070,Erreur d'extraction estimative du point de rosée en surface selon la méthode PWLR,K,4,-1000000,21,K,4,7,,,Operational,Original
+bufr4/0/40/071,40,Classe 40 Données satellitaires,040071,Matrice de covariance d'erreur d'extraction de l'ozone dans le domaine principal des composantes,Numeric,4,-1000000,21,Numeric,4,7,,,Operational,Original
+bufr4/0/40/072,40,Classe 40 Données satellitaires,040072,Indicateur estimatif de qualité d'extraction de l'ozone atmosphérique selon la méthode PWLR,Numeric,1,0,8,Numeric,1,3,,,Operational,Original
+bufr4/0/40/073,40,Classe 40 Données satellitaires,040073,Erreur d'extraction estimative de la température de la pellicule superficielle selon la méthode PWLR,K,1,0,8,K,1,3,,,Operational,Original
+bufr4/0/40/074,40,Classe 40 Données satellitaires,040074,Indicateurs de qualité,Flag table,0,0,16,,,,,,Operational,Original
+bufr4/0/40/075,40,Classe 40 Données satellitaires,040075,Matrice de covariance des erreurs de récupération pour l'humidité dans le domaine des composantes principales,Numeric,0,0,21,Numeric,0,7,,,Operational,Original
+bufr4/0/40/076,40,Classe 40 Données satellitaires,040076,Matrice de covariance des erreurs de récupération pour la température dans le domaine des composantes principales,Numeric,0,0,21,Numeric,0,7,,,Operational,Original
+bufr4/0/40/077,40,Classe 40 Données satellitaires,040077,Drapeau de qualité des produits océaniques,Flag table,0,0,8,Flag table,0,3,,,Operational,Original
+bufr4/0/40/080,40,Classe 40 Données satellitaires,040080,Résultats du test de nuage pour le Niveau 2 IASI-NG,Flag table,0,0,5,Flag table,0,2,,,Operational,Original
+bufr4/0/40/081,40,Classe 40 Données satellitaires,040081,Classification et qualité de niveau 1 OLCI,Flag table,0,0,31,,,,,,Operational,Original
