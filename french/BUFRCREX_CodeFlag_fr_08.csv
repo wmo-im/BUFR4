@@ -270,7 +270,7 @@ bufr4/0/08/026/4-42,008026,Caractéristique matricielle,4-42,En réserve,,,,,Ope
 bufr4/0/08/026/43-62,008026,Caractéristique matricielle,43-62,En réserve pour un usage local,,,,,Operational,Original
 bufr4/0/08/026/63,008026,Caractéristique matricielle,63,Valeur manquante ou caractéristique non définie,,,,,Operational,Original
 bufr4/0/08/027/0,008027,Type de mesure d'anomalie de hauteur de la surface de la mer,0,Mesure brute non filtrée incluant des bruits,,,,,Operational,AI Translator: MCP
-bufr4/0/08/027/1,008027,Type de mesure de l'anomalie de hauteur de la surface de la mer,1,Hauteur de la surface de la mer filtrée passe-bas pour la réduction du bruit,,,,,Operational,AI Translator: MCP
+bufr4/0/08/027/1,008027,Type de mesure des anomalies de hauteur de la surface de la mer,1,Hauteur de la surface de la mer filtrée passe-bas pour la réduction du bruit,,,,,Operational,AI Translator: MCP
 bufr4/0/08/027/2-254,008027,Type de mesure d'anomalie de hauteur de la surface de la mer,2-254,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/08/027/255,008027,Type de mesure d'anomalie de hauteur de la surface de la mer,255,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/08/029/0,008029,Type de surface,0,Pleine mer ou mer semi-fermée,,,,,Operational,Original
@@ -290,7 +290,7 @@ bufr4/0/08/029/16,008029,Type de surface,16,Sol rural,,,,,Operational,Original
 bufr4/0/08/029/17,008029,Type de surface,17,Sol suburbain,,,,,Operational,Original
 bufr4/0/08/029/18,008029,Type de surface,18,Glace de mer,,,,,Operational,Original
 bufr4/0/08/029/19,008029,Type de surface,19,Forêt,,,,,Operational,AI Translator: MCP
-bufr4/0/08/029/20,008029,Type de surface,20,Les broussailles,,,,,Operational,AI Translator: MCP
+bufr4/0/08/029/20,008029,Type de surface,20,Terres arbustives,,,,,Operational,AI Translator: MCP
 bufr4/0/08/029/21,008029,Type de surface,21,Savannah,,,,,Operational,AI Translator: MCP
 bufr4/0/08/029/22,008029,Type de surface,22,Désert,,,,,Operational,AI Translator: MCP
 bufr4/0/08/029/23,008029,Type de surface,23,Prairies,,,,,Operational,AI Translator: MCP
@@ -463,11 +463,11 @@ bufr4/0/08/043/29,008043,Type de constituants chimiques ou physiques de l'atmosp
 bufr4/0/08/043/30,008043,Type de constituants chimiques ou physiques de l'atmosphère,30,Matière crustale (poussière de toute nature),,,,,Operational,Original
 bufr4/0/08/043/31,008043,Type de constituants chimiques ou physiques de l'atmosphère,31,Cendres volcaniques,,,,,Operational,Original
 bufr4/0/08/043/32,008043,Type de constituants chimiques ou physiques de l'atmosphère,32,Nuages,,,,,Operational,AI Translator: MCP
-bufr4/0/08/043/33,008043,Type de constituants chimiques ou physiques de l'atmosphère,33,Nuages CH et aérosols,,,,,Operational,AI Translator: MCP
+bufr4/0/08/043/33,008043,Type de constituants chimiques ou physiques de l'atmosphère,33,nuages CH et aérosols,,,,,Operational,AI Translator: MCP
 bufr4/0/08/043/34-200,008043,Type de constituants chimiques ou physiques de l'atmosphère,34-200,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/08/043/201-254,008043,Type de constituants chimiques ou physiques de l'atmosphère,201-254,En réserve pour un usage local,,,,,Operational,Original
 bufr4/0/08/043/255,008043,Type de constituants chimiques ou physiques de l'atmosphère,255,Valeur manquante,,,,,Operational,Original
-bufr4/0/08/045/0,008045,Caractère des matières particulaires,0,Aérosols de tous types,,,,,Operational,AI Translator: MCP
+bufr4/0/08/045/0,008045,Caractère des matières particulaires,0,Aérosols tous types,,,,,Operational,AI Translator: MCP
 bufr4/0/08/045/1,008045,Caractéristique des matières particulaires,1,Poussière désertique,,,,,Operational,AI Translator: MCP
 bufr4/0/08/045/2,008045,Caractéristique des matières particulaires,2,Carbone noir,,,,,Operational,AI Translator: MCP
 bufr4/0/08/045/3,008045,Caractéristique des matières particulaires,3,Sel de mer,,,,,Operational,AI Translator: MCP
@@ -528,10 +528,10 @@ bufr4/0/08/054/0,008054,Identificateur de la vitesse du vent ou des rafales,0,La
 bufr4/0/08/054/1,008054,Identificateur de la vitesse du vent ou des rafales,1,La vitesse du vent est supérieure aux indications transmises (P dans METAR/TAF/SPECI),,,,,Operational,Original
 bufr4/0/08/054/2-6,008054,Identificateur de la vitesse du vent ou des rafales,2-6,En réserve,,,,,Operational,Original
 bufr4/0/08/054/7,008054,Identificateur de la vitesse du vent ou des rafales,7,Valeur manquante,,,,,Operational,Original
-bufr4/0/08/055/0,008055,Méthode utilisée pour calculer les composants moyens du vent après avoir supprimé le vortex,0,Calculez la moyenne de la zone des composantes u et v aux niveaux de pression de 0 à 500 km centrée sur la position du vortex de surface.,,,,,Operational,AI Translator: MCP
-bufr4/0/08/055/1,008055,Méthode utilisée pour calculer les composants moyens du vent après avoir supprimé le vortex,1,Calculez la moyenne de la zone des composantes u et v aux niveaux de pression de 0 à un rayon supérieur à 500 km centré sur la position du vortex de surface.,,,,,Operational,AI Translator: MCP
-bufr4/0/08/055/2-14,008055,Méthode utilisée pour calculer les composants moyens du vent après avoir supprimé le vortex,2-14,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/055/15,008055,Méthode utilisée pour calculer les composants moyens du vent après avoir supprimé le vortex,15,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/08/055/0,008055,Méthode utilisée pour calculer les composants moyens du vent après avoir supprimé le vortex.,0,Calculez la moyenne de la zone des composantes u et v aux niveaux de pression de 0 à 500 km centrée sur la position du vortex de surface.,,,,,Operational,AI Translator: MCP
+bufr4/0/08/055/1,008055,Méthode utilisée pour calculer les composants moyens du vent après avoir supprimé le vortex.,1,Calculez la moyenne de la zone des composantes u et v aux niveaux de pression de 0 à un rayon supérieur à 500 km centré sur la position du vortex de surface.,,,,,Operational,AI Translator: MCP
+bufr4/0/08/055/2-14,008055,Méthode utilisée pour calculer les composants moyens du vent après avoir supprimé le vortex.,2-14,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/08/055/15,008055,Méthode utilisée pour calculer les composants moyens du vent après avoir supprimé le vortex.,15,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/08/060/0,008060,Signification du mode de balayage de l'échantillon,0,En réserve,,,,,Operational,Original
 bufr4/0/08/060/1,008060,Signification du mode de balayage de l'échantillon,1,Distance,,,,,Operational,Original
 bufr4/0/08/060/2,008060,Signification du mode de balayage de l'échantillon,2,Azimut,,,,,Operational,Original
@@ -704,50 +704,50 @@ bufr4/0/08/094/1,008094,Méthode utilisée pour calculer la température moyenne
 bufr4/0/08/094/2,008094,Méthode utilisée pour calculer la température moyenne quotidienne,2,Moyenne des 24 observations horaires,,,,,Operational,AI Translator: MCP
 bufr4/0/08/094/3,008094,Méthode utilisée pour calculer la température moyenne quotidienne,3,Moyenne pondérée de 3 observations : Tm = (aT1 + bT2 + cT3),,,*,97,Operational,AI Translator: MCP
 bufr4/0/08/094/4,008094,Méthode utilisée pour calculer la température moyenne quotidienne,4,Moyenne pondérée de 3 observations ainsi que les valeurs maximales et minimales : Tm = (aT1 + bT2 + cT3 + dTx + eTn),,,*,97,Operational,AI Translator: MCP
-bufr4/0/08/094/5,008094,Méthode utilisée pour calculer la température moyenne quotidienne,5,Station météorologique automatique intégration complète à partir des données minute,,,,,Operational,AI Translator: MCP
+bufr4/0/08/094/5,008094,Méthode utilisée pour calculer la température moyenne quotidienne,5,Intégration complète de la station météorologique automatique à partir des données par minute,,,,,Operational,AI Translator: MCP
 bufr4/0/08/094/6,008094,Méthode utilisée pour calculer la température moyenne quotidienne,6,Moyenne des 4 observations prises toutes les six heures,,,,,Operational,AI Translator: MCP
 bufr4/0/08/094/7,008094,Méthode utilisée pour calculer la température moyenne quotidienne,7,Moyenne des 144 observations prises toutes les 10 minutes,,,,,Operational,AI Translator: MCP
 bufr4/0/08/094/8-254,008094,Méthode utilisée pour calculer la température moyenne quotidienne,8-254,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/08/094/255,008094,Méthode utilisée pour calculer la température moyenne quotidienne,255,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/08/095/0,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,0,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/1,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,1,1A,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/1,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,1,1A,,,,,Operational,AI Translator: MCP
 bufr4/0/08/095/2,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,2,1B,,,,,Operational,AI Translator: MCP
 bufr4/0/08/095/3,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,3,1C,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/4,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,4,1D,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/5,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,5,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/6,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,6,2A,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/7,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,7,2B,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/8,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,8,2C,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/9,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,9,2D,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/10,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,10,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/11,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,11,3A,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/12,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,12,3B,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/13,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,13,3C,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/14,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,14,3D,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/15,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,15,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/16,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,16,4A,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/17,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,17,4B,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/18,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,18,4C,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/19,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,19,4D,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/20,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,20,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/21,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,21,5A,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/22,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,22,5B,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/23,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,23,5C,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/24,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,24,5D,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/25,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,25,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/26,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,26,nan,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/27,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,27,nan,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/28,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,28,nan,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/29,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,29,nan,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/30,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,30,nan,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/31,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,31,A,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/32,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,32,B,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/33,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,33,C,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/34,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,34,D,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/35-254,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,35-254,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/095/255,008095,Classification de la qualité de l'implantation et de la mesure pour la température de luminance,255,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/4,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,4,1D,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/5,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,5,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/6,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,6,2A,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/7,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,7,2B,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/8,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,8,2C,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/9,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,9,2D,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/10,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,10,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/11,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,11,3A,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/12,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,12,3B,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/13,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,13,3C,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/14,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,14,3D,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/15,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,15,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/16,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,16,4A,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/17,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,17,4B,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/18,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,18,4C,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/19,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,19,4D,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/20,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,20,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/21,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,21,5A,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/22,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,22,5B,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/23,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,23,5C,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/24,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,24,5D,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/25,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,25,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/26,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,26,nan,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/27,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,27,nan,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/28,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,28,nan,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/29,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,29,nan,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/30,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,30,nan,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/31,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,31,A,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/32,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,32,B,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/33,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,33,C,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/34,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,34,D,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/35-254,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,35-254,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/08/095/255,008095,Classification de la qualité de l'installation et de la mesure pour la température de luminance,255,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/08/096/0,008096,Classification de la qualité de l'implantation et de la mesure pour les précipitations,0,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/096/1,008096,Classification de la qualité de l'implantation et de la mesure pour les précipitations,1,1A,,,,,Operational,AI Translator: MCP
+bufr4/0/08/096/1,008096,Classification de la qualité de l'emplacement et de la mesure pour les précipitations,1,1A,,,,,Operational,AI Translator: MCP
 bufr4/0/08/096/2,008096,Classification de la qualité de l'implantation et de la mesure pour les précipitations,2,1B,,,,,Operational,AI Translator: MCP
 bufr4/0/08/096/3,008096,Classification de la qualité de l'implantation et de la mesure pour les précipitations,3,1C,,,,,Operational,AI Translator: MCP
 bufr4/0/08/096/4,008096,Classification de la qualité de l'implantation et de la mesure pour les précipitations,4,1D,,,,,Operational,AI Translator: MCP
@@ -783,20 +783,20 @@ bufr4/0/08/096/33,008096,Classification de la qualité de l'implantation et de l
 bufr4/0/08/096/34,008096,Classification de la qualité de l'implantation et de la mesure pour les précipitations,34,D,,,,,Operational,AI Translator: MCP
 bufr4/0/08/096/35-254,008096,Classification de la qualité de l'implantation et de la mesure pour les précipitations,35-254,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/08/096/255,008096,Classification de la qualité de l'implantation et de la mesure pour les précipitations,255,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/08/097/0,008097,Méthode utilisée pour calculer la température moyenne de l'instrument,0,La moyenne de six capteurs de température placés dans toute la charge utile.,,,,,Operational,AI Translator: MCP
+bufr4/0/08/097/0,008097,Méthode utilisée pour calculer la température moyenne de l'instrument,0,La moyenne de six capteurs de température placés dans toute la charge utile,,,,,Operational,AI Translator: MCP
 bufr4/0/08/097/1,008097,Méthode utilisée pour calculer la température moyenne de l'instrument,1,Moyenne de la bande IFP et des capteurs RFE pour les canaux 1 à 8,,,,,Operational,AI Translator: MCP
-bufr4/0/08/097/2,008097,Méthode utilisée pour calculer la température moyenne de l'instrument,2,Moyenne du capteur RFE de bande G pour les canaux 9 à 12,,,,,Operational,AI Translator: MCP
+bufr4/0/08/097/2,008097,Méthode utilisée pour calculer la température moyenne de l'instrument,2,Moyenne du capteur RFE de la bande G pour les canaux 9 à 12,,,,,Operational,AI Translator: MCP
 bufr4/0/08/097/3-126,008097,Méthode utilisée pour calculer la température moyenne de l'instrument,3-126,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/08/097/127,008097,Méthode utilisée pour calculer la température moyenne de l'instrument,127,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/08/098/0,008098,Source de mesure de température,0,Cible de calibration embarquée,,,,,Operational,AI Translator: MCP
-bufr4/0/08/098/1,008098,Source de mesure de température,1,Réflecteur de vue spatiale,,,,,Operational,AI Translator: MCP
-bufr4/0/08/098/2,008098,Source de mesure de température,2,Réflecteur principal,,,,,Operational,AI Translator: MCP
-bufr4/0/08/098/3,008098,Source de mesure de température,3,Circuit de course,,,,,Operational,AI Translator: MCP
-bufr4/0/08/098/4,008098,Source de mesure de température,4,Bouclier solaire,,,,,Operational,AI Translator: MCP
-bufr4/0/08/098/5,008098,Source de mesure de température,5,Réflecteur rotatif,,,,,Operational,AI Translator: MCP
-bufr4/0/08/098/6-14,008098,Source de mesure de température,6-14,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/08/098/15,008098,Source de mesure de température,15,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/08/099/0,008099,Direction de détection,0,Nadir,,,,,Operational,AI Translator: MCP
+bufr4/0/08/098/0,008098,Source de mesure de la température,0,Cible de calibration embarquée,,,,,Operational,AI Translator: MCP
+bufr4/0/08/098/1,008098,Source de mesure de la température,1,Réflecteur de vue spatiale,,,,,Operational,AI Translator: MCP
+bufr4/0/08/098/2,008098,Source de mesure de la température,2,Réflecteur principal,,,,,Operational,AI Translator: MCP
+bufr4/0/08/098/3,008098,Source de mesure de la température,3,Piste de course,,,,,Operational,AI Translator: MCP
+bufr4/0/08/098/4,008098,Source de mesure de la température,4,Bouclier solaire,,,,,Operational,AI Translator: MCP
+bufr4/0/08/098/5,008098,Source de mesure de la température,5,Réflecteur rotatif,,,,,Operational,AI Translator: MCP
+bufr4/0/08/098/6-14,008098,Source de mesure de la température,6-14,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/08/098/15,008098,Source de mesure de la température,15,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/08/099/0,008099,Détection de direction,0,Nadir,,,,,Operational,AI Translator: MCP
 bufr4/0/08/099/1,008099,Direction de détection,1,Oblique,,,,,Operational,AI Translator: MCP
 bufr4/0/08/099/2-14,008099,Direction de détection,2-14,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/08/099/15,008099,Direction de détection,15,Valeur manquante,,,,,Operational,AI Translator: MCP

@@ -310,25 +310,25 @@ bufr4/0/33/052/1-20,033052,Qualité du retraitement des données océaniques en 
 bufr4/0/33/052/All-21,033052,Qualité du retraitement des données océaniques en bande S,All 21,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/053/1-20,033053,Qualité du retraitement des données océaniques en bande Ku,1-20,Les 20 premiers bits les moins significatifs correspondent aux 20 valeurs (une par bloc de données) contenant 0 = mesure correcte ou 1 = mesure incorrecte. Le bit 1 s'applique au vingtième bloc de données,,,,,Operational,Original
 bufr4/0/33/053/All-21,033053,Qualité du retraitement des données océaniques en bande Ku,All 21,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/054/0,033054,Qualité globale du profil atmosphérique récupéré,0,Valeurs du profil bonnes,,,,,Operational,AI Translator: MCP
+bufr4/0/33/054/0,033054,Qualité globale du profil atmosphérique récupéré,0,Les valeurs du profil sont bonnes.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/054/1,033054,Qualité globale du profil atmosphérique récupéré,1,Valeurs de profil suspectées,,,,,Operational,AI Translator: MCP
 bufr4/0/33/054/2,033054,Qualité globale du profil atmosphérique récupéré,2,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/054/3,033054,Qualité globale du profil atmosphérique récupéré,3,Les valeurs du profil ne sont pas bonnes.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/054/4-6,033054,Qualité globale du profil atmosphérique récupéré,4-6,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/054/7,033054,Qualité globale du profil atmosphérique récupéré,7,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/055/1-10,033055,vent,1-10,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/33/055/11,033055,vent,11,Le sigma-0 océanique n'est pas disponible pour les récupérations de vent.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/055/1-10,033055,Drapeau de qualité du vecteur de vent,1-10,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/33/055/11,033055,vent,11,Le sigma-0 de l'océan n'est pas disponible pour les récupérations de vent.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/12,033055,vent,12,Le vent n'est pas disponible.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/13,033055,vent,13,Modèle de fond détecte la terre,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/14,033055,vent,14,Modèle de fond détecte la glace,,,,,Operational,AI Translator: MCP
-bufr4/0/33/055/15,033055,vent,15,La cellule sigma-0 n'est pas libre de terre/glace.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/055/15,033055,vent,15,La cellule sigma-0 n'est pas exempte de terre/glace.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/16,033055,vent,16,Contamination terrestre Sigma-0,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/17,033055,vent,17,Contamination de glace Sigma-0,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/18,033055,vent,18,Pas assez de diversité azimutale,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/19,033055,vent,19,L'inversion n'est pas effectuée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/20,033055,vent,20,Drapeau global WVC,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/21,033055,vent,21,L'inversion est tentée (la table d'indicateurs est définie).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/055/22,033055,vent,22,Le drapeau de pluie est tenté (le drapeau est activé).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/055/22,033055,vent,22,Le drapeau de pluie est tenté (le drapeau est défini).,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/23,033055,vent,23,La pluie est détectée,,,,,Operational,AI Translator: MCP
 bufr4/0/33/055/All-24,033055,vent,All 24,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/056/1-7,033056,Drapeau de qualité Sigma-0,1-7,En réserve,,,,,Operational,AI Translator: MCP
@@ -336,7 +336,7 @@ bufr4/0/33/056/8,033056,Drapeau de qualité Sigma-0,8,Ascendant,,,,,Operational,
 bufr4/0/33/056/9,033056,Drapeau de qualité Sigma-0,9,Polarisation VV,,,,,Operational,AI Translator: MCP
 bufr4/0/33/056/10,033056,Drapeau de qualité Sigma-0,10,satellite,,,,,Operational,AI Translator: MCP
 bufr4/0/33/056/11,033056,Drapeau de qualité Sigma-0,11,Terre,,,,,Operational,AI Translator: MCP
-bufr4/0/33/056/12,033056,Drapeau de qualité Sigma-0,12,Mauvaise cellule sigma-0 (résumé),,,,,Operational,AI Translator: MCP
+bufr4/0/33/056/12,033056,Drapeau de qualité Sigma-0,12,Sigma-0 médiocre (résumé),,,,,Operational,AI Translator: MCP
 bufr4/0/33/056/13,033056,Drapeau de qualité Sigma-0,13,Cellule sigma-0 invalide (résumé),,,,,Operational,AI Translator: MCP
 bufr4/0/33/056/14,033056,Drapeau de qualité Sigma-0,14,Pauvre BT,,,,,Operational,AI Translator: MCP
 bufr4/0/33/056/15,033056,Drapeau de qualité Sigma-0,15,BT invalide,,,,,Operational,AI Translator: MCP
@@ -352,8 +352,8 @@ bufr4/0/33/060/1,033060,GqisFlagQual – indicateur de qualité du système IASI
 bufr4/0/33/060/2,033060,GqisFlagQual – indicateur de qualité du système IASI pour chaque mesure,2,En réserve,,,,,Operational,Original
 bufr4/0/33/060/3,033060,GqisFlagQual – indicateur de qualité du système IASI pour chaque mesure,3,Valeur manquante,,,,,Operational,Original
 bufr4/0/33/066/1-19,033066,Indicateur de qualité du vecteur de mouvement atmosphérique,1-19,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/33/066/20,033066,Indicateur de qualité du vecteur de mouvement atmosphérique,20,"Bon vent, mais un canal alternatif utilisé pour le suivi des phénomènes",,,,,Operational,AI Translator: MCP
-bufr4/0/33/066/21,033066,Indicateur de qualité du vecteur de mouvement atmosphérique,21,"Bon vent, mais un ensemble alternatif de canaux utilisé pour la détermination de la hauteur du sommet des nuages/assignation de la hauteur AMV.",,,,,Operational,AI Translator: MCP
+bufr4/0/33/066/20,033066,Indicateur de qualité du vecteur de mouvement atmosphérique,20,"Bon vent, mais un canal utilisé pour le suivi des phénomènes.",,,,,Operational,AI Translator: MCP
+bufr4/0/33/066/21,033066,Indicateur de qualité du vecteur de mouvement atmosphérique,21,"Bon vent, mais un canal alternatif utilisé pour la détermination de la hauteur du sommet des nuages/assignation de hauteur AMV.",,,,,Operational,AI Translator: MCP
 bufr4/0/33/066/22,033066,Indicateur de qualité du vecteur de mouvement atmosphérique,22,La contrainte concernant la surface de corrélation fait défaut,,,,,Operational,Original
 bufr4/0/33/066/23,033066,Indicateur de qualité du vecteur de mouvement atmosphérique,23,En réserve,,,,,Operational,Original
 bufr4/0/33/066/All-24,033066,Indicateur de qualité du vecteur de mouvement atmosphérique,All 24,Valeur manquante,,,,,Operational,AI Translator: MCP
@@ -558,28 +558,28 @@ bufr4/0/33/092/1,033092,Indicateur de qualité des données sur l'océan dans un
 bufr4/0/33/092/2,033092,Indicateur de qualité des données sur l'océan dans une bande précise,2,Radiomètre hyperfréquence en fonction,,,,,Operational,Original
 bufr4/0/33/092/3-8,033092,Indicateur de qualité des données sur l'océan dans une bande précise,3-8,En réserve,,,,,Operational,Original
 bufr4/0/33/092/All-9,033092,Indicateur de qualité des données sur l'océan dans une bande précise,All 9,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/1,033093,Indicateurs de qualité étendus pour les données GNSS au sol,1,La qualité du délai de chemin est considérée comme médiocre.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/2,033093,Indicateurs de qualité étendus pour les données GNSS au sol,2,Valeurs tirées des données des satellites GALILEO,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/3,033093,Indicateurs de qualité étendus pour les données GNSS au sol,3,Valeurs tirées des données des satellites GLONASS,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/4,033093,Indicateurs de qualité étendus pour les données GNSS au sol,4,Valeurs tirées des données des satellites GPS,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/5,033093,Indicateurs de qualité étendus pour les données GNSS au sol,5,Satellites BeiDou utilisés,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/6-8,033093,Indicateurs de qualité étendus pour les données GNSS au sol,6-8,Réservé pour le nouveau GNSS,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/9,033093,Indicateurs de qualité étendus pour les données GNSS au sol,9,Données météorologiques incluses,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/10,033093,Indicateurs de qualité étendus pour les données GNSS au sol,10,Correction de la charge atmosphérique incluse,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/11,033093,Indicateurs de qualité étendus pour les données GNSS au sol,11,Charge des marées océaniques incluse,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/12,033093,Indicateurs de qualité étendus pour les données GNSS au sol,12,Corrections ionosphériques du second ordre appliquées,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/13,033093,Indicateurs de qualité étendus pour les données GNSS au sol,13,Corrections ionosphériques du troisième ordre appliquées,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/14,033093,Indicateurs de qualité étendus pour les données GNSS au sol,14,Solution PPP,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/15,033093,Indicateurs de qualité étendus pour les données GNSS au sol,15,Gradients appliqués au retard de chemin,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/16,033093,Indicateurs de qualité étendus pour les données GNSS au sol,16,Corrections multipath appliquées au retard de trajet,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/17,033093,Indicateurs de qualité étendus pour les données GNSS au sol,17,Résidu appliqué au retard de chemin,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/18,033093,Indicateurs de qualité étendus pour les données GNSS au sol,18,Traitement des données pour des besoins climatologiques,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/19,033093,Indicateurs de qualité étendus pour les données GNSS au sol,19,Re-traitement,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/20,033093,Indicateurs de qualité étendus pour les données GNSS au sol,20,Post-traitement,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/21,033093,Indicateurs de qualité étendus pour les données GNSS au sol,21,Traitement des données en temps quasi réel,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/22,033093,Indicateurs de qualité étendus pour les données GNSS au sol,22,traitement des données,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/23-30,033093,Indicateurs de qualité étendus pour les données GNSS au sol,23-30,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/33/093/All-31,033093,Indicateurs de qualité étendus pour les données GNSS au sol,All 31,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/1,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,1,La qualité du délai de chemin est considérée comme mauvaise.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/2,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,2,Valeurs tirées des données des satellites GALILEO,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/3,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,3,Valeurs tirées des données des satellites GLONASS,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/4,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,4,Valeurs tirées des données des satellites GPS,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/5,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,5,Satellites BeiDou utilisés,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/6-8,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,6-8,Réservé pour le nouveau GNSS,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/9,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,9,Données météorologiques incluses,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/10,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,10,Correction de la charge atmosphérique incluse,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/11,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,11,Charge des marées océaniques incluse,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/12,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,12,Corrections ionosphériques du second ordre appliquées,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/13,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,13,Corrections ionosphériques de troisième ordre appliquées,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/14,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,14,Solution PPP,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/15,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,15,Gradients appliqués au retard de chemin,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/16,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,16,Corrections multipath appliquées au retard de chemin,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/17,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,17,Résidu appliqué au retard de chemin,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/18,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,18,Traitement des données pour des besoins climatologiques,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/19,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,19,Re-traitement,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/20,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,20,Post-traitement,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/21,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,21,Traitement des données en temps quasi réel,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/22,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,22,traitement des données,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/23-30,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,23-30,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/33/093/All-31,033093,Indicateurs de qualité étendus pour les données GNSS basées au sol,All 31,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/094/1-15,033094,contrôle de qualité,1-15,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/094/16,033094,contrôle de qualité,16,Non-océan,,,,,Operational,AI Translator: MCP
 bufr4/0/33/094/17,033094,contrôle de qualité,17,Intrusion lunaire ou solaire,,,,,Operational,AI Translator: MCP
@@ -590,40 +590,40 @@ bufr4/0/33/094/21,033094,contrôle de qualité,21,Descendant,,,,,Operational,AI 
 bufr4/0/33/094/22,033094,contrôle de qualité,22,Nuit,,,,,Operational,AI Translator: MCP
 bufr4/0/33/094/23,033094,contrôle de qualité,23,Orientation arrière de la charge utile,,,,,Operational,AI Translator: MCP
 bufr4/0/33/094/All-24,033094,contrôle de qualité,All 24,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/095/1,033095,température,1,Les températures PRT ou THM sont manquantes ou avec des lectures anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/095/1,033095,température,1,Les températures PRT ou THM sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/095/2,033095,Drapeau des températures MWI,2,Les températures PRT de l'OBCT utilisées dans l'étalonnage radiométrique sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/095/3,033095,température,3,Les températures THM de SVR utilisées dans l'étalonnage radiométrique sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/095/3,033095,Drapeau des températures MWI,3,Les températures THM de SVR utilisées dans l'étalonnage radiométrique sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/095/4,033095,Drapeau des températures MWI,4,Les températures THM du réflecteur principal sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/095/5,033095,Drapeau des températures MWI,5,Les températures THM de la piste sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/095/6,033095,Drapeau des températures MWI,6,Les températures des récepteurs sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/095/7,033095,Drapeau des températures MWI,7,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/095/All-8,033095,Drapeau des températures MWI,All 8,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/096/1,033096,Drapeau de calibration MWI,1,L'étalonnage radiométrique a échoué ou est dégradé,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/2,033096,Drapeau de calibration MWI,2,La valeur moyenne des comptes de vue OBCT sur les scans est manquante (cela est valable pour la charge de calibration de haute référence lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/3,033096,Drapeau de calibration MWI,3,La valeur moyenne des comptes de vue de l'espace froid sur les balayages est manquante (cela est valide pour la charge d'étalonnage de référence basse lorsque l'étalonnage de secours est appliqué pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/4,033096,Drapeau de calibration MWI,4,La valeur moyenne des comptages de vue OBCT sur les balayages est dégradée en raison de valeurs de comptage manquantes ou anormales (cela est valable pour la charge de calibration de référence élevée lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/5,033096,Drapeau de calibration MWI,5,La valeur moyenne des comptages de la vue de l'espace froid sur les balayages est dégradée en raison de valeurs de comptages manquantes ou anormales (cela est valable pour la charge de calibration de référence basse lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/2,033096,Drapeau de calibration MWI,2,La valeur moyenne des comptages de vue OBCT sur les balayages est manquante (cela est valable pour la charge de calibration de haute référence lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/3,033096,Drapeau de calibration MWI,3,Les valeurs moyennes des comptes de vue de l'espace froid sur les scans sont manquantes (cela est valable pour la charge de calibration de référence basse lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/4,033096,Drapeau de calibration MWI,4,La valeur moyenne des comptes de vue OBCT sur les balayages est dégradée en raison de valeurs de comptes manquantes ou anormales (cela est valable pour la charge de calibration de haute référence lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/5,033096,Drapeau de calibration MWI,5,La valeur moyenne des comptes de la vue de l'espace froid sur les balayages est dégradée en raison de valeurs de comptes manquantes ou anormales (cela est valable pour la charge d'étalonnage de référence basse lorsque l'étalonnage de secours est appliqué pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
 bufr4/0/33/096/6,033096,Drapeau de calibration MWI,6,La valeur moyenne de la radiance de la vue OBCT sur les balayages est manquante (cela est valable pour la charge de calibration de haute référence lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/7,033096,Drapeau de calibration MWI,7,La valeur moyenne de la radiance de la vue de l'espace froid sur les balayages est manquante (cela est valable pour la charge de calibration de référence basse lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/8,033096,Drapeau de calibration MWI,8,La valeur moyenne de la radiance vue par OBCT sur les balayages est dégradée en raison de valeurs manquantes ou anormales (cela est valable pour la charge de calibration de haute référence lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/9,033096,Drapeau de calibration MWI,9,La valeur moyenne de la radiance de la vue de l'espace froid sur les balayages est dégradée en raison de valeurs manquantes ou anormales (cela est valable pour la charge d'étalonnage de référence basse lorsque l'étalonnage de secours est appliqué pour le canal MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/10,033096,Drapeau de calibration MWI,10,Le paramètre de non-linéarité calculé à l'aide de diodes à bruit est manquant (significatif uniquement pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/7,033096,Drapeau de calibration MWI,7,La valeur moyenne de la radiance de la vue de l'espace froid sur les balayages est manquante (cela est valable pour la charge de calibration de référence basse lorsque la calibration de secours est appliquée aux canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/8,033096,Drapeau de calibration MWI,8,La valeur moyenne de la radiance de la vue OBCT sur les balayages est dégradée en raison de valeurs manquantes ou anormales (cela est valable pour la charge de calibration de haute référence lorsque la calibration de secours est appliquée pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/9,033096,Drapeau de calibration MWI,9,La valeur moyenne de la radiance de la vue de l'espace froid sur les balayages est dégradée en raison de valeurs manquantes ou anormales (cela est valable pour la charge d'étalonnage de référence basse lorsque l'étalonnage de secours est appliqué pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/10,033096,Drapeau de calibration MWI,10,Le paramètre de non-linéarité calculé à l'aide de diodes de bruit est manquant (significatif uniquement pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
 bufr4/0/33/096/11,033096,Drapeau de calibration MWI,11,Le paramètre de non-linéarité calculé à l'aide de diodes de bruit est dégradé (significatif uniquement pour les canaux MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/12,033096,Drapeau de calibration MWI,12,Les températures PRT ou THM de la numérisation actuelle sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/13,033096,Drapeau de calibration MWI,13,L'intrusion de la Lune dans l'espace froid a dégradé l'étalonnage (moins de Nvalid_c échantillons valides ne sont pas affectés par la Lune pour le canal et le balayage considérés).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/14,033096,Drapeau de calibration MWI,14,Calibration de secours avec des diodes de bruit effectuée (significatif uniquement pour MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
-bufr4/0/33/096/15,033096,Drapeau de calibration MWI,15,Les températures dégradées du récepteur entraînent une calibration dégradée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/12,033096,Drapeau de calibration MWI,12,Les températures PRT ou THM de l'analyse en cours sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/13,033096,Drapeau de calibration MWI,13,Intrusion de la Lune dans l'espace froid dégradant l'étalonnage (moins de Nvalid_c échantillons valides ne sont pas affectés par la Lune pour le canal et le balayage considérés).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/14,033096,Drapeau de calibration MWI,14,Calibration de secours avec diodes de bruit effectuée (significatif uniquement pour MWI-1 à MWI-3).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/096/15,033096,Drapeau de calibration MWI,15,Les températures dégradées des récepteurs entraînent une calibration dégradée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/096/All-16,033096,Drapeau de calibration MWI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/097/1,033097,Indicateur de qualité de balayage MWI,1,Le scan est dégradé dans l'enregistrement des données brutes,,,,,Operational,AI Translator: MCP
-bufr4/0/33/097/2,033097,Indicateur de qualité de balayage MWI,2,Erreur dans la séquence temporelle,,,,,Operational,AI Translator: MCP
+bufr4/0/33/097/1,033097,Drapeau de qualité de balayage MWI,1,Le scan est dégradé dans l'enregistrement des données brutes.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/097/2,033097,Drapeau de qualité de numérisation MWI,2,Erreur dans la séquence temporelle,,,,,Operational,AI Translator: MCP
 bufr4/0/33/097/3,033097,Indicateur de qualité de balayage MWI,3,Le scan actuel est acquis après un intervalle.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/097/4,033097,Drapeau de qualité de balayage MWI,4,"L'analyse est en période d'initialisation de la calibration des moyennes de données sur les analyses (en raison d'un démarrage/arrêt à froid, de l'absence de paquets L0 chauds/froids ou de lacunes dans les données).",,,,,Operational,AI Translator: MCP
+bufr4/0/33/097/4,033097,Indicateur de qualité de balayage MWI,4,"Le scan est en période d'initialisation de la calibration des moyennes de données sur les scans (en raison d'un démarrage à froid/fin à froid, de paquets L0 chauds/froids manquants ou de lacunes dans les données).",,,,,Operational,AI Translator: MCP
 bufr4/0/33/097/5,033097,Drapeau de qualité de balayage MWI,5,"Angle d'intrusion de la Lune dans les décalages de visée de l'espace en dessous du seuil pour au moins un canal de 3,7 µm",,,,,Operational,AI Translator: MCP
 bufr4/0/33/097/6,033097,Drapeau de qualité de balayage MWI,6,La correction lunaire est appliquée mais est dégradée pour au moins un canal.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/097/7,033097,Drapeau de qualité de balayage MWI,7,L'angle des reflets du soleil est en dessous du seuil pour au moins un canal.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/097/8,033097,Drapeau de qualité de balayage MWI,8,Contamination RFI dans la vue de la Terre ou paquet RFI manquant pour le balayage considéré (uniquement pour MWI-1V et MWI-1H).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/097/7,033097,Drapeau de qualité de balayage MWI,7,"L'angle des reflets du soleil est en dessous du seuil pour au moins un canal de 3,7 µm.",,,,,Operational,AI Translator: MCP
+bufr4/0/33/097/8,033097,Drapeau de qualité de balayage MWI,8,La contamination RFI dans la vue de la Terre ou le paquet RFI manquant pour le scan considéré (uniquement pour MWI-1V et MWI-1H).,,,,,Operational,AI Translator: MCP
 bufr4/0/33/097/9,033097,Drapeau de qualité de balayage MWI,9,La manœuvre du satellite se produit dans le balayage actuel.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/097/10,033097,Drapeau de qualité de balayage MWI,10,Paquets L0 chauds ou froids manquants pour le scan considéré,,,,,Operational,AI Translator: MCP
+bufr4/0/33/097/10,033097,Drapeau de qualité de balayage MWI,10,Paquets L0 chauds ou froids manquants pour la numérisation considérée,,,,,Operational,AI Translator: MCP
 bufr4/0/33/097/11-15,033097,Drapeau de qualité de balayage MWI,11-15,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/097/All-16,033097,Drapeau de qualité de balayage MWI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/098/1,033098,Drapeau de qualité des données MWI,1,Les données de radiance spectrale MWI du canal sont manquantes ou dégradées.,,,,,Operational,AI Translator: MCP
@@ -632,179 +632,179 @@ bufr4/0/33/098/3,033098,Drapeau de qualité des données MWI,3,L'étalonnage rad
 bufr4/0/33/098/4,033098,Drapeau de qualité des données MWI,4,La géolocalisation du canal est erronée ou dégradée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/098/5,033098,Drapeau de qualité des données MWI,5,Le NEΔT de ce granule de données est au-dessus du seuil.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/098/6,033098,Drapeau de qualité des données MWI,6,La correction de l'émissivité MR et du débordement a échoué ou est dégradée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/098/7,033098,Drapeau de qualité des données MWI,7,La correction des lobes secondaires MR a échoué ou s'est dégradée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/098/8,033098,Drapeau de qualité des données MWI,8,"Le canal de 3,7 µm est défectueux.",,,,,Operational,AI Translator: MCP
+bufr4/0/33/098/7,033098,Drapeau de qualité des données MWI,7,La correction des lobes secondaires MR a échoué ou est dégradée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/098/8,033098,Drapeau de qualité des données MWI,8,Le canal est défectueux.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/098/All-9,033098,Drapeau de qualité des données MWI,All 9,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/099/1,033099,Indicateur d'état de navigation MWI,1,La géolocalisation du canal est erronée ou dégradée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/099/2,033099,Indicateur d'état de navigation MWI,2,Erreur dans la séquence temporelle,,,,,Operational,AI Translator: MCP
-bufr4/0/33/099/3,033099,Drapeau d'état de navigation MWI,3,Fichier NAVATT manquant ou corrompu a conduit à l'utilisation de fichiers d'orbite prédits.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/099/4,033099,Indicateur d'état de navigation MWI,4,Les données d'attitude NAVATT sont dégradées.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/099/1,033099,Drapeau d'état de navigation MWI,1,La géolocalisation du canal est erronée ou dégradée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/099/2,033099,Drapeau d'état de navigation MWI,2,Erreur dans la séquence temporelle,,,,,Operational,AI Translator: MCP
+bufr4/0/33/099/3,033099,Drapeau d'état de navigation MWI,3,Fichier NAVATT manquant ou corrompu a conduit à l'utilisation de fichiers d'orbite prévus,,,,,Operational,AI Translator: MCP
+bufr4/0/33/099/4,033099,Drapeau d'état de navigation MWI,4,Les données d'attitude NAVATT sont dégradées.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/5,033099,Drapeau d'état de navigation MWI,5,Erreur de corrélation temporelle (bulletin IERS manquant),,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/6,033099,Drapeau d'état de navigation MWI,6,Données d'éphémérides ou d'attitude invalides,,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/7,033099,Drapeau d'état de navigation MWI,7,La manœuvre du satellite se produit dans le balayage actuel.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/099/8,033099,Drapeau d'état de navigation MWI,8,"Attitude non nominale avec erreur de lacet, tangage, roulis au-dessus du seuil Delta_YPR (ces angles sont nominalement de 0,0° pour YSM).",,,,,Operational,AI Translator: MCP
+bufr4/0/33/099/8,033099,Drapeau d'état de navigation MWI,8,"Attitude non nominale avec une erreur de lacet, tangage, roulis au-dessus du seuil Delta_YPR (ces angles sont nominalement de 0,0° pour YSM).",,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/9,033099,Drapeau d'état de navigation MWI,9,Le temps d'échantillonnage n'est pas dans les limites prescrites.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/10,033099,Drapeau d'état de navigation MWI,10,La vitesse n'est pas dans les limites prescrites.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/11,033099,Drapeau d'état de navigation MWI,11,Mauvais pointage (la ligne de visée du capteur n'intersecte pas l'ellipsoïde ou n'est pas conforme aux limites d'azimut/élévation d'observation),,,,,Operational,AI Translator: MCP
-bufr4/0/33/099/12,033099,Drapeau d'état de navigation MWI,12,Angles d'azimut/Distance zénithale solaire invalides calculés,,,,,Operational,AI Translator: MCP
+bufr4/0/33/099/12,033099,Drapeau d'état de navigation MWI,12,Angles d'azimut/zénith solaire invalides calculés,,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/13,033099,Drapeau d'état de navigation MWI,13,La géolocalisation DEM n'a pas été effectuée (avec use_DEM_flag = 1).,,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/14,033099,Drapeau d'état de navigation MWI,14,Erreur dans le calcul de la fraction terrestre,,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/15,033099,Drapeau d'état de navigation MWI,15,Fichier d'orbite prédit non disponible,,,,,Operational,AI Translator: MCP
 bufr4/0/33/099/All-16,033099,Drapeau d'état de navigation MWI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/100/1,033100,température,1,Les températures PRT ou THM sont manquantes ou avec des lectures anormales.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/100/2,033100,Drapeau des températures ICI,2,Les températures PRT de l'OBCT utilisées dans les calibrations radiométriques sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/100/1,033100,température,1,Les températures PRT ou THM sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/100/2,033100,température,2,Les températures PRT de l'OBCT utilisées dans les calibrations radiométriques sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/100/3,033100,température,3,Les températures PRT de SVR utilisées dans les calibrations radiométriques sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/100/4,033100,température,4,Les températures PRT de l'IRP et du bouclier solaire sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/100/5,033100,température,5,La température du back-end est manquante ou présente des lectures anormales.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/100/6,033100,température,6,La température du front-end est manquante ou présente des lectures anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/100/6,033100,température,6,La température de THM du front-end est manquante ou présente des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/100/7,033100,température,7,Les températures PRT du réflecteur principal sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/100/All-8,033100,température,All 8,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/101/1,033101,Drapeau de calibration ICI,1,L'étalonnage radiométrique a échoué ou est dégradé,,,,,Operational,AI Translator: MCP
-bufr4/0/33/101/2,033101,Drapeau de calibration ICI,2,La valeur moyenne des comptes de vue OBCT sur les analyses est manquante.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/101/3,033101,Drapeau de calibration ICI,3,La valeur moyenne des comptages de vue de l'espace froid sur les balayages est manquante.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/101/4,033101,Drapeau de calibration ICI,4,La valeur moyenne des comptes de vue OBCT sur les analyses est dégradée en raison de valeurs de comptes manquantes ou anormales.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/101/5,033101,Drapeau de calibration ICI,5,La valeur moyenne des comptages de la vue de l'espace froid sur les balayages est dégradée en raison de valeurs de comptages manquantes ou anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/101/2,033101,Drapeau de calibration ICI,2,La valeur moyenne des comptes de vues OBCT sur les analyses est manquante.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/101/3,033101,Drapeau de calibration ICI,3,La valeur moyenne des comptes de vue de l'espace froid sur les balayages est manquante.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/101/4,033101,Drapeau de calibration ICI,4,La valeur moyenne des comptes de vue OBCT sur les analyses est dégradée en raison de valeurs manquantes ou anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/101/5,033101,Drapeau de calibration ICI,5,La valeur moyenne des comptages de la vue de l'espace froid sur les balayages est dégradée en raison de valeurs de comptage manquantes ou anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/101/6,033101,Drapeau de calibration ICI,6,La valeur moyenne de la radiance de la vue OBCT sur les balayages est manquante.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/101/7,033101,Drapeau de calibration ICI,7,La valeur moyenne de la radiance de la vue de l'espace froid sur les balayages est manquante.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/101/8,033101,Drapeau de calibration ICI,8,La valeur moyenne de la radiance de la vue OBCT sur les balayages est dégradée en raison de valeurs manquantes ou anormales.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/101/9,033101,Drapeau de calibration ICI,9,La valeur moyenne de la radiance de la vue de l'espace froid sur les balayages est dégradée en raison de valeurs manquantes ou anormales.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/101/10,033101,Drapeau de calibration ICI,10,Les températures PRT ou THM de la numérisation actuelle sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/101/11,033101,Drapeau de calibration ICI,11,L'intrusion de la Lune dans l'espace froid a dégradé l'étalonnage (moins de Nvalid_c échantillons valides ne sont pas affectés par la Lune pour le canal et le balayage considérés).,,,,,Operational,AI Translator: MCP
+bufr4/0/33/101/10,033101,Drapeau de calibration ICI,10,Les températures PRT ou THM de l'analyse en cours sont manquantes ou présentent des lectures anormales.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/101/11,033101,Drapeau de calibration ICI,11,Intrusion de la Lune dans l'espace froid dégradant l'étalonnage (moins de Nvalid_c échantillons valides ne sont pas affectés par la Lune pour le canal et le balayage considérés).,,,,,Operational,AI Translator: MCP
 bufr4/0/33/101/12,033101,Drapeau de calibration ICI,12,Les températures dégradées ou manquantes du back-end entraînent une calibration dégradée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/101/13-15,033101,Drapeau de calibration ICI,13-15,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/101/All-16,033101,Drapeau de calibration ICI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/102/1,033102,Drapeau d'état de navigation ICI,1,Le scan est dégradé dans les enregistrements de données brutes.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/102/2,033102,Drapeau d'état de navigation ICI,2,Erreur dans la séquence temporelle,,,,,Operational,AI Translator: MCP
 bufr4/0/33/102/3,033102,Drapeau d'état de navigation ICI,3,Le scan actuel est acquis après un intervalle.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/102/4,033102,Drapeau d'état de navigation ICI,4,"L'analyse est en période d'initialisation de la calibration des moyennes de données sur les analyses (en raison d'un démarrage/arrêt à froid, de l'absence de paquets L0 chauds/froids ou de lacunes dans les données).",,,,,Operational,AI Translator: MCP
+bufr4/0/33/102/4,033102,Drapeau d'état de navigation ICI,4,"L'analyse est en période d'initialisation de la calibration des moyennes de données sur les analyses (en raison d'un démarrage/arrêt à froid, de paquets L0 chaud/froid manquants ou de lacunes dans les données).",,,,,Operational,AI Translator: MCP
 bufr4/0/33/102/5,033102,Drapeau d'état de navigation ICI,5,"Angle d'intrusion de la Lune dans les décalages de visée de l'espace en dessous du seuil pour au moins un canal de 3,7 µm",,,,,Operational,AI Translator: MCP
 bufr4/0/33/102/6,033102,Drapeau d'état de navigation ICI,6,La correction lunaire est appliquée mais est dégradée pour au moins un canal.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/102/7,033102,Drapeau d'état de navigation ICI,7,L'angle des reflets du soleil est en dessous du seuil pour au moins un canal.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/102/7,033102,Drapeau d'état de navigation ICI,7,"L'angle des reflets du soleil est en dessous du seuil pour au moins un canal de 3,7 µm.",,,,,Operational,AI Translator: MCP
 bufr4/0/33/102/8,033102,Drapeau d'état de navigation ICI,8,La manœuvre du satellite se produit dans le balayage actuel.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/102/9,033102,Drapeau d'état de navigation ICI,9,Paquets L0 chauds ou froids manquants pour le scan considéré,,,,,Operational,AI Translator: MCP
+bufr4/0/33/102/9,033102,Drapeau d'état de navigation ICI,9,Paquets L0 chauds ou froids manquants pour la numérisation considérée,,,,,Operational,AI Translator: MCP
 bufr4/0/33/102/10-15,033102,Drapeau d'état de navigation ICI,10-15,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/102/All-16,033102,Drapeau d'état de navigation ICI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/103/1,033103,Drapeau de qualité de balayage ICI,1,Les données de luminance spectrale ICI du canal sont manquantes ou dégradées.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/103/1,033103,Drapeau de qualité de balayage ICI,1,"Les données de radiance spectrale ICI du canal de 3,7 µm sont manquantes ou dégradées.",,,,,Operational,AI Translator: MCP
 bufr4/0/33/103/2,033103,Drapeau de qualité de balayage ICI,2,Les décomptes de vue terrestre du canal dans le balayage sont manquants ou hors limites.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/103/3,033103,Drapeau de qualité de numérisation ICI,3,L'étalonnage radiométrique a échoué ou est dégradé,,,,,Operational,AI Translator: MCP
-bufr4/0/33/103/4,033103,Drapeau de qualité de balayage ICI,4,La géolocalisation du canal est erronée ou dégradée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/103/5,033103,Drapeau de qualité de balayage ICI,5,Le NEΔT de ce granule de données est au-dessus du seuil.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/103/6,033103,Drapeau de qualité de balayage ICI,6,La correction de l'émissivité MR et du débordement a échoué ou est dégradée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/103/7,033103,Drapeau de qualité de balayage ICI,7,La correction des lobes secondaires MR a échoué ou s'est dégradée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/103/8,033103,Drapeau de qualité de balayage ICI,8,"Le canal de 3,7 µm est défectueux.",,,,,Operational,AI Translator: MCP
-bufr4/0/33/103/All-9,033103,Drapeau de qualité de balayage ICI,All 9,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/33/103/3,033103,Drapeau de qualité de balayage ICI,3,L'étalonnage radiométrique a échoué ou est dégradé,,,,,Operational,AI Translator: MCP
+bufr4/0/33/103/4,033103,Drapeau de qualité de numérisation ICI,4,La géolocalisation du canal est erronée ou dégradée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/103/5,033103,Drapeau de qualité de numérisation ICI,5,Le NEΔT de ce granule de données est au-dessus du seuil.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/103/6,033103,Drapeau de qualité de numérisation ICI,6,La correction de l'émissivité MR et du débordement a échoué ou est dégradée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/103/7,033103,Drapeau de qualité de numérisation ICI,7,La correction des lobes secondaires MR a échoué ou est dégradée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/103/8,033103,Drapeau de qualité de numérisation ICI,8,Le canal est défectueux.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/103/All-9,033103,Drapeau de qualité de numérisation ICI,All 9,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/1,033104,Drapeau d'état de navigation ICI,1,La géolocalisation des canaux est erronée ou dégradée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/2,033104,Drapeau d'état de navigation ICI,2,Erreur dans la séquence temporelle,,,,,Operational,AI Translator: MCP
-bufr4/0/33/104/3,033104,Drapeau d'état de navigation ICI,3,Fichier NAVATT manquant ou corrompu a conduit à l'utilisation de fichiers d'orbite prédits.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/104/3,033104,Drapeau d'état de navigation ICI,3,Fichier NAVATT manquant ou corrompu a conduit à l'utilisation de fichiers d'orbite prévus,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/4,033104,Drapeau d'état de navigation ICI,4,Les données d'attitude NAVATT sont dégradées.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/5,033104,Drapeau d'état de navigation ICI,5,Erreur de corrélation temporelle (bulletin IERS manquant),,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/6,033104,Drapeau d'état de navigation ICI,6,Données d'éphémérides ou d'attitude invalides,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/7,033104,Drapeau d'état de navigation ICI,7,La manœuvre du satellite se produit dans le balayage actuel.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/104/8,033104,Drapeau d'état de navigation ICI,8,"Attitude non nominale avec erreur de lacet, tangage, roulis au-dessus du seuil Delta_YPR (ces angles sont nominalement de 0,0° pour YSM).",,,,,Operational,AI Translator: MCP
+bufr4/0/33/104/8,033104,Drapeau d'état de navigation ICI,8,"Attitude non nominale avec une erreur de lacet, tangage, roulis au-dessus du seuil Delta_YPR (ces angles sont nominalement de 0,0° pour YSM).",,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/9,033104,Drapeau d'état de navigation ICI,9,Le temps d'échantillonnage n'est pas dans les limites prescrites.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/10,033104,Drapeau d'état de navigation ICI,10,La vitesse n'est pas dans les limites prescrites.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/11,033104,Drapeau d'état de navigation ICI,11,Mauvais pointage (la ligne de visée du capteur n'intersecte pas l'ellipsoïde ou n'est pas conforme aux limites d'azimut/élévation d'observation),,,,,Operational,AI Translator: MCP
-bufr4/0/33/104/12,033104,Drapeau d'état de navigation ICI,12,Angles d'azimut/Distance zénithale solaire invalides calculés,,,,,Operational,AI Translator: MCP
+bufr4/0/33/104/12,033104,Drapeau d'état de navigation ICI,12,Angles d'azimut/zénith solaire invalides calculés,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/13,033104,Drapeau d'état de navigation ICI,13,La géolocalisation DEM n'a pas été effectuée (avec use_DEM_flag = 1).,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/14,033104,Drapeau d'état de navigation ICI,14,Erreur dans le calcul de la fraction terrestre,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/15,033104,Drapeau d'état de navigation ICI,15,Fichier d'orbite prédit non disponible,,,,,Operational,AI Translator: MCP
 bufr4/0/33/104/All-16,033104,Drapeau d'état de navigation ICI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/105/1,033105,Drapeaux de traitement ICI,1,La correction de contamination lunaire sur les comptes de vue de l'espace froid n'est pas appliquée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/105/2,033105,Drapeaux de traitement ICI,2,La correction de débordement MR relative à l'émission par la plate-forme de l'instrument n'est pas appliquée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/105/1,033105,Drapeaux de traitement ICI,1,La correction de contamination lunaire sur les relevés de vue de l'espace froid n'est pas appliquée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/105/2,033105,Drapeaux de traitement ICI,2,La correction du débordement MR relative à l'émission par la plate-forme instrumentale n'est pas appliquée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/105/3,033105,Drapeaux de traitement ICI,3,La correction de débordement SVR relative à l'émission par la plate-forme de l'instrument n'est pas appliquée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/105/4,033105,Drapeaux de traitement ICI,4,La correction des lobes secondaires SVR n'est pas appliquée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/105/5,033105,Drapeaux de traitement ICI,5,"La correction complète de la polarisation croisée, y compris la correction des petits angles, est appliquée.",,,,,Operational,AI Translator: MCP
-bufr4/0/33/105/6,033105,Drapeaux de traitement ICI,6,La correction dynamique des lobes latéraux n'est pas appliquée pour ICI-1.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/105/6,033105,Drapeaux de traitement ICI,6,La correction dynamique des lobes latéraux n'est pas appliquée pour l'ICI-1.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/105/7,033105,Drapeaux de traitement ICI,7,La correction dynamique des lobes secondaires n'est pas appliquée pour l'ICI-2.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/105/8,033105,Drapeaux de traitement ICI,8,La correction dynamique des lobes secondaires n'est pas appliquée pour l'ICI-3.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/105/9,033105,Drapeaux de traitement ICI,9,La correction dynamique des lobes secondaires n'est pas appliquée pour ICI-4 V et ICI-4 H.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/105/10-15,033105,Drapeaux de traitement ICI,10-15,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/105/All-16,033105,Drapeaux de traitement ICI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/1,033106,Indicateurs de traitement MWI,1,La correction de contamination lunaire sur les comptes de vue de l'espace froid n'est pas appliquée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/1,033106,Indicateurs de traitement MWI,1,La correction de contamination lunaire sur les relevés de vue de l'espace froid n'est pas appliquée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/106/2,033106,Indicateurs de traitement MWI,2,La calibration avec des diodes de bruit n'est pas appliquée pour au moins un canal parmi MWI-1 à MWI-3.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/3,033106,Indicateurs de traitement MWI,3,La correction de débordement MR relative à l'émission par la plate-forme de l'instrument n'est pas appliquée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/3,033106,Drapeaux de traitement MWI,3,La correction du débordement MR relative à l'émission par la plate-forme instrumentale n'est pas appliquée.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/106/4,033106,Indicateurs de traitement MWI,4,La correction de débordement SVR relative à l'émission par la plate-forme de l'instrument n'est pas appliquée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/5,033106,Indicateurs de traitement MWI,5,La correction des lobes secondaires SVR n'est pas appliquée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/6,033106,Indicateurs de traitement MWI,6,"La correction complète de la polarisation croisée, y compris la correction des petits angles, est appliquée.",,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/7,033106,Indicateurs de traitement MWI,7,La correction RFI dans la vue de la Terre n'est pas appliquée.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/8,033106,Indicateurs de traitement MWI,8,La correction dynamique des lobes secondaires n'est pas appliquée pour MWI-1.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/9,033106,Indicateurs de traitement MWI,9,La correction dynamique des lobes secondaires n'est pas appliquée pour MWI-2.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/10,033106,Indicateurs de traitement MWI,10,La correction dynamique des lobes secondaires n'est pas appliquée pour le MWI-3.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/11,033106,Indicateurs de traitement MWI,11,La correction dynamique des lobes secondaires n'est pas appliquée pour le MWI-4.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/12,033106,Indicateurs de traitement MWI,12,La correction dynamique des lobes secondaires n'est pas appliquée pour le MWI-8.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/13-15,033106,Indicateurs de traitement MWI,13-15,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/33/106/All-16,033106,Indicateurs de traitement MWI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/107/1,033107,Drapeau de traitement de la ligne de balayage MWS,1,Analyse non nominale en raison d'un écart,,,,,Operational,AI Translator: MCP
-bufr4/0/33/107/2,033107,Drapeau de traitement de la ligne de balayage MWS,2,température,,,,,Operational,AI Translator: MCP
-bufr4/0/33/107/3,033107,Drapeau de traitement de la ligne de balayage MWS,3,Moyenne non nominale le long de la trajectoire des températures cible.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/5,033106,Drapeaux de traitement MWI,5,La correction des lobes secondaires SVR n'est pas appliquée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/6,033106,Drapeaux de traitement MWI,6,"La correction complète de la polarisation croisée, y compris la correction des petits angles, est appliquée.",,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/7,033106,Drapeaux de traitement MWI,7,La correction RFI dans la vue de la Terre n'est pas appliquée.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/8,033106,Drapeaux de traitement MWI,8,La correction dynamique des lobes secondaires n'est pas appliquée pour le MWI-1.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/9,033106,Drapeaux de traitement MWI,9,La correction dynamique des lobes secondaires n'est pas appliquée pour le MWI-2.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/10,033106,Drapeaux de traitement MWI,10,La correction dynamique des lobes secondaires n'est pas appliquée pour le MWI-3.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/11,033106,Drapeaux de traitement MWI,11,La correction dynamique des lobes secondaires n'est pas appliquée pour le MWI-4.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/12,033106,Drapeaux de traitement MWI,12,La correction dynamique des lobes secondaires n'est pas appliquée pour le MWI-8.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/13-15,033106,Drapeaux de traitement MWI,13-15,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/33/106/All-16,033106,Drapeaux de traitement MWI,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/33/107/1,033107,Drapeau de traitement de ligne de balayage MWS,1,Analyse non nominale en raison d'un écart,,,,,Operational,AI Translator: MCP
+bufr4/0/33/107/2,033107,drapeau de traitement de la ligne de balayage MWS,2,température,,,,,Operational,AI Translator: MCP
+bufr4/0/33/107/3,033107,Drapeau de traitement de la ligne de balayage MWS,3,Moyenne non nominale le long de la trajectoire des températures de cible chaude,,,,,Operational,AI Translator: MCP
 bufr4/0/33/107/4,033107,Drapeau de traitement de la ligne de balayage MWS,4,température,,,,,Operational,AI Translator: MCP
-bufr4/0/33/107/5,033107,Drapeau de traitement de la ligne de balayage MWS,5,Moyenne non nominale le long de la trajectoire des températures des instruments,,,,,Operational,AI Translator: MCP
+bufr4/0/33/107/5,033107,Drapeau de traitement de la ligne de balayage MWS,5,Moyenne le long de la trajectoire non nominale des températures des instruments,,,,,Operational,AI Translator: MCP
 bufr4/0/33/107/6,033107,Drapeau de traitement de la ligne de balayage MWS,6,Température non nominale du réflecteur rotatif,,,,,Operational,AI Translator: MCP
-bufr4/0/33/107/7,033107,Drapeau de traitement de la ligne de balayage MWS,7,Moyenne non nominale le long de la trajectoire des températures du réflecteur rotatif,,,,,Operational,AI Translator: MCP
+bufr4/0/33/107/7,033107,Drapeau de traitement de la ligne de balayage MWS,7,Moyenne non nominale le long de la trajectoire des températures des réflecteurs rotatifs,,,,,Operational,AI Translator: MCP
 bufr4/0/33/107/8,033107,Drapeau de traitement de la ligne de balayage MWS,8,Angle de balayage d'antenne non nominal vue de la Terre,,,,,Operational,AI Translator: MCP
-bufr4/0/33/107/9,033107,Drapeau de traitement de la ligne de balayage MWS,9,Angle de balayage d'antenne non nominal vue froide,,,,,Operational,AI Translator: MCP
+bufr4/0/33/107/9,033107,Drapeau de traitement de la ligne de balayage MWS,9,"Angle de balayage d'antenne non nominal, vue froide",,,,,Operational,AI Translator: MCP
 bufr4/0/33/107/10,033107,Drapeau de traitement de la ligne de balayage MWS,10,Angle de balayage d'antenne non nominal vue chaude,,,,,Operational,AI Translator: MCP
 bufr4/0/33/107/11,033107,Drapeau de traitement de la ligne de balayage MWS,11,Géolocalisation non nominale,,,,,Operational,AI Translator: MCP
-bufr4/0/33/107/12,033107,Drapeau de traitement de la ligne de balayage MWS,12,Affectation LSM non nominale et DEM,,,,,Operational,AI Translator: MCP
-bufr4/0/33/107/13,033107,Drapeau de traitement de la ligne de balayage MWS,13,Manœuvre en cours,,,,,Operational,AI Translator: MCP
+bufr4/0/33/107/12,033107,Drapeau de traitement de la ligne de balayage MWS,12,Affectation LSM et DEM non nominale,,,,,Operational,AI Translator: MCP
+bufr4/0/33/107/13,033107,Drapeau de traitement de la ligne de balayage MWS,13,Manœuvre de satellite en cours,,,,,Operational,AI Translator: MCP
 bufr4/0/33/107/14,033107,Drapeau de traitement de la ligne de balayage MWS,14,Redondant 50GHz rec et ensemble PRT en utilisation,,,,,Operational,AI Translator: MCP
 bufr4/0/33/107/15,033107,Drapeau de traitement de la ligne de balayage MWS,15,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/107/All-16,033107,Drapeau de traitement de la ligne de balayage MWS,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/1,033108,Drapeau d'état de navigation MWS,1,Condition non nominale,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/1,033108,Indicateur d'état de navigation MWS,1,Condition non nominale,,,,,Operational,AI Translator: MCP
 bufr4/0/33/108/2,033108,Drapeau d'état de navigation MWS,2,Analyse non traitée,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/3,033108,Drapeau d'état de navigation MWS,3,Géolocalisation non réussie,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/4,033108,Drapeau d'état de navigation MWS,4,Orbite du navigateur non initialisée avec NAVATT,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/5,033108,Drapeau d'état de navigation MWS,5,L'attitude n'est pas initialisée avec NAVATT,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/6,033108,Drapeau d'état de navigation MWS,6,Erreur d'ingestion du fichier d'orbite prédite,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/7,033108,Drapeau d'état de navigation MWS,7,Manœuvre,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/8,033108,Drapeau d'état de navigation MWS,8,Erreur d'ingestion du bulletin A de l'IERS,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/9,033108,Drapeau d'état de navigation MWS,9,Corrélation temporelle et hauteur géopotentielle initialisées avec le fichier d'orbite prédit,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/10,033108,Drapeau d'état de navigation MWS,10,Exactitude complète de l'attitude initialisée de NAVATT non atteinte,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/11,033108,Drapeau d'état de navigation MWS,11,Mode de pointage non YSM,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/12,033108,Drapeau d'état de navigation MWS,12,Erreur d'ingestion NAVATT,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/13-15,033108,Drapeau d'état de navigation MWS,13-15,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/33/108/All-16,033108,Drapeau d'état de navigation MWS,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/3,033108,Indicateur d'état de navigation MWS,3,Géolocalisation non réussie,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/4,033108,Indicateur d'état de navigation MWS,4,Orbite du navigateur non initialisée avec NAVATT,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/5,033108,Indicateur d'état de navigation MWS,5,Attitude non initialisée avec NAVATT,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/6,033108,Indicateur d'état de navigation MWS,6,Erreur d'ingestion du fichier d'orbite prédite,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/7,033108,Indicateur d'état de navigation MWS,7,Manœuvre,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/8,033108,Indicateur d'état de navigation MWS,8,Erreur d'ingestion du bulletin A de l'IERS,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/9,033108,Indicateur d'état de navigation MWS,9,Corrélation temporelle et hauteur géopotentielle initialisées avec le fichier d'orbite prédit,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/10,033108,Indicateur d'état de navigation MWS,10,Exactitude complète de l'attitude initialisée NAVATT non atteinte,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/11,033108,Indicateur d'état de navigation MWS,11,Mode de pointage non YSM,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/12,033108,Indicateur d'état de navigation MWS,12,Erreur d'ingestion NAVATT,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/13-15,033108,Indicateur d'état de navigation MWS,13-15,En réserve,,,,,Operational,AI Translator: MCP
+bufr4/0/33/108/All-16,033108,Indicateur d'état de navigation MWS,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/109/1,033109,Indicateurs de qualité,1,Produit(s) d'entrée manquant(s),,,,,Operational,AI Translator: MCP
 bufr4/0/33/109/2,033109,Indicateurs de qualité,2,Lacune(s) de données,,,,,Operational,AI Translator: MCP
 bufr4/0/33/109/3,033109,Indicateurs de qualité,3,Produit(s) d'entrée corrompu(s),,,,,Operational,AI Translator: MCP
 bufr4/0/33/109/4,033109,Indicateurs de qualité,4,Anomalie de l'instrument,,,,,Operational,AI Translator: MCP
 bufr4/0/33/109/5,033109,Indicateurs de qualité,5,Données auxiliaires manquantes ou dégradées,,,,,Operational,AI Translator: MCP
-bufr4/0/33/109/6,033109,Indicateurs de qualité,6,Manœuvre,,,,,Operational,AI Translator: MCP
+bufr4/0/33/109/6,033109,Indicateurs de qualité,6,Dégradé en raison de manœuvre,,,,,Operational,AI Translator: MCP
 bufr4/0/33/109/7-15,033109,Indicateurs de qualité,7-15,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/109/All-16,033109,Indicateurs de qualité,All 16,Valeur manquante,,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/1,033110,Drapeaux de traitement du canal MWS,1,Le canal est désactivé.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/2,033110,Drapeaux de traitement du canal MWS,2,Nombre moyen de vues chaudes non nominal.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/3,033110,Drapeaux de traitement du canal MWS,3,Moyennage non nominal le long de la trajectoire des comptes de vue chaude,,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/4,033110,Drapeaux de traitement du canal MWS,4,Nombre moyen non nominal de vues froides,,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/5,033110,Drapeaux de traitement du canal MWS,5,Moyenne non nominale le long de la trajectoire des comptages de vues froides,,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/6,033110,Drapeaux de traitement du canal MWS,6,Coefficients d'étalonnage non nominaux,,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/7,033110,Drapeaux de traitement du canal MWS,7,Intrusion de la Lune dans certains des champs de vision froids.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/8,033110,Drapeaux de traitement du canal MWS,8,Traitement non nominal ou valeur excessive pour NEDT (froid ou chaud),,,,,Operational,AI Translator: MCP
-bufr4/0/33/110/All-9,033110,Drapeaux de traitement du canal MWS,All 9,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/1,033110,canal,1,Le canal est désactivé.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/2,033110,canal,2,Nombre moyen non nominal de vues chaudes,,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/3,033110,canal,3,Moyennage le long de la trajectoire non nominal des comptes de vue chaude,,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/4,033110,canal,4,Nombre moyen de vues froides non nominal.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/5,033110,canal,5,Moyennage non nominal le long de la trajectoire des comptages de vue froide,,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/6,033110,canal,6,Coefficients d'étalonnage non nominaux,,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/7,033110,canal,7,Intrusion de la Lune dans certains des champs de vision froids.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/8,033110,canal,8,Traitement non nominal ou valeur excessive pour NEDT (froid ou chaud),,,,,Operational,AI Translator: MCP
+bufr4/0/33/110/All-9,033110,canal,All 9,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/1,033111,Indicateurs de qualité,1,Fichier d'orbite prédit utilisé,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/2,033111,Indicateurs de qualité,2,Manœuvre en cours,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/3,033111,Indicateurs de qualité,3,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/33/111/4,033111,Indicateurs de qualité,4,Le satellite n'est pas en mode de suivi en lacet.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/111/4,033111,Indicateurs de qualité,4,Le satellite n'est pas en mode de contrôle de lacet.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/5,033111,Indicateurs de qualité,5,Le signal du transpondeur est présent.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/6,033111,Indicateurs de qualité,6,L'estimation du bruit est mauvaise.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/7,033111,Indicateurs de qualité,7,L'estimation du bruit est très mauvaise.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/111/8,033111,Indicateurs de qualité,8,Un élément aberrant de bruit est présent.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/111/8,033111,Indicateurs de qualité,8,L'anomalie de bruit est présente,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/9,033111,Indicateurs de qualité,9,Les données auxiliaires sont médiocres.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/111/10,033111,Indicateurs de qualité,10,Les données auxiliaires sont très pauvres.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/111/10,033111,Indicateurs de qualité,10,Les données auxiliaires sont très mauvaises.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/11,033111,Indicateurs de qualité,11,Limites de la table de caractère dépassées,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/12,033111,Indicateurs de qualité,12,L'estimation du gain de puissance est médiocre,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/13,033111,Indicateurs de qualité,13,L'estimation du gain de puissance est très mauvaise.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/14,033111,Indicateurs de qualité,14,Gain de puissance hors limites,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/15,033111,Indicateurs de qualité,15,L'estimation des pertes du guide d'ondes est médiocre.,,,,,Operational,AI Translator: MCP
-bufr4/0/33/111/16,033111,Indicateurs de qualité,16,L'estimation des pertes du guide d'ondes est très mauvaise.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/111/16,033111,Indicateurs de qualité,16,L'estimation des pertes dans le guide d'ondes est très mauvaise.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/17,033111,Indicateurs de qualité,17,Limites de la table des guides d'ondes dépassées,,,,,Operational,AI Translator: MCP
-bufr4/0/33/111/18,033111,Indicateurs de qualité,18,L'écho est hors de la plage ADC.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/111/18,033111,Indicateurs de qualité,18,L'écho est hors de la plage de l'ADC.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/19,033111,Indicateurs de qualité,19,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/20,033111,Indicateurs de qualité,20,Tables de normalisation manquantes,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/21,033111,Indicateurs de qualité,21,Le nombre d'échantillons dans la fenêtre est faible,,,,,Operational,AI Translator: MCP
-bufr4/0/33/111/22,033111,Indicateurs de qualité,22,Le nombre d'échantillons dans le vent est très faible.,,,,,Operational,AI Translator: MCP
+bufr4/0/33/111/22,033111,Indicateurs de qualité,22,Le nombre d'échantillons dans la fenêtre est très faible.,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/23,033111,Indicateurs de qualité,23,Rétrodiffusion négative dans les données rééchantillonnées,,,,,Operational,AI Translator: MCP
-bufr4/0/33/111/24,033111,Indicateurs de qualité,24,Interférence possible provenant du panneau solaire,,,,,Operational,AI Translator: MCP
+bufr4/0/33/111/24,033111,Indicateurs de qualité,24,Interférence possible provenant de l'ensemble solaire,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/25,033111,Indicateurs de qualité,25,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/26,033111,Indicateurs de qualité,26,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/27,033111,Indicateurs de qualité,27,En réserve,,,,,Operational,AI Translator: MCP
@@ -814,12 +814,12 @@ bufr4/0/33/111/30,033111,Indicateurs de qualité,30,Passage ascendant,,,,,Operat
 bufr4/0/33/111/31,033111,Indicateurs de qualité,31,Passage descendant,,,,,Operational,AI Translator: MCP
 bufr4/0/33/111/All-32,033111,Indicateurs de qualité,All 32,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/113/1,033113,Indicateurs de qualité,1,"Qualité générale (0 si les bits correspondant à l'indicatif de défaut de l'heure 2 à 11 sont tous 0, 1 sinon)",,,,,Operational,AI Translator: MCP
-bufr4/0/33/113/2,033113,Indicateurs de qualité,2,Radiomètre sondeur,,,,,Operational,AI Translator: MCP
+bufr4/0/33/113/2,033113,Indicateurs de qualité,2,Radiométrique sondeur,,,,,Operational,AI Translator: MCP
 bufr4/0/33/113/3,033113,Indicateurs de qualité,3,spectral,,,,,Operational,AI Translator: MCP
 bufr4/0/33/113/4,033113,Indicateurs de qualité,4,Imager géométrique,,,,,Operational,AI Translator: MCP
 bufr4/0/33/113/5,033113,Indicateurs de qualité,5,Classification d'imagerie,,,,,Operational,AI Translator: MCP
 bufr4/0/33/113/6,033113,Indicateurs de qualité,6,Imageur radiométrique,,,,,Operational,AI Translator: MCP
-bufr4/0/33/113/7,033113,Indicateurs de qualité,7,Sonneur général,,,,,Operational,AI Translator: MCP
+bufr4/0/33/113/7,033113,Indicateurs de qualité,7,Sondeur général,,,,,Operational,AI Translator: MCP
 bufr4/0/33/113/8,033113,Indicateurs de qualité,8,Présence d'erreurs,,,,,Operational,AI Translator: MCP
 bufr4/0/33/113/9,033113,Indicateurs de qualité,9,Données TM manquantes,,,,,Operational,AI Translator: MCP
 bufr4/0/33/113/10,033113,Indicateurs de qualité,10,Données TM corrompues,,,,,Operational,AI Translator: MCP
@@ -829,22 +829,22 @@ bufr4/0/33/113/All-16,033113,Indicateurs de qualité,All 16,Valeur manquante,,,,
 bufr4/0/33/114/1,033114,Vérification hors limites,1,température,,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/2,033114,Vérification hors limites,2,Profil de vapeur d'eau,,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/3,033114,Vérification hors limites,3,Profil d'ozone,,,,,Operational,AI Translator: MCP
-bufr4/0/33/114/4,033114,Vérification hors limites,4,température,,,,,Operational,AI Translator: MCP
+bufr4/0/33/114/4,033114,Vérification hors limites,4,Température de la peau de surface,,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/5,033114,Vérification hors limites,5,température,,,,,Operational,AI Translator: MCP
-bufr4/0/33/114/6,033114,Vérification hors limites,6,Température de point de rosée de l'air de surface,,,,,Operational,AI Translator: MCP
+bufr4/0/33/114/6,033114,Vérification hors limites,6,température,,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/7,033114,Vérification hors limites,7,Pression en surface,,,,,Operational,AI Translator: MCP
-bufr4/0/33/114/8,033114,Vérification hors limites,8,Estimation de l'erreur tridimensionnelle de température de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
+bufr4/0/33/114/8,033114,Vérification hors limites,8,Température erreur tridimensionnelle estimative (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/9,033114,Vérification hors limites,9,Température erreur tridimensionnelle estimative (indicateur de qualité),,,,,Operational,AI Translator: MCP
-bufr4/0/33/114/10,033114,Vérification hors limites,10,Estimation de l'erreur de la température de point de rosée de l'air en surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
+bufr4/0/33/114/10,033114,Vérification hors limites,10,Estimation de l'erreur de température du point de rosée de l'air de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/11,033114,Vérification hors limites,11,Estimation d'erreur de pression de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/12,033114,Vérification hors limites,12,Spectre infrarouge grossier de l'émissivité de surface,,,,,Operational,AI Translator: MCP
-bufr4/0/33/114/13,033114,Vérification hors limites,13,Spectre des vagues d'émissivité de surface,,,,,Operational,AI Translator: MCP
+bufr4/0/33/114/13,033114,Vérification hors limites,13,Spectre des vagues de l'émissivité de surface,,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/14,033114,Vérification hors limites,14,Profil CO2,,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/15,033114,Vérification hors limites,15,Profil CH4,,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/16,033114,Vérification hors limites,16,Profil N2O,,,,,Operational,AI Translator: MCP
 bufr4/0/33/114/All-17,033114,Vérification hors limites,All 17,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/33/115/0,033115,Informations sur la qualité de la profondeur optique des aérosols,0,Bonne,,,,,Operational,AI Translator: MCP
-bufr4/0/33/115/1,033115,Informations sur la qualité de la profondeur optique des aérosols,1,nadir,,,,,Operational,AI Translator: MCP
+bufr4/0/33/115/1,033115,Informations sur la qualité de la profondeur optique des aérosols,1,Nadir nuageux,,,,,Operational,AI Translator: MCP
 bufr4/0/33/115/2,033115,Informations sur la qualité de la profondeur optique des aérosols,2,Nuageux oblique,,,,,Operational,AI Translator: MCP
 bufr4/0/33/115/3,033115,Informations sur la qualité de la profondeur optique des aérosols,3,nadir,,,,,Operational,AI Translator: MCP
 bufr4/0/33/115/4,033115,Informations sur la qualité de la profondeur optique des aérosols,4,Reflet oblique,,,,,Operational,AI Translator: MCP
@@ -853,16 +853,16 @@ bufr4/0/33/115/31,033115,Informations sur la qualité de la profondeur optique d
 bufr4/0/33/116/1,033116,Première estimation dans la vérification des limites,1,température,,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/2,033116,Première estimation dans la vérification des limites,2,Profil de vapeur d'eau,,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/3,033116,Première estimation dans la vérification des limites,3,Profil d'ozone,,,,,Operational,AI Translator: MCP
-bufr4/0/33/116/4,033116,Première estimation dans la vérification des limites,4,température,,,,,Operational,AI Translator: MCP
+bufr4/0/33/116/4,033116,Première estimation dans la vérification des limites,4,Température de la peau de surface,,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/5,033116,Première estimation dans la vérification des limites,5,température,,,,,Operational,AI Translator: MCP
-bufr4/0/33/116/6,033116,Première estimation dans la vérification des limites,6,Température de point de rosée de l'air de surface,,,,,Operational,AI Translator: MCP
+bufr4/0/33/116/6,033116,Première estimation dans la vérification des limites,6,température,,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/7,033116,Première estimation dans la vérification des limites,7,Pression en surface,,,,,Operational,AI Translator: MCP
-bufr4/0/33/116/8,033116,Première estimation dans la vérification des limites,8,Estimation de l'erreur tridimensionnelle de température de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
+bufr4/0/33/116/8,033116,Première estimation dans la vérification des limites,8,Température erreur tridimensionnelle estimative (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/9,033116,Première estimation dans la vérification des limites,9,Température erreur tridimensionnelle estimative (indicateur de qualité),,,,,Operational,AI Translator: MCP
-bufr4/0/33/116/10,033116,Première estimation dans la vérification des limites,10,Estimation de l'erreur de la température de point de rosée de l'air en surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
+bufr4/0/33/116/10,033116,Première estimation dans la vérification des limites,10,Estimation de l'erreur de température du point de rosée de l'air de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/11,033116,Première estimation dans la vérification des limites,11,Estimation d'erreur de pression de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/12,033116,Première estimation dans la vérification des limites,12,Spectre infrarouge grossier de l'émissivité de surface,,,,,Operational,AI Translator: MCP
-bufr4/0/33/116/13,033116,Première estimation dans la vérification des limites,13,Spectre des vagues d'émissivité de surface,,,,,Operational,AI Translator: MCP
+bufr4/0/33/116/13,033116,Première estimation dans la vérification des limites,13,Spectre des vagues de l'émissivité de surface,,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/14,033116,Première estimation dans la vérification des limites,14,Profil CO2,,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/15,033116,Première estimation dans la vérification des limites,15,Profil CH4,,,,,Operational,AI Translator: MCP
 bufr4/0/33/116/16,033116,Première estimation dans la vérification des limites,16,Profil N2O,,,,,Operational,AI Translator: MCP
@@ -870,16 +870,16 @@ bufr4/0/33/116/All-17,033116,Première estimation dans la vérification des limi
 bufr4/0/33/117/1,033117,Vérification des limites,1,température,,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/2,033117,Vérification des limites,2,Profil de vapeur d'eau,,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/3,033117,Vérification des limites,3,Profil d'ozone,,,,,Operational,AI Translator: MCP
-bufr4/0/33/117/4,033117,Vérification des limites,4,température,,,,,Operational,AI Translator: MCP
+bufr4/0/33/117/4,033117,Vérification des limites,4,Température de la peau de surface,,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/5,033117,Vérification des limites,5,température,,,,,Operational,AI Translator: MCP
-bufr4/0/33/117/6,033117,Vérification des limites,6,Température de point de rosée de l'air de surface,,,,,Operational,AI Translator: MCP
+bufr4/0/33/117/6,033117,Vérification des limites,6,température,,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/7,033117,Vérification des limites,7,Pression en surface,,,,,Operational,AI Translator: MCP
-bufr4/0/33/117/8,033117,Vérification des limites,8,Estimation de l'erreur tridimensionnelle de température de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
+bufr4/0/33/117/8,033117,Vérification des limites,8,Température erreur tridimensionnelle estimative (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/9,033117,Vérification des limites,9,Température erreur tridimensionnelle estimative (indicateur de qualité),,,,,Operational,AI Translator: MCP
-bufr4/0/33/117/10,033117,Vérification des limites,10,Estimation de l'erreur de la température de point de rosée de l'air en surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
+bufr4/0/33/117/10,033117,Vérification des limites,10,Estimation de l'erreur de température du point de rosée de l'air de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/11,033117,Vérification des limites,11,Estimation d'erreur de pression de surface (indicateur de qualité),,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/12,033117,Vérification des limites,12,Spectre infrarouge grossier de l'émissivité de surface,,,,,Operational,AI Translator: MCP
-bufr4/0/33/117/13,033117,Vérification des limites,13,Spectre des vagues d'émissivité de surface,,,,,Operational,AI Translator: MCP
+bufr4/0/33/117/13,033117,Vérification des limites,13,Spectre des vagues de l'émissivité de surface,,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/14,033117,Vérification des limites,14,Profil CO2,,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/15,033117,Vérification des limites,15,Profil CH4,,,,,Operational,AI Translator: MCP
 bufr4/0/33/117/16,033117,Vérification des limites,16,Profil N2O,,,,,Operational,AI Translator: MCP

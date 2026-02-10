@@ -35,7 +35,7 @@ bufr4/0/02/004/10-14,002004,Type d'instrument utilisé pour la mesure de l'évap
 bufr4/0/02/004/15,002004,Type d'instrument utilisé pour la mesure de l'évaporation ou type de culture pour lequel est indiquée l'évapotranspiration,15,Valeur manquante,,,,,Operational,Original
 bufr4/0/02/006/0,002006,Type d’instrument de télédétection de l’air supérieur,0,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/02/006/1,002006,Type d’instrument de télédétection de l’air supérieur,1,Lidar à rétrodiffusion élastique,,,,,Operational,AI Translator: MCP
-bufr4/0/02/006/2,002006,Type d’instrument de télédétection de l’air supérieur,2,Lidar à rétrodiffusion Raman,,,,,Operational,AI Translator: MCP
+bufr4/0/02/006/2,002006,Type d’instrument de télédétection de l’air supérieur,2,lidar de rétrodiffusion Raman,,,,,Operational,AI Translator: MCP
 bufr4/0/02/006/3,002006,Type d’instrument de télédétection de l’air supérieur,3,vent,,,,,Operational,AI Translator: MCP
 bufr4/0/02/006/4,002006,Type d’instrument de télédétection de l’air supérieur,4,vent,,,,,Operational,AI Translator: MCP
 bufr4/0/02/006/5,002006,Type d’instrument de télédétection de l’air supérieur,5,vent,,,,,Operational,AI Translator: MCP
@@ -66,10 +66,10 @@ bufr4/0/02/008/5,002008,Type de plate-forme en mer,5,Bateau-feu,,,,,Operational,
 bufr4/0/02/008/6-14,002008,Type de plate-forme en mer,6-14,En réserve,,,,,Operational,Original
 bufr4/0/02/008/15,002008,Type de plate-forme en mer,15,Valeur manquante,,,,,Operational,Original
 bufr4/0/02/009/0,002009,algorithme,0,Réflectances corrigées des terres,,,,,Operational,AI Translator: MCP
-bufr4/0/02/009/1,002009,algorithme,1,Meilleure solution océan,,,,,Operational,AI Translator: MCP
-bufr4/0/02/009/2,002009,algorithme,2,Solution moyenne de l'océan,,,,,Operational,AI Translator: MCP
+bufr4/0/02/009/1,002009,Algorithme d'aérosol MODIS,1,La meilleure solution océan.,,,,,Operational,AI Translator: MCP
+bufr4/0/02/009/2,002009,algorithme,2,Solution moyenne océanique,,,,,Operational,AI Translator: MCP
 bufr4/0/02/009/3-14,002009,algorithme,3-14,En réserve,,,,,Operational,AI Translator: MCP
-bufr4/0/02/009/15,002009,algorithme,15,Valeur manquante,,,,,Operational,AI Translator: MCP
+bufr4/0/02/009/15,002009,Algorithme d'aérosol MODIS,15,Valeur manquante,,,,,Operational,AI Translator: MCP
 bufr4/0/02/011,002011,Type de radiosonde,,,,,(Voir la table de code commune C-2 dans la Partie C/c.),,Operational,Original
 bufr4/0/02/012,002012,Méthode de calcul des données de radiosondage,,(À établir),,,,,Operational,Original
 bufr4/0/02/013/0,002013,Correction du rayonnement solaire et infrarouge,0,Pas de correction,,,,,Operational,Original
@@ -144,7 +144,7 @@ bufr4/0/02/020/401,002020,Classification des satellites,401,GPS,,,,,Operational,
 bufr4/0/02/020/402,002020,Classification des satellites,402,GLONASS,,,,,Operational,Original
 bufr4/0/02/020/403,002020,Classification des satellites,403,GALILEO,,,,,Operational,Original
 bufr4/0/02/020/404,002020,Classification des satellites,404,BDS (Système de navigation par satellite Beidou),,,,,Operational,Original
-bufr4/0/02/020/405,002020,Classification des satellites,405,Système de satellites quasi-zénith (QZSS),,,,,Operational,AI Translator: MCP
+bufr4/0/02/020/405,002020,Classification des satellites,405,Système satellitaire quasi-zénithal (QZSS),,,,,Operational,AI Translator: MCP
 bufr4/0/02/020/406-510,002020,Classification des satellites,406-510,En réserve,,,,,Operational,AI Translator: MCP
 bufr4/0/02/020/511,002020,Classification des satellites,511,Valeur manquante,,,,,Operational,Original
 bufr4/0/02/021/1,002021,Données instrumentales satellitaires utilisées dans le traitement,1,Sondeur en infrarouge à grand pouvoir séparateur (HIRS),,,,,Operational,Original
