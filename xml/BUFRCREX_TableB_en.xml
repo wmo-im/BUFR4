@@ -20986,17 +20986,6 @@
   <BUFRCREX_TableB_en>
     <ClassNo>25</ClassNo>
     <ClassName_en>Processing information</ClassName_en>
-    <FXY>025032</FXY>
-    <ElementName_en>Noise curvature</ElementName_en>
-    <BUFR_Unit>dB/degree²</BUFR_Unit>
-    <BUFR_Scale>5</BUFR_Scale>
-    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
-    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
-    <Status>Operational</Status>
-  </BUFRCREX_TableB_en>
-  <BUFRCREX_TableB_en>
-    <ClassNo>25</ClassNo>
-    <ClassName_en>Processing information</ClassName_en>
     <FXY>025033</FXY>
     <ElementName_en>Wind profiler submode information</ElementName_en>
     <BUFR_Unit>Code table</BUFR_Unit>
@@ -21082,6 +21071,17 @@
     <CREX_Unit>K</CREX_Unit>
     <CREX_Scale>1</CREX_Scale>
     <CREX_DataWidth_Char>3</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>25</ClassNo>
+    <ClassName_en>Processing information</ClassName_en>
+    <FXY>025039</FXY>
+    <ElementName_en>Noise curvature</ElementName_en>
+    <BUFR_Unit>dB/degree^2</BUFR_Unit>
+    <BUFR_Scale>5</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
