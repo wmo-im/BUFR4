@@ -24765,6 +24765,28 @@
   <BUFRCREX_TableB_en>
     <ClassNo>33</ClassNo>
     <ClassName_en>Quality information</ClassName_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
+    <FXY>033121</FXY>
+    <ElementName_en>IRS detector quality</ElementName_en>
+    <BUFR_Unit>Flag table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>5</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>33</ClassNo>
+    <ClassName_en>Quality information</ClassName_en>
     <FXY>033122</FXY>
     <ElementName_en>Estimated error in backscatter</ElementName_en>
     <BUFR_Unit>dB</BUFR_Unit>
@@ -24774,12 +24796,6 @@
     <CREX_Unit>dB</CREX_Unit>
     <CREX_Scale>2</CREX_Scale>
     <CREX_DataWidth_Char>4</CREX_DataWidth_Char>
-    <FXY>033120</FXY>
-    <ElementName_en>IRS spatial quality</ElementName_en>
-    <BUFR_Unit>Flag table</BUFR_Unit>
-    <BUFR_Scale>0</BUFR_Scale>
-    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
-    <BUFR_DataWidth_Bits>14</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -24794,12 +24810,6 @@
     <CREX_Unit>dB/degree</CREX_Unit>
     <CREX_Scale>3</CREX_Scale>
     <CREX_DataWidth_Char>2</CREX_DataWidth_Char>
-    <FXY>033121</FXY>
-    <ElementName_en>IRS detector quality</ElementName_en>
-    <BUFR_Unit>Flag table</BUFR_Unit>
-    <BUFR_Scale>0</BUFR_Scale>
-    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
-    <BUFR_DataWidth_Bits>5</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
