@@ -350,15 +350,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033057,SCAT L2 applied correction flag,1-11,Reserved,,,,,Operational
 033057,SCAT L2 applied correction flag,12,Correction of wet backscatter reference,,,,,Operational
 033057,SCAT L2 applied correction flag,13,Correction of dry backscatter reference,,,,,Operational
-033057,SCAT L2 applied correction flag,14,SM set to 100% (was between 100% and 125%),,,,,Operational
-033057,SCAT L2 applied correction flag,15,SM set to 0% (was between -25% and 0%),,,,,Operational
+033057,SCAT L2 applied correction flag,14,Soil moisture set to 100% (was between 100% and 125%),,,,,Operational
+033057,SCAT L2 applied correction flag,15,Soil moisture set to 0% (was between -25% and 0%),,,,,Operational
 033057,SCAT L2 applied correction flag,All 16,Missing value,,,,,Operational
 033058,SCAT L2 flag cause missing data,1-10,Reserved,,,,,Operational
-033058,SCAT L2 flag cause missing data,11,sm_above_125_perc_saturation,,,,,Operational
-033058,SCAT L2 flag cause missing data,12,sm_below_-25_perc_saturation,,,,,Operational
-033058,SCAT L2 flag cause missing data,13,backscatter40_not_usable,,,,,Operational
-033058,SCAT L2 flag cause missing data,14,model_parameter_not_usable,,,,,Operational
-033058,SCAT L2 flag cause missing data,15,not_soil,,,,,Operational
+033058,SCAT L2 flag cause missing data,11,Soil moisture above 125 percent saturation,,,,,Operational
+033058,SCAT L2 flag cause missing data,12,Soil moisture bellow -25 percent saturation,,,,,Operational
+033058,SCAT L2 flag cause missing data,13,Backscatter 40 not usable,,,,,Operational
+033058,SCAT L2 flag cause missing data,14,Model parameter not usable,,,,,Operational
+033058,SCAT L2 flag cause missing data,15,Not soil,,,,,Operational
 033058,SCAT L2 flag cause missing data,All 16,Missing value,,,,,Operational
 033059,SCAT L2 treshold flag,1-11,Reserved,,,,,Operational
 033059,SCAT L2 treshold flag,12,Slope Mid-aft beam out of range,,,,,Operational
