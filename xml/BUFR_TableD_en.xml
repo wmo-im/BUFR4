@@ -60152,7 +60152,7 @@
     <FXY1>310104</FXY1>
     <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
     <FXY2>001034</FXY2>
-    <ElementName_en>Identification of sub-centre</ElementName_en>
+    <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -60458,7 +60458,7 @@
     <FXY1>310106</FXY1>
     <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
     <FXY2>040001</FXY2>
-    <ElementName_en>Surface soil moisture</ElementName_en>
+    <ElementName_en>Surface soil moisture (ms)</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -60476,7 +60476,8 @@
     <FXY1>310106</FXY1>
     <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
     <FXY2>008023</FXY2>
-    <ElementName_en>First-order statistics (Cancel)</ElementName_en>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>(Cancel)</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -60494,7 +60495,7 @@
     <FXY1>310106</FXY1>
     <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
     <FXY2>031001</FXY2>
-    <ElementName_en>Extended delayed descriptor replication factor</ElementName_en>
+    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
