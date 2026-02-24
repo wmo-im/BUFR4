@@ -28,7 +28,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021029,Cross-polarization correlation coefficient,Numeric,2,-100,8,Numeric,2,3,,,Operational
 21,Radar data,021030,Signal to noise ratio,dB,0,-32,8,dB,0,3,,,Operational
 21,Radar data,021031,Vertically integrated liquid-water content,kg m-2,0,0,7,kg m-2,0,3,,,Operational
+21,Radar data,021034,Backscatter flag,Flag table,0,0,16,,,,,,Operational
 21,Radar data,021036,Radar rainfall intensity,m/s,7,0,12,m/s,7,4,,,Operational
+21,Radar data,021037,Slope,dB/deg,2,-80,7,,,,,,Operational
+21,Radar data,021038,Curvature,dB/deg2,4,-6000,14,,,,,,Operational
 21,Radar data,021041,Bright-band height,m,-2,0,8,m,-2,3,,,Operational
 21,Radar data,021049,Amplitude of echo (digitizer counts),Numeric,0,0,16,Numeric,0,5,,,Operational
 21,Radar data,021050,Decay time for echo to fall to half of its peak amplitude,s,3,0,16,s,3,5,,,Operational
@@ -126,6 +129,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021165,ASCAT extrapolated reference function presence,Numeric,3,0,10,Numeric,3,4,,,Operational
 21,Radar data,021166,Land fraction,Numeric,3,0,10,Numeric,3,4,,,Operational
 21,Radar data,021167,Subsurface scattering probability,%,0,0,7,%,0,3,,,Operational
+21,Radar data,021168,Scattering mechanism,Code table,0,0,8,,,,,,Operational
 21,Radar data,021169,Ice presence indicator,Code table,0,0,2,Code table,0,1,,,Operational
 21,Radar data,021170,C band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
 21,Radar data,021171,RMS C band corrected ocean backscatter coefficient,dB,2,-32768,16,dB,2,5,,,Operational
