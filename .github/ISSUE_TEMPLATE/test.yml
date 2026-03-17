@@ -1,28 +1,28 @@
 name: Proposal for an Amendment TEST
 description: Proposal for amendments to WMO Manual on Codes (WMO-No.306), vI.2 that may be submitted for WMO approval with the standard or fast-track approval procedure.
-title: "[Enter table name, number and a very brief description of change]"
+title: "Enter table name, number and a very brief description"
 body:
   - type: markdown
     attributes:
-      value: The content in this issue will be kept up to date during the drafting of the proposal. Please pay attention to accuracy, spelling and grammar as it may be referenced.
+      value: The content in this issue will be kept up to date during the drafting of the proposal. Please pay attention to accuracy, spelling and grammar.
   - type: textarea  
     id: introduction
     attributes:
       label: Introduction
-      description: Overview description of the amendment(s). Include as much relevant information possible, such as rationale, purpose, and implementation plans.
+      description: Overview of the amendment(s). Include as much relevant information possible, such as rationale, purpose, and implementation plans.
     validations:
       required: true
   - type: textarea
     attributes:
       label: Data exchange plans
-      description: Describe plans for data exchange associated with the proposal. For example, identify relevant datasets, WMO systems (WIGOS, WIS2, WIPPS), timelines, etc. 
+      description: Describe plans for data exchange associated with this proposal. For example, WMO systems (WIGOS, WIS2, WIPPS), timelines, etc. 
     validations:
       required: true 
   - type: textarea
     id: requestor
     attributes:
       label: Requestor(s)
-      description: Individuals, groups, or organizations that are requesting the amendment. Include relevant affiliations and GitHub user names, as applicable.
+      description: You, other individuals, groups, or organizations that are requesting the amendment. Include relevant affiliations and GitHub user names, as applicable.
     validations:
       required: true
   - type: textarea
@@ -52,7 +52,7 @@ body:
     id: amendment-details
     attributes:
       label: Amendment details 
-      description: Tables of the exact changes proposed with minimal descriptive information. This content may evolve as the proposal is finalized. Convert CSV to Markdown at https://www.convertcsv.com/csv-to-markdown.htm
-      value: "To be determined"
+      description: Tables of the exact changes proposed with minimal descriptive information. This content may evolve as the proposal is finalized. Default value is "to be determined" if the details are not yet known. (There are free online tools for converting CSV to GitHub markdown.)
+      value: "_updated [date]_ To be documented"
     validations:
       required: true
