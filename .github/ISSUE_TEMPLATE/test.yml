@@ -13,22 +13,23 @@ body:
     validations:
       required: true
   - type: textarea
+    attributes:
+      label: Data exchange plans
+      description: Describe plans for data exchange associated with the proposal. For example, identify relevant datasets, WMO systems (WIGOS, WIS2, WIPPS), timelines, etc. 
+    validations:
+      required: true 
+  - type: textarea
     id: requestor
     attributes:
       label: Requestor(s)
       description: Individuals, groups, or organizations that are requesting the amendment. Include relevant affiliations and GitHub user names, as applicable.
     validations:
       required: true
+  - type: textarea
     id: stakeholder
     attributes:
       label: Stakeholder(s)
       description: Individuals, groups, or organizations that have an interest or may be impacted by the amendment. Include relevant affiliations and GitHub user names, as applicable.
-   - type: textarea
-    attributes:
-      label: Data exchange plans
-      description: Describe plans for data exchange associated with the proposal. For example, identify relevant datasets, WMO systems (WIGOS, WIS2, WIPPS), timelines, etc.  - type: textarea
-    validations:
-      required: true
   - type: dropdown
     attributes:
       label: Expected impact of change
@@ -52,6 +53,5 @@ body:
     attributes:
       label: Amendment details 
       description: Tables of the exact changes proposed with minimal descriptive information. This content may evolve as the proposal is finalized. Convert CSV to Markdown at https://www.convertcsv.com/csv-to-markdown.htm
-      title: "TBD"
     validations:
       required: true
