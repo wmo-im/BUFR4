@@ -9,7 +9,8 @@ body:
     id: introduction
     attributes:
       label: Introduction
-      description: Overview description of the amendment(s). Include as much relevant information possible, such as rationale, purpose, and implementation plans. 
+      description: Overview description of the amendment(s). Include as much relevant information possible, such as rationale, purpose, and implementation plans.
+      value:"testing text" 
     validations:
       required: true
   - type: textarea
