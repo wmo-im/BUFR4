@@ -616,7 +616,28 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>001036</FXY>
     <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
-    <CodeFigure>826007-840000</CodeFigure>
+    <CodeFigure>826007</CodeFigure>
+    <EntryName_en>United Kingdom, Scottish Association for Marine Science (SAMS)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001036</FXY>
+    <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
+    <CodeFigure>826008</CodeFigure>
+    <EntryName_en>United Kingdom, University of East Anglia (UEA)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001036</FXY>
+    <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
+    <CodeFigure>826009</CodeFigure>
+    <EntryName_en>United Kingdom, Blue Ocean Monitoring (BOM)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>001036</FXY>
+    <ElementName_en>Agency in charge of operating the observing platform</ElementName_en>
+    <CodeFigure>826010-840000</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -11954,7 +11975,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008003</FXY>
     <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
-    <CodeFigure>11-62</CodeFigure>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Subsurface</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008003</FXY>
+    <ElementName_en>Vertical significance (satellite observations)</ElementName_en>
+    <CodeFigure>12-62</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -13500,7 +13528,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008025</FXY>
     <ElementName_en>Time difference qualifier</ElementName_en>
-    <CodeFigure>3-4</CodeFigure>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Local Meteorological Time Zone minus Universal Time Coordinated (LMTZ-UTC)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008025</FXY>
+    <ElementName_en>Time difference qualifier</ElementName_en>
+    <CodeFigure>4</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -13599,6 +13634,271 @@
     <FXY>008027</FXY>
     <ElementName_en>Type of sea-surface height anomaly measurement</ElementName_en>
     <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Time series</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Time averaged</EntryName_en>
+    <Note_en>(see Note 1)</Note_en>
+    <noteIDs>4</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Accumulated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Forecast</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Forecast time series</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Forecast time averaged</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>Forecast accumulated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Ensemble mean</EntryName_en>
+    <Note_en>(see Note 2)</Note_en>
+    <noteIDs>3</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Ensemble mean time series</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Ensemble mean time averaged</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Ensemble mean accumulated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Ensemble mean forecast</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Ensemble mean forecast time series</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Ensemble mean forecast time averaged</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Ensemble mean forecast accumulated</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>Analysis</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>Start of phenomenon</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>Radiosonde launch time</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>Start of orbit</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>End of orbit</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>Time of ascending node</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>Time of occurrence of wind shift</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>Monitoring period</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>Agreed time limit for report reception</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Nominal reporting time</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>Time of last known position</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>First guess</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>Start of scan</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>End of scan or time of ending</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>Time of occurrence</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>31-39</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>40</CodeFigure>
+    <EntryName_en>Attribution date (in LMTZ)</EntryName_en>
+    <Note_en>(see Note 4)</Note_en>
+    <noteIDs>103</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>41</CodeFigure>
+    <EntryName_en>Time period over which the daily measurement is made (in LMTZ)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>42</CodeFigure>
+    <EntryName_en>Time at which the daily and instantaneous measurement is made (in LMTZ)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>43-1022</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008028</FXY>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <CodeFigure>43-1023</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -15495,6 +15795,48 @@
     <ElementName_en>Sample scanning mode significance</ElementName_en>
     <CodeFigure>15</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Unknown</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Forecast (NWP)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Real-time observation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Historic probability (climatology)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>4-14</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008061</FXY>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -18499,7 +18841,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>013040</FXY>
     <ElementName_en>Surface flag</ElementName_en>
-    <CodeFigure>13-14</CodeFigure>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Unknown (explicitly processed, not missing)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>013040</FXY>
+    <ElementName_en>Surface flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -27638,6 +27987,41 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>1-12</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>sigma-0 noise out of limits (NOOL flag raised)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>sigma-0 slightly degraded (One or more observations degraded)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>sigma-0 usable (All observations usable)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021034</FXY>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>021066</FXY>
     <ElementName_en>Wave scatterometer product confidence data</ElementName_en>
     <CodeFigure>1</CodeFigure>
@@ -28872,6 +29256,41 @@
     <ElementName_en>ASCAT sigma-0 usability</ElementName_en>
     <CodeFigure>3</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Unknown</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Surface scattering</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Subsurface (volume) scattering</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>3-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021168</FXY>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -35434,6 +35853,139 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>1-11</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Correction of wet backscatter reference</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Correction of dry backscatter reference</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Soil moisture set to 100% (was between 100% and 125%)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Soil moisture set to 0% (was between -25% and 0%)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033057</FXY>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>1-10</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Soil moisture above 125 percent saturation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Soil moisture bellow -25 percent saturation</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Backscatter 40 not usable</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Model parameter not usable</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Not soil</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033058</FXY>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 threshold flag</ElementName_en>
+    <CodeFigure>1-11</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 threshold flag</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Slope mid-aft beam out of range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 threshold flag</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Slope mid-fore beam out of range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 threshold flag</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Soil moisture sensitivity below limit</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 threshold flag</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Fore and aft beam out of range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033059</FXY>
+    <ElementName_en>SCAT L2 threshold flag</ElementName_en>
+    <CodeFigure>All 16</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>033060</FXY>
     <ElementName_en>GqisFlagQual - individual IASI-System quality flag</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -39211,6 +39763,118 @@
     <FXY>033117</FXY>
     <ElementName_en>In bounds check</ElementName_en>
     <CodeFigure>All 17</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>1-4</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Solar straylight correction warning</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Solar straylight warning</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>Noisy detector sample warning</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Undersaturated detector sample warning</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Saturated detector sample warning</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Dust</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Cloudy</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Limb view</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Space view</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033120</FXY>
+    <ElementName_en>IRS spatial quality</ElementName_en>
+    <CodeFigure>All 14</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033121</FXY>
+    <ElementName_en>IRS detector quality</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Excluded detector sample</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033121</FXY>
+    <ElementName_en>IRS detector quality</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Noisy detector sample</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033121</FXY>
+    <ElementName_en>IRS detector quality</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Undersaturated detector sample</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033121</FXY>
+    <ElementName_en>IRS detector quality</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Saturated detector sample</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033121</FXY>
+    <ElementName_en>IRS detector quality</ElementName_en>
+    <CodeFigure>All 5</CodeFigure>
     <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>

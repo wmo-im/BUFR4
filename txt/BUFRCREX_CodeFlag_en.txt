@@ -88,7 +88,10 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 001036,Agency in charge of operating the observing platform,826004,"United Kingdom, Marine Scotland (MS)",,,,,Operational
 001036,Agency in charge of operating the observing platform,826005,"United Kingdom, Plymouth Marine Laboratory (PML)",,,,,Operational
 001036,Agency in charge of operating the observing platform,826006,"United Kingdom, British Antarctic Survey (BAS)",,,,,Operational
-001036,Agency in charge of operating the observing platform,826007-840000,Reserved,,,,,Operational
+001036,Agency in charge of operating the observing platform,826007,"United Kingdom, Scottish Association for Marine Science (SAMS)",,,,,Operational
+001036,Agency in charge of operating the observing platform,826008,"United Kingdom, University of East Anglia (UEA)",,,,,Operational
+001036,Agency in charge of operating the observing platform,826009,"United Kingdom, Blue Ocean Monitoring (BOM)",,,,,Operational
+001036,Agency in charge of operating the observing platform,826010-840000,Reserved,,,,,Operational
 001036,Agency in charge of operating the observing platform,840001,"USA, NOAA Atlantic Oceanographic and Meteorological Laboratory (AOML)",,,,,Operational
 001036,Agency in charge of operating the observing platform,840002,"USA, NOAA Pacific Marine Environmental Laboratory (PMEL)",,,,,Operational
 001036,Agency in charge of operating the observing platform,840003,"USA, Scripps Institution of Oceanography (SIO)",,,,,Operational
@@ -1699,7 +1702,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008003,Vertical significance (satellite observations),8,Low cloud,,,,,Operational
 008003,Vertical significance (satellite observations),9,Med cloud,,,,,Operational
 008003,Vertical significance (satellite observations),10,High cloud,,,,,Operational
-008003,Vertical significance (satellite observations),11-62,Reserved,,,,,Operational
+008003,Vertical significance (satellite observations),11,Subsurface,,,,,Operational
+008003,Vertical significance (satellite observations),12-62,Reserved,,,,,Operational
 008003,Vertical significance (satellite observations),63,Missing value,,,,,Operational
 008004,Phase of aircraft flight,0-1,Reserved,,,,,Operational
 008004,Phase of aircraft flight,2,Unsteady (UNS),,,,,Operational
@@ -1919,7 +1923,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008025,Time difference qualifier,0,Universal Time Coordinated (UTC) minus Local Standard Time (LST),,,,,Operational
 008025,Time difference qualifier,1,Local Standard Time,,,,,Operational
 008025,Time difference qualifier,2,Universal Time Coordinated (UTC) minus Satellite clock,,,,,Operational
-008025,Time difference qualifier,3-4,Reserved,,,,,Operational
+008025,Time difference qualifier,3,Local Meteorological Time Zone minus Universal Time Coordinated (LMTZ-UTC),,,,,Operational
+008025,Time difference qualifier,4,Reserved,,,,,Operational
 008025,Time difference qualifier,5,Time difference from edge of processing segment,,,,,Operational
 008025,Time difference qualifier,6-14,Reserved,,,,,Operational
 008025,Time difference qualifier,15,Missing value,,,,,Operational
@@ -1934,6 +1939,43 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008027,Type of sea-surface height anomaly measurement,1,Low pass filtered sea-surface height for noise reduction,,,,,Operational
 008027,Type of sea-surface height anomaly measurement,2-254,Reserved,,,,,Operational
 008027,Type of sea-surface height anomaly measurement,255,Missing value,,,,,Operational
+008028,Extended time significance,0,Reserved,,,,,Operational
+008028,Extended time significance,1,Time series,,,,,Operational
+008028,Extended time significance,2,Time averaged,,,(see Note 1),4,Operational
+008028,Extended time significance,3,Accumulated,,,,,Operational
+008028,Extended time significance,4,Forecast,,,,,Operational
+008028,Extended time significance,5,Forecast time series,,,,,Operational
+008028,Extended time significance,6,Forecast time averaged,,,,,Operational
+008028,Extended time significance,7,Forecast accumulated,,,,,Operational
+008028,Extended time significance,8,Ensemble mean,,,(see Note 2),3,Operational
+008028,Extended time significance,9,Ensemble mean time series,,,,,Operational
+008028,Extended time significance,10,Ensemble mean time averaged,,,,,Operational
+008028,Extended time significance,11,Ensemble mean accumulated,,,,,Operational
+008028,Extended time significance,12,Ensemble mean forecast,,,,,Operational
+008028,Extended time significance,13,Ensemble mean forecast time series,,,,,Operational
+008028,Extended time significance,14,Ensemble mean forecast time averaged,,,,,Operational
+008028,Extended time significance,15,Ensemble mean forecast accumulated,,,,,Operational
+008028,Extended time significance,16,Analysis,,,,,Operational
+008028,Extended time significance,17,Start of phenomenon,,,,,Operational
+008028,Extended time significance,18,Radiosonde launch time,,,,,Operational
+008028,Extended time significance,19,Start of orbit,,,,,Operational
+008028,Extended time significance,20,End of orbit,,,,,Operational
+008028,Extended time significance,21,Time of ascending node,,,,,Operational
+008028,Extended time significance,22,Time of occurrence of wind shift,,,,,Operational
+008028,Extended time significance,23,Monitoring period,,,,,Operational
+008028,Extended time significance,24,Agreed time limit for report reception,,,,,Operational
+008028,Extended time significance,25,Nominal reporting time,,,,,Operational
+008028,Extended time significance,26,Time of last known position,,,,,Operational
+008028,Extended time significance,27,First guess,,,,,Operational
+008028,Extended time significance,28,Start of scan,,,,,Operational
+008028,Extended time significance,29,End of scan or time of ending,,,,,Operational
+008028,Extended time significance,30,Time of occurrence,,,,,Operational
+008028,Extended time significance,31-39,Reserved,,,,,Operational
+008028,Extended time significance,40,Attribution date (in LMTZ),,,(see Note 4),103,Operational
+008028,Extended time significance,41,Time period over which the daily measurement is made (in LMTZ),,,,,Operational
+008028,Extended time significance,42,Time at which the daily and instantaneous measurement is made (in LMTZ),,,,,Operational
+008028,Extended time significance,43-1022,Reserved,,,,,Operational
+008028,Extended time significance,43-1023,Missing value,,,,,Operational
 008029,Surface type,0,Open ocean or semi-enclosed sea,,,,,Operational
 008029,Surface type,1,Enclosed sea or lake,,,,,Operational
 008029,Surface type,2,Continental ice,,,,,Operational
@@ -2202,6 +2244,12 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008060,Sample scanning mode significance,6,East/west,,,,,Operational
 008060,Sample scanning mode significance,7-14,Reserved,,,,,Operational
 008060,Sample scanning mode significance,15,Missing value,,,,,Operational
+008061,Surface flag source,0,Unknown,,,,,Operational
+008061,Surface flag source,1,Forecast (NWP),,,,,Operational
+008061,Surface flag source,2,Real-time observation,,,,,Operational
+008061,Surface flag source,3,Historic probability (climatology),,,,,Operational
+008061,Surface flag source,4-14,Reserved,,,,,Operational
+008061,Surface flag source,15,Missing,,,,,Operational
 008065,Sun-glint indicator,0,No sun-glint,,,,,Operational
 008065,Sun-glint indicator,1,Sun-glint,,,,,Operational
 008065,Sun-glint indicator,2,Reserved,,,,,Operational
@@ -2620,7 +2668,8 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 013040,Surface flag,10,Standing water,,,,,Operational
 013040,Surface flag,11,Snow,,,,,Operational
 013040,Surface flag,12,Frozen soil,,,,,Operational
-013040,Surface flag,13-14,Reserved,,,,,Operational
+013040,Surface flag,13,"Unknown (explicitly processed, not missing)",,,,,Operational
+013040,Surface flag,14,Reserved,,,,,Operational
 013040,Surface flag,15,Missing value,,,,,Operational
 013041,Pasquill-Gifford stability category,1,A,,,,,Operational
 013041,Pasquill-Gifford stability category,2,A - B,,,,,Operational
@@ -3904,6 +3953,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 021026,ASCAT sigma-0 usability,2,Far from nominal,,,,,Operational
 021026,ASCAT sigma-0 usability,3-6,Reserved,,,,,Operational
 021026,ASCAT sigma-0 usability,7,Missing,,,,,Operational
+021034,Backscatter flag,1-12,Reserved,,,,,Operational
+021034,Backscatter flag,13,sigma-0 noise out of limits (NOOL flag raised),,,,,Operational
+021034,Backscatter flag,14,sigma-0 slightly degraded (One or more observations degraded),,,,,Operational
+021034,Backscatter flag,15,sigma-0 usable (All observations usable),,,,,Operational
+021034,Backscatter flag,All 16,Missing value,,,,,Operational
 021066,Wave scatterometer product confidence data,1,Processing equipment not working,,,,,Operational
 021066,Wave scatterometer product confidence data,2,Equipment failed,,,,,Operational
 021066,Wave scatterometer product confidence data,3,PRF code changed during image generation,,,,,Operational
@@ -4081,6 +4135,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 021159,ASCAT sigma-0 usability,1,Usable,,,,,Operational
 021159,ASCAT sigma-0 usability,2,Bad,,,,,Operational
 021159,ASCAT sigma-0 usability,3,Missing value,,,,,Operational
+021168,Scattering mechanism,0,Unknown,,,,,Operational
+021168,Scattering mechanism,1,Surface scattering,,,,,Operational
+021168,Scattering mechanism,2,Subsurface (volume) scattering,,,,,Operational
+021168,Scattering mechanism,3-254,Reserved,,,,,Operational
+021168,Scattering mechanism,255,Missing,,,,,Operational
 021169,Ice presence indicator,0,No ice present,,,,,Operational
 021169,Ice presence indicator,1,Ice present,,,,,Operational
 021169,Ice presence indicator,2,Reserved,,,,,Operational
@@ -5015,6 +5074,25 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033056,Sigma-0 quality flag,22,Missing data at a given latitude-longitude for sea-ice flagging process for 2 or more days,,,,,Operational
 033056,Sigma-0 quality flag,23,Ice-ocean contamination,,,,,Operational
 033056,Sigma-0 quality flag,All 24,Missing value,,,,,Operational
+033057,SCAT L2 applied correction flag,1-11,Reserved,,,,,Operational
+033057,SCAT L2 applied correction flag,12,Correction of wet backscatter reference,,,,,Operational
+033057,SCAT L2 applied correction flag,13,Correction of dry backscatter reference,,,,,Operational
+033057,SCAT L2 applied correction flag,14,Soil moisture set to 100% (was between 100% and 125%),,,,,Operational
+033057,SCAT L2 applied correction flag,15,Soil moisture set to 0% (was between -25% and 0%),,,,,Operational
+033057,SCAT L2 applied correction flag,All 16,Missing value,,,,,Operational
+033058,SCAT L2 flag cause missing data,1-10,Reserved,,,,,Operational
+033058,SCAT L2 flag cause missing data,11,Soil moisture above 125 percent saturation,,,,,Operational
+033058,SCAT L2 flag cause missing data,12,Soil moisture bellow -25 percent saturation,,,,,Operational
+033058,SCAT L2 flag cause missing data,13,Backscatter 40 not usable,,,,,Operational
+033058,SCAT L2 flag cause missing data,14,Model parameter not usable,,,,,Operational
+033058,SCAT L2 flag cause missing data,15,Not soil,,,,,Operational
+033058,SCAT L2 flag cause missing data,All 16,Missing value,,,,,Operational
+033059,SCAT L2 threshold flag,1-11,Reserved,,,,,Operational
+033059,SCAT L2 threshold flag,12,Slope mid-aft beam out of range,,,,,Operational
+033059,SCAT L2 threshold flag,13,Slope mid-fore beam out of range,,,,,Operational
+033059,SCAT L2 threshold flag,14,Soil moisture sensitivity below limit,,,,,Operational
+033059,SCAT L2 threshold flag,15,Fore and aft beam out of range,,,,,Operational
+033059,SCAT L2 threshold flag,All 16,Missing value,,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,0,Good,,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,1,Bad,,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,2,Reserved,,,,,Operational
@@ -5552,6 +5630,22 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033117,In bounds check,15,CH4 profile,,,,,Operational
 033117,In bounds check,16,N2O profile,,,,,Operational
 033117,In bounds check,All 17,Missing,,,,,Operational
+033120,IRS spatial quality,1-4,Reserved,,,,,Operational
+033120,IRS spatial quality,5,Solar straylight correction warning,,,,,Operational
+033120,IRS spatial quality,6,Solar straylight warning,,,,,Operational
+033120,IRS spatial quality,7,Noisy detector sample warning,,,,,Operational
+033120,IRS spatial quality,8,Undersaturated detector sample warning,,,,,Operational
+033120,IRS spatial quality,9,Saturated detector sample warning,,,,,Operational
+033120,IRS spatial quality,10,Dust,,,,,Operational
+033120,IRS spatial quality,11,Cloudy,,,,,Operational
+033120,IRS spatial quality,12,Limb view,,,,,Operational
+033120,IRS spatial quality,13,Space view,,,,,Operational
+033120,IRS spatial quality,All 14,Missing,,,,,Operational
+033121,IRS detector quality,1,Excluded detector sample,,,,,Operational
+033121,IRS detector quality,2,Noisy detector sample,,,,,Operational
+033121,IRS detector quality,3,Undersaturated detector sample,,,,,Operational
+033121,IRS detector quality,4,Saturated detector sample,,,,,Operational
+033121,IRS detector quality,All 5,Missing,,,,,Operational
 035000,FM and regional code number,000-099,International FM Codes,,,,,Operational
 035000,FM and regional code number,100-199,RA I Codes,,,,,Operational
 035000,FM and regional code number,200-299,RA II Codes,,,,,Operational

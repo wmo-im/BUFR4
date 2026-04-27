@@ -23162,6 +23162,8 @@
     <Title_en>(Supplemental daily temperature and precipitation values for monthly climate report)</Title_en>
     <FXY2>301001</FXY2>
     <ElementName_en>WMO block and station numbers</ElementName_en>
+    <Note_en>(see Note X)</Note_en>
+    <noteIDs>81</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -23346,6 +23348,8 @@
     <Title_en>(Supplemental daily temperature and precipitation values with the time of occurrence for monthly climate report (DAYCLI))</Title_en>
     <FXY2>301150</FXY2>
     <ElementName_en>WIGOS identifier</ElementName_en>
+    <Note_en>(see Note X)</Note_en>
+    <noteIDs>81</noteIDs>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -28526,6 +28530,400 @@
     <Title_en>(BUFR template for surface observations from n-minute period)</Title_en>
     <FXY2>204000</FXY2>
     <ElementName_en>Add associated field</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>301150</FXY2>
+    <ElementName_en>WIGOS identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>301001</FXY2>
+    <ElementName_en>WMO block and station number</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>301021</FXY2>
+    <ElementName_en>Latitude/longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>007030</FXY2>
+    <ElementName_en>Height of station ground above mean sea level</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>008095</FXY2>
+    <ElementName_en>Siting and measurement quality classification for temperature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>008096</FXY2>
+    <ElementName_en>Siting and measurement quality classification for precipitation</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>008094</FXY2>
+    <ElementName_en>Method used to calculate the average daily temperature </ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>008028</FXY2>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <ElementDescription_en>= 40 Attribution date (in LMTZ)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>008025</FXY2>
+    <ElementName_en>Time difference qualifier</ElementName_en>
+    <ElementDescription_en>= 3 (LMTZ-UTC)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>026003</FXY2>
+    <ElementName_en>Time difference</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <ElementDescription_en>Attribution date (LMTZ)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
+    <FXY2>008028</FXY2>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <ElementDescription_en> = 42 Time at which the daily and instantaneous measurement is made (in LMTZ)</ElementDescription_en>
+    <Note_en>(see Note X)</Note_en>
+    <noteIDs>82</noteIDs>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
+    <FXY2>301012</FXY2>
+    <ElementName_en>Hour,minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
+    <FXY2>204008</FXY2>
+    <ElementName_en>Add associated ﬁeld</ElementName_en>
+    <ElementDescription_en>8 bits long</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
+    <FXY2>031021</FXY2>
+    <ElementName_en>Associated ﬁeld significance</ElementName_en>
+    <ElementDescription_en>= 5</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
+    <FXY2>013013</FXY2>
+    <ElementName_en>Total snow depth</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total snow depth</SubTitle_en>
+    <FXY2>204000</FXY2>
+    <ElementName_en>Add associated ﬁeld</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
+    <FXY2>008028</FXY2>
+    <ElementName_en>Extended time significance</ElementName_en>
+    <ElementDescription_en>= 41 Time period over which the daily measurement is made (in LMTZ)</ElementDescription_en>
+    <Note_en>(see Note X)</Note_en>
+    <noteIDs>83</noteIDs>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
+    <FXY2>301014</FXY2>
+    <ElementName_en>Time period</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
+    <FXY2>204008</FXY2>
+    <ElementName_en>Add associated ﬁeld</ElementName_en>
+    <ElementDescription_en>8 bits long</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
+    <FXY2>031021</FXY2>
+    <ElementName_en>Associated ﬁeld significance</ElementName_en>
+    <ElementDescription_en>= 5</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
+    <FXY2>013060</FXY2>
+    <ElementName_en>Total accumulated precipitation</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Total accumulated precipitation</SubTitle_en>
+    <FXY2>204000</FXY2>
+    <ElementName_en>Add associated ﬁeld</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
+    <FXY2>301014</FXY2>
+    <ElementName_en>Time period</ElementName_en>
+    <Note_en>(see Note X)</Note_en>
+    <noteIDs>83</noteIDs>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
+    <FXY2>204008</FXY2>
+    <ElementName_en>Add associated ﬁeld</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
+    <FXY2>031021</FXY2>
+    <ElementName_en>Associated ﬁeld significance</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
+    <FXY2>013012</FXY2>
+    <ElementName_en>Depth of fresh snow</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Depth of fresh snow</SubTitle_en>
+    <FXY2>204000</FXY2>
+    <ElementName_en>Add associated ﬁeld</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>007032</FXY2>
+    <ElementName_en>Height of sensor above local ground (or deck of marine platform)</ElementName_en>
+    <Note_en>(see Note X)</Note_en>
+    <noteIDs>84</noteIDs>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>106003</FXY2>
+    <ElementName_en>Replicate 6 descriptors 3 times</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>301014</FXY2>
+    <ElementName_en>Time period</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>2 - maximum; 3 - minimum; 4 - mean</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>204008</FXY2>
+    <ElementName_en>Add associated ﬁeld</ElementName_en>
+    <ElementDescription_en>8 bits long</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>031021</FXY2>
+    <ElementName_en>Associated ﬁeld significance</ElementName_en>
+    <ElementDescription_en>= 5</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>012101</FXY2>
+    <ElementName_en>Temperature/air temperature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>204000</FXY2>
+    <ElementName_en>Add associated ﬁeld</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>07</Category>
+    <CategoryOfSequences_en>Surface report sequences (land)</CategoryOfSequences_en>
+    <FXY1>307095</FXY1>
+    <Title_en>Daily temperatures and precipitations including snow for climate report (DAYCLI)</Title_en>
+    <SubTitle_en>Max, min, mean temperature</SubTitle_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
     <ElementDescription_en>Cancel</ElementDescription_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
@@ -39749,7 +40147,7 @@
     <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
     <FXY1>310006</FXY1>
     <FXY2>031001</FXY2>
-    <ElementName_en>Delayed descriptor replicat310102ion factor</ElementName_en>
+    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -60135,6 +60533,531 @@
     <Title_en>(EPS-SG IAS-1D New Generation Principal Component Scores sequence)</Title_en>
     <FXY2>040017</FXY2>
     <ElementName_en>Non-normalized principal component score</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>001033</FXY2>
+    <ElementName_en>Identification of originating centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>001034</FXY2>
+    <ElementName_en>Identification of originating/generating sub-centre</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>001007</FXY2>
+    <ElementName_en>Satellite identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>002019</FXY2>
+    <ElementName_en>Satellite instruments</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>025062</FXY2>
+    <ElementName_en>Database identification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>001124</FXY2>
+    <ElementName_en>Grid point identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>005001</FXY2>
+    <ElementName_en>Latitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>006001</FXY2>
+    <ElementName_en>Longitude (high accuracy)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>301012</FXY2>
+    <ElementName_en>Hour, minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>004007</FXY2>
+    <ElementName_en>Seconds within a minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>008075</FXY2>
+    <ElementName_en>Ascending/descending orbit qualifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>003029</FXY2>
+    <ElementName_en>Swath</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>008012</FXY2>
+    <ElementName_en>Land/sea qualifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310104</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Header)</Title_en>
+    <FXY2>033111</FXY2>
+    <ElementName_en>SCA quality flag</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>025060</FXY2>
+    <ElementName_en>Software identification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>025139</FXY2>
+    <ElementName_en>Processing level</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>102003</FXY2>
+    <ElementName_en>Replicate 2 descriptors 3 times</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>008085</FXY2>
+    <ElementName_en>Beam identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>002111</FXY2>
+    <ElementName_en>Radar incidence angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>109000</FXY2>
+    <ElementName_en>Delayed replication of 9 descriptors</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>031001</FXY2>
+    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>002099</FXY2>
+    <ElementName_en>Polarization</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>003035</FXY2>
+    <ElementName_en>Incidence angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>021062</FXY2>
+    <ElementName_en>Backscatter</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>033122</FXY2>
+    <ElementName_en>Estimated error in backscatter</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>021034</FXY2>
+    <ElementName_en>Backscatter flag</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>021037</FXY2>
+    <ElementName_en>Slope</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>033123</FXY2>
+    <ElementName_en>Estimated error in slope</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>021038</FXY2>
+    <ElementName_en>Curvature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>025039</FXY2>
+    <ElementName_en>Noise curvature</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310105</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Backscatter L1B)</Title_en>
+    <FXY2>002099</FXY2>
+    <ElementName_en>Polarization</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>025060</FXY2>
+    <ElementName_en>Software identification</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>025139</FXY2>
+    <ElementName_en>Processing level</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>040001</FXY2>
+    <ElementName_en>Surface soil moisture (ms)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>040002</FXY2>
+    <ElementName_en>Estimated error in surface soil moisture</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequencesgi (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>(Cancel)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>103000</FXY2>
+    <ElementName_en>Delayed replication of 3 descriptors</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>031001</FXY2>
+    <ElementName_en>Delayed descriptor replication factor</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>008003</FXY2>
+    <ElementName_en>Vertical significance</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>040001</FXY2>
+    <ElementName_en>Surface soil moisture (ms)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>040002</FXY2>
+    <ElementName_en>Estimated error in surface soil moisture</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>008003</FXY2>
+    <ElementName_en>Vertical significance</ElementName_en>
+    <ElementDescription_en>(Cancel)</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>021168</FXY2>
+    <ElementName_en>Scattering mechanism</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>021154</FXY2>
+    <ElementName_en>Soil moisture sensitivity</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>033057</FXY2>
+    <ElementName_en>SCAT L2 applied correction flag</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>033058</FXY2>
+    <ElementName_en>SCAT L2 flag cause missing data</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>033059</FXY2>
+    <ElementName_en>SCAT L2 threshold flag</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>008061</FXY2>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>013040</FXY2>
+    <ElementName_en>Surface flag</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>008061</FXY2>
+    <ElementName_en>Surface flag source</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>013040</FXY2>
+    <ElementName_en>Surface flag</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>020065</FXY2>
+    <ElementName_en>Snow cover</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>040008</FXY2>
+    <ElementName_en>Frozen land surface fraction</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>040009</FXY2>
+    <ElementName_en>Inundation and wetland fraction</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>040010</FXY2>
+    <ElementName_en>Topographic complexity</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>10</Category>
+    <CategoryOfSequences_en>Vertical sounding sequences (satellite data)</CategoryOfSequences_en>
+    <FXY1>310106</FXY1>
+    <Title_en>(ASCAT Soil Moisture EPS-SG Soil Moisture L2)</Title_en>
+    <FXY2>021167</FXY2>
+    <ElementName_en>Subsurface scattering probability</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>
@@ -82441,6 +83364,452 @@
     <Title_en>(Satellite radar observations)</Title_en>
     <FXY2>033003</FXY2>
     <ElementName_en>Quality information</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>301150</FXY2>
+    <ElementName_en>WIGOS identifier</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>001019</FXY2>
+    <ElementName_en>Long station or site name</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>301022</FXY2>
+    <ElementName_en>Latitude/longitude (high accuracy), height of station</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>301011</FXY2>
+    <ElementName_en>Year, month, day</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>301012</FXY2>
+    <ElementName_en>Hour, minute</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201138</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>202131</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>004006</FXY2>
+    <ElementName_en>Second</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>207001</FXY2>
+    <ElementName_en>Increase scale, reference value and data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>004026</FXY2>
+    <ElementName_en>Time period or displacement</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>207000</FXY2>
+    <ElementName_en>Increase scale, reference value and data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201145</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>202133</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>002121</FXY2>
+    <ElementName_en>Mean frequency</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>002125</FXY2>
+    <ElementName_en>Pulse repetition frequency</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201133</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021022</FXY2>
+    <ElementName_en>Range bin offset</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021023</FXY2>
+    <ElementName_en>Range bin size</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>025003</FXY2>
+    <ElementName_en>Number of integrated pulses</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021101</FXY2>
+    <ElementName_en>Number of vector ambiguities</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021050</FXY2>
+    <ElementName_en>Time for echo to fall to half of peak</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201132</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>202129</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021030</FXY2>
+    <ElementName_en>Signal to noise ratio</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>202000</FXY2>
+    <ElementName_en>Change scale</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>2 = Maximum</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021049</FXY2>
+    <ElementName_en>Amplitude of echo (digitizer counts)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>207001</FXY2>
+    <ElementName_en>Increase scale, reference value and data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>4 = Mean</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021014</FXY2>
+    <ElementName_en>Doppler mean velocity (radial)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>10 = Standard deviation</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021014</FXY2>
+    <ElementName_en>Doppler mean velocity (radial)</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>207000</FXY2>
+    <ElementName_en>Increase scale, reference value and data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>008023</FXY2>
+    <ElementName_en>First-order statistics</ElementName_en>
+    <ElementDescription_en>Missing = Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021190</FXY2>
+    <ElementName_en>Ambiguity index</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>005021</FXY2>
+    <ElementName_en>Bearing or azimuth</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>010080</FXY2>
+    <ElementName_en>Viewing zenith angle</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201140</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>006021</FXY2>
+    <ElementName_en>Distance</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>201000</FXY2>
+    <ElementName_en>Change data width</ElementName_en>
+    <ElementDescription_en>Cancel</ElementDescription_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>007002</FXY2>
+    <ElementName_en>Height or altitude</ElementName_en>
+    <Status>Operational</Status>
+  </BUFR_TableD_en>
+  <BUFR_TableD_en>
+    <Category>21</Category>
+    <CategoryOfSequences_en>Radar report sequences</CategoryOfSequences_en>
+    <FXY1>321040</FXY1>
+    <Title_en>(Meteor radar high-altitude winds)</Title_en>
+    <FXY2>021028</FXY2>
+    <ElementName_en>Differential phase</ElementName_en>
     <Status>Operational</Status>
   </BUFR_TableD_en>
   <BUFR_TableD_en>

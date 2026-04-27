@@ -347,6 +347,25 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033056,Sigma-0 quality flag,22,Missing data at a given latitude-longitude for sea-ice flagging process for 2 or more days,,,,,Operational
 033056,Sigma-0 quality flag,23,Ice-ocean contamination,,,,,Operational
 033056,Sigma-0 quality flag,All 24,Missing value,,,,,Operational
+033057,SCAT L2 applied correction flag,1-11,Reserved,,,,,Operational
+033057,SCAT L2 applied correction flag,12,Correction of wet backscatter reference,,,,,Operational
+033057,SCAT L2 applied correction flag,13,Correction of dry backscatter reference,,,,,Operational
+033057,SCAT L2 applied correction flag,14,Soil moisture set to 100% (was between 100% and 125%),,,,,Operational
+033057,SCAT L2 applied correction flag,15,Soil moisture set to 0% (was between -25% and 0%),,,,,Operational
+033057,SCAT L2 applied correction flag,All 16,Missing value,,,,,Operational
+033058,SCAT L2 flag cause missing data,1-10,Reserved,,,,,Operational
+033058,SCAT L2 flag cause missing data,11,Soil moisture above 125 percent saturation,,,,,Operational
+033058,SCAT L2 flag cause missing data,12,Soil moisture bellow -25 percent saturation,,,,,Operational
+033058,SCAT L2 flag cause missing data,13,Backscatter 40 not usable,,,,,Operational
+033058,SCAT L2 flag cause missing data,14,Model parameter not usable,,,,,Operational
+033058,SCAT L2 flag cause missing data,15,Not soil,,,,,Operational
+033058,SCAT L2 flag cause missing data,All 16,Missing value,,,,,Operational
+033059,SCAT L2 threshold flag,1-11,Reserved,,,,,Operational
+033059,SCAT L2 threshold flag,12,Slope mid-aft beam out of range,,,,,Operational
+033059,SCAT L2 threshold flag,13,Slope mid-fore beam out of range,,,,,Operational
+033059,SCAT L2 threshold flag,14,Soil moisture sensitivity below limit,,,,,Operational
+033059,SCAT L2 threshold flag,15,Fore and aft beam out of range,,,,,Operational
+033059,SCAT L2 threshold flag,All 16,Missing value,,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,0,Good,,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,1,Bad,,,,,Operational
 033060,GqisFlagQual - individual IASI-System quality flag,2,Reserved,,,,,Operational
@@ -884,3 +903,19 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033117,In bounds check,15,CH4 profile,,,,,Operational
 033117,In bounds check,16,N2O profile,,,,,Operational
 033117,In bounds check,All 17,Missing,,,,,Operational
+033120,IRS spatial quality,1-4,Reserved,,,,,Operational
+033120,IRS spatial quality,5,Solar straylight correction warning,,,,,Operational
+033120,IRS spatial quality,6,Solar straylight warning,,,,,Operational
+033120,IRS spatial quality,7,Noisy detector sample warning,,,,,Operational
+033120,IRS spatial quality,8,Undersaturated detector sample warning,,,,,Operational
+033120,IRS spatial quality,9,Saturated detector sample warning,,,,,Operational
+033120,IRS spatial quality,10,Dust,,,,,Operational
+033120,IRS spatial quality,11,Cloudy,,,,,Operational
+033120,IRS spatial quality,12,Limb view,,,,,Operational
+033120,IRS spatial quality,13,Space view,,,,,Operational
+033120,IRS spatial quality,All 14,Missing,,,,,Operational
+033121,IRS detector quality,1,Excluded detector sample,,,,,Operational
+033121,IRS detector quality,2,Noisy detector sample,,,,,Operational
+033121,IRS detector quality,3,Undersaturated detector sample,,,,,Operational
+033121,IRS detector quality,4,Saturated detector sample,,,,,Operational
+033121,IRS detector quality,All 5,Missing,,,,,Operational

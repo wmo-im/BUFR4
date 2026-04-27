@@ -4,6 +4,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 021026,ASCAT sigma-0 usability,2,Far from nominal,,,,,Operational
 021026,ASCAT sigma-0 usability,3-6,Reserved,,,,,Operational
 021026,ASCAT sigma-0 usability,7,Missing,,,,,Operational
+021034,Backscatter flag,1-12,Reserved,,,,,Operational
+021034,Backscatter flag,13,sigma-0 noise out of limits (NOOL flag raised),,,,,Operational
+021034,Backscatter flag,14,sigma-0 slightly degraded (One or more observations degraded),,,,,Operational
+021034,Backscatter flag,15,sigma-0 usable (All observations usable),,,,,Operational
+021034,Backscatter flag,All 16,Missing value,,,,,Operational
 021066,Wave scatterometer product confidence data,1,Processing equipment not working,,,,,Operational
 021066,Wave scatterometer product confidence data,2,Equipment failed,,,,,Operational
 021066,Wave scatterometer product confidence data,3,PRF code changed during image generation,,,,,Operational
@@ -181,6 +186,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 021159,ASCAT sigma-0 usability,1,Usable,,,,,Operational
 021159,ASCAT sigma-0 usability,2,Bad,,,,,Operational
 021159,ASCAT sigma-0 usability,3,Missing value,,,,,Operational
+021168,Scattering mechanism,0,Unknown,,,,,Operational
+021168,Scattering mechanism,1,Surface scattering,,,,,Operational
+021168,Scattering mechanism,2,Subsurface (volume) scattering,,,,,Operational
+021168,Scattering mechanism,3-254,Reserved,,,,,Operational
+021168,Scattering mechanism,255,Missing,,,,,Operational
 021169,Ice presence indicator,0,No ice present,,,,,Operational
 021169,Ice presence indicator,1,Ice present,,,,,Operational
 021169,Ice presence indicator,2,Reserved,,,,,Operational
