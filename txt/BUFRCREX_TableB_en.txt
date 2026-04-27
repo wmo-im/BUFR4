@@ -122,6 +122,8 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 01,Identification,001157,Balloon registration number or other identification,CCITT IA5,0,0,80,,,,,,Operational
 01,Identification,001158,Type of balloon envelope,Code table,0,0,4,,,,,,Operational
 01,Identification,001159,Typical size of balloon envelope,m,1,0,12,,,,(see Note 18),195,Operational
+01,Identification,001192,TESTING validation,m,1,0,12,,,,(see Note 18),195,TEST
+
 02,Instrumentation,002001,Type of station,Code table,0,0,2,Code table,0,1,,,Operational
 02,Instrumentation,002002,Type of instrumentation for wind measurement,Flag table,0,0,4,Flag table,0,2,,,Operational
 02,Instrumentation,002003,Type of measuring equipment used,Code table,0,0,4,Code table,0,2,,,Operational
