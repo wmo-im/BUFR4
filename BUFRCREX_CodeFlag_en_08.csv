@@ -513,6 +513,25 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008045,Character of particulate matter,4-254,Reserved,,,,,Operational
 008045,Character of particulate matter,255,Missing value,,,,,Operational
 008046,Atmospheric chemical or physical constituent type,,,,,(See Common Code table C–14 in Part C/c.),,Operational
+008047,Aerosol mode ,0,Fine mode,,,,,Operational
+008047,Aerosol mode ,1,Coarse mode,,,,,Operational
+008047,Aerosol mode ,2,Total mode,,,,,Operational
+008047,Aerosol mode ,3-254,Reserved,,,,,Operational
+008047,Aerosol mode ,255,Missingi value,,,,,Operational
+008047,Aerosol type ,0,Reserved,,,,,Operational
+008047,Aerosol type ,1,Coarse oceanic,,,,,Operational
+008047,Aerosol type ,2,Coarse continental clean,,,,,Operational
+008047,Aerosol type ,3,Coarse continental polluted,,,,,Operational
+008047,Aerosol type ,4,Coarse dust,,,,,Operational
+008047,Aerosol type ,5,Coarse smoke,,,,,Operational
+008047,Aerosol type ,6,Coarse volcanic,,,,,Operational
+008047,Aerosol type ,7,Fine mode continental,,,,,Operational
+008047,Aerosol type ,8,Fine mode oceanic,,,,,Operational
+008047,Aerosol type ,9,Fine mode smoke,,,,,Operational
+008047,Aerosol type ,10-14,Reserved,,,,,Operational
+008047,Aerosol type ,15,Undefined,,,,,Operational
+008047,Aerosol type ,16-254,Reserved,,,,,Operational
+008047,Aerosol type ,255,Missing value,,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,0,Reserved,,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,1,Pressure,,,,,Operational
 008050,Qualifier for number of missing values in calculation of statistic,2,Temperature,,,,,Operational
