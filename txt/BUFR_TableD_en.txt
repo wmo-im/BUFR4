@@ -7089,11 +7089,11 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 12,Single level report sequences (satellite data),312036,(WindRAD data),,301013,"Hour, minute, second",,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,301023,Latitude/longitude (coarse accuracy),,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,008025,Time difference qualifier,,,,Operational
-12,Single level report sequences (satellite data),312036,(WindRAD data),,201136,Change data width,,,,Operational
+...312036,(WindRAD data),,201136,Change data width,Increase width by 8 bits,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,004006,Second,,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,201000,Change data width,Cancel,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,312037,WindRAD WVC information,,,,Operational
-12,Single level report sequences (satellite data),312036,(WindRAD data),,312032,Rain flagging information,,,,Operational
+12,Single level report sequences (satellite data),312036,(WindRAD data),,312038,Rain flagging information,,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,101004,Replication of 1 descriptor 4 times,,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,312030,"Wind, formal uncertainty, likelihood",,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,101002,Replication of 1 descriptor 2 times,,,,Operational
@@ -7102,7 +7102,7 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 12,Single level report sequences (satellite data),312036,(WindRAD data),,031001,Delayed descriptor replication factor,,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,008076,Type of band,,,,Operational
 12,Single level report sequences (satellite data),312036,(WindRAD data),,301023,Latitude/longitude (coarse accuracy),,,,Operational
-12,Single level report sequences (satellite data),312036,(WindRAD data),,321028,"Radar specification, normalized radar cross-section, Kp variance coefficient",,,,Operational
+12,Single level report sequences (satellite data),312036,(WindRAD data),,321032,"Radar specification, normalized radar cross-section (extended range), Kp variance coefficient",,,,Operational
 12,Single level report sequences (satellite data),312037,(WindRAD WVC information),,201129,Change data width,Increase width by 1 bit,,,Operational
 12,Single level report sequences (satellite data),312037,(WindRAD WVC information),,005034,Along-track row number,,,,Operational
 12,Single level report sequences (satellite data),312037,(WindRAD WVC information),,006034,Cross-track cell number,,,,Operational
@@ -7115,6 +7115,10 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 12,Single level report sequences (satellite data),312037,(WindRAD WVC information),,201130,Change data width,Increase width by 2 bits,,,Operational
 12,Single level report sequences (satellite data),312037,(WindRAD WVC information),,021103,Total number of sigma-0 measurements,,,,Operational
 12,Single level report sequences (satellite data),312037,(WindRAD WVC information),,201000,Change data width,Cancel,,,Operational
+12,Single level report sequences (satellite data),312038,(Rain flagging information),,021120,Probability of rain,,,,Operational
+12,Single level report sequences (satellite data),312038,(Rain flagging information),,021126,Scatterometer rain flag,,,,Operational
+12,Single level report sequences (satellite data),312038,(Rain flagging information),,013055,Intensity of precipitation,,,,Operational
+12,Single level report sequences (satellite data),312038,(Rain flagging information),,021122,Attenuation correction on sigma-0 (from TB),,,,Operational
 12,Single level report sequences (satellite data),312041,(Altitude),,201141,Change data width,28 bits long,,,Operational
 12,Single level report sequences (satellite data),312041,(Altitude),,202130,Change scale,Scale: 2,,,Operational
 12,Single level report sequences (satellite data),312041,(Altitude),,007001,Height of station,,,,Operational
@@ -8861,6 +8865,24 @@ Category,CategoryOfSequences_en,FXY1,Title_en,SubTitle_en,FXY2,ElementName_en,El
 21,Radar report sequences,321031,(Satellite radar observations),,021009,Vertical Doppler velocity,,,,Operational
 21,Radar report sequences,321031,(Satellite radar observations),,021010,Uncertainty in vertical Doppler velocity,,,,Operational
 21,Radar report sequences,321031,(Satellite radar observations),,033003,Quality information,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,021118,Attenuation correction on sigma-0,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,202129,Change scale,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,201132,Change data width,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,002112,Radar look angle,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,201000,Change data width,Cancel,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,201131,Change data width,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,002111,Radar incidence angle,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,201000,Change data width,Cancel,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,202000,Change scale,Cancel,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,002104,Antenna polarization,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,021127,Normalized radar cross-section (extended range),,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,021106,Kp variance coefficient (alpha),,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,021107,Kp variance coefficient (beta),,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,021114,Kp variance coefficient (gamma),,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,021124,Sigma-0 quality,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,021125,Sigma-0 acquisition mode,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,008102,Land or ice surface type,,,,Operational
+21,Radar report sequences,321032,"(Radar specification, normalized radar cross-section (extended range), Kp variance coefficient)",,021117,Sigma-0 variance quality control,,,,Operational
 21,Radar report sequences,321040,(Meteor radar high-altitude winds),,301150,WIGOS identifier,,,,Operational
 21,Radar report sequences,321040,(Meteor radar high-altitude winds),,001019,Long station or site name,,,,Operational
 21,Radar report sequences,321040,(Meteor radar high-altitude winds),,301022,"Latitude/longitude (high accuracy), height of station",,,,Operational
