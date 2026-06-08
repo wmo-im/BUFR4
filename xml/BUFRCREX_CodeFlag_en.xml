@@ -17747,6 +17747,55 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Land or ice surface type</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Land is present</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Land or ice surface type</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Surface ice map indicates ice is present</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Land or ice surface type</ElementName_en>
+    <CodeFigure>3-10</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Land or ice surface type</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Ice map data not available</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Land or ice surface type</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Attenuation map data not available</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Land or ice surface type</ElementName_en>
+    <CodeFigure>13-16</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Land or ice surface type</ElementName_en>
+    <CodeFigure>All 17</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>010063</FXY>
     <ElementName_en>Characteristic of pressure tendency</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -28622,6 +28671,76 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Not enough good sigma-0 available for wind retrieval</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Poor azimuth diversity among sigma-0 for wind retrieval</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>3-7</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Some portion of wind vector cell is over land</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Some portion of wind vector cell is over ice</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Wind retrieval not performed for wind vector cell</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Reported wind speed is greater than 30 m s-1</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Reported wind speed is less than or equal to 3 m s-1</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>13-16</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021108</FXY>
+    <ElementName_en>Wind vector cell quality</ElementName_en>
+    <CodeFigure>All 17</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>021109</FXY>
     <ElementName_en>SEAWINDS wind vector cell quality</ElementName_en>
     <CodeFigure>1</CodeFigure>
@@ -29003,6 +29122,209 @@
     <FXY>021119</FXY>
     <ElementName_en>Wind scatterometer geophysical model function</ElementName_en>
     <CodeFigure>63</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Sigma-0 measurement is not usable</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Signal to noise ratio is low</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Sigma-0 is negative</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Sigma-0 is outside of acceptable range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Scatterometer pulse quality is not acceptable</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Sigma-0 cell location algorithm does not converge</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>Frequency shift lies beyond the range of the x factor table</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Spacecraft temperature is beyond calibration coefficient range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>No applicable altitude records were found for this sigma-0</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Interpolated ephemeris data are not acceptable for this sigma-0</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>11-16</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021124</FXY>
+    <ElementName_en>Sigma-0 quality</ElementName_en>
+    <CodeFigure>All 17</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Calibration/measurement pulse flag (1)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Calibration/measurement pulse flag (2)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Outer antenna beam</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Sigma-0 cell is aft of spacecraft</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Current mode (1)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Current mode (2)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>Effective gate width - slice resolution (1)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Effective gate width - slice resolution (2)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Effective gate width - slice resolution (3)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Low-resolution mode - whole pulse data</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>Scatterometer electronic subsystem B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>Alternate spin rate - 19.8 rpm</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Receiver protection on</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Slices per composite flag (1)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Slices per composite flag (2)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>Slices per composite flag (3)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021125</FXY>
+    <ElementName_en>Sigma-0 acquisition mode</ElementName_en>
+    <CodeFigure>All 17</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
