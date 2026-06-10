@@ -299,7 +299,6 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 02,Instrumentation,002189,Capability to discriminate lightning strikes,Flag table,0,0,12,Flag table,0,4,,,Operational
 02,Instrumentation,002190,Lagrangian drifter submergence (% time submerged),%,0,0,7,%,0,3,,,Operational
 02,Instrumentation,002191,Geopotential height calculation,Code table,0,0,4,Code table,0,2,,,Operational
-02,Instrumentation,002192,Weather conditions,Code table,0,0,6,,,,,,Operational
 03,Instrumentation,003001,Surface station type,Code table,0,0,5,Code table,0,2,,,Operational
 03,Instrumentation,003003,Thermometer/hygrometer housing,Code table,0,0,4,Code table,0,2,,,Operational
 03,Instrumentation,003004,Type of screen/shelter/radiation shield,Code table,0,0,4,Code table,0,2,,,Operational
@@ -1135,6 +1134,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 20,Observed phenomena,020141,Lightning energy,J,19,0,30,J,0,0,,,Operational
 20,Observed phenomena,020142,Lightning detection efficiency,%,0,0,7,%,0,0,,,Operational
 20,Observed phenomena,020143,Liquid cloud,Code table,0,0,2,Code table,0,1,,,Operational
+20,Observed phenomena,002144,Weather conditions,Code table,0,0,6,,,,,,Operational
 21,Radar data,021001,Horizontal reflectivity,dB,0,-64,7,dB,0,3,,,Operational
 21,Radar data,021002,Vertical reflectivity,dB,0,-64,7,dB,0,3,,,Operational
 21,Radar data,021003,Differential reflectivity,dB,1,-5,7,dB,1,3,,,Operational
