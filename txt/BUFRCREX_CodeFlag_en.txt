@@ -4592,7 +4592,11 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 025124,MWR-L2-processing flag,3,Missing value,,,,,Operational
 025139,Processing level,0,L1B,,,,,Operational
 025139,Processing level,1,L2A,,,,,Operational
-025139,Processing level,2-30,Reserved,,,,,Operational
+025139,Processing level,2,L1R,,,,,Operational
+025139,Processing level,3,L1,,,,,Operational
+025139,Processing level,4,L1C,,,,,Operational
+025139,Processing level,5,L2,,,,,Operational
+025139,Processing level,6-30,Reserved,,,,,Operational
 025139,Processing level,31,Missing value,,,,,Operational
 025150,Method of tropical cyclone intensity analysis using satellite data,1,The Dvorak's VIS (VISual imagery) intensity analysis,,,,,Operational
 025150,Method of tropical cyclone intensity analysis using satellite data,2,The Dvorak's EIR (Enhanced InfraRed imagery) intensity analysis,,,,,Operational
@@ -5646,6 +5650,15 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 033121,IRS detector quality,3,Undersaturated detector sample,,,,,Operational
 033121,IRS detector quality,4,Saturated detector sample,,,,,Operational
 033121,IRS detector quality,All 5,Missing,,,,,Operational
+033124,AMSR3 quality flag,1,Count value decreasing occurred,,,,,Operational
+033124,AMSR3 quality flag,2,Resampling quality Caution,,,,,Operational
+033124,AMSR3 quality flag,3,Resampling quality abnormal,,,,,Operational
+033124,AMSR3 quality flag,4,Reserved,,,,,Operational
+033124,AMSR3 quality flag,5,Brightness temperature abnormal,,,,,Operational
+033124,AMSR3 quality flag,6,Geometric information abnormal,,,,,Operational
+033124,AMSR3 quality flag,7,RFI occurred,,,,,Operational
+033124,AMSR3 quality flag,8,RFI possible,,,,,Operational
+033124,AMSR3 quality flag,All 9,Missing,,,,,Operational
 035000,FM and regional code number,000-099,International FM Codes,,,,,Operational
 035000,FM and regional code number,100-199,RA I Codes,,,,,Operational
 035000,FM and regional code number,200-299,RA II Codes,,,,,Operational
