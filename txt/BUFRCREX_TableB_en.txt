@@ -1204,7 +1204,7 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021105,Normalized radar cross-section,dB,2,-10000,14,dB,2,5,,,Operational
 21,Radar data,021106,Kp variance coefficient (alpha),Numeric,3,0,14,Numeric,3,5,,,Operational
 21,Radar data,021107,Kp variance coefficient (beta),Numeric,8,0,16,Numeric,8,5,,,Operational
-21,Radar data,021108,Wind vector cell quality flag,Flag table,0,0,17,Flag table,0,6,,,Operational
+21,Radar data,021108,Wind vector cell quality flag,Flag table,0,0,17,,,,,,Operational
 21,Radar data,021109,SEAWINDS wind vector cell quality,Flag table,0,0,17,Flag table,0,6,,,Operational
 21,Radar data,021110,Number of inner-beam sigma-0 (forward of satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
 21,Radar data,021111,Number of outer-beam sigma-0 (forward of satellite),Numeric,0,0,6,Numeric,0,2,,,Operational
@@ -1220,10 +1220,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 21,Radar data,021121,SEAWINDS NOF rain index,Numeric,0,0,8,Numeric,0,3,,,Operational
 21,Radar data,021122,Attenuation correction on sigma-0 (from tB),dB,2,-10000,14,dB,2,5,,,Operational
 21,Radar data,021123,SEAWINDS normalized radar cross-section,dB,2,-30000,15,dB,2,5,,,Operational
-21,Radar data,021124,Sigma-0 quality,Flag table,0,0,17,Flag table,0,6,,,Operational
-21,Radar data,021125,Sigma-0 acquisition mode,Flag table,0,0,17,Flag table,0,6,,,Operational
-21,Radar data,021126,Scatterometer rain index,Numeric,0,0,8,Numeric,0,3,,,Operational
-21,Radar data,021127,Normalized radar cross-section (extended range),dB,2,-30000,15,dB,2,5,,,Operational
+21,Radar data,021124,Sigma-0 quality,Flag table,0,0,17,,,,,,Operational
+21,Radar data,021125,Sigma-0 acquisition mode,Flag table,0,0,17,,,,,,Operational
+21,Radar data,021126,Scatterometer rain index,Numeric,0,0,8,,,,,,Operational
+21,Radar data,021127,Normalized radar cross-section (extended range),dB,2,-30000,15,,,,,,Operational
 21,Radar data,021128,Number of valid points per second used to derive previous parameters,Numeric,0,0,8,Numeric,0,3,,,Operational
 21,Radar data,021130,Spectrum total energy,Numeric,6,0,28,Numeric,6,9,,,Operational
 21,Radar data,021131,Spectrum max energy,Numeric,6,0,28,Numeric,6,9,,,Operational
