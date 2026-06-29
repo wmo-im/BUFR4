@@ -99,6 +99,16 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 021076,Representation of intensities,2,Logarithmic (base 10),,,,,Operational
 021076,Representation of intensities,3-6,Reserved,,,,,Operational
 021076,Representation of intensities,7,Missing value,,,,,Operational
+021108,Wind vector cell quality flag,1,Not enough good sigma-0 available for wind retrieval,,,,,Operational
+021108,Wind vector cell quality flag,2,Poor azimuth diversity among sigma-0 for wind retrieval,,,,,Operational
+021108,Wind vector cell quality flag,3-7,Reserved,,,,,Operational
+021108,Wind vector cell quality flag,8,Some portion of wind vector cell is over land,,,,,Operational
+021108,Wind vector cell quality flag,9,Some portion of wind vector cell is over ice,,,,,Operational
+021108,Wind vector cell quality flag,10,Wind retrieval not performed for wind vector cell,,,,,Operational
+021108,Wind vector cell quality flag,11,Reported wind speed is greater than 30 m s-1,,,,,Operational
+021108,Wind vector cell quality flag,12,Reported wind speed is less than or equal to 3 m s-1,,,,,Operational
+021108,Wind vector cell quality flag,13-16,Reserved,,,,,Operational
+021108,Wind vector cell quality flag,All 17,Missing value,,,,,Operational
 021109,SEAWINDS wind vector cell quality,1,Not enough good sigma-0 available for wind retrieval,,,,,Operational
 021109,SEAWINDS wind vector cell quality,2,Poor azimuth diversity among sigma-0 for wind retrieval,,,,,Operational
 021109,SEAWINDS wind vector cell quality,3-7,Reserved,,,,,Operational
@@ -154,6 +164,24 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 021119,Wind scatterometer geophysical model function,35,CMOD5,,,,,Operational
 021119,Wind scatterometer geophysical model function,36-62,Reserved,,,,,Operational
 021119,Wind scatterometer geophysical model function,63,Missing value,,,,,Operational
+021124,Sigma-0 quality,1,Sigma-0 measurement is not usable,,,,,Operational
+021124,Sigma-0 quality,2,Signal to noise ratio is low,,,,,Operational
+021124,Sigma-0 quality,3,Sigma-0 is negative,,,,,Operational
+021124,Sigma-0 quality,4,Sigma-0 is outside of acceptable range,,,,,Operational
+021124,Sigma-0 quality,5,Scatterometer pulse quality is not acceptable,,,,,Operational
+021124,Sigma-0 quality,6,Sigma-0 cell location algorithm does not converge,,,,,Operational
+021124,Sigma-0 quality,7,Frequency shift outside calibration range,,,,,Operational
+021124,Sigma-0 quality,8,Spacecraft temperature is beyond calibration coefficient range,,,,,Operational
+021124,Sigma-0 quality,9,No applicable altitude records were found for this sigma-0,,,,,Operational
+021124,Sigma-0 quality,10,Interpolated ephemeris data are not acceptable for this sigma-0,,,,,Operational
+021124,Sigma-0 quality,11-16,Reserved,,,,,Operational
+021124,Sigma-0 quality,All 17,Missing value,,,,,Operational
+021125,Sigma-0 acquisition mode,1,Calibration/measurement pulse flag (1),,,,,Operational
+021125,Sigma-0 acquisition mode,2,Calibration/measurement pulse flag (2),,,,,Operational
+021125,Sigma-0 acquisition mode,3,Outer antenna beam,,,,,Operational
+021125,Sigma-0 acquisition mode,4,Sigma-0 cell is aft of spacecraft,,,,,Operational
+021125,Sigma-0 acquisition mode,5-16,Reserved,,,,,Operational
+021125,Sigma-0 acquisition mode,All 17,Missing value,,,,,Operational
 021144,Altimeter rain flag,1,Rain,,,,,Operational
 021144,Altimeter rain flag,All 2,Missing value,,,,,Operational
 021148,Trailing edge variation flag,1,Non short scale variation,,,,,Operational
