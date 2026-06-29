@@ -550,13 +550,10 @@ ClassNo,ClassName_en,FXY,ElementName_en,BUFR_Unit,BUFR_Scale,BUFR_ReferenceValue
 08,Significance qualifiers,008099,Sensing direction,Code table,0,0,4,Code table,0,2,,,Operational
 08,Significance qualifiers,008100,Type of following observation value,Code table,0,0,8,,,,,,Operational
 08,Significance qualifiers,008101,Phase of balloon flight,Code table,0,0,4,,,,,,Operational
-<<<<<<< HEAD
-08,Significance qualifiers,008105,Land or ice surface type,Flag table,0,0,17,,,,,,Operational
-=======
 08,Significance qualifiers,008102,Siting and measurement quality classification for humidity,Code table,0,0,8,,,,,,Operational
 08,Significance qualifiers,008103,Siting and measurement quality classification for wind,Code table,0,0,8,,,,,,Operational
 08,Significance qualifiers,008104,Siting and measurement quality classification for radiation,Code table,0,0,8,,,,,,Operational
->>>>>>> d779c39ad5cdb19ce4ad96684d1f3df0189d32a2
+08,Significance qualifiers,008105,Land or ice surface type,Flag table,0,0,17,,,,,,Operational
 10,Non-coordinate location (vertical),010001,Height of land surface,m,0,-400,15,m,0,5,,,Operational
 10,Non-coordinate location (vertical),010002,Height,m,-1,-40,16,m,-1,5,,,Operational
 10,Non-coordinate location (vertical),010003,Geopotential,m2 s-2,-1,-400,17,m2 s-2,-1,6,,,Operational
