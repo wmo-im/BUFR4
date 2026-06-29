@@ -630,7 +630,9 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008076,Type of band,5,M,,,,,Operational
 008076,Type of band,6,I,,,,,Operational
 008076,Type of band,7,Day/night,,,,,Operational
-008076,Type of band,8-62,Reserved,,,,,Operational
+008076,Type of band,8,Ka,,,,,Operational
+008076,Type of band,9,Laser,,,,,Operational
+008076,Type of band,10-62,Reserved,,,,,Operational
 008076,Type of band,63,Missing value,,,,,Operational
 008077,Radiometer sensed surface type,0,Land,,,,,Operational
 008077,Radiometer sensed surface type,1,Sea,,,,,Operational
@@ -857,6 +859,117 @@ FXY,ElementName_en,CodeFigure,EntryName_en,EntryName_sub1_en,EntryName_sub2_en,N
 008101,Phase of balloon flight,4,Drop (falling station),,,,,Operational
 008101,Phase of balloon flight,5,Unsteady (during maneuvers),,,,,Operational
 008101,Phase of balloon flight,15,Missing,,,,,Operational
+008102,Siting and measurement quality classification for humidity,0,Reserved,,,,,Operational
+008102,Siting and measurement quality classification for humidity,1,1A,,,,,Operational
+008102,Siting and measurement quality classification for humidity,2,1B,,,,,Operational
+008102,Siting and measurement quality classification for humidity,3,1C,,,,,Operational
+008102,Siting and measurement quality classification for humidity,4,1D,,,,,Operational
+008102,Siting and measurement quality classification for humidity,5,Reserved,,,,,Operational
+008102,Siting and measurement quality classification for humidity,6,2A,,,,,Operational
+008102,Siting and measurement quality classification for humidity,7,2B,,,,,Operational
+008102,Siting and measurement quality classification for humidity,8,2C,,,,,Operational
+008102,Siting and measurement quality classification for humidity,9,2D,,,,,Operational
+008102,Siting and measurement quality classification for humidity,10,Reserved,,,,,Operational
+008102,Siting and measurement quality classification for humidity,11,3A,,,,,Operational
+008102,Siting and measurement quality classification for humidity,12,3B,,,,,Operational
+008102,Siting and measurement quality classification for humidity,13,3C,,,,,Operational
+008102,Siting and measurement quality classification for humidity,14,3D,,,,,Operational
+008102,Siting and measurement quality classification for humidity,15,Reserved,,,,,Operational
+008102,Siting and measurement quality classification for humidity,16,4A,,,,,Operational
+008102,Siting and measurement quality classification for humidity,17,4B,,,,,Operational
+008102,Siting and measurement quality classification for humidity,18,4C,,,,,Operational
+008102,Siting and measurement quality classification for humidity,19,4D,,,,,Operational
+008102,Siting and measurement quality classification for humidity,20,Reserved,,,,,Operational
+008102,Siting and measurement quality classification for humidity,21,5A,,,,,Operational
+008102,Siting and measurement quality classification for humidity,22,5B,,,,,Operational
+008102,Siting and measurement quality classification for humidity,23,5C,,,,,Operational
+008102,Siting and measurement quality classification for humidity,24,5D,,,,,Operational
+008102,Siting and measurement quality classification for humidity,25,Reserved,,,,,Operational
+008102,Siting and measurement quality classification for humidity,26,1,,,,,Operational
+008102,Siting and measurement quality classification for humidity,27,2,,,,,Operational
+008102,Siting and measurement quality classification for humidity,28,3,,,,,Operational
+008102,Siting and measurement quality classification for humidity,29,4,,,,,Operational
+008102,Siting and measurement quality classification for humidity,30,5,,,,,Operational
+008102,Siting and measurement quality classification for humidity,31,A,,,,,Operational
+008102,Siting and measurement quality classification for humidity,32,B,,,,,Operational
+008102,Siting and measurement quality classification for humidity,33,C,,,,,Operational
+008102,Siting and measurement quality classification for humidity,34,D,,,,,Operational
+008102,Siting and measurement quality classification for humidity,35-254,Reserved,,,,,Operational
+008102,Siting and measurement quality classification for humidity,255,Missing,,,,,Operational
+008103,Siting and measurement quality classification for wind,0,Reserved,,,,,Operational
+008103,Siting and measurement quality classification for wind,1,1A,,,,,Operational
+008103,Siting and measurement quality classification for wind,2,1B,,,,,Operational
+008103,Siting and measurement quality classification for wind,3,1C,,,,,Operational
+008103,Siting and measurement quality classification for wind,4,1D,,,,,Operational
+008103,Siting and measurement quality classification for wind,5,Reserved,,,,,Operational
+008103,Siting and measurement quality classification for wind,6,2A,,,,,Operational
+008103,Siting and measurement quality classification for wind,7,2B,,,,,Operational
+008103,Siting and measurement quality classification for wind,8,2C,,,,,Operational
+008103,Siting and measurement quality classification for wind,9,2D,,,,,Operational
+008103,Siting and measurement quality classification for wind,10,Reserved,,,,,Operational
+008103,Siting and measurement quality classification for wind,11,3A,,,,,Operational
+008103,Siting and measurement quality classification for wind,12,3B,,,,,Operational
+008103,Siting and measurement quality classification for wind,13,3C,,,,,Operational
+008103,Siting and measurement quality classification for wind,14,3D,,,,,Operational
+008103,Siting and measurement quality classification for wind,15,Reserved,,,,,Operational
+008103,Siting and measurement quality classification for wind,16,4A,,,,,Operational
+008103,Siting and measurement quality classification for wind,17,4B,,,,,Operational
+008103,Siting and measurement quality classification for wind,18,4C,,,,,Operational
+008103,Siting and measurement quality classification for wind,19,4D,,,,,Operational
+008103,Siting and measurement quality classification for wind,20,Reserved,,,,,Operational
+008103,Siting and measurement quality classification for wind,21,5A,,,,,Operational
+008103,Siting and measurement quality classification for wind,22,5B,,,,,Operational
+008103,Siting and measurement quality classification for wind,23,5C,,,,,Operational
+008103,Siting and measurement quality classification for wind,24,5D,,,,,Operational
+008103,Siting and measurement quality classification for wind,25,Reserved,,,,,Operational
+008103,Siting and measurement quality classification for wind,26,1,,,,,Operational
+008103,Siting and measurement quality classification for wind,27,2,,,,,Operational
+008103,Siting and measurement quality classification for wind,28,3,,,,,Operational
+008103,Siting and measurement quality classification for wind,29,4,,,,,Operational
+008103,Siting and measurement quality classification for wind,30,5,,,,,Operational
+008103,Siting and measurement quality classification for wind,31,A,,,,,Operational
+008103,Siting and measurement quality classification for wind,32,B,,,,,Operational
+008103,Siting and measurement quality classification for wind,33,C,,,,,Operational
+008103,Siting and measurement quality classification for wind,34,D,,,,,Operational
+008103,Siting and measurement quality classification for wind,35-254,Reserved,,,,,Operational
+008103,Siting and measurement quality classification for wind,255,Missing,,,,,Operational
+008104,Siting and measurement quality classification for radiation,0,Reserved,,,,,Operational
+008104,Siting and measurement quality classification for radiation,1,1A,,,,,Operational
+008104,Siting and measurement quality classification for radiation,2,1B,,,,,Operational
+008104,Siting and measurement quality classification for radiation,3,1C,,,,,Operational
+008104,Siting and measurement quality classification for radiation,4,1D,,,,,Operational
+008104,Siting and measurement quality classification for radiation,5,Reserved,,,,,Operational
+008104,Siting and measurement quality classification for radiation,6,2A,,,,,Operational
+008104,Siting and measurement quality classification for radiation,7,2B,,,,,Operational
+008104,Siting and measurement quality classification for radiation,8,2C,,,,,Operational
+008104,Siting and measurement quality classification for radiation,9,2D,,,,,Operational
+008104,Siting and measurement quality classification for radiation,10,Reserved,,,,,Operational
+008104,Siting and measurement quality classification for radiation,11,3A,,,,,Operational
+008104,Siting and measurement quality classification for radiation,12,3B,,,,,Operational
+008104,Siting and measurement quality classification for radiation,13,3C,,,,,Operational
+008104,Siting and measurement quality classification for radiation,14,3D,,,,,Operational
+008104,Siting and measurement quality classification for radiation,15,Reserved,,,,,Operational
+008104,Siting and measurement quality classification for radiation,16,4A,,,,,Operational
+008104,Siting and measurement quality classification for radiation,17,4B,,,,,Operational
+008104,Siting and measurement quality classification for radiation,18,4C,,,,,Operational
+008104,Siting and measurement quality classification for radiation,19,4D,,,,,Operational
+008104,Siting and measurement quality classification for radiation,20,Reserved,,,,,Operational
+008104,Siting and measurement quality classification for radiation,21,5A,,,,,Operational
+008104,Siting and measurement quality classification for radiation,22,5B,,,,,Operational
+008104,Siting and measurement quality classification for radiation,23,5C,,,,,Operational
+008104,Siting and measurement quality classification for radiation,24,5D,,,,,Operational
+008104,Siting and measurement quality classification for radiation,25,Reserved,,,,,Operational
+008104,Siting and measurement quality classification for radiation,26,1,,,,,Operational
+008104,Siting and measurement quality classification for radiation,27,2,,,,,Operational
+008104,Siting and measurement quality classification for radiation,28,3,,,,,Operational
+008104,Siting and measurement quality classification for radiation,29,4,,,,,Operational
+008104,Siting and measurement quality classification for radiation,30,5,,,,,Operational
+008104,Siting and measurement quality classification for radiation,31,A,,,,,Operational
+008104,Siting and measurement quality classification for radiation,32,B,,,,,Operational
+008104,Siting and measurement quality classification for radiation,33,C,,,,,Operational
+008104,Siting and measurement quality classification for radiation,34,D,,,,,Operational
+008104,Siting and measurement quality classification for radiation,35-254,Reserved,,,,,Operational
+008104,Siting and measurement quality classification for radiation,255,Missing,,,,,Operational
 008105,Land or ice surface type,1,Land is present,,,,,Operational
 008105,Land or ice surface type,2,Surface ice map indicates ice is present,,,,,Operational
 008105,Land or ice surface type,3-10,Reserved,,,,,Operational

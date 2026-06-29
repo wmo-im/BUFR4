@@ -2959,7 +2959,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>002006</FXY>
     <ElementName_en>Upper Air Remote Sensing Instrument Type</ElementName_en>
-    <CodeFigure>10-62</CodeFigure>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>GNSS occultation sounder</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>002006</FXY>
+    <ElementName_en>Upper Air Remote Sensing Instrument Type</ElementName_en>
+    <CodeFigure>11-62</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -11574,6 +11581,48 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>003036</FXY>
+    <ElementName_en>Rain gauge heating</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>No heating system on the rain gauge</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>003036</FXY>
+    <ElementName_en>Rain gauge heating</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Heating system present, not active</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>003036</FXY>
+    <ElementName_en>Rain gauge heating</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Heating system present, active</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>003036</FXY>
+    <ElementName_en>Rain gauge heating</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Heating system present, activation unknown</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>003036</FXY>
+    <ElementName_en>Rain gauge heating</ElementName_en>
+    <CodeFigure>4-14</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>003036</FXY>
+    <ElementName_en>Rain gauge heating</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>004059</FXY>
     <ElementName_en>Times of observation used to compute the reported mean values</ElementName_en>
     <CodeFigure>1</CodeFigure>
@@ -16150,7 +16199,21 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>008076</FXY>
     <ElementName_en>Type of band</ElementName_en>
-    <CodeFigure>8-62</CodeFigure>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Ka</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008076</FXY>
+    <ElementName_en>Type of band</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>Laser</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008076</FXY>
+    <ElementName_en>Type of band</ElementName_en>
+    <CodeFigure>10-62</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -17747,6 +17810,7 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+<<<<<<< HEAD
     <FXY>008105</FXY>
     <ElementName_en>Land or ice surface type</ElementName_en>
     <CodeFigure>1</CodeFigure>
@@ -17764,10 +17828,51 @@
     <FXY>008105</FXY>
     <ElementName_en>Land or ice surface type</ElementName_en>
     <CodeFigure>3-10</CodeFigure>
+=======
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>0</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>1A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>1B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>1C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>1D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+>>>>>>> d779c39ad5cdb19ce4ad96684d1f3df0189d32a2
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+<<<<<<< HEAD
     <FXY>008105</FXY>
     <ElementName_en>Land or ice surface type</ElementName_en>
     <CodeFigure>11</CodeFigure>
@@ -17785,14 +17890,747 @@
     <FXY>008105</FXY>
     <ElementName_en>Land or ice surface type</ElementName_en>
     <CodeFigure>13-16</CodeFigure>
+=======
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>2A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>2B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>2C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>2D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>10</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>3A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>3B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>3C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>3D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+>>>>>>> d779c39ad5cdb19ce4ad96684d1f3df0189d32a2
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+<<<<<<< HEAD
     <FXY>008105</FXY>
     <ElementName_en>Land or ice surface type</ElementName_en>
     <CodeFigure>All 17</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
+=======
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>4A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>4B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>4C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>4D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>5A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>5B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>5C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>5D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>1</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>2</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>3</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>4</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>5</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>31</CodeFigure>
+    <EntryName_en>A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>32</CodeFigure>
+    <EntryName_en>B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>33</CodeFigure>
+    <EntryName_en>C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>34</CodeFigure>
+    <EntryName_en>D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>35-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>1A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>1B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>1C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>1D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>2A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>2B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>2C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>2D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>3A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>3B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>3C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>3D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>4A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>4B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>4C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>4D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>5A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>5B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>5C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>5D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>1</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>2</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>3</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>4</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>5</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>31</CodeFigure>
+    <EntryName_en>A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>32</CodeFigure>
+    <EntryName_en>B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>33</CodeFigure>
+    <EntryName_en>C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>34</CodeFigure>
+    <EntryName_en>D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>35-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>1A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>1B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>1C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>1D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>2A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>2B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>2C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>2D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>3A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>3B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>3C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>3D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>4A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>4B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>4C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>4D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>5A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>5B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>5C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>5D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>1</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>2</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>3</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>4</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>30</CodeFigure>
+    <EntryName_en>5</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>31</CodeFigure>
+    <EntryName_en>A</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>32</CodeFigure>
+    <EntryName_en>B</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>33</CodeFigure>
+    <EntryName_en>C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>34</CodeFigure>
+    <EntryName_en>D</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>35-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <CodeFigure>255</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+>>>>>>> d779c39ad5cdb19ce4ad96684d1f3df0189d32a2
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
@@ -18735,6 +19573,69 @@
     <FXY>011039</FXY>
     <ElementName_en>Extended time of occurrence of peak eddy dissipation rate</ElementName_en>
     <CodeFigure>63</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Humidex</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Wind chill</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Wet bulb glob temperature (WGBT)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Apparent temperature</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Normal effective temperature</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Universal thermal comfort index (UTCI)</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Heat index</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>8-30</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <CodeFigure>31</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -28001,6 +28902,48 @@
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
   <BUFRCREX_CodeFlag_en>
+    <FXY>020144</FXY>
+    <ElementName_en>Weather conditions</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Temperature &lt; 0°C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>020144</FXY>
+    <ElementName_en>Weather conditions</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Relative humidity &gt; 80 %</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>020144</FXY>
+    <ElementName_en>Weather conditions</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Relative humidity &lt; 40 %</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>020144</FXY>
+    <ElementName_en>Weather conditions</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Horizontal visibility &lt; 200m</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>020144</FXY>
+    <ElementName_en>Weather conditions</ElementName_en>
+    <CodeFigure>4-62</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>020144</FXY>
+    <ElementName_en>Weather conditions</ElementName_en>
+    <CodeFigure>63</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
     <FXY>021026</FXY>
     <ElementName_en>ASCAT sigma-0 usability</ElementName_en>
     <CodeFigure>0</CodeFigure>
@@ -28067,6 +29010,34 @@
     <FXY>021034</FXY>
     <ElementName_en>Backscatter flag</ElementName_en>
     <CodeFigure>All 16</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021043</FXY>
+    <ElementName_en>Beam attribute</ElementName_en>
+    <CodeFigure>0</CodeFigure>
+    <EntryName_en>Strong</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021043</FXY>
+    <ElementName_en>Beam attribute</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Weak</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021043</FXY>
+    <ElementName_en>Beam attribute</ElementName_en>
+    <CodeFigure>2-254</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>021043</FXY>
+    <ElementName_en>Beam attribute</ElementName_en>
+    <CodeFigure>255</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -32713,7 +33684,35 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>025139</FXY>
     <ElementName_en>Processing level</ElementName_en>
-    <CodeFigure>2-30</CodeFigure>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>L1R</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>L1</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>L1C</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>L2</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>025139</FXY>
+    <ElementName_en>Processing level</ElementName_en>
+    <CodeFigure>6-30</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -33718,7 +34717,14 @@
   <BUFRCREX_CodeFlag_en>
     <FXY>033003</FXY>
     <ElementName_en>Quality information</ElementName_en>
-    <CodeFigure>4-6</CodeFigure>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Unavailable or bad L1 data</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033003</FXY>
+    <ElementName_en>Quality information</ElementName_en>
+    <CodeFigure>5-6</CodeFigure>
     <EntryName_en>Reserved</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -36297,6 +37303,216 @@
     <FXY>033066</FXY>
     <ElementName_en>AMV quality flag</ElementName_en>
     <CodeFigure>All 24</CodeFigure>
+    <EntryName_en>Missing value</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Calibration warning</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>SARIN bad velocity</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>SARIN out of range</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>SARIN bad baseline</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>LRM slope model invalid</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Delta time error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>MIS pointing error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>Surface model unavailable</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>9</CodeFigure>
+    <EntryName_en>SARIN side redundant</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>10</CodeFigure>
+    <EntryName_en>SARIN RX2 error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>11</CodeFigure>
+    <EntryName_en>SARIN RX1 error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>12</CodeFigure>
+    <EntryName_en>SARIN height ambiguous</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>13</CodeFigure>
+    <EntryName_en>Surf type class undefined</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>14</CodeFigure>
+    <EntryName_en>Surf type class sea ice</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>15</CodeFigure>
+    <EntryName_en>Surf type class lead</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>16</CodeFigure>
+    <EntryName_en>Surf type class ocean</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>17</CodeFigure>
+    <EntryName_en>Freeboard error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>18</CodeFigure>
+    <EntryName_en>Peakiness error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>19</CodeFigure>
+    <EntryName_en>SSHA interp error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>20</CodeFigure>
+    <EntryName_en>SIG03 error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>21</CodeFigure>
+    <EntryName_en>SIG02 error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>22</CodeFigure>
+    <EntryName_en>SIG01 error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>23</CodeFigure>
+    <EntryName_en>Height 3 error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>24</CodeFigure>
+    <EntryName_en>Height 2 error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>25</CodeFigure>
+    <EntryName_en>Height 1 error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>26</CodeFigure>
+    <EntryName_en>Orbit discontinuity</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>27</CodeFigure>
+    <EntryName_en>Orbit error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>28</CodeFigure>
+    <EntryName_en>Block degraded</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>29</CodeFigure>
+    <EntryName_en>Height sea ice error</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033067</FXY>
+    <ElementName_en>20 Hz Ku band measurement quality</ElementName_en>
+    <CodeFigure>All 30</CodeFigure>
     <EntryName_en>Missing value</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
@@ -40120,6 +41336,69 @@
     <FXY>033121</FXY>
     <ElementName_en>IRS detector quality</ElementName_en>
     <CodeFigure>All 5</CodeFigure>
+    <EntryName_en>Missing</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>1</CodeFigure>
+    <EntryName_en>Count value decreasing occurred</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>2</CodeFigure>
+    <EntryName_en>Resampling quality caution</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>3</CodeFigure>
+    <EntryName_en>Resampling quality abnormal</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>4</CodeFigure>
+    <EntryName_en>Reserved</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>5</CodeFigure>
+    <EntryName_en>Brightness temperature abnormal</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>6</CodeFigure>
+    <EntryName_en>Geometric information abnormal</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>7</CodeFigure>
+    <EntryName_en>RFI occurred</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>8</CodeFigure>
+    <EntryName_en>RFI possible</EntryName_en>
+    <Status>Operational</Status>
+  </BUFRCREX_CodeFlag_en>
+  <BUFRCREX_CodeFlag_en>
+    <FXY>033124</FXY>
+    <ElementName_en>AMSR3 quality flag</ElementName_en>
+    <CodeFigure>All 9</CodeFigure>
     <EntryName_en>Missing</EntryName_en>
     <Status>Operational</Status>
   </BUFRCREX_CodeFlag_en>
