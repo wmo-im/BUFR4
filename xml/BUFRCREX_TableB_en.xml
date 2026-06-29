@@ -4665,6 +4665,17 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>03</ClassNo>
+    <ClassName_en>Instrumentation</ClassName_en>
+    <FXY>003036</FXY>
+    <ElementName_en>Rain gauge heating</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>4</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>04</ClassNo>
     <ClassName_en>Location (time)</ClassName_en>
     <FXY>004001</FXY>
@@ -7743,6 +7754,39 @@
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008102</FXY>
+    <ElementName_en>Siting and measurement quality classification for humidity</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008103</FXY>
+    <ElementName_en>Siting and measurement quality classification for wind</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008104</FXY>
+    <ElementName_en>Siting and measurement quality classification for radiation</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
     <ClassNo>10</ClassNo>
     <ClassName_en>Non-coordinate location (vertical)</ClassName_en>
     <FXY>010001</FXY>
@@ -10555,6 +10599,17 @@
   <BUFRCREX_TableB_en>
     <ClassNo>12</ClassNo>
     <ClassName_en>Temperature</ClassName_en>
+    <FXY>012134</FXY>
+    <ElementName_en>Road freezing temperature</ElementName_en>
+    <BUFR_Unit>K</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>12</ClassNo>
+    <ClassName_en>Temperature</ClassName_en>
     <FXY>012151</FXY>
     <ElementName_en>Standard deviation of daily mean temperature</ElementName_en>
     <BUFR_Unit>K</BUFR_Unit>
@@ -10760,6 +10815,28 @@
     <CREX_Unit>K</CREX_Unit>
     <CREX_Scale>2</CREX_Scale>
     <CREX_DataWidth_Char>5</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>12</ClassNo>
+    <ClassName_en>Temperature</ClassName_en>
+    <FXY>012172</FXY>
+    <ElementName_en>Thermal index type</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>5</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>12</ClassNo>
+    <ClassName_en>Temperature</ClassName_en>
+    <FXY>012173</FXY>
+    <ElementName_en>Thermal index</ElementName_en>
+    <BUFR_Unit>K</BUFR_Unit>
+    <BUFR_Scale>2</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>16</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
@@ -12817,6 +12894,16 @@
     <Note_en>(see Note 8)</Note_en>
     <noteIDs>83</noteIDs>
     <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>14</ClassNo>
+    <ClassName_en>Radiation and radiance</ClassName_en>
+    <FXY>014073</FXY>
+    <ElementName_en>UV index</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>5</BUFR_DataWidth_Bits>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
     <ClassNo>15</ClassNo>
@@ -15958,6 +16045,17 @@
     <CREX_Unit>Code table</CREX_Unit>
     <CREX_Scale>0</CREX_Scale>
     <CREX_DataWidth_Char>1</CREX_DataWidth_Char>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>20</ClassNo>
+    <ClassName_en>Observed phenomena</ClassName_en>
+    <FXY>020144</FXY>
+    <ElementName_en>Weather conditions</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>6</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
