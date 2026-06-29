@@ -7217,6 +7217,28 @@
   <BUFRCREX_TableB_en>
     <ClassNo>08</ClassNo>
     <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008047</FXY>
+    <ElementName_en>Aerosol mode</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
+    <FXY>008048</FXY>
+    <ElementName_en>Aerosol type</ElementName_en>
+    <BUFR_Unit>Code table</BUFR_Unit>
+    <BUFR_Scale>0</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>8</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>08</ClassNo>
+    <ClassName_en>Significance qualifiers</ClassName_en>
     <FXY>008049</FXY>
     <ElementName_en>Number of observations</ElementName_en>
     <BUFR_Unit>Numeric</BUFR_Unit>
@@ -13962,6 +13984,28 @@
     <CREX_DataWidth_Char>11</CREX_DataWidth_Char>
     <Note_en>(see Note 14)</Note_en>
     <noteIDs>19</noteIDs>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015091</FXY>
+    <ElementName_en>Absorbing aerosol optical depth</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>24</BUFR_DataWidth_Bits>
+    <Status>Operational</Status>
+  </BUFRCREX_TableB_en>
+  <BUFRCREX_TableB_en>
+    <ClassNo>15</ClassNo>
+    <ClassName_en>Physical/chemical constituents</ClassName_en>
+    <FXY>015092</FXY>
+    <ElementName_en>Single scattering albedo</ElementName_en>
+    <BUFR_Unit>Numeric</BUFR_Unit>
+    <BUFR_Scale>4</BUFR_Scale>
+    <BUFR_ReferenceValue>0</BUFR_ReferenceValue>
+    <BUFR_DataWidth_Bits>24</BUFR_DataWidth_Bits>
     <Status>Operational</Status>
   </BUFRCREX_TableB_en>
   <BUFRCREX_TableB_en>
