@@ -17,7 +17,7 @@ import xml.etree.ElementTree as ET
 
 rootElement = "dataroot"
 # recordElement set as a filename
-# recordElement = "BUFRCREX_33_0_0_CodeFlag_en"
+# recordElement = "BUFR_33_0_0_CodeFlag_en"
 
 csv.register_dialect('custom',
                      delimiter=',',
