@@ -92,7 +92,7 @@ if d_files:
 # Get changed table B files
 b_files = [
     f for f in changed_files
-    if f.replace('\\', '/').split('/')[-1].startswith('BUFRCREX_TableB_en_')
+    if f.replace('\\', '/').split('/')[-1].startswith('BUFR_TableB_en_')
     and f.replace('\\', '/').split('/')[-1].endswith('.csv')
 ]
 
@@ -100,7 +100,7 @@ b_files = [
 b_errors = []
 if b_files:
     for b_file in sorted(b_files):
-        version = re.search(r'BUFRCREX_TableB_en_(\d+)\.csv$', b_file)
+        version = re.search(r'BUFR_TableB_en_(\d+)\.csv$', b_file)
         version_str = f" (version {version.group(1)})" if version else ""
         b_errors.extend(validate_fxy(b_file, f'TableB{version_str}', 'FXY'))
     

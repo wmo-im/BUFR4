@@ -1,12 +1,12 @@
 set -ex
 
 rm -f txt/BUFRCREX_CodeFlag_en.txt | true
-#cat BUFRCREX_CodeFlag_en_*.csv >> txt/BUFRCREX_CodeFlag_en.txt
-awk '(NR == 1) || (FNR > 1)' BUFRCREX_CodeFlag_en_*.csv >> txt/BUFRCREX_CodeFlag_en.txt
+#cat BUFR_CodeFlag_en_*.csv >> txt/BUFRCREX_CodeFlag_en.txt
+awk '(NR == 1) || (FNR > 1)' BUFR_CodeFlag_en_*.csv >> txt/BUFRCREX_CodeFlag_en.txt
 
 rm -f txt/BUFRCREX_TableB_en.txt | true
-#cat BUFRCREX_TableB_en_*.csv >> txt/BUFRCREX_TableB_en.txt
-awk '(NR == 1) || (FNR > 1)' BUFRCREX_TableB_en_*.csv >> txt/BUFRCREX_TableB_en.txt
+#cat BUFR_TableB_en_*.csv >> txt/BUFRCREX_TableB_en.txt
+awk '(NR == 1) || (FNR > 1)' BUFR_TableB_en_*.csv >> txt/BUFRCREX_TableB_en.txt
 
 cp BUFR_TableA_en.csv txt/BUFR_TableA_en.txt
 cp BUFR_TableC_en.csv txt/BUFR_TableC_en.txt

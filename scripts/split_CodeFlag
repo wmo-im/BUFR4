@@ -27,7 +27,7 @@ with open(infilename, encoding = 'utf-8') as csvFile:
                     print('')
                 category = row[1][1:3]
                 print('category='+category)
-                outfilename = 'BUFRCREX_CodeFlag_en_'+category+'.csv'
+                outfilename = 'BUFR_CodeFlag_en_'+category+'.csv'
                 outfile = open(outfilename, 'w', encoding='utf-8', newline='')
                 outfilewriter = csv.writer(outfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL,lineterminator='\n')
                 outfilewriter.writerow(columnNames)
